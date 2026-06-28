@@ -33,6 +33,11 @@ enum AppReleaseNotes {
 
     static let all: [AppReleaseNote] = [
         AppReleaseNote(
+            version: "1.2",
+            title: "In development",
+            highlights: []
+        ),
+        AppReleaseNote(
             version: "1.1",
             title: "Reminders, maps & assignment flow",
             highlights: [
