@@ -1,0 +1,41 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+**/xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods / Carthage (if added later)
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+secrets/
+
+# Editor
+.idea/
+*.swp
+*~
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
