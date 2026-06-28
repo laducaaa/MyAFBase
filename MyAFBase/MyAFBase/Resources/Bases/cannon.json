@@ -1,0 +1,312 @@
+{
+  "id": "cannon",
+  "name": "Cannon AFB",
+  "fullName": "Cannon Air Force Base",
+  "location": "Clovis, NM",
+  "description": "Home of the 27th Special Operations Wing, Cannon AFB projects Air Force special operations forces worldwide.",
+  "wing": "27 SOW",
+  "latitude": 34.3828,
+  "longitude": -103.322,
+  "dataUpdatedAt": "2026-06-24T16:35:00Z",
+  "currentNotifications": [
+    {
+      "id": "cannon-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Cannon AFB Security Forces",
+      "number": "575-784-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "575-784-4131"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate-sextant-ave",
+      "name": "Main Gate (Sextant Ave)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "E Sextant Ave, Cannon AFB, NM 88103",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-west-gate",
+      "name": "West Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "West Gate Rd, Cannon AFB, NM 88103",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-cannon-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Cannon AFB.",
+      "hours": "See posted meal hours",
+      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-4131",
+      "url": "https://www.cannonfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-bx",
+      "name": "Cannon AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Cannon AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-4131",
+      "url": "https://www.shopmyexchange.com/store-locator/cannon-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-cannon-commissary",
+      "name": "Cannon AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-4131",
+      "url": "https://shop.commissaries.com/stores/cannon-afb",
+      "building": null
+    },
+    {
+      "id": "res-cannon-medical",
+      "name": "27th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Cannon AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-2273",
+      "url": "https://cannon.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Cannon AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-4131",
+      "url": "https://www.cannonfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-4131",
+      "url": "https://www.cannon.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-4131",
+      "url": "https://www.cannonfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-fss",
+      "name": "27 SOW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-4131",
+      "url": "https://www.cannonfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-4131",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-recreation-1",
+      "name": "Whispering Winds Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Cannon AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": null,
+      "url": "https://www.cannonfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-visitor-center",
+      "name": "Cannon AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-4131",
+      "url": "https://www.cannon.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Cannon AFB, Clovis, NM",
+      "phone": "575-784-3421",
+      "url": "https://www.cannon.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "cannon-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Cannon AFB, Clovis, NM",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "cannon-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Cannon AFB, Clovis, NM",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Cannon AFB Visitor Center",
+      "url": "https://www.cannon.af.mil/Newcomers/",
+      "phone": "575-784-4131",
+      "address": "100 E Sextant Ave, Cannon AFB, NM 88103"
+    },
+    "moreInfoURL": "https://www.cannon.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Cannon AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.cannon.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Cannon AFB Official Site",
+            "url": "https://www.cannon.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.cannon.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.cannonfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/cannon"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

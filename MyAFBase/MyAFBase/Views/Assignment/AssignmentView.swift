@@ -1,0 +1,210 @@
+import SwiftUI
+
+enum AssignmentSegment: String, CaseIterable, Identifiable {
+    case inbound
+    case stationed
+    case outbound
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .inbound: "Inbound"
+        case .stationed: "Stationed"
+        case .outbound: "Outbound"
+        }
+    }
+}
+
+struct AssignmentView: View {
+    @Environment(AppState.self) private var appState
+    @Environment(AssignmentProfileStore.self) private var assignmentProfileStore
+
+    @State private var primaryActionSheet: NewcomerPrimaryAction?
+
+    var body: some View {
+        NavigationStack {
+            Group {
+                if let base = appState.currentBase {
+                    assignmentContent(for: base)
+                } else if appState.isBaseLoading {
+                    BaseLoadingView()
+                } else {
+                    EmptyStateView.noBaseSelected {
+                        appState.shouldShowBasePicker = true
+                    }
+                }
+            }
+            .appScreenBackground()
+            .navigationTitle("My Assignment")
+            .navigationDestination(for: NewcomerSection.self) { section in
+                NewcomerSectionDetailView(section: section)
+            }
+            .sheet(item: $primaryActionSheet) { action in
+                LocationDetailSheet(
+                    title: action.title,
+                    hours: nil,
+                    address: action.address,
+                    phone: action.phone,
+                    url: action.url,
+                    description: nil,
+                    gateStatus: nil,
+                    traffic: nil,
+                    onOpenMaps: action.address.map { address in
+                        { MapsHelper.open(address: address) }
+                    }
+                )
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func assignmentContent(for base: Base) -> some View {
+        let segment = assignmentProfileStore.phase(for: base.id)
+
+        ScrollView {
+            VStack(spacing: AssignmentMetrics.sectionSpacing) {
+                phasePicker(for: base.id)
+
+                AssignmentPhaseHeader(base: base, segment: segment)
+
+                AssignmentDatesCard(baseID: base.id, segment: segment)
+
+                switch segment {
+                case .inbound:
+                    inboundContent(for: base)
+                case .stationed:
+                    stationedContent(for: base)
+                case .outbound:
+                    outboundContent(for: base)
+                }
+
+                if let formatted = base.formattedDataUpdated {
+                    Label("Base data updated \(formatted)", systemImage: "clock.arrow.circlepath")
+                        .font(.caption)
+                        .foregroundStyle(.tertiary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+            }
+            .padding()
+        }
+    }
+
+    private func phasePicker(for baseID: String) -> some View {
+        AssignmentPhaseToggle(
+            selection: Binding(
+                get: { assignmentProfileStore.phase(for: baseID) },
+                set: { assignmentProfileStore.updatePhase($0, baseID: baseID) }
+            )
+        )
+    }
+
+    // MARK: - Inbound
+
+    @ViewBuilder
+    private func inboundContent(for base: Base) -> some View {
+        let newcomers = base.newcomers
+        let primaryAction = newcomers.resolvedPrimaryAction(resources: base.resources)
+
+        PCSChecklistCard(baseID: base.id, kind: .inbound)
+
+        if let primaryAction {
+            AssignmentSectionHeader(
+                title: "Report & Arrive",
+                subtitle: "Where to go when you get on base."
+            )
+
+            AssignmentActionCard(
+                title: primaryAction.title,
+                subtitle: primaryAction.address ?? primaryAction.phone,
+                systemImage: "mappin.and.ellipse"
+            ) {
+                primaryActionSheet = primaryAction
+            }
+        }
+
+        if !newcomers.sections.isEmpty {
+            AssignmentSectionHeader(
+                title: "In-Processing Guides",
+                subtitle: "Required documents, housing, and in-processing steps."
+            )
+
+            VStack(spacing: 10) {
+                ForEach(newcomers.sections) { section in
+                    NavigationLink(value: section) {
+                        AssignmentGuideCard(section: section)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+
+        if let moreInfoURL = newcomers.resolvedMoreInfoURL().flatMap(normalizedURL) {
+            AssignmentLinkCard(
+                title: "Official Newcomer Information",
+                subtitle: "Base website and installation resources.",
+                systemImage: "safari",
+                url: moreInfoURL
+            )
+        }
+    }
+
+    // MARK: - Stationed
+
+    @ViewBuilder
+    private func stationedContent(for base: Base) -> some View {
+        ReadinessTrackerView(baseID: base.id, baseName: base.name)
+
+        AssignmentToolLinksCard(links: [.pfraCalculator, .pfraGoalPlanner])
+
+        AssignmentSectionHeader(
+            title: "Essential AFIs",
+            subtitle: "Dress & appearance, blue book, fitness, and other go-to publications."
+        )
+
+        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+            ForEach(EssentialAFIs.stationed) { afi in
+                AssignmentAFICard(afi: afi)
+            }
+        }
+
+        Link(destination: EssentialAFIs.ePublishingIndex) {
+            Label("Browse all publications on e-Publishing", systemImage: "books.vertical")
+                .labelStyle(AppAccentIconLabelStyle())
+                .font(.caption)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+
+        AssignmentTipCard(
+            message: "Bookmark your favorite gates, resources, and events in Explore — they'll show up on your Home tab.",
+            systemImage: "bookmark.fill"
+        )
+    }
+
+    // MARK: - Outbound
+
+    @ViewBuilder
+    private func outboundContent(for base: Base) -> some View {
+        AssignmentToolLinksCard(links: [.leavePlanner, .pfraGoalPlanner])
+
+        PCSChecklistCard(baseID: base.id, kind: .outbound)
+
+        AssignmentSectionHeader(
+            title: "Out-Processing Locations",
+            subtitle: "Places you'll likely need to visit before you PCS."
+        )
+
+        AssignmentOutboundLocationsCard(locations: OutboundProcessingLocations.common)
+
+        AssignmentNextBaseCard {
+            appState.shouldShowBasePicker = true
+        }
+    }
+
+    private func normalizedURL(_ string: String) -> URL? {
+        if string.hasPrefix("http") {
+            return URL(string: string)
+        }
+        return URL(string: "https://\(string)")
+    }
+}

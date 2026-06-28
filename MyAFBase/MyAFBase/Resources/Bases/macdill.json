@@ -1,0 +1,495 @@
+{
+  "id": "macdill",
+  "name": "MacDill AFB",
+  "fullName": "MacDill Air Force Base",
+  "location": "Tampa, FL",
+  "description": "Home of the 6th Air Refueling Wing and USCENTCOM / USSOCOM. MacDill's KC-135 and KC-46 tankers support global operations.",
+  "wing": "6 ARW / CENTCOM / SOCOM",
+  "latitude": 27.8497,
+  "longitude": -82.5217,
+  "dataUpdatedAt": "2026-06-23T20:40:00Z",
+  "currentNotifications": [
+    {
+      "id": "macdill-notif-1",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant license or passport required for base access. Allow extra time at gates during peak hours (0700-0900).",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "6th SFS Base Defense Operations Center",
+      "number": "813-828-2421"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "813-828-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "MacDill Medical Clinic",
+      "number": "813-827-9400"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "813-828-5889"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-dale-mabry",
+      "name": "Main Gate (S Dale Mabry Hwy)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access from S Dale Mabry Hwy. Visitor Control Center located at main gate.",
+      "traffic": "high",
+      "address": "6801 S Dale Mabry Hwy, MacDill AFB, FL 33621",
+      "latitude": 27.8652,
+      "longitude": -82.5155
+    },
+    {
+      "id": "gate-bayshore",
+      "name": "Bayshore Gate (Bayshore Blvd)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
+      "notes": "Access from Bayshore Boulevard. DoD ID holders only — no visitor processing.",
+      "traffic": "moderate",
+      "address": "Bayshore Blvd, MacDill AFB, FL 33621",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (S Dale Mabry)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1400; Sun closed",
+      "notes": "New visitors with sponsor must stop here for day passes. REAL ID required.",
+      "traffic": "moderate",
+      "address": "6801 S Dale Mabry Hwy (at Main Gate), MacDill AFB, FL 33621",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-macdill-diners-reef-dfac",
+      "name": "Diner’s Reef Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting 6 ARW, CENTCOM, SOCOM and 33 mission partners. 350-seat dining room with weekend brunch options (omelets, carving station, avocado toast). Flight/ground meals with 2-hour notice.",
+      "hours": "Breakfast Mon-Fri 0600-0900 / Weekends & Holidays 0630-0830; Lunch Daily 1100-1330; Dinner Daily 1630-1830",
+      "address": "8118 Hillsborough Loop Dr, Bldg 263, MacDill AFB, FL 33621",
+      "phone": "813-828-2412",
+      "url": "https://macdillfss.com/diners-reef/",
+      "building": "Bldg 263"
+    },
+    {
+      "id": "res-macdill-bayshore-club",
+      "name": "Bayshore Club (All-Ranks Club)",
+      "category": "dining",
+      "description": "All-ranks club dining with waterfront views of Tampa Bay. Happy hours, trivia nights, and private event space.",
+      "hours": "Tue-Fri 1100-2100; Sat 1200-2100; closed Sun-Mon",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3344",
+      "url": "https://www.macdilfss.com/clubs/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-subway-bx",
+      "name": "Subway (BX Food Court)",
+      "category": "dining",
+      "description": "Subway sandwich shop in the MacDill Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "2917 Crenshaw Lake Rd (BX), MacDill AFB, FL 33621",
+      "phone": "813-828-4060",
+      "url": "https://www.shopmyexchange.com/store-locator/macdill-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-macdill-charleys-bx",
+      "name": "Charley's Grilled Subs (BX Food Court)",
+      "category": "dining",
+      "description": "Charley's Grilled Subs inside the MacDill Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "2917 Crenshaw Lake Rd (BX), MacDill AFB, FL 33621",
+      "phone": "813-828-4060",
+      "url": "https://www.shopmyexchange.com/store-locator/macdill-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-macdill-popeyes-bx",
+      "name": "Popeyes (BX Food Court)",
+      "category": "dining",
+      "description": "Popeyes Louisiana Kitchen inside the MacDill Exchange.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "2917 Crenshaw Lake Rd (BX), MacDill AFB, FL 33621",
+      "phone": "813-828-4060",
+      "url": "https://www.shopmyexchange.com/store-locator/macdill-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-macdill-main-exchange",
+      "name": "MacDill Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX: clothing, electronics, optical, barbershop, food court, and Military Star card.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "2917 Crenshaw Lake Rd, MacDill AFB, FL 33621",
+      "phone": "813-828-4060",
+      "url": "https://www.shopmyexchange.com/store-locator/macdill-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-macdill-commissary",
+      "name": "MacDill Commissary",
+      "category": "shopping",
+      "description": "Full-service commissary grocery with deli, bakery, and CLICK2GO curbside.",
+      "hours": "Sun 0700-1900; Mon-Sat 0700-1900",
+      "address": "2908 N Boundary Blvd, MacDill AFB, FL 33621-5009",
+      "phone": "804-481-3836",
+      "url": "https://shop.commissaries.com/stores/macdill-afb",
+      "building": null
+    },
+    {
+      "id": "res-macdill-medical-clinic",
+      "name": "MacDill Medical Clinic (6th MDG)",
+      "category": "medical",
+      "description": "Outpatient military treatment facility: primary care, specialty clinics, pharmacy, dental, and behavioral health.",
+      "hours": "Primary care: Mon-Fri 0730-1630; Urgent care: Mon-Fri 0730-1600; pharmacy: Mon-Fri 0730-1700",
+      "address": "8415 Bayshore Blvd, MacDill AFB, FL 33621",
+      "phone": "813-827-9400",
+      "url": "https://macdill.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-pharmacy",
+      "name": "MacDill Outpatient Pharmacy",
+      "category": "medical",
+      "description": "TRICARE outpatient pharmacy. Express Scripts mail order available.",
+      "hours": "Mon-Fri 0730-1700; Sat 0800-1200",
+      "address": "8415 Bayshore Blvd, MacDill AFB, FL 33621",
+      "phone": "813-827-9400",
+      "url": "https://macdill.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-dental",
+      "name": "6th Dental Squadron",
+      "category": "medical",
+      "description": "Active-duty dental clinic. Appointment required.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "8415 Bayshore Blvd, MacDill AFB, FL 33621",
+      "phone": "813-827-9400",
+      "url": "https://macdill.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-tanker-fitness",
+      "name": "Tanker Way Fitness Center (Main Gym)",
+      "category": "fitness",
+      "description": "Main fitness center: weight room, cardio, racquetball, basketball, and group exercise. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0700-1700; 24/7 CAC access",
+      "address": "7805 Tanker Way, MacDill AFB, FL 33621",
+      "phone": "813-828-4557",
+      "url": "https://www.macdilfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-centcom-fitness",
+      "name": "HQ CENTCOM / SOCOM Fitness Center",
+      "category": "fitness",
+      "description": "Fitness center serving CENTCOM and SOCOM HQ personnel.",
+      "hours": "Mon-Fri 0600-1800",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-4557",
+      "url": "https://www.macdilfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-pool",
+      "name": "Vandenberg Pool (Outdoor Aquatics)",
+      "category": "fitness",
+      "description": "Outdoor seasonal swimming pool with lap lanes and swim lessons.",
+      "hours": "Memorial Day-Labor Day; Mon-Fri 1200-1800, Sat-Sun 1000-1800",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3350",
+      "url": "https://www.macdilfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-mcccu",
+      "name": "MacDill FCU / Grow Financial (On-Base Branch)",
+      "category": "finance",
+      "description": "Grow Financial Federal Credit Union (formerly MacDill FCU) — full-service branch with checking, savings, auto loans, and VA home loans. ATM on-site.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1300",
+      "address": "Near BX, MacDill AFB, FL 33621",
+      "phone": "813-837-2282",
+      "url": "https://www.growfinancial.org/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-usaa-atm",
+      "name": "USAA ATM (Near BX)",
+      "category": "finance",
+      "description": "USAA surcharge-free ATM in the Exchange area.",
+      "hours": "ATM available 24/7",
+      "address": "BX Area, MacDill AFB, FL 33621",
+      "phone": "800-531-8722",
+      "url": "https://www.usaa.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-finance-office",
+      "name": "6 ARW Comptroller Squadron (Finance)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-2100",
+      "url": "https://www.macdill.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-mpf",
+      "name": "6th Force Support Squadron (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, separations, and retirements.",
+      "hours": "Mon-Fri 0730-1600; RAPIDS appointments via RAPIDS.mil",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3366",
+      "url": "https://www.macdilfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-fss",
+      "name": "6th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs, family support, dining, fitness, and recreation.",
+      "hours": "Varies by facility",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3344",
+      "url": "https://www.macdilfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-4180",
+      "url": "https://www.macdilfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-housing-office",
+      "name": "6 ABG Housing Management Office",
+      "category": "housing",
+      "description": "Government and privatized (Corvias) family housing assignments and referrals.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3344",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/macdill-afb/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-af-inn",
+      "name": "Bay Palms Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Waterfront-adjacent TDY and PCS temporary lodging. Highly popular — book early via AF Reservations.",
+      "hours": "Front desk 24/7",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-4259",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-dorm-management",
+      "name": "Dormitory Management Office",
+      "category": "housing",
+      "description": "Unaccompanied housing management for eligible E-1 to E-3 permanent-party personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-4259",
+      "url": "https://www.macdill.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-bayshore-golf",
+      "name": "MacDill Golf Course (Bayshore Golf Course)",
+      "category": "recreation",
+      "description": "18-hole golf course with waterfront views of Tampa Bay, pro shop, and restaurant.",
+      "hours": "Daily sunrise to sunset; pro shop 0700-1800",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-2449",
+      "url": "https://www.macdilfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-marina",
+      "name": "MacDill Marina & Waterfront Recreation",
+      "category": "recreation",
+      "description": "Marina with boat slips, kayak/paddleboard rentals, fishing pier, and watercraft rentals on Tampa Bay.",
+      "hours": "Daily 0800-sunset",
+      "address": "Waterfront, MacDill AFB, FL 33621",
+      "phone": "813-828-3350",
+      "url": "https://www.macdilfss.com/marina/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, camping gear, tickets, and outdoor adventure programs.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1500",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-3350",
+      "url": "https://www.macdilfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-bowling",
+      "name": "MacDill Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with food, arcade, and league play.",
+      "hours": "Tue-Thu 1200-2000; Fri-Sat 1200-2200; Sun 1300-1800; closed Mon",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-4840",
+      "url": "https://www.macdilfss.com/bowling/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-beach",
+      "name": "MacDill Beach",
+      "category": "recreation",
+      "description": "On-base beach access on Tampa Bay with picnic areas, volleyball, and grills.",
+      "hours": "Daily sunrise to sunset",
+      "address": "Waterfront, MacDill AFB, FL 33621",
+      "phone": "813-828-1110",
+      "url": "https://www.macdilfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-vcc",
+      "name": "MacDill Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. Sponsor required for visitors. REAL ID required.",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1400",
+      "address": "6801 S Dale Mabry Hwy, MacDill AFB, FL 33621",
+      "phone": "813-828-2421",
+      "url": "https://www.macdill.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-macdill-security-forces",
+      "name": "6th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense and law enforcement.",
+      "hours": "24/7",
+      "address": "MacDill AFB, FL 33621",
+      "phone": "813-828-2421",
+      "url": "https://www.macdill.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "macdill-evt-1",
+      "title": "MacDill Air Fest",
+      "date": "2026-03-21T09:00:00Z",
+      "endDate": "2026-03-22T17:00:00Z",
+      "location": "MacDill Flightline",
+      "address": "6801 S Dale Mabry Hwy, MacDill AFB, FL 33621",
+      "description": "Annual MacDill AFB air show open to the public. Free admission with DoD ID or ticket.",
+      "category": "community"
+    },
+    {
+      "id": "macdill-evt-2",
+      "title": "Newcomers Welcome Brief",
+      "date": "2026-07-14T08:00:00Z",
+      "endDate": "2026-07-14T12:00:00Z",
+      "location": "6 FSS Community Center",
+      "address": "MacDill AFB, FL 33621",
+      "description": "Monthly newcomers orientation for incoming personnel and families.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Newcomers In-Processing",
+      "url": "https://www.macdill.af.mil/Newcomers/",
+      "phone": "813-828-1110",
+      "address": "MacDill AFB, Tampa, FL 33621"
+    },
+    "moreInfoURL": "https://www.macdill.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical/dental records, marriage/birth certificates, and travel voucher receipts.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing",
+        "body": "Check in with your gaining unit and complete MPF in-processing within required timelines. CENTCOM and SOCOM personnel have separate reporting procedures.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "MacDill Newcomers",
+            "url": "https://www.macdill.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Housing before arrival. Privatized housing by Corvias available for families. Temporary lodging: Bay Palms Inn 813-828-4259. Dorm management: 813-828-4259.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "MacDill Housing",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/macdill-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Tampa Bay Area",
+        "body": "MacDill is on a peninsula in Tampa Bay — excellent weather, beaches, and sports teams. Traffic on S Dale Mabry can be heavy during rush hour (0700-0900 and 1600-1800).",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Key contacts: BDOC 813-828-2421 | Housing 813-828-3344 | MPF 813-828-3366 | Medical 813-827-9400 | FSS 813-828-3344.",
+        "links": [
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/macdill-air-force-base"
+          },
+          {
+            "id": "link-bd",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

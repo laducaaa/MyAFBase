@@ -1,0 +1,312 @@
+{
+  "id": "mcconnell",
+  "name": "McConnell AFB",
+  "fullName": "McConnell Air Force Base",
+  "location": "Wichita, KS",
+  "description": "Home of the 22nd Air Refueling Wing, McConnell AFB is a premier KC-46 and KC-135 air refueling installation.",
+  "wing": "22 ARW",
+  "latitude": 37.6219,
+  "longitude": -97.2682,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "mcconnell-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "McConnell AFB Security Forces",
+      "number": "316-759-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "316-759-6100"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate-lincoln-st",
+      "name": "Main Gate (Lincoln St)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "E Lincoln St, McConnell AFB, KS 67221",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south-gate",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "S Oliver St, Wichita, KS 67210",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-mcconnell-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at McConnell AFB.",
+      "hours": "See posted meal hours",
+      "address": "6100 E Lincoln St, McConnell AFB, KS 67221",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnellfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-bx",
+      "name": "McConnell AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at McConnell AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "6100 E Lincoln St, McConnell AFB, KS 67221",
+      "phone": "316-759-6100",
+      "url": "https://www.shopmyexchange.com/store-locator/mcconnell-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-commissary",
+      "name": "McConnell AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "6100 E Lincoln St, McConnell AFB, KS 67221",
+      "phone": "316-759-6100",
+      "url": "https://shop.commissaries.com/stores/mcconnell-afb",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-medical",
+      "name": "22nd Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for McConnell AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-2273",
+      "url": "https://mcconnell.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at McConnell AFB.",
+      "hours": "See FSS for current hours",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnellfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnell.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnellfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-fss",
+      "name": "22 ARW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnellfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/mcconnell-afb/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at McConnell AFB.",
+      "hours": "See FSS for current hours",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnellfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-visitor-center",
+      "name": "McConnell AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "6100 E Lincoln St, McConnell AFB, KS 67221",
+      "phone": "316-759-6100",
+      "url": "https://www.mcconnell.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-mcconnell-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "McConnell AFB, Wichita, KS",
+      "phone": "316-759-3421",
+      "url": "https://www.mcconnell.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "mcconnell-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "McConnell AFB, Wichita, KS",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "mcconnell-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "McConnell AFB, Wichita, KS",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "McConnell AFB Visitor Center",
+      "url": "https://www.mcconnell.af.mil/Newcomers/",
+      "phone": "316-759-6100",
+      "address": "6100 E Lincoln St, McConnell AFB, KS 67221"
+    },
+    "moreInfoURL": "https://www.mcconnell.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for McConnell AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.mcconnell.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/mcconnell-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "McConnell AFB Official Site",
+            "url": "https://www.mcconnell.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.mcconnell.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.mcconnellfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/mcconnell-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/mcconnell"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

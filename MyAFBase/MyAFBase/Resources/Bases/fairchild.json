@@ -1,0 +1,248 @@
+{
+  "id": "fairchild",
+  "name": "Fairchild AFB",
+  "fullName": "Fairchild Air Force Base",
+  "location": "Spokane, WA",
+  "description": "Home of the 92nd Air Refueling Wing. Fairchild AFB provides global air refueling with KC-135 Stratotankers and supports the Air Force Survival, Evasion, Resistance, and Escape (SERE) school.",
+  "wing": "92 ARW",
+  "latitude": 47.615,
+  "longitude": -117.6556,
+  "dataUpdatedAt": "2026-06-24T16:15:00Z",
+  "currentNotifications": [
+    {
+      "id": "fairchild-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Fairchild AFB Security Forces",
+      "number": "509-247-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "509-247-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "509-247-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with visitor processing. After-hours visitor passes issued here.",
+      "traffic": "high",
+      "address": "Main Gate, Fairchild AFB, WA 99011",
+      "latitude": 47.615,
+      "longitude": -117.6556
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 4203)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1600; closed weekends, federal holidays, and AMC Family Days",
+      "notes": "Day passes and visitor registration. REAL ID required. Located at 302 E. Arnold St.",
+      "traffic": "moderate",
+      "address": "302 E. Arnold St, Bldg 4203, Fairchild AFB, WA 99011",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-fairchild-dfac-warrior",
+      "name": "Warrior Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting air refueling and SERE training missions.",
+      "hours": "See posted meal hours",
+      "address": "100 W. Bong St, Fairchild AFB, WA 99011",
+      "phone": "509-247-5353",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-dfac-flight-kitchen",
+      "name": "Flight Kitchen",
+      "category": "dining",
+      "description": "Flight line dining support for aircrew and mission personnel.",
+      "hours": "See posted meal hours",
+      "address": "100 W. Bong St, Fairchild AFB, WA 99011",
+      "phone": "509-247-2614",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-bx",
+      "name": "Fairchild Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
+      "address": "101 W. Spaatz Rd, Fairchild AFB, WA 99011",
+      "phone": "509-244-2832",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-global-cu",
+      "name": "Global Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-244-9216",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-fairchild-fitness",
+      "name": "Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Main fitness facility with indoor pool, cardio, weights, group exercise, racquetball, basketball, parent-child area, and 24/7 access by registration.",
+      "hours": "See FSS for staffed hours; 24/7 access available",
+      "address": "300 W. Castle St, Fairchild AFB, WA 99011",
+      "phone": "509-247-2792",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-247-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-lodging",
+      "name": "Fairchild Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging including DVQ and TLF. 24-hour front desk. Survival Inn available for SERE students.",
+      "hours": "Front desk 24/7",
+      "address": "300 N. Short St, Fairchild AFB, WA 99011",
+      "phone": "509-244-2290",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness. Right Start orientation coordinated here.",
+      "hours": "Mon-Wed/Fri 0800-1600; Thu 0800-1200",
+      "address": "4 W. Castle St, Bldg 2365, Fairchild AFB, WA 99011",
+      "phone": "509-247-2246",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-92-fss",
+      "name": "92nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-247-1110",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-247-2505",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-golf",
+      "name": "Fairchild Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-247-1110",
+      "url": "https://fairchildfun.com/",
+      "building": null
+    },
+    {
+      "id": "res-fairchild-medical",
+      "name": "92nd Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Fairchild AFB, WA 99011",
+      "phone": "509-247-1110",
+      "url": "https://fairchild.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 4203)",
+      "url": "https://www.fairchild.af.mil/Base/Visitor-Information/",
+      "phone": "509-247-5492",
+      "address": "302 E. Arnold St, Bldg 4203, Fairchild AFB, WA 99011"
+    },
+    "moreInfoURL": "https://www.fairchild.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Fairchild Inn (509-244-2290) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/fairchild-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "92 FSS, M&FRC, and official Fairchild sites for in-processing and air refueling mission support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "92nd Force Support Squadron",
+            "url": "https://fairchildfun.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://fairchildfun.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

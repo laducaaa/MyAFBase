@@ -1,0 +1,312 @@
+{
+  "id": "edwards",
+  "name": "Edwards AFB",
+  "fullName": "Edwards Air Force Base",
+  "location": "Edwards, CA",
+  "description": "Home of the 412th Test Wing, Edwards AFB is the Air Force Test Center's premier flight test installation for experimental aircraft and systems.",
+  "wing": "412 TW",
+  "latitude": 34.9054,
+  "longitude": -117.8839,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "edwards-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Edwards AFB Security Forces",
+      "number": "661-277-3440"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "661-277-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-west-gate-main",
+      "name": "West Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Rosamond Blvd, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north-gate",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "low",
+      "address": "North Gate Rd, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-edwards-dfac",
+      "name": "Eagle Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Edwards AFB.",
+      "hours": "See posted meal hours",
+      "address": "100 E Popson Ave, Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-bx",
+      "name": "Edwards AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Edwards AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "100 E Popson Ave, Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/edwards-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-edwards-commissary",
+      "name": "Edwards AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "100 E Popson Ave, Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://shop.commissaries.com/stores/edwards-afb",
+      "building": null
+    },
+    {
+      "id": "res-edwards-medical",
+      "name": "412th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Edwards AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-7118",
+      "url": "https://edwards.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Edwards AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-1110",
+      "url": "https://www.edwards.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-fss",
+      "name": "412 TW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-recreation-1",
+      "name": "Pikes Peak Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Edwards AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": null,
+      "url": "https://www.edwardsfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-visitor-center",
+      "name": "Edwards AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "100 E Popson Ave, Edwards AFB, CA 93524",
+      "phone": "661-277-3516",
+      "url": "https://www.edwards.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Edwards AFB, Edwards, CA",
+      "phone": "661-277-3440",
+      "url": "https://www.edwards.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "edwards-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Edwards AFB, Edwards, CA",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Edwards AFB, Edwards, CA",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Edwards AFB Visitor Center",
+      "url": "https://www.edwards.af.mil/Newcomers/",
+      "phone": "661-277-3516",
+      "address": "100 E Popson Ave, Edwards AFB, CA 93524"
+    },
+    "moreInfoURL": "https://www.edwards.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Edwards AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.edwards.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Edwards AFB Official Site",
+            "url": "https://www.edwards.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.edwards.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.edwardsfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/edwards"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

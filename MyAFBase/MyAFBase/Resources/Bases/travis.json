@@ -1,0 +1,264 @@
+{
+  "id": "travis",
+  "name": "Travis AFB",
+  "fullName": "Travis Air Force Base",
+  "location": "Fairfield, CA",
+  "description": "Gateway to the Pacific — busiest air mobility hub in the U.S. military. Home of the 60th Air Mobility Wing operating C-5, C-17, and KC-46 aircraft.",
+  "wing": "60 AMW",
+  "latitude": 38.2625,
+  "longitude": -122.0261,
+  "dataUpdatedAt": "2026-06-24T15:15:00Z",
+  "currentNotifications": [
+    {
+      "id": "travis-notif-1",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Travis Security Forces",
+      "number": "707-424-2000"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "707-424-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "David Grant Medical Center",
+      "number": "707-423-3000"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "707-424-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Travis Blvd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access with visitor processing.",
+      "traffic": "high",
+      "address": "Travis Blvd at Main Gate, Travis AFB, CA 94535",
+      "latitude": 38.2625,
+      "longitude": -122.0261
+    },
+    {
+      "id": "gate-west",
+      "name": "West Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Alternate access for west side facilities.",
+      "traffic": "moderate",
+      "address": "West Gate, Travis AFB, CA 94535",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1400; Sun closed",
+      "notes": "Day passes and visitor registration at Main Gate area.",
+      "traffic": "moderate",
+      "address": "Main Gate area, Travis AFB, CA 94535",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-travis-dfac",
+      "name": "Main Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting mobility wing and tenant units with full meal service.",
+      "hours": "Mon-Fri: Breakfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Breakfast 0800-0930, Lunch 1100-1300, Dinner 1700-1830",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-bx",
+      "name": "Travis Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1100-1800",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-commissary",
+      "name": "Travis Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-credit-union",
+      "name": "Travis Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch with 24/7 ATM access.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-travis-fitness-main",
+      "name": "Travis Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, racquetball, and basketball. 24/7 access for registered users.",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0800-1800; 24/7 for registered CAC holders",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-travis-lodging",
+      "name": "Travis Inn / AF Lodging",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Front desk 24/7",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-3311",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-60-fss",
+      "name": "60th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, RV storage, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-golf",
+      "name": "Travis Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-424-1110",
+      "url": "https://www.travisfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-travis-medical",
+      "name": "David Grant Medical Center",
+      "category": "medical",
+      "description": "Major military medical center providing primary care, specialty services, and TRICARE support.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Travis AFB, CA 94535",
+      "phone": "707-423-3000",
+      "url": "https://travis.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.travisfss.com/",
+      "phone": "707-424-1110",
+      "address": "Main Gate area, Travis AFB, CA 94535"
+    },
+    "moreInfoURL": "https://www.travisfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (707-424-5218) for unaccompanied housing or Travis Inn (707-424-3311) for temporary lodging. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/travis-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "60 FSS, M&FRC, and official Travis sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "60th Force Support Squadron",
+            "url": "https://www.travisfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.travisfss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

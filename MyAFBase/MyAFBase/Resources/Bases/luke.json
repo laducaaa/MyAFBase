@@ -1,0 +1,344 @@
+{
+  "id": "luke",
+  "name": "Luke AFB",
+  "fullName": "Luke Air Force Base",
+  "location": "Glendale, AZ",
+  "description": "Home of the 56th Fighter Wing. Luke AFB is the Air Force's primary F-35 Lightning II and F-16 Fighting Falcon fighter training installation, training hundreds of pilots annually.",
+  "wing": "56 FW",
+  "latitude": 33.535,
+  "longitude": -112.3832,
+  "dataUpdatedAt": "2026-06-24T16:40:00Z",
+  "currentNotifications": [
+    {
+      "id": "luke-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    },
+    {
+      "id": "luke-notif-dfac",
+      "title": "DFAC Temporary Closure – Remodeling",
+      "body": "Hensman Dining Facility is temporarily closed for Food 2.0 remodeling. T-Bolt Café (flight kitchen) remains operational for flight meals.",
+      "type": "info",
+      "postedAt": "2026-06-20T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Luke AFB Security Forces",
+      "number": "623-856-6211"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "623-856-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "623-856-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-south",
+      "name": "South Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access point. After-hours visitor passes issued here.",
+      "traffic": "high",
+      "address": "South Gate, Luke AFB, AZ 85309",
+      "latitude": 33.535,
+      "longitude": -112.3832
+    },
+    {
+      "id": "gate-lightning",
+      "name": "Lightning Gate",
+      "status": "open",
+      "hours": "Daily 0500-2100",
+      "notes": "Primary visitor gate. Visitor Reception Center (VRC) located here.",
+      "traffic": "high",
+      "address": "Lightning Gate, Luke AFB, AZ 85309",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri: 0600-0800 (in/out), 1445-1700 (out only); closed weekends/holidays/family days",
+      "notes": "Limited hours access point.",
+      "traffic": "low",
+      "address": "North Gate, Luke AFB, AZ 85309",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vrc",
+      "name": "Lightning Gate Visitor Reception Center (VRC)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; Sat-Sun 0800-1300; closed holidays and base down days",
+      "notes": "Day passes, visitor registration, and DBIDS pass issuance. REAL ID required. Sponsor must accompany guests.",
+      "traffic": "moderate",
+      "address": "Lightning Gate VRC, Luke AFB, AZ 85309",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-crc",
+      "name": "South Gate Commercial Reception Center (CRC)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1500; closed weekends/holidays/base down days",
+      "notes": "Commercial vehicle and contractor processing. Documentation required (bill of lading, work order, etc.).",
+      "traffic": "moderate",
+      "address": "South Gate CRC, Luke AFB, AZ 85309",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-luke-dfac-hensman",
+      "name": "Hensman Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting fighter training squadrons. Currently closed for Food 2.0 remodeling.",
+      "hours": "Temporarily closed for remodeling",
+      "address": "14032 W Mustang St, Luke AFB, AZ 85309",
+      "phone": "623-856-6396",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-flight-kitchen",
+      "name": "T-Bolt Café (Flight Kitchen)",
+      "category": "dining",
+      "description": "Flight line dining support for aircrew and mission personnel.",
+      "hours": "Mon-Fri: Lunch 1100-1300, Dinner 1700-1900; Sun-Thu: Midnight Meal 2330-0130",
+      "address": "Bldg 954, Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": "https://56fss.com/",
+      "building": "Bldg 954"
+    },
+    {
+      "id": "res-luke-bx",
+      "name": "Luke Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, food court (Popeye's), and personal internet setup.",
+      "hours": "Mon-Fri 0900-1700; Sat 1000-1400",
+      "address": "Bldg 1540, Luke AFB, AZ 85309",
+      "phone": "623-856-3923",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 1540"
+    },
+    {
+      "id": "res-luke-commissary",
+      "name": "Luke Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Mon-Sat 0900-2000; Sun 0900-1800",
+      "address": "Bldg 1550, Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": "Bldg 1550"
+    },
+    {
+      "id": "res-luke-shoppette",
+      "name": "Luke Shoppette",
+      "category": "shopping",
+      "description": "24/7 convenience store with fuel and essentials.",
+      "hours": "Open 24/7",
+      "address": "Bldg 1124, Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 1124"
+    },
+    {
+      "id": "res-luke-credit-union",
+      "name": "Credit Union West",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Luke AFB, AZ 85309",
+      "phone": "602-631-3200",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-luke-fitness-bryant",
+      "name": "Bryant Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. 24-hour access pass available.",
+      "hours": "Mon-Fri 0500-1900; Sat-Sun 0800-1800; 24/7 access pass available",
+      "address": "14053 W Shooting Star St, Bldg 820, Luke AFB, AZ 85309",
+      "phone": "623-856-6241",
+      "url": "https://56fss.com/",
+      "building": "Bldg 820"
+    },
+    {
+      "id": "res-luke-fitness-annex",
+      "name": "Fitness Annex",
+      "category": "fitness",
+      "description": "Secondary fitness location supporting the Luke community. 24-hour access pass available.",
+      "hours": "Mon-Fri 0600-1500; 24/7 access pass available",
+      "address": "Bldg 1137, Luke AFB, AZ 85309",
+      "phone": "623-856-6241",
+      "url": "https://56fss.com/",
+      "building": "Bldg 1137"
+    },
+    {
+      "id": "res-luke-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for student pilots and permanent party. UH Sponsorship Form and work order submission available.",
+      "hours": "Mon & Fri 0800-1500; Tue-Thu 0800-1600",
+      "address": "Bldg 635, Luke AFB, AZ 85309",
+      "phone": "623-856-7841",
+      "url": "https://www.housing.af.mil/",
+      "building": "Bldg 635"
+    },
+    {
+      "id": "res-luke-lodging",
+      "name": "Fighter Country Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. Pet-friendly rooms available (limited).",
+      "hours": "Front desk 24/7",
+      "address": "7012 N Bong Ln, Luke AFB, AZ 85309",
+      "phone": "623-935-2641",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, voting assistance, and Total Force readiness. One-stop information and referral center.",
+      "hours": "Mon-Fri 0730-1630; closed 3rd Thursday monthly",
+      "address": "7282 137th Ave, Bldg 1113, Luke AFB, AZ 85309",
+      "phone": "623-856-6550",
+      "url": "https://56fss.com/",
+      "building": "Bldg 1113"
+    },
+    {
+      "id": "res-56-fss",
+      "name": "56th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs. Customer Service: 623-856-7875.",
+      "hours": "See directory for individual facility hours",
+      "address": "Luke AFB, AZ 85309",
+      "phone": "623-856-7875",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, recreational programs, and outdoor activities.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Luke AFB, AZ 85309",
+      "phone": "623-856-6267",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-golf",
+      "name": "Luke Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-bowling",
+      "name": "Luke Bowling Center",
+      "category": "recreation",
+      "description": "Bowling alley with lanes and snack bar.",
+      "hours": "See FSS for current hours",
+      "address": "Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": "https://56fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-luke-medical",
+      "name": "56th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services. Morning sick call Mon/Tue/Thu/Fri 0730-0800; afternoon sick call Mon-Fri 1300-1330.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Bldg 1130, Luke AFB, AZ 85309",
+      "phone": "623-856-2273",
+      "url": "https://luke.tricare.mil/",
+      "building": "Bldg 1130"
+    },
+    {
+      "id": "res-luke-vet",
+      "name": "Veterinary Clinic",
+      "category": "medical",
+      "description": "Pet wellness and veterinary services for military families.",
+      "hours": "See posted hours",
+      "address": "Bldg 1146, Luke AFB, AZ 85309",
+      "phone": "623-856-1110",
+      "url": null,
+      "building": "Bldg 1146"
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Lightning Gate Visitor Reception Center (VRC)",
+      "url": "https://www.luke.af.mil/Home/LUKE-AIR-FORCE-BASE-ACCESS-PROCEDURES/",
+      "phone": "623-856-4991 or 623-856-4993",
+      "address": "Lightning Gate VRC, Luke AFB, AZ 85309"
+    },
+    "moreInfoURL": "https://www.luke.af.mil/About-Us/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Fighter Country Inn (623-935-2641) for initial arrival. Dormitory Management (623-856-7841) for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/luke-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "56 FSS, M&FRC, and official Luke sites for in-processing and fighter training support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "56th Force Support Squadron",
+            "url": "https://56fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://56fss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

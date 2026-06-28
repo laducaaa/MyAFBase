@@ -1,0 +1,303 @@
+{
+  "id": "barksdale",
+  "name": "Barksdale AFB",
+  "fullName": "Barksdale Air Force Base",
+  "location": "Bossier City, LA",
+  "description": "Home of Air Force Global Strike Command and the 2nd Bomb Wing. Barksdale AFB operates B-52H Stratofortress bombers and supports global strike missions.",
+  "wing": "2 BW",
+  "latitude": 32.5018,
+  "longitude": -93.6627,
+  "dataUpdatedAt": "2026-06-24T16:10:00Z",
+  "currentNotifications": [
+    {
+      "id": "barksdale-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Barksdale AFB Security Forces",
+      "number": "318-456-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "318-456-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "318-456-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-west-shreveport",
+      "name": "West Gate (Shreveport / Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with Visitor Control Center. Main entry point for visitors.",
+      "traffic": "high",
+      "address": "Shreveport Rd / Barksdale Blvd, Barksdale AFB, LA 71110",
+      "latitude": 32.5018,
+      "longitude": -93.6627
+    },
+    {
+      "id": "gate-bodcau",
+      "name": "Bodcau Gate (South Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 south side access.",
+      "traffic": "moderate",
+      "address": "Bodcau Gate, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-bossier",
+      "name": "Bossier Gate (North Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0545-1800; Sat 0800-1400; Sun closed",
+      "notes": "North side access with limited weekend hours.",
+      "traffic": "moderate",
+      "address": "North Gate Rd, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-east-industrial",
+      "name": "East Gate (Industrial Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0545-1745 (commercial & limited passenger); closed weekends/holidays",
+      "notes": "Primarily commercial vehicles and east reservation residents. Inbound passenger vehicles 0630-0800 M-F only.",
+      "traffic": "low",
+      "address": "Industrial Dr, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc-west",
+      "name": "West Gate Visitor Control Center",
+      "status": "open",
+      "hours": "Daily 0600-2200",
+      "notes": "Primary VCC for visitor passes. REAL ID required. After hours passes at West Gate.",
+      "traffic": "moderate",
+      "address": "West Shreveport Gate, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc-east",
+      "name": "East Gate Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1745; closed weekends/holidays",
+      "notes": "Secondary VCC for east side access.",
+      "traffic": "low",
+      "address": "East Gate, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-barksdale-dfac-touchngo",
+      "name": "Touch-n-Go Flight Kitchen / DFAC",
+      "category": "dining",
+      "description": "Primary DFAC supporting B-52 operations and base personnel with full meal service including midnight meals.",
+      "hours": "Mon-Fri: Breakfast 0600-0900, Lunch 1030-1330, Dinner 1630-1830, Midnight 2230-0030; Sat-Sun: Breakfast 0630-0830, Lunch/Dinner 1030-1830, Midnight 2230-0000",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-bx",
+      "name": "Barksdale Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, food court, and shoppette.",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1700 (typical)",
+      "address": "455 Curtiss Rd, Bldg 4711, Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 4711"
+    },
+    {
+      "id": "res-barksdale-commissary",
+      "name": "Barksdale Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-credit-union",
+      "name": "Barksdale Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-barksdale-fitness-bell",
+      "name": "SrA Bell Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, and 24/7 CAC access. Iron Airman Gym also available.",
+      "hours": "24/7 for registered CAC holders; staffed hours Mon-Sun 0530-2000",
+      "address": "709 Langley Drive, Barksdale AFB, LA 71110",
+      "phone": "318-456-4135",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-lodging",
+      "name": "Barksdale Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging including DVQ and TLF. 24/7 front desk for arrivals.",
+      "hours": "Front desk 24/7",
+      "address": "555 Davis Avenue West, Barksdale AFB, LA 71110",
+      "phone": "318-456-3091",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "801 Kenney Ave, Suite 1400, Barksdale AFB, LA 71110",
+      "phone": "318-456-8400",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-2-fss",
+      "name": "2nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, RV storage, archery, shotgun sports, and recreational programs.",
+      "hours": "Mon-Tue/Thu-Fri 0900-1700; Sat 0900-1500",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-2505",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-golf",
+      "name": "Fox Run Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and snack bar.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-bowling",
+      "name": "Bomber Alley Bowling Center",
+      "category": "recreation",
+      "description": "Bowling alley with snack bar and league play.",
+      "hours": "Mon-Thu 0900-2100; Fri 0900-2300; Sat 1100-2300; Sun 1200-1800",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-3426",
+      "url": "https://barksdalelife.com/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-medical",
+      "name": "2nd Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-1110",
+      "url": "https://barksdale.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "West Gate Visitor Control Center",
+      "url": "https://www.barksdale.af.mil/Information/Gate-Hours/",
+      "phone": "318-456-4984",
+      "address": "West Shreveport Gate, Barksdale AFB, LA 71110"
+    },
+    "moreInfoURL": "https://barksdalelife.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Barksdale Inn (318-456-3091) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/barksdale-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "2 FSS, M&FRC, and official Barksdale sites for in-processing and Global Strike Command support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "2nd Force Support Squadron",
+            "url": "https://barksdalelife.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://barksdalelife.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

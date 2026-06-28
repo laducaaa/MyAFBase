@@ -1,0 +1,237 @@
+{
+  "id": "grand-forks",
+  "name": "Grand Forks AFB",
+  "fullName": "Grand Forks Air Force Base",
+  "location": "Grand Forks, ND",
+  "description": "Home of the 319th Reconnaissance Wing. Grand Forks AFB operates RQ-4 Global Hawk missions and provides critical ISR support.",
+  "wing": "319 RW",
+  "latitude": 47.9611,
+  "longitude": -97.4012,
+  "dataUpdatedAt": "2026-06-24T15:40:00Z",
+  "currentNotifications": [
+    {
+      "id": "grand-forks-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Grand Forks AFB Security Forces",
+      "number": "701-747-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "701-747-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "701-747-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with visitor processing.",
+      "traffic": "high",
+      "address": "Main Gate, Grand Forks AFB, ND 58205",
+      "latitude": 47.9611,
+      "longitude": -97.4012
+    },
+    {
+      "id": "gate-commercial",
+      "name": "Commercial Gate (South Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1900",
+      "notes": "Commercial and limited personal vehicle access. Closed weekends.",
+      "traffic": "moderate",
+      "address": "Commercial Gate, Grand Forks AFB, ND 58205",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 812)",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1630; closed federal holidays, down days, and family days",
+      "notes": "Day passes and visitor registration. REAL ID required. After-hours passes at Main Gate.",
+      "traffic": "moderate",
+      "address": "80 Steen Blvd, Bldg 812, Grand Forks AFB, ND 58205",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-grand-forks-dfac-airey",
+      "name": "Airey Dining Facility",
+      "category": "dining",
+      "description": "Campus-style DFAC with seven food stations including Kitchen, Fire & Iron grill, Wrap It Up subs, Ciao Pizza, Greenhouse Salad Bar, Grab-N-Go, and Restaurant Rotation (global cuisine). Open to all with base access.",
+      "hours": "Mon-Fri: Breakfast 0600-0900, Lunch 1030-1330, Dinner 1630-1830; Sat-Sun: Breakfast 0630-0830, Lunch 1030-1330, Dinner 1630-1830",
+      "address": "649 John Marshall St, Bldg 315, Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": "https://grandforks319fss.com/",
+      "building": "Bldg 315"
+    },
+    {
+      "id": "res-grand-forks-bx",
+      "name": "Grand Forks Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 1000-1800; Sun 1000-1700",
+      "address": "Bldg 105, Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 105"
+    },
+    {
+      "id": "res-grand-forks-credit-union",
+      "name": "Grand Forks Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-grand-forks-fitness",
+      "name": "Grand Forks Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. 24/7 access for registered CAC holders.",
+      "hours": "See FSS for staffed hours; 24/7 for registered users",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": "https://grandforks319fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-grand-forks-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-grand-forks-lodging",
+      "name": "Warrior Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Front desk 24/7",
+      "address": "Bldg 117, 632 Holzapple Street, Grand Forks AFB, ND 58205",
+      "phone": "701-747-7200",
+      "url": "https://grandforks319fss.com/",
+      "building": "Bldg 117"
+    },
+    {
+      "id": "res-grand-forks-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 207, 575 Holzapple Street, Grand Forks AFB, ND 58205",
+      "phone": "701-747-3241",
+      "url": "https://grandforks319fss.com/",
+      "building": "Bldg 207"
+    },
+    {
+      "id": "res-319-fss",
+      "name": "319th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": "https://grandforks319fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-grand-forks-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-4049",
+      "url": "https://grandforks319fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-grand-forks-medical",
+      "name": "319th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Grand Forks AFB, ND 58205",
+      "phone": "701-747-1110",
+      "url": "https://grandforks.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 812)",
+      "url": "https://www.grandforks.af.mil/Grand-Forks-Virtual-Visitor-Center/",
+      "phone": "701-747-3587",
+      "address": "80 Steen Blvd, Bldg 812, Grand Forks AFB, ND 58205"
+    },
+    "moreInfoURL": "https://grandforks319fss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Warrior Inn (701-747-7200) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/grand-forks-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "319 FSS, M&FRC, and official Grand Forks sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "319th Force Support Squadron",
+            "url": "https://grandforks319fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://grandforks319fss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

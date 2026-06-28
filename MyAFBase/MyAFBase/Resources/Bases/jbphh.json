@@ -1,0 +1,323 @@
+{
+  "id": "jbphh",
+  "name": "JB Pearl Harbor-Hickam",
+  "fullName": "Joint Base Pearl Harbor-Hickam",
+  "location": "Honolulu, HI",
+  "description": "Joint Base Pearl Harbor-Hickam hosts the 15th Wing and Pacific Air Forces support units in Hawaii.",
+  "wing": "15 WG",
+  "latitude": 21.339,
+  "longitude": -157.954,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "jbphh-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "JB Pearl Harbor-Hickam Security Forces",
+      "number": "808-449-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "808-449-7110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-nimitz-gate-main",
+      "name": "Nimitz Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Nimitz Gate, JBPHH, HI 96853",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-makalapa-gate",
+      "name": "Makalapa Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Makalapa Dr, Honolulu, HI 96818",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-hickam-gate",
+      "name": "Hickam Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "low",
+      "address": "Hickam Blvd, Honolulu, HI 96818",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-jbphh-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at JB Pearl Harbor-Hickam.",
+      "hours": "See posted meal hours",
+      "address": "850 Tinker Ave, Joint Base Pearl Harbor-Hickam, HI 96853",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphhfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-bx",
+      "name": "JB Pearl Harbor-Hickam Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at JB Pearl Harbor-Hickam.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "850 Tinker Ave, Joint Base Pearl Harbor-Hickam, HI 96853",
+      "phone": "808-449-7110",
+      "url": "https://www.shopmyexchange.com/store-locator/jbphh-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-commissary",
+      "name": "JB Pearl Harbor-Hickam Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "850 Tinker Ave, Joint Base Pearl Harbor-Hickam, HI 96853",
+      "phone": "808-449-7110",
+      "url": "https://shop.commissaries.com/stores/joint-base-pearl-harbor-hickam",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-medical",
+      "name": "15th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for JB Pearl Harbor-Hickam. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-2273",
+      "url": "https://jbphh.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at JB Pearl Harbor-Hickam.",
+      "hours": "See FSS for current hours",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphhfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphh.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphhfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-fss",
+      "name": "15 WG Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphhfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-7110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-pearl-harbor-hickam/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-recreation-1",
+      "name": "Mamala Bay Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at JB Pearl Harbor-Hickam.",
+      "hours": "See FSS for current hours",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-800-2337",
+      "url": "https://www.jbphhfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-visitor-center",
+      "name": "JB Pearl Harbor-Hickam Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "850 Tinker Ave, Joint Base Pearl Harbor-Hickam, HI 96853",
+      "phone": "808-449-7110",
+      "url": "https://www.jbphh.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-jbphh-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "phone": "808-449-3421",
+      "url": "https://www.jbphh.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "jbphh-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "jbphh-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JB Pearl Harbor-Hickam, Honolulu, HI",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "JB Pearl Harbor-Hickam Visitor Center",
+      "url": "https://www.jbphh.af.mil/Newcomers/",
+      "phone": "808-449-7110",
+      "address": "850 Tinker Ave, Joint Base Pearl Harbor-Hickam, HI 96853"
+    },
+    "moreInfoURL": "https://www.jbphh.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for JB Pearl Harbor-Hickam reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.jbphh.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-pearl-harbor-hickam/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "JB Pearl Harbor-Hickam Official Site",
+            "url": "https://www.jbphh.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.jbphh.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.jbphhfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-pearl-harbor-hickam/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/jbphh"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

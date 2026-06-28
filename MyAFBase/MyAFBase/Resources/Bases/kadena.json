@@ -1,0 +1,323 @@
+{
+  "id": "kadena",
+  "name": "Kadena AB",
+  "fullName": "Kadena Air Base",
+  "location": "Okinawa, Japan",
+  "description": "Kadena AB is the largest U.S. air installation in the Pacific and home of the 18th Wing on Okinawa.",
+  "wing": "18 WG",
+  "latitude": 26.3517,
+  "longitude": 127.7692,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "kadena-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Kadena AB Security Forces",
+      "number": "+81-611-734-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "+81-611-734-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-gate-1-main",
+      "name": "Gate 1 (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Gate 1, Kadena AB, Okinawa, Japan",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gate-2",
+      "name": "Gate 2",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Gate 2, Kadena AB, Okinawa, Japan",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gate-5",
+      "name": "Gate 5",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "Gate 5, Kadena AB, Okinawa, Japan",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-kadena-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Kadena AB.",
+      "hours": "See posted meal hours",
+      "address": "Kadena Air Base, Okinawa 904-7000, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadenafss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-bx",
+      "name": "Kadena AB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Kadena AB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "Kadena Air Base, Okinawa 904-7000, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/kadena-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-kadena-commissary",
+      "name": "Kadena AB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "Kadena Air Base, Okinawa 904-7000, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://shop.commissaries.com/stores/kadena-ab",
+      "building": null
+    },
+    {
+      "id": "res-kadena-medical",
+      "name": "18th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Kadena AB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-2273",
+      "url": "https://kadena.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Kadena AB.",
+      "hours": "See FSS for current hours",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadenafss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadena.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadenafss.com/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-fss",
+      "name": "18 WG Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadenafss.com/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/kadena-ab/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Kadena AB.",
+      "hours": "See FSS for current hours",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadenafss.com/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-visitor-center",
+      "name": "Kadena AB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "Kadena Air Base, Okinawa 904-7000, Japan",
+      "phone": "+81-611-734-1110",
+      "url": "https://www.kadena.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-kadena-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Kadena AB, Okinawa, Japan",
+      "phone": "+81-611-734-3421",
+      "url": "https://www.kadena.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "kadena-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "kadena-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Kadena AB Visitor Center",
+      "url": "https://www.kadena.af.mil/Newcomers/",
+      "phone": "+81-611-734-1110",
+      "address": "Kadena Air Base, Okinawa 904-7000, Japan"
+    },
+    "moreInfoURL": "https://www.kadena.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Kadena AB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.kadena.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/kadena-ab/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Kadena AB Official Site",
+            "url": "https://www.kadena.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.kadena.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.kadenafss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/kadena-ab/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/kadena"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

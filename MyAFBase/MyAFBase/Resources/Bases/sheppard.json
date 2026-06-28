@@ -1,0 +1,281 @@
+{
+  "id": "sheppard",
+  "name": "Sheppard AFB",
+  "fullName": "Sheppard Air Force Base",
+  "location": "Wichita Falls, TX",
+  "description": "Home of the 82nd Training Wing. The largest and most diverse training base in Air Education and Training Command, training thousands of Airmen annually in aircraft maintenance, civil engineering, and medical career fields.",
+  "wing": "82 TRW",
+  "latitude": 33.989,
+  "longitude": -98.492,
+  "dataUpdatedAt": "2026-06-24T15:20:00Z",
+  "currentNotifications": [
+    {
+      "id": "shepp-notif-1",
+      "title": "Missile Gate Operations Update",
+      "body": "Temporary changes to Missile Gate access. Use alternate gates during maintenance.",
+      "type": "closure",
+      "postedAt": "2026-06-17T14:00:00Z",
+      "expiresAt": "2026-06-30T23:59:59Z"
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-shepp-1",
+      "label": "Sheppard Security Forces",
+      "number": "940-676-1456"
+    },
+    {
+      "id": "em-shepp-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-shepp-3",
+      "label": "Base Operator",
+      "number": "940-676-1110"
+    },
+    {
+      "id": "em-shepp-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "940-676-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 entry point with visitor processing. Located off I-44 / State Hwy 240.",
+      "traffic": "high",
+      "address": "Main Gate, Sheppard AFB, TX 76311",
+      "latitude": 33.989,
+      "longitude": -98.492
+    },
+    {
+      "id": "gate-missile-road",
+      "name": "Missile Road Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1730",
+      "notes": "Visitor Control Center located here. Closed weekends and holidays.",
+      "traffic": "moderate",
+      "address": "210 Missile Rd, Bldg 1405, Sheppard AFB, TX 76311",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-clinic",
+      "name": "Clinic Gate",
+      "status": "open",
+      "hours": "Mon-Fri: Inbound 0600-0800, Outbound 1600-1800",
+      "notes": "Limited hours; inbound morning, outbound evening only.",
+      "traffic": "low",
+      "address": "Clinic Gate, Sheppard AFB, TX 76311",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 1405)",
+      "status": "open",
+      "hours": "Mon-Fri 0630-1630; closed holidays and 3rd Wednesday of each month",
+      "notes": "Day passes and visitor registration. Walk-ins processed in order of arrival.",
+      "traffic": "moderate",
+      "address": "210 Missile Rd, Bldg 1405, Sheppard AFB, TX 76311",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-sheppard-mesquite-dfac",
+      "name": "Mesquite Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC serving training squadrons.",
+      "hours": "See posted meal hours",
+      "address": "831 Ave F, Bldg 805, Sheppard AFB, TX 76311",
+      "phone": "940-851-7757",
+      "url": "https://82fss.com/",
+      "building": "Bldg 805"
+    },
+    {
+      "id": "res-sheppard-sagebrush-dfac",
+      "name": "Sagebrush Dining Facility",
+      "category": "dining",
+      "description": "DFAC supporting technical training students.",
+      "hours": "See posted meal hours",
+      "address": "726 Ave J, Bldg 1320, Sheppard AFB, TX 76311",
+      "phone": "940-855-5590",
+      "url": "https://82fss.com/",
+      "building": "Bldg 1320"
+    },
+    {
+      "id": "res-sheppard-tumbleweed-dfac",
+      "name": "Tumbleweed Dining Facility",
+      "category": "dining",
+      "description": "DFAC serving permanent party and students.",
+      "hours": "See posted meal hours",
+      "address": "909 5th Ave, Bldg 1368, Sheppard AFB, TX 76311",
+      "phone": "940-855-3351",
+      "url": "https://82fss.com/",
+      "building": "Bldg 1368"
+    },
+    {
+      "id": "res-sheppard-bx",
+      "name": "Sheppard Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court. Gas station and barber shop on site.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "220 Community Center Dr, Bldg 239, Sheppard AFB, TX 76311",
+      "phone": "940-855-4318",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 239"
+    },
+    {
+      "id": "res-sheppard-union-square-cu",
+      "name": "Union Square Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 212, Sheppard AFB, TX 76311",
+      "phone": "940-676-1110",
+      "url": null,
+      "building": "Bldg 212"
+    },
+    {
+      "id": "res-sheppard-levitow-fitness",
+      "name": "Levitow Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, and sports amenities.",
+      "hours": "See FSS for current hours",
+      "address": "825 3rd Ave, Bldg 384, Sheppard AFB, TX 76311",
+      "phone": "940-676-2972",
+      "url": "https://82fss.com/",
+      "building": "Bldg 384"
+    },
+    {
+      "id": "res-sheppard-pitsenbarger-fitness",
+      "name": "Pitsenbarger Fitness Center",
+      "category": "fitness",
+      "description": "Second fitness center supporting training population.",
+      "hours": "See FSS for current hours",
+      "address": "511 Ave H, Bldg 540, Sheppard AFB, TX 76311",
+      "phone": "940-676-0491",
+      "url": "https://82fss.com/",
+      "building": "Bldg 540"
+    },
+    {
+      "id": "res-sheppard-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for technical training students and permanent party.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Sheppard AFB, TX 76311",
+      "phone": "940-676-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-sheppard-lodging",
+      "name": "Sheppard Inn / AF Lodging",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Front desk 24/7",
+      "address": "Sheppard AFB, TX 76311",
+      "phone": "940-676-3311",
+      "url": "https://82fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-sheppard-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "709 9th Ave, Bldg 960, Sheppard AFB, TX 76311",
+      "phone": "940-676-4358",
+      "url": "https://82fss.com/",
+      "building": "Bldg 960"
+    },
+    {
+      "id": "res-82-fss",
+      "name": "82nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining (3 DFACs), fitness (2 centers), lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Sheppard AFB, TX 76311",
+      "phone": "940-676-1110",
+      "url": "https://82fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-sheppard-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, pools (Bunker Hill & Main), RV storage, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Sheppard AFB, TX 76311",
+      "phone": "940-676-4141",
+      "url": "https://82fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-sheppard-medical",
+      "name": "82nd Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Sheppard AFB, TX 76311",
+      "phone": "940-676-1110",
+      "url": "https://sheppard.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 1405)",
+      "url": "https://www.sheppard.af.mil/Contact/REAL-ID-Act-Base-Entry/",
+      "phone": "940-676-7441",
+      "address": "210 Missile Rd, Bldg 1405, Sheppard AFB, TX 76311"
+    },
+    "moreInfoURL": "https://82fss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (940-676-5218) for unaccompanied housing or Sheppard Inn (940-676-3311) for temporary lodging. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/sheppard-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "82 FSS, M&FRC, and official Sheppard sites for in-processing and training support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "82nd Force Support Squadron",
+            "url": "https://82fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://82fss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

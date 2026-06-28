@@ -1,0 +1,270 @@
+{
+  "id": "patrick",
+  "name": "Patrick SFB",
+  "fullName": "Patrick Space Force Base",
+  "location": "Cocoa Beach, FL",
+  "description": "Patrick SFB supports Eastern Range space launch operations and hosts Space Launch Delta 45. It is the primary launch support base for Cape Canaveral Space Force Station.",
+  "wing": "SLD 45",
+  "latitude": 28.2353,
+  "longitude": -80.6103,
+  "dataUpdatedAt": "2026-06-24T17:20:00Z",
+  "currentNotifications": [
+    {
+      "id": "patrick-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Patrick SFB Security Forces",
+      "number": "321-494-1212"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "321-494-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "321-494-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-east",
+      "name": "East Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access point with visitor processing. Matador St.",
+      "traffic": "high",
+      "address": "Matador St, Patrick SFB, FL 32925",
+      "latitude": 28.2353,
+      "longitude": -80.6103
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Daily 0600-2000",
+      "notes": "South Patrick Dr. Limited hours.",
+      "traffic": "moderate",
+      "address": "South Patrick Dr, Patrick SFB, FL 32925",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (East Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1630; closed Sat-Sun",
+      "notes": "Day passes and visitor registration. REAL ID required. Phone: 321-494-0427. After-hours passes at East Gate.",
+      "traffic": "moderate",
+      "address": "East Gate Visitor Control Center, Patrick SFB, FL 32925",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-patrick-dfac-riverside",
+      "name": "Riverside Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting space launch operations with full meal service and grab-and-go options.",
+      "hours": "See posted meal hours",
+      "address": "Bldg 350, Patrick SFB, FL 32925",
+      "phone": "321-494-8720",
+      "url": "https://www.gopatrickfl.com/",
+      "building": "Bldg 350"
+    },
+    {
+      "id": "res-patrick-bx",
+      "name": "Patrick Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-commissary",
+      "name": "Patrick Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-credit-union",
+      "name": "Space Coast Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-752-2222",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-patrick-fitness",
+      "name": "Patrick Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. Pool closed for maintenance.",
+      "hours": "Mon-Fri 0500-2000; Sat-Sun 0700-1600; holidays/down days 0800-1600",
+      "address": "Bldg 545, Patrick SFB, FL 32925",
+      "phone": "321-494-4947",
+      "url": "https://www.gopatrickfl.com/",
+      "building": "Bldg 545"
+    },
+    {
+      "id": "res-patrick-fitness-cape",
+      "name": "Cape Canaveral Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Secondary fitness facility supporting Cape Canaveral Space Force Station.",
+      "hours": "Mon-Fri 0500-1700",
+      "address": "Bldg 44915, Cape Canaveral SFS, FL",
+      "phone": "321-853-3966",
+      "url": "https://www.gopatrickfl.com/",
+      "building": "Bldg 44915"
+    },
+    {
+      "id": "res-patrick-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments supporting space launch personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-3647",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-lodging",
+      "name": "Space Coast Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals. Guest business center available.",
+      "hours": "Front desk 24/7",
+      "address": "Bldg 720, Patrick SFB, FL 32925",
+      "phone": "321-494-6590",
+      "url": "https://www.gopatrickfl.com/",
+      "building": "Bldg 720"
+    },
+    {
+      "id": "res-patrick-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://www.gopatrickfl.com/",
+      "building": null
+    },
+    {
+      "id": "res-45-fss",
+      "name": "45th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting space launch operations.",
+      "hours": "See directory for individual facility hours",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://www.gopatrickfl.com/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental (boats, lawn equipment), family campground, RV storage, and recreational programs. 24-hour lawn equipment for AD/Reserve residents.",
+      "hours": "Mon-Fri duty hours; boat rentals Wed-Sat 1030-1430",
+      "address": "Bldg 345, Patrick SFB, FL 32925",
+      "phone": "321-494-2054",
+      "url": "https://www.gopatrickfl.com/",
+      "building": "Bldg 345"
+    },
+    {
+      "id": "res-patrick-golf",
+      "name": "Patrick Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://www.gopatrickfl.com/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-medical",
+      "name": "45th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services supporting space launch operations.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-1110",
+      "url": "https://patrick.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (East Gate)",
+      "url": "https://www.patrick.spaceforce.mil/Visitor-Control-Center/",
+      "phone": "321-494-0427",
+      "address": "East Gate Visitor Control Center, Patrick SFB, FL 32925"
+    },
+    "moreInfoURL": "https://www.gopatrickfl.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Space Coast Inn (321-494-6590) for initial arrival. Dormitory Management (321-494-3647) for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/patrick-sfb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "45 FSS, M&FRC, and official Patrick sites for in-processing and space launch support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "45th Force Support Squadron",
+            "url": "https://www.gopatrickfl.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.gopatrickfl.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

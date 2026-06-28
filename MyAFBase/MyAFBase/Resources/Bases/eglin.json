@@ -1,0 +1,264 @@
+{
+  "id": "eglin",
+  "name": "Eglin AFB",
+  "fullName": "Eglin Air Force Base",
+  "location": "Valparaiso, FL",
+  "description": "Eglin AFB is home to the 96th Test Wing and is the largest Air Force base by land area. Major testing and training installation supporting conventional weapons development and F-35 training.",
+  "wing": "96 TW",
+  "latitude": 30.4636,
+  "longitude": -86.5527,
+  "dataUpdatedAt": "2026-06-24T15:10:00Z",
+  "currentNotifications": [
+    {
+      "id": "eglin-notif-1",
+      "title": "Range Operations",
+      "body": "Increased activity on the Eglin range may cause noise in surrounding communities.",
+      "type": "info",
+      "postedAt": "2026-06-10T12:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Base Security Forces",
+      "number": "850-882-2502"
+    },
+    {
+      "id": "em-2",
+      "label": "Fire Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "850-882-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Eglin Hospital",
+      "number": "850-883-8600"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "850-882-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Eglin Blvd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access with visitor processing.",
+      "traffic": "high",
+      "address": "Eglin Blvd at Main Gate, Eglin AFB, FL 32542",
+      "latitude": 30.4636,
+      "longitude": -86.5527
+    },
+    {
+      "id": "gate-west",
+      "name": "West Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Alternate access for west side facilities.",
+      "traffic": "moderate",
+      "address": "West Gate, Eglin AFB, FL 32542",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1400; Sun closed",
+      "notes": "Day passes and visitor registration at Main Gate area.",
+      "traffic": "moderate",
+      "address": "Main Gate area, Eglin AFB, FL 32542",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-eglin-dfac",
+      "name": "Main Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting test wing and training missions with full meal service.",
+      "hours": "Mon-Fri: Breakfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Breakfast 0800-0930, Lunch 1100-1300, Dinner 1700-1830",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-bx",
+      "name": "Eglin Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1100-1800",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-commissary",
+      "name": "Eglin Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-credit-union",
+      "name": "Eglin Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch with 24/7 ATM access.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-eglin-fitness-main",
+      "name": "Eglin Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, racquetball, and basketball. 24/7 access for registered users.",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0800-1800; 24/7 for registered CAC holders",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-lodging",
+      "name": "Eglin Inn / AF Lodging",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Front desk 24/7",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-3311",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-96-fss",
+      "name": "96th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, RV storage, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-golf",
+      "name": "Eglin Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-882-1110",
+      "url": "https://www.eglinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eglin-medical",
+      "name": "96th Medical Group / Eglin Hospital",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Eglin AFB, FL 32542",
+      "phone": "850-883-8600",
+      "url": "https://eglin.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.eglinfss.com/",
+      "phone": "850-882-1110",
+      "address": "Main Gate area, Eglin AFB, FL 32542"
+    },
+    "moreInfoURL": "https://www.eglinfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (850-882-5218) for unaccompanied housing or Eglin Inn (850-882-3311) for temporary lodging. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/eglin-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "96 FSS, M&FRC, and official Eglin sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "96th Force Support Squadron",
+            "url": "https://www.eglinfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.eglinfss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

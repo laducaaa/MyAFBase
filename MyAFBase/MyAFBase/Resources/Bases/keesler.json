@@ -1,0 +1,440 @@
+{
+  "id": "keesler",
+  "name": "Keesler AFB",
+  "fullName": "Keesler Air Force Base",
+  "location": "Biloxi, MS",
+  "description": "Home of the 81st Training Wing, Keesler AFB is the Air Force's largest technical training installation, training thousands of students annually in cyber, weather, and communications career fields.",
+  "wing": "81 TRW",
+  "latitude": 30.4108,
+  "longitude": -88.9242,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "keesler-notif-1",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-05-07T08:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "keesler-notif-2",
+      "title": "Hurricane Season Preparedness",
+      "body": "Ensure your family disaster plan is current. Monitor AF notifications during hurricane season (June-November).",
+      "type": "info",
+      "postedAt": "2026-06-01T06:00:00Z",
+      "expiresAt": "2026-11-30T23:59:59Z"
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Keesler Security Forces",
+      "number": "228-377-4357"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-4",
+      "label": "BDOC",
+      "number": "228-377-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-division",
+      "name": "Division Street Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Visitor Center adjacent; pass processing Mon-Fri 0600-1500.",
+      "traffic": "moderate",
+      "address": "Division St & Pass Rd, Biloxi, MS 39534",
+      "latitude": 30.4125,
+      "longitude": -88.931
+    },
+    {
+      "id": "gate-pass-road",
+      "name": "Pass Road Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Pass Rd, Biloxi, MS 39534",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-meadows",
+      "name": "Meadows Drive Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1800",
+      "notes": "Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Meadows Dr, Biloxi, MS 39534",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-commercial",
+      "name": "Commercial Vehicle Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1500",
+      "notes": "Located off Bayview Avenue. Closed weekends, AETC family days, and federal holidays.",
+      "traffic": "low",
+      "address": "Bayview Ave, Biloxi, MS 39534",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-white-ave",
+      "name": "White Avenue Gate",
+      "status": "closed",
+      "hours": "Closed",
+      "notes": "Permanently closed per official gate hours. Use Division Street or Pass Road gates.",
+      "traffic": "unknown",
+      "address": "White Ave, Biloxi, MS 39534",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-dfac-azalea",
+      "name": "Azalea Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility and flight kitchen serving the Keesler training mission.",
+      "hours": "Breakfast Mon-Fri 0515-0800; Lunch Mon-Fri 1100-1330; Dinner Mon-Fri 1830-2030. Flight Kitchen daily 0600-2200.",
+      "address": "611 Parade Ln, Biloxi, MS 39534",
+      "phone": "228-377-3409",
+      "url": "https://keesler81fss.com/dining-facilities/",
+      "building": "Bldg 6960"
+    },
+    {
+      "id": "res-dfac-magnolia",
+      "name": "Magnolia Dining Facility",
+      "category": "dining",
+      "description": "Dining facility serving unaccompanied housing residents and permanent party.",
+      "hours": "See posted hours at facility; schedules vary by training schedule.",
+      "address": "216 Ploesti Dr, Biloxi, MS 39534",
+      "phone": "228-377-4368",
+      "url": "https://keesler81fss.com/dining-facilities/",
+      "building": "Bldg 7409"
+    },
+    {
+      "id": "res-dfac-live-oak",
+      "name": "Live Oak Dining Facility",
+      "category": "dining",
+      "description": "Lunch-only dining facility for eligible patrons.",
+      "hours": "Lunch Mon-Fri 1030-1300",
+      "address": "505 E St, Biloxi, MS 39534",
+      "phone": "228-377-3854",
+      "url": "https://keesler81fss.com/dining-facilities/",
+      "building": "Bldg 2001"
+    },
+    {
+      "id": "res-bx-charleys",
+      "name": "Charley's Philly Steaks",
+      "category": "dining",
+      "description": "BX food court quick-service restaurant.",
+      "hours": "Mon-Sun 0700-1900",
+      "address": "506 Larcher Blvd, Bldg 2306, Keesler AFB, MS 39534",
+      "phone": "228-435-1191",
+      "building": "BX Food Court"
+    },
+    {
+      "id": "res-bx-popeyes",
+      "name": "Popeyes",
+      "category": "dining",
+      "description": "BX food court quick-service restaurant.",
+      "hours": "Mon-Sun 1030-1900",
+      "address": "Larcher Blvd, Bldg 2306, Keesler AFB, MS 39534",
+      "phone": "228-435-1191",
+      "building": "BX Food Court"
+    },
+    {
+      "id": "res-bx-subway",
+      "name": "Subway",
+      "category": "dining",
+      "description": "BX food court quick-service restaurant.",
+      "hours": "Mon-Sun 0600-1900",
+      "address": "506 Larcher Blvd, Bldg 2306, Keesler AFB, MS 39534",
+      "phone": "228-435-3661",
+      "building": "BX Food Court"
+    },
+    {
+      "id": "res-pressed",
+      "name": "PRESSED: Paninis & Coffee",
+      "category": "dining",
+      "description": "Specialty coffee and panini shop.",
+      "hours": "Mon-Fri 0700-1500",
+      "address": "500 Ploesti Dr, Biloxi, MS 39534",
+      "phone": "228-377-3826",
+      "building": null
+    },
+    {
+      "id": "res-bx",
+      "name": "Base Exchange (BX)",
+      "category": "shopping",
+      "description": "Main BX with food court, services, and ITT.",
+      "hours": "Mon-Sat 0900-1900, Sun 1000-1800",
+      "address": "506 Larcher Blvd, Bldg 2306, Keesler AFB, MS 39534",
+      "phone": "228-377-3818",
+      "url": "https://www.shopmyexchange.com/store-locator/keesler-afb",
+      "building": "Bldg 2306"
+    },
+    {
+      "id": "res-commissary",
+      "name": "Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery store.",
+      "hours": "Tue-Sat 0900-1900, Sun-Mon Closed",
+      "address": "119 Ploesti Dr, Bldg 6970, Keesler AFB, MS 39534",
+      "phone": "228-374-2843",
+      "building": "Triangle Mini-Mall"
+    },
+    {
+      "id": "res-bank-af",
+      "name": "Armed Forces Bank",
+      "category": "finance",
+      "description": "On-base banking and ATM services.",
+      "hours": "Mon-Fri 0900-1600",
+      "address": "Larcher Blvd, Keesler AFB, MS 39534",
+      "phone": null,
+      "building": "BX Complex"
+    },
+    {
+      "id": "res-medical",
+      "name": "Keesler Medical Center",
+      "category": "medical",
+      "description": "Primary medical facility. TRICARE appointments and 24/7 emergency department.",
+      "hours": "Appointments Mon-Fri 0700-1700; Emergency 24/7",
+      "address": "301 Fisher St, Biloxi, MS 39534",
+      "phone": "228-377-1010",
+      "url": "https://www.keesler.af.mil/Units/81st-Medical-Group/",
+      "building": null
+    },
+    {
+      "id": "res-fitness-blake",
+      "name": "Blake Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center with cardio, weights, and group fitness.",
+      "hours": "Daily 0500-2200",
+      "address": "Bldg 4301, Keesler AFB, MS 39534",
+      "phone": "228-377-4212",
+      "building": "Bldg 4301"
+    },
+    {
+      "id": "res-aquatic",
+      "name": "Aquatic Center \u2013 Triangle Pool",
+      "category": "fitness",
+      "description": "Indoor/outdoor aquatic facility.",
+      "hours": "Seasonal; call for current schedule",
+      "address": "7506 Galaxy St, Biloxi, MS 39534",
+      "phone": "228-375-4521",
+      "building": null
+    },
+    {
+      "id": "res-fss",
+      "name": "81st Force Support Squadron",
+      "category": "services",
+      "description": "Force Support services including MWR, family programs, and recreation.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-4212",
+      "url": "https://keesler81fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mpf",
+      "name": "Military Personnel Section",
+      "category": "services",
+      "description": "In-processing, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-1240",
+      "building": null
+    },
+    {
+      "id": "res-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-4400",
+      "url": "https://www.keesler.af.mil/Housing/",
+      "building": null
+    },
+    {
+      "id": "res-visitor-center",
+      "name": "Visitor Center \u2013 Pass & Registration",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-1500",
+      "address": "310 M St, White Ave Gate area, Keesler AFB, MS 39534",
+      "phone": "228-377-3844",
+      "url": "https://www.keesler.af.mil/About-Us/Fact-Sheets/Display/Article/2703050/visitors-center-and-gate-hours/",
+      "building": "Bldg 4605"
+    },
+    {
+      "id": "res-bay-breeze",
+      "name": "Bay Breeze Event Center",
+      "category": "recreation",
+      "description": "Event venue for community gatherings, banquets, and private events.",
+      "hours": "Varies by event",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-2334",
+      "url": "https://keesler81fss.com/bay-breeze-event-center/",
+      "building": null
+    },
+    {
+      "id": "res-bowling",
+      "name": "Gaude Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling, arcade, and group events.",
+      "hours": "Mon-Sun; call for lane availability",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-2817",
+      "building": null
+    },
+    {
+      "id": "res-golf",
+      "name": "Bay Breeze Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course open to authorized patrons.",
+      "hours": "Daily; tee times required",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-377-3832",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Wings Auditorium",
+      "address": "Bldg 4100, Keesler AFB, Biloxi, MS 39534",
+      "description": "Mandatory orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "evt-2",
+      "title": "Base Family Fun Day",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Bay Breeze Event Center",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "description": "Community event with food, games, live music, and family activities.",
+      "category": "family"
+    },
+    {
+      "id": "evt-3",
+      "title": "Freedom 5K Run",
+      "date": "2026-06-27T21:00:00Z",
+      "endDate": "2026-06-28T02:30:00Z",
+      "location": "Blake Fitness Center Track",
+      "address": "Bldg 4301, Keesler AFB, Biloxi, MS 39534",
+      "description": "Open to all authorized base personnel and families. Register at the fitness center.",
+      "category": "fitness"
+    },
+    {
+      "id": "evt-4",
+      "title": "Independence Day Celebration",
+      "date": "2026-07-04T22:00:00Z",
+      "endDate": "2026-07-05T01:00:00Z",
+      "location": "Bay Breeze Golf Course",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "description": "Holiday celebration with food vendors and fireworks display.",
+      "category": "holiday"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Center",
+      "url": "https://www.keesler.af.mil/About-Us/Fact-Sheets/Display/Article/2703050/visitors-center-and-gate-hours/",
+      "phone": "228-377-3844",
+      "address": "310 M St, White Ave Gate area, Keesler AFB, MS 39534"
+    },
+    "moreInfoURL": "https://www.keesler.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring your PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry copies of all travel vouchers and receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival. Visit the Military Personnel Section within 24 duty hours. Your unit will schedule additional in-processing appointments.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "Military Personnel Section",
+            "url": "https://www.keesler.af.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival. On-base housing is managed by Balfour Beatty Communities. Temporary lodging is available through the Lodging Office.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "Keesler Housing",
+            "url": "https://www.keesler.af.mil/Housing/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before you depart.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official newcomers information, family programs, and community support services. See Military OneSource, Military.com, and BaseDirectory for additional relocation resources. See Military OneSource, Military.com, and BaseDirectory for additional relocation resources.",
+        "links": [
+          {
+            "id": "link-3",
+            "title": "Keesler Newcomers Page",
+            "url": "https://www.keesler.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-4",
+            "title": "81st Force Support Squadron",
+            "url": "https://keesler81fss.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          },
+          {
+            "id": "link-mil-keesler",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/keesler"
+          }
+        ]
+      }
+    ]
+  }
+}

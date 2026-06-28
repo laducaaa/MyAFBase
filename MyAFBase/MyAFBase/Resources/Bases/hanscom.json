@@ -1,0 +1,312 @@
+{
+  "id": "hanscom",
+  "name": "Hanscom AFB",
+  "fullName": "Hanscom Air Force Base",
+  "location": "Bedford, MA",
+  "description": "Hanscom AFB is a major acquisition and R&D installation supporting command, control, communications, and cyber programs.",
+  "wing": "66 ABW",
+  "latitude": 42.4692,
+  "longitude": -71.281,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "hanscom-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Hanscom AFB Security Forces",
+      "number": "781-225-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "781-225-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate-hanscom-dr",
+      "name": "Main Gate (Hanscom Dr)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Hanscom Dr, Bedford, MA 01731",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-hartwell-gate",
+      "name": "Hartwell Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "Hartwell Ave, Lexington, MA 02421",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-hanscom-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Hanscom AFB.",
+      "hours": "See posted meal hours",
+      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscomfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-bx",
+      "name": "Hanscom AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Hanscom AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
+      "phone": "781-225-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/hanscom-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-commissary",
+      "name": "Hanscom AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
+      "phone": "781-225-1110",
+      "url": "https://shop.commissaries.com/stores/hanscom-afb",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-medical",
+      "name": "66th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Hanscom AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-2273",
+      "url": "https://hanscom.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Hanscom AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscomfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscom.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-fss",
+      "name": "66 ABW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Hanscom AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-visitor-center",
+      "name": "Hanscom AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
+      "phone": "781-225-1110",
+      "url": "https://www.hanscom.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Hanscom AFB, Bedford, MA",
+      "phone": "781-225-3421",
+      "url": "https://www.hanscom.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "hanscom-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Hanscom AFB, Bedford, MA",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "hanscom-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Hanscom AFB, Bedford, MA",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Hanscom AFB Visitor Center",
+      "url": "https://www.hanscom.af.mil/Newcomers/",
+      "phone": "781-225-1110",
+      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731"
+    },
+    "moreInfoURL": "https://www.hanscom.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Hanscom AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.hanscom.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Hanscom AFB Official Site",
+            "url": "https://www.hanscom.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.hanscom.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.hanscomfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/hanscom"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "id": "jblm",
+  "name": "JBLM McChord",
+  "fullName": "Joint Base Lewis-McChord (McChord Field)",
+  "location": "Tacoma, WA",
+  "description": "McChord Field hosts the 62nd Airlift Wing and 446th Airlift Wing, providing C-17 Globemaster III airlift from the Pacific Northwest.",
+  "wing": "62 AW",
+  "latitude": 47.1378,
+  "longitude": -122.476,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "jblm-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "JBLM McChord Security Forces",
+      "number": "253-982-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "253-982-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-mcchord-main-gate-b-st",
+      "name": "McChord Main Gate (B St)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "B St, JBLM McChord Field, WA 98438",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north-gate",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Barnes Blvd, Tacoma, WA 98438",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-jblm-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at JBLM McChord.",
+      "hours": "See posted meal hours",
+      "address": "200 B St, Joint Base Lewis-McChord, WA 98438",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchordfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-bx",
+      "name": "JBLM McChord Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at JBLM McChord.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "200 B St, Joint Base Lewis-McChord, WA 98438",
+      "phone": "253-982-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/jblm-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jblm-commissary",
+      "name": "JBLM McChord Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "200 B St, Joint Base Lewis-McChord, WA 98438",
+      "phone": "253-982-1110",
+      "url": "https://shop.commissaries.com/stores/joint-base-lewis-mcchord",
+      "building": null
+    },
+    {
+      "id": "res-jblm-medical",
+      "name": "62nd Medical Squadron",
+      "category": "medical",
+      "description": "Primary medical facility for JBLM McChord. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-2273",
+      "url": "https://mcchord.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at JBLM McChord.",
+      "hours": "See FSS for current hours",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchordfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchord.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchordfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-fss",
+      "name": "62 AW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchordfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-lewis-mcchord/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at JBLM McChord.",
+      "hours": "See FSS for current hours",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchordfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-visitor-center",
+      "name": "JBLM McChord Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "200 B St, Joint Base Lewis-McChord, WA 98438",
+      "phone": "253-982-1110",
+      "url": "https://www.mcchord.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "JBLM McChord, Tacoma, WA",
+      "phone": "253-982-3421",
+      "url": "https://www.mcchord.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "jblm-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JBLM McChord, Tacoma, WA",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JBLM McChord, Tacoma, WA",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "JBLM McChord Visitor Center",
+      "url": "https://www.mcchord.af.mil/Newcomers/",
+      "phone": "253-982-1110",
+      "address": "200 B St, Joint Base Lewis-McChord, WA 98438"
+    },
+    "moreInfoURL": "https://www.mcchord.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for JBLM McChord reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.mcchord.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-lewis-mcchord/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "JBLM McChord Official Site",
+            "url": "https://www.mcchord.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.mcchord.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.mcchordfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-lewis-mcchord/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/jblm"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "shaw",
+  "name": "Shaw AFB",
+  "fullName": "Shaw Air Force Base",
+  "location": "Sumter, SC",
+  "description": "Home of the 20th Fighter Wing and Ninth Air Force. Shaw AFB projects F-16CM combat air power and supports major combatant commands.",
+  "wing": "20 FW",
+  "latitude": 33.9727,
+  "longitude": -80.4708,
+  "dataUpdatedAt": "2026-06-24T15:25:00Z",
+  "currentNotifications": [
+    {
+      "id": "shaw-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Shaw AFB Security Forces",
+      "number": "803-963-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "803-895-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "803-895-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Shaw Drive)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with Visitor Control Center adjacent. Visitor passes issued here after hours.",
+      "traffic": "high",
+      "address": "Main Gate, Shaw AFB, SC 29152",
+      "latitude": 33.9727,
+      "longitude": -80.4708
+    },
+    {
+      "id": "gate-441",
+      "name": "441 Gate (formerly Rhodes Gate)",
+      "status": "open",
+      "hours": "Daily 0600-2200",
+      "notes": "Alternate access point with extended hours.",
+      "traffic": "moderate",
+      "address": "441 Gate, Shaw AFB, SC 29152",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-sumter",
+      "name": "Sumter Gate (East Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "East side access. Closed weekends.",
+      "traffic": "moderate",
+      "address": "Sumter Gate, Shaw AFB, SC 29152",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-frierson",
+      "name": "Frierson Gate (School Gate / North Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0630-1630 (teacher work days only)",
+      "notes": "School gate; closed weekends, holidays, and non-teacher work days.",
+      "traffic": "low",
+      "address": "Frierson Gate, Shaw AFB, SC 29152",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1630; Sat-Sun closed",
+      "notes": "Day passes and visitor registration located just outside Main Gate. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Visitor Control Center, outside Main Gate, Shaw AFB, SC 29152",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-shaw-dfac-williams",
+      "name": "CMSgt Emerson E. Williams Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting the 20th Fighter Wing and tenant units.",
+      "hours": "See posted meal hours",
+      "address": "417 Polifka Drive, Shaw AFB, SC 29152",
+      "phone": "803-895-9791",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-bx",
+      "name": "Shaw Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "address": "370 Rhodes Avenue, Shaw AFB, SC 29152",
+      "phone": "803-666-3050",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-commissary",
+      "name": "Shaw Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Shaw AFB, SC 29152",
+      "phone": "803-895-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-safe-cu",
+      "name": "SAFE Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "522 Exchange Street, Shaw AFB, SC 29152",
+      "phone": "803-895-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-shaw-fitness-main",
+      "name": "Shaw Fitness & Health Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities.",
+      "hours": "See FSS for current hours",
+      "address": "428 Shaw Drive, Shaw AFB, SC 29152",
+      "phone": "803-895-2284",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-fitness-annex",
+      "name": "Shaw Fitness & Health Center Annex",
+      "category": "fitness",
+      "description": "Second fitness location supporting the Shaw community.",
+      "hours": "See FSS for current hours",
+      "address": "5 Lasano Road, Shaw AFB, SC 29152",
+      "phone": "803-895-0947",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Shaw AFB, SC 29152",
+      "phone": "803-895-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-lodging",
+      "name": "Carolina Pines Inn (Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging including DVQ and family quarters. 24-hour front desk and continental breakfast.",
+      "hours": "Front desk 24/7",
+      "address": "464 Myers Street, Shaw AFB, SC 29152",
+      "phone": "803-895-3803",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, EFMP, school liaison, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "524 Stuart Avenue, Shaw AFB, SC 29152",
+      "phone": "803-895-1253",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-20-fss",
+      "name": "20th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Shaw AFB, SC 29152",
+      "phone": "803-895-1110",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, Wateree Recreation Area, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "1 FamCamp Drive, Shaw AFB, SC 29152",
+      "phone": "803-895-0450",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-golf",
+      "name": "Carolina Lakes Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with Tee Top Café.",
+      "hours": "See pro shop for hours and tee times",
+      "address": "Shaw AFB, SC 29152",
+      "phone": "803-895-1110",
+      "url": "https://shaw20fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-shaw-medical",
+      "name": "20th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Shaw AFB, SC 29152",
+      "phone": "803-895-1110",
+      "url": "https://shaw.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.shaw.af.mil/About-Us/Base-Access/",
+      "phone": "803-895-5050 (opt 5)",
+      "address": "Outside Main Gate, Shaw AFB, SC 29152"
+    },
+    "moreInfoURL": "https://shaw20fss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Carolina Pines Inn (803-895-3803) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/shaw-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "20 FSS, M&FRC, and official Shaw sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "20th Force Support Squadron",
+            "url": "https://shaw20fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://shaw20fss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

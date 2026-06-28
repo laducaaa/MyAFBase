@@ -1,0 +1,303 @@
+{
+  "id": "moron",
+  "name": "Morón AB",
+  "fullName": "Morón Air Base",
+  "location": "Morón de la Frontera, Spain",
+  "description": "Morón AB hosts the 496th Air Base Squadron and provides strategic airfield and logistics support for U.S. and allied operations in southern Europe.",
+  "wing": "496 ABS",
+  "latitude": 37.1749,
+  "longitude": -5.6159,
+  "dataUpdatedAt": "2026-06-23T20:00:00Z",
+  "currentNotifications": [
+    {
+      "id": "moron-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Morón AB Security Forces",
+      "number": "+34-955-84-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "Base Operator",
+      "number": "+34-955-84-1110"
+    },
+    {
+      "id": "em-3",
+      "label": "Emergency (Local)",
+      "number": "112"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary entry point. Visitor processing and Pass & ID located nearby. Taxis drop off/pick up only at gate.",
+      "traffic": "moderate",
+      "address": "Main Gate, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "latitude": 37.1749,
+      "longitude": -5.6159
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-el-comedor",
+      "name": "El Comedor Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC serving breakfast, lunch, dinner, midnight meal, grab-n-go, and flight/ground meals with 2-hour notice.",
+      "hours": "Breakfast 0600-0900; Lunch 1100-1400; Dinner 1600-1900; Midnight Meal 0015-0145; Grab-n-Go 24/7 daily",
+      "address": "Bldg 115, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-8392",
+      "url": "https://moronforcesupport.com/el-comedor/",
+      "building": "Bldg 115"
+    },
+    {
+      "id": "res-nexmart",
+      "name": "NEXmart",
+      "category": "shopping",
+      "description": "Basic exchange mart offering snacks, convenience items, and limited retail. Check cashing and money exchange available.",
+      "hours": "See posted hours; support fluctuates with Spanish holidays",
+      "address": "Bldg 107, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://moronforcesupport.com/",
+      "building": "Bldg 107"
+    },
+    {
+      "id": "res-medical-aid-station",
+      "name": "Medical Aid Station",
+      "category": "medical",
+      "description": "Limited medical support for military members only via two Independent Duty Medical Technicians (IDMTs). Liaison for appointments at NS Rota Clinic or TRICARE International SOS.",
+      "hours": "Duty hours for routine; emergencies coordinated 24/7 via liaison",
+      "address": "Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-2273",
+      "url": "https://installations.militaryonesource.mil/military-installation/moron-ab",
+      "building": null
+    },
+    {
+      "id": "res-fitness-sports-center",
+      "name": "Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Full gym with cardio theater, saunas, racquetball court, free weights, ellipticals, volleyball, basketball, softball field, tennis courts, and outdoor courts. Offers incentive programs and group fitness classes (cycling, total body reset, glutes/abs/legs).",
+      "hours": "See FSS site or posted schedule for current hours; facility supports 24/7 access where posted",
+      "address": "Bldg 312, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-8307",
+      "url": "https://moronforcesupport.com/",
+      "building": "Bldg 312"
+    },
+    {
+      "id": "res-finance-office",
+      "name": "USAF Finance Office",
+      "category": "finance",
+      "description": "Military pay, vouchers, and finance services. One-person office supporting Team Morón.",
+      "hours": "Mon-Tue-Thu-Fri 0800-1700; Wed 0800-1400",
+      "address": "Bldg 106 (North entrance), Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://www.moron.af.mil/",
+      "building": "Bldg 106"
+    },
+    {
+      "id": "res-atm-1",
+      "name": "ATM - Bldg 106",
+      "category": "finance",
+      "description": "24/7 ATM for euro withdrawals (CIRRUS and major credit cards). Linked to various accounts.",
+      "hours": "Open 24/7",
+      "address": "Bldg 106 North entrance, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": null,
+      "url": null,
+      "building": "Bldg 106"
+    },
+    {
+      "id": "res-atm-bbva",
+      "name": "BBVA Bank ATM",
+      "category": "finance",
+      "description": "24/7 ATM located at BBVA bank branch. Euro transactions only.",
+      "hours": "Open 24/7",
+      "address": "Bldg 541 (North corner, between Gas Station and School), Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": null,
+      "url": null,
+      "building": "Bldg 541"
+    },
+    {
+      "id": "res-spanish-bank",
+      "name": "Banco de Santander / Spanish Bank",
+      "category": "finance",
+      "description": "Spanish bank branch on base with fluctuating hours based on Spanish holidays and schedules.",
+      "hours": "Varies; check posted schedule",
+      "address": "Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-housing-pass-id",
+      "name": "Housing / Pass & ID / Finance Office",
+      "category": "housing",
+      "description": "Combined office for on-base housing assignments, off-base referrals, visitor passes, vehicle registration, and finance. Temporary lodging at Hotel Frontera.",
+      "hours": "Mon-Tue-Thu-Fri 0800-1700; Wed 0800-1400",
+      "address": "Bldg 106 area, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/moron-ab/",
+      "building": "Bldg 106"
+    },
+    {
+      "id": "res-496-abs-fss",
+      "name": "496th ABS Force Support Squadron",
+      "category": "services",
+      "description": "Provides MWR, dining (El Comedor), fitness, recreation programs, events, and family support for Team Morón and transient forces.",
+      "hours": "See moronforcesupport.com for program schedules",
+      "address": "Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://moronforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "Personnel actions, ID cards (RAPIDS appointments), DEERS, assignments, and in-processing support.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://www.moronfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-recreation-programs",
+      "name": "Recreation & Outdoor Activities",
+      "category": "recreation",
+      "description": "FSS-supported programs including group fitness (Indoor Cycling, Total Body Reset, Glutes/Abs/Legs, Face to Face), sports (volleyball, basketball, softball, tennis, racquetball), and leisure events. Check calendar for seasonal activities.",
+      "hours": "Varies by program; see FSS events calendar",
+      "address": "Fitness & Sports Center / Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-8307",
+      "url": "https://moronforcesupport.com/",
+      "building": "Bldg 312"
+    },
+    {
+      "id": "res-visitor-center",
+      "name": "Visitor Center / Pass & ID",
+      "category": "safety",
+      "description": "Base access passes, visitor registration, and vehicle processing. Located near Main Gate.",
+      "hours": "Mon-Tue-Thu-Fri 0800-1700; Wed 0800-1400",
+      "address": "Main Gate area, Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-1110",
+      "url": "https://www.moron.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "24/7 law enforcement, base defense, and security operations.",
+      "hours": "24/7",
+      "address": "Morón Air Base, 41530 Morón de la Frontera, Spain",
+      "phone": "+34-955-84-3421",
+      "url": "https://www.moron.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "moron-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Morón AB, Morón de la Frontera, Spain",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Morón AB Visitor Center / Pass & ID",
+      "url": "https://www.moron.af.mil/Newcomers/",
+      "phone": "+34-955-84-1110",
+      "address": "Main Gate area, Morón Air Base, 41530 Morón de la Frontera, Spain"
+    },
+    "moreInfoURL": "https://www.moron.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Morón AB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.moron.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging available through Hotel Frontera.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/moron-ab/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Morón AB Official Site",
+            "url": "https://www.moron.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.moron.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://moronforcesupport.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/moron-ab/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/moron"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

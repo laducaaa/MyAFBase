@@ -1,0 +1,323 @@
+{
+  "id": "jber",
+  "name": "JBER",
+  "fullName": "Joint Base Elmendorf-Richardson",
+  "location": "Anchorage, AK",
+  "description": "Joint Base Elmendorf-Richardson hosts the 673rd Air Base Wing and 3rd Wing, providing air superiority, mobility, and joint-service support in the Pacific.",
+  "wing": "673 ABW",
+  "latitude": 61.2524,
+  "longitude": -149.8068,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "jber-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "JBER Security Forces",
+      "number": "907-552-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "907-552-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-richardson-gate-main",
+      "name": "Richardson Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Richardson Dr, JBER, AK 99505",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-elmendorf-gate",
+      "name": "Elmendorf Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Elmendorf Dr, JBER, AK 99506",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-boniface-gate",
+      "name": "Boniface Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "low",
+      "address": "Boniface Pkwy, Anchorage, AK 99504",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-jber-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at JBER.",
+      "hours": "See posted meal hours",
+      "address": "6480 4th St, Joint Base Elmendorf-Richardson, AK 99506",
+      "phone": "907-552-1110",
+      "url": "https://www.jberfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-jber-bx",
+      "name": "JBER Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at JBER.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "6480 4th St, Joint Base Elmendorf-Richardson, AK 99506",
+      "phone": "907-552-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/jber-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jber-commissary",
+      "name": "JBER Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "6480 4th St, Joint Base Elmendorf-Richardson, AK 99506",
+      "phone": "907-552-1110",
+      "url": "https://shop.commissaries.com/stores/joint-base-elmendorf-richardson",
+      "building": null
+    },
+    {
+      "id": "res-jber-medical",
+      "name": "673rd Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for JBER. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-580-2778",
+      "url": "https://jber.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jber-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at JBER.",
+      "hours": "See FSS for current hours",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-1110",
+      "url": "https://www.jberfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-jber-finance",
+      "name": "673rd Comptroller Squadron",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-3978",
+      "url": "https://www.jber.af.mil/Units/673rd-Comptroller-Squadron/",
+      "building": null
+    },
+    {
+      "id": "res-jber-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-1110",
+      "url": "https://www.jberfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jber-fss",
+      "name": "673 ABW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-1110",
+      "url": "https://www.jberfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jber-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-elmendorf-richardson/",
+      "building": null
+    },
+    {
+      "id": "res-jber-recreation-1",
+      "name": "Moose Run Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at JBER.",
+      "hours": "See FSS for current hours",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-2454",
+      "url": "https://www.jberfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-jber-visitor-center",
+      "name": "JBER Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "6480 4th St, Joint Base Elmendorf-Richardson, AK 99506",
+      "phone": "907-552-3978",
+      "url": "https://www.jber.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-jber-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "JBER, Anchorage, AK",
+      "phone": "907-552-3421",
+      "url": "https://www.jber.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "jber-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JBER, Anchorage, AK",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "jber-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "JBER, Anchorage, AK",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "JBER Visitor Center",
+      "url": "https://www.jber.af.mil/Newcomers/",
+      "phone": "907-552-3978",
+      "address": "6480 4th St, Joint Base Elmendorf-Richardson, AK 99506"
+    },
+    "moreInfoURL": "https://www.jber.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for JBER reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.jber.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-elmendorf-richardson/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "JBER Official Site",
+            "url": "https://www.jber.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.jber.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.jberfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-elmendorf-richardson/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/jber"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

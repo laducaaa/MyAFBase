@@ -1,0 +1,124 @@
+{
+  "id": "base-id-slug",
+  "name": "Base Short Name (e.g. Keesler AFB)",
+  "fullName": "Full Official Base Name",
+  "location": "City, ST",
+  "description": "One or two sentences about the installation, major wing, and mission.",
+  "wing": "Wing abbreviation (e.g. 81 TRW)",
+  "latitude": 0.0,
+  "longitude": 0.0,
+  "dataUpdatedAt": "2026-01-01T12:00:00Z",
+  "currentNotifications": [
+    {
+      "id": "base-id-notif-1",
+      "title": "Notification title",
+      "body": "Notification body text shown in Home and Alerts tabs.",
+      "type": "info",
+      "postedAt": "2026-01-01T12:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Base Security Forces",
+      "number": "000-000-0000"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-1",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Street address, City, ST ZIP",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "name": "Resource name",
+      "category": "services",
+      "description": "Short description of the resource.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Address or building, City, ST ZIP",
+      "phone": "000-000-0000",
+      "url": "https://www.example.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "title": "Event title",
+      "date": "2026-01-01T18:00:00Z",
+      "endDate": "2026-01-01T20:00:00Z",
+      "location": "Venue name",
+      "address": "Address, City, ST ZIP",
+      "description": "Event description for the detail sheet.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Center",
+      "url": "https://www.example.af.mil/",
+      "phone": "000-000-0000",
+      "address": "Visitor center address"
+    },
+    "moreInfoURL": "https://www.example.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "What to bring for in-processing (orders, CAC, medical records, etc.).",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "When and where to report after arrival.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "Official newcomers page",
+            "url": "https://www.example.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Housing office guidance for on-base and off-base.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Sponsor expectations and who to contact if none assigned.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Links to FSS, newcomers guide, and community support.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "Force Support Squadron",
+            "url": "https://examplefss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

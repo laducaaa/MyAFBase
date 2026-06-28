@@ -1,0 +1,456 @@
+{
+  "id": "buckley",
+  "name": "Buckley SFB",
+  "fullName": "Buckley Space Force Base",
+  "location": "Aurora, CO",
+  "description": "Buckley SFB hosts Space Delta 4 missile warning operations and Space Base Delta 2 in the Denver metro area. Home of the 460th Space Wing and a major joint-force installation with Army, Navy, and National Guard tenants.",
+  "wing": "SBD 2 / SD 4",
+  "latitude": 39.7017,
+  "longitude": -104.7517,
+  "dataUpdatedAt": "2026-06-28T12:00:00Z",
+  "currentNotifications": [
+    {
+      "id": "buckley-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass — Trusted Traveler Program suspended.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "720-847-9250"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "On-Base Emergency (Cell)",
+      "number": "720-847-9117"
+    },
+    {
+      "id": "em-4",
+      "label": "Base Operator / Phone Menu",
+      "number": "720-847-9011"
+    },
+    {
+      "id": "em-5",
+      "label": "460th Medical Group Appointments",
+      "number": "720-847-9355"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-mississippi",
+      "name": "Mississippi Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate. Can issue visitor passes when VCC is closed (up to 72 hours). Visitor Control Center located here.",
+      "traffic": "high",
+      "address": "E. Mississippi Ave & Aspen St, Aurora, CO 80011",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-6th-ave",
+      "name": "6th Avenue Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Closed weekends, federal holidays, and SBD 2 down days. Large Vehicle Inspection Point (LVIP) for moving vans east of this gate.",
+      "traffic": "moderate",
+      "address": "18500 E 6th Ave, Aurora, CO 80011",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-telluride",
+      "name": "Telluride Gate",
+      "status": "closed",
+      "hours": "Closed until further notice",
+      "notes": "Gate closed until further notice.",
+      "traffic": "low",
+      "address": "N Telluride St, Aurora, CO 80011",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Mississippi Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1500",
+      "notes": "Walk-in only. Closed weekends, federal holidays, and SBD 2 down days. Pre-register visitors via DBIDS/DVES. REAL ID required.",
+      "traffic": "moderate",
+      "address": "1140 Aspen St, Aurora, CO 80017",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-buckley-panther-cafe",
+      "name": "Panther Café",
+      "category": "dining",
+      "description": "Coffee shop and light breakfast — espresso drinks, breakfast burritos, and biscuit sandwiches.",
+      "hours": "Mon-Fri 0800-1330",
+      "address": "Bldg 1032, Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6919",
+      "url": "https://460fss.com/panther-cafe/",
+      "building": "Bldg 1032"
+    },
+    {
+      "id": "res-buckley-community-center",
+      "name": "Community Center (Panther's Den)",
+      "category": "dining",
+      "description": "We Proudly Serve Starbucks, breakfast and lunch grill, and Panther Den lounge Wed-Fri evenings. Pool tables, foosball, and community events.",
+      "hours": "Breakfast Mon-Fri 0700-0930; Lunch grill Mon-Fri 1030-1330; Starbucks Mon-Tue 0700-1400, Wed-Fri 0700-2000; Panther Den lounge Wed-Fri 1600-2000",
+      "address": "18410 E Devils Thumb Ave, Bldg 630, Buckley SFB, CO 80011",
+      "phone": "720-847-7540",
+      "url": "https://460fss.com/community-center/",
+      "building": "Bldg 630"
+    },
+    {
+      "id": "res-buckley-bx-food-court",
+      "name": "BX Food Court",
+      "category": "dining",
+      "description": "Fast food and retail dining options inside the Buckley Main Exchange.",
+      "hours": "Daily 0700-1700",
+      "address": "365 N Telluride St, Bldg 1, Buckley SFB, CO 80011",
+      "phone": "720-859-9626",
+      "url": "https://www.shopmyexchange.com/store-locator/buckley-main-exchange",
+      "building": "Bldg 1"
+    },
+    {
+      "id": "res-buckley-rickenbackers",
+      "name": "Rickenbacker's Coffee Shop (Rocky Mountain Lodge)",
+      "category": "dining",
+      "description": "Starbucks coffee and breakfast items in the Rocky Mountain Lodge lobby.",
+      "hours": "Mon-Fri 0600-1000",
+      "address": "345 S Beaver Creek St, Bldg 331, Buckley SFB, CO 80011",
+      "phone": "720-847-5899",
+      "url": "https://460fss.com/",
+      "building": "Bldg 331"
+    },
+    {
+      "id": "res-buckley-bx",
+      "name": "Buckley SFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, and optical.",
+      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "address": "365 N Telluride St, Bldg 1, Buckley SFB, CO 80011",
+      "phone": "720-859-9626",
+      "url": "https://www.shopmyexchange.com/store-locator/buckley-main-exchange",
+      "building": "Bldg 1"
+    },
+    {
+      "id": "res-buckley-commissary",
+      "name": "Buckley SFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery with bakery, deli, sushi bar, and CLICK2GO curbside pickup. Open 362 days per year.",
+      "hours": "Sun 0900-1800; Mon 0900-1800; Tue 0900-1900; Wed-Thu 0900-1800; Fri 0900-1800; Sat 0900-1800",
+      "address": "365 N Telluride St, Bldg 1 Stop 75, Buckley SFB, CO 80011",
+      "phone": "720-847-7100",
+      "url": "https://shop.commissaries.com/stores/buckley-afb",
+      "building": "Bldg 1"
+    },
+    {
+      "id": "res-buckley-shoppette",
+      "name": "BX Shoppette / Class Six",
+      "category": "shopping",
+      "description": "Convenience store and gas station on the BX/commissary complex.",
+      "hours": "Daily 0600-2200",
+      "address": "365 N Telluride St, Buckley SFB, CO 80011",
+      "phone": "720-859-9626",
+      "url": "https://www.shopmyexchange.com/store-locator/buckley-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-buckley-medical",
+      "name": "460th Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, dental, optometry, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon-Tue/Thu-Fri 0730-1630; Wed 0930-1630 (closed Wed morning for training)",
+      "address": "275 S Aspen St, Bldg 600, Buckley SFB, CO 80011",
+      "phone": "720-847-9355",
+      "url": "https://buckley.tricare.mil/",
+      "building": "Bldg 600"
+    },
+    {
+      "id": "res-buckley-dental",
+      "name": "460th Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "18230 E Silver Creek St, Bldg 392, Buckley SFB, CO 80011",
+      "phone": "720-847-4118",
+      "url": "https://buckley.tricare.mil/",
+      "building": "Bldg 392"
+    },
+    {
+      "id": "res-buckley-pharmacy",
+      "name": "460th Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon/Tue/Thu/Fri 0730-1630; Wed 1000-1630",
+      "address": "317 N Telluride St, Bldg 7, Buckley SFB, CO 80011",
+      "phone": "720-847-7455",
+      "url": "https://buckley.tricare.mil/",
+      "building": "Bldg 7"
+    },
+    {
+      "id": "res-buckley-fitness",
+      "name": "Buckley SFB Fitness Center",
+      "category": "fitness",
+      "description": "4,600 sq ft weight room, cardio theater, indoor track, racquetball, basketball gym, group exercise, and parent-child area. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0530-2000; Sat-Sun/Holidays 24/7 CAC access only",
+      "address": "17890 E Steamboat Ave, Bldg 35, Buckley SFB, CO 80011",
+      "phone": "720-847-6679",
+      "url": "https://460fss.com/fitness-center/",
+      "building": "Bldg 35"
+    },
+    {
+      "id": "res-buckley-ent-cu",
+      "name": "Ent Credit Union (Buckley Service Center)",
+      "category": "finance",
+      "description": "Full-service credit union branch with deposit accounts, loans, HELOCs, shared branch services, and 24-hour walk-up ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "365 N Telluride St, Buckley SFB, CO 80011",
+      "phone": "800-525-9623",
+      "url": "https://www.ent.com/our-locations/denver-region/buckley-space-force-base-service-center/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1030, Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6416",
+      "url": "https://www.buckley.spaceforce.mil/",
+      "building": "Bldg 1030"
+    },
+    {
+      "id": "res-buckley-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon/Tue/Thu/Fri 0800-1500; Wed 0800-1200; CAC walk-in Mon-Fri 0800-1100",
+      "address": "18401 E A-Basin Ave, Bldg 606, Buckley SFB, CO 80011",
+      "phone": "720-847-4357",
+      "url": "https://460fss.com/military-personnel-flight/",
+      "building": "Bldg 606"
+    },
+    {
+      "id": "res-buckley-fss",
+      "name": "460th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Varies by facility",
+      "address": "Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6919",
+      "url": "https://460fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-mfrc",
+      "name": "Military & Family Readiness Center (A&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 606, Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6681",
+      "url": "https://460fss.com/",
+      "building": "Bldg 606"
+    },
+    {
+      "id": "res-buckley-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Balfour Beatty) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "17300 E Keystone Blvd, Aurora, CO 80017",
+      "phone": "720-847-5815",
+      "url": "https://www.housing.af.mil/Home/Installations/Buckley-SFB/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-lodge",
+      "name": "Rocky Mountain Lodge (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites. Pet-friendly TLF available. Rickenbacker's coffee shop in lobby.",
+      "hours": "Front desk 24/7; Check-in 1400, Check-out 1100",
+      "address": "345 S Beaver Creek St, Bldg 331, Buckley SFB, CO 80011",
+      "phone": "720-847-5899",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 331"
+    },
+    {
+      "id": "res-buckley-dorm",
+      "name": "Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Dorm management for E-1 to E-3 and E-4 with less than 3 years of service. 1+1 suite configuration.",
+      "hours": "Mon-Fri 0700-1630",
+      "address": "18101 E Steamboat Ave, Buckley SFB, CO 80011",
+      "phone": "720-847-6701",
+      "url": "https://www.housing.af.mil/Home/Installations/Buckley-SFB/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-odr",
+      "name": "Outdoor Recreation & ITT",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, ski lift tickets, theme park tickets, and adventure trips.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1022, Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6853",
+      "url": "https://460fss.com/outdoor-recreation/",
+      "building": "Bldg 1022"
+    },
+    {
+      "id": "res-buckley-intramural-golf",
+      "name": "Intramural Outdoor Golf League",
+      "category": "recreation",
+      "description": "Seasonal intramural golf league at local Denver-area courses. No on-base golf course.",
+      "hours": "Seasonal — see FSS intramural sports calendar",
+      "address": "Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-6679",
+      "url": "https://460fss.com/fitness-center/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. All visitors require a pass — Trusted Traveler suspended. Pre-register via DBIDS/DVES.",
+      "hours": "Mon-Fri 0700-1500",
+      "address": "1140 Aspen St (Mississippi Gate), Aurora, CO 80017",
+      "phone": "720-847-9381",
+      "url": "https://www.buckley.spaceforce.mil/About-Us/Installation-Visitors/",
+      "building": null
+    },
+    {
+      "id": "res-buckley-security-forces",
+      "name": "Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations.",
+      "hours": "24/7",
+      "address": "Buckley SFB, Aurora, CO 80011",
+      "phone": "720-847-9250",
+      "url": "https://www.buckley.spaceforce.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "buckley-evt-funfest",
+      "title": "Funfest Community Celebration",
+      "date": "2026-07-11T15:00:00Z",
+      "endDate": "2026-07-11T22:00:00Z",
+      "location": "460th Force Support Squadron",
+      "address": "Buckley SFB, Aurora, CO 80011",
+      "description": "Annual base-wide community celebration with food, music, and family activities.",
+      "category": "community"
+    },
+    {
+      "id": "buckley-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "Bldg 606, Buckley SFB, Aurora, CO 80011",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Buckley SFB Visitor Control Center",
+      "url": "https://www.buckley.spaceforce.mil/About-Us/Newcomers/",
+      "phone": "720-847-9381",
+      "address": "1140 Aspen St, Aurora, CO 80017"
+    },
+    "moreInfoURL": "https://www.buckley.spaceforce.mil/About-Us/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) during duty hours. Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance in Bldg 1030 for travel voucher.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.buckley.spaceforce.mil/About-Us/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Rocky Mountain Lodge offers temporary lodging — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Buckley-SFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Rocky Mountain Lodge",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "Mississippi Gate is open 24/7. 6th Avenue Gate is Mon-Fri 0600-1800. Visitor Control Center hours are Mon-Fri 0700-1500. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Gate Hours",
+            "url": "https://www.buckley.spaceforce.mil/About-Us/Fact-Sheets/Article/731844/buckley-gate-hours/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Buckley SFB Official Site",
+            "url": "https://www.buckley.spaceforce.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "460th Force Support Squadron",
+            "url": "https://460fss.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "460th Medical Group",
+            "url": "https://buckley.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

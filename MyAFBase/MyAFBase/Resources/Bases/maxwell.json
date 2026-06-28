@@ -1,0 +1,312 @@
+{
+  "id": "maxwell",
+  "name": "Maxwell AFB",
+  "fullName": "Maxwell-Gunter Air Force Base",
+  "location": "Montgomery, AL",
+  "description": "Home of Air University and the 42nd Air Base Wing, Maxwell-Gunter is the Air Force's center for professional military education and doctrine development.",
+  "wing": "42 ABW",
+  "latitude": 32.3829,
+  "longitude": -86.3618,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "maxwell-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Maxwell AFB Security Forces",
+      "number": "334-953-2502"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "334-953-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-maxwell-gate-1-main",
+      "name": "Maxwell Gate 1 (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Maxwell Blvd, Maxwell AFB, AL 36112",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gunter-gate",
+      "name": "Gunter Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "Gunter Annex, Montgomery, AL 36114",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-maxwell-dfac",
+      "name": "River Region Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Maxwell AFB.",
+      "hours": "See posted meal hours",
+      "address": "50 LeMay Plaza N, Maxwell AFB, AL 36112",
+      "phone": "334-953-6294",
+      "url": "https://www.maxwellfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-bx",
+      "name": "Maxwell AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Maxwell AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "50 LeMay Plaza N, Maxwell AFB, AL 36112",
+      "phone": "334-953-6294",
+      "url": "https://www.shopmyexchange.com/store-locator/maxwell-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-commissary",
+      "name": "Maxwell AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "50 LeMay Plaza N, Maxwell AFB, AL 36112",
+      "phone": "334-953-6294",
+      "url": "https://shop.commissaries.com/stores/maxwell-afb",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-medical",
+      "name": "42nd Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Maxwell AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-3368",
+      "url": "https://maxwell.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Maxwell AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-6294",
+      "url": "https://www.maxwellfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-finance",
+      "name": "42nd Comptroller Squadron",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-4001",
+      "url": "https://www.maxwell.af.mil/Units/42nd-Comptroller-Squadron/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-1110",
+      "url": "https://www.maxwellfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-fss",
+      "name": "42 ABW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-1110",
+      "url": "https://www.maxwellfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/maxwell-afb/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-recreation-1",
+      "name": "Maxwell Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Maxwell AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": null,
+      "url": "https://www.maxwellfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-visitor-center",
+      "name": "Maxwell AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "50 LeMay Plaza N, Maxwell AFB, AL 36112",
+      "phone": "334-953-6292",
+      "url": "https://www.maxwell.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "phone": "334-953-2502",
+      "url": "https://www.maxwell.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "maxwell-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Maxwell AFB, Montgomery, AL",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Maxwell AFB Visitor Center",
+      "url": "https://www.maxwell.af.mil/Newcomers/",
+      "phone": "334-953-6292",
+      "address": "50 LeMay Plaza N, Maxwell AFB, AL 36112"
+    },
+    "moreInfoURL": "https://www.maxwell.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Maxwell AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.maxwell.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/maxwell-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Maxwell AFB Official Site",
+            "url": "https://www.maxwell.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.maxwell.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.maxwellfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/maxwell-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/maxwell"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

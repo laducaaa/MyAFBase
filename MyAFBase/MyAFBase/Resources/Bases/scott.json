@@ -1,0 +1,495 @@
+{
+  "id": "scott",
+  "name": "Scott AFB",
+  "fullName": "Scott Air Force Base",
+  "location": "Belleville, IL",
+  "description": "Home of Air Mobility Command HQ and the 375th Airlift Wing — the Showcase Wing. Scott commands and controls all U.S. military airlift and air refueling.",
+  "wing": "375 AW / AMC HQ",
+  "latitude": 38.5418,
+  "longitude": -89.835,
+  "dataUpdatedAt": "2026-06-23T16:37:58Z",
+  "currentNotifications": [
+    {
+      "id": "scott-notif-1",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant ID or U.S. passport required for base access. Non-compliant IDs require additional vetting — allow extra time.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "375th SFS Base Defense Operations Center",
+      "number": "618-256-2223"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "618-256-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "375th Medical Group Clinic",
+      "number": "618-256-7480"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "618-256-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-west",
+      "name": "Main West Gate (Scott-Troy Rd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access from Scott-Troy Road. Visitor processing available.",
+      "traffic": "high",
+      "address": "Scott-Troy Rd, Scott AFB, IL 62225",
+      "latitude": 38.5418,
+      "longitude": -89.843
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate (Rieder Rd)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-2200; Sat-Sun 0700-2200",
+      "notes": "Access from Rieder Road on north side of base.",
+      "traffic": "moderate",
+      "address": "Rieder Rd, Shiloh, IL 62269",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate (Lebanon Ave)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
+      "notes": "Access from Lebanon Avenue. Closed weekends — use Main West or North Gate.",
+      "traffic": "low",
+      "address": "Lebanon Ave, Belleville, IL 62221",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc-west",
+      "name": "Visitor Control Center (West Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-2000; Sat-Sun 0700-1700",
+      "notes": "New visitors and guests without base credentials stop here. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Scott-Troy Rd at West Gate, Scott AFB, IL 62225",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-scott-daedalian-dfac",
+      "name": "Daedalian Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC at Scott AFB. Hot meals, salad bar, and grill.",
+      "hours": "Mon-Fri: Bfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Bfast 0730-0900, Lunch 1130-1300, Dinner 1700-1830",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4330",
+      "url": "https://www.scottfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-scott-gateway-club",
+      "name": "Scott Gateway Club (All-Ranks Club)",
+      "category": "dining",
+      "description": "All-ranks club restaurant and bar with private event space.",
+      "hours": "Tue-Fri 1100-2100; Sat 1200-2100; closed Sun-Mon",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-3354",
+      "url": "https://www.scottfss.com/clubs/",
+      "building": null
+    },
+    {
+      "id": "res-scott-subway-bx",
+      "name": "Subway (BX Food Court)",
+      "category": "dining",
+      "description": "Subway sandwich shop in the Scott AFB Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "203 W Winters St (BX Area), Scott AFB, IL 62225",
+      "phone": "618-256-5323",
+      "url": "https://www.shopmyexchange.com/store-locator/scott-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-scott-charley-bx",
+      "name": "Charley's Grilled Subs (BX Food Court)",
+      "category": "dining",
+      "description": "Charley's Grilled Subs inside the Scott Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "203 W Winters St (BX Area), Scott AFB, IL 62225",
+      "phone": "618-256-5323",
+      "url": "https://www.shopmyexchange.com/store-locator/scott-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-scott-taco-bell-bx",
+      "name": "Taco Bell (BX Food Court)",
+      "category": "dining",
+      "description": "Taco Bell inside the Scott AFB Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "203 W Winters St (BX Area), Scott AFB, IL 62225",
+      "phone": "618-256-5323",
+      "url": "https://www.shopmyexchange.com/store-locator/scott-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-scott-main-exchange",
+      "name": "Scott AFB Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX: clothing, electronics, optical, barbershop, food court, and Military Star card.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "203 W Winters St, Scott AFB, IL 62225",
+      "phone": "618-256-5323",
+      "url": "https://www.shopmyexchange.com/store-locator/scott-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-scott-commissary",
+      "name": "Scott AFB Commissary",
+      "category": "shopping",
+      "description": "Full-service commissary grocery with deli, bakery, and CLICK2GO curbside.",
+      "hours": "Sun 0800-1900; Mon-Sat 0800-1900",
+      "address": "203 W Winters St, Scott AFB, IL 62225",
+      "phone": "618-212-7362",
+      "url": "https://shop.commissaries.com/stores/scott-afb",
+      "building": null
+    },
+    {
+      "id": "res-scott-medical-clinic",
+      "name": "Scott Medical Clinic (375th MDG)",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, urgent care, pharmacy, and dental at Scott AFB.",
+      "hours": "Primary care: Mon-Fri 0730-1630; Urgent care: 0730-1800 weekdays; pharmacy: Mon-Fri 0730-1730",
+      "address": "310 W Losey St, Scott AFB, IL 62225",
+      "phone": "618-256-7480",
+      "url": "https://scott.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-pharmacy",
+      "name": "Scott AFB Outpatient Pharmacy",
+      "category": "medical",
+      "description": "TRICARE outpatient pharmacy. Express Scripts mail order available.",
+      "hours": "Mon-Fri 0730-1730; Sat 0800-1200",
+      "address": "310 W Losey St, Scott AFB, IL 62225",
+      "phone": "618-256-7480",
+      "url": "https://scott.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-dental",
+      "name": "375th Dental Squadron",
+      "category": "medical",
+      "description": "Active-duty dental clinic. Appointment required.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-7480",
+      "url": "https://scott.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-liberty-fitness",
+      "name": "Liberty Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center: weight room, cardio, racquetball, basketball, group exercise, and indoor track. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0530-2100, Sat-Sun 0700-1700; 24/7 with registered CAC",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4700",
+      "url": "https://www.scottfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-scott-pool",
+      "name": "Scott AFB Aquatic Center (Indoor Pool)",
+      "category": "fitness",
+      "description": "Year-round indoor pool with lap lanes, group fitness, and swim lessons.",
+      "hours": "Mon-Fri 0600-1900; Sat 0800-1500; closed Sun",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4700",
+      "url": "https://www.scottfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-scott-scott-cu",
+      "name": "Scott Credit Union (On-Base Branch)",
+      "category": "finance",
+      "description": "Full-service Scott Credit Union branch: checking, savings, auto loans, mortgages, and VA home loans. ATM on-site 24/7.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1200",
+      "address": "Near BX Area, Scott AFB, IL 62225",
+      "phone": "618-345-1000",
+      "url": "https://www.scottcreditunion.org/",
+      "building": null
+    },
+    {
+      "id": "res-scott-usaa-atm",
+      "name": "USAA ATM (Near BX)",
+      "category": "finance",
+      "description": "USAA surcharge-free ATM near the Exchange.",
+      "hours": "ATM available 24/7",
+      "address": "BX Area, Scott AFB, IL 62225",
+      "phone": "800-531-8722",
+      "url": "https://www.usaa.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-finance-office",
+      "name": "375 CPTS Finance Customer Service",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance actions.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-7200",
+      "url": "https://www.scott.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-mpf",
+      "name": "375th Force Support Squadron (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, separations, and retirements.",
+      "hours": "Mon-Fri 0730-1600; RAPIDS appointments via RAPIDS.mil",
+      "address": "404 W Martin St, Bldg 1650, Scott AFB, IL 62225",
+      "phone": "618-256-5551",
+      "url": "https://www.scottfss.com/",
+      "building": "Bldg 1650"
+    },
+    {
+      "id": "res-scott-fss",
+      "name": "375th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs, family support, dining, fitness, and recreation.",
+      "hours": "Varies by facility",
+      "address": "404 W Martin St, Scott AFB, IL 62225",
+      "phone": "618-256-1110",
+      "url": "https://www.scottfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-6031",
+      "url": "https://www.scottfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-housing-office",
+      "name": "375 ABG Housing Management Office",
+      "category": "housing",
+      "description": "Government and privatized (Lendlease / Liberty Military Housing) family housing and referrals.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-5000",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/scott-afb/",
+      "building": null
+    },
+    {
+      "id": "res-scott-af-inn",
+      "name": "Gateway Inn (Scott AF Lodging)",
+      "category": "housing",
+      "description": "On-base TDY and PCS temporary lodging. Reserve via AF Reservations.",
+      "hours": "Front desk 24/7",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-6101",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-dorm-management",
+      "name": "Dormitory Management Office (UH Office)",
+      "category": "housing",
+      "description": "Unaccompanied housing management for eligible E-1 to E-3 permanent-party personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-5000",
+      "url": "https://www.scott.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-golf",
+      "name": "Scott Golf Course (Rolling Hills Golf Course)",
+      "category": "recreation",
+      "description": "18-hole course with pro shop and restaurant.",
+      "hours": "Daily sunrise to sunset; pro shop 0700-1800",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4630",
+      "url": "https://www.scottfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-scott-bowling",
+      "name": "Scott Bowling Center (Liberty Lanes)",
+      "category": "recreation",
+      "description": "Bowling center with food, arcade, and league play.",
+      "hours": "Tue-Thu 1200-2100; Fri-Sat 1200-2200; Sun 1300-1900; closed Mon",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4900",
+      "url": "https://www.scottfss.com/bowling/",
+      "building": null
+    },
+    {
+      "id": "res-scott-odr",
+      "name": "Outdoor Recreation / ITT (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, camping gear, ski packages, and discount tickets to St. Louis area attractions.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1400",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4700",
+      "url": "https://www.scottfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-scott-auto-hobby",
+      "name": "Auto Hobby Shop",
+      "category": "recreation",
+      "description": "DIY vehicle maintenance bays, lifts, tools, and car wash.",
+      "hours": "Tue-Sat 0900-1700",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-4000",
+      "url": "https://www.scottfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-arts-crafts",
+      "name": "Arts & Crafts Center",
+      "category": "recreation",
+      "description": "Awards, framing, engraving, printing, and custom gifts.",
+      "hours": "Tue-Sat 0900-1700",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-2993",
+      "url": "https://www.scottfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-scott-vcc",
+      "name": "Scott AFB Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required. Sponsor required for guests.",
+      "hours": "Mon-Fri 0600-2000; Sat-Sun 0700-1700",
+      "address": "West Gate, Scott-Troy Rd, Scott AFB, IL 62225",
+      "phone": "618-256-2223",
+      "url": "https://www.scott.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-scott-security-forces",
+      "name": "375th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense and law enforcement.",
+      "hours": "24/7",
+      "address": "Scott AFB, IL 62225",
+      "phone": "618-256-2223",
+      "url": "https://www.scott.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "scott-evt-1",
+      "title": "Scott AFB Air Show",
+      "date": "2026-05-16T09:00:00Z",
+      "endDate": "2026-05-17T17:00:00Z",
+      "location": "Scott AFB Flightline",
+      "address": "Scott AFB, IL 62225",
+      "description": "Biennial air show open to the public. Military and civilian aircraft displays.",
+      "category": "community"
+    },
+    {
+      "id": "scott-evt-2",
+      "title": "Newcomers Welcome Brief",
+      "date": "2026-07-14T08:00:00Z",
+      "endDate": "2026-07-14T12:00:00Z",
+      "location": "375 FSS Community Center",
+      "address": "Scott AFB, IL 62225",
+      "description": "Monthly newcomers orientation for incoming personnel and families.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "In-Processing / Newcomers Page",
+      "url": "https://www.scott.af.mil/Newcomers/",
+      "phone": "618-256-1110",
+      "address": "404 W Martin St, Scott AFB, IL 62225"
+    },
+    "moreInfoURL": "https://www.scott.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical/dental records, marriage/birth certificates, and all travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing",
+        "body": "Check in with your unit and complete MPF in-processing within required timelines. AMC HQ is at Scott — coordinate with your specific directorate for additional reporting requirements.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "Scott Newcomers",
+            "url": "https://www.scott.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Housing at 618-256-5000 before arrival. Privatized family housing (Liberty Military Housing). Temporary lodging: Gateway Inn 618-256-6101. Dorm management: 618-256-5000.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "Scott Housing",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/scott-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "St. Louis Metro Area",
+        "body": "Scott is 25 miles east of St. Louis across the Mississippi River. Gateway Arch, Cardinals, and Blues nearby. Weather: cold winters with snow, hot humid summers.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Key contacts: BDOC 618-256-2223 | Housing 618-256-5000 | MPF 618-256-5551 | Medical 618-256-7480 | FSS 618-256-1110.",
+        "links": [
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/scott-air-force-base"
+          },
+          {
+            "id": "link-bd",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

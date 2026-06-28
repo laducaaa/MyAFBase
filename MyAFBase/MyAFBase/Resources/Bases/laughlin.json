@@ -1,0 +1,248 @@
+{
+  "id": "laughlin",
+  "name": "Laughlin AFB",
+  "fullName": "Laughlin Air Force Base",
+  "location": "Del Rio, TX",
+  "description": "Home of the 47th Flying Training Wing. Laughlin AFB conducts specialized undergraduate pilot training along the Rio Grande, training hundreds of pilots annually.",
+  "wing": "47 FTW",
+  "latitude": 29.3594,
+  "longitude": -100.778,
+  "dataUpdatedAt": "2026-06-24T15:55:00Z",
+  "currentNotifications": [
+    {
+      "id": "laughlin-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Laughlin AFB Security Forces",
+      "number": "830-298-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "830-298-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "830-298-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-west",
+      "name": "West Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with visitor processing.",
+      "traffic": "high",
+      "address": "West Gate, Spur 317, Laughlin AFB, TX 78840",
+      "latitude": 29.3594,
+      "longitude": -100.778
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri 1430-1730 (outbound only)",
+      "notes": "Limited outbound traffic only. Closed weekends.",
+      "traffic": "low",
+      "address": "North Gate, Laughlin AFB, TX 78840",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 7002)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required. Located at SS317N.",
+      "traffic": "moderate",
+      "address": "SS317N, Bldg 7002, Laughlin AFB, TX 78840",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-laughlin-dfac-losano",
+      "name": "Losano Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting pilot training squadrons with full meal service.",
+      "hours": "See posted meal hours",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-5251",
+      "url": "https://www.laughlinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-laughlin-bx",
+      "name": "Laughlin Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-laughlin-border-cu",
+      "name": "Border Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 341, Laughlin AFB, TX 78840",
+      "phone": "830-774-2328",
+      "url": null,
+      "building": "Bldg 341"
+    },
+    {
+      "id": "res-laughlin-fitness-losano",
+      "name": "Losano Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, indoor lap pool, and aerobics classes.",
+      "hours": "See FSS for current hours",
+      "address": "Bldg 362, Mitchell Blvd, Laughlin AFB, TX 78840",
+      "phone": "830-298-5251",
+      "url": "https://www.laughlinfss.com/",
+      "building": "Bldg 362"
+    },
+    {
+      "id": "res-laughlin-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for student pilots and permanent party.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-laughlin-lodging",
+      "name": "Laughlin Manor (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals. Includes DVQ and TLF.",
+      "hours": "Front desk 24/7",
+      "address": "Bldg 454, 4th and Arnold Streets, Laughlin AFB, TX 78840",
+      "phone": "830-298-5731",
+      "url": "https://www.laughlinfss.com/",
+      "building": "Bldg 454"
+    },
+    {
+      "id": "res-laughlin-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, school liaison, and family programs. Pre-Arrival Orientation available.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Bldg 362, Mitchell Blvd, Laughlin AFB, TX 78840",
+      "phone": "830-298-5620",
+      "url": "https://www.laughlinfss.com/",
+      "building": "Bldg 362"
+    },
+    {
+      "id": "res-47-fss",
+      "name": "47th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-1110",
+      "url": "https://www.laughlinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-laughlin-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, Southwinds Marina, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Bldg 540, Laughlin AFB, TX 78840",
+      "phone": "830-298-5830",
+      "url": "https://www.laughlinfss.com/",
+      "building": "Bldg 540"
+    },
+    {
+      "id": "res-laughlin-golf",
+      "name": "Laughlin Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-1110",
+      "url": "https://www.laughlinfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-laughlin-medical",
+      "name": "47th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Laughlin AFB, TX 78840",
+      "phone": "830-298-1110",
+      "url": "https://laughlin.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 7002)",
+      "url": "https://www.laughlin.af.mil/About-Us/Visitor-Control-Center/",
+      "phone": "830-298-5349",
+      "address": "SS317N, Bldg 7002, Laughlin AFB, TX 78840"
+    },
+    "moreInfoURL": "https://www.laughlinfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Laughlin Manor (830-298-5731) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/laughlin-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "47 FSS, M&FRC, and official Laughlin sites for in-processing and pilot training support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "47th Force Support Squadron",
+            "url": "https://www.laughlinfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.laughlinfss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

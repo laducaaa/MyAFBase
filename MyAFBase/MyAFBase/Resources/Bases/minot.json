@@ -1,0 +1,248 @@
+{
+  "id": "minot",
+  "name": "Minot AFB",
+  "fullName": "Minot Air Force Base",
+  "location": "Minot, ND",
+  "description": "Home of the 5th Bomb Wing and 91st Missile Wing. Minot AFB operates B-52 bombers and Minuteman III ICBMs, providing strategic deterrence in the northern tier.",
+  "wing": "5 BW",
+  "latitude": 48.4158,
+  "longitude": -101.3587,
+  "dataUpdatedAt": "2026-06-24T15:35:00Z",
+  "currentNotifications": [
+    {
+      "id": "minot-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Minot AFB Security Forces",
+      "number": "701-723-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "701-723-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "701-723-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Magic City Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access with visitor processing. Visitor passes available 24 hours at Main Gate.",
+      "traffic": "high",
+      "address": "Magic City Gate, Minot AFB, ND 58705",
+      "latitude": 48.4158,
+      "longitude": -101.3587
+    },
+    {
+      "id": "gate-minot-city",
+      "name": "Minot City Gate (South Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1730",
+      "notes": "South side access. Closed weekends.",
+      "traffic": "moderate",
+      "address": "Minot City Gate, Minot AFB, ND 58705",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Daily 0600-1800",
+      "notes": "Day passes and visitor registration. Located at 196 Missile Ave. REAL ID required.",
+      "traffic": "moderate",
+      "address": "196 Missile Ave, Minot AFB, ND 58705",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-minot-dfac-dakota",
+      "name": "Dakota Inn Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC serving the 5th Bomb Wing and 91st Missile Wing with full meal service and grab-and-go options.",
+      "hours": "See posted meal hours; special holiday and birthday events for dorm residents",
+      "address": "213 Tanker Trail, Minot AFB, ND 58705",
+      "phone": "701-723-3503",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-bx",
+      "name": "Minot Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1800",
+      "address": "362 Missile Ave, Minot AFB, ND 58705",
+      "phone": "701-727-4717",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-northern-tier-cu",
+      "name": "Northern Tier Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union branch on base with ATM.",
+      "hours": "Mon-Fri 0800-1800; Sat 0900-1300",
+      "address": "210 Summit Drive, Minot AFB, ND 58704",
+      "phone": "701-727-6111",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-minot-fitness-mcadoo",
+      "name": "McAdoo Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with state-of-the-art equipment, indoor track, rock wall, racquetball, family workout room, saunas, and 24/7 access for registered CAC holders.",
+      "hours": "Staffed: Mon-Fri 0600-2100, Sat-Sun/Holidays 0800-1800; 24/7 for registered users",
+      "address": "220 Tanker Trail, Minot AFB, ND 58705",
+      "phone": "701-723-2145",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for unaccompanied personnel.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "221 Missile Ave, Minot AFB, ND 58705",
+      "phone": "701-723-7284",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-minot-lodging",
+      "name": "Sakakawea Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Front desk 24/7",
+      "address": "173 Summit Drive, Minot AFB, ND 58704",
+      "phone": "701-723-6161",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "291 Peacekeeper Place, Minot AFB, ND 58705",
+      "phone": "701-723-3950",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-5-fss",
+      "name": "5th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "See directory for individual facility hours",
+      "address": "Minot AFB, ND 58705",
+      "phone": "701-723-1110",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Minot AFB, ND 58705",
+      "phone": "701-723-4049",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-golf",
+      "name": "Minot AFB Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Minot AFB, ND 58705",
+      "phone": "701-723-1110",
+      "url": "https://5thforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-minot-medical",
+      "name": "5th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Minot AFB, ND 58705",
+      "phone": "701-723-1110",
+      "url": "https://minot.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://mybaseguide.com/base/minot-afb",
+      "phone": "701-723-2600",
+      "address": "196 Missile Ave, Minot AFB, ND 58705"
+    },
+    "moreInfoURL": "https://5thforcesupport.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Sakakawea Inn (701-723-6161) for initial arrival. Dormitory Management (701-723-7284) for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/minot-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "5 FSS, M&FRC, and official Minot sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "5th Force Support Squadron",
+            "url": "https://5thforcesupport.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://5thforcesupport.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

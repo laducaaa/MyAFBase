@@ -1,0 +1,259 @@
+{
+  "id": "langley",
+  "name": "JBLE-Langley",
+  "fullName": "Joint Base Langley-Eustis (Langley AFB)",
+  "location": "Hampton, VA",
+  "description": "Home to Air Combat Command headquarters and the 633d Air Base Wing. A key East Coast fighter and command base in the Hampton Roads region supporting ACC and joint operations.",
+  "wing": "633 ABW / ACC",
+  "latitude": 37.083,
+  "longitude": -76.36,
+  "dataUpdatedAt": "2026-06-23T21:15:00Z",
+  "currentNotifications": [
+    {
+      "id": "lang-notif-1",
+      "title": "Gate Access Reminders",
+      "body": "LaSalle Gate (Main) and Armistead Gate are primary 24/7 access points. Visitor Control Center at LaSalle Gate open 0700-1700 daily.",
+      "type": "info",
+      "postedAt": "2026-06-18T09:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-lang-1",
+      "label": "JBLE Security Forces (Langley)",
+      "number": "757-764-5701"
+    },
+    {
+      "id": "em-lang-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-lang-3",
+      "label": "Base Operator",
+      "number": "757-764-1110"
+    },
+    {
+      "id": "em-lang-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "757-764-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-lasalle",
+      "name": "LaSalle Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary gate with Visitor Control Center (Bldg 5). Daily 0700-1700 for visitor processing and passes.",
+      "traffic": "high",
+      "address": "LaSalle Gate, Langley AFB, Hampton, VA 23665",
+      "latitude": 37.083,
+      "longitude": -76.36
+    },
+    {
+      "id": "gate-armistead",
+      "name": "Armistead Gate (West)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 alternate access point. Useful for off-hours arrivals.",
+      "traffic": "moderate",
+      "address": "Armistead Gate, Langley AFB, Hampton, VA 23665",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-king-street",
+      "name": "King Street Gate",
+      "status": "open",
+      "hours": "Daily 0600-2000",
+      "notes": "Secondary access point with limited hours.",
+      "traffic": "moderate",
+      "address": "King Street Gate, Langley AFB, Hampton, VA 23665",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc-langley",
+      "name": "Visitor Control Center (Bldg 5)",
+      "status": "open",
+      "hours": "Daily 0700-1700",
+      "notes": "Day passes, visitor registration, and base access requests. Located outside LaSalle Gate.",
+      "traffic": "moderate",
+      "address": "Bldg 5, outside LaSalle Gate, Langley AFB, Hampton, VA 23665",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-langley-dfac",
+      "name": "Langley Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting ACC and 633 ABW personnel with full meal service and flight meals.",
+      "hours": "See posted meal hours at facility",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-bx",
+      "name": "Langley Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court options.",
+      "hours": "Mon-Sat 0900-1900; Sun 1100-1800 (typical)",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-langley-commissary",
+      "name": "Langley Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery store.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-langley-fitness-main",
+      "name": "Langley Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities.",
+      "hours": "See 633 FSS for current schedule; 24/7 access where available",
+      "address": "230 E. Flight Line Rd, Langley AFB, VA 23665",
+      "phone": "757-764-5701",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-housing-office",
+      "name": "Military Housing Office (Langley)",
+      "category": "housing",
+      "description": "On-base family housing assignments and off-base referrals for JBLE-Langley.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-langley-eustis/",
+      "building": null
+    },
+    {
+      "id": "res-langley-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for unaccompanied personnel.",
+      "hours": "Mon-Fri duty hours",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-lodging",
+      "name": "Langley Lodging / Inns",
+      "category": "housing",
+      "description": "Temporary lodging and TLF for PCS arrivals and official travel. 24-hour arrival point.",
+      "hours": "Front desk 24/7",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-mfrc",
+      "name": "Airman & Family Readiness Center (A&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, EFMP, deployment preparation, and family programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-6000",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-633-fss",
+      "name": "633d Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs for JBLE-Langley.",
+      "hours": "See FSS directory for individual facility hours",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-outdoor-rec",
+      "name": "Outdoor Recreation / Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course, pools (indoor/outdoor), bowling, shooting range, and recreational programs through 633 FSS.",
+      "hours": "See MWR for seasonal hours",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://www.jble.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-langley-medical",
+      "name": "633d Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services for the Langley community.",
+      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "address": "Langley AFB, Hampton, VA 23665",
+      "phone": "757-764-1110",
+      "url": "https://langley.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (LaSalle Gate)",
+      "url": "https://www.jble.af.mil/Home/Base-Access/",
+      "phone": "757-764-7770",
+      "address": "Bldg 5, outside LaSalle Gate, Langley AFB, Hampton, VA 23665"
+    },
+    "moreInfoURL": "https://www.jble.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records. REAL ID or equivalent required for base access. Sponsor required for visitors without DoD ID.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Report to Inns of Charleston / Langley Lodging for initial arrival. Contact Military Housing Office for family housing or Unaccompanied Housing for dorms.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-langley-eustis/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "633 FSS, A&FRC, and official JBLE sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "633d Force Support Squadron",
+            "url": "https://www.jble.af.mil/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Airman & Family Readiness Center",
+            "url": "https://www.jble.af.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}
