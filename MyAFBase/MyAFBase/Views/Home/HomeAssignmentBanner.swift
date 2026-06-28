@@ -46,14 +46,14 @@ struct HomeAssignmentBanner: View {
             guard let reportDate = profile.reportDate else { return nil }
             return (
                 countdownTitle(subject: "Report", date: reportDate),
-                "Inbound at \(baseName) · open Assignment for your checklist."
+                "In processing at \(baseName) · open Assignment for your checklist."
             )
 
         case .outbound:
             guard let pcsDate = profile.pcsDate else { return nil }
             return (
                 countdownTitle(subject: "PCS", date: pcsDate),
-                "Outbound from \(baseName) · use Leave Planner to check balances."
+                "Out processing from \(baseName) · use Leave Planner to check balances."
             )
 
         case .stationed:
@@ -62,7 +62,7 @@ struct HomeAssignmentBanner: View {
                 if days >= 0, days <= 120 {
                     return (
                         countdownTitle(subject: "PCS", date: pcsDate),
-                        "Planning ahead · set phase to Outbound when out-processing starts."
+                        "Planning ahead · set phase to Out Processing when out-processing starts."
                     )
                 }
             }

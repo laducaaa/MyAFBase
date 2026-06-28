@@ -7,7 +7,7 @@
   "wing": "366 FW",
   "latitude": 43.0456,
   "longitude": -115.8724,
-  "dataUpdatedAt": "2026-06-24T16:30:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "mountain-home-notif-real-id",
@@ -42,35 +42,35 @@
   ],
   "gates": [
     {
-      "id": "gate-grandview",
-      "name": "Grand View Gate",
+      "id": "gate-main",
+      "name": "Main Gate",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access point. Located off Grand View Highway. Main entry for routine access.",
+      "notes": "Primary 24/7 gate with Visitor Control Center.",
       "traffic": "high",
-      "address": "Grand View Gate, Mountain Home AFB, ID 83648",
-      "latitude": 43.0456,
+      "address": "Main Gate, Mountain Home AFB, ID 83648",
+      "latitude": 43.0436,
       "longitude": -115.8724
     },
     {
-      "id": "gate-main",
-      "name": "Main Gate",
-      "status": "closed",
-      "hours": "Currently closed until further notice",
-      "notes": "Visitor Control Center at Bldg 5400 remains open for pass processing. Main Gate entry point is closed.",
-      "traffic": "none",
-      "address": "Main Gate, Mountain Home AFB, ID 83648",
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Mountain Home AFB, ID 83648",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-vcc",
-      "name": "Visitor Control Center (Bldg 5400)",
+      "id": "gate-west",
+      "name": "West Gate",
       "status": "open",
-      "hours": "Mon-Fri 0730-1630; after hours passes at Grand View Gate",
-      "notes": "Day passes and visitor registration. REAL ID required. Located at 366 Gunfighter Ave. Gunfighter Pass program available for local civilians.",
-      "traffic": "moderate",
-      "address": "366 Gunfighter Ave, Bldg 5400, Mountain Home AFB, ID 83648",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "West Gate, Mountain Home AFB, ID 83648",
       "latitude": null,
       "longitude": null
     }
@@ -81,9 +81,9 @@
       "name": "Wagon Wheel Dining Facility",
       "category": "dining",
       "description": "Primary DFAC with 21-day menu, grab-n-go options, grill, deli, fresh vegetables, breads, and meats. ESM (Essential Station Messing) for dorm residents.",
-      "hours": "See posted meal hours; midnight meals available",
+      "hours": "Mon-Fri: Bfast 0600-0900, Lunch 1100-1300, Dinner 1630-1900, Midnight 2300-0130; Sat-Sun: Bfast 0700-0900, Lunch 1130-1330, Dinner 1700-1900",
       "address": "480 7th Avenue, Bldg 2316, Mountain Home AFB, ID 83648",
-      "phone": "208-828-2313",
+      "phone": "208-828-6420",
       "url": "https://mountainhomefss.com/",
       "building": "Bldg 2316"
     },
@@ -91,7 +91,7 @@
       "id": "res-mountain-home-bx",
       "name": "Mountain Home Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
+      "description": "Mountain Home Main Exchange with food court, barber, beauty shop, optical, GNC, laundry, and shoppette.",
       "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
       "address": "Mountain Home AFB, ID 83648",
       "phone": "208-828-1110",
@@ -103,21 +103,21 @@
       "name": "Mountain Home Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "hours": "Sun 1000-1800; Mon-Sat 9:00 AM-7:00 PM",
       "address": "Mountain Home AFB, ID 83648",
-      "phone": "208-828-1110",
-      "url": "https://shop.commissaries.com/",
+      "phone": "208-828-2164",
+      "url": "https://shop.commissaries.com/stores/mountain-home-afb",
       "building": null
     },
     {
       "id": "res-mountain-home-credit-union",
-      "name": "Idaho Central Credit Union / Local CU Branch",
+      "name": "Idaho Central Credit Union (Off-Base)",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
-      "hours": "Mon-Fri 0900-1700",
-      "address": "Mountain Home AFB, ID 83648",
-      "phone": "208-828-1110",
-      "url": null,
+      "description": "Off-base Idaho Central Credit Union serving Mountain Home AFB personnel. Nearest branches in Mountain Home and Boise.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1400 (off-base branches)",
+      "address": "Off-base — Mountain Home and Boise, ID",
+      "phone": "800-456-5067",
+      "url": "https://www.iccu.com/",
       "building": null
     },
     {
@@ -125,10 +125,10 @@
       "name": "Fitness & Sports Center",
       "category": "fitness",
       "description": "Main fitness facility with cardio, weights, group exercise, aquatics, and sports amenities.",
-      "hours": "See FSS for current hours",
-      "address": "Bldg 2371, Mountain Home AFB, ID 83648",
+      "hours": "Manned Mon-Fri 0600-1800; 24/7 CAC access after registration at main desk",
+      "address": "385 Aardvark Ave, Bldg 2371, Mountain Home AFB, ID 83648",
       "phone": "208-828-2381",
-      "url": "https://mountainhomefss.com/",
+      "url": "https://mountainhomefss.com/fitness-sports-center/",
       "building": "Bldg 2371"
     },
     {
@@ -147,7 +147,7 @@
       "name": "Sagebrush Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF with kitchenettes, laundry, and playground access. Pet-friendly rooms available (limited).",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "875 Falcon Street, Bldg 2320, Mountain Home AFB, ID 83648",
       "phone": "208-828-5200",
       "url": "https://mountainhomefss.com/",
@@ -169,9 +169,9 @@
       "name": "366th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Mountain Home AFB, ID 83648",
-      "phone": "208-828-1110",
+      "phone": "208-828-2381",
       "url": "https://mountainhomefss.com/",
       "building": null
     },
@@ -180,9 +180,9 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, FamCamp, Trap & Skeet Range, Gunsmoke Range, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Mountain Home AFB, ID 83648",
-      "phone": "208-828-2505",
+      "phone": "208-828-2246",
       "url": "https://mountainhomefss.com/",
       "building": null
     },
@@ -199,12 +199,12 @@
     },
     {
       "id": "res-mountain-home-bowling",
-      "name": "Strikers Bowling Center / Gunfighter Greens",
+      "name": "Strikers Bowling Center & Grill",
       "category": "recreation",
       "description": "Bowling alley with mini golf and recreational activities.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
       "address": "680 Falcon St, Bldg 2805, Mountain Home AFB, ID 83648",
-      "phone": "208-828-1110",
+      "phone": "208-828-6329",
       "url": "https://mountainhomefss.com/",
       "building": "Bldg 2805"
     },
@@ -213,10 +213,32 @@
       "name": "366th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Mountain Home AFB, ID 83648",
       "phone": "208-828-1110",
       "url": "https://mountainhome.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mountain-home-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
+      "address": "Mountain Home AFB, ID 83648",
+      "phone": "208-828-6700",
+      "url": "https://www.mountainhome.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mountain-home-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Mountain Home AFB, Mountain Home, ID",
+      "phone": "208-828-1110",
+      "url": "https://mountainhomefss.com/",
       "building": null
     }
   ],
@@ -264,6 +286,18 @@
             "url": "https://mountainhomefss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

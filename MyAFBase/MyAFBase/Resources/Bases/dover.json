@@ -7,7 +7,7 @@
   "wing": "436 AW",
   "latitude": 39.1295,
   "longitude": -75.466,
-  "dataUpdatedAt": "2026-06-24T17:05:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "dover-notif-real-id",
@@ -43,22 +43,22 @@
   "gates": [
     {
       "id": "gate-main",
-      "name": "Main Gate",
+      "name": "Main Gate (Liberty Way)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access point with visitor processing.",
+      "notes": "Primary 24/7 access off Route 113.",
       "traffic": "high",
-      "address": "Main Gate, Dover AFB, DE 19902",
-      "latitude": 39.1295,
-      "longitude": -75.466
+      "address": "Liberty Way, Dover AFB, DE 19902",
+      "latitude": 39.1301,
+      "longitude": -75.4663
     },
     {
       "id": "gate-north",
       "name": "North Gate",
       "status": "open",
-      "hours": "Mon-Fri 0630-0830",
-      "notes": "Limited morning hours access point.",
-      "traffic": "low",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "moderate",
       "address": "North Gate, Dover AFB, DE 19902",
       "latitude": null,
       "longitude": null
@@ -67,8 +67,8 @@
       "id": "gate-south",
       "name": "South Gate",
       "status": "open",
-      "hours": "Mon-Fri 0500-1930 (outbound only); Sat 0600-1330 (outbound only)",
-      "notes": "Outbound traffic only.",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
       "traffic": "low",
       "address": "South Gate, Dover AFB, DE 19902",
       "latitude": null,
@@ -79,7 +79,7 @@
       "name": "Visitor Control Center (Bldg 520)",
       "status": "open",
       "hours": "Mon-Fri 0600-1750; Sat-Sun 0900-1630",
-      "notes": "Day passes and visitor registration. REAL ID required. Phone: 302-677-3645. After hours: 302-677-6664.",
+      "notes": "REAL ID or alternate ID docs required. Phone: 302-677-3645; after-hours 302-677-6664.",
       "traffic": "moderate",
       "address": "Bldg 520, Dover AFB, DE 19902",
       "latitude": null,
@@ -102,8 +102,8 @@
       "id": "res-dover-bx",
       "name": "Dover Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
-      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "description": "Dover Main Exchange with food court, barber, beauty shop, optical, GNC, dry cleaning, and retail.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-1110",
       "url": "https://www.shopmyexchange.com/",
@@ -114,7 +114,7 @@
       "name": "Dover Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-1110",
       "url": "https://shop.commissaries.com/",
@@ -124,7 +124,7 @@
       "id": "res-dover-credit-union",
       "name": "Dover Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Thu 0900-1700; Fri 0900-1800",
       "address": "418 Atlantic St, Dover AFB, DE 19902",
       "phone": "302-678-8000",
@@ -158,7 +158,7 @@
       "name": "Eagle's Rest Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "Bldg 800, Green Way, Dover AFB, DE 19902",
       "phone": "302-677-2840",
       "url": "https://af.dodlodging.net/",
@@ -180,7 +180,7 @@
       "name": "436th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-1110",
       "url": "https://doverfss.com/",
@@ -191,7 +191,7 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental and recreational programs.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-2505",
       "url": "https://doverfss.com/",
@@ -213,7 +213,7 @@
       "name": "Eagle Lanes Bowling Center",
       "category": "recreation",
       "description": "Bowling alley with lanes and snack bar.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-3950",
       "url": "https://doverfss.com/",
@@ -224,10 +224,32 @@
       "name": "436th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Dover AFB, DE 19902",
       "phone": "302-677-1110",
       "url": "https://dover.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-dover-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0600-1750; Sat-Sun 0900-1630",
+      "address": "Dover AFB, DE 19902",
+      "phone": "302-677-3645",
+      "url": "https://www.dover.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-dover-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Dover AFB, Dover, DE",
+      "phone": "302-677-1110",
+      "url": "https://www.dover.af.mil/Welcome-to-Dover/Newcomers/",
       "building": null
     }
   ],
@@ -275,6 +297,18 @@
             "url": "https://doverfss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-06-24T16:40:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -165,7 +165,7 @@
       "id": "res-luke-credit-union",
       "name": "Credit Union West",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "Luke AFB, AZ 85309",
       "phone": "602-631-3200",
@@ -210,7 +210,7 @@
       "name": "Fighter Country Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. Pet-friendly rooms available (limited).",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "7012 N Bong Ln, Luke AFB, AZ 85309",
       "phone": "623-935-2641",
       "url": "https://56fss.com/",
@@ -232,7 +232,7 @@
       "name": "56th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs. Customer Service: 623-856-7875.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Luke AFB, AZ 85309",
       "phone": "623-856-7875",
       "url": "https://56fss.com/",
@@ -243,7 +243,7 @@
       "name": "Outdoor Recreation (ODR)",
       "category": "recreation",
       "description": "Equipment rental, recreational programs, and outdoor activities.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Luke AFB, AZ 85309",
       "phone": "623-856-6267",
       "url": "https://56fss.com/",
@@ -265,7 +265,7 @@
       "name": "Luke Bowling Center",
       "category": "recreation",
       "description": "Bowling alley with lanes and snack bar.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Luke AFB, AZ 85309",
       "phone": "623-856-1110",
       "url": "https://56fss.com/",
@@ -276,7 +276,7 @@
       "name": "56th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services. Morning sick call Mon/Tue/Thu/Fri 0730-0800; afternoon sick call Mon-Fri 1300-1330.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Bldg 1130, Luke AFB, AZ 85309",
       "phone": "623-856-2273",
       "url": "https://luke.tricare.mil/",
@@ -287,7 +287,7 @@
       "name": "Veterinary Clinic",
       "category": "medical",
       "description": "Pet wellness and veterinary services for military families.",
-      "hours": "See posted hours",
+      "hours": "Mon-Fri 0800-1600; call 623-856-2273 for appointments",
       "address": "Bldg 1146, Luke AFB, AZ 85309",
       "phone": "623-856-1110",
       "url": null,
@@ -338,6 +338,18 @@
             "url": "https://56fss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

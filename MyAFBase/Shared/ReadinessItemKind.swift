@@ -31,4 +31,7 @@ enum ReadinessItemKind: String, CaseIterable, Codable, Identifiable, Sendable {
         case .pcsWindow: "airplane.departure"
         }
     }
+
+    /// Kinds safe to expose in Home Screen widgets (excludes CAC/clearance metadata).
+    static let widgetKinds: [ReadinessItemKind] = [.fitness, .dental, .eval, .pcsWindow]
 }

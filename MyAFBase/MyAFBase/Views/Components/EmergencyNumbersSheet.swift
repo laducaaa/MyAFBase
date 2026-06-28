@@ -61,6 +61,11 @@ struct EmergencyNumbersSheet: View {
                 .font(.subheadline)
                 .foregroundStyle(.primary)
                 .fixedSize(horizontal: false, vertical: true)
+
+            Text(LegalCopy.emergencyVerify)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.top, 8)

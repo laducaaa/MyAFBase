@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-06-24T17:00:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -43,12 +43,12 @@
   "gates": [
     {
       "id": "gate-main",
-      "name": "Main Gate",
+      "name": "Main Gate (Miracle Strip Pkwy)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access point with visitor processing.",
+      "notes": "Primary 24/7 access on US Hwy 98. Visitor processing after VCC hours at gate with sponsor.",
       "traffic": "high",
-      "address": "Main Gate, Hurlburt Field, FL 32544",
+      "address": "US Hwy 98, Hurlburt Field, FL 32544",
       "latitude": 30.4281,
       "longitude": -86.6893
     },
@@ -57,9 +57,20 @@
       "name": "Soundside Gate (Back Gate)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "24/7 alternate access point.",
+      "notes": "24/7 alternate access. Visitor Control Center located on soundside across Hwy 98.",
       "traffic": "moderate",
-      "address": "Soundside Gate, Hurlburt Field, FL 32544",
+      "address": "Soundside Blvd, Hurlburt Field, FL 32544",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-kerwood",
+      "name": "Kerwood Gate",
+      "status": "closed",
+      "hours": "Closed until further notice",
+      "notes": "Permanently closed until further notice.",
+      "traffic": "low",
+      "address": "Kerwood Gate, Hurlburt Field, FL 32544",
       "latitude": null,
       "longitude": null
     },
@@ -68,9 +79,9 @@
       "name": "Visitor Control Center (VCC)",
       "status": "open",
       "hours": "Mon-Fri 0600-1700; Sat-Sun 0700-1700",
-      "notes": "Day passes and visitor registration. REAL ID required. Sponsor must email pre-approval for groups.",
+      "notes": "Day passes and visitor registration. REAL ID required. Email 1SOSFS.SFOXI.DL@us.af.mil for group/event access.",
       "traffic": "moderate",
-      "address": "Visitor Control Center, Hurlburt Field, FL 32544",
+      "address": "1 Hume Dr, Hurlburt Field, FL 32544",
       "latitude": null,
       "longitude": null
     }
@@ -91,10 +102,10 @@
       "id": "res-hurlburt-bx",
       "name": "Hurlburt Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
-      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
-      "address": "Hurlburt Field, FL 32544",
-      "phone": "850-884-1110",
+      "description": "Hurlburt Field Main Exchange with food court, barber, beauty shop, optical, and GNC.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "130 Walt Shumate Dr, Hurlburt Field, FL 32544",
+      "phone": "850-884-9241",
       "url": "https://www.shopmyexchange.com/",
       "building": null
     },
@@ -103,9 +114,9 @@
       "name": "Hurlburt Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Hurlburt Field, FL 32544",
-      "phone": "850-884-1110",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "130 Walt Shumate Dr, Hurlburt Field, FL 32544",
+      "phone": "850-884-9240",
       "url": "https://shop.commissaries.com/",
       "building": null
     },
@@ -113,11 +124,11 @@
       "id": "res-hurlburt-credit-union",
       "name": "Eglin Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "Hurlburt Field, FL 32544",
       "phone": "850-862-0111",
-      "url": null,
+      "url": "https://www.eglinfcu.org/",
       "building": null
     },
     {
@@ -169,10 +180,10 @@
       "name": "Commando Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
-      "hours": "Front desk 24/7",
-      "address": "Hurlburt Field, FL 32544",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Commando Inn, Hurlburt Field, FL 32544",
       "phone": "850-884-7115",
-      "url": "https://myhurlburt.com/",
+      "url": "https://af.dodlodging.net/",
       "building": null
     },
     {
@@ -191,7 +202,7 @@
       "name": "1st Special Operations Force Support Squadron (1 SOFSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting Air Force Special Operations Command.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Hurlburt Field, FL 32544",
       "phone": "850-884-1110",
       "url": "https://myhurlburt.com/",
@@ -202,8 +213,8 @@
       "name": "Outdoor Recreation (ODR)",
       "category": "recreation",
       "description": "Equipment rental, beachside facilities (KT's Kraken Tiki Bar), and recreational programs.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Hurlburt Field, FL 32544",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 90213 area, Hurlburt Field, FL 32544",
       "phone": "850-884-2795",
       "url": "https://myhurlburt.com/",
       "building": null
@@ -214,19 +225,19 @@
       "category": "recreation",
       "description": "18-hole golf course with Oasis Café and pro shop.",
       "hours": "Sun-up to sun-down (seasonal)",
-      "address": "Hurlburt Field, FL 32544",
-      "phone": "850-884-1110",
+      "address": "Gator Lakes Golf Course, Hurlburt Field, FL 32544",
+      "phone": "850-881-5731",
       "url": "https://myhurlburt.com/",
       "building": null
     },
     {
       "id": "res-hurlburt-bowling",
-      "name": "Beale Lanes Bowling Center",
+      "name": "Hurlburt Lanes (Beale Lanes)",
       "category": "recreation",
       "description": "Bowling alley with lanes and snack bar.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Hurlburt Field, FL 32544",
-      "phone": "850-884-1110",
+      "phone": "850-884-6470",
       "url": "https://myhurlburt.com/",
       "building": null
     },
@@ -235,10 +246,43 @@
       "name": "1st Special Operations Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services supporting special operations forces.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Hurlburt Field, FL 32544",
+      "phone": "850-884-2121",
+      "url": "https://hurlburt.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hurlburt-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Hurlburt Field, FL 32544",
       "phone": "850-884-1110",
-      "url": "https://hurlburt.tricare.mil/",
+      "url": "https://www.hurlburt.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hurlburt-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments. Appointments via QTRAC.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hurlburt Field, FL 32544",
+      "phone": "850-884-1110",
+      "url": "https://myhurlburt.com/",
+      "building": null
+    },
+    {
+      "id": "res-hurlburt-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-1700; Sat-Sun 0700-1700",
+      "address": "1 Hume Dr, Hurlburt Field, FL 32544",
+      "phone": "850-884-2400",
+      "url": "https://www.hurlburt.af.mil/Visitor-Access/",
       "building": null
     }
   ],
@@ -248,7 +292,7 @@
       "title": "Visitor Control Center (VCC)",
       "url": "https://www.hurlburt.af.mil/Visitor-Access/",
       "phone": "850-884-2400",
-      "address": "Visitor Control Center, Hurlburt Field, FL 32544"
+      "address": "1 Hume Dr, Hurlburt Field, FL 32544"
     },
     "moreInfoURL": "https://myhurlburt.com/",
     "sections": [
@@ -257,6 +301,18 @@
         "title": "Required Documents",
         "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
         "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival. Contact Commando Inn (850-884-7115) for after-hours arrivals.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Visitor Access",
+            "url": "https://www.hurlburt.af.mil/Visitor-Access/"
+          }
+        ]
       },
       {
         "id": "nc-3",
@@ -269,6 +325,12 @@
             "url": "https://www.housing.af.mil/housing/housing-on-base/hurlburt-field/"
           }
         ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Contact M&FRC at 850-884-5441 if no sponsor is assigned before departure.",
+        "links": null
       },
       {
         "id": "nc-5",

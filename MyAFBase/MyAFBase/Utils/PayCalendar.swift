@@ -43,7 +43,7 @@ struct PayCalendarEvent: Identifiable, Equatable, Sendable {
     }
 
     var systemImage: String {
-        if isSpecial { "star.circle.fill" }
+        if isSpecial { return "star.circle.fill" }
         return kind.systemImage
     }
 }
@@ -126,11 +126,11 @@ enum PayCalendar {
 
         switch kind {
         case .midMonth:
-            var dateComponents = DateComponents(year: year, month: monthValue, day: 15)
+            let dateComponents = DateComponents(year: year, month: monthValue, day: 15)
             guard let date = calendar.date(from: dateComponents) else { return nil }
             return adjustedPayday(date, calendar: calendar)
         case .monthEnd:
-            var dateComponents = DateComponents(year: year, month: monthValue, day: 1)
+            let dateComponents = DateComponents(year: year, month: monthValue, day: 1)
             guard let date = calendar.date(from: dateComponents) else { return nil }
             return adjustedPayday(date, calendar: calendar)
         }

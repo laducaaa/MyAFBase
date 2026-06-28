@@ -94,17 +94,15 @@ struct LocationDetailSheet: View {
                             }
                         }
 
-                        if let url, !url.isEmpty {
-                            if let linkURL = normalizedURL(url) {
+                        if let url, !url.isEmpty, let linkURL = SafeURL.webURL(from: url) {
                                 Link(destination: linkURL) {
                                     LocationDetailRow(
                                         label: "Website",
-                                        value: displayHost(for: url),
+                                        value: SafeURL.displayHost(for: url),
                                         isLink: true
                                     )
                                 }
                             }
-                        }
 
                         if let address, !address.isEmpty {
                             LocationDetailRow(
@@ -159,20 +157,5 @@ struct LocationDetailSheet: View {
             return "(\(area)) \(prefix)-\(line)"
         }
         return phone
-    }
-
-    private func displayHost(for urlString: String) -> String {
-        let normalized = urlString.hasPrefix("http") ? urlString : "https://\(urlString)"
-        guard let host = URL(string: normalized)?.host?.replacingOccurrences(of: "www.", with: "") else {
-            return urlString
-        }
-        return host
-    }
-
-    private func normalizedURL(_ string: String) -> URL? {
-        if string.hasPrefix("http") {
-            return URL(string: string)
-        }
-        return URL(string: "https://\(string)")
     }
 }

@@ -3,125 +3,223 @@
   "name": "Robins AFB",
   "fullName": "Robins Air Force Base",
   "location": "Warner Robins, GA",
-  "description": "Home of the 78th Air Base Wing and Air Force Materiel Command's Warner Robins Air Logistics Complex.",
+  "description": "Robins AFB is home to the 78th Air Base Wing and Air Force Materiel Command's Warner Robins Air Logistics Complex — the largest industrial complex in Georgia. A major sustainment hub for C-130, F-15, and special-mission aircraft supporting global combat readiness.",
   "wing": "78 ABW",
   "latitude": 32.6401,
   "longitude": -83.5919,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "robins-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Control Center at Gate 3.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-01-03T08:00:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "Robins AFB Security Forces",
+      "label": "Security Forces (BDOC)",
       "number": "478-926-3421"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
       "label": "Base Operator",
       "number": "478-926-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "78th Medical Group Appointments",
+      "number": "478-327-7850"
+    },
+    {
+      "id": "em-5",
+      "label": "Visitor Control Center",
+      "number": "478-926-4208"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-watson-blvd",
-      "name": "Main Gate (Watson Blvd)",
+      "id": "gate-watson",
+      "name": "Watson Gate (Gate 3)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "moderate",
-      "address": "Watson Blvd, Warner Robins, GA 31093",
+      "notes": "Primary 24/7 gate and only gate open nights, weekends, and holidays. Visitor Control Center in Bldg 219. Can issue visitor passes when VCC is closed (up to 72 hours).",
+      "traffic": "high",
+      "address": "Watson Blvd & GA-247, Warner Robins, GA 31093",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-ga-247-gate",
-      "name": "Ga 247 Gate",
+      "id": "gate-green-st",
+      "name": "Green Street Gate (Gate 1)",
       "status": "open",
-      "hours": "Open 24/7",
-      "notes": null,
+      "hours": "Mon-Fri 0500-1800",
+      "notes": "Closed weekends and federal holidays. Popular weekday commuter gate for north Warner Robins and Centerville.",
       "traffic": "moderate",
-      "address": "GA-247, Warner Robins, GA 31088",
+      "address": "Green St, Warner Robins, GA 31093",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-russell-pkwy",
+      "name": "Russell Parkway Gate (Gate 14)",
+      "status": "open",
+      "hours": "Daily 0500-2200",
+      "notes": "Daily access gate serving Bonaire, Kathleen, Perry, and Byron corridors. Closed 2200-0500.",
+      "traffic": "moderate",
+      "address": "Russell Pkwy, Warner Robins, GA 31088",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-truck",
+      "name": "Truck Gate (Gate 4)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Commercial vehicle and truck traffic gate. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Robins AFB, Warner Robins, GA 31098",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Gate 3)",
+      "status": "open",
+      "hours": "Mon-Fri 0715-1630",
+      "notes": "Passes and registration in Bldg 219 at Watson Gate. DBIDS background checks, contractor badges, and family passes. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Bldg 219, Watson Blvd, Warner Robins, GA 31093",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-robins-dfac",
-      "name": "Eagle Dining Facility",
+      "id": "res-robins-wynn-dfac",
+      "name": "Wynn Dining Facility",
       "category": "dining",
-      "description": "Main dining facility at Robins AFB.",
-      "hours": "See posted meal hours",
-      "address": "1000 9th St, Robins AFB, GA 31098",
-      "phone": "478-926-1110",
-      "url": "https://www.robinsfss.com/dining/",
-      "building": null
+      "description": "Primary DFAC serving breakfast, lunch, and dinner daily. Dine-in and carry-out available. Retiree and veteran meals on weekdays (excluding Reserve/UTA weekends).",
+      "hours": "Weekday meals: Breakfast 0600-0800, Lunch 1100-1300, Dinner 1630-1830; Weekend/Holiday brunch 0600-1300, Dinner 1630-1830",
+      "address": "768 Seventh St, Bldg 768, Robins AFB, GA 31098",
+      "phone": "478-926-9158",
+      "url": "https://robinsfss.com/wynn/",
+      "building": "Bldg 768"
+    },
+    {
+      "id": "res-robins-on-spot-cafe",
+      "name": "On Spot Café (Bowling Center)",
+      "category": "dining",
+      "description": "Grill and snack bar inside the 15-lane bowling center — burgers, sandwiches, and quick bites.",
+      "hours": "Mon-Thu 1030-2000; Fri-Sat 1030-2300; Closed family days and federal holidays",
+      "address": "690 Ninth St, Bldg 908, Robins AFB, GA 31098",
+      "phone": "478-926-2112",
+      "url": "https://robinsfss.com/dining/",
+      "building": "Bldg 908"
     },
     {
       "id": "res-robins-bx",
-      "name": "Robins AFB Exchange",
+      "name": "Robins AFB Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Robins AFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "1000 9th St, Robins AFB, GA 31098",
-      "phone": "478-926-1110",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, and service branch.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "982 Macon St, Bldg 982, Robins AFB, GA 31098",
+      "phone": "478-923-5536",
       "url": "https://www.shopmyexchange.com/store-locator/robins-main-exchange",
-      "building": null
+      "building": "Bldg 982"
     },
     {
       "id": "res-robins-commissary",
       "name": "Robins AFB Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "1000 9th St, Robins AFB, GA 31098",
-      "phone": "478-926-1110",
+      "description": "Defense Commissary Agency grocery with bakery, deli, and CLICK2GO curbside pickup. Closed Mondays.",
+      "hours": "Tue-Sat 0900-1900; Thu 0900-2000; Sun 1000-1800; Mon closed",
+      "address": "923 Macon St, Bldg 923, Robins AFB, GA 31098",
+      "phone": "478-222-7618",
       "url": "https://shop.commissaries.com/stores/robins-afb",
-      "building": null
+      "building": "Bldg 923"
     },
     {
       "id": "res-robins-medical",
       "name": "78th Medical Group",
       "category": "medical",
-      "description": "Primary medical facility for Robins AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Robins AFB, Warner Robins, GA",
-      "phone": "478-926-2273",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon/Tue/Thu/Fri 0730-1630; Wed 0930-1630 (closed Wed morning for training)",
+      "address": "655 Seventh St, Bldg 700, Robins AFB, GA 31098",
+      "phone": "478-327-7850",
+      "url": "https://robins.tricare.mil/",
+      "building": "Bldg 700"
+    },
+    {
+      "id": "res-robins-dental",
+      "name": "78th Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon/Tue/Wed/Fri 0730-1630; Thu 0730-1630",
+      "address": "Robins AFB, Warner Robins, GA 31098",
+      "phone": "478-327-7575",
       "url": "https://robins.tricare.mil/",
       "building": null
     },
     {
-      "id": "res-robins-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-robins-pharmacy",
+      "name": "78th Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon/Tue/Thu/Fri 0730-1630; Wed 0930-1630",
+      "address": "655 Seventh St, Bldg 700, Robins AFB, GA 31098",
+      "phone": "478-327-7850",
+      "url": "https://robins.tricare.mil/",
+      "building": "Bldg 700"
+    },
+    {
+      "id": "res-robins-fitness",
+      "name": "Robins AFB Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Robins AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Robins AFB, Warner Robins, GA",
-      "phone": "478-926-1110",
-      "url": "https://www.robinsfss.com/fitness/",
+      "description": "Main fitness center with weight room, cardio equipment, indoor pool, racquetball, and group exercise. 24/7 CAC badge access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2100; Sat 0800-1600; 24/7 badge access for registered members",
+      "address": "840 Eighth St, Bldg 826, Robins AFB, GA 31098",
+      "phone": "478-926-2128",
+      "url": "https://robinsfss.com/fitness/",
+      "building": "Bldg 826"
+    },
+    {
+      "id": "res-robins-fitness-annex",
+      "name": "Fitness Center Annex",
+      "category": "fitness",
+      "description": "Satellite fitness facility with additional cardio and strength equipment. 24/7 CAC badge access after registration.",
+      "hours": "24/7 badge access for registered members",
+      "address": "330 Richard Ray Blvd, Bldg 301, Robins AFB, GA 31098",
+      "phone": "478-926-2840",
+      "url": "https://robinsfss.com/fitness/",
+      "building": "Bldg 301"
+    },
+    {
+      "id": "res-robins-credit-union",
+      "name": "Robins Financial Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with deposit accounts, loans, mortgages, and shared branch services.",
+      "hours": "Mon-Fri 0830-1600",
+      "address": "Robins AFB, Warner Robins, GA 31098",
+      "phone": "478-923-3773",
+      "url": "https://www.robinsfcu.org/",
       "building": null
     },
     {
       "id": "res-robins-finance",
-      "name": "Finance / Comptroller",
+      "name": "Finance Office (Comptroller)",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Robins AFB, Warner Robins, GA",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Robins AFB, Warner Robins, GA 31098",
       "phone": "478-926-1110",
       "url": "https://www.robins.af.mil/",
       "building": null
@@ -130,67 +228,133 @@
       "id": "res-robins-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Robins AFB, Warner Robins, GA",
-      "phone": "478-926-1110",
-      "url": "https://www.robinsfss.com/",
-      "building": null
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630; use RAPIDS for ID card appointments",
+      "address": "Bldg 767, Ninth St, Robins AFB, GA 31098",
+      "phone": "478-327-5666",
+      "url": "https://robinsfss.com/",
+      "building": "Bldg 767"
     },
     {
       "id": "res-robins-fss",
-      "name": "78 ABW Force Support Squadron",
+      "name": "78th Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Robins AFB, Warner Robins, GA",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Robins AFB, Warner Robins, GA 31098",
       "phone": "478-926-1110",
-      "url": "https://www.robinsfss.com/",
+      "url": "https://robinsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-robins-mfrc",
+      "name": "Military & Family Readiness Center (A&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Robins AFB, Warner Robins, GA 31098",
+      "phone": "478-926-1256",
+      "url": "https://robinsfss.com/",
       "building": null
     },
     {
       "id": "res-robins-housing",
-      "name": "Housing Office",
+      "name": "Housing Management Office",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Robins AFB, Warner Robins, GA",
+      "description": "On-base privatized housing (Balfour Beatty) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Robins AFB, Warner Robins, GA 31098",
       "phone": "478-926-1110",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/robins-afb/",
+      "url": "https://www.housing.af.mil/Home/Installations/Robins-AFB/",
       "building": null
     },
     {
-      "id": "res-robins-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-robins-lodge",
+      "name": "Pine Oaks Lodge (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with TLF and DV suites. 24-hour arrival point for after-hours in-processing.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "557 Club Dr, Bldg 557, Robins AFB, GA 31098",
+      "phone": "478-926-2100",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 557"
+    },
+    {
+      "id": "res-robins-odr",
+      "name": "Outdoor Recreation & ITT",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Robins AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Robins AFB, Warner Robins, GA",
-      "phone": "478-926-1110",
-      "url": "https://www.robinsfss.com/",
-      "building": null
+      "description": "Equipment rentals, camping gear, loan closet, theme park tickets, and adventure trips.",
+      "hours": "Mon-Fri 0800-1700; Sat 0800-1400",
+      "address": "Ninth St, Bldg 914, Robins AFB, GA 31098",
+      "phone": "478-926-4001",
+      "url": "https://robinsfss.com/outdoor-recreation/",
+      "building": "Bldg 914"
     },
     {
-      "id": "res-robins-visitor-center",
-      "name": "Robins AFB Visitor Center",
+      "id": "res-robins-golf",
+      "name": "Pine Oaks Golf Course",
+      "category": "recreation",
+      "description": "18-hole championship course with pro shop and Sarge's Grille. Seasonal hours for course and pro shop.",
+      "hours": "Course daily 0700-dusk; Pro Shop summer 0700-1900, winter 0700-1700",
+      "address": "755 Warner Robins St, Bldg 595, Robins AFB, GA 31098",
+      "phone": "478-926-4103",
+      "url": "https://robinsfss.com/golf/",
+      "building": "Bldg 595"
+    },
+    {
+      "id": "res-robins-bowling",
+      "name": "Robins Bowling Center",
+      "category": "recreation",
+      "description": "15-lane bowling center with league play, cosmic bowling, and On Spot Café grill.",
+      "hours": "Mon-Thu 1030-2000; Fri-Sat 1030-2300; Sun 1300-1800",
+      "address": "690 Ninth St, Bldg 908, Robins AFB, GA 31098",
+      "phone": "478-926-2112",
+      "url": "https://robinsfss.com/bowling/",
+      "building": "Bldg 908"
+    },
+    {
+      "id": "res-robins-vcc",
+      "name": "Visitor Control Center",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "1000 9th St, Robins AFB, GA 31098",
-      "phone": "478-926-1110",
-      "url": "https://www.robins.af.mil/Newcomers/",
-      "building": null
+      "description": "Visitor passes, contractor badges, and base access at Gate 3. All visitors require a pass. Pre-register via DBIDS.",
+      "hours": "Mon-Fri 0715-1630",
+      "address": "Bldg 219, Watson Blvd, Warner Robins, GA 31093",
+      "phone": "478-926-4208",
+      "url": "https://www.robins.af.mil/About-Us/Driving-on-Base/",
+      "building": "Bldg 219"
     },
     {
       "id": "res-robins-security-forces",
-      "name": "Security Forces / Base Defense",
+      "name": "Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Base defense, law enforcement, and gate operations.",
       "hours": "24/7",
-      "address": "Robins AFB, Warner Robins, GA",
+      "address": "Robins AFB, Warner Robins, GA 31098",
       "phone": "478-926-3421",
       "url": "https://www.robins.af.mil/",
       "building": null
+    },
+    {
+      "id": "res-robins-youth-center",
+      "name": "Youth Center",
+      "category": "recreation",
+      "description": "School-age care, teen programs, and youth activities for eligible dependents.",
+      "hours": "Mon-Fri 1400-1800 during school year; summer and holiday hours at robinsfss.com",
+      "address": "Bldg 1021, Hawkinsville St, Robins AFB, GA 31098",
+      "phone": "478-926-2110",
+      "url": "https://robinsfss.com/",
+      "building": "Bldg 1021"
+    },
+    {
+      "id": "res-robins-heritage-club",
+      "name": "Heritage Club",
+      "category": "dining",
+      "description": "Officer and enlisted club with Pizza Depot lunch service and Heritage Pub on Fridays.",
+      "hours": "Pizza Depot Mon-Fri 1030-1400; Heritage Pub Fri 1500-1800",
+      "address": "956 Ninth St, Bldg 956, Robins AFB, GA 31098",
+      "phone": "478-926-2670",
+      "url": "https://robinsfss.com/dining/",
+      "building": "Bldg 956"
     }
   ],
   "events": [
@@ -199,28 +363,28 @@
       "title": "Newcomers Briefing",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Robins AFB, Warner Robins, GA",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "Robins AFB, Warner Robins, GA 31098",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
       "category": "community"
     },
     {
       "id": "robins-evt-fss",
-      "title": "Community Event",
+      "title": "FSS Community Event",
       "date": "2026-08-22T16:00:00Z",
       "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Robins AFB, Warner Robins, GA",
+      "location": "78th Force Support Squadron",
+      "address": "Robins AFB, Warner Robins, GA 31098",
       "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
       "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Robins AFB Visitor Center",
+      "title": "Robins AFB Visitor Control Center",
       "url": "https://www.robins.af.mil/Newcomers/",
-      "phone": "478-926-1110",
-      "address": "1000 9th St, Robins AFB, GA 31098"
+      "phone": "478-926-4208",
+      "address": "Bldg 219, Watson Blvd, Warner Robins, GA 31093"
     },
     "moreInfoURL": "https://www.robins.af.mil/Newcomers/",
     "sections": [
@@ -233,7 +397,7 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Robins AFB reporting instructions.",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit MPF in Bldg 767 for personnel actions.",
         "links": [
           {
             "id": "link-inprocess",
@@ -245,25 +409,36 @@
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Pine Oaks Lodge offers temporary lodging — book early during PCS season.",
         "links": [
           {
             "id": "link-housing-sec",
             "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/robins-afb/"
+            "url": "https://www.housing.af.mil/Home/Installations/Robins-AFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Pine Oaks Lodge",
+            "url": "https://www.afreservations.com/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access",
+        "body": "Watson Gate (Gate 3) is open 24/7. Green Street Gate 1 is Mon-Fri 0500-1800. Russell Parkway Gate 14 is daily 0500-2200. Truck Gate 4 is Mon-Fri 0600-1800. Visitor Control Center hours are Mon-Fri 0715-1630. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Gate Hours",
+            "url": "https://www.robins.af.mil/About-Us/Driving-on-Base/"
+          }
+        ]
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
         "links": [
           {
             "id": "link-official",
@@ -271,39 +446,19 @@
             "url": "https://www.robins.af.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.robins.af.mil/Newcomers/"
-          },
-          {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.robinsfss.com/"
+            "title": "78th Force Support Squadron",
+            "url": "https://robinsfss.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/robins-afb/"
-          },
-          {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/robins"
+            "id": "link-medical",
+            "title": "78th Medical Group",
+            "url": "https://robins.tricare.mil/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

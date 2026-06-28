@@ -7,7 +7,7 @@
   "wing": "6 ARW / CENTCOM / SOCOM",
   "latitude": 27.8497,
   "longitude": -82.5217,
-  "dataUpdatedAt": "2026-06-23T20:40:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "macdill-notif-1",
@@ -273,7 +273,7 @@
       "name": "6th Force Support Squadron (FSS)",
       "category": "services",
       "description": "All MWR programs, family support, dining, fitness, and recreation.",
-      "hours": "Varies by facility",
+      "hours": "Facility hours listed on FSS website",
       "address": "MacDill AFB, FL 33621",
       "phone": "813-828-3344",
       "url": "https://www.macdilfss.com/",
@@ -306,7 +306,7 @@
       "name": "Bay Palms Inn (AF Lodging)",
       "category": "housing",
       "description": "Waterfront-adjacent TDY and PCS temporary lodging. Highly popular — book early via AF Reservations.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "MacDill AFB, FL 33621",
       "phone": "813-828-4259",
       "url": "https://www.afreservations.com/",

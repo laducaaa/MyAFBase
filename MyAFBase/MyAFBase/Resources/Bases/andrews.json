@@ -7,7 +7,7 @@
   "wing": "316 WG",
   "latitude": 38.8108,
   "longitude": -76.8669,
-  "dataUpdatedAt": "2026-06-23T20:50:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "andrews-notif-real-id",
@@ -43,45 +43,45 @@
   "gates": [
     {
       "id": "gate-main",
-      "name": "Main Gate (Allentown Rd)",
+      "name": "Main Gate",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 gate off I-495 / Beltway. Visitor processing available nearby.",
+      "notes": "Primary 24/7 gate at Joint Base Andrews.",
       "traffic": "high",
-      "address": "Allentown Rd at Main Gate, Joint Base Andrews, MD 20762",
+      "address": "Main Gate, Joint Base Andrews, MD 20762",
       "latitude": 38.8108,
-      "longitude": -76.8669
-    },
-    {
-      "id": "gate-virginia",
-      "name": "Virginia Gate (South)",
-      "status": "open",
-      "hours": "Daily 0500-2100",
-      "notes": "Serves traffic from Northern Virginia via I-495 South. Closed after 2100.",
-      "traffic": "moderate",
-      "address": "Virginia Gate Rd, Joint Base Andrews, MD 20762",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "gate-pearl-harbor",
-      "name": "Pearl Harbor / Commercial Gate (East)",
-      "status": "open",
-      "hours": "Inbound 0500-1600 daily; Outbound until 2100",
-      "notes": "Commercial and limited personal vehicle access. No 24/7 outbound lane.",
-      "traffic": "low",
-      "address": "Pearl Harbor Gate, Joint Base Andrews, MD 20762",
-      "latitude": null,
-      "longitude": null
+      "longitude": -76.867
     },
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800; Sat 0800-1600; Sun & Federal Holidays closed",
-      "notes": "Day passes, REAL ID processing, and visitor registration. Located at 1832 Robert M. Bond Drive.",
+      "hours": "Mon-Fri 0600-1800; Sat 0800-1600; closed Sun and federal holidays",
+      "notes": "1832 Robert M Bond Dr. Phone: 301-981-0232.",
       "traffic": "moderate",
-      "address": "1832 Robert M. Bond Drive, Joint Base Andrews, MD 20762",
+      "address": "1832 Robert M Bond Dr, JB Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-virginia",
+      "name": "Virginia Gate",
+      "status": "open",
+      "hours": "Daily 0500-2100",
+      "notes": "Alternate access gate.",
+      "traffic": "moderate",
+      "address": "Virginia Gate, JB Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-pearl-harbor",
+      "name": "Pearl Harbor Gate",
+      "status": "open",
+      "hours": "Inbound 0500-1600; Outbound 0500-1800",
+      "notes": "Limited inbound/outbound hours.",
+      "traffic": "low",
+      "address": "Pearl Harbor Gate, JB Andrews, MD 20762",
       "latitude": null,
       "longitude": null
     }
@@ -103,7 +103,7 @@
       "name": "The Club at Andrews",
       "category": "dining",
       "description": "All-ranks club with dining, catering, and event space.",
-      "hours": "See posted hours or call for reservations",
+      "hours": "Lunch Tue-Fri 1100-1400; bar Wed-Sat evenings; call 301-568-3100 for events",
       "address": "1889 Arnold Ave, Bldg 1889, Joint Base Andrews, MD 20762",
       "phone": "301-568-3100",
       "url": "https://andrewsfss.com/",
@@ -113,19 +113,19 @@
       "id": "res-andrews-bx",
       "name": "Joint Base Andrews Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service BX with food court, retail, services, and Andrews Federal Credit Union branch.",
-      "hours": "Mon-Sat 0900-2000; Sun 1000-1800 (typical)",
+      "description": "JB Andrews Main Exchange with food court, barber, beauty shop, optical, GNC, dry cleaning, and Andrews FCU office.",
+      "hours": "Mon-Sat 9:00 AM-8:00 PM; Sun 10:00 AM-6:00 PM",
       "address": "1811 G Street, Joint Base Andrews, MD 20762",
       "phone": "301-568-1500",
-      "url": "https://www.shopmyexchange.com/",
+      "url": "https://www.shopmyexchange.com/store-locator/joint-base-andrews-main-exchange",
       "building": "Bldg 1811"
     },
     {
       "id": "res-andrews-credit-union",
       "name": "Andrews Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base offering checking, savings, loans, and ATM services.",
-      "hours": "Mon-Fri 0900-1700 (typical branch hours)",
+      "description": "Andrews Federal Credit Union on-base office with checking, savings, loans, and ATM services.",
+      "hours": "Mon-Fri 0900-1700",
       "address": "1677 D Street, Joint Base Andrews, MD 20762",
       "phone": "800-487-5500",
       "url": "https://www.andrewsfcu.org/",
@@ -136,10 +136,10 @@
       "name": "East Fitness Center",
       "category": "fitness",
       "description": "Main fitness facility with weights, cardio, group exercise, and racquetball.",
-      "hours": "See FSS for current schedule; CAC access available",
+      "hours": "Staffed Mon-Fri 0600-1400; 24/7 CAC access after registration (Mon-Fri 1100-1300)",
       "address": "3705 Fetchet Ave, Bldg 3705, Joint Base Andrews, MD 20762",
       "phone": "301-981-1610",
-      "url": "https://andrewsfss.com/",
+      "url": "https://andrewsfss.com/eastfitnesscenter/",
       "building": "Bldg 3705"
     },
     {
@@ -147,10 +147,10 @@
       "name": "Tactical Fitness Center",
       "category": "fitness",
       "description": "Specialized fitness center supporting mission readiness and tactical training.",
-      "hours": "See FSS for current schedule",
+      "hours": "Mon-Fri 0500-1400; 24/7 CAC access after registration",
       "address": "1500 West Perimeter Rd, Joint Base Andrews, MD 20762",
       "phone": "301-981-7101",
-      "url": "https://andrewsfss.com/",
+      "url": "https://andrewsfss.com/fitness-centers/",
       "building": "Bldg 1500"
     },
     {
@@ -169,7 +169,7 @@
       "name": "Military Housing Office (Privatized Housing)",
       "category": "housing",
       "description": "On-base family housing assignments and off-base referrals. Managed by Liberty Park at Andrews.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "2097 San Antonio Blvd, Joint Base Andrews, MD 20762",
       "phone": "301-981-5518",
       "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/",
@@ -180,10 +180,10 @@
       "name": "Presidential Inn (Lodging / TLF)",
       "category": "housing",
       "description": "Official lodging including Distinguished Visitor Quarters and Temporary Lodging Facility (TLF). 24/7 front desk.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "1380 California Ave, Joint Base Andrews, MD 20762",
       "phone": "301-981-4614",
-      "url": "https://andrewsfss.com/",
+      "url": "https://andrewsfss.com/presidential-inn/",
       "building": "Bldg 1380"
     },
     {
@@ -202,7 +202,7 @@
       "name": "316th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full range of MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours at andrewsfss.com/directory",
       "address": "Joint Base Andrews, MD 20762",
       "phone": "301-981-9333",
       "url": "https://andrewsfss.com/",
@@ -213,8 +213,8 @@
       "name": "Outdoor Recreation / ITT",
       "category": "recreation",
       "description": "Equipment rental, RV lots, FamCamp, disc golf, information/tickets/tours, and recreational programs.",
-      "hours": "Mon-Fri duty hours (typical)",
-      "address": "1235 Menoher Dr, Joint Base Andrews, MD 20762",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "1235 Menoher Dr, Bldg 1235, Joint Base Andrews, MD 20762",
       "phone": "301-981-4109",
       "url": "https://andrewsfss.com/",
       "building": "Bldg 1235"
@@ -235,7 +235,7 @@
       "name": "Community Center & Base Theater",
       "category": "recreation",
       "description": "Community events, base theater, and leisure programs.",
-      "hours": "See posted schedule",
+      "hours": "Mon-Fri 0800-1630; theater and event hours posted at facility",
       "address": "1442 Concord Ave, Joint Base Andrews, MD 20762",
       "phone": "301-981-8490",
       "url": "https://andrewsfss.com/",
@@ -246,7 +246,7 @@
       "name": "Malcolm Grow Medical Clinic",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services for the Andrews community.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Joint Base Andrews, MD 20762",
       "phone": "301-981-7300",
       "url": "https://andrews.tricare.mil/",
@@ -297,6 +297,18 @@
             "url": "https://andrewsfss.com/mfrc/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

@@ -13,7 +13,7 @@ struct NewcomerSectionDetailView: View {
             if let links = section.links, !links.isEmpty {
                 Section("Links") {
                     ForEach(links) { link in
-                        if let url = normalizedURL(link.url) {
+                        if let url = SafeURL.webURL(from: link.url) {
                             Link(destination: url) {
                                 Label(link.title, systemImage: "link")
                                     .foregroundStyle(.primary)
@@ -27,12 +27,5 @@ struct NewcomerSectionDetailView: View {
         .tint(.primary)
         .navigationTitle(section.title)
         .navigationBarTitleDisplayMode(.large)
-    }
-
-    private func normalizedURL(_ string: String) -> URL? {
-        if string.hasPrefix("http") {
-            return URL(string: string)
-        }
-        return URL(string: "https://\(string)")
     }
 }

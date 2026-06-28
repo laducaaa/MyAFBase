@@ -1,6 +1,6 @@
 import Foundation
 
-struct NotificationItem: Codable, Identifiable, Equatable {
+struct NotificationItem: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let title: String
     let body: String

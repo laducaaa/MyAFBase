@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 import SwiftData
 
 struct ContentView: View {
@@ -73,8 +74,8 @@ struct ContentView: View {
                 .tabItem { Label("Assignment", systemImage: "suitcase.fill") }
                 .tag(2)
 
-            NotificationsView()
-                .tabItem { Label("Alerts", systemImage: "bell.fill") }
+            RemindersView(selectedTab: $selectedTab)
+                .tabItem { Label("Reminders", systemImage: "calendar.badge.clock") }
                 .tag(3)
 
             MenuView(showBasePicker: $showBasePicker)
@@ -92,6 +93,7 @@ struct ContentView: View {
             await syncReadinessWidget(using: stores)
             await syncHomeWidgets(using: stores)
             await appState.syncRemoteBaseData()
+            HomeWidgetSync.publishPayCalendar()
         }
         .onChange(of: appState.currentBase?.id) { _, _ in
             Task { await syncHomeWidgets(using: stores) }
@@ -129,6 +131,16 @@ struct ContentView: View {
                 selectedTab = 0
                 appState.pendingHomeNavigation = false
             }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: AppIntentNotifications.didSwitchBase)) { notification in
+            guard let baseID = notification.userInfo?[AppIntentNotifications.baseIDKey] as? String else { return }
+            guard appState.selectedBaseID != baseID else { return }
+            Task { await appState.selectBase(id: baseID) }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
+            guard let baseID = AppIntentBaseSelection.selectedBaseID(),
+                  appState.selectedBaseID != baseID else { return }
+            Task { await appState.selectBase(id: baseID) }
         }
         .onAppear {
             if appState.shouldShowOnboarding {

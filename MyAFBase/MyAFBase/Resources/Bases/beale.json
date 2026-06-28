@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-06-24T16:55:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -114,10 +114,10 @@
       "name": "Contrails Dining Facility",
       "category": "dining",
       "description": "Primary DFAC supporting the 9th Reconnaissance Wing with full meal service.",
-      "hours": "See posted meal hours",
+      "hours": "Mon-Fri: Bfast 0530-0800, Lunch 1030-1330, Dinner 1630-1900, Midnight 2230-0030; Sat-Sun: Bfast 0730-0900, Brunch 1030-1330, Dinner 1630-1830, Midnight 2230-0030",
       "address": "2401 C St, Beale AFB, CA 95903",
       "phone": "530-634-2537",
-      "url": "https://bealefss.com/",
+      "url": "https://bealefss.com/contrails/",
       "building": null
     },
     {
@@ -136,17 +136,17 @@
       "name": "Beale Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Beale AFB, CA 95903",
-      "phone": "530-634-1110",
-      "url": "https://shop.commissaries.com/",
-      "building": null
+      "hours": "Mon closed; Tue-Thu 0900-1900; Fri 0900-1800; Sat 1000-1700; Sun 1000-1700",
+      "address": "17601 25th St, Bldg 25608, Beale AFB, CA 95903",
+      "phone": "530-634-2422",
+      "url": "https://shop.commissaries.com/stores/beale-afb",
+      "building": "Bldg 25608"
     },
     {
       "id": "res-beale-credit-union",
       "name": "Sierra Central Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "17602 25th St, Beale AFB, CA 95903",
       "phone": "530-671-4411",
@@ -158,10 +158,10 @@
       "name": "Harris Sports and Fitness Center",
       "category": "fitness",
       "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0500-2300; Sat-Sun 0800-2000",
       "address": "2418 B St, Beale AFB, CA 95903",
       "phone": "530-634-2258",
-      "url": "https://bealefss.com/",
+      "url": "https://bealefss.com/harris-fitness-center/",
       "building": null
     },
     {
@@ -169,10 +169,10 @@
       "name": "Omni Fitness Center",
       "category": "fitness",
       "description": "Secondary fitness location supporting the Beale community.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0500-2000; Sat-Sun 0800-1700",
       "address": "17751 Robert Nicoletti Way, Beale AFB, CA 95903",
       "phone": "530-634-2147",
-      "url": "https://bealefss.com/",
+      "url": "https://bealefss.com/omni-fitness-center/",
       "building": null
     },
     {
@@ -191,7 +191,7 @@
       "name": "Gold Country Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals. Also serves as Welcome/Visitors Center contact.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "24112 A St, Beale AFB, CA 95903",
       "phone": "530-634-2953",
       "url": "https://bealefss.com/",
@@ -213,8 +213,8 @@
       "name": "9th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
-      "address": "Beale AFB, CA 95903",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "17800 B St, Beale AFB, CA 95903",
       "phone": "530-634-1110",
       "url": "https://bealefss.com/",
       "building": null
@@ -224,7 +224,7 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, Rod n' Gun Club, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "4950 D St, Beale AFB, CA 95903",
       "phone": "530-788-2473",
       "url": "https://bealefss.com/",
@@ -236,8 +236,8 @@
       "category": "recreation",
       "description": "18-hole golf course with pro shop and dining.",
       "hours": "Sun-up to sun-down (seasonal)",
-      "address": "Beale AFB, CA 95903",
-      "phone": "530-634-1110",
+      "address": "Beale Golf Course, Beale AFB, CA 95903",
+      "phone": "530-634-2250",
       "url": "https://bealefss.com/",
       "building": null
     },
@@ -246,10 +246,10 @@
       "name": "Beale Lanes Bowling Center",
       "category": "recreation",
       "description": "Bowling alley with Spare Time Grill.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Thu 1200-2000; Fri-Sat 1200-2100; Sun 1200-1700",
       "address": "17800 Robert Nicoletti Way, Bldg 2431, Beale AFB, CA 95903",
       "phone": "530-634-2299",
-      "url": "https://bealefss.com/",
+      "url": "https://bealefss.com/beale-lanes/",
       "building": "Bldg 2431"
     },
     {
@@ -257,10 +257,21 @@
       "name": "9th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
-      "address": "Beale AFB, CA 95903",
-      "phone": "530-634-1110",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "15301 Warren Shingle Rd, Beale AFB, CA 95903",
+      "phone": "530-634-2941",
       "url": "https://beale.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-beale-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0730-1630; Sat 0800-1300; Sun closed",
+      "address": "24112 A St, Beale AFB, CA 95903",
+      "phone": "530-634-2953",
+      "url": "https://www.beale.af.mil/",
       "building": null
     }
   ],
@@ -308,6 +319,18 @@
             "url": "https://bealefss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

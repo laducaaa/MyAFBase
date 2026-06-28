@@ -1,6 +1,6 @@
 import Foundation
 
-struct BaseIndexEntry: Codable, Identifiable, Equatable {
+struct BaseIndexEntry: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let name: String
     let location: String

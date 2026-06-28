@@ -53,6 +53,12 @@ enum WidgetPalette {
             : Color(red: 0.08, green: 0.38, blue: 0.72)
     }
 
+    static func payAccent(for colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark
+            ? Color(red: 0.98, green: 0.78, blue: 0.22)
+            : Color(red: 0.72, green: 0.52, blue: 0.04)
+    }
+
     static func openNowAccent(for colorScheme: ColorScheme) -> Color {
         colorScheme == .dark
             ? Color(red: 0.35, green: 0.82, blue: 0.48)

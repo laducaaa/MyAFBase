@@ -1,6 +1,6 @@
 import Foundation
 
-struct Resource: Codable, Identifiable, Equatable {
+struct Resource: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let slug: String?
     let name: String
@@ -11,6 +11,8 @@ struct Resource: Codable, Identifiable, Equatable {
     let phone: String?
     let url: String?
     let building: String?
+    let latitude: Double?
+    let longitude: Double?
     let type: ResourceType?
     let value: String?
 
@@ -37,5 +39,10 @@ struct Resource: Codable, Identifiable, Equatable {
         if let url, !url.isEmpty { return url }
         if type == .url, let value, !value.isEmpty { return value }
         return nil
+    }
+
+    var mapCoordinate: ExploreMapCoordinate? {
+        guard let latitude, let longitude else { return nil }
+        return ExploreMapCoordinate(latitude: latitude, longitude: longitude)
     }
 }

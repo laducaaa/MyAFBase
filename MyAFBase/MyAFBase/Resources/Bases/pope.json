@@ -1,193 +1,359 @@
 {
   "id": "pope",
-  "name": "Pope Army Airfield",
+  "name": "Pope Field",
   "fullName": "Pope Army Airfield",
   "location": "Fort Liberty, NC",
-  "description": "Pope Army Airfield supports the 43rd Air Mobility Operations Group and XVIII Airborne Corps airlift operations.",
+  "description": "Pope Army Airfield is an Air Force installation within Fort Liberty (formerly Fort Bragg), home to the 43rd Air Mobility Operations Group and supporting XVIII Airborne Corps airlift and joint special operations missions. Pope Field is an enclave on Army-controlled Fort Liberty — gate access, visitor passes, and many services depend on Fort Liberty access control points and MWR programs.",
   "wing": "43 AMOG",
   "latitude": 35.1708,
   "longitude": -79.0145,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "pope-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. Non-DoD visitors must obtain a pass from the Fort Liberty All-American Visitor Control Center — not at Pope Field gates.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T14:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "pope-notif-gate-dependency",
+      "title": "Fort Liberty Gate Dependencies",
+      "body": "Pope Field (Gate 18 Manchester) is open Mon-Fri 0500-2100 and closed weekends and federal holidays. After-hours and weekend access to Pope requires routing through Fort Liberty gates. Verify gate status before travel — GPS may not account for gate closures.",
+      "type": "info",
+      "postedAt": "2026-06-28T14:00:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "Pope Army Airfield Security Forces",
+      "label": "Security Forces (BDOC)",
       "number": "910-394-3421"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
-      "label": "Base Operator",
+      "label": "Womack Army Medical Center",
+      "number": "910-907-6000"
+    },
+    {
+      "id": "em-4",
+      "label": "Base Operator / Team Pope",
       "number": "910-394-9000"
+    },
+    {
+      "id": "em-5",
+      "label": "Fort Liberty All-American VCC",
+      "number": "910-907-5165"
+    },
+    {
+      "id": "em-6",
+      "label": "TRICARE Nurse Advice Line",
+      "number": "1-800-874-2273"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-bragg-blvd",
-      "name": "Main Gate (Bragg Blvd)",
+      "id": "gate-18-manchester",
+      "name": "Gate 18 — Manchester Gate (Pope Field Main)",
       "status": "open",
-      "hours": "Open 24/7",
-      "notes": null,
+      "hours": "Mon-Fri 0500-2100",
+      "notes": "Primary access point for Pope Field. Closed weekends and federal holidays. Does not issue visitor passes — non-DoD visitors must obtain passes at the Fort Liberty All-American Visitor Control Center first.",
       "traffic": "moderate",
-      "address": "Bragg Blvd, Fort Liberty, NC 28307",
+      "address": "Manchester Rd, Pope Army Airfield, Fort Liberty, NC 28308",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-reilly-gate",
-      "name": "Reilly Gate",
+      "id": "gate-all-american",
+      "name": "All-American Gate (Fort Liberty ACP 5)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
+      "notes": "Primary Fort Liberty access point for visitors and after-hours entry. Non-DoD personnel without a valid DoD ID must use this gate to receive a visitor pass when VCC is closed (2100-0500).",
+      "traffic": "high",
+      "address": "All American Fwy, Fort Liberty, NC 28310",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-all-american-vcc",
+      "name": "All-American Visitor Control Center (Fort Liberty VCC)",
+      "status": "open",
+      "hours": "Daily 0500-2100",
+      "notes": "Required stop for all non-DoD visitors to Fort Liberty and Pope Field. Bring valid REAL ID, vehicle registration, and proof of insurance. AIE IV registration takes 2-5 minutes during VCC hours.",
+      "traffic": "high",
+      "address": "3550 All American Fwy, Bldg H-1575, Fort Liberty, NC 28310",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-knox-truck-plaza-vcc",
+      "name": "Knox Truck Plaza VCC (Commercial)",
+      "status": "open",
+      "hours": "Mon-Fri 0500-2100; Sat-Sun 0500-1300",
+      "notes": "Commercial vendors and contractors use this VCC off Cook Street (ACP 16). Not for routine Pope Field visitor access.",
+      "traffic": "low",
+      "address": "Cook St, Bldg K-1153, Fort Liberty, NC 28310",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-reilly",
+      "name": "Reilly Gate (Fort Liberty)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Fort Liberty gate providing alternate access to the Pope Field area. Valid installation pass or DoD ID required.",
       "traffic": "moderate",
       "address": "Reilly Rd, Fort Liberty, NC 28307",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-bragg-blvd",
+      "name": "Main Gate — Bragg Blvd (Fort Liberty)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Fort Liberty main gate on Bragg Blvd. Pope Field personnel may use any open Fort Liberty ACP with valid credentials; verify current gate status on the Fort Liberty gate information page.",
+      "traffic": "high",
+      "address": "Bragg Blvd, Fort Liberty, NC 28307",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-pope-dfac",
-      "name": "Main Dining Facility",
+      "id": "res-pope-airmens-center",
+      "name": "Airmen's Center Dining (Let Me Cater To You)",
       "category": "dining",
-      "description": "Main dining facility at Pope Army Airfield.",
-      "hours": "See posted meal hours",
-      "address": "100 Bragg Blvd, Pope Army Airfield, NC 28307",
-      "phone": "910-394-9000",
-      "url": "https://www.popefss.com/dining/",
-      "building": null
+      "description": "Contracted healthy breakfast and lunch option in the Airmen's Center — the primary weekday dining facility substitute since the legacy DFAC closed in 2011.",
+      "hours": "Mon-Fri breakfast 0600-0900, lunch 1100-1300",
+      "address": "Pope Army Airfield, Fort Liberty, NC 28308",
+      "phone": "910-394-2892",
+      "url": "https://pope43fss.com/",
+      "building": "Airmen's Center"
+    },
+    {
+      "id": "res-pope-bx-food-court",
+      "name": "South Post Exchange Food Court",
+      "category": "dining",
+      "description": "Fast food options inside the Pope Field / South Post Exchange complex including Panda Express and other AAFES food court vendors.",
+      "hours": "Daily 0900-2100 (aligned with BX hours)",
+      "address": "1017 Canopy Lane, Bldg Z-3252, Fort Liberty, NC 28310",
+      "phone": "910-436-2487",
+      "url": "https://www.shopmyexchange.com/store-locator/fort-bragg-south-post-exchange",
+      "building": "Bldg Z-3252"
+    },
+    {
+      "id": "res-pope-burger-king",
+      "name": "Burger King (Mini Mall)",
+      "category": "dining",
+      "description": "Burger King at the Pope Field Mini Mall on Armistead Street.",
+      "hours": "Mon-Fri 0630-1900; Sat 1100-1700",
+      "address": "803 Armistead St, Pope Army Airfield, NC 28308",
+      "phone": "910-436-4578",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Mini Mall"
+    },
+    {
+      "id": "res-pope-subway",
+      "name": "Subway (Mini Mall)",
+      "category": "dining",
+      "description": "Subway sandwich shop at the Pope Field Mini Mall.",
+      "hours": "See Mini Mall posted hours",
+      "address": "803 Armistead St, Pope Army Airfield, NC 28308",
+      "phone": "910-436-1226",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Mini Mall"
     },
     {
       "id": "res-pope-bx",
-      "name": "Pope Army Airfield Exchange",
+      "name": "Pope Field Exchange (South Post BX)",
       "category": "shopping",
-      "description": "Main Exchange at Pope Army Airfield.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "100 Bragg Blvd, Pope Army Airfield, NC 28307",
-      "phone": "910-394-9000",
-      "url": "https://www.shopmyexchange.com/store-locator/pope-main-exchange",
-      "building": null
+      "description": "Full-service AAFES exchange for Pope Field — retail, food court, barber shop, beauty shop, mobile center, and specialty stores in the South Post complex.",
+      "hours": "Daily 0900-2100",
+      "address": "1017 Canopy Lane, Bldg Z-3252, Fort Liberty, NC 28310",
+      "phone": "910-436-2487",
+      "url": "https://www.shopmyexchange.com/store-locator/fort-bragg-south-post-exchange",
+      "building": "Bldg Z-3252"
     },
     {
       "id": "res-pope-commissary",
-      "name": "Pope Army Airfield Commissary",
+      "name": "Fort Liberty South Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "100 Bragg Blvd, Pope Army Airfield, NC 28307",
-      "phone": "910-394-9000",
-      "url": "https://shop.commissaries.com/stores/pope-army-airfield",
+      "description": "Defense Commissary Agency grocery serving Pope Field and south Fort Liberty — co-located with the South Post Exchange at Canopy Lane. Bakery, deli, bistro, sushi, and hot foods.",
+      "hours": "Sun 0900-2000; Mon-Sat 0900-2100",
+      "address": "1017 Canopy Lane, Fort Liberty, NC 28310",
+      "phone": "910-436-2487",
+      "url": "https://shop.commissaries.com/stores/fort-liberty-south",
       "building": null
     },
     {
-      "id": "res-pope-medical",
-      "name": "43rd Medical Group",
+      "id": "res-pope-shoppette",
+      "name": "Pope Shoppette / Class Six / Gas",
+      "category": "shopping",
+      "description": "Convenience store, Class Six, and gas station on Pope Field at Armistead Road.",
+      "hours": "Mon-Fri 0630-2200; Sat-Sun 0800-2100",
+      "address": "Armistead Rd, Pope Army Airfield, NC 28308",
+      "phone": "910-497-8181",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-pope-womack-medical",
+      "name": "Womack Army Medical Center",
       "category": "medical",
-      "description": "Primary medical facility for Pope Army Airfield. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-2273",
-      "url": "https://pope.tricare.mil/",
+      "description": "Primary MTF for Pope Field personnel and Fort Liberty beneficiaries — inpatient and outpatient care, emergency department, specialty clinics, and TRICARE services. Pope has no on-base Air Force clinic; all medical care is through Womack.",
+      "hours": "Emergency 24/7; appointments Mon-Fri Mon-Fri 0730-1630 — call 910-907-2778 (Option 1)",
+      "address": "2817 Rock Merritt Ave, Fort Liberty, NC 28310",
+      "phone": "910-907-6000",
+      "url": "https://womack.tricare.mil/",
       "building": null
     },
     {
-      "id": "res-pope-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-pope-womack-pharmacy",
+      "name": "Womack Army Medical Center Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions at Womack AMC.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "2817 Rock Merritt Ave, Fort Liberty, NC 28310",
+      "phone": "910-907-6000",
+      "url": "https://womack.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-pope-fitness",
+      "name": "Pope Field Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Pope Army Airfield.",
-      "hours": "See FSS for current hours",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
-      "url": "https://www.popefss.com/fitness/",
+      "description": "Main fitness facility for Pope Field — cardio, free weights, group exercise, and wellness programs.",
+      "hours": "Staffed Mon-Fri 0500-2000, Sat-Sun 0700-1500; 24/7 CAC access after registration",
+      "address": "763 Stiner Rd, Bldg 763, Pope Army Airfield, NC 28308",
+      "phone": "910-394-2892",
+      "url": "https://bragg.armymwr.com/programs/fitness-centers",
       "building": null
     },
     {
       "id": "res-pope-finance",
-      "name": "Finance / Comptroller",
+      "name": "43rd Comptroller Squadron (Finance)",
       "category": "finance",
-      "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
+      "description": "Military pay, travel vouchers, and finance customer service for Air Force personnel at Pope Field.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "384 Maynard St, Pope Army Airfield, NC 28308",
+      "phone": "910-394-2276",
       "url": "https://www.pope.af.mil/",
-      "building": null
+      "building": "Bldg 308"
     },
     {
       "id": "res-pope-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
-      "url": "https://www.popefss.com/",
-      "building": null
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "384 Maynard St, Bldg 308, Pope Army Airfield, NC 28308",
+      "phone": "910-394-1934",
+      "url": "https://pope43fss.com/directory/",
+      "building": "Bldg 308"
     },
     {
       "id": "res-pope-fss",
-      "name": "43 AMOG Force Support Squadron",
+      "name": "43rd Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
-      "url": "https://www.popefss.com/",
+      "description": "All MWR and quality-of-life programs for Team Pope — dining, fitness, recreation, lodging coordination, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Pope Army Airfield, Fort Liberty, NC 28308",
+      "phone": "910-394-2536",
+      "url": "https://pope43fss.com/",
       "building": null
+    },
+    {
+      "id": "res-pope-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers orientation (3rd Wednesday monthly), and family programs for Pope Airmen and families.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "829 Stiner Rd, Pope Army Airfield, NC 28308",
+      "phone": "910-394-2538",
+      "url": "https://pope43fss.com/mfrc/",
+      "building": "Bldg 430"
     },
     {
       "id": "res-pope-housing",
       "name": "Housing Office",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/pope-army-airfield/",
+      "description": "On-base housing assignments and off-base housing referrals for Pope Field personnel. Required visit before signing any off-base lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Pope Army Airfield, Fort Liberty, NC 28308",
+      "phone": "910-764-5010",
+      "url": "https://www.housing.af.mil/Home/Installations/Pope-Army-Airfield/",
       "building": null
     },
     {
-      "id": "res-pope-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-pope-lodge",
+      "name": "Carolina Inn / Moon Hall Lodging (IHG Army Hotels)",
+      "category": "housing",
+      "description": "Temporary lodging for Pope Field PCS and TDY — rooms at the Carolina Inn on Pope Field with check-in at Moon Hall on Fort Liberty. Pet-friendly TLF available (limited, $10/night fee). Reserve early during PCS season.",
+      "hours": "Lodging desk open 24 hours daily; Check-in at Moon Hall",
+      "address": "Check-in: D-3601 Darby Loop, Moon Hall, Fort Liberty, NC 28310",
+      "phone": "910-396-7700",
+      "url": "https://www.ihgarmyhotels.com/",
+      "building": "Moon Hall / Carolina Inn"
+    },
+    {
+      "id": "res-pope-dorm",
+      "name": "Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Dorm management for unaccompanied Airmen assigned to Pope Field.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "3356 Interceptor Rd, Bldg 296, Pope Army Airfield, NC 28308",
+      "phone": "910-394-4030",
+      "url": "https://www.housing.af.mil/Home/Installations/Pope-Army-Airfield/",
+      "building": "Bldg 296"
+    },
+    {
+      "id": "res-pope-odr",
+      "name": "Outdoor Recreation (Smith Lake Equipment Checkout)",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Pope Army Airfield.",
-      "hours": "See FSS for current hours",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "phone": "910-394-9000",
-      "url": "https://www.popefss.com/",
-      "building": null
+      "description": "Fort Liberty MWR outdoor recreation serving Pope Field — camping gear, boats, kayaks, party equipment, and adventure trips. Storage units for rented equipment located at Pope Field.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Smith Lake Rd, Bldg Q-5144, Fort Liberty, NC 28310",
+      "phone": "910-396-7060",
+      "url": "https://bragg.armymwr.com/programs/smith-lake-recreation-area/recreation-equipment-checkout-center",
+      "building": "Bldg Q-5144"
     },
     {
-      "id": "res-pope-visitor-center",
-      "name": "Pope Army Airfield Visitor Center",
+      "id": "res-pope-education",
+      "name": "Pope Education and Training Center",
+      "category": "services",
+      "description": "Tuition assistance briefings, SkillBridge, CDC testing, and professional development resources for Pope Airmen.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "829 Stiner St, Bldg 430, Pope Army Airfield, NC 28308",
+      "phone": "910-394-4692",
+      "url": "https://pope43fss.com/",
+      "building": "Bldg 430"
+    },
+    {
+      "id": "res-pope-fort-liberty-vcc",
+      "name": "Fort Liberty All-American Visitor Control Center",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "100 Bragg Blvd, Pope Army Airfield, NC 28307",
-      "phone": "910-394-9000",
-      "url": "https://www.pope.af.mil/Newcomers/",
-      "building": null
+      "description": "Required visitor pass office for all non-DoD access to Fort Liberty and Pope Field. Pope Gate 18 Manchester does not issue visitor passes. Bring REAL ID, registration, and insurance.",
+      "hours": "Daily 0500-2100",
+      "address": "3550 All American Fwy, Bldg H-1575, Fort Liberty, NC 28310",
+      "phone": "910-907-5165",
+      "url": "https://home.army.mil/liberty/index.php/about/garrison/directorate-emergency-services/physical-security/physical-security-department-army-security-guards/access-control",
+      "building": "Bldg H-1575"
     },
     {
       "id": "res-pope-security-forces",
-      "name": "Security Forces / Base Defense",
+      "name": "43rd Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Pope Field base defense, law enforcement, and gate operations at Gate 18 Manchester.",
       "hours": "24/7",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
+      "address": "Pope Army Airfield, Fort Liberty, NC 28308",
       "phone": "910-394-3421",
       "url": "https://www.pope.af.mil/",
       "building": null
@@ -196,74 +362,100 @@
   "events": [
     {
       "id": "pope-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "title": "M&FRC Newcomers Orientation",
+      "date": "2026-07-16T11:30:00Z",
+      "endDate": "2026-07-16T20:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "829 Stiner Rd, Pope Army Airfield, NC 28308",
+      "description": "Monthly newcomers orientation held on the third Wednesday — agency briefings, Fort Liberty resources, and Pope Field in-processing guidance.",
       "category": "community"
     },
     {
-      "id": "pope-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Pope Army Airfield, Fort Liberty, NC",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
+      "id": "pope-evt-tuition-assistance",
+      "title": "Tuition Assistance Brief",
+      "date": "2026-07-07T15:00:00Z",
+      "endDate": "2026-07-07T16:00:00Z",
+      "location": "Pope Education and Training Center",
+      "address": "829 Stiner St, Bldg 430, Pope Army Airfield, NC 28308",
+      "description": "Weekly tuition assistance briefing for eligible Airmen. Check pope43fss.com calendar for schedule.",
+      "category": "community"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Pope Army Airfield Visitor Center",
-      "url": "https://www.pope.af.mil/Newcomers/",
-      "phone": "910-394-9000",
-      "address": "100 Bragg Blvd, Pope Army Airfield, NC 28307"
+      "title": "Fort Liberty All-American Visitor Control Center",
+      "url": "https://www.pope.af.mil/About-Us/Frequently-Asked-Questions/",
+      "phone": "910-907-5165",
+      "address": "3550 All American Fwy, Fort Liberty, NC 28310"
     },
-    "moreInfoURL": "https://www.pope.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.pope.af.mil/About-Us/Newcomers/",
     "sections": [
       {
         "id": "nc-1",
         "title": "Required Documents",
-        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement. Pope Field is on Fort Liberty — ensure your sponsor coordinates Fort Liberty gate access.",
         "links": null
       },
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Pope Army Airfield reporting instructions.",
+        "body": "Report to your gaining unit and visit the Military Personnel Flight within required timelines. Attend the monthly M&FRC Newcomers Orientation on the third Wednesday. Medical in-processing is through Womack Army Medical Center, not an on-base Air Force clinic.",
         "links": [
           {
             "id": "link-inprocess",
-            "title": "Newcomers & In-Processing",
-            "url": "https://www.pope.af.mil/Newcomers/"
+            "title": "Pope Newcomers & In-Processing",
+            "url": "https://www.pope.af.mil/About-Us/Newcomers/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "M&FRC Newcomers Orientation",
+            "url": "https://pope43fss.com/mfrc/"
           }
         ]
       },
       {
         "id": "nc-3",
-        "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "title": "Housing & Lodging",
+        "body": "Contact the Housing Office before arrival. Reserve temporary lodging early — check in at Moon Hall (Darby Loop) for Carolina Inn rooms on Pope Field. Unaccompanied Airmen report to dorm management at Bldg 296.",
         "links": [
           {
             "id": "link-housing-sec",
-            "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/pope-army-airfield/"
+            "title": "Pope Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Pope-Army-Airfield/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "IHG Army Hotels (Moon Hall / Carolina Inn)",
+            "url": "https://www.ihgarmyhotels.com/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access & Fort Liberty Dependencies",
+        "body": "Pope Field Gate 18 (Manchester) is open Mon-Fri 0500-2100 and closed weekends/holidays. Non-DoD visitors must obtain passes at the Fort Liberty All-American Visitor Control Center (daily 0500-2100) — not at Pope gates. After VCC hours, use the All-American Gate for one-day temporary passes. Verify gate status before travel; GPS may not reflect closures.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Fort Liberty Gate Information",
+            "url": "https://home.army.mil/liberty/index.php/my-fort-bragg/all-services/gate-information"
+          },
+          {
+            "id": "link-vcc",
+            "title": "Fort Liberty Access Control & VCC",
+            "url": "https://home.army.mil/liberty/index.php/about/garrison/directorate-emergency-services/physical-security/physical-security-department-army-security-guards/access-control"
+          },
+          {
+            "id": "link-pope-faq",
+            "title": "Pope Field Visitor FAQ",
+            "url": "https://www.pope.af.mil/About-Us/Frequently-Asked-Questions/"
+          }
+        ]
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Medical care is through Womack Army Medical Center on Fort Liberty. Shopping and commissary are at the South Post complex on Canopy Lane. Outdoor recreation is through Fort Liberty MWR at Smith Lake.",
         "links": [
           {
             "id": "link-official",
@@ -271,39 +463,24 @@
             "url": "https://www.pope.af.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.pope.af.mil/Newcomers/"
-          },
-          {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.popefss.com/"
+            "title": "43rd Force Support Squadron",
+            "url": "https://pope43fss.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/pope-army-airfield/"
+            "id": "link-womack",
+            "title": "Womack Army Medical Center",
+            "url": "https://womack.tricare.mil/"
           },
           {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/pope"
+            "id": "link-odr",
+            "title": "Fort Liberty Outdoor Recreation",
+            "url": "https://bragg.armymwr.com/programs/smith-lake-recreation-area"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

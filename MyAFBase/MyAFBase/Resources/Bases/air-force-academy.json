@@ -3,307 +3,482 @@
   "name": "USAFA",
   "fullName": "United States Air Force Academy",
   "location": "Colorado Springs, CO",
-  "description": "The U.S. Air Force Academy educates and commissions officer cadets and hosts the 10th Air Base Wing.",
+  "description": "Undergraduate institution training future Air Force and Space Force officers; also hosts 10th Air Base Wing.",
   "wing": "10 ABW",
   "latitude": 38.9983,
   "longitude": -104.8614,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "air-force-academy-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. Trusted Traveler Program suspended — 100% ID checks at all gates. All visitors without a DoD ID must obtain a sponsored pass at the Pass & Registration Office.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T13:00:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "USAFA Security Forces",
-      "number": "719-333-3421"
+      "label": "Security Forces (SFS)",
+      "number": "719-333-2000"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
-      "label": "Base Operator",
+      "label": "Base Operator / Base Info",
       "number": "719-333-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "10th Medical Group",
+      "number": "719-333-5171"
     }
   ],
   "gates": [
     {
-      "id": "gate-north-gate-main",
-      "name": "North Gate (Main)",
+      "id": "gate-south",
+      "name": "South Gate (Visitors / Non-DoD)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "moderate",
-      "address": "North Gate Blvd, USAF Academy, CO 80840",
+      "notes": "Primary gate for visitors and non-DoD personnel. Access via I-25 Exit 150. Pass & Registration Office located outside South Gate on the right side of the road. Trusted Traveler suspended — 100% ID checks.",
+      "traffic": "high",
+      "address": "I-25 Exit 150, South Gate Blvd, USAF Academy, CO 80840",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-south-gate",
-      "name": "South Gate",
+      "id": "gate-north",
+      "name": "North Gate (DoD ID Encouraged)",
       "status": "open",
-      "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "low",
-      "address": "South Gate Blvd, USAF Academy, CO 80840",
+      "hours": "Daily 0500-2200",
+      "notes": "DoD ID cardholders encouraged. Access via I-25 Exit 156. Sponsored visitors may also use this gate during posted hours. 100% ID checks in effect.",
+      "traffic": "moderate",
+      "address": "I-25 Exit 156, North Gate Blvd, USAF Academy, CO 80840",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-pass-registration",
+      "name": "Pass & Registration Office (South Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1500",
+      "notes": "Located outside South Gate via I-25 Exit 150. Weekends reserved for events, cadet visitors, and housing guests only. Closed for training on the third Tuesday of each month. Plan 1–2 hour wait times during peak periods. REAL ID required.",
+      "traffic": "high",
+      "address": "Outside South Gate, I-25 Exit 150, USAF Academy, CO 80840",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-visitor-center",
+      "name": "USAFA Visitor Center",
+      "status": "open",
+      "hours": "See usafa.edu for current hours",
+      "notes": "Visitor information, cadet area tours, and base access guidance. All visitors without DoD ID require a sponsored pass — Trusted Traveler suspended.",
+      "traffic": "moderate",
+      "address": "2304 Cadet Dr, USAF Academy, CO 80840",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-air-force-academy-dfac",
-      "name": "Mitchell Hall Dining Facility",
+      "id": "res-usafa-polaris-perk",
+      "name": "Polaris Perk",
       "category": "dining",
-      "description": "Main dining facility at USAFA.",
-      "hours": "See posted meal hours",
-      "address": "2304 Cadet Dr, USAF Academy, CO 80840",
+      "description": "Starbucks coffee shop in Arnold Hall with breakfast, lunch, and snack menu. Frequent drink card — buy 10 drinks, get the 11th free. No traditional large public DFAC on base; Polaris Perk is a primary café option.",
+      "hours": "See usafasupport.com for current hours",
+      "address": "Arnold Hall, 2302 Cadet Dr, USAF Academy, CO 80840",
       "phone": "719-333-1110",
-      "url": "https://www.usafafss.com/dining/",
+      "url": "https://www.usafasupport.com/polaris-perk/",
+      "building": "Arnold Hall"
+    },
+    {
+      "id": "res-usafa-arnold-hall-dining",
+      "name": "Arnold Hall Dining",
+      "category": "dining",
+      "description": "Cadet and community dining hub in Arnold Hall featuring Richter Lounge Food Court (Domino's, Subway, Mediterranean grill), Polaris Perk café, and Hap's Place cadet lounge.",
+      "hours": "Venue schedules at usafasupport.com",
+      "address": "2302 Cadet Dr, Arnold Hall, USAF Academy, CO 80840",
+      "phone": "719-333-1110",
+      "url": "https://www.usafasupport.com/arnold-hall/",
+      "building": "Arnold Hall"
+    },
+    {
+      "id": "res-usafa-high-country-inn",
+      "name": "High Country Inn Dining",
+      "category": "dining",
+      "description": "Enlisted dining facility with south-facing Front Range views and large patio overlooking Pine Valley. Authorized for ESM, Prep School, BAS, officers, retirees, and DoD civilians per AFI 34-240.",
+      "hours": "See usafasupport.com for weekly menus and meal times",
+      "address": "High Country Inn, USAF Academy, CO 80840",
+      "phone": "719-333-1110",
+      "url": "https://www.usafasupport.com/high-country-inn/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-bx",
-      "name": "USAFA Exchange",
+      "id": "res-usafa-falcon-club",
+      "name": "Falcon Club",
+      "category": "dining",
+      "description": "Premier catering and event venue with scenic Cadet Area and Front Range views. Private lunches for groups of 25+, reunions, retirement parties, wedding receptions, and The Pub. Seating for up to 500 guests.",
+      "hours": "Reservations required NLT 2 business days prior; call for Pub hours",
+      "address": "Adjacent to Rampart Lodge, near Doolittle Hall, USAF Academy, CO 80840",
+      "phone": "719-333-8188",
+      "url": "https://www.usafasupport.com/falcon-club/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-commissary",
+      "name": "USAFA Commissary",
       "category": "shopping",
-      "description": "Main Exchange at USAFA.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "2304 Cadet Dr, USAF Academy, CO 80840",
-      "phone": "719-333-1110",
+      "description": "Defense Commissary Agency grocery with bakery, deli, fresh sandwiches, rotisserie chicken, sushi, party cakes, and CLICK2GO curbside pickup. Closed Mondays.",
+      "hours": "Tue-Fri 0900-1900 (Early Bird 0800-0900); Sat 0800-1900; Sun 1000-1800; Mon closed",
+      "address": "5126 Community Center Dr, USAF Academy, CO 80840",
+      "phone": "719-333-2227",
+      "url": "https://shop.commissaries.com/stores/air-force-academy",
+      "building": null
+    },
+    {
+      "id": "res-usafa-bx",
+      "name": "USAFA Exchange (BX)",
+      "category": "shopping",
+      "description": "Main Exchange with clothing, electronics, food court, barber shop, optical, and retail services for the USAFA community.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "5124 Community Center Dr, USAF Academy, CO 80840",
+      "phone": "719-472-0861",
       "url": "https://www.shopmyexchange.com/store-locator/air-force-academy-main-exchange",
       "building": null
     },
     {
-      "id": "res-air-force-academy-commissary",
-      "name": "USAFA Commissary",
+      "id": "res-usafa-shoppette",
+      "name": "BX Shoppette / Gas Station",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "2304 Cadet Dr, USAF Academy, CO 80840",
-      "phone": "719-333-1110",
-      "url": "https://shop.commissaries.com/stores/us-air-force-academy",
+      "description": "Convenience store and gas station on the BX complex.",
+      "hours": "See Exchange for current hours",
+      "address": "Community Center Dr, USAF Academy, CO 80840",
+      "phone": "719-472-0395",
+      "url": "https://www.shopmyexchange.com/store-locator/air-force-academy-main-exchange",
       "building": null
     },
     {
-      "id": "res-air-force-academy-medical",
+      "id": "res-usafa-medical",
       "name": "10th Medical Group",
       "category": "medical",
-      "description": "Primary medical facility for USAFA. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-2273",
+      "description": "Ambulatory MTF serving USAFA — primary care, specialty clinics, behavioral health, dental, optometry, lab, and immunizations. Cadet Clinic and beneficiary appointments available.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630; call for appointment availability",
+      "address": "USAF Academy, CO 80840",
+      "phone": "719-333-5171",
       "url": "https://usafa.tricare.mil/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-usafa-fitness",
+      "name": "Base Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at USAFA.",
-      "hours": "See FSS for current hours",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-1110",
-      "url": "https://www.usafafss.com/fitness/",
+      "description": "State-of-the-art cardio, strength, and free-weight equipment, group exercise classes, intramural sports, racquetball, basketball gyms, and indoor pool. Free equipment orientation available. Satellite Fitness Center open 24/7 for CAC holders on west side of South Gate bridge.",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0600-1930; pool hours vary — family swim Sat-Sun 1230-1530",
+      "address": "USAF Academy, CO 80840",
+      "phone": "719-333-4522",
+      "url": "https://www.usafasupport.com/fitness-center/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-finance",
-      "name": "Finance / Comptroller",
+      "id": "res-usafa-aafcu",
+      "name": "Air Academy Federal Credit Union",
       "category": "finance",
-      "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "USAFA, Colorado Springs, CO",
+      "description": "On-base federal credit union with deposit accounts, loans, mortgages, and ATMs at BX, Fairchild Hall, and Arnold Hall.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "5136 Community Center Dr, USAF Academy, CO 80840",
+      "phone": "719-593-8600",
+      "url": "https://www.aafcu.com/locations/air-force-academy-branch.html",
+      "building": null
+    },
+    {
+      "id": "res-usafa-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service for 10 ABW personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "USAF Academy, CO 80840",
       "phone": "719-333-1110",
       "url": "https://www.usafa.af.mil/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-mpf",
+      "id": "res-usafa-golf",
+      "name": "Eisenhower Golf Club",
+      "category": "recreation",
+      "description": "Two 18-hole championship courses — the Blue and the Silver — with PGA instruction, clinics, junior golf program, and catering. Home course of the Air Force Academy intercollegiate golf team.",
+      "hours": "See usafasupport.com for tee times and seasonal hours",
+      "address": "PO Box 72, USAF Academy, CO 80840",
+      "phone": "719-333-2606",
+      "url": "https://www.usafasupport.com/eisenhower-golf-club/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-academy-lanes",
+      "name": "Academy Lanes",
+      "category": "recreation",
+      "description": "Bowling center with AMF Edge String pinsetters, Neoverse LED system, and Ten Pin Grill snack bar.",
+      "hours": "Mon-Thu 1100-2000; Fri-Sat 1100-2200; Sun 1100-1700",
+      "address": "Bldg 5128, USAF Academy, CO 80840",
+      "phone": "719-333-4709",
+      "url": "https://www.usafasupport.com/academy-lanes/",
+      "building": "Bldg 5128"
+    },
+    {
+      "id": "res-usafa-odr",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rentals (campers, grills, bounce houses, backpacking gear, watercraft), ski/snowboard shop, bike shop, fishing licenses, and adventure programs. Located in the Community Center.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Community Center, USAF Academy, CO 80840",
+      "phone": "719-333-4475",
+      "url": "https://www.usafasupport.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted tickets for local attractions (Royal Gorge Train, Denver Aquarium, Olympic Museum), sports events, Disney/Universal resorts, ski passes, and lodging bookings anywhere in the US.",
+      "hours": "Mon/Tue/Thu/Fri 0900-1700; Wed 0900-1200",
+      "address": "Community Center, USAF Academy, CO 80840",
+      "phone": "719-333-7367",
+      "url": "https://www.usafasupport.com/information-tickets-travel/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-equestrian",
+      "name": "Equestrian Center",
+      "category": "recreation",
+      "description": "44,000 acres of riding terrain with guided trail rides, lessons, summer camps, hayrides, boarding, and trailer-ins. South of Pine Valley housing, west of Air Academy High School.",
+      "hours": "See usafasupport.com for ride schedules and seasonal hours",
+      "address": "South of Pine Valley Housing, USAF Academy, CO 80840",
+      "phone": "719-333-4607",
+      "url": "https://www.usafasupport.com/equestrian-center/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-rampart-lodge",
+      "name": "Rampart Lodge (AF Inn)",
+      "category": "housing",
+      "description": "Air Force Inns with 77 guest rooms and 20 TLF extended-stay units. Free high-speed internet, cardio fitness room, and complimentary breakfast 0600-0900 for lodging guests. Adjacent to Falcon Club.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "3130 Academy Dr, USAF Academy, CO 80840",
+      "phone": "719-472-1940",
+      "url": "https://www.usafasupport.com/rampart-lodge/",
+      "building": "Bldg 3130"
+    },
+    {
+      "id": "res-usafa-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base cadet housing and family housing managed by Balfour Beatty Communities. Required visit before signing any off-base lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "USAF Academy, CO 80840",
+      "phone": "719-333-1110",
+      "url": "https://www.housing.af.mil/Home/Installations/US-Air-Force-Academy/",
+      "building": null
+    },
+    {
+      "id": "res-usafa-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-1110",
-      "url": "https://www.usafafss.com/",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Located in the Community Center. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630; CAC walk-in Mon-Fri 0800-1100",
+      "address": "Community Center, USAF Academy, CO 80840",
+      "phone": "719-333-8766",
+      "url": "https://www.usafasupport.com/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-fss",
-      "name": "10 ABW Force Support Squadron",
+      "id": "res-usafa-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-1110",
-      "url": "https://www.usafafss.com/",
+      "description": "Relocation assistance, deployment support, financial readiness, TAP workshops, spouse employment, EFMP, and newcomers orientation. Appointments preferred.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "6248 W Pine Loop, USAF Academy, CO 80840",
+      "phone": "719-333-3444",
+      "url": "https://www.usafasupport.com/military-family-readiness-center/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-housing",
-      "name": "Housing Office",
-      "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-1110",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/us-air-force-academy/",
+      "id": "res-usafa-fss",
+      "name": "10th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, community events, and family programs for the Long Blue Line.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "USAF Academy, CO 80840",
+      "phone": "719-333-4801",
+      "url": "https://www.usafasupport.com/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-recreation-1",
-      "name": "Eisenhower Golf Course",
-      "category": "recreation",
-      "description": "Recreation and leisure programs at USAFA.",
-      "hours": "See FSS for current hours",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-472-1940",
-      "url": "https://www.usafafss.com/golf/",
-      "building": null
-    },
-    {
-      "id": "res-air-force-academy-visitor-center",
-      "name": "USAFA Visitor Center",
+      "id": "res-usafa-pass-registration",
+      "name": "Pass & Registration Office",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "2304 Cadet Dr, USAF Academy, CO 80840",
-      "phone": "719-333-2025",
-      "url": "https://www.usafa.af.mil/Newcomers/",
+      "description": "Visitor passes and base access for all personnel without DoD ID. Trusted Traveler suspended — sponsored passes required. REAL ID required for entry.",
+      "hours": "Mon-Fri 0730-1500; weekends for events, cadet visitors, and housing guests only",
+      "address": "Outside South Gate, I-25 Exit 150, USAF Academy, CO 80840",
+      "phone": "719-333-0441",
+      "url": "https://www.usafa.edu/visitors/getting-on-base/",
       "building": null
     },
     {
-      "id": "res-air-force-academy-security-forces",
-      "name": "Security Forces / Base Defense",
+      "id": "res-usafa-security-forces",
+      "name": "Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Base defense, law enforcement, and gate operations. 100% ID checks at all gates.",
       "hours": "24/7",
-      "address": "USAFA, Colorado Springs, CO",
-      "phone": "719-333-3421",
+      "address": "USAF Academy, CO 80840",
+      "phone": "719-333-2000",
       "url": "https://www.usafa.af.mil/",
       "building": null
     }
   ],
   "events": [
     {
-      "id": "air-force-academy-evt-newcomers",
+      "id": "usafa-evt-newcomers",
       "title": "Newcomers Briefing",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "USAFA, Colorado Springs, CO",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "6248 W Pine Loop, USAF Academy, CO 80840",
+      "description": "Orientation for incoming 10 ABW personnel and families. Bring PCS orders and ID cards.",
       "category": "community"
     },
     {
-      "id": "air-force-academy-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "USAFA, Colorado Springs, CO",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "id": "usafa-evt-red-white-brews",
+      "title": "Red, White & Brews",
+      "date": "2026-07-10T21:30:00Z",
+      "endDate": "2026-07-11T00:00:00Z",
+      "location": "Falcon Club",
+      "address": "USAF Academy, CO 80840",
+      "description": "Patriotic community social at the Falcon Club with food and beverages.",
+      "category": "community"
+    },
+    {
+      "id": "usafa-evt-summer-reading",
+      "title": "Summer Reading Program",
+      "date": "2026-05-29T14:00:00Z",
+      "endDate": "2026-07-24T23:00:00Z",
+      "location": "Community Center Library",
+      "address": "USAF Academy, CO 80840",
+      "description": "Base library summer reading program for families and youth.",
       "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "USAFA Visitor Center",
-      "url": "https://www.usafa.af.mil/Newcomers/",
-      "phone": "719-333-2025",
-      "address": "2304 Cadet Dr, USAF Academy, CO 80840"
+      "title": "USAFA Pass & Registration Office",
+      "url": "https://www.usafa.edu/visitors/getting-on-base/",
+      "phone": "719-333-0441",
+      "address": "Outside South Gate, I-25 Exit 150, USAF Academy, CO 80840"
     },
-    "moreInfoURL": "https://www.usafa.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.usafa.edu/in-processing-day/",
     "sections": [
       {
         "id": "nc-1",
         "title": "Required Documents",
-        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
-        "links": null
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement. REAL ID required for base access.",
+        "links": [
+          {
+            "id": "link-appointee-handbook",
+            "title": "Appointee Handbook",
+            "url": "https://www.usafa.edu/in-processing-day/appointee-handbook/"
+          }
+        ]
       },
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for USAFA reporting instructions.",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Attend the newcomers briefing at the M&FRC. All visitors and personnel without DoD ID must process through Pass & Registration at the South Gate.",
         "links": [
           {
             "id": "link-inprocess",
-            "title": "Newcomers & In-Processing",
-            "url": "https://www.usafa.af.mil/Newcomers/"
+            "title": "In-Processing Day",
+            "url": "https://www.usafa.edu/in-processing-day/"
+          },
+          {
+            "id": "link-mpf",
+            "title": "10th FSS / MPF",
+            "url": "https://www.usafasupport.com/"
           }
         ]
       },
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "Contact the Housing Management Office before arrival. On-base family housing is managed by Balfour Beatty Communities; cadet housing is on-base. Rampart Lodge offers temporary lodging — book early during PCS season.",
         "links": [
           {
             "id": "link-housing-sec",
             "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/us-air-force-academy/"
+            "url": "https://www.housing.af.mil/Home/Installations/US-Air-Force-Academy/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Rampart Lodge",
+            "url": "https://www.usafasupport.com/rampart-lodge/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access",
+        "body": "South Gate (I-25 Exit 150) is open 24/7 for visitors and non-DoD personnel. North Gate (I-25 Exit 156) is open daily 0500-2200 — DoD ID encouraged. Pass & Registration Office is Mon-Fri 0730-1500 outside South Gate. Trusted Traveler suspended — 100% ID checks at all gates.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Getting On Base",
+            "url": "https://www.usafa.edu/visitors/getting-on-base/"
+          },
+          {
+            "id": "link-visitors",
+            "title": "Visitor Information",
+            "url": "https://www.usafa.edu/visitors/"
+          }
+        ]
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus 10th FSS MWR programs and Military OneSource for relocation support.",
         "links": [
           {
             "id": "link-official",
             "title": "USAFA Official Site",
-            "url": "https://www.usafa.af.mil/"
+            "url": "https://www.usafa.edu/"
           },
           {
             "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.usafa.af.mil/Newcomers/"
+            "title": "In-Processing Day",
+            "url": "https://www.usafa.edu/in-processing-day/"
           },
           {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.usafafss.com/"
+            "title": "10th Force Support Squadron",
+            "url": "https://www.usafasupport.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/us-air-force-academy/"
+            "id": "link-medical",
+            "title": "10th Medical Group",
+            "url": "https://usafa.tricare.mil/"
           },
           {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/air-force-academy"
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.usafasupport.com/military-family-readiness-center/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

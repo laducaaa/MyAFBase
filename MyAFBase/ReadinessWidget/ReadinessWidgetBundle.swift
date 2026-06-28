@@ -8,5 +8,6 @@ struct ReadinessWidgetBundle: WidgetBundle {
         WeatherWidget()
         OpenNowWidget()
         EmergencyWidget()
+        PayWidget()
     }
 }

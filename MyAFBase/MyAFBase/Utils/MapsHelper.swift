@@ -2,20 +2,26 @@ import UIKit
 
 enum MapsHelper {
     static func open(address: String) {
-        let encoded = address.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? address
-        if let url = URL(string: "http://maps.apple.com/?q=\(encoded)") {
-            UIApplication.shared.open(url)
-        }
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "maps.apple.com"
+        components.queryItems = [URLQueryItem(name: "q", value: address)]
+        guard let url = components.url else { return }
+        UIApplication.shared.open(url)
     }
 
     static func open(latitude: Double, longitude: Double, label: String? = nil) {
-        var urlString = "http://maps.apple.com/?ll=\(latitude),\(longitude)"
-        if let label, let encoded = label.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
-            urlString += "&q=\(encoded)"
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "maps.apple.com"
+        components.queryItems = [
+            URLQueryItem(name: "ll", value: "\(latitude),\(longitude)"),
+        ]
+        if let label {
+            components.queryItems?.append(URLQueryItem(name: "q", value: label))
         }
-        if let url = URL(string: urlString) {
-            UIApplication.shared.open(url)
-        }
+        guard let url = components.url else { return }
+        UIApplication.shared.open(url)
     }
 
     static func open(gate: Gate) {

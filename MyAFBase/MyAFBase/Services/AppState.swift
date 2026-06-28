@@ -25,7 +25,7 @@ final class AppState {
 
     private let dataService: BaseDataProviding
     private let weatherService: WeatherService
-    private let selectedBaseKey = "selectedBaseID"
+    private let selectedBaseKey = AppIntentBaseSelection.selectedBaseKey
     private let showCONUSWeatherKey = "showCONUSWeatherInHero"
     private let onboardingCompletedKey = "hasCompletedOnboarding"
     private let weatherHeroRefreshOverlayDuration: TimeInterval = 1.35

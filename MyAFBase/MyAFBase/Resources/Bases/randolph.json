@@ -7,7 +7,7 @@
   "wing": "AETC HQ / 12 FTW / 902 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-06-23T16:37:58Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -195,7 +195,7 @@
       "id": "res-randolph-security-service-fcu",
       "name": "Security Service Federal Credit Union",
       "category": "finance",
-      "description": "On-base credit union branch with full banking services and ATMs.",
+      "description": "On-base federal credit union office with full banking services and ATMs.",
       "hours": "Mon-Fri 0900-1700; Sat 0900-1300",
       "address": "Near BX, JBSA Randolph, TX 78150",
       "phone": "210-476-4000",
@@ -229,7 +229,7 @@
       "name": "502d Force Support Squadron",
       "category": "services",
       "description": "MWR programs, family support, dining, fitness, and recreation at JBSA-Randolph.",
-      "hours": "Varies by program",
+      "hours": "Mon-Fri 0730-1630; BMT and technical training program hours at randolphfss.com",
       "address": "JBSA Randolph, TX 78150",
       "phone": "210-652-5321",
       "url": "https://www.jbsa.mil/",

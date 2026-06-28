@@ -30,8 +30,63 @@ enum HomeWidgetSync {
         WidgetDataStore.saveEmergency(snapshot)
         WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.emergency)
     }
+
+    @MainActor
+    static func publishPayCalendar(specialPays: [SpecialPayEntry]) {
+        let snapshot = PayWidgetBuilder.snapshot(specialPays: specialPays)
+        WidgetDataStore.savePay(snapshot)
+        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.payCalendar)
+    }
+
+    @MainActor
+    static func publishPayCalendar() {
+        publishPayCalendar(specialPays: SpecialPayStore().entries)
+    }
 }
 
+@MainActor
+enum PayWidgetBuilder {
+    static func snapshot(
+        from reference: Date = .now,
+        specialPays: [SpecialPayEntry] = []
+    ) -> PayWidgetSnapshot {
+        let events = PayCalendar.upcomingEvents(from: reference, specialPays: specialPays)
+
+        guard let next = events.first else {
+            return PayWidgetSnapshot(
+                nextTitle: "",
+                nextDate: reference,
+                daysUntil: 0,
+                isSpecial: false,
+                symbolName: "dollarsign.circle",
+                upcoming: [],
+                updatedAt: reference
+            )
+        }
+
+        let upcoming = events.prefix(4).map { event in
+            PayWidgetUpcomingItem(
+                title: event.title,
+                date: event.date,
+                daysUntil: PayCalendar.daysUntil(event.date, from: reference),
+                isSpecial: event.isSpecial,
+                symbolName: event.systemImage
+            )
+        }
+
+        return PayWidgetSnapshot(
+            nextTitle: next.title,
+            nextDate: next.date,
+            daysUntil: PayCalendar.daysUntil(next.date, from: reference),
+            isSpecial: next.isSpecial,
+            symbolName: next.systemImage,
+            upcoming: Array(upcoming),
+            updatedAt: reference
+        )
+    }
+}
+
+@MainActor
 enum WeatherWidgetBuilder {
     static func snapshot(from base: Base, weather: Weather?) -> WeatherWidgetSnapshot {
         guard let weather, !weather.isPlaceholder else {
@@ -66,6 +121,7 @@ enum WeatherWidgetBuilder {
     }
 }
 
+@MainActor
 enum OpenNowWidgetBuilder {
     static func snapshot(from base: Base, savedItems: [ResolvedSavedItem], limit: Int = 8) -> OpenNowWidgetSnapshot {
         let entries = OpenNowCatalog.openEntries(for: base, resourceLimit: 5, gateLimit: 3)
@@ -158,6 +214,7 @@ enum OpenNowWidgetBuilder {
     }
 }
 
+@MainActor
 enum EmergencyWidgetBuilder {
     static func snapshot(from base: Base) -> EmergencyWidgetSnapshot {
         EmergencyWidgetSnapshot(

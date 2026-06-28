@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-06-24T16:25:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -43,45 +43,34 @@
   "gates": [
     {
       "id": "gate-spirit",
-      "name": "Spirit Gate (West / Main Gate)",
+      "name": "Spirit Gate (Main)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access with Visitor Control Center. Main entry point for visitors and base personnel.",
+      "notes": "Primary 24/7 gate.",
       "traffic": "high",
       "address": "Spirit Gate, Whiteman AFB, MO 65305",
       "latitude": 38.7303,
       "longitude": -93.5479
     },
     {
-      "id": "gate-arnold",
-      "name": "Arnold Gate (North / Knob Noster Gate)",
-      "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": "North side access. Closed weekends and holidays.",
-      "traffic": "moderate",
-      "address": "Arnold Ave, Whiteman AFB, MO 65305",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "gate-lemay",
-      "name": "LeMay Gate (South / Commercial Gate)",
-      "status": "open",
-      "hours": "Mon-Fri 0600-1800 (commercial & contractor vehicles only)",
-      "notes": "Commercial and contractor access only. Closed weekends and holidays.",
-      "traffic": "low",
-      "address": "LeMay Gate, Whiteman AFB, MO 65305",
-      "latitude": null,
-      "longitude": null
-    },
-    {
       "id": "gate-vcc",
-      "name": "Visitor Control Center (Spirit Gate)",
+      "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Open 24/7 at Spirit Gate",
-      "notes": "Day passes and visitor registration. REAL ID required. Walk-ins processed in order of arrival. Foreign national visits require 14-day advance processing.",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
-      "address": "Spirit Gate, Whiteman AFB, MO 65305",
+      "address": "Whiteman AFB, MO 65305",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "South Gate, Whiteman AFB, MO 65305",
       "latitude": null,
       "longitude": null
     }
@@ -92,9 +81,9 @@
       "name": "Ozark Inn Dining Facility",
       "category": "dining",
       "description": "Primary DFAC supporting the 509th Bomb Wing with full meal service and 24/7 grab-and-go options.",
-      "hours": "See posted meal hours; grab-and-go available 24/7",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-1110",
+      "hours": "Mon-Fri: Bfast 0600-0900, Lunch 1100-1300, Dinner 1630-1900, Midnight 2300-0100; Sat-Sun: Bfast 0700-0900, Lunch 1100-1300, Dinner 1630-1800",
+      "address": "323 Spirit Blvd, Whiteman AFB, MO 65305",
+      "phone": "660-687-5677",
       "url": "https://whitemanforcesupport.com/",
       "building": null
     },
@@ -102,7 +91,7 @@
       "id": "res-whiteman-bx",
       "name": "Whiteman Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
+      "description": "Whiteman Main Exchange with food court, barber, beauty shop, Class Six, shoppette, and retail.",
       "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
       "address": "750 Arnold Ave, Whiteman AFB, MO 65305",
       "phone": "660-563-3001",
@@ -114,17 +103,17 @@
       "name": "Whiteman Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-1110",
-      "url": "https://shop.commissaries.com/",
+      "hours": "Sun 1000-1800; Mon-Sat 9:00 AM-7:00 PM",
+      "address": "750 Vandenberg Ave, Whiteman AFB, MO 65305",
+      "phone": "660-687-5100",
+      "url": "https://shop.commissaries.com/stores/whiteman-afb",
       "building": null
     },
     {
       "id": "res-whiteman-rg-cu",
       "name": "RG Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "760 Arnold Ave, Whiteman AFB, MO 65305",
       "phone": "816-783-5900",
@@ -136,11 +125,11 @@
       "name": "Sports & Fitness Center",
       "category": "fitness",
       "description": "Main fitness facility with cardio, weights, group exercise, aquatics, and 24/7 access for registered card holders.",
-      "hours": "Mon-Thu 0500-2200; Fri 0500-2000; Sat-Sun 1000-1700; 24/7 for registered users",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-5496",
-      "url": "https://whitemanforcesupport.com/",
-      "building": null
+      "hours": "Mon-Thu 0500-2200; Fri 0500-2000; Sat-Sun 1000-1700; 24/7 access card after registration",
+      "address": "777 Mitchell Ave, Bldg 2014, Whiteman AFB, MO 65305",
+      "phone": "660-687-5495",
+      "url": "https://whitemanforcesupport.com/fitness-center/",
+      "building": "Bldg 2014"
     },
     {
       "id": "res-whiteman-unaccompanied-housing",
@@ -158,7 +147,7 @@
       "name": "Whiteman Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging including DVQ and TLF. 24-hour front desk for arrivals.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "325 Spirit Blvd, Whiteman AFB, MO 65305",
       "phone": "660-687-1844",
       "url": "https://af.dodlodging.net/",
@@ -180,9 +169,9 @@
       "name": "509th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-1110",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "511 Spirit Blvd, Whiteman AFB, MO 65305",
+      "phone": "660-687-2752",
       "url": "https://whitemanforcesupport.com/",
       "building": null
     },
@@ -191,9 +180,9 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, FamCamp, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-2505",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "725 2nd St, Bldg 110, Whiteman AFB, MO 65305",
+      "phone": "660-687-5565",
       "url": "https://whitemanforcesupport.com/",
       "building": null
     },
@@ -210,12 +199,12 @@
     },
     {
       "id": "res-whiteman-bowling",
-      "name": "Stars and Strikes Bowling Center",
+      "name": "Stars & Strikes Bowling Center",
       "category": "recreation",
       "description": "Bowling alley with lanes and snack bar.",
-      "hours": "See FSS for current hours",
-      "address": "Whiteman AFB, MO 65305",
-      "phone": "660-687-1110",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "699 Mitchell Ave, Whiteman AFB, MO 65305",
+      "phone": "660-687-5114",
       "url": "https://whitemanforcesupport.com/",
       "building": null
     },
@@ -224,10 +213,32 @@
       "name": "509th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Whiteman AFB, MO 65305",
       "phone": "660-687-1110",
       "url": "https://whiteman.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-whiteman-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "address": "Whiteman AFB, MO 65305",
+      "phone": "660-687-3226",
+      "url": "https://www.whiteman.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-whiteman-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Whiteman AFB, Knob Noster, MO",
+      "phone": "660-687-1110",
+      "url": "https://whitemanforcesupport.com/",
       "building": null
     }
   ],
@@ -275,6 +286,18 @@
             "url": "https://whitemanforcesupport.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

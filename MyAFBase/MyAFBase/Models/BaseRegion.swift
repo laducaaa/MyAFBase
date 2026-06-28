@@ -1,6 +1,6 @@
 import Foundation
 
-enum BaseRegion: String, Codable, CaseIterable, Equatable {
+enum BaseRegion: String, Codable, CaseIterable, Equatable, Sendable {
     case conus
     case oconus
 

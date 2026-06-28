@@ -10,16 +10,20 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
     private var lastIndexSyncAttempt: Date?
 
     init(
-        bundled: LocalJSONDataService = LocalJSONDataService(),
+        bundled: LocalJSONDataService? = nil,
         cache: BaseDataDiskCache = .shared,
         session: URLSession = .shared
     ) {
-        self.bundled = bundled
+        self.bundled = bundled ?? LocalJSONDataService()
         self.cache = cache
         self.session = session
     }
 
     func syncRemoteUpdates(force: Bool = false, baseID: String? = nil) async {
+        if let baseID, BaseIDValidator.sanitize(baseID) == nil {
+            return
+        }
+
         await syncRemoteIndex(force: force)
 
         if let baseID {
@@ -37,6 +41,8 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
     }
 
     func loadBase(id: String) async -> Base? {
+        guard BaseIDValidator.sanitize(id) != nil else { return nil }
+
         if let cached = cachedBases[id] {
             return cached
         }
@@ -64,7 +70,7 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
         }
 
         if let remoteEntries = decodeIndex(from: cache.read(filename: "bases_index.json")) {
-            for entry in remoteEntries {
+            for entry in remoteEntries where BaseIDValidator.sanitize(entry.id) != nil {
                 indexByID[entry.id] = entry
             }
         }
@@ -77,9 +83,10 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
     }
 
     private func syncRemoteIndex(force: Bool) async {
+        let indexFilename = "bases_index.json"
         let shouldFetch = force
-            || cache.isStale(filename: "bases_index.json", maxAge: BaseDataRemoteConfig.indexRefreshInterval)
-            || decodeIndex(from: cache.read(filename: "bases_index.json")) == nil
+            || cache.isStale(filename: indexFilename, maxAge: BaseDataRemoteConfig.indexRefreshInterval)
+            || decodeIndex(from: cache.read(filename: indexFilename)) == nil
 
         guard shouldFetch else { return }
 
@@ -91,45 +98,40 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
         }
         lastIndexSyncAttempt = now
 
-        guard let data = await fetchRemoteData(from: BaseDataRemoteConfig.indexURL) else {
+        guard let data = await fetchRemoteData(from: BaseDataRemoteConfig.indexURL, filename: indexFilename),
+              decodeIndex(from: data) != nil else {
             return
         }
 
-        guard decodeIndex(from: data) != nil else {
-            print("RemoteAwareBaseDataService: remote bases_index.json failed to decode")
-            return
-        }
-
-        cache.write(data, filename: "bases_index.json")
+        cache.write(data, filename: indexFilename)
         cachedIndex = nil
     }
 
     private func loadRemoteBase(id: String, force: Bool) async -> Base? {
-        let filename = "\(id).json"
+        guard let filename = BaseIDValidator.cacheFilename(for: id) else { return nil }
 
         if !force,
            let cachedData = cache.read(filename: filename),
            !cache.isStale(filename: filename, maxAge: BaseDataRemoteConfig.baseRefreshInterval),
-           let cachedBase = decodeBase(from: cachedData) {
+           let cachedBase = await decodeBase(from: cachedData, expectedID: id) {
             return cachedBase
         }
 
-        if let remoteData = await fetchRemoteData(from: BaseDataRemoteConfig.baseURL(id: id)) {
-            if let remoteBase = decodeBase(from: remoteData) {
-                cache.write(remoteData, filename: filename)
-                return remoteBase
-            }
-            print("RemoteAwareBaseDataService: remote \(filename) failed to decode")
+        if let remoteURL = BaseDataRemoteConfig.baseURL(id: id),
+           let remoteData = await fetchRemoteData(from: remoteURL, filename: filename),
+           let remoteBase = await decodeBase(from: remoteData, expectedID: id) {
+            cache.write(remoteData, filename: filename)
+            return remoteBase
         }
 
         if let cachedData = cache.read(filename: filename) {
-            return decodeBase(from: cachedData)
+            return await decodeBase(from: cachedData, expectedID: id)
         }
 
         return nil
     }
 
-    private func fetchRemoteData(from url: URL) async -> Data? {
+    private func fetchRemoteData(from url: URL, filename: String) async -> Data? {
         var request = URLRequest(url: url)
         request.cachePolicy = .reloadIgnoringLocalCacheData
         request.timeoutInterval = 20
@@ -139,6 +141,10 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
             guard let http = response as? HTTPURLResponse else { return nil }
             guard (200 ... 299).contains(http.statusCode) else {
                 print("RemoteAwareBaseDataService: HTTP \(http.statusCode) for \(url.lastPathComponent)")
+                return nil
+            }
+            guard BaseDataIntegrity.verify(data: data, filename: filename) else {
+                print("RemoteAwareBaseDataService: integrity check failed for \(filename)")
                 return nil
             }
             return data
@@ -153,20 +159,29 @@ actor RemoteAwareBaseDataService: BaseDataProviding {
         return try? JSONCoding.decoder.decode([BaseIndexEntry].self, from: data)
     }
 
-    private func decodeBase(from data: Data) -> Base? {
-        try? JSONCoding.decoder.decode(Base.self, from: data)
+    private func decodeBase(from data: Data, expectedID: String) async -> Base? {
+        guard let base = await JSONCoding.decodeBase(from: data),
+              BaseDataIntegrity.validateBase(base, expectedID: expectedID) else {
+            return nil
+        }
+        return base
     }
 
-    private static func preferredBase(remote: Base?, bundled: Base?) -> Base? {
+    private nonisolated static func preferredBase(remote: Base?, bundled: Base?) -> Base? {
         switch (remote, bundled) {
         case (nil, let bundled):
             return bundled
         case (let remote, nil):
             return remote
         case (let remote?, let bundled?):
-            let remoteDate = remote.dataUpdatedDate ?? .distantPast
-            let bundledDate = bundled.dataUpdatedDate ?? .distantPast
+            let remoteDate = dataUpdatedDate(for: remote)
+            let bundledDate = dataUpdatedDate(for: bundled)
             return remoteDate >= bundledDate ? remote : bundled
         }
+    }
+
+    private nonisolated static func dataUpdatedDate(for base: Base) -> Date {
+        guard let dataUpdatedAt = base.dataUpdatedAt else { return .distantPast }
+        return ISO8601DateFormatter().date(from: dataUpdatedAt) ?? .distantPast
     }
 }

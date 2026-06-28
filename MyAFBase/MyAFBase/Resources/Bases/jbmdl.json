@@ -7,7 +7,7 @@
   "wing": "87 ABW",
   "latitude": 40.0156,
   "longitude": -74.5917,
-  "dataUpdatedAt": "2026-06-24T16:45:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "jbmdl-notif-real-id",
@@ -169,18 +169,18 @@
       "name": "Halvorsen Hall Dining Facility (McGuire)",
       "category": "dining",
       "description": "Primary DFAC on McGuire side open to all DoD ID holders and guests.",
-      "hours": "See posted meal hours",
+      "hours": "Mon-Fri: Bfast 0600-0830, Lunch 1030-1330, Dinner 1630-1900; Sat-Sun/Holidays: Bfast 0600-0830, Lunch 1030-1300, Dinner 1630-1800",
       "address": "Bldg 2635, POW/MIA Blvd, JB MDL, NJ 08641",
       "phone": "609-754-8934",
-      "url": "https://gomdl.com/",
+      "url": "https://gomdl.com/halvorsen-hall-dining-facility/",
       "building": "Bldg 2635"
     },
     {
       "id": "res-jbmdl-dfac-dix",
-      "name": "Dining Facility (Dix)",
+      "name": "Dix Dining Facility",
       "category": "dining",
       "description": "Primary DFAC on Fort Dix side open to all DoD ID holders and guests.",
-      "hours": "See posted meal hours",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1100-1300, Dinner 1630-1830; UTA weekends: Bfast 0700-0900, Lunch 1100-1300",
       "address": "Bldg 5555, Texas Ave & 8th St, JB MDL, NJ 08640",
       "phone": "609-562-2095",
       "url": "https://gomdl.com/",
@@ -190,55 +190,55 @@
       "id": "res-jbmdl-bx",
       "name": "JB MDL Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
-      "hours": "Mon-Sat 0900-1900; Sun 1100-1800",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
-      "url": "https://www.shopmyexchange.com/",
-      "building": null
+      "description": "JB MDL McGuire Main Exchange with food court, barber, beauty shop, optical, GNC, and retail services.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "3452 Broidy Rd, Bldg 3452, JB MDL McGuire, NJ 08641",
+      "phone": "609-723-6904",
+      "url": "https://www.shopmyexchange.com/store-locator/mcguire-main-exchange",
+      "building": "Bldg 3452"
     },
     {
       "id": "res-jbmdl-commissary",
       "name": "JB MDL Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
-      "url": "https://shop.commissaries.com/",
-      "building": null
+      "hours": "Sun 1000-1900; Mon-Sat 0900-2000",
+      "address": "3453 Broidy Rd, Bldg 3453, JB MDL McGuire, NJ 08641",
+      "phone": "609-754-2153",
+      "url": "https://shop.commissaries.com/stores/mcguire-afb",
+      "building": "Bldg 3453"
     },
     {
       "id": "res-jbmdl-andrews-cu",
       "name": "Andrews Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on McGuire side with ATM.",
+      "description": "On-base federal credit union on McGuire side with ATM.",
       "hours": "Mon-Fri 0900-1700",
-      "address": "JB MDL McGuire, NJ 08641",
-      "phone": "609-754-1110",
-      "url": null,
+      "address": "3452 Broidy Rd, JB MDL McGuire, NJ 08641",
+      "phone": "609-754-4030",
+      "url": "https://www.andrewsfcu.org/",
       "building": null
     },
     {
       "id": "res-jbmdl-fort-dix-cu",
       "name": "Fort Dix Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on Fort Dix side with ATM.",
+      "description": "On-base federal credit union on Fort Dix side with ATM.",
       "hours": "Mon-Fri 0900-1700",
-      "address": "JB MDL Dix, NJ 08640",
-      "phone": "609-562-1110",
-      "url": null,
+      "address": "5200 Texas Ave, JB MDL Dix, NJ 08640",
+      "phone": "609-562-0770",
+      "url": "https://www.fortdixfcu.org/",
       "building": null
     },
     {
       "id": "res-jbmdl-lakehurst-cu",
       "name": "Lakehurst Naval Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on Lakehurst side with ATM.",
+      "description": "On-base federal credit union on Lakehurst side with ATM.",
       "hours": "Mon-Fri 0900-1700",
-      "address": "JB MDL Lakehurst, NJ 08733",
-      "phone": "732-323-1110",
-      "url": null,
+      "address": "620 Lansdowne Rd, JB MDL Lakehurst, NJ 08733",
+      "phone": "732-323-5300",
+      "url": "https://www.navyfederal.org/",
       "building": null
     },
     {
@@ -246,10 +246,10 @@
       "name": "Fitness Center (McGuire)",
       "category": "fitness",
       "description": "Main fitness facility on McGuire side with cardio, weights, and group exercise.",
-      "hours": "See FSS for current hours",
-      "address": "Bldg 1706, McGuire Blvd, JB MDL, NJ 08641",
+      "hours": "Mon-Fri 0600-1800; 24/7 CAC access after registration",
+      "address": "2504 POW/MIA Blvd, Bldg 1706, JB MDL McGuire, NJ 08641",
       "phone": "609-754-6085",
-      "url": "https://gomdl.com/",
+      "url": "https://gomdl.com/fitness-center-mcguire/",
       "building": "Bldg 1706"
     },
     {
@@ -257,10 +257,10 @@
       "name": "Griffith Field House (Dix)",
       "category": "fitness",
       "description": "Fitness and sports facility on Fort Dix side.",
-      "hours": "See FSS for current hours",
-      "address": "Bldg 6053, 8th St & Millville Rd, JB MDL, NJ 08640",
+      "hours": "Mon-Fri 0500-1900; Sat-Sun 0600-1200; 24/7 CAC access after registration",
+      "address": "Bldg 6053, 8th St & Millville Rd, JB MDL Dix, NJ 08640",
       "phone": "609-562-4888",
-      "url": "https://gomdl.com/",
+      "url": "https://gomdl.com/griffith-field-house/",
       "building": "Bldg 6053"
     },
     {
@@ -268,10 +268,10 @@
       "name": "Fitness Center (Lakehurst)",
       "category": "fitness",
       "description": "Fitness facility on Lakehurst side.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0700-1900; Sat-Sun 0800-1200; 24/7 CAC access after registration",
       "address": "Bldg 123, Severyns Rd, JB MDL, NJ 08733",
       "phone": "732-323-7266",
-      "url": "https://gomdl.com/",
+      "url": "https://gomdl.com/fitness-center-lakehurst/",
       "building": "Bldg 123"
     },
     {
@@ -290,7 +290,7 @@
       "name": "All American Inn / Doughboy Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF across McGuire/Dix and Lakehurst locations. 24-hour front desk options.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "Bldg 2786, Mitchell Rd (McGuire/Dix); Bldg 481, Walsh Dr (Lakehurst), JB MDL, NJ",
       "phone": "609-754-4667",
       "url": "https://gomdl.com/",
@@ -312,18 +312,18 @@
       "name": "87th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs across McGuire, Dix, and Lakehurst.",
-      "hours": "See directory for individual facility hours",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Bldg 3435, Broidy Rd, JB MDL McGuire, NJ 08641",
+      "phone": "609-754-3131",
       "url": "https://gomdl.com/",
-      "building": null
+      "building": "Bldg 3435"
     },
     {
       "id": "res-jbmdl-outdoor-rec",
       "name": "Outdoor Recreation (ODR)",
       "category": "recreation",
       "description": "Equipment rental, recreational programs, and outdoor activities across Dix and Lakehurst.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Bldg 6045, Doughboy Loop (Dix); Bldg 484, Lansdowne Rd (Lakehurst), JB MDL, NJ",
       "phone": "609-562-6667",
       "url": "https://gomdl.com/",
@@ -331,36 +331,36 @@
     },
     {
       "id": "res-jbmdl-golf",
-      "name": "JB MDL Golf Course",
+      "name": "JB MDL Golf Course (McGuire)",
       "category": "recreation",
       "description": "18-hole golf course with pro shop and dining.",
-      "hours": "Sun-up to sun-down (seasonal)",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
+      "hours": "Seasonal; call pro shop for tee times",
+      "address": "McGuire Blvd, JB MDL McGuire, NJ 08641",
+      "phone": "609-754-3195",
       "url": "https://gomdl.com/",
       "building": null
     },
     {
       "id": "res-jbmdl-bowling",
-      "name": "JB MDL Bowling Center",
+      "name": "Dix Bowling Center",
       "category": "recreation",
       "description": "Bowling alley with lanes and snack bar.",
-      "hours": "See FSS for current hours",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "6054 Doughboy Loop, Bldg 6045, JB MDL Dix, NJ 08640",
+      "phone": "609-562-6667",
       "url": "https://gomdl.com/",
-      "building": null
+      "building": "Bldg 6045"
     },
     {
       "id": "res-jbmdl-medical",
       "name": "87th Medical Group / 87th Medical Squadron",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services across McGuire, Dix, and Lakehurst.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
-      "address": "JB MDL, NJ",
-      "phone": "609-754-1110",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1200, McGuire Blvd, JB MDL McGuire, NJ 08641",
+      "phone": "609-754-9000",
       "url": "https://jbmdl.tricare.mil/",
-      "building": null
+      "building": "Bldg 1200"
     }
   ],
   "events": [],
@@ -407,6 +407,18 @@
             "url": "https://gomdl.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

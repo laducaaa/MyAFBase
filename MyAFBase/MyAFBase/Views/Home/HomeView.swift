@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     @Environment(AppState.self) private var appState
     @Environment(BookmarkStore.self) private var bookmarkStore
+    @Environment(ReadinessTrackerStore.self) private var readinessTrackerStore
     @Environment(NotificationDismissalStore.self) private var dismissalStore
     @Environment(AssignmentProfileStore.self) private var assignmentProfileStore
     @Binding var selectedTab: Int
@@ -20,11 +21,12 @@ struct HomeView: View {
 
                             HomeAssignmentBanner(baseID: base.id, baseName: base.name)
 
-                            notificationsSection(for: base)
+                            remindersSection(for: base)
                             emergencySection(for: base)
                             toolsSection
                             openNowSection(for: base)
                             savedItemsSection(for: base)
+                            legalFooterSection
                         }
                         .padding()
                     }
@@ -64,37 +66,51 @@ struct HomeView: View {
     }
 
     @ViewBuilder
-    private func notificationsSection(for base: Base) -> some View {
-        let allActive = activeNotifications(for: base)
-        let visible = Array(allActive.prefix(3))
+    private func remindersSection(for base: Base) -> some View {
+        let tracker = readinessTrackerStore.tracker(for: base.id)
+        let allActive = activeReminders(for: base, tracker: tracker)
+        let visible = allActive.prefix(1)
 
-        if !visible.isEmpty {
+        if let reminder = visible.first {
             VStack(alignment: .leading, spacing: 12) {
                 SectionHeader(
-                    title: "Alerts",
-                    actionTitle: allActive.count > visible.count ? "See All" : nil,
-                    action: allActive.count > visible.count ? { selectedTab = 3 } : nil,
+                    title: "Reminders",
+                    actionTitle: allActive.count > 1 ? "See All" : nil,
+                    action: allActive.count > 1 ? { selectedTab = 3 } : nil,
                     secondaryActionTitle: allActive.count >= 2 ? "Clear All" : nil,
                     secondaryAction: allActive.count >= 2 ? {
-                        dismissalStore.dismissAll(
-                            baseID: base.id,
-                            notificationIDs: allActive.map(\.id)
-                        )
+                        withAnimation(Self.reminderDismissAnimation) {
+                            dismissalStore.dismissAll(
+                                baseID: base.id,
+                                notificationIDs: allActive.map(\.id)
+                            )
+                        }
                     } : nil
                 )
-                ForEach(visible) { notification in
-                    NotificationRow(notification: notification) {
-                        dismissalStore.dismiss(baseID: base.id, notificationID: notification.id)
+
+                ReadinessReminderRow(reminder: reminder) {
+                    withAnimation(Self.reminderDismissAnimation) {
+                        dismissalStore.dismiss(baseID: base.id, notificationID: reminder.id)
                     }
                 }
+                .transition(Self.reminderRowTransition)
             }
+            .animation(Self.reminderDismissAnimation, value: reminder.id)
         }
     }
 
-    private func activeNotifications(for base: Base) -> [NotificationItem] {
-        base.currentNotifications
-            .filter { $0.isActive && !dismissalStore.isDismissed(baseID: base.id, notificationID: $0.id) }
-            .sorted { $0.postedAt > $1.postedAt }
+    private static let reminderDismissAnimation = Animation.spring(response: 0.38, dampingFraction: 0.84)
+
+    private static let reminderRowTransition: AnyTransition = .asymmetric(
+        insertion: .opacity.combined(with: .move(edge: .top)),
+        removal: .opacity
+            .combined(with: .scale(scale: 0.94, anchor: .trailing))
+            .combined(with: .move(edge: .trailing))
+    )
+
+    private func activeReminders(for base: Base, tracker: ReadinessTracker) -> [ReadinessReminder] {
+        ReadinessReminderBuilder.reminders(from: tracker)
+            .filter { !dismissalStore.isDismissed(baseID: base.id, notificationID: $0.id) }
     }
 
     @ViewBuilder
@@ -238,5 +254,14 @@ struct HomeView: View {
     private func openExplore(for category: HomeSavedCategory) {
         appState.openExplore(category.exploreDestination)
         selectedTab = 1
+    }
+
+    private var legalFooterSection: some View {
+        LegalDisclaimerCard(
+            text: LegalCopy.nonAffiliationShort,
+            style: .compact,
+            systemImage: "building.columns"
+        )
+        .padding(.top, 4)
     }
 }

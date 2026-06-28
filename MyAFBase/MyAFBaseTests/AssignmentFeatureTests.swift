@@ -29,6 +29,8 @@ struct OpenNowCatalogTests {
                     phone: nil,
                     url: nil,
                     building: nil,
+                    latitude: nil,
+                    longitude: nil,
                     type: .hours,
                     value: nil
                 )

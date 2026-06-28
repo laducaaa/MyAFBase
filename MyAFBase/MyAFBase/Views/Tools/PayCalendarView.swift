@@ -42,45 +42,19 @@ struct PayCalendarView: View {
         .sheet(isPresented: $showAddSpecialPay) {
             AddSpecialPaySheet { entry in
                 specialPayStore.add(entry)
+                HomeWidgetSync.publishPayCalendar(specialPays: specialPayStore.entries)
             }
+        }
+        .onAppear {
+            HomeWidgetSync.publishPayCalendar(specialPays: specialPayStore.entries)
+        }
+        .onChange(of: specialPayStore.entries.count) { _, _ in
+            HomeWidgetSync.publishPayCalendar(specialPays: specialPayStore.entries)
         }
     }
 
     private func nextPayCard(_ event: PayCalendarEvent) -> some View {
-        let days = PayCalendar.daysUntil(event.date)
-
-        return VStack(alignment: .leading, spacing: 12) {
-            Text("Next pay")
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(.secondary)
-
-            HStack(alignment: .firstTextBaseline, spacing: 10) {
-                Image(systemName: event.systemImage)
-                    .font(.title2)
-                    .foregroundStyle(event.isSpecial ? .orange : AppTheme.accent)
-
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(event.title)
-                        .font(.title3.weight(.bold))
-
-                    Text(event.date.formatted(date: .complete, time: .omitted))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                }
-
-                Spacer(minLength: 0)
-
-                VStack(alignment: .trailing, spacing: 0) {
-                    Text("\(days)")
-                        .font(.system(size: 34, weight: .bold, design: .rounded))
-                        .foregroundStyle(AppTheme.accent)
-                    Text(days == 1 ? "day" : "days")
-                        .font(.caption.weight(.medium))
-                        .foregroundStyle(.secondary)
-                }
-            }
-        }
-        .appCardStyle()
+        NextPayPeriodCard(event: event)
     }
 
     private var regularPayInfoCard: some View {
@@ -203,10 +177,18 @@ struct PayCalendarView: View {
     }
 
     private var disclaimerCard: some View {
-        Text("Pay dates follow the usual 1st and 15th schedule with weekend adjustments. Confirm exact deposit dates with myPay or your finance office.")
-            .font(.caption)
-            .foregroundStyle(.secondary)
-            .appCardStyle()
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Pay dates follow the usual 1st and 15th schedule with weekend adjustments. Confirm exact deposit dates with myPay or your finance office.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+
+            Text(LegalCopy.nonAffiliationOneLine)
+                .font(.caption2)
+                .foregroundStyle(.tertiary)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .appCardStyle()
     }
 
     private func payEventRow(_ event: PayCalendarEvent) -> some View {

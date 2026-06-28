@@ -3,226 +3,357 @@
   "name": "Schriever SFB",
   "fullName": "Schriever Space Force Base",
   "location": "Colorado Springs, CO",
-  "description": "Schriever SFB hosts Space Delta 9 and multiple space operations squadrons supporting GPS and satellite command and control.",
-  "wing": "SD 9",
+  "description": "Schriever SFB is a satellite operations installation east of Colorado Springs, home to Space Delta 15 and multiple space C2 squadrons supporting GPS and military satellite operations. A no-flightline, mission-focused base with no on-base BX, commissary, or traditional DFAC — most garrison services are consolidated with nearby Peterson SFB under Space Base Delta 1.",
+  "wing": "SD 15",
   "latitude": 38.8344,
   "longitude": -104.5264,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "schriever-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Control Center — Trusted Traveler Program suspended.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-01-03T08:00:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "Schriever SFB Security Forces",
-      "number": "719-567-3421"
+      "label": "Security Forces / Law Enforcement",
+      "number": "719-567-6464"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
+      "label": "Emergency Communications Center",
+      "number": "719-567-6464"
+    },
+    {
+      "id": "em-4",
       "label": "Base Operator",
       "number": "719-567-1110"
+    },
+    {
+      "id": "em-5",
+      "label": "Schriever Clinic Appointments",
+      "number": "719-524-2273"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate",
-      "name": "Main Gate",
+      "id": "gate-north-enoch",
+      "name": "North Enoch Gate (Main Gate)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "moderate",
-      "address": "Falcon Pkwy, Schriever SFB, CO 80912",
+      "notes": "Primary 24/7 gate on Enoch Road. Visitor Control Center is located here just prior to the gate entry. Can issue visitor passes when VCC is closed.",
+      "traffic": "high",
+      "address": "Enoch Rd, Schriever SFB, CO 80912",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-gate-1-falcon-pkwy-east",
-      "name": "Gate 1 (Falcon Pkwy East)",
+      "id": "gate-west-irwin",
+      "name": "West Irwin Gate",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
-      "traffic": "low",
-      "address": "Falcon Pkwy E, Schriever SFB, CO 80912",
+      "hours": "Mon-Fri 0600-1900",
+      "notes": "Closest gate to Colorado Springs via HWY 94 and Irwin Road. Closed weekends, federal holidays, and base down days.",
+      "traffic": "moderate",
+      "address": "Irwin Rd, Schriever SFB, CO 80912",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (North Enoch Gate)",
+      "status": "open",
+      "hours": "Mon-Thu 0700-1600; Fri 0700-1400",
+      "notes": "Closed weekends, federal holidays, and base down days. Pre-register visitors via DBIDS/DVES. REAL ID required. RA badges issued Mon-Fri 0700-1200 — call 719-567-5620 to confirm walk-ins.",
+      "traffic": "moderate",
+      "address": "1560 Enoch Rd, Colorado Springs, CO 80930",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-schriever-dfac",
-      "name": "Main Dining Facility",
+      "id": "res-schriever-satellite-dish",
+      "name": "Satellite Dish Dining Facility",
       "category": "dining",
-      "description": "Main dining facility at Schriever SFB.",
-      "hours": "See posted meal hours",
-      "address": "150 Falcon Pkwy, Schriever SFB, CO 80912",
-      "phone": "719-567-1110",
-      "url": "https://www.schrieverfss.com/dining/",
+      "description": "Cafeteria-style dining in the Restricted Area — not a traditional open DFAC. Active duty and DoD civilians Mon-Fri breakfast and lunch only; all Schriever employees for dinner, midnight meal, and all meals on weekends and federal holidays. Ala-carte pricing with hot line, snack line, deli, salad bar, and specialty bar.",
+      "hours": "Mon-Fri: Breakfast 0600-0800, Lunch 1030-1300, Dinner 1600-1830, Midnight 2300-0100; Sat-Sun/Holidays: Breakfast 0630-0800, Lunch 1100-1300, Dinner 1600-1830",
+      "address": "Bldg 300, Schriever SFB, CO 80912",
+      "phone": "719-567-2216",
+      "url": "https://50fss.com/where-to-eat/",
+      "building": "Bldg 300"
+    },
+    {
+      "id": "res-schriever-food-trucks",
+      "name": "AAFES Food Trucks",
+      "category": "dining",
+      "description": "Rotating AAFES food trucks near the dining facility. No traditional DFAC or full-service restaurants elsewhere on base — most off-base dining is in Colorado Springs or Falcon.",
+      "hours": "Mon-Fri 1030-1300 (schedule posted when available; subject to change)",
+      "address": "Schriever SFB, Colorado Springs, CO 80912",
+      "phone": "719-567-2015",
+      "url": "https://50fss.com/where-to-eat/",
       "building": null
     },
     {
-      "id": "res-schriever-bx",
-      "name": "Schriever SFB Exchange",
+      "id": "res-schriever-peterson-bx",
+      "name": "Peterson SFB Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Schriever SFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "150 Falcon Pkwy, Schriever SFB, CO 80912",
-      "phone": "719-567-1110",
-      "url": "https://www.shopmyexchange.com/store-locator/schriever-main-exchange",
+      "description": "Schriever has no on-base BX. Peterson SFB Exchange (~10 miles west) is the primary exchange for Schriever personnel — clothing, electronics, food court, barber, and optical.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "1030 E Stewart Ave, Peterson SFB, CO 80914",
+      "phone": "719-596-7270",
+      "url": "https://www.shopmyexchange.com/store-locator/peterson-main-exchange",
       "building": null
     },
     {
-      "id": "res-schriever-commissary",
-      "name": "Schriever SFB Commissary",
+      "id": "res-schriever-peterson-commissary",
+      "name": "Peterson SFB Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "150 Falcon Pkwy, Schriever SFB, CO 80912",
-      "phone": "719-567-1110",
-      "url": "https://shop.commissaries.com/stores/schriever-sfb",
+      "description": "Schriever has no on-base commissary. Peterson SFB Commissary is the nearest DECA grocery for Schriever families and personnel.",
+      "hours": "Sun 0900-1800; Mon 0900-1800; Tue 0900-1900; Wed-Thu 0900-1800; Fri 0900-1800; Sat 0900-1800",
+      "address": "1040 E Stewart Ave, Peterson SFB, CO 80914",
+      "phone": "719-556-7765",
+      "url": "https://shop.commissaries.com/stores/peterson-sfb",
       "building": null
     },
     {
-      "id": "res-schriever-medical",
-      "name": "SD 9 Medical Group",
+      "id": "res-schriever-clinic",
+      "name": "Schriever Clinic (21st Medical Group)",
       "category": "medical",
-      "description": "Primary medical facility for Schriever SFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-2273",
-      "url": "https://schriever.tricare.mil/",
-      "building": null
+      "description": "Limited ambulatory clinic on Schriever for routine appointments. Full MTF services, specialty care, and emergency department are at Peterson SFB or through the Colorado Springs TRICARE network.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "220 Falcon Pkwy, Bldg 220, Schriever SFB, CO 80912",
+      "phone": "719-524-2273",
+      "url": "https://peterson.tricare.mil/Schriever-Clinic",
+      "building": "Bldg 220"
     },
     {
-      "id": "res-schriever-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-schriever-peterson-medical",
+      "name": "21st Medical Group (Peterson SFB)",
+      "category": "medical",
+      "description": "Primary MTF for Schriever personnel — family medicine, pediatrics, flight medicine, behavioral health, women's health, lab, and immunizations. No emergency department on base; use 911 or local hospitals.",
+      "hours": "Mon-Fri 0730-1630; Wed morning closed for training",
+      "address": "559 Vincent St, Bldg 959, Peterson SFB, CO 80914",
+      "phone": "719-524-2273",
+      "url": "https://peterson.tricare.mil/",
+      "building": "Bldg 959"
+    },
+    {
+      "id": "res-schriever-pharmacy",
+      "name": "Schriever Clinic Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy at the Schriever clinic. Peterson MTF pharmacy available for expanded services and refills.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "220 Falcon Pkwy, Bldg 220, Schriever SFB, CO 80912",
+      "phone": "719-567-4423",
+      "url": "https://peterson.tricare.mil/Health-Services/Pharmacy",
+      "building": "Bldg 220"
+    },
+    {
+      "id": "res-schriever-fitness",
+      "name": "Schriever Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Schriever SFB.",
-      "hours": "See FSS for current hours",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.schrieverfss.com/fitness/",
-      "building": null
+      "description": "Weight room, cardio theater, indoor track, basketball gym, group exercise, and personal trainers. Outdoor training pad with free weights, kettlebells, pull-up stations, rower, and assault bike open 24/7. Fitness On Demand kiosk for 24/7 instructor-led classes.",
+      "hours": "Mon-Fri 0500-1930; Sat-Sun 0700-1500; Outdoor training pad 24/7",
+      "address": "120 Voyager Rd, Bldg 120, Schriever SFB, CO 80912",
+      "phone": "719-567-6628",
+      "url": "https://50fss.com/fitness/",
+      "building": "Bldg 120"
     },
     {
       "id": "res-schriever-finance",
-      "name": "Finance / Comptroller",
+      "name": "50th Comptroller Squadron (Finance)",
       "category": "finance",
-      "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.schriever.af.mil/",
-      "building": null
+      "description": "Military pay, travel vouchers, and finance customer service. Submit inquiries through the Air Force Comptroller Services Portal for fastest response.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "210 Falcon Pkwy, Bldg 210, Schriever SFB, CO 80912",
+      "phone": "719-567-5900",
+      "url": "https://www.petersonschriever.spaceforce.mil/About-Us/Resources/Finance/",
+      "building": "Bldg 210"
     },
     {
       "id": "res-schriever-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.schrieverfss.com/",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions for all Air Force, Space Force, and tenant units. Appointment-based via RAPIDS for new CACs.",
+      "hours": "Mon-Fri 0800-1500; CAC walk-in Mon-Fri 0800-1100 for unblocks and certification issues",
+      "address": "210 Falcon Pkwy, Bldg 210 Rm 137, Schriever SFB, CO 80912",
+      "phone": "719-567-5900",
+      "url": "https://50fss.com/military-personnel-flight/",
+      "building": "Bldg 210"
+    },
+    {
+      "id": "res-schriever-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing (Right Start), employment assistance, EFMP, Key Spouse, and Air Force Aid Society referrals.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "101 Falcon Pkwy, Schriever SFB, CO 80912",
+      "phone": "719-567-3920",
+      "url": "https://50fss.com/mfrc/",
       "building": null
     },
     {
       "id": "res-schriever-fss",
-      "name": "SD 9 Force Support Squadron",
+      "name": "50th Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.schrieverfss.com/",
+      "description": "All MWR programs — dining, fitness, recreation, child care, and community events. Primary garrison support for this satellite ops base.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Schriever SFB, Colorado Springs, CO 80912",
+      "phone": "719-567-2015",
+      "url": "https://50fss.com/",
       "building": null
     },
     {
       "id": "res-schriever-housing",
-      "name": "Housing Office",
+      "name": "Military Housing Office",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/schriever-sfb/",
+      "description": "Off-base housing referrals and lease review. Schriever has privatized on-post family housing via Tierra Vista Communities; most personnel live in Colorado Springs, Falcon, or Peyton. Visit MHO before signing any lease.",
+      "hours": "Mon-Fri 0700-1600",
+      "address": "300 Hartinger Circle, Schriever SFB, CO 80930",
+      "phone": "719-567-2585",
+      "url": "https://www.housing.af.mil/Home/Installations/Schriever-SFB/",
       "building": null
     },
     {
-      "id": "res-schriever-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-schriever-tierra-vista",
+      "name": "Tierra Vista Communities (On-Base Housing)",
+      "category": "housing",
+      "description": "Privatized family housing community at Schriever SFB managed by Tierra Vista Communities.",
+      "hours": "Mon-Fri 0800-1700",
+      "address": "300 Hartinger Circle, Colorado Springs, CO 80930",
+      "phone": "719-683-3660",
+      "url": "https://sch.tierra-vista.com/",
+      "building": null
+    },
+    {
+      "id": "res-schriever-pikes-peak-lodge",
+      "name": "Pikes Peak Lodge (Peterson SFB)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging at nearby Peterson SFB — shared TLF for Schriever arrivals. Book early during PCS season; off-base hotels also available in Colorado Springs.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "125 E Stewart Ave, Bldg 1042, Peterson SFB, CO 80914",
+      "phone": "719-556-7851",
+      "url": "https://21fss.com/about/pikes-peak-lodge/",
+      "building": "Bldg 1042"
+    },
+    {
+      "id": "res-schriever-odr",
+      "name": "Outdoor Recreation & ITT",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Schriever SFB.",
-      "hours": "See FSS for current hours",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-1110",
-      "url": "https://www.schrieverfss.com/",
-      "building": null
+      "description": "Equipment rentals (bikes, camping gear, bouncy castles), RV/trailer storage, archery range, and RecON adventure trips for active duty and dependents.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "805 Skylab Rd, Bldg 805, Schriever SFB, CO 80912",
+      "phone": "719-567-4370",
+      "url": "https://50fss.com/outdoor-recreation/",
+      "building": "Bldg 805"
     },
     {
-      "id": "res-schriever-visitor-center",
-      "name": "Schriever SFB Visitor Center",
+      "id": "res-schriever-itt",
+      "name": "Information, Tickets & Travel",
+      "category": "recreation",
+      "description": "Discounted theme park, ski lift, and event tickets. Colorado Springs and Denver-area recreation opportunities.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "300 Hartinger Circle, Bldg 300, Schriever SFB, CO 80912",
+      "phone": "719-567-2015",
+      "url": "https://50fss.com/information-tickets-and-travel/",
+      "building": "Bldg 300"
+    },
+    {
+      "id": "res-schriever-cdc",
+      "name": "Child Development Center",
+      "category": "services",
+      "description": "Full-day child care for eligible military and DoD families. Waitlists common — register early through MilitaryChildCare.com.",
+      "hours": "Mon-Fri 0630-1730",
+      "address": "60 Hahn Ave, Bldg 60, Schriever SFB, CO 80912",
+      "phone": "719-567-4742",
+      "url": "https://50fss.com/child-development-center/",
+      "building": "Bldg 60"
+    },
+    {
+      "id": "res-schriever-vcc",
+      "name": "Visitor Control Center",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "150 Falcon Pkwy, Schriever SFB, CO 80912",
-      "phone": "719-567-1110",
-      "url": "https://www.schriever.af.mil/Newcomers/",
+      "description": "Visitor passes and base access at the North Enoch Gate. All visitors require a pass — Trusted Traveler suspended. Pre-register via DBIDS/DVES.",
+      "hours": "Mon-Thu 0700-1600; Fri 0700-1400",
+      "address": "1560 Enoch Rd, Colorado Springs, CO 80930",
+      "phone": "719-567-5620",
+      "url": "https://www.petersonschriever.spaceforce.mil/Installation-Visitors/",
       "building": null
     },
     {
       "id": "res-schriever-security-forces",
-      "name": "Security Forces / Base Defense",
+      "name": "50th Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Base defense, law enforcement, and gate operations. Emergency dispatch through the unified Emergency Communications Center.",
       "hours": "24/7",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "phone": "719-567-3421",
-      "url": "https://www.schriever.af.mil/",
+      "address": "Schriever SFB, Colorado Springs, CO 80912",
+      "phone": "719-567-6464",
+      "url": "https://www.schriever.spaceforce.mil/",
       "building": null
+    },
+    {
+      "id": "res-schriever-school-liaison",
+      "name": "School Liaison Office",
+      "category": "services",
+      "description": "K-12 school information for El Paso County districts — Falcon School District 49, Colorado Springs D11, and surrounding areas.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "210 Falcon Pkwy, Bldg 210, Schriever SFB, CO 80912",
+      "phone": "719-567-6141",
+      "url": "https://50fss.com/school-liaison/",
+      "building": "Bldg 210"
+    },
+    {
+      "id": "res-schriever-education",
+      "name": "Force Development & Education Center",
+      "category": "services",
+      "description": "Tuition assistance, CCAF, testing services, and professional military education counseling.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "210 Falcon Pkwy, Bldg 210, Schriever SFB, CO 80912",
+      "phone": "719-567-2043",
+      "url": "https://50fss.com/force-dev-ed-center/",
+      "building": "Bldg 210"
     }
   ],
   "events": [
+    {
+      "id": "schriever-evt-right-start",
+      "title": "Right Start Newcomers Orientation",
+      "date": "2026-07-16T14:00:00Z",
+      "endDate": "2026-07-16T17:30:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "101 Falcon Pkwy, Schriever SFB, CO 80912",
+      "description": "3.5-hour orientation covering installation resources, benefits, and community information for incoming personnel and families.",
+      "category": "community"
+    },
     {
       "id": "schriever-evt-newcomers",
       "title": "Newcomers Briefing",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "101 Falcon Pkwy, Schriever SFB, CO 80912",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
       "category": "community"
-    },
-    {
-      "id": "schriever-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Schriever SFB, Colorado Springs, CO",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Schriever SFB Visitor Center",
-      "url": "https://www.schriever.af.mil/Newcomers/",
-      "phone": "719-567-1110",
-      "address": "150 Falcon Pkwy, Schriever SFB, CO 80912"
+      "title": "Schriever SFB Visitor Control Center",
+      "url": "https://www.schriever.spaceforce.mil/About-Us/Newcomers/",
+      "phone": "719-567-5620",
+      "address": "1560 Enoch Rd, Colorado Springs, CO 80930"
     },
-    "moreInfoURL": "https://www.schriever.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.schriever.spaceforce.mil/About-Us/Newcomers/",
     "sections": [
       {
         "id": "nc-1",
@@ -233,77 +364,73 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Schriever SFB reporting instructions.",
+        "body": "Report to the Military Personnel Flight at Bldg 210 upon arrival. Attend the Right Start newcomers orientation at the M&FRC. Schriever is a satellite ops base — many services are at Peterson SFB (~10 miles west).",
         "links": [
           {
             "id": "link-inprocess",
             "title": "Newcomers & In-Processing",
-            "url": "https://www.schriever.af.mil/Newcomers/"
+            "url": "https://www.schriever.spaceforce.mil/About-Us/Newcomers/"
           }
         ]
       },
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "Contact the Military Housing Office before arrival. Most personnel live off-base in Colorado Springs, Falcon, or Peyton. On-post privatized housing is available through Tierra Vista Communities. Temporary lodging is at Pikes Peak Lodge on Peterson SFB — book early during PCS season.",
         "links": [
           {
             "id": "link-housing-sec",
             "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/schriever-sfb/"
+            "url": "https://www.housing.af.mil/Home/Installations/Schriever-SFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Pikes Peak Lodge (Peterson SFB)",
+            "url": "https://21fss.com/about/pikes-peak-lodge/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access",
+        "body": "North Enoch Gate is open 24/7. West Irwin Gate is Mon-Fri 0600-1900 (closed weekends and holidays). Visitor Control Center hours are Mon-Thu 0700-1600 and Fri 0700-1400. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Installation Visitors & Gate Info",
+            "url": "https://www.petersonschriever.spaceforce.mil/Installation-Visitors/"
+          }
+        ]
       },
       {
         "id": "nc-5",
-        "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "title": "Satellite Base Limitations",
+        "body": "Schriever has no on-base BX, commissary, or traditional DFAC. Use Peterson SFB for exchange and commissary shopping. Dining on Schriever is limited to the Satellite Dish cafeteria (restricted area) and AAFES food trucks. Full medical care is at Peterson SFB or through the Colorado Springs TRICARE network.",
         "links": [
           {
             "id": "link-official",
             "title": "Schriever SFB Official Site",
-            "url": "https://www.schriever.af.mil/"
+            "url": "https://www.schriever.spaceforce.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.schriever.af.mil/Newcomers/"
+            "id": "link-peterson-schriever",
+            "title": "Peterson-Schriever SFB Portal",
+            "url": "https://www.petersonschriever.spaceforce.mil/"
           },
           {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.schrieverfss.com/"
+            "title": "50th Force Support Squadron",
+            "url": "https://50fss.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/schriever-sfb/"
-          },
-          {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/schriever"
+            "id": "link-medical",
+            "title": "21st Medical Group (Peterson TRICARE)",
+            "url": "https://peterson.tricare.mil/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

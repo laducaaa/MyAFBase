@@ -4,14 +4,8 @@ enum ResourceAction {
     static func perform(for resource: Resource) {
         if let phone = resource.displayPhone {
             call(number: phone)
-        } else if let urlString = resource.displayURL {
-            var normalized = urlString
-            if !normalized.hasPrefix("http") {
-                normalized = "https://\(normalized)"
-            }
-            if let url = URL(string: normalized) {
-                UIApplication.shared.open(url)
-            }
+        } else if let urlString = resource.displayURL, let url = SafeURL.webURL(from: urlString) {
+            UIApplication.shared.open(url)
         }
     }
 

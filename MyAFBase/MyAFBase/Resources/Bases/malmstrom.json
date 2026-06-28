@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-06-24T17:15:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -42,35 +42,35 @@
   ],
   "gates": [
     {
-      "id": "gate-10th-ave",
-      "name": "10th Avenue Gate",
+      "id": "gate-10th",
+      "name": "10th Ave Gate (Main)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access point. Also handles commercial vehicles during limited hours.",
+      "notes": "Primary 24/7 gate with Visitor Control Center.",
       "traffic": "high",
-      "address": "10th Ave N Gate, Malmstrom AFB, MT 59402",
-      "latitude": 47.5067,
-      "longitude": -111.1817
+      "address": "10th Ave N, Malmstrom AFB, MT 59402",
+      "latitude": 47.5053,
+      "longitude": -111.1831
     },
     {
-      "id": "gate-2nd-ave",
-      "name": "2nd Avenue Gate",
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": "Closed weekends and federal holidays. VCC located next to this gate.",
+      "hours": "Daily 0600-2200",
+      "notes": "Visitor passes and base access. REAL ID required.",
       "traffic": "moderate",
-      "address": "2nd Ave N Gate, Malmstrom AFB, MT 59402",
+      "address": "Malmstrom AFB, MT 59402",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-vcc",
-      "name": "Visitor Control Center (Bldg 192)",
+      "id": "gate-2nd",
+      "name": "2nd Ave Gate",
       "status": "open",
-      "hours": "Daily 0600-2200; closed Thanksgiving, Christmas Eve, Christmas, New Year's Day",
-      "notes": "Day passes and visitor registration. REAL ID required. Pre-enrollment available via DBIDS. Phone: 406-731-4489. After-hours passes at 10th Ave Gate.",
-      "traffic": "moderate",
-      "address": "6200 Goddard Drive, Bldg 192, Malmstrom AFB, MT 59402",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "2nd Ave N, Malmstrom AFB, MT 59402",
       "latitude": null,
       "longitude": null
     }
@@ -81,10 +81,10 @@
       "name": "Elkhorn Dining Facility",
       "category": "dining",
       "description": "Primary DFAC supporting missile operations with full meal service and multiple food stations. Award-winning facility (Hennessy Trophy).",
-      "hours": "See posted meal hours",
+      "hours": "Mon-Fri: Bfast 0600-0900, Lunch 1100-1300, Dinner 1630-1830; Sat-Sun: Bfast 0730-0900, Lunch 1100-1300, Dinner 1630-1800",
       "address": "303 75th St N, Bldg 1075, Malmstrom AFB, MT 59402",
-      "phone": "406-731-2008",
-      "url": "https://341fss.com/",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
       "building": "Bldg 1075"
     },
     {
@@ -92,7 +92,7 @@
       "name": "Malmstrom Main Exchange (BX)",
       "category": "shopping",
       "description": "Full-service Exchange with retail, services, and food options.",
-      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
       "address": "Malmstrom AFB, MT 59402",
       "phone": "406-731-1110",
       "url": "https://www.shopmyexchange.com/",
@@ -103,17 +103,17 @@
       "name": "Malmstrom Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Malmstrom AFB, MT 59402",
-      "phone": "406-731-1110",
-      "url": "https://shop.commissaries.com/",
+      "hours": "Sun 1000-1900; Mon 1100-1730 (self-checkout); Tue-Sat 0900-1900",
+      "address": "7228 4th Ave N, Malmstrom AFB, MT 59402",
+      "phone": "406-731-3432",
+      "url": "https://shop.commissaries.com/stores/malmstrom-afb",
       "building": null
     },
     {
       "id": "res-malmstrom-credit-union",
       "name": "1st Liberty Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "6200 3rd Ave N, Malmstrom AFB, MT 59402",
       "phone": "406-761-8300",
@@ -125,11 +125,11 @@
       "name": "Fitness and Sport Center",
       "category": "fitness",
       "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. 24/7 access available for registered patrons.",
-      "hours": "See FSS for current hours; 24/7 access available",
-      "address": "7547 Goddard Dr, Bldg 1012, Malmstrom AFB, MT 59402",
-      "phone": "406-731-3621",
-      "url": "https://341fss.com/",
-      "building": "Bldg 1012"
+      "hours": "Daily 0500-2200 staffed; 24/7 access after registration at front desk",
+      "address": "7547 Goddard Dr, Bldg 1010, Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": "Bldg 1010"
     },
     {
       "id": "res-malmstrom-unaccompanied-housing",
@@ -169,10 +169,10 @@
       "name": "341st Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting missile operations.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Malmstrom AFB, MT 59402",
-      "phone": "406-731-1110",
-      "url": "https://341fss.com/",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
       "building": null
     },
     {
@@ -180,9 +180,9 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, FAM Camp, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Malmstrom AFB, MT 59402",
-      "phone": "406-731-3263",
+      "phone": "406-731-2707",
       "url": "https://341fss.com/",
       "building": null
     },
@@ -202,10 +202,43 @@
       "name": "341st Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services supporting missile operations.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Malmstrom AFB, MT 59402",
       "phone": "406-731-1110",
       "url": "https://malmstrom.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-bowling",
+      "name": "Malmstrom Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstromfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Daily 0600-2200",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Malmstrom AFB, Great Falls, MT",
+      "phone": "406-731-1110",
+      "url": "https://341fss.com/",
       "building": null
     }
   ],
@@ -253,6 +286,18 @@
             "url": "https://341fss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

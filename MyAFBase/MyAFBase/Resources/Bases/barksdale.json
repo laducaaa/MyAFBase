@@ -7,7 +7,7 @@
   "wing": "2 BW",
   "latitude": 32.5018,
   "longitude": -93.6627,
-  "dataUpdatedAt": "2026-06-24T16:10:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "barksdale-notif-real-id",
@@ -42,66 +42,55 @@
   ],
   "gates": [
     {
-      "id": "gate-west-shreveport",
-      "name": "West Gate (Shreveport / Main Gate)",
+      "id": "gate-west",
+      "name": "Shreveport (West) Gate — Main",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access with Visitor Control Center. Main entry point for visitors.",
+      "notes": "Primary 24/7 gate with West Gate Visitor Center (0600-2200 daily). After-hours passes at gate.",
       "traffic": "high",
-      "address": "Shreveport Rd / Barksdale Blvd, Barksdale AFB, LA 71110",
-      "latitude": 32.5018,
+      "address": "Barksdale Blvd, Barksdale AFB, LA 71110",
+      "latitude": 32.501,
       "longitude": -93.6627
     },
     {
-      "id": "gate-bodcau",
-      "name": "Bodcau Gate (South Gate)",
+      "id": "gate-vcc-west",
+      "name": "West Gate Visitor Center",
       "status": "open",
-      "hours": "Open 24/7",
-      "notes": "24/7 south side access.",
+      "hours": "Daily 0600-2200",
+      "notes": "REAL ID required. Phone: 318-456-3587.",
+      "traffic": "moderate",
+      "address": "Wilbur Wright Dr, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "Bossier (North) Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1745; Sat 0800-1400; closed Sun",
+      "notes": "Weekday and Saturday access.",
+      "traffic": "moderate",
+      "address": "Bossier Gate, Barksdale AFB, LA 71110",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-bodcau",
+      "name": "Bodcau (South) Gate",
+      "status": "open",
+      "hours": "Mon-Thu 0430-2359; Fri-Sun 0430-0100",
+      "notes": "Extended weekend hours.",
       "traffic": "moderate",
       "address": "Bodcau Gate, Barksdale AFB, LA 71110",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-bossier",
-      "name": "Bossier Gate (North Gate)",
+      "id": "gate-east",
+      "name": "Industrial (East) Gate",
       "status": "open",
-      "hours": "Mon-Fri 0545-1800; Sat 0800-1400; Sun closed",
-      "notes": "North side access with limited weekend hours.",
-      "traffic": "moderate",
-      "address": "North Gate Rd, Barksdale AFB, LA 71110",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "gate-east-industrial",
-      "name": "East Gate (Industrial Gate)",
-      "status": "open",
-      "hours": "Mon-Fri 0545-1745 (commercial & limited passenger); closed weekends/holidays",
-      "notes": "Primarily commercial vehicles and east reservation residents. Inbound passenger vehicles 0630-0800 M-F only.",
-      "traffic": "low",
-      "address": "Industrial Dr, Barksdale AFB, LA 71110",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "gate-vcc-west",
-      "name": "West Gate Visitor Control Center",
-      "status": "open",
-      "hours": "Daily 0600-2200",
-      "notes": "Primary VCC for visitor passes. REAL ID required. After hours passes at West Gate.",
-      "traffic": "moderate",
-      "address": "West Shreveport Gate, Barksdale AFB, LA 71110",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "id": "gate-vcc-east",
-      "name": "East Gate Visitor Control Center",
-      "status": "open",
-      "hours": "Mon-Fri 0600-1745; closed weekends/holidays",
-      "notes": "Secondary VCC for east side access.",
+      "hours": "Mon-Fri 0545-1745; passenger inbound Mon-Fri 0630-0800 only",
+      "notes": "Commercial and limited passenger access. East VCC Mon-Fri 0600-1745.",
       "traffic": "low",
       "address": "East Gate, Barksdale AFB, LA 71110",
       "latitude": null,
@@ -125,7 +114,7 @@
       "name": "Barksdale Main Exchange (BX)",
       "category": "shopping",
       "description": "Full-service Exchange with retail, services, food court, and shoppette.",
-      "hours": "Mon-Sat 0900-1800; Sun 1000-1700 (typical)",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
       "address": "455 Curtiss Rd, Bldg 4711, Barksdale AFB, LA 71110",
       "phone": "318-456-1110",
       "url": "https://www.shopmyexchange.com/",
@@ -136,7 +125,7 @@
       "name": "Barksdale Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
       "address": "Barksdale AFB, LA 71110",
       "phone": "318-456-1110",
       "url": "https://shop.commissaries.com/",
@@ -146,7 +135,7 @@
       "id": "res-barksdale-credit-union",
       "name": "Barksdale Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "Barksdale AFB, LA 71110",
       "phone": "318-456-1110",
@@ -180,7 +169,7 @@
       "name": "Barksdale Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging including DVQ and TLF. 24/7 front desk for arrivals.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "555 Davis Avenue West, Barksdale AFB, LA 71110",
       "phone": "318-456-3091",
       "url": "https://barksdalelife.com/",
@@ -202,7 +191,7 @@
       "name": "2nd Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Barksdale AFB, LA 71110",
       "phone": "318-456-1110",
       "url": "https://barksdalelife.com/",
@@ -246,10 +235,32 @@
       "name": "2nd Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Barksdale AFB, LA 71110",
       "phone": "318-456-1110",
       "url": "https://barksdale.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Daily 0600-2200",
+      "address": "Barksdale AFB, LA 71110",
+      "phone": "318-456-3587",
+      "url": "https://www.barksdale.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-barksdale-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Barksdale AFB, Bossier City, LA",
+      "phone": "318-456-1110",
+      "url": "https://barksdalelife.com/",
       "building": null
     }
   ],
@@ -297,6 +308,18 @@
             "url": "https://barksdalelife.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

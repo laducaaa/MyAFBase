@@ -2,127 +2,198 @@
   "id": "hanscom",
   "name": "Hanscom AFB",
   "fullName": "Hanscom Air Force Base",
-  "location": "Bedford, MA",
-  "description": "Hanscom AFB is a major acquisition and R&D installation supporting command, control, communications, and cyber programs.",
+  "location": "Bedford/Lexington, MA",
+  "description": "Headquarters of the Air Force Life Cycle Management Center and a major electronics systems acquisition hub in the Boston metro area. A predominantly civilian and contractor workforce supporting C3I and cyber programs — no flightline operations or traditional DFAC.",
   "wing": "66 ABW",
-  "latitude": 42.4692,
-  "longitude": -71.281,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "latitude": 42.4571,
+  "longitude": -71.289,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "hanscom-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Control Center or Sartain Gate after hours.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T13:00:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "Hanscom AFB Security Forces",
-      "number": "781-225-3421"
+      "label": "Security Forces (SFS)",
+      "number": "781-225-6960"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
+      "label": "66th Medical Group Clinic",
+      "number": "781-225-6789"
+    },
+    {
+      "id": "em-4",
       "label": "Base Operator",
       "number": "781-225-1110"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-hanscom-dr",
-      "name": "Main Gate (Hanscom Dr)",
+      "id": "gate-sartain",
+      "name": "Sartain Gate (Main)",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
-      "traffic": "moderate",
-      "address": "Hanscom Dr, Bedford, MA 01731",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate on Hanscom Drive. Visitor passes available here when VCC is closed (up to next duty day). After 2200, Exit 31B is the only gate open per official directions.",
+      "traffic": "high",
+      "address": "Sartain Gate, Hanscom Dr, Bedford, MA 01731",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-hartwell-gate",
-      "name": "Hartwell Gate",
+      "id": "gate-ruiz",
+      "name": "Ruiz Gate (Hartwell Ave)",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
-      "traffic": "low",
-      "address": "Hartwell Ave, Lexington, MA 02421",
+      "hours": "Daily 0530-2200",
+      "notes": "Open daily 0530-2200 except federal holidays per hanscom.af.mil. Formerly Hartwell Gate. Note: hanscomhousing.com lists 24/7 — verify current hours before travel.",
+      "traffic": "moderate",
+      "address": "Ruiz Gate, Hartwell Ave, Lexington, MA 02421",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Sartain Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1600",
+      "notes": "Closed weekends and federal holidays. Sponsors can obtain visitor passes for up to 60 days. AFMC family days: 0600-1400. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Bldg 1617, Sartain Gate, Hanscom Dr, Bedford, MA 01731",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-hanscom-dfac",
-      "name": "Main Dining Facility",
+      "id": "res-hanscom-no-dfac",
+      "name": "No Dining Facility (DFAC)",
       "category": "dining",
-      "description": "Main dining facility at Hanscom AFB.",
-      "hours": "See posted meal hours",
-      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscomfss.com/dining/",
+      "description": "Hanscom AFB has no traditional military dining facility. Unaccompanied housing residents receive BAS. Use Conference Center catering, BX food court, Minuteman Commons lunch, or off-base restaurants in Bedford, Lexington, and Boston.",
+      "hours": "N/A — no DFAC on installation",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
       "building": null
+    },
+    {
+      "id": "res-hanscom-conference-center-dining",
+      "name": "Hanscom Conference Center Dining",
+      "category": "dining",
+      "description": "Conference and event catering — primary on-base meal service for meetings, official functions, and group dining. Not a substitute for a full DFAC.",
+      "hours": "Event-based catering; call 781-225-6165 for schedules",
+      "address": "Bldg 1106, Hanscom AFB, MA 01731",
+      "phone": "781-225-6165",
+      "url": "https://hanscomfss.com/",
+      "building": "Bldg 1106"
+    },
+    {
+      "id": "res-hanscom-bx-food-court",
+      "name": "BX Food Court",
+      "category": "dining",
+      "description": "Primary daily dining on base — Subway, Dunkin', Froots, Energy Plus Nutrition, Sunny's Happy Bowl, and micro markets. No formal DFAC available.",
+      "hours": "Mon-Sat 0600-1900; Sun 1100-1700 (Subway, Dunkin, Froots, and other vendors)",
+      "address": "100 Eglin St, Bldg 1709B, Hanscom AFB, MA 01731",
+      "phone": "781-862-0580",
+      "url": "https://www.shopmyexchange.com/store-locator/hanscom-main-exchange",
+      "building": "Bldg 1709B"
+    },
+    {
+      "id": "res-hanscom-minuteman-commons",
+      "name": "Minuteman Commons (Lunch & Tavern)",
+      "category": "dining",
+      "description": "Community center with limited lunch Tue-Fri and The Tavern bar Wed-Sat evenings. Pizza takeout and delivery available select days.",
+      "hours": "Center Mon-Thu 0800-1900, Fri 0800-2200, Sat 0900-1500; Lunch Tue-Fri 1100-1330",
+      "address": "Bldg 1425, Hanscom AFB, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/tavern/",
+      "building": "Bldg 1425"
     },
     {
       "id": "res-hanscom-bx",
-      "name": "Hanscom AFB Exchange",
+      "name": "Hanscom Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Hanscom AFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
-      "phone": "781-225-1110",
+      "description": "Full-service BX with clothing, electronics, food court, barber, optical, GNC, dry cleaning, and services. Primary on-base retail for this acquisition installation.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 11:00 AM-5:00 PM",
+      "address": "100 Eglin St, Bldg 1709B, Hanscom AFB, MA 01731",
+      "phone": "781-862-0580",
       "url": "https://www.shopmyexchange.com/store-locator/hanscom-main-exchange",
-      "building": null
+      "building": "Bldg 1709B"
     },
     {
-      "id": "res-hanscom-commissary",
-      "name": "Hanscom AFB Commissary",
+      "id": "res-hanscom-nearest-commissary",
+      "name": "Nearest Commissary (Off-Base)",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
-      "phone": "781-225-1110",
-      "url": "https://shop.commissaries.com/stores/hanscom-afb",
+      "description": "No commissary on Hanscom AFB. Nearest Defense Commissary Agency groceries are at Fort Devens, MA and other regional installations — plan trips for major grocery shopping.",
+      "hours": "Fort Devens Commissary (off-base): Sun 10:00 AM-6:00 PM; Mon-Sat 9:00 AM-7:00 PM",
+      "address": "Fort Devens, MA 01434 (off-base, nearest regional commissary)",
+      "phone": "800-874-2273",
+      "url": "https://shop.commissaries.com/stores/fort-devens",
       "building": null
     },
     {
       "id": "res-hanscom-medical",
-      "name": "66th Medical Group",
+      "name": "66th Medical Squadron Clinic",
       "category": "medical",
-      "description": "Primary medical facility for Hanscom AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-2273",
+      "description": "Outpatient MTF — family medicine, pediatrics, flight medicine, behavioral health, dental, optometry, pharmacy, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon-Fri 0730-1630; closed Wed 0730-1000 for medical readiness training",
+      "address": "90 Vandenberg Dr, Bldg 1900, Hanscom AFB, MA 01731",
+      "phone": "781-225-6789",
       "url": "https://hanscom.tricare.mil/",
+      "building": "Bldg 1900"
+    },
+    {
+      "id": "res-hanscom-fitness",
+      "name": "Fitness & Sports Center",
+      "category": "fitness",
+      "description": "50,000 sq ft facility with indoor track, gymnasiums, racquetball, rock-climbing wall, group exercise, and family workout area. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0600-1800; 24/7 CAC access to cardio, weights, track, and locker rooms after registration",
+      "address": "180 Marrett St, Bldg 1548, Hanscom AFB, MA 01731",
+      "phone": "781-225-6630",
+      "url": "https://hanscomfss.com/fitness-sports/",
+      "building": "Bldg 1548"
+    },
+    {
+      "id": "res-hanscom-fcu",
+      "name": "Hanscom Federal Credit Union",
+      "category": "finance",
+      "description": "On-base credit union with deposit accounts, loans, and ATM services for military and DoD community members.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "1610 Eglin St, Hanscom AFB, MA 01731",
+      "phone": "800-656-4328",
+      "url": "https://www.hfcu.org/",
       "building": null
     },
     {
-      "id": "res-hanscom-fitness-1",
-      "name": "Fitness Center",
-      "category": "fitness",
-      "description": "Fitness and wellness facility at Hanscom AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscomfss.com/fitness/",
+      "id": "res-hanscom-off-base-banking",
+      "name": "Local Banks & Credit Unions",
+      "category": "finance",
+      "description": "Off-base banking options in Bedford, Lexington, Burlington, and the greater Boston area supplement on-base Hanscom FCU.",
+      "hours": "Off-base institution hours in Bedford, Lexington, and Boston metro",
+      "address": "Bedford, Lexington, and Boston metro, MA",
+      "phone": "800-656-4328",
+      "url": "https://www.hfcu.org/",
       "building": null
     },
     {
       "id": "res-hanscom-finance",
-      "name": "Finance / Comptroller",
+      "name": "Finance Office (Comptroller)",
       "category": "finance",
-      "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
+      "description": "Military pay, travel vouchers, and finance customer service for 66 ABW personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1106, Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-6165",
       "url": "https://www.hanscom.af.mil/",
       "building": null
     },
@@ -130,66 +201,121 @@
       "id": "res-hanscom-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscomfss.com/",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0730-1630; RAPIDS appointments for ID cards",
+      "address": "Bldg 1425, Hanscom AFB, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, employment assistance, school liaison, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1425, Hanscom AFB, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
       "building": null
     },
     {
       "id": "res-hanscom-fss",
-      "name": "66 ABW Force Support Squadron",
+      "name": "66th Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscomfss.com/",
+      "description": "All MWR programs — fitness, recreation, lodging, community events, and family support for this small acquisition base.",
+      "hours": "Mon-Fri 0730-1630; facility hours at hanscomfss.com",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
       "building": null
     },
     {
       "id": "res-hanscom-housing",
-      "name": "Housing Office",
+      "name": "Hanscom Housing (Privatized)",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/",
+      "description": "Limited on-base privatized family housing managed by Balfour Beatty. Off-base housing is common in Bedford, Lexington, Burlington, and Concord. Visit HMO before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://www.hanscomhousing.com/",
       "building": null
     },
     {
-      "id": "res-hanscom-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-hanscom-inn",
+      "name": "Hanscom Inn (Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging for PCS and TDY. Up to 30 days for inbound PCS; pet-friendly rooms available. Advance reservations recommended.",
+      "hours": "Front desk during business hours; check official site for check-in times",
+      "address": "1425 Kirtland St, Hanscom AFB, MA 01731",
+      "phone": "781-225-4444",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-unaccompanied-housing",
+      "name": "Unaccompanied Housing (Dorms)",
+      "category": "housing",
+      "description": "Single rooms with shared bath for E-1 to E-4. No DFAC on base — dorm residents receive BAS and have kitchen facilities. No pets permitted.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://www.housing.af.mil/Home/Installations/Hanscom-AFB/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-odr",
+      "name": "Outdoor Recreation (ODR)",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Hanscom AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscomfss.com/",
+      "description": "Equipment rentals, camping gear, seasonal recreation programs, and adventure trips. Check FSS for Fourth Cliff Recreation Area (Scituate, MA) availability.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1425, Hanscom AFB, MA 01731",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
       "building": null
     },
     {
-      "id": "res-hanscom-visitor-center",
-      "name": "Hanscom AFB Visitor Center",
-      "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731",
-      "phone": "781-225-1110",
-      "url": "https://www.hanscom.af.mil/Newcomers/",
+      "id": "res-hanscom-no-golf",
+      "name": "Local Golf (No On-Base Course)",
+      "category": "recreation",
+      "description": "No golf course on Hanscom AFB. Area courses in Bedford, Lexington, and the Boston metro serve the local military community — check ODR for possible discounts.",
+      "hours": "Off-base course hours; contact ODR for discount programs",
+      "address": "Bedford, Lexington, and Boston metro, MA",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
       "building": null
+    },
+    {
+      "id": "res-hanscom-no-bowling",
+      "name": "Local Bowling (No On-Base Alley)",
+      "category": "recreation",
+      "description": "No bowling alley on Hanscom AFB. Off-base bowling centers in Bedford, Burlington, and the surrounding communities serve personnel and families.",
+      "hours": "Off-base facility hours in Bedford and Burlington, MA",
+      "address": "Bedford and Burlington, MA",
+      "phone": "781-225-1440",
+      "url": "https://hanscomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hanscom-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access at Sartain Gate. All visitors require a pass — REAL ID required. Passes available at Sartain Gate after VCC hours.",
+      "hours": "Mon-Fri 0600-1600; closed weekends and federal holidays",
+      "address": "Bldg 1617, Sartain Gate, Hanscom Dr, Bedford, MA 01731",
+      "phone": "781-225-5605",
+      "url": "https://www.hanscom.af.mil/Units/66th-Security-Forces-Squadron/",
+      "building": "Bldg 1617"
     },
     {
       "id": "res-hanscom-security-forces",
-      "name": "Security Forces / Base Defense",
+      "name": "66th Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Base defense, law enforcement, and gate operations for Hanscom AFB.",
       "hours": "24/7",
-      "address": "Hanscom AFB, Bedford, MA",
-      "phone": "781-225-3421",
-      "url": "https://www.hanscom.af.mil/",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "phone": "781-225-6960",
+      "url": "https://www.hanscom.af.mil/Units/66th-Security-Forces-Squadron/",
       "building": null
     }
   ],
@@ -199,41 +325,41 @@
       "title": "Newcomers Briefing",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Hanscom AFB, Bedford, MA",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "Hanscom AFB, Bedford, MA 01731",
+      "description": "Orientation for incoming military and DoD civilian personnel. Covers acquisition-base services, off-base housing, and gate access. No DFAC or commissary on installation.",
       "category": "community"
     },
     {
-      "id": "hanscom-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Hanscom AFB, Bedford, MA",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "id": "hanscom-evt-tavern",
+      "title": "The Tavern First Friday",
+      "date": "2026-08-01T21:00:00Z",
+      "endDate": "2026-08-02T02:00:00Z",
+      "location": "Minuteman Commons",
+      "address": "Bldg 1425, Hanscom AFB, MA 01731",
+      "description": "Monthly community social at The Tavern — check hanscomfss.com for current schedule and themed events.",
       "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Hanscom AFB Visitor Center",
+      "title": "Hanscom AFB Visitor Control Center",
       "url": "https://www.hanscom.af.mil/Newcomers/",
-      "phone": "781-225-1110",
-      "address": "1605 Hanscom Dr, Hanscom AFB, MA 01731"
+      "phone": "781-225-5605",
+      "address": "Bldg 1617, Sartain Gate, Hanscom Dr, Bedford, MA 01731"
     },
     "moreInfoURL": "https://www.hanscom.af.mil/Newcomers/",
     "sections": [
       {
         "id": "nc-1",
         "title": "Required Documents",
-        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement. DoD civilians should confirm in-processing with their gaining organization.",
         "links": null
       },
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Hanscom AFB reporting instructions.",
+        "body": "Report to your Unit Command Support Staff (CSS) or gaining organization normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit MPF and Finance as directed by your unit.",
         "links": [
           {
             "id": "link-inprocess",
@@ -245,25 +371,41 @@
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "On-base privatized housing is limited — most families live off-base in Bedford, Lexington, Burlington, and Concord. Contact Hanscom Housing before arrival. Hanscom Inn offers temporary lodging — book early during PCS season.",
         "links": [
           {
             "id": "link-housing-sec",
-            "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/"
+            "title": "Hanscom Housing",
+            "url": "https://www.hanscomhousing.com/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Hanscom Inn Lodging",
+            "url": "https://www.afreservations.com/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access & Limited Base Services",
+        "body": "Sartain Gate is open 24/7. Ruiz Gate (Hartwell Ave) is 0530-2200 daily except federal holidays per hanscom.af.mil — note hanscomhousing.com lists 24/7; verify before travel. VCC: Mon-Fri 0600-1600. This is a small acquisition base with no DFAC, no commissary, and no on-base golf or bowling. Dining via Conference Center, BX food court, and off-base options.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "66th Security Forces Squadron",
+            "url": "https://www.hanscom.af.mil/Units/66th-Security-Forces-Squadron/"
+          },
+          {
+            "id": "link-article",
+            "title": "Return to Work Gate Hours (Official)",
+            "url": "https://www.hanscom.af.mil/News/Article-Display/Article/4054317/return-to-work-what-employees-need-to-know/"
+          }
+        ]
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus Military OneSource for relocation support. Hanscom supports AFLCMC and electronics systems acquisition — expect a civilian-heavy workforce.",
         "links": [
           {
             "id": "link-official",
@@ -271,39 +413,19 @@
             "url": "https://www.hanscom.af.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.hanscom.af.mil/Newcomers/"
-          },
-          {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.hanscomfss.com/"
+            "title": "66th Force Support Squadron",
+            "url": "https://hanscomfss.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/hanscom-afb/"
-          },
-          {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/hanscom"
+            "id": "link-medical",
+            "title": "66th Medical Squadron",
+            "url": "https://hanscom.tricare.mil/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

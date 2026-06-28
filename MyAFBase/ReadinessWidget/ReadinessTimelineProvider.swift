@@ -79,7 +79,7 @@ struct ReadinessTimelineProvider: AppIntentTimelineProvider {
         case .systemMedium:
             return [.fitness, .dental, .eval]
         case .systemLarge:
-            return Array(ReadinessItemKind.allCases.prefix(limit))
+            return Array(ReadinessItemKind.widgetKinds.prefix(limit))
         default:
             return [.fitness]
         }

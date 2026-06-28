@@ -171,6 +171,14 @@ struct ExploreGateCard: View {
                 onOpenMaps: { MapsHelper.open(gate: gate) }
             )
         }
+        .onChange(of: showDetail) { _, isShowing in
+            guard isShowing else { return }
+            AppIntentDonations.recordGateViewed(
+                gateName: gate.name,
+                baseID: baseID,
+                baseName: baseName
+            )
+        }
     }
 
     private func gateFooterColumn<Content: View>(

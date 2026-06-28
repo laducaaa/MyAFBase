@@ -1,6 +1,6 @@
 import Foundation
 
-struct NewcomersInfo: Codable, Equatable {
+struct NewcomersInfo: Codable, Equatable, Sendable {
     let primaryAction: NewcomerPrimaryAction?
     let moreInfoURL: String?
     let sections: [NewcomerSection]
@@ -40,7 +40,7 @@ struct NewcomersInfo: Codable, Equatable {
     }
 }
 
-struct NewcomerPrimaryAction: Codable, Equatable, Identifiable {
+struct NewcomerPrimaryAction: Codable, Equatable, Identifiable, Sendable {
     let title: String
     let url: String?
     let phone: String?
@@ -49,7 +49,7 @@ struct NewcomerPrimaryAction: Codable, Equatable, Identifiable {
     var id: String { title }
 }
 
-struct NewcomerSection: Codable, Identifiable, Equatable, Hashable {
+struct NewcomerSection: Codable, Identifiable, Equatable, Hashable, Sendable {
     let id: String
     let title: String
     let body: String
@@ -68,7 +68,7 @@ struct NewcomerSection: Codable, Identifiable, Equatable, Hashable {
     }
 }
 
-struct NewcomerLink: Codable, Identifiable, Equatable, Hashable {
+struct NewcomerLink: Codable, Identifiable, Equatable, Hashable, Sendable {
     let id: String
     let title: String
     let url: String

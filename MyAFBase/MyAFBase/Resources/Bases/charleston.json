@@ -7,7 +7,7 @@
   "wing": "628 ABW / 437 AW",
   "latitude": 32.9346,
   "longitude": -80.0406,
-  "dataUpdatedAt": "2026-06-23T21:05:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "charleston-notif-real-id",
@@ -114,7 +114,7 @@
       "name": "The Galley (Weapons Station DFAC)",
       "category": "dining",
       "description": "Dining facility serving the Naval Weapons Station portion of JB Charleston.",
-      "hours": "See posted hours at facility",
+      "hours": "Hours posted at facility entrance",
       "address": "101 Naval Nuclear Power Training Command Cir, Joint Base Charleston, SC 29405",
       "phone": "843-794-8214",
       "url": "https://jbcharleston.com/",
@@ -125,7 +125,7 @@
       "name": "Joint Base Charleston Main Exchange (BX)",
       "category": "shopping",
       "description": "Full-service Exchange with retail, services, and food options. Located near Commissary.",
-      "hours": "Mon-Sat 0900-1900; Sun 1100-1800",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1100-1800",
       "address": "101 Lawson Dr, Bldg 1990, Joint Base Charleston, SC 29404",
       "phone": "843-552-5000",
       "url": "https://www.shopmyexchange.com/store-locator/charleston-main-exchange",
@@ -136,32 +136,32 @@
       "name": "Joint Base Charleston Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery store.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
-      "url": "https://shop.commissaries.com/",
-      "building": null
+      "hours": "Sun 1100-1800; Mon-Sat 9:00 AM-7:00 PM",
+      "address": "103 Lawson Dr, Bldg 1991, Joint Base Charleston, SC 29404",
+      "phone": "843-963-7469",
+      "url": "https://shop.commissaries.com/stores/charleston-afb",
+      "building": "Bldg 1991"
     },
     {
       "id": "res-sc-federal-cu",
       "name": "South Carolina Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with checking, savings, loans, and ATM.",
-      "hours": "Mon-Fri 0900-1700 (typical)",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
-      "url": null,
-      "building": null
+      "description": "On-base federal credit union on base with checking, savings, loans, and ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "102 N Davis Dr, Bldg 322, Joint Base Charleston, SC 29404",
+      "phone": "843-797-5600",
+      "url": "https://www.scfederal.org/",
+      "building": "Bldg 322"
     },
     {
       "id": "res-heritage-trust-cu",
       "name": "Heritage Trust Federal Credit Union",
       "category": "finance",
-      "description": "Credit union branch serving the JB Charleston community.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
-      "url": null,
+      "description": "Heritage Trust Federal Credit Union on-base office serving the JB Charleston community.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "205 W Hill Blvd, Joint Base Charleston, SC 29404",
+      "phone": "843-266-8300",
+      "url": "https://www.heritagetrust.com/",
       "building": null
     },
     {
@@ -169,7 +169,7 @@
       "name": "AB Fitness & Sports Center",
       "category": "fitness",
       "description": "Main fitness center on the Air Base with weights, cardio, group exercise, and sports facilities.",
-      "hours": "See FSS for current hours; CAC access available",
+      "hours": "Mon-Fri 0500-2000; Sat-Sun 0900-1500; CAC 24/7 access after registration",
       "address": "205 W Hill Blvd, Joint Base Charleston, SC 29404",
       "phone": "843-963-3347",
       "url": "https://jbcharleston.com/",
@@ -180,7 +180,7 @@
       "name": "Sam’s Fitness Center (Weapons Station)",
       "category": "fitness",
       "description": "Fitness center serving the Naval Weapons Station.",
-      "hours": "See posted schedule",
+      "hours": "Mon-Fri 0530-2030; Sat-Sun 0900-1500",
       "address": "244 Jefferson Ave Exn, Bldg 708, Joint Base Charleston, SC 29405",
       "phone": "843-794-4173",
       "url": "https://jbcharleston.com/",
@@ -202,7 +202,7 @@
       "name": "Inns of Charleston (Lodging)",
       "category": "housing",
       "description": "Official temporary lodging including TLF and DVQ. 24-hour arrival point for after-hours check-in.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "202 W Hill Blvd, Joint Base Charleston, SC 29404",
       "phone": "843-963-8000",
       "url": "https://jbcharleston.com/",
@@ -225,8 +225,8 @@
       "category": "housing",
       "description": "Dormitory management and assignments for unaccompanied Airmen and Sailors.",
       "hours": "Mon-Fri 0730-1630",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
+      "address": "205 W Hill Blvd, Joint Base Charleston, SC 29404",
+      "phone": "843-963-3800",
       "url": "https://www.housing.af.mil/",
       "building": null
     },
@@ -235,18 +235,18 @@
       "name": "Military & Family Readiness Center / Support Center",
       "category": "services",
       "description": "Relocation, financial counseling, employment assistance, family programs, and Total Force support.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "102 N Davis Dr, Bldg 322, Joint Base Charleston, SC 29404",
+      "phone": "843-963-4406",
       "url": "https://jbcharleston.com/",
-      "building": null
+      "building": "Bldg 322"
     },
     {
       "id": "res-628-fss",
       "name": "628th Force Support Squadron (FSS)",
       "category": "services",
       "description": "MWR, dining, fitness, lodging, recreation, and family support for Team Charleston.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "102 N Davis Dr, Bldg 322, Joint Base Charleston, SC 29404",
       "phone": "843-963-3809",
       "url": "https://jbcharleston.com/",
@@ -257,11 +257,11 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, RV storage, FamCamp, and recreational programs across both Air Base and Weapons Station.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "2482 Red Bank Rd, Bldg 85, Joint Base Charleston, SC 29405",
+      "phone": "843-794-7190",
       "url": "https://jbcharleston.com/",
-      "building": null
+      "building": "Bldg 85"
     },
     {
       "id": "res-golf-redbank",
@@ -290,9 +290,9 @@
       "name": "628th Medical Group / Naval Health Clinic",
       "category": "medical",
       "description": "Primary care, specialty services, and TRICARE support for the joint community.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care coordinated",
-      "address": "Joint Base Charleston, SC 29404",
-      "phone": "843-963-1110",
+      "hours": "Mon-Fri 0730-1630; closed third Wed afternoon for training",
+      "address": "204 W Hill Blvd, Joint Base Charleston, SC 29404",
+      "phone": "843-963-6880",
       "url": "https://charleston.tricare.mil/",
       "building": null
     }
@@ -336,6 +336,18 @@
             "url": "https://jbcharleston.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

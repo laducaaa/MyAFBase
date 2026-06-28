@@ -7,7 +7,7 @@
   "wing": "49 WG",
   "latitude": 32.8523,
   "longitude": -106.1066,
-  "dataUpdatedAt": "2026-06-24T20:20:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "holloman-notif-real-id",
@@ -33,37 +33,53 @@
       "id": "em-3",
       "label": "Base Operator",
       "number": "575-572-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "575-572-7272"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-new-mexico-ave",
+      "id": "gate-main",
       "name": "Main Gate (New Mexico Ave)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
+      "notes": "Only 24/7 gate. Visitor Welcome Center (Bldg 1) daily 0600-2200. After 2200, escorted visitors processed at Main Gate.",
+      "traffic": "high",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "latitude": 32.8523,
+      "longitude": -106.1066
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Welcome Center (Bldg 1)",
+      "status": "open",
+      "hours": "Daily 0600-2200",
+      "notes": "Visitor passes, RAB badges, and contractor passes. REAL ID required. Phone: 575-572-5951.",
       "traffic": "moderate",
-      "address": "New Mexico Ave, Holloman AFB, NM 88330",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-west-gate",
+      "id": "gate-west",
       "name": "West Gate",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
+      "hours": "Mon-Fri: inbound 0600-0800, outbound 0600-1800; closed weekends, federal holidays, and wing down days",
+      "notes": "Weekday commuter gate.",
       "traffic": "low",
       "address": "West Gate Rd, Holloman AFB, NM 88330",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-la-luz-gate",
+      "id": "gate-la-luz",
       "name": "La Luz Gate",
-      "status": "open",
-      "hours": "Mon-Fri 0600-0830 inbound/outbound, 1530-1730 outbound",
-      "notes": null,
+      "status": "closed",
+      "hours": "Permanently closed",
+      "notes": "Permanently closed — do not use.",
       "traffic": "low",
       "address": "La Luz Gate Rd, Holloman AFB, NM 88330",
       "latitude": null,
@@ -73,23 +89,23 @@
   "resources": [
     {
       "id": "res-holloman-dfac",
-      "name": "Main Dining Facility",
+      "name": "Shifting Sands Dining Facility",
       "category": "dining",
-      "description": "Main dining facility at Holloman AFB.",
-      "hours": "See posted meal hours",
-      "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
+      "description": "Primary DFAC with N'Rich Grill, deli, pizza, salad bar, and midnight meals.",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1030-1330, Dinner 1630-1830, Midnight 2300-0100; Sat-Sun: Bfast 0630-0830, Lunch 1030-1330, Dinner 1630-1830, Midnight 2300-0100",
+      "address": "660 Idaho Ave, Bldg 174, Holloman AFB, NM 88330",
       "phone": "575-572-7381",
-      "url": "https://www.hollomanfss.com/dining/",
-      "building": null
+      "url": "https://usafdining-holloman.sodexomyway.com/en-us/shifting-sands",
+      "building": "Bldg 174"
     },
     {
       "id": "res-holloman-bx",
       "name": "Holloman AFB Exchange",
       "category": "shopping",
       "description": "Main Exchange at Holloman AFB.",
-      "hours": "Mon-Sat 0900-2000",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
       "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
-      "phone": "575-572-7381",
+      "phone": "575-572-3733",
       "url": "https://www.shopmyexchange.com/store-locator/holloman-main-exchange",
       "building": null
     },
@@ -98,9 +114,9 @@
       "name": "Holloman AFB Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
       "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
-      "phone": "575-572-7381",
+      "phone": "575-572-3733",
       "url": "https://shop.commissaries.com/stores/holloman-afb",
       "building": null
     },
@@ -109,7 +125,7 @@
       "name": "49th Medical Group",
       "category": "medical",
       "description": "Primary medical facility for Holloman AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "hours": "Appointments Mon-Fri 0730-1630; emergency care 24/7 where offered",
       "address": "Holloman AFB, Alamogordo, NM",
       "phone": "575-572-2273",
       "url": "https://holloman.tricare.mil/",
@@ -117,12 +133,12 @@
     },
     {
       "id": "res-holloman-fitness-1",
-      "name": "Fitness Center",
+      "name": "Holloman Fitness & Sports Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Holloman AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "phone": "575-572-7381",
+      "description": "Main fitness center with cardio, weights, courts, and group fitness. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0800-1800; 24/7 CAC access after registration",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
       "url": "https://www.hollomanfss.com/fitness/",
       "building": null
     },
@@ -131,9 +147,9 @@
       "name": "Finance / Comptroller",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Holloman AFB, Alamogordo, NM",
-      "phone": "575-572-7381",
+      "phone": "575-572-1110",
       "url": "https://www.holloman.af.mil/",
       "building": null
     },
@@ -142,9 +158,9 @@
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
       "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Holloman AFB, Alamogordo, NM",
-      "phone": "575-572-7381",
+      "phone": "575-572-1110",
       "url": "https://www.hollomanfss.com/",
       "building": null
     },
@@ -164,9 +180,9 @@
       "name": "Housing Office",
       "category": "housing",
       "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
+      "hours": "Mon-Fri 0800-1600",
       "address": "Holloman AFB, Alamogordo, NM",
-      "phone": "575-572-7381",
+      "phone": "575-572-1110",
       "url": "https://www.housing.af.mil/housing/housing-on-base/holloman-afb/",
       "building": null
     },
@@ -175,32 +191,87 @@
       "name": "Apache Mesa Golf Course",
       "category": "recreation",
       "description": "Recreation and leisure programs at Holloman AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "phone": null,
+      "hours": "Daily 0700-dusk, weather permitting",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
       "url": "https://www.hollomanfss.com/golf/",
       "building": null
     },
     {
       "id": "res-holloman-visitor-center",
-      "name": "Holloman AFB Visitor Center",
+      "name": "Visitor Welcome Center (Bldg 1)",
       "category": "safety",
       "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
+      "hours": "Daily 0600-2200",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
       "phone": "575-572-5951",
       "url": "https://www.holloman.af.mil/Newcomers/",
       "building": null
     },
     {
-      "id": "res-holloman-security-forces",
-      "name": "Security Forces / Base Defense",
+      "id": "res-holloman-bowling",
+      "name": "Holloman Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://49fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 224, Holloman AFB, NM 88330",
+      "phone": "575-572-7754",
+      "url": "https://49fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-vcc",
+      "name": "Visitor Control Center",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
-      "hours": "24/7",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "phone": "575-572-3421",
+      "description": "Visitor passes and base access.",
+      "hours": "Daily 0600-2200",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "phone": "575-572-5951",
       "url": "https://www.holloman.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-lodging",
+      "name": "Holloman Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3311",
+      "url": "https://af.dodlodging.net/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-2505",
+      "url": "https://www.hollomanfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-credit-union",
+      "name": "White Sands Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-437-7700",
+      "url": "https://www.wsfcu.com/",
       "building": null
     }
   ],
@@ -228,10 +299,10 @@
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Holloman AFB Visitor Center",
+      "title": "Visitor Welcome Center (Bldg 1)",
       "url": "https://www.holloman.af.mil/Newcomers/",
-      "phone": "575-572-7381",
-      "address": "750 New Mexico Ave, Holloman AFB, NM 88330"
+      "phone": "575-572-5951",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330"
     },
     "moreInfoURL": "https://www.holloman.af.mil/Newcomers/",
     "sections": [

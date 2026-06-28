@@ -3,6 +3,7 @@ import SwiftUI
 struct ExploreView: View {
     @Environment(AppState.self) private var appState
     @State private var segment: ExploreSegment = .resources
+    @State private var displayMode: ExploreDisplayMode = .list
     @State private var resourceCategoryID = ExploreCategory.all.id
     @State private var eventCategoryID = EventExploreCategory.all.id
     @State private var searchText = ""
@@ -12,70 +13,7 @@ struct ExploreView: View {
         NavigationStack {
             Group {
                 if let base = appState.currentBase {
-                    ScrollView {
-                        VStack(spacing: 0) {
-                            ExploreCategoryBar(
-                                categories: categoryItems,
-                                selectedID: selectedCategoryID
-                            )
-
-                            if segment == .resources {
-                                openNowFilter
-                            }
-
-                            LazyVStack(spacing: 12) {
-                                switch segment {
-                                case .resources:
-                                    if resourceCategoryID == ExploreCategory.gates.id {
-                                        ForEach(filteredGates(for: base)) { gate in
-                                            ExploreGateCard(gate: gate, baseID: base.id, baseName: base.name)
-                                        }
-                                    } else {
-                                        ForEach(filteredResources(for: base)) { resource in
-                                            ExploreResourceCard(resource: resource, baseID: base.id, baseName: base.name)
-                                        }
-                                    }
-                                case .events:
-                                    ForEach(filteredEvents(for: base)) { event in
-                                        ExploreEventCard(event: event, baseID: base.id, baseName: base.name)
-                                    }
-                                }
-
-                                if isEmpty(for: base) {
-                                    emptyState(for: base)
-                                        .padding(.top, 32)
-                                }
-                            }
-                            .padding(.horizontal, 16)
-                            .padding(.top, 8)
-                            .padding(.bottom, 16)
-                        }
-                    }
-                    .appScreenBackground()
-                    .safeAreaInset(edge: .bottom, spacing: 0) {
-                        FloatingSegmentToggle(selection: $segment)
-                            .padding(.horizontal, 48)
-                            .padding(.top, 8)
-                            .padding(.bottom, 4)
-                            .background(
-                                LinearGradient(
-                                    colors: [
-                                        Color.clear,
-                                        Color(.systemGroupedBackground).opacity(0.92)
-                                    ],
-                                    startPoint: .top,
-                                    endPoint: .bottom
-                                )
-                                .frame(height: 24)
-                                .offset(y: -24),
-                                alignment: .top
-                            )
-                    }
-                    .searchable(text: $searchText, prompt: "Search \(base.name)")
-                    .onChange(of: segment) { _, _ in
-                        searchText = ""
-                        openNowOnly = false
-                    }
+                    exploreContent(for: base)
                 } else if appState.isBaseLoading {
                     BaseLoadingView()
                 } else {
@@ -84,7 +22,16 @@ struct ExploreView: View {
                     }
                 }
             }
-            .navigationTitle("Explore")
+            .navigationTitle(displayMode == .map ? "" : "Explore")
+            .navigationBarTitleDisplayMode(displayMode == .map ? .inline : .large)
+            .toolbar {
+                if appState.currentBase != nil {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        ExploreDisplayModeToggle(selection: $displayMode)
+                    }
+                }
+            }
+            .toolbarBackground(displayMode == .map ? .hidden : .automatic, for: .navigationBar)
             .onAppear {
                 applyExploreNavigation(appState.consumeExploreNavigation())
             }
@@ -92,6 +39,109 @@ struct ExploreView: View {
                 guard destination != nil else { return }
                 applyExploreNavigation(appState.consumeExploreNavigation())
             }
+        }
+    }
+
+    @ViewBuilder
+    private func exploreContent(for base: Base) -> some View {
+        if displayMode == .map {
+            mapExploreContent(for: base)
+        } else {
+            listExploreContent(for: base)
+        }
+    }
+
+    @ViewBuilder
+    private func mapExploreContent(for base: Base) -> some View {
+        ExploreMapContainerView(
+            base: base,
+            searchText: searchText
+        )
+        .ignoresSafeArea(edges: .bottom)
+        .searchable(text: $searchText, prompt: "Search places on \(base.name)")
+    }
+
+    @ViewBuilder
+    private func listExploreContent(for base: Base) -> some View {
+        VStack(spacing: 0) {
+            ExploreCategoryBar(
+                categories: categoryItems,
+                selectedID: selectedCategoryID
+            )
+
+            if segment == .resources {
+                openNowFilter
+            }
+
+            listContent(for: base)
+        }
+        .appScreenBackground()
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            listBottomChrome
+        }
+        .searchable(text: $searchText, prompt: "Search \(base.name)")
+        .onChange(of: segment) { _, _ in
+            searchText = ""
+            openNowOnly = false
+        }
+    }
+
+    private var listBottomChrome: some View {
+        FloatingSegmentToggle(selection: $segment)
+            .padding(.horizontal, 48)
+            .padding(.top, 8)
+            .padding(.bottom, 4)
+            .background {
+                LinearGradient(
+                    colors: [
+                        Color.clear,
+                        Color(.systemGroupedBackground).opacity(0.92)
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+                .frame(height: 24)
+                .offset(y: -24)
+                .allowsHitTesting(false)
+            }
+    }
+
+    @ViewBuilder
+    private func listContent(for base: Base) -> some View {
+        ScrollView {
+            LazyVStack(spacing: 12) {
+                switch segment {
+                case .resources:
+                    if resourceCategoryID == ExploreCategory.gates.id {
+                        ForEach(filteredGates(for: base)) { gate in
+                            ExploreGateCard(gate: gate, baseID: base.id, baseName: base.name)
+                        }
+                    } else {
+                        ForEach(filteredResources(for: base)) { resource in
+                            ExploreResourceCard(resource: resource, baseID: base.id, baseName: base.name)
+                        }
+                    }
+                case .events:
+                    ForEach(filteredEvents(for: base)) { event in
+                        ExploreEventCard(event: event, baseID: base.id, baseName: base.name)
+                    }
+                }
+
+                if isEmpty(for: base) {
+                    emptyState(for: base)
+                        .padding(.top, 32)
+                }
+
+                LegalDisclaimerCard(
+                    text: LegalCopy.unofficialInformation,
+                    style: .compact,
+                    systemImage: "info.circle"
+                )
+                .padding(.top, 8)
+            }
+            .padding(.horizontal, 16)
+            .padding(.top, 8)
+            .padding(.bottom, 16)
         }
     }
 

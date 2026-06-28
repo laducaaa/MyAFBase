@@ -64,9 +64,9 @@ extension AssignmentSegment {
 
     func headline(for baseName: String) -> String {
         switch self {
-        case .inbound: "Arriving at \(baseName)"
+        case .inbound: "In processing at \(baseName)"
         case .stationed: "Stationed at \(baseName)"
-        case .outbound: "Leaving \(baseName)"
+        case .outbound: "Out processing from \(baseName)"
         }
     }
 

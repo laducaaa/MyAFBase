@@ -7,7 +7,7 @@
   "wing": "7 BW",
   "latitude": 32.4208,
   "longitude": -99.8546,
-  "dataUpdatedAt": "2026-06-24T15:50:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "dyess-notif-real-id",
@@ -43,34 +43,34 @@
   "gates": [
     {
       "id": "gate-main",
-      "name": "East Gate (Main Gate)",
+      "name": "Main Gate (Arnold Blvd)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access with visitor processing.",
+      "notes": "Only 24/7 gate. Visitor Control Center at 1518 E Arnold Blvd, Bldg 9265.",
       "traffic": "high",
-      "address": "East Gate, Dyess AFB, TX 79607",
+      "address": "1518 E Arnold Blvd, Dyess AFB, TX 79607",
       "latitude": 32.4208,
-      "longitude": -99.8546
-    },
-    {
-      "id": "gate-tye",
-      "name": "Tye Gate",
-      "status": "open",
-      "hours": "Mon-Fri 0530-1730",
-      "notes": "Alternate access. Closed weekends and holidays.",
-      "traffic": "moderate",
-      "address": "Tye Gate, Dyess AFB, TX 79607",
-      "latitude": null,
-      "longitude": null
+      "longitude": -99.8486
     },
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 9265)",
       "status": "open",
-      "hours": "Mon-Fri 0700-2100; closed weekends, holidays, and family days",
-      "notes": "Day passes and visitor registration. REAL ID required. Located at 1518 E. Arnold Blvd.",
+      "hours": "Mon-Fri 0600-2200; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required. Phone: 325-696-2432.",
       "traffic": "moderate",
-      "address": "1518 E. Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607",
+      "address": "1518 E Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-tye",
+      "name": "Tye Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1730; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "Tye Gate, Dyess AFB, TX 79607",
       "latitude": null,
       "longitude": null
     }
@@ -81,17 +81,28 @@
       "name": "Longhorn Dining Facility",
       "category": "dining",
       "description": "Primary DFAC supporting the 7th Bomb Wing and 317th Airlift Wing with full meal service.",
-      "hours": "See posted meal hours",
+      "hours": "Meal hours posted at facility entrance",
       "address": "349 3rd St, Dyess AFB, TX 79607",
       "phone": "325-696-2421",
       "url": "https://dyessfss.com/",
       "building": null
     },
     {
+      "id": "res-dyess-commissary",
+      "name": "Dyess AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "250 Commissary Rd, Dyess AFB, TX 79607",
+      "phone": "325-696-4802",
+      "url": "https://shop.commissaries.com/stores/dyess-afb",
+      "building": null
+    },
+    {
       "id": "res-dyess-bx",
       "name": "Dyess Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
+      "description": "Dyess Main Exchange with food court, barber, beauty shop, optical, GNC, and shoppette.",
       "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
       "address": "Bldg 7339, Dyess AFB, TX 79607",
       "phone": "325-696-1110",
@@ -102,7 +113,7 @@
       "id": "res-dyess-credit-union",
       "name": "Communities of Abilene Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "341 Avenue C, Dyess AFB, TX 79607",
       "phone": "325-691-2300",
@@ -136,8 +147,8 @@
       "name": "Dyess Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
-      "hours": "Front desk 24/7",
-      "address": "Dyess AFB, TX 79607",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "225 5th St, Dyess AFB, TX 79607",
       "phone": "325-696-2681",
       "url": "https://dyessfss.com/",
       "building": null
@@ -158,7 +169,7 @@
       "name": "7th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Dyess AFB, TX 79607",
       "phone": "325-696-1110",
       "url": "https://dyessfss.com/",
@@ -169,20 +180,31 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental, FamCamp, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
+      "hours": "Mon-Fri 0730-1630",
       "address": "926 Louisiana Drive, Dyess AFB, TX 79607",
       "phone": "325-696-2402",
       "url": "https://dyessfss.com/",
       "building": null
     },
     {
-      "id": "res-dyess-golf",
-      "name": "Dyess Golf Course",
+      "id": "res-dyess-bowling",
+      "name": "Dyess Bowling Lanes",
       "category": "recreation",
-      "description": "18-hole golf course with pro shop and dining.",
-      "hours": "Sun-up to sun-down (seasonal)",
-      "address": "Dyess AFB, TX 79607",
-      "phone": "325-696-1110",
+      "description": "Bowling center with snack bar and league play.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "398 Ave C, Dyess AFB, TX 79607",
+      "phone": "325-696-4166",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-golf",
+      "name": "Mesquite Grove Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop.",
+      "hours": "Seasonal; call for tee times",
+      "address": "766 Mesquite Trail, Dyess AFB, TX 79607",
+      "phone": "325-696-4384",
       "url": "https://dyessfss.com/",
       "building": null
     },
@@ -191,10 +213,32 @@
       "name": "7th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Dyess AFB, TX 79607",
-      "phone": "325-696-1110",
+      "phone": "325-696-5601",
       "url": "https://dyess.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-2200",
+      "address": "1518 E Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607",
+      "phone": "325-696-2432",
+      "url": "https://www.dyess.af.mil/",
+      "building": "Bldg 9265"
+    },
+    {
+      "id": "res-dyess-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Dyess AFB, Abilene, TX",
+      "phone": "325-696-1110",
+      "url": "https://dyessfss.com/",
       "building": null
     }
   ],
@@ -242,6 +286,18 @@
             "url": "https://dyessfss.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

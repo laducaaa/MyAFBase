@@ -7,14 +7,14 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-06-24T17:50:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
       "title": "REAL ID Required for Base Access",
       "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T15:00:00Z",
       "expiresAt": null
     }
   ],
@@ -43,23 +43,45 @@
   "gates": [
     {
       "id": "gate-main",
-      "name": "Main Gate",
+      "name": "Main Gate (Falcon Road)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary access with visitor processing.",
-      "traffic": "moderate",
-      "address": "Altus AFB Main Gate, OK 73523",
+      "notes": "Primary 24/7 gate. After-hours visitor passes issued here when VCC closed (up to 72 hours).",
+      "traffic": "high",
+      "address": "Falcon Road, Altus AFB, OK 73523",
       "latitude": 34.6671,
       "longitude": -99.2667
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate (Challenger Blvd)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1700; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate on Challenger Boulevard.",
+      "traffic": "moderate",
+      "address": "Challenger Blvd, Altus AFB, OK 73523",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-jasmine",
+      "name": "Jasmine Gate (North)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 north-side gate. Convenient for Friendship and Martha communities.",
+      "traffic": "moderate",
+      "address": "Jasmine Gate, Altus AFB, OK 73523",
+      "latitude": null,
+      "longitude": null
     },
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Mon-Fri 0700-1600",
-      "notes": "Visitor registration and passes.",
+      "hours": "Mon-Fri 0600-1700; closed weekends and federal holidays",
+      "notes": "Located outside South Gate. Day passes up to 14 days. REAL ID required. Phone: 580-481-6340.",
       "traffic": "moderate",
-      "address": "Main Gate area, Altus AFB, OK 73523",
+      "address": "428 Challenger Ave, Altus AFB, OK 73523",
       "latitude": null,
       "longitude": null
     }
@@ -67,25 +89,25 @@
   "resources": [
     {
       "id": "res-altus-dfac",
-      "name": "Altus Dining Facility",
+      "name": "Hangar 97 Dining Facility (DFAC)",
       "category": "dining",
-      "description": "Primary DFAC serving aircrew training students and permanent party.",
-      "hours": "Mon-Fri: Breakfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "description": "Primary DFAC with Burger Grill, Ciao Pizza, Super Sonic Subs, salad bar, rotating grill, and Touch & Go 1930-0200.",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1100-1300, Dinner 1630-1830; Sat-Sun: Bfast 0730-0830, Lunch 1100-1300, Dinner 1630-1800; Touch & Go 1930-0200 daily",
+      "address": "208 S 6th St, Bldg 317, Altus AFB, OK 73523",
+      "phone": "580-481-7781",
+      "url": "https://altusfss.com/hangar-97/",
+      "building": "Bldg 317"
     },
     {
       "id": "res-altus-bx",
       "name": "Altus Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court.",
-      "hours": "Mon-Sat 0900-1900; Sun 1100-1800",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
+      "description": "Full-service Exchange with retail, shoppette, Class Six, barber, and clothing sales.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1100-1800",
+      "address": "105 1st St, Bldg 18, Altus AFB, OK 73523",
+      "phone": "580-481-7441",
       "url": "https://www.shopmyexchange.com/",
-      "building": null
+      "building": "Bldg 18"
     },
     {
       "id": "res-altus-commissary",
@@ -93,38 +115,49 @@
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
       "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
+      "address": "205 1st St, Altus AFB, OK 73523",
+      "phone": "580-481-5810",
       "url": "https://shop.commissaries.com/",
       "building": null
     },
     {
       "id": "res-altus-credit-union",
-      "name": "Altus Federal Credit Union",
+      "name": "Red River Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch with 24/7 ATM.",
+      "description": "On-base federal credit union with ATM in commissary parking lot.",
       "hours": "Mon-Fri 0900-1700",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": null,
+      "address": "1st & B Ave, Altus AFB, OK 73523",
+      "phone": "580-481-7148",
+      "url": "https://www.redriverfcu.org/",
       "building": null
+    },
+    {
+      "id": "res-altus-medical",
+      "name": "97th Medical Group Clinic",
+      "category": "medical",
+      "description": "Primary care and TRICARE support for the mobility training wing. No emergency department — call 911.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "301 N 1st St, Bldg 46, Altus AFB, OK 73523",
+      "phone": "580-481-5235",
+      "url": "https://altus.tricare.mil/",
+      "building": "Bldg 46"
     },
     {
       "id": "res-altus-fitness-main",
       "name": "Altus Fitness Center",
       "category": "fitness",
-      "description": "Main fitness facility with cardio, weights, group exercise. 24/7 access available.",
-      "hours": "Mon-Fri 0500-2200; Sat-Sun 0800-1800; 24/7 for registered CAC holders",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "description": "24/7 fitness facility with weight rooms, CrossFit area, saunas, group exercise, and indoor pool access.",
+      "hours": "Open 24/7; staffed hours Mon-Fri 0500-2200, Sat-Sun 0800-1800",
+      "address": "209 S 6th St, Bldg 156, Altus AFB, OK 73523",
+      "phone": "580-481-7440",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 156"
     },
     {
       "id": "res-altus-unaccompanied-housing",
       "name": "Unaccompanied Housing / Dorm Management",
       "category": "housing",
-      "description": "Dormitory management and assignments for training students.",
+      "description": "Dormitory management and assignments for training students and unaccompanied personnel.",
       "hours": "Mon-Fri 0730-1630",
       "address": "Altus AFB, OK 73523",
       "phone": "580-481-5218",
@@ -132,58 +165,102 @@
       "building": null
     },
     {
-      "id": "res-altus-lodging",
-      "name": "Altus Inn / AF Lodging",
+      "id": "res-altus-housing-office",
+      "name": "Housing Office",
       "category": "housing",
-      "description": "Official temporary lodging and TLF. 24-hour front desk.",
-      "hours": "Front desk 24/7",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-3311",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "description": "On-base family housing referrals and off-base housing counseling.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "401 L Ave, Bldg 358, Altus AFB, OK 73523",
+      "phone": "580-481-7235",
+      "url": "https://www.housing.af.mil/",
+      "building": "Bldg 358"
+    },
+    {
+      "id": "res-altus-lodging",
+      "name": "Red River Inn (AF Lodging)",
+      "category": "housing",
+      "description": "226 transient bed spaces including VQ, TLF, and DV suites. 24-hour front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "307 B Ave, Bldg 82, Altus AFB, OK 73523",
+      "phone": "580-481-7356",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 82"
     },
     {
       "id": "res-altus-mfrc",
-      "name": "Military & Family Readiness Center (M&FRC)",
+      "name": "Airman & Family Readiness Center (M&FRC)",
       "category": "services",
-      "description": "Relocation assistance, financial counseling, employment support, family programs.",
+      "description": "Relocation assistance, financial counseling, employment support, transition assistance, and family programs.",
       "hours": "Mon-Fri 0800-1630",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "address": "308 N 1st St, Bldg 52, Altus AFB, OK 73523",
+      "phone": "580-481-6761",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 52"
     },
     {
       "id": "res-97-fss",
       "name": "97th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "308 N 1st St, Bldg 52, Altus AFB, OK 73523",
+      "phone": "580-481-7343",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 52"
+    },
+    {
+      "id": "res-altus-mpf",
+      "name": "Military Personnel Section (MPS)",
+      "category": "services",
+      "description": "In-processing, CAC/ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "308 N 1st St, Bldg 52, Altus AFB, OK 73523",
+      "phone": "580-481-5307",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 52"
     },
     {
       "id": "res-altus-outdoor-rec",
       "name": "Outdoor Recreation (ODR)",
       "category": "recreation",
-      "description": "Equipment rental, RV storage, and recreational programs.",
-      "hours": "Mon-Fri duty hours",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-1110",
-      "url": "https://www.altusfss.com/",
-      "building": null
+      "description": "Equipment rental, RV storage, auto hobby shop, and recreational programs.",
+      "hours": "Mon-Fri 0800-1700",
+      "address": "500 S 1st St, Bldg 343, Altus AFB, OK 73523",
+      "phone": "580-481-7696",
+      "url": "https://altusfss.com/",
+      "building": "Bldg 343"
     },
     {
-      "id": "res-altus-medical",
-      "name": "97th Medical Group",
-      "category": "medical",
-      "description": "Primary care and TRICARE support for the mobility training wing.",
-      "hours": "Mon-Fri 0730-1630 (typical)",
-      "address": "Altus AFB, OK 73523",
-      "phone": "580-481-5233",
-      "url": "https://altus.tricare.mil/",
+      "id": "res-altus-golf",
+      "name": "Windy Trails Golf Course",
+      "category": "recreation",
+      "description": "18-hole par 72 course with bent-grass greens, pro shop, and 24-hour driving range.",
+      "hours": "Daily 0700-1800",
+      "address": "209 Fir Dr, Bldg 35, Altus AFB, OK 73523",
+      "phone": "580-481-7207",
+      "url": "https://altusfss.com/windy-trails-golf-course/",
+      "building": "Bldg 35"
+    },
+    {
+      "id": "res-altus-bowling",
+      "name": "Galaxy Bowling Lanes & Grill",
+      "category": "recreation",
+      "description": "12 lanes with programmable bumpers, Galaxy Grill breakfast and lunch, and league play.",
+      "hours": "Mon-Thu 0700-1400; Fri 0700-2200; Sat 1200-2200; Sun closed",
+      "address": "102 4th St, Bldg 106, Altus AFB, OK 73523",
+      "phone": "580-481-6704",
+      "url": "https://altusfss.com/galaxy-bowling-lanes/",
+      "building": "Bldg 106"
+    },
+    {
+      "id": "res-altus-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access registration. REAL ID required.",
+      "hours": "Mon-Fri 0600-1700; closed weekends and federal holidays",
+      "address": "428 Challenger Ave, Altus AFB, OK 73523",
+      "phone": "580-481-6340",
+      "url": "https://www.altus.af.mil/About-Us/Visitor-Information/",
       "building": null
     }
   ],
@@ -191,11 +268,11 @@
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",
-      "url": "https://www.altusfss.com/",
-      "phone": "580-481-1110",
-      "address": "Main Gate area, Altus AFB, OK 73523"
+      "url": "https://www.altus.af.mil/About-Us/Visitor-Information/",
+      "phone": "580-481-6340",
+      "address": "428 Challenger Ave, Altus AFB, OK 73523"
     },
-    "moreInfoURL": "https://www.altusfss.com/",
+    "moreInfoURL": "https://altusfss.com/",
     "sections": [
       {
         "id": "nc-1",
@@ -204,9 +281,21 @@
         "links": null
       },
       {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to Military Personnel Section (580-481-5307) in Bldg 52 upon arrival. Training students contact dorm management at 580-481-5218.",
+        "links": [
+          {
+            "id": "link-mps",
+            "title": "97th Force Support Squadron",
+            "url": "https://altusfss.com/"
+          }
+        ]
+      },
+      {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact Dormitory Management (580-481-5218) for unaccompanied housing or Altus Inn (580-481-3311) for temporary lodging.",
+        "body": "Contact Red River Inn (580-481-7356) for temporary lodging. Housing Office at 401 L Ave (580-481-7235) for family housing. Dorm management at 580-481-5218.",
         "links": [
           {
             "id": "link-housing",
@@ -216,6 +305,12 @@
         ]
       },
       {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
         "id": "nc-5",
         "title": "Quick Resources",
         "body": "97 FSS and M&FRC for in-processing and community support.",
@@ -223,12 +318,17 @@
           {
             "id": "link-fss",
             "title": "97th Force Support Squadron",
-            "url": "https://www.altusfss.com/"
+            "url": "https://altusfss.com/"
           },
           {
             "id": "link-mfrc",
-            "title": "Military & Family Readiness Center",
-            "url": "https://www.altusfss.com/"
+            "title": "Airman & Family Readiness Center",
+            "url": "https://altusfss.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
           }
         ]
       }

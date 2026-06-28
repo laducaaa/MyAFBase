@@ -1,228 +1,490 @@
 {
   "id": "los-angeles",
-  "name": "Los Angeles AFB",
-  "fullName": "Los Angeles Air Force Base",
+  "name": "Los Angeles SFB",
+  "fullName": "Los Angeles Space Force Base",
   "location": "El Segundo, CA",
-  "description": "Los Angeles AFB is headquarters for Space Systems Command and the Space Force's space acquisition and development enterprise in the South Bay.",
-  "wing": "SSC",
+  "description": "Los Angeles SFB is headquarters for Space Systems Command (SSC) and Space Base Delta 3 — a compact urban installation in the South Bay with no flightline. On-base family housing, recreation, and the Fort MacArthur housing annex in San Pedro (~20 miles south) are managed separately from the El Segundo campus.",
+  "wing": "SBD 3 / SSC",
   "latitude": 33.9192,
   "longitude": -118.3853,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "los-angeles-notif-real-id",
       "title": "REAL ID Required for Base Access",
-      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a pass through the Visitor Control Center at Douglas Street Gate.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T13:30:00Z",
       "expiresAt": null
     }
   ],
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "Los Angeles AFB Security Forces",
-      "number": "310-653-5401"
+      "label": "Security Forces (BDOC)",
+      "number": "310-653-5787"
     },
     {
       "id": "em-2",
-      "label": "911 Emergency",
+      "label": "Emergency (Fire/Medical/Police)",
       "number": "911"
     },
     {
       "id": "em-3",
+      "label": "Command Post (24-Hour)",
+      "number": "310-653-3070"
+    },
+    {
+      "id": "em-4",
       "label": "Base Operator",
       "number": "310-653-1110"
+    },
+    {
+      "id": "em-5",
+      "label": "61st Medical Squadron Appointments",
+      "number": "310-653-2873"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-aviation-blvd",
-      "name": "Main Gate (Aviation Blvd)",
+      "id": "gate-douglas-st",
+      "name": "Douglas Street Gate (Main)",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate and main visitor access point. Visitor Control Center (Bldg 260) is located immediately left of the entrance. REAL ID required for visitors.",
+      "traffic": "high",
+      "address": "200 N Douglas St, El Segundo, CA 90245",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-aviation-blvd",
+      "name": "Aviation Boulevard Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-0800 & 1530-1730",
+      "notes": "Closed weekends and federal holidays. Commuter gate for El Segundo campus personnel.",
       "traffic": "moderate",
       "address": "483 N Aviation Blvd, El Segundo, CA 90245",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-satellite-gate",
-      "name": "Satellite Gate",
+      "id": "gate-fort-macarthur-24th",
+      "name": "Fort MacArthur 24th Street Gate",
       "status": "open",
-      "hours": "Mon-Fri 0700-1700",
-      "notes": null,
+      "hours": "Open 24/7",
+      "notes": "24/7 access to Fort MacArthur housing annex. Temporary visitor passes for housing areas issued at gate; may be delayed based on patrol response.",
+      "traffic": "moderate",
+      "address": "24th St, Fort MacArthur, San Pedro, CA 90731",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-fort-macarthur-30th",
+      "name": "Fort MacArthur 30th Street Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access to Fort MacArthur housing and community facilities in San Pedro.",
+      "traffic": "moderate",
+      "address": "30th St, Fort MacArthur, San Pedro, CA 90731",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-pacific-heights",
+      "name": "Pacific Heights Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access to Pacific Heights housing area. Restricted to authorized military and DoD ID cardholders and registered visitors.",
       "traffic": "low",
-      "address": "200 N Aviation Blvd, El Segundo, CA 90245",
+      "address": "Pacific Heights, San Pedro, CA 90731",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-pacific-crest",
+      "name": "Pacific Crest Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access to Pacific Crest housing area. Restricted to authorized military and DoD ID cardholders and registered visitors.",
+      "traffic": "low",
+      "address": "Pacific Crest, San Pedro, CA 90731",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Douglas Street Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1500",
+      "notes": "Issues temporary visitor passes, vehicle passes, and DBIDS credentials. Closed weekends, federal holidays, and family days. Fort MacArthur housing visitor passes issued 24/7 at housing gates.",
+      "traffic": "moderate",
+      "address": "Bldg 260, Douglas Street Gate, El Segundo, CA 90245",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-los-angeles-dfac",
-      "name": "Coral Reef Dining Facility",
+      "id": "res-los-angeles-no-dfac",
+      "name": "No Traditional Dining Facility (DFAC)",
       "category": "dining",
-      "description": "Main dining facility at Los Angeles AFB.",
-      "hours": "See posted meal hours",
-      "address": "483 N Aviation Blvd, El Segundo, CA 90245",
-      "phone": "310-653-1110",
-      "url": "https://www.losangelesfss.com/dining/",
+      "description": "Los Angeles SFB has no traditional military dining facility. Meals are available at the South Bay Bar & Grill, BX food court, and Fort MacArthur Community Center / Harbor View Lounge. Unaccompanied housing residents receive BAS.",
+      "hours": "N/A — no DFAC on installation",
+      "address": "Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-2803",
+      "url": "https://lafss.com/directory/",
       "building": null
+    },
+    {
+      "id": "res-los-angeles-south-bay-bar-grill",
+      "name": "South Bay Bar & Grill",
+      "category": "dining",
+      "description": "Primary on-base dining at El Segundo — daily breakfast and lunch with hotline meals, made-to-order sandwiches, soup and chili, grab-and-go wraps and salads. Hosts Bites & Brews, trivia, and karaoke events.",
+      "hours": "Mon-Fri: Bfast 0600-1000, Lunch 1100-1400; bar Wed-Fri 1600-2000",
+      "address": "483 N Aviation Blvd, Bldg 270, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-2803",
+      "url": "https://lafss.com/south-bay-bar-grill/",
+      "building": "Bldg 270"
+    },
+    {
+      "id": "res-los-angeles-harbor-view-lounge",
+      "name": "Harbor View Lounge & Café (Community Center)",
+      "category": "dining",
+      "description": "Fort MacArthur community center dining with ocean views — burgers, wings, pizza, barbecue, seafood po-boys, fish tacos, and Friday-night lounge service. Catering available for events and celebrations.",
+      "hours": "Mon-Fri 1100-1400 lunch; Fri lounge 1700-2100; see lafss.com for events",
+      "address": "210 W 29th St, Bldg 403, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-653-8958",
+      "url": "https://lafss.com/cc/",
+      "building": "Bldg 403"
+    },
+    {
+      "id": "res-los-angeles-bx-food-court",
+      "name": "BX Food Court",
+      "category": "dining",
+      "description": "Fast food inside the Main Exchange — Burger King, Charleys Philly Steaks, and Starbucks for quick meals on the El Segundo campus.",
+      "hours": "Mon-Sat 0700-1900; Sun 1000-1800",
+      "address": "483 N Aviation Blvd, Bldg 252, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-414-9404",
+      "url": "https://www.shopmyexchange.com/store-locator/los-angeles-main-exchange",
+      "building": "Bldg 252"
     },
     {
       "id": "res-los-angeles-bx",
-      "name": "Los Angeles AFB Exchange",
+      "name": "Los Angeles SFB Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Los Angeles AFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "483 N Aviation Blvd, El Segundo, CA 90245",
-      "phone": "310-653-1110",
+      "description": "Full-service AAFES exchange with clothing, electronics, food court, and services for the El Segundo installation.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "483 N Aviation Blvd, Bldg 252, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-414-9404",
       "url": "https://www.shopmyexchange.com/store-locator/los-angeles-main-exchange",
-      "building": null
+      "building": "Bldg 252"
     },
     {
       "id": "res-los-angeles-commissary",
-      "name": "Los Angeles AFB Commissary",
+      "name": "Los Angeles SFB Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "483 N Aviation Blvd, El Segundo, CA 90245",
-      "phone": "310-653-1110",
+      "description": "Defense Commissary Agency grocery serving the El Segundo campus and South Bay military community.",
+      "hours": "Sun/Tue-Sat 0900-1830; Mon 1100-1700",
+      "address": "483 N Aviation Blvd, Bldg 251, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "424-336-2262",
       "url": "https://shop.commissaries.com/stores/los-angeles-afb",
-      "building": null
+      "building": "Bldg 251"
     },
     {
       "id": "res-los-angeles-medical",
-      "name": "61st Medical Squadron",
+      "name": "61st Medical Squadron Clinic (El Segundo)",
       "category": "medical",
-      "description": "Primary medical facility for Los Angeles AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-2273",
+      "description": "Primary outpatient MTF — family medicine, pediatrics, flight medicine, behavioral health, pharmacy, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon/Tue/Thu/Fri 0800-1600; Wed 0900-1600; closed weekends and federal holidays",
+      "address": "483 N Aviation Blvd, Bldg 210, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-2873",
       "url": "https://losangeles.tricare.mil/",
-      "building": null
+      "building": "Bldg 210"
     },
     {
-      "id": "res-los-angeles-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-los-angeles-medical-macarthur",
+      "name": "61st Medical Squadron Satellite Clinic (Fort MacArthur)",
+      "category": "medical",
+      "description": "Satellite clinic serving Fort MacArthur housing residents and geographically separated personnel in San Pedro.",
+      "hours": "Mon/Tue/Thu/Fri 0800-1600; Wed 0900-1600",
+      "address": "2400 S Pacific Ave, Bldg 30, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-653-2873",
+      "url": "https://losangeles.tricare.mil/",
+      "building": "Bldg 30"
+    },
+    {
+      "id": "res-los-angeles-dental",
+      "name": "61st Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible TRICARE beneficiaries.",
+      "hours": "Mon/Tue/Thu/Fri 0800-1600; Wed 0900-1600",
+      "address": "483 N Aviation Blvd, Bldg 210, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-6844",
+      "url": "https://losangeles.tricare.mil/",
+      "building": "Bldg 210"
+    },
+    {
+      "id": "res-los-angeles-fitness",
+      "name": "Los Angeles SFB Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Los Angeles AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.losangelesfss.com/fitness/",
-      "building": null
+      "description": "El Segundo fitness center with cardio, strength, free weights, group exercise, racquetball, basketball gym, and running track. Free equipment orientations available. FAC testing Tue-Thu mornings.",
+      "hours": "Mon-Fri 0500-2100; Sat-Sun 0800-1800; CAC access available",
+      "address": "483 N Aviation Blvd, Bldg 286, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-6771",
+      "url": "https://lafss.com/fitness/",
+      "building": "Bldg 286"
+    },
+    {
+      "id": "res-los-angeles-fitness-macarthur",
+      "name": "Fort MacArthur Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Fitness center at the Fort MacArthur annex — cardiovascular and weight equipment, group fitness room, racquetball courts, gymnasium, locker rooms, and saunas. Equipment checkout available after registration.",
+      "hours": "Mon-Thu 1000-1900; Fri-Sun closed",
+      "address": "Fort MacArthur, Bldg 425, San Pedro, CA 90731",
+      "phone": "310-653-8361",
+      "url": "https://lafss.com/fitness/",
+      "building": "Bldg 425"
+    },
+    {
+      "id": "res-los-angeles-pool",
+      "name": "Fort MacArthur Swimming Pool",
+      "category": "fitness",
+      "description": "Seasonal swimming pool at Fort MacArthur. Open on federal holidays when most other FSS facilities are closed.",
+      "hours": "Seasonal — see lafss.com for schedule",
+      "address": "Fort MacArthur, Bldg 400, San Pedro, CA 90731",
+      "phone": "310-653-1191",
+      "url": "https://lafss.com/fitness/",
+      "building": "Bldg 400"
     },
     {
       "id": "res-los-angeles-finance",
-      "name": "Finance / Comptroller",
+      "name": "Finance Office (Comptroller)",
       "category": "finance",
-      "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.losangeles.af.mil/",
+      "description": "Military pay, travel vouchers, and finance customer service for SSC and SBD 3 personnel.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5114",
+      "url": "https://www.losangeles.spaceforce.mil/",
       "building": null
     },
     {
       "id": "res-los-angeles-mpf",
-      "name": "Military Personnel Flight (MPF)",
+      "name": "Military Personnel Flight (Customer Support / ID Cards)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.losangelesfss.com/",
-      "building": null
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Closed first Thursday of each month for training.",
+      "hours": "Mon-Fri 0800-1500; closed first Thu monthly for training",
+      "address": "Bldg 272 (Lobby), Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5114",
+      "url": "https://lafss.com/directory/",
+      "building": "Bldg 272"
     },
     {
       "id": "res-los-angeles-fss",
-      "name": "SSC Force Support Squadron",
+      "name": "61st Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.losangelesfss.com/",
-      "building": null
+      "description": "All MWR programs — dining, fitness, recreation, child care, ITT, and community events across El Segundo and Fort MacArthur.",
+      "hours": "Facility hours listed on FSS website; closed federal holidays except Fort MacArthur pool",
+      "address": "483 N Aviation Blvd, Bldg 270, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-2803",
+      "url": "https://lafss.com/",
+      "building": "Bldg 270"
     },
     {
-      "id": "res-los-angeles-housing",
-      "name": "Housing Office",
+      "id": "res-los-angeles-mfrc",
+      "name": "Military & Family Readiness Center",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, EFMP family support, and family programs.",
+      "hours": "Mon-Fri 0800-1600; closed first Thu monthly for training",
+      "address": "Bldg 272 (C1-209), Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5290",
+      "url": "https://lafss.com/military-family-readiness-center/",
+      "building": "Bldg 272"
+    },
+    {
+      "id": "res-los-angeles-cdc",
+      "name": "Child Development Center",
+      "category": "services",
+      "description": "Full-day child care for eligible military and DoD families on the El Segundo campus.",
+      "hours": "Mon-Fri 0630-1730",
+      "address": "Bldg 281, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-6800",
+      "url": "https://lafss.com/child-development-center/",
+      "building": "Bldg 281"
+    },
+    {
+      "id": "res-los-angeles-school-liaison",
+      "name": "School Liaison Program",
+      "category": "services",
+      "description": "K-12 school transition support, district information, and education resources for families at El Segundo and Fort MacArthur.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Bldg 272 (C1-209), Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5262",
+      "url": "https://lafss.com/directory/",
+      "building": "Bldg 272"
+    },
+    {
+      "id": "res-los-angeles-tierra-vista",
+      "name": "Tierra Vista Communities (On-Base Housing)",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/los-angeles-afb/",
+      "description": "Privatized family housing at Fort MacArthur — apartments, duplexes, townhomes, and single-family homes across Pacific Heights, Pacific Crest, and Fort MacArthur neighborhoods. No on-base housing at El Segundo.",
+      "hours": "Mon-Fri 0800-1700",
+      "address": "2400 S Pacific Ave, Bldg 410 Suite 4, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-241-6184",
+      "url": "https://la.tierra-vista.com/",
+      "building": "Bldg 410"
+    },
+    {
+      "id": "res-los-angeles-lodge",
+      "name": "Fort MacArthur Inn (Temporary Lodging)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging at Fort MacArthur (~20 miles from El Segundo). No on-base lodging at the El Segundo campus. PCS members have Priority 1 status for up to 30 days.",
+      "hours": "Front desk daily 0600-2200; check-in 1400, check-out 1100",
+      "address": "2400 S Pacific Ave, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-653-8296",
+      "url": "https://www.afreservations.com/",
       "building": null
     },
     {
-      "id": "res-los-angeles-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-los-angeles-housing-referral",
+      "name": "Housing Referral Office (Fort MacArthur)",
+      "category": "housing",
+      "description": "Off-base housing referrals and counseling. All personnel must visit before signing any off-base lease.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "2400 S Pacific Ave, Bldg 410, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-653-8468",
+      "url": "https://la.tierra-vista.com/",
+      "building": "Bldg 410"
+    },
+    {
+      "id": "res-los-angeles-odr",
+      "name": "Outdoor Recreation & Equipment Rentals",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Los Angeles AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-1110",
-      "url": "https://www.losangelesfss.com/",
+      "description": "Camping gear, sports equipment, picnic area reservations, and adventure trip support at Fort MacArthur.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Fort MacArthur, Bldg 425, San Pedro, CA 90731",
+      "phone": "310-653-8225",
+      "url": "https://lafss.com/itt/",
+      "building": "Bldg 425"
+    },
+    {
+      "id": "res-los-angeles-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted theme park tickets, local attractions, travel planning, and recreational trip packages.",
+      "hours": "Mon-Fri 0900-1600",
+      "address": "Bldg 270, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-1304",
+      "url": "https://lafss.com/itt/",
+      "building": "Bldg 270"
+    },
+    {
+      "id": "res-los-angeles-community-center",
+      "name": "Fort MacArthur Community Center",
+      "category": "recreation",
+      "description": "Multi-use event venue overlooking San Pedro beaches — parties, weddings, workshops, Independence Day celebrations, and Sno Cone Fridays. Harbor View Event Center reservations available.",
+      "hours": "Mon-Fri 1100-1400 lunch; Fri lounge 1700-2100; events vary",
+      "address": "210 W 29th St, Bldg 403, Fort MacArthur, San Pedro, CA 90731",
+      "phone": "310-653-8341",
+      "url": "https://lafss.com/cc/",
+      "building": "Bldg 403"
+    },
+    {
+      "id": "res-los-angeles-youth",
+      "name": "Youth Programs (Fort MacArthur)",
+      "category": "recreation",
+      "description": "School-age care, teen programs, and youth activities at the Fort MacArthur annex.",
+      "hours": "Mon-Fri after school; see lafss.com for program schedules",
+      "address": "Fort MacArthur, Bldg 425, San Pedro, CA 90731",
+      "phone": "310-653-8383",
+      "url": "https://lafss.com/directory/",
+      "building": "Bldg 425"
+    },
+    {
+      "id": "res-los-angeles-no-golf-bowling",
+      "name": "No On-Base Golf or Bowling",
+      "category": "recreation",
+      "description": "Los Angeles SFB has no golf course or bowling alley on installation. Off-base recreation throughout the greater Los Angeles area; ITT offers discounted local attraction tickets.",
+      "hours": "N/A — not available on base",
+      "address": "Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-1304",
+      "url": "https://lafss.com/itt/",
       "building": null
     },
     {
-      "id": "res-los-angeles-visitor-center",
-      "name": "Los Angeles AFB Visitor Center",
+      "id": "res-los-angeles-chapel",
+      "name": "Chapel Services",
+      "category": "services",
+      "description": "Protestant, Catholic, and other faith community services at El Segundo (Bldg 272) and Fort MacArthur (Bldg 425).",
+      "hours": "See chapel bulletin for worship schedules",
+      "address": "Bldg 272, Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5080",
+      "url": "https://lafss.com/directory/",
+      "building": "Bldg 272"
+    },
+    {
+      "id": "res-los-angeles-vcc",
+      "name": "Visitor Control Center",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "483 N Aviation Blvd, El Segundo, CA 90245",
-      "phone": "310-653-5421",
-      "url": "https://www.losangeles.af.mil/Newcomers/",
-      "building": null
+      "description": "Visitor passes, vehicle passes, and DBIDS credentials for El Segundo campus. Coordinates contractor and vendor access for SSC mission partners.",
+      "hours": "Mon-Fri 0700-1500",
+      "address": "Bldg 260, Douglas Street Gate, El Segundo, CA 90245",
+      "phone": "310-653-0548",
+      "url": "https://www.losangeles.spaceforce.mil/",
+      "building": "Bldg 260"
     },
     {
       "id": "res-los-angeles-security-forces",
-      "name": "Security Forces / Base Defense",
+      "name": "61st Security Forces Squadron",
       "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
+      "description": "Base defense, law enforcement, and gate operations for El Segundo and Fort MacArthur annex locations.",
       "hours": "24/7",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "phone": "310-653-5401",
-      "url": "https://www.losangeles.af.mil/",
+      "address": "Los Angeles SFB, El Segundo, CA 90245",
+      "phone": "310-653-5787",
+      "url": "https://www.losangeles.spaceforce.mil/",
       "building": null
     }
   ],
   "events": [
     {
+      "id": "los-angeles-evt-independence-day",
+      "title": "Independence Day Celebration",
+      "date": "2026-07-04T00:00:00Z",
+      "endDate": "2026-07-05T01:00:00Z",
+      "location": "Fort MacArthur Community Center",
+      "address": "210 W 29th St, Bldg 403, Fort MacArthur, San Pedro, CA 90731",
+      "description": "Afternoon celebration with food, music, bounce houses, face painters, and family activities at the Community Center.",
+      "category": "community"
+    },
+    {
       "id": "los-angeles-evt-newcomers",
       "title": "Newcomers Briefing",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "Bldg 272, Los Angeles SFB, El Segundo, CA 90245",
+      "description": "Orientation for incoming SSC and SBD 3 personnel and families. All branches encouraged to attend.",
       "category": "community"
     },
     {
-      "id": "los-angeles-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Los Angeles AFB, El Segundo, CA",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
+      "id": "los-angeles-evt-fitness-challenge",
+      "title": "July Fitness Challenge: Helix Machine",
+      "date": "2026-07-01T07:00:00Z",
+      "endDate": "2026-07-31T23:00:00Z",
+      "location": "Los Angeles SFB Fitness Center",
+      "address": "Bldg 286, Los Angeles SFB, El Segundo, CA 90245",
+      "description": "Monthly fitness challenge at the El Segundo and Fort MacArthur fitness centers.",
+      "category": "fitness"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Los Angeles AFB Visitor Center",
-      "url": "https://www.losangeles.af.mil/Newcomers/",
-      "phone": "310-653-5421",
-      "address": "483 N Aviation Blvd, El Segundo, CA 90245"
+      "title": "Los Angeles SFB Visitor Control Center",
+      "url": "https://www.losangeles.spaceforce.mil/",
+      "phone": "310-653-0548",
+      "address": "Bldg 260, Douglas Street Gate, El Segundo, CA 90245"
     },
-    "moreInfoURL": "https://www.losangeles.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.losangeles.spaceforce.mil/",
     "sections": [
       {
         "id": "nc-1",
@@ -233,77 +495,73 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Los Angeles AFB reporting instructions.",
+        "body": "Report to your gaining unit at the El Segundo campus normal business hours (Mon-Fri 0730-1630). Visit the Military Personnel Flight in Bldg 272 for ID cards and personnel actions. Attend the newcomers briefing at the Military & Family Readiness Center.",
         "links": [
           {
             "id": "link-inprocess",
-            "title": "Newcomers & In-Processing",
-            "url": "https://www.losangeles.af.mil/Newcomers/"
+            "title": "61st Force Support Squadron",
+            "url": "https://lafss.com/directory/"
           }
         ]
       },
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "There is no on-base family housing at El Segundo. Permanent housing is at Fort MacArthur (Tierra Vista Communities) and Pacific Heights/Crest neighborhoods in San Pedro. Fort MacArthur Inn offers temporary lodging — book early during PCS season. Visit the Housing Referral Office before signing any off-base lease.",
         "links": [
           {
             "id": "link-housing-sec",
-            "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/los-angeles-afb/"
+            "title": "Tierra Vista Communities",
+            "url": "https://la.tierra-vista.com/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Fort MacArthur Inn",
+            "url": "https://www.afreservations.com/"
           }
         ]
       },
       {
         "id": "nc-4",
-        "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
-        "links": null
+        "title": "Gate Access",
+        "body": "Douglas Street Gate is open 24/7 and is the main visitor access point. Aviation Boulevard Gate is Mon-Fri 0600-0800 and 1530-1730 only. Fort MacArthur 24th/30th Street gates and Pacific Heights/Crest gates are 24/7 for authorized personnel. Visitor Control Center hours are Mon-Fri 0700-1500. REAL ID required.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Security Forces & Visitor Info",
+            "url": "https://www.losangeles.spaceforce.mil/"
+          }
+        ]
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus 61st FSS (lafss.com) for dining, fitness, and recreation across El Segundo and Fort MacArthur.",
         "links": [
           {
             "id": "link-official",
-            "title": "Los Angeles AFB Official Site",
-            "url": "https://www.losangeles.af.mil/"
-          },
-          {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.losangeles.af.mil/Newcomers/"
+            "title": "Los Angeles SFB Official Site",
+            "url": "https://www.losangeles.spaceforce.mil/"
           },
           {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.losangelesfss.com/"
+            "title": "61st Force Support Squadron",
+            "url": "https://lafss.com/"
           },
           {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/los-angeles-afb/"
+            "id": "link-medical",
+            "title": "61st Medical Squadron",
+            "url": "https://losangeles.tricare.mil/"
           },
           {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/los-angeles"
+            "id": "link-community",
+            "title": "Fort MacArthur Community Center",
+            "url": "https://lafss.com/cc/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

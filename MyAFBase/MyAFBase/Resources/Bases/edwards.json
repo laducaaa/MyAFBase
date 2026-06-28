@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-06-28T12:30:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -92,10 +92,10 @@
       "name": "Joshua Tree Dining Facility (DFAC)",
       "category": "dining",
       "description": "Primary dining facility serving 412th Test Wing and tenant units. Full meal service seven days per week.",
-      "hours": "7 days per week — see posted meal hours at facility",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1100-1300, Dinner 1630-1900; Sat-Sun: Brunch 0700-1300, Dinner 1630-1800",
       "address": "130 W Popson Ave, Bldg 2412, Edwards AFB, CA 93524",
       "phone": "661-275-6213",
-      "url": "https://www.edwardsfss.com/dining/",
+      "url": "https://edwardsfss.com/",
       "building": "Bldg 2412"
     },
     {
@@ -158,10 +158,10 @@
       "name": "Rosburg Fitness Center",
       "category": "fitness",
       "description": "Main fitness center with weight room, cardio equipment, basketball, racquetball, and group exercise. 24/7 CAC access after registration.",
-      "hours": "24/7 CAC access after registration; see FSS for staffed hours",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0800-1800; 24/7 CAC access after registration",
       "address": "210 W Popson Ave, Bldg 2200, Edwards AFB, CA 93524",
       "phone": "661-275-4961",
-      "url": "https://www.edwardsfss.com/fitness/",
+      "url": "https://edwardsfss.com/",
       "building": "Bldg 2200"
     },
     {
@@ -202,7 +202,7 @@
       "name": "412th Force Support Squadron (FSS)",
       "category": "services",
       "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
-      "hours": "Varies by facility",
+      "hours": "Facility hours listed on FSS website",
       "address": "Edwards AFB, CA 93524",
       "phone": "661-277-1110",
       "url": "https://www.edwardsfss.com/",
@@ -235,7 +235,7 @@
       "name": "High Desert Inn (AF Lodging)",
       "category": "housing",
       "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "5602 Honts Dr, Edwards AFB, CA 93524",
       "phone": "661-277-3394",
       "url": "https://www.afreservations.com/",
@@ -279,7 +279,7 @@
       "name": "High Desert Lanes Bowling Center",
       "category": "recreation",
       "description": "Bowling center with leagues, food, and family programs.",
-      "hours": "See FSS for current hours",
+      "hours": "Mon-Fri 0800-1630",
       "address": "Edwards AFB, CA 93524",
       "phone": "661-275-2695",
       "url": "https://www.edwardsfss.com/",

@@ -23,8 +23,13 @@ actor LocalJSONDataService: BaseDataProviding {
             return []
         }
 
-        let entries = await decodeOnBackground(url: url) { data in
-            try JSONCoding.decoder.decode([BaseIndexEntry].self, from: data)
+        let entries: [BaseIndexEntry]?
+        do {
+            let data = try Data(contentsOf: url)
+            entries = try JSONCoding.decoder.decode([BaseIndexEntry].self, from: data)
+        } catch {
+            print("LocalJSONDataService: failed to load \(url.lastPathComponent): \(error)")
+            entries = nil
         }
 
         guard let entries else { return [] }
@@ -46,8 +51,13 @@ actor LocalJSONDataService: BaseDataProviding {
             return nil
         }
 
-        let base = await decodeOnBackground(url: url) { data in
-            try JSONCoding.decoder.decode(Base.self, from: data)
+        let base: Base?
+        do {
+            let data = try Data(contentsOf: url)
+            base = await JSONCoding.decodeBase(from: data)
+        } catch {
+            print("LocalJSONDataService: failed to load \(url.lastPathComponent): \(error)")
+            base = nil
         }
 
         if let base {
@@ -60,21 +70,6 @@ actor LocalJSONDataService: BaseDataProviding {
     func region(for baseID: String) async -> BaseRegion? {
         let index = await loadBaseIndex()
         return index.first { $0.id == baseID }?.region
-    }
-
-    private func decodeOnBackground<T: Sendable>(
-        url: URL,
-        _ decode: @Sendable @escaping (Data) throws -> T
-    ) async -> T? {
-        await Task.detached(priority: .userInitiated) {
-            do {
-                let data = try Data(contentsOf: url)
-                return try decode(data)
-            } catch {
-                print("LocalJSONDataService: failed to load \(url.lastPathComponent): \(error)")
-                return nil
-            }
-        }.value
     }
 
     private func urlForResource(_ name: String, extension ext: String) -> URL? {

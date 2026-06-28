@@ -321,14 +321,21 @@ struct PFRAGoalPlannerView: View {
     }
 
     private var disclaimerCard: some View {
-        Label {
-            Text("Unofficial estimate based on March 2026 PFRA charts. Assumes other component scores stay the same.")
-                .font(.caption)
-                .foregroundStyle(.secondary)
-                .fixedSize(horizontal: false, vertical: true)
-        } icon: {
-            Image(systemName: "info.circle")
+        VStack(alignment: .leading, spacing: 8) {
+            Label {
+                Text("Unofficial estimate based on March 2026 PFRA charts. Assumes other component scores stay the same.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            } icon: {
+                Image(systemName: "info.circle")
+                    .foregroundStyle(.tertiary)
+            }
+
+            Text(LegalCopy.nonAffiliationOneLine)
+                .font(.caption2)
                 .foregroundStyle(.tertiary)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .appCardStyle(padding: 14, background: Color(.secondarySystemGroupedBackground))
     }

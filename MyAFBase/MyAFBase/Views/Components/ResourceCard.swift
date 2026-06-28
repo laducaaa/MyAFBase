@@ -37,7 +37,19 @@ struct ResourceCard: View {
                 BookmarkButton(
                     isBookmarked: bookmarkStore.isBookmarked(baseID: baseID, itemID: resource.id, itemType: .resource)
                 ) {
+                    let wasBookmarked = bookmarkStore.isBookmarked(
+                        baseID: baseID,
+                        itemID: resource.id,
+                        itemType: .resource
+                    )
                     bookmarkStore.toggleResource(baseID: baseID, resourceID: resource.id)
+                    if !wasBookmarked {
+                        AppIntentDonations.recordResourceBookmarked(
+                            resourceName: resource.name,
+                            baseID: baseID,
+                            baseName: baseName
+                        )
+                    }
                 }
             }
 
@@ -59,7 +71,7 @@ struct ResourceCard: View {
                     }
                     .font(.subheadline.weight(.medium))
                     .appButtonTextForeground()
-                } else if let url = resource.displayURL, let linkURL = normalizedURL(url) {
+                } else if let url = resource.displayURL, let linkURL = SafeURL.webURL(from: url) {
                     Link("Open", destination: linkURL)
                         .font(.subheadline.weight(.medium))
                         .appButtonTextForeground()
@@ -99,10 +111,5 @@ struct ResourceCard: View {
             )
         }
         .accessibilityElement(children: .contain)
-    }
-
-    private func normalizedURL(_ string: String) -> URL? {
-        if string.hasPrefix("http") { return URL(string: string) }
-        return URL(string: "https://\(string)")
     }
 }

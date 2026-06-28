@@ -1,0 +1,12 @@
+name = "myafbase-feedback"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (set via CLI, not in this file):
+#   wrangler secret put GITHUB_TOKEN
+#   wrangler secret put FEEDBACK_SECRET   # required — match FeedbackConfig.sharedSecret in the app
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_KV_PREVIEW_ID"

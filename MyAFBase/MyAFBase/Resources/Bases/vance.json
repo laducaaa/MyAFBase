@@ -7,7 +7,7 @@
   "wing": "71 FTW",
   "latitude": 36.3392,
   "longitude": -97.9164,
-  "dataUpdatedAt": "2026-06-24T16:00:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "vance-notif-real-id",
@@ -62,15 +62,26 @@
       "address": "Bldg 241, Vance AFB, OK 73705",
       "latitude": null,
       "longitude": null
+    },
+    {
+      "id": "gate-hairston",
+      "name": "Hairston Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 gate. Visitor passes available after hours when VCC is closed.",
+      "traffic": "moderate",
+      "address": "Hairston Gate, Vance AFB, OK 73705",
+      "latitude": null,
+      "longitude": null
     }
   ],
   "resources": [
     {
       "id": "res-vance-dfac",
-      "name": "No On-Base DFAC",
+      "name": "Crosswinds Club & FSS Dining",
       "category": "dining",
-      "description": "Vance AFB does not have a traditional dining facility. Dining options available at Crosswinds Club, Falcon's Nest Bowling Alley, Cactus Lanes Grill, Silver Wings, and The Grounds.",
-      "hours": "Varies by location",
+      "description": "Vance AFB has no traditional DFAC. Dining at Crosswinds Club, Falcon's Nest Bowling Alley, Cactus Lanes Grill, Silver Wings, and The Grounds.",
+      "hours": "Crosswinds Club lunch Mon-Fri 1100-1400; Falcon's Nest and Silver Wings hours at vancefss.com",
       "address": "Vance AFB, OK 73705",
       "phone": "580-213-1110",
       "url": "https://vancefss.com/",
@@ -91,7 +102,7 @@
       "id": "res-vance-tinker-cu",
       "name": "Tinker Federal Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Thu 0900-1700; Fri 0800-1700 (closed 1300-1400)",
       "address": "Bldg 412, Vance AFB, OK 73705",
       "phone": "580-213-1110",
@@ -125,7 +136,7 @@
       "name": "Cherokee Inn / Rec Lodge (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging including Rec Lodge (2-3 bedroom suites with full kitchen, washer/dryer). 24-hour front desk options available.",
-      "hours": "Front desk 24/7 (Cherokee Inn); Rec Lodge Mon-Fri 0800-1700",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100 (Cherokee Inn); Rec Lodge Mon-Fri 0800-1700",
       "address": "Vance AFB, OK 73705",
       "phone": "580-213-7358 (Cherokee Inn); 580-213-7358 (Rec Lodge)",
       "url": "https://vancefss.com/",
@@ -147,7 +158,7 @@
       "name": "71st Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining options, fitness, lodging, recreation, and family support programs.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Vance AFB, OK 73705",
       "phone": "580-213-1110",
       "url": "https://vancefss.com/",
@@ -180,10 +191,65 @@
       "name": "71st Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Vance AFB, OK 73705",
+      "phone": "580-213-2273",
+      "url": "https://vance.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-vance-commissary",
+      "name": "Vance AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Mon 0900-1600; Tue-Fri 0900-1900; Sat 0900-1800; Sun 1000-1700",
+      "address": "216 Fields St, Bldg 410, Vance AFB, OK 73704",
+      "phone": "580-213-7788",
+      "url": "https://shop.commissaries.com/",
+      "building": "Bldg 410"
+    },
+    {
+      "id": "res-vance-bowling",
+      "name": "Falcon's Nest Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Tue 0700-1900; Wed-Fri 0700-2100; Sat 1200-1900",
+      "address": "308 Sawyer Rd, Bldg 345, Vance AFB, OK 73704",
+      "phone": "580-213-7331",
+      "url": "https://vancefss.com/",
+      "building": "Bldg 345"
+    },
+    {
+      "id": "res-vance-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0700-1500 (closed 1200-1230 lunch); closed last Fri of month at 1200, federal holidays, wing down days",
+      "address": "Bldg 241, Vance AFB, OK 73705",
+      "phone": "580-213-7410",
+      "url": "https://www.vance.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-vance-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Vance AFB, Enid, OK",
+      "phone": "580-213-1110",
+      "url": "https://vancefss.com/",
+      "building": null
+    },
+    {
+      "id": "res-vance-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
       "address": "Vance AFB, OK 73705",
       "phone": "580-213-1110",
-      "url": "https://vance.tricare.mil/",
+      "url": "https://vancefss.com/",
       "building": null
     }
   ],
@@ -204,6 +270,12 @@
         "links": null
       },
       {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining squadron. After-hours visitor passes at Hairston Gate. Cherokee Inn: 580-213-7358.",
+        "links": null
+      },
+      {
         "id": "nc-3",
         "title": "Housing",
         "body": "Contact Cherokee Inn (580-213-7358) or Rec Lodge for initial arrival. Dormitory Management for unaccompanied housing. Family housing through privatized housing office.",
@@ -214,6 +286,12 @@
             "url": "https://www.housing.af.mil/housing/housing-on-base/vance-afb/"
           }
         ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Contact M&FRC at 580-213-6330 if no sponsor assigned before departure.",
+        "links": null
       },
       {
         "id": "nc-5",

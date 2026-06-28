@@ -415,14 +415,21 @@ struct LeavePlannerView: View {
     }
 
     private var disclaimerCard: some View {
-        Label {
-            Text("Unofficial planning aid only. Rules vary by status and command — confirm balances, caps, and sell-back with your unit CSS.")
-                .font(.caption)
-                .foregroundStyle(.secondary)
-                .fixedSize(horizontal: false, vertical: true)
-        } icon: {
-            Image(systemName: "info.circle")
+        VStack(alignment: .leading, spacing: 8) {
+            Label {
+                Text("Unofficial planning aid only. Rules vary by status and command — confirm balances, caps, and sell-back with your unit CSS.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            } icon: {
+                Image(systemName: "info.circle")
+                    .foregroundStyle(.tertiary)
+            }
+
+            Text(LegalCopy.nonAffiliationOneLine)
+                .font(.caption2)
                 .foregroundStyle(.tertiary)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .appCardStyle(padding: 14, background: Color(.secondarySystemGroupedBackground))
     }

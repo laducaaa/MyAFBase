@@ -44,7 +44,7 @@ enum ReadinessCountdownBuilder {
         ReadinessWidgetSnapshot(
             activeBaseID: tracker.baseID,
             activeBaseName: baseName,
-            items: ReadinessItemKind.allCases.map { buildItem($0, tracker: tracker, relativeTo: now) },
+            items: ReadinessItemKind.widgetKinds.map { buildItem($0, tracker: tracker, relativeTo: now) },
             updatedAt: tracker.updatedAt
         )
     }

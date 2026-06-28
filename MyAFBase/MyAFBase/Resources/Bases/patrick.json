@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-06-24T17:20:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -42,35 +42,35 @@
   ],
   "gates": [
     {
-      "id": "gate-east",
-      "name": "East Gate (Main Gate)",
+      "id": "gate-main",
+      "name": "South Gate (Main)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": "Primary 24/7 access point with visitor processing. Matador St.",
+      "notes": "Primary 24/7 gate. Visitor Control Center at South Gate.",
       "traffic": "high",
-      "address": "Matador St, Patrick SFB, FL 32925",
-      "latitude": 28.2353,
-      "longitude": -80.6103
+      "address": "South Gate, Patrick SFB, FL 32925",
+      "latitude": 28.2342,
+      "longitude": -80.6101
     },
     {
-      "id": "gate-south",
-      "name": "South Gate",
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Daily 0600-2000",
-      "notes": "South Patrick Dr. Limited hours.",
+      "hours": "Mon-Fri 0700-1500; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
-      "address": "South Patrick Dr, Patrick SFB, FL 32925",
+      "address": "South Gate, Patrick SFB, FL 32925",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-vcc",
-      "name": "Visitor Control Center (East Gate)",
+      "id": "gate-north",
+      "name": "North Gate",
       "status": "open",
-      "hours": "Mon-Fri 0730-1630; closed Sat-Sun",
-      "notes": "Day passes and visitor registration. REAL ID required. Phone: 321-494-0427. After-hours passes at East Gate.",
-      "traffic": "moderate",
-      "address": "East Gate Visitor Control Center, Patrick SFB, FL 32925",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday access for authorized personnel.",
+      "traffic": "low",
+      "address": "North Gate, Patrick SFB, FL 32925",
       "latitude": null,
       "longitude": null
     }
@@ -81,18 +81,18 @@
       "name": "Riverside Dining Facility",
       "category": "dining",
       "description": "Primary DFAC supporting space launch operations with full meal service and grab-and-go options.",
-      "hours": "See posted meal hours",
+      "hours": "Daily: Bfast 0630-0900 (weekends 0630-0830), Lunch 1030-1330, Dinner 1630-1900 (weekends 1630-1830); Grab & Go between meals",
       "address": "Bldg 350, Patrick SFB, FL 32925",
-      "phone": "321-494-8720",
-      "url": "https://www.gopatrickfl.com/",
+      "phone": "321-494-4248",
+      "url": "https://www.gopatrickfl.com/riverside-dining.html",
       "building": "Bldg 350"
     },
     {
       "id": "res-patrick-bx",
       "name": "Patrick Main Exchange (BX)",
       "category": "shopping",
-      "description": "Full-service Exchange with retail, services, and food court options.",
-      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "description": "Patrick SFB Main Exchange with food court, barber, beauty shop, optical, GNC, and retail services.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
       "address": "Patrick SFB, FL 32925",
       "phone": "321-494-1110",
       "url": "https://www.shopmyexchange.com/",
@@ -103,17 +103,17 @@
       "name": "Patrick Commissary",
       "category": "shopping",
       "description": "Defense Commissary Agency full-service grocery.",
-      "hours": "Tue-Sat 0900-1900; Sun-Mon closed (typical)",
-      "address": "Patrick SFB, FL 32925",
-      "phone": "321-494-1110",
-      "url": "https://shop.commissaries.com/",
+      "hours": "Sun 1000-1800; Mon-Sat 9:00 AM-7:00 PM",
+      "address": "Bldg 950, Patrick SFB, FL 32925",
+      "phone": "321-494-6500",
+      "url": "https://shop.commissaries.com/stores/patrick-afb",
       "building": null
     },
     {
       "id": "res-patrick-credit-union",
       "name": "Space Coast Credit Union",
       "category": "finance",
-      "description": "Full-service credit union branch on base with ATM.",
+      "description": "On-base federal credit union on base with ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "Patrick SFB, FL 32925",
       "phone": "321-752-2222",
@@ -125,10 +125,10 @@
       "name": "Patrick Fitness & Sports Center",
       "category": "fitness",
       "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. Pool closed for maintenance.",
-      "hours": "Mon-Fri 0500-2000; Sat-Sun 0700-1600; holidays/down days 0800-1600",
+      "hours": "Mon-Fri 0500-2000; Sat-Sun 0700-1600; 24/7 registered CAC access outside staffed hours",
       "address": "Bldg 545, Patrick SFB, FL 32925",
       "phone": "321-494-4947",
-      "url": "https://www.gopatrickfl.com/",
+      "url": "https://www.gopatrickfl.com/sports-and-fitness.html",
       "building": "Bldg 545"
     },
     {
@@ -158,7 +158,7 @@
       "name": "Space Coast Inn (AF Lodging)",
       "category": "housing",
       "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals. Guest business center available.",
-      "hours": "Front desk 24/7",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
       "address": "Bldg 720, Patrick SFB, FL 32925",
       "phone": "321-494-6590",
       "url": "https://www.gopatrickfl.com/",
@@ -180,9 +180,9 @@
       "name": "45th Force Support Squadron (FSS)",
       "category": "services",
       "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting space launch operations.",
-      "hours": "See directory for individual facility hours",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
       "address": "Patrick SFB, FL 32925",
-      "phone": "321-494-1110",
+      "phone": "321-494-7000",
       "url": "https://www.gopatrickfl.com/",
       "building": null
     },
@@ -191,9 +191,9 @@
       "name": "Outdoor Recreation",
       "category": "recreation",
       "description": "Equipment rental (boats, lawn equipment), family campground, RV storage, and recreational programs. 24-hour lawn equipment for AD/Reserve residents.",
-      "hours": "Mon-Fri duty hours; boat rentals Wed-Sat 1030-1430",
+      "hours": "Mon-Fri 0800-1630; boat rentals Wed-Sat 1030-1430",
       "address": "Bldg 345, Patrick SFB, FL 32925",
-      "phone": "321-494-2054",
+      "phone": "321-494-7000",
       "url": "https://www.gopatrickfl.com/",
       "building": "Bldg 345"
     },
@@ -213,10 +213,32 @@
       "name": "45th Medical Group",
       "category": "medical",
       "description": "Primary care, specialty clinics, and TRICARE services supporting space launch operations.",
-      "hours": "Mon-Fri 0730-1630 (typical); after-hours urgent care available",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
       "address": "Patrick SFB, FL 32925",
       "phone": "321-494-1110",
       "url": "https://patrick.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-bowling",
+      "name": "Shark Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Wed-Thu 1100-1400; Fri 1100-1400 and 1700-2100; Sat 1100-2200; Sun 1200-1800",
+      "address": "832 O Malley Rd, Patrick SFB, FL 32925",
+      "phone": "321-494-4947",
+      "url": "https://www.gopatrickfl.com/",
+      "building": null
+    },
+    {
+      "id": "res-patrick-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0700-1500; closed weekends and federal holidays",
+      "address": "Patrick SFB, FL 32925",
+      "phone": "321-494-4444",
+      "url": "https://www.patrick.spaceforce.mil/",
       "building": null
     }
   ],
@@ -264,6 +286,18 @@
             "url": "https://www.gopatrickfl.com/"
           }
         ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
       }
     ]
   }

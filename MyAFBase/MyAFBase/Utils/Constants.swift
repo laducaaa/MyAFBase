@@ -1,6 +1,6 @@
 import Foundation
 
-enum ResourceCategory: String, Codable, CaseIterable {
+enum ResourceCategory: String, Codable, CaseIterable, Sendable {
     case dining
     case recreation
     case services
@@ -32,7 +32,7 @@ enum ResourceCategory: String, Codable, CaseIterable {
     }
 }
 
-enum ResourceType: String, Codable {
+enum ResourceType: String, Codable, Sendable {
     case phone
     case url
     case hours
@@ -99,7 +99,7 @@ enum ExploreCategory: String, CaseIterable, Identifiable {
     }
 }
 
-enum EventCategory: String, Codable, CaseIterable {
+enum EventCategory: String, Codable, CaseIterable, Sendable {
     case holiday
     case family
     case outdoor
@@ -158,7 +158,7 @@ enum EventExploreCategory: String, CaseIterable, Identifiable {
     }
 }
 
-enum GateStatus: String, Codable {
+enum GateStatus: String, Codable, Sendable {
     case open
     case closed
     case delayed
@@ -169,7 +169,7 @@ enum GateStatus: String, Codable {
     }
 }
 
-enum TrafficLevel: String, Codable {
+enum TrafficLevel: String, Codable, Sendable {
     case none
     case low
     case moderate
@@ -181,7 +181,7 @@ enum TrafficLevel: String, Codable {
     }
 }
 
-enum NotificationType: String, Codable, CaseIterable {
+enum NotificationType: String, Codable, CaseIterable, Sendable {
     case alert
     case info
     case closure
@@ -267,4 +267,25 @@ enum HomeSavedCategory: String, CaseIterable, Identifiable {
 enum ExploreSegment: String, CaseIterable {
     case resources = "Resources"
     case events = "Events"
+}
+
+enum ExploreDisplayMode: String, CaseIterable, Identifiable {
+    case list
+    case map
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .list: "List"
+        case .map: "Map"
+        }
+    }
+
+    var systemImage: String {
+        switch self {
+        case .list: "list.bullet"
+        case .map: "map"
+        }
+    }
 }

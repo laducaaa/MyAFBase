@@ -9,9 +9,9 @@ enum AssignmentSegment: String, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .inbound: "Inbound"
+        case .inbound: "In Processing"
         case .stationed: "Stationed"
-        case .outbound: "Outbound"
+        case .outbound: "Out Processing"
         }
     }
 }
@@ -64,8 +64,6 @@ struct AssignmentView: View {
 
         ScrollView {
             VStack(spacing: AssignmentMetrics.sectionSpacing) {
-                phasePicker(for: base.id)
-
                 AssignmentPhaseHeader(base: base, segment: segment)
 
                 AssignmentDatesCard(baseID: base.id, segment: segment)
@@ -90,16 +88,7 @@ struct AssignmentView: View {
         }
     }
 
-    private func phasePicker(for baseID: String) -> some View {
-        AssignmentPhaseToggle(
-            selection: Binding(
-                get: { assignmentProfileStore.phase(for: baseID) },
-                set: { assignmentProfileStore.updatePhase($0, baseID: baseID) }
-            )
-        )
-    }
-
-    // MARK: - Inbound
+    // MARK: - In Processing
 
     @ViewBuilder
     private func inboundContent(for base: Base) -> some View {
@@ -139,7 +128,7 @@ struct AssignmentView: View {
             }
         }
 
-        if let moreInfoURL = newcomers.resolvedMoreInfoURL().flatMap(normalizedURL) {
+        if let moreInfoURL = newcomers.resolvedMoreInfoURL().flatMap({ SafeURL.webURL(from: $0) }) {
             AssignmentLinkCard(
                 title: "Official Newcomer Information",
                 subtitle: "Base website and installation resources.",
@@ -154,8 +143,6 @@ struct AssignmentView: View {
     @ViewBuilder
     private func stationedContent(for base: Base) -> some View {
         ReadinessTrackerView(baseID: base.id, baseName: base.name)
-
-        AssignmentToolLinksCard(links: [.pfraCalculator, .pfraGoalPlanner])
 
         AssignmentSectionHeader(
             title: "Essential AFIs",
@@ -181,7 +168,7 @@ struct AssignmentView: View {
         )
     }
 
-    // MARK: - Outbound
+    // MARK: - Out Processing
 
     @ViewBuilder
     private func outboundContent(for base: Base) -> some View {
@@ -199,12 +186,5 @@ struct AssignmentView: View {
         AssignmentNextBaseCard {
             appState.shouldShowBasePicker = true
         }
-    }
-
-    private func normalizedURL(_ string: String) -> URL? {
-        if string.hasPrefix("http") {
-            return URL(string: string)
-        }
-        return URL(string: "https://\(string)")
     }
 }

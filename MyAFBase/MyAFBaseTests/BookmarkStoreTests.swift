@@ -147,6 +147,8 @@ struct BookmarkStoreTests {
                     phone: nil,
                     url: nil,
                     building: nil,
+                    latitude: nil,
+                    longitude: nil,
                     type: .text,
                     value: ""
                 )

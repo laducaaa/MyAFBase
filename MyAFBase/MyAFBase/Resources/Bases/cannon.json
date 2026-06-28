@@ -3,18 +3,18 @@
   "name": "Cannon AFB",
   "fullName": "Cannon Air Force Base",
   "location": "Clovis, NM",
-  "description": "Home of the 27th Special Operations Wing, Cannon AFB projects Air Force special operations forces worldwide.",
+  "description": "Home of the 27th Special Operations Wing, Cannon AFB projects Air Force special operations forces worldwide from the high plains of eastern New Mexico.",
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-06-24T16:35:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
       "title": "REAL ID Required for Base Access",
       "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T15:00:00Z",
       "expiresAt": null
     }
   ],
@@ -33,95 +33,160 @@
       "id": "em-3",
       "label": "Base Operator",
       "number": "575-784-4131"
+    },
+    {
+      "id": "em-4",
+      "label": "27th Medical Group Clinic",
+      "number": "575-784-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "575-784-7272"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-sextant-ave",
+      "id": "gate-main-sextant",
       "name": "Main Gate (Sextant Ave)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "moderate",
+      "notes": "Primary installation access. After-hours unofficial visitor passes processed here 2200-0600 with sponsor present.",
+      "traffic": "high",
       "address": "E Sextant Ave, Cannon AFB, NM 88103",
+      "latitude": 34.3828,
+      "longitude": -103.322
+    },
+    {
+      "id": "gate-west",
+      "name": "West Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "West Gate Rd, Cannon AFB, NM 88103",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-west-gate",
-      "name": "West Gate",
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
       "status": "open",
-      "hours": "Mon-Fri 0600-1800",
-      "notes": null,
-      "traffic": "low",
-      "address": "West Gate Rd, Cannon AFB, NM 88103",
+      "hours": "Daily 0600-2200",
+      "notes": "Day passes and visitor vetting. REAL ID required. After 2200 use Main Gate with sponsor.",
+      "traffic": "moderate",
+      "address": "601 Chindit Ave, Cannon AFB, NM 88103",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-cannon-dfac",
-      "name": "Main Dining Facility",
+      "id": "res-cannon-pecos-trail-dfac",
+      "name": "Pecos Trail Dining Facility (DFAC)",
       "category": "dining",
-      "description": "Main dining facility at Cannon AFB.",
-      "hours": "See posted meal hours",
-      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
-      "phone": "575-784-4131",
-      "url": "https://www.cannonfss.com/dining/",
+      "description": "Primary DFAC with N'Rich Grill, SubConnection deli, Slice Of Life pizza, salad bar, and Simply To Go coolers.",
+      "hours": "Mon-Fri: Breakfast 0600-0800, Lunch 1030-1330, Dinner 1630-1930; Sat-Sun: Breakfast 0730-0900, Lunch 1030-1300, Dinner 1630-1800",
+      "address": "203 Air Commando Way, Cannon AFB, NM 88103",
+      "phone": "575-784-2420",
+      "url": "https://usafdining-cannon.sodexomyway.com/en-us/locations/pecos-trail",
+      "building": null
+    },
+    {
+      "id": "res-cannon-high-plains-dfac",
+      "name": "High Plains Dining Facility",
+      "category": "dining",
+      "description": "Secondary DFAC serving the south side of the installation.",
+      "hours": "Mon-Fri: Breakfast 0530-0900, Lunch 1100-1300, Dinner Mon-Thu 1700-1900, Fri 1700-1800",
+      "address": "100 S Dagger Rd, Cannon AFB, NM 88103",
+      "phone": "575-904-3139",
+      "url": "https://cannonforce.com/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-landing-zone",
+      "name": "Cannon Landing Zone (Air Force Club)",
+      "category": "dining",
+      "description": "Air Force Club with lunch specials, catering, and event hosting.",
+      "hours": "Mon-Fri lunch 1100-1300; evening events on FSS event calendar",
+      "address": "211 Levitow Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-2804",
+      "url": "https://cannonforce.com/",
       "building": null
     },
     {
       "id": "res-cannon-bx",
-      "name": "Cannon AFB Exchange",
+      "name": "Cannon AFB Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Cannon AFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
-      "phone": "575-784-4131",
+      "description": "Full-service BX with retail, food court, barber, beauty shop, and services.",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
+      "address": "102 Levitow Ave, Bldg 77B, Cannon AFB, NM 88103",
+      "phone": "575-784-3700",
       "url": "https://www.shopmyexchange.com/store-locator/cannon-main-exchange",
-      "building": null
+      "building": "Bldg 77B"
     },
     {
       "id": "res-cannon-commissary",
       "name": "Cannon AFB Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
-      "phone": "575-784-4131",
+      "description": "Defense Commissary Agency full-service grocery with bakery, deli, and butcher services.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "102 Levitow Ave, Bldg 77-A, Cannon AFB, NM 88103",
+      "phone": "575-784-4330",
       "url": "https://shop.commissaries.com/stores/cannon-afb",
+      "building": "Bldg 77-A"
+    },
+    {
+      "id": "res-cannon-credit-union",
+      "name": "Cannon Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with deposit accounts, loans, and ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "102 Air Commando Way, Cannon AFB, NM 88103",
+      "phone": "575-784-5500",
+      "url": "https://www.cannonfcu.org/",
       "building": null
     },
     {
       "id": "res-cannon-medical",
-      "name": "27th Medical Group",
+      "name": "27th Special Operations Medical Group Clinic",
       "category": "medical",
-      "description": "Primary medical facility for Cannon AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Cannon AFB, Clovis, NM",
-      "phone": "575-784-2273",
+      "description": "Ambulatory clinic for primary care and TRICARE services. No emergency department on base — call 911 or use Plains Regional Medical Center.",
+      "hours": "Mon-Fri 0730-1630; appointments via TRICARE Online",
+      "address": "208 D.L. Ingram Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-2778",
       "url": "https://cannon.tricare.mil/",
       "building": null
     },
     {
-      "id": "res-cannon-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-cannon-fitness",
+      "name": "Cannon Fitness & Sport Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Cannon AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Cannon AFB, Clovis, NM",
-      "phone": "575-784-4131",
-      "url": "https://www.cannonfss.com/fitness/",
+      "description": "Main fitness center with cardio, weights, racquetball, basketball, group fitness, and saunas. Register CAC at front desk for 24/7 access.",
+      "hours": "Staffed Mon-Fri 0500-2200, Sat-Sun 0900-1800; 24/7 CAC access after registration",
+      "address": "400 Air Commando Way, Cannon AFB, NM 88103",
+      "phone": "575-784-2466",
+      "url": "https://cannonforce.com/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-aquatic",
+      "name": "Commando Fitness & Aquatic Center (DZ Aquatic)",
+      "category": "fitness",
+      "description": "Aquatic center with lap pool and family swim programs. CAC registration required for after-hours access.",
+      "hours": "Manned Mon/Wed/Fri 0500-1800; preregister CAC at fitness desk",
+      "address": "108 Cunningham Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-2910",
+      "url": "https://cannonforce.com/",
       "building": null
     },
     {
       "id": "res-cannon-finance",
-      "name": "Finance / Comptroller",
+      "name": "Finance Office (Comptroller)",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Cannon AFB, Clovis, NM",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Cannon AFB, Clovis, NM 88103",
       "phone": "575-784-4131",
       "url": "https://www.cannon.af.mil/",
       "building": null
@@ -130,97 +195,120 @@
       "id": "res-cannon-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Cannon AFB, Clovis, NM",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Use RAPIDS for appointments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Cannon AFB, Clovis, NM 88103",
       "phone": "575-784-4131",
-      "url": "https://www.cannonfss.com/",
+      "url": "https://cannonforce.com/",
       "building": null
     },
     {
       "id": "res-cannon-fss",
-      "name": "27 SOW Force Support Squadron",
+      "name": "27th Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Cannon AFB, Clovis, NM",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Cannon AFB, Clovis, NM 88103",
       "phone": "575-784-4131",
-      "url": "https://www.cannonfss.com/",
+      "url": "https://cannonforce.com/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial management, career focus, transition assistance, and family readiness. Mandatory Commando Newcomers Orientation for permanent party.",
+      "hours": "Mon-Fri 0730-1130 & 1230-1630; closed Wed, holidays, safety days, and training days",
+      "address": "331 D.L. Ingram Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-4228",
+      "url": "https://cannonforce.com/",
       "building": null
     },
     {
       "id": "res-cannon-housing",
       "name": "Housing Office",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Cannon AFB, Clovis, NM",
+      "description": "On-base privatized housing and off-base housing referrals.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Cannon AFB, Clovis, NM 88103",
       "phone": "575-784-4131",
-      "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/",
+      "url": "https://www.cannonhousing.com/",
       "building": null
     },
     {
-      "id": "res-cannon-recreation-1",
+      "id": "res-cannon-lodging",
+      "name": "Caprock Inn (AF Lodging)",
+      "category": "housing",
+      "description": "88 one- or two-bedroom VQ and TLF units. 24-hour arrival point for after-hours PCS arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "311 S Eagle Claw Blvd, Cannon AFB, NM 88103",
+      "phone": "575-784-2918",
+      "url": "https://af.dodlodging.net/propertys/cannon-afb",
+      "building": null
+    },
+    {
+      "id": "res-cannon-golf",
       "name": "Whispering Winds Golf Course",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Cannon AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Cannon AFB, Clovis, NM",
-      "phone": null,
-      "url": "https://www.cannonfss.com/golf/",
+      "description": "18-hole par 70 course with pro shop, driving range, and Chip Shot Diner.",
+      "hours": "Mon-Fri 0900-1600; Sat-Sun 0800-1600; closed holidays",
+      "address": "105 Olds Dr, Cannon AFB, NM 88103",
+      "phone": "575-784-2800",
+      "url": "https://cannonforce.com/golf/",
       "building": null
+    },
+    {
+      "id": "res-cannon-bowling",
+      "name": "Cannon Lanes Bowling Center",
+      "category": "recreation",
+      "description": "16-lane USBC-sanctioned bowling center with pro shop, leagues, and snack bar.",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "105 Albright Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-2280",
+      "url": "https://cannonforce.com/cannon-lanes/",
+      "building": null
+    },
+    {
+      "id": "res-cannon-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Camping gear, boats, campers, ski equipment, BBQ rentals, and organized outdoor trips.",
+      "hours": "Mon-Fri 0900-1700; closed Wed, holidays, safety days, and training days",
+      "address": "110 W St, Bldg 215, Cannon AFB, NM 88103",
+      "phone": "575-784-2773",
+      "url": "https://cannonforce.com/outdoor-recreation/",
+      "building": "Bldg 215"
     },
     {
       "id": "res-cannon-visitor-center",
-      "name": "Cannon AFB Visitor Center",
+      "name": "Visitor Control Center",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "100 E Sextant Ave, Cannon AFB, NM 88103",
-      "phone": "575-784-4131",
-      "url": "https://www.cannon.af.mil/Newcomers/",
-      "building": null
-    },
-    {
-      "id": "res-cannon-security-forces",
-      "name": "Security Forces / Base Defense",
-      "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
-      "hours": "24/7",
-      "address": "Cannon AFB, Clovis, NM",
-      "phone": "575-784-3421",
-      "url": "https://www.cannon.af.mil/",
+      "description": "Visitor passes, DBIDS vetting, and base access. REAL ID required.",
+      "hours": "Daily 0600-2200",
+      "address": "601 Chindit Ave, Cannon AFB, NM 88103",
+      "phone": "575-784-2400",
+      "url": "https://www.cannon.af.mil/Visitors/",
       "building": null
     }
   ],
   "events": [
     {
       "id": "cannon-evt-newcomers",
-      "title": "Newcomers Briefing",
+      "title": "Commando Newcomers Orientation",
       "date": "2026-07-15T14:00:00Z",
       "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Cannon AFB, Clovis, NM",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "location": "Military & Family Readiness Center",
+      "address": "331 D.L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "Mandatory orientation for newly assigned permanent-party personnel. Bring orders and ID cards.",
       "category": "community"
-    },
-    {
-      "id": "cannon-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Cannon AFB, Clovis, NM",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Cannon AFB Visitor Center",
-      "url": "https://www.cannon.af.mil/Newcomers/",
-      "phone": "575-784-4131",
-      "address": "100 E Sextant Ave, Cannon AFB, NM 88103"
+      "title": "Visitor Control Center",
+      "url": "https://www.cannon.af.mil/Visitors/",
+      "phone": "575-784-2400",
+      "address": "601 Chindit Ave, Cannon AFB, NM 88103"
     },
     "moreInfoURL": "https://www.cannon.af.mil/Newcomers/",
     "sections": [
@@ -233,7 +321,7 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Cannon AFB reporting instructions.",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. After-hours arrivals check in at Caprock Inn (575-784-2918).",
         "links": [
           {
             "id": "link-inprocess",
@@ -245,25 +333,25 @@
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "Contact the Housing Office before arrival. Caprock Inn provides temporary lodging. On-base family housing managed by Cannon Housing.",
         "links": [
           {
             "id": "link-housing-sec",
             "title": "Housing Office",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/"
+            "url": "https://www.cannonhousing.com/"
           }
         ]
       },
       {
         "id": "nc-4",
         "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC at 575-784-4228 if no sponsor is assigned 45 days before arrival.",
         "links": null
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus Military OneSource and Military.com for relocation support.",
         "links": [
           {
             "id": "link-official",
@@ -271,39 +359,14 @@
             "url": "https://www.cannon.af.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.cannon.af.mil/Newcomers/"
-          },
-          {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.cannonfss.com/"
-          },
-          {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/cannon-afb/"
-          },
-          {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/cannon"
+            "title": "27th Force Support Squadron",
+            "url": "https://cannonforce.com/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }

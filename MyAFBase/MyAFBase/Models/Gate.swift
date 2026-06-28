@@ -1,6 +1,6 @@
 import Foundation
 
-struct Gate: Codable, Identifiable, Equatable {
+struct Gate: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let name: String
     let status: GateStatus

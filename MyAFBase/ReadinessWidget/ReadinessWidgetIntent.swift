@@ -27,12 +27,16 @@ public struct ReadinessItemEntityQuery: EntityQuery, EnumerableEntityQuery {
     public init() {}
 
     public func allEntities() async throws -> [ReadinessItemEntity] {
-        ReadinessItemKind.allCases.map(ReadinessItemEntity.init(kind:))
+        ReadinessItemKind.widgetKinds.map(ReadinessItemEntity.init(kind:))
     }
 
     public func entities(for identifiers: [ReadinessItemEntity.ID]) async throws -> [ReadinessItemEntity] {
         identifiers.compactMap { id in
-            ReadinessItemKind(rawValue: id).map(ReadinessItemEntity.init(kind:))
+            guard let kind = ReadinessItemKind(rawValue: id),
+                  ReadinessItemKind.widgetKinds.contains(kind) else {
+                return nil
+            }
+            return ReadinessItemEntity(kind: kind)
         }
     }
 

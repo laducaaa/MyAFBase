@@ -303,7 +303,7 @@ struct PTCalculatorView: View {
     }
 
     private var disclaimerCard: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 8) {
             Label {
                 Text("Unofficial estimate based on March 2026 PFRA charts. Pass requires 75.0 composite and minimum points in every component.")
                     .font(.caption)
@@ -313,6 +313,11 @@ struct PTCalculatorView: View {
                 Image(systemName: "info.circle")
                     .foregroundStyle(.tertiary)
             }
+
+            Text(LegalCopy.nonAffiliationOneLine)
+                .font(.caption2)
+                .foregroundStyle(.tertiary)
+                .fixedSize(horizontal: false, vertical: true)
 
             Link(destination: URL(string: "https://www.afpc.af.mil/Career-Management/Fitness-Program/")!) {
                 Label("Official AFPC Fitness Program", systemImage: "safari")

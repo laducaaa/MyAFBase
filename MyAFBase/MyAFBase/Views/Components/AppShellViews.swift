@@ -43,8 +43,21 @@ enum ModelContainerFactory {
     }
 
     private static func cloudContainer() -> ModelContainer? {
-        let configuration = ModelConfiguration(schema: schema, cloudKitDatabase: .automatic)
-        return try? ModelContainer(for: schema, configurations: [configuration])
+        // Readiness dates (CAC, clearance, etc.) stay on-device only — not synced to iCloud.
+        let readinessConfig = ModelConfiguration(
+            "LocalReadiness",
+            schema: Schema([ReadinessTracker.self]),
+            cloudKitDatabase: .none
+        )
+        let cloudConfig = ModelConfiguration(
+            "CloudShared",
+            schema: Schema([Bookmark.self, ChecklistCompletion.self, AssignmentProfile.self]),
+            cloudKitDatabase: .automatic
+        )
+        return try? ModelContainer(
+            for: schema,
+            configurations: [readinessConfig, cloudConfig]
+        )
     }
 
     private static func localContainer(inMemory: Bool = false) -> ModelContainer? {

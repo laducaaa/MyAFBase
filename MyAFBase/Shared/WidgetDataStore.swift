@@ -7,6 +7,7 @@ enum WidgetDataStore {
     private static let weatherKey = "weatherWidgetSnapshot"
     private static let openNowKey = "openNowWidgetSnapshot"
     private static let emergencyKey = "emergencyWidgetSnapshot"
+    private static let payKey = "payWidgetSnapshot"
 
     static func saveReadiness(_ snapshot: ReadinessWidgetSnapshot) {
         save(snapshot, forKey: readinessKey)
@@ -38,6 +39,14 @@ enum WidgetDataStore {
 
     static func loadEmergency() -> EmergencyWidgetSnapshot? {
         load(EmergencyWidgetSnapshot.self, forKey: emergencyKey)
+    }
+
+    static func savePay(_ snapshot: PayWidgetSnapshot) {
+        save(snapshot, forKey: payKey)
+    }
+
+    static func loadPay() -> PayWidgetSnapshot? {
+        load(PayWidgetSnapshot.self, forKey: payKey)
     }
 
     private static func save<T: Encodable>(_ value: T, forKey key: String) {

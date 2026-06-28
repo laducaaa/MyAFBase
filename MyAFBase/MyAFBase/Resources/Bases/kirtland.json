@@ -3,18 +3,17 @@
   "name": "Kirtland AFB",
   "fullName": "Kirtland Air Force Base",
   "location": "Albuquerque, NM",
-  "description": "Kirtland AFB hosts the 377th Air Base Wing, Air Force Nuclear Weapons Center, and specialized research and test missions.",
+  "description": "Kirtland AFB hosts the 377th Air Base Wing, Air Force Nuclear Weapons Center, and specialized research and test missions across nuclear deterrence, directed energy, and space operations.",
   "wing": "377 ABW",
   "latitude": 35.0403,
   "longitude": -106.6092,
-  "dataUpdatedAt": "2026-06-24T20:25:00Z",
   "currentNotifications": [
     {
       "id": "kirtland-notif-real-id",
       "title": "REAL ID Required for Base Access",
       "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
       "type": "alert",
-      "postedAt": "2026-06-23T16:10:14Z",
+      "postedAt": "2026-06-28T20:30:00Z",
       "expiresAt": null
     }
   ],
@@ -33,95 +32,215 @@
       "id": "em-3",
       "label": "Base Operator",
       "number": "505-846-0011"
+    },
+    {
+      "id": "em-4",
+      "label": "377th Medical Group",
+      "number": "505-846-3200"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "505-846-7272"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-gate-gibson-blvd",
-      "name": "Main Gate (Gibson Blvd)",
+      "id": "gate-truman",
+      "name": "Truman Gate (Main Gate)",
       "status": "open",
       "hours": "Open 24/7",
-      "notes": null,
+      "notes": "Primary 24/7 gate with Visitor Control Center. After-hours visitor passes processed here.",
+      "traffic": "high",
+      "address": "Truman St SE, Kirtland AFB, NM 87117",
+      "latitude": 35.0403,
+      "longitude": -106.6092
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Truman Gate Visitor Control Center (VCC)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Day passes, visitor registration, and after-hours unofficial visitor passes. REAL ID required. Phone: 505-846-7509.",
+      "traffic": "moderate",
+      "address": "Truman St SE, Kirtland AFB, NM 87117",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-eubank",
+      "name": "Eubank Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access for authorized personnel. Phone: 505-846-6231.",
+      "traffic": "moderate",
+      "address": "Eubank Blvd SE, Albuquerque, NM 87123",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-maxwell",
+      "name": "Maxwell Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access for authorized personnel. Phone: 505-846-7491.",
+      "traffic": "moderate",
+      "address": "Maxwell Gate, Kirtland AFB, NM 87117",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gibson",
+      "name": "Gibson Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-2000; Sat-Sun & holidays 0800-2000",
+      "notes": "Daily access with weekend/holiday hours. Phone: 505-846-7240.",
       "traffic": "moderate",
       "address": "Gibson Blvd SE, Kirtland AFB, NM 87117",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-eubank-gate",
-      "name": "Eubank Gate",
+      "id": "gate-wyoming",
+      "name": "Wyoming Gate",
       "status": "open",
-      "hours": "Open 24/7",
-      "notes": null,
-      "traffic": "moderate",
-      "address": "Eubank Blvd SE, Albuquerque, NM 87123",
+      "hours": "Mon-Fri 0530-1900; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate. Phone: 505-846-6118.",
+      "traffic": "low",
+      "address": "Wyoming Blvd SE, Kirtland AFB, NM 87117",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-carlisle",
+      "name": "Carlisle Gate",
+      "status": "open",
+      "hours": "Mon-Fri: 0530-0930 inbound only; 1530-1730 outbound only",
+      "notes": "Limited weekday access. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Carlisle Gate, Kirtland AFB, NM 87117",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-contractor",
+      "name": "Kirtland Contractor Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1300; closed weekends and federal holidays",
+      "notes": "Commercial traffic arriving outside these hours must use Truman Gate for searching. Mission-critical personnel use this gate during emergencies.",
+      "traffic": "low",
+      "address": "Contractor Gate, Kirtland AFB, NM 87117",
       "latitude": null,
       "longitude": null
     }
   ],
   "resources": [
     {
-      "id": "res-kirtland-dfac",
-      "name": "Main Dining Facility",
+      "id": "res-kirtland-dfac-thunderbird",
+      "name": "Thunderbird Inn Dining Facility (DFAC)",
       "category": "dining",
-      "description": "Main dining facility at Kirtland AFB.",
-      "hours": "See posted meal hours",
-      "address": "2000 Wyoming Blvd SE, Kirtland AFB, NM 87117",
-      "phone": "505-846-7509",
-      "url": "https://www.kirtlandfss.com/dining/",
-      "building": null
+      "description": "Primary DFAC with specialty bars (wings, tacos, pasta, stir fry). Retirees authorized weekends/holidays 0900-1300.",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1100-1300, Dinner 1600-1900; Sat-Sun/Holidays: Brunch 0900-1300, Dinner 1700-1900; Midnight Grab & Go daily 2200-0000",
+      "address": "Bldg 20350, 1551 1st St SE, Kirtland AFB, NM 87117",
+      "phone": "505-846-8048",
+      "url": "https://kirtlandforcesupport.com/thunder-bird-inn-dfac/",
+      "building": "Bldg 20350"
+    },
+    {
+      "id": "res-kirtland-flight-kitchen",
+      "name": "Thunderbird Inn Flight Kitchen",
+      "category": "dining",
+      "description": "24/7 flight meal ordering for aircrew and mission personnel.",
+      "hours": "24/7 for flight meal orders",
+      "address": "Bldg 20350, Kirtland AFB, NM 87117",
+      "phone": "505-846-8048",
+      "url": "https://kirtlandforcesupport.com/thunder-bird-inn-dfac/",
+      "building": "Bldg 20350"
     },
     {
       "id": "res-kirtland-bx",
-      "name": "Kirtland AFB Exchange",
+      "name": "Kirtland Main Exchange (BX)",
       "category": "shopping",
-      "description": "Main Exchange at Kirtland AFB.",
-      "hours": "Mon-Sat 0900-2000",
-      "address": "2000 Wyoming Blvd SE, Kirtland AFB, NM 87117",
-      "phone": "505-846-7509",
+      "description": "Full-service Exchange with retail, food court, and services.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "7901 Gibson Blvd SE, Bldg 20176, Kirtland AFB, NM 87117",
+      "phone": "505-232-8771",
       "url": "https://www.shopmyexchange.com/store-locator/kirtland-main-exchange",
-      "building": null
+      "building": "Bldg 20176"
     },
     {
       "id": "res-kirtland-commissary",
       "name": "Kirtland AFB Commissary",
       "category": "shopping",
-      "description": "Defense Commissary Agency grocery.",
-      "hours": "Daily 0900-1900",
-      "address": "2000 Wyoming Blvd SE, Kirtland AFB, NM 87117",
-      "phone": "505-846-7509",
+      "description": "Defense Commissary Agency full-service grocery with bakery, deli, rotisserie, and sushi.",
+      "hours": "Daily 0800-1900; Click2Go pickup daily 0800-1800",
+      "address": "7801 Gibson Blvd SE, Bldg 20180, Kirtland AFB, NM 87117",
+      "phone": "505-846-4902",
       "url": "https://shop.commissaries.com/stores/kirtland-afb",
+      "building": "Bldg 20180"
+    },
+    {
+      "id": "res-kirtland-sandia-fcu",
+      "name": "Sandia Area Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with drive-thru and 24/7 ATM.",
+      "hours": "Mon-Fri 0900-1700 (lobby and drive-thru)",
+      "address": "1850 Wyoming Blvd SE, Bldg 20600, Kirtland AFB, NM 87117",
+      "phone": "505-292-6343",
+      "url": "https://www.sandia.org/locations/kirtland",
+      "building": "Bldg 20600"
+    },
+    {
+      "id": "res-kirtland-kirtland-fcu",
+      "name": "Kirtland Federal Credit Union",
+      "category": "finance",
+      "description": "Credit union serving Kirtland AFB and local community members.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
+      "phone": "505-254-4369",
+      "url": "https://www.kirtlandfcu.org/",
       "building": null
     },
     {
       "id": "res-kirtland-medical",
       "name": "377th Medical Group",
       "category": "medical",
-      "description": "Primary medical facility for Kirtland AFB. TRICARE appointments and emergency care.",
-      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "phone": "505-846-2273",
+      "description": "Primary care clinic and TRICARE services. No emergency department on base — dial 911 or use UNM Hospital.",
+      "hours": "Mon-Fri 0730-1600; pharmacy Mon-Fri 0800-1700",
+      "address": "1501 San Pedro Dr SE, Bldg 47, Kirtland AFB, NM 87117",
+      "phone": "505-846-3200",
       "url": "https://kirtland.tricare.mil/",
-      "building": null
+      "building": "Bldg 47"
     },
     {
-      "id": "res-kirtland-fitness-1",
-      "name": "Fitness Center",
+      "id": "res-kirtland-fitness-east",
+      "name": "East Side Fitness Center",
       "category": "fitness",
-      "description": "Fitness and wellness facility at Kirtland AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "phone": "505-846-7509",
-      "url": "https://www.kirtlandfss.com/fitness/",
-      "building": null
+      "description": "Main fitness center with 5 weight rooms, cardio, racquetball, basketball, boxing, and outdoor track. No 24/7 access.",
+      "hours": "Mon-Thu 0500-2000, Fri 0500-1900, Sat-Sun 0800-1600",
+      "address": "Bldg 20228, Kirtland AFB, NM 87117",
+      "phone": "505-846-1102",
+      "url": "https://kirtlandforcesupport.com/fitness-centers/",
+      "building": "Bldg 20228"
+    },
+    {
+      "id": "res-kirtland-fitness-west",
+      "name": "West Side Fitness Center",
+      "category": "fitness",
+      "description": "Secondary fitness facility with 24/7 CAC access for authorized patrons.",
+      "hours": "Staffed Mon-Fri 0600-1800; 24/7 CAC access for registered patrons",
+      "address": "Bldg 585, Kirtland AFB, NM 87117",
+      "phone": "505-846-1068",
+      "url": "https://kirtlandforcesupport.com/fitness-centers/",
+      "building": "Bldg 585"
     },
     {
       "id": "res-kirtland-finance",
-      "name": "Finance / Comptroller",
+      "name": "Finance Office (Comptroller)",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Kirtland AFB, Albuquerque, NM",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
       "phone": "505-846-7509",
       "url": "https://www.kirtland.af.mil/",
       "building": null
@@ -130,97 +249,120 @@
       "id": "res-kirtland-mpf",
       "name": "Military Personnel Flight (MPF)",
       "category": "services",
-      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
-      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "phone": "505-846-7509",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Use RAPIDS for appointments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
+      "phone": "505-846-6429",
       "url": "https://www.kirtlandfss.com/",
       "building": null
     },
     {
       "id": "res-kirtland-fss",
-      "name": "377 ABW Force Support Squadron",
+      "name": "377th Force Support Squadron (FSS)",
       "category": "services",
-      "description": "MWR, dining, fitness, recreation, and family programs.",
-      "hours": "See facility website for current hours",
-      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "MWR, dining, fitness, recreation, lodging, and family programs.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
       "phone": "505-846-7509",
-      "url": "https://www.kirtlandfss.com/",
+      "url": "https://kirtlandforcesupport.com/",
       "building": null
     },
     {
+      "id": "res-kirtland-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, and monthly newcomers orientation at Mountain View Club.",
+      "hours": "Mon-Fri 0715-1600; closed federal holidays",
+      "address": "Bldg 20245, Consolidated Support Facility, Kirtland AFB, NM 87117",
+      "phone": "505-846-5999",
+      "url": "https://kirtlandforcesupport.com/",
+      "building": "Bldg 20245"
+    },
+    {
       "id": "res-kirtland-housing",
-      "name": "Housing Office",
+      "name": "Housing Office (MHO)",
       "category": "housing",
-      "description": "On-base housing assignments and off-base housing referrals.",
-      "hours": "Mon-Fri during duty hours",
-      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "On-base privatized housing referrals and off-base housing assistance.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
       "phone": "505-846-7509",
       "url": "https://www.housing.af.mil/housing/housing-on-base/kirtland-afb/",
       "building": null
     },
     {
-      "id": "res-kirtland-recreation-1",
-      "name": "Outdoor Recreation",
+      "id": "res-kirtland-lodging",
+      "name": "Roadrunner Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging with 24/7 front desk for PCS and TDY arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Bldg 22018, Kirtland AFB, NM 87117",
+      "phone": "505-846-9653",
+      "url": "https://af.dodlodging.net/",
+      "building": "Bldg 22018"
+    },
+    {
+      "id": "res-kirtland-golf",
+      "name": "Tijeras Arroyo Golf Course",
       "category": "recreation",
-      "description": "Recreation and leisure programs at Kirtland AFB.",
-      "hours": "See FSS for current hours",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "phone": "505-846-7509",
-      "url": "https://www.kirtlandfss.com/",
+      "description": "18-hole golf course with Coyote Grill lunch service.",
+      "hours": "Daily 0700-dusk, weather permitting",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
+      "phone": "505-846-1169",
+      "url": "https://kirtlandforcesupport.com/coyote-grill/",
       "building": null
+    },
+    {
+      "id": "res-kirtland-bowling",
+      "name": "Kirtland Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with Sparetime Grill snack bar.",
+      "hours": "Mon-Thu 1100-2100, Fri 1100-2200, Sat 1300-2200, Sun 1300-1900",
+      "address": "Bldg 20228, Kirtland AFB, NM 87117",
+      "phone": "505-846-6851",
+      "url": "https://kirtlandforcesupport.com/sparetime-grill/",
+      "building": "Bldg 20228"
+    },
+    {
+      "id": "res-kirtland-odr",
+      "name": "Outdoor Recreation (The CORE)",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, Boulder Lab climbing wall, and recreational programs.",
+      "hours": "Mon-Fri 0900-1730, Sat 0900-1300; closed Sun and holidays",
+      "address": "Bldg 20170, Kirtland AFB, NM 87117",
+      "phone": "505-846-1499",
+      "url": "https://kirtlandforcesupport.com/",
+      "building": "Bldg 20170"
     },
     {
       "id": "res-kirtland-visitor-center",
-      "name": "Kirtland AFB Visitor Center",
+      "name": "Visitor Control Center (Truman Gate)",
       "category": "safety",
-      "description": "Visitor passes, pass and registration, and base access information.",
-      "hours": "See official visitor information for current hours",
-      "address": "2000 Wyoming Blvd SE, Kirtland AFB, NM 87117",
+      "description": "Visitor passes, DBIDS vetting, and base access. REAL ID required. Staffed 24/7.",
+      "hours": "Open 24/7",
+      "address": "Truman St SE, Kirtland AFB, NM 87117",
       "phone": "505-846-7509",
       "url": "https://www.kirtland.af.mil/Newcomers/",
-      "building": null
-    },
-    {
-      "id": "res-kirtland-security-forces",
-      "name": "Security Forces / Base Defense",
-      "category": "safety",
-      "description": "Security Forces operations and law enforcement.",
-      "hours": "24/7",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "phone": "505-846-3421",
-      "url": "https://www.kirtland.af.mil/",
       "building": null
     }
   ],
   "events": [
     {
       "id": "kirtland-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "title": "TEAM Kirtland Newcomers Orientation",
+      "date": "2026-07-15T13:30:00Z",
+      "endDate": "2026-07-15T18:00:00Z",
+      "location": "Mountain View Club",
+      "address": "Kirtland AFB, Albuquerque, NM 87117",
+      "description": "Monthly orientation and information fair for incoming personnel and spouses. Register through your CSS.",
       "category": "community"
-    },
-    {
-      "id": "kirtland-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
     }
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "Kirtland AFB Visitor Center",
+      "title": "Truman Gate Visitor Control Center",
       "url": "https://www.kirtland.af.mil/Newcomers/",
       "phone": "505-846-7509",
-      "address": "2000 Wyoming Blvd SE, Kirtland AFB, NM 87117"
+      "address": "Truman St SE, Kirtland AFB, NM 87117"
     },
     "moreInfoURL": "https://www.kirtland.af.mil/Newcomers/",
     "sections": [
@@ -233,7 +375,7 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Kirtland AFB reporting instructions.",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. After-hours arrivals contact Truman Gate VCC (505-846-7509) or Roadrunner Inn (505-846-9653).",
         "links": [
           {
             "id": "link-inprocess",
@@ -245,7 +387,7 @@
       {
         "id": "nc-3",
         "title": "Housing",
-        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "body": "Contact the Housing Office before arrival. Roadrunner Inn provides temporary lodging. On-base family housing managed through AF Housing portal.",
         "links": [
           {
             "id": "link-housing-sec",
@@ -257,13 +399,13 @@
       {
         "id": "nc-4",
         "title": "Sponsor Program",
-        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC at 505-846-5999 if no sponsor is assigned 45 days before arrival.",
         "links": null
       },
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "body": "Official installation resources plus Military OneSource for relocation support.",
         "links": [
           {
             "id": "link-official",
@@ -271,42 +413,18 @@
             "url": "https://www.kirtland.af.mil/"
           },
           {
-            "id": "link-newcomers",
-            "title": "Official Newcomers Page",
-            "url": "https://www.kirtland.af.mil/Newcomers/"
-          },
-          {
             "id": "link-fss",
-            "title": "Force Support Squadron",
-            "url": "https://www.kirtlandfss.com/"
-          },
-          {
-            "id": "link-housing",
-            "title": "Housing Information",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/kirtland-afb/"
-          },
-          {
-            "id": "link-mil-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/kirtland"
+            "title": "377th Force Support Squadron",
+            "url": "https://kirtlandforcesupport.com/"
           },
           {
             "id": "link-mos",
             "title": "Military OneSource",
             "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil-base-guide",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
-          },
-          {
-            "id": "link-base-directory",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
           }
         ]
       }
     ]
-  }
+  },
+  "dataUpdatedAt": "2026-06-28T10:26:26Z"
 }

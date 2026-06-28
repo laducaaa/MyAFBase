@@ -53,8 +53,9 @@ struct LocalJSONDataServiceTests {
         #expect(pickerIndex.allSatisfy { $0.region == .conus })
         #expect(pickerIndex.allSatisfy { BaseCatalog.isListedInPicker($0) })
         #expect(pickerIndex.contains { $0.id == "keesler" })
+        #expect(pickerIndex.contains { $0.id == "altus" })
         #expect(!pickerIndex.contains { $0.id == "ramstein" })
-        #expect(!pickerIndex.contains { $0.id == "altus" })
+        #expect(pickerIndex.count == 63)
         #expect(pickerIndex.count < fullIndex.count)
     }
 

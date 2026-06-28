@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-06-28T12:00:00Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -141,7 +141,7 @@
       "name": "Buckley SFB Main Exchange (BX)",
       "category": "shopping",
       "description": "Full-service BX with clothing, electronics, food court, barber shop, and optical.",
-      "hours": "Mon-Sat 0900-1900; Sun 1000-1800",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
       "address": "365 N Telluride St, Bldg 1, Buckley SFB, CO 80011",
       "phone": "720-859-9626",
       "url": "https://www.shopmyexchange.com/store-locator/buckley-main-exchange",
@@ -217,7 +217,7 @@
       "id": "res-buckley-ent-cu",
       "name": "Ent Credit Union (Buckley Service Center)",
       "category": "finance",
-      "description": "Full-service credit union branch with deposit accounts, loans, HELOCs, shared branch services, and 24-hour walk-up ATM.",
+      "description": "On-base federal credit union with deposit accounts, loans, HELOCs, shared branch services, and 24-hour walk-up ATM.",
       "hours": "Mon-Fri 0900-1700",
       "address": "365 N Telluride St, Buckley SFB, CO 80011",
       "phone": "800-525-9623",
@@ -251,7 +251,7 @@
       "name": "460th Force Support Squadron (FSS)",
       "category": "services",
       "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
-      "hours": "Varies by facility",
+      "hours": "Facility hours listed on FSS website",
       "address": "Buckley SFB, Aurora, CO 80011",
       "phone": "720-847-6919",
       "url": "https://460fss.com/",
@@ -284,7 +284,7 @@
       "name": "Rocky Mountain Lodge (AF Inn)",
       "category": "housing",
       "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites. Pet-friendly TLF available. Rickenbacker's coffee shop in lobby.",
-      "hours": "Front desk 24/7; Check-in 1400, Check-out 1100",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
       "address": "345 S Beaver Creek St, Bldg 331, Buckley SFB, CO 80011",
       "phone": "720-847-5899",
       "url": "https://www.afreservations.com/",
@@ -317,7 +317,7 @@
       "name": "Intramural Outdoor Golf League",
       "category": "recreation",
       "description": "Seasonal intramural golf league at local Denver-area courses. No on-base golf course.",
-      "hours": "Seasonal — see FSS intramural sports calendar",
+      "hours": "Seasonal intramural leagues; registration Mon-Fri 0800-1630",
       "address": "Buckley SFB, Aurora, CO 80011",
       "phone": "720-847-6679",
       "url": "https://460fss.com/fitness-center/",
@@ -386,7 +386,7 @@
       {
         "id": "nc-2",
         "title": "In-Processing Schedule",
-        "body": "Report to your Unit Command Support Staff (CSS) during duty hours. Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance in Bldg 1030 for travel voucher.",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance in Bldg 1030 for travel voucher.",
         "links": [
           {
             "id": "link-inprocess",

@@ -111,7 +111,7 @@ struct ReadinessTrackerView: View {
                 }
             }
 
-            Text("Track due dates you enter yourself. Not connected to official systems.")
+            Text("Track due dates you enter yourself. Not connected to official systems. Do not store sensitive personnel or classified information here.")
                 .font(.caption)
                 .foregroundStyle(.tertiary)
 
@@ -128,6 +128,7 @@ struct ReadinessTrackerView: View {
                 tracker = readinessTrackerStore.tracker(for: baseID)
             }
             remindersEnabled = ReadinessNotificationService.remindersEnabled
+            AppIntentDonations.recordReadinessChecked(baseID: baseID, baseName: baseName)
         }
         .sheet(item: $editingItem) { item in
             readinessDateSheet(for: item)

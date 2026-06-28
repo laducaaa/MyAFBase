@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -117,7 +117,7 @@
       "name": "Magnolia Dining Facility",
       "category": "dining",
       "description": "Dining facility serving unaccompanied housing residents and permanent party.",
-      "hours": "See posted hours at facility; schedules vary by training schedule.",
+      "hours": "Hours posted at facility entrance; schedules vary by training schedule.",
       "address": "216 Ploesti Dr, Biloxi, MS 39534",
       "phone": "228-377-4368",
       "url": "https://keesler81fss.com/dining-facilities/",
@@ -179,7 +179,7 @@
       "name": "Base Exchange (BX)",
       "category": "shopping",
       "description": "Main BX with food court, services, and ITT.",
-      "hours": "Mon-Sat 0900-1900, Sun 1000-1800",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM, Sun 1000-1800",
       "address": "506 Larcher Blvd, Bldg 2306, Keesler AFB, MS 39534",
       "phone": "228-377-3818",
       "url": "https://www.shopmyexchange.com/store-locator/keesler-afb",
@@ -228,7 +228,7 @@
     },
     {
       "id": "res-aquatic",
-      "name": "Aquatic Center \u2013 Triangle Pool",
+      "name": "Aquatic Center – Triangle Pool",
       "category": "fitness",
       "description": "Indoor/outdoor aquatic facility.",
       "hours": "Seasonal; call for current schedule",
@@ -270,7 +270,7 @@
     },
     {
       "id": "res-visitor-center",
-      "name": "Visitor Center \u2013 Pass & Registration",
+      "name": "Visitor Center – Pass & Registration",
       "category": "safety",
       "description": "Visitor passes and base access. REAL ID required.",
       "hours": "Mon-Fri 0600-1500",
@@ -284,7 +284,7 @@
       "name": "Bay Breeze Event Center",
       "category": "recreation",
       "description": "Event venue for community gatherings, banquets, and private events.",
-      "hours": "Varies by event",
+      "hours": "Event-based schedule; call facility for hours",
       "address": "Keesler AFB, Biloxi, MS 39534",
       "phone": "228-377-2334",
       "url": "https://keesler81fss.com/bay-breeze-event-center/",
@@ -309,6 +309,61 @@
       "address": "Keesler AFB, Biloxi, MS 39534",
       "phone": "228-377-3832",
       "building": null
+    },
+    {
+      "id": "res-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial preparedness, transition and career assistance, deployment support, and family readiness programs.",
+      "hours": "Mon-Fri 0730-1630; closed third Thursday monthly for training",
+      "address": "500 Fisher St, Bldg 701, Rm 110, Keesler AFB, MS 39534",
+      "phone": "228-376-8728",
+      "url": "https://keesler81fss.com/military-family-readiness-center/",
+      "building": "Sablich Center"
+    },
+    {
+      "id": "res-lodging",
+      "name": "Inns of Keesler (AF Inn)",
+      "category": "housing",
+      "description": "603 rooms across 14 buildings. Check-in at Tyer House. Reservations online, by phone, or fax with orders.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100; call 228-374-0088 if arriving after 1800",
+      "address": "405 Fisher St, Bldg 470, Keesler AFB, MS 39534",
+      "phone": "228-374-0088",
+      "url": "https://keesler81fss.com/inns-of-keesler/",
+      "building": "Tyer House"
+    },
+    {
+      "id": "res-credit-union",
+      "name": "Keesler Federal Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union with deposit accounts, loans, and on-base ATMs.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1200 (main branch)",
+      "address": "Keesler AFB, Biloxi, MS 39534",
+      "phone": "228-385-5500",
+      "url": "https://www.kfcu.org/",
+      "building": null
+    },
+    {
+      "id": "res-dorm",
+      "name": "Consolidated Dormitory Management Office (CDMO)",
+      "category": "housing",
+      "description": "Unaccompanied housing assignments for training students and permanent party E-4 and below.",
+      "hours": "Mon-Fri 0800-1500",
+      "address": "508 6th St, Bldg 6223, Rm 100, Keesler AFB, MS 39534",
+      "phone": "228-377-1730",
+      "url": "https://www.housing.af.mil/Home/Installations/Keesler-AFB/",
+      "building": "Bldg 6223"
+    },
+    {
+      "id": "res-odr",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rentals, FamCamp RV park, boat and kayak rentals, pavilion reservations, and recreational programs.",
+      "hours": "Mon & Wed-Sun 1000-1800; closed Tue",
+      "address": "625 Marina Dr, Bldg 6726, Keesler AFB, MS 39534",
+      "phone": "228-377-3160",
+      "url": "https://keesler81fss.com/outdoor-recreation/",
+      "building": "Bldg 6726"
     }
   ],
   "events": [
@@ -401,7 +456,7 @@
       {
         "id": "nc-5",
         "title": "Quick Resources",
-        "body": "Official newcomers information, family programs, and community support services. See Military OneSource, Military.com, and BaseDirectory for additional relocation resources. See Military OneSource, Military.com, and BaseDirectory for additional relocation resources.",
+        "body": "Official newcomers information, family programs, and community support services. See Military OneSource, Military.com, and BaseDirectory for additional relocation resources.",
         "links": [
           {
             "id": "link-3",

@@ -126,6 +126,17 @@ struct BasePickerSheet: View {
                     .listRowBackground(Color.clear)
                     .listRowSeparator(.hidden)
             }
+
+            Section {
+                LegalDisclaimerCard(
+                    text: LegalCopy.unofficialInformation,
+                    style: .compact,
+                    systemImage: "info.circle"
+                )
+                .listRowInsets(EdgeInsets(top: 0, leading: 16, bottom: 16, trailing: 16))
+                .listRowBackground(Color.clear)
+                .listRowSeparator(.hidden)
+            }
         }
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
