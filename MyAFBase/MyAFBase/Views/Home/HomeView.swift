@@ -155,6 +155,17 @@ struct HomeView: View {
             .buttonStyle(.plain)
 
             NavigationLink {
+                AFISearchToolView()
+            } label: {
+                HomeToolCard(
+                    title: "Essential AFI Search",
+                    subtitle: "Search dress & appearance, leave, fitness, and more",
+                    systemImage: "doc.text.magnifyingglass"
+                )
+            }
+            .buttonStyle(.plain)
+
+            NavigationLink {
                 LeavePlannerView()
             } label: {
                 HomeToolCard(

@@ -26,6 +26,9 @@ enum LegalCopy {
     static let emergencyVerify =
         "Emergency numbers are compiled from public installation sources and may change. Confirm current numbers with your installation before relying on them in an emergency."
 
+    static let afiSearchDisclaimer =
+        "Search results are extracted automatically from official publications and may be incomplete. Always verify passages against the official PDF on e-Publishing before acting on guidance."
+
     static let onboardingAcknowledgment =
         "I understand MyAFBase is unofficial, not affiliated with the DoD or U.S. Air Force, and I will not submit PII or sensitive information through the app."
 

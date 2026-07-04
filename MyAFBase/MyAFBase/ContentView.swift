@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var readinessTrackerStore: ReadinessTrackerStore?
     @State private var checklistStore: ChecklistStore?
     @State private var assignmentProfileStore: AssignmentProfileStore?
+    @State private var afiSearchService = AFISearchService()
     @State private var dismissalStore = NotificationDismissalStore()
     @State private var showBasePicker = false
     @State private var showOnboarding = false
@@ -29,6 +30,7 @@ struct ContentView: View {
                 ProgressView()
             }
         }
+        .environment(afiSearchService)
         .task {
             guard injectedStores == nil, bookmarkStore == nil else { return }
             let stores = AppStores(modelContext: modelContext)
@@ -36,6 +38,12 @@ struct ContentView: View {
             readinessTrackerStore = stores.readinessTrackerStore
             checklistStore = stores.checklistStore
             assignmentProfileStore = stores.assignmentProfileStore
+        }
+        .task {
+            // Warm the AFI search index at launch so it's usually ready before the
+            // user opens Essential AFI Search from Home.
+            guard !AppRuntime.isPreview else { return }
+            await afiSearchService.prepareIndexIfNeeded()
         }
     }
 

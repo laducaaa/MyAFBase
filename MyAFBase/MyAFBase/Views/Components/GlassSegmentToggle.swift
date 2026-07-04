@@ -11,6 +11,7 @@ struct GlassSegmentToggle<Option: Hashable>: View {
     let label: (Option) -> String
     var layout: Layout = .compact
 
+    @Environment(\.colorScheme) private var colorScheme
     @Namespace private var segmentNamespace
 
     var body: some View {
@@ -20,16 +21,33 @@ struct GlassSegmentToggle<Option: Hashable>: View {
             }
         }
         .padding(4)
-        .background {
+        .background { trackBackground }
+        .overlay { trackStrokeOverlay }
+        .modifier(GlassSegmentTrackChrome(colorScheme: colorScheme))
+        .shadow(color: trackShadowColor, radius: trackShadowRadius, y: trackShadowY)
+    }
+
+    @ViewBuilder
+    private var trackBackground: some View {
+        if colorScheme == .dark {
             ZStack {
                 Capsule()
                     .fill(Color.black.opacity(0.72))
                 Capsule()
                     .fill(.ultraThinMaterial)
             }
+        } else {
+            Capsule()
+                .fill(Color(.tertiarySystemFill))
         }
-        .glassEffect(.regular, in: .capsule)
-        .shadow(color: .black.opacity(0.25), radius: 16, y: 6)
+    }
+
+    @ViewBuilder
+    private var trackStrokeOverlay: some View {
+        if colorScheme == .light {
+            Capsule()
+                .strokeBorder(Color.black.opacity(0.06), lineWidth: 0.5)
+        }
     }
 
     @ViewBuilder
@@ -43,7 +61,7 @@ struct GlassSegmentToggle<Option: Hashable>: View {
         } label: {
             Text(label(option))
                 .font(ExploreMetrics.segmentFont)
-                .foregroundStyle(isSelected ? Color.black : Color.white.opacity(0.92))
+                .foregroundStyle(isSelected ? selectedTextColor : unselectedTextColor)
                 .lineLimit(1)
                 .minimumScaleFactor(0.85)
                 .frame(maxWidth: layout == .equalWidth ? .infinity : nil)
@@ -53,7 +71,8 @@ struct GlassSegmentToggle<Option: Hashable>: View {
                 .background {
                     if isSelected {
                         Capsule()
-                            .fill(Color.white)
+                            .fill(selectedPillFill)
+                            .shadow(color: selectedPillShadow, radius: 2, y: 1)
                             .matchedGeometryEffect(id: "glassSegmentHighlight", in: segmentNamespace)
                     }
                 }
@@ -61,6 +80,47 @@ struct GlassSegmentToggle<Option: Hashable>: View {
         .buttonStyle(.plain)
         .accessibilityLabel(label(option))
         .accessibilityAddTraits(isSelected ? .isSelected : [])
+    }
+
+    private var selectedTextColor: Color {
+        colorScheme == .dark ? .black : .primary
+    }
+
+    private var unselectedTextColor: Color {
+        colorScheme == .dark ? Color.white.opacity(0.92) : .secondary
+    }
+
+    private var selectedPillFill: Color {
+        colorScheme == .dark ? .white : Color(.systemBackground)
+    }
+
+    private var selectedPillShadow: Color {
+        colorScheme == .dark ? .clear : .black.opacity(0.08)
+    }
+
+    private var trackShadowColor: Color {
+        colorScheme == .dark ? .black.opacity(0.25) : .black.opacity(0.06)
+    }
+
+    private var trackShadowRadius: CGFloat {
+        colorScheme == .dark ? 16 : 4
+    }
+
+    private var trackShadowY: CGFloat {
+        colorScheme == .dark ? 6 : 2
+    }
+}
+
+/// Applies the frosted-glass chrome only in dark mode; light mode uses a flat track.
+private struct GlassSegmentTrackChrome: ViewModifier {
+    let colorScheme: ColorScheme
+
+    func body(content: Content) -> some View {
+        if colorScheme == .dark {
+            content.glassEffect(.regular, in: .capsule)
+        } else {
+            content
+        }
     }
 }
 
