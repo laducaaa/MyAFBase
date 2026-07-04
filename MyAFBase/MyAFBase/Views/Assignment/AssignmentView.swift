@@ -149,6 +149,17 @@ struct AssignmentView: View {
             subtitle: "Dress & appearance, blue book, fitness, and other go-to publications."
         )
 
+        NavigationLink {
+            EssentialAFISearchView()
+        } label: {
+            AssignmentInboundRowLabel(
+                title: "Search Essential AFIs",
+                subtitle: "Find passages with citations you can verify on e-Publishing.",
+                systemImage: "doc.text.magnifyingglass"
+            )
+        }
+        .buttonStyle(.plain)
+
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
             ForEach(EssentialAFIs.stationed) { afi in
                 AssignmentAFICard(afi: afi)

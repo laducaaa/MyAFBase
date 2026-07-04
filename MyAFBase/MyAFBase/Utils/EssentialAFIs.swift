@@ -15,6 +15,14 @@ struct EssentialAFI: Identifiable, Equatable {
 /// Commonly referenced Air Force publications for quick access on the Stationed tab.
 /// PDF links point to official AF e-Publishing static hosting.
 enum EssentialAFIs {
+    static let searchSuggestions: [String] = [
+        "convalescent leave",
+        "PT test",
+        "beard waiver",
+        "air force",
+        "ordinary leave"
+    ]
+
     static let stationed: [EssentialAFI] = [
         EssentialAFI(
             id: "dress-appearance",
@@ -75,4 +83,38 @@ enum EssentialAFIs {
     ]
 
     static let ePublishingIndex = URL(string: "https://www.e-publishing.af.mil/")!
+
+    static func filtered(query: String) -> [EssentialAFI] {
+        let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return stationed }
+
+        return stationed.filter { afi in
+            afi.title.localizedCaseInsensitiveContains(trimmed)
+                || afi.publication.localizedCaseInsensitiveContains(trimmed)
+                || searchKeywords(for: afi).contains { $0.localizedCaseInsensitiveContains(trimmed) }
+        }
+    }
+
+    private static func searchKeywords(for afi: EssentialAFI) -> [String] {
+        switch afi.id {
+        case "dress-appearance":
+            ["appearance", "beard", "grooming", "uniform", "waiver"]
+        case "afh1":
+            ["air force", "blue book", "culture", "heritage"]
+        case "enlisted-force":
+            ["enlisted", "promotion", "development"]
+        case "officer-pd":
+            ["officer", "development", "promotion"]
+        case "fitness":
+            ["fitness", "pt", "test", "physical", "assessment"]
+        case "decorations":
+            ["decoration", "award", "medal"]
+        case "leave":
+            ["leave", "convalescent", "ordinary", "emergency", "pass"]
+        case "justice":
+            ["justice", "ucmj", "article 15"]
+        default:
+            []
+        }
+    }
 }
