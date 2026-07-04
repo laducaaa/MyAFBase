@@ -69,10 +69,10 @@ struct PFRAGoalPlannerView: View {
                 goalPickerCard
 
                 if let plan = goalPlan {
-                    resultsSection(plan)
+                    compositeSummaryCard(plan)
                 }
 
-                scoresInputCard
+                inputSections
                 disclaimerCard
             }
             .padding()
@@ -87,7 +87,7 @@ struct PFRAGoalPlannerView: View {
     private var goalPickerCard: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("What are you aiming for?")
-                .font(.subheadline.weight(.semibold))
+                .font(.headline)
 
             GlassSegmentToggle(
                 options: PFRATargetTier.allCases,
@@ -103,16 +103,9 @@ struct PFRAGoalPlannerView: View {
         .appCardStyle(padding: 16)
     }
 
-    // MARK: - Results
+    // MARK: - Composite summary
 
-    private func resultsSection(_ plan: PFRATargetPlan) -> some View {
-        VStack(alignment: .leading, spacing: AppTheme.cardSpacing) {
-            verdictCard(plan)
-            improvementCard(plan)
-        }
-    }
-
-    private func verdictCard(_ plan: PFRATargetPlan) -> some View {
+    private func compositeSummaryCard(_ plan: PFRATargetPlan) -> some View {
         VStack(alignment: .leading, spacing: 16) {
             PFRAPlannerVerdictHeader(
                 isPositive: plan.alreadyMet,
@@ -122,98 +115,54 @@ struct PFRAGoalPlannerView: View {
 
             PFRACompositeComparisonRow(
                 current: plan.currentComposite,
-                target: plan.targetComposite
+                target: plan.targetComposite,
+                currentLabel: "Composite",
+                targetLabel: plan.target.title
             )
 
             PFRACompositeProgressBar(
                 current: plan.currentComposite,
-                target: plan.targetComposite
+                target: plan.targetComposite,
+                label: "Goal progress",
+                passingLabel: "On target"
             )
 
-            ForEach(criticalNotes(from: plan), id: \.self) { note in
+            if let note = summaryNote(for: plan) {
                 PFRAInsightRow(
-                    systemImage: "exclamationmark.triangle.fill",
-                    tint: .orange,
+                    systemImage: plan.alreadyMet ? "checkmark.circle.fill" : "arrow.up.circle.fill",
+                    tint: plan.alreadyMet ? AppTheme.success : AppTheme.warning,
                     text: note
                 )
             }
         }
         .appCardStyle(padding: 20)
-    }
-
-    private func improvementCard(_ plan: PFRATargetPlan) -> some View {
-        let gaps = plan.componentTargets.filter(\.needsImprovement)
-        let onTrackCount = plan.componentTargets.count - gaps.count
-
-        return VStack(alignment: .leading, spacing: 14) {
-            PFRAPlannerSectionHeader(
-                title: plan.alreadyMet ? "All components on track" : "What to improve",
-                subtitle: plan.alreadyMet
-                    ? "Your current scores meet this goal."
-                    : "Adjust these areas if other scores stay the same."
-            )
-
-            if gaps.isEmpty {
-                PFRAInsightRow(
-                    systemImage: "checkmark.circle.fill",
-                    tint: .green,
-                    text: "Every component meets the point targets for \(plan.target.title.lowercased())."
-                )
-            } else {
-                ForEach(gaps) { component in
-                    PFRAComponentGapRow(component: component)
-
-                    if component.id != gaps.last?.id {
-                        Divider()
-                    }
-                }
-            }
-
-            if onTrackCount > 0, !gaps.isEmpty {
-                Text("\(onTrackCount) other component\(onTrackCount == 1 ? "" : "s") already on track.")
-                    .font(.caption)
-                    .foregroundStyle(.tertiary)
-            }
-        }
-        .appCardStyle(padding: 20)
+        .animation(.easeInOut(duration: 0.2), value: plan.currentComposite)
     }
 
     // MARK: - Inputs
 
-    private var scoresInputCard: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            PFRAPlannerSectionHeader(
-                title: "Your current scores",
-                subtitle: "Update these to refresh your plan."
-            )
+    @ViewBuilder
+    private var inputSections: some View {
+        profileInputCard
 
-            VStack(alignment: .leading, spacing: 16) {
-                PFRAPlannerSubsection(title: "Profile") {
-                    profileInputs
-                }
-
-                PFRAPlannerSubsection(title: "Body composition") {
-                    bodyInputs
-                }
-
-                PFRAPlannerSubsection(title: "Cardio") {
-                    cardioInputs
-                }
-
-                PFRAPlannerSubsection(title: "Strength") {
-                    strengthInputs
-                }
-
-                PFRAPlannerSubsection(title: "Core") {
-                    coreInputs
-                }
-            }
+        if let plan = goalPlan {
+            bodyCompositionCard(component: componentTarget(named: "Body Composition", in: plan))
+            cardioCard(component: componentTarget(named: "Cardio", in: plan))
+            strengthCard(component: componentTarget(named: "Strength", in: plan))
+            coreCard(component: componentTarget(named: "Core", in: plan))
+        } else {
+            bodyCompositionCard(component: nil)
+            cardioCard(component: nil)
+            strengthCard(component: nil)
+            coreCard(component: nil)
         }
-        .appCardStyle(padding: 20)
     }
 
-    private var profileInputs: some View {
-        VStack(spacing: 12) {
+    private var profileInputCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Profile")
+                .font(.headline)
+
             Picker("Gender", selection: $gender) {
                 ForEach(PFRAGender.allCases) { option in
                     Text(option.title).tag(option)
@@ -228,36 +177,62 @@ struct PFRAGoalPlannerView: View {
                 onIncrement: { age = min(75, age + 1) }
             )
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var bodyInputs: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 12) {
-                PFRACompactStepper(
-                    label: "Feet",
-                    valueText: "\(heightFeet)'",
-                    onDecrement: { heightFeet = max(4, heightFeet - 1) },
-                    onIncrement: { heightFeet = min(7, heightFeet + 1) }
-                )
-                PFRACompactStepper(
-                    label: "Inches",
-                    valueText: "\(heightInches)\"",
-                    onDecrement: { heightInches = max(0, heightInches - 1) },
-                    onIncrement: { heightInches = min(11, heightInches + 1) }
+    private func bodyCompositionCard(component: PFRAComponentTarget?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Body composition")
+                .font(.headline)
+
+            VStack(spacing: 12) {
+                HStack(spacing: 12) {
+                    PFRACompactStepper(
+                        label: "Ft",
+                        valueText: "\(heightFeet)'",
+                        onDecrement: {
+                            heightFeet = max(4, heightFeet - 1)
+                            clampHeightInches()
+                        },
+                        onIncrement: {
+                            heightFeet = min(7, heightFeet + 1)
+                            clampHeightInches()
+                        }
+                    )
+                    PFRACompactStepper(
+                        label: "In",
+                        valueText: "\(heightInches)\"",
+                        onDecrement: {
+                            heightInches = max(0, heightInches - 1)
+                            clampHeightInches()
+                        },
+                        onIncrement: {
+                            heightInches = min(11, heightInches + 1)
+                            clampHeightInches()
+                        }
+                    )
+                }
+
+                PFRAStepperRow(
+                    label: "Waist",
+                    valueText: String(format: "%.1f\"", waistInches),
+                    onDecrement: { waistTenths = max(200, waistTenths - 1) },
+                    onIncrement: { waistTenths = min(600, waistTenths + 1) }
                 )
             }
 
-            PFRAStepperRow(
-                label: "Waist",
-                valueText: String(format: "%.1f\"", waistInches),
-                onDecrement: { waistTenths = max(200, waistTenths - 1) },
-                onIncrement: { waistTenths = min(600, waistTenths + 1) }
-            )
+            if let component {
+                PFRAComponentGoalInline(component: component)
+            }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var cardioInputs: some View {
-        VStack(spacing: 12) {
+    private func cardioCard(component: PFRAComponentTarget?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Cardio")
+                .font(.headline)
+
             Picker("Event", selection: $cardioEvent) {
                 ForEach(PFRACardioEvent.allCases) { event in
                     Text(event.title).tag(event)
@@ -276,11 +251,19 @@ struct PFRAGoalPlannerView: View {
                     onIncrement: { hamrShuttles = min(120, hamrShuttles + 1) }
                 )
             }
+
+            if let component {
+                PFRAComponentGoalInline(component: component)
+            }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var strengthInputs: some View {
-        VStack(spacing: 12) {
+    private func strengthCard(component: PFRAComponentTarget?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Strength")
+                .font(.headline)
+
             Picker("Event", selection: $strengthEvent) {
                 ForEach(PFRAStrengthEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
@@ -294,11 +277,19 @@ struct PFRAGoalPlannerView: View {
                 onDecrement: { strengthReps = max(0, strengthReps - 1) },
                 onIncrement: { strengthReps = min(120, strengthReps + 1) }
             )
+
+            if let component {
+                PFRAComponentGoalInline(component: component)
+            }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var coreInputs: some View {
-        VStack(spacing: 12) {
+    private func coreCard(component: PFRAComponentTarget?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Core")
+                .font(.headline)
+
             Picker("Event", selection: $coreEvent) {
                 ForEach(PFRACoreEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
@@ -317,7 +308,16 @@ struct PFRAGoalPlannerView: View {
             case .forearmPlank:
                 PFRATimeStepper(label: "Hold time", minutes: $plankMinutes, seconds: $plankSeconds, minuteRange: 0...5)
             }
+
+            if let component {
+                PFRAComponentGoalInline(component: component)
+            }
         }
+        .appCardStyle(padding: 16)
+    }
+
+    private func componentTarget(named name: String, in plan: PFRATargetPlan) -> PFRAComponentTarget? {
+        plan.componentTargets.first { $0.name == name }
     }
 
     private var disclaimerCard: some View {
@@ -366,45 +366,24 @@ struct PFRAGoalPlannerView: View {
         return String(format: "Composite %.1f of %.1f needed.", plan.currentComposite, plan.targetComposite)
     }
 
+    private func summaryNote(for plan: PFRATargetPlan) -> String? {
+        if let critical = criticalNotes(from: plan).first {
+            return critical
+        }
+        return plan.notes.first
+    }
+
     private func criticalNotes(from plan: PFRATargetPlan) -> [String] {
         plan.notes.filter {
             $0.localizedCaseInsensitiveContains("whtr")
                 || $0.localizedCaseInsensitiveContains("body composition fails")
         }
     }
-}
 
-private struct PFRAComponentGapRow: View {
-    let component: PFRAComponentTarget
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            HStack(alignment: .firstTextBaseline) {
-                Text(component.name)
-                    .font(.subheadline.weight(.semibold))
-
-                Spacer(minLength: 8)
-
-                if component.pointsGap > 0.05 {
-                    Text(String(format: "+%.1f pts", component.pointsGap))
-                        .font(.caption.weight(.semibold).monospacedDigit())
-                        .foregroundStyle(.orange)
-                }
-            }
-
-            Text(actionableTarget(component.targetDetail))
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .fixedSize(horizontal: false, vertical: true)
+    private func clampHeightInches() {
+        if heightFeet == 7 {
+            heightInches = min(heightInches, 11)
         }
-    }
-
-    private func actionableTarget(_ detail: String) -> String {
-        if let range = detail.range(of: " (", options: .backwards),
-           detail[range.upperBound...].contains("pts") {
-            return String(detail[..<range.lowerBound])
-        }
-        return detail
     }
 }
 

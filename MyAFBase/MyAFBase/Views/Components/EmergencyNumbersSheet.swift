@@ -76,7 +76,7 @@ struct EmergencyNumbersSheet: View {
             Text("Call ")
                 .foregroundStyle(.primary)
             Text("911")
-                .foregroundStyle(.red)
+                .foregroundStyle(AppTheme.danger)
                 .fontWeight(.semibold)
             Text(" immediately.")
                 .foregroundStyle(.primary)

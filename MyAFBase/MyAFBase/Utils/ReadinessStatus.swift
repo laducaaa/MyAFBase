@@ -20,11 +20,11 @@ enum ReadinessStatus: Equatable {
 
     var color: Color {
         switch self {
-        case .notSet: .secondary
-        case .overdue: .red
-        case .dueSoon: .orange
-        case .onTrack: .green
-        case .windowOpen: .blue
+        case .notSet: AppTheme.muted
+        case .overdue: AppTheme.danger
+        case .dueSoon: AppTheme.warning
+        case .onTrack: AppTheme.success
+        case .windowOpen: AppTheme.info
         }
     }
 

@@ -8,6 +8,7 @@ struct ExploreView: View {
     @State private var eventCategoryID = EventExploreCategory.all.id
     @State private var searchText = ""
     @State private var openNowOnly = false
+    @State private var listRevealToken = 0
 
     var body: some View {
         NavigationStack {
@@ -70,7 +71,7 @@ struct ExploreView: View {
             )
 
             if segment == .resources {
-                openNowFilter
+                openNowFilter(for: base)
             }
 
             listContent(for: base)
@@ -80,10 +81,18 @@ struct ExploreView: View {
             listBottomChrome
         }
         .searchable(text: $searchText, prompt: "Search \(base.name)")
+        .onChange(of: exploreListAnimationKey) { _, _ in
+            listRevealToken += 1
+        }
         .onChange(of: segment) { _, _ in
             searchText = ""
             openNowOnly = false
         }
+    }
+
+    /// Changes whenever list-shaping filters change — drives the staggered card reveal.
+    private var exploreListAnimationKey: String {
+        "\(segment)-\(resourceCategoryID)-\(eventCategoryID)-\(openNowOnly)"
     }
 
     private var listBottomChrome: some View {
@@ -113,17 +122,20 @@ struct ExploreView: View {
                 switch segment {
                 case .resources:
                     if resourceCategoryID == ExploreCategory.gates.id {
-                        ForEach(filteredGates(for: base)) { gate in
+                        ForEach(Array(filteredGates(for: base).enumerated()), id: \.element.id) { index, gate in
                             ExploreGateCard(gate: gate, baseID: base.id, baseName: base.name)
+                                .exploreListReveal(index: index, animationToken: listRevealToken)
                         }
                     } else {
-                        ForEach(filteredResources(for: base)) { resource in
+                        ForEach(Array(filteredResources(for: base).enumerated()), id: \.element.id) { index, resource in
                             ExploreResourceCard(resource: resource, baseID: base.id, baseName: base.name)
+                                .exploreListReveal(index: index, animationToken: listRevealToken)
                         }
                     }
                 case .events:
-                    ForEach(filteredEvents(for: base)) { event in
+                    ForEach(Array(filteredEvents(for: base).enumerated()), id: \.element.id) { index, event in
                         ExploreEventCard(event: event, baseID: base.id, baseName: base.name)
+                            .exploreListReveal(index: index, animationToken: listRevealToken)
                     }
                 }
 
@@ -245,15 +257,12 @@ struct ExploreView: View {
         return base.resources.filter { $0.category == mapped }.count
     }
 
-    private var openNowFilter: some View {
-        Toggle(isOn: $openNowOnly) {
-            Label("Open now", systemImage: "clock.badge.checkmark")
-                .labelStyle(AppAccentIconLabelStyle())
-                .font(.subheadline)
-        }
-        .toggleStyle(.button)
-        .buttonStyle(.bordered)
-        .tint(openNowOnly ? .green : .primary)
+    @ViewBuilder
+    private func openNowFilter(for base: Base) -> some View {
+        ExploreOpenNowFilter(
+            isOn: $openNowOnly,
+            openCount: OpenNowCatalog.openEntries(for: base).count
+        )
         .padding(.horizontal, 16)
         .padding(.top, 8)
         .frame(maxWidth: .infinity, alignment: .leading)

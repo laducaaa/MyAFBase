@@ -21,88 +21,86 @@ enum WeatherHeroTheme {
         case "clear":
             return Palette(
                 colors: [
-                    Color(red: 0.98, green: 0.62, blue: 0.22),
-                    Color(red: 0.55, green: 0.34, blue: 0.12),
-                    Color(red: 0.18, green: 0.28, blue: 0.52)
+                    Color(hex: "48B0FF"),
+                    Color(hex: "2898EB"),
+                    Color(hex: "1A9FD4")
                 ],
-                glow: Color(red: 1.0, green: 0.78, blue: 0.35),
+                glow: Color(hex: "FFC800"),
                 symbol: "sun.max.fill",
                 symbolOpacity: 0.18
             )
         case "partly cloudy":
             return Palette(
                 colors: [
-                    Color(red: 0.42, green: 0.58, blue: 0.82),
-                    Color(red: 0.24, green: 0.36, blue: 0.58),
-                    Color(red: 0.14, green: 0.20, blue: 0.34)
+                    Color(hex: "38A8F8"),
+                    Color(hex: "2898EB"),
+                    Color(hex: "1E1E20")
                 ],
-                glow: Color(red: 0.72, green: 0.82, blue: 0.98),
+                glow: Color(hex: "6EC2FF"),
                 symbol: "cloud.sun.fill",
                 symbolOpacity: 0.16
             )
         case "cloudy":
             return Palette(
                 colors: [
-                    Color(red: 0.45, green: 0.50, blue: 0.58),
-                    Color(red: 0.28, green: 0.32, blue: 0.40),
-                    Color(red: 0.16, green: 0.18, blue: 0.24)
+                    Color(hex: "8E8E93"),
+                    Color(hex: "1E1E20"),
+                    Color(hex: "121214")
                 ],
-                glow: Color(red: 0.70, green: 0.76, blue: 0.86),
+                glow: Color(hex: "98989D"),
                 symbol: "cloud.fill",
                 symbolOpacity: 0.14
             )
         case "rain":
             return Palette(
                 colors: [
-                    Color(red: 0.22, green: 0.38, blue: 0.58),
-                    Color(red: 0.14, green: 0.26, blue: 0.44),
-                    Color(red: 0.08, green: 0.14, blue: 0.24)
+                    Color(hex: "2088F0"),
+                    Color(hex: "2898EB"),
+                    Color(hex: "121214")
                 ],
-                glow: Color(red: 0.45, green: 0.72, blue: 0.92),
+                glow: Color(hex: "6EC2FF"),
                 symbol: "cloud.rain.fill",
                 symbolOpacity: 0.15
             )
         case "snow":
             return Palette(
                 colors: [
-                    Color(red: 0.62, green: 0.74, blue: 0.88),
-                    Color(red: 0.36, green: 0.48, blue: 0.66),
-                    Color(red: 0.18, green: 0.26, blue: 0.40)
+                    Color(hex: "3ED8E8"),
+                    Color(hex: "38A8F8"),
+                    Color(hex: "2898EB")
                 ],
-                glow: Color(red: 0.88, green: 0.94, blue: 1.0),
+                glow: Color(hex: "8AD4FF"),
                 symbol: "cloud.snow.fill",
                 symbolOpacity: 0.16
             )
         case "fog":
             return Palette(
                 colors: [
-                    Color(red: 0.58, green: 0.60, blue: 0.64),
-                    Color(red: 0.36, green: 0.38, blue: 0.42),
-                    Color(red: 0.20, green: 0.22, blue: 0.26)
+                    Color(hex: "8E8E93"),
+                    Color(hex: "1E1E20")
                 ],
-                glow: Color(red: 0.82, green: 0.84, blue: 0.88),
+                glow: Color(hex: "98989D"),
                 symbol: "cloud.fog.fill",
                 symbolOpacity: 0.14
             )
         case "thunderstorm":
             return Palette(
                 colors: [
-                    Color(red: 0.28, green: 0.24, blue: 0.48),
-                    Color(red: 0.16, green: 0.14, blue: 0.32),
-                    Color(red: 0.08, green: 0.08, blue: 0.16)
+                    Color(hex: "5E63F0"),
+                    Color(hex: "787DF8"),
+                    Color(hex: "121214")
                 ],
-                glow: Color(red: 0.72, green: 0.62, blue: 0.98),
+                glow: Color(hex: "7B80FF"),
                 symbol: "cloud.bolt.rain.fill",
                 symbolOpacity: 0.16
             )
         default:
             return Palette(
                 colors: [
-                    Color(red: 0.20, green: 0.24, blue: 0.30),
-                    Color(red: 0.13, green: 0.15, blue: 0.18),
-                    Color(red: 0.09, green: 0.10, blue: 0.12)
+                    Color(hex: "1E1E20"),
+                    Color(hex: "121214")
                 ],
-                glow: Color.white.opacity(0.35),
+                glow: Color(hex: "6EC2FF"),
                 symbol: "building.2.fill",
                 symbolOpacity: 0.10
             )

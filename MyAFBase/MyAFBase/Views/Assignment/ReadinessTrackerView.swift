@@ -63,66 +63,31 @@ struct ReadinessTrackerView: View {
     @State private var remindersEnabled = ReadinessNotificationService.remindersEnabled
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            HStack {
-                Label("Personal Readiness", systemImage: "calendar.badge.clock")
-                    .font(.headline)
-
-                Spacer()
-
-                if let tracker, hasAnyDates(tracker) {
-                    Text(summaryLabel(for: tracker))
-                        .font(.caption.weight(.medium))
-                        .foregroundStyle(summaryColor(for: tracker))
-                }
-            }
+        VStack(alignment: .leading, spacing: 0) {
+            headerSection
+                .padding(.horizontal, AssignmentMetrics.cardPadding)
+                .padding(.top, AssignmentMetrics.cardPadding)
+                .padding(.bottom, 12)
 
             VStack(spacing: 0) {
                 ForEach(ReadinessItem.standardItems) { item in
                     if item.id != ReadinessItem.standardItems.first?.id {
                         Divider()
-                            .padding(.leading, 36)
+                            .padding(.leading, 56)
                     }
                     readinessRow(item)
                 }
 
                 Divider()
-                    .padding(.leading, 36)
+                    .padding(.leading, 56)
 
                 pcsWindowRow
             }
 
-            Toggle(isOn: $remindersEnabled) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Readiness reminders")
-                        .font(.subheadline.weight(.medium))
-                    Text("Local alerts 14, 7, and 1 day before due dates.")
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
-                }
-            }
-            .onChange(of: remindersEnabled) { _, enabled in
-                Task {
-                    let active = await ReadinessNotificationService.setRemindersEnabled(enabled)
-                    remindersEnabled = active
-                    if let tracker {
-                        await ReadinessNotificationService.reschedule(for: tracker, baseName: baseName)
-                    }
-                }
-            }
-
-            Text("Track due dates you enter yourself. Not connected to official systems. Do not store sensitive personnel or classified information here.")
-                .font(.caption)
-                .foregroundStyle(.tertiary)
-
-            Text("Add the Readiness Countdown widget from your Home Screen to see days remaining at a glance.")
-                .font(.caption)
-                .foregroundStyle(.tertiary)
+            footerSection
+                .padding(AssignmentMetrics.cardPadding)
         }
-        .padding(AssignmentMetrics.cardPadding)
-        .background(Color(.systemBackground))
-        .clipShape(RoundedRectangle(cornerRadius: AssignmentMetrics.cardCornerRadius, style: .continuous))
-        .shadow(color: .black.opacity(AssignmentMetrics.cardShadowOpacity), radius: 6, y: 2)
+        .appCardStyle(padding: 0)
         .onAppear {
             if tracker == nil {
                 tracker = readinessTrackerStore.tracker(for: baseID)
@@ -132,6 +97,28 @@ struct ReadinessTrackerView: View {
         }
         .sheet(item: $editingItem) { item in
             readinessDateSheet(for: item)
+        }
+    }
+
+    private var headerSection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .top) {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Personal readiness")
+                        .font(.headline)
+
+                    Text("Track due dates you enter yourself — not connected to official systems.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+
+                Spacer(minLength: 8)
+
+                if let tracker, hasAnyDates(tracker) {
+                    ReadinessSummaryBadge(tracker: tracker)
+                }
+            }
         }
     }
 
@@ -145,30 +132,12 @@ struct ReadinessTrackerView: View {
                 editingItem = item
                 draftDate = dueDate ?? Date()
             } label: {
-                HStack(spacing: 12) {
-                    Image(systemName: item.systemImage)
-                        .font(.body)
-                        .foregroundStyle(.primary)
-                        .frame(width: 24)
-
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(item.title)
-                            .font(.subheadline)
-                            .foregroundStyle(.primary)
-
-                        if let dueDate {
-                            Text(dueDate.formatted(date: .abbreviated, time: .omitted))
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
-                    }
-
-                    Spacer(minLength: 8)
-
-                    ReadinessStatusPill(status: status)
-                }
-                .padding(.vertical, 10)
-                .contentShape(Rectangle())
+                ReadinessTrackerRowLabel(
+                    systemImage: item.systemImage,
+                    title: item.title,
+                    date: dueDate,
+                    status: status
+                )
             }
             .buttonStyle(.plain)
         }
@@ -186,37 +155,68 @@ struct ReadinessTrackerView: View {
                 editingItem = pcsWindowItem
                 draftDate = tracker.pcsWindowStart ?? Date()
             } label: {
-                HStack(spacing: 12) {
-                    Image(systemName: "airplane.departure")
-                        .font(.body)
-                        .foregroundStyle(.primary)
-                        .frame(width: 24)
-
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("PCS window")
-                            .font(.subheadline)
-                            .foregroundStyle(.primary)
-
-                        if let start = tracker.pcsWindowStart, let end = tracker.pcsWindowEnd {
-                            Text("\(start.formatted(date: .abbreviated, time: .omitted)) – \(end.formatted(date: .abbreviated, time: .omitted))")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        } else {
-                            Text("Set start and end dates")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
-                    }
-
-                    Spacer(minLength: 8)
-
-                    ReadinessStatusPill(status: status)
-                }
-                .padding(.vertical, 10)
-                .contentShape(Rectangle())
+                ReadinessTrackerRowLabel(
+                    systemImage: "airplane.departure",
+                    title: "PCS window",
+                    date: nil,
+                    status: status,
+                    detail: pcsWindowDetail(start: tracker.pcsWindowStart, end: tracker.pcsWindowEnd)
+                )
             }
             .buttonStyle(.plain)
         }
+    }
+
+    private var footerSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Divider()
+
+            Toggle(isOn: $remindersEnabled) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Readiness reminders")
+                        .font(.subheadline.weight(.medium))
+                    Text("Local alerts 14, 7, and 1 day before due dates.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .onChange(of: remindersEnabled) { _, enabled in
+                Task {
+                    let active = await ReadinessNotificationService.setRemindersEnabled(enabled)
+                    remindersEnabled = active
+                    if let tracker {
+                        await ReadinessNotificationService.reschedule(for: tracker, baseName: baseName)
+                    }
+                }
+            }
+
+            HStack(alignment: .top, spacing: 8) {
+                Image(systemName: "square.grid.2x2")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+                    .frame(width: 16)
+                    .padding(.top, 1)
+
+                Text("Add the Readiness Countdown widget from your Home Screen to see days remaining at a glance.")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
+            LegalDisclaimerCard(
+                text: "Do not store sensitive personnel or classified information here.",
+                style: .compact,
+                systemImage: "exclamationmark.shield"
+            )
+        }
+    }
+
+    private func pcsWindowDetail(start: Date?, end: Date?) -> String? {
+        guard let start, let end else {
+            return "Tap to set start and end dates"
+        }
+        let formatter = Date.FormatStyle(date: .abbreviated, time: .omitted)
+        return "\(start.formatted(formatter)) – \(end.formatted(formatter))"
     }
 
     private var pcsWindowItem: ReadinessItem {
@@ -275,6 +275,7 @@ struct ReadinessTrackerView: View {
                         ),
                         displayedComponents: .date
                     )
+                    .datePickerStyle(.graphical)
                 }
             }
             .navigationTitle(item.title)
@@ -309,7 +310,8 @@ struct ReadinessTrackerView: View {
                 }
             }
         }
-        .presentationDetents([.medium])
+        .presentationDetents([.medium, .large])
+        .presentationDragIndicator(.visible)
     }
 
     private func hasAnyDates(_ tracker: ReadinessTracker) -> Bool {
@@ -322,33 +324,130 @@ struct ReadinessTrackerView: View {
             tracker.clearanceRenewal != nil
     }
 
-    private func summaryLabel(for tracker: ReadinessTracker) -> String {
-        let statuses = ReadinessItem.standardItems.map { $0.status(tracker) } + [
-            ReadinessStatus.evaluatePCSWindow(start: tracker.pcsWindowStart, end: tracker.pcsWindowEnd)
-        ]
-
-        if statuses.contains(.overdue) {
-            return "Action needed"
-        }
-        if statuses.contains(.dueSoon) || statuses.contains(.windowOpen) {
-            return "Upcoming"
-        }
-        return "On track"
-    }
-
-    private func summaryColor(for tracker: ReadinessTracker) -> Color {
-        let statuses = ReadinessItem.standardItems.map { $0.status(tracker) } + [
-            ReadinessStatus.evaluatePCSWindow(start: tracker.pcsWindowStart, end: tracker.pcsWindowEnd)
-        ]
-
-        if statuses.contains(.overdue) { return .red }
-        if statuses.contains(.dueSoon) || statuses.contains(.windowOpen) { return .orange }
-        return .green
-    }
-
     @MainActor
     private func persistReminders(for tracker: ReadinessTracker) async {
         await ReadinessNotificationService.reschedule(for: tracker, baseName: baseName)
+    }
+}
+
+// MARK: - Row Components
+
+private struct ReadinessTrackerRowLabel: View {
+    let systemImage: String
+    let title: String
+    let date: Date?
+    let status: ReadinessStatus
+    var detail: String?
+
+    var body: some View {
+        HStack(alignment: .center, spacing: 12) {
+            Image(systemName: systemImage)
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(AppTheme.accent)
+                .frame(width: 32, height: 32)
+                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+
+            VStack(alignment: .leading, spacing: 3) {
+                Text(title)
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(.primary)
+
+                if let detail {
+                    Text(detail)
+                        .font(.caption)
+                        .foregroundStyle(date == nil && status == .notSet ? .tertiary : .secondary)
+                } else if let date {
+                    Text(date.formatted(date: .abbreviated, time: .omitted))
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+
+                    if let countdown = daysUntilText(for: date) {
+                        Text(countdown)
+                            .font(.caption.weight(.medium))
+                            .foregroundStyle(status.color)
+                    }
+                } else {
+                    Text("Tap to set a due date")
+                        .font(.caption)
+                        .foregroundStyle(.tertiary)
+                }
+            }
+
+            Spacer(minLength: 8)
+
+            ReadinessStatusPill(status: status)
+
+            Image(systemName: "chevron.right")
+                .font(.caption2.weight(.semibold))
+                .foregroundStyle(.quaternary)
+        }
+        .padding(.horizontal, AssignmentMetrics.cardPadding)
+        .padding(.vertical, 12)
+        .contentShape(Rectangle())
+    }
+
+    private func daysUntilText(for date: Date) -> String? {
+        let calendar = Calendar.current
+        let days = calendar.dateComponents(
+            [.day],
+            from: calendar.startOfDay(for: Date()),
+            to: calendar.startOfDay(for: date)
+        ).day ?? 0
+
+        switch days {
+        case ..<0: return "Past due"
+        case 0: return "Due today"
+        case 1: return "1 day left"
+        default: return "\(days) days left"
+        }
+    }
+}
+
+private struct ReadinessSummaryBadge: View {
+    let tracker: ReadinessTracker
+
+    private var label: String {
+        let statuses = ReadinessItem.standardItems.map { $0.status(tracker) } + [
+            ReadinessStatus.evaluatePCSWindow(start: tracker.pcsWindowStart, end: tracker.pcsWindowEnd)
+        ]
+
+        if statuses.contains(.overdue) { return "Action needed" }
+        if statuses.contains(.dueSoon) || statuses.contains(.windowOpen) { return "Upcoming" }
+        return "On track"
+    }
+
+    private var color: Color {
+        let statuses = ReadinessItem.standardItems.map { $0.status(tracker) } + [
+            ReadinessStatus.evaluatePCSWindow(start: tracker.pcsWindowStart, end: tracker.pcsWindowEnd)
+        ]
+
+        if statuses.contains(.overdue) { return AppTheme.danger }
+        if statuses.contains(.dueSoon) { return AppTheme.warning }
+        if statuses.contains(.windowOpen) { return AppTheme.info }
+        return AppTheme.success
+    }
+
+    var body: some View {
+        Text(label)
+            .font(.caption2.weight(.semibold))
+            .foregroundStyle(color)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 5)
+            .background(color.opacity(0.12), in: Capsule())
+    }
+}
+
+private struct ReadinessStatusPill: View {
+    let status: ReadinessStatus
+
+    var body: some View {
+        Text(status == .notSet ? "Add" : status.label)
+            .font(.caption2.weight(.semibold))
+            .foregroundStyle(status == .notSet ? AppTheme.accent : status.color)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background((status == .notSet ? AppTheme.accent : status.color).opacity(0.12))
+            .clipShape(Capsule())
     }
 }
 
@@ -359,19 +458,5 @@ extension ReadinessItem: Hashable {
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
-    }
-}
-
-private struct ReadinessStatusPill: View {
-    let status: ReadinessStatus
-
-    var body: some View {
-        Text(status.label)
-            .font(.caption2.weight(.semibold))
-            .foregroundStyle(status.color)
-            .padding(.horizontal, 8)
-            .padding(.vertical, 4)
-            .background(status.color.opacity(0.12))
-            .clipShape(Capsule())
     }
 }

@@ -96,11 +96,11 @@ struct PCSChecklistCard: View {
 
                 Text("\(completedCount)/\(items.count)")
                     .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(progress >= 1 ? .green : .secondary)
+                    .foregroundStyle(progress >= 1 ? AppTheme.success : .secondary)
             }
 
             ProgressView(value: progress)
-                .tint(progress >= 1 ? .green : .accentColor)
+                .tint(progress >= 1 ? AppTheme.success : AppTheme.accent)
         }
     }
 
@@ -152,7 +152,7 @@ private struct ChecklistToggleStyle: ToggleStyle {
             HStack(alignment: .top, spacing: 12) {
                 Image(systemName: configuration.isOn ? "checkmark.circle.fill" : "circle")
                     .font(.title3)
-                    .foregroundStyle(configuration.isOn ? .green : Color(.tertiaryLabel))
+                    .foregroundStyle(configuration.isOn ? AppTheme.success : Color(.tertiaryLabel))
                     .frame(width: 24)
 
                 configuration.label

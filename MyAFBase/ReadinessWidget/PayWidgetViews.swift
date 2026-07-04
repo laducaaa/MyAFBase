@@ -42,7 +42,7 @@ struct PayWidgetView: View {
             HStack(alignment: .center, spacing: 10) {
                 Image(systemName: snapshot.symbolName)
                     .font(.title2)
-                    .foregroundStyle(snapshot.isSpecial ? .orange : WidgetPalette.payAccent(for: colorScheme))
+                    .foregroundStyle(WidgetPalette.payAccent(for: colorScheme))
 
                 Text("\(snapshot.daysUntil)")
                     .font(.system(size: 38, weight: .bold, design: .rounded))
@@ -76,7 +76,7 @@ struct PayWidgetView: View {
                 HStack(alignment: .firstTextBaseline, spacing: 8) {
                     Image(systemName: snapshot.symbolName)
                         .font(.title3)
-                        .foregroundStyle(snapshot.isSpecial ? .orange : WidgetPalette.payAccent(for: colorScheme))
+                        .foregroundStyle(WidgetPalette.payAccent(for: colorScheme))
 
                     Text("\(snapshot.daysUntil)")
                         .font(.system(size: 34, weight: .bold, design: .rounded))
@@ -108,7 +108,7 @@ struct PayWidgetView: View {
                         HStack(spacing: 6) {
                             Image(systemName: item.symbolName)
                                 .font(.caption2)
-                                .foregroundStyle(item.isSpecial ? .orange : WidgetPalette.payAccent(for: colorScheme))
+                                .foregroundStyle(WidgetPalette.payAccent(for: colorScheme))
                                 .frame(width: 14)
 
                             VStack(alignment: .leading, spacing: 0) {

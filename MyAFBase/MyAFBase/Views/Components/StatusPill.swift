@@ -29,20 +29,20 @@ extension StatusPill {
 
     private static func color(for status: GateStatus) -> Color {
         switch status {
-        case .open: return .green
-        case .closed: return .red
-        case .delayed: return .orange
-        case .unknown: return .gray
+        case .open: return AppTheme.success
+        case .closed: return AppTheme.danger
+        case .delayed: return AppTheme.warning
+        case .unknown: return AppTheme.muted
         }
     }
 
     private static func color(for traffic: TrafficLevel) -> Color {
         switch traffic {
-        case .none: return .gray
-        case .low: return .green
-        case .moderate: return .orange
-        case .high: return .red
-        case .unknown: return .gray
+        case .none: return AppTheme.muted
+        case .low: return AppTheme.success
+        case .moderate: return AppTheme.warning
+        case .high: return AppTheme.danger
+        case .unknown: return AppTheme.muted
         }
     }
 }

@@ -15,14 +15,14 @@ struct NextPayPeriodCard: View {
                 ZStack {
                     RoundedRectangle(cornerRadius: 12, style: .continuous)
                         .fill(
-                            (event.isSpecial ? Color.orange : AppTheme.accent)
+                            (event.isSpecial ? AppTheme.highlight : AppTheme.accent)
                                 .opacity(0.12)
                         )
                         .frame(width: 48, height: 48)
 
                     Image(systemName: event.systemImage)
                         .font(.title3.weight(.semibold))
-                        .foregroundStyle(event.isSpecial ? .orange : AppTheme.accent)
+                        .foregroundStyle(event.isSpecial ? AppTheme.highlight : AppTheme.accent)
                 }
                 .accessibilityHidden(true)
 

@@ -9,8 +9,8 @@ struct OpenClosedBadge: View {
 
     private var color: Color {
         switch status {
-        case .open, .alwaysOpen: .green
-        case .closed: .secondary
+        case .open, .alwaysOpen: AppTheme.success
+        case .closed: AppTheme.danger
         }
     }
 }

@@ -188,13 +188,13 @@ struct MenuView: View {
                     HStack(spacing: 12) {
                         Image(systemName: "bookmark.slash")
                             .font(.body.weight(.semibold))
-                            .foregroundStyle(.red)
+                            .foregroundStyle(AppTheme.danger)
                             .frame(width: 36, height: 36)
-                            .background(Color.red.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                            .background(AppTheme.danger.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
 
                         Text("Clear All Bookmarks")
                             .font(.subheadline.weight(.semibold))
-                            .foregroundStyle(.red)
+                            .foregroundStyle(AppTheme.danger)
 
                         Spacer(minLength: 0)
                     }
@@ -247,38 +247,40 @@ struct MenuView: View {
     // MARK: - About
 
     private var aboutSection: some View {
-        Button {
-            showWhatsNewSheet = true
-        } label: {
-            HStack(alignment: .center, spacing: 12) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("MyAFBase")
-                        .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(.primary)
+        VStack(spacing: AppTheme.cardSpacing) {
+            Button {
+                showWhatsNewSheet = true
+            } label: {
+                HStack(alignment: .center, spacing: 12) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("MyAFBase")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.primary)
 
-                    Text("What's new in version \(appVersion)")
-                        .font(.caption)
+                        Text("What's new in version \(appVersion)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+
+                    Spacer(minLength: 8)
+
+                    Text("v\(appVersion)")
+                        .font(.caption.weight(.medium))
                         .foregroundStyle(.secondary)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 4)
+                        .background(Color(.tertiarySystemFill), in: Capsule())
+
+                    Image(systemName: "chevron.right")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.tertiary)
                 }
-
-                Spacer(minLength: 8)
-
-                Text("v\(appVersion)")
-                    .font(.caption.weight(.medium))
-                    .foregroundStyle(.secondary)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(Color(.tertiarySystemFill), in: Capsule())
-
-                Image(systemName: "chevron.right")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(.tertiary)
+                .contentShape(Rectangle())
             }
-            .contentShape(Rectangle())
+            .buttonStyle(.plain)
+            .appCardStyle()
+            .accessibilityLabel("What's new in version \(appVersion)")
         }
-        .buttonStyle(.plain)
-        .appCardStyle()
-        .accessibilityLabel("What's new in version \(appVersion)")
     }
 
     private var showWeatherToggle: Binding<Bool> {

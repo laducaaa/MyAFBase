@@ -14,7 +14,7 @@ struct BookmarkButton: View {
         } label: {
             Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                 .font(ExploreMetrics.bookmarkIconFont)
-                .foregroundStyle(isBookmarked ? Color.accentColor : Color.secondary)
+                .foregroundStyle(isBookmarked ? AppTheme.accent : Color.secondary)
                 .frame(width: 28, height: 28)
                 .scaleEffect(removalScale)
                 .contentTransition(.symbolEffect(.replace))

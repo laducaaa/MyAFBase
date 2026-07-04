@@ -51,7 +51,7 @@ struct PFRAPlannerVerdictHeader: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: isPositive ? "checkmark.seal.fill" : "exclamationmark.triangle.fill")
                 .font(.title2)
-                .foregroundStyle(isPositive ? Color.green : Color.orange)
+                .foregroundStyle(isPositive ? AppTheme.success : AppTheme.warning)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
@@ -73,27 +73,198 @@ struct PFRACompositeComparisonRow: View {
     var targetLabel: String = "Target"
 
     var body: some View {
-        HStack(alignment: .top, spacing: 0) {
-            scoreColumn(label: currentLabel, value: current, emphasis: false)
+        HStack(alignment: .lastTextBaseline, spacing: 16) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(currentLabel)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                Text(String(format: "%.1f", current))
+                    .font(.system(size: 42, weight: .bold, design: .rounded))
+                    .monospacedDigit()
+            }
+
             Spacer(minLength: 8)
-            scoreColumn(label: targetLabel, value: target, emphasis: true)
+
+            VStack(alignment: .trailing, spacing: 4) {
+                Text(targetLabel)
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+                Text(String(format: "%.1f", target))
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(.secondary)
+                    .monospacedDigit()
+            }
         }
         .padding(14)
         .background(Color(.secondarySystemGroupedBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
+}
 
-    private func scoreColumn(label: String, value: Double, emphasis: Bool) -> some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(label)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-            Text(String(format: "%.1f", value))
-                .font(emphasis ? .title.weight(.bold) : .title2.weight(.semibold))
-                .foregroundStyle(emphasis ? AppTheme.accent : .primary)
-                .monospacedDigit()
+struct PFRAComponentScoreInline: View {
+    let score: PFRAComponentScore
+
+    private var minimumPoints: Double {
+        score.name == "Cardio" ? PFRAScoring.cardioMinimum : PFRAScoring.componentMinimum
+    }
+
+    private var progress: Double {
+        guard score.maxPoints > 0 else { return 0 }
+        return min(score.points / score.maxPoints, 1.0)
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Divider()
+
+            HStack(alignment: .firstTextBaseline) {
+                Text(String(format: "%.1f", score.points))
+                    .font(.headline.weight(.bold).monospacedDigit())
+                    .foregroundStyle(score.passed ? Color.primary : AppTheme.warning)
+
+                Text("/ \(Int(score.maxPoints)) pts")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Spacer(minLength: 8)
+
+                Label {
+                    Text(score.passed ? "Passes" : "Below min")
+                        .font(.caption.weight(.semibold))
+                } icon: {
+                    Image(systemName: score.passed ? "checkmark.circle.fill" : "exclamationmark.circle.fill")
+                        .font(.caption)
+                }
+                .foregroundStyle(score.passed ? AppTheme.success : AppTheme.warning)
+            }
+
+            GeometryReader { proxy in
+                ZStack(alignment: .leading) {
+                    Capsule()
+                        .fill(Color(.systemGray5))
+                    Capsule()
+                        .fill(score.passed ? AppTheme.success.opacity(0.85) : AppTheme.warning.opacity(0.85))
+                        .frame(width: proxy.size.width * progress)
+                }
+            }
+            .frame(height: 6)
+
+            HStack {
+                Text(score.detail)
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+
+                Spacer(minLength: 8)
+
+                if !score.passed {
+                    Text("Need \(formattedMinimum)+")
+                        .font(.caption2.weight(.medium))
+                        .foregroundStyle(AppTheme.warning)
+                }
+            }
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.top, 2)
+        .animation(.easeInOut(duration: 0.2), value: score.points)
+    }
+
+    private var formattedMinimum: String {
+        if score.name == "Cardio" {
+            return String(format: "%.0f", minimumPoints)
+        }
+        return String(format: "%.1f", minimumPoints)
+    }
+}
+
+struct PFRAComponentGoalInline: View {
+    let component: PFRAComponentTarget
+
+    private var progress: Double {
+        guard component.requiredPoints > 0 else { return 0 }
+        return min(component.currentPoints / component.requiredPoints, 1.0)
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Divider()
+
+            HStack(alignment: .firstTextBaseline) {
+                Text(String(format: "%.1f", component.currentPoints))
+                    .font(.headline.weight(.bold).monospacedDigit())
+                    .foregroundStyle(component.needsImprovement ? AppTheme.warning : Color.primary)
+
+                Text("/ \(formattedRequired) goal")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Spacer(minLength: 8)
+
+                if component.needsImprovement, component.pointsGap > 0.05 {
+                    Label {
+                        Text("+\(formattedGap) pts")
+                            .font(.caption.weight(.semibold))
+                    } icon: {
+                        Image(systemName: "arrow.up.circle.fill")
+                            .font(.caption)
+                    }
+                    .foregroundStyle(AppTheme.warning)
+                } else {
+                    Label {
+                        Text("On track")
+                            .font(.caption.weight(.semibold))
+                    } icon: {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.caption)
+                    }
+                    .foregroundStyle(AppTheme.success)
+                }
+            }
+
+            GeometryReader { proxy in
+                ZStack(alignment: .leading) {
+                    Capsule()
+                        .fill(Color(.systemGray5))
+                    Capsule()
+                        .fill(component.needsImprovement ? AppTheme.warning.opacity(0.85) : AppTheme.success.opacity(0.85))
+                        .frame(width: proxy.size.width * progress)
+                }
+            }
+            .frame(height: 6)
+
+            Text(component.currentDetail)
+                .font(.caption)
+                .foregroundStyle(.tertiary)
+
+            if component.needsImprovement {
+                Text(actionableTarget(component.targetDetail))
+                    .font(.caption.weight(.medium))
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(.top, 2)
+        .animation(.easeInOut(duration: 0.2), value: component.currentPoints)
+    }
+
+    private var formattedRequired: String {
+        if component.name == "Cardio" {
+            return String(format: "%.0f", component.requiredPoints)
+        }
+        return String(format: "%.1f", component.requiredPoints)
+    }
+
+    private var formattedGap: String {
+        if component.name == "Cardio" {
+            return String(format: "%.0f", component.pointsGap)
+        }
+        return String(format: "%.1f", component.pointsGap)
+    }
+
+    private func actionableTarget(_ detail: String) -> String {
+        if let range = detail.range(of: " (", options: .backwards),
+           detail[range.upperBound...].contains("pts") {
+            return String(detail[..<range.lowerBound])
+        }
+        return detail
     }
 }
 
@@ -121,7 +292,7 @@ struct PFRACompositeProgressBar: View {
                 Spacer()
                 Text(meetsTarget ? passingLabel : String(format: "%.0f%% there", progress * 100))
                     .font(.caption.weight(.semibold))
-                    .foregroundStyle(meetsTarget ? Color.green : .secondary)
+                    .foregroundStyle(meetsTarget ? AppTheme.success : .secondary)
             }
 
             GeometryReader { proxy in
@@ -129,7 +300,7 @@ struct PFRACompositeProgressBar: View {
                     Capsule()
                         .fill(Color(.systemGray5))
                     Capsule()
-                        .fill(meetsTarget ? Color.green.opacity(0.85) : AppTheme.accent.opacity(0.85))
+                        .fill(meetsTarget ? AppTheme.success.opacity(0.85) : AppTheme.accent.opacity(0.85))
                         .frame(width: proxy.size.width * progress)
                 }
             }
@@ -168,29 +339,28 @@ struct PFRAStepperRow: View {
         HStack(spacing: 12) {
             Text(label)
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
 
             Spacer(minLength: 8)
 
-            HStack(spacing: 0) {
+            HStack(spacing: 12) {
                 stepButton(systemImage: "minus", action: onDecrement)
                 Text(valueText)
-                    .font(.title3.weight(.semibold).monospacedDigit())
-                    .frame(minWidth: 72)
+                    .font(.body.weight(.semibold).monospacedDigit())
+                    .frame(minWidth: 56)
                     .multilineTextAlignment(.center)
                 stepButton(systemImage: "plus", action: onIncrement)
             }
-            .background(Color(.secondarySystemGroupedBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
         }
+        .padding(.vertical, 2)
     }
 
     private func stepButton(systemImage: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: systemImage)
-                .font(.body.weight(.semibold))
-                .frame(width: 44, height: 44)
-                .contentShape(Rectangle())
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(AppTheme.accent)
+                .frame(width: 32, height: 32)
+                .background(Color(.tertiarySystemFill), in: Circle())
         }
         .buttonStyle(.plain)
     }
@@ -203,25 +373,33 @@ struct PFRACompactStepper: View {
     let onIncrement: () -> Void
 
     var body: some View {
-        VStack(spacing: 8) {
+        HStack(spacing: 10) {
             Text(label)
                 .font(.caption)
                 .foregroundStyle(.secondary)
-            HStack(spacing: 0) {
-                Button(action: onDecrement) {
-                    Image(systemName: "minus").frame(width: 36, height: 36)
-                }
-                .buttonStyle(.plain)
-                Text(valueText)
-                    .font(.title3.weight(.semibold).monospacedDigit())
-                    .frame(maxWidth: .infinity)
-                Button(action: onIncrement) {
-                    Image(systemName: "plus").frame(width: 36, height: 36)
-                }
-                .buttonStyle(.plain)
+                .frame(width: 44, alignment: .leading)
+
+            Button(action: onDecrement) {
+                Image(systemName: "minus")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.accent)
+                    .frame(width: 28, height: 28)
+                    .background(Color(.tertiarySystemFill), in: Circle())
             }
-            .background(Color(.secondarySystemGroupedBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .buttonStyle(.plain)
+
+            Text(valueText)
+                .font(.body.weight(.semibold).monospacedDigit())
+                .frame(minWidth: 40)
+
+            Button(action: onIncrement) {
+                Image(systemName: "plus")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.accent)
+                    .frame(width: 28, height: 28)
+                    .background(Color(.tertiarySystemFill), in: Circle())
+            }
+            .buttonStyle(.plain)
         }
         .frame(maxWidth: .infinity)
     }
@@ -234,39 +412,50 @@ struct PFRATimeStepper: View {
     let minuteRange: ClosedRange<Int>
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 8) {
             Text(label)
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
-            HStack(spacing: 12) {
+
+            HStack(spacing: 16) {
                 timeUnit(label: "Min", value: $minutes, range: minuteRange)
-                Text(":").font(.title2.weight(.bold)).foregroundStyle(.secondary)
+                Text(":")
+                    .font(.title3.weight(.medium))
+                    .foregroundStyle(.tertiary)
                 timeUnit(label: "Sec", value: $seconds, range: 0...59)
             }
         }
     }
 
     private func timeUnit(label: String, value: Binding<Int>, range: ClosedRange<Int>) -> some View {
-        VStack(spacing: 8) {
-            Text(label).font(.caption2).foregroundStyle(.tertiary)
-            HStack(spacing: 0) {
-                Button { value.wrappedValue = max(range.lowerBound, value.wrappedValue - 1) } label: {
-                    Image(systemName: "minus").frame(width: 36, height: 40)
-                }
-                .buttonStyle(.plain)
-                Text(String(format: "%02d", value.wrappedValue))
-                    .font(.title2.weight(.semibold).monospacedDigit())
-                    .frame(minWidth: 52)
-                Button { value.wrappedValue = min(range.upperBound, value.wrappedValue + 1) } label: {
-                    Image(systemName: "plus").frame(width: 36, height: 40)
-                }
-                .buttonStyle(.plain)
+        HStack(spacing: 10) {
+            Text(label)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .frame(width: 28, alignment: .leading)
+
+            Button { value.wrappedValue = max(range.lowerBound, value.wrappedValue - 1) } label: {
+                Image(systemName: "minus")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.accent)
+                    .frame(width: 28, height: 28)
+                    .background(Color(.tertiarySystemFill), in: Circle())
             }
-            .frame(maxWidth: .infinity)
-            .background(Color(.secondarySystemGroupedBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .buttonStyle(.plain)
+
+            Text(String(format: "%02d", value.wrappedValue))
+                .font(.body.weight(.semibold).monospacedDigit())
+                .frame(minWidth: 36)
+
+            Button { value.wrappedValue = min(range.upperBound, value.wrappedValue + 1) } label: {
+                Image(systemName: "plus")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.accent)
+                    .frame(width: 28, height: 28)
+                    .background(Color(.tertiarySystemFill), in: Circle())
+            }
+            .buttonStyle(.plain)
         }
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

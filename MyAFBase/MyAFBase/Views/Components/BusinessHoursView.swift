@@ -174,8 +174,8 @@ struct BusinessHoursView: View {
 
     private func statusColor(_ status: OpenStatus) -> Color {
         switch status {
-        case .open, .alwaysOpen: .green
-        case .closed: .secondary
+        case .open, .alwaysOpen: AppTheme.success
+        case .closed: AppTheme.danger
         }
     }
 }

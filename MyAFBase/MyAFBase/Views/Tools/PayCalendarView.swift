@@ -3,6 +3,7 @@ import SwiftUI
 struct PayCalendarView: View {
     @State private var specialPayStore = SpecialPayStore()
     @State private var showAddSpecialPay = false
+    @State private var insightsExpanded = false
 
     private var upcomingEvents: [PayCalendarEvent] {
         PayCalendar.upcomingEvents(specialPays: specialPayStore.entries)
@@ -12,11 +13,43 @@ struct PayCalendarView: View {
         upcomingEvents.first
     }
 
+    private var payInsights: [PayCalendarInsight] {
+        PayCalendar.insights(from: upcomingEvents)
+    }
+
+    private var nextLongGap: PayGapInsight? {
+        PayCalendar.longGapInsights(in: upcomingEvents).first
+    }
+
+    private var additionalInsights: [PayCalendarInsight] {
+        guard let nextLongGap else { return payInsights }
+        return payInsights.filter { $0.id != "long-\(nextLongGap.id)" }
+    }
+
+    private var totalInsightCount: Int {
+        payInsights.count
+    }
+
+    private var insightsSummary: String {
+        if let nextLongGap {
+            return "\(nextLongGap.gapDays)-day pay gap · \(totalInsightCount) total"
+        }
+        let warnings = payInsights.filter { $0.severity == .warning }.count
+        if warnings > 0 {
+            return "\(warnings) warning\(warnings == 1 ? "" : "s") · \(totalInsightCount) total"
+        }
+        return "\(totalInsightCount) schedule note\(totalInsightCount == 1 ? "" : "s")"
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
                 if let nextEvent {
                     nextPayCard(nextEvent)
+                }
+
+                if totalInsightCount > 0 {
+                    collapsibleInsightsCard
                 }
 
                 regularPayInfoCard
@@ -55,6 +88,123 @@ struct PayCalendarView: View {
 
     private func nextPayCard(_ event: PayCalendarEvent) -> some View {
         NextPayPeriodCard(event: event)
+    }
+
+    private var collapsibleInsightsCard: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Button {
+                withAnimation(.easeInOut(duration: 0.2)) {
+                    insightsExpanded.toggle()
+                }
+            } label: {
+                HStack(alignment: .center, spacing: 12) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Insights")
+                            .font(.headline)
+                            .foregroundStyle(.primary)
+
+                        if !insightsExpanded {
+                            Text(insightsSummary)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.leading)
+                        }
+                    }
+
+                    Spacer(minLength: 8)
+
+                    Text("\(totalInsightCount)")
+                        .font(.caption.weight(.bold))
+                        .monospacedDigit()
+                        .foregroundStyle(.secondary)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(Color(.tertiarySystemFill), in: Capsule())
+
+                    Image(systemName: insightsExpanded ? "chevron.up" : "chevron.down")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(
+                insightsExpanded
+                    ? "Insights, \(totalInsightCount) items, expanded"
+                    : "Insights, \(totalInsightCount) items, collapsed"
+            )
+            .accessibilityHint(insightsExpanded ? "Collapse insights" : "Expand to see all insights")
+
+            if insightsExpanded {
+                VStack(alignment: .leading, spacing: 14) {
+                    if let nextLongGap {
+                        nextLongGapContent(nextLongGap)
+
+                        if !additionalInsights.isEmpty {
+                            Divider()
+                        }
+                    }
+
+                    ForEach(additionalInsights) { insight in
+                        PayCalendarInsightRow(insight: insight)
+
+                        if insight.id != additionalInsights.last?.id {
+                            Divider()
+                        }
+                    }
+                }
+                .padding(.top, 14)
+            }
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private func nextLongGapContent(_ gap: PayGapInsight) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(alignment: .top, spacing: 12) {
+                Image(systemName: "exclamationmark.triangle.fill")
+                    .font(.title3)
+                    .foregroundStyle(AppTheme.warning)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Long stretch until next pay")
+                        .font(.subheadline.weight(.semibold))
+                    Text("\(gap.gapDays) days after \(gap.priorPay.title.lowercased()) on \(gap.priorPay.date.formatted(date: .abbreviated, time: .omitted))")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+
+            HStack(alignment: .lastTextBaseline, spacing: 16) {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Gap length")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    Text("\(gap.gapDays)")
+                        .font(.system(size: 32, weight: .bold, design: .rounded))
+                        .foregroundStyle(AppTheme.warning)
+                        .monospacedDigit()
+                }
+
+                Spacer(minLength: 8)
+
+                VStack(alignment: .trailing, spacing: 4) {
+                    Text("Next pay")
+                        .font(.caption)
+                        .foregroundStyle(.tertiary)
+                    Text(gap.nextPay.date.formatted(date: .abbreviated, time: .omitted))
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(14)
+            .background(Color(.secondarySystemGroupedBackground))
+            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+
+            Text("Weekend shifts on the 1st and 15th can create gaps longer than two weeks. Plan spending until \(gap.nextPay.date.formatted(date: .abbreviated, time: .omitted)).")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+        }
     }
 
     private var regularPayInfoCard: some View {
@@ -107,6 +257,13 @@ struct PayCalendarView: View {
                             VStack(spacing: 0) {
                                 ForEach(events) { event in
                                     payEventRow(event)
+
+                                    if let gap = PayCalendar.gapAfter(event: event, in: upcomingEvents),
+                                       gap.isLongGap || gap.isShortGap,
+                                       event.id != events.last?.id {
+                                        payGapBadge(gap)
+                                    }
+
                                     if event.id != events.last?.id {
                                         Divider().padding(.leading, 44)
                                     }
@@ -140,7 +297,7 @@ struct PayCalendarView: View {
                     ForEach(specialPayStore.entries) { entry in
                         HStack(spacing: 12) {
                             Image(systemName: "star.circle.fill")
-                                .foregroundStyle(.orange)
+                                .foregroundStyle(AppTheme.highlight)
                                 .frame(width: 28)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(entry.title)
@@ -194,7 +351,7 @@ struct PayCalendarView: View {
     private func payEventRow(_ event: PayCalendarEvent) -> some View {
         HStack(spacing: 12) {
             Image(systemName: event.systemImage)
-                .foregroundStyle(event.isSpecial ? .orange : AppTheme.accent)
+                .foregroundStyle(event.isSpecial ? AppTheme.highlight : AppTheme.accent)
                 .frame(width: 28)
 
             VStack(alignment: .leading, spacing: 2) {
@@ -216,8 +373,64 @@ struct PayCalendarView: View {
         .padding(.vertical, 12)
     }
 
+    private func payGapBadge(_ gap: PayGapInsight) -> some View {
+        HStack(spacing: 8) {
+            Image(systemName: gap.isLongGap ? "exclamationmark.triangle.fill" : "info.circle.fill")
+                .font(.caption2)
+                .foregroundStyle(gap.isLongGap ? AppTheme.warning : AppTheme.accent)
+
+            Text(gap.isLongGap
+                 ? "\(gap.gapDays)-day gap until next pay"
+                 : "Only \(gap.gapDays) days until next pay")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(gap.isLongGap ? AppTheme.warning : .secondary)
+
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+        .background(gap.isLongGap ? AppTheme.warning.opacity(0.08) : Color(.secondarySystemGroupedBackground))
+    }
+
     private func monthTitle(for date: Date) -> String {
         date.formatted(.dateTime.month(.wide).year())
+    }
+}
+
+private struct PayCalendarInsightRow: View {
+    let insight: PayCalendarInsight
+
+    private var tint: Color {
+        switch insight.severity {
+        case .warning: AppTheme.warning
+        case .info: AppTheme.info
+        }
+    }
+
+    private var icon: String {
+        switch insight.kind {
+        case .longGap: "calendar.badge.exclamationmark"
+        case .shortGap: "calendar.badge.clock"
+        case .weekendAdjustment: "arrow.backward.circle.fill"
+        }
+    }
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: icon)
+                .font(.subheadline)
+                .foregroundStyle(tint)
+                .frame(width: 18)
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(insight.title)
+                    .font(.subheadline.weight(.semibold))
+                Text(insight.message)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
     }
 }
 

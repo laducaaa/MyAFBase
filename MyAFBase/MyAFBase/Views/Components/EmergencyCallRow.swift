@@ -10,7 +10,7 @@ struct EmergencyCallRow: View {
             HStack(spacing: 14) {
                 Image(systemName: iconName)
                     .font(.title3)
-                    .foregroundStyle(isUniversalEmergency ? .red : .primary)
+                    .foregroundStyle(isUniversalEmergency ? AppTheme.danger : .primary)
                     .frame(width: 44, height: 44)
                     .background(iconBackground, in: Circle())
 
@@ -27,7 +27,7 @@ struct EmergencyCallRow: View {
                                 .foregroundStyle(.white)
                                 .padding(.horizontal, 8)
                                 .padding(.vertical, 4)
-                                .background(Color.red, in: Capsule())
+                                .background(AppTheme.danger, in: Capsule())
                         }
                     }
 
@@ -48,7 +48,7 @@ struct EmergencyCallRow: View {
             .overlay {
                 if isUniversalEmergency {
                     RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .strokeBorder(Color.red.opacity(0.3), lineWidth: 1)
+                        .strokeBorder(AppTheme.danger.opacity(0.3), lineWidth: 1)
                 }
             }
         }
@@ -67,7 +67,7 @@ struct EmergencyCallRow: View {
             .foregroundStyle(.white)
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color.red, in: Capsule())
+            .background(AppTheme.danger, in: Capsule())
         } else {
             Image(systemName: "chevron.right")
                 .font(.caption.weight(.semibold))
@@ -77,7 +77,7 @@ struct EmergencyCallRow: View {
 
     private var iconBackground: Color {
         if isUniversalEmergency {
-            return Color.red.opacity(0.12)
+            return AppTheme.danger.opacity(0.12)
         }
         return Color(.secondarySystemFill)
     }

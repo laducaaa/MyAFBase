@@ -13,7 +13,7 @@ struct ResourceCard: View {
                 VStack(alignment: .leading, spacing: 6) {
                     HStack {
                         Image(systemName: resource.category.systemImage)
-                            .foregroundStyle(Color.accentColor)
+                            .foregroundStyle(AppTheme.accent)
                         Text(resource.name)
                             .font(.headline)
                             .foregroundStyle(.primary)

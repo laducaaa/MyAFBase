@@ -163,7 +163,7 @@ struct FeedbackSheet: View {
 
                 Text(messageCountLabel)
                     .font(.caption.weight(.medium))
-                    .foregroundStyle(messageCount >= FeedbackConfig.minimumMessageLength ? .green : .secondary)
+                    .foregroundStyle(messageCount >= FeedbackConfig.minimumMessageLength ? AppTheme.success : .secondary)
             }
 
             ZStack(alignment: .topLeading) {
@@ -278,12 +278,12 @@ struct FeedbackSheet: View {
             VStack(spacing: 20) {
                 ZStack {
                     Circle()
-                        .fill(Color.green.opacity(0.14))
+                        .fill(AppTheme.success.opacity(0.14))
                         .frame(width: 88, height: 88)
 
                     Image(systemName: "checkmark.circle.fill")
                         .font(.system(size: 56))
-                        .foregroundStyle(.green)
+                        .foregroundStyle(AppTheme.success)
                         .symbolEffect(.bounce, value: didSucceed)
                 }
 
@@ -332,20 +332,20 @@ struct FeedbackSheet: View {
         VStack(alignment: .leading, spacing: 8) {
             Label("Developer: feedback not configured", systemImage: "exclamationmark.triangle.fill")
                 .font(.caption.weight(.semibold))
-                .foregroundStyle(.orange)
+                .foregroundStyle(AppTheme.warning)
 
             Text("Set FeedbackConfig.endpoint after deploying scripts/feedback-worker.")
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
-        .appCardStyle(background: Color.orange.opacity(0.08))
+        .appCardStyle(background: AppTheme.warning.opacity(0.08))
     }
     #endif
 
     private func errorBanner(_ message: String) -> some View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "exclamationmark.triangle.fill")
-                .foregroundStyle(.orange)
+                .foregroundStyle(AppTheme.warning)
 
             Text(message)
                 .font(.caption)
@@ -354,7 +354,7 @@ struct FeedbackSheet: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.orange.opacity(0.1), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .background(AppTheme.warning.opacity(0.1), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 
     @MainActor

@@ -2,56 +2,20 @@ import SwiftUI
 import UIKit
 
 enum AppIntentSnippetPalette {
-    static let primaryText = Color(uiColor: UIColor { traits in
-        traits.userInterfaceStyle == .dark
-            ? UIColor(white: 0.95, alpha: 1)
-            : UIColor(red: 0.08, green: 0.10, blue: 0.14, alpha: 1)
-    })
+    static let primaryText = Color.primary
+    static let secondaryText = Color.secondary
+    static let tertiaryText = Color(uiColor: .tertiaryLabel)
 
-    static let secondaryText = Color(uiColor: UIColor { traits in
-        traits.userInterfaceStyle == .dark
-            ? UIColor(white: 0.78, alpha: 1)
-            : UIColor(red: 0.28, green: 0.32, blue: 0.38, alpha: 1)
-    })
-
-    static let tertiaryText = Color(uiColor: UIColor { traits in
-        traits.userInterfaceStyle == .dark
-            ? UIColor(white: 0.62, alpha: 1)
-            : UIColor(red: 0.42, green: 0.46, blue: 0.52, alpha: 1)
-    })
-
-    static let payAccent = Color(uiColor: UIColor { traits in
-        traits.userInterfaceStyle == .dark
-            ? UIColor(red: 0.98, green: 0.78, blue: 0.22, alpha: 1)
-            : UIColor(red: 0.72, green: 0.52, blue: 0.04, alpha: 1)
-    })
+    static let payAccent = AppTheme.highlight
 
     static func reminderAccent(for status: ReadinessStatus) -> Color {
-        Color(uiColor: UIColor { traits in
-            let isDark = traits.userInterfaceStyle == .dark
-            switch status {
-            case .overdue:
-                return isDark
-                    ? UIColor(red: 1.0, green: 0.35, blue: 0.33, alpha: 1)
-                    : UIColor(red: 0.78, green: 0.12, blue: 0.14, alpha: 1)
-            case .dueSoon:
-                return isDark
-                    ? UIColor(red: 1.0, green: 0.62, blue: 0.20, alpha: 1)
-                    : UIColor(red: 0.82, green: 0.42, blue: 0.04, alpha: 1)
-            case .onTrack:
-                return isDark
-                    ? UIColor(red: 0.35, green: 0.82, blue: 0.48, alpha: 1)
-                    : UIColor(red: 0.10, green: 0.52, blue: 0.28, alpha: 1)
-            case .windowOpen:
-                return isDark
-                    ? UIColor(red: 0.40, green: 0.68, blue: 1.0, alpha: 1)
-                    : UIColor(red: 0.08, green: 0.38, blue: 0.78, alpha: 1)
-            case .notSet:
-                return isDark
-                    ? UIColor(white: 0.78, alpha: 1)
-                    : UIColor(red: 0.28, green: 0.32, blue: 0.38, alpha: 1)
-            }
-        })
+        switch status {
+        case .overdue: AppTheme.danger
+        case .dueSoon: AppTheme.warning
+        case .onTrack: AppTheme.success
+        case .windowOpen: AppTheme.info
+        case .notSet: AppTheme.muted
+        }
     }
 }
 

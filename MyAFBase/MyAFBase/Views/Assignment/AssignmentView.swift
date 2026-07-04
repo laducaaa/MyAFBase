@@ -143,29 +143,6 @@ struct AssignmentView: View {
     @ViewBuilder
     private func stationedContent(for base: Base) -> some View {
         ReadinessTrackerView(baseID: base.id, baseName: base.name)
-
-        AssignmentSectionHeader(
-            title: "Essential AFIs",
-            subtitle: "Dress & appearance, blue book, fitness, and other go-to publications."
-        )
-
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-            ForEach(EssentialAFIs.stationed) { afi in
-                AssignmentAFICard(afi: afi)
-            }
-        }
-
-        Link(destination: EssentialAFIs.ePublishingIndex) {
-            Label("Browse all publications on e-Publishing", systemImage: "books.vertical")
-                .labelStyle(AppAccentIconLabelStyle())
-                .font(.caption)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-
-        AssignmentTipCard(
-            message: "Bookmark your favorite gates, resources, and events in Explore — they'll show up on your Home tab.",
-            systemImage: "bookmark.fill"
-        )
     }
 
     // MARK: - Out Processing

@@ -127,11 +127,11 @@ enum LeavePlanner {
     }
 
     /// Accrual with a simple balance cap applied over the projection window.
-    private static func accruedLeave(
+    static func accruedLeave(
         from startingBalance: Double,
         daysUntil: Int,
         accrualPerMonth: Double,
-        maxBalance: Double
+        maxBalance: Double = defaultMaxAccruingBalance
     ) -> Double {
         guard daysUntil > 0, accrualPerMonth > 0, startingBalance < maxBalance else {
             return 0
@@ -141,6 +141,155 @@ enum LeavePlanner {
         let uncapped = months * accrualPerMonth
         let roomToCap = max(0, maxBalance - startingBalance)
         return min(uncapped, roomToCap)
+    }
+
+    static func projectBalance(
+        currentBalance: Double,
+        on targetDate: Date,
+        accrualPerMonth: Double = defaultAccrualPerMonth,
+        maxAccruingBalance: Double = defaultMaxAccruingBalance,
+        from referenceDate: Date = Date(),
+        calendar: Calendar = .current
+    ) -> LeaveBalanceProjectionResult? {
+        guard currentBalance >= 0, accrualPerMonth >= 0, maxAccruingBalance > 0 else {
+            return nil
+        }
+
+        let startOfToday = calendar.startOfDay(for: referenceDate)
+        let startOfTarget = calendar.startOfDay(for: targetDate)
+        let daysUntil = calendar.dateComponents([.day], from: startOfToday, to: startOfTarget).day ?? 0
+
+        guard daysUntil >= 0 else {
+            return LeaveBalanceProjectionResult(
+                targetDate: startOfTarget,
+                currentBalance: currentBalance,
+                projectedBalance: currentBalance,
+                accruedAmount: 0,
+                daysUntilTarget: daysUntil,
+                hitAccrualCap: false
+            )
+        }
+
+        let accrued = daysUntil == 0 ? 0 : accruedLeave(
+            from: currentBalance,
+            daysUntil: daysUntil,
+            accrualPerMonth: accrualPerMonth,
+            maxBalance: maxAccruingBalance
+        )
+        let projected = min(maxAccruingBalance, currentBalance + accrued)
+        let hitCap = projected >= maxAccruingBalance - 0.05 && currentBalance < maxAccruingBalance
+
+        return LeaveBalanceProjectionResult(
+            targetDate: startOfTarget,
+            currentBalance: currentBalance,
+            projectedBalance: projected,
+            accruedAmount: accrued,
+            daysUntilTarget: daysUntil,
+            hitAccrualCap: hitCap
+        )
+    }
+
+    static func evaluateMultipleTrips(
+        currentBalance: Double,
+        trips: [LeavePlannedTrip],
+        accrualPerMonth: Double = defaultAccrualPerMonth,
+        maxAccruingBalance: Double = defaultMaxAccruingBalance,
+        from referenceDate: Date = Date(),
+        calendar: Calendar = .current
+    ) -> LeaveMultiTripCoverageResult? {
+        guard currentBalance >= 0, accrualPerMonth >= 0, maxAccruingBalance > 0 else {
+            return nil
+        }
+
+        let startOfToday = calendar.startOfDay(for: referenceDate)
+        let sortedTrips = trips
+            .map { trip -> LeavePlannedTrip in
+                var normalized = trip
+                normalized.startDate = calendar.startOfDay(for: trip.startDate)
+                normalized.endDate = calendar.startOfDay(for: trip.endDate)
+                if normalized.endDate < normalized.startDate {
+                    normalized.endDate = normalized.startDate
+                }
+                return normalized
+            }
+            .sorted { $0.startDate < $1.startDate }
+
+        guard !sortedTrips.isEmpty else { return nil }
+
+        var balance = currentBalance
+        var checkpoint = startOfToday
+        var evaluations: [LeaveTripEvaluation] = []
+        var overlapWarnings: [String] = []
+
+        for (index, trip) in sortedTrips.enumerated() {
+            guard let leaveDayCount = leaveDays(from: trip.startDate, to: trip.endDate, calendar: calendar),
+                  leaveDayCount > 0 else {
+                continue
+            }
+
+            if index > 0 {
+                let previous = sortedTrips[index - 1]
+                if trip.startDate <= previous.endDate {
+                    let name = trip.label.isEmpty ? "Trip \(index + 1)" : trip.label
+                    let previousName = previous.label.isEmpty ? "Trip \(index)" : previous.label
+                    overlapWarnings.append("\(name) overlaps with \(previousName).")
+                }
+            }
+
+            if trip.startDate > checkpoint {
+                let daysUntilTrip = calendar.dateComponents([.day], from: checkpoint, to: trip.startDate).day ?? 0
+                if daysUntilTrip > 0 {
+                    let accrued = accruedLeave(
+                        from: balance,
+                        daysUntil: daysUntilTrip,
+                        accrualPerMonth: accrualPerMonth,
+                        maxBalance: maxAccruingBalance
+                    )
+                    balance = min(maxAccruingBalance, balance + accrued)
+                }
+            }
+
+            let requestedDays = Double(leaveDayCount)
+            let balanceAtStart = balance
+            let isCovered = balanceAtStart + 0.05 >= requestedDays
+            let shortfall = max(0, requestedDays - balanceAtStart)
+            balance = balanceAtStart - requestedDays
+
+            evaluations.append(
+                LeaveTripEvaluation(
+                    id: trip.id,
+                    label: trip.label,
+                    startDate: trip.startDate,
+                    endDate: trip.endDate,
+                    leaveDays: requestedDays,
+                    balanceAtStart: balanceAtStart,
+                    balanceAfter: balance,
+                    isCovered: isCovered,
+                    shortfall: shortfall
+                )
+            )
+
+            guard let dayAfterTrip = calendar.date(byAdding: .day, value: 1, to: trip.endDate) else {
+                continue
+            }
+            checkpoint = dayAfterTrip
+        }
+
+        guard !evaluations.isEmpty else { return nil }
+
+        let totalLeaveDays = evaluations.reduce(0) { $0 + $1.leaveDays }
+        let allCovered = evaluations.allSatisfy(\.isCovered)
+        let firstFailure = evaluations.first(where: { !$0.isCovered })
+
+        return LeaveMultiTripCoverageResult(
+            startingBalance: currentBalance,
+            trips: evaluations,
+            totalLeaveDays: totalLeaveDays,
+            finalBalance: balance,
+            allCovered: allCovered,
+            firstFailure: firstFailure,
+            overlapWarnings: overlapWarnings
+        )
     }
 
     private static func daysUntilLeaveNeeded(
@@ -361,4 +510,64 @@ struct LeaveMilestone: Identifiable, Equatable {
     let date: Date
     let title: String
     let detail: String
+}
+
+struct LeavePlannedTrip: Identifiable, Equatable {
+    let id: UUID
+    var label: String
+    var startDate: Date
+    var endDate: Date
+
+    init(
+        id: UUID = UUID(),
+        label: String = "",
+        startDate: Date,
+        endDate: Date
+    ) {
+        self.id = id
+        self.label = label
+        self.startDate = startDate
+        self.endDate = endDate
+    }
+}
+
+struct LeaveTripEvaluation: Identifiable, Equatable {
+    let id: UUID
+    let label: String
+    let startDate: Date
+    let endDate: Date
+    let leaveDays: Double
+    let balanceAtStart: Double
+    let balanceAfter: Double
+    let isCovered: Bool
+    let shortfall: Double
+
+    var displayName: String {
+        label.isEmpty ? "\(formattedShortDate(startDate)) trip" : label
+    }
+
+    private func formattedShortDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM d"
+        return formatter.string(from: date)
+    }
+}
+
+struct LeaveMultiTripCoverageResult: Equatable {
+    let startingBalance: Double
+    let trips: [LeaveTripEvaluation]
+    let totalLeaveDays: Double
+    let finalBalance: Double
+    let allCovered: Bool
+    let firstFailure: LeaveTripEvaluation?
+    let overlapWarnings: [String]
+}
+
+struct LeaveBalanceProjectionResult: Equatable {
+    let targetDate: Date
+    let currentBalance: Double
+    let projectedBalance: Double
+    let accruedAmount: Double
+    let daysUntilTarget: Int
+    let hitAccrualCap: Bool
 }

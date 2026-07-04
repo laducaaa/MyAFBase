@@ -20,8 +20,8 @@ extension BaseRegion {
 
     var pickerAccent: Color {
         switch self {
-        case .conus: return Color(red: 0.22, green: 0.48, blue: 0.86)
-        case .oconus: return Color(red: 0.88, green: 0.52, blue: 0.18)
+        case .conus: return AppTheme.brandPrimary
+        case .oconus: return AppTheme.highlight
         }
     }
 }

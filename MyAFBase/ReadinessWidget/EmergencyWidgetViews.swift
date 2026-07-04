@@ -90,7 +90,7 @@ private struct EmergencyContactDetail: View {
 
     private var accentColor: Color {
         contact.isUniversalEmergency
-            ? .red
+            ? WidgetPalette.danger(for: colorScheme)
             : WidgetPalette.statusColor(for: "overdue", colorScheme: colorScheme)
     }
 
@@ -173,7 +173,7 @@ private struct EmergencyGridCell: View {
 
     private var accentColor: Color {
         contact.isUniversalEmergency
-            ? .red
+            ? WidgetPalette.danger(for: colorScheme)
             : WidgetPalette.statusColor(for: "overdue", colorScheme: colorScheme)
     }
 

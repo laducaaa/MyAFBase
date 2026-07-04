@@ -49,7 +49,7 @@ struct AddressMapPreview: View {
         if let coordinate {
             Map(position: $cameraPosition, interactionModes: []) {
                 Marker(title, coordinate: coordinate)
-                    .tint(.red)
+                    .tint(AppTheme.danger)
             }
             .mapStyle(.standard(pointsOfInterest: .excludingAll))
         } else if lookupFailed {

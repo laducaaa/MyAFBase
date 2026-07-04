@@ -1,73 +1,61 @@
 import SwiftUI
 
 private enum LeavePlannerMode: String, CaseIterable, Identifiable {
-    case upcoming
+    case trips
+    case projection
     case pcs
 
     var id: String { rawValue }
 
     var title: String {
         switch self {
-        case .upcoming: "Upcoming Leave"
+        case .trips: "Planned Trips"
+        case .projection: "By Date"
         case .pcs: "PCS Planning"
+        }
+    }
+
+    var toggleTitle: String {
+        switch self {
+        case .trips: "Trips"
+        case .projection: "By Date"
+        case .pcs: "PCS"
         }
     }
 
     var subtitle: String {
         switch self {
-        case .upcoming: "Will you have enough leave by your dates?"
+        case .trips: "Will you have enough leave for every trip?"
+        case .projection: "How much leave will you have by a target date?"
         case .pcs: "How much to use before you PCS?"
-        }
-    }
-
-    var systemImage: String {
-        switch self {
-        case .upcoming: "airplane.departure"
-        case .pcs: "suitcase.fill"
         }
     }
 }
 
 struct LeavePlannerView: View {
-    @State private var mode: LeavePlannerMode = .upcoming
-    @State private var currentBalanceText = "30"
-    @State private var maxBalanceAtPCSText = "60"
-    @State private var specialLeaveText = "0"
-    @State private var accrualRateText = "2.5"
-    @State private var leaveStartDate = Calendar.current.startOfDay(for: Date())
-    @State private var leaveEndDate = Calendar.current.startOfDay(for: Date())
+    @State private var mode: LeavePlannerMode = .trips
+    @State private var currentBalance = 30.0
+    @State private var maxBalanceAtPCS = LeavePlanner.defaultMaxBalanceAtPCS
+    @State private var specialLeaveBalance = 0.0
+    @State private var accrualPerMonth = LeavePlanner.defaultAccrualPerMonth
+    @State private var trips = LeavePlannerView.defaultTrips
+    @State private var projectionDate = Calendar.current.date(byAdding: .month, value: 3, to: Date()) ?? Date()
     @State private var pcsDate = Calendar.current.date(byAdding: .month, value: 4, to: Date()) ?? Date()
     @State private var hasSpecialLeaveExpiration = false
     @State private var specialLeaveExpires = Calendar.current.date(byAdding: .month, value: 2, to: Date()) ?? Date()
-    @FocusState private var focusedField: LeaveInputField?
 
-    private var currentBalance: Double {
-        parsedDays(from: currentBalanceText) ?? 0
-    }
-
-    private var maxBalanceAtPCS: Double {
-        parsedDays(from: maxBalanceAtPCSText) ?? LeavePlanner.defaultMaxBalanceAtPCS
-    }
-
-    private var specialLeaveBalance: Double {
-        parsedDays(from: specialLeaveText) ?? 0
-    }
-
-    private var accrualPerMonth: Double {
-        parsedDays(from: accrualRateText) ?? LeavePlanner.defaultAccrualPerMonth
-    }
-
-    private var leaveDayCount: Int? {
-        LeavePlanner.leaveDays(from: leaveStartDate, to: leaveEndDate)
-    }
-
-    private var tripCoverage: LeaveTripCoverageResult? {
-        guard let leaveDayCount, leaveDayCount > 0 else { return nil }
-
-        return LeavePlanner.evaluateTripCoverage(
+    private var multiTripCoverage: LeaveMultiTripCoverageResult? {
+        LeavePlanner.evaluateMultipleTrips(
             currentBalance: currentBalance,
-            leaveStartDate: leaveStartDate,
-            leaveEndDate: leaveEndDate,
+            trips: trips,
+            accrualPerMonth: accrualPerMonth
+        )
+    }
+
+    private var balanceProjection: LeaveBalanceProjectionResult? {
+        LeavePlanner.projectBalance(
+            currentBalance: currentBalance,
+            on: projectionDate,
             accrualPerMonth: accrualPerMonth
         )
     }
@@ -82,16 +70,25 @@ struct LeavePlannerView: View {
         )
     }
 
+    private var daysUntilPCS: Int {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+        let pcs = calendar.startOfDay(for: pcsDate)
+        return max(0, calendar.dateComponents([.day], from: today, to: pcs).day ?? 0)
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
                 modePicker
 
                 switch mode {
-                case .upcoming:
-                    upcomingSection
+                case .trips:
+                    tripsContent
+                case .projection:
+                    projectionContent
                 case .pcs:
-                    pcsSection
+                    pcsContent
                 }
 
                 disclaimerCard
@@ -101,14 +98,6 @@ struct LeavePlannerView: View {
         .appScreenBackground()
         .navigationTitle("Leave Planner")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItemGroup(placement: .keyboard) {
-                Spacer()
-                Button("Done") {
-                    focusedField = nil
-                }
-            }
-        }
     }
 
     // MARK: - Mode
@@ -116,226 +105,297 @@ struct LeavePlannerView: View {
     private var modePicker: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("What are you planning?")
-                .font(.subheadline.weight(.semibold))
+                .font(.headline)
 
             GlassSegmentToggle(
                 options: LeavePlannerMode.allCases,
                 selection: $mode,
-                label: { $0.title },
+                label: \.toggleTitle,
                 layout: .equalWidth
             )
 
-            Label(mode.subtitle, systemImage: mode.systemImage)
+            Text(mode.subtitle)
                 .font(.caption)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(.tertiary)
         }
         .appCardStyle(padding: 16)
     }
 
-    // MARK: - Upcoming leave
+    // MARK: - Planned trips
 
-    private var upcomingSection: some View {
-        VStack(alignment: .leading, spacing: AppTheme.cardSpacing) {
-            upcomingInputsCard
-
-            if let coverage = tripCoverage, coverage.isValidRange {
-                upcomingVerdictCard(coverage)
-            }
+    @ViewBuilder
+    private var tripsContent: some View {
+        if let coverage = multiTripCoverage {
+            multiTripSummaryCard(coverage)
         }
+
+        balanceCard
+        accrualCard
+
+        ForEach($trips) { $trip in
+            tripCard(trip: $trip, evaluation: evaluation(for: trip.id))
+        }
+
+        Button {
+            trips.append(
+                LeavePlannedTrip(
+                    label: "",
+                    startDate: today,
+                    endDate: today
+                )
+            )
+        } label: {
+            Label(trips.count == 1 ? "Add another trip" : "Add trip", systemImage: "plus.circle.fill")
+                .font(.subheadline.weight(.semibold))
+                .frame(maxWidth: .infinity)
+        }
+        .buttonStyle(.plain)
+        .foregroundStyle(AppTheme.accent)
+        .padding(.top, -4)
     }
 
-    private var upcomingInputsCard: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            LeavePlannerSectionHeader(
-                title: "Your dates",
-                subtitle: "Enter your balance, leave period, and accrual rate."
+    private func multiTripSummaryCard(_ coverage: LeaveMultiTripCoverageResult) -> some View {
+        VStack(alignment: .leading, spacing: 16) {
+            LeaveVerdictHeader(
+                isPositive: coverage.allCovered,
+                title: coverage.allCovered
+                    ? "Enough for all \(coverage.trips.count) \(coverage.trips.count == 1 ? "trip" : "trips")"
+                    : "Short on \(coverage.firstFailure?.displayName ?? "a trip")",
+                subtitle: "\(daysLabel(coverage.totalLeaveDays)) total across your planned leave"
             )
 
-            VStack(alignment: .leading, spacing: 16) {
-                LeavePlannerSubsection(
-                    title: "Starting balance",
-                    caption: "What you have in the bank today."
-                ) {
-                    balanceField(showsLabel: false)
-                }
+            if coverage.allCovered {
+                LeaveHeroComparisonRow(
+                    current: coverage.finalBalance,
+                    target: coverage.totalLeaveDays,
+                    currentLabel: "After all trips",
+                    targetLabel: "Total used"
+                )
 
-                LeavePlannerSubsection(
-                    title: "Leave period",
-                    caption: "Start and end dates — both days count toward your total."
-                ) {
-                    LeaveDateRangeCard(
-                        startDate: $leaveStartDate,
-                        endDate: $leaveEndDate,
-                        dayCount: leaveDayCount
-                    )
-                    .onChange(of: leaveStartDate) { _, newStart in
-                        if leaveEndDate < newStart {
-                            leaveEndDate = newStart
-                        }
+                LeaveInsightRow(
+                    systemImage: "checkmark.circle.fill",
+                    tint: AppTheme.success,
+                    text: coverage.finalBalance > 0.05
+                        ? "About \(daysLabel(coverage.finalBalance)) would remain after your last trip."
+                        : "Your trips use exactly what you project to have."
+                )
+            } else if let failure = coverage.firstFailure {
+                LeaveHeroComparisonRow(
+                    current: failure.balanceAtStart,
+                    target: failure.leaveDays,
+                    currentLabel: "At \(failure.displayName)",
+                    targetLabel: "You need"
+                )
+
+                LeaveCoverageBar(
+                    projected: failure.balanceAtStart,
+                    required: failure.leaveDays,
+                    label: "Balance at trip start"
+                )
+
+                LeaveInsightRow(
+                    systemImage: "exclamationmark.triangle.fill",
+                    tint: AppTheme.warning,
+                    text: "Short by \(daysLabel(failure.shortfall)) when \(failure.displayName.lowercased()) starts."
+                )
+            }
+
+            if let overlap = coverage.overlapWarnings.first {
+                LeaveInsightRow(
+                    systemImage: "calendar.badge.exclamationmark",
+                    tint: AppTheme.warning,
+                    text: overlap
+                )
+            }
+        }
+        .appCardStyle(padding: 20)
+        .animation(.easeInOut(duration: 0.2), value: coverage.finalBalance)
+    }
+
+    private func tripCard(trip: Binding<LeavePlannedTrip>, evaluation: LeaveTripEvaluation?) -> some View {
+        let tripIndex = trips.firstIndex(where: { $0.id == trip.wrappedValue.id })
+
+        return VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                TextField("Name (optional)", text: trip.label)
+                    .font(.headline)
+                    .textFieldStyle(.plain)
+
+                if trips.count > 1, let tripIndex {
+                    Button {
+                        trips.remove(at: tripIndex)
+                    } label: {
+                        Image(systemName: "trash")
+                            .font(.subheadline)
+                            .foregroundStyle(AppTheme.danger)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Remove trip")
+                }
+            }
+
+            LeaveDateRow(label: "Starts", date: trip.startDate, minDate: today)
+                .onChange(of: trip.wrappedValue.startDate) { _, newStart in
+                    if trip.wrappedValue.endDate < newStart {
+                        trip.wrappedValue.endDate = newStart
                     }
                 }
 
-                LeavePlannerSubsection(
-                    title: "Accrual",
-                    caption: "How fast you earn leave before your trip starts."
-                ) {
-                    LeaveNumberFieldView(
-                        label: "Leave accrual rate",
-                        text: $accrualRateText,
-                        field: .accrualRate,
-                        focusedField: $focusedField,
-                        showsLabel: false,
-                        detail: "Active duty usually earns 2.5 days per month",
-                        maxValue: 10,
-                        unitLabel: "days/mo"
-                    )
-                }
+            LeaveDateRow(label: "Ends", date: trip.endDate, minDate: trip.wrappedValue.startDate)
+
+            if let dayCount = LeavePlanner.leaveDays(from: trip.wrappedValue.startDate, to: trip.wrappedValue.endDate),
+               dayCount > 0 {
+                LeaveInlineMetric(
+                    systemImage: "calendar.badge.clock",
+                    title: "\(dayCount) calendar day\(dayCount == 1 ? "" : "s")",
+                    detail: "\(shortDate(trip.wrappedValue.startDate)) – \(shortDate(trip.wrappedValue.endDate))"
+                )
+            }
+
+            if let evaluation {
+                LeaveTripEvaluationInline(evaluation: evaluation)
             }
         }
-        .appCardStyle(padding: 20)
+        .appCardStyle(padding: 16)
     }
 
-    private func upcomingVerdictCard(_ coverage: LeaveTripCoverageResult) -> some View {
+    private func evaluation(for tripID: UUID) -> LeaveTripEvaluation? {
+        multiTripCoverage?.trips.first { $0.id == tripID }
+    }
+
+    // MARK: - Balance projection
+
+    @ViewBuilder
+    private var projectionContent: some View {
+        if let projection = balanceProjection {
+            projectionSummaryCard(projection)
+        }
+
+        balanceCard
+        accrualCard
+
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Target date")
+                .font(.headline)
+
+            LeaveDateRow(label: "Project to", date: $projectionDate, minDate: today)
+
+            if let projection = balanceProjection, projection.daysUntilTarget > 0 {
+                LeaveInlineMetric(
+                    systemImage: "clock",
+                    title: "\(projection.daysUntilTarget) day\(projection.daysUntilTarget == 1 ? "" : "s") from now",
+                    detail: "At \(rateLabel(accrualPerMonth)) with no leave taken."
+                )
+            }
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private func projectionSummaryCard(_ projection: LeaveBalanceProjectionResult) -> some View {
         VStack(alignment: .leading, spacing: 16) {
             LeaveVerdictHeader(
-                isPositive: coverage.isCovered,
-                title: coverage.isCovered ? "You should have enough leave" : "You may come up short",
-                subtitle: "\(shortDate(coverage.leaveStartDate)) – \(shortDate(coverage.leaveEndDate)) · \(daysLabel(coverage.leaveDays))"
+                isPositive: projection.daysUntilTarget >= 0,
+                title: projectionTitle(for: projection),
+                subtitle: "By \(shortDate(projection.targetDate)) at \(rateLabel(accrualPerMonth))"
             )
 
-            LeaveComparisonRow(
-                items: [
-                    .init(label: "Balance now", value: coverage.currentBalance, emphasis: .normal),
-                    .init(label: "By start date", value: coverage.projectedBalance, emphasis: .highlight),
-                    .init(label: "You need", value: coverage.leaveDays, emphasis: .normal)
-                ]
+            LeaveHeroComparisonRow(
+                current: projection.projectedBalance,
+                target: projection.currentBalance,
+                currentLabel: "Projected",
+                targetLabel: "Balance now"
             )
 
-            LeaveCoverageBar(
-                current: coverage.currentBalance,
-                projected: coverage.projectedBalance,
-                required: coverage.leaveDays
-            )
-
-            if coverage.isCovered {
-                if coverage.spareDays > 0.05 {
-                    LeaveInsightRow(
-                        systemImage: "checkmark.circle.fill",
-                        tint: .green,
-                        text: "About \(daysLabel(coverage.spareDays)) left over after this leave."
-                    )
-                }
-            } else {
+            if projection.accruedAmount > 0.05 {
                 LeaveInsightRow(
-                    systemImage: "exclamationmark.triangle.fill",
-                    tint: .orange,
-                    text: "You may be short by \(daysLabel(coverage.shortfall)) when leave starts."
-                )
-            }
-
-            if coverage.accruedByLeave > 0 {
-                LeaveInsightRow(
-                    systemImage: "calendar.badge.plus",
+                    systemImage: "plus.circle.fill",
                     tint: AppTheme.accent,
-                    text: "You'll accrue about \(daysLabel(coverage.accruedByLeave)) before leave starts at \(rateLabel(accrualPerMonth))."
+                    text: "You'll accrue about \(daysLabel(projection.accruedAmount)) before that date."
                 )
             }
 
-            if coverage.daysUntilLeave > 0 {
+            if projection.hitAccrualCap {
                 LeaveInsightRow(
-                    systemImage: "clock",
-                    tint: .secondary,
-                    text: "Leave starts in \(coverage.daysUntilLeave) day\(coverage.daysUntilLeave == 1 ? "" : "s")."
+                    systemImage: "exclamationmark.circle.fill",
+                    tint: AppTheme.warning,
+                    text: "Projection hits the \(Int(LeavePlanner.defaultMaxAccruingBalance))-day accrual cap."
+                )
+            }
+
+            if projection.daysUntilTarget < 0 {
+                LeaveInsightRow(
+                    systemImage: "calendar.badge.exclamationmark",
+                    tint: AppTheme.warning,
+                    text: "Pick a future date to project accrual."
                 )
             }
         }
         .appCardStyle(padding: 20)
+        .animation(.easeInOut(duration: 0.2), value: projection.projectedBalance)
+    }
+
+    private func projectionTitle(for projection: LeaveBalanceProjectionResult) -> String {
+        if projection.daysUntilTarget < 0 {
+            return "Choose a future date"
+        }
+        if projection.accruedAmount < 0.05 {
+            return "No change expected"
+        }
+        let delta = projection.projectedBalance - projection.currentBalance
+        if delta > 0.05 {
+            return String(format: "+%.1f days projected", delta)
+        }
+        return String(format: "%.1f days projected", projection.projectedBalance)
+    }
+
+    private var accrualCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Accrual")
+                .font(.headline)
+
+            LeaveDecimalStepperRow(
+                label: "Rate",
+                value: $accrualPerMonth,
+                step: 0.5,
+                range: 0...10,
+                unit: "days/mo"
+            )
+
+            Text("Active duty usually earns 2.5 days per month.")
+                .font(.caption)
+                .foregroundStyle(.tertiary)
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private static var defaultTrips: [LeavePlannedTrip] {
+        let today = Calendar.current.startOfDay(for: Date())
+        return [LeavePlannedTrip(label: "", startDate: today, endDate: today)]
     }
 
     // MARK: - PCS
 
-    private var daysUntilPCS: Int {
-        let calendar = Calendar.current
-        let today = calendar.startOfDay(for: Date())
-        let pcs = calendar.startOfDay(for: pcsDate)
-        return max(0, calendar.dateComponents([.day], from: today, to: pcs).day ?? 0)
-    }
+    @ViewBuilder
+    private var pcsContent: some View {
+        if let plan {
+            pcsSummaryCard(plan)
+        }
 
-    private var pcsSection: some View {
-        VStack(alignment: .leading, spacing: AppTheme.cardSpacing) {
-            pcsInputsCard
+        balanceCard
+        pcsDateCard
+        planningCapCard
+        specialLeaveCard
 
-            if let plan {
-                pcsVerdictCard(plan)
+        if let plan, plan.needsUsagePlan, !plan.milestones.isEmpty {
+            pcsMilestonesCard(plan)
+        }
 
-                if plan.needsUsagePlan, !plan.milestones.isEmpty {
-                    pcsMilestonesCard(plan)
-                }
-
-                if let guidance = pcsGuidanceNotes(from: plan.notes) {
-                    LeaveInsightCard(notes: guidance)
-                }
-            }
+        if let plan, let guidance = pcsGuidanceNotes(from: plan.notes) {
+            LeaveInsightCard(notes: guidance)
         }
     }
 
-    private var pcsInputsCard: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            LeavePlannerSectionHeader(
-                title: "PCS details",
-                subtitle: "Enter your balance, move date, planning cap, and any special leave."
-            )
-
-            VStack(alignment: .leading, spacing: 16) {
-                LeavePlannerSubsection(
-                    title: "Starting balance",
-                    caption: "What you have in the bank today."
-                ) {
-                    balanceField(showsLabel: false)
-                }
-
-                LeavePlannerSubsection(
-                    title: "PCS move",
-                    caption: "When you report to your next assignment."
-                ) {
-                    LeavePCSTimelineCard(
-                        pcsDate: $pcsDate,
-                        daysUntilPCS: daysUntilPCS
-                    )
-                }
-
-                LeavePlannerSubsection(
-                    title: "Planning cap",
-                    caption: "Target max balance at PCS — often 60 days."
-                ) {
-                    LeaveNumberFieldView(
-                        label: "Max balance at PCS",
-                        text: $maxBalanceAtPCSText,
-                        field: .maxBalanceAtPCS,
-                        focusedField: $focusedField,
-                        showsLabel: false,
-                        detail: "Confirm with your unit CSS",
-                        maxValue: 120
-                    )
-                }
-
-                LeavePlannerSubsection(
-                    title: "Special leave",
-                    caption: "RLA, parental, or other special categories on the books."
-                ) {
-                    LeaveSpecialLeaveCard(
-                        balanceText: $specialLeaveText,
-                        hasExpiration: $hasSpecialLeaveExpiration,
-                        expiresDate: $specialLeaveExpires,
-                        focusedField: $focusedField
-                    )
-                }
-            }
-        }
-        .appCardStyle(padding: 20)
-    }
-
-    private func pcsVerdictCard(_ plan: LeavePlanResult) -> some View {
+    private func pcsSummaryCard(_ plan: LeavePlanResult) -> some View {
         VStack(alignment: .leading, spacing: 16) {
             LeaveVerdictHeader(
                 isPositive: !plan.needsUsagePlan,
@@ -344,23 +404,22 @@ struct LeavePlannerView: View {
             )
 
             if plan.needsUsagePlan {
-                LeaveComparisonRow(
-                    items: [
-                        .init(label: "Must use", value: plan.excessLeave, emphasis: .highlight),
-                        .init(label: "Per month", value: plan.daysPerMonthToUse, emphasis: .normal),
-                        .init(label: "Per week", value: plan.daysPerWeekToUse, emphasis: .normal)
-                    ]
+                LeaveHeroComparisonRow(
+                    current: plan.currentBalance,
+                    target: plan.maxBalanceAtPCS,
+                    currentLabel: "Balance now",
+                    targetLabel: "PCS cap"
                 )
 
                 LeaveInsightRow(
                     systemImage: "flame.fill",
-                    tint: .orange,
-                    text: "Use about \(daysLabel(plan.excessLeave)) before PCS to stay at or below \(daysLabel(plan.maxBalanceAtPCS))."
+                    tint: AppTheme.warning,
+                    text: "Use about \(daysLabel(plan.excessLeave)) before PCS — roughly \(daysLabel(plan.daysPerMonthToUse))/month."
                 )
             } else {
                 LeaveInsightRow(
                     systemImage: "checkmark.circle.fill",
-                    tint: .green,
+                    tint: AppTheme.success,
                     text: "No excess leave above your \(daysLabel(plan.maxBalanceAtPCS)) planning cap."
                 )
             }
@@ -368,12 +427,93 @@ struct LeavePlannerView: View {
         .appCardStyle(padding: 20)
     }
 
+    // MARK: - Shared input cards
+
+    private var balanceCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Starting balance")
+                .font(.headline)
+
+            LeaveDecimalStepperRow(
+                label: "Balance",
+                value: $currentBalance,
+                step: 0.5,
+                range: 0...120,
+                unit: "days"
+            )
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private var pcsDateCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("PCS move")
+                .font(.headline)
+
+            LeaveDateRow(label: "Report date", date: $pcsDate, minDate: today)
+
+            LeaveInlineMetric(
+                systemImage: "clock.badge.checkmark",
+                title: pcsCountdownTitle,
+                detail: pcsCountdownDetail
+            )
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private var planningCapCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Planning cap")
+                .font(.headline)
+
+            LeaveDecimalStepperRow(
+                label: "Max at PCS",
+                value: $maxBalanceAtPCS,
+                step: 1,
+                range: 0...120,
+                unit: "days"
+            )
+
+            Text("Target max balance at PCS — often 60 days. Confirm with your unit CSS.")
+                .font(.caption)
+                .foregroundStyle(.tertiary)
+        }
+        .appCardStyle(padding: 16)
+    }
+
+    private var specialLeaveCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Special leave")
+                .font(.headline)
+
+            LeaveDecimalStepperRow(
+                label: "On the books",
+                value: $specialLeaveBalance,
+                step: 0.5,
+                range: 0...60,
+                unit: "days"
+            )
+
+            Toggle(isOn: $hasSpecialLeaveExpiration) {
+                Text("Has expiration date")
+                    .font(.subheadline)
+            }
+
+            if hasSpecialLeaveExpiration {
+                LeaveDateRow(label: "Expires", date: $specialLeaveExpires, minDate: today)
+            }
+        }
+        .appCardStyle(padding: 16)
+    }
+
     private func pcsMilestonesCard(_ plan: LeavePlanResult) -> some View {
         VStack(alignment: .leading, spacing: 14) {
-            LeavePlannerSectionHeader(
-                title: "Suggested pace",
-                subtitle: "Spread usage so you're on track before PCS."
-            )
+            Text("Suggested pace")
+                .font(.headline)
+
+            Text("Spread usage so you're on track before PCS.")
+                .font(.caption)
+                .foregroundStyle(.tertiary)
 
             ForEach(plan.milestones) { milestone in
                 HStack(alignment: .top, spacing: 12) {
@@ -398,20 +538,28 @@ struct LeavePlannerView: View {
                 }
             }
         }
-        .appCardStyle(padding: 20)
+        .appCardStyle(padding: 16)
     }
 
     // MARK: - Shared
 
-    private func balanceField(showsLabel: Bool = true) -> some View {
-        LeaveNumberFieldView(
-            label: "Current leave balance",
-            text: $currentBalanceText,
-            field: .currentBalance,
-            focusedField: $focusedField,
-            showsLabel: showsLabel,
-            maxValue: 120
-        )
+    private var today: Date {
+        Calendar.current.startOfDay(for: Date())
+    }
+
+    private var pcsCountdownTitle: String {
+        switch daysUntilPCS {
+        case 0: "PCS is today"
+        case 1: "1 day until PCS"
+        default: "\(daysUntilPCS) days until PCS"
+        }
+    }
+
+    private var pcsCountdownDetail: String {
+        if daysUntilPCS == 0 {
+            return "Report date is \(shortDate(pcsDate))."
+        }
+        return "Report on \(shortDate(pcsDate))."
     }
 
     private var disclaimerCard: some View {
@@ -450,17 +598,9 @@ struct LeavePlannerView: View {
             return "1 day"
         }
         if rounded == rounded.rounded() {
-            let count = Int(rounded)
-            return "\(count) days"
+            return "\(Int(rounded)) days"
         }
         return String(format: "%.1f days", rounded)
-    }
-
-    private func rateLabel(_ value: Double) -> String {
-        if value == value.rounded() {
-            return "\(Int(value)) days/month"
-        }
-        return String(format: "%.1f days/month", value)
     }
 
     private func shortDate(_ date: Date) -> String {
@@ -470,260 +610,15 @@ struct LeavePlannerView: View {
         return formatter.string(from: date)
     }
 
-    private func parsedDays(from text: String) -> Double? {
-        let trimmed = text.trimmingCharacters(in: .whitespaces)
-        guard !trimmed.isEmpty else { return nil }
-        return Double(trimmed)
-    }
-}
-
-private struct LeavePCSTimelineCard: View {
-    @Binding var pcsDate: Date
-    let daysUntilPCS: Int
-
-    private var today: Date {
-        Calendar.current.startOfDay(for: Date())
-    }
-
-    var body: some View {
-        VStack(spacing: 0) {
-            HStack(alignment: .top, spacing: 0) {
-                todayColumn
-
-                dateConnector
-
-                pcsDateColumn
-            }
-            .padding(.horizontal, 14)
-            .padding(.top, 14)
-            .padding(.bottom, 12)
-
-            Divider()
-                .padding(.horizontal, 14)
-
-            timelineSummary
-                .padding(.horizontal, 14)
-                .padding(.vertical, 12)
+    private func rateLabel(_ value: Double) -> String {
+        if value == value.rounded() {
+            return "\(Int(value)) days/month"
         }
-        .background(Color(.secondarySystemGroupedBackground))
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-    }
-
-    private var todayColumn: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Label("Today", systemImage: "calendar")
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(.secondary)
-                .labelStyle(.titleAndIcon)
-
-            Text(compactDate(Date()))
-                .font(.subheadline.weight(.medium))
-                .monospacedDigit()
-                .foregroundStyle(.primary)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Today, \(compactDate(Date()))")
-    }
-
-    private var pcsDateColumn: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Label("PCS date", systemImage: "suitcase.fill")
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(.secondary)
-                .labelStyle(.titleAndIcon)
-
-            DatePicker(
-                "PCS date",
-                selection: $pcsDate,
-                in: today...Date.distantFuture,
-                displayedComponents: .date
-            )
-            .labelsHidden()
-            .datePickerStyle(.compact)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .accessibilityLabel("PCS date")
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-    }
-
-    private var dateConnector: some View {
-        VStack(spacing: 4) {
-            Spacer(minLength: 22)
-
-            Image(systemName: "arrow.right")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.tertiary)
-
-            Spacer(minLength: 0)
-        }
-        .frame(width: 28)
-    }
-
-    private var timelineSummary: some View {
-        HStack(alignment: .firstTextBaseline, spacing: 10) {
-            Image(systemName: "clock.badge.checkmark")
-                .font(.subheadline)
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 18)
-
-            VStack(alignment: .leading, spacing: 2) {
-                Text(countdownTitle)
-                    .font(.subheadline.weight(.semibold))
-
-                Text(countdownDetail)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-
-            Spacer(minLength: 0)
-        }
-    }
-
-    private var countdownTitle: String {
-        switch daysUntilPCS {
-        case 0:
-            "PCS is today"
-        case 1:
-            "1 day until PCS"
-        default:
-            "\(daysUntilPCS) days until PCS"
-        }
-    }
-
-    private var countdownDetail: String {
-        if daysUntilPCS == 0 {
-            return "Report date is \(compactDate(pcsDate))."
-        }
-        return "Report on \(compactDate(pcsDate))."
-    }
-
-    private func compactDate(_ date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM d, yyyy"
-        return formatter.string(from: date)
-    }
-}
-
-private struct LeaveSpecialLeaveCard: View {
-    @Binding var balanceText: String
-    @Binding var hasExpiration: Bool
-    @Binding var expiresDate: Date
-    var focusedField: FocusState<LeaveInputField?>.Binding
-
-    var body: some View {
-        VStack(spacing: 0) {
-            HStack(spacing: 8) {
-                TextField("0", text: $balanceText)
-                    .keyboardType(.decimalPad)
-                    .focused(focusedField, equals: .specialLeave)
-                    .font(.title2.weight(.semibold).monospacedDigit())
-                    .multilineTextAlignment(.trailing)
-                    .onChange(of: balanceText) { _, newValue in
-                        balanceText = sanitizedLeaveInput(newValue, maxValue: 60)
-                    }
-                    .accessibilityLabel("Special leave balance")
-
-                Text("days")
-                    .font(.subheadline.weight(.medium))
-                    .foregroundStyle(.secondary)
-                    .frame(minWidth: 44, alignment: .leading)
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 12)
-
-            Divider()
-                .padding(.horizontal, 14)
-
-            Toggle(isOn: $hasExpiration) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Has an expiration date")
-                        .font(.subheadline.weight(.medium))
-
-                    Text("Turn on if this leave must be used by a set date.")
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
-                }
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 12)
-
-            if hasExpiration {
-                Divider()
-                    .padding(.horizontal, 14)
-
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("Expires", systemImage: "hourglass")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(.secondary)
-                        .labelStyle(.titleAndIcon)
-
-                    DatePicker(
-                        "Expires",
-                        selection: $expiresDate,
-                        in: Calendar.current.startOfDay(for: Date())...Date.distantFuture,
-                        displayedComponents: .date
-                    )
-                    .labelsHidden()
-                    .datePickerStyle(.compact)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .accessibilityLabel("Special leave expiration date")
-                }
-                .padding(.horizontal, 14)
-                .padding(.vertical, 12)
-            }
-        }
-        .background(Color(.secondarySystemGroupedBackground))
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-    }
-
-    private func sanitizedLeaveInput(_ input: String, maxValue: Double) -> String {
-        var filtered = ""
-        var hasDecimal = false
-
-        for character in input {
-            if character.isNumber {
-                filtered.append(character)
-            } else if character == "." && !hasDecimal {
-                hasDecimal = true
-                filtered.append(character)
-            }
-        }
-
-        if filtered == "." {
-            return "0."
-        }
-
-        if let value = Double(filtered), value > maxValue {
-            if maxValue == maxValue.rounded() {
-                return String(Int(maxValue))
-            }
-            return String(format: "%.1f", maxValue)
-        }
-
-        return filtered
+        return String(format: "%.1f days/month", value)
     }
 }
 
 // MARK: - Components
-
-private struct LeavePlannerSectionHeader: View {
-    let title: String
-    var subtitle: String?
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(title)
-                .font(.headline)
-            if let subtitle {
-                Text(subtitle)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-        }
-    }
-}
 
 private struct LeaveVerdictHeader: View {
     let isPositive: Bool
@@ -734,7 +629,7 @@ private struct LeaveVerdictHeader: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: isPositive ? "checkmark.seal.fill" : "exclamationmark.triangle.fill")
                 .font(.title2)
-                .foregroundStyle(isPositive ? Color.green : Color.orange)
+                .foregroundStyle(isPositive ? AppTheme.success : AppTheme.warning)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
@@ -749,37 +644,33 @@ private struct LeaveVerdictHeader: View {
     }
 }
 
-private struct LeaveComparisonItem {
-    enum Emphasis {
-        case normal
-        case highlight
-    }
-
-    let label: String
-    let value: Double
-    let emphasis: Emphasis
-}
-
-private struct LeaveComparisonRow: View {
-    let items: [LeaveComparisonItem]
+private struct LeaveHeroComparisonRow: View {
+    let current: Double
+    let target: Double
+    var currentLabel: String
+    var targetLabel: String
 
     var body: some View {
-        HStack(alignment: .top, spacing: 0) {
-            ForEach(Array(items.enumerated()), id: \.offset) { index, item in
-                if index > 0 {
-                    Spacer(minLength: 8)
-                }
+        HStack(alignment: .lastTextBaseline, spacing: 16) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(currentLabel)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                Text(formattedValue(current))
+                    .font(.system(size: 42, weight: .bold, design: .rounded))
+                    .monospacedDigit()
+            }
 
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(item.label)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                    Text(formattedValue(item.value))
-                        .font(item.emphasis == .highlight ? .title3.weight(.bold) : .title3.weight(.semibold))
-                        .foregroundStyle(item.emphasis == .highlight ? AppTheme.accent : .primary)
-                        .monospacedDigit()
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
+            Spacer(minLength: 8)
+
+            VStack(alignment: .trailing, spacing: 4) {
+                Text(targetLabel)
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+                Text(formattedValue(target))
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(.secondary)
+                    .monospacedDigit()
             }
         }
         .padding(14)
@@ -797,13 +688,13 @@ private struct LeaveComparisonRow: View {
 }
 
 private struct LeaveCoverageBar: View {
-    let current: Double
     let projected: Double
     let required: Double
+    var label: String = "Projected vs. needed"
 
     private var progress: Double {
         guard required > 0 else { return 0 }
-        return min(projected / required, 1.25)
+        return min(projected / required, 1.0)
     }
 
     private var meetsNeed: Bool {
@@ -813,27 +704,135 @@ private struct LeaveCoverageBar: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text("Projected vs. needed")
+                Text(label)
                     .font(.caption.weight(.medium))
                     .foregroundStyle(.secondary)
                 Spacer()
                 Text(meetsNeed ? "Enough" : "Not enough")
                     .font(.caption.weight(.semibold))
-                    .foregroundStyle(meetsNeed ? Color.green : Color.orange)
+                    .foregroundStyle(meetsNeed ? AppTheme.success : AppTheme.warning)
             }
 
             GeometryReader { proxy in
                 ZStack(alignment: .leading) {
                     Capsule()
                         .fill(Color(.systemGray5))
-
                     Capsule()
-                        .fill(meetsNeed ? Color.green.opacity(0.85) : Color.orange.opacity(0.85))
-                        .frame(width: proxy.size.width * min(progress, 1.0))
+                        .fill(meetsNeed ? AppTheme.success.opacity(0.85) : AppTheme.warning.opacity(0.85))
+                        .frame(width: proxy.size.width * progress)
                 }
             }
             .frame(height: 8)
         }
+    }
+}
+
+private struct LeaveDecimalStepperRow: View {
+    let label: String
+    @Binding var value: Double
+    let step: Double
+    let range: ClosedRange<Double>
+    let unit: String
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Text(label)
+                .font(.subheadline)
+
+            Spacer(minLength: 8)
+
+            HStack(spacing: 12) {
+                stepButton(systemImage: "minus") {
+                    adjustValue(by: -step)
+                }
+                Text(formattedValue)
+                    .font(.body.weight(.semibold).monospacedDigit())
+                    .frame(minWidth: 48)
+                    .multilineTextAlignment(.center)
+                stepButton(systemImage: "plus") {
+                    adjustValue(by: step)
+                }
+            }
+
+            Text(unit)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .frame(minWidth: 52, alignment: .leading)
+        }
+        .padding(.vertical, 2)
+    }
+
+    private var formattedValue: String {
+        if value == value.rounded() {
+            return "\(Int(value))"
+        }
+        return String(format: "%.1f", value)
+    }
+
+    private func adjustValue(by delta: Double) {
+        let stepped = ((value + delta) / step).rounded() * step
+        value = min(max(range.lowerBound, stepped), range.upperBound)
+    }
+
+    private func stepButton(systemImage: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Image(systemName: systemImage)
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(AppTheme.accent)
+                .frame(width: 32, height: 32)
+                .background(Color(.tertiarySystemFill), in: Circle())
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+private struct LeaveDateRow: View {
+    let label: String
+    @Binding var date: Date
+    let minDate: Date
+
+    var body: some View {
+        HStack {
+            Text(label)
+                .font(.subheadline)
+
+            Spacer(minLength: 8)
+
+            DatePicker(
+                label,
+                selection: $date,
+                in: minDate...Date.distantFuture,
+                displayedComponents: .date
+            )
+            .labelsHidden()
+            .datePickerStyle(.compact)
+        }
+    }
+}
+
+private struct LeaveInlineMetric: View {
+    let systemImage: String
+    let title: String
+    let detail: String
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: systemImage)
+                .font(.subheadline)
+                .foregroundStyle(AppTheme.accent)
+                .frame(width: 18)
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.subheadline.weight(.semibold))
+                Text(detail)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
+            Spacer(minLength: 0)
+        }
+        .padding(.top, 4)
     }
 }
 
@@ -857,247 +856,86 @@ private struct LeaveInsightRow: View {
     }
 }
 
+private struct LeaveTripEvaluationInline: View {
+    let evaluation: LeaveTripEvaluation
+
+    private var progress: Double {
+        guard evaluation.leaveDays > 0 else { return 0 }
+        return min(evaluation.balanceAtStart / evaluation.leaveDays, 1.0)
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Divider()
+
+            HStack(alignment: .firstTextBaseline) {
+                Text(String(format: "%.1f", evaluation.balanceAtStart))
+                    .font(.headline.weight(.bold).monospacedDigit())
+                    .foregroundStyle(evaluation.isCovered ? Color.primary : AppTheme.warning)
+
+                Text("/ \(formattedDays(evaluation.leaveDays)) at start")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Spacer(minLength: 8)
+
+                Label {
+                    Text(evaluation.isCovered ? "Covered" : "Short")
+                        .font(.caption.weight(.semibold))
+                } icon: {
+                    Image(systemName: evaluation.isCovered ? "checkmark.circle.fill" : "exclamationmark.circle.fill")
+                        .font(.caption)
+                }
+                .foregroundStyle(evaluation.isCovered ? AppTheme.success : AppTheme.warning)
+            }
+
+            GeometryReader { proxy in
+                ZStack(alignment: .leading) {
+                    Capsule()
+                        .fill(Color(.systemGray5))
+                    Capsule()
+                        .fill(evaluation.isCovered ? AppTheme.success.opacity(0.85) : AppTheme.warning.opacity(0.85))
+                        .frame(width: proxy.size.width * progress)
+                }
+            }
+            .frame(height: 6)
+
+            Text(
+                evaluation.isCovered
+                    ? "\(formattedDays(evaluation.balanceAfter)) left after this trip"
+                    : "Need \(formattedDays(evaluation.shortfall)) more before this trip"
+            )
+            .font(.caption)
+            .foregroundStyle(.tertiary)
+        }
+        .padding(.top, 2)
+    }
+
+    private func formattedDays(_ value: Double) -> String {
+        let rounded = (value * 10).rounded() / 10
+        if rounded == 1 || rounded == -1 {
+            return "1 day"
+        }
+        if rounded == rounded.rounded() {
+            return "\(Int(rounded)) days"
+        }
+        return String(format: "%.1f days", rounded)
+    }
+}
+
 private struct LeaveInsightCard: View {
     let notes: [String]
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Text("Keep in mind")
-                .font(.subheadline.weight(.semibold))
+                .font(.headline)
 
             ForEach(notes, id: \.self) { note in
                 LeaveInsightRow(systemImage: "lightbulb", tint: AppTheme.accent, text: note)
             }
         }
         .appCardStyle(padding: 16, background: AppTheme.accent.opacity(0.06))
-    }
-}
-
-private struct LeavePlannerSubsection<Content: View>: View {
-    let title: String
-    var caption: String?
-    @ViewBuilder let content: () -> Content
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            VStack(alignment: .leading, spacing: 3) {
-                Text(title)
-                    .font(.subheadline.weight(.semibold))
-
-                if let caption {
-                    Text(caption)
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-
-            content()
-        }
-    }
-}
-
-private struct LeaveDateRangeCard: View {
-    @Binding var startDate: Date
-    @Binding var endDate: Date
-    let dayCount: Int?
-
-    private var today: Date {
-        Calendar.current.startOfDay(for: Date())
-    }
-
-    var body: some View {
-        VStack(spacing: 0) {
-            HStack(alignment: .top, spacing: 0) {
-                dateColumn(
-                    title: "Starts",
-                    systemImage: "airplane.departure",
-                    date: $startDate,
-                    minDate: today
-                )
-
-                dateConnector
-
-                dateColumn(
-                    title: "Ends",
-                    systemImage: "flag.checkered",
-                    date: $endDate,
-                    minDate: startDate
-                )
-            }
-            .padding(.horizontal, 14)
-            .padding(.top, 14)
-            .padding(.bottom, 12)
-
-            if let dayCount, dayCount > 0 {
-                Divider()
-                    .padding(.horizontal, 14)
-
-                durationSummary(days: dayCount)
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 12)
-            }
-        }
-        .background(Color(.secondarySystemGroupedBackground))
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-    }
-
-    private var dateConnector: some View {
-        VStack(spacing: 4) {
-            Spacer(minLength: 22)
-
-            Image(systemName: "arrow.right")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.tertiary)
-
-            Spacer(minLength: 0)
-        }
-        .frame(width: 28)
-    }
-
-    private func dateColumn(
-        title: String,
-        systemImage: String,
-        date: Binding<Date>,
-        minDate: Date
-    ) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Label(title, systemImage: systemImage)
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(.secondary)
-                .labelStyle(.titleAndIcon)
-
-            DatePicker(
-                title,
-                selection: date,
-                in: minDate...Date.distantFuture,
-                displayedComponents: .date
-            )
-            .labelsHidden()
-            .datePickerStyle(.compact)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .accessibilityLabel(title)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-    }
-
-    private func durationSummary(days: Int) -> some View {
-        HStack(alignment: .firstTextBaseline, spacing: 10) {
-            Image(systemName: "calendar.badge.clock")
-                .font(.subheadline)
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 18)
-
-            VStack(alignment: .leading, spacing: 2) {
-                Text("\(days) calendar day\(days == 1 ? "" : "s") of leave")
-                    .font(.subheadline.weight(.semibold))
-
-                Text(durationDetail(days: days))
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-
-            Spacer(minLength: 0)
-        }
-    }
-
-    private func durationDetail(days: Int) -> String {
-        if days == 1 {
-            return "Same-day leave counts as one day."
-        }
-        return "\(compactDate(startDate)) through \(compactDate(endDate)), inclusive."
-    }
-
-    private func compactDate(_ date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM d, yyyy"
-        return formatter.string(from: date)
-    }
-}
-
-private enum LeaveInputField: Hashable {
-    case currentBalance
-    case maxBalanceAtPCS
-    case specialLeave
-    case accrualRate
-}
-
-private struct LeaveNumberFieldView: View {
-    let label: String
-    @Binding var text: String
-    let field: LeaveInputField
-    var focusedField: FocusState<LeaveInputField?>.Binding
-    var showsLabel: Bool = true
-    var detail: String?
-    let maxValue: Double
-    var unitLabel: String = "days"
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            if showsLabel {
-                Text(label)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-
-            if let detail {
-                Text(detail)
-                    .font(.caption)
-                    .foregroundStyle(.tertiary)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-
-            HStack(spacing: 8) {
-                TextField("0", text: $text)
-                    .keyboardType(.decimalPad)
-                    .focused(focusedField, equals: field)
-                    .font(.title2.weight(.semibold).monospacedDigit())
-                    .multilineTextAlignment(.trailing)
-                    .onChange(of: text) { _, newValue in
-                        text = sanitizedLeaveInput(newValue, maxValue: maxValue)
-                    }
-
-                Text(unitLabel)
-                    .font(.subheadline.weight(.medium))
-                    .foregroundStyle(.secondary)
-                    .frame(minWidth: 44, alignment: .leading)
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 12)
-            .background(Color(.secondarySystemGroupedBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-        }
-    }
-
-    private func sanitizedLeaveInput(_ input: String, maxValue: Double) -> String {
-        var filtered = ""
-        var hasDecimal = false
-
-        for character in input {
-            if character.isNumber {
-                filtered.append(character)
-            } else if character == "." && !hasDecimal {
-                hasDecimal = true
-                filtered.append(character)
-            }
-        }
-
-        if filtered == "." {
-            return "0."
-        }
-
-        if let value = Double(filtered), value > maxValue {
-            return formattedInput(maxValue)
-        }
-
-        return filtered
-    }
-
-    private func formattedInput(_ value: Double) -> String {
-        if value == value.rounded() {
-            return String(Int(value))
-        }
-        return String(format: "%.1f", value)
     }
 }
 

@@ -24,7 +24,6 @@ struct HomeView: View {
                             remindersSection(for: base)
                             emergencySection(for: base)
                             toolsSection
-                            openNowSection(for: base)
                             savedItemsSection(for: base)
                             legalFooterSection
                         }
@@ -114,14 +113,6 @@ struct HomeView: View {
     }
 
     @ViewBuilder
-    private func openNowSection(for base: Base) -> some View {
-        HomeOpenNowSection(base: base) { category in
-            appState.openExplore(.resources, categoryID: category?.id, openNowOnly: true)
-            selectedTab = 1
-        }
-    }
-
-    @ViewBuilder
     private func emergencySection(for base: Base) -> some View {
         if !base.emergencyNumbers.isEmpty {
             EmergencyContactsButton(numbers: base.emergencyNumbers)
@@ -131,61 +122,7 @@ struct HomeView: View {
     private var toolsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Tools")
-
-            NavigationLink {
-                PTCalculatorView()
-            } label: {
-                HomeToolCard(
-                    title: "PFRA Score Calculator",
-                    subtitle: "Estimate your fitness assessment score",
-                    systemImage: "figure.run"
-                )
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink {
-                PFRAGoalPlannerView()
-            } label: {
-                HomeToolCard(
-                    title: "PFRA Goal Planner",
-                    subtitle: "What you need to hit your goal",
-                    systemImage: "target"
-                )
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink {
-                AFISearchToolView()
-            } label: {
-                HomeToolCard(
-                    title: "Essential AFI Search",
-                    subtitle: "Search dress & appearance, leave, fitness, and more",
-                    systemImage: "doc.text.magnifyingglass"
-                )
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink {
-                LeavePlannerView()
-            } label: {
-                HomeToolCard(
-                    title: "Leave Planner",
-                    subtitle: "Check upcoming leave or plan before PCS",
-                    systemImage: "calendar.badge.clock"
-                )
-            }
-            .buttonStyle(.plain)
-
-            NavigationLink {
-                PayCalendarView()
-            } label: {
-                HomeToolCard(
-                    title: "Pay Calendar",
-                    subtitle: "Mid-month, month-end, and special pays",
-                    systemImage: "dollarsign.circle.fill"
-                )
-            }
-            .buttonStyle(.plain)
+            HomeToolsBentoGrid()
         }
     }
 

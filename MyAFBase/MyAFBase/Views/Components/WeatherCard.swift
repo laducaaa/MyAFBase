@@ -32,7 +32,7 @@ struct WeatherCard: View {
             HStack {
                 Image(systemName: "cloud.sun.fill")
                     .font(.title2)
-                    .foregroundStyle(Color.accentColor)
+                    .foregroundStyle(AppTheme.accent)
                 Text("Weather")
                     .font(.headline)
                 Spacer()
@@ -264,7 +264,7 @@ struct WeatherCard: View {
             }
         }
         .font(.caption2)
-        .foregroundStyle(isCached(weather) ? Color.orange.opacity(0.9) : HomeMetrics.heroSecondaryText)
+        .foregroundStyle(isCached(weather) ? AppTheme.warning.opacity(0.9) : HomeMetrics.heroSecondaryText)
         .frame(maxWidth: .infinity, alignment: .leading)
         .accessibilityLabel(metadataAccessibilityLabel(for: weather))
     }
@@ -278,7 +278,7 @@ struct WeatherCard: View {
                 Text("Cached · \(timestampText(for: weather))")
                     .font(.caption2)
             }
-            .foregroundStyle(.orange)
+            .foregroundStyle(AppTheme.warning)
             .accessibilityLabel("Showing cached weather from \(fullTimestampText(for: weather))")
         } else {
             Text("Observed \(timestampText(for: weather))")

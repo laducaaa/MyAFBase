@@ -58,7 +58,7 @@ struct LegalDisclaimerCard: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: systemImage)
                 .font(.caption.weight(.semibold))
-                .foregroundStyle(.orange)
+                .foregroundStyle(AppTheme.warning)
 
             Text(text)
                 .font(.caption)
@@ -67,7 +67,7 @@ struct LegalDisclaimerCard: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.orange.opacity(0.1), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .background(AppTheme.warning.opacity(0.1), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 

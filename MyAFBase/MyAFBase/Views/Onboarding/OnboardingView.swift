@@ -10,41 +10,50 @@ struct OnboardingView: View {
 
     private let pages = OnboardingContent.pages
 
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var onboardingCanvas: Color {
+        colorScheme == .dark ? .black : .white
+    }
+
+    private var onboardingInk: Color {
+        colorScheme == .dark ? .white : .black
+    }
+
     private var isFinalPage: Bool {
         page >= pages.count - 1
     }
 
     var body: some View {
         ZStack {
-            AppScreenBackground()
+            onboardingCanvas.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                OnboardingProgressBar(current: page, total: pages.count)
-                    .padding(.horizontal, AppTheme.screenPadding)
-                    .padding(.top, 12)
-                    .padding(.bottom, 8)
-
                 TabView(selection: $page) {
                     ForEach(Array(pages.enumerated()), id: \.offset) { index, content in
                         Group {
                             if content.style == .legal {
                                 OnboardingLegalPageView(
                                     content: content,
-                                    hasReachedEnd: $hasReachedLegalEnd
+                                    isActive: page == index,
+                                    hasReachedEnd: $hasReachedLegalEnd,
+                                    hasAcceptedTerms: $hasAcceptedTerms
                                 )
                             } else {
-                                OnboardingFeaturePageView(content: content)
+                                OnboardingFeaturePageView(
+                                    content: content,
+                                    isActive: page == index
+                                )
                             }
                         }
                         .tag(index)
                     }
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
-                .animation(.spring(response: 0.38, dampingFraction: 0.86), value: page)
+                .animation(OnboardingMotion.pageSpring, value: page)
+                .ignoresSafeArea(edges: .top)
 
                 footer
-                    .padding(.horizontal, AppTheme.screenPadding)
-                    .padding(.bottom, 28)
             }
         }
         .onAppear {
@@ -64,45 +73,38 @@ struct OnboardingView: View {
     }
 
     private var footer: some View {
-        VStack(spacing: 14) {
+        Button {
             if isFinalPage {
-                if !hasReachedLegalEnd {
-                    Label {
-                        Text("Scroll to the bottom to review all terms before continuing.")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                            .fixedSize(horizontal: false, vertical: true)
-                    } icon: {
-                        Image(systemName: "arrow.down.circle")
-                            .foregroundStyle(AppTheme.accent)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                onComplete()
+            } else {
+                withAnimation(OnboardingMotion.pageSpring) {
+                    page += 1
                 }
-
-                OnboardingAcknowledgmentCard(
-                    isOn: $hasAcceptedTerms,
-                    isEnabled: hasReachedLegalEnd
-                )
             }
-
-            Button {
-                if isFinalPage {
-                    onComplete()
-                } else {
-                    withAnimation(.spring(response: 0.38, dampingFraction: 0.86)) {
-                        page += 1
-                    }
-                }
-            } label: {
-                Text(isFinalPage ? "Choose My Base" : "Continue")
-                    .font(.headline)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 16)
-            }
-            .buttonStyle(.borderedProminent)
-            .tint(AppTheme.accent)
-            .disabled(isFinalPage && !hasAcceptedTerms)
+        } label: {
+            Text(isFinalPage ? "Choose My Base" : "Continue")
+                .font(.headline)
+                .foregroundStyle(onboardingCanvas)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 14)
         }
+        .buttonStyle(.borderedProminent)
+        .tint(onboardingInk)
+        .disabled(isFinalPage && !hasAcceptedTerms)
+        .padding(.horizontal, AppTheme.screenPadding)
+        .padding(.top, 8)
+        .padding(.bottom, 20)
+    }
+}
+
+// MARK: - Motion
+
+private enum OnboardingMotion {
+    static let pageSpring = Animation.spring(response: 0.52, dampingFraction: 0.86)
+    static let heroSpring = Animation.spring(response: 0.62, dampingFraction: 0.88)
+
+    static func stagger(_ index: Int, base: Double = 0.14) -> Animation {
+        pageSpring.delay(base + Double(index) * 0.07)
     }
 }
 
@@ -116,12 +118,11 @@ private enum OnboardingPageStyle {
 private struct OnboardingPageContent: Identifiable {
     let id = UUID()
     let style: OnboardingPageStyle
+    let heroImageName: String?
     let eyebrow: String
-    let systemImage: String
     let title: String
     let subtitle: String
     let features: [OnboardingFeature]
-    let gradient: [Color]
 }
 
 private struct OnboardingFeature: Identifiable {
@@ -129,245 +130,208 @@ private struct OnboardingFeature: Identifiable {
     let systemImage: String
     let title: String
     let detail: String
-    let tint: Color?
 }
 
 private enum OnboardingContent {
     static let pages: [OnboardingPageContent] = [
         OnboardingPageContent(
             style: .features,
+            heroImageName: "OnboardingHero1",
             eyebrow: "Explore",
-            systemImage: "building.2.fill",
-            title: "Your installation,\nin one place",
-            subtitle: "Gates, dining, fitness, medical, events, and more — curated for the base you select.",
+            title: "Your installation,\nmapped & searchable",
+            subtitle: "Browse gates, dining, fitness, events, and base services — as a list or on Apple Maps.",
             features: [
                 OnboardingFeature(
-                    systemImage: "door.left.hand.open",
-                    title: "Gates & open now",
-                    detail: "Hours, traffic notes, and what's open right now across the installation.",
-                    tint: AppTheme.accent
+                    systemImage: "list.bullet.rectangle",
+                    title: "List & map modes",
+                    detail: "Switch between categorized lists and a base-scoped map with clean POI search."
                 ),
                 OnboardingFeature(
-                    systemImage: "map.fill",
-                    title: "Explore map",
-                    detail: "Native Apple Maps with base-scoped search — no duplicate pins cluttering the map.",
-                    tint: Color(red: 0.20, green: 0.55, blue: 0.42)
+                    systemImage: "clock.badge.checkmark",
+                    title: "Open now filter",
+                    detail: "See what's open across the installation right now — gates, dining, fitness, and more."
+                ),
+                OnboardingFeature(
+                    systemImage: "calendar",
+                    title: "Events & resources",
+                    detail: "Holidays, community activities, and installation services in one Explore tab."
                 ),
                 OnboardingFeature(
                     systemImage: "bookmark.fill",
                     title: "Saved to Home",
-                    detail: "Bookmark gates, resources, and events — they show up on your dashboard.",
-                    tint: Color(red: 0.72, green: 0.52, blue: 0.12)
+                    detail: "Bookmark gates, resources, and events — they show up on your dashboard."
                 )
-            ],
-            gradient: [AppTheme.accent, AppTheme.accentLight]
+            ]
         ),
         OnboardingPageContent(
             style: .features,
+            heroImageName: "OnboardingHero2",
             eyebrow: "Tools & widgets",
-            systemImage: "square.grid.2x2.fill",
-            title: "Stay ahead\nof deadlines",
-            subtitle: "Fitness, leave, pay, and weather — on your phone and your Home Screen.",
+            title: "Plan fitness,\nleave & pay",
+            subtitle: "Built-in planners, offline AFI search, and Home Screen widgets keep you ahead of deadlines.",
             features: [
                 OnboardingFeature(
-                    systemImage: "figure.run",
+                    systemImage: "text.magnifyingglass",
+                    title: "Essential AFI Search",
+                    detail: "Search key publications offline from Home — citations open the official PDFs."
+                ),
+                OnboardingFeature(
+                    systemImage: "figure.strengthtraining.functional",
                     title: "PFRA calculator & planner",
-                    detail: "Estimate your score and see what you need to hit your target tier.",
-                    tint: AppTheme.brandTeal
+                    detail: "Estimate your score, plan toward a target tier, and track progress at a glance."
                 ),
                 OnboardingFeature(
                     systemImage: "calendar.badge.clock",
-                    title: "Leave & pay calendars",
-                    detail: "Plan leave around PCS and keep the next pay date visible at a glance.",
-                    tint: Color(red: 0.72, green: 0.52, blue: 0.12)
+                    title: "Leave & pay planners",
+                    detail: "Multi-trip leave, balance projection, PCS caps, and pay-gap warnings in one place."
                 ),
                 OnboardingFeature(
                     systemImage: "widget.small",
-                    title: "Home Screen widgets",
-                    detail: "Weather, open now, emergency contacts, pay dates, and readiness countdown.",
-                    tint: AppTheme.accent
-                ),
-                OnboardingFeature(
-                    systemImage: "mic.fill",
-                    title: "Siri & Shortcuts",
-                    detail: "Ask for your next pay date, next reminder, or switch bases by voice.",
-                    tint: Color(red: 0.45, green: 0.35, blue: 0.82)
+                    title: "Widgets & Siri",
+                    detail: "Weather, pay dates, open now, readiness, and emergency contacts — plus voice shortcuts."
                 )
-            ],
-            gradient: [AppTheme.brandTeal, AppTheme.brandTealLight]
+            ]
         ),
         OnboardingPageContent(
             style: .features,
+            heroImageName: "OnboardingHero3",
             eyebrow: "Assignment",
-            systemImage: "suitcase.fill",
-            title: "Own your\nassignment",
-            subtitle: "From arrival through PCS — track your phase, checklists, and personal due dates.",
+            title: "Track your\nassignment phase",
+            subtitle: "From arrival through PCS — key dates, readiness items, and checklists tailored to where you are.",
             features: [
                 OnboardingFeature(
                     systemImage: "airplane.arrival",
-                    title: "In Processing → Stationed → Out",
-                    detail: "Set your phase in Menu. My Assignment shows only what's relevant.",
-                    tint: Color(red: 0.48, green: 0.32, blue: 0.24)
-                ),
-                OnboardingFeature(
-                    systemImage: "checklist",
-                    title: "PCS checklists",
-                    detail: "In-processing and out-processing tasks to work through at your own pace.",
-                    tint: AppTheme.accent
+                    title: "Phase-aware views",
+                    detail: "Set In Processing, Stationed, or Out in Menu — My Assignment shows only what's relevant."
                 ),
                 OnboardingFeature(
                     systemImage: "calendar.badge.clock",
-                    title: "Personal reminders",
-                    detail: "Track dental, fitness, evals, and more — due dates on Home and the Reminders tab.",
-                    tint: Color(red: 0.78, green: 0.28, blue: 0.22)
+                    title: "Key dates & countdowns",
+                    detail: "Report, RNLTD, DEROS, and more — tap to edit with days-left badges."
+                ),
+                OnboardingFeature(
+                    systemImage: "checklist",
+                    title: "Readiness & PCS checklists",
+                    detail: "Dental, fitness, evals, and in/out-processing tasks with due dates on Home and Reminders."
                 )
-            ],
-            gradient: [Color(red: 0.36, green: 0.24, blue: 0.18), Color(red: 0.48, green: 0.32, blue: 0.24)]
+            ]
         ),
         OnboardingPageContent(
             style: .legal,
+            heroImageName: nil,
             eyebrow: "Before you start",
-            systemImage: "checkmark.shield.fill",
             title: "Unofficial.\nTransparent.\nOn your device.",
-            subtitle: "MyAFBase is a community-built reference — not a DoD or U.S. Air Force product.",
+            subtitle: "MyAFBase is a community-built reference — not affiliated with the DoD or U.S. Air Force.",
             features: LegalCopy.Section.allCases.map { section in
                 OnboardingFeature(
                     systemImage: section.systemImage,
                     title: section.title,
-                    detail: section.body,
-                    tint: nil
+                    detail: section.body
                 )
-            },
-            gradient: [AppTheme.accent, AppTheme.brandTeal]
+            }
         )
     ]
 }
 
-// MARK: - Shared chrome
+// MARK: - Hero image
 
-private struct OnboardingProgressBar: View {
-    let current: Int
-    let total: Int
+private struct OnboardingHeroImage: View {
+    let imageName: String
+    let height: CGFloat
+    var isRevealed: Bool = true
+
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var canvas: Color {
+        colorScheme == .dark ? .black : .white
+    }
 
     var body: some View {
-        HStack(spacing: 8) {
-            ForEach(0..<total, id: \.self) { index in
-                Capsule()
-                    .fill(index <= current ? AppTheme.accent : Color(.tertiarySystemFill))
-                    .frame(height: 4)
-                    .animation(.spring(response: 0.38, dampingFraction: 0.84), value: current)
-            }
+        ZStack(alignment: .top) {
+            canvas
+
+            Image(imageName)
+                .resizable()
+                .scaledToFill()
+                .frame(height: height)
+                .frame(maxWidth: .infinity)
+                .scaleEffect(isRevealed ? 1 : 1.05)
+                .opacity(isRevealed ? 1 : 0.85)
+                .mask {
+                    LinearGradient(
+                        stops: [
+                            .init(color: .black, location: 0),
+                            .init(color: .black, location: 0.52),
+                            .init(color: .black.opacity(0.92), location: 0.68),
+                            .init(color: .black.opacity(0.55), location: 0.82),
+                            .init(color: .black.opacity(0.15), location: 0.93),
+                            .init(color: .clear, location: 1)
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    )
+                }
         }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Step \(current + 1) of \(total)")
+        .frame(height: height)
+        .frame(maxWidth: .infinity)
+        .clipped()
+        .animation(OnboardingMotion.heroSpring, value: isRevealed)
     }
 }
 
-private struct OnboardingHeroHeader: View {
+private struct OnboardingMonochromeHeader: View {
     let content: OnboardingPageContent
+    var compact: Bool = false
+    var isRevealed: Bool = true
+    var headerIcon: String? = nil
+
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var ink: Color {
+        colorScheme == .dark ? .white : .black
+    }
+
+    private var inkSecondary: Color {
+        ink.opacity(0.62)
+    }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            HStack(alignment: .center, spacing: 14) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .fill(
-                            LinearGradient(
-                                colors: content.gradient,
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
-                        .frame(width: 64, height: 64)
-                        .shadow(color: content.gradient.first?.opacity(0.28) ?? .clear, radius: 12, y: 6)
-
-                    Image(systemName: content.systemImage)
-                        .font(.system(size: 28, weight: .semibold))
-                        .symbolRenderingMode(.hierarchical)
-                        .foregroundStyle(.white)
-                }
-
-                Text(content.eyebrow.uppercased())
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(AppTheme.accent)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 5)
-                    .background(AppTheme.accent.opacity(0.10), in: Capsule())
+        VStack(alignment: .leading, spacing: compact ? 8 : 10) {
+            if let headerIcon {
+                Image(systemName: headerIcon)
+                    .font(.system(size: 28, weight: .semibold))
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundStyle(ink)
+                    .opacity(isRevealed ? 1 : 0)
+                    .offset(y: isRevealed ? 0 : 8)
+                    .animation(OnboardingMotion.stagger(0, base: 0.08), value: isRevealed)
             }
 
-            VStack(alignment: .leading, spacing: 10) {
-                Text(content.title)
-                    .font(.system(.largeTitle, design: .default, weight: .bold))
-                    .fixedSize(horizontal: false, vertical: true)
+            Text(content.eyebrow.uppercased())
+                .font(.caption.weight(.semibold))
+                .tracking(0.5)
+                .foregroundStyle(inkSecondary)
+                .opacity(isRevealed ? 1 : 0)
+                .offset(y: isRevealed ? 0 : 10)
+                .animation(OnboardingMotion.stagger(headerIcon == nil ? 0 : 1, base: 0.08), value: isRevealed)
 
-                Text(content.subtitle)
-                    .font(.body)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
+            Text(content.title)
+                .font(.system(compact ? .title : .largeTitle, design: .default, weight: .bold))
+                .foregroundStyle(ink)
+                .fixedSize(horizontal: false, vertical: true)
+                .opacity(isRevealed ? 1 : 0)
+                .offset(y: isRevealed ? 0 : 14)
+                .animation(OnboardingMotion.stagger(headerIcon == nil ? 1 : 2, base: 0.08), value: isRevealed)
+
+            Text(content.subtitle)
+                .font(compact ? .callout : .body)
+                .foregroundStyle(inkSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+                .opacity(isRevealed ? 1 : 0)
+                .offset(y: isRevealed ? 0 : 12)
+                .animation(OnboardingMotion.stagger(headerIcon == nil ? 2 : 3, base: 0.08), value: isRevealed)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-    }
-}
-
-// MARK: - Feature pages
-
-private struct OnboardingFeaturePageView: View {
-    let content: OnboardingPageContent
-
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                OnboardingHeroHeader(content: content)
-
-                VStack(spacing: 10) {
-                    ForEach(content.features) { feature in
-                        OnboardingFeatureCard(feature: feature)
-                    }
-                }
-            }
-            .padding(.horizontal, AppTheme.screenPadding)
-            .padding(.top, 8)
-            .padding(.bottom, 16)
-        }
-        .scrollBounceBehavior(.basedOnSize)
-    }
-}
-
-private struct OnboardingFeatureCard: View {
-    let feature: OnboardingFeature
-
-    var body: some View {
-        HStack(alignment: .top, spacing: 14) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 12, style: .continuous)
-                    .fill((feature.tint ?? AppTheme.accent).opacity(0.12))
-                    .frame(width: 40, height: 40)
-
-                Image(systemName: feature.systemImage)
-                    .font(.body.weight(.semibold))
-                    .symbolRenderingMode(.hierarchical)
-                    .foregroundStyle(feature.tint ?? AppTheme.accent)
-            }
-
-            VStack(alignment: .leading, spacing: 4) {
-                Text(feature.title)
-                    .font(.subheadline.weight(.semibold))
-
-                Text(feature.detail)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-
-            Spacer(minLength: 0)
-        }
-        .padding(14)
-        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-        .overlay {
-            RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                .strokeBorder(Color.primary.opacity(0.05), lineWidth: 0.5)
-        }
     }
 }
 
@@ -375,84 +339,109 @@ private struct OnboardingFeatureCard: View {
 
 private struct OnboardingLegalPageView: View {
     let content: OnboardingPageContent
+    let isActive: Bool
     @Binding var hasReachedEnd: Bool
+    @Binding var hasAcceptedTerms: Bool
+
+    @Environment(\.colorScheme) private var colorScheme
+    @State private var isRevealed = false
+
+    private var canvas: Color {
+        colorScheme == .dark ? .black : .white
+    }
+
+    private var ink: Color {
+        colorScheme == .dark ? .white : .black
+    }
+
+    private var inkSecondary: Color {
+        ink.opacity(0.62)
+    }
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 22) {
-                OnboardingHeroHeader(content: content)
+            VStack(alignment: .leading, spacing: 14) {
+                OnboardingMonochromeHeader(
+                    content: content,
+                    compact: true,
+                    isRevealed: isRevealed,
+                    headerIcon: "checkmark.shield"
+                )
+                .safeAreaPadding(.top, 8)
 
                 VStack(spacing: 0) {
                     ForEach(Array(content.features.enumerated()), id: \.element.id) { index, feature in
                         if index > 0 {
                             Divider()
-                                .padding(.leading, 54)
+                                .opacity(colorScheme == .dark ? 0.22 : 0.14)
                         }
-                        OnboardingLegalRow(feature: feature)
+                        OnboardingMonochromeFeatureRow(
+                            feature: feature,
+                            compact: true,
+                            isRevealed: isRevealed,
+                            index: index + 4
+                        )
                     }
                 }
-                .background(.regularMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-                .overlay {
-                    RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                        .strokeBorder(Color.primary.opacity(0.05), lineWidth: 0.5)
-                }
 
-                Label {
-                    Text("Always verify hours, gate access, and emergency numbers with official installation sources.")
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                } icon: {
-                    Image(systemName: "info.circle.fill")
-                        .foregroundStyle(.tertiary)
-                }
-                .padding(.horizontal, 4)
+                Text("Always verify hours, gate access, and emergency numbers with official installation sources.")
+                    .font(.caption)
+                    .foregroundStyle(inkSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(.top, 4)
+                    .opacity(isRevealed ? 1 : 0)
+                    .animation(OnboardingMotion.stagger(9, base: 0.1), value: isRevealed)
 
                 Color.clear
                     .frame(height: 1)
                     .onAppear { hasReachedEnd = true }
                     .onDisappear { hasReachedEnd = false }
+
+                OnboardingAcknowledgmentCard(
+                    isOn: $hasAcceptedTerms,
+                    isEnabled: hasReachedEnd
+                )
+                .opacity(isRevealed ? 1 : 0)
+                .offset(y: isRevealed ? 0 : 12)
+                .animation(OnboardingMotion.stagger(10, base: 0.12), value: isRevealed)
             }
             .padding(.horizontal, AppTheme.screenPadding)
-            .padding(.top, 8)
             .padding(.bottom, 16)
         }
         .scrollBounceBehavior(.basedOnSize)
-    }
-}
-
-private struct OnboardingLegalRow: View {
-    let feature: OnboardingFeature
-
-    var body: some View {
-        HStack(alignment: .top, spacing: 14) {
-            Image(systemName: feature.systemImage)
-                .font(.body.weight(.semibold))
-                .symbolRenderingMode(.hierarchical)
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 28, alignment: .center)
-                .padding(.top, 2)
-
-            VStack(alignment: .leading, spacing: 4) {
-                Text(feature.title)
-                    .font(.subheadline.weight(.semibold))
-
-                Text(feature.detail)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
+        .background(canvas)
+        .onAppear { triggerRevealIfNeeded() }
+        .onChange(of: isActive) { _, active in
+            if active {
+                triggerRevealIfNeeded()
+            } else {
+                isRevealed = false
             }
-
-            Spacer(minLength: 0)
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
+    }
+
+    private func triggerRevealIfNeeded() {
+        guard isActive else { return }
+        isRevealed = false
+        withAnimation(OnboardingMotion.pageSpring) {
+            isRevealed = true
+        }
     }
 }
 
 private struct OnboardingAcknowledgmentCard: View {
     @Binding var isOn: Bool
     var isEnabled: Bool = true
+
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var ink: Color {
+        colorScheme == .dark ? .white : .black
+    }
+
+    private var inkSecondary: Color {
+        ink.opacity(0.62)
+    }
 
     var body: some View {
         Button {
@@ -464,33 +453,159 @@ private struct OnboardingAcknowledgmentCard: View {
             HStack(alignment: .top, spacing: 12) {
                 Image(systemName: isOn ? "checkmark.circle.fill" : "circle")
                     .font(.title3)
-                    .foregroundStyle(isOn ? AppTheme.accent : Color(.tertiaryLabel))
+                    .symbolRenderingMode(.monochrome)
+                    .foregroundStyle(isOn ? ink : ink.opacity(0.35))
                     .symbolEffect(.bounce, value: isOn)
 
                 Text(LegalCopy.onboardingAcknowledgment)
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(inkSecondary)
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
 
                 Spacer(minLength: 0)
             }
-            .padding(14)
-            .background(.regularMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-            .overlay {
-                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                    .strokeBorder(
-                        isOn ? AppTheme.accent.opacity(0.35) : Color.primary.opacity(0.05),
-                        lineWidth: 1
-                    )
-            }
+            .padding(.vertical, 12)
         }
         .buttonStyle(.plain)
         .disabled(!isEnabled)
-        .opacity(isEnabled ? 1 : 0.45)
+        .opacity(isEnabled ? 1 : 0.4)
         .accessibilityAddTraits(isOn ? [.isSelected] : [])
         .accessibilityLabel(LegalCopy.onboardingAcknowledgment)
         .accessibilityValue(isOn ? "Accepted" : isEnabled ? "Not accepted" : "Review terms by scrolling to the bottom first")
+    }
+}
+
+private struct OnboardingFeaturePageView: View {
+    let content: OnboardingPageContent
+    let isActive: Bool
+
+    @Environment(\.colorScheme) private var colorScheme
+    @State private var isRevealed = false
+
+    private var canvas: Color {
+        colorScheme == .dark ? .black : .white
+    }
+
+    private var isCompact: Bool {
+        content.features.count >= 4
+    }
+
+    private func heroHeight(totalHeight: CGFloat, width: CGFloat) -> CGFloat {
+        let ratio: CGFloat = isCompact ? 0.30 : 0.34
+        let scaled = totalHeight * ratio
+        return min(max(scaled, 165), width * 0.56)
+    }
+
+    var body: some View {
+        GeometryReader { geometry in
+            let topInset = geometry.safeAreaInsets.top
+            let layoutHeight = geometry.size.height - topInset
+            let heroH = heroHeight(totalHeight: layoutHeight, width: geometry.size.width)
+            let fullHeroH = heroH + topInset
+
+            VStack(spacing: 0) {
+                if let heroImageName = content.heroImageName {
+                    OnboardingHeroImage(
+                        imageName: heroImageName,
+                        height: fullHeroH,
+                        isRevealed: isRevealed
+                    )
+                }
+
+                VStack(alignment: .leading, spacing: isCompact ? 10 : 14) {
+                    OnboardingMonochromeHeader(
+                        content: content,
+                        compact: isCompact,
+                        isRevealed: isRevealed
+                    )
+
+                    VStack(spacing: 0) {
+                        ForEach(Array(content.features.enumerated()), id: \.element.id) { index, feature in
+                            if index > 0 {
+                                Divider()
+                                    .opacity(colorScheme == .dark ? 0.22 : 0.14)
+                            }
+                            OnboardingMonochromeFeatureRow(
+                                feature: feature,
+                                compact: isCompact,
+                                isRevealed: isRevealed,
+                                index: index
+                            )
+                        }
+                    }
+                }
+                .padding(.horizontal, AppTheme.screenPadding)
+                .padding(.top, 2)
+                .background(canvas)
+
+                Spacer(minLength: 0)
+            }
+            .frame(width: geometry.size.width, height: geometry.size.height, alignment: .top)
+        }
+        .ignoresSafeArea(edges: .top)
+        .background(canvas)
+        .onAppear { triggerRevealIfNeeded() }
+        .onChange(of: isActive) { _, active in
+            if active {
+                triggerRevealIfNeeded()
+            } else {
+                isRevealed = false
+            }
+        }
+    }
+
+    private func triggerRevealIfNeeded() {
+        guard isActive else { return }
+        isRevealed = false
+        withAnimation(OnboardingMotion.pageSpring) {
+            isRevealed = true
+        }
+    }
+}
+
+private struct OnboardingMonochromeFeatureRow: View {
+    let feature: OnboardingFeature
+    var compact: Bool = false
+    var isRevealed: Bool = true
+    var index: Int = 0
+
+    @Environment(\.colorScheme) private var colorScheme
+
+    private var ink: Color {
+        colorScheme == .dark ? .white : .black
+    }
+
+    private var inkSecondary: Color {
+        ink.opacity(0.62)
+    }
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 12) {
+            Image(systemName: feature.systemImage)
+                .font(compact ? .subheadline.weight(.semibold) : .body.weight(.semibold))
+                .symbolRenderingMode(.monochrome)
+                .foregroundStyle(ink)
+                .frame(width: 24, alignment: .center)
+                .padding(.top, 1)
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(feature.title)
+                    .font(compact ? .caption.weight(.semibold) : .subheadline.weight(.semibold))
+                    .foregroundStyle(ink)
+
+                Text(feature.detail)
+                    .font(compact ? .caption2 : .caption)
+                    .foregroundStyle(inkSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
+            Spacer(minLength: 0)
+        }
+        .padding(.vertical, compact ? 7 : 9)
+        .opacity(isRevealed ? 1 : 0)
+        .offset(x: isRevealed ? 0 : 18)
+        .animation(OnboardingMotion.stagger(index + 3, base: 0.1), value: isRevealed)
     }
 }
 
@@ -543,7 +658,7 @@ private struct OnboardingAcknowledgmentPreview: View {
 
     var body: some View {
         ZStack {
-            AppScreenBackground()
+            Color.black.ignoresSafeArea()
             OnboardingAcknowledgmentCard(isOn: $isOn, isEnabled: isEnabled)
                 .padding()
         }
@@ -555,7 +670,7 @@ private struct OnboardingLegalAcceptedPreview: View {
 
     var body: some View {
         ZStack {
-            AppScreenBackground()
+            Color.black.ignoresSafeArea()
             VStack {
                 Spacer()
                 OnboardingAcknowledgmentCard(isOn: $accepted, isEnabled: true)

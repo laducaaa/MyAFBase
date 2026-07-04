@@ -137,4 +137,70 @@ struct LeavePlannerTests {
         #expect(coverage?.isCovered == false)
         #expect(coverage?.shortfall ?? 0 > 0)
     }
+
+    @Test func projectBalanceAccruesBeforeTargetDate() {
+        let calendar = Calendar(identifier: .gregorian)
+        let today = calendar.date(from: DateComponents(year: 2026, month: 6, day: 1))!
+        let target = calendar.date(from: DateComponents(year: 2026, month: 10, day: 4))!
+
+        let projection = LeavePlanner.projectBalance(
+            currentBalance: 30,
+            on: target,
+            accrualPerMonth: 2.5,
+            from: today,
+            calendar: calendar
+        )
+
+        #expect(projection?.daysUntilTarget == 125)
+        #expect(projection?.accruedAmount ?? 0 > 7)
+        #expect(projection?.projectedBalance ?? 0 > 37)
+    }
+
+    @Test func multiTripCoversSequentialHolidays() {
+        let calendar = Calendar(identifier: .gregorian)
+        let today = calendar.date(from: DateComponents(year: 2026, month: 6, day: 1))!
+        let thanksgivingStart = calendar.date(from: DateComponents(year: 2026, month: 11, day: 26))!
+        let thanksgivingEnd = calendar.date(from: DateComponents(year: 2026, month: 11, day: 30))!
+        let christmasStart = calendar.date(from: DateComponents(year: 2026, month: 12, day: 23))!
+        let christmasEnd = calendar.date(from: DateComponents(year: 2026, month: 12, day: 27))!
+
+        let result = LeavePlanner.evaluateMultipleTrips(
+            currentBalance: 10,
+            trips: [
+                LeavePlannedTrip(label: "Thanksgiving", startDate: thanksgivingStart, endDate: thanksgivingEnd),
+                LeavePlannedTrip(label: "Christmas", startDate: christmasStart, endDate: christmasEnd)
+            ],
+            accrualPerMonth: 2.5,
+            from: today,
+            calendar: calendar
+        )
+
+        #expect(result?.trips.count == 2)
+        #expect(result?.totalLeaveDays == 10)
+        #expect(result?.allCovered == true)
+        #expect(result?.finalBalance ?? -1 > 0)
+    }
+
+    @Test func multiTripFlagsShortfallOnSecondTrip() {
+        let calendar = Calendar(identifier: .gregorian)
+        let today = calendar.date(from: DateComponents(year: 2026, month: 6, day: 1))!
+        let firstStart = calendar.date(from: DateComponents(year: 2026, month: 11, day: 20))!
+        let firstEnd = calendar.date(from: DateComponents(year: 2026, month: 11, day: 30))!
+        let secondStart = calendar.date(from: DateComponents(year: 2026, month: 12, day: 20))!
+        let secondEnd = calendar.date(from: DateComponents(year: 2026, month: 12, day: 31))!
+
+        let result = LeavePlanner.evaluateMultipleTrips(
+            currentBalance: 5,
+            trips: [
+                LeavePlannedTrip(label: "Thanksgiving", startDate: firstStart, endDate: firstEnd),
+                LeavePlannedTrip(label: "Christmas", startDate: secondStart, endDate: secondEnd)
+            ],
+            accrualPerMonth: 2.5,
+            from: today,
+            calendar: calendar
+        )
+
+        #expect(result?.allCovered == false)
+        #expect(result?.firstFailure?.label == "Christmas")
+    }
 }

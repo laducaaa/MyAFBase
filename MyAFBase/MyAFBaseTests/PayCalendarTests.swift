@@ -30,6 +30,34 @@ struct PayCalendarTests {
     let events = PayCalendar.upcomingEvents(from: start, monthsAhead: 3, specialPays: [special], calendar: calendar)
     #expect(events.contains { $0.isSpecial && $0.title == "Assignment Incentive Pay" })
   }
+
+  @Test func detectsLongGapAfterWeekendAdjustedMidMonthPay() {
+    var calendar = Calendar(identifier: .gregorian)
+    calendar.timeZone = TimeZone(secondsFromGMT: 0)!
+
+    let start = calendar.date(from: DateComponents(year: 2026, month: 10, day: 1))!
+    let events = PayCalendar.upcomingEvents(from: start, monthsAhead: 3, calendar: calendar)
+    let longGaps = PayCalendar.longGapInsights(in: events, calendar: calendar)
+
+    let novemberGap = longGaps.first {
+      calendar.component(.month, from: $0.priorPay.date) == 11
+        && calendar.component(.month, from: $0.nextPay.date) == 12
+    }
+
+    #expect(novemberGap != nil)
+    #expect(novemberGap?.gapDays ?? 0 > PayCalendar.longGapThresholdDays)
+  }
+
+  @Test func insightsIncludeLongGapWarning() {
+    var calendar = Calendar(identifier: .gregorian)
+    calendar.timeZone = TimeZone(secondsFromGMT: 0)!
+
+    let start = calendar.date(from: DateComponents(year: 2026, month: 10, day: 1))!
+    let events = PayCalendar.upcomingEvents(from: start, monthsAhead: 3, calendar: calendar)
+    let insights = PayCalendar.insights(from: events, calendar: calendar)
+
+    #expect(insights.contains { $0.kind == .longGap && $0.severity == .warning })
+  }
 }
 
 struct EmergencyWidgetBuilderTests {

@@ -90,7 +90,7 @@ struct ContentView: View {
                 .tabItem { Label("Menu", systemImage: "line.3.horizontal") }
                 .tag(4)
         }
-        .tint(.primary)
+        .tint(AppTheme.accent)
         .environment(stores.bookmarkStore)
         .environment(stores.readinessTrackerStore)
         .environment(stores.checklistStore)

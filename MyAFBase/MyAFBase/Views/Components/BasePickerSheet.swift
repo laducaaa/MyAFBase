@@ -191,8 +191,8 @@ struct BasePickerSheet: View {
                 .fill(
                     LinearGradient(
                         colors: [
-                            Color(red: 0.11, green: 0.13, blue: 0.18),
-                            Color(red: 0.18, green: 0.20, blue: 0.26)
+                            Color(hex: "1E1E20"),
+                            Color(hex: "121214")
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
@@ -223,7 +223,7 @@ struct BasePickerSheet: View {
                 Text("\(count)")
                     .font(.caption2.weight(.bold))
             }
-            .foregroundStyle(isSelected ? Color(red: 0.11, green: 0.13, blue: 0.18) : Color.white.opacity(0.9))
+            .foregroundStyle(isSelected ? AppTheme.heroBackground : Color.white.opacity(0.9))
             .frame(maxWidth: .infinity)
             .frame(height: BasePickerMetrics.regionChipHeight)
             .background {

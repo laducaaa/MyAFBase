@@ -62,10 +62,10 @@ struct NotificationRow: View {
 
     private var iconColor: Color {
         switch notification.type {
-        case .alert: return .red
-        case .info: return AppTheme.accent
-        case .closure: return .orange
-        case .event: return .purple
+        case .alert: return AppTheme.danger
+        case .info: return AppTheme.info
+        case .closure: return AppTheme.warning
+        case .event: return AppTheme.highlight
         }
     }
 }

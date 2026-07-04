@@ -4,6 +4,8 @@ struct AssignmentPhaseHeader: View {
     let base: Base
     let segment: AssignmentSegment
 
+    @Environment(\.colorScheme) private var colorScheme
+
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack(spacing: 10) {
@@ -32,7 +34,7 @@ struct AssignmentPhaseHeader: View {
         .padding(20)
         .background(
             LinearGradient(
-                colors: segment.gradientColors,
+                colors: AppTheme.phaseGradientColors(for: segment, colorScheme: colorScheme),
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
@@ -56,7 +58,7 @@ extension AssignmentSegment {
         case .inbound:
             "Work through your arrival checklist and in-processing guides."
         case .stationed:
-            "Track readiness dates and go-to AFIs."
+            "Track personal readiness dates and plan ahead for PCS."
         case .outbound:
             "Complete out-processing and prepare for your next assignment."
         }
@@ -70,14 +72,4 @@ extension AssignmentSegment {
         }
     }
 
-    var gradientColors: [Color] {
-        switch self {
-        case .inbound:
-            [Color(red: 0.12, green: 0.28, blue: 0.48), Color(red: 0.18, green: 0.38, blue: 0.58)]
-        case .stationed:
-            [Color(red: 0.14, green: 0.32, blue: 0.28), Color(red: 0.20, green: 0.42, blue: 0.36)]
-        case .outbound:
-            [Color(red: 0.36, green: 0.24, blue: 0.18), Color(red: 0.48, green: 0.32, blue: 0.24)]
-        }
-    }
 }

@@ -1,10 +1,11 @@
 import SwiftUI
 
 struct AFISearchView: View {
+    @Binding var query: String
+
     @Environment(AFISearchService.self) private var searchService
     @Environment(\.openURL) private var openURL
 
-    @State private var query = ""
     @State private var results: [AFISearchResult] = []
     @State private var searchTask: Task<Void, Never>?
     @State private var didScheduleIndexPreparation = false
@@ -13,8 +14,6 @@ struct AFISearchView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: AssignmentMetrics.sectionSpacing) {
-            AFISearchField(query: $query)
-
             contentArea
 
             LegalDisclaimerCard(
@@ -64,7 +63,7 @@ struct AFISearchView: View {
         } else if let failure = searchService.preparationFailure, !searchService.isReady {
             AFISearchStatusCard(
                 systemImage: "exclamationmark.triangle.fill",
-                iconColor: .orange,
+                iconColor: AppTheme.warning,
                 title: failure.title,
                 message: failure.message,
                 actionTitle: "Try Again"
@@ -110,13 +109,10 @@ struct AFISearchView: View {
 
     private var readyIdleContent: some View {
         VStack(alignment: .leading, spacing: AssignmentMetrics.sectionSpacing) {
-            AFISearchHintCard(
+            AFISearchReadyHintCard(
                 title: AFISearchCopy.readyHintTitle,
-                message: AFISearchCopy.readyHintMessage,
-                exampleQueries: AFISearchCopy.exampleQueries
-            ) { example in
-                query = example
-            }
+                message: AFISearchCopy.readyHintMessage
+            )
 
             if let backfillProgress = searchService.semanticBackfillProgress {
                 AFISemanticBackfillBanner(progress: backfillProgress)
@@ -223,40 +219,34 @@ private struct AFISearchQuickAccessCard: View {
     }
 }
 
-// MARK: - Search Field
+// MARK: - Status Cards
 
-private struct AFISearchField: View {
-    @Binding var query: String
+private struct AFISearchReadyHintCard: View {
+    let title: String
+    let message: String
 
     var body: some View {
-        HStack(spacing: 12) {
-            Image(systemName: "magnifyingglass")
-                .font(.body.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 36, height: 36)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+        HStack(alignment: .top, spacing: 12) {
+            Image(systemName: "text.magnifyingglass")
+                .font(.title3)
+                .foregroundStyle(AppTheme.buttonIcon)
 
-            TextField("Search AFIs and publications", text: $query)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled()
-                .font(.subheadline)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title)
+                    .font(.subheadline.weight(.semibold))
 
-            if !query.isEmpty {
-                Button {
-                    query = ""
-                } label: {
-                    Image(systemName: "xmark.circle.fill")
-                        .foregroundStyle(.tertiary)
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel("Clear search")
+                Text(message)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
         }
-        .appCardStyle(padding: 14)
+        .appCardStyle(
+            padding: AssignmentMetrics.cardPadding,
+            background: Color(.secondarySystemGroupedBackground)
+        )
     }
 }
-
-// MARK: - Status Cards
 
 private struct AFISearchIndexingCard: View {
     let progress: Double
@@ -384,111 +374,6 @@ private struct AFISearchStatusCard: View {
     }
 }
 
-private struct AFISearchHintCard: View {
-    let title: String
-    let message: String
-    let exampleQueries: [String]
-    let onSelectExample: (String) -> Void
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .top, spacing: 12) {
-                Image(systemName: "text.magnifyingglass")
-                    .font(.title3)
-                    .foregroundStyle(AppTheme.buttonIcon)
-
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(title)
-                        .font(.subheadline.weight(.semibold))
-
-                    Text(message)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Try searching for")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(.secondary)
-
-                AFISearchExampleChipGrid(queries: exampleQueries, onSelect: onSelectExample)
-            }
-        }
-        .appCardStyle(
-            padding: AssignmentMetrics.cardPadding,
-            background: Color(.secondarySystemGroupedBackground)
-        )
-    }
-}
-
-private struct AFISearchExampleChipGrid: View {
-    let queries: [String]
-    let onSelect: (String) -> Void
-
-    var body: some View {
-        FlowLayout(spacing: 8) {
-            ForEach(queries, id: \.self) { example in
-                Button {
-                    onSelect(example)
-                } label: {
-                    Text(example)
-                        .font(.caption.weight(.medium))
-                        .foregroundStyle(AppTheme.accent)
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 6)
-                        .background(AppTheme.accent.opacity(0.12), in: Capsule())
-                }
-                .buttonStyle(.plain)
-            }
-        }
-    }
-}
-
-/// Simple wrapping layout for example-query chips.
-private struct FlowLayout: Layout {
-    var spacing: CGFloat = 8
-
-    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
-        let width = proposal.width ?? 0
-        var x: CGFloat = 0
-        var y: CGFloat = 0
-        var rowHeight: CGFloat = 0
-
-        for subview in subviews {
-            let size = subview.sizeThatFits(.unspecified)
-            if x > 0, x + size.width > width {
-                x = 0
-                y += rowHeight + spacing
-                rowHeight = 0
-            }
-            rowHeight = max(rowHeight, size.height)
-            x += size.width + spacing
-        }
-
-        return CGSize(width: width, height: y + rowHeight)
-    }
-
-    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
-        var x = bounds.minX
-        var y = bounds.minY
-        var rowHeight: CGFloat = 0
-
-        for subview in subviews {
-            let size = subview.sizeThatFits(.unspecified)
-            if x > bounds.minX, x + size.width > bounds.maxX {
-                x = bounds.minX
-                y += rowHeight + spacing
-                rowHeight = 0
-            }
-            subview.place(at: CGPoint(x: x, y: y), proposal: ProposedViewSize(size))
-            x += size.width + spacing
-            rowHeight = max(rowHeight, size.height)
-        }
-    }
-}
-
 // MARK: - Result Card
 
 private struct AFISearchResultCard: View {
@@ -540,7 +425,7 @@ private struct AFISearchResultCard: View {
             HStack {
                 if result.pdfURL != nil {
                     Button(action: onOpenPDF) {
-                        Label(openButtonTitle, systemImage: "doc.richtext")
+                        Label(viewPDFTitle, systemImage: "doc.viewfinder")
                             .font(.caption.weight(.semibold))
                     }
                     .buttonStyle(.bordered)
@@ -565,11 +450,11 @@ private struct AFISearchResultCard: View {
         .onTapGesture(perform: onShowDetail)
     }
 
-    private var openButtonTitle: String {
+    private var viewPDFTitle: String {
         if let page = result.chunk.page {
-            return "Open PDF · p. \(page)"
+            return "View PDF · p. \(page)"
         }
-        return "Open PDF"
+        return "View PDF"
     }
 }
 
@@ -636,17 +521,10 @@ struct AFISearchResultDetailSheet: View {
             }
             .safeAreaInset(edge: .bottom) {
                 if result.pdfURL != nil {
-                    Button {
-                        openPDF()
-                    } label: {
-                        Label(openButtonTitle, systemImage: "doc.richtext")
-                            .font(.subheadline.weight(.semibold))
-                            .frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(AppTheme.accent)
-                    .padding()
-                    .background(.bar)
+                    AFISearchViewPDFBar(
+                        page: result.chunk.page,
+                        action: openPDF
+                    )
                 }
             }
             .sheet(item: $pdfPreview) { context in
@@ -655,18 +533,58 @@ struct AFISearchResultDetailSheet: View {
         }
     }
 
-    private var openButtonTitle: String {
-        if let page = result.chunk.page {
-            return "Open Official PDF · Page \(page)"
-        }
-        return "Open Official PDF"
-    }
-
     private func openPDF() {
         if let context = AFIPDFPreviewContext(result: result) {
             pdfPreview = context
         } else if let url = result.pdfURL {
             openURL(url)
         }
+    }
+}
+
+// MARK: - View PDF Bar
+
+private struct AFISearchViewPDFBar: View {
+    let page: Int?
+    let action: () -> Void
+
+    var body: some View {
+        VStack(spacing: 0) {
+            Divider()
+
+            Button(action: action) {
+                HStack(spacing: 12) {
+                    Image(systemName: "doc.viewfinder")
+                        .font(.title3)
+                        .foregroundStyle(AppTheme.accent)
+                        .frame(width: 36, height: 36)
+                        .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("View PDF")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.primary)
+
+                        if let page {
+                            Text("Opens to page \(page)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+
+                    Spacer(minLength: 8)
+
+                    Image(systemName: "chevron.right")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.tertiary)
+                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 12)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(page.map { "View PDF, opens to page \($0)" } ?? "View PDF")
+        }
+        .background(.bar)
     }
 }

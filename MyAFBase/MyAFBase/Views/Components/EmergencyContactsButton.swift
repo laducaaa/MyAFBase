@@ -11,9 +11,9 @@ struct EmergencyContactsButton: View {
             HStack(spacing: 14) {
                 Image(systemName: "phone.fill")
                     .font(.title3)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(AppTheme.danger)
                     .frame(width: 40, height: 40)
-                    .background(Color.red.opacity(0.14), in: Circle())
+                    .background(AppTheme.danger.opacity(0.14), in: Circle())
 
                 Text("Emergency Numbers")
                     .font(.body.weight(.semibold))
@@ -25,7 +25,7 @@ struct EmergencyContactsButton: View {
                     .font(.caption.weight(.bold))
                     .foregroundStyle(.white)
                     .frame(width: 30, height: 30)
-                    .background(Color.red.opacity(0.85), in: Circle())
+                    .background(AppTheme.danger.opacity(0.85), in: Circle())
             }
             .padding(.horizontal, 18)
             .padding(.vertical, 16)

@@ -65,10 +65,10 @@ struct PTCalculatorView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
                 if let assessment = pfraAssessment {
-                    resultsSection(assessment)
+                    compositeSummaryCard(assessment)
                 }
 
-                scoresInputCard
+                inputSections
                 disclaimerCard
             }
             .padding()
@@ -78,16 +78,9 @@ struct PTCalculatorView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 
-    // MARK: - Results
+    // MARK: - Composite summary
 
-    private func resultsSection(_ assessment: PFRAResult) -> some View {
-        VStack(alignment: .leading, spacing: AppTheme.cardSpacing) {
-            verdictCard(assessment)
-            componentScoresCard(assessment)
-        }
-    }
-
-    private func verdictCard(_ assessment: PFRAResult) -> some View {
+    private func compositeSummaryCard(_ assessment: PFRAResult) -> some View {
         VStack(alignment: .leading, spacing: 16) {
             PFRAPlannerVerdictHeader(
                 isPositive: assessment.passed,
@@ -98,6 +91,7 @@ struct PTCalculatorView: View {
             PFRACompositeComparisonRow(
                 current: assessment.compositeScore,
                 target: PFRAScoring.passComposite,
+                currentLabel: "Composite",
                 targetLabel: "To pass"
             )
 
@@ -108,10 +102,10 @@ struct PTCalculatorView: View {
                 passingLabel: "Passing"
             )
 
-            ForEach(assessment.guidance, id: \.self) { tip in
+            if let tip = assessment.guidance.first {
                 PFRAInsightRow(
                     systemImage: assessment.passed ? "checkmark.circle.fill" : "arrow.up.circle.fill",
-                    tint: assessment.passed ? .green : .orange,
+                    tint: assessment.passed ? AppTheme.success : AppTheme.warning,
                     text: tip
                 )
             }
@@ -120,64 +114,30 @@ struct PTCalculatorView: View {
         .animation(.easeInOut(duration: 0.2), value: assessment.compositeScore)
     }
 
-    private func componentScoresCard(_ assessment: PFRAResult) -> some View {
-        let failing = assessment.componentScores.filter { !$0.passed }
-
-        return VStack(alignment: .leading, spacing: 14) {
-            PFRAPlannerSectionHeader(
-                title: failing.isEmpty ? "All components pass" : "Component scores",
-                subtitle: failing.isEmpty
-                    ? "Every area meets the minimum point requirements."
-                    : "\(failing.count) component\(failing.count == 1 ? "" : "s") below the minimum."
-            )
-
-            ForEach(Array(assessment.componentScores.enumerated()), id: \.element.id) { index, score in
-                PFRACalculatorScoreRow(score: score)
-
-                if index < assessment.componentScores.count - 1 {
-                    Divider()
-                }
-            }
-        }
-        .appCardStyle(padding: 20)
-    }
-
     // MARK: - Inputs
 
-    private var scoresInputCard: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            PFRAPlannerSectionHeader(
-                title: "Your scores",
-                subtitle: "Update these to refresh your estimate."
-            )
+    @ViewBuilder
+    private var inputSections: some View {
+        profileInputCard
 
-            VStack(alignment: .leading, spacing: 16) {
-                PFRAPlannerSubsection(title: "Profile") {
-                    profileInputs
-                }
-
-                PFRAPlannerSubsection(title: "Body composition") {
-                    bodyInputs
-                }
-
-                PFRAPlannerSubsection(title: "Cardio") {
-                    cardioInputs
-                }
-
-                PFRAPlannerSubsection(title: "Strength") {
-                    strengthInputs
-                }
-
-                PFRAPlannerSubsection(title: "Core") {
-                    coreInputs
-                }
-            }
+        if let assessment = pfraAssessment {
+            bodyCompositionCard(score: componentScore(named: "Body Composition", in: assessment))
+            cardioCard(score: componentScore(named: "Cardio", in: assessment))
+            strengthCard(score: componentScore(named: "Strength", in: assessment))
+            coreCard(score: componentScore(named: "Core", in: assessment))
+        } else {
+            bodyCompositionCard(score: nil)
+            cardioCard(score: nil)
+            strengthCard(score: nil)
+            coreCard(score: nil)
         }
-        .appCardStyle(padding: 20)
     }
 
-    private var profileInputs: some View {
-        VStack(spacing: 12) {
+    private var profileInputCard: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Profile")
+                .font(.headline)
+
             Picker("Gender", selection: $gender) {
                 ForEach(PFRAGender.allCases) { option in
                     Text(option.title).tag(option)
@@ -192,54 +152,66 @@ struct PTCalculatorView: View {
                 onIncrement: { age = min(75, age + 1) }
             )
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var bodyInputs: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 12) {
-                PFRACompactStepper(
-                    label: "Feet",
-                    valueText: "\(heightFeet)'",
-                    onDecrement: {
-                        heightFeet = max(4, heightFeet - 1)
-                        clampHeightInches()
-                    },
-                    onIncrement: {
-                        heightFeet = min(7, heightFeet + 1)
-                        clampHeightInches()
-                    }
-                )
-                PFRACompactStepper(
-                    label: "Inches",
-                    valueText: "\(heightInches)\"",
-                    onDecrement: {
-                        heightInches = max(0, heightInches - 1)
-                        clampHeightInches()
-                    },
-                    onIncrement: {
-                        heightInches = min(11, heightInches + 1)
-                        clampHeightInches()
-                    }
+    private func bodyCompositionCard(score: PFRAComponentScore?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Body composition")
+                .font(.headline)
+
+            VStack(spacing: 12) {
+                HStack(spacing: 12) {
+                    PFRACompactStepper(
+                        label: "Ft",
+                        valueText: "\(heightFeet)'",
+                        onDecrement: {
+                            heightFeet = max(4, heightFeet - 1)
+                            clampHeightInches()
+                        },
+                        onIncrement: {
+                            heightFeet = min(7, heightFeet + 1)
+                            clampHeightInches()
+                        }
+                    )
+                    PFRACompactStepper(
+                        label: "In",
+                        valueText: "\(heightInches)\"",
+                        onDecrement: {
+                            heightInches = max(0, heightInches - 1)
+                            clampHeightInches()
+                        },
+                        onIncrement: {
+                            heightInches = min(11, heightInches + 1)
+                            clampHeightInches()
+                        }
+                    )
+                }
+
+                PFRAStepperRow(
+                    label: "Waist",
+                    valueText: String(format: "%.1f\"", waistInches),
+                    onDecrement: { waistTenths = max(200, waistTenths - 1) },
+                    onIncrement: { waistTenths = min(600, waistTenths + 1) }
                 )
             }
 
-            PFRAStepperRow(
-                label: "Waist",
-                valueText: String(format: "%.1f\"", waistInches),
-                onDecrement: { waistTenths = max(200, waistTenths - 1) },
-                onIncrement: { waistTenths = min(600, waistTenths + 1) }
-            )
-
-            if heightTotalInches > 0 {
+            if let score {
+                PFRAComponentScoreInline(score: score)
+            } else if heightTotalInches > 0 {
                 Text(whtrCaption)
                     .font(.caption)
-                    .foregroundStyle(whtrFails ? Color.orange : Color.secondary)
+                    .foregroundStyle(whtrFails ? AppTheme.warning : Color.secondary)
             }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var cardioInputs: some View {
-        VStack(spacing: 12) {
+    private func cardioCard(score: PFRAComponentScore?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Cardio")
+                .font(.headline)
+
             Picker("Event", selection: $cardioEvent) {
                 ForEach(PFRACardioEvent.allCases) { event in
                     Text(event.title).tag(event)
@@ -258,11 +230,19 @@ struct PTCalculatorView: View {
                     onIncrement: { hamrShuttles = min(120, hamrShuttles + 1) }
                 )
             }
+
+            if let score {
+                PFRAComponentScoreInline(score: score)
+            }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var strengthInputs: some View {
-        VStack(spacing: 12) {
+    private func strengthCard(score: PFRAComponentScore?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Strength")
+                .font(.headline)
+
             Picker("Event", selection: $strengthEvent) {
                 ForEach(PFRAStrengthEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
@@ -276,11 +256,19 @@ struct PTCalculatorView: View {
                 onDecrement: { strengthReps = max(0, strengthReps - 1) },
                 onIncrement: { strengthReps = min(120, strengthReps + 1) }
             )
+
+            if let score {
+                PFRAComponentScoreInline(score: score)
+            }
         }
+        .appCardStyle(padding: 16)
     }
 
-    private var coreInputs: some View {
-        VStack(spacing: 12) {
+    private func coreCard(score: PFRAComponentScore?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("Core")
+                .font(.headline)
+
             Picker("Event", selection: $coreEvent) {
                 ForEach(PFRACoreEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
@@ -299,7 +287,16 @@ struct PTCalculatorView: View {
             case .forearmPlank:
                 PFRATimeStepper(label: "Hold time", minutes: $plankMinutes, seconds: $plankSeconds, minuteRange: 0...5)
             }
+
+            if let score {
+                PFRAComponentScoreInline(score: score)
+            }
         }
+        .appCardStyle(padding: 16)
+    }
+
+    private func componentScore(named name: String, in assessment: PFRAResult) -> PFRAComponentScore? {
+        assessment.componentScores.first { $0.name == name }
     }
 
     private var disclaimerCard: some View {
@@ -368,66 +365,6 @@ struct PTCalculatorView: View {
         if heightFeet == 7 {
             heightInches = min(heightInches, 11)
         }
-    }
-}
-
-// MARK: - Score row
-
-private struct PFRACalculatorScoreRow: View {
-    let score: PFRAComponentScore
-
-    private var minimumPoints: Double {
-        score.name == "Cardio" ? PFRAScoring.cardioMinimum : PFRAScoring.componentMinimum
-    }
-
-    private var progress: Double {
-        guard score.maxPoints > 0 else { return 0 }
-        return min(score.points / score.maxPoints, 1.0)
-    }
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(alignment: .firstTextBaseline) {
-                Text(score.name)
-                    .font(.subheadline.weight(.semibold))
-
-                Spacer(minLength: 8)
-
-                Text(String(format: "%.1f", score.points))
-                    .font(.subheadline.weight(.bold).monospacedDigit())
-                    .foregroundStyle(score.passed ? Color.primary : Color.orange)
-
-                Text("/ \(Int(score.maxPoints))")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-
-            Text(score.detail)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-
-            GeometryReader { proxy in
-                ZStack(alignment: .leading) {
-                    Capsule()
-                        .fill(Color(.systemGray5))
-                    Capsule()
-                        .fill(score.passed ? Color.green.opacity(0.85) : Color.orange.opacity(0.85))
-                        .frame(width: proxy.size.width * progress)
-                }
-            }
-            .frame(height: 6)
-
-            Text(score.passed ? "Meets minimum" : "Need \(formattedMinimum) to pass")
-                .font(.caption2.weight(.medium))
-                .foregroundStyle(score.passed ? Color.green : .orange)
-        }
-    }
-
-    private var formattedMinimum: String {
-        if score.name == "Cardio" {
-            return String(format: "%.0f", minimumPoints)
-        }
-        return String(format: "%.1f", minimumPoints)
     }
 }
 

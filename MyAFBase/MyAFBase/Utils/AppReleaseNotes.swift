@@ -10,9 +10,16 @@ struct AppReleaseNote: Identifiable, Equatable {
 
 struct AppReleaseHighlight: Identifiable, Equatable {
     let systemImage: String
-    let text: String
+    let title: String
+    let detail: String?
 
-    var id: String { text }
+    var id: String { title }
+
+    init(systemImage: String, title: String, detail: String? = nil) {
+        self.systemImage = systemImage
+        self.title = title
+        self.detail = detail
+    }
 }
 
 enum AppReleaseNotes {
@@ -34,8 +41,29 @@ enum AppReleaseNotes {
     static let all: [AppReleaseNote] = [
         AppReleaseNote(
             version: "1.2",
-            title: "In development",
-            highlights: []
+            title: "Smarter tools & Essential AFIs",
+            highlights: [
+                AppReleaseHighlight(
+                    systemImage: "doc.text.magnifyingglass",
+                    title: "Essential AFI Search",
+                    detail: "Search key publications offline from Home → Tools, with citations that open the official PDFs."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "figure.strengthtraining.functional",
+                    title: "PFRA tools redesigned",
+                    detail: "Score Calculator and Goal Planner use clearer cards, inline progress, and compact stepper controls."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "calendar.badge.clock",
+                    title: "Leave Planner expanded",
+                    detail: "Plan multiple trips, project your balance by date, or model PCS leave caps — all from one planner."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "dollarsign.circle.fill",
+                    title: "Pay Calendar insights",
+                    detail: "Collapsible warnings when weekend pay shifts create gaps longer than two weeks between deposits."
+                )
+            ]
         ),
         AppReleaseNote(
             version: "1.1",
@@ -43,23 +71,28 @@ enum AppReleaseNotes {
             highlights: [
                 AppReleaseHighlight(
                     systemImage: "calendar.badge.clock",
-                    text: "Reminders tab replaces base alerts with your personal readiness due dates from Assignment."
+                    title: "Personal reminders",
+                    detail: "Reminders tab replaces base alerts with readiness due dates from Assignment."
                 ),
                 AppReleaseHighlight(
                     systemImage: "map.fill",
-                    text: "Explore map mode uses native Apple Maps POIs, base-scoped search, and a bounded map area."
+                    title: "Explore map mode",
+                    detail: "Native Apple Maps POIs, base-scoped search, and a bounded map area."
                 ),
                 AppReleaseHighlight(
                     systemImage: "dollarsign.circle.fill",
-                    text: "Pay Calendar widget and next-pay card on Reminders keep pay dates visible at a glance."
+                    title: "Pay at a glance",
+                    detail: "Pay Calendar widget and next-pay card on Reminders keep pay dates visible."
                 ),
                 AppReleaseHighlight(
                     systemImage: "suitcase.fill",
-                    text: "Set In Processing, Stationed, or Out Processing in Menu — My Assignment shows only what's relevant."
+                    title: "Assignment phases",
+                    detail: "Set In Processing, Stationed, or Out Processing in Menu — My Assignment shows only what's relevant."
                 ),
                 AppReleaseHighlight(
                     systemImage: "line.3.horizontal",
-                    text: "Refreshed Menu layout with card-based sections matching Home and Assignment."
+                    title: "Refreshed Menu",
+                    detail: "Card-based sections matching Home and Assignment."
                 )
             ]
         ),
@@ -69,23 +102,28 @@ enum AppReleaseNotes {
             highlights: [
                 AppReleaseHighlight(
                     systemImage: "building.2.fill",
-                    text: "Browse gates, dining, fitness, medical, events, and resources for your installation."
+                    title: "Installation guide",
+                    detail: "Browse gates, dining, fitness, medical, events, and resources for your base."
                 ),
                 AppReleaseHighlight(
                     systemImage: "house.fill",
-                    text: "Home dashboard with weather, emergency contacts, tools, open-now picks, and saved items."
+                    title: "Home dashboard",
+                    detail: "Weather, emergency contacts, tools, open-now picks, and saved items."
                 ),
                 AppReleaseHighlight(
                     systemImage: "figure.run",
-                    text: "PFRA Score Calculator, Goal Planner, and Leave Planner built in."
+                    title: "Built-in planners",
+                    detail: "PFRA Score Calculator, Goal Planner, and Leave Planner."
                 ),
                 AppReleaseHighlight(
                     systemImage: "checklist",
-                    text: "PCS checklists, readiness tracker, and assignment phase support."
+                    title: "PCS readiness",
+                    detail: "Checklists, readiness tracker, and assignment phase support."
                 ),
                 AppReleaseHighlight(
                     systemImage: "square.grid.2x2.fill",
-                    text: "Readiness, weather, open-now, emergency, and pay Home Screen widgets."
+                    title: "Home Screen widgets",
+                    detail: "Readiness, weather, open-now, emergency, and pay widgets."
                 )
             ]
         )
