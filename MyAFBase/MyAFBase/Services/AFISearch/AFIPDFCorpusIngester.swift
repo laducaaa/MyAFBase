@@ -1,7 +1,7 @@
 import Foundation
 import PDFKit
 
-enum AFIPDFCorpusIngester {
+nonisolated enum AFIPDFCorpusIngester {
     private static let chunkSize = 900
     private static let chunkOverlap = 120
     private static let minimumChunkLength = 60

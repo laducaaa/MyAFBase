@@ -23,7 +23,7 @@ struct SwitchBaseIntent: AppIntent {
         }
 
         AppIntentBaseSelection.setSelectedBaseID(base.id)
-        NotificationCenter.default.post(
+        await NotificationCenter.default.post(
             name: AppIntentNotifications.didSwitchBase,
             object: nil,
             userInfo: [AppIntentNotifications.baseIDKey: base.id]

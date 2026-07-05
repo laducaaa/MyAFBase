@@ -68,8 +68,8 @@ final class AFISearchService {
             didParsePDFs = true
 
             do {
-                corpus = try await corpusStore.ingestCorpusFromBundledPDFs { [weak self] progress, message in
-                    Task { @MainActor in
+                corpus = try await corpusStore.ingestCorpusFromBundledPDFs { progress, message in
+                    Task { @MainActor [weak self] in
                         self?.updateProgress(progress * 0.6)
                         self?.statusMessage = message
                     }
@@ -104,8 +104,8 @@ final class AFISearchService {
         let progressSpan = 1.0 - progressBase
 
         do {
-            try await searchIndex.rebuildIfNeeded(corpus: corpus) { [weak self] progress in
-                Task { @MainActor in
+            try await searchIndex.rebuildIfNeeded(corpus: corpus) { progress in
+                Task { @MainActor [weak self] in
                     self?.updateProgress(progressBase + (progress * progressSpan))
                 }
             }
@@ -199,8 +199,8 @@ final class AFISearchService {
                 self.semanticBackfillProgress = 0
                 self.updateBackgroundKeepAlive()
 
-                try await self.searchIndex.backfillEmbeddings { [weak self] progress in
-                    Task { @MainActor in
+                try await self.searchIndex.backfillEmbeddings { progress in
+                    Task { @MainActor [weak self] in
                         self?.semanticBackfillProgress = progress
                     }
                 }

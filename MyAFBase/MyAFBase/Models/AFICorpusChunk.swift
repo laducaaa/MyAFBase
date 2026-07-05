@@ -1,6 +1,6 @@
 import Foundation
 
-struct AFICorpusChunk: Codable, Identifiable, Equatable, Sendable {
+nonisolated struct AFICorpusChunk: Codable, Identifiable, Equatable, Sendable {
     let id: String
     let publicationID: String
     let publication: String
@@ -20,7 +20,7 @@ struct AFICorpusChunk: Codable, Identifiable, Equatable, Sendable {
     }
 }
 
-struct AFICorpus: Codable, Sendable {
+nonisolated struct AFICorpus: Codable, Sendable {
     let version: String
     let dataUpdatedAt: String
     let chunks: [AFICorpusChunk]

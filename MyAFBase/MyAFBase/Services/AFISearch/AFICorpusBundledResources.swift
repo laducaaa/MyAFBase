@@ -1,7 +1,7 @@
 import Foundation
 
 enum AFICorpusBundledResources {
-    private static let pdfSubdirectories = ["Resources/AFI/PDFs", "AFI/PDFs", nil as String?]
+    nonisolated private static let pdfSubdirectories = ["Resources/AFI/PDFs", "AFI/PDFs", nil as String?]
 
     nonisolated static func bundledPDFURL(for publicationID: String) -> URL? {
         for subdirectory in pdfSubdirectories {

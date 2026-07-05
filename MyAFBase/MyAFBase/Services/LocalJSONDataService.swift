@@ -1,6 +1,10 @@
 import Foundation
 
 actor LocalJSONDataService: BaseDataProviding {
+    /// Safe to access from any context: actor `static let` values for `Sendable`
+    /// types are treated as global constants, not actor-isolated state.
+    static let shared = LocalJSONDataService()
+
     private let subdirectories = ["Bases", "Resources/Bases", nil as String?]
     private var cachedIndex: [BaseIndexEntry]?
     private var cachedBases: [String: Base] = [:]

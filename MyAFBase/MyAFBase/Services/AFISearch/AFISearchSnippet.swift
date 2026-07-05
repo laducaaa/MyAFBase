@@ -5,7 +5,7 @@ import SwiftUI
 /// with every matched term highlighted.
 enum AFISearchSnippet {
     /// Characters shown around the first match.
-    private static let windowRadius = 180
+    nonisolated private static let windowRadius = 180
 
     nonisolated static func excerpt(from text: String, query: String) -> String {
         let normalized = text

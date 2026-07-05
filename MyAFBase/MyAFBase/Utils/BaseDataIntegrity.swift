@@ -4,10 +4,6 @@ import Foundation
 /// Optional SHA-256 verification for remotely fetched base JSON.
 /// Add entries to `Resources/BaseData/base_data_manifest.json` at release time.
 enum BaseDataIntegrity: Sendable {
-    private struct Manifest: Decodable {
-        let files: [String: String]
-    }
-
     nonisolated static func verify(data: Data, filename: String) -> Bool {
         guard let expected = expectedHash(for: filename) else { return true }
         return SHA256.hash(data: data).hexString == expected.lowercased()
@@ -18,22 +14,25 @@ enum BaseDataIntegrity: Sendable {
     }
 
     nonisolated private static func expectedHash(for filename: String) -> String? {
-        guard let manifest = loadManifest()?.files[filename] else { return nil }
+        guard let manifest = loadManifestFiles()?[filename] else { return nil }
         let trimmed = manifest.trimmingCharacters(in: .whitespacesAndNewlines)
         return trimmed.isEmpty ? nil : trimmed
     }
 
-    nonisolated private static func loadManifest() -> Manifest? {
+    /// Decoded via `JSONSerialization` rather than a `Decodable` struct so this stays
+    /// free of actor-isolation inference and callable from any background context.
+    nonisolated private static func loadManifestFiles() -> [String: String]? {
         guard let url = Bundle.main.url(forResource: "base_data_manifest", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else {
+              let data = try? Data(contentsOf: url),
+              let object = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
             return nil
         }
-        return try? JSONDecoder().decode(Manifest.self, from: data)
+        return object["files"] as? [String: String]
     }
 }
 
 private extension SHA256.Digest {
-    var hexString: String {
+    nonisolated var hexString: String {
         map { String(format: "%02x", $0) }.joined()
     }
 }

@@ -1,6 +1,6 @@
 import Foundation
 
-struct PayWidgetUpcomingItem: Codable, Equatable, Sendable {
+nonisolated struct PayWidgetUpcomingItem: Codable, Equatable, Sendable {
     var title: String
     var date: Date
     var daysUntil: Int
@@ -20,7 +20,7 @@ struct PayWidgetUpcomingItem: Codable, Equatable, Sendable {
     }
 }
 
-struct PayWidgetSnapshot: Codable, Equatable, Sendable {
+nonisolated struct PayWidgetSnapshot: Codable, Equatable, Sendable {
     var nextTitle: String
     var nextDate: Date
     var daysUntil: Int

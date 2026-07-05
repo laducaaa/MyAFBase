@@ -13,7 +13,7 @@ enum AppIntentPayResolver {
         }
     }
 
-    static func spokenSummary(from snapshot: PayWidgetSnapshot) -> String {
+    nonisolated static func spokenSummary(from snapshot: PayWidgetSnapshot) -> String {
         guard snapshot.isAvailable else {
             return "No upcoming pay date is available yet. Open the app to refresh your pay calendar."
         }
@@ -48,11 +48,11 @@ enum AppIntentReminderResolver {
             .first { !dismissalStore.isDismissed(baseID: baseID, notificationID: $0.id) }
     }
 
-    static func spokenSummary(for reminder: ReadinessReminder) -> String {
+    nonisolated static func spokenSummary(for reminder: ReadinessReminder) -> String {
         "\(reminder.title). \(reminder.subtitle)"
     }
 
-    static func emptySummary() -> String {
+    nonisolated static func emptySummary() -> String {
         "You don't have any active readiness reminders. Add due dates in Assignment to track them here."
     }
 

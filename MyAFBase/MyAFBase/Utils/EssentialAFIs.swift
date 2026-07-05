@@ -15,7 +15,7 @@ struct EssentialAFI: Identifiable, Equatable {
 /// Commonly referenced Air Force publications for quick access on the Stationed tab.
 /// PDF links point to official AF e-Publishing static hosting.
 enum EssentialAFIs {
-    static let stationed: [EssentialAFI] = [
+    nonisolated static let stationed: [EssentialAFI] = [
         EssentialAFI(
             id: "dress-appearance",
             title: "Dress & Appearance",

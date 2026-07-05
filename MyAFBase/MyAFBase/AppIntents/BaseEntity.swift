@@ -33,8 +33,7 @@ public struct BaseEntityQuery: EntityQuery, EnumerableEntityQuery {
     public init() {}
 
     public func allEntities() async throws -> [BaseEntity] {
-        let service = LocalJSONDataService()
-        let entries = await service.loadPickerBaseIndex()
+        let entries = await LocalJSONDataService.shared.loadPickerBaseIndex()
         return entries.map(BaseEntity.init(entry:))
     }
 

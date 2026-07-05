@@ -3,15 +3,15 @@ import NaturalLanguage
 import os
 
 enum AFIEmbeddingService: Sendable {
-    private static let embeddingDimension = 512
+    nonisolated private static let embeddingDimension = 512
 
     /// Sentence embeddings get slower and less focused on very long inputs. Chunks are
     /// capped so index builds stay fast; ranking quality is dominated by the opening text.
-    private static let maxEmbeddingCharacters = 800
+    nonisolated private static let maxEmbeddingCharacters = 800
 
     /// One shared model instance for one-off embeddings (e.g. the user's query).
     /// NLEmbedding isn't documented as thread-safe, so access goes through a lock.
-    private static let sharedEmbedding = OSAllocatedUnfairLock<NLEmbedding?>(
+    nonisolated private static let sharedEmbedding = OSAllocatedUnfairLock<NLEmbedding?>(
         uncheckedState: NLEmbedding.sentenceEmbedding(for: .english)
     )
 
