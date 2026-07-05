@@ -34,6 +34,21 @@ enum HomeWidgetSync {
     static func publishPayCalendar() {
         publishPayCalendar(specialPays: SpecialPayStore().entries)
     }
+
+    @MainActor
+    static func publishWARTracker(baseID: String, store: WARTrackerStore) {
+        let weekStart = WARDateMath.startOfWeek(containing: .now)
+        guard let weekEnd = WARDateMath.days(from: weekStart, count: 7).last else { return }
+        let count = store.entryCount(for: baseID, in: weekStart...WARDateMath.endOfDay(weekEnd))
+        let snapshot = WARWidgetSnapshot(
+            baseID: baseID,
+            entriesThisWeek: count,
+            weekRangeLabel: WARDateMath.rangeLabel(from: weekStart, to: weekEnd),
+            updatedAt: .now
+        )
+        WidgetDataStore.saveWARTracker(snapshot)
+        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.warQuickLog)
+    }
 }
 
 @MainActor

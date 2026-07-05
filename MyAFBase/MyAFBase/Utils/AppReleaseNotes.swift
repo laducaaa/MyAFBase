@@ -41,8 +41,34 @@ enum AppReleaseNotes {
     static let all: [AppReleaseNote] = [
         AppReleaseNote(
             version: "1.4",
-            title: "In development",
-            highlights: []
+            title: "WAR Tracker",
+            highlights: [
+                AppReleaseHighlight(
+                    systemImage: "text.badge.star",
+                    title: "WAR Tracker",
+                    detail: "Log daily accomplishments by week with categories, tags, and performance factors — ready for EPB/OPB closeout."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "chart.bar.doc.horizontal",
+                    title: "Reports & PDF export",
+                    detail: "Generate plain-text or bullet summaries for any date range, then copy, share, or export a formatted PDF."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "flag.checkered",
+                    title: "Award deadlines",
+                    detail: "Track package suspenses with due dates, notes, and reminders surfaced on the Reminders tab."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "lock.fill",
+                    title: "Privacy controls",
+                    detail: "Optional Face ID lock, auto-retention for old entries, and PII warnings before you export."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "square.grid.2x2.fill",
+                    title: "Quick log widget & Siri",
+                    detail: "Log an accomplishment from the Home Screen widget or with a Siri shortcut — without opening the full tracker."
+                )
+            ]
         ),
         AppReleaseNote(
             version: "1.3",

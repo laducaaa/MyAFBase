@@ -66,6 +66,12 @@ enum WidgetPalette {
             : Color(hex: "30C97E")
     }
 
+    static func warAccent(for colorScheme: ColorScheme) -> Color {
+        colorScheme == .dark
+            ? Color(hex: "48DDE8")
+            : Color(hex: "1EC4D4")
+    }
+
     static func primaryText(for colorScheme: ColorScheme) -> Color {
         Color.primary
     }

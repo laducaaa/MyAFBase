@@ -7,6 +7,8 @@ enum ModelContainerFactory {
         ReadinessTracker.self,
         ChecklistCompletion.self,
         AssignmentProfile.self,
+        WAREntry.self,
+        WARAwardDeadline.self,
     ])
 
     private static var isPreviewRuntime: Bool {
@@ -43,10 +45,13 @@ enum ModelContainerFactory {
     }
 
     private static func cloudContainer() -> ModelContainer? {
-        // Readiness dates (CAC, clearance, etc.) stay on-device only — not synced to iCloud.
+        // Readiness dates (CAC, clearance, etc.) and WAR entries stay on-device
+        // only — not synced to iCloud. WAR content is often sensitive, so it
+        // never leaves the device in v1 even if iCloud sync is enabled for
+        // other data.
         let readinessConfig = ModelConfiguration(
             "LocalReadiness",
-            schema: Schema([ReadinessTracker.self]),
+            schema: Schema([ReadinessTracker.self, WAREntry.self, WARAwardDeadline.self]),
             cloudKitDatabase: .none
         )
         let cloudConfig = ModelConfiguration(
@@ -76,24 +81,28 @@ struct AppStores {
     let readinessTrackerStore: ReadinessTrackerStore
     let checklistStore: ChecklistStore
     let assignmentProfileStore: AssignmentProfileStore
+    let warTrackerStore: WARTrackerStore
 
     init(modelContext: ModelContext) {
         bookmarkStore = BookmarkStore(modelContext: modelContext)
         readinessTrackerStore = ReadinessTrackerStore(modelContext: modelContext)
         checklistStore = ChecklistStore(modelContext: modelContext)
         assignmentProfileStore = AssignmentProfileStore(modelContext: modelContext)
+        warTrackerStore = WARTrackerStore(modelContext: modelContext)
     }
 
     init(
         bookmarkStore: BookmarkStore,
         readinessTrackerStore: ReadinessTrackerStore,
         checklistStore: ChecklistStore,
-        assignmentProfileStore: AssignmentProfileStore
+        assignmentProfileStore: AssignmentProfileStore,
+        warTrackerStore: WARTrackerStore
     ) {
         self.bookmarkStore = bookmarkStore
         self.readinessTrackerStore = readinessTrackerStore
         self.checklistStore = checklistStore
         self.assignmentProfileStore = assignmentProfileStore
+        self.warTrackerStore = warTrackerStore
     }
 }
 

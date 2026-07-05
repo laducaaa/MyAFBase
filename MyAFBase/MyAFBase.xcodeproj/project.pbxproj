@@ -443,6 +443,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_FEEDBACK_SHARED_SECRET = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID can lock your WAR Tracker log so accomplishments stay private.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the base map so you can navigate gates and facilities.";
 				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "MyAFBase sends local reminders before your readiness due dates.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -481,6 +482,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_FEEDBACK_SHARED_SECRET = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID can lock your WAR Tracker log so accomplishments stay private.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your location on the base map so you can navigate gates and facilities.";
 				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "MyAFBase sends local reminders before your readiness due dates.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

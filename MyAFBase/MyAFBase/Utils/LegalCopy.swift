@@ -29,6 +29,12 @@ enum LegalCopy {
     static let afiSearchDisclaimer =
         "Search results are extracted automatically from official publications and may be incomplete. Always verify passages against the official PDF on e-Publishing before acting on guidance."
 
+    static let warTrackerDisclaimer =
+        "WAR Tracker is an unofficial personal log stored only on this device. It is not connected to MyVector, vMPF, or any official personnel system. Review and redact entries before using them in an award package, EPB, or OPB."
+
+    static let warTrackerPIIReminder =
+        "Describe impact and results — avoid full names, SSNs, or classified/CUI details."
+
     static let onboardingAcknowledgment =
         "I understand MyAFBase is unofficial, not affiliated with the DoD or U.S. Air Force, and I will not submit PII or sensitive information through the app."
 

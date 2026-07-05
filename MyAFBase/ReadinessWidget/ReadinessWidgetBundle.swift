@@ -9,5 +9,6 @@ struct ReadinessWidgetBundle: WidgetBundle {
         OpenNowWidget()
         EmergencyWidget()
         PayWidget()
+        WARQuickLogWidget()
     }
 }

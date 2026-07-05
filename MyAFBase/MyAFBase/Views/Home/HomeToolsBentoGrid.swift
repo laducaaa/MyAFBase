@@ -10,33 +10,51 @@ struct HomeToolsBentoGrid: View {
         HomeToolsCatalog.all.filter { $0.layout == .compact }
     }
 
-    private var wideTool: HomeTool? {
-        HomeToolsCatalog.all.first { $0.layout == .wide }
+    /// Rendered as its own full-width row, in catalog order — supports more
+    /// than one flagship tile (e.g. AFI Search and WAR Tracker) without the
+    /// grid silently dropping any but the first.
+    private var wideTools: [HomeTool] {
+        HomeToolsCatalog.all.filter { $0.layout == .wide }
+    }
+
+    private var leadingCompactTools: [HomeTool] {
+        Array(compactTools.prefix(2))
+    }
+
+    private var trailingCompactTools: [HomeTool] {
+        Array(compactTools.dropFirst(2))
     }
 
     var body: some View {
         VStack(spacing: spacing) {
-            HStack(spacing: spacing) {
-                ForEach(compactTools.prefix(2)) { tool in
-                    toolLink(for: tool) {
-                        HomeToolBentoTile(tool: tool, style: .compact)
-                            .frame(height: compactHeight)
+            if !leadingCompactTools.isEmpty {
+                HStack(spacing: spacing) {
+                    ForEach(leadingCompactTools) { tool in
+                        toolLink(for: tool) {
+                            HomeToolBentoTile(tool: tool, style: .compact)
+                                .frame(height: compactHeight)
+                        }
                     }
                 }
             }
 
-            if let wideTool {
-                toolLink(for: wideTool) {
-                    HomeToolBentoTile(tool: wideTool, style: .wide)
+            ForEach(wideTools) { tool in
+                toolLink(for: tool) {
+                    HomeToolBentoTile(tool: tool, style: .wide)
                         .frame(height: wideHeight)
                 }
             }
 
-            HStack(spacing: spacing) {
-                ForEach(compactTools.dropFirst(2)) { tool in
-                    toolLink(for: tool) {
-                        HomeToolBentoTile(tool: tool, style: .compact)
-                            .frame(height: compactHeight)
+            if !trailingCompactTools.isEmpty {
+                LazyVGrid(
+                    columns: [GridItem(.flexible(), spacing: spacing), GridItem(.flexible(), spacing: spacing)],
+                    spacing: spacing
+                ) {
+                    ForEach(trailingCompactTools) { tool in
+                        toolLink(for: tool) {
+                            HomeToolBentoTile(tool: tool, style: .compact)
+                                .frame(height: compactHeight)
+                        }
                     }
                 }
             }
@@ -64,6 +82,8 @@ struct HomeToolsBentoGrid: View {
             PFRAGoalPlannerView()
         case "afi-search":
             AFISearchToolView()
+        case "war-tracker":
+            WARTrackerToolView()
         case "leave-planner":
             LeavePlannerView()
         case "pay-calendar":

@@ -140,6 +140,14 @@ struct WhatsNewSheet: View {
 
             VStack(spacing: 0) {
                 WhatsNewInfoRow(
+                    systemImage: "text.badge.star",
+                    title: "WAR Tracker",
+                    detail: "Accomplishment logs stay on this device. Use Reports to copy or export when you need them elsewhere."
+                )
+
+                Divider().padding(.leading, 52)
+
+                WhatsNewInfoRow(
                     systemImage: "icloud.fill",
                     title: "iCloud sync",
                     detail: "Bookmarks, assignment dates, readiness tracker, and checklists sync when you're signed in."

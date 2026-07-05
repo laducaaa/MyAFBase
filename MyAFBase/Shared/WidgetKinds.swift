@@ -6,4 +6,5 @@ enum WidgetKinds {
     static let openNow = "OpenNowWidget"
     static let emergency = "EmergencyWidget"
     static let payCalendar = "PayWidget"
+    static let warQuickLog = "WARQuickLogWidget"
 }

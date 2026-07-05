@@ -34,5 +34,16 @@ struct MyAFBaseShortcuts: AppShortcutsProvider {
             shortTitle: "Switch Base",
             systemImageName: "building.2"
         )
+
+        AppShortcut(
+            intent: LogAccomplishmentIntent(),
+            phrases: [
+                "Log accomplishment in \(.applicationName)",
+                "Log a WAR entry in \(.applicationName)",
+                "Log what I did today in \(.applicationName)"
+            ],
+            shortTitle: "Log Accomplishment",
+            systemImageName: "text.badge.star"
+        )
     }
 }

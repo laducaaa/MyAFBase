@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var readinessTrackerStore: ReadinessTrackerStore?
     @State private var checklistStore: ChecklistStore?
     @State private var assignmentProfileStore: AssignmentProfileStore?
+    @State private var warTrackerStore: WARTrackerStore?
     @State private var afiSearchService = AFISearchService()
     @State private var dismissalStore = NotificationDismissalStore()
     @State private var showBasePicker = false
@@ -38,6 +39,7 @@ struct ContentView: View {
             readinessTrackerStore = stores.readinessTrackerStore
             checklistStore = stores.checklistStore
             assignmentProfileStore = stores.assignmentProfileStore
+            warTrackerStore = stores.warTrackerStore
         }
         .task {
             // Warm the AFI search index at launch so it's usually ready before the
@@ -55,7 +57,8 @@ struct ContentView: View {
         guard let bookmarkStore,
               let readinessTrackerStore,
               let checklistStore,
-              let assignmentProfileStore else {
+              let assignmentProfileStore,
+              let warTrackerStore else {
             return nil
         }
 
@@ -63,7 +66,8 @@ struct ContentView: View {
             bookmarkStore: bookmarkStore,
             readinessTrackerStore: readinessTrackerStore,
             checklistStore: checklistStore,
-            assignmentProfileStore: assignmentProfileStore
+            assignmentProfileStore: assignmentProfileStore,
+            warTrackerStore: warTrackerStore
         )
     }
 
@@ -95,6 +99,7 @@ struct ContentView: View {
         .environment(stores.readinessTrackerStore)
         .environment(stores.checklistStore)
         .environment(stores.assignmentProfileStore)
+        .environment(stores.warTrackerStore)
         .environment(dismissalStore)
         .task {
             await syncReadinessNotifications(using: stores)
@@ -102,6 +107,12 @@ struct ContentView: View {
             await syncHomeWidgets(using: stores)
             await appState.syncRemoteBaseData()
             HomeWidgetSync.publishPayCalendar()
+            await syncWARTracker(using: stores)
+        }
+        .onReceive(NotificationCenter.default.publisher(for: AppIntentNotifications.didRequestWARQuickLog)) { notification in
+            selectedTab = 0
+            appState.pendingWARQuickLogText = notification.userInfo?[AppIntentNotifications.warQuickLogTextKey] as? String ?? ""
+            appState.showWARQuickLog = true
         }
         .onChange(of: appState.currentBase) { _, _ in
             // Fires on base switches and on remote data refreshes (same base,
@@ -112,9 +123,23 @@ struct ContentView: View {
         .onChange(of: stores.bookmarkStore.changeToken) { _, _ in
             Task { await syncHomeWidgets(using: stores) }
         }
+        .onChange(of: stores.warTrackerStore.changeToken) { _, _ in
+            guard let base = appState.currentBase else { return }
+            HomeWidgetSync.publishWARTracker(baseID: base.id, store: stores.warTrackerStore)
+        }
         .baseNavigationToolbar(showBasePicker: $showBasePicker)
         .sheet(isPresented: $showBasePicker) {
             BasePickerSheet()
+        }
+        .sheet(isPresented: Binding(
+            get: { appState.showWARQuickLog },
+            set: { appState.showWARQuickLog = $0 }
+        )) {
+            WARQuickAddSheet(
+                baseID: appState.currentBase?.id ?? "",
+                initialText: appState.pendingWARQuickLogText
+            )
+            .environment(stores.warTrackerStore)
         }
         .fullScreenCover(isPresented: $showOnboarding) {
             OnboardingView {
@@ -149,9 +174,14 @@ struct ContentView: View {
             Task { await appState.selectBase(id: baseID) }
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
-            guard let baseID = AppIntentBaseSelection.selectedBaseID(),
-                  appState.selectedBaseID != baseID else { return }
-            Task { await appState.selectBase(id: baseID) }
+            if let baseID = AppIntentBaseSelection.selectedBaseID(), appState.selectedBaseID != baseID {
+                Task { await appState.selectBase(id: baseID) }
+            }
+            if let pendingText = AppIntentBaseSelection.consumePendingWARQuickLog() {
+                selectedTab = 0
+                appState.pendingWARQuickLogText = pendingText
+                appState.showWARQuickLog = true
+            }
         }
         .onAppear {
             if appState.shouldShowOnboarding {
@@ -187,6 +217,22 @@ struct ContentView: View {
         guard let base = appState.currentBase else { return }
         let tracker = stores.readinessTrackerStore.tracker(for: base.id)
         ReadinessWidgetSync.publish(tracker: tracker, baseName: base.name)
+    }
+
+    @MainActor
+    private func syncWARTracker(using stores: AppStores) async {
+        WARRetentionService.purgeExpiredEntries(store: stores.warTrackerStore)
+        await WARNotificationService.rescheduleDailyNudge()
+        await WARNotificationService.rescheduleWeeklyReminder()
+        await WARNotificationService.rescheduleDeadlineReminders(stores.warTrackerStore.allDeadlines()) { baseID in
+            if appState.currentBase?.id == baseID {
+                return appState.currentBase?.name ?? "your base"
+            }
+            return baseID
+        }
+        if let base = appState.currentBase {
+            HomeWidgetSync.publishWARTracker(baseID: base.id, store: stores.warTrackerStore)
+        }
     }
 }
 

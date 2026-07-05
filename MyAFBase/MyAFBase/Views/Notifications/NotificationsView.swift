@@ -3,6 +3,7 @@ import SwiftUI
 struct RemindersView: View {
     @Environment(AppState.self) private var appState
     @Environment(ReadinessTrackerStore.self) private var readinessTrackerStore
+    @Environment(WARTrackerStore.self) private var warTrackerStore
     @Binding var selectedTab: Int
 
     @State private var specialPayStore = SpecialPayStore()
@@ -33,7 +34,9 @@ struct RemindersView: View {
     @ViewBuilder
     private func remindersContent(for base: Base) -> some View {
         let tracker = readinessTrackerStore.tracker(for: base.id)
-        let reminders = ReadinessReminderBuilder.reminders(from: tracker)
+        let readinessReminders = ReadinessReminderBuilder.reminders(from: tracker)
+        let awardDeadlines = warTrackerStore.deadlines(for: base.id)
+        let hasAnyReminders = !readinessReminders.isEmpty || !awardDeadlines.isEmpty
 
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
@@ -46,16 +49,26 @@ struct RemindersView: View {
                     .buttonStyle(.plain)
                 }
 
-                if reminders.isEmpty {
+                if !hasAnyReminders {
                     remindersEmptyState()
                 } else {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Upcoming")
-                            .font(.title3.weight(.semibold))
-
-                        LazyVStack(spacing: AppTheme.cardSpacing) {
-                            ForEach(reminders) { reminder in
+                    if !readinessReminders.isEmpty {
+                        reminderSection(title: "Readiness") {
+                            ForEach(readinessReminders) { reminder in
                                 ReadinessReminderRow(reminder: reminder)
+                            }
+                        }
+                    }
+
+                    if !awardDeadlines.isEmpty {
+                        reminderSection(title: "Award Deadlines") {
+                            ForEach(awardDeadlines) { deadline in
+                                NavigationLink {
+                                    WARTrackerToolView()
+                                } label: {
+                                    WARAwardDeadlineReminderRow(deadline: deadline)
+                                }
+                                .buttonStyle(.plain)
                             }
                         }
                     }
@@ -69,11 +82,26 @@ struct RemindersView: View {
     }
 
     @ViewBuilder
+    private func reminderSection<Content: View>(
+        title: String,
+        @ViewBuilder content: () -> Content
+    ) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text(title)
+                .font(.title3.weight(.semibold))
+
+            LazyVStack(spacing: AppTheme.cardSpacing) {
+                content()
+            }
+        }
+    }
+
+    @ViewBuilder
     private func remindersEmptyState() -> some View {
         EmptyStateView(
             systemImage: "calendar.badge.clock",
             title: "No Reminders Yet",
-            message: "Track dental, fitness, evals, and more in Assignment. Your upcoming due dates will show up here.",
+            message: "Track dental, fitness, evals, and award deadlines in Assignment and WAR Tracker. Your upcoming due dates will show up here.",
             style: .card,
             actionTitle: "Go to Assignment",
             action: { selectedTab = 2 }

@@ -28,6 +28,14 @@ enum HomeToolsCatalog {
             layout: .wide
         ),
         HomeTool(
+            id: "war-tracker",
+            title: "WAR Tracker",
+            subtitle: "Log accomplishments as they happen — ready for your next award or EPB/OPB",
+            systemImage: "text.badge.star",
+            tint: AppTheme.brandSecondary,
+            layout: .wide
+        ),
+        HomeTool(
             id: "leave-planner",
             title: "Leave Planner",
             subtitle: "Upcoming leave & PCS planning",

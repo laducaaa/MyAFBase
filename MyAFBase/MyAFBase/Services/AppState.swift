@@ -20,6 +20,8 @@ final class AppState {
     var pendingExploreCategoryID: String?
     var pendingExploreOpenNowOnly = false
     var pendingHomeNavigation = false
+    var showWARQuickLog = false
+    var pendingWARQuickLogText = ""
     var currentBaseRegion: BaseRegion?
     var showCONUSWeatherInHero: Bool
 
