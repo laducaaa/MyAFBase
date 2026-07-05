@@ -33,18 +33,32 @@ enum AppTheme {
     static var heroDivider: Color { Color.white.opacity(0.14) }
 
     // MARK: - Layout
+    //
+    // One elevation language for the whole app: two corner radii (card, hero)
+    // and a single shadow/border recipe applied via `elevatedCardStyle()` /
+    // `elevatedHeroStyle()` below. Individual views should not invent their
+    // own radius or shadow values — that's what produced the "disjointed"
+    // look where every card on Home had a slightly different shape.
 
     static let screenPadding: CGFloat = 16
-    static let sectionSpacing: CGFloat = 20
+    static let sectionSpacing: CGFloat = 24
     static let cardSpacing: CGFloat = 12
 
-    static let cardCornerRadius: CGFloat = 16
+    /// Standard corner radius for content cards, tiles, and banners.
+    static let cardCornerRadius: CGFloat = 20
+    /// Larger radius reserved for the single "hero" element per screen, so it
+    /// reads as a clear step up in the visual hierarchy from ordinary cards.
+    static let heroCornerRadius: CGFloat = 28
+
     static let cardShadowOpacity: Double = 0.07
     static let cardShadowRadius: CGFloat = 8
     static let cardShadowY: CGFloat = 3
 
-    static let heroCornerRadius: CGFloat = 16
     static let heroShadowOpacity: Double = 0.14
+
+    /// Hairline stroke used in place of a shadow in dark mode, where drop
+    /// shadows barely register against a near-black background.
+    static var cardStrokeColor: Color { Color.primary.opacity(0.08) }
 
     // MARK: - Gradients
 
@@ -124,7 +138,74 @@ struct AppScreenBackground: View {
     }
 }
 
+/// One shared elevation recipe for every card-like surface in the app: a
+/// consistent corner radius, a soft shadow in light mode, and a hairline
+/// border instead of a shadow in dark mode (where shadows don't read well
+/// against near-black backgrounds). Views should reach for this instead of
+/// composing their own `.background` + `.clipShape` + `.shadow` stack.
+private struct ElevatedSurface: ViewModifier {
+    var cornerRadius: CGFloat
+    var background: AnyShapeStyle
+    @Environment(\.colorScheme) private var colorScheme
+
+    func body(content: Content) -> some View {
+        let shape = RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+        content
+            .background(background, in: shape)
+            .overlay {
+                if colorScheme == .dark {
+                    shape.strokeBorder(AppTheme.cardStrokeColor, lineWidth: 1)
+                }
+            }
+            .shadow(
+                color: .black.opacity(colorScheme == .dark ? 0 : AppTheme.cardShadowOpacity),
+                radius: AppTheme.cardShadowRadius,
+                y: AppTheme.cardShadowY
+            )
+    }
+}
+
+/// Same shape/shadow recipe as `ElevatedSurface`, without imposing a
+/// background — for views (like tinted bento tiles) that paint their own
+/// fill but should still match the app-wide elevation language.
+private struct ElevatedOutline: ViewModifier {
+    var cornerRadius: CGFloat
+    @Environment(\.colorScheme) private var colorScheme
+
+    func body(content: Content) -> some View {
+        let shape = RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+        content
+            .clipShape(shape)
+            .overlay {
+                if colorScheme == .dark {
+                    shape.strokeBorder(AppTheme.cardStrokeColor, lineWidth: 1)
+                }
+            }
+            .shadow(
+                color: .black.opacity(colorScheme == .dark ? 0 : AppTheme.cardShadowOpacity),
+                radius: AppTheme.cardShadowRadius,
+                y: AppTheme.cardShadowY
+            )
+    }
+}
+
 extension View {
+    /// Standard elevated card surface: rounded corners, soft shadow (light) or
+    /// hairline border (dark). Use for every content card on Home, Explore, etc.
+    func elevatedCardStyle<S: ShapeStyle>(
+        cornerRadius: CGFloat = AppTheme.cardCornerRadius,
+        background: S = AnyShapeStyle(Color(.systemBackground))
+    ) -> some View {
+        modifier(ElevatedSurface(cornerRadius: cornerRadius, background: AnyShapeStyle(background)))
+    }
+
+    /// Shape/shadow only — pair with a custom `.background` for cards that
+    /// need a bespoke fill (gradients, tints) but should still match the
+    /// shared corner radius and elevation.
+    func elevatedCardOutline(cornerRadius: CGFloat = AppTheme.cardCornerRadius) -> some View {
+        modifier(ElevatedOutline(cornerRadius: cornerRadius))
+    }
+
     func appCardStyle(
         padding: CGFloat = 16,
         background: Color = Color(.systemBackground)
@@ -132,13 +213,7 @@ extension View {
         self
             .padding(padding)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(background)
-            .clipShape(RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-            .shadow(
-                color: .black.opacity(AppTheme.cardShadowOpacity),
-                radius: AppTheme.cardShadowRadius,
-                y: AppTheme.cardShadowY
-            )
+            .elevatedCardStyle(background: background)
     }
 
     func appScreenBackground() -> some View {
@@ -146,14 +221,7 @@ extension View {
     }
 
     func appCardShell(background: Color = Color(.systemBackground)) -> some View {
-        self
-            .background(background)
-            .clipShape(RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-            .shadow(
-                color: .black.opacity(AppTheme.cardShadowOpacity),
-                radius: AppTheme.cardShadowRadius,
-                y: AppTheme.cardShadowY
-            )
+        elevatedCardStyle(background: background)
     }
 
     func appButtonTextForeground() -> some View {

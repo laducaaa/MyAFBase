@@ -20,17 +20,7 @@ struct ReadinessReminderRow: View {
                 rowContent
                     .padding(16)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color(.secondarySystemGroupedBackground))
-                    .clipShape(RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous))
-                    .overlay {
-                        RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                            .strokeBorder(Color.primary.opacity(0.05), lineWidth: 1)
-                    }
-                    .shadow(
-                        color: .black.opacity(0.08),
-                        radius: 10,
-                        y: 4
-                    )
+                    .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
             }
         }
         .accessibilityElement(children: .combine)

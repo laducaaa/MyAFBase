@@ -11,27 +11,29 @@ struct EmergencyContactsButton: View {
             HStack(spacing: 14) {
                 Image(systemName: "phone.fill")
                     .font(.title3)
-                    .foregroundStyle(AppTheme.danger)
-                    .frame(width: 40, height: 40)
-                    .background(AppTheme.danger.opacity(0.14), in: Circle())
-
-                Text("Emergency Numbers")
-                    .font(.body.weight(.semibold))
                     .foregroundStyle(.white)
+                    .frame(width: 44, height: 44)
+                    .background(AppTheme.danger.gradient, in: Circle())
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Emergency Numbers")
+                        .font(.body.weight(.semibold))
+                        .foregroundStyle(.primary)
+                    Text("\(numbers.count) contacts · tap to view and call")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
 
                 Spacer(minLength: 8)
 
-                Image(systemName: "chevron.up")
+                Image(systemName: "chevron.right")
                     .font(.caption.weight(.bold))
-                    .foregroundStyle(.white)
-                    .frame(width: 30, height: 30)
-                    .background(AppTheme.danger.opacity(0.85), in: Circle())
+                    .foregroundStyle(.tertiary)
             }
-            .padding(.horizontal, 18)
-            .padding(.vertical, 16)
-            .background(HomeMetrics.heroBackground)
-            .clipShape(RoundedRectangle(cornerRadius: HomeMetrics.heroCornerRadius, style: .continuous))
-            .shadow(color: .black.opacity(HomeMetrics.heroShadowOpacity), radius: 10, y: 5)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
         }
         .buttonStyle(.plain)
         .accessibilityLabel("Emergency numbers, \(numbers.count) contacts, tap to view and call")

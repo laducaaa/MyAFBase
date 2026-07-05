@@ -92,12 +92,13 @@ private struct HomeToolBentoTile: View {
                 compactContent
             }
         }
-        .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .elevatedCardOutline()
         .overlay {
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .strokeBorder(borderColor, lineWidth: borderLineWidth)
+            if colorScheme != .dark {
+                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
+                    .strokeBorder(borderColor, lineWidth: borderLineWidth)
+            }
         }
-        .shadow(color: tileShadowColor, radius: tileShadowRadius, y: tileShadowY)
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(tool.title). \(tool.subtitle)")
         .accessibilityHint("Opens \(tool.title)")
@@ -156,7 +157,7 @@ private struct HomeToolBentoTile: View {
     private var tileBackground: some View {
         Group {
             if colorScheme == .dark {
-                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
                     .fill(
                         LinearGradient(
                             colors: [
@@ -169,7 +170,7 @@ private struct HomeToolBentoTile: View {
                         )
                     )
             } else {
-                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
                     .fill(Color(.systemBackground))
             }
         }
@@ -188,27 +189,11 @@ private struct HomeToolBentoTile: View {
     }
 
     private var borderColor: Color {
-        if colorScheme == .dark {
-            tool.tint.opacity(0.28)
-        } else {
-            Color.black.opacity(0.06)
-        }
+        Color.black.opacity(0.06)
     }
 
     private var borderLineWidth: CGFloat {
-        colorScheme == .dark ? 0.5 : 0.5
-    }
-
-    private var tileShadowColor: Color {
-        colorScheme == .dark ? .black.opacity(0.28) : .black.opacity(AppTheme.cardShadowOpacity)
-    }
-
-    private var tileShadowRadius: CGFloat {
-        colorScheme == .dark ? 8 : AppTheme.cardShadowRadius
-    }
-
-    private var tileShadowY: CGFloat {
-        colorScheme == .dark ? 3 : AppTheme.cardShadowY
+        0.5
     }
 }
 

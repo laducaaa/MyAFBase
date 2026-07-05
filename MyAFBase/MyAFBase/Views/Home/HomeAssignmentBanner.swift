@@ -12,12 +12,19 @@ struct HomeAssignmentBanner: View {
 
     var body: some View {
         if let message = bannerMessage {
-            HStack(alignment: .top, spacing: 12) {
-                Image(systemName: bannerIcon)
-                    .font(.title3)
-                    .foregroundStyle(AppTheme.accent)
+            HStack(alignment: .center, spacing: 14) {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(AppTheme.accent.opacity(0.14))
+                        .frame(width: 44, height: 44)
 
-                VStack(alignment: .leading, spacing: 4) {
+                    Image(systemName: bannerIcon)
+                        .font(.title3.weight(.semibold))
+                        .foregroundStyle(AppTheme.accent)
+                }
+                .accessibilityHidden(true)
+
+                VStack(alignment: .leading, spacing: 3) {
                     Text(message.title)
                         .font(.subheadline.weight(.semibold))
                     Text(message.subtitle)
@@ -28,7 +35,8 @@ struct HomeAssignmentBanner: View {
                 Spacer(minLength: 0)
             }
             .padding(14)
-            .appCardStyle(padding: 0, background: AppTheme.accent.opacity(0.08))
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .elevatedCardStyle(background: AppTheme.accent.opacity(0.08))
         }
     }
 
