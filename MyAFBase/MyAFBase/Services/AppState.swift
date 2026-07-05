@@ -96,8 +96,11 @@ final class AppState {
 
         shouldShowBasePicker = base == nil
 
+        // Open Now is published with saved items from `ContentView`'s
+        // `.onChange(of: appState.currentBase)`, which has access to the
+        // bookmark store. Publishing here too (without saved items) would
+        // race with — and sometimes overwrite — that authoritative update.
         if let base {
-            HomeWidgetSync.publishOpenNow(base: base)
             HomeWidgetSync.publishEmergency(base: base)
         }
 
@@ -198,7 +201,6 @@ final class AppState {
         await dataService.syncRemoteUpdates(force: true, baseID: id)
         currentBase = await dataService.loadBase(id: id)
         if let base = currentBase {
-            HomeWidgetSync.publishOpenNow(base: base)
             HomeWidgetSync.publishEmergency(base: base)
         }
         await refreshWeather(force: true)

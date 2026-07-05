@@ -97,10 +97,7 @@ struct FeedbackSheet: View {
     private var introHeader: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .top, spacing: 12) {
-                Image(systemName: "megaphone.fill")
-                    .font(.title2)
-                    .foregroundStyle(AppTheme.accent)
-                    .accessibilityHidden(true)
+                IconBadge(systemImage: "megaphone.fill", tint: AppTheme.accent)
 
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Thanks for sharing")

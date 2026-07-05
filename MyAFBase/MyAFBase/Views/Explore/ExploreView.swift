@@ -117,29 +117,50 @@ struct ExploreView: View {
 
     @ViewBuilder
     private func listContent(for base: Base) -> some View {
-        ScrollView {
-            LazyVStack(spacing: 12) {
-                switch segment {
-                case .resources:
-                    if resourceCategoryID == ExploreCategory.gates.id {
-                        ForEach(Array(filteredGates(for: base).enumerated()), id: \.element.id) { index, gate in
-                            ExploreGateCard(gate: gate, baseID: base.id, baseName: base.name)
-                                .exploreListReveal(index: index, animationToken: listRevealToken)
-                        }
-                    } else {
-                        ForEach(Array(filteredResources(for: base).enumerated()), id: \.element.id) { index, resource in
-                            ExploreResourceCard(resource: resource, baseID: base.id, baseName: base.name)
-                                .exploreListReveal(index: index, animationToken: listRevealToken)
-                        }
-                    }
-                case .events:
-                    ForEach(Array(filteredEvents(for: base).enumerated()), id: \.element.id) { index, event in
-                        ExploreEventCard(event: event, baseID: base.id, baseName: base.name)
+        // Filter once per render and reuse the result for both the list and
+        // the empty-state check, instead of re-scanning/parsing hours for
+        // the full resource/gate/event list a second time.
+        switch segment {
+        case .resources:
+            if resourceCategoryID == ExploreCategory.gates.id {
+                let gates = filteredGates(for: base)
+                exploreScrollList(isEmpty: gates.isEmpty, base: base) {
+                    ForEach(Array(gates.enumerated()), id: \.element.id) { index, gate in
+                        ExploreGateCard(gate: gate, baseID: base.id, baseName: base.name)
                             .exploreListReveal(index: index, animationToken: listRevealToken)
                     }
                 }
+            } else {
+                let resources = filteredResources(for: base)
+                exploreScrollList(isEmpty: resources.isEmpty, base: base) {
+                    ForEach(Array(resources.enumerated()), id: \.element.id) { index, resource in
+                        ExploreResourceCard(resource: resource, baseID: base.id, baseName: base.name)
+                            .exploreListReveal(index: index, animationToken: listRevealToken)
+                    }
+                }
+            }
+        case .events:
+            let events = filteredEvents(for: base)
+            exploreScrollList(isEmpty: events.isEmpty, base: base) {
+                ForEach(Array(events.enumerated()), id: \.element.id) { index, event in
+                    ExploreEventCard(event: event, baseID: base.id, baseName: base.name)
+                        .exploreListReveal(index: index, animationToken: listRevealToken)
+                }
+            }
+        }
+    }
 
-                if isEmpty(for: base) {
+    @ViewBuilder
+    private func exploreScrollList(
+        isEmpty: Bool,
+        base: Base,
+        @ViewBuilder rows: () -> some View
+    ) -> some View {
+        ScrollView {
+            LazyVStack(spacing: 12) {
+                rows()
+
+                if isEmpty {
                     emptyState(for: base)
                         .padding(.top, 32)
                 }
@@ -152,7 +173,7 @@ struct ExploreView: View {
                 .padding(.top, 8)
             }
             .padding(.horizontal, 16)
-            .padding(.top, 8)
+            .padding(.top, 4)
             .padding(.bottom, 16)
         }
     }
@@ -265,6 +286,7 @@ struct ExploreView: View {
         )
         .padding(.horizontal, 16)
         .padding(.top, 8)
+        .padding(.bottom, 16)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 
@@ -288,18 +310,6 @@ struct ExploreView: View {
                 }
             }
         )
-    }
-
-    private func isEmpty(for base: Base) -> Bool {
-        switch segment {
-        case .resources:
-            if resourceCategoryID == ExploreCategory.gates.id {
-                return filteredGates(for: base).isEmpty
-            }
-            return filteredResources(for: base).isEmpty
-        case .events:
-            return filteredEvents(for: base).isEmpty
-        }
     }
 
     private func filteredGates(for base: Base) -> [Gate] {

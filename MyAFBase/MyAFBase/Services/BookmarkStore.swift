@@ -19,6 +19,8 @@ struct ResolvedSavedItem: Identifiable, Equatable {
 final class BookmarkStore {
     private let modelContext: ModelContext
     private(set) var changeToken = 0
+    private var cachedBookmarks: [Bookmark]?
+    private var cachedToken = -1
 
     init(modelContext: ModelContext) {
         self.modelContext = modelContext
@@ -114,9 +116,17 @@ final class BookmarkStore {
         notifyBookmarksChanged()
     }
 
+    /// Cached fetch — invalidated by `changeToken` so repeated reads within a
+    /// single render pass (or between renders without a mutation) skip the
+    /// SwiftData fetch + sort.
     private func bookmarkSnapshot() -> [Bookmark] {
-        _ = changeToken
-        return allBookmarks()
+        if cachedToken == changeToken, let cachedBookmarks {
+            return cachedBookmarks
+        }
+        let fetched = allBookmarks()
+        cachedBookmarks = fetched
+        cachedToken = changeToken
+        return fetched
     }
 
     private func notifyBookmarksChanged() {

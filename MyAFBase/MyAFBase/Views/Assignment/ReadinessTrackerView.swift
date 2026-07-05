@@ -341,11 +341,7 @@ private struct ReadinessTrackerRowLabel: View {
 
     var body: some View {
         HStack(alignment: .center, spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 32, height: 32)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent, size: 32)
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(title)

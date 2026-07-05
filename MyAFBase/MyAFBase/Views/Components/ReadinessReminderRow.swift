@@ -66,16 +66,7 @@ struct ReadinessReminderRow: View {
     }
 
     private var iconBadge: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 12, style: .continuous)
-                .fill(reminder.status.color.opacity(0.14))
-                .frame(width: 48, height: 48)
-
-            Image(systemName: reminder.systemImage)
-                .font(.title3.weight(.semibold))
-                .foregroundStyle(reminder.status.color)
-        }
-        .accessibilityHidden(true)
+        IconBadge(systemImage: reminder.systemImage, tint: reminder.status.color, size: 48)
     }
 
     private var statusPill: some View {

@@ -5,22 +5,39 @@ import SwiftData
 final class AssignmentProfileStore {
     private let modelContext: ModelContext
     private(set) var changeToken = 0
+    private var cachedProfiles: [String: AssignmentProfile] = [:]
+    private var cachedToken = -1
 
     init(modelContext: ModelContext) {
         self.modelContext = modelContext
     }
 
+    /// Memoized per base ID and invalidated by `changeToken` so views that
+    /// read the profile multiple times per body evaluation (e.g. Home's
+    /// assignment banner) don't trigger a redundant SwiftData fetch — or a
+    /// redundant insert+save — on every read.
     func profile(for baseID: String) -> AssignmentProfile {
-        _ = changeToken
-        if let existing = fetch(baseID: baseID) {
-            return existing
+        if cachedToken != changeToken {
+            cachedProfiles.removeAll()
+            cachedToken = changeToken
         }
 
-        let profile = AssignmentProfile(baseID: baseID)
-        modelContext.insert(profile)
-        try? modelContext.save()
-        notifyProfileChanged()
-        return profile
+        if let cached = cachedProfiles[baseID] {
+            return cached
+        }
+
+        let resolved: AssignmentProfile
+        if let existing = fetch(baseID: baseID) {
+            resolved = existing
+        } else {
+            let created = AssignmentProfile(baseID: baseID)
+            modelContext.insert(created)
+            try? modelContext.save()
+            resolved = created
+        }
+
+        cachedProfiles[baseID] = resolved
+        return resolved
     }
 
     func phase(for baseID: String) -> AssignmentSegment {

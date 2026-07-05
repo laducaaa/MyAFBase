@@ -186,11 +186,7 @@ struct MenuView: View {
                     showClearBookmarksAlert = true
                 } label: {
                     HStack(spacing: 12) {
-                        Image(systemName: "bookmark.slash")
-                            .font(.body.weight(.semibold))
-                            .foregroundStyle(AppTheme.danger)
-                            .frame(width: 36, height: 36)
-                            .background(AppTheme.danger.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                        IconBadge(systemImage: "bookmark.slash", tint: AppTheme.danger, size: 36)
 
                         Text("Clear All Bookmarks")
                             .font(.subheadline.weight(.semibold))
@@ -307,11 +303,7 @@ private struct MenuLinkRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.body.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 36, height: 36)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent, size: 36)
 
             Text(title)
                 .font(.subheadline.weight(.medium))
@@ -337,11 +329,7 @@ private struct MenuToggleRow: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.body.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 36, height: 36)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent, size: 36)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)

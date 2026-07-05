@@ -41,8 +41,34 @@ enum AppReleaseNotes {
     static let all: [AppReleaseNote] = [
         AppReleaseNote(
             version: "1.3",
-            title: "In development",
-            highlights: []
+            title: "Elevated design & stability",
+            highlights: [
+                AppReleaseHighlight(
+                    systemImage: "square.stack.3d.up.fill",
+                    title: "Unified card design",
+                    detail: "Home, Explore, Assignment, Menu, and tools now share the same elevated cards and icon badges for a cleaner, more consistent look."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "house.fill",
+                    title: "Refined Home screen",
+                    detail: "Tools, saved items, emergency contacts, and the weather hero use the same visual language — less clutter, easier to scan."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "magnifyingglass",
+                    title: "Explore polish",
+                    detail: "Resource, gate, and event cards match Home's saved section, with improved spacing under the Open Now filter."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "bolt.fill",
+                    title: "Faster & more reliable",
+                    detail: "Fixed a widget bug that could clear saved bookmarks on launch, reduced redundant data fetches, and tightened Explore list filtering."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "checkmark.shield.fill",
+                    title: "Swift 6 ready",
+                    detail: "Resolved all compiler concurrency warnings and corrected a Little Rock base data issue caught by integrity tests."
+                )
+            ]
         ),
         AppReleaseNote(
             version: "1.2",

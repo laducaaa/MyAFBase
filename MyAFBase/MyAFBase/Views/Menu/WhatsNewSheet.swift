@@ -50,10 +50,10 @@ struct WhatsNewSheet: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(spacing: 12) {
                 Image(systemName: "sparkles")
-                    .font(.title2.weight(.semibold))
+                    .font(.system(size: 44 * 0.4, weight: .semibold))
                     .foregroundStyle(.white)
                     .frame(width: 44, height: 44)
-                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 44 * 0.27, style: .continuous))
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Version \(release.version)")
@@ -167,11 +167,7 @@ struct WhatsNewSheet: View {
                 showLegalPrivacySheet = true
             } label: {
                 HStack(spacing: 12) {
-                    Image(systemName: "doc.text")
-                        .font(.body.weight(.semibold))
-                        .foregroundStyle(AppTheme.accent)
-                        .frame(width: 32, height: 32)
-                        .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                    IconBadge(systemImage: "doc.text", tint: AppTheme.accent, size: 32)
 
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Legal & privacy notice")
@@ -226,11 +222,7 @@ private struct WhatsNewHighlightRow: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: highlight.systemImage)
-                .font(compact ? .caption.weight(.semibold) : .subheadline.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: iconSize, height: iconSize)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+            IconBadge(systemImage: highlight.systemImage, tint: AppTheme.accent, size: iconSize)
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(highlight.title)
@@ -260,11 +252,7 @@ private struct WhatsNewInfoRow: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(AppTheme.accent)
-                .frame(width: 32, height: 32)
-                .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent, size: 32)
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(title)

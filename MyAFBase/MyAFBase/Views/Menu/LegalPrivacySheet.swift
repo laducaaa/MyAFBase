@@ -34,10 +34,10 @@ struct LegalPrivacySheet: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(spacing: 12) {
                 Image(systemName: "doc.text")
-                    .font(.title2.weight(.semibold))
+                    .font(.system(size: 44 * 0.4, weight: .semibold))
                     .foregroundStyle(.white)
                     .frame(width: 44, height: 44)
-                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 44 * 0.27, style: .continuous))
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Please read before use")

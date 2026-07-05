@@ -72,10 +72,7 @@ struct PCSChecklistCard: View {
 
             footer
         }
-        .padding(AssignmentMetrics.cardPadding)
-        .background(Color(.systemBackground))
-        .clipShape(RoundedRectangle(cornerRadius: AssignmentMetrics.cardCornerRadius, style: .continuous))
-        .shadow(color: .black.opacity(AssignmentMetrics.cardShadowOpacity), radius: 6, y: 2)
+        .appCardStyle(padding: AssignmentMetrics.cardPadding)
         .alert("Reset Checklist?", isPresented: $showResetAlert) {
             Button("Cancel", role: .cancel) {}
             Button("Reset", role: .destructive) {

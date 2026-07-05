@@ -254,10 +254,7 @@ struct BasePickerSheet: View {
 
     private var moreBasesComingCard: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: "building.2.crop.circle")
-                .font(.title3)
-                .foregroundStyle(AppTheme.buttonIcon)
-                .frame(width: 28)
+            IconBadge(systemImage: "building.2.crop.circle", tint: AppTheme.accent, size: 36)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text("Don't see your base?")

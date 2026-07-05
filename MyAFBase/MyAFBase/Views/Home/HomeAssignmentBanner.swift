@@ -13,16 +13,7 @@ struct HomeAssignmentBanner: View {
     var body: some View {
         if let message = bannerMessage {
             HStack(alignment: .center, spacing: 14) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(AppTheme.accent.opacity(0.14))
-                        .frame(width: 44, height: 44)
-
-                    Image(systemName: bannerIcon)
-                        .font(.title3.weight(.semibold))
-                        .foregroundStyle(AppTheme.accent)
-                }
-                .accessibilityHidden(true)
+                IconBadge(systemImage: bannerIcon, tint: AppTheme.accent)
 
                 VStack(alignment: .leading, spacing: 3) {
                     Text(message.title)

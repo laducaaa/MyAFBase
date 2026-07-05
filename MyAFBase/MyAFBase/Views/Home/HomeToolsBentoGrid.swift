@@ -80,25 +80,15 @@ private struct HomeToolBentoTile: View {
     let tool: HomeTool
     let style: HomeTool.Layout
 
-    @Environment(\.colorScheme) private var colorScheme
-
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
-            tileBackground
-
+        Group {
             if style == .wide {
                 wideContent
             } else {
                 compactContent
             }
         }
-        .elevatedCardOutline()
-        .overlay {
-            if colorScheme != .dark {
-                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                    .strokeBorder(borderColor, lineWidth: borderLineWidth)
-            }
-        }
+        .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(tool.title). \(tool.subtitle)")
         .accessibilityHint("Opens \(tool.title)")
@@ -106,16 +96,14 @@ private struct HomeToolBentoTile: View {
 
     private var compactContent: some View {
         VStack(alignment: .leading, spacing: 0) {
-            Image(systemName: tool.systemImage)
-                .font(.title2.weight(.semibold))
-                .foregroundStyle(iconColor)
+            IconBadge(systemImage: tool.systemImage, tint: tool.tint, size: 38)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
             Spacer(minLength: 8)
 
             Text(tool.title)
                 .font(.subheadline.weight(.semibold))
-                .foregroundStyle(titleColor)
+                .foregroundStyle(.primary)
                 .lineLimit(2)
                 .minimumScaleFactor(0.9)
                 .multilineTextAlignment(.leading)
@@ -126,74 +114,30 @@ private struct HomeToolBentoTile: View {
 
     private var wideContent: some View {
         HStack(alignment: .center, spacing: 14) {
-            Image(systemName: tool.systemImage)
-                .font(.title2.weight(.semibold))
-                .foregroundStyle(iconColor)
+            IconBadge(systemImage: tool.systemImage, tint: tool.tint)
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(tool.title)
                     .font(.subheadline.weight(.bold))
-                    .foregroundStyle(titleColor)
+                    .foregroundStyle(.primary)
                     .lineLimit(1)
 
                 Text(tool.subtitle)
                     .font(.caption)
-                    .foregroundStyle(subtitleColor)
+                    .foregroundStyle(.secondary)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)
             }
 
             Spacer(minLength: 0)
 
-            Image(systemName: "arrow.up.right")
+            Image(systemName: "chevron.right")
                 .font(.caption.weight(.bold))
-                .foregroundStyle(iconColor.opacity(0.85))
+                .foregroundStyle(.tertiary)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 14)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-    }
-
-    private var tileBackground: some View {
-        Group {
-            if colorScheme == .dark {
-                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                    .fill(
-                        LinearGradient(
-                            colors: [
-                                tool.tint.opacity(0.34),
-                                tool.tint.opacity(0.14),
-                                Color(.secondarySystemGroupedBackground)
-                            ],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        )
-                    )
-            } else {
-                RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
-                    .fill(Color(.systemBackground))
-            }
-        }
-    }
-
-    private var iconColor: Color {
-        colorScheme == .dark ? tool.tint.opacity(0.95) : tool.tint
-    }
-
-    private var titleColor: Color {
-        .primary
-    }
-
-    private var subtitleColor: Color {
-        .secondary
-    }
-
-    private var borderColor: Color {
-        Color.black.opacity(0.06)
-    }
-
-    private var borderLineWidth: CGFloat {
-        0.5
     }
 }
 

@@ -123,11 +123,7 @@ struct AssignmentDatesCard: View {
             draftDate = date ?? Date()
         } label: {
             HStack(alignment: .center, spacing: 12) {
-                Image(systemName: field.systemImage)
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(AppTheme.accent)
-                    .frame(width: 32, height: 32)
-                    .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                IconBadge(systemImage: field.systemImage, tint: AppTheme.accent, size: 32)
 
                 VStack(alignment: .leading, spacing: 3) {
                     Text(field.title)

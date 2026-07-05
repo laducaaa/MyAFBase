@@ -11,43 +11,49 @@ struct GateCard: View {
         Button {
             showDetail = true
         } label: {
-            VStack(alignment: .leading, spacing: 8) {
-                HStack {
-                    Text(gate.name)
-                        .font(.headline)
-                        .foregroundStyle(.primary)
-                    Spacer()
-                    ShareLink(item: LocationShareBuilder.gate(gate, baseName: baseName)) {
-                        Image(systemName: "square.and.arrow.up")
-                            .font(.subheadline)
+            HStack(alignment: .top, spacing: 14) {
+                IconBadge(systemImage: "door.left.hand.open", tint: gate.status.color)
+
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(alignment: .top) {
+                        Text(gate.name)
+                            .font(.headline)
                             .foregroundStyle(.primary)
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel("Share \(gate.name)")
-                    BookmarkButton(
-                        isBookmarked: bookmarkStore.isBookmarked(baseID: baseID, itemID: gate.id, itemType: .gate)
-                    ) {
-                        bookmarkStore.toggleGate(baseID: baseID, gateID: gate.id)
-                    }
-                }
 
-                HStack(spacing: 8) {
-                    StatusPill(gateStatus: gate.status)
-                    StatusPill(trafficLevel: gate.traffic)
-                    if let hoursStatus = ResourceHoursStatus.status(for: gate) {
-                        OpenClosedBadge(status: hoursStatus)
+                        Spacer(minLength: 8)
+
+                        ShareLink(item: LocationShareBuilder.gate(gate, baseName: baseName)) {
+                            Image(systemName: "square.and.arrow.up")
+                                .font(.subheadline)
+                                .foregroundStyle(.primary)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel("Share \(gate.name)")
+                        BookmarkButton(
+                            isBookmarked: bookmarkStore.isBookmarked(baseID: baseID, itemID: gate.id, itemType: .gate)
+                        ) {
+                            bookmarkStore.toggleGate(baseID: baseID, gateID: gate.id)
+                        }
                     }
-                }
 
-                Label(gate.hours, systemImage: "clock")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                    HStack(spacing: 8) {
+                        StatusPill(gateStatus: gate.status)
+                        StatusPill(trafficLevel: gate.traffic)
+                        if let hoursStatus = ResourceHoursStatus.status(for: gate) {
+                            OpenClosedBadge(status: hoursStatus)
+                        }
+                    }
 
-                if let notes = gate.notes, !notes.isEmpty {
-                    Text(notes)
-                        .font(.caption)
+                    Label(gate.hours, systemImage: "clock")
+                        .font(.subheadline)
                         .foregroundStyle(.secondary)
-                        .multilineTextAlignment(.leading)
+
+                    if let notes = gate.notes, !notes.isEmpty {
+                        Text(notes)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .multilineTextAlignment(.leading)
+                    }
                 }
             }
             .padding(16)

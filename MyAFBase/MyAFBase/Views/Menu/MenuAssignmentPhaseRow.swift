@@ -14,13 +14,7 @@ struct MenuAssignmentPhaseRow: View {
                 .font(.caption)
                 .foregroundStyle(.secondary)
 
-            Picker("Assignment phase", selection: phaseBinding) {
-                ForEach(AssignmentSegment.allCases) { segment in
-                    Text(segment.title).tag(segment)
-                }
-            }
-            .pickerStyle(.segmented)
-            .labelsHidden()
+            AssignmentPhaseToggle(selection: phaseBinding)
         }
         .accessibilityElement(children: .contain)
     }

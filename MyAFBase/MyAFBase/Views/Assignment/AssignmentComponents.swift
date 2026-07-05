@@ -77,10 +77,8 @@ struct AssignmentAFICard: View {
             Button {
                 openURL(url)
             } label: {
-                VStack(alignment: .leading, spacing: 8) {
-                    Image(systemName: afi.systemImage)
-                        .font(.title3)
-                        .foregroundStyle(AppTheme.buttonIcon)
+                VStack(alignment: .leading, spacing: 10) {
+                    IconBadge(systemImage: afi.systemImage, tint: AppTheme.accent, size: 36)
 
                     Text(afi.title)
                         .font(.subheadline.weight(.medium))
@@ -107,13 +105,11 @@ struct AssignmentInboundRowLabel: View {
     let systemImage: String
     var trailingSystemImage: String = "chevron.right"
     var subtitleLineLimit: Int? = 2
+    var tint: Color = AppTheme.accent
 
     var body: some View {
         HStack(spacing: 14) {
-            Image(systemName: systemImage)
-                .font(.title3)
-                .foregroundStyle(.primary)
-                .frame(width: 36, alignment: .center)
+            IconBadge(systemImage: systemImage, tint: tint)
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(title)
@@ -195,10 +191,7 @@ struct AssignmentOutboundLocationsCard: View {
         VStack(spacing: 0) {
             ForEach(Array(locations.enumerated()), id: \.element.id) { index, location in
                 HStack(spacing: 14) {
-                    Image(systemName: location.systemImage)
-                        .font(.title3)
-                        .foregroundStyle(.primary)
-                        .frame(width: 36, alignment: .center)
+                    IconBadge(systemImage: location.systemImage, tint: AppTheme.accent)
 
                     VStack(alignment: .leading, spacing: 3) {
                         Text(location.title)
@@ -259,14 +252,13 @@ struct AssignmentTipCard: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: systemImage)
-                .font(.title3)
-                .foregroundStyle(AppTheme.buttonIcon)
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent, size: 36)
 
             Text(message)
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
+                .padding(.top, 6)
         }
         .appCardStyle(
             padding: AssignmentMetrics.cardPadding,

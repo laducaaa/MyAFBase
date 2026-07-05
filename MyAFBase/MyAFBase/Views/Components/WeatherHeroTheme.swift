@@ -122,15 +122,8 @@ struct WeatherHeroSection: View {
         RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
     }
 
-    private var palette: WeatherHeroTheme.Palette {
-        WeatherHeroTheme.palette(for: weatherCondition)
-    }
-
     var body: some View {
         heroCard
-            .background(alignment: .top) {
-                ambientGlowBand
-            }
     }
 
     private var isDark: Bool { colorScheme == .dark }
@@ -166,26 +159,6 @@ struct WeatherHeroSection: View {
             radius: isDark ? 0 : 14,
             y: isDark ? 0 : 8
         )
-    }
-
-    /// Narrow band above the card lip — external glow only, never painted on the card face.
-    private var ambientGlowBand: some View {
-        RadialGradient(
-            colors: [
-                palette.glow.opacity(isDark ? 0.48 : 0.34),
-                palette.glow.opacity(isDark ? 0.20 : 0.12),
-                palette.glow.opacity(0)
-            ],
-            center: .bottom,
-            startRadius: 4,
-            endRadius: 160
-        )
-        .frame(height: 88)
-        .frame(maxWidth: .infinity)
-        .blur(radius: 28)
-        .offset(y: -42)
-        .allowsHitTesting(false)
-        .accessibilityHidden(true)
     }
 }
 

@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 enum ResourceCategory: String, Codable, CaseIterable, Sendable {
     case dining
@@ -167,6 +168,17 @@ enum GateStatus: String, Codable, Sendable {
     var displayName: String {
         rawValue.capitalized
     }
+
+    /// Single source of truth for status color so every card (StatusPill,
+    /// GateCard badge, detail sheets) tints the same status identically.
+    var color: Color {
+        switch self {
+        case .open: AppTheme.success
+        case .closed: AppTheme.danger
+        case .delayed: AppTheme.warning
+        case .unknown: AppTheme.muted
+        }
+    }
 }
 
 enum TrafficLevel: String, Codable, Sendable {
@@ -178,6 +190,16 @@ enum TrafficLevel: String, Codable, Sendable {
 
     var displayName: String {
         rawValue.capitalized
+    }
+
+    var color: Color {
+        switch self {
+        case .none: AppTheme.muted
+        case .low: AppTheme.success
+        case .moderate: AppTheme.warning
+        case .high: AppTheme.danger
+        case .unknown: AppTheme.muted
+        }
     }
 }
 

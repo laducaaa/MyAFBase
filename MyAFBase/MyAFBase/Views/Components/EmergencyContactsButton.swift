@@ -9,11 +9,7 @@ struct EmergencyContactsButton: View {
             showSheet = true
         } label: {
             HStack(spacing: 14) {
-                Image(systemName: "phone.fill")
-                    .font(.title3)
-                    .foregroundStyle(.white)
-                    .frame(width: 44, height: 44)
-                    .background(AppTheme.danger.gradient, in: Circle())
+                IconBadge(systemImage: "phone.fill", tint: AppTheme.danger, style: .solid)
 
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Emergency Numbers")

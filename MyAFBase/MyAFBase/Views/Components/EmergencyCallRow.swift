@@ -8,11 +8,11 @@ struct EmergencyCallRow: View {
             ResourceAction.call(number: emergency.number)
         } label: {
             HStack(spacing: 14) {
-                Image(systemName: iconName)
-                    .font(.title3)
-                    .foregroundStyle(isUniversalEmergency ? AppTheme.danger : .primary)
-                    .frame(width: 44, height: 44)
-                    .background(iconBackground, in: Circle())
+                IconBadge(
+                    systemImage: iconName,
+                    tint: isUniversalEmergency ? AppTheme.danger : AppTheme.accent,
+                    style: isUniversalEmergency ? .solid : .tinted
+                )
 
                 VStack(alignment: .leading, spacing: 4) {
                     HStack(spacing: 8) {
@@ -41,13 +41,10 @@ struct EmergencyCallRow: View {
 
                 trailingAccessory
             }
-            .padding(16)
-            .background(Color(.systemBackground))
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .shadow(color: .black.opacity(0.05), radius: 4, y: 2)
+            .appCardStyle()
             .overlay {
                 if isUniversalEmergency {
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    RoundedRectangle(cornerRadius: AppTheme.cardCornerRadius, style: .continuous)
                         .strokeBorder(AppTheme.danger.opacity(0.3), lineWidth: 1)
                 }
             }
@@ -73,13 +70,6 @@ struct EmergencyCallRow: View {
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.primary)
         }
-    }
-
-    private var iconBackground: Color {
-        if isUniversalEmergency {
-            return AppTheme.danger.opacity(0.12)
-        }
-        return Color(.secondarySystemFill)
     }
 
     private var isUniversalEmergency: Bool {

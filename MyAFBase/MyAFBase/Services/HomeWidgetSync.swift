@@ -3,14 +3,6 @@ import WidgetKit
 
 enum HomeWidgetSync {
     @MainActor
-    static func publish(base: Base, weather: Weather?) {
-        publishWeather(base: base, weather: weather)
-        publishOpenNow(base: base)
-        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.weather)
-        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.openNow)
-    }
-
-    @MainActor
     static func publishWeather(base: Base, weather: Weather?) {
         let snapshot = WeatherWidgetBuilder.snapshot(from: base, weather: weather)
         WidgetDataStore.saveWeather(snapshot)

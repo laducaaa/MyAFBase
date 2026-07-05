@@ -103,7 +103,10 @@ struct ContentView: View {
             await appState.syncRemoteBaseData()
             HomeWidgetSync.publishPayCalendar()
         }
-        .onChange(of: appState.currentBase?.id) { _, _ in
+        .onChange(of: appState.currentBase) { _, _ in
+            // Fires on base switches and on remote data refreshes (same base,
+            // updated content) so Open Now/Emergency widgets always reflect
+            // the latest hours alongside the current saved items.
             Task { await syncHomeWidgets(using: stores) }
         }
         .onChange(of: stores.bookmarkStore.changeToken) { _, _ in

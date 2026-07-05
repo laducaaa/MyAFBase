@@ -119,6 +119,38 @@ struct AppPlainTextButtonStyle: ButtonStyle {
     }
 }
 
+/// The leading icon badge used across Home and Explore cards (reminders,
+/// assignment banner, emergency numbers, tool tiles, saved items) so every
+/// card announces its category with the same shape and treatment — a tinted
+/// rounded square behind an SF Symbol, colored to match the row's meaning.
+struct IconBadge: View {
+    var systemImage: String
+    var tint: Color
+    var size: CGFloat = 44
+    var style: Style = .tinted
+
+    enum Style {
+        /// Soft tinted fill — the default, used for most content cards.
+        case tinted
+        /// Solid gradient fill with a white glyph — reserved for the rare,
+        /// high-urgency badge (e.g. Emergency Numbers).
+        case solid
+    }
+
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: size * 0.27, style: .continuous)
+                .fill(style == .solid ? AnyShapeStyle(tint.gradient) : AnyShapeStyle(tint.opacity(0.14)))
+                .frame(width: size, height: size)
+
+            Image(systemName: systemImage)
+                .font(.system(size: size * 0.4, weight: .semibold))
+                .foregroundStyle(style == .solid ? .white : tint)
+        }
+        .accessibilityHidden(true)
+    }
+}
+
 struct AppScreenBackground: View {
     var body: some View {
         ZStack {

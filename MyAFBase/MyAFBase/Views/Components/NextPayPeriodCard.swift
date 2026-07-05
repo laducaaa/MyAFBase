@@ -12,19 +12,11 @@ struct NextPayPeriodCard: View {
                 .foregroundStyle(.secondary)
 
             HStack(alignment: .center, spacing: 14) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(
-                            (event.isSpecial ? AppTheme.highlight : AppTheme.accent)
-                                .opacity(0.12)
-                        )
-                        .frame(width: 48, height: 48)
-
-                    Image(systemName: event.systemImage)
-                        .font(.title3.weight(.semibold))
-                        .foregroundStyle(event.isSpecial ? AppTheme.highlight : AppTheme.accent)
-                }
-                .accessibilityHidden(true)
+                IconBadge(
+                    systemImage: event.systemImage,
+                    tint: event.isSpecial ? AppTheme.highlight : AppTheme.accent,
+                    size: 48
+                )
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(event.title)

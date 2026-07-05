@@ -194,10 +194,8 @@ private struct AFISearchQuickAccessCard: View {
 
     var body: some View {
         Button(action: onOpen) {
-            VStack(alignment: .leading, spacing: 8) {
-                Image(systemName: afi.systemImage)
-                    .font(.title3)
-                    .foregroundStyle(AppTheme.buttonIcon)
+            VStack(alignment: .leading, spacing: 10) {
+                IconBadge(systemImage: afi.systemImage, tint: AppTheme.accent, size: 36)
 
                 Text(afi.title)
                     .font(.subheadline.weight(.medium))
@@ -227,9 +225,7 @@ private struct AFISearchReadyHintCard: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: "text.magnifyingglass")
-                .font(.title3)
-                .foregroundStyle(AppTheme.buttonIcon)
+            IconBadge(systemImage: "text.magnifyingglass", tint: AppTheme.accent, size: 36)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(title)
@@ -256,11 +252,7 @@ private struct AFISearchIndexingCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             HStack(alignment: .top, spacing: 12) {
-                Image(systemName: "arrow.down.doc.fill")
-                    .font(.title3)
-                    .foregroundStyle(AppTheme.buttonIcon)
-                    .frame(width: 36, height: 36)
-                    .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                IconBadge(systemImage: "arrow.down.doc.fill", tint: AppTheme.accent, size: 36)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(AFISearchCopy.indexingTitle)
@@ -342,11 +334,7 @@ private struct AFISearchStatusCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .top, spacing: 12) {
-                Image(systemName: systemImage)
-                    .font(.title3)
-                    .foregroundStyle(iconColor)
-                    .frame(width: 36, height: 36)
-                    .background(iconColor.opacity(0.12), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                IconBadge(systemImage: systemImage, tint: iconColor, size: 36)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(title)
@@ -554,11 +542,7 @@ private struct AFISearchViewPDFBar: View {
 
             Button(action: action) {
                 HStack(spacing: 12) {
-                    Image(systemName: "doc.viewfinder")
-                        .font(.title3)
-                        .foregroundStyle(AppTheme.accent)
-                        .frame(width: 36, height: 36)
-                        .background(AppTheme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                    IconBadge(systemImage: "doc.viewfinder", tint: AppTheme.accent, size: 36)
 
                     VStack(alignment: .leading, spacing: 2) {
                         Text("View PDF")

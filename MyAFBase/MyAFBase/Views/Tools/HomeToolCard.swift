@@ -7,14 +7,7 @@ struct HomeToolCard: View {
 
     var body: some View {
         HStack(spacing: 14) {
-            Image(systemName: systemImage)
-                .font(.title3)
-                .foregroundStyle(AppTheme.buttonIcon)
-                .frame(width: 40, height: 40)
-                .background(
-                    AppTheme.accent.opacity(0.12),
-                    in: RoundedRectangle(cornerRadius: 10, style: .continuous)
-                )
+            IconBadge(systemImage: systemImage, tint: AppTheme.accent)
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)

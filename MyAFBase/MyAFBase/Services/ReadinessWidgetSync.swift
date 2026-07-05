@@ -6,7 +6,7 @@ enum ReadinessWidgetSync {
     static func publish(tracker: ReadinessTracker, baseName: String) {
         let snapshot = ReadinessCountdownBuilder.snapshot(from: tracker, baseName: baseName)
         WidgetDataStore.saveReadiness(snapshot)
-        WidgetCenter.shared.reloadAllTimelines()
+        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.readinessCountdown)
     }
 
     @MainActor
