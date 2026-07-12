@@ -71,7 +71,7 @@ struct WeatherCard: View {
 
             weatherBody
 
-            if let weather = activeWeather, !weather.isPlaceholder {
+            if !appState.isWeatherLoading, let weather = activeWeather, !weather.isPlaceholder {
                 heroMetadata(for: weather)
             }
         }
@@ -80,7 +80,7 @@ struct WeatherCard: View {
 
     @ViewBuilder
     private var weatherBody: some View {
-        if appState.isWeatherLoading && activeWeather == nil {
+        if appState.isWeatherLoading {
             weatherSkeleton
         } else if let weather = activeWeather {
             switch style {
@@ -113,27 +113,47 @@ struct WeatherCard: View {
     }
 
     private var weatherSkeleton: some View {
-        VStack(alignment: style == .hero ? .center : .leading, spacing: 12) {
-            RoundedRectangle(cornerRadius: 4)
-                .fill(style == .hero ? Color.white.opacity(0.15) : Color.primary.opacity(0.08))
-                .frame(width: 120, height: 44)
-
+        Group {
             if style == .hero {
-                HStack(spacing: 24) {
-                    ForEach(0..<3, id: \.self) { _ in
-                        RoundedRectangle(cornerRadius: 4)
-                            .fill(Color.white.opacity(0.12))
-                            .frame(width: 56, height: 40)
-                    }
-                }
+                heroWeatherSkeleton
             } else {
-                RoundedRectangle(cornerRadius: 4)
-                    .fill(Color.primary.opacity(0.08))
-                    .frame(width: 120, height: 16)
+                VStack(alignment: .leading, spacing: 12) {
+                    skeletonBar(width: 120, height: 44, opacity: 0.08)
+                    skeletonBar(width: 120, height: 16, opacity: 0.08)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
-        .frame(maxWidth: .infinity, alignment: style == .hero ? .center : .leading)
+        .accessibilityLabel("Loading weather")
+    }
+
+    private var heroWeatherSkeleton: some View {
+        VStack(spacing: 20) {
+            VStack(spacing: 10) {
+                skeletonBar(width: 148, height: 56, opacity: 0.18)
+                skeletonBar(width: 110, height: 14, opacity: 0.12)
+            }
+            .frame(maxWidth: .infinity)
+
+            HStack(spacing: 0) {
+                ForEach(0..<3, id: \.self) { index in
+                    if index > 0 { Spacer() }
+                    VStack(spacing: 8) {
+                        skeletonBar(width: 28, height: 22, opacity: 0.14)
+                        skeletonBar(width: 54, height: 12, opacity: 0.12)
+                        skeletonBar(width: 40, height: 10, opacity: 0.10)
+                    }
+                    .frame(minWidth: 72)
+                }
+            }
+        }
         .redacted(reason: .placeholder)
+    }
+
+    private func skeletonBar(width: CGFloat, height: CGFloat, opacity: Double) -> some View {
+        RoundedRectangle(cornerRadius: 6, style: .continuous)
+            .fill(style == .hero ? Color.white.opacity(opacity) : Color.primary.opacity(opacity))
+            .frame(width: width, height: height)
     }
 
     @ViewBuilder

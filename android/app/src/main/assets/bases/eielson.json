@@ -1,0 +1,312 @@
+{
+  "id": "eielson",
+  "name": "Eielson AFB",
+  "fullName": "Eielson Air Force Base",
+  "location": "Fairbanks, AK",
+  "description": "Home of the 354th Fighter Wing, Eielson trains aviators in arctic conditions and hosts RED FLAG-Alaska on the Joint Pacific Alaska Range Complex.",
+  "wing": "354 FW",
+  "latitude": 64.6657,
+  "longitude": -147.1015,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "eielson-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Eielson AFB Security Forces",
+      "number": "907-377-5262"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "907-377-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Richardson Hwy, Eielson AFB, AK 99702",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north-gate",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "low",
+      "address": "North Gate Rd, Eielson AFB, AK 99702",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-eielson-dfac",
+      "name": "Bull's Eye Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Eielson AFB.",
+      "hours": "See posted meal hours",
+      "address": "2630 Central Ave, Eielson AFB, AK 99702",
+      "phone": "907-377-1110",
+      "url": "https://www.354fss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-bx",
+      "name": "Eielson AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Eielson AFB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "2630 Central Ave, Eielson AFB, AK 99702",
+      "phone": "907-377-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/eielson-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-eielson-commissary",
+      "name": "Eielson AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "2630 Central Ave, Eielson AFB, AK 99702",
+      "phone": "907-377-1110",
+      "url": "https://shop.commissaries.com/stores/eielson-afb",
+      "building": null
+    },
+    {
+      "id": "res-eielson-medical",
+      "name": "354th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Eielson AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-6800",
+      "url": "https://eielson.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Eielson AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1110",
+      "url": "https://www.354fss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1110",
+      "url": "https://www.eielson.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1110",
+      "url": "https://www.354fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-fss",
+      "name": "354 FW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1110",
+      "url": "https://www.354fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/eielson-afb/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Eielson AFB.",
+      "hours": "See FSS for current hours",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-1844",
+      "url": "https://www.354fss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-visitor-center",
+      "name": "Eielson AFB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "2630 Central Ave, Eielson AFB, AK 99702",
+      "phone": "907-377-2424",
+      "url": "https://www.eielson.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-eielson-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "phone": "907-377-5262",
+      "url": "https://www.eielson.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "eielson-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "eielson-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Eielson AFB, Fairbanks, AK",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Eielson AFB Visitor Center",
+      "url": "https://www.eielson.af.mil/Newcomers/",
+      "phone": "907-377-2424",
+      "address": "2630 Central Ave, Eielson AFB, AK 99702"
+    },
+    "moreInfoURL": "https://www.eielson.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Eielson AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.eielson.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/eielson-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Eielson AFB Official Site",
+            "url": "https://www.eielson.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.eielson.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.354fss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/eielson-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/eielson"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

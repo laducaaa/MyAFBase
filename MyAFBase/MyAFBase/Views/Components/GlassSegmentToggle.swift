@@ -140,81 +140,52 @@ struct FloatingSegmentToggle: View {
 struct ExploreDisplayModeToggle: View {
     @Binding var selection: ExploreDisplayMode
     @Environment(\.colorScheme) private var colorScheme
-
-    @Namespace private var highlightNamespace
-
-    private let segmentSize = CGSize(width: 40, height: 32)
+    @Namespace private var selectionNamespace
 
     var body: some View {
-        HStack(spacing: 0) {
+        HStack(spacing: 2) {
             ForEach(ExploreDisplayMode.allCases) { mode in
-                segmentButton(for: mode)
+                modeButton(mode)
             }
         }
-        .padding(4)
+        .padding(3)
         .background {
-            Capsule()
-                .fill(trackFill)
+            Capsule(style: .continuous)
+                .fill(.regularMaterial)
+                .shadow(color: .black.opacity(colorScheme == .dark ? 0.35 : 0.12), radius: 8, y: 2)
         }
         .overlay {
-            Capsule()
-                .strokeBorder(trackStroke, lineWidth: 0.5)
+            Capsule(style: .continuous)
+                .strokeBorder(Color.primary.opacity(colorScheme == .dark ? 0.12 : 0.06), lineWidth: 0.5)
         }
+        .accessibilityElement(children: .contain)
+        .accessibilityLabel("Explore view mode")
     }
 
-    private func segmentButton(for mode: ExploreDisplayMode) -> some View {
+    private func modeButton(_ mode: ExploreDisplayMode) -> some View {
         let isSelected = selection == mode
 
         return Button {
-            withAnimation(.spring(response: 0.32, dampingFraction: 0.84)) {
+            withAnimation(.snappy(duration: 0.22)) {
                 selection = mode
             }
         } label: {
             Image(systemName: mode.systemImage)
-                .font(.system(size: 15, weight: .semibold))
-                .foregroundStyle(isSelected ? selectedIconColor : unselectedIconColor)
-                .frame(width: segmentSize.width, height: segmentSize.height)
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(isSelected ? Color.accentColor : Color.secondary)
+                .frame(width: 36, height: 30)
                 .background {
                     if isSelected {
-                        Capsule()
-                            .fill(selectedFill)
-                            .shadow(color: selectedShadow, radius: 2, y: 1)
-                            .matchedGeometryEffect(id: "exploreDisplayModeHighlight", in: highlightNamespace)
+                        Capsule(style: .continuous)
+                            .fill(Color(.systemBackground))
+                            .shadow(color: .black.opacity(colorScheme == .dark ? 0.25 : 0.08), radius: 2, y: 1)
+                            .matchedGeometryEffect(id: "exploreModeSelection", in: selectionNamespace)
                     }
                 }
+                .contentShape(Capsule())
         }
         .buttonStyle(.plain)
         .accessibilityLabel(mode.title)
-        .accessibilityAddTraits(isSelected ? .isSelected : [])
-    }
-
-    private var trackFill: Color {
-        colorScheme == .dark
-            ? Color(white: 0.18)
-            : Color(.tertiarySystemFill)
-    }
-
-    private var trackStroke: Color {
-        colorScheme == .dark
-            ? Color.white.opacity(0.08)
-            : Color.black.opacity(0.06)
-    }
-
-    private var selectedFill: Color {
-        colorScheme == .dark
-            ? Color(white: 0.32)
-            : Color(.systemBackground)
-    }
-
-    private var selectedShadow: Color {
-        colorScheme == .dark ? .clear : .black.opacity(0.08)
-    }
-
-    private var selectedIconColor: Color {
-        colorScheme == .dark ? .white : .primary
-    }
-
-    private var unselectedIconColor: Color {
-        colorScheme == .dark ? Color.white.opacity(0.55) : .secondary
+        .accessibilityAddTraits(isSelected ? [.isSelected, .isButton] : .isButton)
     }
 }

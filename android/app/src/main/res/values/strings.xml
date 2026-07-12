@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyAFBase</string>
+    <string name="widget_pay_label">Pay Calendar</string>
+    <string name="widget_weather_label">Weather</string>
+    <string name="widget_open_now_label">Open Now</string>
+    <string name="widget_emergency_label">Emergency</string>
+    <string name="widget_readiness_label">Readiness</string>
+    <string name="widget_war_label">WAR Quick Log</string>
 </resources>

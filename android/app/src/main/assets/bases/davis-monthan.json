@@ -1,0 +1,472 @@
+{
+  "id": "davis-monthan",
+  "name": "Davis-Monthan AFB",
+  "fullName": "Davis-Monthan Air Force Base",
+  "location": "Tucson, AZ",
+  "description": "Home of the 355th Wing — combat search and rescue, close air support, and the 309th AMARG aircraft boneyard.",
+  "wing": "355 WG",
+  "latitude": 32.1665,
+  "longitude": -110.883,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "davis-monthan-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. Visitor passes issued at the Craycroft Visitor Center Mon-Fri 0530-1900; after hours Craycroft IACP issues DBIDS passes.",
+      "type": "alert",
+      "postedAt": "2026-06-28T12:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (SFS)",
+      "number": "520-228-5231"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "520-228-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "355th Medical Group",
+      "number": "520-228-2778"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-craycroft",
+      "name": "Craycroft Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate. Visitor Center outside gate Mon-Fri 0530-1900 for passes; after hours Craycroft IACP issues DBIDS passes.",
+      "traffic": "high",
+      "address": "S Craycroft Rd, Tucson, AZ 85707",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-swan",
+      "name": "Swan Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Closed on federal holidays.",
+      "traffic": "moderate",
+      "address": "Swan Rd, Tucson, AZ 85707",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-search",
+      "name": "Search Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Closed on federal holidays.",
+      "traffic": "moderate",
+      "address": "Search Dr, Tucson, AZ 85707",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-n-wilmot",
+      "name": "N. Wilmot Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0500-1800",
+      "notes": "Closed on federal holidays.",
+      "traffic": "moderate",
+      "address": "N Wilmot Rd, Tucson, AZ 85756",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-s-wilmot",
+      "name": "S. Wilmot Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Inbound commercial traffic only. Closed on federal holidays.",
+      "traffic": "low",
+      "address": "S Wilmot Rd, Tucson, AZ 85756",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Craycroft Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1900",
+      "notes": "Located outside Craycroft Gate for base passes. After hours and weekends, Craycroft IACP issues DBIDS passes. Gate operations: 520-228-3200.",
+      "traffic": "moderate",
+      "address": "S Craycroft Rd (outside Craycroft Gate), Tucson, AZ 85707",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-davis-monthan-desert-inn-dfac",
+      "name": "Desert Inn Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary dining facility for the 355th Wing and installation personnel.",
+      "hours": "Mon-Fri 0600-1830; Sat-Sun 0630-1830",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-1110",
+      "url": "https://www.dmforcesupport.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-rescue-attack-kitchen",
+      "name": "Rescue & Attack Kitchen (Flightline)",
+      "category": "dining",
+      "description": "Flightline dining facility supporting rescue and attack mission operations.",
+      "hours": "Mon 0300-Fri 2359",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-1110",
+      "url": "https://www.dmforcesupport.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-bx",
+      "name": "Davis-Monthan AFB Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, and services.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "5405 E Granite St, Bldg 2527, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-748-7887",
+      "url": "https://www.shopmyexchange.com/store-locator/davis-monthan-main-exchange",
+      "building": "Bldg 2527"
+    },
+    {
+      "id": "res-davis-monthan-commissary",
+      "name": "Davis-Monthan AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery with early bird shopping available.",
+      "hours": "Sun 0900-1800; Mon-Sat 9:00 AM-7:00 PM; early bird 0830",
+      "address": "5455 E Comanche St, Bldg 2615, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-790-4341",
+      "url": "https://shop.commissaries.com/stores/davis-monthan-afb",
+      "building": "Bldg 2615"
+    },
+    {
+      "id": "res-davis-monthan-medical",
+      "name": "355th Medical Group",
+      "category": "medical",
+      "description": "Ambulatory MTF — primary care, specialty clinics, pharmacy, and behavioral health. No emergency department on base.",
+      "hours": "Mon-Fri 0630-1600",
+      "address": "4175 S Alamo Ave, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-2778",
+      "url": "https://davismonthan.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-fitness",
+      "name": "Benko Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center with weight room, cardio, group exercise, and racquetball.",
+      "hours": "Staffed Mon-Fri 0500-2100; 24/7 CAC access after registration",
+      "address": "5200 Ironwood St, Bldg 2301, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-0022",
+      "url": "https://www.dmforcesupport.com/fitness/",
+      "building": "Bldg 2301"
+    },
+    {
+      "id": "res-davis-monthan-pool",
+      "name": "Benko Fitness Center Pool",
+      "category": "fitness",
+      "description": "Indoor aquatics facility at Benko Fitness Center.",
+      "hours": "Seasonal May-Sep: Wed-Sun 1100-1800; Mon-Tue closed",
+      "address": "5200 Ironwood St, Bldg 2301, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-0015",
+      "url": "https://www.dmforcesupport.com/fitness/",
+      "building": "Bldg 2301"
+    },
+    {
+      "id": "res-davis-monthan-vantage-west",
+      "name": "Vantage West Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with deposit accounts, loans, and ATM services.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "3320 S Craycroft Rd, Bldg 2520, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "800-888-7882",
+      "url": "https://www.vantagewest.org/",
+      "building": "Bldg 2520"
+    },
+    {
+      "id": "res-davis-monthan-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "Bldg 3200, 3515 S Fifth St, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-1110",
+      "url": "https://www.dm.af.mil/",
+      "building": "Bldg 3200"
+    },
+    {
+      "id": "res-davis-monthan-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, assignments, promotions, separations, and personnel actions. Customer Support: 520-228-5212.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630; RAPIDS appointments via RAPIDS.mil",
+      "address": "Bldg 3200, 3515 S Fifth St, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-5212",
+      "url": "https://www.dmforcesupport.com/",
+      "building": "Bldg 3200"
+    },
+    {
+      "id": "res-davis-monthan-deers",
+      "name": "DEERS / ID Card Section",
+      "category": "services",
+      "description": "DEERS enrollment and ID card services. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "Bldg 3200, 3515 S Fifth St, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-4425",
+      "url": "https://rapids-appointments.dmdc.osd.mil/",
+      "building": "Bldg 3200"
+    },
+    {
+      "id": "res-davis-monthan-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "5355 E Granite St, Bldg 2441, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-5690",
+      "url": "https://www.dmforcesupport.com/",
+      "building": "Bldg 2441"
+    },
+    {
+      "id": "res-davis-monthan-fss",
+      "name": "355th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-1110",
+      "url": "https://www.dmforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-inn",
+      "name": "Davis Monthan Inn (Heritage Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging. Book via AF Reservations.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "3230 W Davenport St, Bldg 2542, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3230",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 2542"
+    },
+    {
+      "id": "res-davis-monthan-housing",
+      "name": "Housing Management Office (HMO)",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-1110",
+      "url": "https://www.housing.af.mil/Home/Installations/Davis-Monthan-AFB/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-odr",
+      "name": "Outdoor Recreation (Blanchard Recreation Complex)",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, outdoor adventure programs, and recreation services.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1500",
+      "address": "3965 S Craycroft Rd, Bldg 4459, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3736",
+      "url": "https://www.dmforcesupport.com/outdoor-recreation/",
+      "building": "Bldg 4459"
+    },
+    {
+      "id": "res-davis-monthan-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted tickets for theme parks, attractions, and travel services.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "5555 Ironwood St, Bldg 2050, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3700",
+      "url": "https://www.dmforcesupport.com/",
+      "building": "Bldg 2050"
+    },
+    {
+      "id": "res-davis-monthan-golf",
+      "name": "Desert Dove Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and practice facilities at Blanchard Recreation Complex.",
+      "hours": "Daily sunrise to sunset; pro shop hours vary seasonally",
+      "address": "3965 S Craycroft Rd, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3734",
+      "url": "https://www.dmforcesupport.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-bowling",
+      "name": "Thunder Alley Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with leagues, arcade, and food service.",
+      "hours": "Tue-Sat 1200-2200; Sun 1300-1800; closed Mon",
+      "address": "5355 E Ironwood St, Bldg 3203, Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3461",
+      "url": "https://www.dmforcesupport.com/",
+      "building": "Bldg 3203"
+    },
+    {
+      "id": "res-davis-monthan-vcc",
+      "name": "Visitor Control Center (Craycroft Gate)",
+      "category": "safety",
+      "description": "Visitor passes and base access. Located outside Craycroft Gate. After hours, Craycroft IACP issues DBIDS passes.",
+      "hours": "Mon-Fri 0530-1900",
+      "address": "S Craycroft Rd (outside Craycroft Gate), Tucson, AZ 85707",
+      "phone": "520-228-3200",
+      "url": "https://www.dm.af.mil/About-DM/Base-Access/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-security-forces",
+      "name": "355th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations.",
+      "hours": "24/7",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-5231",
+      "url": "https://www.dm.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-davis-monthan-gate-ops",
+      "name": "Gate Operations",
+      "category": "safety",
+      "description": "Installation gate hours and access information. Craycroft Gate open 24/7.",
+      "hours": "24/7",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "phone": "520-228-3200",
+      "url": "https://www.dm.af.mil/Home/FactSheets/Display/Article/313060/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "davis-monthan-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "5355 E Granite St, Bldg 2441, Davis-Monthan AFB, Tucson, AZ 85707",
+      "description": "Orientation for incoming 355 WG personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-evt-right-start",
+      "title": "Right Start Newcomers Orientation",
+      "date": "2026-08-05T13:00:00Z",
+      "endDate": "2026-08-05T17:00:00Z",
+      "location": "355th Force Support Squadron",
+      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
+      "description": "Monthly Right Start orientation covering gate access, housing, medical, and local area resources.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Davis-Monthan AFB Newcomers",
+      "url": "https://www.dm.af.mil/About-Us/Library/Newcomers/",
+      "phone": "520-228-1110",
+      "address": "S Craycroft Rd (outside Craycroft Gate), Tucson, AZ 85707"
+    },
+    "moreInfoURL": "https://www.dm.af.mil/About-Us/Library/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and complete MPF in-processing within required timelines. Attend the newcomers briefing at the M&FRC. Finance is in Bldg 3200, 3515 S Fifth St.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.dm.af.mil/About-Us/Library/Newcomers/"
+          },
+          {
+            "id": "link-right-start",
+            "title": "Right Start Orientation",
+            "url": "https://www.dm.af.mil/About-Us/Library/Newcomers/Right-Start/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Davis Monthan Inn (Heritage Inn) offers temporary lodging — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Davis-Monthan-AFB/"
+          },
+          {
+            "id": "link-inn",
+            "title": "Davis Monthan Inn (AF Reservations)",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "Craycroft Gate is open 24/7. Swan, Search, and N. Wilmot gates are Mon-Fri during posted hours. S. Wilmot is inbound commercial traffic only. Visitor Center outside Craycroft Gate: Mon-Fri 0530-1900. Gate operations: 520-228-3200.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "DM Gate Hours",
+            "url": "https://www.dm.af.mil/Home/FactSheets/Display/Article/313060/"
+          },
+          {
+            "id": "link-base-access",
+            "title": "Base Access & Visitor Information",
+            "url": "https://www.dm.af.mil/About-DM/Base-Access/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Key contacts: SFS 520-228-5231 | Base Operator 520-228-1110 | 355 MDG 520-228-2778 | MPF 520-228-5212 | M&FRC 520-228-5690.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Davis-Monthan AFB Official Site",
+            "url": "https://www.dm.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "355th Force Support Squadron",
+            "url": "https://www.dmforcesupport.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "355th Medical Group",
+            "url": "https://davismonthan.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

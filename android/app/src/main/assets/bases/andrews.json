@@ -1,0 +1,315 @@
+{
+  "id": "andrews",
+  "name": "Joint Base Andrews",
+  "fullName": "Joint Base Andrews",
+  "location": "Camp Springs, MD",
+  "description": "Joint Base Andrews hosts the 316th Wing and provides priority airlift support for the President, Vice President, and senior leaders. Home of Air Force One.",
+  "wing": "316 WG",
+  "latitude": 38.8108,
+  "longitude": -76.8669,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "andrews-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. Visitor Control Center processes day passes.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Joint Base Andrews Security Forces",
+      "number": "301-981-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "301-981-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "301-981-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate at Joint Base Andrews.",
+      "traffic": "high",
+      "address": "Main Gate, Joint Base Andrews, MD 20762",
+      "latitude": 38.8108,
+      "longitude": -76.867
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0800-1600; closed Sun and federal holidays",
+      "notes": "1832 Robert M Bond Dr. Phone: 301-981-0232.",
+      "traffic": "moderate",
+      "address": "1832 Robert M Bond Dr, JB Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-virginia",
+      "name": "Virginia Gate",
+      "status": "open",
+      "hours": "Daily 0500-2100",
+      "notes": "Alternate access gate.",
+      "traffic": "moderate",
+      "address": "Virginia Gate, JB Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-pearl-harbor",
+      "name": "Pearl Harbor Gate",
+      "status": "open",
+      "hours": "Inbound 0500-1600; Outbound 0500-1800",
+      "notes": "Limited inbound/outbound hours.",
+      "traffic": "low",
+      "address": "Pearl Harbor Gate, JB Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-andrews-freedom-hall-dfac",
+      "name": "Freedom Hall Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC serving balanced meals, fresh produce, and quality proteins. Sunroom available for small group reservations. In-flight kitchen support.",
+      "hours": "Breakfast, Lunch, Dinner daily (exact meal hours posted at facility)",
+      "address": "1628 Colorado Ave, Bldg 1628, Joint Base Andrews, MD 20762",
+      "phone": "301-981-6516",
+      "url": "https://andrewsfss.com/609-2/",
+      "building": "Bldg 1628"
+    },
+    {
+      "id": "res-andrews-club",
+      "name": "The Club at Andrews",
+      "category": "dining",
+      "description": "All-ranks club with dining, catering, and event space.",
+      "hours": "Lunch Tue-Fri 1100-1400; bar Wed-Sat evenings; call 301-568-3100 for events",
+      "address": "1889 Arnold Ave, Bldg 1889, Joint Base Andrews, MD 20762",
+      "phone": "301-568-3100",
+      "url": "https://andrewsfss.com/",
+      "building": "Bldg 1889"
+    },
+    {
+      "id": "res-andrews-bx",
+      "name": "Joint Base Andrews Main Exchange (BX)",
+      "category": "shopping",
+      "description": "JB Andrews Main Exchange with food court, barber, beauty shop, optical, GNC, dry cleaning, and Andrews FCU office.",
+      "hours": "Mon-Sat 9:00 AM-8:00 PM; Sun 10:00 AM-6:00 PM",
+      "address": "1811 G Street, Joint Base Andrews, MD 20762",
+      "phone": "301-568-1500",
+      "url": "https://www.shopmyexchange.com/store-locator/joint-base-andrews-main-exchange",
+      "building": "Bldg 1811"
+    },
+    {
+      "id": "res-andrews-credit-union",
+      "name": "Andrews Federal Credit Union",
+      "category": "finance",
+      "description": "Andrews Federal Credit Union on-base office with checking, savings, loans, and ATM services.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "1677 D Street, Joint Base Andrews, MD 20762",
+      "phone": "800-487-5500",
+      "url": "https://www.andrewsfcu.org/",
+      "building": null
+    },
+    {
+      "id": "res-andrews-east-fitness",
+      "name": "East Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, and racquetball.",
+      "hours": "Staffed Mon-Fri 0600-1400; 24/7 CAC access after registration (Mon-Fri 1100-1300)",
+      "address": "3705 Fetchet Ave, Bldg 3705, Joint Base Andrews, MD 20762",
+      "phone": "301-981-1610",
+      "url": "https://andrewsfss.com/eastfitnesscenter/",
+      "building": "Bldg 3705"
+    },
+    {
+      "id": "res-andrews-tactical-fitness",
+      "name": "Tactical Fitness Center",
+      "category": "fitness",
+      "description": "Specialized fitness center supporting mission readiness and tactical training.",
+      "hours": "Mon-Fri 0500-1400; 24/7 CAC access after registration",
+      "address": "1500 West Perimeter Rd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-7101",
+      "url": "https://andrewsfss.com/fitness-centers/",
+      "building": "Bldg 1500"
+    },
+    {
+      "id": "res-andrews-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for unaccompanied personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1657 Brookely Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-4479",
+      "url": "https://www.housing.af.mil/",
+      "building": "Bldg 1657"
+    },
+    {
+      "id": "res-andrews-housing-office",
+      "name": "Military Housing Office (Privatized Housing)",
+      "category": "housing",
+      "description": "On-base family housing assignments and off-base referrals. Managed by Liberty Park at Andrews.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "2097 San Antonio Blvd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-5518",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/",
+      "building": "Bldg 2097"
+    },
+    {
+      "id": "res-andrews-presidential-inn",
+      "name": "Presidential Inn (Lodging / TLF)",
+      "category": "housing",
+      "description": "Official lodging including Distinguished Visitor Quarters and Temporary Lodging Facility (TLF). 24/7 front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "1380 California Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-4614",
+      "url": "https://andrewsfss.com/presidential-inn/",
+      "building": "Bldg 1380"
+    },
+    {
+      "id": "res-andrews-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, volunteer coordination, and family programs. Open to Total Force, civilians, retirees, and families.",
+      "hours": "Mon-Wed & Fri 0730-1630; Thu 0730-1200; closed holidays and AFDW pass days",
+      "address": "1191 Menoher Dr, Joint Base Andrews, MD 20762",
+      "phone": "301-981-7087",
+      "url": "https://andrewsfss.com/mfrc/",
+      "building": "Bldg 1191"
+    },
+    {
+      "id": "res-andrews-fss",
+      "name": "316th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full range of MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours at andrewsfss.com/directory",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-9333",
+      "url": "https://andrewsfss.com/",
+      "building": "Bldg 1414"
+    },
+    {
+      "id": "res-andrews-outdoor-rec",
+      "name": "Outdoor Recreation / ITT",
+      "category": "recreation",
+      "description": "Equipment rental, RV lots, FamCamp, disc golf, information/tickets/tours, and recreational programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "1235 Menoher Dr, Bldg 1235, Joint Base Andrews, MD 20762",
+      "phone": "301-981-4109",
+      "url": "https://andrewsfss.com/",
+      "building": "Bldg 1235"
+    },
+    {
+      "id": "res-andrews-golf",
+      "name": "The Courses at Andrews (Golf Course)",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and driving range.",
+      "hours": "See pro shop for tee times and hours",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-4653",
+      "url": "https://andrewsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-andrews-community-center",
+      "name": "Community Center & Base Theater",
+      "category": "recreation",
+      "description": "Community events, base theater, and leisure programs.",
+      "hours": "Mon-Fri 0800-1630; theater and event hours posted at facility",
+      "address": "1442 Concord Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-8490",
+      "url": "https://andrewsfss.com/",
+      "building": "Bldg 1442"
+    },
+    {
+      "id": "res-andrews-medical",
+      "name": "Malcolm Grow Medical Clinic",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services for the Andrews community.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-7300",
+      "url": "https://andrews.tricare.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.jba.af.mil/Resources/Visitor-Control-Center/",
+      "phone": "301-981-0232",
+      "address": "1832 Robert M. Bond Drive, Joint Base Andrews, MD 20762"
+    },
+    "moreInfoURL": "https://www.jba.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, and family documents. REAL ID required for base access.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Military Housing Office for on-base privatized housing or off-base referrals. Unaccompanied personnel report to Dorm Management.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "FSS, M&FRC, and official installation sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "Andrews FSS",
+            "url": "https://andrewsfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://andrewsfss.com/mfrc/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "id": "jbab",
+  "name": "Joint Base Andrews",
+  "fullName": "Joint Base Andrews",
+  "location": "Camp Springs, MD",
+  "description": "Home of Air Force One (89th Airlift Wing), the 316th Wing, and the National Capital Region's premier aerial port. Located 10 miles from Washington D.C.",
+  "wing": "316 WG / 89 AW / 11 WG",
+  "latitude": 38.8108,
+  "longitude": -76.8669,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "jbab-notif-1",
+      "title": "Security Posture — NCR",
+      "body": "JBA operates under elevated security awareness due to proximity to Washington D.C. Expect thorough ID and vehicle checks at all gates.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "316th SFS Base Defense Operations Center",
+      "number": "301-981-2001"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "301-981-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Malcolm Grow Medical Clinics",
+      "number": "301-981-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "301-981-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-auth-west",
+      "name": "Auth Gate (Auth Rd / Old Auth Rd West)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access from Auth Road / Suitland Pkwy. DoD ID or visitor pass required.",
+      "traffic": "high",
+      "address": "Auth Rd, Camp Springs, MD 20746",
+      "latitude": 38.8178,
+      "longitude": -76.88
+    },
+    {
+      "id": "gate-piscataway-east",
+      "name": "Piscataway Gate (Piscataway Rd / East Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0600-2200",
+      "notes": "Alternate access from Piscataway Road (east side of base).",
+      "traffic": "moderate",
+      "address": "Piscataway Rd, Andrews AFB, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-menoher-vcc",
+      "name": "Menoher Gate / Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1300; Sun closed",
+      "notes": "New visitors must stop here for day passes. Sponsor required. REAL ID required.",
+      "traffic": "moderate",
+      "address": "1191 Menoher Dr, Joint Base Andrews, MD 20762",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-alabama-south",
+      "name": "Alabama Gate (Alabama Ave)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
+      "notes": "Alternate entry from Alabama Ave for base residents.",
+      "traffic": "low",
+      "address": "Alabama Ave, Camp Springs, MD 20746",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-jbab-freedom-hall-dfac",
+      "name": "Freedom Hall Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC at Joint Base Andrews. Hot meals, salad bar, and grill.",
+      "hours": "Mon-Fri: Bfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Bfast 0730-0900, Lunch 1130-1300, Dinner 1700-1830",
+      "address": "Bldg 1628 Colorado Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-6516",
+      "url": "https://www.andrewsfss.com/",
+      "building": "Bldg 1628"
+    },
+    {
+      "id": "res-jbab-club-at-andrews",
+      "name": "The Club at Andrews (All-Ranks Club)",
+      "category": "dining",
+      "description": "All-ranks club restaurant and bar with private event space.",
+      "hours": "Tue-Fri 1100-2100; Sat 1200-2100; closed Sun-Mon",
+      "address": "Bldg 1889 Arnold Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-568-3100",
+      "url": "https://www.andrewsfss.com/",
+      "building": "Bldg 1889"
+    },
+    {
+      "id": "res-jbab-subway-bx",
+      "name": "Subway (BX Food Court)",
+      "category": "dining",
+      "description": "Subway sandwich shop inside the Andrews Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "Near BX, Joint Base Andrews, MD 20762",
+      "phone": "301-702-6501",
+      "url": "https://www.shopmyexchange.com/store-locator/andrews-afb-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jbab-popeyes-bx",
+      "name": "Popeyes Louisiana Kitchen (BX Food Court)",
+      "category": "dining",
+      "description": "Popeyes chicken inside the Andrews Exchange food court.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "Near BX, Joint Base Andrews, MD 20762",
+      "phone": "301-702-6501",
+      "url": "https://www.shopmyexchange.com/store-locator/andrews-afb-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jbab-charley-bx",
+      "name": "Charley's Grilled Subs (BX Food Court)",
+      "category": "dining",
+      "description": "Charley's Grilled Subs inside the Andrews Exchange.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "Near BX, Joint Base Andrews, MD 20762",
+      "phone": "301-702-6501",
+      "url": "https://www.shopmyexchange.com/store-locator/andrews-afb-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jbab-main-exchange",
+      "name": "Andrews Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX: clothing, electronics, optical, barbershop, food court, and Military Star card.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-702-6501",
+      "url": "https://www.shopmyexchange.com/store-locator/andrews-afb-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jbab-commissary",
+      "name": "Andrews Commissary",
+      "category": "shopping",
+      "description": "Full-service commissary grocery with CLICK2GO curbside pickup.",
+      "hours": "Sun 0800-1800; Mon-Fri 0800-2000; Sat 0800-1900",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-5600",
+      "url": "https://shop.commissaries.com/stores/andrews-afb",
+      "building": null
+    },
+    {
+      "id": "res-jbab-mgmc",
+      "name": "Malcolm Grow Medical Clinics & Surgery Center (779th MDG)",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, pharmacy, dental, and behavioral health. Joint facility with medical/surgical capabilities.",
+      "hours": "Primary care: Mon-Fri 0730-1630; Urgent care: 0730-2000 weekdays; pharmacy: Mon-Fri 0730-1800",
+      "address": "1050 W Perimeter Rd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-2273",
+      "url": "https://andrewsjbmd.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-pharmacy",
+      "name": "MGMC Outpatient Pharmacy",
+      "category": "medical",
+      "description": "TRICARE outpatient pharmacy. Express Scripts mail order also available.",
+      "hours": "Mon-Fri 0730-1800; Sat 0800-1200; closed Sun",
+      "address": "1050 W Perimeter Rd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-2273",
+      "url": "https://andrewsjbmd.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-tactical-fitness",
+      "name": "Tactical Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center: weight room, cardio, racquetball, basketball, group exercise, saunas, indoor track. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0530-2100, Sat-Sun 0700-1700; 24/7 unstaffed with registered CAC",
+      "address": "1500 West Perimeter Rd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-7101",
+      "url": "https://www.andrewsfss.com/fitness/",
+      "building": "1500 West Perimeter Rd"
+    },
+    {
+      "id": "res-jbab-east-fitness",
+      "name": "East Side Fitness Center",
+      "category": "fitness",
+      "description": "Satellite fitness center on east side of base: weights, cardio, and 24/7 CAC access for uniformed members.",
+      "hours": "Staffed limited hours; 24/7 with registered CAC (uniformed only)",
+      "address": "Bldg 3705 Fetchet Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-1610",
+      "url": "https://www.andrewsfss.com/fitness/",
+      "building": "Bldg 3705 Fetchet Ave"
+    },
+    {
+      "id": "res-jbab-nfcu",
+      "name": "Navy Federal Credit Union (On-Base Branch)",
+      "category": "finance",
+      "description": "Full-service NFCU branch at Joint Base Andrews: checking, savings, auto loans, mortgages, and VA loans.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1300",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "888-842-6328",
+      "url": "https://www.navyfederal.org/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-usaa-atm",
+      "name": "USAA ATM (Near BX)",
+      "category": "finance",
+      "description": "USAA ATM near the Main Exchange.",
+      "hours": "ATM available 24/7",
+      "address": "BX Area, Joint Base Andrews, MD 20762",
+      "phone": "800-531-8722",
+      "url": "https://www.usaa.com/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-finance-office",
+      "name": "316 CPTS Finance Customer Service",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance actions.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-4570",
+      "url": "https://www.jba.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-mpf",
+      "name": "316th Force Support Squadron (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, separations, and retirements. RAPIDS appointments via RAPIDS.mil.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-6377",
+      "url": "https://www.andrewsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-fss",
+      "name": "316th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs, family support, dining, fitness, and recreation.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-1110",
+      "url": "https://www.andrewsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1191 Menoher Dr, Joint Base Andrews, MD 20762",
+      "phone": "301-981-7087",
+      "url": "https://www.andrewsfss.com/",
+      "building": "1191 Menoher Dr"
+    },
+    {
+      "id": "res-jbab-housing-office",
+      "name": "JBA Housing Management Office",
+      "category": "housing",
+      "description": "Government and privatized (Corvias) family housing assignments, waitlist management, and referrals.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-5670",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-presidential-inn",
+      "name": "The Presidential Inn (AF Lodging)",
+      "category": "housing",
+      "description": "On-base TDY and PCS temporary lodging — one of the most-requested AF lodging facilities due to NCR location.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "1380 California Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-4614",
+      "url": "https://www.afreservations.com/",
+      "building": "1380 California Ave"
+    },
+    {
+      "id": "res-jbab-dorm-management",
+      "name": "Dormitory Management Office (UH Office)",
+      "category": "housing",
+      "description": "Unaccompanied housing management for eligible E-1 to E-3 permanent-party personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-5670",
+      "url": "https://www.jba.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-odr",
+      "name": "Outdoor Recreation / ITT (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, tickets to DC-area attractions, guided trips, and outdoor gear.",
+      "hours": "Mon-Fri 0900-1700; Sat 1000-1500",
+      "address": "Bldg 1235 Menoher Dr, Joint Base Andrews, MD 20762",
+      "phone": "301-981-4109",
+      "url": "https://www.andrewsfss.com/outdoor-recreation/",
+      "building": "Bldg 1235 Menoher Dr"
+    },
+    {
+      "id": "res-jbab-community-center",
+      "name": "Community Center & Base Theater",
+      "category": "recreation",
+      "description": "Community events, movie screenings, and private event space.",
+      "hours": "Event-based schedule; call facility for hours schedule",
+      "address": "Bldg 1442 Concord Ave, Joint Base Andrews, MD 20762",
+      "phone": "301-981-8490",
+      "url": "https://www.andrewsfss.com/",
+      "building": "Bldg 1442 Concord Ave"
+    },
+    {
+      "id": "res-jbab-golf",
+      "name": "Andrews Golf Course (1st Tee Golf Course)",
+      "category": "recreation",
+      "description": "18-hole course with pro shop and restaurant; views of the flight line.",
+      "hours": "Daily sunrise to sunset; pro shop 0630-1800",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-5015",
+      "url": "https://www.andrewsfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-bowling",
+      "name": "Patriot Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with food and arcade.",
+      "hours": "Tue-Thu 1200-2100; Fri-Sat 1200-2200; Sun 1300-1900; closed Mon",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-9888",
+      "url": "https://www.andrewsfss.com/bowling/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-cdc",
+      "name": "Child Development Center #2",
+      "category": "recreation",
+      "description": "Childcare and early childhood education for ages 6 weeks to 5 years.",
+      "hours": "Mon-Fri 0600-1800",
+      "address": "Bldg 4783 San Antonio Blvd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-3323",
+      "url": "https://www.andrewsfss.com/",
+      "building": "Bldg 4783 San Antonio Blvd"
+    },
+    {
+      "id": "res-jbab-youth-center",
+      "name": "Youth Programs Center",
+      "category": "recreation",
+      "description": "After-school programs, sports, and summer camps for school-age children.",
+      "hours": "Mon-Fri 0600-1800 (school year); 0630-1800 (summer)",
+      "address": "Bldg 4700 Yuma Rd, Joint Base Andrews, MD 20762",
+      "phone": "301-981-5430",
+      "url": "https://www.andrewsfss.com/",
+      "building": "Bldg 4700 Yuma Rd"
+    },
+    {
+      "id": "res-jbab-vcc",
+      "name": "Visitor Control Center (Menoher Gate)",
+      "category": "safety",
+      "description": "Day visitor passes and base access. Sponsor required. REAL ID mandatory for all visitors.",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1300; Sun closed",
+      "address": "1191 Menoher Dr, Joint Base Andrews, MD 20762",
+      "phone": "301-981-2001",
+      "url": "https://www.jba.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jbab-security-forces",
+      "name": "316th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and pass & registration.",
+      "hours": "24/7",
+      "address": "Joint Base Andrews, MD 20762",
+      "phone": "301-981-2001",
+      "url": "https://www.jba.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "jbab-evt-1",
+      "title": "Joint Base Andrews Air & Space Expo",
+      "date": "2026-09-19T09:00:00Z",
+      "endDate": "2026-09-20T17:00:00Z",
+      "location": "JBA Flightline",
+      "address": "Joint Base Andrews, MD 20762",
+      "description": "Annual air show open to the public. Air Force One, military demos, and static displays.",
+      "category": "community"
+    },
+    {
+      "id": "jbab-evt-2",
+      "title": "Newcomers Welcome Brief",
+      "date": "2026-07-07T08:00:00Z",
+      "endDate": "2026-07-07T12:00:00Z",
+      "location": "316 FSS Community Center",
+      "address": "Joint Base Andrews, MD 20762",
+      "description": "Monthly newcomers orientation. Bring orders and CAC.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "JBA In-Processing / Newcomers",
+      "url": "https://www.jba.af.mil/Newcomers/",
+      "phone": "301-981-1110",
+      "address": "Joint Base Andrews, MD 20762"
+    },
+    "moreInfoURL": "https://www.jba.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical/dental records, marriage/birth certificates, and all travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing",
+        "body": "Report to your gaining unit and complete MPF in-processing. JBA supports both Air Force and joint-service personnel — confirm reporting procedures with your unit.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "JBA Newcomers",
+            "url": "https://www.jba.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Housing at 301-981-5670 before arrival. Privatized housing (Corvias) for families. Temporary lodging: Presidential Inn 301-981-4614. High demand — book early.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "JBA Housing",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "NCR / Washington D.C. Area",
+        "body": "JBA is 10 miles from Capitol Hill. Metro access via Green Line. Traffic on Auth Rd and Branch Ave can be heavy 0700-0900 and 1600-1800. Many DoD agencies in the region require JBA or Pentagon badge access.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Key contacts: BDOC 301-981-2001 | Housing 301-981-5670 | MPF 301-981-6377 | Medical 301-981-2273 | FSS 301-981-1110.",
+        "links": [
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/andrews-air-force-base"
+          },
+          {
+            "id": "link-bd",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,11 +1,12 @@
 package com.ryanladuca.myafbase.ui.theme
 
-import androidx.compose.ui.graphics.Color
-
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+/**
+ * Legacy Material template aliases remapped to locked brand tokens.
+ * Prefer [BrandPrimary], [BrandSecondary], and [appSemanticColors] in app code.
+ */
+val Purple80 = BrandPrimaryDark
+val PurpleGrey80 = BrandSecondaryDark
+val Pink80 = Info
+val Purple40 = BrandPrimary
+val PurpleGrey40 = BrandSecondary
+val Pink40 = Danger

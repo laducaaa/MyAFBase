@@ -1,0 +1,312 @@
+{
+  "id": "spangdahlem",
+  "name": "Spangdahlem AB",
+  "fullName": "Spangdahlem Air Base",
+  "location": "Spangdahlem, Germany",
+  "description": "Spangdahlem AB hosts the 52nd Fighter Wing operating F-16 Fighting Falcon combat air power in Europe.",
+  "wing": "52 FW",
+  "latitude": 49.9727,
+  "longitude": 6.6925,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "spangdahlem-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Spangdahlem AB Security Forces",
+      "number": "+49-6565-61-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "+49-6565-61-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Main Gate, Spangdahlem AB, Germany",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north-gate",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "North Gate, Spangdahlem AB, Germany",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-spangdahlem-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at Spangdahlem AB.",
+      "hours": "See posted meal hours",
+      "address": "Spangdahlem Air Base, 54529 Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlemfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-bx",
+      "name": "Spangdahlem AB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Spangdahlem AB.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "Spangdahlem Air Base, 54529 Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/spangdahlem-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-commissary",
+      "name": "Spangdahlem AB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "Spangdahlem Air Base, 54529 Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://shop.commissaries.com/stores/spangdahlem-ab",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-medical",
+      "name": "52nd Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Spangdahlem AB. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-2273",
+      "url": "https://spangdahlem.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at Spangdahlem AB.",
+      "hours": "See FSS for current hours",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlemfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlem.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlemfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-fss",
+      "name": "52 FW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlemfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/spangdahlem-ab/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Spangdahlem AB.",
+      "hours": "See FSS for current hours",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlemfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-visitor-center",
+      "name": "Spangdahlem AB Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "Spangdahlem Air Base, 54529 Spangdahlem, Germany",
+      "phone": "+49-6565-61-1110",
+      "url": "https://www.spangdahlem.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-spangdahlem-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "phone": "+49-6565-61-3421",
+      "url": "https://www.spangdahlem.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "spangdahlem-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Spangdahlem AB, Spangdahlem, Germany",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Spangdahlem AB Visitor Center",
+      "url": "https://www.spangdahlem.af.mil/Newcomers/",
+      "phone": "+49-6565-61-1110",
+      "address": "Spangdahlem Air Base, 54529 Spangdahlem, Germany"
+    },
+    "moreInfoURL": "https://www.spangdahlem.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Spangdahlem AB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.spangdahlem.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/spangdahlem-ab/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Spangdahlem AB Official Site",
+            "url": "https://www.spangdahlem.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.spangdahlem.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.spangdahlemfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/spangdahlem-ab/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/spangdahlem"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

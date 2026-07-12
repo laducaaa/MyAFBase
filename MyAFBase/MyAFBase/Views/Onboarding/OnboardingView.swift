@@ -177,8 +177,8 @@ private enum OnboardingContent {
                 ),
                 OnboardingFeature(
                     systemImage: "figure.strengthtraining.functional",
-                    title: "PFRA calculator & planner",
-                    detail: "Estimate your score, plan toward a target tier, and track progress at a glance."
+                    title: "PFRA calculator & records",
+                    detail: "Estimate scores, plan toward a target tier, save results, and track trends over time."
                 ),
                 OnboardingFeature(
                     systemImage: "calendar.badge.clock",

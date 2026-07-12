@@ -66,6 +66,8 @@ struct AssignmentView: View {
             VStack(spacing: AssignmentMetrics.sectionSpacing) {
                 AssignmentPhaseHeader(base: base, segment: segment)
 
+                AssignmentPhaseTipBanner()
+
                 AssignmentDatesCard(baseID: base.id, segment: segment)
 
                 switch segment {

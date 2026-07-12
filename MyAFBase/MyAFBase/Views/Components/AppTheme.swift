@@ -70,23 +70,6 @@ enum AppTheme {
         )
     }
 
-    static func phaseGradientColors(for segment: AssignmentSegment, colorScheme: ColorScheme = .light) -> [Color] {
-        switch (segment, colorScheme) {
-        case (.inbound, .dark):
-            return [Color(hex: "4AA4FF"), Color(hex: "72C8FF")]
-        case (.inbound, _):
-            return [Color(hex: "2088F0"), Color(hex: "48B0FF")]
-        case (.stationed, .dark):
-            return [Color(hex: "3AB8E8"), Color(hex: "52D0F5")]
-        case (.stationed, _):
-            return [Color(hex: "1A9FD4"), Color(hex: "2EB8E8")]
-        case (.outbound, .dark):
-            return [Color(hex: "7B80FF"), Color(hex: "969BFF")]
-        case (.outbound, _):
-            return [Color(hex: "5E63F0"), Color(hex: "787DF8")]
-        }
-    }
-
     /// Adaptive label color for button text — never use accent for button titles.
     static var buttonText: Color { .primary }
 

@@ -1,78 +1,62 @@
 import SwiftUI
+import SwiftData
 
 struct PFRAGoalPlannerView: View {
-    @State private var target: PFRATargetTier = .satisfactory
-    @State private var gender: PFRAGender = .male
-    @State private var age = 25
-    @State private var heightFeet = 5
-    @State private var heightInches = 9
-    @State private var waistTenths = 320
+    @Environment(PFRAProfileStore.self) private var profile
+    @State private var showSaveSheet = false
 
-    @State private var cardioEvent: PFRACardioEvent = .twoMileRun
-    @State private var runMinutes = 16
-    @State private var runSeconds = 30
-    @State private var hamrShuttles = 45
+    private var pfraAssessment: PFRAResult? {
+        guard profile.heightTotalInches > 0, profile.waistInches > 0 else { return nil }
 
-    @State private var strengthEvent: PFRAStrengthEvent = .pushUps
-    @State private var strengthReps = 35
-
-    @State private var coreEvent: PFRACoreEvent = .sitUps
-    @State private var coreReps = 40
-    @State private var plankMinutes = 1
-    @State private var plankSeconds = 45
-
-    private var heightTotalInches: Double {
-        Double(heightFeet * 12 + heightInches)
-    }
-
-    private var waistInches: Double {
-        Double(waistTenths) / 10.0
+        return PFRAScoring.evaluate(
+            gender: profile.gender,
+            age: profile.age,
+            heightInches: profile.heightTotalInches,
+            waistInches: profile.waistInches,
+            cardioEvent: profile.cardioEvent,
+            cardioValue: profile.cardioValue,
+            strengthEvent: profile.strengthEvent,
+            strengthReps: profile.strengthReps,
+            coreEvent: profile.coreEvent,
+            coreValue: profile.coreValue
+        )
     }
 
     private var goalPlan: PFRATargetPlan? {
-        guard heightTotalInches > 0, waistInches > 0 else { return nil }
-
-        let cardioValue: Double
-        switch cardioEvent {
-        case .twoMileRun:
-            cardioValue = Double(runMinutes * 60 + runSeconds)
-        case .hamr:
-            cardioValue = Double(hamrShuttles)
-        }
-
-        let coreValue: Double
-        switch coreEvent {
-        case .sitUps, .crossLegReverseCrunch:
-            coreValue = Double(coreReps)
-        case .forearmPlank:
-            coreValue = Double(plankMinutes * 60 + plankSeconds)
-        }
+        guard profile.heightTotalInches > 0, profile.waistInches > 0 else { return nil }
 
         return PFRAGoalPlanner.plan(
-            target: target,
-            gender: gender,
-            age: age,
-            heightInches: heightTotalInches,
-            waistInches: waistInches,
-            cardioEvent: cardioEvent,
-            cardioValue: cardioValue,
-            strengthEvent: strengthEvent,
-            strengthReps: strengthReps,
-            coreEvent: coreEvent,
-            coreValue: coreValue
+            target: profile.targetTier,
+            gender: profile.gender,
+            age: profile.age,
+            heightInches: profile.heightTotalInches,
+            waistInches: profile.waistInches,
+            cardioEvent: profile.cardioEvent,
+            cardioValue: profile.cardioValue,
+            strengthEvent: profile.strengthEvent,
+            strengthReps: profile.strengthReps,
+            coreEvent: profile.coreEvent,
+            coreValue: profile.coreValue
         )
     }
 
     var body: some View {
+        @Bindable var profile = profile
+
         ScrollView {
             VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
-                goalPickerCard
+                goalPickerCard(profile: profile)
 
                 if let plan = goalPlan {
                     compositeSummaryCard(plan)
                 }
 
-                inputSections
+                inputSections(profile: profile)
+
+                PFRASaveScoreButton(enabled: pfraAssessment != nil) {
+                    showSaveSheet = true
+                }
+
                 disclaimerCard
             }
             .padding()
@@ -80,23 +64,31 @@ struct PFRAGoalPlannerView: View {
         .appScreenBackground()
         .navigationTitle("PFRA Goal Planner")
         .navigationBarTitleDisplayMode(.inline)
+        .pfraCalculatorChrome(
+            showSaveSheet: $showSaveSheet,
+            assessment: pfraAssessment,
+            includeTargetTier: true,
+            defaultKind: .goalPlanning
+        )
     }
 
     // MARK: - Goal
 
-    private var goalPickerCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
+    private func goalPickerCard(profile: PFRAProfileStore) -> some View {
+        @Bindable var profile = profile
+
+        return VStack(alignment: .leading, spacing: 12) {
             Text("What are you aiming for?")
                 .font(.headline)
 
             GlassSegmentToggle(
                 options: PFRATargetTier.allCases,
-                selection: $target,
+                selection: $profile.targetTier,
                 label: \.title,
                 layout: .equalWidth
             )
 
-            Text(target.subtitle)
+            Text(profile.targetTier.subtitle)
                 .font(.caption)
                 .foregroundStyle(.tertiary)
         }
@@ -142,28 +134,30 @@ struct PFRAGoalPlannerView: View {
     // MARK: - Inputs
 
     @ViewBuilder
-    private var inputSections: some View {
-        profileInputCard
+    private func inputSections(profile: PFRAProfileStore) -> some View {
+        profileInputCard(profile: profile)
 
         if let plan = goalPlan {
-            bodyCompositionCard(component: componentTarget(named: "Body Composition", in: plan))
-            cardioCard(component: componentTarget(named: "Cardio", in: plan))
-            strengthCard(component: componentTarget(named: "Strength", in: plan))
-            coreCard(component: componentTarget(named: "Core", in: plan))
+            bodyCompositionCard(profile: profile, component: componentTarget(named: "Body Composition", in: plan))
+            cardioCard(profile: profile, component: componentTarget(named: "Cardio", in: plan))
+            strengthCard(profile: profile, component: componentTarget(named: "Strength", in: plan))
+            coreCard(profile: profile, component: componentTarget(named: "Core", in: plan))
         } else {
-            bodyCompositionCard(component: nil)
-            cardioCard(component: nil)
-            strengthCard(component: nil)
-            coreCard(component: nil)
+            bodyCompositionCard(profile: profile, component: nil)
+            cardioCard(profile: profile, component: nil)
+            strengthCard(profile: profile, component: nil)
+            coreCard(profile: profile, component: nil)
         }
     }
 
-    private var profileInputCard: some View {
-        VStack(alignment: .leading, spacing: 14) {
+    private func profileInputCard(profile: PFRAProfileStore) -> some View {
+        @Bindable var profile = profile
+
+        return VStack(alignment: .leading, spacing: 14) {
             Text("Profile")
                 .font(.headline)
 
-            Picker("Gender", selection: $gender) {
+            Picker("Gender", selection: $profile.gender) {
                 ForEach(PFRAGender.allCases) { option in
                     Text(option.title).tag(option)
                 }
@@ -172,15 +166,15 @@ struct PFRAGoalPlannerView: View {
 
             PFRAStepperRow(
                 label: "Age",
-                valueText: "\(age)",
-                onDecrement: { age = max(17, age - 1) },
-                onIncrement: { age = min(75, age + 1) }
+                valueText: "\(profile.age)",
+                onDecrement: { profile.age = max(17, profile.age - 1) },
+                onIncrement: { profile.age = min(75, profile.age + 1) }
             )
         }
         .appCardStyle(padding: 16)
     }
 
-    private func bodyCompositionCard(component: PFRAComponentTarget?) -> some View {
+    private func bodyCompositionCard(profile: PFRAProfileStore, component: PFRAComponentTarget?) -> some View {
         VStack(alignment: .leading, spacing: 14) {
             Text("Body composition")
                 .font(.headline)
@@ -189,35 +183,35 @@ struct PFRAGoalPlannerView: View {
                 HStack(spacing: 12) {
                     PFRACompactStepper(
                         label: "Ft",
-                        valueText: "\(heightFeet)'",
+                        valueText: "\(profile.heightFeet)'",
                         onDecrement: {
-                            heightFeet = max(4, heightFeet - 1)
-                            clampHeightInches()
+                            profile.heightFeet = max(4, profile.heightFeet - 1)
+                            profile.clampHeightInches()
                         },
                         onIncrement: {
-                            heightFeet = min(7, heightFeet + 1)
-                            clampHeightInches()
+                            profile.heightFeet = min(7, profile.heightFeet + 1)
+                            profile.clampHeightInches()
                         }
                     )
                     PFRACompactStepper(
                         label: "In",
-                        valueText: "\(heightInches)\"",
+                        valueText: "\(profile.heightInches)\"",
                         onDecrement: {
-                            heightInches = max(0, heightInches - 1)
-                            clampHeightInches()
+                            profile.heightInches = max(0, profile.heightInches - 1)
+                            profile.clampHeightInches()
                         },
                         onIncrement: {
-                            heightInches = min(11, heightInches + 1)
-                            clampHeightInches()
+                            profile.heightInches = min(11, profile.heightInches + 1)
+                            profile.clampHeightInches()
                         }
                     )
                 }
 
                 PFRAStepperRow(
                     label: "Waist",
-                    valueText: String(format: "%.1f\"", waistInches),
-                    onDecrement: { waistTenths = max(200, waistTenths - 1) },
-                    onIncrement: { waistTenths = min(600, waistTenths + 1) }
+                    valueText: String(format: "%.1f\"", profile.waistInches),
+                    onDecrement: { profile.waistTenths = max(200, profile.waistTenths - 1) },
+                    onIncrement: { profile.waistTenths = min(600, profile.waistTenths + 1) }
                 )
             }
 
@@ -228,27 +222,34 @@ struct PFRAGoalPlannerView: View {
         .appCardStyle(padding: 16)
     }
 
-    private func cardioCard(component: PFRAComponentTarget?) -> some View {
-        VStack(alignment: .leading, spacing: 14) {
+    private func cardioCard(profile: PFRAProfileStore, component: PFRAComponentTarget?) -> some View {
+        @Bindable var profile = profile
+
+        return VStack(alignment: .leading, spacing: 14) {
             Text("Cardio")
                 .font(.headline)
 
-            Picker("Event", selection: $cardioEvent) {
+            Picker("Event", selection: $profile.cardioEvent) {
                 ForEach(PFRACardioEvent.allCases) { event in
                     Text(event.title).tag(event)
                 }
             }
             .pickerStyle(.segmented)
 
-            switch cardioEvent {
+            switch profile.cardioEvent {
             case .twoMileRun:
-                PFRATimeStepper(label: "2-mile time", minutes: $runMinutes, seconds: $runSeconds, minuteRange: 9...30)
+                PFRATimeStepper(
+                    label: "2-mile time",
+                    minutes: $profile.runMinutes,
+                    seconds: $profile.runSeconds,
+                    minuteRange: 9...30
+                )
             case .hamr:
                 PFRAStepperRow(
                     label: "Shuttles",
-                    valueText: "\(hamrShuttles)",
-                    onDecrement: { hamrShuttles = max(0, hamrShuttles - 1) },
-                    onIncrement: { hamrShuttles = min(120, hamrShuttles + 1) }
+                    valueText: "\(profile.hamrShuttles)",
+                    onDecrement: { profile.hamrShuttles = max(0, profile.hamrShuttles - 1) },
+                    onIncrement: { profile.hamrShuttles = min(120, profile.hamrShuttles + 1) }
                 )
             }
 
@@ -259,12 +260,14 @@ struct PFRAGoalPlannerView: View {
         .appCardStyle(padding: 16)
     }
 
-    private func strengthCard(component: PFRAComponentTarget?) -> some View {
-        VStack(alignment: .leading, spacing: 14) {
+    private func strengthCard(profile: PFRAProfileStore, component: PFRAComponentTarget?) -> some View {
+        @Bindable var profile = profile
+
+        return VStack(alignment: .leading, spacing: 14) {
             Text("Strength")
                 .font(.headline)
 
-            Picker("Event", selection: $strengthEvent) {
+            Picker("Event", selection: $profile.strengthEvent) {
                 ForEach(PFRAStrengthEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
                 }
@@ -273,9 +276,9 @@ struct PFRAGoalPlannerView: View {
 
             PFRAStepperRow(
                 label: "Repetitions",
-                valueText: "\(strengthReps)",
-                onDecrement: { strengthReps = max(0, strengthReps - 1) },
-                onIncrement: { strengthReps = min(120, strengthReps + 1) }
+                valueText: "\(profile.strengthReps)",
+                onDecrement: { profile.strengthReps = max(0, profile.strengthReps - 1) },
+                onIncrement: { profile.strengthReps = min(120, profile.strengthReps + 1) }
             )
 
             if let component {
@@ -285,28 +288,35 @@ struct PFRAGoalPlannerView: View {
         .appCardStyle(padding: 16)
     }
 
-    private func coreCard(component: PFRAComponentTarget?) -> some View {
-        VStack(alignment: .leading, spacing: 14) {
+    private func coreCard(profile: PFRAProfileStore, component: PFRAComponentTarget?) -> some View {
+        @Bindable var profile = profile
+
+        return VStack(alignment: .leading, spacing: 14) {
             Text("Core")
                 .font(.headline)
 
-            Picker("Event", selection: $coreEvent) {
+            Picker("Event", selection: $profile.coreEvent) {
                 ForEach(PFRACoreEvent.allCases) { event in
                     Text(event.shortTitle).tag(event)
                 }
             }
             .pickerStyle(.segmented)
 
-            switch coreEvent {
+            switch profile.coreEvent {
             case .sitUps, .crossLegReverseCrunch:
                 PFRAStepperRow(
                     label: "Repetitions",
-                    valueText: "\(coreReps)",
-                    onDecrement: { coreReps = max(0, coreReps - 1) },
-                    onIncrement: { coreReps = min(120, coreReps + 1) }
+                    valueText: "\(profile.coreReps)",
+                    onDecrement: { profile.coreReps = max(0, profile.coreReps - 1) },
+                    onIncrement: { profile.coreReps = min(120, profile.coreReps + 1) }
                 )
             case .forearmPlank:
-                PFRATimeStepper(label: "Hold time", minutes: $plankMinutes, seconds: $plankSeconds, minuteRange: 0...5)
+                PFRATimeStepper(
+                    label: "Hold time",
+                    minutes: $profile.plankMinutes,
+                    seconds: $profile.plankSeconds,
+                    minuteRange: 0...5
+                )
             }
 
             if let component {
@@ -379,16 +389,12 @@ struct PFRAGoalPlannerView: View {
                 || $0.localizedCaseInsensitiveContains("body composition fails")
         }
     }
-
-    private func clampHeightInches() {
-        if heightFeet == 7 {
-            heightInches = min(heightInches, 11)
-        }
-    }
 }
 
 #Preview {
     NavigationStack {
         PFRAGoalPlannerView()
+            .environment(PFRAProfileStore())
+            .environment(PFRARecordStore(modelContext: ModelContainerFactory.preview().mainContext))
     }
 }

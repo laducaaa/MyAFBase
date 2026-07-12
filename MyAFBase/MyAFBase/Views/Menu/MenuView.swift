@@ -207,13 +207,33 @@ struct MenuView: View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Support")
 
-            Button {
-                showFeedbackSheet = true
-            } label: {
-                MenuLinkRow(title: "Send Feedback", systemImage: "megaphone.fill", showsExternalIndicator: false)
+            VStack(spacing: 0) {
+                Button {
+                    showFeedbackSheet = true
+                } label: {
+                    MenuLinkRow(title: "Send Feedback", systemImage: "megaphone.fill", showsExternalIndicator: false)
+                }
+                .buttonStyle(.plain)
+
+                if let mailURL = ContactConfig.supportMailtoURL {
+                    Divider()
+                        .padding(.leading, 54)
+
+                    Link(destination: mailURL) {
+                        MenuLinkRow(title: "Email Support", systemImage: "envelope.fill", showsExternalIndicator: true)
+                    }
+                    .buttonStyle(.plain)
+                }
+
+                Divider()
+                    .padding(.leading, 54)
+
+                Link(destination: ContactConfig.supportURL) {
+                    MenuLinkRow(title: "Support Website", systemImage: "lifepreserver.fill", showsExternalIndicator: true)
+                }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
-            .appCardStyle(padding: 14)
+            .appCardStyle(padding: 0)
         }
     }
 
@@ -223,17 +243,10 @@ struct MenuView: View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Legal & Privacy")
 
-            LegalDisclaimerCard(
-                text: LegalCopy.nonAffiliationShort,
-                style: .compact,
-                systemImage: "building.columns"
-            )
-            .padding(.horizontal, 4)
-
             Button {
                 showLegalPrivacySheet = true
             } label: {
-                MenuLinkRow(title: "Legal & Privacy Notice", systemImage: "doc.text", showsExternalIndicator: false)
+                MenuLinkRow(title: "Legal, Privacy & Terms", systemImage: "doc.text.fill", showsExternalIndicator: false)
             }
             .buttonStyle(.plain)
             .appCardStyle(padding: 14)

@@ -1,0 +1,303 @@
+{
+  "id": "creech",
+  "name": "Creech AFB",
+  "fullName": "Creech Air Force Base",
+  "location": "Indian Springs, NV",
+  "description": "Creech AFB is the hub of Air Force remotely piloted aircraft (RPA) operations, hosting MQ-9 Reaper training and operations for global strike missions.",
+  "wing": "432 WG",
+  "latitude": 36.5822,
+  "longitude": -115.6728,
+  "currentNotifications": [
+    {
+      "id": "creech-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-28T20:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Creech AFB Security Forces",
+      "number": "702-404-0321"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "702-404-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "432nd Medical Group",
+      "number": "702-404-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "702-404-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Bldg 3)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access on US 95. Visitor Control Center co-located at Main Gate.",
+      "traffic": "high",
+      "address": "1st Street, Bldg 3, Creech AFB, NV 89018",
+      "latitude": 36.5822,
+      "longitude": -115.6728
+    },
+    {
+      "id": "gate-east",
+      "name": "East Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 alternate access east of Indian Springs. After-hours visitor passes at gate when VCC closed.",
+      "traffic": "moderate",
+      "address": "East Gate, Creech AFB, NV 89018",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Main Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1400; closed Sat-Sun and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required. Phone: 702-404-3694.",
+      "traffic": "moderate",
+      "address": "1st Street, Bldg 3, Creech AFB, NV 89018",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-creech-dfac-guardian",
+      "name": "Guardian Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting RPA operations with N'Rich Grill, deli, pizza, salad bar, and Simply To Go. Midnight meal available.",
+      "hours": "Daily: Bfast 0530-0830, Lunch 1100-1300, Dinner 1630-1900, Midnight 2300-0300",
+      "address": "Voodoo Rd, Bldg 1210, Creech AFB, NV 89018",
+      "phone": "702-404-0926",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 1210"
+    },
+    {
+      "id": "res-creech-shoppette",
+      "name": "Northside Shoppette (Mini BX)",
+      "category": "shopping",
+      "description": "Limited Exchange shoppette. Full BX services available at Nellis AFB (30 miles).",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "Firebee Rd, Bldg 1205, Creech AFB, NV 89018",
+      "phone": "702-404-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 1205"
+    },
+    {
+      "id": "res-creech-credit-union",
+      "name": "Nevada Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 96, Creech AFB, NV 89018",
+      "phone": "702-457-1000",
+      "url": "https://www.nevada.org/",
+      "building": "Bldg 96"
+    },
+    {
+      "id": "res-creech-fitness-northside",
+      "name": "Predator Fitness Center (Northside)",
+      "category": "fitness",
+      "description": "Main fitness facility. Register CAC at front desk during manned hours for 24/7 access.",
+      "hours": "Staffed Mon-Fri 0730-1630; 24/7 CAC access after registration and SOU signature",
+      "address": "Viper Rd, Bldg 1204, Creech AFB, NV 89018",
+      "phone": "702-404-3301",
+      "url": "https://www.creech.af.mil/About-Us/Creech-Quality-of-Life-Services/",
+      "building": "Bldg 1204"
+    },
+    {
+      "id": "res-creech-fitness-southside",
+      "name": "Reaper Fitness Center (Southside)",
+      "category": "fitness",
+      "description": "Secondary fitness facility. Register at Northside during manned hours; receive access code for 24/7 entry (no CAC registry).",
+      "hours": "Staffed Mon-Fri 0730-1630; 24/7 access code after registration at Northside",
+      "address": "3rd St, Bldg 65, Creech AFB, NV 89018",
+      "phone": "702-404-0401",
+      "url": "https://www.creech.af.mil/About-Us/Creech-Quality-of-Life-Services/",
+      "building": "Bldg 65"
+    },
+    {
+      "id": "res-creech-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for RPA personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 24, 1065 Perimeter Rd, Creech AFB, NV 89018",
+      "phone": "702-404-1752",
+      "url": "https://www.housing.af.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-creech-lodging",
+      "name": "Nellis Inn (AF Lodging)",
+      "category": "housing",
+      "description": "No on-base lodging at Creech. Official temporary lodging at Nellis AFB (30 miles). Reservations required.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Nellis AFB, NV 89191",
+      "phone": "702-652-2711",
+      "url": "https://af.dodlodging.net/",
+      "building": null
+    },
+    {
+      "id": "res-creech-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, and family programs. Closed first Friday of month for training.",
+      "hours": "Mon-Fri 0730-1530; closed first Friday of month, federal holidays, ACC/15 AF Family Days",
+      "address": "Bldg 24, 2nd Floor, 1065 Perimeter Rd, Creech AFB, NV 89018",
+      "phone": "702-404-0864",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-432-fss",
+      "name": "432nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, and family support programs for RPA operations.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Bldg 24, 1065 Perimeter Rd, Creech AFB, NV 89018",
+      "phone": "702-404-1110",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-creech-medical",
+      "name": "432nd Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory clinic for primary care and TRICARE services. Urgent care via Nellis or local ER.",
+      "hours": "Mon-Fri 0730-1630; appointments via TRICARE Online",
+      "address": "Bldg 24, Creech AFB, NV 89018",
+      "phone": "702-404-2273",
+      "url": "https://creech.tricare.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-creech-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 24, 1065 Perimeter Rd, Creech AFB, NV 89018",
+      "phone": "702-404-1110",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-creech-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 24, 1065 Perimeter Rd, Creech AFB, NV 89018",
+      "phone": "702-404-1110",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 24"
+    },
+    {
+      "id": "res-creech-outdoor-rec",
+      "name": "Outdoor Recreation (Satellite Office)",
+      "category": "recreation",
+      "description": "Equipment rental by appointment, RV storage, vehicle resale lot. Full ODR services via Nellis.",
+      "hours": "By appointment",
+      "address": "Bldg 24, Creech AFB, NV 89018",
+      "phone": "702-652-2514",
+      "url": "https://nellislife.com/",
+      "building": null
+    },
+    {
+      "id": "res-creech-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-1400; after-hours at Main Gate with sponsor",
+      "address": "Main Gate, Bldg 3, Creech AFB, NV 89018",
+      "phone": "702-404-3694",
+      "url": "https://www.creech.af.mil/",
+      "building": "Bldg 3"
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Main Gate)",
+      "url": "https://www.creech.af.mil/",
+      "phone": "702-404-3694",
+      "address": "Main Gate, Bldg 3, Creech AFB, NV 89018"
+    },
+    "moreInfoURL": "https://www.creech.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival. No on-base lodging — reserve Nellis Inn (702-652-2711) before arrival. Visit MPF within required timelines.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "No on-base lodging at Creech. Contact Nellis Inn for temporary lodging. Dormitory Management (702-404-1752) for unaccompanied housing.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/creech-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC at 702-404-0864 if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "432 FSS, M&FRC, and Nellis 99 FSS for expanded MWR services.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "432nd Force Support Squadron",
+            "url": "https://www.creech.af.mil/"
+          },
+          {
+            "id": "link-nellis-fss",
+            "title": "Nellis 99 FSS",
+            "url": "https://nellis99fss.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  },
+  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+}

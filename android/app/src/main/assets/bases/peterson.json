@@ -1,0 +1,464 @@
+{
+  "id": "peterson",
+  "name": "Peterson SFB",
+  "fullName": "Peterson Space Force Base",
+  "location": "Colorado Springs, CO",
+  "description": "Peterson SFB is home to Space Base Delta 1, U.S. Space Command headquarters, and NORAD/USNORTHCOM in the Colorado Springs metro area. The installation hosts more than 100 mission partners supporting space operations, missile warning, and national defense at 6,035 feet elevation adjacent to Colorado Springs Airport.",
+  "wing": "SBD 1",
+  "latitude": 38.8121,
+  "longitude": -104.7006,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "peterson-notif-aragon-dfac",
+      "title": "Aragon DFAC Temporarily Closed",
+      "body": "The Aragon Dining Facility is temporarily closed until further notice due to emergency repairs. ESM members are on BAS; contact your First Sergeant if you need food assistance.",
+      "type": "alert",
+      "postedAt": "2026-06-28T14:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "peterson-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass — Trusted Traveler Program suspended.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "719-556-4000"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "719-556-7321"
+    },
+    {
+      "id": "em-4",
+      "label": "21st Medical Group Appointments",
+      "number": "719-524-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "21st Medical Group (Alternate)",
+      "number": "719-526-2273"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-west-main",
+      "name": "West Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate for inbound and outbound traffic.",
+      "traffic": "high",
+      "address": "W Stewart Ave & S Powers Blvd, Peterson SFB, CO 80914",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-east",
+      "name": "East Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0500-1800; Sat-Sun 0800-1800",
+      "notes": "Closed federal holidays and base down days.",
+      "traffic": "moderate",
+      "address": "Powers Blvd, Peterson SFB, CO 80916",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri inbound 0600-0900; outbound 0600-1800",
+      "notes": "Closed weekends, federal holidays, and base down days. Allow extra commute time during construction.",
+      "traffic": "low",
+      "address": "Peterson Blvd & Paine St, Peterson SFB, CO 80914",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600",
+      "notes": "Closed weekends, federal holidays, and base down days. Pre-register visitors via DBIDS/DVES. REAL ID required.",
+      "traffic": "moderate",
+      "address": "1334 Stewart Ave, Colorado Springs, CO 80914",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-peterson-aragon-dfac",
+      "name": "Aragon Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "TEMPORARILY CLOSED — Main dining facility closed until further notice due to emergency repairs. ESM Guardians and Airmen placed on BAS; contact your First Sergeant for food assistance.",
+      "hours": "Closed until further notice",
+      "address": "1160 Ent St, Bldg 1160, Peterson SFB, CO 80914",
+      "phone": "719-556-4023",
+      "url": "https://21fss.com/aragon-dining-facility/",
+      "building": "Bldg 1160"
+    },
+    {
+      "id": "res-peterson-colorado-pizza",
+      "name": "Colorado Pizza & Sports Grill",
+      "category": "dining",
+      "description": "Pub-style dining inside The Hub with pizza, wings, 17 HD TVs, and 100+ beers. Adjusted menu during kitchen upgrades.",
+      "hours": "Mon/Tue/Thu bar & kitchen 1100-1800; Wed bar 1100-2000 kitchen 1100-1830; Fri bar 1100-2000 kitchen 1100-1830; weekends closed",
+      "address": "260 Glasgow Ave, Bldg 1013, Peterson SFB, CO 80914",
+      "phone": "719-574-8863",
+      "url": "https://21fss.com/colorado-pizza-sports-grill/",
+      "building": "Bldg 1013"
+    },
+    {
+      "id": "res-peterson-hub",
+      "name": "The Hub Community Center",
+      "category": "dining",
+      "description": "All-ranks community center with Colorado Pizza, bingo nights, trivia, catering, ballroom, and lounge spaces. Kitchen undergoing upgrades — lunch buffet temporarily unavailable.",
+      "hours": "Mon-Fri 1100-2100; Colorado Pizza Mon-Fri 1100-2000",
+      "address": "260 Glasgow Ave, Bldg 1013, Peterson SFB, CO 80914",
+      "phone": "719-574-4100",
+      "url": "https://petersonschrieverfss.com/",
+      "building": "Bldg 1013"
+    },
+    {
+      "id": "res-peterson-strike-zone",
+      "name": "Strike Zone Café (Bowling Center)",
+      "category": "dining",
+      "description": "Classic bar food and beer at the Peterson SFB Bowling Center pro shop area.",
+      "hours": "See Bowling Center for current hours",
+      "address": "165 W Ent Ave, Bldg 406, Peterson SFB, CO 80914",
+      "phone": "719-556-4607",
+      "url": "https://21fss.com/bowling-center/",
+      "building": "Bldg 406"
+    },
+    {
+      "id": "res-peterson-bx",
+      "name": "Peterson SFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, and services.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "2017 Stewart Ave, Peterson SFB, CO 80914",
+      "phone": "719-596-7270",
+      "url": "https://www.shopmyexchange.com/store-locator/peterson-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-peterson-commissary",
+      "name": "Peterson SFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery on base with bakery, deli, and CLICK2GO curbside pickup.",
+      "hours": "Sun 0830-1800; Mon-Fri 0830-1900; Sat 0730-1900",
+      "address": "1040 E Stewart Ave, Bldg 2019, Peterson SFB, CO 80914",
+      "phone": "719-556-1015",
+      "url": "https://shop.commissaries.com/stores/peterson-afb",
+      "building": "Bldg 2019"
+    },
+    {
+      "id": "res-peterson-medical",
+      "name": "21st Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, optometry, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon/Tue/Thu/Fri 0730-1630; Wed 0930-1630",
+      "address": "559 Vincent St, Bldg 959, Peterson SFB, CO 80914",
+      "phone": "719-524-2273",
+      "url": "https://peterson.tricare.mil/",
+      "building": "Bldg 959"
+    },
+    {
+      "id": "res-peterson-dental",
+      "name": "21st Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "559 Vincent St, Bldg 959, Peterson SFB, CO 80914",
+      "phone": "719-556-1306",
+      "url": "https://peterson.tricare.mil/",
+      "building": "Bldg 959"
+    },
+    {
+      "id": "res-peterson-pharmacy",
+      "name": "21st Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon/Tue/Thu/Fri 0730-1630; Wed 0930-1630",
+      "address": "559 Vincent St, Bldg 959, Peterson SFB, CO 80914",
+      "phone": "719-524-2273",
+      "url": "https://peterson.tricare.mil/",
+      "building": "Bldg 959"
+    },
+    {
+      "id": "res-peterson-fitness",
+      "name": "Peterson Complex Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Cardio and strength equipment, group fitness, racquetball, basketball, intramural sports, and personal training. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-1930; Sat-Sun 0700-1630; 24/7 registered CAC access",
+      "address": "225 W Ent Ave, Bldg 560, Peterson SFB, CO 80914",
+      "phone": "719-556-4462",
+      "url": "https://21fss.com/fitness-center/",
+      "building": "Bldg 560"
+    },
+    {
+      "id": "res-peterson-nfcu",
+      "name": "Navy Federal Credit Union (Peterson Branch)",
+      "category": "finance",
+      "description": "On-base federal credit union serving military members and families with deposit accounts, loans, and ATM access.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1300",
+      "address": "1139 Space Center Dr, Colorado Springs, CO 80915",
+      "phone": "888-842-6328",
+      "url": "https://www.navyfederal.org/",
+      "building": null
+    },
+    {
+      "id": "res-peterson-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service. In-person and CSP portal services.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 350, Peterson SFB, Colorado Springs, CO 80914",
+      "phone": "719-556-7321",
+      "url": "https://www.petersonschriever.spaceforce.mil/",
+      "building": "Bldg 350"
+    },
+    {
+      "id": "res-peterson-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0800-1500; CAC walk-in Mon-Fri 0800-1100",
+      "address": "135 Dover St, Bldg 350, Peterson SFB, CO 80914",
+      "phone": "719-556-0008",
+      "url": "https://21fss.com/",
+      "building": "Bldg 350"
+    },
+    {
+      "id": "res-peterson-fss",
+      "name": "21st Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events for Peterson and Schriever.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Peterson SFB, Colorado Springs, CO 80914",
+      "phone": "719-556-4023",
+      "url": "https://21fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-peterson-mfrc",
+      "name": "Military & Family Readiness Center (A&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing (Right Start), and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "135 Dover St, Bldg 350, Suite 1203, Peterson SFB, CO 80914",
+      "phone": "719-556-6141",
+      "url": "https://21fss.com/military-family-readiness/",
+      "building": "Bldg 350"
+    },
+    {
+      "id": "res-peterson-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Tierra Vista Communities) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Peterson SFB, Colorado Springs, CO 80914",
+      "phone": "719-597-7200",
+      "url": "https://www.housing.af.mil/Home/Installations/Peterson-SFB/",
+      "building": null
+    },
+    {
+      "id": "res-peterson-lodge",
+      "name": "Pikes Peak Lodge (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites. Pet-friendly rooms available in limited quantity. Front desk staffed 24/7.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "125 Stewart Ave, Bldg 1042, Peterson SFB, CO 80914",
+      "phone": "719-556-7851",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 1042"
+    },
+    {
+      "id": "res-peterson-dorm",
+      "name": "Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Dorm management for unaccompanied personnel. Patriot Hall and other dorm facilities on base.",
+      "hours": "Mon-Fri 0700-1630",
+      "address": "Peterson SFB, Colorado Springs, CO 80914",
+      "phone": "719-556-3832",
+      "url": "https://www.housing.af.mil/Home/Installations/Peterson-SFB/",
+      "building": null
+    },
+    {
+      "id": "res-peterson-odr",
+      "name": "Outdoor Recreation & ITT",
+      "category": "recreation",
+      "description": "Equipment rentals, whitewater rafting, hiking, rock climbing trips, ski shop, RV storage, and community garden plots.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "830 Tinker St, Bldg 640, Peterson SFB, CO 80914",
+      "phone": "719-556-4867",
+      "url": "https://21fss.com/outdoor-recreation/",
+      "building": "Bldg 640"
+    },
+    {
+      "id": "res-peterson-driving-range",
+      "name": "Peterson SFB Driving Range",
+      "category": "recreation",
+      "description": "Year-round driving range with professional instruction and junior golf programs. H.O.P.E. and U.S. Kids Golf certified. Managed through the Bowling Center — key fob required.",
+      "hours": "Year-round; mats Nov-Mar, grass Apr-Oct",
+      "address": "401 Glasgow Ave, Bldg 1686, Peterson SFB, CO 80916",
+      "phone": "719-556-4607",
+      "url": "https://21fss.com/driving-range/",
+      "building": "Bldg 1686"
+    },
+    {
+      "id": "res-peterson-bowling",
+      "name": "Peterson SFB Bowling Center",
+      "category": "recreation",
+      "description": "Open bowling, leagues, pro shop, and Strike Zone Café. Driving range key fobs available here.",
+      "hours": "Mon-Fri 1100-2200; Sat-Sun 1200-2200",
+      "address": "165 W Ent Ave, Bldg 406, Peterson SFB, CO 80914",
+      "phone": "719-556-4607",
+      "url": "https://21fss.com/bowling-center/",
+      "building": "Bldg 406"
+    },
+    {
+      "id": "res-peterson-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. All visitors require a pass — Trusted Traveler suspended. Pre-register via DBIDS/DVES.",
+      "hours": "Mon-Fri 0700-1600",
+      "address": "1334 Stewart Ave, Colorado Springs, CO 80914",
+      "phone": "719-556-6660",
+      "url": "https://www.petersonschriever.spaceforce.mil/Installation-Visitors/",
+      "building": null
+    },
+    {
+      "id": "res-peterson-security-forces",
+      "name": "21st Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations.",
+      "hours": "24/7",
+      "address": "Peterson SFB, Colorado Springs, CO 80914",
+      "phone": "719-556-4000",
+      "url": "https://www.petersonschriever.spaceforce.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "peterson-evt-freedom250",
+      "title": "Freedom 250 Celebration",
+      "date": "2026-07-02T16:00:00Z",
+      "endDate": "2026-07-02T22:00:00Z",
+      "location": "Peterson SFB",
+      "address": "Peterson SFB, Colorado Springs, CO 80914",
+      "description": "Base-wide family celebration with free food, live music, carnival rides, games, and historic vehicles.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-evt-newcomers",
+      "title": "Newcomers Briefing (Right Start)",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "135 Dover St, Bldg 350, Peterson SFB, CO 80914",
+      "description": "Mandatory newcomers orientation for incoming personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Peterson SFB Visitor Control Center",
+      "url": "https://www.petersonschriever.spaceforce.mil/Installation-Visitors/",
+      "phone": "719-556-6660",
+      "address": "1334 Stewart Ave, Colorado Springs, CO 80914"
+    },
+    "moreInfoURL": "https://www.petersonschriever.spaceforce.mil/About-Us/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the Right Start newcomers briefing at the Military & Family Readiness Center. Visit Finance for travel voucher settlement.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.petersonschriever.spaceforce.mil/About-Us/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Pikes Peak Lodge offers temporary lodging — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Peterson-SFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Pikes Peak Lodge",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "West Gate is open 24/7. East Gate is Mon-Fri 0500-1800 and Sat-Sun 0800-1800. North Gate inbound Mon-Fri 0600-0900 and outbound Mon-Fri 0600-1800 — closed weekends. Visitor Control Center hours are Mon-Fri 0700-1600. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Gate Hours & Visitors",
+            "url": "https://www.petersonschriever.spaceforce.mil/Installation-Visitors/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Peterson SFB Official Site",
+            "url": "https://www.petersonschriever.spaceforce.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "21st Force Support Squadron",
+            "url": "https://21fss.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "21st Medical Group",
+            "url": "https://peterson.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

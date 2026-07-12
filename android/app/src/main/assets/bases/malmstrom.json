@@ -1,0 +1,304 @@
+{
+  "id": "malmstrom",
+  "name": "Malmstrom AFB",
+  "fullName": "Malmstrom Air Force Base",
+  "location": "Great Falls, MT",
+  "description": "Home of the 341st Missile Wing. Malmstrom AFB operates Minuteman III intercontinental ballistic missiles across Montana and supports global strike operations.",
+  "wing": "341 MW",
+  "latitude": 47.5067,
+  "longitude": -111.1817,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "malmstrom-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Malmstrom AFB Security Forces",
+      "number": "406-731-1212"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "406-731-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "406-731-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-10th",
+      "name": "10th Ave Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate with Visitor Control Center.",
+      "traffic": "high",
+      "address": "10th Ave N, Malmstrom AFB, MT 59402",
+      "latitude": 47.5053,
+      "longitude": -111.1831
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Daily 0600-2200",
+      "notes": "Visitor passes and base access. REAL ID required.",
+      "traffic": "moderate",
+      "address": "Malmstrom AFB, MT 59402",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-2nd",
+      "name": "2nd Ave Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "2nd Ave N, Malmstrom AFB, MT 59402",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-malmstrom-dfac-elkhorn",
+      "name": "Elkhorn Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting missile operations with full meal service and multiple food stations. Award-winning facility (Hennessy Trophy).",
+      "hours": "Mon-Fri: Bfast 0600-0900, Lunch 1100-1300, Dinner 1630-1830; Sat-Sun: Bfast 0730-0900, Lunch 1100-1300, Dinner 1630-1800",
+      "address": "303 75th St N, Bldg 1075, Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": "Bldg 1075"
+    },
+    {
+      "id": "res-malmstrom-bx",
+      "name": "Malmstrom Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food options.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-commissary",
+      "name": "Malmstrom Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Sun 1000-1900; Mon 1100-1730 (self-checkout); Tue-Sat 0900-1900",
+      "address": "7228 4th Ave N, Malmstrom AFB, MT 59402",
+      "phone": "406-731-3432",
+      "url": "https://shop.commissaries.com/stores/malmstrom-afb",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-credit-union",
+      "name": "1st Liberty Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "6200 3rd Ave N, Malmstrom AFB, MT 59402",
+      "phone": "406-761-8300",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-fitness",
+      "name": "Fitness and Sport Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. 24/7 access available for registered patrons.",
+      "hours": "Daily 0500-2200 staffed; 24/7 access after registration at front desk",
+      "address": "7547 Goddard Dr, Bldg 1010, Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": "Bldg 1010"
+    },
+    {
+      "id": "res-malmstrom-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for missile wing personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-1110",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-lodging",
+      "name": "Malmstrom Inns and Suites (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. Front desk open 0600-2200. 24/7 business center and small fitness room available. Pet-friendly TLF units available.",
+      "hours": "Front desk 0600-2200 daily",
+      "address": "7028 4th Ave N, Bldg 1680, Malmstrom AFB, MT 59402",
+      "phone": "406-731-3394",
+      "url": "https://341fss.com/",
+      "building": "Bldg 1680"
+    },
+    {
+      "id": "res-malmstrom-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 1145, 7317 Goddard Dr, Malmstrom AFB, MT 59402",
+      "phone": "406-731-4900",
+      "url": "https://341fss.com/",
+      "building": "Bldg 1145"
+    },
+    {
+      "id": "res-341-fss",
+      "name": "341st Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting missile operations.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FAM Camp, and recreational programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://341fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-golf",
+      "name": "Malmstrom Golf Course",
+      "category": "recreation",
+      "description": "9-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-1110",
+      "url": "https://341fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-medical",
+      "name": "341st Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services supporting missile operations.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-1110",
+      "url": "https://malmstrom.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-bowling",
+      "name": "Malmstrom Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstromfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Daily 0600-2200",
+      "address": "Malmstrom AFB, MT 59402",
+      "phone": "406-731-2707",
+      "url": "https://www.malmstrom.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-malmstrom-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Malmstrom AFB, Great Falls, MT",
+      "phone": "406-731-1110",
+      "url": "https://341fss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 192)",
+      "url": "https://www.malmstrom.af.mil/Base-Access/",
+      "phone": "406-731-4489",
+      "address": "6200 Goddard Drive, Bldg 192, Malmstrom AFB, MT 59402"
+    },
+    "moreInfoURL": "https://341fss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Malmstrom Inns and Suites (406-731-3394) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.malmstrom.af.mil/Resources/Base-Housing/Military-Housing-Office/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "341 FSS, M&FRC, and official Malmstrom sites for in-processing and missile operations support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "341st Force Support Squadron",
+            "url": "https://341fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://341fss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

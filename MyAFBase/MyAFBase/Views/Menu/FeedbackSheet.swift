@@ -103,7 +103,7 @@ struct FeedbackSheet: View {
                     Text("Thanks for sharing")
                         .font(.headline)
 
-                    Text("Your feedback helps make MyAFBase better for the community. We genuinely appreciate you taking the time.")
+                    Text("Your feedback helps make MyAFBase better for the community. Prefer email? Reach us at \(ContactConfig.supportEmail).")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)

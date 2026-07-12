@@ -6,11 +6,18 @@
  * 2. npm i -g wrangler && wrangler login
  * 3. cp wrangler.toml.example wrangler.toml — edit name if needed
  * 4. wrangler secret put GITHUB_TOKEN
- * 5. wrangler secret put FEEDBACK_SECRET (same string as FeedbackConfig.sharedSecret in the app)
- * 6. wrangler deploy
- * 7. Paste the worker URL into FeedbackConfig.endpoint in the iOS app
+ * 5. Optional: wrangler secret put FEEDBACK_SECRET (same string as FeedbackConfig.sharedSecret)
+ * 6. wrangler kv namespace create RATE_LIMIT — paste ids into wrangler.toml
+ * 7. wrangler deploy
+ * 8. Paste the worker URL into FeedbackConfig.endpoint in the iOS app
  *
  * GitHub emails you when new issues are opened (enable in GitHub notification settings).
+ *
+ * Auth model (v1.5.1 hotfix):
+ * - Live 1.5 clients ship with an empty shared secret and omit X-Feedback-Secret.
+ * - Secret is optional. When FEEDBACK_SECRET is set AND the client sends a non-empty
+ *   X-Feedback-Secret, it must match. Missing/empty client secrets are allowed so
+ *   already-shipped builds keep working. Abuse is limited by IP rate limiting.
  */
 
 const REPO = "laducaaa/MyAFBase";
@@ -32,12 +39,12 @@ export default {
       return json({ error: "not_configured" }, 503);
     }
 
-    if (!env.FEEDBACK_SECRET) {
-      return json({ error: "not_configured" }, 503);
-    }
+    const provided = (request.headers.get("X-Feedback-Secret") ?? "").trim();
+    const expected = typeof env.FEEDBACK_SECRET === "string" ? env.FEEDBACK_SECRET.trim() : "";
 
-    const provided = request.headers.get("X-Feedback-Secret") ?? "";
-    if (!timingSafeEqual(provided, env.FEEDBACK_SECRET)) {
+    // Only enforce the shared secret when the client actually sends one.
+    // Shipped 1.5 builds leave FEEDBACK_SHARED_SECRET empty and omit the header.
+    if (provided && expected && !timingSafeEqual(provided, expected)) {
       return json({ error: "unauthorized" }, 401);
     }
 
@@ -86,8 +93,9 @@ export default {
     });
 
     if (!ghResponse.ok) {
-      console.error("GitHub API error", ghResponse.status);
-      return json({ error: "github_failed" }, 502);
+      const detail = await ghResponse.text().catch(() => "");
+      console.error("GitHub API error", ghResponse.status, detail.slice(0, 500));
+      return json({ error: "github_failed", status: ghResponse.status }, 502);
     }
 
     const issue = await ghResponse.json();

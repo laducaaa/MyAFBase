@@ -1,0 +1,394 @@
+{
+  "id": "holloman",
+  "name": "Holloman AFB",
+  "fullName": "Holloman Air Force Base",
+  "location": "Alamogordo, NM",
+  "description": "Home of the 49th Wing, Holloman AFB trains F-16 pilots and MQ-9 RPA operators for the combat Air Force.",
+  "wing": "49 WG",
+  "latitude": 32.8523,
+  "longitude": -106.1066,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "holloman-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Holloman AFB Security Forces",
+      "number": "575-572-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "575-572-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "575-572-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (New Mexico Ave)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Only 24/7 gate. Visitor Welcome Center (Bldg 1) daily 0600-2200. After 2200, escorted visitors processed at Main Gate.",
+      "traffic": "high",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "latitude": 32.8523,
+      "longitude": -106.1066
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Welcome Center (Bldg 1)",
+      "status": "open",
+      "hours": "Daily 0600-2200",
+      "notes": "Visitor passes, RAB badges, and contractor passes. REAL ID required. Phone: 575-572-5951.",
+      "traffic": "moderate",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-west",
+      "name": "West Gate",
+      "status": "open",
+      "hours": "Mon-Fri: inbound 0600-0800, outbound 0600-1800; closed weekends, federal holidays, and wing down days",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "West Gate Rd, Holloman AFB, NM 88330",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-la-luz",
+      "name": "La Luz Gate",
+      "status": "closed",
+      "hours": "Permanently closed",
+      "notes": "Permanently closed — do not use.",
+      "traffic": "low",
+      "address": "La Luz Gate Rd, Holloman AFB, NM 88330",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-holloman-dfac",
+      "name": "Shifting Sands Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC with N'Rich Grill, deli, pizza, salad bar, and midnight meals.",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1030-1330, Dinner 1630-1830, Midnight 2300-0100; Sat-Sun: Bfast 0630-0830, Lunch 1030-1330, Dinner 1630-1830, Midnight 2300-0100",
+      "address": "660 Idaho Ave, Bldg 174, Holloman AFB, NM 88330",
+      "phone": "575-572-7381",
+      "url": "https://usafdining-holloman.sodexomyway.com/en-us/shifting-sands",
+      "building": "Bldg 174"
+    },
+    {
+      "id": "res-holloman-bx",
+      "name": "Holloman AFB Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at Holloman AFB.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://www.shopmyexchange.com/store-locator/holloman-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-holloman-commissary",
+      "name": "Holloman AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "750 New Mexico Ave, Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://shop.commissaries.com/stores/holloman-afb",
+      "building": null
+    },
+    {
+      "id": "res-holloman-medical",
+      "name": "49th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for Holloman AFB. TRICARE appointments and emergency care.",
+      "hours": "Appointments Mon-Fri 0730-1630; emergency care 24/7 where offered",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "phone": "575-572-2273",
+      "url": "https://holloman.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-fitness-1",
+      "name": "Holloman Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Main fitness center with cardio, weights, courts, and group fitness. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0800-1800; 24/7 CAC access after registration",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://www.hollomanfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "phone": "575-572-1110",
+      "url": "https://www.holloman.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "phone": "575-572-1110",
+      "url": "https://www.hollomanfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-fss",
+      "name": "49 WG Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "phone": "575-572-7381",
+      "url": "https://www.hollomanfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "phone": "575-572-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/holloman-afb/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-recreation-1",
+      "name": "Apache Mesa Golf Course",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at Holloman AFB.",
+      "hours": "Daily 0700-dusk, weather permitting",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://www.hollomanfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-visitor-center",
+      "name": "Visitor Welcome Center (Bldg 1)",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "Daily 0600-2200",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "phone": "575-572-5951",
+      "url": "https://www.holloman.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-bowling",
+      "name": "Holloman Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3733",
+      "url": "https://49fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 224, Holloman AFB, NM 88330",
+      "phone": "575-572-7754",
+      "url": "https://49fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Daily 0600-2200",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330",
+      "phone": "575-572-5951",
+      "url": "https://www.holloman.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-lodging",
+      "name": "Holloman Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-3311",
+      "url": "https://af.dodlodging.net/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-572-2505",
+      "url": "https://www.hollomanfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-holloman-credit-union",
+      "name": "White Sands Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Holloman AFB, NM 88330",
+      "phone": "575-437-7700",
+      "url": "https://www.wsfcu.com/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "holloman-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "holloman-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Welcome Center (Bldg 1)",
+      "url": "https://www.holloman.af.mil/Newcomers/",
+      "phone": "575-572-5951",
+      "address": "Main Gate, Bldg 1, Holloman AFB, NM 88330"
+    },
+    "moreInfoURL": "https://www.holloman.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for Holloman AFB reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.holloman.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/holloman-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Holloman AFB Official Site",
+            "url": "https://www.holloman.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.holloman.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.hollomanfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/holloman-afb/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/holloman"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

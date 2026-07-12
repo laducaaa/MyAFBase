@@ -2,7 +2,6 @@ import SwiftUI
 
 struct WhatsNewSheet: View {
     @Environment(\.dismiss) private var dismiss
-    @State private var showLegalPrivacySheet = false
 
     private let current = AppReleaseNotes.current
     private let earlier = AppReleaseNotes.earlier
@@ -39,9 +38,6 @@ struct WhatsNewSheet: View {
         }
         .presentationDragIndicator(.visible)
         .presentationDetents([.medium, .large])
-        .sheet(isPresented: $showLegalPrivacySheet) {
-            LegalPrivacySheet()
-        }
     }
 
     // MARK: - Sections
@@ -49,11 +45,7 @@ struct WhatsNewSheet: View {
     private func heroCard(release: AppReleaseNote) -> some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(spacing: 12) {
-                Image(systemName: "sparkles")
-                    .font(.system(size: 44 * 0.4, weight: .semibold))
-                    .foregroundStyle(.white)
-                    .frame(width: 44, height: 44)
-                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 44 * 0.27, style: .continuous))
+                IconBadge(systemImage: "sparkles", tint: AppTheme.accent, size: 44)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Version \(release.version)")
@@ -170,39 +162,6 @@ struct WhatsNewSheet: View {
                 )
             }
             .appCardStyle(padding: 0)
-
-            Button {
-                showLegalPrivacySheet = true
-            } label: {
-                HStack(spacing: 12) {
-                    IconBadge(systemImage: "doc.text", tint: AppTheme.accent, size: 32)
-
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("Legal & privacy notice")
-                            .font(.subheadline.weight(.medium))
-                            .foregroundStyle(.primary)
-
-                        Text("Affiliation, data use, and security practices")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
-
-                    Spacer(minLength: 0)
-
-                    Image(systemName: "chevron.right")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(.tertiary)
-                }
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
-            .appCardStyle()
-
-            LegalDisclaimerCard(
-                text: LegalCopy.nonAffiliationShort,
-                style: .compact,
-                systemImage: "building.columns"
-            )
         }
     }
 }

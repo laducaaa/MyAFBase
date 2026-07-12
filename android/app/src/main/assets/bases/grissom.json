@@ -1,0 +1,401 @@
+{
+  "id": "grissom",
+  "name": "Grissom ARB",
+  "fullName": "Grissom Air Reserve Base",
+  "location": "Peru, IN",
+  "description": "Stand-alone Air Force Reserve base hosting 434th ARW KC-135R operations. Joint-use with Grissom Aeroplex.",
+  "wing": "434 ARW",
+  "latitude": 40.6481,
+  "longitude": -86.1521,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "grissom-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Center.",
+      "type": "alert",
+      "postedAt": "2026-06-28T12:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (SFS)",
+      "number": "765-688-3384"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator / Directory",
+      "number": "765-688-5211"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-hoosier-blvd",
+      "name": "Main Gate (Hoosier Blvd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access point for Grissom ARB. Security Forces: 765-688-3384.",
+      "traffic": "moderate",
+      "address": "471 Hoosier Blvd, Grissom ARB, Peru, IN 46971",
+      "latitude": 40.6481,
+      "longitude": -86.1521
+    },
+    {
+      "id": "gate-visitor-center",
+      "name": "Visitor Center",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1515; closed weekends and federal holidays",
+      "notes": "Visitor passes and base access registration. REAL ID required. Phone: 765-688-4352.",
+      "traffic": "moderate",
+      "address": "1438 Foreman Dr, Grissom ARB, Peru, IN 46971",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-aeroplex",
+      "name": "Grissom Aeroplex Gate (Joint-Use)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1700; closed weekends and federal holidays",
+      "notes": "Joint-use airfield access for authorized Aeroplex tenants and contractors.",
+      "traffic": "low",
+      "address": "Grissom Aeroplex, Peru, IN 46971",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-grissom-boomers-cafe",
+      "name": "Boomer's Café",
+      "category": "dining",
+      "description": "Primary dining facility serving lunch during the duty week and breakfast on UTA weekends for reservists and base personnel.",
+      "hours": "Lunch Mon-Fri 1100-1300; Breakfast UTA weekends",
+      "address": "Bldg 470, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2751",
+      "url": "https://www.grissomfss.com/dining/",
+      "building": "Bldg 470"
+    },
+    {
+      "id": "res-grissom-chocks",
+      "name": "Chock's",
+      "category": "dining",
+      "description": "Snack bar and lounge for reservists and visitors — quick bites, beverages, and a casual gathering spot during UTA and drill weekends.",
+      "hours": "Primary UTA weekends: Fri 1800-0000, Sat 1700-0000",
+      "address": "6963 Tanker St, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2615",
+      "url": "https://www.grissomfss.com/chocks",
+      "building": null
+    },
+    {
+      "id": "res-grissom-bx-troop-store",
+      "name": "BX Troop Store",
+      "category": "shopping",
+      "description": "Small branch Exchange with essentials, uniform items, and convenience retail. No full-service main BX on this reserve installation.",
+      "hours": "Mon-Fri 0900-1700; Sat-Sun 1000-1630",
+      "address": "4434 Boxcar St, Bldg 595, Grissom ARB, Peru, IN 46971",
+      "phone": "765-689-5270",
+      "url": "https://www.shopmyexchange.com/store-locator/grissom-main-exchange",
+      "building": "Bldg 595"
+    },
+    {
+      "id": "res-grissom-nearest-commissary",
+      "name": "Nearest Commissary (Ft Harrison, Indianapolis)",
+      "category": "shopping",
+      "description": "No commissary on Grissom ARB. Nearest Defense Commissary Agency grocery is at Fort Harrison in Indianapolis — plan trips for major grocery shopping.",
+      "hours": "Sun 1000-1800; Mon-Sat 9:00 AM-7:00 PM per commissaries.com",
+      "address": "Fort Harrison, Indianapolis, IN 46216",
+      "phone": "317-554-4111",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-tricare-medical",
+      "name": "TRICARE / Off-Base Medical Care",
+      "category": "medical",
+      "description": "No on-base medical clinic at this reserve installation. Use TRICARE network providers in the Peru/Kokomo/Indianapolis area and referral processes as directed by your TRICARE plan.",
+      "hours": "Provider-specific hours; TRICARE Nurse Advice Line 24/7 at 800-874-2273",
+      "address": "Grissom ARB, Peru, IN 46971",
+      "phone": "800-874-2273",
+      "url": "https://www.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-fitness",
+      "name": "Grissom ARB Fitness Center",
+      "category": "fitness",
+      "description": "Cardio and weight training facility for reservists and authorized patrons. 24-hour CAC access available after registration during staffed hours.",
+      "hours": "Mon-Fri 0700-1530; 24hr CAC access available after registration",
+      "address": "4290 Thunderbolt Ave, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2987",
+      "url": "https://www.grissomfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service for 434th ARW personnel. Appointment-based during UTA and duty periods.",
+      "hours": "Mon-Fri 0730-1630; UTA weekend expanded",
+      "address": "Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-5211",
+      "url": "https://www.grissom.afrc.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-off-base-banking",
+      "name": "Off-Base Banking & Credit Unions",
+      "category": "finance",
+      "description": "No on-base FCU office at Grissom ARB. Local options in Peru and Kokomo include INOVA Federal Credit Union, First Farmers Bank & Trust, and area institutions.",
+      "hours": "Off-base institution hours in Peru and Kokomo, IN",
+      "address": "Peru and Kokomo, IN",
+      "phone": "765-688-2752",
+      "url": "https://www.inovafederal.org/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-mpf",
+      "name": "Military Personnel Flight (MPF) / ID Cards",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS — plan visits around UTA and duty schedules.",
+      "hours": "Mon-Fri 0730-1630; UTA weekends all day",
+      "address": "Bldg 606 area, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-3909",
+      "url": "https://www.grissomfss.com/",
+      "building": "Bldg 606"
+    },
+    {
+      "id": "res-grissom-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, employment assistance, and family programs for reservists and families.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "7088 Tanker St, Bldg 431, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-4812",
+      "url": "https://www.grissomfss.com/",
+      "building": "Bldg 431"
+    },
+    {
+      "id": "res-grissom-fss",
+      "name": "434th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events for the 434th ARW reserve community.",
+      "hours": "Facility hours listed on FSS website; expanded services during UTA weekends",
+      "address": "7207 Grissom Ave, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2752",
+      "url": "https://www.grissomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-off-base-housing",
+      "name": "Off-Base Housing Resources",
+      "category": "housing",
+      "description": "No on-base family housing at Grissom ARB — all housing is off-base in Peru, Kokomo, Logansport, and surrounding north-central Indiana communities.",
+      "hours": "Contact M&FRC for relocation assistance",
+      "address": "Peru, Kokomo, and surrounding areas, IN",
+      "phone": "765-688-4812",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/grissom-air-reserve-base/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-inn-lodging",
+      "name": "Grissom Inn Lodging",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging for authorized personnel. No pets and no smoking permitted. Reservations recommended during UTA and drill weekends.",
+      "hours": "Front desk during business hours; check official site for check-in times",
+      "address": "471 Hoosier Blvd, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2844",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, seasonal recreation programs, and adventure trips for reservists and authorized patrons.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "7088 Tanker St, Bldg 431, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2440",
+      "url": "https://www.grissomfss.com/outdoor-recreation/",
+      "building": "Bldg 431"
+    },
+    {
+      "id": "res-grissom-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted theme park tickets, event tickets, travel planning, and leisure trip packages for military families and reservists.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "7088 Tanker St, Bldg 431, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-2000",
+      "url": "https://www.grissomfss.com/",
+      "building": "Bldg 431"
+    },
+    {
+      "id": "res-grissom-no-golf",
+      "name": "Local Golf (No On-Base Course)",
+      "category": "recreation",
+      "description": "No golf course on Grissom ARB. Area courses in Peru, Kokomo, and Logansport available for recreation — check ODR for possible group discounts.",
+      "hours": "Off-base course hours",
+      "address": "North-central Indiana",
+      "phone": "765-688-2440",
+      "url": "https://www.grissomfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-no-bowling",
+      "name": "Local Bowling (No On-Base Alley)",
+      "category": "recreation",
+      "description": "No bowling alley on Grissom ARB. Off-base bowling centers in Peru and Kokomo serve the local military community.",
+      "hours": "Off-base facility hours",
+      "address": "Peru and Kokomo, IN",
+      "phone": "765-688-2440",
+      "url": "https://www.grissomfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-visitor-center",
+      "name": "Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, base access registration, and newcomer gate information. All visitors require a pass — REAL ID required.",
+      "hours": "Mon-Fri 0730-1515; closed weekends and federal holidays",
+      "address": "1438 Foreman Dr, Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-4352",
+      "url": "https://www.grissom.afrc.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-grissom-security-forces",
+      "name": "Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations for Grissom ARB.",
+      "hours": "24/7",
+      "address": "Grissom ARB, Peru, IN 46971",
+      "phone": "765-688-3384",
+      "url": "https://www.grissom.afrc.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "grissom-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "7088 Tanker St, Bldg 431, Grissom ARB, Peru, IN 46971",
+      "description": "Orientation for incoming 434th ARW personnel and families. Covers reserve-specific services, off-base housing, and base access. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "grissom-evt-uta",
+      "title": "Unit Training Assembly (UTA) Weekend",
+      "date": "2026-08-08T12:00:00Z",
+      "endDate": "2026-08-10T04:00:00Z",
+      "location": "434th Air Refueling Wing",
+      "address": "Grissom ARB, Peru, IN 46971",
+      "description": "Monthly reserve drill weekend — expanded dining, MPF, and MWR services available. Check unit schedule for reporting times.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Grissom ARB Visitor Center",
+      "url": "https://www.grissom.afrc.af.mil/Newcomers/",
+      "phone": "765-688-4352",
+      "address": "471 Hoosier Blvd, Grissom ARB, Peru, IN 46971"
+    },
+    "moreInfoURL": "https://www.grissom.afrc.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS or assignment orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement. Reserve personnel should confirm UTA reporting instructions with their gaining unit.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630) or as directed for UTA. Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance and MPF in the Bldg 606 area for pay and ID card actions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.grissom.afrc.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "No on-base family housing at Grissom ARB — all housing is off-base in Peru, Kokomo, and surrounding communities. Contact the M&FRC for relocation assistance. Grissom Inn offers temporary lodging (no pets/smoking) — book early during UTA weekends.",
+        "links": [
+          {
+            "id": "link-mfrc-housing",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.grissomfss.com/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Grissom Inn Lodging",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access & Reserve Base Services",
+        "body": "Main Gate on Hoosier Blvd is open 24/7. Visitor Center: 765-688-4352. This is a stand-alone reserve base with limited daily services — no commissary, no on-base medical clinic, and a small BX Troop Store only. Nearest commissary is at Fort Harrison, Indianapolis. Plan medical care through TRICARE network providers.",
+        "links": [
+          {
+            "id": "link-visitor",
+            "title": "Visitor Information",
+            "url": "https://www.grissom.afrc.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-tricare",
+            "title": "TRICARE",
+            "url": "https://www.tricare.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource for reserve relocation support. Joint-use airfield operations with Grissom Aeroplex.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Grissom ARB Official Site",
+            "url": "https://www.grissom.afrc.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "434th Force Support Squadron",
+            "url": "https://www.grissomfss.com/"
+          },
+          {
+            "id": "link-finance",
+            "title": "Finance Office",
+            "url": "https://www.grissom.afrc.af.mil/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.grissomfss.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

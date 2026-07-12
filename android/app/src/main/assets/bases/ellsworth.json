@@ -1,0 +1,315 @@
+{
+  "id": "ellsworth",
+  "name": "Ellsworth AFB",
+  "fullName": "Ellsworth Air Force Base",
+  "location": "Box Elder, SD",
+  "description": "Home of the 28th Bomb Wing. Ellsworth AFB operates B-1B Lancer conventional bomber missions and supports global strike operations.",
+  "wing": "28 BW",
+  "latitude": 44.145,
+  "longitude": -103.1036,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "ellsworth-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Ellsworth AFB Security Forces",
+      "number": "605-385-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "605-385-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "605-385-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-liberty",
+      "name": "Liberty Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Only 24/7 gate. Visitor Control Center located here. Use for RV/FamCamp access.",
+      "traffic": "high",
+      "address": "1940 EP Howe Drive, Ellsworth AFB, SD 57706",
+      "latitude": 44.145,
+      "longitude": -103.1036
+    },
+    {
+      "id": "gate-bismarck",
+      "name": "Bismarck Gate (Commercial)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter and commercial gate near I-90.",
+      "traffic": "moderate",
+      "address": "Bismarck Gate, Ellsworth AFB, SD 57706",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-patriot",
+      "name": "Patriot Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate near I-90. Restricted to authorized personnel without VCC pass.",
+      "traffic": "moderate",
+      "address": "Patriot Gate, Ellsworth AFB, SD 57706",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Liberty Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun 0900-1700",
+      "notes": "Day passes and visitor registration. REAL ID required. Phone: 605-385-2895.",
+      "traffic": "moderate",
+      "address": "2740 Eaker Drive, Ellsworth AFB, SD 57706",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-ellsworth-dfac-raider",
+      "name": "Raider Café (Dining Facility)",
+      "category": "dining",
+      "description": "Primary DFAC supporting the 28th Bomb Wing with full meal service.",
+      "hours": "Mon-Fri: Breakfast 0600-0900, Lunch 1030-1330, Dinner 1630-1830; Weekends/Holidays 0630-1830",
+      "address": "Bldg 1200, Ellsworth AFB, SD 57706",
+      "phone": "605-385-1625",
+      "url": "https://ellsworthfss.com/",
+      "building": "Bldg 1200"
+    },
+    {
+      "id": "res-ellsworth-commissary",
+      "name": "Ellsworth AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "2649 Lemay St, Ellsworth AFB, SD 57706",
+      "phone": "605-385-4364",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-bx",
+      "name": "Ellsworth Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Ellsworth Main Exchange with food court, barber, beauty shop, optical, GNC, and shoppette.",
+      "hours": "Mon-Fri 0900-1900; Sat 0900-1800; Sun 1100-1700",
+      "address": "2649 Lemay St, Bldg 1650, Ellsworth AFB, SD 57706",
+      "phone": "605-923-4774",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 1650"
+    },
+    {
+      "id": "res-ellsworth-sentinel-cu",
+      "name": "Sentinel Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "2649 Lemay St, Ellsworth AFB, SD 57706",
+      "phone": "605-923-1405",
+      "url": "https://www.sentinelfcu.org/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-fitness-bellamy",
+      "name": "Bellamy Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, indoor track, racquetball, basketball, steam rooms, sauna, and 24/7 access for registered CAC holders.",
+      "hours": "24/7 for registered users; staffed hours vary",
+      "address": "2370 Risner Drive, Bldg 7709, Ellsworth AFB, SD 57706",
+      "phone": "605-385-2266",
+      "url": "https://ellsworthfss.com/bellamy-fitness-center/",
+      "building": "Bldg 7709"
+    },
+    {
+      "id": "res-ellsworth-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "2850 Spaatz Drive, Ellsworth AFB, SD 57706",
+      "phone": "605-385-2569",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-lodging",
+      "name": "Pine Tree Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "2349 Risner Drive, Ellsworth AFB, SD 57706",
+      "phone": "605-385-2844",
+      "url": "https://ellsworthfss.com/air-force-inns/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "1000 Ellsworth Street, Suite 1500, Ellsworth AFB, SD 57706",
+      "phone": "605-385-4663",
+      "url": "https://ellsworthfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-28-fss",
+      "name": "28th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "1000 Ellsworth St, Ellsworth AFB, SD 57706",
+      "phone": "605-385-1110",
+      "url": "https://ellsworthfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "2570 George Drive, Bldg 4610, Ellsworth AFB, SD 57706",
+      "phone": "605-385-2997",
+      "url": "https://ellsworthfss.com/",
+      "building": "Bldg 4610"
+    },
+    {
+      "id": "res-ellsworth-bowling",
+      "name": "Bandit Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar and league play.",
+      "hours": "Mon-Thu 1200-2000; Fri 1400-2200 (Cosmic 2000-2200); Sat 1600-2200 (Cosmic 1800-2200); Sun 1200-2200",
+      "address": "1062 Boyington St, Ellsworth AFB, SD 57706",
+      "phone": "605-385-7625",
+      "url": "https://ellsworthfss.com/bandit-lanes-bowling-alley/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-golf",
+      "name": "Prairie Ridge Golf Course",
+      "category": "recreation",
+      "description": "On-base golf course with pro shop.",
+      "hours": "Seasonal; pro shop Mon-Fri 0700-1700",
+      "address": "Prairie Ridge Golf Course, Ellsworth AFB, SD 57706",
+      "phone": "605-923-4999",
+      "url": "https://ellsworthfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-medical",
+      "name": "28th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0700-1630; closed third Wed afternoon for training",
+      "address": "2900 Doolittle Dr, Ellsworth AFB, SD 57706",
+      "phone": "605-385-6700",
+      "url": "https://ellsworth.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun 0900-1700",
+      "address": "2740 Eaker Drive, Ellsworth AFB, SD 57706",
+      "phone": "605-385-2895",
+      "url": "https://www.ellsworth.af.mil/Contact-Us/Visitor-Control-Center/",
+      "building": null
+    },
+    {
+      "id": "res-ellsworth-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Ellsworth AFB, Box Elder, SD",
+      "phone": "605-385-1110",
+      "url": "https://ellsworthfss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Liberty Gate)",
+      "url": "https://www.ellsworth.af.mil/Contact-Us/Visitor-Control-Center/",
+      "phone": "605-385-2895",
+      "address": "2740 Eaker Drive, Ellsworth AFB, SD 57706"
+    },
+    "moreInfoURL": "https://ellsworthfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Pine Tree Inn (605-385-2844) for initial arrival. Dormitory Management (605-385-2569) for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/ellsworth-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "28 FSS, M&FRC, and official Ellsworth sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "28th Force Support Squadron",
+            "url": "https://ellsworthfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://ellsworthfss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

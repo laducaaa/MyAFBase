@@ -30,7 +30,6 @@ final class AppState {
     private let selectedBaseKey = AppIntentBaseSelection.selectedBaseKey
     private let showCONUSWeatherKey = "showCONUSWeatherInHero"
     private let onboardingCompletedKey = "hasCompletedOnboarding"
-    private let weatherHeroRefreshOverlayDuration: TimeInterval = 1.35
 
     var isBaseLoading: Bool {
         selectedBaseID != nil && currentBase == nil
@@ -144,32 +143,7 @@ final class AppState {
             isWeatherLoading = true
         }
 
-        let fetched: Weather
-        if force && showInHero {
-            await withTaskGroup(of: Void.self) { group in
-                group.addTask { [weatherService, latitude = base.latitude, longitude = base.longitude] in
-                    let result = await weatherService.fetchWeather(
-                        lat: latitude,
-                        lon: longitude,
-                        forceRefresh: true
-                    )
-
-                    await MainActor.run {
-                        guard self.currentBase?.id == baseID else { return }
-                        self.applyWeatherFetch(result, base: base, baseID: baseID, showInHero: showInHero)
-                    }
-                }
-
-                group.addTask {
-                    try? await Task.sleep(nanoseconds: UInt64(self.weatherHeroRefreshOverlayDuration * 1_000_000_000))
-                }
-
-                await group.waitForAll()
-            }
-            return
-        }
-
-        fetched = await weatherService.fetchWeather(
+        let fetched = await weatherService.fetchWeather(
             lat: base.latitude,
             lon: base.longitude,
             forceRefresh: force

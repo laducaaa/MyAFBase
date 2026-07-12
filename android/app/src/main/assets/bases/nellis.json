@@ -1,0 +1,364 @@
+{
+  "id": "nellis",
+  "name": "Nellis AFB",
+  "fullName": "Nellis Air Force Base",
+  "location": "Las Vegas, NV",
+  "description": "Home of the U.S. Air Force Warfare Center, 57th Wing, and RED FLAG — the Air Force's premier combat training exercise. The largest combat-coded fighter base in the Air Force.",
+  "wing": "99 ABW / USAFWC / 57 WG",
+  "latitude": 36.2361,
+  "longitude": -115.0343,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "nellis-notif-1",
+      "title": "RED FLAG Training Exercise",
+      "body": "RED FLAG exercises bring multinational flight operations. Expect increased traffic and possible gate delays during exercise periods.",
+      "type": "info",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "99th SFS Base Defense Operations Center",
+      "number": "702-652-5700"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "702-652-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Mike O'Callaghan Federal Medical Center",
+      "number": "702-653-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "702-652-3336"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Craig Road)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access from Craig Road / N Las Vegas Blvd. High traffic during exercises.",
+      "traffic": "high",
+      "address": "4311 N Washington Blvd, Nellis AFB, NV 89191",
+      "latitude": 36.25,
+      "longitude": -115.035
+    },
+    {
+      "id": "gate-landings",
+      "name": "Landings Gate (Housing)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 access for housing area.",
+      "traffic": "moderate",
+      "address": "Landings Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-manch-manor",
+      "name": "Manch Manor Gate (Housing)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 housing access; normally closed but open during construction/special events.",
+      "traffic": "low",
+      "address": "Manch Manor Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-range-road",
+      "name": "Range Road Gate (Hospital side)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 gate; after-hours/weekend 72-hour passes available here.",
+      "traffic": "moderate",
+      "address": "Range Road Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0630-1630",
+      "notes": "Day passes and visitor registration. Trusted Traveler suspended — all non-DoD ID visitors require sponsor + pass.",
+      "traffic": "moderate",
+      "address": "Main Gate area, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-area-ii",
+      "name": "Area II Gate",
+      "status": "open",
+      "hours": "Daily 0530-1730",
+      "notes": "Restricted hours gate.",
+      "traffic": "low",
+      "address": "Area II Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-beale",
+      "name": "Beale Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1730",
+      "notes": "Closed weekends.",
+      "traffic": "low",
+      "address": "Beale Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-simons",
+      "name": "Simons Gate",
+      "status": "open",
+      "hours": "Daily 0500-1700",
+      "notes": "Daily access with limited hours.",
+      "traffic": "low",
+      "address": "Simons Gate, Nellis AFB, NV 89191",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-nellis-dfac-main",
+      "name": "Crosswinds Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC supporting RED FLAG, USAFWC, and 57 WG training missions.",
+      "hours": "Mon-Fri: Bfast 0600-0830, Lunch 1100-1300, Dinner 1630-1900, Midnight 2300-0430; Sat-Sun: Bfast 0700-1030, Lunch 1100-1300, Dinner 1630-1900",
+      "address": "4551 Ellsworth Ave, Bldg 790, Nellis AFB, NV 89191",
+      "phone": "702-652-1110",
+      "url": "https://nellis99fss.com/crosswinds-dining-facility/",
+      "building": "Bldg 790"
+    },
+    {
+      "id": "res-nellis-nellis-club",
+      "name": "Nellis Club",
+      "category": "dining",
+      "description": "All-ranks club with dining, catering, and Touch N’ Go Central Kitchen.",
+      "hours": "Lunch Tue-Fri 1030-1300; dinner Tue-Thu 1600-1900, Fri 1600-2000; catering Tue-Thu 0900-1500",
+      "address": "5871 Fitzgerald Blvd, Bldg 554, Nellis AFB, NV 89191",
+      "phone": "702-652-9188",
+      "url": "https://nellis99fss.com/nellis-club/",
+      "building": "Bldg 554"
+    },
+    {
+      "id": "res-nellis-bx",
+      "name": "Nellis Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Nellis Main Exchange with food court, barber, beauty shop, optical, GNC, and shoppette.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 11:00 AM-6:00 PM",
+      "address": "5871 Fitzgerald Blvd, Nellis AFB, NV 89191",
+      "phone": "702-652-1500",
+      "url": "https://www.shopmyexchange.com/store-locator/nellis-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-nellis-one-nevada-cu",
+      "name": "One Nevada Credit Union",
+      "category": "finance",
+      "description": "One Nevada Credit Union on-base office with deposit accounts, loans, and ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "5871 Fitzgerald Blvd, Nellis AFB, NV 89191",
+      "phone": "702-457-1000",
+      "url": "https://www.onenevada.org/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-warrior-fitness",
+      "name": "Warrior Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, intramural sports, and Warrior Pool.",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0700-1900; 24/7 CAC access after registration",
+      "address": "3705 Freedom Circle, Bldg 1705, Nellis AFB, NV 89191",
+      "phone": "702-652-4891",
+      "url": "https://nellis99fss.com/warrior-fitness-center/",
+      "building": "Bldg 1705"
+    },
+    {
+      "id": "res-nellis-lodging",
+      "name": "Nellis Lodging & Inns",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "5941 Fitzgerald Blvd, Bldg 556, Nellis AFB, NV 89191",
+      "phone": "702-652-2711",
+      "url": "https://nellis99fss.com/lodging/",
+      "building": "Bldg 556"
+    },
+    {
+      "id": "res-nellis-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Nellis AFB, NV 89191",
+      "phone": "702-652-1110",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "4311 Washington Blvd, Bldg 312, Nellis AFB, NV 89191",
+      "phone": "702-652-3327",
+      "url": "https://nellis99fss.com/",
+      "building": "Bldg 312"
+    },
+    {
+      "id": "res-99-fss",
+      "name": "99th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support for Team Nellis and RED FLAG participants.",
+      "hours": "Mon-Fri 0730-1630; facility hours at nellis99fss.com",
+      "address": "Nellis AFB, NV 89191",
+      "phone": "702-652-1110",
+      "url": "https://nellis99fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, Desert Eagle RV Park / FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "4024 Griffiss Avenue, Bldg 439, Nellis AFB, NV 89191",
+      "phone": "702-652-2514",
+      "url": "https://nellis99fss.com/",
+      "building": "Bldg 439"
+    },
+    {
+      "id": "res-nellis-golf",
+      "name": "Nellis Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and Champion’s Grille.",
+      "hours": "Sun-up to sun-down daily",
+      "address": "4551 Ellsworth Ave, Bldg 790, Nellis AFB, NV 89191",
+      "phone": "702-652-2602",
+      "url": "https://nellis99fss.com/",
+      "building": "Bldg 790"
+    },
+    {
+      "id": "res-nellis-medical",
+      "name": "Mike O'Callaghan Federal Medical Center",
+      "category": "medical",
+      "description": "Joint DoD/VA medical center providing primary care, specialty services, and TRICARE support.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Nellis AFB, NV 89191",
+      "phone": "702-653-2273",
+      "url": "https://nellis.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-commissary",
+      "name": "Nellis AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery with deli and bakery.",
+      "hours": "Mon-Sat 0800-2000; Sun 0800-1800",
+      "address": "4200 Mountain Home St, Nellis AFB, NV 89191",
+      "phone": "702-632-5500",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Daily 0600-1800",
+      "address": "Main Gate area, Nellis AFB, NV 89191",
+      "phone": "702-652-3216",
+      "url": "https://www.nellis.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-nellis-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Nellis AFB, Las Vegas, NV",
+      "phone": "702-652-1110",
+      "url": "https://www.nellis.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.nellis.af.mil/",
+      "phone": "702-652-3216",
+      "address": "Main Gate area, Nellis AFB, NV 89191"
+    },
+    "moreInfoURL": "https://www.nellis.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records. REAL ID required. Trusted Traveler suspended — all visitors without DoD ID need sponsor + VCC pass.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Nellis Lodging (24/7) for initial arrival. Military Housing Office for family housing; Unaccompanied Housing for dorms.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "99 FSS, M&FRC, and official Nellis sites for in-processing and RED FLAG support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "99th Force Support Squadron",
+            "url": "https://nellis99fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://nellis99fss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

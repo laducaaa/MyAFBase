@@ -1,0 +1,331 @@
+{
+  "id": "columbus",
+  "name": "Columbus AFB",
+  "fullName": "Columbus Air Force Base",
+  "location": "Columbus, MS",
+  "description": "Home of the 14th Flying Training Wing. Columbus AFB is a specialized undergraduate pilot training installation, training hundreds of pilots annually in the T-6 Texan II and T-38 Talon.",
+  "wing": "14 FTW",
+  "latitude": 33.6438,
+  "longitude": -88.4434,
+  "currentNotifications": [
+    {
+      "id": "columbus-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-28T20:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Columbus AFB Security Forces",
+      "number": "662-434-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "662-434-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "14th Medical Group",
+      "number": "662-434-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "662-434-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (East Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 access. Visitor passes issued here when VCC is closed. Trusted Traveler program 0600-2200.",
+      "traffic": "high",
+      "address": "Main Gate, Columbus AFB, MS 39710",
+      "latitude": 33.6438,
+      "longitude": -88.4434
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "South Gate, Columbus AFB, MS 39710",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 99)",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1630; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required. Pre-registration available via email to VCC.",
+      "traffic": "moderate",
+      "address": "108 Simler Blvd, Bldg 99, Columbus AFB, MS 39710",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-columbus-event-center",
+      "name": "Event Center (Lunch Buffet)",
+      "category": "dining",
+      "description": "No traditional DFAC; primary dining at Event Center lunch buffet, Strike Zone Grill, Coffee House, and Crosswinds Club venues.",
+      "hours": "Tue-Thu Lunch 1100-1300; special events by request",
+      "address": "Bldg 944, Columbus AFB, MS 39710",
+      "phone": "662-434-2970",
+      "url": "https://columbusafbliving.com/",
+      "building": "Bldg 944"
+    },
+    {
+      "id": "res-columbus-bx",
+      "name": "Columbus Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court.",
+      "hours": "Mon-Sat 0900-1700; Sun 1000-1600",
+      "address": "Bldg 160, 323 Simler Blvd, Columbus AFB, MS 39710",
+      "phone": "662-434-6013",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 160"
+    },
+    {
+      "id": "res-columbus-commissary",
+      "name": "Columbus AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "323 Simler Blvd, Bldg 160-B, Columbus AFB, MS 39705",
+      "phone": "662-434-7616",
+      "url": "https://shop.commissaries.com/stores/columbus-afb",
+      "building": "Bldg 160-B"
+    },
+    {
+      "id": "res-columbus-credit-union",
+      "name": "Triangle Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "325 Simler Blvd, Suite 1, Bldg 160, Columbus AFB, MS 39710",
+      "phone": "662-434-7060",
+      "url": "https://www.trianglefcu.org/",
+      "building": "Bldg 160"
+    },
+    {
+      "id": "res-columbus-medical",
+      "name": "14th Medical Group",
+      "category": "medical",
+      "description": "Primary care, flight medicine, and TRICARE services. No emergency department on base.",
+      "hours": "Mon-Fri 0730-1630; appointments via TRICARE Online",
+      "address": "Columbus AFB, MS 39710",
+      "phone": "662-434-2273",
+      "url": "https://columbus.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-columbus-fitness",
+      "name": "Fitness Center (Bldg 704)",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and Alpha Warrior Tent. 24/7 access available after registration.",
+      "hours": "Mon-Fri 0500-2300; 24/7 access by request after CAC registration at front desk",
+      "address": "Bldg 704, Columbus AFB, MS 39710",
+      "phone": "662-434-2772",
+      "url": "https://columbusafbliving.com/",
+      "building": "Bldg 704"
+    },
+    {
+      "id": "res-columbus-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management for student pilots and permanent party.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Columbus AFB, MS 39710",
+      "phone": "662-434-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-columbus-lodging",
+      "name": "Magnolia Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. Front desk for arrivals.",
+      "hours": "Front desk 0800-2000; after-hours call 662-434-2548",
+      "address": "Bldg 956, 179 Webb St, Columbus AFB, MS 39710",
+      "phone": "662-434-2548",
+      "url": "https://af.dodlodging.net/",
+      "building": "Bldg 956"
+    },
+    {
+      "id": "res-columbus-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, and family programs.",
+      "hours": "Mon-Wed & Fri 0730-1630; Thu 0730-1200",
+      "address": "Bldg 1114, 166 C Circle, Columbus AFB, MS 39710",
+      "phone": "662-434-2790",
+      "url": "https://columbusafbliving.com/",
+      "building": "Bldg 1114"
+    },
+    {
+      "id": "res-14-fss",
+      "name": "14th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Columbus AFB, MS 39710",
+      "phone": "662-434-1110",
+      "url": "https://columbusafbliving.com/",
+      "building": null
+    },
+    {
+      "id": "res-columbus-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Columbus AFB, MS 39710",
+      "phone": "662-434-1110",
+      "url": "https://www.columbus.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-columbus-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Columbus AFB, MS 39710",
+      "phone": "662-434-1110",
+      "url": "https://columbusafbliving.com/",
+      "building": null
+    },
+    {
+      "id": "res-columbus-outdoor-rec",
+      "name": "Outdoor Recreation / FamCamp",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, paintball, skeet/trap range, Independence Pool, and Venture 360 activity center.",
+      "hours": "Mon-Fri 1000-1700",
+      "address": "Bldg 152, Columbus AFB, MS 39710",
+      "phone": "662-434-2505",
+      "url": "https://columbusafbliving.com/",
+      "building": "Bldg 152"
+    },
+    {
+      "id": "res-columbus-disc-golf",
+      "name": "Crosswinds DGC @ Venture 360",
+      "category": "recreation",
+      "description": "18-hole disc golf course on the former golf course site. Free to play; download UDisc app for course map.",
+      "hours": "Open year-round; may close during special events",
+      "address": "Bldg 570, Venture 360, Columbus AFB, MS 39710",
+      "phone": "662-434-3426",
+      "url": "https://columbusafbliving.com/disc-golf/",
+      "building": "Bldg 570"
+    },
+    {
+      "id": "res-columbus-bowling",
+      "name": "Strike Zone Bowling Center",
+      "category": "recreation",
+      "description": "Bowling with Strike Zone Grill, golf simulator, and event packages.",
+      "hours": "Mon-Wed 0700-1600; Thu 0700-1800; Fri 0700-2000",
+      "address": "575 Harpe Blvd, Bldg 736, Columbus AFB, MS 39710",
+      "phone": "662-434-3426",
+      "url": "https://columbusafbliving.com/",
+      "building": "Bldg 736"
+    },
+    {
+      "id": "res-columbus-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes, DBIDS vetting, and base access. REAL ID required.",
+      "hours": "Mon-Fri 0730-1630; after-hours passes at Main Gate",
+      "address": "108 Simler Blvd, Bldg 99, Columbus AFB, MS 39710",
+      "phone": "662-434-7133",
+      "url": "https://columbusafbliving.com/visitors-center/",
+      "building": "Bldg 99"
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 99)",
+      "url": "https://columbusafbliving.com/visitors-center/",
+      "phone": "662-434-7133",
+      "address": "108 Simler Blvd, Bldg 99, Columbus AFB, MS 39710"
+    },
+    "moreInfoURL": "https://columbusafbliving.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining squadron upon arrival. Contact Magnolia Inn (662-434-2548) for after-hours lodging. Visit MPF within required timelines.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Columbus AFB Living",
+            "url": "https://columbusafbliving.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Magnolia Inn for initial arrival. Dormitory Management (662-434-5218) for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/columbus-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC at 662-434-2790 if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "14 FSS, M&FRC, and official Columbus sites for in-processing and pilot training support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "14th Force Support Squadron",
+            "url": "https://columbusafbliving.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://columbusafbliving.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  },
+  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+}

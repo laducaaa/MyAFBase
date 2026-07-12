@@ -1,0 +1,534 @@
+{
+  "id": "wright-patterson",
+  "name": "Wright-Patterson AFB",
+  "fullName": "Wright-Patterson Air Force Base",
+  "location": "Dayton, OH",
+  "description": "Home of Air Force Materiel Command HQ, Wright-Patterson is the Air Force's premier acquisition, research, and logistics center. Nearly 30,000 military and civilian personnel.",
+  "wing": "88 ABW / AFMC HQ",
+  "latitude": 39.8261,
+  "longitude": -84.0483,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "wpafb-notif-1",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant ID or passport is required for base access. Non-compliant IDs require additional vetting — allow extra time at gates.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:37:58Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "88th Security Forces (BDOC)",
+      "number": "937-257-6516"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "937-257-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Wright-Patterson Medical Center",
+      "number": "937-257-9924"
+    },
+    {
+      "id": "em-5",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "937-257-8800"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-area-a-main",
+      "name": "Area A Gate 1A (Springfield St / Ohio SR-4)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access to Area A (main base). Use for visitor processing and first-time entry.",
+      "traffic": "high",
+      "address": "Springfield St at Gate 1A, Wright-Patterson AFB, OH 45433",
+      "latitude": 39.8345,
+      "longitude": -84.0511
+    },
+    {
+      "id": "gate-area-a-harshman",
+      "name": "Area A Gate 1B (Harshman Rd)",
+      "status": "open",
+      "hours": "Mon-Fri 0500-2100; Sat-Sun 0600-2100",
+      "notes": "Alternate access to Area A from Harshman Road.",
+      "traffic": "moderate",
+      "address": "Harshman Rd at Gate 1B, Fairborn, OH 45324",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-area-b-main",
+      "name": "Area B Gate (Skeel Ave / Kettering Blvd)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
+      "notes": "Access to Area B (Gentile ARS / AFLCMC area). Closed weekends — use Area A.",
+      "traffic": "moderate",
+      "address": "Skeel Ave, Dayton, OH 45433",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-visitor-center",
+      "name": "Visitor Control Center (Gate 12-A, Area A)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1300; Sun closed",
+      "notes": "New visitors and guests without base access credentials must stop here.",
+      "traffic": "moderate",
+      "address": "Gate 12-A, Wright-Patterson AFB, OH 45433",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-wpafb-dfac",
+      "name": "Hawk's Nest Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC at Wright-Patterson. Rotating daily menu, salad bar, and grill.",
+      "hours": "Mon-Fri: Bfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Bfast 0800-0930, Lunch 1100-1300, Dinner 1700-1830",
+      "address": "1500 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-3424",
+      "url": "https://www.wpafbfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-liberty-inn-dining",
+      "name": "Liberty Inn Restaurant & Bar",
+      "category": "dining",
+      "description": "All-ranks club dining room and bar at the Liberty Inn / Club at Wright-Patterson.",
+      "hours": "Lunch Tue-Fri 1100-1400; Dinner Tue-Sat 1700-2100; Brunch Sun 1000-1400",
+      "address": "1181 Riverview Dr, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-6551",
+      "url": "https://www.wpafbfss.com/clubs/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-subway-bx",
+      "name": "Subway (BX Food Court)",
+      "category": "dining",
+      "description": "Subway sandwich shop in the Wright-Patterson Exchange food court.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1700",
+      "address": "2130 Sycamore St, BX Building, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-5323",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-charley-bx",
+      "name": "Charley's Grilled Subs (BX Food Court)",
+      "category": "dining",
+      "description": "Charley's Grilled Subs in the Exchange food court.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1700",
+      "address": "2130 Sycamore St, BX Building, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-5323",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-pizza-hut-bx",
+      "name": "Pizza Hut (BX Food Court)",
+      "category": "dining",
+      "description": "Pizza Hut inside the Wright-Patterson Exchange.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1700",
+      "address": "2130 Sycamore St, BX Building, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-5323",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-main-exchange",
+      "name": "Wright-Patterson Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service base exchange with clothing, electronics, optical, barbershop, food court, and Military Star card.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1700",
+      "address": "2130 Sycamore St, Bldg 1284, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-5323",
+      "url": "https://www.shopmyexchange.com/store-locator/wright-patterson-main-exchange",
+      "building": "Bldg 1284"
+    },
+    {
+      "id": "res-wpafb-commissary",
+      "name": "Wright-Patterson Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery store with deli, bakery, and CLICK2GO curbside.",
+      "hours": "Sun 0900-1700; Mon-Fri 0800-1930; Sat 0900-1930",
+      "address": "2130 Sycamore St, Bldg 1250, Wright-Patterson AFB, OH 45433",
+      "phone": "937-200-6112",
+      "url": "https://shop.commissaries.com/stores/wright-patterson-afb",
+      "building": "Bldg 1250"
+    },
+    {
+      "id": "res-wpafb-shoppette",
+      "name": "Shoppette / Class Six",
+      "category": "shopping",
+      "description": "Convenience store with 24-hour access near the dorm area.",
+      "hours": "Open 24/7",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-medical-center",
+      "name": "Wright-Patterson Medical Center (88th MDG)",
+      "category": "medical",
+      "description": "Full-service military treatment facility: primary care, specialty clinics, pharmacy, dental, and behavioral health. Emergency walk-in available.",
+      "hours": "Primary care: Mon-Fri 0730-1630; Emergency/Urgent: Mon-Fri 0730-2000, Sat-Sun 0730-1600; pharmacy: Mon-Fri 0730-1800",
+      "address": "4881 Sugar Maple Dr, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-9924",
+      "url": "https://wpafb.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-dental",
+      "name": "88th Dental Squadron",
+      "category": "medical",
+      "description": "Dental clinic for active-duty personnel and beneficiaries.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "4881 Sugar Maple Dr, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-9924",
+      "url": "https://wpafb.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-pharmacy",
+      "name": "WPAFB Outpatient Pharmacy",
+      "category": "medical",
+      "description": "TRICARE outpatient pharmacy with Express Scripts mail-order option.",
+      "hours": "Mon-Fri 0730-1800; Sat 0800-1200; closed Sun",
+      "address": "4881 Sugar Maple Dr, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-9924",
+      "url": "https://wpafb.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-main-fitness",
+      "name": "McChord Fitness Center (Bldg 840)",
+      "category": "fitness",
+      "description": "Main fitness center: weight room, cardio, racquetball, basketball, group exercise. 24/7 CAC access after registration.",
+      "hours": "Mon-Fri 0530-2100; Sat-Sun 0700-1700; 24/7 CAC access",
+      "address": "Bldg 840, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-7125",
+      "url": "https://www.wpafbfss.com/fitness/",
+      "building": "Bldg 840"
+    },
+    {
+      "id": "res-wpafb-area-b-fitness",
+      "name": "Area B Fitness Center (Bldg 20)",
+      "category": "fitness",
+      "description": "Area B fitness center for Gentile/AFLCMC area personnel.",
+      "hours": "Mon-Fri 0530-2000; Sat 0700-1400; closed Sun",
+      "address": "Bldg 20, Area B, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-9041",
+      "url": "https://www.wpafbfss.com/fitness/",
+      "building": "Bldg 20"
+    },
+    {
+      "id": "res-wpafb-indoor-pool",
+      "name": "WPAFB Aquatic Center (Indoor Pool)",
+      "category": "fitness",
+      "description": "Indoor lap pool with swim lessons and aqua fitness classes.",
+      "hours": "Mon-Fri 0600-1800; Sat 0800-1400; closed Sun",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-7125",
+      "url": "https://www.wpafbfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-wpafb-fcu",
+      "name": "Wright-Patt Credit Union (On-Base Branch)",
+      "category": "finance",
+      "description": "Full-service Wright-Patt FCU office: checking, savings, auto loans, mortgages, and VA home loans. ATM 24/7.",
+      "hours": "Mon-Fri 0830-1700; Sat 0900-1300",
+      "address": "Near BX, Wright-Patterson AFB, OH 45433",
+      "phone": "937-912-7000",
+      "url": "https://www.wpcu.coop/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-usaa-atm",
+      "name": "USAA ATM (Near BX)",
+      "category": "finance",
+      "description": "USAA surcharge-free ATM near the Main Exchange.",
+      "hours": "ATM available 24/7",
+      "address": "BX Area, Wright-Patterson AFB, OH 45433",
+      "phone": "800-531-8722",
+      "url": "https://www.usaa.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-finance-office",
+      "name": "88 CPTS Finance Customer Service",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance actions.",
+      "hours": "Mon-Fri 0730-1600 (closed Wed afternoons for training)",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-4007",
+      "url": "https://www.wpafb.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-mpf",
+      "name": "88th Force Support Squadron (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, retirements. Use RAPIDS.mil for ID card appointments.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-1776",
+      "url": "https://www.wpafbfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-fss",
+      "name": "88th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs, dining, fitness, and recreation at Wright-Patterson.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-1110",
+      "url": "https://www.wpafbfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial counseling, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-3592",
+      "url": "https://www.wpafbfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-housing-office",
+      "name": "88 ABW Housing Office",
+      "category": "housing",
+      "description": "Government and privatized family housing (LendLease/Liberty Military Housing) assignments and referrals.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-6881",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/wright-patterson-afb/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-af-inn",
+      "name": "Visiting Officers/Airmen Quarters (Falcon Inn)",
+      "category": "housing",
+      "description": "On-base TDY and PCS in-transit lodging. Reserve via AF Reservations.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-3311",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-dorm-management",
+      "name": "Dormitory Management Office",
+      "category": "housing",
+      "description": "Unaccompanied housing management for eligible permanent-party E-1 to E-3.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-5218",
+      "url": "https://www.wpafb.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-kittyhawk-golf",
+      "name": "Kittyhawk Golf Course",
+      "category": "recreation",
+      "description": "18-hole championship course with pro shop and grill. One of two courses at WPAFB.",
+      "hours": "Daily sunrise to sunset; pro shop 0700-1800",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-4653",
+      "url": "https://www.wpafbfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-huffman-golf",
+      "name": "Huffman Prairie Golf Course",
+      "category": "recreation",
+      "description": "Shorter 9-hole course ideal for beginners and quick rounds.",
+      "hours": "Daily sunrise to sunset; staffed seasonally",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-4653",
+      "url": "https://www.wpafbfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-bowling",
+      "name": "5th Force Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with food, arcade, and league play.",
+      "hours": "Tue-Thu 1200-2100; Fri 1200-2200; Sat 1200-2200; Sun 1300-1900; closed Mon",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-7093",
+      "url": "https://www.wpafbfss.com/bowling/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, camping gear, tickets, and outdoor adventure programs.",
+      "hours": "Mon-Fri 0900-1700; Sat 0900-1500",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-9378",
+      "url": "https://www.wpafbfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-air-force-museum",
+      "name": "National Museum of the U.S. Air Force",
+      "category": "recreation",
+      "description": "World's largest military aviation museum — free admission. Over 360 aerospace vehicles across 19 acres.",
+      "hours": "Daily 0900-1700; closed Thanksgiving and Christmas",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "phone": "937-255-3286",
+      "url": "https://www.nationalmuseum.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-auto-hobby",
+      "name": "Auto Hobby Shop",
+      "category": "recreation",
+      "description": "DIY vehicle maintenance with bays, lifts, and hand tools.",
+      "hours": "Tue-Sat 0900-1700",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-4100",
+      "url": "https://www.wpafbfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-vcc",
+      "name": "WPAFB Visitor Control Center",
+      "category": "safety",
+      "description": "Day and temporary visitor passes. REAL ID required; non-compliant IDs require additional vetting.",
+      "hours": "Mon-Fri 0600-1800; Sat 0700-1300",
+      "address": "Gate 12-A, Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-6516",
+      "url": "https://www.wpafb.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-wpafb-security-forces",
+      "name": "88th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and pass & registration.",
+      "hours": "24/7",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "phone": "937-257-6516",
+      "url": "https://www.wpafb.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "wpafb-evt-1",
+      "title": "AFMC Innovation Summit",
+      "date": "2026-09-15T08:00:00Z",
+      "endDate": "2026-09-15T17:00:00Z",
+      "location": "National Museum of the U.S. Air Force",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Annual innovation and technology showcase for AFMC personnel and industry partners.",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-evt-2",
+      "title": "Newcomers Welcome Brief",
+      "date": "2026-07-21T08:00:00Z",
+      "endDate": "2026-07-21T12:00:00Z",
+      "location": "88 FSS Community Center",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "description": "Monthly newcomers orientation for incoming personnel and families.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "In-Processing / Newcomers Page",
+      "url": "https://www.wpafb.af.mil/Newcomers/",
+      "phone": "937-257-1110",
+      "address": "Wright-Patterson AFB, OH 45433"
+    },
+    "moreInfoURL": "https://www.wpafb.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical/dental records, marriage and birth certificates, and all travel receipts for finance.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing",
+        "body": "Check in with your gaining unit and complete MPF in-processing within 5 duty days. The base has both Area A and Area B — confirm which area your unit is in before arrival.",
+        "links": [
+          {
+            "id": "link-1",
+            "title": "WPAFB Newcomers",
+            "url": "https://www.wpafb.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Housing at 937-257-6881 before arrival. Privatized family housing (Liberty Military Housing). Lodging: Falcon Inn 937-257-3311. Dorm management: 937-257-5218.",
+        "links": [
+          {
+            "id": "link-2",
+            "title": "WPAFB Housing",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/wright-patterson-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "National Museum of the USAF",
+        "body": "World's largest military aviation museum is on base — free admission daily 0900-1700. Great orientation resource for families new to Air Force history.",
+        "links": [
+          {
+            "id": "link-3",
+            "title": "USAF Museum",
+            "url": "https://www.nationalmuseum.af.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Key contacts: BDOC 937-257-6516 | Housing 937-257-6881 | MPF 937-257-1776 | Medical 937-257-9924 | FSS 937-257-1110.",
+        "links": [
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/wright-patterson-air-force-base"
+          },
+          {
+            "id": "link-bd",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

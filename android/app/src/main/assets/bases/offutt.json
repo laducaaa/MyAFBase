@@ -1,0 +1,315 @@
+{
+  "id": "offutt",
+  "name": "Offutt AFB",
+  "fullName": "Offutt Air Force Base",
+  "location": "Bellevue, NE",
+  "description": "Home of U.S. Strategic Command and the 55th Wing. Offutt AFB provides global ISR, strategic deterrence support, and is a major intelligence and reconnaissance hub.",
+  "wing": "55 WG",
+  "latitude": 41.1183,
+  "longitude": -95.915,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "offutt-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Offutt AFB Security Forces",
+      "number": "402-294-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "402-294-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "402-294-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-stratcom",
+      "name": "STRATCOM Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 gate. After-hours visitor passes when VCC closed.",
+      "traffic": "high",
+      "address": "Capehart Rd, Offutt AFB, NE 68113",
+      "latitude": 41.1183,
+      "longitude": -95.915
+    },
+    {
+      "id": "gate-kenney",
+      "name": "Kenney (Flag) Gate",
+      "status": "open",
+      "hours": "Daily 0600-2100",
+      "notes": "Primary visitor gate off Fort Crook Rd.",
+      "traffic": "high",
+      "address": "Fort Crook Rd, Offutt AFB, NE 68113",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-bellevue",
+      "name": "Bellevue Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed federal holidays, ACC Family Days, and Wing Goal Days",
+      "notes": "Weekday access from Bellevue.",
+      "traffic": "moderate",
+      "address": "Bellevue Gate, Offutt AFB, NE 68113",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; closed federal holidays, ACC Family Days, and Wing Goal Days",
+      "notes": "Day passes and visitor registration.",
+      "traffic": "moderate",
+      "address": "Offutt AFB, NE 68113",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-offutt-dfac-king",
+      "name": "Ronald L. King Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC closed for renovations and transition to Air Force Food 2.0. Will reopen as campus-style dining open to all DoD ID cardholders.",
+      "hours": "Currently closed for renovations — follow 55 FSS for reopening updates",
+      "address": "Bldg 324, Offutt AFB, NE 68113",
+      "phone": "402-294-3980",
+      "url": "https://offutt55fss.com/ronald-l-king-dining-facility/",
+      "building": "Bldg 324"
+    },
+    {
+      "id": "res-offutt-commissary",
+      "name": "Offutt AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "Bldg 107, Offutt AFB, NE 68113",
+      "phone": "402-294-4330",
+      "url": "https://shop.commissaries.com/",
+      "building": "Bldg 107"
+    },
+    {
+      "id": "res-offutt-bx",
+      "name": "Offutt Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Offutt Main Exchange with food court (Charley's, Anthony's Pizza), barber, beauty shop, optical, GNC, dry cleaning, and Class Six.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "Bldg 165, Offutt AFB, NE 68113",
+      "phone": "402-291-9101",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 165"
+    },
+    {
+      "id": "res-offutt-cobalt-cu",
+      "name": "Cobalt Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 335, Offutt AFB, NE 68113",
+      "phone": "402-292-8000",
+      "url": null,
+      "building": "Bldg 335"
+    },
+    {
+      "id": "res-offutt-fitness-fieldhouse",
+      "name": "Offutt Field House",
+      "category": "fitness",
+      "description": "Largest fitness center in DoD with 0.4-mile track, racquetball, tactical fitness, tennis, soccer, basketball, indoor pool, and group fitness.",
+      "hours": "Mon-Fri 0500-2100; Sat-Sun 0700-1700; 24/7 CAC access after registration",
+      "address": "106 Peacekeeper Dr, Offutt AFB, NE 68113",
+      "phone": "402-294-2200",
+      "url": "https://www.offuttforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Offutt AFB, NE 68113",
+      "phone": "402-294-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-lodging",
+      "name": "Air Force Inns (Offutt Inns)",
+      "category": "housing",
+      "description": "Official temporary lodging including DVQ and family quarters. 24-hour front desk and continental breakfast.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "906 SAC Blvd, Offutt AFB, NE 68113",
+      "phone": "402-281-1292",
+      "url": "https://offutt55fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, EFMP, school liaison, and family programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "705 Nelson Drive, Offutt AFB, NE 68113",
+      "phone": "402-294-4329",
+      "url": "https://offutt55fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-55-fss",
+      "name": "55th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Offutt AFB, NE 68113",
+      "phone": "402-294-2200",
+      "url": "https://www.offuttforcesupport.com/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Offutt AFB, NE 68113",
+      "phone": "402-294-2200",
+      "url": "https://offutt55fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-bowling",
+      "name": "Peacekeeper Lanes Bowling Center",
+      "category": "recreation",
+      "description": "20-lane bowling center in Martin Bomber Building basement with Kegler Kafe snack bar and cosmic bowling weekends.",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "106 Peacekeeper Dr, Bldg D, Offutt AFB, NE 68113",
+      "phone": "402-294-2200",
+      "url": "https://www.offuttforcesupport.com/",
+      "building": "Martin Bomber Bldg"
+    },
+    {
+      "id": "res-offutt-golf",
+      "name": "Willow Lakes Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop open year-round.",
+      "hours": "Seasonal; call for tee times",
+      "address": "Offutt AFB, NE 68113",
+      "phone": "402-294-3530",
+      "url": "https://offutt55fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-medical",
+      "name": "55th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Offutt AFB, NE 68113",
+      "phone": "402-294-6481",
+      "url": "https://offutt.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-offutt-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0700-1600",
+      "address": "Bldg 478, adjacent to STRATCOM Gate, Offutt AFB, NE 68113",
+      "phone": "402-294-4138",
+      "url": "https://www.offutt.af.mil/Resources/Newcomer/",
+      "building": "Bldg 478"
+    },
+    {
+      "id": "res-offutt-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Offutt AFB, Bellevue, NE",
+      "phone": "402-294-1110",
+      "url": "https://www.offutt.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 478)",
+      "url": "https://www.offutt.af.mil/Resources/Newcomer/",
+      "phone": "402-294-7551",
+      "address": "Bldg 478, adjacent to STRATCOM Gate, Offutt AFB, NE 68113"
+    },
+    "moreInfoURL": "https://www.offutt.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Air Force Inns (402-281-1292) for initial arrival. Dormitory Management for unaccompanied housing. Family housing through Rising View Community.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/offutt-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "55 FSS, M&FRC, and official Offutt sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "55th Force Support Squadron",
+            "url": "https://offutt55fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://offutt55fss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

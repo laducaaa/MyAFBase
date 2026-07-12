@@ -1,0 +1,5 @@
+# Copy to gradle.properties and fill in optional values (do not commit secrets).
+
+# Google Maps SDK for Android — required for Explore embedded map tiles.
+# Enable "Maps SDK for Android" on your Google Cloud API key.
+MAPS_API_KEY=your_key_here

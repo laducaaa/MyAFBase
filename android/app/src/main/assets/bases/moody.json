@@ -1,0 +1,478 @@
+{
+  "id": "moody",
+  "name": "Moody AFB",
+  "fullName": "Moody Air Force Base",
+  "location": "Valdosta, GA",
+  "description": "Home of the 23rd Wing, Moody AFB projects combat search and rescue and close air support capabilities worldwide. The installation hosts A-10C Thunderbolt II, HC-130J Combat King II, and HH-60W Jolly Green II operations in South Georgia.",
+  "wing": "23 WG",
+  "latitude": 30.9678,
+  "longitude": -83.193,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "moody-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Control Center at the Main Gate.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "229-257-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "On-Base Emergency (Cell)",
+      "number": "229-257-9117"
+    },
+    {
+      "id": "em-4",
+      "label": "Base Operator / Phone Menu",
+      "number": "229-257-1110"
+    },
+    {
+      "id": "em-5",
+      "label": "23rd Medical Group Appointments",
+      "number": "229-257-2778"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Moody Pkwy)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate on GA-125. Visitor Control Center located to the right of the security checkpoint — do not approach the gate for visitor passes.",
+      "traffic": "high",
+      "address": "Bemiss Rd & Davidson Rd (Moody Pkwy), Moody AFB, GA 31699",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-quiet-pines",
+      "name": "Quiet Pines Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 alternate access on GA-125 north of the Main Gate. Convenient for Hahira and north-corridor commuters.",
+      "traffic": "moderate",
+      "address": "GA-125 & Prewitte St, Moody AFB, GA 31699",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-2000",
+      "notes": "Closed weekends and federal holidays. Best access for North Lowndes County and northern Hahira. 23rd Medical Group is just inside this gate.",
+      "traffic": "moderate",
+      "address": "Bemiss Rd & Mitchell Blvd, Moody AFB, GA 31699",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Mon-Fri 1600-1800 (outbound only)",
+      "notes": "Outbound traffic only — not available for inbound access. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Bemiss Rd & Radar Site Rd, Moody AFB, GA 31699",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Main Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0730-1630",
+      "notes": "Walk-in visitor passes and background checks. Closed weekends and federal holidays. REAL ID required. Pre-register visitors via DBIDS/DVES when possible.",
+      "traffic": "moderate",
+      "address": "9320 Davidson Rd, Bldg 16, Moody AFB, GA 31699",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-moody-dfac",
+      "name": "Georgia Pines Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC with salad bar, hot and cold sandwich station, rotating specialties, and ethnic meals. Boxed meals available for exercises with advance notice.",
+      "hours": "Mon-Fri: Breakfast 0630-0900, Lunch 1100-1330, Dinner 1630-1900; Weekends/Holidays: Brunch 0800-1300, Supper 1630-1800; Late Night Sun-Thu 2230-0000, Fri-Sat 2330-0030",
+      "address": "7255 Robbins Rd, Bldg 571, Moody AFB, GA 31699",
+      "phone": "229-257-3032",
+      "url": "https://moody23fss.com/dining-facility/",
+      "building": "Bldg 571"
+    },
+    {
+      "id": "res-moody-field-club",
+      "name": "Moody Field Club",
+      "category": "dining",
+      "description": "Air Force Club with daily lunch specials, Wing Wednesday wings, catering, and event hosting. Club membership discounts available.",
+      "hours": "Taco Tuesday and Mongolian Mon/Tue 1100-1330; Wing Wednesday 1600-1900; event calendar at moodyfss.com",
+      "address": "4251 George St, Bldg 901, Moody AFB, GA 31699",
+      "phone": "229-257-4530",
+      "url": "https://moody23fss.com/field-club/",
+      "building": "Bldg 901"
+    },
+    {
+      "id": "res-moody-fore-grille",
+      "name": "FORE Grille & Tap (Quiet Pines Golf Course)",
+      "category": "dining",
+      "description": "Breakfast and lunch grille at Quiet Pines Golf Course. Open to the public with daily lunch specials and catering.",
+      "hours": "Breakfast Mon-Fri 0700-0930; Lunch Mon-Fri 1100-1330",
+      "address": "15501 Prewitte St, Bldg 1806, Moody AFB, GA 31699",
+      "phone": "229-257-5850",
+      "url": "https://moody23fss.com/",
+      "building": "Bldg 1806"
+    },
+    {
+      "id": "res-moody-bx",
+      "name": "Moody AFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, beauty shop, and optical.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1800",
+      "address": "4343 George St, Bldg 904, Moody AFB, GA 31699",
+      "phone": "229-257-3431",
+      "url": "https://www.shopmyexchange.com/store-locator/moody-main-exchange",
+      "building": "Bldg 904"
+    },
+    {
+      "id": "res-moody-shoppette",
+      "name": "BX Shoppette / Class Six",
+      "category": "shopping",
+      "description": "Convenience store and gas station near the DFAC and north side of the installation.",
+      "hours": "Mon-Fri 0600-1200; Sat-Sun 0800-2200",
+      "address": "7277 Robbins Rd, Moody AFB, GA 31699",
+      "phone": "229-257-3451",
+      "url": "https://www.shopmyexchange.com/store-locator/moody-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-moody-commissary",
+      "name": "Moody AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery with CLICK2GO curbside pickup.",
+      "hours": "Sun 1000-1800; Mon CLOSED; Tue-Fri 0800-1900; Sat 0900-1800",
+      "address": "4333 George St, Bldg 902, Moody AFB, GA 31699",
+      "phone": "229-281-6076",
+      "url": "https://shop.commissaries.com/stores/moody-afb",
+      "building": "Bldg 902"
+    },
+    {
+      "id": "res-moody-medical",
+      "name": "23rd Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory MTF just inside the North Gate — family medicine, pediatrics, women's health, physical therapy, behavioral health, lab, and immunizations. No emergency department on base; call 911 for emergencies.",
+      "hours": "Mon-Fri 0730-1630; appointments via 229-257-2778 or TRICARE Online",
+      "address": "3278 Mitchell Blvd, Bldg 900, Moody AFB, GA 31699",
+      "phone": "229-257-2778",
+      "url": "https://moody.tricare.mil/",
+      "building": "Bldg 900"
+    },
+    {
+      "id": "res-moody-dental",
+      "name": "23rd Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon/Wed/Fri 0730-1130 & 1300-1600; Tue/Thu 0730-1200 & 1300-1600",
+      "address": "3278 Mitchell Blvd, Bldg 900, Moody AFB, GA 31699",
+      "phone": "229-257-3196",
+      "url": "https://moody.tricare.mil/",
+      "building": "Bldg 900"
+    },
+    {
+      "id": "res-moody-pharmacy",
+      "name": "23rd Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "3278 Mitchell Blvd, Bldg 900, Moody AFB, GA 31699",
+      "phone": "229-257-2778",
+      "url": "https://moody.tricare.mil/",
+      "building": "Bldg 900"
+    },
+    {
+      "id": "res-moody-fitness",
+      "name": "Moody AFB Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center with weight room, cardio, group exercise, parent-child area, and intramural sports. Register CAC at front desk for 24-hour access.",
+      "hours": "Staffed Mon-Fri 0500-2000; Sat-Sun/Holidays 24/7 CAC access only",
+      "address": "4851 Burrell St, Bldg 404, Moody AFB, GA 31699",
+      "phone": "229-257-6679",
+      "url": "https://moody23fss.com/fitness-center/",
+      "building": "Bldg 404"
+    },
+    {
+      "id": "res-moody-credit-union",
+      "name": "Southeastern Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with deposit accounts, loans, and ATM on the BX complex.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "3205 Mitchell Blvd, Bldg 206, Moody AFB, GA 31699",
+      "phone": "229-244-2732",
+      "url": "https://southeasterncu.com/locations-hours",
+      "building": "Bldg 206"
+    },
+    {
+      "id": "res-moody-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "23 Flying Tiger Way, Bldg 105, Moody AFB, GA 31699",
+      "phone": "229-257-5233",
+      "url": "https://www.moody.af.mil/",
+      "building": "Bldg 105"
+    },
+    {
+      "id": "res-moody-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0730-1630; CAC walk-in Mon-Fri 0800-1100",
+      "address": "23 Flying Tiger Way, Bldg 105, Moody AFB, GA 31699",
+      "phone": "229-257-4660",
+      "url": "https://moody23fss.com/",
+      "building": "Bldg 105"
+    },
+    {
+      "id": "res-moody-fss",
+      "name": "23rd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Moody AFB, Valdosta, GA 31699",
+      "phone": "229-257-3333",
+      "url": "https://moody23fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-moody-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial readiness, employment assistance, EFMP, TAP, Key Spouse, and newcomers briefing.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "4851 Burrell St, Bldg 404, Moody AFB, GA 31699",
+      "phone": "229-257-3333",
+      "url": "https://moody23fss.com/military-family-readiness-center/",
+      "building": "Bldg 404"
+    },
+    {
+      "id": "res-moody-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Pinnacle Family Housing) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "3131 Coney St, Bldg 320, Moody AFB, GA 31699",
+      "phone": "229-257-4417",
+      "url": "https://www.housing.af.mil/Home/Installations/Moody-AFB/",
+      "building": "Bldg 320"
+    },
+    {
+      "id": "res-moody-lodge",
+      "name": "Moody Inn (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites. Pet-friendly rooms available. Reservations on first-come, first-served basis.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "3213 Mitchell Blvd, Bldg 201, Moody AFB, GA 31699",
+      "phone": "229-257-3893",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 201"
+    },
+    {
+      "id": "res-moody-dorm",
+      "name": "Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Dorm management for unaccompanied enlisted personnel.",
+      "hours": "Mon-Fri 0730-1600",
+      "address": "5350 Berger Dr, Bldg 547, Moody AFB, GA 31699",
+      "phone": "229-257-2682",
+      "url": "https://www.housing.af.mil/Home/Installations/Moody-AFB/",
+      "building": "Bldg 547"
+    },
+    {
+      "id": "res-moody-outdoor-adventures",
+      "name": "Outdoor Adventures & ITT",
+      "category": "recreation",
+      "description": "Adventure trips — kayaking, zip lining, deep sea fishing, horseback riding, and more. Equipment rental co-located.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "4379 George St, Bldg 840, Moody AFB, GA 31699",
+      "phone": "229-257-1375",
+      "url": "https://moody23fss.com/outdoor-adventures/",
+      "building": "Bldg 840"
+    },
+    {
+      "id": "res-moody-equipment-rental",
+      "name": "Outdoor Recreation Equipment Rental",
+      "category": "recreation",
+      "description": "Camping gear, bounce houses, boats, trailers, and hunting/fishing permits. Reservations in person up to 30 days in advance.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "4379 George St, Bldg 840, Moody AFB, GA 31699",
+      "phone": "229-257-2989",
+      "url": "https://moody23fss.com/equipment-rental/",
+      "building": "Bldg 840"
+    },
+    {
+      "id": "res-moody-golf",
+      "name": "Quiet Pines Golf Course",
+      "category": "recreation",
+      "description": "18-hole course established in 1968, now operated by Lowndes County under an IGSA. FORE Grille & Tap and pro shop on site. Open to the public.",
+      "hours": "See Lowndes County Quiet Pines for current tee times and pro shop hours",
+      "address": "15501 Prewitte St, Bldg 1806, Moody AFB, GA 31699",
+      "phone": "229-257-3297",
+      "url": "https://moody23fss.com/",
+      "building": "Bldg 1806"
+    },
+    {
+      "id": "res-moody-bowling",
+      "name": "The SPOT Bowling Center",
+      "category": "recreation",
+      "description": "Recreational and league bowling with Multiverse Escape Room. Dorm residents receive 2 free games daily.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "6251 Davis St, Bldg 583, Moody AFB, GA 31699",
+      "phone": "229-257-1690",
+      "url": "https://moody23fss.com/bowling-center/",
+      "building": "Bldg 583"
+    },
+    {
+      "id": "res-moody-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. All visitors require a pass. Pre-register via DBIDS/DVES. REAL ID required.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "9320 Davidson Rd, Bldg 16, Moody AFB, GA 31699",
+      "phone": "229-257-4158",
+      "url": "https://www.moody.af.mil/Newcomers/",
+      "building": "Bldg 16"
+    },
+    {
+      "id": "res-moody-security-forces",
+      "name": "Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations.",
+      "hours": "24/7",
+      "address": "Moody AFB, Valdosta, GA 31699",
+      "phone": "229-257-3421",
+      "url": "https://www.moody.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "moody-evt-backpack-bash",
+      "title": "Backpack to School Bash",
+      "date": "2026-07-24T13:00:00Z",
+      "endDate": "2026-07-24T16:00:00Z",
+      "location": "Outdoor Adventures",
+      "address": "4379 George St, Bldg 840, Moody AFB, GA 31699",
+      "description": "Back-to-school community event with family activities hosted by Outdoor Adventures.",
+      "category": "family"
+    },
+    {
+      "id": "moody-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-16T14:00:00Z",
+      "endDate": "2026-07-16T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "4851 Burrell St, Bldg 404, Moody AFB, GA 31699",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Moody AFB Visitor Control Center",
+      "url": "https://www.moody.af.mil/Newcomers/",
+      "phone": "229-257-4158",
+      "address": "9320 Davidson Rd, Bldg 16, Moody AFB, GA 31699"
+    },
+    "moreInfoURL": "https://www.moody.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance in Bldg 105 for travel voucher.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.moody.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Moody Inn offers temporary lodging — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Moody-AFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Moody Inn",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "Main Gate and Quiet Pines Gate are open 24/7. North Gate is Mon-Fri 0600-2000. South Gate is outbound only Mon-Fri 1600-1800. Visitor Control Center hours are Mon-Fri 0730-1630. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Gate Hours",
+            "url": "https://www.moody.af.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Moody AFB Official Site",
+            "url": "https://www.moody.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "23rd Force Support Squadron",
+            "url": "https://moody23fss.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "23rd Medical Group",
+            "url": "https://moody.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -9,6 +9,7 @@ enum ModelContainerFactory {
         AssignmentProfile.self,
         WAREntry.self,
         WARAwardDeadline.self,
+        PFRARecord.self,
     ])
 
     private static var isPreviewRuntime: Bool {
@@ -51,7 +52,7 @@ enum ModelContainerFactory {
         // other data.
         let readinessConfig = ModelConfiguration(
             "LocalReadiness",
-            schema: Schema([ReadinessTracker.self, WAREntry.self, WARAwardDeadline.self]),
+            schema: Schema([ReadinessTracker.self, WAREntry.self, WARAwardDeadline.self, PFRARecord.self]),
             cloudKitDatabase: .none
         )
         let cloudConfig = ModelConfiguration(
@@ -82,6 +83,8 @@ struct AppStores {
     let checklistStore: ChecklistStore
     let assignmentProfileStore: AssignmentProfileStore
     let warTrackerStore: WARTrackerStore
+    let pfraProfileStore: PFRAProfileStore
+    let pfraRecordStore: PFRARecordStore
 
     init(modelContext: ModelContext) {
         bookmarkStore = BookmarkStore(modelContext: modelContext)
@@ -89,6 +92,8 @@ struct AppStores {
         checklistStore = ChecklistStore(modelContext: modelContext)
         assignmentProfileStore = AssignmentProfileStore(modelContext: modelContext)
         warTrackerStore = WARTrackerStore(modelContext: modelContext)
+        pfraProfileStore = PFRAProfileStore()
+        pfraRecordStore = PFRARecordStore(modelContext: modelContext)
     }
 
     init(
@@ -96,13 +101,17 @@ struct AppStores {
         readinessTrackerStore: ReadinessTrackerStore,
         checklistStore: ChecklistStore,
         assignmentProfileStore: AssignmentProfileStore,
-        warTrackerStore: WARTrackerStore
+        warTrackerStore: WARTrackerStore,
+        pfraProfileStore: PFRAProfileStore,
+        pfraRecordStore: PFRARecordStore
     ) {
         self.bookmarkStore = bookmarkStore
         self.readinessTrackerStore = readinessTrackerStore
         self.checklistStore = checklistStore
         self.assignmentProfileStore = assignmentProfileStore
         self.warTrackerStore = warTrackerStore
+        self.pfraProfileStore = pfraProfileStore
+        self.pfraRecordStore = pfraRecordStore
     }
 }
 

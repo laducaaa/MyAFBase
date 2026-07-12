@@ -1,0 +1,326 @@
+{
+  "id": "goodfellow",
+  "name": "Goodfellow AFB",
+  "fullName": "Goodfellow Air Force Base",
+  "location": "San Angelo, TX",
+  "description": "Home of the 17th Training Wing, Goodfellow AFB trains intelligence, surveillance, reconnaissance, and fire protection professionals. Major hub for ISR training.",
+  "wing": "17 TRW",
+  "latitude": 31.4327,
+  "longitude": -100.4056,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "goodfellow-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-goodfellow-1",
+      "label": "Goodfellow Security Forces",
+      "number": "325-654-3421"
+    },
+    {
+      "id": "em-goodfellow-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-goodfellow-3",
+      "label": "Base Operator",
+      "number": "325-654-1110"
+    },
+    {
+      "id": "em-goodfellow-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "325-654-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate-kearney-blvd",
+      "name": "Main Gate (Kearney Blvd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary visitor processing and 24/7 access point.",
+      "traffic": "moderate",
+      "address": "Kearney Blvd, Goodfellow AFB, TX 76908",
+      "latitude": 31.4327,
+      "longitude": -100.4056
+    },
+    {
+      "id": "gate-south-gate",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Alternate access for south side facilities.",
+      "traffic": "low",
+      "address": "S Gate Rd, Goodfellow AFB, TX 76908",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600",
+      "notes": "Visitor passes and registration at Main Gate area.",
+      "traffic": "moderate",
+      "address": "Main Gate, Kearney Blvd, Goodfellow AFB, TX 76908",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-goodfellow-dfac-main",
+      "name": "Crossroads Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary DFAC serving permanent party and students with full meal service.",
+      "hours": "Mon-Fri: Breakfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; weekends vary",
+      "address": "351 Kearney Blvd, Goodfellow AFB, TX 76908",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/dining/",
+      "building": "Bldg 1000"
+    },
+    {
+      "id": "res-goodfellow-bx",
+      "name": "Goodfellow AFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, food court, gas station, and barber shop.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "351 Kearney Blvd, Goodfellow AFB, TX 76908",
+      "phone": "325-654-4318",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-commissary",
+      "name": "Goodfellow AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery store.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "351 Kearney Blvd, Goodfellow AFB, TX 76908",
+      "phone": "325-654-4318",
+      "url": "https://shop.commissaries.com/stores/goodfellow-afb",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-credit-union",
+      "name": "First Financial Credit Union",
+      "category": "finance",
+      "description": "Full-service credit union with checking, loans, and ATM services.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-659-0196",
+      "url": "https://www.ffcu.org/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-atm-bx",
+      "name": "BX ATM (24/7)",
+      "category": "finance",
+      "description": "24/7 ATM at the Main Exchange.",
+      "hours": "Open 24/7",
+      "address": "BX area, Goodfellow AFB, TX 76908",
+      "phone": null,
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-fitness",
+      "name": "Goodfellow Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports courts.",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0800-1800; 24/7 for registered CAC holders",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-2972",
+      "url": "https://www.goodfellowfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for students and permanent party.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-lodging",
+      "name": "Goodfellow Inn / AF Lodging",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-3311",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, financial counseling, employment support, family programs, and readiness services.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-4358",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-fss",
+      "name": "17th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, RV storage, and recreational programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-medical",
+      "name": "17th Medical Group",
+      "category": "medical",
+      "description": "Primary care, TRICARE support, and emergency services coordination.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Goodfellow AFB, San Angelo, TX",
+      "phone": "325-654-2273",
+      "url": "https://goodfellow.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-bowling",
+      "name": "Goodfellow Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-4949",
+      "url": "https://goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0700-1600",
+      "address": "Main Gate, Kearney Blvd, Goodfellow AFB, TX 76908",
+      "phone": "325-654-3933",
+      "url": "https://www.goodfellow.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Goodfellow AFB, San Angelo, TX",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-goodfellow-golf",
+      "name": "Goodfellow Golf Course",
+      "category": "recreation",
+      "description": "9-hole golf course with pro shop.",
+      "hours": "Daily 0700-dusk, weather permitting",
+      "address": "Goodfellow AFB, TX 76908",
+      "phone": "325-654-1110",
+      "url": "https://www.goodfellowfss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.goodfellow.af.mil/",
+      "phone": "325-654-3933",
+      "address": "Main Gate, Kearney Blvd, Goodfellow AFB, TX 76908"
+    },
+    "moreInfoURL": "https://www.goodfellowfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit. Goodfellow Inn (325-654-3311) for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (325-654-5218) for unaccompanied housing or Goodfellow Inn (325-654-3311) for temporary lodging.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Contact M&FRC at 325-654-4358 if no sponsor assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "17 TRW FSS and M&FRC for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "17th Force Support Squadron",
+            "url": "https://www.goodfellowfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.goodfellowfss.com/"
+          }
+        ]
+      }
+    ]
+  }
+}

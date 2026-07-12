@@ -1,0 +1,381 @@
+{
+  "id": "hill",
+  "name": "Hill AFB",
+  "fullName": "Hill Air Force Base",
+  "location": "Hill AFB, UT",
+  "description": "Home to the Ogden Air Logistics Complex and major aircraft maintenance for Air Force Materiel Command. Supports F-35, T-7A, and other critical programs. Largest single-site employer in Utah.",
+  "wing": "75 ABW / Ogden ALC",
+  "latitude": 41.124,
+  "longitude": -111.973,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "hill-notif-1",
+      "title": "T-7A and F-35 Campus Construction",
+      "body": "Groundbreaking and ongoing construction for new T-7A and F-35 facilities. Expect minor traffic impacts in east campus areas.",
+      "type": "info",
+      "postedAt": "2026-06-10T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-hill-1",
+      "label": "Hill Security Forces",
+      "number": "801-777-5201"
+    },
+    {
+      "id": "em-hill-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-hill-3",
+      "label": "Base Operator",
+      "number": "801-777-1110"
+    },
+    {
+      "id": "em-hill-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "801-777-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-south",
+      "name": "South Gate (Main 24/7)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate. Recommended for first-time arrivals. South Gate Visitor Center Mon-Fri 0700-1600.",
+      "traffic": "high",
+      "address": "South Gate, Hill AFB, UT 84056",
+      "latitude": 41.124,
+      "longitude": -111.973
+    },
+    {
+      "id": "gate-vcc",
+      "name": "South Gate Visitor Center",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. Open on AFMC Family Days. Phone: 801-777-8631.",
+      "traffic": "moderate",
+      "address": "South Gate, Hill AFB, UT 84056",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-west",
+      "name": "West Gate (Main)",
+      "status": "open",
+      "hours": "Mon-Fri 0400-2200; Sat-Sun 0800-1800; closed federal holidays and AFMC Family Days",
+      "notes": "High-traffic commuter gate with Visitor Center access.",
+      "traffic": "high",
+      "address": "West Gate, Hill AFB, UT 84056",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0430-1700; closed weekends and federal holidays; open AFMC Family Days",
+      "notes": "Commercial vehicle inspections Mon-Fri 0600-1500. After-hours commercial contact BDOC 801-777-3058.",
+      "traffic": "moderate",
+      "address": "North Gate, Hill AFB, UT 84056",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-roy",
+      "name": "Roy Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0400-2000; closed weekends and federal holidays",
+      "notes": "Weekday commuter access.",
+      "traffic": "low",
+      "address": "Roy Gate, Hill AFB, UT 84056",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-southwest",
+      "name": "Southwest Gate",
+      "status": "open",
+      "hours": "Mon-Fri: 0600-0800 inbound/outbound; 1430-1700 outbound only",
+      "notes": "Limited weekday access. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Southwest Gate, Hill AFB, UT 84056",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-hill-hillcrest-dfac",
+      "name": "HillCrest Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC serving Hill AFB personnel with full meal service and flight meals.",
+      "hours": "Mon-Fri: Bfast 0530-0800, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun: Bfast 0800-0930, Lunch 1100-1300, Dinner 1700-1830",
+      "address": "5757 D Ave, Bldg 519, Hill AFB, UT 84056",
+      "phone": "801-777-3428",
+      "url": "https://hillfss.com/military-dining-facilities/",
+      "building": "Bldg 519"
+    },
+    {
+      "id": "res-hill-fast-eddies-dfac",
+      "name": "Fast Eddies Dining Facility",
+      "category": "dining",
+      "description": "Secondary DFAC serving Hill AFB personnel.",
+      "hours": "See Hill FSS for posted meal hours",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-8172",
+      "url": "https://hillfss.com/military-dining-facilities/",
+      "building": null
+    },
+    {
+      "id": "res-hill-bx",
+      "name": "Hill AFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Hill AFB Main Exchange with food court (Burger King, Popeye's), barber, beauty shop, optical, and GNC.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1100-1800",
+      "address": "7451 S 1500 W, Hill AFB, UT 84056",
+      "phone": "801-777-2846",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-commissary",
+      "name": "Hill AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "7451 S 1500 W, Bldg 450, Hill AFB, UT 84056",
+      "phone": "801-777-3456",
+      "url": "https://shop.commissaries.com/stores/hill-afb",
+      "building": null
+    },
+    {
+      "id": "res-hill-credit-union",
+      "name": "Utah First Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with checking, savings, loans, and 24/7 ATM access.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-320-6000",
+      "url": "https://www.utahfirst.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-atm-main",
+      "name": "Main BX ATM (24/7)",
+      "category": "finance",
+      "description": "24/7 ATM located at the Main Exchange.",
+      "hours": "Open 24/7",
+      "address": "BX area, Hill AFB, UT 84056",
+      "phone": null,
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-hill-fitness-main",
+      "name": "Warrior Fitness Center",
+      "category": "fitness",
+      "description": "Main staffed fitness center. Register CAC here for 24/7 Hess Fitness Center access.",
+      "hours": "Mon-Fri 0500-2100, Sat-Sun 0800-1600; closed holidays",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-2760",
+      "url": "https://hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments for unaccompanied personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hill-lodging",
+      "name": "Falcon Hill Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1840",
+      "url": "https://af.dodlodging.net/",
+      "building": null
+    },
+    {
+      "id": "res-hill-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Bldg 150, Hill AFB, UT 84056",
+      "phone": "801-777-2246",
+      "url": "https://www.hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-75-fss",
+      "name": "75th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1110",
+      "url": "https://www.hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, RV storage, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-2505",
+      "url": "https://www.hillfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-hill-golf",
+      "name": "Hill AFB Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1840",
+      "url": "https://www.hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-medical",
+      "name": "75th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-2273",
+      "url": "https://hill.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hill-bowling",
+      "name": "Goose Bowl",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1840",
+      "url": "https://hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
+      "address": "South Gate, Hill AFB, UT 84056",
+      "phone": "801-777-8631",
+      "url": "https://www.hill.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hill-hess-fitness",
+      "name": "Hess Fitness Center (24/7)",
+      "category": "fitness",
+      "description": "24/7 fitness access for active duty, DoD civilians, and retirees. Register CAC at Warrior Fitness Center during staffed hours.",
+      "hours": "24/7 CAC access after registration at Warrior Fitness Center",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-2760",
+      "url": "https://hillfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-hill-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1110",
+      "url": "https://www.hill.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-hill-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, and personnel actions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Hill AFB, UT 84056",
+      "phone": "801-777-1110",
+      "url": "https://hillfss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "South Gate Visitor Center",
+      "url": "https://www.hill.af.mil/",
+      "phone": "801-777-8631",
+      "address": "South Gate, Hill AFB, UT 84056"
+    },
+    "moreInfoURL": "https://www.hillfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (801-777-5218) for unaccompanied housing or Falcon Inn (801-777-3311) for temporary lodging. Family housing through Liberty Military Housing.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/hill-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "75 FSS, M&FRC, and official Hill AFB sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "75th Force Support Squadron",
+            "url": "https://www.hillfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.hillfss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

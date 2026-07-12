@@ -1,0 +1,433 @@
+{
+  "id": "march",
+  "name": "March ARB",
+  "fullName": "March Air Reserve Base",
+  "location": "Moreno Valley, CA",
+  "description": "March ARB is a full-time Air Force Reserve installation in the Inland Empire, home of the 452nd Air Mobility Wing operating KC-135 and C-17 air refueling and airlift missions. Most services operate on a limited weekday schedule with expanded availability during Unit Training Assembly (UTA) weekends.",
+  "wing": "452 AMW",
+  "latitude": 33.8806,
+  "longitude": -117.2597,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "march-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass through the Visitor Control Center — plan ahead for UTA weekends.",
+      "type": "alert",
+      "postedAt": "2026-06-28T13:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (SFS)",
+      "number": "951-655-4138"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator / Phone Menu",
+      "number": "951-655-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Visitor Control Center (VCC)",
+      "number": "951-655-3790"
+    },
+    {
+      "id": "em-5",
+      "label": "452nd Medical Group Appointments",
+      "number": "951-655-2107"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-cactus-main",
+      "name": "Cactus Ave Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 visitor and military access gate. Day passes issued at the gate; extended visitor access processed at the Visitor Control Center in Bldg 2370. REAL ID required.",
+      "traffic": "high",
+      "address": "Cactus Ave & Graeber St, March ARB, Moreno Valley, CA 92518",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-riverside",
+      "name": "Riverside Gate",
+      "status": "open",
+      "hours": "Daily 0600-1600",
+      "notes": "Alternate gate for deliveries and DoD ID card holders 0600-1600 daily. Closed outside posted hours.",
+      "traffic": "moderate",
+      "address": "Riverside Gate, March ARB, Moreno Valley, CA 92518",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-meyer",
+      "name": "Meyer Gate",
+      "status": "open",
+      "hours": "Daily 0600-1600",
+      "notes": "Alternate gate for deliveries and DoD ID card holders 0600-1600 daily. Closed outside posted hours.",
+      "traffic": "low",
+      "address": "Meyer Gate, March ARB, Moreno Valley, CA 92518",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 2370)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600; UTA Sat 0700-1600",
+      "notes": "Visitor passes, DBIDS registration, and extended base access. Closed federal holidays and non-UTA Saturdays. REAL ID required.",
+      "traffic": "moderate",
+      "address": "363 Graeber St, Bldg 2370, March ARB, CA 92518",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-march-back-street-grill",
+      "name": "Back Street Grill",
+      "category": "dining",
+      "description": "Primary on-base dining — not a traditional DFAC. Serves breakfast and lunch on duty days with dinner added on UTA weekends. Starbucks espresso station, salad bar, and Cirrus meeting room (reservations via main line). Expanded UTA weekend meal service for reservists.",
+      "hours": "Mon-Fri: Breakfast 0630-1000, Lunch 1100-1330; UTA weekends: Breakfast 0530-0900, Lunch 1100-1330, Dinner Sat 1600-2000; Starbucks Mon-Fri 0630-1500, UTA Sat-Sun 0600-1500",
+      "address": "870 Adams Ave, Bldg 110, March ARB, CA 92518",
+      "phone": "951-653-2121",
+      "url": "https://www.marchfss.com/back-street-grill/",
+      "building": "Bldg 110"
+    },
+    {
+      "id": "res-march-hap-arnold-club",
+      "name": "Hap Arnold Club",
+      "category": "dining",
+      "description": "Officer and enlisted club with Ace's Sports Bar, Sally's Alley, and catering services. Hours vary by event and UTA schedule — call ahead on non-drill weekdays when staffing may be limited.",
+      "hours": "Event-based schedule; call 951-653-2121 — expanded UTA weekend hours",
+      "address": "870 Adams Ave, Bldg 110, March ARB, CA 92518",
+      "phone": "951-653-2121",
+      "url": "https://www.marchfss.com/",
+      "building": "Bldg 110"
+    },
+    {
+      "id": "res-march-bx",
+      "name": "March ARB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "March ARB Main Exchange with clothing, electronics, barber shop, beauty shop, and retail services.",
+      "hours": "Mon-Thu 0930-1800; Fri-Sat 0930-1900; Sun 1030-1800",
+      "address": "23640 N St, Bldg 758, March ARB, CA 92518",
+      "phone": "951-653-3112",
+      "url": "https://www.shopmyexchange.com/store-locator/march-main-exchange",
+      "building": "Bldg 758"
+    },
+    {
+      "id": "res-march-commissary",
+      "name": "March ARB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery with deli, bakery, and CLICK2GO curbside pickup. One of the few reserve installations with an on-base commissary — open most days with early-bird entry for eligible patrons.",
+      "hours": "Sun-Mon 1000-1830; Tue-Wed-Fri 0900-1830; Thu 0900-2000; Sat 0800-1830; Early bird Mon-Fri 0700-0900 (eligible patrons)",
+      "address": "15150 6th St, Bldg 1000, March ARB, CA 92518",
+      "phone": "951-653-2206",
+      "url": "https://shop.commissaries.com/",
+      "building": "Bldg 1000"
+    },
+    {
+      "id": "res-march-medical",
+      "name": "452nd Medical Group",
+      "category": "medical",
+      "description": "Reserve medical group supporting 452nd AMW — flight medicine, immunizations, and readiness for reservists. Limited ambulatory clinic hours; no emergency department on base. Use civilian ER for emergencies.",
+      "hours": "Mon-Fri 0730-1630; expanded UTA weekend sick call as posted",
+      "address": "2050 Graeber St, Ste 458, March ARB, CA 92518",
+      "phone": "951-655-2107",
+      "url": "https://www.tricare.mil/",
+      "building": "Bldg 458"
+    },
+    {
+      "id": "res-march-tricare-off-base",
+      "name": "TRICARE / Off-Base Medical Care",
+      "category": "medical",
+      "description": "Reserve beneficiaries should establish care with TRICARE network providers in the Moreno Valley, Riverside, and San Bernardino area. Nearest full MTF is David Grant Medical Center at Travis AFB for referrals as directed.",
+      "hours": "Provider-specific hours; TRICARE Nurse Advice Line 24/7 at 800-874-2273",
+      "address": "March ARB, Moreno Valley, CA 92518",
+      "phone": "800-874-2273",
+      "url": "https://www.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-march-fitness",
+      "name": "March ARB Fitness Center",
+      "category": "fitness",
+      "description": "Cardio, weight training, group exercise, and intramural sports. Reservations required via online booking system — not 24/7 open access. Reserve base with reduced weekend hours outside UTA.",
+      "hours": "Mon-Fri 0530-1800; UTA weekends 0530-1300; reservations required",
+      "address": "1980 Dekay Ave, March ARB, CA 92518",
+      "phone": "951-655-2284",
+      "url": "https://startbooking.me/452fitness",
+      "building": null
+    },
+    {
+      "id": "res-march-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service for 452nd AMW personnel. Appointment-based during duty periods — plan finance actions around UTA weekends when walk-in support is expanded.",
+      "hours": "Mon-Fri 0730-1630; expanded UTA weekend availability",
+      "address": "Bldg 2314 area, March ARB, CA 92518",
+      "phone": "951-655-3028",
+      "url": "https://www.march.afrc.af.mil/",
+      "building": "Bldg 2314"
+    },
+    {
+      "id": "res-march-off-base-banking",
+      "name": "Off-Base Banking & Credit Unions",
+      "category": "finance",
+      "description": "No on-base FCU office at March ARB. Navy Federal, USAA partner ATMs, and area banks in Moreno Valley and Riverside.",
+      "hours": "Off-base institution hours; Navy Federal and area banks in Moreno Valley",
+      "address": "Moreno Valley and Riverside, CA",
+      "phone": null,
+      "url": "https://www.navyfederal.org/",
+      "building": null
+    },
+    {
+      "id": "res-march-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Traditional reservists in-process on the Saturday of their first UTA at 0700. Appointment-based via RAPIDS — customer support expanded on UTA weekends.",
+      "hours": "Mon-Fri 0800-1200; all day UTA weekends; use RAPIDS for ID card appointments",
+      "address": "1351 Graeber St, Bldg 2314, March ARB, CA 92518",
+      "phone": "951-655-3028",
+      "url": "https://www.marchfss.com/directory/",
+      "building": "Bldg 2314"
+    },
+    {
+      "id": "res-march-mfrc",
+      "name": "Airman & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, TAP, financial readiness, newcomers briefing, employment assistance, and family programs for reservists and families. Key resource for reserve-specific PCS and drill support.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1261 Graeber St, Bldg 2313, Ste 1A, March ARB, CA 92518",
+      "phone": "951-655-5350",
+      "url": "https://www.marchfss.com/directory/",
+      "building": "Bldg 2313"
+    },
+    {
+      "id": "res-march-fss",
+      "name": "452nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events for the 452nd AMW reserve community. Services expand significantly during UTA drill weekends.",
+      "hours": "Mon-Fri 0730-1630; expanded services during UTA weekends",
+      "address": "March ARB, Moreno Valley, CA 92518",
+      "phone": "951-655-3028",
+      "url": "https://www.marchfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-march-lodging",
+      "name": "March Inn (AF Lodging)",
+      "category": "housing",
+      "description": "435-room lodging facility and one of the busiest in the Air Force Reserve. Weekends often reserved for UTA and mission-essential groups — book early. Space-A available Sun-Thu; limited UTA weekend availability.",
+      "hours": "Reservations 24/7 online; phone support daily 0600-0000",
+      "address": "655 M St, Bldg 100 Ste 4, March ARB, CA 92518",
+      "phone": "951-655-5241",
+      "url": "https://www.marchfss.com/march-inn/",
+      "building": "Bldg 100"
+    },
+    {
+      "id": "res-march-off-base-housing",
+      "name": "Off-Base Housing Resources",
+      "category": "housing",
+      "description": "No on-base privatized family housing at this reserve installation — all family housing is off-base in Moreno Valley, Riverside, Perris, and surrounding Inland Empire communities. Contact M&FRC for relocation assistance.",
+      "hours": "Contact M&FRC Mon-Fri 0730-1630 for relocation assistance",
+      "address": "Moreno Valley, Riverside, and surrounding areas, CA",
+      "phone": "951-655-5350",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/march-air-reserve-base/",
+      "building": null
+    },
+    {
+      "id": "res-march-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, seasonal recreation programs, and adventure trips. Reserve base with limited weekday staffing — call ahead or visit during UTA weekends.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "1870 Graeber St, Bldg 434, March ARB, CA 92518",
+      "phone": "951-655-2816",
+      "url": "https://www.marchfss.com/directory/",
+      "building": "Bldg 434"
+    },
+    {
+      "id": "res-march-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted theme park tickets, event tickets, travel planning, and leisure packages for military families and reservists. Located in the Hap Arnold Club complex.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630; UTA weekend hours as posted",
+      "address": "870 Adams Ave, Bldg 110, March ARB, CA 92518",
+      "phone": "951-655-4123",
+      "url": "https://www.marchfss.com/directory/",
+      "building": "Bldg 110"
+    },
+    {
+      "id": "res-march-fam-camp",
+      "name": "Fam Camp / RV Storage",
+      "category": "recreation",
+      "description": "RV and camper storage plus Fam Camp sites for authorized patrons. Reserve installation — availability and access coordinated through Outdoor Recreation.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "1870 Graeber St, Bldg 434, March ARB, CA 92518",
+      "phone": "951-655-3983",
+      "url": "https://www.marchfss.com/directory/",
+      "building": "Bldg 434"
+    },
+    {
+      "id": "res-march-no-golf",
+      "name": "Local Golf (No On-Base Course)",
+      "category": "recreation",
+      "description": "No golf course on March ARB. Area courses in Moreno Valley, Riverside, and Temecula serve the local military community — check ITT for possible discounted tickets.",
+      "hours": "Off-base course hours",
+      "address": "Inland Empire, CA",
+      "phone": "951-655-4123",
+      "url": "https://www.marchfss.com/directory/",
+      "building": null
+    },
+    {
+      "id": "res-march-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes, DBIDS registration, and base access for sponsored guests. All visitors require a pass — REAL ID required. Closed federal holidays; open UTA Saturdays only (not regular Saturdays).",
+      "hours": "Mon-Fri 0700-1600; UTA Sat 0700-1600",
+      "address": "363 Graeber St, Bldg 2370, March ARB, CA 92518",
+      "phone": "951-655-3790",
+      "url": "https://www.march.afrc.af.mil/",
+      "building": "Bldg 2370"
+    },
+    {
+      "id": "res-march-security-forces",
+      "name": "Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations for March ARB. Cactus Gate staffed 24/7; Riverside and Meyer gates open 0600-1600 daily.",
+      "hours": "24/7",
+      "address": "March ARB, Moreno Valley, CA 92518",
+      "phone": "951-655-4138",
+      "url": "https://www.march.afrc.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "march-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Airman & Family Readiness Center",
+      "address": "1261 Graeber St, Bldg 2313, March ARB, CA 92518",
+      "description": "Orientation for incoming 452nd AMW personnel and families. Covers reserve-specific services, off-base housing, UTA reporting, and base access. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "march-evt-uta",
+      "title": "Unit Training Assembly (UTA) Weekend",
+      "date": "2026-08-08T12:00:00Z",
+      "endDate": "2026-08-10T04:00:00Z",
+      "location": "452nd Air Mobility Wing",
+      "address": "March ARB, Moreno Valley, CA 92518",
+      "description": "Monthly reserve drill weekend — expanded dining, MPF, VCC, fitness, and MWR services available. Traditional reservists report to MPF Bldg 2314 at 0700 on first UTA.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "March ARB Visitor Control Center",
+      "url": "https://www.march.afrc.af.mil/",
+      "phone": "951-655-3790",
+      "address": "363 Graeber St, Bldg 2370, March ARB, CA 92518"
+    },
+    "moreInfoURL": "https://www.march.afrc.af.mil/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS or assignment orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement. Reserve personnel should confirm UTA reporting instructions with their gaining unit before arrival.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Traditional reservists report to MPF in Bldg 2314 on the Saturday of their first UTA at 0700. ARTs and civilian employees report to the Civilian Personnel Flight in the same building. Attend the newcomers briefing at the Airman & Family Readiness Center.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "452nd FSS Directory",
+            "url": "https://www.marchfss.com/directory/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "No on-base family housing at March ARB — all housing is off-base in Moreno Valley, Riverside, and surrounding communities. Contact the M&FRC for relocation assistance. March Inn offers temporary lodging but weekends are often reserved for UTA — book early.",
+        "links": [
+          {
+            "id": "link-mfrc-housing",
+            "title": "Airman & Family Readiness Center",
+            "url": "https://www.marchfss.com/directory/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "March Inn Lodging",
+            "url": "https://www.marchfss.com/march-inn/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access & Reserve Base Services",
+        "body": "Cactus Gate (Main) is open 24/7. Riverside and Meyer gates are daily 0600-1600. VCC in Bldg 2370 is Mon-Fri and UTA Sat 0700-1600. This is a reserve installation — no traditional DFAC (Back Street Grill serves meals on duty days and UTA weekends), fitness requires reservations at startbooking.me/452fitness, and most support offices have limited weekday hours with expanded UTA availability.",
+        "links": [
+          {
+            "id": "link-vcc",
+            "title": "Visitor Control Center",
+            "url": "https://www.march.afrc.af.mil/"
+          },
+          {
+            "id": "link-fitness-booking",
+            "title": "Fitness Reservations",
+            "url": "https://startbooking.me/452fitness"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource for reserve relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "March ARB Official Site",
+            "url": "https://www.march.afrc.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "452nd Force Support Squadron",
+            "url": "https://www.marchfss.com/"
+          },
+          {
+            "id": "link-mpf",
+            "title": "Military Personnel Flight",
+            "url": "https://www.marchfss.com/directory/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Airman & Family Readiness Center",
+            "url": "https://www.marchfss.com/directory/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

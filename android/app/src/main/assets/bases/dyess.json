@@ -1,0 +1,304 @@
+{
+  "id": "dyess",
+  "name": "Dyess AFB",
+  "fullName": "Dyess Air Force Base",
+  "location": "Abilene, TX",
+  "description": "Home of the 7th Bomb Wing and 317th Airlift Wing. Dyess AFB operates B-1B Lancer and C-130J Super Hercules aircraft, supporting global strike and mobility missions.",
+  "wing": "7 BW",
+  "latitude": 32.4208,
+  "longitude": -99.8546,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "dyess-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Dyess AFB Security Forces",
+      "number": "325-696-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "325-696-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "325-696-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main",
+      "name": "Main Gate (Arnold Blvd)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Only 24/7 gate. Visitor Control Center at 1518 E Arnold Blvd, Bldg 9265.",
+      "traffic": "high",
+      "address": "1518 E Arnold Blvd, Dyess AFB, TX 79607",
+      "latitude": 32.4208,
+      "longitude": -99.8486
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 9265)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-2200; closed weekends and federal holidays",
+      "notes": "Day passes and visitor registration. REAL ID required. Phone: 325-696-2432.",
+      "traffic": "moderate",
+      "address": "1518 E Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-tye",
+      "name": "Tye Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0530-1730; closed weekends and federal holidays",
+      "notes": "Weekday commuter gate.",
+      "traffic": "low",
+      "address": "Tye Gate, Dyess AFB, TX 79607",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-dyess-dfac-longhorn",
+      "name": "Longhorn Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting the 7th Bomb Wing and 317th Airlift Wing with full meal service.",
+      "hours": "Meal hours posted at facility entrance",
+      "address": "349 3rd St, Dyess AFB, TX 79607",
+      "phone": "325-696-2421",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-commissary",
+      "name": "Dyess AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "250 Commissary Rd, Dyess AFB, TX 79607",
+      "phone": "325-696-4802",
+      "url": "https://shop.commissaries.com/stores/dyess-afb",
+      "building": null
+    },
+    {
+      "id": "res-dyess-bx",
+      "name": "Dyess Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Dyess Main Exchange with food court, barber, beauty shop, optical, GNC, and shoppette.",
+      "hours": "Mon-Sat 0900-1800; Sun 1000-1700",
+      "address": "Bldg 7339, Dyess AFB, TX 79607",
+      "phone": "325-696-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": "Bldg 7339"
+    },
+    {
+      "id": "res-dyess-credit-union",
+      "name": "Communities of Abilene Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union on base with ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "341 Avenue C, Dyess AFB, TX 79607",
+      "phone": "325-691-2300",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-dyess-fitness",
+      "name": "Dyess Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with weights, cardio, group exercise, basketball, racquetball, lap pool, and 24/7 access for registered CAC holders.",
+      "hours": "24/7 for registered users; staffed hours vary",
+      "address": "525 Ave B, Dyess AFB, TX 79607",
+      "phone": "325-696-4306",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "434 4th Ave, Dyess AFB, TX 79607",
+      "phone": "325-696-4403",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-lodging",
+      "name": "Dyess Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "225 5th St, Dyess AFB, TX 79607",
+      "phone": "325-696-2681",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Dyess AFB, TX 79607",
+      "phone": "325-696-5999",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-7-fss",
+      "name": "7th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Dyess AFB, TX 79607",
+      "phone": "325-696-1110",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "926 Louisiana Drive, Dyess AFB, TX 79607",
+      "phone": "325-696-2402",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-bowling",
+      "name": "Dyess Bowling Lanes",
+      "category": "recreation",
+      "description": "Bowling center with snack bar and league play.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "398 Ave C, Dyess AFB, TX 79607",
+      "phone": "325-696-4166",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-golf",
+      "name": "Mesquite Grove Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop.",
+      "hours": "Seasonal; call for tee times",
+      "address": "766 Mesquite Trail, Dyess AFB, TX 79607",
+      "phone": "325-696-4384",
+      "url": "https://dyessfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-medical",
+      "name": "7th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Dyess AFB, TX 79607",
+      "phone": "325-696-5601",
+      "url": "https://dyess.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-dyess-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. REAL ID required.",
+      "hours": "Mon-Fri 0600-2200",
+      "address": "1518 E Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607",
+      "phone": "325-696-2432",
+      "url": "https://www.dyess.af.mil/",
+      "building": "Bldg 9265"
+    },
+    {
+      "id": "res-dyess-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Dyess AFB, Abilene, TX",
+      "phone": "325-696-1110",
+      "url": "https://dyessfss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center (Bldg 9265)",
+      "url": "https://mybaseguide.com/base/dyess-afb",
+      "phone": "325-696-2432",
+      "address": "1518 E. Arnold Blvd, Bldg 9265, Dyess AFB, TX 79607"
+    },
+    "moreInfoURL": "https://dyessfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dyess Inn (325-696-2681) for initial arrival. Dormitory Management (325-696-4403) for unaccompanied housing. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/dyess-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "7 FSS, M&FRC, and official Dyess sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "7th Force Support Squadron",
+            "url": "https://dyessfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://dyessfss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

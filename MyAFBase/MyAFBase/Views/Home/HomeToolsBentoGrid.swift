@@ -1,76 +1,29 @@
 import SwiftUI
 
-/// Compact bento-style launcher — all tools visible at once without scrolling.
+/// Compact 2×3 bento launcher — all tools visible at once without scrolling.
 struct HomeToolsBentoGrid: View {
     private let spacing: CGFloat = 10
-    private let compactHeight: CGFloat = 104
-    private let wideHeight: CGFloat = 92
+    private let tileHeight: CGFloat = 104
 
-    private var compactTools: [HomeTool] {
-        HomeToolsCatalog.all.filter { $0.layout == .compact }
-    }
-
-    /// Rendered as its own full-width row, in catalog order — supports more
-    /// than one flagship tile (e.g. AFI Search and WAR Tracker) without the
-    /// grid silently dropping any but the first.
-    private var wideTools: [HomeTool] {
-        HomeToolsCatalog.all.filter { $0.layout == .wide }
-    }
-
-    private var leadingCompactTools: [HomeTool] {
-        Array(compactTools.prefix(2))
-    }
-
-    private var trailingCompactTools: [HomeTool] {
-        Array(compactTools.dropFirst(2))
-    }
+    private let columns = [
+        GridItem(.flexible(), spacing: 10),
+        GridItem(.flexible(), spacing: 10)
+    ]
 
     var body: some View {
-        VStack(spacing: spacing) {
-            if !leadingCompactTools.isEmpty {
-                HStack(spacing: spacing) {
-                    ForEach(leadingCompactTools) { tool in
-                        toolLink(for: tool) {
-                            HomeToolBentoTile(tool: tool, style: .compact)
-                                .frame(height: compactHeight)
-                        }
-                    }
+        LazyVGrid(columns: columns, spacing: spacing) {
+            ForEach(HomeToolsCatalog.all) { tool in
+                NavigationLink {
+                    destination(for: tool)
+                } label: {
+                    HomeToolBentoTile(tool: tool)
+                        .frame(height: tileHeight)
                 }
-            }
-
-            ForEach(wideTools) { tool in
-                toolLink(for: tool) {
-                    HomeToolBentoTile(tool: tool, style: .wide)
-                        .frame(height: wideHeight)
-                }
-            }
-
-            if !trailingCompactTools.isEmpty {
-                LazyVGrid(
-                    columns: [GridItem(.flexible(), spacing: spacing), GridItem(.flexible(), spacing: spacing)],
-                    spacing: spacing
-                ) {
-                    ForEach(trailingCompactTools) { tool in
-                        toolLink(for: tool) {
-                            HomeToolBentoTile(tool: tool, style: .compact)
-                                .frame(height: compactHeight)
-                        }
-                    }
-                }
+                .buttonStyle(HomeToolBentoButtonStyle())
             }
         }
         .accessibilityElement(children: .contain)
         .accessibilityLabel("Tools")
-    }
-
-    @ViewBuilder
-    private func toolLink<Content: View>(for tool: HomeTool, @ViewBuilder content: () -> Content) -> some View {
-        NavigationLink {
-            destination(for: tool)
-        } label: {
-            content()
-        }
-        .buttonStyle(HomeToolBentoButtonStyle())
     }
 
     @ViewBuilder
@@ -98,23 +51,8 @@ struct HomeToolsBentoGrid: View {
 
 private struct HomeToolBentoTile: View {
     let tool: HomeTool
-    let style: HomeTool.Layout
 
     var body: some View {
-        Group {
-            if style == .wide {
-                wideContent
-            } else {
-                compactContent
-            }
-        }
-        .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(tool.title). \(tool.subtitle)")
-        .accessibilityHint("Opens \(tool.title)")
-    }
-
-    private var compactContent: some View {
         VStack(alignment: .leading, spacing: 0) {
             IconBadge(systemImage: tool.systemImage, tint: tool.tint, size: 38)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -130,34 +68,10 @@ private struct HomeToolBentoTile: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-    }
-
-    private var wideContent: some View {
-        HStack(alignment: .center, spacing: 14) {
-            IconBadge(systemImage: tool.systemImage, tint: tool.tint)
-
-            VStack(alignment: .leading, spacing: 3) {
-                Text(tool.title)
-                    .font(.subheadline.weight(.bold))
-                    .foregroundStyle(.primary)
-                    .lineLimit(1)
-
-                Text(tool.subtitle)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.leading)
-            }
-
-            Spacer(minLength: 0)
-
-            Image(systemName: "chevron.right")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.tertiary)
-        }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(tool.title)
+        .accessibilityHint("Opens \(tool.title)")
     }
 }
 

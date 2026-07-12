@@ -1,0 +1,487 @@
+{
+  "id": "jblm",
+  "name": "JBLM",
+  "fullName": "Joint Base Lewis-McChord (McChord Field)",
+  "location": "Tacoma, WA",
+  "description": "Army-Air Force joint base; McChord Field hosts 62nd Airlift Wing C-17 operations.",
+  "wing": "62 AW",
+  "latitude": 47.1377,
+  "longitude": -122.476,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "jblm-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. Visitors without a DoD ID must obtain a pass at a Visitor Control Center or be processed at the Main Gate when VCC is closed.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "McChord Field Security Forces (BDOC)",
+      "number": "253-982-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Madigan Army Medical Center",
+      "number": "253-968-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Base Operator",
+      "number": "253-982-1110"
+    },
+    {
+      "id": "em-5",
+      "label": "PIRMAC Appointments (Madigan)",
+      "number": "800-404-4506"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-mcchord-main",
+      "name": "McChord Field Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 McChord Field access via I-5 Exit 125 (Bridgeport Way). Visitor Control Center located adjacent to Main Gate. Call 253-982-2119 for visitor pass coordination.",
+      "traffic": "high",
+      "address": "I-5 Exit 125, Bridgeport Way, McChord Field, WA 98438",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-mcchord-vcc",
+      "name": "McChord Field Visitor Control Center",
+      "status": "open",
+      "hours": "Daily 0600-1930",
+      "notes": "Visitor passes and DBIDS registration. Located outside McChord Main Gate off I-5 Exit 125. After-hours visitors processed at Main Gate guard shack.",
+      "traffic": "moderate",
+      "address": "Bldg 849, Bridgeport Way, McChord Field, WA 98438",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-mcchord-barnes",
+      "name": "McChord Field Barnes Gate",
+      "status": "open",
+      "hours": "Daily 0500-2000",
+      "notes": "Secondary McChord Field access via Perimeter Road, approximately ½ mile from Lincoln Boulevard Gate exit of Lewis Main.",
+      "traffic": "moderate",
+      "address": "Barnes Blvd, McChord Field, WA 98438",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-mcchord-commercial",
+      "name": "McChord Field Commercial Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1700",
+      "notes": "Commercial vehicle and contractor access on McChord Field. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "McChord Field, WA 98438",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-lewis-liberty",
+      "name": "Lewis Main Liberty Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 Lewis Main access via I-5 Exit 120. Lewis Main Visitor Control Center (0500-2200 daily) located outside Liberty Gate. Joint base context for Army-side medical, housing, and services.",
+      "traffic": "high",
+      "address": "I-5 Exit 120, Lewis Main, Joint Base Lewis-McChord, WA 98433",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-jblm-olympic-dfac",
+      "name": "Olympic Dining Facility",
+      "category": "dining",
+      "description": "McChord Field's only military dining facility, serving 62nd Airlift Wing and all eligible patrons. Ala carte meal service with midnight meal.",
+      "hours": "Breakfast 0530-0800; Lunch 1100-1300; Dinner 1630-1900; Midnight meal 2300-0100 daily",
+      "address": "548 Outer Dr, McChord Field, WA 98438",
+      "phone": "253-982-4120",
+      "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/dining-facilities",
+      "building": null
+    },
+    {
+      "id": "res-jblm-flight-kitchen",
+      "name": "McChord Flight Kitchen",
+      "category": "dining",
+      "description": "Flight line meals and box lunches for aircrew and mission support personnel.",
+      "hours": "Mission-dependent; call for current schedule",
+      "address": "McChord Field, WA 98438",
+      "phone": "253-982-2828",
+      "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/dining-facilities",
+      "building": null
+    },
+    {
+      "id": "res-jblm-bx",
+      "name": "McChord Field Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, and optical on McChord Field.",
+      "hours": "Mon-Sun 0900-2030; Early bird Mon-Fri 0800-0900",
+      "address": "504 Barnes Blvd, McChord Field, WA 98438",
+      "phone": "253-582-3110",
+      "url": "https://www.shopmyexchange.com/store-locator/jblm-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-jblm-commissary",
+      "name": "McChord Field Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery on McChord Field with early bird shopping and CLICK2GO curbside pickup.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1900; Early bird Mon-Sat 0800-0900, Sun 0900-1000",
+      "address": "577 Lincoln Blvd, McChord Field, WA 98438",
+      "phone": "253-982-3285",
+      "url": "https://shop.commissaries.com/stores/joint-base-lewis-mcchord",
+      "building": null
+    },
+    {
+      "id": "res-jblm-madigan",
+      "name": "Madigan Army Medical Center",
+      "category": "medical",
+      "description": "Joint installation MTF — primary medical care for JBLM active duty, families, and retirees. Emergency department, specialty clinics, pharmacy, and behavioral health. Serves both Army and Air Force beneficiaries.",
+      "hours": "Mon-Fri 0800-1700; PIRMAC appointments Mon-Fri 0600-2000, Sat-Sun 0800-1700",
+      "address": "9040A Jackson Ave, Joint Base Lewis-McChord, WA 98431",
+      "phone": "253-968-1110",
+      "url": "https://madigan.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-madigan-pharmacy",
+      "name": "Madigan Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions at Madigan Army Medical Center.",
+      "hours": "Mon-Fri during clinic hours; call PIRMAC for refill coordination",
+      "address": "9040A Jackson Ave, Joint Base Lewis-McChord, WA 98431",
+      "phone": "800-404-4506",
+      "url": "https://madigan.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-fitness",
+      "name": "McChord Fitness Center",
+      "category": "fitness",
+      "description": "Full cardio and strength training facility with indoor basketball/volleyball courts, outdoor pool, tennis courts, and sand volleyball. 24/7 CAC access after registration; PT uniform required 0630-0800.",
+      "hours": "Staffed daily 0500-2000; 24/7 CAC access",
+      "address": "729 5th St, McChord Field, WA 98438",
+      "phone": "253-982-6707",
+      "url": "https://jblm.armymwr.com/programs/fitness-centers/mcchord-fitness-center",
+      "building": null
+    },
+    {
+      "id": "res-jblm-becu",
+      "name": "BECU (Tacoma Area Branches)",
+      "category": "finance",
+      "description": "Boeing Employees Credit Union — popular financial institution for JBLM personnel. No on-base branch; nearest full-service branches in Tacoma and Lakewood with ATMs throughout the Puget Sound.",
+      "hours": "Mon-Fri 0900-1800; Sat 0900-1400 (branch hours vary)",
+      "address": "Off-base Tacoma/Lakewood area branches",
+      "phone": "800-233-2328",
+      "url": "https://www.becu.org/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service for McChord Field personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "phone": "253-982-3541",
+      "url": "https://www.mcchord.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-mcchord-inn",
+      "name": "McChord Inn (IHG Army Hotels)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging on McChord Field. Comfortable rooms with complimentary breakfast and easy access to McChord Field amenities. Managed by IHG Army Hotels.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1600, Check-out 1100",
+      "address": "851 Lincoln Blvd, McChord Field, WA 98438",
+      "phone": "253-300-9200",
+      "url": "https://www.ihg.com/armyhotels",
+      "building": null
+    },
+    {
+      "id": "res-jblm-mpf",
+      "name": "62 AW Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS for ID cards.",
+      "hours": "Mon-Fri 0730-1630; CAC walk-in Mon-Fri 0800-1100",
+      "address": "100 Col Joe Jackson Blvd, Ste. 1048, McChord Field, WA 98438",
+      "phone": "253-982-6276",
+      "url": "https://www.mcchord.af.mil/Units/627th-Force-Support-Squadron/",
+      "building": "Bldg 1048"
+    },
+    {
+      "id": "res-jblm-fss",
+      "name": "627th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Joint installation FSS providing MWR, dining, fitness, recreation, lodging, and community programs for McChord Field and JBLM.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "phone": "253-982-3541",
+      "url": "https://www.mcchord.af.mil/Units/627th-Force-Support-Squadron/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, deployment support, financial readiness, newcomers briefing, employment assistance, and family advocacy programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "phone": "253-982-2695",
+      "url": "https://www.mcchord.af.mil/We-Care-Resource-Guide/Home-Life/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-housing",
+      "name": "Housing Services Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Lewis-McChord Communities), off-base housing referrals, and temporary lodging coordination. Required visit before signing any off-base lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Joint Base Lewis-McChord, WA 98433",
+      "phone": "253-967-3581",
+      "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/Housing-Home",
+      "building": null
+    },
+    {
+      "id": "res-jblm-dorm",
+      "name": "McChord Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Consolidated Dormitory Office for unaccompanied Airmen E-4 and below with less than 3 years time in service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "566 Outer Circle Dr, McChord Field, WA 98438",
+      "phone": "253-982-7474",
+      "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/directorate-public-works/unaccompanied-personnel-housingfsbp",
+      "building": null
+    },
+    {
+      "id": "res-jblm-odr",
+      "name": "Northwest Adventure Center (Outdoor Recreation)",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, ski lift tickets, and guided adventure trips across the Pacific Northwest. Trips depart from the Adventure Center.",
+      "hours": "Mon-Fri 0900-1700; Sat 1000-1600",
+      "address": "8050 NCO Beach Rd, Joint Base Lewis-McChord, WA 98433",
+      "phone": "253-967-7185",
+      "url": "https://jblm.armymwr.com/programs/adventure-programs",
+      "building": null
+    },
+    {
+      "id": "res-jblm-golf",
+      "name": "Whispering Firs Golf Course",
+      "category": "recreation",
+      "description": "18-hole, par-72 course on McChord Field with tree-lined fairways, water hazards, and pro shop. Tee times via GolfNow or pro shop.",
+      "hours": "Seasonal; call for tee times and current hours",
+      "address": "895 Lincoln Blvd, McChord Field, WA 98433",
+      "phone": "253-982-2124",
+      "url": "https://jblm.armymwr.com/programs/whispering-firs-golf-course",
+      "building": null
+    },
+    {
+      "id": "res-jblm-bowling",
+      "name": "Sounders Lanes Family Fun Center",
+      "category": "recreation",
+      "description": "12-lane bowling center with laser maze, family fun area, snack bar, and party packages on McChord Field.",
+      "hours": "Mon-Tue 0900-2100; Wed-Thu 1100-2100; Fri-Sat 1100-2400; Sun 1300-2000",
+      "address": "737 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "phone": "253-982-5954",
+      "url": "https://jblm.armymwr.com/",
+      "building": "Bldg 737"
+    },
+    {
+      "id": "res-jblm-vcc",
+      "name": "McChord Field Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes, DBIDS registration, and base access for McChord Field. All visitors without a DoD ID require a pass.",
+      "hours": "Daily 0600-1930",
+      "address": "Bldg 849, I-5 Exit 125, Bridgeport Way, McChord Field, WA 98438",
+      "phone": "253-982-2119",
+      "url": "https://home.army.mil/lewis-mcchord/about/Directorates-support-offices/directorate-emergency-services/provost-marshal/gate-information",
+      "building": "Bldg 849"
+    },
+    {
+      "id": "res-jblm-security-forces",
+      "name": "McChord Field Security Forces",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations for McChord Field.",
+      "hours": "24/7",
+      "address": "McChord Field, WA 98438",
+      "phone": "253-982-3421",
+      "url": "https://www.mcchord.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-mcchord-club",
+      "name": "McChord Club",
+      "category": "dining",
+      "description": "Social club and event venue on McChord Field with dining and catering for unit functions.",
+      "hours": "Event-based schedule; call facility for hours; call for reservations",
+      "address": "700 Barnes Blvd, McChord Field, WA 98438",
+      "phone": "253-982-3541",
+      "url": "https://jblm.armymwr.com/",
+      "building": null
+    },
+    {
+      "id": "res-jblm-fitness-annex",
+      "name": "McChord Fitness Annex",
+      "category": "fitness",
+      "description": "Supplemental fitness facility adjacent to main McChord Fitness Center with additional training space.",
+      "hours": "Staffed daily 0500-2000; PT uniform required 0630-0800",
+      "address": "726 5th St, McChord Field, WA 98438",
+      "phone": "253-982-6707",
+      "url": "https://jblm.armymwr.com/programs/fitness-centers/mcchord-fitness-center",
+      "building": null
+    },
+    {
+      "id": "res-jblm-cac-rapids",
+      "name": "CAC / ID Card Office (RAPIDS)",
+      "category": "services",
+      "description": "Common Access Card issuance and renewal. Schedule appointments via RAPIDS online portal.",
+      "hours": "Mon-Fri 0730-1630; walk-in Mon-Fri 0800-1100",
+      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "phone": "253-982-6276",
+      "url": "https://rapids-appointments.dmdc.osd.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "jblm-evt-airshow",
+      "title": "JBLM Air Show & Warrior Expo",
+      "date": "2026-07-19T15:00:00Z",
+      "endDate": "2026-07-19T22:00:00Z",
+      "location": "McChord Field Flight Line",
+      "address": "McChord Field, Joint Base Lewis-McChord, WA 98438",
+      "description": "Annual air show featuring C-17 demonstrations, static displays, and community activities.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
+      "description": "Orientation for incoming Air Force and joint personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "McChord Field Visitor Control Center",
+      "url": "https://www.mcchord.af.mil/Newcomers/",
+      "phone": "253-982-2119",
+      "address": "Bldg 849, I-5 Exit 125, Bridgeport Way, McChord Field, WA 98438"
+    },
+    "moreInfoURL": "https://home.army.mil/lewis-mcchord/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Attend the newcomers briefing at the Military & Family Readiness Center.",
+        "links": [
+          {
+            "id": "link-inprocess-mcchord",
+            "title": "McChord Newcomers & In-Processing",
+            "url": "https://www.mcchord.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-inprocess-jblm",
+            "title": "JBLM Newcomers Information",
+            "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/newcomers"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Services Office before arrival. All personnel must visit HSO before signing any off-base lease. McChord Inn offers temporary lodging on McChord Field — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "JBLM Housing Services Office",
+            "url": "https://home.army.mil/lewis-mcchord/my-Joint-Base-Lewis-Mcchord/all-services/Housing-Home"
+          },
+          {
+            "id": "link-mcchord-inn",
+            "title": "McChord Inn (IHG Army Hotels)",
+            "url": "https://www.ihg.com/armyhotels"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "McChord Main Gate is open 24/7 via I-5 Exit 125. Barnes Gate is daily 0500-2000. Commercial Gate is Mon-Fri 0600-1700. Visitor Control Center hours are daily 0600-1930. Lewis Main Liberty Gate is 24/7 for joint base access. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "JBLM Gate Hours & Visitor Information",
+            "url": "https://home.army.mil/lewis-mcchord/about/Directorates-support-offices/directorate-emergency-services/provost-marshal/gate-information"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official JBLM and McChord Field resources plus Military OneSource for relocation support.",
+        "links": [
+          {
+            "id": "link-jblm-official",
+            "title": "JBLM Official Site",
+            "url": "https://home.army.mil/lewis-mcchord/"
+          },
+          {
+            "id": "link-mcchord-official",
+            "title": "McChord Field Official Site",
+            "url": "https://www.mcchord.af.mil/"
+          },
+          {
+            "id": "link-mcchord-newcomers",
+            "title": "McChord Newcomers Page",
+            "url": "https://www.mcchord.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-627-fss",
+            "title": "627th Force Support Squadron",
+            "url": "https://www.mcchord.af.mil/Units/627th-Force-Support-Squadron/"
+          },
+          {
+            "id": "link-madigan",
+            "title": "Madigan Army Medical Center",
+            "url": "https://madigan.tricare.mil/"
+          },
+          {
+            "id": "link-mwr",
+            "title": "JBLM MWR",
+            "url": "https://jblm.armymwr.com/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

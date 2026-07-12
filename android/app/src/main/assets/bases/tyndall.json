@@ -1,0 +1,517 @@
+{
+  "id": "tyndall",
+  "name": "Tyndall AFB",
+  "fullName": "Tyndall Air Force Base",
+  "location": "Panama City, FL",
+  "description": "Home of the 325th Fighter Wing, Tyndall AFB trains and projects F-35A air dominance capabilities for the combat Air Force. The installation is undergoing a multi-billion-dollar rebuild following catastrophic damage from Hurricane Michael in October 2018, with new gate complexes, lodging, flightline facilities, and community infrastructure delivered through AFCEC's Natural Disaster Recovery program.",
+  "wing": "325 FW",
+  "latitude": 30.0696,
+  "longitude": -85.5756,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "tyndall-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass — Trusted Traveler Program suspended.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "tyndall-notif-ttp-suspended",
+      "title": "Trusted Traveler Program Suspended",
+      "body": "The Trusted Traveler Program at Tyndall is suspended until further notice. Vouching for passengers at the gate is no longer authorized. All non-DoD affiliated guests must be processed at the VCC for a background check and installation pass.",
+      "type": "alert",
+      "postedAt": "2026-06-28T14:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "tyndall-notif-hurricane-recovery",
+      "title": "Hurricane Michael Recovery Underway",
+      "body": "Tyndall AFB continues post-Hurricane Michael reconstruction. Some facilities remain in temporary locations and construction may affect traffic patterns. Check the base status page and tyndallfss.com for current facility hours.",
+      "type": "info",
+      "postedAt": "2026-06-28T14:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "850-283-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "850-283-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "325th Medical Group Appointments",
+      "number": "850-283-2273"
+    },
+    {
+      "id": "em-5",
+      "label": "Visitor Control Center",
+      "number": "850-283-9927"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-tyndall",
+      "name": "Tyndall Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate with new gate complex completed January 2025 as part of hurricane recovery. Visitor passes can be issued after VCC hours.",
+      "traffic": "high",
+      "address": "Tyndall Pkwy, Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-airey",
+      "name": "Airey Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 alternate access. Issues visitor passes when VCC is closed — all non-DoD guests require vetting.",
+      "traffic": "moderate",
+      "address": "Airey Dr, Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-sabre",
+      "name": "Sabre Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 housing-area gate. Visitor Control Center located near Sabre Dr and Roosevelt Blvd off US Hwy 98.",
+      "traffic": "moderate",
+      "address": "Sabre Dr, Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-commercial",
+      "name": "Commercial Gate",
+      "status": "closed",
+      "hours": "Closed until further notice",
+      "notes": "Commercial vehicle gate closed. Use Cleveland Gate (CVIA) for commercial traffic during posted hours.",
+      "traffic": "low",
+      "address": "Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-cleveland-cvia",
+      "name": "Cleveland Gate (CVIA)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1600",
+      "notes": "Commercial vehicles only. Closed weekends and federal holidays.",
+      "traffic": "low",
+      "address": "Cleveland Ave, Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (VCC)",
+      "status": "open",
+      "hours": "Mon-Fri 0630-1530",
+      "notes": "Visitor passes and vetting for all non-DoD guests. Trusted Traveler suspended — no vouching at gate. After-hours passes issued at Airey Gate. REAL ID required.",
+      "traffic": "moderate",
+      "address": "2580 Hwy 98, Tyndall AFB, FL 32403",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-tyndall-berg-liles-dfac",
+      "name": "Berg-Liles Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting the 325 FW with grab-and-go and dine-in options. Midnight meal served Mon-Fri for shift workers and flightline personnel.",
+      "hours": "Mon-Fri: Breakfast, Lunch, Dinner per posted menus; Midnight Meal Mon-Fri 2200-0000",
+      "address": "1690 Mississippi Ave, Tyndall AFB, FL 32403",
+      "phone": "850-283-2436",
+      "url": "https://tyndallfss.com/berg-liles-dining-facility/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-upper-deck",
+      "name": "Upper Deck Bar & Grill",
+      "category": "dining",
+      "description": "Waterfront dining at Beacon Beach Marina with casual fare and bay views.",
+      "hours": "Seasonal; Mon-Fri 0800-1630",
+      "address": "2699 Falcon St, Beacon Beach Marina, Tyndall AFB, FL 32403",
+      "phone": "850-283-2255",
+      "url": "https://tyndallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-bx",
+      "name": "Tyndall AFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with retail, services, food court, and barber shop. Rebuilt as part of post-hurricane recovery.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "950 Mall Ln, Tyndall AFB, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/tyndall-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-commissary",
+      "name": "Tyndall AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery serving eligible patrons. Reopened following Hurricane Michael reconstruction.",
+      "hours": "Sun 0900-1800; Mon 0900-1800; Tue 0900-1900; Wed-Thu 0900-1800; Fri 0900-1800; Sat 0900-1800",
+      "address": "950 Mall Ln, Tyndall AFB, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://shop.commissaries.com/stores/tyndall-afb",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-shoppette",
+      "name": "BX Shoppette / Class Six",
+      "category": "shopping",
+      "description": "Convenience store and gas station on the BX/commissary complex.",
+      "hours": "Daily 0600-2200",
+      "address": "950 Mall Ln, Tyndall AFB, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/tyndall-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-medical",
+      "name": "325th Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, lab, and immunizations. No emergency department on base; use civilian ER for emergencies.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-2273",
+      "url": "https://tyndall.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-dental",
+      "name": "325th Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-2273",
+      "url": "https://tyndall.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-pharmacy",
+      "name": "325th Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-2273",
+      "url": "https://tyndall.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-fitness",
+      "name": "Tyndall Fitness & Sports Center",
+      "category": "fitness",
+      "description": "70,000+ sq ft facility with weight room, 125-piece cardio area, racquetball courts, basketball/volleyball courts, outdoor track, and functional training. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2300; 24/7 CAC access",
+      "address": "1601 Mississippi Rd, Bldg 1690, Tyndall AFB, FL 32403",
+      "phone": "850-283-2455",
+      "url": "https://tyndallfss.com/fitness-center/",
+      "building": "Bldg 1690"
+    },
+    {
+      "id": "res-tyndall-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 662, Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://www.tyndall.af.mil/",
+      "building": "Bldg 662"
+    },
+    {
+      "id": "res-tyndall-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "445 Suwannee Rd, Bldg 662 First Floor, Tyndall AFB, FL 32403",
+      "phone": "850-283-2387",
+      "url": "https://tyndallfss.com/",
+      "building": "Bldg 662"
+    },
+    {
+      "id": "res-tyndall-fss",
+      "name": "325th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events across the rebuilding installation.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://tyndallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-mfrc",
+      "name": "Military & Family Readiness Center (A&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "445 Suwannee Rd, Bldg 662 Second Floor, Tyndall AFB, FL 32403",
+      "phone": "850-283-2400",
+      "url": "https://tyndallfss.com/",
+      "building": "Bldg 662"
+    },
+    {
+      "id": "res-tyndall-cdc",
+      "name": "Child Development Center",
+      "category": "services",
+      "description": "Full-day child care for eligible military and DoD civilian families.",
+      "hours": "Mon-Fri 0630-1730",
+      "address": "510 Mississippi Rd, Bldg 1500, Tyndall AFB, FL 32403",
+      "phone": "850-283-2205",
+      "url": "https://tyndallfss.com/",
+      "building": "Bldg 1500"
+    },
+    {
+      "id": "res-tyndall-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Hunt Military Communities) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-1110",
+      "url": "https://www.housing.af.mil/Home/Installations/Tyndall-AFB/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-lodging",
+      "name": "Tyndall Lodging (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging in the new lodging facility delivered January 2026 as part of hurricane recovery construction.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1400, Check-out 1100",
+      "address": "Bldg 36272 Suwannee Ave, Tyndall AFB, FL 32403",
+      "phone": "850-283-4211",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 36272"
+    },
+    {
+      "id": "res-tyndall-odr",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Beacon Beach Marina rentals — pontoon boats, kayaks, jet skis, beach gear, and adventure trips along the Gulf Coast.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "2699 Falcon St, Beacon Beach Marina, Tyndall AFB, FL 32403",
+      "phone": "850-283-2255",
+      "url": "https://tyndallfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-golf",
+      "name": "Golf Programs (MWR)",
+      "category": "recreation",
+      "description": "Golf recreation and local course access coordinated through MWR and ITT. On-base Pelican Point course closed; off-base Panama City area courses available.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-2270",
+      "url": "https://tyndallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-bowling",
+      "name": "Lightning Strike Bowling Center",
+      "category": "recreation",
+      "description": "Eight-lane bowling center with open bowling, leagues, and party packages.",
+      "hours": "Thu 1000-1900; Fri-Sat 1200-2100; Sun 1000-1900",
+      "address": "Mall Ln, Tyndall AFB, FL 32403",
+      "phone": "850-283-2251",
+      "url": "https://tyndallfss.com/lightning-strike-bowling/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-itt",
+      "name": "Information, Tickets & Travel (ITT)",
+      "category": "recreation",
+      "description": "Discounted theme park tickets, local attractions, and travel planning.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "950 Mall Ln, outside BX Food Court, Tyndall AFB, FL 32403",
+      "phone": "850-283-2270",
+      "url": "https://tyndallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-pool",
+      "name": "Tyndall Pool & Splash Pad",
+      "category": "recreation",
+      "description": "Seasonal outdoor pool and splash pad for families.",
+      "hours": "Seasonal outdoor pool: Memorial Day through Labor Day, daily 1100-1800",
+      "address": "185 Suwannee Ave, Tyndall AFB, FL 32403",
+      "phone": "850-283-2255",
+      "url": "https://tyndallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-library",
+      "name": "Tyndall Library",
+      "category": "recreation",
+      "description": "Books, digital resources, study spaces, and community programs.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "445 Suwannee Rd, Bldg 662 2nd Floor, Tyndall AFB, FL 32403",
+      "phone": "850-283-2325",
+      "url": "https://tyndallfss.com/",
+      "building": "Bldg 662"
+    },
+    {
+      "id": "res-tyndall-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access vetting. All non-DoD guests require processing — Trusted Traveler suspended. After-hours passes at Airey Gate.",
+      "hours": "Mon-Fri 0630-1530",
+      "address": "2580 Hwy 98, Tyndall AFB, FL 32403",
+      "phone": "850-283-9927",
+      "url": "https://www.tyndall.af.mil/Base-Access/",
+      "building": null
+    },
+    {
+      "id": "res-tyndall-security-forces",
+      "name": "Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations across rebuilt gate complexes.",
+      "hours": "24/7",
+      "address": "Tyndall AFB, Panama City, FL 32403",
+      "phone": "850-283-3421",
+      "url": "https://www.tyndall.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "tyndall-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "445 Suwannee Rd, Bldg 662, Tyndall AFB, FL 32403",
+      "description": "Orientation for incoming personnel and families arriving during hurricane recovery reconstruction. All branches encouraged to attend.",
+      "category": "community"
+    },
+    {
+      "id": "tyndall-evt-midnight-meal",
+      "title": "DFAC Midnight Meal",
+      "date": "2026-06-29T02:00:00Z",
+      "endDate": "2026-06-30T04:00:00Z",
+      "location": "Berg-Liles Dining Facility",
+      "address": "1690 Mississippi Ave, Tyndall AFB, FL 32403",
+      "description": "Midnight meal for shift workers and flightline personnel. Mon-Fri 2200-0000.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Tyndall AFB Visitor Control Center",
+      "url": "https://www.tyndall.af.mil/Base-Access/",
+      "phone": "850-283-9927",
+      "address": "2580 Hwy 98, Tyndall AFB, FL 32403"
+    },
+    "moreInfoURL": "https://www.tyndall.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance in Bldg 662 for travel voucher settlement.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.tyndall.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. New lodging facility available for temporary stays — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Tyndall-AFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Tyndall Lodging",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "Tyndall, Airey, and Sabre Gates are open 24/7. Cleveland Gate (CVIA) is Mon-Fri 0600-1600 for commercial vehicles only. Commercial Gate is closed. VCC hours are Mon-Fri 0630-1530 — after-hours visitor passes at Airey Gate. Trusted Traveler suspended; all guests require VCC vetting. REAL ID required.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Base Access & Gate Hours",
+            "url": "https://www.tyndall.af.mil/Base-Access/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Hurricane Recovery",
+        "body": "Tyndall is rebuilding after Hurricane Michael (October 2018). Expect construction traffic, temporary facility relocations, and evolving gate infrastructure. New Tyndall and Airey gate complexes opened in 2025; Community Commons and chapel projects continue in 2026.",
+        "links": [
+          {
+            "id": "link-status",
+            "title": "Base Status",
+            "url": "https://www.tyndall.af.mil/Status/"
+          }
+        ]
+      },
+      {
+        "id": "nc-6",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource for relocation support during the rebuild.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Tyndall AFB Official Site",
+            "url": "https://www.tyndall.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "325th Force Support Squadron",
+            "url": "https://tyndallfss.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "325th Medical Group",
+            "url": "https://tyndall.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

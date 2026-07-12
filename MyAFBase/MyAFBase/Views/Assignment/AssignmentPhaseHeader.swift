@@ -4,43 +4,46 @@ struct AssignmentPhaseHeader: View {
     let base: Base
     let segment: AssignmentSegment
 
-    @Environment(\.colorScheme) private var colorScheme
-
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(spacing: 10) {
-                Image(systemName: segment.systemImage)
-                    .font(.title2)
-                    .foregroundStyle(.white.opacity(0.9))
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(alignment: .top, spacing: 12) {
+                IconBadge(systemImage: segment.systemImage, tint: segment.accentTint, size: 44)
 
                 VStack(alignment: .leading, spacing: 4) {
+                    Text(segment.title)
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(segment.accentTint)
+                        .textCase(.uppercase)
+                        .tracking(0.4)
+
                     Text(segment.headline(for: base.name))
-                        .font(.title3.weight(.bold))
-                        .foregroundStyle(.white)
+                        .font(.title3.weight(.semibold))
+                        .foregroundStyle(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     Text(segment.subtitle)
                         .font(.subheadline)
-                        .foregroundStyle(.white.opacity(0.8))
+                        .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
                 }
+
+                Spacer(minLength: 0)
             }
 
-            Text(base.description)
-                .font(.caption)
-                .foregroundStyle(.white.opacity(0.72))
-                .lineLimit(3)
+            if !base.description.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                Text(base.description)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(3)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(12)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+            }
         }
+        .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(20)
-        .background(
-            LinearGradient(
-                colors: AppTheme.phaseGradientColors(for: segment, colorScheme: colorScheme),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-        )
-        .clipShape(RoundedRectangle(cornerRadius: AssignmentMetrics.cardCornerRadius, style: .continuous))
-        .shadow(color: .black.opacity(AppTheme.cardShadowOpacity), radius: AppTheme.cardShadowRadius, y: AppTheme.cardShadowY)
+        .elevatedCardStyle(background: Color(.secondarySystemGroupedBackground))
     }
 }
 
@@ -50,6 +53,14 @@ extension AssignmentSegment {
         case .inbound: "airplane.arrival"
         case .stationed: "house.fill"
         case .outbound: "airplane.departure"
+        }
+    }
+
+    var accentTint: Color {
+        switch self {
+        case .inbound: AppTheme.info
+        case .stationed: AppTheme.brandPrimary
+        case .outbound: AppTheme.brandSecondary
         }
     }
 
@@ -71,5 +82,4 @@ extension AssignmentSegment {
         case .outbound: "Out processing from \(baseName)"
         }
     }
-
 }

@@ -1,0 +1,326 @@
+{
+  "id": "vandenberg",
+  "name": "Vandenberg SFB",
+  "fullName": "Vandenberg Space Force Base",
+  "location": "Lompoc, CA",
+  "description": "Vandenberg SFB is the West Coast launch site for national security space missions and home of Space Launch Delta 30. It supports polar orbit launches and missile testing.",
+  "wing": "SLD 30",
+  "latitude": 34.742,
+  "longitude": -120.5724,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "vandenberg-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Vandenberg SFB Security Forces",
+      "number": "805-606-1212"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "805-606-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "805-606-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-santa-maria",
+      "name": "Santa Maria Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate. Visitor Center at 6 California Blvd outside gate Mon-Fri 0600-1800.",
+      "traffic": "high",
+      "address": "Santa Maria Gate, Vandenberg SFB, CA 93437",
+      "latitude": 34.7423,
+      "longitude": -120.5724
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Center",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800; closed Sat-Sun and federal holidays",
+      "notes": "Phone: 805-606-7663. Does not sell merchandise or provide launch schedules.",
+      "traffic": "moderate",
+      "address": "6 California Blvd, Vandenberg SFB, CA 93437",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "24/7 alternate access.",
+      "traffic": "moderate",
+      "address": "South Gate, Vandenberg SFB, CA 93437",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-solvang",
+      "name": "Solvang Gate",
+      "status": "open",
+      "hours": "Daily 0600-2000",
+      "notes": "Daily access gate.",
+      "traffic": "low",
+      "address": "Solvang Gate, Vandenberg SFB, CA 93437",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-lompoc",
+      "name": "Lompoc Gate (Commercial)",
+      "status": "open",
+      "hours": "Commercial 0600-1200; all traffic 1200-1800",
+      "notes": "Commercial vehicle inspections mornings; all traffic afternoons.",
+      "traffic": "low",
+      "address": "Lompoc Gate, Vandenberg SFB, CA 93437",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-vandenberg-dfac-breakers",
+      "name": "Breakers Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC supporting space launch operations with full meal service, N’Rich Grill, Global Grill, deli, pizza, salad bar, and wireless access.",
+      "hours": "Mon-Fri: Bfast 0630-0930, Grab-n-Go 0930-1100, Lunch 1100-1400, Grab-n-Go 1400-1700, Dinner 1700-1900; Sat-Sun/Holidays: Brunch 0730-1330, Grab-n-Go 1330-1700, Dinner 1700-1900",
+      "address": "Bldg 13330, Oregon Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-7540",
+      "url": "https://vandenbergfss.com/breakers-dining-facility/",
+      "building": "Bldg 13330"
+    },
+    {
+      "id": "res-vandenberg-bx",
+      "name": "Vandenberg Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Vandenberg Main Exchange with food court, barber, beauty shop, optical, GNC, and shoppette.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 10:00 AM-6:00 PM",
+      "address": "Bldg 10122, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-3830",
+      "url": "https://www.shopmyexchange.com/store-locator/vandenberg-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-commissary",
+      "name": "Vandenberg Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 9:00 AM-7:00 PM; Sun-Mon closed",
+      "address": "Bldg 10122, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-734-2265",
+      "url": "https://shop.commissaries.com/stores/vandenberg-afb",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-credit-union",
+      "name": "CoastHills Federal Credit Union",
+      "category": "finance",
+      "description": "CoastHills Federal Credit Union on-base office with deposit accounts, loans, and ATM.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 10122, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-733-7600",
+      "url": "https://www.coasthills.coop/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-fitness",
+      "name": "Duane G. Wolfe Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, and sports amenities. 24/7 access available at Fitness Annex (Bldg 9005) after registration.",
+      "hours": "Mon-Fri 0430-2230; Sat-Sun 0800-2000; holidays 0800-1800",
+      "address": "Bldg 10130, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-3832",
+      "url": "https://30fss.com/",
+      "building": "Bldg 10130"
+    },
+    {
+      "id": "res-vandenberg-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments supporting space launch personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "347 South Dakota Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-605-2048",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-lodging",
+      "name": "Pacific Coast Inn (AF Lodging)",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk for arrivals.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Bldg 10130, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-1840",
+      "url": "https://af.dodlodging.net/propertys/Vandenberg-SFB",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation assistance, financial counseling, employment support, family programs, Newcomers’ Orientation, and Total Force readiness. Mandatory for active duty.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Bldg 10122, 706 Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-0039",
+      "url": "https://vandenbergfss.com/",
+      "building": "Bldg 10122"
+    },
+    {
+      "id": "res-30-fss",
+      "name": "30th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs supporting space launch operations.",
+      "hours": "Mon-Fri 0730-1630; facility hours at 30fss.com/directory",
+      "address": "Vandenberg SFB, CA 93437",
+      "phone": "805-606-1110",
+      "url": "https://30fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-outdoor-rec",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Equipment rental and recreational programs supporting the Central Coast community.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Blanchard Recreation Complex, 3965 S Craycroft Rd, Bldg 4459, Vandenberg SFB, CA 93437",
+      "phone": "805-606-3736",
+      "url": "https://30fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-golf",
+      "name": "Vandenberg Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Bldg 10130, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-3832",
+      "url": "https://30fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-medical",
+      "name": "30th Medical Group",
+      "category": "medical",
+      "description": "Primary care, specialty clinics, and TRICARE services supporting space launch operations.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Bldg 10130, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-1700",
+      "url": "https://vandenberg.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-bowling",
+      "name": "Vandenberg Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Thu 1100-2200; Fri-Sat 1100-0000; Sun 1200-1800",
+      "address": "Bldg 10130, Washington Ave, Vandenberg SFB, CA 93437",
+      "phone": "805-606-3570",
+      "url": "https://30fss.com/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0600-1800",
+      "address": "6 California Blvd, Vandenberg SFB, CA 93437",
+      "phone": "805-606-7663",
+      "url": "https://www.vandenberg.spaceforce.mil/",
+      "building": null
+    },
+    {
+      "id": "res-vandenberg-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Vandenberg SFB, Lompoc, CA",
+      "phone": "805-606-1110",
+      "url": "https://vandenbergfss.com/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.vandenberg.spaceforce.mil/resources/visitorcenter/",
+      "phone": "805-606-7663",
+      "address": "6 California Blvd, Vandenberg SFB, CA 93437"
+    },
+    "moreInfoURL": "https://vandenbergfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Pacific Coast Inn for initial arrival. Dormitory Management (805-605-2048) for unaccompanied housing. Family housing through Balfour Beatty Communities.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/vandenberg-sfb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "30 FSS, M&FRC, and official Vandenberg sites for in-processing and space launch support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "30th Force Support Squadron",
+            "url": "https://30fss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://vandenbergfss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

@@ -4,14 +4,14 @@ import SwiftData
 @Model
 final class AssignmentProfile {
     var baseID: String = ""
-    var phaseRaw: String = AssignmentSegment.inbound.rawValue
+    var phaseRaw: String = AssignmentSegment.stationed.rawValue
     var reportDate: Date?
     var pcsDate: Date?
     var updatedAt: Date = Date()
 
     init(
         baseID: String,
-        phaseRaw: String = AssignmentSegment.inbound.rawValue,
+        phaseRaw: String = AssignmentSegment.stationed.rawValue,
         reportDate: Date? = nil,
         pcsDate: Date? = nil,
         updatedAt: Date = Date()
@@ -24,7 +24,7 @@ final class AssignmentProfile {
     }
 
     var phase: AssignmentSegment {
-        get { AssignmentSegment(rawValue: phaseRaw) ?? .inbound }
+        get { AssignmentSegment(rawValue: phaseRaw) ?? .stationed }
         set { phaseRaw = newValue.rawValue }
     }
 }

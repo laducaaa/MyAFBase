@@ -4,9 +4,9 @@ compatibility_date = "2024-01-01"
 
 # Secrets (set via CLI, not in this file):
 #   wrangler secret put GITHUB_TOKEN
-#   wrangler secret put FEEDBACK_SECRET   # required — match FeedbackConfig.sharedSecret in the app
+#   wrangler secret put FEEDBACK_SECRET   # optional — only enforced when the app sends X-Feedback-Secret
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
-preview_id = "REPLACE_WITH_KV_PREVIEW_ID"
+id = "77da67c143a64988ac929d2adad1e6c9"
+preview_id = "14809ba1125d49c28381dd4f0a5710de"

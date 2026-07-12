@@ -13,6 +13,8 @@ struct ContentView: View {
     @State private var checklistStore: ChecklistStore?
     @State private var assignmentProfileStore: AssignmentProfileStore?
     @State private var warTrackerStore: WARTrackerStore?
+    @State private var pfraProfileStore: PFRAProfileStore?
+    @State private var pfraRecordStore: PFRARecordStore?
     @State private var afiSearchService = AFISearchService()
     @State private var dismissalStore = NotificationDismissalStore()
     @State private var showBasePicker = false
@@ -40,6 +42,8 @@ struct ContentView: View {
             checklistStore = stores.checklistStore
             assignmentProfileStore = stores.assignmentProfileStore
             warTrackerStore = stores.warTrackerStore
+            pfraProfileStore = stores.pfraProfileStore
+            pfraRecordStore = stores.pfraRecordStore
         }
         .task {
             // Warm the AFI search index at launch so it's usually ready before the
@@ -58,7 +62,9 @@ struct ContentView: View {
               let readinessTrackerStore,
               let checklistStore,
               let assignmentProfileStore,
-              let warTrackerStore else {
+              let warTrackerStore,
+              let pfraProfileStore,
+              let pfraRecordStore else {
             return nil
         }
 
@@ -67,7 +73,9 @@ struct ContentView: View {
             readinessTrackerStore: readinessTrackerStore,
             checklistStore: checklistStore,
             assignmentProfileStore: assignmentProfileStore,
-            warTrackerStore: warTrackerStore
+            warTrackerStore: warTrackerStore,
+            pfraProfileStore: pfraProfileStore,
+            pfraRecordStore: pfraRecordStore
         )
     }
 
@@ -100,6 +108,8 @@ struct ContentView: View {
         .environment(stores.checklistStore)
         .environment(stores.assignmentProfileStore)
         .environment(stores.warTrackerStore)
+        .environment(stores.pfraProfileStore)
+        .environment(stores.pfraRecordStore)
         .environment(dismissalStore)
         .task {
             await syncReadinessNotifications(using: stores)

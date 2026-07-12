@@ -32,7 +32,6 @@ struct BasePickerSheet: View {
         }
     }
 
-
     var body: some View {
         NavigationStack {
             Group {
@@ -49,7 +48,7 @@ struct BasePickerSheet: View {
                     baseList
                 }
             }
-            .background(Color(.systemGroupedBackground))
+            .appScreenBackground()
             .navigationTitle("Select Base")
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search name, location, or wing")
@@ -82,64 +81,51 @@ struct BasePickerSheet: View {
     }
 
     private var baseList: some View {
-        List {
-            Section {
+        ScrollView {
+            VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
                 headerCard
-                    .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-                    .listRowBackground(Color.clear)
-                    .listRowSeparator(.hidden)
-            }
 
-            if filteredBases.isEmpty {
-                Section {
+                if filteredBases.isEmpty {
                     emptyResultsView
-                        .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-                        .listRowBackground(Color.clear)
-                        .listRowSeparator(.hidden)
+                } else {
+                    baseSections
+
+                    footerLabel
+                        .padding(.horizontal, 4)
                 }
-            } else {
-                ForEach(sectionedBases, id: \.letter) { section in
-                    Section {
+
+                moreBasesComingCard
+
+                LegalDisclaimerCard(
+                    text: LegalCopy.unofficialInformation,
+                    style: .compact,
+                    systemImage: "info.circle"
+                )
+                .padding(.horizontal, 4)
+            }
+            .padding(AppTheme.screenPadding)
+            .padding(.bottom, 8)
+        }
+    }
+
+    private var baseSections: some View {
+        VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
+            ForEach(sectionedBases, id: \.letter) { section in
+                VStack(alignment: .leading, spacing: AppTheme.cardSpacing) {
+                    sectionHeader(section.letter)
+
+                    VStack(spacing: AppTheme.cardSpacing) {
                         ForEach(section.bases) { base in
                             BasePickerRow(
                                 base: base,
                                 isSelected: appState.selectedBaseID == base.id,
                                 onSelect: { select(base) }
                             )
-                            .listRowInsets(EdgeInsets(top: 5, leading: 16, bottom: 5, trailing: 16))
-                            .listRowBackground(Color.clear)
-                            .listRowSeparator(.hidden)
-                        }
-                    } header: {
-                        sectionHeader(section.letter)
-                    } footer: {
-                        if section.letter == sectionedBases.last?.letter {
-                            footerLabel
                         }
                     }
                 }
             }
-
-            Section {
-                moreBasesComingCard
-                    .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 16, trailing: 16))
-                    .listRowBackground(Color.clear)
-                    .listRowSeparator(.hidden)
-            }
-
-            Section {
-                LegalDisclaimerCard(
-                    text: LegalCopy.unofficialInformation,
-                    style: .compact,
-                    systemImage: "info.circle"
-                )
-                .listRowInsets(EdgeInsets(top: 0, leading: 16, bottom: 16, trailing: 16))
-                .listRowBackground(Color.clear)
-                .listRowSeparator(.hidden)
-            }
         }
-        .listStyle(.plain)
-        .scrollContentBackground(.hidden)
     }
 
     private var visibleRegionFilters: [BaseRegionFilter] {
@@ -154,107 +140,55 @@ struct BasePickerSheet: View {
     }
 
     private var headerCard: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            HStack(alignment: .top, spacing: 14) {
-                ZStack {
-                    Circle()
-                        .fill(Color.white.opacity(0.12))
-                        .frame(width: 48, height: 48)
-
-                    Image(systemName: "airplane.circle.fill")
-                        .font(.system(size: 26))
-                        .foregroundStyle(.white)
-                }
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(alignment: .top, spacing: 12) {
+                IconBadge(systemImage: "building.2.fill", tint: AppTheme.accent, size: 44)
 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(introTitle)
                         .font(.title3.weight(.bold))
-                        .foregroundStyle(.white)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     Text(introMessage)
                         .font(.subheadline)
-                        .foregroundStyle(HomeMetrics.heroSecondaryText)
+                        .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }
 
-            HStack(spacing: 8) {
-                ForEach(visibleRegionFilters) { filter in
-                    regionChip(for: filter)
-                }
-            }
+            GlassSegmentToggle(
+                options: visibleRegionFilters,
+                selection: $regionFilter,
+                label: regionFilterLabel,
+                layout: .equalWidth
+            )
         }
-        .padding(16)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background {
-            RoundedRectangle(cornerRadius: BasePickerMetrics.heroCornerRadius, style: .continuous)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            Color(hex: "1E1E20"),
-                            Color(hex: "121214")
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-                .shadow(color: .black.opacity(0.18), radius: 12, y: 6)
-        }
+        .appCardStyle()
     }
 
-    private func regionChip(for filter: BaseRegionFilter) -> some View {
-        let isSelected = regionFilter == filter
+    private func regionFilterLabel(for filter: BaseRegionFilter) -> String {
         let count = count(for: filter)
-
-        return Button {
-            withAnimation(.easeInOut(duration: 0.2)) {
-                regionFilter = filter
-            }
-        } label: {
-            VStack(spacing: 4) {
-                Image(systemName: filter.pickerIcon)
-                    .font(.subheadline.weight(.semibold))
-
-                Text(filter.displayName)
-                    .font(.caption.weight(isSelected ? .semibold : .medium))
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.8)
-
-                Text("\(count)")
-                    .font(.caption2.weight(.bold))
-            }
-            .foregroundStyle(isSelected ? AppTheme.heroBackground : Color.white.opacity(0.9))
-            .frame(maxWidth: .infinity)
-            .frame(height: BasePickerMetrics.regionChipHeight)
-            .background {
-                RoundedRectangle(cornerRadius: 10, style: .continuous)
-                    .fill(isSelected ? Color.white : Color.white.opacity(0.1))
-            }
-        }
-        .buttonStyle(.plain)
-        .accessibilityLabel("\(filter.displayName), \(count) bases")
-        .accessibilityAddTraits(isSelected ? .isSelected : [])
+        return "\(filter.displayName) (\(count))"
     }
 
     private func sectionHeader(_ letter: String) -> some View {
         HStack(spacing: 10) {
             Text(letter)
                 .font(.caption.weight(.bold))
-                .foregroundStyle(Color(.systemBackground))
-                .frame(width: BasePickerMetrics.sectionBadgeSize, height: BasePickerMetrics.sectionBadgeSize)
-                .background(Circle().fill(Color(.label)))
+                .foregroundStyle(AppTheme.accent)
+                .frame(width: 28, height: 28)
+                .background(AppTheme.accent.opacity(0.12), in: Circle())
 
             Rectangle()
                 .fill(Color(.separator).opacity(0.35))
                 .frame(height: 1)
         }
-        .padding(.top, 8)
-        .textCase(nil)
+        .padding(.horizontal, 4)
     }
 
     private var moreBasesComingCard: some View {
         HStack(alignment: .top, spacing: 12) {
-            IconBadge(systemImage: "building.2.crop.circle", tint: AppTheme.accent, size: 36)
+            IconBadge(systemImage: "plus.circle.fill", tint: AppTheme.brandSecondary, size: 36)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text("Don't see your base?")
@@ -266,9 +200,7 @@ struct BasePickerSheet: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
-        .padding(14)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .basePickerCardStyle()
+        .appCardStyle(padding: 14)
         .accessibilityElement(children: .combine)
     }
 
@@ -281,7 +213,6 @@ struct BasePickerSheet: View {
         .font(.caption)
         .foregroundStyle(.tertiary)
         .frame(maxWidth: .infinity)
-        .padding(.top, 4)
     }
 
     @ViewBuilder

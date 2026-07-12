@@ -3,17 +3,66 @@ import SwiftUI
 struct LegalPrivacySheet: View {
     @Environment(\.dismiss) private var dismiss
 
+    private static let links: [LegalWebsiteLink] = [
+        LegalWebsiteLink(
+            id: "privacy",
+            title: "Privacy Policy",
+            subtitle: "How MyAFBase handles your data",
+            systemImage: "hand.raised.fill",
+            urlString: ContactConfig.privacyURL.absoluteString
+        ),
+        LegalWebsiteLink(
+            id: "user-choices",
+            title: "Your Privacy Choices",
+            subtitle: "Manage consent and preferences",
+            systemImage: "switch.2",
+            urlString: ContactConfig.userChoicesURL.absoluteString
+        ),
+        LegalWebsiteLink(
+            id: "terms",
+            title: "Terms of Use",
+            subtitle: "Rules for using MyAFBase",
+            systemImage: "doc.text.fill",
+            urlString: ContactConfig.termsURL.absoluteString
+        ),
+        LegalWebsiteLink(
+            id: "support",
+            title: "Support",
+            subtitle: "Help, feedback, and contact options",
+            systemImage: "lifepreserver.fill",
+            urlString: ContactConfig.supportURL.absoluteString
+        )
+    ]
+
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: AppTheme.sectionSpacing) {
                     headerCard
 
-                    ForEach(LegalCopy.Section.allCases) { section in
-                        sectionCard(section)
-                    }
+                    VStack(spacing: 0) {
+                        ForEach(Array(Self.links.enumerated()), id: \.element.id) { index, link in
+                            if let url = link.url {
+                                Link(destination: url) {
+                                    LegalWebsiteLinkRow(link: link)
+                                }
+                                .buttonStyle(.plain)
 
-                    footerNote
+                                if index < Self.links.count - 1 {
+                                    Divider()
+                                        .padding(.leading, 54)
+                                }
+                            }
+                        }
+                    }
+                    .appCardStyle(padding: 0)
+
+                    LegalDisclaimerCard(
+                        text: LegalCopy.nonAffiliationShort,
+                        style: .compact,
+                        systemImage: "building.columns"
+                    )
+                    .padding(.horizontal, 4)
                 }
                 .padding()
             }
@@ -33,55 +82,70 @@ struct LegalPrivacySheet: View {
     private var headerCard: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(spacing: 12) {
-                Image(systemName: "doc.text")
-                    .font(.system(size: 44 * 0.4, weight: .semibold))
-                    .foregroundStyle(.white)
-                    .frame(width: 44, height: 44)
-                    .background(AppTheme.brandIconGradient, in: RoundedRectangle(cornerRadius: 44 * 0.27, style: .continuous))
+                IconBadge(systemImage: "doc.text.fill", tint: AppTheme.accent, size: 44)
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Please read before use")
+                    Text("Official policies")
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.secondary)
 
-                    Text("Unofficial community tool")
+                    Text("Legal, privacy & terms")
                         .font(.title3.weight(.bold))
                 }
             }
 
-            Text("MyAFBase helps Airmen and families navigate installation life. It is built independently and is not an official government application.")
+            Text("Full policy documents are hosted on myafbase.com. Open any link below in Safari to read the latest version.")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
-        }
-        .appCardStyle()
-    }
 
-    private func sectionCard(_ section: LegalCopy.Section) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Label {
-                Text(section.title)
-                    .font(.subheadline.weight(.semibold))
-            } icon: {
-                Image(systemName: section.systemImage)
-                    .foregroundStyle(AppTheme.accent)
-            }
-
-            Text(section.body)
+            Text("Privacy questions: \(ContactConfig.legalEmail) · Support: \(ContactConfig.supportEmail)")
                 .font(.caption)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(.tertiary)
                 .fixedSize(horizontal: false, vertical: true)
         }
         .appCardStyle()
     }
+}
 
-    private var footerNote: some View {
-        LegalDisclaimerCard(
-            text: "By using MyAFBase, you acknowledge that information in the app is provided as-is for planning and reference only, and that you are responsible for verifying official guidance with your chain of command and installation offices.",
-            style: .compact,
-            systemImage: "checkmark.shield"
-        )
-        .padding(.horizontal, 4)
+private struct LegalWebsiteLink: Identifiable {
+    let id: String
+    let title: String
+    let subtitle: String
+    let systemImage: String
+    let urlString: String
+
+    var url: URL? {
+        SafeURL.webURL(from: urlString)
+    }
+}
+
+private struct LegalWebsiteLinkRow: View {
+    let link: LegalWebsiteLink
+
+    var body: some View {
+        HStack(spacing: 12) {
+            IconBadge(systemImage: link.systemImage, tint: AppTheme.accent, size: 36)
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(link.title)
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(.primary)
+
+                Text(link.subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
+            Spacer(minLength: 8)
+
+            Image(systemName: "arrow.up.right")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.tertiary)
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 12)
+        .contentShape(Rectangle())
     }
 }
 

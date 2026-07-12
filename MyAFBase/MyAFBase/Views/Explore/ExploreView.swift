@@ -4,6 +4,7 @@ struct ExploreView: View {
     @Environment(AppState.self) private var appState
     @State private var segment: ExploreSegment = .resources
     @State private var displayMode: ExploreDisplayMode = .list
+    @State private var hasOpenedMap = false
     @State private var resourceCategoryID = ExploreCategory.all.id
     @State private var eventCategoryID = EventExploreCategory.all.id
     @State private var searchText = ""
@@ -33,6 +34,12 @@ struct ExploreView: View {
                 }
             }
             .toolbarBackground(displayMode == .map ? .hidden : .automatic, for: .navigationBar)
+            .searchable(
+                text: $searchText,
+                prompt: displayMode == .map
+                    ? "Search places on \(appState.currentBase?.name ?? "base")"
+                    : "Search \(appState.currentBase?.name ?? "base")"
+            )
             .onAppear {
                 applyExploreNavigation(appState.consumeExploreNavigation())
             }
@@ -40,15 +47,38 @@ struct ExploreView: View {
                 guard destination != nil else { return }
                 applyExploreNavigation(appState.consumeExploreNavigation())
             }
+            .onChange(of: displayMode) { _, mode in
+                guard mode == .map, !hasOpenedMap else { return }
+                // Yield one frame so the segmented control can finish its
+                // selection animation before MapKit does heavy first-time work.
+                Task { @MainActor in
+                    await Task.yield()
+                    hasOpenedMap = true
+                }
+            }
         }
     }
 
     @ViewBuilder
     private func exploreContent(for base: Base) -> some View {
-        if displayMode == .map {
-            mapExploreContent(for: base)
-        } else {
+        // Keep the map warm after the first open so switching back doesn't
+        // tear down / rebuild MapKit (that was the hang).
+        ZStack {
             listExploreContent(for: base)
+                .opacity(displayMode == .list ? 1 : 0)
+                .allowsHitTesting(displayMode == .list)
+                .accessibilityHidden(displayMode != .list)
+
+            if hasOpenedMap {
+                mapExploreContent(for: base)
+                    .opacity(displayMode == .map ? 1 : 0)
+                    .allowsHitTesting(displayMode == .map)
+                    .accessibilityHidden(displayMode != .map)
+            } else if displayMode == .map {
+                ProgressView("Loading map…")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Color(.systemBackground))
+            }
         }
     }
 
@@ -56,10 +86,10 @@ struct ExploreView: View {
     private func mapExploreContent(for base: Base) -> some View {
         ExploreMapContainerView(
             base: base,
-            searchText: searchText
+            searchText: displayMode == .map ? searchText : "",
+            isActive: displayMode == .map
         )
         .ignoresSafeArea(edges: .bottom)
-        .searchable(text: $searchText, prompt: "Search places on \(base.name)")
     }
 
     @ViewBuilder
@@ -80,7 +110,6 @@ struct ExploreView: View {
         .safeAreaInset(edge: .bottom, spacing: 0) {
             listBottomChrome
         }
-        .searchable(text: $searchText, prompt: "Search \(base.name)")
         .onChange(of: exploreListAnimationKey) { _, _ in
             listRevealToken += 1
         }

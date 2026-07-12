@@ -1,0 +1,467 @@
+{
+  "id": "little-rock",
+  "name": "Little Rock AFB",
+  "fullName": "Little Rock Air Force Base",
+  "location": "Jacksonville, AR",
+  "description": "Home of the 19th Airlift Wing, Little Rock AFB is the Department of Defense's premier C-130 Hercules training and airlift hub. The installation trains aircrews from across the Air Force and allied nations while supporting global mobility operations from central Arkansas.",
+  "wing": "19 AW",
+  "latitude": 34.9169,
+  "longitude": -92.1497,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "little-rock-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a visitor pass — Trusted Traveler Program suspended. 100% ID checks enforced until further notice.",
+      "type": "alert",
+      "postedAt": "2026-01-03T08:00:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "501-987-2611"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator / Phone Menu",
+      "number": "501-987-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "Visitor Control Center",
+      "number": "501-987-8777"
+    },
+    {
+      "id": "em-5",
+      "label": "19th Medical Group Appointments",
+      "number": "501-987-8811"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-vandenberg",
+      "name": "Vandenberg Gate (Main Gate)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate. After-hours visitor passes issued at Bldg 1502 (gate guard building). Trusted Traveler Program suspended — all visitors require a pass.",
+      "traffic": "high",
+      "address": "Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-arnold",
+      "name": "Arnold Gate (Back Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0600-1800",
+      "notes": "Alternate access on Arnold Road near AR-107. Closed federal holidays and Family Days.",
+      "traffic": "moderate",
+      "address": "Arnold Rd, Little Rock AFB, AR 72099",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-harris-road",
+      "name": "Harris Road Gate (School Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-0830 & 1430-1630",
+      "notes": "School gate for morning and afternoon school traffic. Closed weekends, holidays, and Family Days. School buses authorized search pit entry.",
+      "traffic": "moderate",
+      "address": "Harris Rd, Little Rock AFB, AR 72099",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-marshall",
+      "name": "Marshall Road Gate",
+      "status": "closed",
+      "hours": "Special events only",
+      "notes": "Closed except during special events and gate closures. VCC parking accessed via Marshall Road at the traffic light outside Vandenberg Gate.",
+      "traffic": "low",
+      "address": "Marshall Rd, Little Rock AFB, AR 72099",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (Bldg 1508)",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1630",
+      "notes": "Visitor passes, DBIDS cards, extended passes, and Restricted Area Badges. Appointments recommended (0800-1600); required for RAB issuance. REAL ID required. Trusted Traveler suspended.",
+      "traffic": "moderate",
+      "address": "Bldg 1508, Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-little-rock-hercules-dfac",
+      "name": "Hercules Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary dining facility — repeatedly awarded the USAF John L. Hennessy Trophy for the Eastern Region. Open to all DoD ID card holders, family members, retirees, NAF civilians, and contractors.",
+      "hours": "Mon-Fri 0700-0000; closed Sat-Sun, holidays, and down days",
+      "address": "834 6th St, Bldg 834, Little Rock AFB, AR 72099",
+      "phone": "501-987-0046",
+      "url": "https://rockinattherock.com/hercules-dfac/",
+      "building": "Bldg 834"
+    },
+    {
+      "id": "res-little-rock-hungry-herk",
+      "name": "Hungry Herk (P.O.D.)",
+      "category": "dining",
+      "description": "Grab-and-go convenience store and quick-service dining inside Hangar 276 near the flight line.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Hangar 276, Little Rock AFB, AR 72099",
+      "phone": "501-987-0046",
+      "url": "https://rockinattherock.com/hercules-dfac/",
+      "building": "Hangar 276"
+    },
+    {
+      "id": "res-little-rock-wallys-cafe",
+      "name": "Wally's Café",
+      "category": "dining",
+      "description": "Community café at the Walters Community Support Center.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "940 Arnold Dr, Bldg 940, Little Rock AFB, AR 72099",
+      "phone": "501-987-4133",
+      "url": "https://rockinattherock.com/",
+      "building": "Bldg 940"
+    },
+    {
+      "id": "res-little-rock-rickenbackers",
+      "name": "Rickenbacker's Coffee Shop (Razorback Inn)",
+      "category": "dining",
+      "description": "Coffee and light breakfast in the Razorback Inn lobby.",
+      "hours": "Mon-Fri 0600-1000",
+      "address": "883 Arnold Dr, Little Rock AFB, AR 72099",
+      "phone": "501-987-4667",
+      "url": "https://rockinattherock.com/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-strike-zone-snack-bar",
+      "name": "Strike Zone Snack Bar",
+      "category": "dining",
+      "description": "Snack bar inside the Strike Zone Bowling Center.",
+      "hours": "See bowling center for current hours",
+      "address": "956 Cannon Circle, Bldg 956, Little Rock AFB, AR 72099",
+      "phone": "501-987-8859",
+      "url": "https://rockinattherock.com/strike-zone-bowling-center/",
+      "building": "Bldg 956"
+    },
+    {
+      "id": "res-little-rock-bx",
+      "name": "Little Rock AFB Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, home goods, firearms, and service shops.",
+      "hours": "Mon-Fri 0800-1800; Sat 0900-1800; Sun 1000-1700",
+      "address": "787 6th St, Bldg 787, Little Rock AFB, AR 72099",
+      "phone": "501-988-2337",
+      "url": "https://www.shopmyexchange.com/store-locator/little-rock-main-exchange",
+      "building": "Bldg 787"
+    },
+    {
+      "id": "res-little-rock-commissary",
+      "name": "Little Rock AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery with bakery, deli, sushi, and early-bird shopping Tue-Fri.",
+      "hours": "Sun 1000-1800; Mon closed; Tue-Sat 0900-1900; Early bird Tue-Fri 0630-0900",
+      "address": "790 6th St, Bldg 790, Little Rock AFB, AR 72099",
+      "phone": "501-987-6990",
+      "url": "https://shop.commissaries.com/stores/little-rock-afb",
+      "building": "Bldg 790"
+    },
+    {
+      "id": "res-little-rock-medical",
+      "name": "19th Medical Group Clinic",
+      "category": "medical",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1255 Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-8811",
+      "url": "https://littlerock.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-pharmacy",
+      "name": "19th Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1255 Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-8811",
+      "url": "https://littlerock.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-fitness",
+      "name": "Fitness & Sports Center",
+      "category": "fitness",
+      "description": "Weight room, cardio theater, functional fitness, indoor track, racquetball, basketball, group exercise, and parent-child room. 24/7 CAC access available after registration.",
+      "hours": "Mon-Thu 0500-2200; Fri 0500-1900; Sat 0900-1800; Sun 24-hour CAC access (registration required)",
+      "address": "827 6th St, Bldg 827, Little Rock AFB, AR 72099",
+      "phone": "501-987-7716",
+      "url": "https://rockinattherock.com/fitness-sports-center/",
+      "building": "Bldg 827"
+    },
+    {
+      "id": "res-little-rock-arfcu",
+      "name": "Arkansas Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with deposit accounts, loans, and ATM services.",
+      "hours": "Mon-Fri 0830-1700",
+      "address": "779 6th St, Little Rock AFB, AR 72099",
+      "phone": "501-982-1000",
+      "url": "https://www.arfcu.org/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1255 Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-1110",
+      "url": "https://www.littlerock.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "1255 Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-1110",
+      "url": "https://rockinattherock.com/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-fss",
+      "name": "19th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Mon-Fri 0730-1630; facility hours at rockinattherock.com",
+      "address": "1255 Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-1110",
+      "url": "https://rockinattherock.com/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "One-stop information and referral center — relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "940 Arnold Dr, Bldg 940, Little Rock AFB, AR 72099",
+      "phone": "501-987-2667",
+      "url": "https://www.littlerock.af.mil/Home/Comprehensive-Airman-Fitness/",
+      "building": "Bldg 940"
+    },
+    {
+      "id": "res-little-rock-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing (Hunt Military Communities) and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Little Rock AFB, Jacksonville, AR 72099",
+      "phone": "501-987-1110",
+      "url": "https://www.housing.af.mil/Home/Installations/Little-Rock-AFB/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-lodge",
+      "name": "Razorback Inn (AF Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites. Pet-friendly TLF available. Rickenbacker's coffee shop in lobby.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "1024 Cannon Circle, Little Rock AFB, AR 72099",
+      "phone": "501-987-6753",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-odr",
+      "name": "Outdoor Recreation & ITT",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, ski lift tickets, theme park tickets, and adventure trips.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "1075 Cannon Circle, Little Rock AFB, AR 72099",
+      "phone": "501-987-3365",
+      "url": "https://rockinattherock.com/outdoor-recreation/",
+      "building": "Bldg 1075"
+    },
+    {
+      "id": "res-little-rock-golf",
+      "name": "Deer Run Golf Course",
+      "category": "recreation",
+      "description": "Regulation 18-hole course (6,800 yards), driving range, pitching and putting greens, pro shop, and Fairways Dining Facility.",
+      "hours": "Summer (Mar-Oct) daily 0700-dusk; Winter (Nov-Feb) daily 0800-dusk",
+      "address": "1075 Cannon Circle, Bldg 1075, Little Rock AFB, AR 72099",
+      "phone": "501-987-6825",
+      "url": "https://rockinattherock.com/deer-run-golf-course/",
+      "building": "Bldg 1075"
+    },
+    {
+      "id": "res-little-rock-bowling",
+      "name": "Strike Zone Bowling Center",
+      "category": "recreation",
+      "description": "Bowling lanes with cosmic bowling, birthday party packages, and Strike Zone Snack Bar.",
+      "hours": "Mon-Thu 1100-2000; Fri-Sat 1100-1900; Cosmic Fri-Sat 2000-2300",
+      "address": "956 Cannon Circle, Bldg 956, Little Rock AFB, AR 72099",
+      "phone": "501-987-3338",
+      "url": "https://rockinattherock.com/strike-zone-bowling-center/",
+      "building": "Bldg 956"
+    },
+    {
+      "id": "res-little-rock-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access. All visitors require a pass — Trusted Traveler suspended. Pre-register via DBIDS/DVES. Appointments recommended.",
+      "hours": "Mon-Fri 0600-1630",
+      "address": "Bldg 1508, Vandenberg Blvd, Little Rock AFB, AR 72099",
+      "phone": "501-987-8777",
+      "url": "https://www.littlerock.af.mil/Home/Base-Access/",
+      "building": "Bldg 1508"
+    },
+    {
+      "id": "res-little-rock-security-forces",
+      "name": "19th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations. Vets over 13,000 visitors annually.",
+      "hours": "24/7",
+      "address": "Little Rock AFB, Jacksonville, AR 72099",
+      "phone": "501-987-2611",
+      "url": "https://www.littlerock.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-little-rock-library",
+      "name": "Base Library",
+      "category": "services",
+      "description": "Books, media, computers, and community programs at the Walters Community Support Center.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "940 Arnold Dr, Bldg 940, Little Rock AFB, AR 72099",
+      "phone": "501-987-6979",
+      "url": "https://rockinattherock.com/",
+      "building": "Bldg 940"
+    }
+  ],
+  "events": [
+    {
+      "id": "little-rock-evt-cosmic-bowling",
+      "title": "Cosmic Bowling",
+      "date": "2026-07-04T01:00:00Z",
+      "endDate": "2026-07-04T04:00:00Z",
+      "location": "Strike Zone Bowling Center",
+      "address": "956 Cannon Circle, Little Rock AFB, AR 72099",
+      "description": "Weekly cosmic bowling with black lights and music at Strike Zone.",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "940 Arnold Dr, Bldg 940, Little Rock AFB, AR 72099",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Little Rock AFB Visitor Control Center",
+      "url": "https://www.littlerock.af.mil/Newcomers/",
+      "phone": "501-987-8777",
+      "address": "Bldg 1508, Vandenberg Blvd, Little Rock AFB, AR 72099"
+    },
+    "moreInfoURL": "https://www.littlerock.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your Unit Command Support Staff (CSS) normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the Military & Family Readiness Center. Visit Finance for travel voucher settlement.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.littlerock.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Razorback Inn offers temporary lodging — book early during PCS season.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Little-Rock-AFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Razorback Inn",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "Vandenberg Gate is open 24/7. Arnold Gate is Mon-Fri 0500-2200 and Sat-Sun 0600-1800. Harris Road (School Gate) is Mon-Fri 0600-0830 and 1430-1630. Visitor Control Center hours are Mon-Fri 0600-1630. REAL ID required. Trusted Traveler suspended.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Base Access & Gate Hours",
+            "url": "https://www.littlerock.af.mil/Home/Base-Access/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Little Rock AFB Official Site",
+            "url": "https://www.littlerock.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "19th Force Support Squadron",
+            "url": "https://rockinattherock.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "19th Medical Group",
+            "url": "https://littlerock.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

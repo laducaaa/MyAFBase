@@ -55,8 +55,7 @@ struct HomeView: View {
         return WeatherHeroSection(
             base: base,
             showWeather: showWeather,
-            weatherCondition: weatherCondition,
-            isLoading: appState.isWeatherLoading
+            weatherCondition: weatherCondition
         )
         .padding(.top, 16)
         .padding(.bottom, 6)

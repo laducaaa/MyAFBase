@@ -1,0 +1,491 @@
+{
+  "id": "maxwell",
+  "name": "Maxwell AFB",
+  "fullName": "Maxwell-Gunter Air Force Base",
+  "location": "Montgomery, AL",
+  "description": "Maxwell AFB and Gunter Annex form a two-site installation in Montgomery — home of the 42nd Air Base Wing, Air University (AU), and Officer Training School (OTS). Maxwell is the Air Force's center for professional military education and doctrine; Gunter Annex (~17 miles northeast) hosts cyber and IT missions.",
+  "wing": "42 ABW / AU / OTS",
+  "latitude": 32.3829,
+  "longitude": -86.3618,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "maxwell-notif-closed-base",
+      "title": "Closed Base — No Visitor Control Center",
+      "body": "Maxwell-Gunter is a closed installation with no Visitor Control Center. All visitors must be sponsored and pre-registered through DBIDS. REAL ID required for base access.",
+      "type": "alert",
+      "postedAt": "2026-06-28T13:30:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "maxwell-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-28T13:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (BDOC)",
+      "number": "334-953-2502"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "334-953-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "42nd Medical Group Appointments",
+      "number": "334-953-3368"
+    },
+    {
+      "id": "em-5",
+      "label": "Crime Stop",
+      "number": "334-953-7777"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-maxwell-blvd",
+      "name": "Maxwell Blvd Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 Maxwell AFB access. Closed base — all visitors must be sponsored and pre-registered; no Visitor Control Center on installation.",
+      "traffic": "high",
+      "address": "Maxwell Blvd, Maxwell AFB, AL 36112",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-kelly-st",
+      "name": "Kelly St Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": "Commercial Vehicle Inspection Gate. Closed weekends and federal holidays.",
+      "traffic": "moderate",
+      "address": "Kelly St, Maxwell AFB, AL 36112",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-day-st",
+      "name": "Day St Gate",
+      "status": "closed",
+      "hours": "Closed until further notice",
+      "notes": "Gate closed until further notice.",
+      "traffic": "low",
+      "address": "Day St, Maxwell AFB, AL 36112",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gunter-dickerson",
+      "name": "Gunter Dickerson Gate (Congressman Dickinson Dr)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 Gunter Annex access. Closed base — sponsored visitors only.",
+      "traffic": "moderate",
+      "address": "Congressman Dickinson Dr, Gunter Annex, Montgomery, AL 36114",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gunter-dalraida",
+      "name": "Gunter Dalraida Gate",
+      "status": "closed",
+      "hours": "Closed until further notice",
+      "notes": "Dalraida Road gate closed until further notice.",
+      "traffic": "low",
+      "address": "Dalraida Rd, Gunter Annex, Montgomery, AL 36114",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-maxwell-river-front-inn",
+      "name": "River Front Inn (DFAC)",
+      "category": "dining",
+      "description": "Primary dining facility at Maxwell AFB serving breakfast, lunch, and dinner for eligible patrons.",
+      "hours": "Mon-Fri: Breakfast 0600-0800, Lunch 1100-1300, Dinner 1600-1830",
+      "address": "5 Mitchell St, Bldg 668, Maxwell AFB, AL 36112",
+      "phone": "334-953-5127",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 668"
+    },
+    {
+      "id": "res-maxwell-aviation-inn",
+      "name": "Aviation Inn (DFAC)",
+      "category": "dining",
+      "description": "Dining facility at Gunter Annex serving breakfast, lunch, and dinner for eligible patrons.",
+      "hours": "Mon-Fri: Breakfast 0600-0800, Lunch 1100-1300, Dinner 1600-1830",
+      "address": "640 Williamson St, Bldg 1065, Gunter Annex, Montgomery, AL 36115",
+      "phone": "334-416-1011",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 1065"
+    },
+    {
+      "id": "res-maxwell-bx",
+      "name": "Maxwell Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with main store, food court, Class Six, gas station, barber, beauty shop, optical, alterations, and Military Clothing.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1800",
+      "address": "355 South Kelly St, Bldg 1090, Maxwell AFB, AL 36112",
+      "phone": "334-834-5946",
+      "url": "https://www.shopmyexchange.com/store-locator/maxwell-main-exchange",
+      "building": "Bldg 1090"
+    },
+    {
+      "id": "res-maxwell-gunter-exchange",
+      "name": "Gunter Annex Exchange",
+      "category": "shopping",
+      "description": "AAFES services at Gunter Annex — concession, alterations, dry cleaner, barbershop, and gas station.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1000-1700",
+      "address": "85 S Turner Blvd, Bldg 814, Gunter Annex, Montgomery, AL 36114",
+      "phone": "334-239-8040",
+      "url": "https://lifeatthemax.us/maxwell-exchange/",
+      "building": "Bldg 814"
+    },
+    {
+      "id": "res-maxwell-commissary",
+      "name": "Maxwell Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery at Maxwell AFB. ID card required — no visitors.",
+      "hours": "Tue 0900-1800; Wed 0900-1900; Thu-Sat 0900-1800; Sun 0900-1800; Mon closed",
+      "address": "335 Kelly St, Maxwell AFB, AL 36112",
+      "phone": "334-777-5353",
+      "url": "https://shop.commissaries.com/stores/maxwell-afb",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-gunter-commissary",
+      "name": "Gunter Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery at Gunter Annex. ID card required — no visitors.",
+      "hours": "Tue 0900-1800; Wed 0900-1900; Thu-Sat 0900-1800; Sun 0900-1800; Mon closed",
+      "address": "115 N Turner Blvd, Gunter Annex, Montgomery, AL 36114",
+      "phone": "334-416-7920",
+      "url": "https://shop.commissaries.com/stores/maxwell-afb",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-medical",
+      "name": "42nd Medical Group",
+      "category": "medical",
+      "description": "Ambulatory MTF — family medicine, pediatrics, flight medicine, behavioral health, dental, lab, and immunizations. No emergency department on base.",
+      "hours": "Mon-Fri 0700-1630",
+      "address": "600 Harrison Rd, Bldg 840, Maxwell AFB, AL 36112",
+      "phone": "334-953-3368",
+      "url": "https://maxwell.tricare.mil/",
+      "building": "Bldg 840"
+    },
+    {
+      "id": "res-maxwell-fitness",
+      "name": "Maxwell Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and sports center with gymnasium, aerobic rooms, and weight room for active duty, dependents, retirees, and sponsored guests.",
+      "hours": "Mon-Fri 0500-2000; Sat-Sun 0800-1700",
+      "address": "50 West Ash, Bldg 841, Maxwell AFB, AL 36112",
+      "phone": "334-953-5953",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 841"
+    },
+    {
+      "id": "res-maxwell-gunter-fitness",
+      "name": "Gunter Fitness Center",
+      "category": "fitness",
+      "description": "Gunter Annex fitness and sports center with gymnasium, aerobic rooms, and weight room.",
+      "hours": "Mon-Fri 0400-2000",
+      "address": "175 West North Dr, Bldg 800, Gunter Annex, Montgomery, AL 36114",
+      "phone": "334-416-1250",
+      "url": "https://lifeatthemax.us/gunter-fitness-center-annex/",
+      "building": "Bldg 800"
+    },
+    {
+      "id": "res-maxwell-finance",
+      "name": "42nd Comptroller Squadron",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "50 LeMay Plaza S, Bldg 804, Maxwell AFB, AL 36112",
+      "phone": "334-953-4001",
+      "url": "https://www.maxwell.af.mil/Units/42nd-Comptroller-Squadron/",
+      "building": "Bldg 804"
+    },
+    {
+      "id": "res-maxwell-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0800-1500",
+      "address": "50 LeMay Plaza, Bldg 804, Maxwell AFB, AL 36112",
+      "phone": "334-953-6489",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 804"
+    },
+    {
+      "id": "res-maxwell-fss",
+      "name": "42nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events at Maxwell and Gunter.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Maxwell AFB & Gunter Annex, Montgomery, AL",
+      "phone": "334-953-6294",
+      "url": "https://lifeatthemax.us/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, spouse employment, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "55 S Mitchell St, Bldg 677, Maxwell AFB, AL 36112",
+      "phone": "334-953-3362",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 677"
+    },
+    {
+      "id": "res-maxwell-air-university",
+      "name": "Air University (AU)",
+      "category": "services",
+      "description": "The Air Force's center for professional military education — Squadron Officer School, Air Command and Staff College, Air War College, and affiliated schools.",
+      "hours": "Mon-Fri Mon-Fri 0730-1630",
+      "address": "55 Lemay Plaza, Maxwell AFB, AL 36112",
+      "phone": "334-953-1110",
+      "url": "https://www.airuniversity.af.edu/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-ots",
+      "name": "Officer Training School (OTS)",
+      "category": "services",
+      "description": "Air Force officer accession and commissioning program at Maxwell AFB.",
+      "hours": "Mon-Fri during training cycles",
+      "address": "501 N LeMay Plaza, Maxwell AFB, AL 36112",
+      "phone": "334-953-4723",
+      "url": "https://www.airuniversity.af.edu/OTS/",
+      "building": "Bldg 1485"
+    },
+    {
+      "id": "res-maxwell-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Maxwell AFB, Montgomery, AL 36112",
+      "phone": "334-953-1110",
+      "url": "https://www.housing.af.mil/Home/Installations/Maxwell-AFB/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-inns",
+      "name": "Maxwell Inns (University Inn)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging at Maxwell AFB and Gunter Annex. Book early during PME and OTS arrival periods.",
+      "hours": "Lodging desk open 24 hours daily; Check-in 1500, Check-out 1100",
+      "address": "450 N LeMay Plaza, Bldg 682, Maxwell AFB, AL 36112",
+      "phone": "334-953-5964",
+      "url": "https://www.afreservations.com/",
+      "building": "Bldg 682"
+    },
+    {
+      "id": "res-maxwell-range-42-golf",
+      "name": "Range 42 Golf & Driving Range",
+      "category": "recreation",
+      "description": "On-base golf driving range with Toptracer technology, putting green, and Range 42 Bar & Grill.",
+      "hours": "Mon-Tue 1000-1500; Wed-Sat 1000-2000; Sun closed",
+      "address": "1461 March St, Bldg 1461, Maxwell AFB, AL 36112",
+      "phone": "334-953-2209",
+      "url": "https://lifeatthemax.us/range-42",
+      "building": "Bldg 1461"
+    },
+    {
+      "id": "res-maxwell-bowling",
+      "name": "Maxwell Bowling Center",
+      "category": "recreation",
+      "description": "Bowling lanes, leagues, and family programs at Maxwell AFB.",
+      "hours": "Mon-Fri 1100-2200; Sat-Sun 1200-2200",
+      "address": "45 Selfridge St, Maxwell AFB, AL 36112",
+      "phone": "334-953-5049",
+      "url": "https://lifeatthemax.us/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-gunter-lanes",
+      "name": "Gunter Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center and snack bar at Gunter Annex with leagues and family programs.",
+      "hours": "Mon-Fri 1100-2200; Sat-Sun 1200-2200",
+      "address": "75 Butler Ave S, Bldg 816, Gunter Annex, Montgomery, AL 36115",
+      "phone": "334-416-3186",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 816"
+    },
+    {
+      "id": "res-maxwell-base-access",
+      "name": "Closed Base Access Information",
+      "category": "safety",
+      "description": "Maxwell-Gunter is a closed installation with no Visitor Control Center. All visitors must be sponsored and pre-registered through DBIDS before arrival. REAL ID required.",
+      "hours": "N/A — no VCC on installation",
+      "address": "Maxwell Blvd Gate, Maxwell AFB, AL 36112",
+      "phone": "334-953-2502",
+      "url": "https://www.maxwell.af.mil/About-Us/Fact-Sheets/Display/Article/4024201/base-access-information/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-security-forces",
+      "name": "42nd Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations at Maxwell AFB and Gunter Annex.",
+      "hours": "24/7",
+      "address": "Maxwell AFB & Gunter Annex, Montgomery, AL",
+      "phone": "334-953-2502",
+      "url": "https://www.maxwell.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-maxwell-education",
+      "name": "Education Services / Professional Development",
+      "category": "services",
+      "description": "Tuition assistance, CCAF counseling, degree programs, and professional development resources.",
+      "hours": "Mon-Fri 0800-1600",
+      "address": "20 N Pine St, Bldg 501, Maxwell AFB, AL 36112",
+      "phone": "334-953-5959",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 501"
+    },
+    {
+      "id": "res-maxwell-itt",
+      "name": "Information, Tickets & Tours (ITT)",
+      "category": "recreation",
+      "description": "Discounted attraction tickets, travel planning, and recreational trip coordination.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "206 W Selfridge St, Bldg 851, Maxwell AFB, AL 36112",
+      "phone": "334-953-8241",
+      "url": "https://lifeatthemax.us/",
+      "building": "Bldg 851"
+    }
+  ],
+  "events": [
+    {
+      "id": "maxwell-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "55 S Mitchell St, Bldg 677, Maxwell AFB, AL 36112",
+      "description": "Orientation for incoming personnel and families at Maxwell and Gunter. All branches encouraged to attend.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-evt-ots-graduation",
+      "title": "OTS Graduation Parade",
+      "date": "2026-08-08T14:00:00Z",
+      "endDate": "2026-08-08T16:00:00Z",
+      "location": "Officer Training School",
+      "address": "501 N LeMay Plaza, Maxwell AFB, AL 36112",
+      "description": "Officer Training School graduation ceremony. Sponsored guests only — closed base access required.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Maxwell AFB Newcomers & In-Processing",
+      "url": "https://www.maxwell.af.mil/Newcomers/",
+      "phone": "334-953-6489",
+      "address": "50 LeMay Plaza, Bldg 804, Maxwell AFB, AL 36112"
+    },
+    "moreInfoURL": "https://www.maxwell.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit normal business hours (Mon-Fri 0730-1630). Attend the newcomers briefing at the M&FRC. Visit the Military Personnel Flight in Bldg 804 for ID cards and personnel actions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.maxwell.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. All personnel must visit HMO before signing any off-base lease. Maxwell Inns offers temporary lodging — book early during PME and OTS seasons.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/Home/Installations/Maxwell-AFB/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "Maxwell Inns",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access & Two-Site Installation",
+        "body": "Maxwell Blvd and Gunter Dickerson gates are open 24/7. Kelly St is Mon-Fri 0600-1800. Day St and Dalraida gates are closed. Maxwell-Gunter is a closed base with no Visitor Control Center — all visitors must be sponsored via DBIDS. Maxwell AFB and Gunter Annex are ~17 miles apart; confirm your duty location before signing a lease.",
+        "links": [
+          {
+            "id": "link-gates",
+            "title": "Base Access Information",
+            "url": "https://www.maxwell.af.mil/About-Us/Fact-Sheets/Display/Article/4024201/base-access-information/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Life at the Max for MWR, dining, and recreation at both Maxwell and Gunter.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Maxwell AFB Official Site",
+            "url": "https://www.maxwell.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Life at the Max (42 FSS)",
+            "url": "https://lifeatthemax.us/"
+          },
+          {
+            "id": "link-au",
+            "title": "Air University",
+            "url": "https://www.airuniversity.af.edu/"
+          },
+          {
+            "id": "link-medical",
+            "title": "42nd Medical Group",
+            "url": "https://maxwell.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

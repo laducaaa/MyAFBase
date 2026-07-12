@@ -46,6 +46,12 @@ struct OpenNowCatalogTests {
 }
 
 struct AssignmentProfilePhaseTests {
+    @Test func defaultsToStationed() {
+        let profile = AssignmentProfile(baseID: "test")
+        #expect(profile.phase == .stationed)
+        #expect(profile.phaseRaw == AssignmentSegment.stationed.rawValue)
+    }
+
     @Test func assignmentSegmentRoundTrips() {
         let profile = AssignmentProfile(baseID: "test", phaseRaw: AssignmentSegment.outbound.rawValue)
         #expect(profile.phase == .outbound)

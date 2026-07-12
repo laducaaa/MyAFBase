@@ -1,0 +1,312 @@
+{
+  "id": "mildenhall",
+  "name": "RAF Mildenhall",
+  "fullName": "RAF Mildenhall",
+  "location": "Mildenhall, United Kingdom",
+  "description": "RAF Mildenhall hosts the 100th Air Refueling Wing and 352nd Special Operations Wing supporting European and global missions.",
+  "wing": "100 ARW",
+  "latitude": 52.3619,
+  "longitude": 0.4864,
+  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "currentNotifications": [
+    {
+      "id": "mildenhall-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "RAF Mildenhall Security Forces",
+      "number": "+44-1638-54-3421"
+    },
+    {
+      "id": "em-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "+44-1638-54-1110"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-main-gate",
+      "name": "Main Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": null,
+      "traffic": "moderate",
+      "address": "Main Gate, RAF Mildenhall, UK",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-beck-row-gate",
+      "name": "Beck Row Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0600-1800",
+      "notes": null,
+      "traffic": "low",
+      "address": "Beck Row Gate, RAF Mildenhall, UK",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-mildenhall-dfac",
+      "name": "Main Dining Facility",
+      "category": "dining",
+      "description": "Main dining facility at RAF Mildenhall.",
+      "hours": "See posted meal hours",
+      "address": "RAF Mildenhall, Bury St Edmunds, Suffolk IP28 8NF, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhallfss.com/dining/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-bx",
+      "name": "RAF Mildenhall Exchange",
+      "category": "shopping",
+      "description": "Main Exchange at RAF Mildenhall.",
+      "hours": "Mon-Sat 0900-2000",
+      "address": "RAF Mildenhall, Bury St Edmunds, Suffolk IP28 8NF, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.shopmyexchange.com/store-locator/mildenhall-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-commissary",
+      "name": "RAF Mildenhall Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery.",
+      "hours": "Daily 0900-1900",
+      "address": "RAF Mildenhall, Bury St Edmunds, Suffolk IP28 8NF, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://shop.commissaries.com/stores/raf-mildenhall",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-medical",
+      "name": "100th Medical Group",
+      "category": "medical",
+      "description": "Primary medical facility for RAF Mildenhall. TRICARE appointments and emergency care.",
+      "hours": "Appointments during duty hours; emergency care 24/7 where offered",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-2273",
+      "url": "https://mildenhall.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-fitness-1",
+      "name": "Fitness Center",
+      "category": "fitness",
+      "description": "Fitness and wellness facility at RAF Mildenhall.",
+      "hours": "See FSS for current hours",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhallfss.com/fitness/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-finance",
+      "name": "Finance / Comptroller",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhall.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
+      "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-fss",
+      "name": "100 ARW Force Support Squadron",
+      "category": "services",
+      "description": "MWR, dining, fitness, recreation, and family programs.",
+      "hours": "See facility website for current hours",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-housing",
+      "name": "Housing Office",
+      "category": "housing",
+      "description": "On-base housing assignments and off-base housing referrals.",
+      "hours": "Mon-Fri during duty hours",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/raf-mildenhall/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-recreation-1",
+      "name": "Outdoor Recreation",
+      "category": "recreation",
+      "description": "Recreation and leisure programs at RAF Mildenhall.",
+      "hours": "See FSS for current hours",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhallfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-visitor-center",
+      "name": "RAF Mildenhall Visitor Center",
+      "category": "safety",
+      "description": "Visitor passes, pass and registration, and base access information.",
+      "hours": "See official visitor information for current hours",
+      "address": "RAF Mildenhall, Bury St Edmunds, Suffolk IP28 8NF, United Kingdom",
+      "phone": "+44-1638-54-1110",
+      "url": "https://www.mildenhall.af.mil/Newcomers/",
+      "building": null
+    },
+    {
+      "id": "res-mildenhall-security-forces",
+      "name": "Security Forces / Base Defense",
+      "category": "safety",
+      "description": "Security Forces operations and law enforcement.",
+      "hours": "24/7",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "phone": "+44-1638-54-3421",
+      "url": "https://www.mildenhall.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "mildenhall-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "category": "community"
+    },
+    {
+      "id": "mildenhall-evt-fss",
+      "title": "Community Event",
+      "date": "2026-08-22T16:00:00Z",
+      "endDate": "2026-08-22T22:00:00Z",
+      "location": "Force Support Squadron",
+      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
+      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
+      "category": "family"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "RAF Mildenhall Visitor Center",
+      "url": "https://www.mildenhall.af.mil/Newcomers/",
+      "phone": "+44-1638-54-1110",
+      "address": "RAF Mildenhall, Bury St Edmunds, Suffolk IP28 8NF, United Kingdom"
+    },
+    "moreInfoURL": "https://www.mildenhall.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Use the official newcomers page for RAF Mildenhall reporting instructions.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.mildenhall.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Office before arrival for on-base waitlists and off-base referrals. Temporary lodging is available through the base lodging office where offered.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/raf-mildenhall/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival and assist with base orientation. Contact your gaining unit if no sponsor is assigned before departure.",
+        "links": null
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource, Military.com, and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "RAF Mildenhall Official Site",
+            "url": "https://www.mildenhall.af.mil/"
+          },
+          {
+            "id": "link-newcomers",
+            "title": "Official Newcomers Page",
+            "url": "https://www.mildenhall.af.mil/Newcomers/"
+          },
+          {
+            "id": "link-fss",
+            "title": "Force Support Squadron",
+            "url": "https://www.mildenhallfss.com/"
+          },
+          {
+            "id": "link-housing",
+            "title": "Housing Information",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/raf-mildenhall/"
+          },
+          {
+            "id": "link-mil-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/mildenhall"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          },
+          {
+            "id": "link-mil-base-guide",
+            "title": "Military.com Base Guide",
+            "url": "https://www.military.com/base-guide/browse-by-service/air-force"
+          },
+          {
+            "id": "link-base-directory",
+            "title": "BaseDirectory.com",
+            "url": "https://www.basedirectory.com/#air-force"
+          }
+        ]
+      }
+    ]
+  }
+}

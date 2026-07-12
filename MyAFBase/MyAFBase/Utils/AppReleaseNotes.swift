@@ -40,6 +40,27 @@ enum AppReleaseNotes {
 
     static let all: [AppReleaseNote] = [
         AppReleaseNote(
+            version: "1.5.1",
+            title: "Tools polish",
+            highlights: [
+                AppReleaseHighlight(
+                    systemImage: "figure.run",
+                    title: "Shared PFRA profile",
+                    detail: "PFRA Score and Goals now share your profile and event inputs so you only enter them once."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "chart.line.uptrend.xyaxis",
+                    title: "PFRA Records",
+                    detail: "Save scores, compare past tests, and track trends over time from either calculator."
+                ),
+                AppReleaseHighlight(
+                    systemImage: "square.grid.2x2",
+                    title: "Cleaner Home tools",
+                    detail: "Tools use a simple 2×3 grid, and the weather hero shows a skeleton while loading."
+                )
+            ]
+        ),
+        AppReleaseNote(
             version: "1.5",
             title: "In development",
             highlights: []

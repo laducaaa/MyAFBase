@@ -1,0 +1,418 @@
+{
+  "id": "edwards",
+  "name": "Edwards AFB",
+  "fullName": "Edwards Air Force Base",
+  "location": "Edwards, CA",
+  "description": "Home of 412th Test Wing — premier Air Force flight test center.",
+  "wing": "412 TW",
+  "latitude": 34.9054,
+  "longitude": -117.8839,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "edwards-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate. All visitors must obtain a base pass at the Visitor Control Center at West Gate.",
+      "type": "alert",
+      "postedAt": "2026-06-28T12:30:00Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-1",
+      "label": "Security Forces (SFS)",
+      "number": "661-277-3440"
+    },
+    {
+      "id": "em-2",
+      "label": "Emergency (Fire/Medical/Police)",
+      "number": "911"
+    },
+    {
+      "id": "em-3",
+      "label": "Base Operator",
+      "number": "661-277-1110"
+    },
+    {
+      "id": "em-4",
+      "label": "412th Medical Group",
+      "number": "661-277-7118"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-west-main",
+      "name": "West Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary access from Rosamond Blvd. Visitor Control Center located at West Gate, Bldg 1004.",
+      "traffic": "high",
+      "address": "Rosamond Blvd, Bldg 1004, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-north",
+      "name": "North Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "North access to Edwards AFB. DoD ID holders and authorized visitors only.",
+      "traffic": "moderate",
+      "address": "North Gate Rd, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-south",
+      "name": "South Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "South access to Edwards AFB. DoD ID holders and authorized visitors only.",
+      "traffic": "low",
+      "address": "South Gate Rd, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Control Center (West Gate)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1600",
+      "notes": "Visitor passes and base access. Located at West Gate, Bldg 1004. REAL ID required for all visitors.",
+      "traffic": "moderate",
+      "address": "Rosamond Blvd, Bldg 1004, Edwards AFB, CA 93524",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-edwards-joshua-tree-dfac",
+      "name": "Joshua Tree Dining Facility (DFAC)",
+      "category": "dining",
+      "description": "Primary dining facility serving 412th Test Wing and tenant units. Full meal service seven days per week.",
+      "hours": "Mon-Fri: Bfast 0600-0800, Lunch 1100-1300, Dinner 1630-1900; Sat-Sun: Brunch 0700-1300, Dinner 1630-1800",
+      "address": "130 W Popson Ave, Bldg 2412, Edwards AFB, CA 93524",
+      "phone": "661-275-6213",
+      "url": "https://edwardsfss.com/",
+      "building": "Bldg 2412"
+    },
+    {
+      "id": "res-edwards-bx",
+      "name": "Edwards AFB Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service BX with clothing, electronics, food court, barber shop, and optical.",
+      "hours": "Mon-Sat 0900-2000; Sun 1000-1900",
+      "address": "240 W Fitzgerald Blvd, Edwards AFB, CA 93524",
+      "phone": "661-258-1078",
+      "url": "https://www.shopmyexchange.com/store-locator/edwards-main-exchange",
+      "building": null
+    },
+    {
+      "id": "res-edwards-commissary",
+      "name": "Edwards AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency grocery with bakery, deli, and CLICK2GO curbside pickup.",
+      "hours": "See shop.commissaries.com for current hours",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://shop.commissaries.com/stores/edwards-afb",
+      "building": null
+    },
+    {
+      "id": "res-edwards-medical",
+      "name": "412th Medical Group",
+      "category": "medical",
+      "description": "Ambulatory MTF — primary care, specialty clinics, pharmacy, dental, and behavioral health. 24/7 paramedic ambulance service. No emergency department on base.",
+      "hours": "Mon-Tue/Thu-Fri 0730-1630; Wed 1000-1630; 24/7 paramedic ambulance",
+      "address": "30 Nightingale Rd, Bldg 5525, Edwards AFB, CA 93524",
+      "phone": "661-277-7118",
+      "url": "https://edwards.tricare.mil/",
+      "building": "Bldg 5525"
+    },
+    {
+      "id": "res-edwards-pharmacy",
+      "name": "412th Medical Group Pharmacy",
+      "category": "medical",
+      "description": "Outpatient pharmacy for TRICARE prescriptions.",
+      "hours": "Mon-Tue/Thu-Fri 0730-1630; Wed 1000-1630",
+      "address": "30 Nightingale Rd, Bldg 5525, Edwards AFB, CA 93524",
+      "phone": "661-277-7118",
+      "url": "https://edwards.tricare.mil/",
+      "building": "Bldg 5525"
+    },
+    {
+      "id": "res-edwards-dental",
+      "name": "412th Dental Squadron",
+      "category": "medical",
+      "description": "General dentistry for active-duty and eligible beneficiaries.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "30 Nightingale Rd, Bldg 5525, Edwards AFB, CA 93524",
+      "phone": "661-277-7118",
+      "url": "https://edwards.tricare.mil/",
+      "building": "Bldg 5525"
+    },
+    {
+      "id": "res-edwards-rosburg-fitness",
+      "name": "Rosburg Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness center with weight room, cardio equipment, basketball, racquetball, and group exercise. 24/7 CAC access after registration.",
+      "hours": "Staffed Mon-Fri 0500-2100, Sat-Sun 0800-1800; 24/7 CAC access after registration",
+      "address": "210 W Popson Ave, Bldg 2200, Edwards AFB, CA 93524",
+      "phone": "661-275-4961",
+      "url": "https://edwardsfss.com/",
+      "building": "Bldg 2200"
+    },
+    {
+      "id": "res-edwards-armed-forces-bank",
+      "name": "Armed Forces Bank",
+      "category": "finance",
+      "description": "Full-service military bank branch with checking, savings, loans, and ATM services.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Bldg 6001, Fitzgerald Blvd, Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.afbank.com/",
+      "building": "Bldg 6001"
+    },
+    {
+      "id": "res-edwards-finance",
+      "name": "Finance Office (Comptroller)",
+      "category": "finance",
+      "description": "Military pay, travel vouchers, and finance customer service.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-mpf",
+      "name": "Military Personnel Flight (MPF)",
+      "category": "services",
+      "description": "ID cards, DEERS, assignments, promotions, separations, and retirements. Appointment-based via RAPIDS.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-fss",
+      "name": "412th Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "All MWR programs — dining, fitness, recreation, lodging, and community events.",
+      "hours": "Facility hours listed on FSS website",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, deployment support, financial readiness, newcomers briefing, and family programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-housing",
+      "name": "Housing Management Office",
+      "category": "housing",
+      "description": "On-base privatized housing and off-base housing referrals. Required visit before signing any lease.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-high-desert-inn",
+      "name": "High Desert Inn (AF Lodging)",
+      "category": "housing",
+      "description": "TDY and PCS temporary lodging with VQ, TLF, and DV suites.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "5602 Honts Dr, Edwards AFB, CA 93524",
+      "phone": "661-277-3394",
+      "url": "https://www.afreservations.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-dorm",
+      "name": "Unaccompanied Housing (Dormitory Management)",
+      "category": "housing",
+      "description": "Dorm management for unaccompanied housing for eligible enlisted personnel.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-odr",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rentals, camping gear, ski lift tickets, theme park tickets, and adventure trips.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-1110",
+      "url": "https://www.edwardsfss.com/outdoor-recreation/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-muroc-lake-golf",
+      "name": "Muroc Lake Golf Course",
+      "category": "recreation",
+      "description": "18-hole par 72 golf course with pro shop and practice facilities in the high desert.",
+      "hours": "Daily sunrise to sunset; pro shop hours vary seasonally",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-275-7888",
+      "url": "https://www.edwardsfss.com/golf/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-bowling",
+      "name": "High Desert Lanes Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with leagues, food, and family programs.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-275-2695",
+      "url": "https://www.edwardsfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-edwards-vcc",
+      "name": "Visitor Control Center (West Gate)",
+      "category": "safety",
+      "description": "Visitor passes and base access. All visitors require a pass. REAL ID required.",
+      "hours": "Mon-Fri 0700-1600",
+      "address": "Rosamond Blvd, Bldg 1004, Edwards AFB, CA 93524",
+      "phone": "661-275-9771",
+      "url": "https://www.edwards.af.mil/About-Us/Visitors/",
+      "building": "Bldg 1004"
+    },
+    {
+      "id": "res-edwards-security-forces",
+      "name": "412th Security Forces Squadron",
+      "category": "safety",
+      "description": "Base defense, law enforcement, and gate operations.",
+      "hours": "24/7",
+      "address": "Edwards AFB, CA 93524",
+      "phone": "661-277-3440",
+      "url": "https://www.edwards.af.mil/",
+      "building": null
+    }
+  ],
+  "events": [
+    {
+      "id": "edwards-evt-air-show",
+      "title": "Edwards Open House / Air Show",
+      "date": "2026-10-10T14:00:00Z",
+      "endDate": "2026-10-11T22:00:00Z",
+      "location": "Edwards AFB Flightline",
+      "address": "Rosamond Blvd, Edwards AFB, CA 93524",
+      "description": "Periodic Edwards AFB open house showcasing flight test heritage and experimental aircraft. Check official site for dates.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-evt-newcomers",
+      "title": "Newcomers Briefing",
+      "date": "2026-07-15T14:00:00Z",
+      "endDate": "2026-07-15T16:00:00Z",
+      "location": "Military & Family Readiness Center",
+      "address": "Edwards AFB, CA 93524",
+      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
+      "category": "community"
+    }
+  ],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Edwards AFB Newcomers",
+      "url": "https://www.edwards.af.mil/Newcomers/",
+      "phone": "661-275-9771",
+      "address": "Rosamond Blvd, Bldg 1004, Edwards AFB, CA 93524"
+    },
+    "moreInfoURL": "https://www.edwards.af.mil/Newcomers/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "Bring PCS orders, CAC, medical and dental records, and marriage or birth certificates if applicable. Carry finance and travel receipts for settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit the Military Personnel Flight within required timelines. Attend the newcomers briefing at the M&FRC.",
+        "links": [
+          {
+            "id": "link-inprocess",
+            "title": "Newcomers & In-Processing",
+            "url": "https://www.edwards.af.mil/Newcomers/"
+          }
+        ]
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact the Housing Management Office before arrival. High Desert Inn offers temporary lodging — book early during PCS season. Dorm management handles unaccompanied housing.",
+        "links": [
+          {
+            "id": "link-housing-sec",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/edwards-afb/"
+          },
+          {
+            "id": "link-lodge",
+            "title": "High Desert Inn",
+            "url": "https://www.afreservations.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-4",
+        "title": "Gate Access",
+        "body": "West Gate (Main), North Gate, and South Gate are open 24/7. Visitor Control Center at West Gate, Bldg 1004, is Mon-Fri 0700-1600. REAL ID required for all visitors.",
+        "links": [
+          {
+            "id": "link-visitors",
+            "title": "Visitor Information",
+            "url": "https://www.edwards.af.mil/About-Us/Visitors/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "Official installation resources plus Military OneSource and BaseDirectory for relocation support.",
+        "links": [
+          {
+            "id": "link-official",
+            "title": "Edwards AFB Official Site",
+            "url": "https://www.edwards.af.mil/"
+          },
+          {
+            "id": "link-fss",
+            "title": "412th Force Support Squadron",
+            "url": "https://www.edwardsfss.com/"
+          },
+          {
+            "id": "link-medical",
+            "title": "412th Medical Group",
+            "url": "https://edwards.tricare.mil/"
+          },
+          {
+            "id": "link-mos",
+            "title": "Military OneSource",
+            "url": "https://www.militaryonesource.mil/"
+          }
+        ]
+      }
+    ]
+  }
+}

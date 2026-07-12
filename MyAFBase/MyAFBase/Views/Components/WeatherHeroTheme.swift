@@ -112,7 +112,6 @@ struct WeatherHeroSection: View {
     let base: Base
     let showWeather: Bool
     let weatherCondition: String?
-    let isLoading: Bool
 
     @Environment(\.colorScheme) private var colorScheme
 
@@ -145,13 +144,6 @@ struct WeatherHeroSection: View {
         }
         .clipShape(shape)
         .overlay {
-            if showWeather && isLoading {
-                HeroRefreshOverlay()
-                    .clipShape(shape)
-                    .transition(.opacity)
-            }
-        }
-        .overlay {
             shape.strokeBorder(Color.white.opacity(isDark ? 0.10 : 0.14), lineWidth: 0.5)
         }
         .shadow(
@@ -159,61 +151,6 @@ struct WeatherHeroSection: View {
             radius: isDark ? 0 : 14,
             y: isDark ? 0 : 8
         )
-    }
-}
-
-struct HeroRefreshOverlay: View {
-    private let sweepDuration: TimeInterval = 1.2
-
-    @State private var sweepProgress: CGFloat = 0
-
-    var body: some View {
-        GeometryReader { geometry in
-            let width = geometry.size.width
-            let height = geometry.size.height
-            let diagonal = hypot(width, height)
-            let diagonalAngle = atan2(height, width)
-            let unitX = width / diagonal
-            let unitY = height / diagonal
-            let travel = (sweepProgress * 1.8 - 0.9) * diagonal
-
-            ZStack {
-                Color.black.opacity(0.20)
-
-                LinearGradient(
-                    colors: [
-                        Color.black.opacity(0.12),
-                        Color.white.opacity(0.10),
-                        Color.black.opacity(0.18)
-                    ],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-
-                LinearGradient(
-                    colors: [
-                        .clear,
-                        .white.opacity(0.16),
-                        .white.opacity(0.52),
-                        .white.opacity(0.16),
-                        .clear
-                    ],
-                    startPoint: .leading,
-                    endPoint: .trailing
-                )
-                .frame(width: diagonal * 0.95, height: diagonal * 1.02)
-                .rotationEffect(Angle(radians: diagonalAngle))
-                .offset(x: unitX * travel, y: unitY * travel)
-                .blur(radius: 1.5)
-            }
-        }
-        .onAppear {
-            sweepProgress = 0
-            withAnimation(.easeInOut(duration: sweepDuration)) {
-                sweepProgress = 1
-            }
-        }
-        .allowsHitTesting(false)
     }
 }
 

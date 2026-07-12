@@ -5,16 +5,19 @@ import SwiftUI
 struct ExploreNativeMapView: View {
     let base: Base
     let searchText: String
+    var isActive: Bool = true
 
     @State private var cameraPosition: MapCameraPosition
     @State private var mapSelection: MapSelection<MKMapItem>?
     @State private var searchMarkers: [ExploreMapSearchMarker] = []
     @State private var isSearching = false
     @State private var locationService = ExploreMapLocationService()
+    @State private var didRequestLocation = false
 
-    init(base: Base, searchText: String) {
+    init(base: Base, searchText: String, isActive: Bool = true) {
         self.base = base
         self.searchText = searchText
+        self.isActive = isActive
 
         _cameraPosition = State(
             initialValue: .region(ExploreMapSearchService.baseRegion(for: base))
@@ -24,7 +27,6 @@ struct ExploreNativeMapView: View {
     var body: some View {
         Map(
             position: $cameraPosition,
-            bounds: Self.cameraBounds(for: base),
             selection: $mapSelection
         ) {
             if locationService.isAuthorized {
@@ -37,25 +39,30 @@ struct ExploreNativeMapView: View {
             }
             .mapItemDetailSelectionAccessory(.automatic)
         }
-        .mapStyle(.standard(elevation: .realistic))
+        // Flat standard style — realistic elevation was a major cost on mode switch.
+        .mapStyle(.standard(elevation: .flat, pointsOfInterest: .all))
         .mapControls {
             MapUserLocationButton()
             MapCompass()
-            MapPitchToggle()
             MapScaleView()
         }
         .mapFeatureSelectionAccessory(.automatic)
         .mapFeatureSelectionDisabled { feature in
             feature.kind != .pointOfInterest
         }
-        .onAppear {
+        .onChange(of: isActive, initial: true) { _, active in
+            guard active, !didRequestLocation else { return }
+            didRequestLocation = true
             locationService.requestAccessIfNeeded()
         }
-        .task(id: searchText) {
+        .task(id: "\(isActive)-\(searchText)") {
+            guard isActive else { return }
             await refreshSearchResults()
         }
         .overlay(alignment: .topLeading) {
-            mapChrome
+            if isActive {
+                mapChrome
+            }
         }
     }
 
@@ -126,19 +133,14 @@ struct ExploreNativeMapView: View {
     }
 }
 
-private extension ExploreNativeMapView {
-    static func cameraBounds(for base: Base) -> MapCameraBounds {
-        MapCameraBounds(centerCoordinateBounds: ExploreMapSearchService.baseRegion(for: base))
-    }
-}
-
 // Legacy name used by ExploreView.
 struct ExploreMapContainerView: View {
     let base: Base
     let searchText: String
+    var isActive: Bool = true
 
     var body: some View {
-        ExploreNativeMapView(base: base, searchText: searchText)
+        ExploreNativeMapView(base: base, searchText: searchText, isActive: isActive)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

@@ -1,0 +1,326 @@
+{
+  "id": "tinker",
+  "name": "Tinker AFB",
+  "fullName": "Tinker Air Force Base",
+  "location": "Oklahoma City, OK",
+  "description": "Home of the 72nd Air Base Wing and Air Force Sustainment Center. Major depot maintenance and logistics hub supporting aircraft sustainment for the Air Force.",
+  "wing": "72 ABW / AFSC",
+  "latitude": 35.4147,
+  "longitude": -97.3866,
+  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "currentNotifications": [
+    {
+      "id": "tinker-notif-real-id",
+      "title": "REAL ID Required for Base Access",
+      "body": "A REAL ID-compliant driver's license or equivalent is required for base access per DHS mandate.",
+      "type": "alert",
+      "postedAt": "2026-06-23T16:10:14Z",
+      "expiresAt": null
+    }
+  ],
+  "emergencyNumbers": [
+    {
+      "id": "em-tinker-1",
+      "label": "Tinker Security Forces",
+      "number": "405-739-5201"
+    },
+    {
+      "id": "em-tinker-2",
+      "label": "911 Emergency",
+      "number": "911"
+    },
+    {
+      "id": "em-tinker-3",
+      "label": "Base Operator",
+      "number": "405-739-1110"
+    },
+    {
+      "id": "em-tinker-4",
+      "label": "Sexual Assault Hotline (SARC)",
+      "number": "405-739-7272"
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate-tinker",
+      "name": "Tinker Gate (Main)",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Primary 24/7 gate at I-40 & S Air Depot Blvd. Visitor Center co-located outside gate.",
+      "traffic": "high",
+      "address": "I-40 & S Air Depot Blvd, Tinker AFB, OK 73145",
+      "latitude": 35.4147,
+      "longitude": -97.3866
+    },
+    {
+      "id": "gate-vcc",
+      "name": "Visitor Center (Pass & ID)",
+      "status": "open",
+      "hours": "Mon-Fri 0700-1500; closed federal holidays",
+      "notes": "Weekend visitor passes issued at gates. Phone: 405-734-5191.",
+      "traffic": "moderate",
+      "address": "Bldg 590, I-40 & S Air Depot Blvd, Tinker AFB, OK 73145",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-hruskocy",
+      "name": "Hruskocy Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Preferred gate for vehicles towing trailers.",
+      "traffic": "moderate",
+      "address": "I-40 & Industrial Blvd, Tinker AFB, OK 73145",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-gott",
+      "name": "Gott Gate",
+      "status": "open",
+      "hours": "Open 24/7",
+      "notes": "Preferred gate for vehicles towing trailers.",
+      "traffic": "moderate",
+      "address": "S Air Depot Blvd & SE 59th St, Tinker AFB, OK 73145",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": "gate-lancer",
+      "name": "Lancer Gate",
+      "status": "open",
+      "hours": "Mon-Fri 0500-2000",
+      "notes": "Closed weekends and federal holidays.",
+      "traffic": "moderate",
+      "address": "S Douglas Blvd N of SE 44th St, Tinker AFB, OK 73145",
+      "latitude": null,
+      "longitude": null
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-tinker-dfac",
+      "name": "Tinker Dining Facility",
+      "category": "dining",
+      "description": "Primary DFAC with full meal service and flight meals.",
+      "hours": "Mon-Fri: Breakfast 0630-0830, Lunch 1100-1300, Dinner 1700-1900; Sat-Sun adjusted hours",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-bx",
+      "name": "Tinker Main Exchange (BX)",
+      "category": "shopping",
+      "description": "Full-service Exchange with retail, services, and food court.",
+      "hours": "Mon-Sat 9:00 AM-7:00 PM; Sun 1100-1800",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.shopmyexchange.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-commissary",
+      "name": "Tinker AFB Commissary",
+      "category": "shopping",
+      "description": "Defense Commissary Agency full-service grocery.",
+      "hours": "Tue-Sat 0900-1900; Sun-Mon closed",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://shop.commissaries.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-credit-union",
+      "name": "Tinker Federal Credit Union",
+      "category": "finance",
+      "description": "On-base federal credit union with 24/7 ATM access.",
+      "hours": "Mon-Fri 0900-1700",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-tinker-atm-main",
+      "name": "Main BX ATM (24/7)",
+      "category": "finance",
+      "description": "24/7 ATM located at the Main Exchange.",
+      "hours": "Open 24/7",
+      "address": "BX area, Tinker AFB, OK 73145",
+      "phone": null,
+      "url": null,
+      "building": null
+    },
+    {
+      "id": "res-tinker-fitness-main",
+      "name": "Tinker Fitness Center",
+      "category": "fitness",
+      "description": "Main fitness facility with cardio, weights, group exercise, racquetball, and basketball. 24/7 access for registered users.",
+      "hours": "Mon-Fri 0500-2200; Sat-Sun 0800-1800; 24/7 for registered CAC holders",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-unaccompanied-housing",
+      "name": "Unaccompanied Housing / Dorm Management",
+      "category": "housing",
+      "description": "Dormitory management and assignments.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-5218",
+      "url": "https://www.housing.af.mil/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-lodging",
+      "name": "Tinker Inn / AF Lodging",
+      "category": "housing",
+      "description": "Official temporary lodging and TLF. 24-hour front desk.",
+      "hours": "Lodging desk open 24 hours daily; check-in 1400, check-out 1100",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-3311",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-mfrc",
+      "name": "Military & Family Readiness Center (M&FRC)",
+      "category": "services",
+      "description": "Relocation, financial counseling, employment support, family programs, and Total Force readiness.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-72-fss",
+      "name": "72nd Force Support Squadron (FSS)",
+      "category": "services",
+      "description": "Full MWR, dining, fitness, lodging, recreation, and family support programs.",
+      "hours": "Mon-Fri 0730-1630; facility hours on FSS website directory",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-outdoor-rec",
+      "name": "Outdoor Recreation (ODR)",
+      "category": "recreation",
+      "description": "Equipment rental, RV storage, FamCamp, and recreational programs.",
+      "hours": "Mon-Fri 0730-1630",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-golf",
+      "name": "Tinker Golf Course",
+      "category": "recreation",
+      "description": "18-hole golf course with pro shop and dining.",
+      "hours": "Sun-up to sun-down (seasonal)",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-739-1110",
+      "url": "https://www.tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-medical",
+      "name": "Tinker Medical Clinic",
+      "category": "medical",
+      "description": "Primary care, specialty services, and TRICARE support.",
+      "hours": "Mon-Fri 0730-1630; after-hours urgent care available",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-736-3000",
+      "url": "https://tinker.tricare.mil/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-bowling",
+      "name": "Tinker Bowling Center",
+      "category": "recreation",
+      "description": "Bowling center with snack bar.",
+      "hours": "Mon-Fri 0800-1630",
+      "address": "Tinker AFB, OK 73145",
+      "phone": "405-734-3747",
+      "url": "https://tinkerfss.com/",
+      "building": null
+    },
+    {
+      "id": "res-tinker-vcc",
+      "name": "Visitor Control Center",
+      "category": "safety",
+      "description": "Visitor passes and base access.",
+      "hours": "Mon-Fri 0700-1500",
+      "address": "Bldg 590, I-40 & S Air Depot Blvd, Tinker AFB, OK 73145",
+      "phone": "405-734-5191",
+      "url": "https://www.tinker.af.mil/About-Tinker/Newcomers-Info/",
+      "building": null
+    }
+  ],
+  "events": [],
+  "newcomers": {
+    "primaryAction": {
+      "title": "Visitor Control Center",
+      "url": "https://www.tinkerfss.com/",
+      "phone": "405-739-1110",
+      "address": "Main Gate area, Tinker AFB, OK 73145"
+    },
+    "moreInfoURL": "https://www.tinkerfss.com/",
+    "sections": [
+      {
+        "id": "nc-1",
+        "title": "Required Documents",
+        "body": "PCS orders, CAC, medical/dental records, marriage and birth certificates if applicable, and travel receipts for finance settlement.",
+        "links": null
+      },
+      {
+        "id": "nc-3",
+        "title": "Housing",
+        "body": "Contact Dormitory Management (405-739-5218) for unaccompanied housing or Tinker Inn (405-739-3311) for temporary lodging. Family housing through privatized housing office.",
+        "links": [
+          {
+            "id": "link-housing",
+            "title": "Housing Office",
+            "url": "https://www.housing.af.mil/housing/housing-on-base/tinker-afb/"
+          }
+        ]
+      },
+      {
+        "id": "nc-5",
+        "title": "Quick Resources",
+        "body": "72 FSS, M&FRC, and official Tinker sites for in-processing and community support.",
+        "links": [
+          {
+            "id": "link-fss",
+            "title": "72nd Force Support Squadron",
+            "url": "https://www.tinkerfss.com/"
+          },
+          {
+            "id": "link-mfrc",
+            "title": "Military & Family Readiness Center",
+            "url": "https://www.tinkerfss.com/"
+          }
+        ]
+      },
+      {
+        "id": "nc-2",
+        "title": "In-Processing Schedule",
+        "body": "Report to your gaining unit upon arrival and visit MPF within required timelines. Contact base lodging for after-hours arrivals.",
+        "links": null
+      },
+      {
+        "id": "nc-4",
+        "title": "Sponsor Program",
+        "body": "Your sponsor should meet you upon arrival. Contact M&FRC if no sponsor is assigned before departure.",
+        "links": null
+      }
+    ]
+  }
+}

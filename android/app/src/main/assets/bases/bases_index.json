@@ -1,0 +1,597 @@
+[
+  {
+    "id": "altus",
+    "name": "Altus AFB",
+    "location": "Altus, OK",
+    "wing": "97 AMW",
+    "region": "conus"
+  },
+  {
+    "id": "andersen",
+    "name": "Andersen AFB",
+    "location": "Yigo, Guam",
+    "wing": "36 WG",
+    "region": "oconus"
+  },
+  {
+    "id": "aviano",
+    "name": "Aviano AB",
+    "location": "Aviano, Italy",
+    "wing": "31 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "barksdale",
+    "name": "Barksdale AFB",
+    "location": "Bossier City, LA",
+    "wing": "2 BW",
+    "region": "conus"
+  },
+  {
+    "id": "beale",
+    "name": "Beale AFB",
+    "location": "Marysville, CA",
+    "wing": "9 RW",
+    "region": "conus"
+  },
+  {
+    "id": "buckley",
+    "name": "Buckley SFB",
+    "location": "Aurora, CO",
+    "wing": "SD 4",
+    "region": "conus"
+  },
+  {
+    "id": "cannon",
+    "name": "Cannon AFB",
+    "location": "Clovis, NM",
+    "wing": "27 SOW",
+    "region": "conus"
+  },
+  {
+    "id": "columbus",
+    "name": "Columbus AFB",
+    "location": "Columbus, MS",
+    "wing": "14 FTW",
+    "region": "conus"
+  },
+  {
+    "id": "creech",
+    "name": "Creech AFB",
+    "location": "Indian Springs, NV",
+    "wing": "432 WG",
+    "region": "conus"
+  },
+  {
+    "id": "davis-monthan",
+    "name": "Davis-Monthan AFB",
+    "location": "Tucson, AZ",
+    "wing": "355 WG",
+    "region": "conus"
+  },
+  {
+    "id": "dover",
+    "name": "Dover AFB",
+    "location": "Dover, DE",
+    "wing": "436 AW",
+    "region": "conus"
+  },
+  {
+    "id": "dyess",
+    "name": "Dyess AFB",
+    "location": "Abilene, TX",
+    "wing": "7 BW",
+    "region": "conus"
+  },
+  {
+    "id": "edwards",
+    "name": "Edwards AFB",
+    "location": "Edwards, CA",
+    "wing": "412 TW",
+    "region": "conus"
+  },
+  {
+    "id": "eglin",
+    "name": "Eglin AFB",
+    "location": "Valparaiso, FL",
+    "wing": "96 TW",
+    "region": "conus"
+  },
+  {
+    "id": "eielson",
+    "name": "Eielson AFB",
+    "location": "Fairbanks, AK",
+    "wing": "354 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "ellsworth",
+    "name": "Ellsworth AFB",
+    "location": "Box Elder, SD",
+    "wing": "28 BW",
+    "region": "conus"
+  },
+  {
+    "id": "fe-warren",
+    "name": "F.E. Warren AFB",
+    "location": "Cheyenne, WY",
+    "wing": "90 MW",
+    "region": "conus"
+  },
+  {
+    "id": "fairchild",
+    "name": "Fairchild AFB",
+    "location": "Spokane, WA",
+    "wing": "92 ARW",
+    "region": "conus"
+  },
+  {
+    "id": "geilenkirchen",
+    "name": "Geilenkirchen AB",
+    "location": "Geilenkirchen, Germany",
+    "wing": "NATO E-3A",
+    "region": "oconus"
+  },
+  {
+    "id": "goodfellow",
+    "name": "Goodfellow AFB",
+    "location": "San Angelo, TX",
+    "wing": "17 TRW",
+    "region": "conus"
+  },
+  {
+    "id": "grand-forks",
+    "name": "Grand Forks AFB",
+    "location": "Grand Forks, ND",
+    "wing": "319 RW",
+    "region": "conus"
+  },
+  {
+    "id": "grissom",
+    "name": "Grissom ARB",
+    "location": "Peru, IN",
+    "wing": "434 ARW",
+    "region": "conus"
+  },
+  {
+    "id": "hanscom",
+    "name": "Hanscom AFB",
+    "location": "Bedford, MA",
+    "wing": "66 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "hill",
+    "name": "Hill AFB",
+    "location": "Hill AFB, UT",
+    "wing": "75 ABW / Ogden ALC",
+    "region": "conus"
+  },
+  {
+    "id": "holloman",
+    "name": "Holloman AFB",
+    "location": "Alamogordo, NM",
+    "wing": "49 WG",
+    "region": "conus"
+  },
+  {
+    "id": "hurlburt",
+    "name": "Hurlburt Field",
+    "location": "Mary Esther, FL",
+    "wing": "1 SOW",
+    "region": "conus"
+  },
+  {
+    "id": "incirlik",
+    "name": "Incirlik AB",
+    "location": "Adana, Turkey",
+    "wing": "39 ABW",
+    "region": "oconus"
+  },
+  {
+    "id": "izmir",
+    "name": "Izmir AS",
+    "location": "Izmir, Turkey",
+    "wing": "425 ABS",
+    "region": "oconus"
+  },
+  {
+    "id": "jbmdl",
+    "name": "JB McGuire-Dix-Lakehurst",
+    "location": "Trenton, NJ",
+    "wing": "87 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "jbphh",
+    "name": "JB Pearl Harbor-Hickam",
+    "location": "Honolulu, HI",
+    "wing": "15 WG",
+    "region": "oconus"
+  },
+  {
+    "id": "jbab",
+    "name": "JBAB",
+    "location": "Washington, DC",
+    "wing": "11 WG",
+    "region": "conus"
+  },
+  {
+    "id": "jber",
+    "name": "JBER",
+    "location": "Anchorage, AK",
+    "wing": "673 ABW",
+    "region": "oconus"
+  },
+  {
+    "id": "langley",
+    "name": "JBLE-Langley",
+    "location": "Hampton, VA",
+    "wing": "633 ABW / ACC",
+    "region": "conus"
+  },
+  {
+    "id": "jblm",
+    "name": "JBLM McChord",
+    "location": "Tacoma, WA",
+    "wing": "62 AW",
+    "region": "conus"
+  },
+  {
+    "id": "lackland",
+    "name": "JBSA Lackland",
+    "location": "San Antonio, TX",
+    "wing": "37 TRW",
+    "region": "conus"
+  },
+  {
+    "id": "randolph",
+    "name": "JBSA-Randolph",
+    "location": "Universal City, TX",
+    "wing": "AETC / 902 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "andrews",
+    "name": "Joint Base Andrews",
+    "location": "Camp Springs, MD",
+    "wing": "316 WG",
+    "region": "conus"
+  },
+  {
+    "id": "charleston",
+    "name": "Joint Base Charleston",
+    "location": "North Charleston, SC",
+    "wing": "628 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "kadena",
+    "name": "Kadena AB",
+    "location": "Okinawa, Japan",
+    "wing": "18 WG",
+    "region": "oconus"
+  },
+  {
+    "id": "keesler",
+    "name": "Keesler AFB",
+    "location": "Biloxi, MS",
+    "wing": "81 TRW",
+    "region": "conus"
+  },
+  {
+    "id": "kirtland",
+    "name": "Kirtland AFB",
+    "location": "Albuquerque, NM",
+    "wing": "377 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "kunsan",
+    "name": "Kunsan AB",
+    "location": "Gunsan, South Korea",
+    "wing": "8 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "laughlin",
+    "name": "Laughlin AFB",
+    "location": "Del Rio, TX",
+    "wing": "47 FTW",
+    "region": "conus"
+  },
+  {
+    "id": "little-rock",
+    "name": "Little Rock AFB",
+    "location": "Jacksonville, AR",
+    "wing": "19 AW",
+    "region": "conus"
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles AFB",
+    "location": "El Segundo, CA",
+    "wing": "SSC",
+    "region": "conus"
+  },
+  {
+    "id": "luke",
+    "name": "Luke AFB",
+    "location": "Glendale, AZ",
+    "wing": "56 FW",
+    "region": "conus"
+  },
+  {
+    "id": "macdill",
+    "name": "MacDill AFB",
+    "location": "Tampa, FL",
+    "wing": "6 ARW",
+    "region": "conus"
+  },
+  {
+    "id": "malmstrom",
+    "name": "Malmstrom AFB",
+    "location": "Great Falls, MT",
+    "wing": "341 MW",
+    "region": "conus"
+  },
+  {
+    "id": "march",
+    "name": "March ARB",
+    "location": "Moreno Valley, CA",
+    "wing": "452 AMW",
+    "region": "conus"
+  },
+  {
+    "id": "maxwell",
+    "name": "Maxwell AFB",
+    "location": "Montgomery, AL",
+    "wing": "42 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "mcconnell",
+    "name": "McConnell AFB",
+    "location": "Wichita, KS",
+    "wing": "22 ARW",
+    "region": "conus"
+  },
+  {
+    "id": "minot",
+    "name": "Minot AFB",
+    "location": "Minot, ND",
+    "wing": "5 BW",
+    "region": "conus"
+  },
+  {
+    "id": "misawa",
+    "name": "Misawa AB",
+    "location": "Misawa, Japan",
+    "wing": "35 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "moody",
+    "name": "Moody AFB",
+    "location": "Valdosta, GA",
+    "wing": "23 WG",
+    "region": "conus"
+  },
+  {
+    "id": "moron",
+    "name": "Mor\u00f3n AB",
+    "location": "Mor\u00f3n de la Frontera, Spain",
+    "wing": "496 ABS",
+    "region": "oconus"
+  },
+  {
+    "id": "mountain-home",
+    "name": "Mountain Home AFB",
+    "location": "Mountain Home, ID",
+    "wing": "366 FW",
+    "region": "conus"
+  },
+  {
+    "id": "nellis",
+    "name": "Nellis AFB",
+    "location": "Las Vegas, NV",
+    "wing": "99 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "offutt",
+    "name": "Offutt AFB",
+    "location": "Bellevue, NE",
+    "wing": "55 WG",
+    "region": "conus"
+  },
+  {
+    "id": "osan",
+    "name": "Osan AB",
+    "location": "Pyeongtaek, South Korea",
+    "wing": "51 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "patrick",
+    "name": "Patrick SFB",
+    "location": "Cocoa Beach, FL",
+    "wing": "SLD 45",
+    "region": "conus"
+  },
+  {
+    "id": "peterson",
+    "name": "Peterson SFB",
+    "location": "Colorado Springs, CO",
+    "wing": "SBD 1",
+    "region": "conus"
+  },
+  {
+    "id": "pope",
+    "name": "Pope Army Airfield",
+    "location": "Fort Liberty, NC",
+    "wing": "43 AMOG",
+    "region": "conus"
+  },
+  {
+    "id": "alconbury",
+    "name": "RAF Alconbury",
+    "location": "Huntingdon, United Kingdom",
+    "wing": "423 ABG",
+    "region": "oconus"
+  },
+  {
+    "id": "croughton",
+    "name": "RAF Croughton",
+    "location": "Brackley, United Kingdom",
+    "wing": "501 CSW",
+    "region": "oconus"
+  },
+  {
+    "id": "fairford",
+    "name": "RAF Fairford",
+    "location": "Fairford, United Kingdom",
+    "wing": "501 CSW",
+    "region": "oconus"
+  },
+  {
+    "id": "lakenheath",
+    "name": "RAF Lakenheath",
+    "location": "Lakenheath, United Kingdom",
+    "wing": "48 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "mildenhall",
+    "name": "RAF Mildenhall",
+    "location": "Mildenhall, United Kingdom",
+    "wing": "100 ARW",
+    "region": "oconus"
+  },
+  {
+    "id": "molesworth",
+    "name": "RAF Molesworth",
+    "location": "Huntingdon, United Kingdom",
+    "wing": "423 ABG",
+    "region": "oconus"
+  },
+  {
+    "id": "ramstein",
+    "name": "Ramstein AB",
+    "location": "Ramstein-Miesenbach, Germany",
+    "wing": "86 AW",
+    "region": "oconus"
+  },
+  {
+    "id": "robins",
+    "name": "Robins AFB",
+    "location": "Warner Robins, GA",
+    "wing": "78 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "schriever",
+    "name": "Schriever SFB",
+    "location": "Colorado Springs, CO",
+    "wing": "SD 9",
+    "region": "conus"
+  },
+  {
+    "id": "scott",
+    "name": "Scott AFB",
+    "location": "Belleville, IL",
+    "wing": "375 AMW",
+    "region": "conus"
+  },
+  {
+    "id": "seymour-johnson",
+    "name": "Seymour Johnson AFB",
+    "location": "Goldsboro, NC",
+    "wing": "4 FW",
+    "region": "conus"
+  },
+  {
+    "id": "shaw",
+    "name": "Shaw AFB",
+    "location": "Sumter, SC",
+    "wing": "20 FW",
+    "region": "conus"
+  },
+  {
+    "id": "sheppard",
+    "name": "Sheppard AFB",
+    "location": "Wichita Falls, TX",
+    "wing": "82 TRW",
+    "region": "conus"
+  },
+  {
+    "id": "spangdahlem",
+    "name": "Spangdahlem AB",
+    "location": "Spangdahlem, Germany",
+    "wing": "52 FW",
+    "region": "oconus"
+  },
+  {
+    "id": "tinker",
+    "name": "Tinker AFB",
+    "location": "Oklahoma City, OK",
+    "wing": "72 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "travis",
+    "name": "Travis AFB",
+    "location": "Fairfield, CA",
+    "wing": "60 AMW",
+    "region": "conus"
+  },
+  {
+    "id": "tyndall",
+    "name": "Tyndall AFB",
+    "location": "Panama City, FL",
+    "wing": "325 FW",
+    "region": "conus"
+  },
+  {
+    "id": "air-force-academy",
+    "name": "USAFA",
+    "location": "Colorado Springs, CO",
+    "wing": "10 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "vance",
+    "name": "Vance AFB",
+    "location": "Enid, OK",
+    "wing": "71 FTW",
+    "region": "conus"
+  },
+  {
+    "id": "vandenberg",
+    "name": "Vandenberg SFB",
+    "location": "Lompoc, CA",
+    "wing": "SLD 30",
+    "region": "conus"
+  },
+  {
+    "id": "whiteman",
+    "name": "Whiteman AFB",
+    "location": "Knob Noster, MO",
+    "wing": "509 BW",
+    "region": "conus"
+  },
+  {
+    "id": "wright-patterson",
+    "name": "Wright-Patterson AFB",
+    "location": "Dayton, OH",
+    "wing": "88 ABW",
+    "region": "conus"
+  },
+  {
+    "id": "yokota",
+    "name": "Yokota AB",
+    "location": "Fussa, Japan",
+    "wing": "374 AW",
+    "region": "oconus"
+  }
+]

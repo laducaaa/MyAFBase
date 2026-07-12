@@ -7,9 +7,9 @@ enum FeedbackConfig {
     /// Set to `nil` until deployed — the feedback form will explain how to enable it.
     static let endpoint: URL? = URL(string: "https://myafbase-feedback.rladuca92.workers.dev")
 
-    /// Shared secret matching `FEEDBACK_SECRET` on the worker.
-    /// Set `FEEDBACK_SHARED_SECRET` in the app Info.plist (or target build settings).
-    /// Treat as abuse deterrence — the worker also rate-limits by IP.
+    /// Optional shared secret matching `FEEDBACK_SECRET` on the worker.
+    /// Leave empty for public submissions (live 1.5 behavior). If set, the worker
+    /// must have the same value. Abuse deterrence is primarily IP rate limiting.
     static var sharedSecret: String? {
         let value = Bundle.main.object(forInfoDictionaryKey: "FEEDBACK_SHARED_SECRET") as? String
         guard let value else { return nil }
@@ -89,6 +89,8 @@ enum FeedbackServiceError: LocalizedError, Equatable {
     case messageTooLong
     case invalidEmail
     case network
+    case unauthorized
+    case rateLimited
     case serverRejected
 
     var errorDescription: String? {
@@ -103,6 +105,10 @@ enum FeedbackServiceError: LocalizedError, Equatable {
             "Enter a valid email address or leave the field blank."
         case .network:
             "Couldn't reach the feedback service. Check your connection and try again."
+        case .unauthorized:
+            "Feedback authorization failed. Update the app or check the feedback worker secret."
+        case .rateLimited:
+            "You've sent several messages recently. Please wait a bit and try again."
         case .serverRejected:
             "The feedback service couldn't accept this submission. Try again later."
         }
@@ -163,11 +169,22 @@ enum FeedbackService {
         }
 
         guard (200 ... 299).contains(http.statusCode) else {
-            if http.statusCode == 503, let body = String(data: data, encoding: .utf8), body.contains("not_configured") {
-                throw FeedbackServiceError.notConfigured
-            }
-            throw FeedbackServiceError.serverRejected
+            throw mapServerError(statusCode: http.statusCode, data: data)
         }
+    }
+
+    private static func mapServerError(statusCode: Int, data: Data) -> FeedbackServiceError {
+        let body = String(data: data, encoding: .utf8) ?? ""
+        if statusCode == 503, body.contains("not_configured") {
+            return .notConfigured
+        }
+        if statusCode == 401 || body.contains("unauthorized") {
+            return .unauthorized
+        }
+        if statusCode == 429 || body.contains("rate_limited") {
+            return .rateLimited
+        }
+        return .serverRejected
     }
 
     private static func isValidEmail(_ email: String) -> Bool {
