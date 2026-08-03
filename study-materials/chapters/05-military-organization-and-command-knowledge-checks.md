@@ -2,9 +2,11 @@
 
 > **Status:** Draft and provisional for 27E5/27E6. All items are independently written from AFH 1, dated 15 February 2025.
 >
-> **Format:** Four-option, one-best-answer practice. “Difficulty” describes MyPromotion's instructional design.
+> **Item safeguard:** These are independently written study questions, not actual, recalled, reconstructed, or predictive WAPS questions.
 >
-> **Source boundary:** These explanations summarize Chapter 5. Current law, directives, the Unified Command Plan, doctrine, and command guidance control real duties and relationships.
+> **Format:** Four-option, one-best-answer practice. “Difficulty” describes MyPromotion's instructional design, not operational WAPS difficulty.
+>
+> **Source-study rule:** These explanations preserve the 15 February 2025 AFH 1 edition as the controlling study baseline rather than silently modernizing it. Current law, directives, the Unified Command Plan, doctrine, and command guidance control real duties and relationships.
 
 ## Section 5A — United States Armed Forces
 
@@ -16,20 +18,20 @@
 
 Why does command authority create both downward responsibility and upward accountability at each level?
 
-A. Authority ends at the level where a commander delegates routine work.  
-B. Lower levels answer to higher headquarters without responsibility for subordinate units.  
-C. Communication duties replace command responsibility when several levels are involved.  
-D. Each level oversees lower levels and answers to higher levels.
+A. Each level directs lower commands but accounts for its authority primarily to its immediate superior.  
+B. Each level answers to higher commands while responsibility remains with subordinate commanders.  
+C. Each level is responsible for lower levels and accountable to higher levels in the chain.  
+D. Each level receives authority from above while accountability remains where that authority originated.
 
-**Correct answer: D**
+**Correct answer: C**
 
 **Rationale:** Command authority establishes levels of command, control, and communication. AFH 1 explains that every level is responsible for lower levels and accountable to higher levels.
 
 **Why the other options are incorrect:**
 
-- **A:** Delegating work does not end the command responsibility described in the chain.
-- **B:** A level has both upward accountability and responsibility for the levels below it.
-- **C:** Communication supports the chain but does not replace command responsibility.
+- **A:** Accountability extends to higher levels in the chain, not merely the immediate superior.
+- **B:** Each level retains responsibility for lower levels rather than leaving it solely with subordinates.
+- **D:** Accountability follows the chain upward rather than remaining at the level where authority began.
 
 **Source:** AFH 1, ¶5.1  
 **Review flag:** Standard citation verification
@@ -42,20 +44,20 @@ D. Each level oversees lower levels and answers to higher levels.
 
 When forces are assigned to a combatant commander, which explanation best distinguishes their operational and administrative paths?
 
-A. Operational authority runs through the Secretary of Defense to the combatant commander, while administrative control typically continues through the service.  
-B. Operational authority runs through the military department, while administrative control shifts entirely to the combatant commander.  
-C. Both forms of authority pass through the Chairman of the Joint Chiefs of Staff before reaching the assigned force.  
-D. Both forms of authority remain with the military department because assignment does not alter command relationships.
+A. Operational authority continues through the military department, while administrative control shifts to the combatant commander.  
+B. Operational command runs through the Secretary of Defense to the combatant commander, while service administrative control continues.  
+C. Operational and administrative authority both pass through the Chairman before reaching the force and its service component.  
+D. Operational and administrative authority both remain with the service while the combatant commander coordinates missions.
 
-**Correct answer: A**
+**Correct answer: B**
 
 **Rationale:** The statutory operational chain runs from the President through the Secretary of Defense to combatant commanders. Assigned forces typically remain under their service branch for administrative control.
 
 **Why the other options are incorrect:**
 
-- **B:** This reverses the operational and administrative relationships.
-- **C:** The Chairman may be placed in the communications chain but does not become the operational commander.
-- **D:** Assignment places the force under combatant command authority even though service administrative control remains.
+- **A:** The operational path runs to the combatant commander, while administrative control normally continues through the service; the option states the reverse.
+- **C:** The Chairman may carry communications but does not become the holder of both authorities.
+- **D:** Assignment places the force in the combatant command chain even though service administrative control continues.
 
 **Source:** AFH 1, ¶5.1  
 **Review flag:** Revalidate statutory terminology against current command guidance
@@ -68,20 +70,20 @@ D. Both forms of authority remain with the military department because assignmen
 
 How does AFH 1 reconcile the President's final military command authority with civilian constitutional government?
 
-A. Final command authority exempts military decisions from review by the other branches.  
-B. Civilian control places final military authority jointly in the executive and military departments.  
-C. The President commands the Armed Forces while remaining subject to constitutional checks and balances.  
-D. The service chiefs exercise final authority whenever military expertise is required.
+A. The President commands the Armed Forces while remaining subject to constitutional checks and balances.  
+B. The President shares final command authority with the military departments while Congress reviews operations.  
+C. The Secretary of Defense holds final command authority while the President provides strategic direction.  
+D. The President holds final command while judicial checks transfer to Congress during military conflict.
 
-**Correct answer: C**
+**Correct answer: A**
 
 **Rationale:** The Constitution makes the civilian President Commander in Chief while the legislative and judicial branches retain their checks within the constitutional system.
 
 **Why the other options are incorrect:**
 
-- **A:** Final command authority does not remove constitutional checks and balances.
-- **B:** The source assigns final command authority to the President, not jointly to military departments.
-- **D:** Service chiefs provide military leadership and advice but do not replace the President as Commander in Chief.
+- **B:** The source assigns final command authority to the President rather than sharing it with military departments.
+- **C:** The Secretary of Defense is in the chain, but the President remains Commander in Chief.
+- **D:** Both legislative and judicial checks remain part of the constitutional system during conflict.
 
 **Source:** AFH 1, ¶5.1  
 **Review flag:** Standard citation verification
@@ -94,20 +96,20 @@ D. The service chiefs exercise final authority whenever military expertise is re
 
 What is the best interpretation of presidential authorization for communications through the Chairman of the Joint Chiefs of Staff?
 
-A. It makes the Chairman the operational commander between the Secretary of Defense and combatant commanders.  
-B. It can place the Chairman in the communications chain without granting command over the Armed Forces.  
-C. It transfers service administrative control from military departments to the Joint Staff.  
-D. It allows the Joint Chiefs collectively to issue commands in place of the Secretary of Defense.
+A. It places the Chairman in the operational chain for the command messages the Chairman transmits.  
+B. It places the Chairman in the communications chain and shifts service coordination to the Joint Staff.  
+C. It permits the Joint Chiefs collectively to approve command messages before combatant commanders act.  
+D. It can place the Chairman in the communications chain while leaving military command authority elsewhere.
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** AFH 1 notes that the President may authorize communications through the Chairman. That communications role does not confer military command authority on the Chairman.
 
 **Why the other options are incorrect:**
 
-- **A:** The operational chain remains President to Secretary of Defense to combatant commander.
-- **C:** A communications arrangement does not transfer administrative control to the Joint Staff.
-- **D:** The Joint Chiefs are advisors and do not collectively replace the Secretary of Defense in command.
+- **A:** Transmitting a message does not insert the Chairman as an operational commander.
+- **B:** The authorization concerns communications and does not transfer service coordination or administrative control.
+- **C:** The Joint Chiefs advise national leaders but do not approve commands before combatant commanders act.
 
 **Source:** AFH 1, ¶¶5.1, 5.3  
 **Review flag:** Statutory distinction; verify against current controlling guidance
@@ -120,20 +122,20 @@ D. It allows the Joint Chiefs collectively to issue commands in place of the Sec
 
 Which explanation best connects the Department of Defense's structure to its mission?
 
-A. It groups only the military departments so each service can pursue an independent defense policy.  
-B. It places combatant commands outside civilian leadership so operations remain separate from policy.  
-C. It combines civilian leadership, joint bodies, military departments, combatant commands, and defense activities to provide forces for national security.  
-D. It assigns the Joint Chiefs direct command of all forces so military advice and execution follow one path.
+A. It combines civilian leaders, joint bodies, military departments, combatant commands, and defense activities to provide military forces.  
+B. It combines civilian leadership and military departments while having combatant commands report separately for operational independence.  
+C. It centers joint organizations and defense agencies under service secretaries so each department can establish defense policy.  
+D. It integrates military departments and defense agencies while giving the Joint Chiefs direct command over combatant forces.
 
-**Correct answer: C**
+**Correct answer: A**
 
 **Rationale:** The Department includes civilian leadership, joint organizations, military departments, combatant commands, agencies, and field activities in support of providing forces to deter war and protect national security.
 
 **Why the other options are incorrect:**
 
-- **A:** The Department contains more than the military departments and operates under common national policy.
-- **B:** Combatant commands remain within the Department and under the operational chain led by civilian authorities.
-- **D:** The Joint Chiefs advise and perform joint functions; they do not directly command all forces.
+- **B:** Combatant commands are part of the Department and remain under civilian-led operational authority.
+- **C:** Service secretaries do not independently establish the Department's general defense policy.
+- **D:** The Joint Chiefs advise and perform joint functions rather than command combatant forces.
 
 **Source:** AFH 1, ¶5.2  
 **Review flag:** Organizational composition can change; revalidate against the controlling source edition
@@ -147,9 +149,9 @@ D. It assigns the Joint Chiefs direct command of all forces so military advice a
 Which statement most accurately relates the Secretary of Defense's policy and command roles?
 
 A. The Secretary advises the President, executes approved defense policy, and links the President operationally with combatant commanders.  
-B. The Secretary develops service doctrine, commands through the service chiefs, and delegates national policy to the Joint Staff.  
-C. The Secretary advises only on resources, while combatant commanders independently establish defense policy and priorities.  
-D. The Secretary leads the legislative branch's defense oversight and transmits its orders to the military departments.
+B. The Secretary formulates defense policy but routes operational direction through service chiefs before it reaches combatant commanders.  
+C. The Secretary links the President with combatant commanders but leaves execution of approved policy to the military departments.  
+D. The Secretary advises on defense policy while the Chairman issues written national-security and contingency guidance.
 
 **Correct answer: A**
 
@@ -157,9 +159,9 @@ D. The Secretary leads the legislative branch's defense oversight and transmits 
 
 **Why the other options are incorrect:**
 
-- **B:** Joint doctrine and service leadership have different institutional roles; they do not replace the Secretary's policy responsibilities.
-- **C:** Combatant commanders execute assigned missions within national policy rather than independently establishing general defense policy.
-- **D:** The Secretary is the civilian head of an executive-branch department, not the leader of legislative oversight.
+- **B:** Paragraph 5.2 assigns the Secretary the operational link between the President and combatant commanders; it does not route that chain through service chiefs.
+- **C:** The Secretary is responsible for executing approved policy rather than leaving policy execution to the military departments.
+- **D:** The source assigns written national-security and contingency-plan guidance to the Secretary, not the Chairman.
 
 **Source:** AFH 1, ¶5.2  
 **Review flag:** Standard citation verification
@@ -170,25 +172,25 @@ D. The Secretary leads the legislative branch's defense oversight and transmits 
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-A defense issue requires a broad, long-range policy perspective rather than specialized operational support. Which body has the role that best fits that need?
+Why does the Secretary of Defense issue written guidance on security objectives, mission priorities, resource levels, and contingency plans?
 
-A. A combatant command, because it establishes policy for every military department  
-B. A defense agency, because it replaces senior civilian and military policy advice  
-C. The Joint Staff, because it independently approves broad defense policy  
-D. The Armed Forces Policy Council, which advises the Secretary on broad, long-range policy
+A. It moves contingency-plan preparation from the Chairman to the military departments for service approval.  
+B. It translates approved defense policy into priorities and planning direction for Department organizations.  
+C. It separates threat monitoring from national-security objectives so combatant commanders can establish policy.  
+D. It provides legislative defense committees with operational direction for combatant-command missions.
 
-**Correct answer: D**
+**Correct answer: B**
 
-**Rationale:** AFH 1 describes the Armed Forces Policy Council as assisting with matters requiring a long-range view, formulating broad defense policy, and advising the Secretary of Defense when requested.
+**Rationale:** Written guidance connects approved defense policy with national-security objectives, military mission priorities, projected resources, and contingency planning.
 
 **Why the other options are incorrect:**
 
-- **A:** Combatant commands carry out assigned missions rather than establish policy for every department.
-- **B:** Defense agencies provide specialized skills and support, not a replacement for senior policy advice.
-- **C:** The Joint Staff supports joint responsibilities but does not independently approve broad defense policy.
+- **A:** The Secretary provides contingency-plan guidance to the Chairman rather than transferring plan preparation to military departments.
+- **C:** The guidance aligns threat-related responsibilities with national-security policy; combatant commanders do not establish general defense policy.
+- **D:** The Secretary heads an executive department and directs Department organizations rather than legislative committees.
 
 **Source:** AFH 1, ¶5.2  
-**Review flag:** Council composition and processes can change; revalidate against current guidance
+**Review flag:** Policy-guidance processes can change; revalidate against current Department guidance
 
 ### C05-Q-008
 
@@ -198,20 +200,20 @@ D. The Armed Forces Policy Council, which advises the Secretary on broad, long-r
 
 Which description correctly distinguishes the Joint Staff from the Joint Chiefs of Staff?
 
-A. The Joint Staff commands combatant forces, while the Joint Chiefs administer the military departments.  
-B. The Joint Staff supports the Joint Chiefs' assigned responsibilities and operates under the Chairman's direction.  
-C. The Joint Staff sets national policy, while the Joint Chiefs execute policy through defense agencies.  
-D. The Joint Staff represents one service, while the Joint Chiefs provide personnel from the remaining services.
+A. The Joint Staff formulates broad defense policy, while the Joint Chiefs integrate service personnel requirements.  
+B. The Joint Staff directs combatant-command activities, while the Joint Chiefs supervise it through the Director.  
+C. The Joint Staff provides service administration, while the Joint Chiefs coordinate defense field activities.  
+D. The Joint Staff supports the Joint Chiefs' assigned responsibilities and operates under the Chairman's direction.
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** The Joint Staff assists the members of the Joint Chiefs in strategic direction, unified operations, and military integration, and its direction rests exclusively with the Chairman.
 
 **Why the other options are incorrect:**
 
-- **A:** Neither relationship gives the Joint Staff command of combatant forces or the Joint Chiefs administration of departments.
-- **C:** National defense policy belongs to civilian authority; these joint bodies provide advice and military integration.
-- **D:** The Joint Staff is a joint military-civilian organization rather than a staff for only one service.
+- **A:** Broad defense policy is a civilian responsibility; the Joint Staff supports joint military responsibilities.
+- **B:** The Joint Staff assists rather than directs combatant commands, and its direction rests with the Chairman.
+- **C:** Service administration and defense field activities are not the defining relationship between these joint bodies.
 
 **Source:** AFH 1, ¶5.3  
 **Review flag:** Standard citation verification
@@ -224,20 +226,20 @@ D. The Joint Staff represents one service, while the Joint Chiefs provide person
 
 Why does the Chairman's senior rank not make the Chairman the commander of the Armed Forces?
 
-A. The position is principally advisory, and law withholds command over the Joint Chiefs and the Armed Forces.  
-B. The position commands only service chiefs, who then command combatant commanders for the Chairman.  
-C. The position becomes a command office only when the Secretary of Defense requests military advice.  
-D. The position shares command equally with the Vice Chairman and the senior service chief.
+A. The Chairman commands the Joint Chiefs but relies on service chiefs to direct the Armed Forces.  
+B. The Chairman gains command authority when the Secretary assigns oversight of combatant-command activities.  
+C. The position is principally advisory, and law withholds command over the Joint Chiefs and the Armed Forces.  
+D. The Chairman exercises command through the Vice Chairman while retaining the principal-advisor role.
 
-**Correct answer: A**
+**Correct answer: C**
 
 **Rationale:** Although the Chairman outranks other officers and is the principal military advisor, AFH 1 expressly distinguishes seniority and advice from military command authority.
 
 **Why the other options are incorrect:**
 
-- **B:** Service chiefs do not form a command path from the Chairman to combatant commanders.
-- **C:** Providing advice or overseeing activities does not transform the office into a military command.
-- **D:** The source does not divide command among the Chairman, Vice Chairman, and a service chief.
+- **A:** The source withholds military command over both the Joint Chiefs and the Armed Forces.
+- **B:** Oversight of activities does not transform the Chairman's advisory office into a command.
+- **D:** The Vice Chairman may act for the Chairman but does not serve as a channel for command authority.
 
 **Source:** AFH 1, ¶5.3  
 **Review flag:** Standard citation verification
@@ -250,20 +252,20 @@ D. The position shares command equally with the Vice Chairman and the senior ser
 
 Which mapping correctly distinguishes roles associated with the Joint Chiefs of Staff?
 
-A. The Vice Chairman commands combatant forces; the SEAC directs the Joint Staff; service chiefs relinquish service responsibility while serving jointly.  
-B. The Vice Chairman approves defense policy; the SEAC controls enlisted assignments across services; service chiefs command forces assigned to combatant commands.  
+A. The Vice Chairman may act for the Chairman; the SEAC directs the Joint Staff; service chiefs give joint duties precedence.  
+B. The Vice Chairman may act for the Chairman; the SEAC advises on enlisted Total Force matters; service chiefs give service duties precedence.  
 C. The Vice Chairman may act for the Chairman; the SEAC advises on enlisted Total Force matters; service chiefs give joint duties precedence.  
-D. The Vice Chairman administers military departments; the SEAC advises only the Air Force; service chiefs rotate as operational commanders of joint forces.
+D. The Vice Chairman approves defense policy; the SEAC advises on enlisted Total Force matters; service chiefs give joint duties precedence.
 
 **Correct answer: C**
 
-**Rationale:** The Vice Chairman performs duties prescribed by the Chairman and may serve as Acting Chairman. The SEAC advises on enlisted Total Force matters. Service chiefs give Joint Chiefs duties precedence while retaining overall service responsibility.
+**Rationale:** The Vice Chairman performs Chairman-prescribed duties and may serve as Acting Chairman. The SEAC advises the Chairman and Secretary of Defense on Total Force integration, utilization, force health, and joint development affecting enlisted personnel. Service chiefs give Joint Chiefs duties precedence while retaining overall service responsibility.
 
 **Why the other options are incorrect:**
 
-- **A:** The Vice Chairman and SEAC do not hold the command and staff-direction roles stated, and service chiefs retain overall responsibility.
-- **B:** Civilian authorities approve defense policy, the SEAC advises rather than controls assignments, and service chiefs do not command assigned combatant forces by virtue of membership.
-- **D:** The three stated relationships mischaracterize the Vice Chairman, SEAC, and service chiefs.
+- **A:** Direction of the Joint Staff rests with the Chairman; the SEAC serves as an advisor rather than its director.
+- **B:** Joint Chiefs duties take precedence over service duties for the service chiefs named by the source.
+- **D:** The Vice Chairman performs duties prescribed by the Chairman and does not approve national defense policy.
 
 **Source:** AFH 1, ¶5.3  
 **Review flag:** Standard citation verification
@@ -278,20 +280,20 @@ D. The Vice Chairman administers military departments; the SEAC advises only the
 
 Which description correctly relates the military departments to the services named in Chapter 5?
 
-A. The Department of the Army contains the Army and Coast Guard in both peace and war.  
-B. The Department of the Navy includes the Navy and Marine Corps, with the Coast Guard included in wartime.  
-C. The Department of the Air Force contains the Air Force but places the Space Force in a separate department.  
-D. The Marine Corps forms its own military department while receiving administrative support from the Navy.
+A. Army Department: Army and Coast Guard; Navy Department: Navy and Marine Corps; Air Force Department: Air Force and Space Force.  
+B. Army Department: Army; Navy Department: Navy; Air Force Department: Air Force, Marine Corps, Coast Guard, and Space Force.  
+C. Army Department: Army; Navy Department: Navy and Coast Guard; Air Force Department: Air Force and Space Force, with the Marine Corps separate.  
+D. Army Department: Army; Navy Department: Navy, Marine Corps, and wartime Coast Guard; Air Force Department: Air Force and Space Force.
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** AFH 1 groups the Army in its department, the Navy and Marine Corps in the Department of the Navy with the Coast Guard in wartime, and the Air Force and Space Force in the Department of the Air Force.
 
 **Why the other options are incorrect:**
 
-- **A:** The Coast Guard is not placed in the Department of the Army by the source.
-- **C:** The Space Force is included in the Department of the Air Force.
-- **D:** The Marine Corps is a service within the Department of the Navy, not a separate military department.
+- **A:** The source does not place the Coast Guard in the Department of the Army.
+- **B:** The Marine Corps belongs within the Department of the Navy rather than the Department of the Air Force.
+- **C:** The description omits the Marine Corps from the Department of the Navy and omits the Coast Guard's wartime relationship.
 
 **Source:** AFH 1, ¶5.4  
 **Review flag:** Revalidate department-service relationships against current statute and guidance
@@ -304,20 +306,20 @@ D. The Marine Corps forms its own military department while receiving administra
 
 What organizing idea best explains the service functions established through the Key West Agreement?
 
-A. Each service receives an exclusive mission and avoids using another service's capabilities.  
-B. The services follow one identical set of domain tasks so forces remain interchangeable.  
-C. Combatant commanders replace service responsibilities for organizing, training, and equipping forces.  
-D. Shared national functions coexist with distinct service roles and efficient cross-service support.
+A. Shared national functions coexist with overlapping service roles that make domain distinctions secondary.  
+B. Shared national functions coexist with distinct service roles and efficient cross-service support.  
+C. Distinct service functions require combatant-command approval before one service uses another's resources.  
+D. Common national responsibilities transfer organize-train-equip duties to unified commands after assignment.
 
-**Correct answer: D**
+**Correct answer: B**
 
 **Rationale:** The agreement establishes common responsibilities for national defense and specific functions for each service while calling for use of other services' people, equipment, and facilities when beneficial.
 
 **Why the other options are incorrect:**
 
-- **A:** The source expects coordination and efficient cross-service use rather than complete exclusivity.
-- **B:** Specific functions preserve meaningful domain distinctions among the services.
-- **C:** Combatant command does not erase the services' organize, train, and equip responsibilities.
+- **A:** The agreement preserves distinct service functions rather than making domain distinctions secondary.
+- **C:** The source encourages economical and effective cross-service use without stating the proposed approval condition.
+- **D:** Assignment to a unified command does not transfer the services' preparation responsibilities.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Historical framework; verify current roles and missions against controlling guidance
@@ -330,20 +332,20 @@ D. Shared national functions coexist with distinct service roles and efficient c
 
 A service function emphasizes sustained land operations, seizure or defense of land, and occupation of land areas. Which service is being described?
 
-A. United States Army  
-B. United States Navy  
-C. United States Marine Corps  
-D. United States Air Force
+A. The Navy, which prepares forces for sea control, naval reconnaissance, and protection of shipping  
+B. The Army, which prepares forces for land operations, seizure or defense of land, and occupation  
+C. The Air Force, which prepares forces for air superiority, airlift, and support to joint forces  
+D. The Marine Corps, which provides forces for advanced naval bases and amphibious landing operations
 
-**Correct answer: A**
+**Correct answer: B**
 
 **Rationale:** The Army prepares land forces and organizes, trains, and equips them for land operations, seizure or defense of land areas, and occupation.
 
 **Why the other options are incorrect:**
 
-- **B:** The Navy's defining functions center on sea operations, sea control, and protection of shipping.
-- **C:** The Marine Corps focuses on expeditionary marine functions, including advanced naval bases and amphibious landing-force phases.
-- **D:** The Air Force's defining functions center on air operations, air superiority, airlift, and air support.
+- **A:** The Navy's defining functions center on sea operations, sea control, and protection of shipping.
+- **C:** The Air Force's defining functions center on air operations, air superiority, airlift, and air support.
+- **D:** The Marine Corps focuses on advanced naval bases, limited related land operations, and amphibious landing-force phases.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -356,10 +358,10 @@ D. United States Air Force
 
 Which mission set is most characteristic of the Navy's specific functions?
 
-A. Occupying major land areas and expanding ground formations for sustained campaigns  
-B. Providing strategic air reconnaissance and air transport across the joint force  
+A. Conducting strategic air reconnaissance, airlift, and air support for land and naval forces  
+B. Supporting advanced naval bases, landing-force tactics, and detachments aboard naval vessels  
 C. Controlling vital sea areas, protecting sea lanes, and conducting antisubmarine warfare  
-D. Maintaining space access and protecting national interests in the space domain
+D. Seizing or defending land areas, conducting airborne operations, and supporting occupation
 
 **Correct answer: C**
 
@@ -367,9 +369,9 @@ D. Maintaining space access and protecting national interests in the space domai
 
 **Why the other options are incorrect:**
 
-- **A:** Land occupation and sustained land-force preparation are Army functions.
-- **B:** Strategic air reconnaissance and broad joint air transport are Air Force functions.
-- **D:** Freedom of operation and protection of interests in space are Space Force functions.
+- **A:** Strategic air reconnaissance, airlift, and support are Air Force functions.
+- **B:** Advanced naval bases and amphibious landing-force development are Marine Corps functions.
+- **D:** Land seizure, airborne operations, and occupation are Army functions.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -382,10 +384,10 @@ D. Maintaining space access and protecting national interests in the space domai
 
 Which explanation best identifies the Marine Corps' distinctive relationship to naval operations?
 
-A. It controls vital sea lanes and supplies all naval aviation for sustained combat at sea.  
+A. It develops amphibious landing-force phases while holding primary responsibility for control of vital sea lanes.  
 B. It provides forces for advanced naval bases and develops landing-force aspects of amphibious operations.  
-C. It enforces federal law over domestic waters while maintaining maritime navigation aids.  
-D. It prepares occupation armies and controls all airborne operations supporting land campaigns.
+C. It supports naval bases by administering maritime law and maintaining navigation and rescue facilities.  
+D. It provides detachments for naval vessels while preparing forces for occupation of major land areas.
 
 **Correct answer: B**
 
@@ -393,9 +395,9 @@ D. It prepares occupation armies and controls all airborne operations supporting
 
 **Why the other options are incorrect:**
 
-- **A:** Sea-lane control is a Navy function, and the source does not assign all naval aviation to the Marine Corps.
-- **C:** Maritime law enforcement and navigation aids are Coast Guard functions.
-- **D:** Occupation of land areas is an Army function, and airborne operations require joint coordination.
+- **A:** Amphibious landing-force development is a Marine function, but sea-lane control is assigned to the Navy.
+- **C:** Maritime law enforcement, navigation aids, and rescue facilities are Coast Guard functions.
+- **D:** Naval detachments fit the Marine role, but preparing occupation forces is an Army function.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -408,20 +410,20 @@ D. It prepares occupation armies and controls all airborne operations supporting
 
 How can the Coast Guard be both an armed service and normally part of a non-Defense department?
 
-A. It is always an armed service, normally in Homeland Security, but serves within the Navy under specified conditions.  
-B. It becomes an armed service only after Congress declares war and returns to civilian status when hostilities end.  
-C. It belongs permanently to the Navy but receives law-enforcement funding from Homeland Security during peacetime.  
-D. It operates independently of executive departments until the President assigns it a maritime mission.
+A. It is an armed service in peace and war, normally in Homeland Security, but joins the Navy on a declaration of war or presidential direction.  
+B. It serves as a civilian maritime agency in Homeland Security and receives armed-service status when Congress declares war.  
+C. It remains a military service in Homeland Security and enters the Navy when the Secretary of Defense assigns it to a combatant command.  
+D. It serves under the Navy for defense readiness while Homeland Security provides administrative control for law-enforcement missions.
 
 **Correct answer: A**
 
-**Rationale:** AFH 1 identifies the Coast Guard as a military service and armed-force branch at all times, normally within Homeland Security but operating as part of the Navy under the specified conditions.
+**Rationale:** AFH 1 identifies the Coast Guard as a military service and armed-force branch in peace and war, normally within Homeland Security but operating as part of the Navy on a declaration of war or when the President directs.
 
 **Why the other options are incorrect:**
 
-- **B:** Its status as an armed service does not begin only with a declaration of war.
-- **C:** The source places it in Homeland Security under ordinary conditions, not permanently in the Navy.
-- **D:** The Coast Guard is institutionally located in an executive department rather than existing outside that structure.
+- **B:** Coast Guard armed-service status does not begin with a declaration of war.
+- **C:** Assignment to a combatant command is not the condition AFH gives for operating as part of the Navy.
+- **D:** The normal departmental relationship is Homeland Security rather than Navy control with Homeland Security administration.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Legal relationship; revalidate against current statute and presidential direction
@@ -434,20 +436,20 @@ D. It operates independently of executive departments until the President assign
 
 Which activity best illustrates the Coast Guard's combined safety, law-enforcement, and defense-readiness functions?
 
-A. Operating strategic bombers while administering deployed military airfields  
-B. Seizing inland territory while training large occupation forces  
-C. Controlling military satellites while defending access to orbital domains  
-D. Enforcing maritime law while maintaining navigation and rescue capabilities
+A. Conducting maritime surveillance while preparing naval forces to control vital sea lanes  
+B. Maintaining navigation and rescue facilities while conducting strategic air reconnaissance  
+C. Enforcing maritime law while maintaining navigation aids and maritime rescue capabilities  
+D. Regulating maritime safety while preparing land forces for occupation operations
 
-**Correct answer: D**
+**Correct answer: C**
 
 **Rationale:** Coast Guard functions combine maritime law enforcement, safety regulation, navigation aids, icebreaking, rescue, research, and readiness to serve as a specialized Navy service in war.
 
 **Why the other options are incorrect:**
 
-- **A:** Strategic bombing and airfield operations do not represent the Coast Guard functions listed.
-- **B:** Inland seizure and occupation are associated with Army land functions.
-- **C:** Space access and orbital operations align with Space Force functions.
+- **A:** Maritime surveillance fits the Coast Guard, but preparing naval forces for sea control is a Navy responsibility.
+- **B:** Navigation and rescue fit the Coast Guard, but strategic air reconnaissance is an Air Force function.
+- **D:** Maritime safety fits the Coast Guard, but preparing occupation forces is an Army function.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -460,20 +462,20 @@ D. Enforcing maritime law while maintaining navigation and rescue capabilities
 
 Which relationship best captures the Air Force's specific service functions?
 
-A. It focuses on sea control while other services provide air defense coordination.  
-B. It specializes in limited land operations connected to advanced naval bases.  
-C. It prepares air forces for air operations, superiority, airlift, and support to joint forces.  
-D. It concentrates on domestic maritime law enforcement and transfers air missions to the Navy.
+A. It prepares airlift and air support forces while treating maritime law enforcement as a principal domestic role.  
+B. It prepares air forces for operations, air superiority, airlift, and support to land and naval forces.  
+C. It prepares air forces for air superiority while developing advanced naval bases and landing-force tactics.  
+D. It prepares air forces for joint support while assigning strategic air reconnaissance to the Navy.
 
-**Correct answer: C**
+**Correct answer: B**
 
 **Rationale:** The Air Force organizes, trains, and equips for air operations, air superiority, strategic air activity, airlift, and support to land, naval, and airborne operations.
 
 **Why the other options are incorrect:**
 
-- **A:** Sea control is primarily a Navy function, while the Air Force helps coordinate air defense.
-- **B:** That description reflects Marine Corps functions connected to amphibious operations.
-- **D:** Maritime law enforcement is a Coast Guard role, and the Air Force retains broad air functions.
+- **A:** Airlift and air support fit the Air Force, but maritime law enforcement is a Coast Guard function.
+- **C:** Air superiority fits the Air Force, but advanced naval bases and landing-force tactics are Marine functions.
+- **D:** Joint air support fits the Air Force, but the Air Force also retains strategic air reconnaissance.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -486,10 +488,10 @@ D. It concentrates on domestic maritime law enforcement and transfers air missio
 
 What distinguishes the Space Force's service role within the Department of the Air Force?
 
-A. It directs every combatant command whenever a mission depends on space support.  
-B. It administers the Air Force while delegating space doctrine to civilian agencies.  
-C. It performs maritime surveillance as its primary means of protecting national territory.  
-D. It develops forces for sustained space operations, freedom of action, protection, and deterrence.
+A. It develops forces for sustained space operations while making maritime surveillance its principal protective mission.  
+B. It develops space doctrine and forces while administering the Air Force's air operations and personnel.  
+C. It protects national interests in space while directing geographic commands that depend on space support.  
+D. It develops forces for sustained space operations, freedom of action, protection of U.S. interests, and deterrence.
 
 **Correct answer: D**
 
@@ -497,9 +499,9 @@ D. It develops forces for sustained space operations, freedom of action, protect
 
 **Why the other options are incorrect:**
 
-- **A:** A military service does not gain command of every combatant command whose mission uses its capabilities.
-- **B:** The Space Force develops its own concepts, doctrine, tactics, techniques, and procedures for assigned functions.
-- **C:** Maritime surveillance is not the defining set of Space Force functions.
+- **A:** Sustained space operations fit the service, but maritime surveillance is not its defining protective function.
+- **B:** The Space Force develops its own doctrine and forces but does not administer Air Force air operations.
+- **C:** Protecting space interests does not place geographic combatant commands under the Space Force.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Organizational roles can evolve; revalidate against current service guidance
@@ -512,20 +514,20 @@ D. It develops forces for sustained space operations, freedom of action, protect
 
 What shared pattern links the service-specific functions described in Chapter 5?
 
-A. Each service commands joint operations whenever activity occurs mainly in its domain.  
-B. Each service prepares its domain forces while coordinating capabilities that overlap with other services.  
-C. Each service avoids developing capabilities that could support another service's mission.  
-D. Each service transfers organize-train-equip responsibilities to combatant commanders during peacetime.
+A. Each service prepares its domain forces while coordinating capabilities that overlap with other services.  
+B. Each service prepares domain forces while establishing a separate national policy for overlapping missions.  
+C. Each service shares general functions while transferring domain-force preparation to combatant commands.  
+D. Each service maintains distinct functions while minimizing cross-service resource use in overlapping missions.
 
-**Correct answer: B**
+**Correct answer: A**
 
 **Rationale:** The listed functions establish principal domains while repeatedly requiring coordination in joint areas such as amphibious, airborne, air-defense, and support operations.
 
 **Why the other options are incorrect:**
 
-- **A:** Domain expertise does not automatically confer command of a joint operation.
-- **C:** The source repeatedly calls for mutual support and coordination rather than isolation.
-- **D:** The service responsibility to organize, train, and equip is distinct from combatant command employment.
+- **B:** The services support national policy rather than establish separate policies for overlapping missions.
+- **C:** Combatant commands employ forces but do not replace service preparation responsibilities.
+- **D:** The agreement encourages cross-service use when it improves economy and effectiveness.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Instructional synthesis of the service-function relationships in ¶5.5
@@ -536,24 +538,24 @@ D. Each service transfers organize-train-equip responsibilities to combatant com
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-How should the Marine Corps' place in the Department of the Navy be understood?
+Which relationship shows how Navy functions extend beyond controlling sea areas?
 
-A. Departmental placement makes Marine and Navy functions identical.  
-B. Departmental placement turns the Marine Corps into a temporary naval unit during war.  
-C. The Marine Corps remains a distinct service with specific functions inside the Department of the Navy.  
-D. The Marine Corps forms a separate military department whenever it conducts land operations.
+A. The Navy prepares occupation forces and assumes responsibility for sustained land campaigns.  
+B. The Navy develops the landing-force tactics and equipment assigned to the Marine Corps.  
+C. The Navy supports occupation forces and may seize minor shore positions with fleet landing forces.  
+D. The Navy administers maritime law and navigation aids while preparing to join the Coast Guard in war.
 
 **Correct answer: C**
 
-**Rationale:** Chapter 5 places the Marine Corps within the Department of the Navy while separately assigning it specific service functions. Departmental organization and functional identity are related but not identical.
+**Rationale:** In addition to sea control, AFH 1 assigns the Navy support to occupation forces and seizure of minor enemy shore positions by landing forces within the fleet organization.
 
 **Why the other options are incorrect:**
 
-- **A:** The Navy and Marine Corps have related but distinct listed functions.
-- **B:** The Marine Corps is not described as a temporary service or unit.
-- **D:** Conducting land operations does not create a separate military department.
+- **A:** The Army prepares occupation forces and conducts sustained land campaigns; the Navy supports those forces as required.
+- **B:** The Marine Corps develops the landing-force phases of amphibious operations in coordination with the Army and Air Force.
+- **D:** Maritime law enforcement and navigation aids are Coast Guard functions, not extensions of the Navy role described here.
 
-**Source:** AFH 1, ¶¶5.4–5.5  
+**Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
 
 ### C05-Q-022
@@ -564,20 +566,20 @@ D. The Marine Corps forms a separate military department whenever it conducts la
 
 Which explanation unifies the general military functions listed in the Key West framework?
 
-A. They connect constitutional defense, national security, and advancement of lawful national interests.  
-B. They limit military action to defense of territory inside the United States.  
-C. They make economic efficiency the primary objective of every military operation.  
-D. They assign national policy formation to the services instead of civilian leaders.
+A. They connect constitutional defense and national security while making cross-service economy the central national objective.  
+B. They connect constitutional defense, national security, and advancement of national policies and interests.  
+C. They connect security of the United States and its possessions while assigning national-policy formation to the services.  
+D. They connect constitutional defense with protection of domestic territory rather than other areas vital to national interests.
 
-**Correct answer: A**
+**Correct answer: B**
 
 **Rationale:** The three general functions concern defending the Constitution, securing the United States and vital areas, and upholding and advancing national policies and interests.
 
 **Why the other options are incorrect:**
 
-- **B:** The functions include possessions, vital areas, and national interests beyond domestic territory.
-- **C:** Economy can guide cross-service use but is not the primary national objective stated.
-- **D:** The services support national policy; they do not replace civilian authorities in forming it.
+- **A:** Economy can guide cross-service use but is not one of the three general national functions.
+- **C:** The services uphold and advance national policy rather than assume civilian responsibility for forming it.
+- **D:** The functions extend to possessions, vital areas, and national interests beyond domestic territory.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -592,22 +594,22 @@ D. They assign national policy formation to the services instead of civilian lea
 
 What makes a command “combined” in the sense used by Chapter 5?
 
-A. It combines operational and administrative control over one U.S. service.  
-B. It combines two U.S. military departments under one combatant commander.  
-C. It brings forces or agencies of multiple allied nations together under multinational agreements.  
-D. It combines geographic and functional responsibilities in a single U.S. command.
+A. It brings forces from multiple U.S. military departments together for a broad, continuing mission.  
+B. It brings allied forces together under service-secretary direction rather than a multinational agreement.  
+C. It gives a U.S. command geographic and functional responsibilities coordinated with allied partners.  
+D. It brings forces or agencies of two or more allies together under multinational agreements.
 
-**Correct answer: C**
+**Correct answer: D**
 
 **Rationale:** A combined command includes forces or agencies from two or more allies and derives its mission and command arrangements from relevant multinational agreements.
 
 **Why the other options are incorrect:**
 
-- **A:** Two forms of authority over one service do not make a command combined.
-- **B:** Forces from multiple U.S. departments describe a unified command, not necessarily a combined one.
-- **D:** A mix of geographic and functional responsibilities is not the defining multinational feature.
+- **A:** A broad, continuing mission using forces from multiple U.S. departments describes a unified command.
+- **B:** Combined command arrangements derive from multinational agreements rather than service-secretary direction.
+- **C:** Allied coordination can occur in many settings; multinational composition and agreements define a combined command.
 
-**Source:** AFH 1, ¶5.6  
+**Source:** AFH 1, ¶¶5.6–5.7  
 **Review flag:** Standard citation verification
 
 ### C05-Q-024
@@ -618,20 +620,20 @@ D. It combines geographic and functional responsibilities in a single U.S. comma
 
 How do combined commands differ from unified combatant commands?
 
-A. Combined commands are temporary service units, while unified commands are permanent military departments.  
-B. Combined commands join allied forces by agreement; unified commands join forces from multiple military departments.  
-C. Combined commands are always geographic, while unified commands are always functional.  
-D. Combined commands report through service secretaries, while unified commands report through allied governments.
+A. Combined commands join allied forces by agreement, while unified commands use multiple U.S. departments for a temporary mission.  
+B. Combined commands join allied forces by agreement, while unified commands draw forces from a single military department.  
+C. Combined commands join allies by agreement; unified commands have continuing missions with forces from multiple U.S. departments.  
+D. Combined and unified commands both draw forces from multiple U.S. departments but differ in geographic scope.
 
-**Correct answer: B**
+**Correct answer: C**
 
 **Rationale:** The multinational basis of a combined command contrasts with a unified combatant command's broad, continuing U.S. mission using forces from two or more military departments.
 
 **Why the other options are incorrect:**
 
-- **A:** Neither command type is defined as a military department or merely a temporary service unit.
-- **C:** Unified commands may be geographic or functional, and combined status does not impose the claimed split.
-- **D:** Combined arrangements follow multinational agreements, while the U.S. operational chain governs unified combatant commands.
+- **A:** The unified-command mission is broad and continuing rather than defined as temporary.
+- **B:** Unified commands use forces from two or more military departments rather than a single department.
+- **D:** Allied participation distinguishes combined commands; geographic scope does not create the stated difference.
 
 **Source:** AFH 1, ¶¶5.6–5.7  
 **Review flag:** Standard citation verification
@@ -644,20 +646,20 @@ D. Combined commands report through service secretaries, while unified commands 
 
 After a service unit is assigned to a unified combatant command, how are its two principal authority relationships divided?
 
-A. The service chief holds combatant command, and the President holds administrative control.  
-B. The Joint Staff holds operational control, and the combatant commander holds administrative control.  
-C. The service component commander holds both authorities independently of the combatant commander.  
-D. The combatant commander holds combatant command authority, while the service component retains administrative control authority.
+A. The combatant commander holds combatant command authority, while the respective service component commander holds administrative control authority.  
+B. The combatant commander holds administrative control authority, while the service component commander holds combatant command authority.  
+C. The service component commander holds both authorities, while the combatant commander coordinates employment through the Joint Staff.  
+D. The combatant commander holds combatant command authority, while the service chief personally retains administrative control authority.
 
-**Correct answer: D**
+**Correct answer: A**
 
 **Rationale:** Assigned or attached units remain under the unified commander for combatant command authority and under the appropriate service component commander for administrative control.
 
 **Why the other options are incorrect:**
 
-- **A:** Service chiefs do not hold combatant command over units assigned to a unified command.
-- **B:** The Joint Staff is not an operational command, and the combatant commander does not assume service administrative control in this description.
-- **C:** The service component's administrative role does not displace the combatant commander's authority.
+- **B:** This reverses the combatant commander's operational authority and the service component commander's administrative role.
+- **C:** The service component commander's administrative authority does not displace the combatant commander's authority.
+- **D:** AFH identifies the respective service component commander, not the service chief personally, as the administrative-control authority.
 
 **Source:** AFH 1, ¶5.7  
 **Review flag:** Revalidate authority terminology against current joint doctrine
@@ -670,20 +672,20 @@ D. The combatant commander holds combatant command authority, while the service 
 
 What does the restriction on transferring an assigned combatant-command force reveal about assignment?
 
-A. Assignment creates a durable relationship requiring Secretary of Defense authority or approved special procedures to change.  
-B. Assignment is an informal coordination measure that any service component may end when priorities shift.  
-C. Assignment transfers the force permanently to another military department for administration and employment.  
-D. Assignment lasts only for one operation and expires whenever operational control is delegated.
+A. Assignment can be changed by a service component commander after notifying the Secretary of Defense.  
+B. Assignment moves the force into another military department until the Unified Command Plan is reviewed.  
+C. Changing assignment requires Secretary of Defense authority or special procedures approved by the President.  
+D. Assignment concludes when operational control is delegated to a subordinate joint force commander.
 
-**Correct answer: A**
+**Correct answer: C**
 
 **Rationale:** AFH 1 states that a force assigned or attached to a unified command cannot be transferred except by Secretary of Defense authority or special procedures approved by the President.
 
 **Why the other options are incorrect:**
 
-- **B:** The stated transfer restriction makes assignment more than informal service coordination.
-- **C:** Assignment to a combatant command does not move the force into a different military department.
-- **D:** Delegation of operational control does not automatically terminate the underlying assignment.
+- **A:** Notification does not substitute for the Secretary's authority or the approved special procedures.
+- **B:** Assignment changes a command relationship but does not move the force into another military department.
+- **D:** Delegating operational control does not terminate the underlying assignment or attachment.
 
 **Source:** AFH 1, ¶5.7  
 **Review flag:** Command-assignment rules; verify against the current Unified Command Plan and joint doctrine
@@ -696,20 +698,20 @@ D. Assignment lasts only for one operation and expires whenever operational cont
 
 Why does the Unified Command Plan affect both operations and institutional preparation?
 
-A. It replaces congressional authority over resources with combatant-command budgeting authority.  
-B. It assigns missions, responsibilities, and geographic areas that shape how commands organize, train, and receive resources.  
-C. It serves as public service doctrine for organizing every wing and squadron.  
-D. It transfers administrative control of all assigned forces to the Chairman of the Joint Chiefs of Staff.
+A. It assigns missions and geographic areas while leaving command organization and training separate from those assignments.  
+B. It publishes service doctrine that converts combatant-command missions into wing and squadron structures.  
+C. It assigns missions, planning, training, operations, and geographic areas that influence organization and resources.  
+D. It assigns combatant-command missions while treating planning, training, and resourcing as military-department matters.
 
-**Correct answer: B**
+**Correct answer: C**
 
 **Rationale:** The Unified Command Plan assigns combatant-command missions, planning, training, operational responsibilities, and areas of responsibility, which in turn influence organization, training, and resourcing.
 
 **Why the other options are incorrect:**
 
-- **A:** The source specifically recognizes congressional constitutional authority in affected resource matters.
-- **C:** The plan concerns combatant-command responsibilities rather than detailed public organization of every service unit.
-- **D:** The Chairman prepares the plan but does not thereby receive administrative control of all forces.
+- **A:** AFH says the plan significantly affects organization and training rather than separating them from assigned missions.
+- **B:** The plan is a classified executive document about combatant commands, not public service-unit doctrine.
+- **D:** Planning, training, and resourcing are among the areas affected by the plan rather than unrelated department matters.
 
 **Source:** AFH 1, ¶5.7  
 **Review flag:** Classified plan content changes; revalidate public organizational conclusions against current guidance
@@ -722,20 +724,20 @@ D. It transfers administrative control of all assigned forces to the Chairman of
 
 Which distinction best separates geographic from functional combatant commands?
 
-A. Geographic commands organize services, while functional commands administer military departments.  
-B. Geographic commands operate only in peace, while functional commands operate only during conflict.  
-C. Geographic commands use allied forces, while functional commands use only U.S. forces.  
-D. Geographic commands focus on defined regions, while functional commands provide specialized capabilities across regional boundaries.
+A. Geographic commands focus on defined regions, while functional commands provide specialized capabilities across regional boundaries.  
+B. Geographic commands focus on defined regions, while functional commands receive separate regions based on their specialized capabilities.  
+C. Geographic commands provide specialized global capabilities, while functional commands center on regional partnerships and threats.  
+D. Geographic and functional categories depend on participating nations and command agreements rather than missions or assigned areas.
 
-**Correct answer: D**
+**Correct answer: A**
 
 **Rationale:** Geographic commanders have delineated areas of responsibility and regional focus. Functional commands operate globally across those boundaries based on specialized military functions.
 
 **Why the other options are incorrect:**
 
-- **A:** Neither category is defined by administering military departments.
-- **B:** Both categories can have responsibilities across peace and conflict.
-- **C:** Allied participation does not determine whether a U.S. combatant command is geographic or functional.
+- **B:** Functional commands operate across geographic boundaries rather than receive their own regional areas.
+- **C:** This reverses the regional focus of geographic commands and the global role of functional commands.
+- **D:** Mission and area of responsibility, not allied participation, determine the two U.S. categories.
 
 **Source:** AFH 1, ¶5.8  
 **Review flag:** Command categories and portfolios can change; revalidate against the current Unified Command Plan
@@ -748,20 +750,20 @@ D. Geographic commands focus on defined regions, while functional commands provi
 
 Why does a USNORTHCOM commander’s additional NORAD role not change USNORTHCOM's geographic classification?
 
-A. NORAD is a service component that exercises administrative control for USNORTHCOM.  
-B. A commander can hold only one command role, so the NORAD title is ceremonial.  
-C. USNORTHCOM remains geographic; the same officer may separately command the multinational NORAD organization.  
-D. USNORTHCOM becomes a functional command whenever its commander performs homeland-defense duties.
+A. USNORTHCOM remains geographic; its commander may separately lead NORAD when a U.S. officer holds that role.  
+B. The NORAD appointment makes that organization a service component supporting USNORTHCOM's regional mission.  
+C. The additional role shifts homeland defense from USNORTHCOM's geographic mission into a functional portfolio.  
+D. The dual title places both organizations under one U.S. combatant-command relationship and regional mission.
 
-**Correct answer: C**
+**Correct answer: A**
 
-**Rationale:** USNORTHCOM is organized around a geographic area and homeland responsibilities. Its commander may also serve in the distinct U.S.-Canadian NORAD command role.
+**Rationale:** USNORTHCOM is organized around a geographic area and homeland responsibilities. Its commander may also serve in the distinct U.S.-Canadian NORAD command role when a United States officer fulfills that role.
 
 **Why the other options are incorrect:**
 
-- **A:** NORAD is not described as USNORTHCOM's service component or administrative authority.
-- **B:** AFH 1 expressly describes the commander holding the additional NORAD role under the stated condition.
-- **D:** Homeland duties within a defined area do not convert a geographic command into a functional one.
+- **B:** NORAD is a separate combined organization rather than a service component of USNORTHCOM.
+- **C:** Homeland responsibilities within a defined area remain part of USNORTHCOM's geographic mission.
+- **D:** NORAD derives from a multinational arrangement and is distinct from the U.S. unified-command structure.
 
 **Source:** AFH 1, ¶¶5.6, 5.8  
 **Review flag:** Dual-hat relationships can change; revalidate against current command arrangements
@@ -772,22 +774,22 @@ D. USNORTHCOM becomes a functional command whenever its commander performs homel
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-Which comparison accurately distinguishes two geographic combatant-command relationships?
+Which comparison accurately distinguishes the regional relationships of USEUCOM and USCENTCOM?
 
-A. USINDOPACOM focuses on Indo-Pacific security partnerships; USSOUTHCOM focuses on Latin America and the Caribbean.  
-B. USINDOPACOM directs global strategic deterrence, while USSOUTHCOM controls worldwide military transportation.  
-C. USINDOPACOM is function-based, while USSOUTHCOM has no assigned regional focus.  
-D. USINDOPACOM centers on European alliance defense, while USSOUTHCOM centers on African regional organizations.
+A. USEUCOM works with the African Union and regional organizations; USCENTCOM focuses on Latin American and Caribbean partnerships.  
+B. USEUCOM works with NATO and European partners; USCENTCOM uses partnerships across the Middle East, northern Africa, and Central Asia.  
+C. USEUCOM leads global mobility across theaters, while USCENTCOM deters strategic attack through nuclear capabilities.  
+D. USEUCOM centers on homeland civil support, while USCENTCOM develops security partnerships throughout the Indo-Pacific.
 
-**Correct answer: A**
+**Correct answer: B**
 
-**Rationale:** AFH 1 associates USINDOPACOM with Indo-Pacific security and partnership activity and USSOUTHCOM with security cooperation in Central and South America and the Caribbean.
+**Rationale:** AFH 1 links USEUCOM with NATO and European, Middle Eastern, and Eurasian partners, while USCENTCOM uses national and international partnerships across its central-region area to respond to crises and improve stability.
 
 **Why the other options are incorrect:**
 
-- **B:** Strategic deterrence and global transportation are functional responsibilities of other commands.
-- **C:** Both commands are geographic and have defined regional responsibilities.
-- **D:** European and African relationships belong primarily to USEUCOM and USAFRICOM, respectively.
+- **A:** African Union relationships characterize USAFRICOM, while Latin American and Caribbean relationships characterize USSOUTHCOM.
+- **C:** Global mobility and strategic-attack deterrence are functional responsibilities of USTRANSCOM and USSTRATCOM.
+- **D:** Homeland civil support characterizes USNORTHCOM, while Indo-Pacific partnerships characterize USINDOPACOM.
 
 **Source:** AFH 1, ¶5.8  
 **Review flag:** Geographic portfolios can change; revalidate against the current Unified Command Plan
@@ -798,22 +800,22 @@ D. USINDOPACOM centers on European alliance defense, while USSOUTHCOM centers on
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Foundational
 
-Which functional combatant-command pairing is correct?
+A joint force needs globally integrated mobility and distribution across regional boundaries. Which command-role relationship best meets that need?
 
-A. USSOCOM — command of nuclear capabilities and global strike  
-B. USSTRATCOM — achievement of cyberspace superiority  
-C. USCYBERCOM — global deployment and distribution leadership  
-D. USTRANSCOM — globally integrated mobility and Joint Force sustainment
+A. USTRANSCOM leads the joint deployment and distribution enterprise to project and sustain the Joint Force.  
+B. USCYBERCOM coordinates global distribution by achieving and maintaining superiority in cyberspace.  
+C. USSOCOM integrates global movement through its responsibility for planning and conducting special operations.  
+D. USSTRATCOM provides joint distribution through its strategic-attack and global-strike responsibilities.
 
-**Correct answer: D**
+**Correct answer: A**
 
 **Rationale:** USTRANSCOM leads globally integrated mobility and the joint deployment and distribution enterprise to project and sustain the Joint Force.
 
 **Why the other options are incorrect:**
 
-- **A:** USSOCOM plans and conducts special operations; nuclear capabilities and global strike align with USSTRATCOM.
-- **B:** USSTRATCOM handles strategic missions, while cyberspace superiority aligns with USCYBERCOM.
-- **C:** USCYBERCOM focuses on cyberspace, while global deployment and distribution align with USTRANSCOM.
+- **B:** USCYBERCOM's cyberspace mission does not make it the joint deployment and distribution leader.
+- **C:** USSOCOM plans and conducts special operations rather than lead the global distribution enterprise.
+- **D:** USSTRATCOM handles strategic attack, nuclear capabilities, and global strike rather than global mobility.
 
 **Source:** AFH 1, ¶5.8  
 **Review flag:** Functional portfolios can change; revalidate against current command guidance
@@ -824,25 +826,25 @@ D. USTRANSCOM — globally integrated mobility and Joint Force sustainment
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-Which statement best distinguishes USSTRATCOM from USCYBERCOM?
+Why does AFH 1's introductory combatant-command count require careful reading?
 
-A. USSTRATCOM manages regional partnerships, while USCYBERCOM performs maritime law enforcement.  
-B. USSTRATCOM conducts special operations, while USCYBERCOM controls global military transportation.  
-C. USSTRATCOM addresses strategic attack and nuclear capabilities, while USCYBERCOM pursues superiority in cyberspace.  
-D. USSTRATCOM organizes service space forces, while USCYBERCOM administers all service communications units.
+A. It first identifies USNORTHCOM as functional and later assigns it a geographic homeland area of responsibility.  
+B. It first counts NORAD among the U.S. unified commands and later describes it as a multinational combined command.  
+C. It states there are 11 commands, names six geographic and four functional, then profiles USSPACECOM separately.  
+D. It first gives USTRANSCOM a regional area of responsibility and later describes its global mobility mission.
 
 **Correct answer: C**
 
-**Rationale:** AFH 1 links USSTRATCOM to deterrence and detection of strategic attack, nuclear capabilities, and global strike, while USCYBERCOM focuses on achieving and maintaining cyberspace superiority.
+**Rationale:** The introductory enumeration names six geographic commands and four functional commands, a total of ten, while the later USSPACECOM profile supplies the eleventh name without adding it to that functional sentence.
 
 **Why the other options are incorrect:**
 
-- **A:** Those activities do not describe the two functional commands.
-- **B:** Special operations and global transportation belong to USSOCOM and USTRANSCOM.
-- **D:** Combatant commands employ capabilities for assigned missions; they do not serve as the organizing department for all service forces in those domains.
+- **A:** AFH includes USNORTHCOM in its geographic list and describes a defined homeland area.
+- **B:** NORAD appears as a combined-command example but is not counted among the U.S. unified commands.
+- **D:** USTRANSCOM is introduced as a functional command without a regional area of responsibility.
 
-**Source:** AFH 1, ¶5.8  
-**Review flag:** Functional portfolios can change; revalidate against current command guidance
+**Source:** AFH 1, ¶¶5.6, 5.8  
+**Review flag:** Preserve the source's enumeration ambiguity; command categories require current Unified Command Plan review
 
 ### C05-Q-033
 
@@ -852,20 +854,20 @@ D. USSTRATCOM organizes service space forces, while USCYBERCOM administers all s
 
 How should USSPACECOM's role be classified within the command structure?
 
-A. As the military department that recruits and administers all space personnel  
-B. As a combatant command conducting space operations and providing combat power to joint forces  
-C. As an Air Force field agency that provides only technical advice to geographic commands  
-D. As a service headquarters that organizes and equips forces but has no operational mission
+A. As a service headquarters that organizes and equips space forces while coordinating joint operations  
+B. As a field operating agency that provides technical space advice and limited operational coordination  
+C. As a military department that administers space personnel while supporting joint-force missions  
+D. As a combatant command conducting space operations and providing combat power to joint forces
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** AFH 1 describes USSPACECOM as conducting operations in, from, and to space to deter conflict, defeat aggression when necessary, and deliver space combat power to joint and combined forces.
 
 **Why the other options are incorrect:**
 
-- **A:** A combatant command is not a military department responsible for all personnel administration.
-- **C:** USSPACECOM has operational combatant-command responsibilities rather than only field-agency advice.
-- **D:** Organizing and equipping are service functions; USSPACECOM performs operational missions.
+- **A:** Organizing and equipping forces are service responsibilities; USSPACECOM is an operational combatant command.
+- **B:** USSPACECOM conducts operational missions rather than serve as a field operating agency.
+- **C:** USSPACECOM is not a military department responsible for personnel administration.
 
 **Source:** AFH 1, ¶5.8  
 **Review flag:** Space command relationships can change; revalidate against current guidance
@@ -878,20 +880,20 @@ D. As a service headquarters that organizes and equips forces but has no operati
 
 A command's regional approach emphasizes defense relationships with African nations, the African Union, and regional security organizations. Which command-role relationship does this describe?
 
-A. USAFRICOM strengthening partner defense capabilities to improve regional security  
-B. USEUCOM directing global mobility to sustain forces across every theater  
-C. USCENTCOM administering the military services operating in the central region  
-D. USNORTHCOM organizing allied services for all multinational operations
+A. USEUCOM strengthening African Union defense capabilities as part of its NATO partnership mission  
+B. USCENTCOM strengthening African Union defense capabilities across its central-region partnerships  
+C. USAFRICOM strengthening African partner defense capabilities to improve security and regional stability  
+D. USSOUTHCOM strengthening African Union defense capabilities through its Caribbean partnerships
 
-**Correct answer: A**
+**Correct answer: C**
 
 **Rationale:** USAFRICOM works with African nations, the African Union, and regional security organizations to strengthen defense capability, improve security, and counter transnational threats.
 
 **Why the other options are incorrect:**
 
-- **B:** USEUCOM has a European regional focus; global mobility is a USTRANSCOM function.
-- **C:** USCENTCOM conducts regional operations but does not administer the military services.
-- **D:** USNORTHCOM has homeland and civil-support responsibilities rather than responsibility for all multinational operations.
+- **A:** USEUCOM works chiefly with NATO and European partners rather than hold the stated African Union relationship.
+- **B:** USCENTCOM uses partnerships in its central region, but the African Union relationship belongs to USAFRICOM.
+- **D:** USSOUTHCOM focuses on Latin America and the Caribbean rather than the African regional organizations named.
 
 **Source:** AFH 1, ¶5.8  
 **Review flag:** Regional roles can change; revalidate against the current Unified Command Plan
@@ -904,20 +906,20 @@ D. USNORTHCOM organizing allied services for all multinational operations
 
 Which description correctly places a COMAFFOR in both operational and administrative relationships?
 
-A. The COMAFFOR reports operationally to the Air Staff and administratively to the Joint Staff.  
-B. The COMAFFOR serves under a joint force commander for delegated OPCON while retaining SecAF-derived ADCON through the service chain.  
-C. The COMAFFOR receives both OPCON and ADCON from the Chairman of the Joint Chiefs of Staff.  
-D. The COMAFFOR exercises administrative control over the joint force while a service secretary holds operational control.
+A. The COMAFFOR receives delegated OPCON from a joint commander and SecAF-derived ADCON through the service chain.  
+B. The joint force commander delegates ADCON to the COMAFFOR while the Secretary of the Air Force provides OPCON.  
+C. The Air Staff delegates OPCON to the COMAFFOR while the joint force commander channels ADCON through the service.  
+D. The Chairman delegates OPCON and ADCON to the COMAFFOR while the Secretary advises on administrative resources.
 
-**Correct answer: B**
+**Correct answer: A**
 
 **Rationale:** The Air Force Service component is led by a COMAFFOR assigned to a joint force commander, who typically delegates OPCON, while administrative authority derives through the Secretary of the Air Force.
 
 **Why the other options are incorrect:**
 
-- **A:** The stated operational relationship is to the joint force commander, not the Air Staff.
-- **C:** The Chairman is not the source of both authorities in this relationship.
-- **D:** This reverses the joint operational and service administrative roles.
+- **B:** This reverses the joint operational and service administrative sources of authority.
+- **C:** OPCON comes through the joint force commander, while ADCON derives through the Air Force chain.
+- **D:** The Chairman is not the source of both authorities in the relationship AFH describes.
 
 **Source:** AFH 1, ¶5.9  
 **Review flag:** Authority terminology; verify against current doctrine and organizational guidance
@@ -930,25 +932,27 @@ D. The COMAFFOR exercises administrative control over the joint force while a se
 
 What is the organizational purpose of giving a COMAFFOR an OPCON relationship with a joint commander and an ADCON relationship through the Air Force?
 
-A. It makes the COMAFFOR independent of both joint and service chains.  
-B. It gives the Air Force administrative authority over every service in the joint force.  
-C. It allows the Joint Staff to replace the combatant commander in daily operations.  
-D. It supports joint employment of Air Force forces while preserving service responsibility for their administration.
+A. It supports joint employment of Air Force forces while shifting their service administration to the joint commander.  
+B. It preserves Air Force administration while leaving operational employment under the Air Staff rather than joint command.  
+C. It supports joint employment of Air Force forces while preserving service responsibility for their administration.  
+D. It aligns joint and service chains by giving the COMAFFOR administrative authority over other components.
 
-**Correct answer: D**
+**Correct answer: C**
 
 **Rationale:** The two relationships connect Air Force forces to joint operational employment without removing the service's administrative responsibilities.
 
 **Why the other options are incorrect:**
 
-- **A:** The COMAFFOR is linked to both chains rather than independent of them.
-- **B:** Air Force ADCON concerns Air Force forces, not every service in the joint force.
-- **C:** The Joint Staff supports joint leadership and does not replace the commander in this relationship.
+- **A:** Joint operational employment does not transfer Air Force administrative responsibility to the joint commander.
+- **B:** The operational relationship is to the joint commander rather than the Air Staff.
+- **D:** Air Force administrative authority concerns Air Force forces rather than other service components.
 
 **Source:** AFH 1, ¶5.9  
 **Review flag:** Instructional synthesis; current doctrine and command guidance control specific authorities
 
-## Section 5D — USAF Total Force
+## Section 5D — Air Force Total Force
+
+> **Source-title note:** The AFH 1 body heading uses “USAF Total Force.”
 
 ### C05-Q-037
 
@@ -958,20 +962,20 @@ D. It supports joint employment of Air Force forces while preserving service res
 
 Why does describing the Total Force as “one team” not mean its members are interchangeable?
 
-A. Components and civilian Airmen contribute different capabilities, experience, continuity, and perspectives that must be integrated.  
-B. Only Regular Air Force members perform the mission, while other members preserve institutional history.  
-C. Each component operates a separate mission and combines with the others only during national emergencies.  
-D. Civilian Airmen provide administrative support but are outside the mission-focused Total Force.
+A. The components perform the same institutional roles, while civilian Airmen provide experience and continuity.  
+B. Component and employment distinctions matter before deployment but recede during routine mission execution.  
+C. Components and civilian Airmen bring complementary capabilities and perspectives that must be integrated.  
+D. Military components integrate operationally, while civilian Airmen contribute mainly through institutional support.
 
-**Correct answer: A**
+**Correct answer: C**
 
 **Rationale:** AFH 1 presents one Air Force team whose Regular, Reserve, Guard, and civilian members bring complementary capabilities; civilians add experience, continuity, leadership, and perspective.
 
 **Why the other options are incorrect:**
 
-- **B:** Reserve, Guard, and civilian contributions are described as essential to mission success.
-- **C:** The components routinely operate together and do not maintain wholly separate missions.
-- **D:** Civilian Airmen are specifically identified as critical mission partners.
+- **A:** Integration draws on complementary contributions rather than identical institutional roles.
+- **B:** Routine Total Force integration does not erase component, employment, or authority distinctions.
+- **D:** Civilian Airmen work beside military counterparts and are identified as critical to mission success.
 
 **Source:** AFH 1, ¶5.10  
 **Review flag:** Standard citation verification
@@ -984,20 +988,20 @@ D. Civilian Airmen provide administrative support but are outside the mission-fo
 
 How have recurring operational demands changed the role of the Air National Guard and Air Force Reserve?
 
-A. They shifted from operational forces to units used only for long-term strategic emergencies.  
-B. They became administrative organizations whose main purpose is to manage Regular Air Force resources.  
-C. They now provide recurring operational capability while preserving strategic depth and surge capacity.  
-D. They replaced the Regular Air Force as the sole source of rapidly deployable forces.
+A. They preserved strategic depth by reducing their recurring contribution to operational deployments.  
+B. They shifted toward administrative support while the Regular Air Force retained recurring operational missions.  
+C. They gained recurring operational capability while giving up much of their strategic depth and surge role.  
+D. They now provide recurring operational capability while preserving strategic depth and surge capacity.
 
-**Correct answer: C**
+**Correct answer: D**
 
 **Rationale:** Chapter 5 explains that recurring deployments transformed a traditionally strategic reserve into a force providing operational capability, strategic depth, and surge capacity.
 
 **Why the other options are incorrect:**
 
-- **A:** The change moved toward recurring operational contribution, not away from it.
-- **B:** Guard and Reserve forces provide military capability rather than merely administering Regular resources.
-- **D:** Total Force integration depends on all components and does not make one the sole deployable source.
+- **A:** Recurring demands increased rather than reduced Guard and Reserve operational contribution.
+- **B:** The Guard and Reserve provide operational military capability rather than shift into administrative support.
+- **C:** The transformation added recurring capability while retaining strategic depth and surge capacity.
 
 **Source:** AFH 1, ¶5.10  
 **Review flag:** Standard citation verification
@@ -1010,20 +1014,20 @@ D. They replaced the Regular Air Force as the sole source of rapidly deployable 
 
 How do classic and active associations differ?
 
-A. A classic association has a Guard host, while an active association has a Reserve tenant with no Regular participation.  
-B. A classic association has a Regular host with a Reserve or Guard tenant, while an active association reverses those host-tenant roles.  
-C. A classic association shares only facilities, while an active association transfers the weapon system permanently between components.  
-D. A classic association exists only for training, while an active association exists only during mobilization.
+A. A classic association uses a Regular host and Reserve or Guard tenant; an active association reverses those host-tenant roles.  
+B. A classic association has a Reserve host with a Regular tenant, while an active association has a Regular host with a Guard tenant.  
+C. A classic association and an active association both use Regular hosts but differ in which component retains facilities.  
+D. A classic association and an active association both use Reserve hosts but differ in which component supplies personnel.
 
-**Correct answer: B**
+**Correct answer: A**
 
 **Rationale:** In a classic association, the Regular Component hosts and retains weapon-system responsibility; in an active association, a Reserve or Guard unit hosts a Regular tenant.
 
 **Why the other options are incorrect:**
 
-- **A:** The classic host is Regular, and an active association includes a Regular tenant.
-- **C:** Associations share missions and resources; the source does not define the distinction as permanent weapon-system transfer.
-- **D:** The distinction concerns host and tenant components, not a training-versus-mobilization split.
+- **B:** This reverses the host relationships: the classic host is Regular, while the active host is Reserve or Guard.
+- **C:** The active-association host is Reserve or Guard rather than Regular.
+- **D:** The classic-association host is Regular rather than Reserve.
 
 **Source:** AFH 1, ¶5.10  
 **Review flag:** Association terminology and structures can change; revalidate against current guidance
@@ -1036,23 +1040,23 @@ D. A classic association exists only for training, while an active association e
 
 Which statement best explains the Air Reserve Component's readiness relationship to the Regular Air Force?
 
-A. It consists only of the Air Force Reserve and follows lower readiness standards until mobilized.  
-B. It combines all military auxiliaries and receives equipment after Regular requirements are filled.  
-C. It consists only of the Air National Guard and trains primarily for state emergency missions.  
-D. It combines the Guard and Reserve, which meet comparable readiness standards and receive equal equipment priority.
+A. It combines the Guard and Reserve, which meet the same readiness standards but receive equipment after Regular requirements.  
+B. It combines the Guard and Reserve, which meet the same readiness standards and receive equipment on equal priority.  
+C. It consists of the Air Force Reserve, while the Guard maintains a separate readiness system for state missions.  
+D. It combines the Guard and Reserve with equal equipment priority but assigns them a lower training standard.
 
-**Correct answer: D**
+**Correct answer: B**
 
 **Rationale:** The Air National Guard and Air Force Reserve form the Air Reserve Component and are staffed and trained to the same standards and readiness levels as Regular forces, with equal equipment priority.
 
 **Why the other options are incorrect:**
 
-- **A:** The Air Reserve Component includes both the Reserve and Guard and is not assigned a lower standard.
-- **B:** Civilian auxiliaries are not part of the Air Reserve Component, and equipment is supplied on equal priority.
-- **C:** The component includes the Air Force Reserve, and Guard units also maintain federal readiness.
+- **A:** AFH states that equipment is supplied on equal priority rather than after Regular requirements.
+- **C:** The Air Reserve Component includes both the Air Force Reserve and Air National Guard.
+- **D:** Guard and Reserve forces meet the same training standards and readiness levels as Regular forces.
 
 **Source:** AFH 1, ¶5.11  
-**Review flag:** Standard citation verification
+**Review flag:** Readiness and equipment-priority policy can change; revalidate against current Air Reserve Component guidance
 
 ### C05-Q-041
 
@@ -1060,25 +1064,25 @@ D. It combines the Guard and Reserve, which meet comparable readiness standards 
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-Why can the geographic dispersion of Air Reserve Component units be an organizational strength?
+Why is command of a non-mobilized Air Force Reserve Individual Mobilization Augmentee exercised concurrently through Air Force Reserve Command and the unit of attachment?
 
-A. It removes the need for common readiness standards across components.  
-B. It connects units with state and regional communities, strengthening public relationships and support.  
-C. It allows each unit to select missions independently of Air Force priorities.  
-D. It concentrates several squadrons at every location in the same pattern as Regular bases.
+A. Air Force Reserve Command provides the attached unit's mission direction, while the unit manages Reserve status and readiness.  
+B. The unit of attachment provides the IMA's full Reserve command channel, while Air Force Reserve Command acts during mobilization.  
+C. Concurrent command connects the IMA's Reserve relationship with the responsibilities of the unit where the IMA serves.  
+D. Concurrent command transfers the IMA into the Regular Component before activation while preserving a Reserve personnel record.
 
-**Correct answer: B**
+**Correct answer: C**
 
-**Rationale:** AFH 1 explains that separating some Reserve Component units to reflect state or regional demographics builds strong civilian-community relationships and public support.
+**Rationale:** AFH 1 places non-mobilized IMA command concurrently through Air Force Reserve Command and the unit of attachment, connecting the member's Reserve command relationship with the attached organization.
 
 **Why the other options are incorrect:**
 
-- **A:** Dispersed units remain subject to common training and readiness standards.
-- **C:** Geographic distribution does not grant independence from assigned missions and command.
-- **D:** The source contrasts dispersion with concentration at major multi-squadron Regular bases.
+- **A:** The option reverses the logic by assigning the attached unit's mission direction to Air Force Reserve Command.
+- **B:** The source expressly retains a concurrent Air Force Reserve Command relationship before mobilization.
+- **D:** Concurrent command does not itself place the IMA in Regular Air Force status.
 
 **Source:** AFH 1, ¶5.11  
-**Review flag:** Standard citation verification
+**Review flag:** IMA command relationships can change; verify against current Reserve and unit guidance
 
 ### C05-Q-042
 
@@ -1088,20 +1092,20 @@ D. It concentrates several squadrons at every location in the same pattern as Re
 
 How does mobilization change the command relationship of Air Reserve Component forces?
 
-A. Non-mobilized Reserve forces use Reserve command channels, while activated forces pass operationally to the gaining commander.  
-B. Non-mobilized forces report to a combatant commander, while activated forces return to their state governors.  
-C. Mobilization gives the National Guard Bureau permanent administrative control over every Reserve unit.  
-D. Mobilization ends service responsibility for training resources assigned to the activated force.
+A. Non-mobilized Air Force Reserve units use the gaining commander's channel; activation returns operational command to Air Force Reserve Command.  
+B. Non-mobilized Air Force Reserve units use AFRC channels; activated Air Reserve Component forces transfer operationally to the gaining commander.  
+C. Non-mobilized Guard and Reserve forces share an Air Force Reserve Command channel that remains in place after activation.  
+D. Activation leaves the pre-activation command responsible for establishing the training resources used by assigned or attached forces.
 
-**Correct answer: A**
+**Correct answer: B**
 
 **Rationale:** Non-mobilized Air Force Reserve units are commanded through Air Force Reserve Command; when Reserve Component forces activate, operational command transfers to the gaining commander.
 
 **Why the other options are incorrect:**
 
-- **B:** The described direction is reversed, and state control applies to non-federalized Guard units.
-- **C:** Mobilization does not merge all Reserve and Guard administration under the National Guard Bureau.
-- **D:** The gaining commander is responsible for establishing training resources for assigned or attached Reserve Component forces.
+- **A:** This reverses the source: Air Force Reserve Command is the non-mobilized channel, and activation transfers operational command to the gaining commander.
+- **C:** Non-federalized Guard forces follow state jurisdiction, and activation changes rather than preserves the prior command relationship.
+- **D:** AFH assigns responsibility for establishing those training resources to the gaining commander.
 
 **Source:** AFH 1, ¶5.11  
 **Review flag:** Mobilization authorities and terminology require current statutory and command-guidance review
@@ -1112,25 +1116,25 @@ D. Mobilization ends service responsibility for training resources assigned to t
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-What is the best explanation of the Air National Guard's dual federal and state character?
+Why are the Air National Guard's full-time military technicians described as dual-status personnel?
 
-A. Guardsmen choose either state or federal membership each time they train.  
-B. State governors retain command jurisdiction even after units enter federal control.  
-C. Federal missions apply only overseas, while state missions apply only at home station.  
-D. Guardsmen hold state and national membership, with command changing upon federalization.
+A. They are state civil-service employees who may train with a federal unit but retain civilian status during federalization.  
+B. They are federal civil-service employees assigned through Air Force Reserve Command without a unit-membership requirement.  
+C. They are unit military members whose federal civil-service status pauses whenever they perform training or maintenance.  
+D. They are federal civil-service employees who must belong to the employing unit and can mobilize with that unit.
 
 **Correct answer: D**
 
-**Rationale:** Each Guardsman belongs to a state National Guard and the U.S. National Guard. Non-federalized units normally fall under the governor, while the federal mission requires ready forces for mobilization and emergencies.
+**Rationale:** AFH 1 describes dual-status technicians as federal civil-service employees who must be military members of the employing unit; they train and mobilize with the unit.
 
 **Why the other options are incorrect:**
 
-- **A:** Dual membership is inherent rather than selected separately for each training period.
-- **B:** Federalization changes the command relationship from state jurisdiction.
-- **C:** The distinction concerns authority and status, not a simple overseas-versus-home-station boundary.
+- **A:** The source identifies them as federal rather than state civil-service employees.
+- **B:** Unit military membership is a legal requirement, and the source does not place this relationship through Air Force Reserve Command.
+- **C:** Their technician role combines federal civil-service employment with unit military membership rather than alternating the two as described.
 
 **Source:** AFH 1, ¶5.11  
-**Review flag:** State and federal authorities vary by status; current law and orders control
+**Review flag:** Technician status and mobilization rules require verification against current law and personnel guidance
 
 ### C05-Q-044
 
@@ -1138,25 +1142,25 @@ D. Guardsmen hold state and national membership, with command changing upon fede
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-Which explanation best distinguishes the Air Force Reserve from the Air National Guard's state role?
+How does AFH 1 describe command jurisdiction for District of Columbia Air National Guard units?
 
-A. The Reserve is a civilian auxiliary, while the Guard is the only military reserve force.  
-B. The Reserve serves only after all Regular specialties are exhausted, while the Guard serves only during disasters.  
-C. The Reserve is a federal combat-ready force; the Guard also has state responsibilities when not federalized.  
-D. The Reserve reports to state governors, while the Guard remains under federal command in every status.
+A. The Mayor serves in the governor role and delegates military command to the Secretary of the Air Force.  
+B. The Secretary of Defense serves in the governor role and delegates command to the National Guard Bureau.  
+C. The President serves in the governor role and retains the jurisdiction directly for day-to-day unit command.  
+D. The President serves in the governor role and delegates that authority to the Secretary of the Army.
 
-**Correct answer: C**
+**Correct answer: D**
 
-**Rationale:** The Air Force Reserve provides federal combat-ready capability when more forces are needed, whereas the Air National Guard combines federal readiness with state missions and jurisdiction when not under federal control.
+**Rationale:** AFH 1 states that the President has command jurisdiction over District of Columbia Air National Guard units as the District's governor and delegates that authority to the Secretary of the Army.
 
 **Why the other options are incorrect:**
 
-- **A:** The Reserve is a military component, not a civilian auxiliary, and the Guard is not the only reserve component.
-- **B:** Both forces contribute routinely across missions; neither is confined to the stated circumstance.
-- **D:** This reverses the usual state relationship of the non-federalized Guard and the federal nature of the Reserve.
+- **A:** The source assigns the governor role to the President rather than the Mayor and does not name the Secretary of the Air Force as delegate.
+- **B:** The Secretary of Defense is not identified as the District's governor or the National Guard Bureau as the delegated authority.
+- **C:** The source says the President delegates the authority rather than retaining it directly as described.
 
 **Source:** AFH 1, ¶5.11  
-**Review flag:** Standard citation verification
+**Review flag:** Preserve the AFH 1 source statement; verify current District of Columbia Guard jurisdiction before duty use
 
 ### C05-Q-045
 
@@ -1166,10 +1170,10 @@ D. The Reserve reports to state governors, while the Guard remains under federal
 
 Which explanation correctly connects Civil Air Patrol's auxiliary status with its mission areas?
 
-A. Federal use activates its auxiliary role for noncombat emergency support, aerospace education, and cadet programs.  
-B. Local aviation activity activates its auxiliary role for combat training and military accession programs.  
-C. Military mobilization activates its auxiliary role for strategic airlift, refueling, and strike missions.  
-D. State direction activates its federal auxiliary role to replace unavailable Air National Guard forces.
+A. Federal use makes CAP the Air Force auxiliary; its programs cover emergency support, aerospace education, and cadet development.  
+B. CAP's congressional charter establishes auxiliary status for its corporate programs without requiring federal use of its services.  
+C. State or local agency use establishes auxiliary status for emergency services, aerospace education, and cadet programs.  
+D. Federal use establishes auxiliary status for strategic airlift and refueling, aerospace education, and cadet programs.
 
 **Correct answer: A**
 
@@ -1177,9 +1181,9 @@ D. State direction activates its federal auxiliary role to replace unavailable A
 
 **Why the other options are incorrect:**
 
-- **B:** Local corporate activity does not by itself establish federal auxiliary status, and CAP is not a military accession program.
-- **C:** CAP remains civilian and supports noncombat missions rather than mobilizing for the listed combat functions.
-- **D:** Federal use establishes the auxiliary relationship; CAP does not replace the Air National Guard.
+- **B:** The congressional charter establishes CAP's corporate status; federal use of its services establishes the auxiliary relationship.
+- **C:** State or local use by itself does not create the federal auxiliary status described by the source.
+- **D:** Federal use is the correct trigger, but strategic airlift and refueling are not among CAP's three primary programs.
 
 **Source:** AFH 1, ¶5.12  
 **Review flag:** Auxiliary status and mission approval require current legal and Air Force guidance
@@ -1192,25 +1196,27 @@ D. State direction activates its federal auxiliary role to replace unavailable A
 
 Which interpretation best reflects AFJROTC's purpose and relationship to military service?
 
-A. It is an accession program whose graduates incur a service obligation after high school.  
-B. It develops citizens of character through leadership and aerospace education without creating a military service obligation.  
-C. It is a Reserve Component that prepares high school students for immediate mobilization.  
-D. It is a recruiting program whose primary measure is the number of cadets who enlist.
+A. It develops citizens through leadership and aerospace education while generally establishing eligibility for military accession.  
+B. It teaches aerospace science without a service obligation but remains an accession program for the military services.  
+C. It develops citizens of character while operating as a student Reserve Component prepared for military mobilization.  
+D. It develops citizens of character through leadership and aerospace education without creating a military service obligation.
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** AFJROTC is a citizenship-training program focused on character, leadership, and aerospace education; participation creates no military service obligation and is not an accession tool.
 
 **Why the other options are incorrect:**
 
-- **A:** Enrollment does not create the claimed service obligation.
-- **C:** AFJROTC is an educational program, not a military Reserve Component.
-- **D:** The source expressly distinguishes the program from recruiting and accession.
+- **A:** AFJROTC does not establish a military accession relationship.
+- **B:** The source expressly says the program is not an accession tool.
+- **C:** AFJROTC is an educational program rather than a Reserve Component subject to mobilization.
 
 **Source:** AFH 1, ¶5.13  
 **Review flag:** Program terms can change; revalidate against current AFJROTC guidance
 
-## Section 5E — USAF Structure
+## Section 5E — Air Force Structure
+
+> **Source-title note:** The AFH 1 body heading uses “USAF Structure.”
 
 ### C05-Q-047
 
@@ -1218,12 +1224,12 @@ D. It is a recruiting program whose primary measure is the number of cadets who 
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Foundational
 
-Which description best represents the Department of the Air Force's major organizational entities?
+Why does the Department of the Air Force's structure extend beyond the United States Air Force alone?
 
-A. Combatant commands, the Joint Staff, and defense agencies under the Chief of Staff of the Air Force  
-B. The Air Staff, major commands, and Air Force wings without a civilian secretariat or Space Staff  
-C. The Secretariat and military departments of the Army, Navy, Air Force, and Space Force  
-D. The Secretariat, Air Staff, and Space Staff, together with Air Force and Space Force field units
+A. It combines the Secretariat, Air Staff, and Air Force field units, with Space organizations aligned separately.  
+B. It combines Air and Space staffs and both services' field units, with the Secretariat aligned at Department of Defense level.  
+C. It combines the Secretariat, Air Staff, and Space Staff, with field units remaining separate service structures.  
+D. It combines the civilian Secretariat, Air Staff, and Space Staff together with Air Force and Space Force field units.
 
 **Correct answer: D**
 
@@ -1231,9 +1237,9 @@ D. The Secretariat, Air Staff, and Space Staff, together with Air Force and Spac
 
 **Why the other options are incorrect:**
 
-- **A:** Combatant commands, the Joint Staff, and defense agencies are not the Department's three major entities.
-- **B:** The description omits the civilian Secretariat and Space Staff.
-- **C:** The Army and Navy are separate military departments rather than components of the Department of the Air Force.
+- **A:** Paragraph 5.14 includes the Space Staff and Space Force field units within the Department.
+- **B:** The civilian Secretariat is one of the Department's three major entities.
+- **C:** Air Force and Space Force field units are component organizations within the Department.
 
 **Source:** AFH 1, ¶5.14  
 **Review flag:** Organizational structure can change; revalidate against the controlling source edition
@@ -1246,20 +1252,20 @@ D. The Secretariat, Air Staff, and Space Staff, together with Air Force and Spac
 
 What theme connects the Air Force's primary functions listed in Chapter 5?
 
-A. Air Force capabilities are designed to replace land, sea, space, and special operations forces.  
-B. Air Force functions focus on installation administration rather than combatant-command requirements.  
-C. Airpower integrates combat, mobility, intelligence, support, recovery, and command-and-control capabilities for joint operations.  
-D. Air Force responsibilities end after forces are organized and equipped for their home-station missions.
+A. Airpower integrates combat, mobility, intelligence, support, and recovery while limiting command and control to home-station operations.  
+B. Airpower integrates combat, mobility, intelligence, support, recovery, and command-and-control capabilities for joint operations.  
+C. Airpower supports combatant requirements while assigning global mobility and personnel recovery primarily to other services.  
+D. Airpower provides operational capabilities while treating installation administration as its central primary function.
 
-**Correct answer: C**
+**Correct answer: B**
 
 **Rationale:** The primary functions span air superiority, strike, nuclear operations, intelligence, global mobility, combat support, personnel recovery, and integrated command and control in support of U.S. and allied operations.
 
 **Why the other options are incorrect:**
 
-- **A:** The Air Force supports joint partners rather than replacing the other services and forces.
-- **B:** The listed functions directly provide operational capabilities to combatant commanders.
-- **D:** Air Force responsibilities include providing and sustaining forces for operational employment.
+- **A:** The source assigns global integrated command and control rather than confining that function to home station.
+- **C:** Global mobility and personnel recovery are expressly included among Air Force primary functions.
+- **D:** Installation administration does not replace the listed combat, mobility, support, and command capabilities.
 
 **Source:** AFH 1, ¶5.14  
 **Review flag:** Functional language can evolve; revalidate against current Department guidance
@@ -1272,19 +1278,19 @@ D. Air Force responsibilities end after forces are organized and equipped for th
 
 How should the Secretary of the Air Force's role be understood within civilian control?
 
-A. The Secretary is the civilian head of the Department, subject to the Secretary of Defense, with broad organize-train-equip and administrative responsibilities.  
-B. The Secretary is the senior uniformed Airman who commands every Air Force unit through the operational chain.  
-C. The Secretary advises the Chief of Staff but has no responsibility for personnel, equipment, installations, or mobilization.  
-D. The Secretary leads a combatant command and receives administrative control from its joint force commander.
+A. The Secretary is the senior uniformed leader under the Chief of Staff and directs Department administration through the Air Staff.  
+B. The Secretary is the civilian head under the Secretary of Defense but leaves organize-train-equip responsibilities to the Chief of Staff.  
+C. The Secretary is the civilian Department head under SecDef, responsible for personnel, equipment, training, mobilization, and infrastructure.  
+D. The Secretary is the civilian head of an Air Force combatant command and receives administrative authority from its joint commander.
 
-**Correct answer: A**
+**Correct answer: C**
 
 **Rationale:** The Secretary of the Air Force is the Department's civilian head under the Secretary of Defense and carries broad responsibilities for personnel, organization, supply, equipment, training, mobilization, administration, and infrastructure.
 
 **Why the other options are incorrect:**
 
-- **B:** The Secretary is a civilian official, not the senior uniformed Airman.
-- **C:** The source assigns the Secretary extensive responsibilities across all of those areas.
+- **A:** The Secretary is a civilian official and is not subordinate to the Chief of Staff.
+- **B:** The source assigns the Secretary broad organize-train-equip and administrative responsibilities.
 - **D:** The Secretary heads a military department rather than a combatant command.
 
 **Source:** AFH 1, ¶5.14  
@@ -1298,20 +1304,20 @@ D. The Secretary leads a combatant command and receives administrative control f
 
 Which statement correctly relates the Chief of Staff of the Air Force, the Secretary, and the Air Staff?
 
-A. The Chief of Staff directs the Secretary, while the Air Staff reports through combatant commanders.  
-B. The Chief works under the Secretary and presides over the supporting Air Staff.  
-C. The Air Staff independently commands major commands, while the Chief of Staff serves only on the Joint Chiefs.  
-D. The Secretary presides over the Air Staff, while the Chief of Staff administers the Space Staff.
+A. The Chief works under the Secretary, presides over the Air Staff, and receives its support for assigned responsibilities.  
+B. The Chief works under the Secretary of Defense, while the Secretary of the Air Force presides over the Air Staff.  
+C. The Chief advises the Secretary, while the Air Staff exercises command over major commands and field units.  
+D. The Chief works under the Secretary, while the Space Staff provides the staff support for Air Force responsibilities.
 
-**Correct answer: B**
+**Correct answer: A**
 
 **Rationale:** The Chief of Staff is subject to the Secretary's authority, direction, and control, presides over the Air Staff, and receives Air Staff support in carrying out assigned responsibilities.
 
 **Why the other options are incorrect:**
 
-- **A:** This reverses the Secretary-Chief relationship and misstates the Air Staff's support role.
-- **C:** The Chief has both service responsibilities and Joint Chiefs duties; the Air Staff does not independently command major commands.
-- **D:** The Chief of Staff presides over the Air Staff, while the Chief of Space Operations heads the Space Staff.
+- **B:** The Chief is subject to the Secretary of the Air Force, and the Chief rather than the Secretary presides over the Air Staff.
+- **C:** The Air Staff supports the Chief and does not independently command major commands or field units.
+- **D:** The Air Staff supports the Chief of Staff of the Air Force; the Space Staff is headed by the Chief of Space Operations.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Standard citation verification
@@ -1324,20 +1330,20 @@ D. The Secretary presides over the Air Staff, while the Chief of Staff administe
 
 An Air Staff issue combines intelligence and cyber effects, while another concerns strategic plans and programs. Which A-code pairing classifies those functions correctly?
 
-A. A1 for intelligence and cyber effects; A3 for strategic plans and programs  
-B. A4 for intelligence and cyber effects; A6 for strategic plans and programs  
-C. A5/7 for intelligence and cyber effects; A10 for strategic plans and programs  
-D. A2/6 for intelligence and cyber effects; A8 for strategic plans and programs
+A. A1 for intelligence and cyber effects; A10 for strategic plans and programs  
+B. A4 for intelligence and cyber effects; A5/7 for strategic plans and programs  
+C. A2/6 for intelligence and cyber effects; A8 for strategic plans and programs  
+D. A3 for intelligence and cyber effects; A6 for strategic plans and programs
 
-**Correct answer: D**
+**Correct answer: C**
 
 **Rationale:** The listed office symbols assign intelligence, surveillance, reconnaissance, and cyber effects operations to A2/6 and strategic plans and programs to A8.
 
 **Why the other options are incorrect:**
 
-- **A:** A1 covers manpower, personnel, and services, while A3 covers operations.
-- **B:** A4 covers logistics, engineering, and force protection, while A6 covers communications.
-- **C:** A5/7 covers strategy, integration, and requirements, while A10 covers strategic deterrence and nuclear integration.
+- **A:** A1 covers manpower, personnel, and services, while A10 covers strategic deterrence and nuclear integration.
+- **B:** A4 covers logistics, engineering, and force protection, while A5/7 covers strategy, integration, and requirements.
+- **D:** A3 covers operations, while A6 covers communications.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Office symbols can change or merge; revalidate against current Headquarters Air Force organization
@@ -1348,22 +1354,22 @@ D. A2/6 for intelligence and cyber effects; A8 for strategic plans and programs
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-What is the key reporting distinction between a Field Operating Agency and a Direct Reporting Unit?
+How does AFH classify the Air Force Personnel Center and Air Force Office of Special Investigations versus the Air Force District of Washington and U.S. Air Force Academy?
 
-A. A FOA reports directly to the Chief of Staff; a DRU reports to a Headquarters functional manager.  
-B. A FOA performs a MAJCOM-level mission; a DRU performs specialized Air Force-wide field activity.  
-C. A FOA reports to a Headquarters functional manager; a DRU reports directly to the Chief of Staff.  
-D. Both report through MAJCOMs, but only a DRU performs field activities beyond MAJCOM scope.
+A. The first pair are DRUs reporting to the Chief of Staff; the second pair are FOAs under Headquarters functional managers.  
+B. The first pair are FOAs under Headquarters functional managers; the second pair are DRUs reporting to the Chief of Staff.  
+C. The personnel and district organizations are FOAs; the investigative office and Academy are DRUs reporting to the Chief of Staff.  
+D. Both pairs are MAJCOM subordinates distinguished by mission scope rather than reporting relationship in the source.
 
-**Correct answer: C**
+**Correct answer: B**
 
-**Rationale:** A Field Operating Agency performs specialized or Air Force-wide field activity under a Headquarters functional manager; a Direct Reporting Unit reports directly to the Chief of Staff for a mission outside the major-command structure.
+**Rationale:** The Air Force Personnel Center and Air Force Office of Special Investigations are source examples of Field Operating Agencies under Headquarters functional managers. The Air Force District of Washington and U.S. Air Force Academy are Direct Reporting Unit examples under the Chief of Staff.
 
 **Why the other options are incorrect:**
 
-- **A:** This reverses the reporting relationships of the two organization types.
-- **B:** A FOA performs specialized activity beyond MAJCOM scope; a DRU performs a mission that does not fit a MAJCOM.
-- **D:** Neither type reports through a MAJCOM, and FOAs are specifically established for field activities beyond MAJCOM scope.
+- **A:** The Personnel Center and investigative office are FOAs under functional managers; the district and Academy are DRUs under the Chief of Staff.
+- **C:** The Personnel Center and investigative office form the FOA pair; the district and Academy form the DRU pair.
+- **D:** These FOA and DRU examples are outside the MAJCOM reporting structure described by the definitions.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Organizational designations can change; revalidate against current Air Force structure
@@ -1376,10 +1382,10 @@ D. Both report through MAJCOMs, but only a DRU performs field activities beyond 
 
 How do Lead MAJCOM and Component MAJCOM responsibilities differ?
 
-A. A Lead MAJCOM administers a geographic region, while a Component MAJCOM writes policy for every military department.  
-B. A Lead MAJCOM integrates an Air Force-wide function; a Component MAJCOM represents the service to a unified command.  
-C. A Lead MAJCOM commands joint forces, while a Component MAJCOM supports only home-station units.  
-D. A Lead MAJCOM is always operational, while a Component MAJCOM is always a support command.
+A. A Lead MAJCOM integrates an Air Force-wide function, while a Component MAJCOM supports a Headquarters functional manager.  
+B. A Lead MAJCOM integrates an Air Force-wide function, while a Component MAJCOM represents the service to a unified command.  
+C. A Lead MAJCOM administers a geographic region, while a Component MAJCOM integrates a function across the Air Force.  
+D. Lead and Component MAJCOM designations distinguish operational commands from support commands within the Air Force structure.
 
 **Correct answer: B**
 
@@ -1387,9 +1393,9 @@ D. A Lead MAJCOM is always operational, while a Component MAJCOM is always a sup
 
 **Why the other options are incorrect:**
 
-- **A:** Lead status is functional, while component status concerns a unified command rather than policy for every department.
-- **C:** A Lead MAJCOM does not automatically command joint forces, and a component supports combatant-command missions.
-- **D:** The categories describe specialized relationships, not a mandatory operational-versus-support split.
+- **A:** A Component MAJCOM serves a unified combatant command rather than a Headquarters functional manager.
+- **C:** This reverses the Air Force-wide functional role and the combatant-command component relationship.
+- **D:** The labels describe specialized functional and component relationships, not operational-versus-support categories.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** A MAJCOM may hold both roles; revalidate designations against current guidance
@@ -1400,12 +1406,12 @@ D. A Lead MAJCOM is always operational, while a Component MAJCOM is always a sup
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Foundational
 
-Which pairing best matches the Air Force command that provides combat air forces with the command that provides global air mobility?
+Joint planners need the Air Force's primary provider of combat air forces and its provider of global air mobility. Which relationship explains the appropriate pairing?
 
-A. AETC for combat air forces; AFMC for global air mobility  
-B. PACAF for combat air forces; AFGSC for global air mobility  
-C. AFRC for combat air forces; AFSOC for global air mobility  
-D. ACC for combat air forces; AMC for global air mobility
+A. AETC develops Airmen for combat forces, while AFMC sustains systems used for global mobility.  
+B. PACAF presents regional air forces, while AFGSC provides strategic deterrence and global strike.  
+C. AFRC supplies broad Reserve capability, while AFSOC provides specialized airpower for special operations.  
+D. ACC provides combat air forces, while AMC supplies global airlift, refueling, and aeromedical support.
 
 **Correct answer: D**
 
@@ -1413,9 +1419,9 @@ D. ACC for combat air forces; AMC for global air mobility
 
 **Why the other options are incorrect:**
 
-- **A:** AETC focuses on recruiting, training, and education, while AFMC equips and sustains the force.
-- **B:** PACAF is a regional Air Force component, while AFGSC focuses on strategic deterrence and global strike.
-- **C:** AFRC provides broad Reserve capability, while AFSOC provides specialized airpower for special operations.
+- **A:** The stated AETC and AFMC roles support force development and sustainment but are not the two requested operational providers.
+- **B:** PACAF and AFGSC have the regional and strategic roles stated rather than the requested combat-force and mobility pairing.
+- **C:** AFRC and AFSOC provide Reserve and special-operations capabilities rather than the requested pairing.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Command portfolios can change; revalidate against current MAJCOM responsibilities
@@ -1429,9 +1435,9 @@ D. ACC for combat air forces; AMC for global air mobility
 Which comparison best explains the component relationships of PACAF and USAFE-AFAFRICA?
 
 A. PACAF supports USINDOPACOM; the blended USAFE-AFAFRICA staff supports USEUCOM and USAFRICOM through separate roles.  
-B. PACAF supports two functional commands, while USAFE-AFAFRICA serves one military department without a combatant-command relationship.  
-C. PACAF is a Lead MAJCOM only, while USAFE-AFAFRICA holds administrative control over European and African joint forces.  
-D. PACAF and USAFE-AFAFRICA are combined allied commands rather than Air Force major commands.
+B. PACAF supports USINDOPACOM; the blended USAFE-AFAFRICA staff uses one component authority for both regional commands.  
+C. PACAF supports USTRANSCOM; the blended USAFE-AFAFRICA staff supports USEUCOM and USAFRICOM through separate roles.  
+D. PACAF and USAFE-AFAFRICA operate as combined allied commands under regional multinational agreements.
 
 **Correct answer: A**
 
@@ -1439,9 +1445,9 @@ D. PACAF and USAFE-AFAFRICA are combined allied commands rather than Air Force m
 
 **Why the other options are incorrect:**
 
-- **B:** PACAF supports a geographic command, and USAFE-AFAFRICA has two combatant-command component relationships.
-- **C:** Component status is explicit, and the organization does not hold administrative control over all joint forces in those regions.
-- **D:** They are Air Force MAJCOM organizations serving U.S. component roles, not multinational combined commands.
+- **B:** The blended staff supports two commands through separate roles and authorities rather than one component authority.
+- **C:** PACAF is the Air Force component to USINDOPACOM rather than USTRANSCOM.
+- **D:** These are Air Force MAJCOM component organizations rather than multinational combined commands.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Component alignments can change; revalidate against current command relationships
@@ -1454,20 +1460,20 @@ D. PACAF and USAFE-AFAFRICA are combined allied commands rather than Air Force m
 
 Which set of relationships correctly distinguishes AETC, AFMC, and AFRC?
 
-A. AETC sustains weapon systems; AFMC commands special operations; AFRC controls geographic air forces.  
-B. AETC provides global mobility; AFMC conducts strategic deterrence; AFRC manages all active-duty accessions.  
-C. AETC develops Airmen; AFMC equips and sustains the force; AFRC organizes and equips Reserve forces.  
-D. AETC controls combatant commands; AFMC leads joint doctrine; AFRC administers the Air National Guard.
+A. AETC develops Airmen; AFMC equips and sustains the force; AFRC administers Air National Guard forces.  
+B. AETC provides global mobility; AFMC equips and sustains the force; AFRC organizes and equips Reserve forces.  
+C. AETC develops Airmen; AFMC provides strategic deterrence; AFRC organizes and equips Reserve forces.  
+D. AETC develops Airmen; AFMC equips and sustains the force; AFRC organizes and equips Reserve forces.
 
-**Correct answer: C**
+**Correct answer: D**
 
 **Rationale:** AETC focuses on recruiting, training, and education; AFMC equips the force through technology, acquisition, test, and sustainment; AFRC organizes, trains, and equips Air Force Reserve units.
 
 **Why the other options are incorrect:**
 
-- **A:** The three functions are assigned to the wrong commands.
-- **B:** Mobility and strategic deterrence align primarily with AMC and AFGSC, and AETC—not AFRC—has the listed accession-development role.
-- **D:** These MAJCOMs do not control combatant commands, lead all joint doctrine, or administer the Air National Guard as stated.
+- **A:** The AETC and AFMC clauses are correct, but AFRC organizes and equips Air Force Reserve rather than Air National Guard forces.
+- **B:** AFMC and AFRC are correctly described, but global mobility is AMC's role rather than AETC's.
+- **C:** AETC and AFRC are correctly described, but strategic deterrence is AFGSC's role rather than AFMC's.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Command portfolios can change; revalidate against current MAJCOM responsibilities
@@ -1480,20 +1486,20 @@ D. AETC controls combatant commands; AFMC leads joint doctrine; AFRC administers
 
 How do AFSOC and AFGSC make different contributions to national military capability?
 
-A. AFSOC manages basic training, while AFGSC manages acquisition and weapon-system sustainment.  
-B. AFSOC provides regional air defense, while AFGSC provides global transportation and distribution.  
-C. AFSOC administers Reserve units, while AFGSC supplies combat air forces to every geographic command.  
-D. AFSOC provides specialized airpower for special operations, while AFGSC provides strategic deterrence and global strike.
+A. AFSOC provides specialized airpower for special operations, while AFGSC provides global air mobility and distribution.  
+B. AFSOC provides specialized airpower for special operations, while AFGSC provides strategic deterrence and global strike.  
+C. AFSOC provides conventional combat air forces, while AFGSC provides strategic deterrence and global strike.  
+D. AFSOC provides specialized airpower for special operations, while AFGSC provides acquisition and weapon-system sustainment.
 
-**Correct answer: D**
+**Correct answer: B**
 
 **Rationale:** AFSOC supplies specialized, deployable airpower for special operations; AFGSC supplies strategic deterrence, global strike, and support to the nuclear enterprise.
 
 **Why the other options are incorrect:**
 
-- **A:** Basic training and lifecycle sustainment align primarily with AETC and AFMC.
-- **B:** Global transportation aligns with AMC, and regional air defense does not define AFSOC.
-- **C:** AFRC administers Reserve forces, while ACC is the primary provider of combat air forces.
+- **A:** AFSOC is correctly described, but global mobility and distribution are AMC responsibilities.
+- **C:** AFGSC is correctly described, but ACC rather than AFSOC is the primary combat-air-force provider.
+- **D:** AFSOC is correctly described, but acquisition and sustainment are AFMC responsibilities.
 
 **Source:** AFH 1, ¶5.15  
 **Review flag:** Command portfolios can change; revalidate against current MAJCOM responsibilities
@@ -1506,20 +1512,20 @@ D. AFSOC provides specialized airpower for special operations, while AFGSC provi
 
 How does a conventional Numbered Air Force differ from a Component Numbered Air Force?
 
-A. A conventional NAF is a joint warfighting headquarters, while a C-NAF provides intermediate administrative supervision.  
-B. A conventional NAF provides intermediate command; a C-NAF is a warfighting headquarters for joint support.  
-C. A conventional NAF presents forces to combatant commanders, while a C-NAF provides only home-station supervision.  
-D. Both require complete functional staffs, but a C-NAF normally lacks an operations center.
+A. A conventional NAF provides intermediate command, while a C-NAF provides similar administration without a joint operations center.  
+B. A conventional NAF is a warfighting headquarters, while a C-NAF provides intermediate leadership under a MAJCOM.  
+C. A conventional NAF provides intermediate command and presents forces, while a C-NAF concentrates on home-station supervision.  
+D. A conventional NAF provides intermediate command, while a C-NAF is a warfighting headquarters supporting joint commanders.
 
-**Correct answer: B**
+**Correct answer: D**
 
 **Rationale:** A NAF is an administrative command level under a MAJCOM with intermediate operational leadership and limited staff. A C-NAF is designed as a warfighting component headquarters supporting joint commanders.
 
 **Why the other options are incorrect:**
 
-- **A:** This reverses the intermediate role of a conventional NAF and the warfighting role of a C-NAF.
-- **C:** A C-NAF supports combatant and joint force commanders; a conventional NAF is not defined as the force-presenting component.
-- **D:** Conventional NAFs lack complete functional staffs, while C-NAFs normally include an Air Force Forces staff and an operations center.
+- **A:** A C-NAF normally includes an Air Force Forces staff and an operations center for its joint-support role.
+- **B:** This reverses the conventional NAF's intermediate role and the C-NAF's warfighting role.
+- **C:** The C-NAF, not the conventional NAF, is the component headquarters supporting combatant and joint force commanders.
 
 **Source:** AFH 1, ¶5.16  
 **Review flag:** Organizational terminology can change; revalidate against current AFI 38-101
@@ -1532,20 +1538,20 @@ D. Both require complete functional staffs, but a C-NAF normally lacks an operat
 
 Which comparison among wing types is accurate?
 
-A. An operational wing performs only base support; an air base wing conducts flying operations; a specialized wing always owns aircraft.  
-B. An operational wing cannot be a tenant; an air base wing cannot support a headquarters; a specialized wing always operates its base.  
-C. An operational wing has an operations group; an air base wing centers on support; a specialized wing performs a focused mission and often has no aircraft or missiles.  
-D. An operational wing reports to a group; an air base wing reports to a squadron; a specialized wing reports directly to the Joint Staff.
+A. An operational wing has an operations group; an air base wing centers on support; a specialized wing normally has aircraft or missiles assigned.  
+B. An operational wing centers on base support; an air base wing has an operations group; a specialized wing usually lacks aircraft or missiles.  
+C. An operational wing has an operations group; an air base wing centers on support; a specialized wing is defined by serving as a tenant.  
+D. An operational wing has an operations group; an air base wing provides support; a specialized wing has a focused mission and usually lacks aircraft.
 
-**Correct answer: C**
+**Correct answer: D**
 
 **Rationale:** Operational wings include an operations group and operational activity, air base wings perform support and operate bases, and specialized mission wings perform focused missions and usually lack assigned aircraft or missiles.
 
 **Why the other options are incorrect:**
 
-- **A:** The descriptions reverse operational and support roles and overstate aircraft ownership.
-- **B:** Operational and specialized wings may be tenants, and air base wings can support MAJCOM headquarters.
-- **D:** Wings sit above groups and squadrons in the Air Force hierarchy and do not report to the Joint Staff as described.
+- **A:** Specialized mission wings usually lack assigned aircraft or missiles rather than normally possess them.
+- **B:** The operational wing has the operations group, while the air base wing centers on base support.
+- **C:** A specialized wing may be a host or tenant; its focused mission, not tenant status, defines it.
 
 **Source:** AFH 1, ¶5.16  
 **Review flag:** Standard citation verification
@@ -1558,20 +1564,20 @@ D. An operational wing reports to a group; an air base wing reports to a squadro
 
 Which explanation correctly relates the subordinate echelons below a MAJCOM?
 
-A. A NAF may oversee wings; groups contain subordinate units; squadrons are basic units; flights subdivide squadrons; elements subdivide flights.  
-B. A wing normally reports to a squadron; groups are larger than NAFs; flights contain several wings; elements command installations.  
-C. A group is the Air Force's basic building block; squadrons exist only for flying missions; flights always perform identical functions.  
-D. A NAF has a complete functional staff; independent groups exceed wing scope; functional flights combine elements with unrelated missions.
+A. NAFs may oversee wings; groups usually contain units; squadrons are basic units; flights and elements may be added when needed.  
+B. A NAF may oversee wings; groups usually contain subordinate units; groups are basic units; when needed, flights may divide into elements.  
+C. A NAF has a complete functional staff; groups contain subordinate units; squadrons are basic units; flights and elements may be used when needed.  
+D. A NAF may oversee wings; wings divide directly into squadrons; groups form below squadrons; flights and elements may be used when needed.
 
 **Correct answer: A**
 
-**Rationale:** Chapter 5 presents a descending relationship from MAJCOM to NAF, wing, group, squadron, flight, and element, while identifying the squadron as the basic unit and flights as internal squadron subdivisions.
+**Rationale:** Chapter 5 describes possible subordinate relationships from MAJCOM through NAFs, wings, groups, and squadrons, identifies the squadron as the basic unit, and permits flights and elements when internal subdivision is needed.
 
 **Why the other options are incorrect:**
 
-- **B:** The hierarchy is reversed or overstated throughout this description.
-- **C:** The squadron is the basic building block, squadrons may be mission or functional units, and flight types differ.
-- **D:** NAFs lack complete functional staffs, independent groups have less scope than like-type wings, and functional-flight elements perform specific related missions.
+- **B:** The squadron, not the group, is the basic unit or building block.
+- **C:** Conventional NAFs do not have complete functional staffs.
+- **D:** Groups are below wings and normally contain subordinate squadrons rather than form below squadrons.
 
 **Source:** AFH 1, ¶5.16  
 **Review flag:** Standard citation verification
@@ -1590,16 +1596,16 @@ D. A NAF has a complete functional staff; independent groups exceed wing scope; 
 |---|---|---|---:|---|
 | 5A | C05-Q-001–C05-Q-010 | ¶¶5.1–5.3 | 10 | Command authority, operational and administrative chains, DoD, SecDef, Joint Staff, Chairman, and Joint Chiefs |
 | 5B | C05-Q-011–C05-Q-022 | ¶¶5.4–5.5 | 12 | Military departments, Key West framework, general functions, and service-function relationships |
-| 5C | C05-Q-023–C05-Q-036 | ¶¶5.6–5.9 | 14 | Combined and unified commands, UCP, geographic and functional commands, command roles, COMAFFOR, OPCON, and ADCON |
-| 5D | C05-Q-037–C05-Q-046 | ¶¶5.10–5.13 | 10 | Total Force integration, associations, Reserve Component, Guard, Reserve, CAP, and AFJROTC |
-| 5E | C05-Q-047–C05-Q-060 | ¶¶5.14–5.16 | 14 | Department leadership, Air Staff, A-codes, FOA, DRU, MAJCOM roles, and subordinate echelons |
+| 5C | C05-Q-023–C05-Q-036 | ¶¶5.6–5.9 | 14 | Combined and unified commands, UCP, geographic and functional commands, source enumeration, COMAFFOR, OPCON, and ADCON |
+| 5D | C05-Q-037–C05-Q-046 | ¶¶5.10–5.13 | 10 | Total Force integration, associations, Reserve command, Guard personnel and jurisdiction, CAP, and AFJROTC |
+| 5E | C05-Q-047–C05-Q-060 | ¶¶5.14–5.16 | 14 | Department leadership, Air Staff, A-codes, FOA/DRU reporting and examples, MAJCOM roles, and subordinate echelons |
 | **Total** | **C05-Q-001–C05-Q-060** | **¶¶5.1–5.16** | **60** | — |
 
 ## Answer-position audit
 
 | Answer position | Count | Item IDs |
 |---|---:|---|
-| A | 15 | 002, 006, 009, 013, 016, 022, 026, 030, 034, 037, 042, 045, 049, 055, 060 |
-| B | 15 | 004, 008, 011, 015, 020, 024, 027, 033, 035, 039, 041, 046, 050, 053, 058 |
-| C | 15 | 003, 005, 010, 014, 018, 021, 023, 029, 032, 038, 044, 048, 052, 056, 059 |
-| D | 15 | 001, 007, 012, 017, 019, 025, 028, 031, 036, 040, 043, 047, 051, 054, 057 |
+| A | 15 | 003, 005, 006, 016, 020, 025, 028, 029, 031, 035, 039, 045, 050, 055, 060 |
+| B | 14 | 002, 007, 012, 013, 015, 018, 022, 030, 040, 042, 048, 052, 053, 057 |
+| C | 16 | 001, 009, 010, 014, 017, 021, 024, 026, 027, 032, 034, 036, 037, 041, 049, 051 |
+| D | 15 | 004, 008, 011, 019, 023, 033, 038, 043, 044, 046, 047, 054, 056, 058, 059 |

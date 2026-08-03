@@ -4,9 +4,11 @@
 >
 > **Source boundary:** This is an original explanation of the public source. It is not an official study guide and does not contain actual or recalled WAPS questions.
 >
-> **Current-duty boundary:** This lesson explains the 15 February 2025 source baseline. It is not command authority, an order, legal advice, or a substitute for current law, the current Unified Command Plan, current directives, current organizational documents, or guidance from the responsible chain of command.
+> **Two-track source rule—exam study:** Preserve facts from the AFH edition assigned by the controlling WAPS Catalog, even when current organizations or authorities differ. Never silently modernize an answer tied to that controlling exam source.
 >
-> **Revalidation convention:** Material labeled **2025 source snapshot—revalidate** reports a dated or policy-dependent fact as printed in AFH 1. Every statistic, headquarters location, activation date, unit count, organizational assignment, office symbol, command relationship, and similar detail must be checked against current authoritative material before duty use or publication.
+> **Two-track source rule—duty use:** Separately verify current law, orders, the current Unified Command Plan, directives, organizational documents, and guidance from the responsible chain of command. This lesson is not command authority, an order, legal advice, or a substitute for those current authorities.
+>
+> **Snapshot convention:** Material labeled **2025 source snapshot—revalidate** reports a dated or policy-dependent fact as printed in AFH 1. “Revalidate” means confirm the catalog-controlled edition for exam study and, on a separate duty-use track, check current authoritative material. A duty-current finding does not overwrite the controlling source answer.
 
 ## Chapter map
 
@@ -100,7 +102,7 @@ AFH 1 notes that the Goldwater-Nichols Department of Defense Reorganization Act 
 
 This distinction is foundational:
 
-> Carrying, clarifying, monitoring, or advising on a direction is not the same as possessing command authority over the recipient.
+> **MyPromotion inference:** Transmitting or advising on a direction is not the same as possessing command authority over the recipient.
 
 ## 3. The Department of Defense integrates departments, joint bodies, commands, and agencies
 
@@ -124,6 +126,8 @@ The organizational logic is broader than a collection of services:
 | Department headquarters | The Pentagon |
 
 Every figure and location in this table is a dated source-study fact, not a claim of current strength or location. (AFH 1, ¶5.2)
+
+The 826,000 figure is not presented on the same stated population basis as the later Air Force Reserve figure of more than 835,300, which expressly includes the Ready, Standby, and Retired Reserve. Treat the two source figures as unreconciled and non-comparable; do not subtract or combine them as though they share a denominator. (AFH 1, ¶¶5.2, 5.11)
 
 ## 4. The Secretary of Defense connects presidential direction, policy, and execution
 
@@ -159,11 +163,11 @@ The Joint Staff is therefore a **staff organization**. It supports advice, coord
 |---|---|---|
 | Chairman of the Joint Chiefs of Staff (CJCS) | Principal military adviser to the President, National Security Council, and Secretary of Defense; presides over the Joint Chiefs; provides their views and recommendations | Outranks all other Armed Forces officers but may not exercise military command over the Joint Chiefs or Armed Forces |
 | Vice Chairman of the Joint Chiefs of Staff (VCJCS) | Member of the Joint Chiefs; performs duties prescribed by the Chairman with SecDef approval; acts as Chairman when required during the Chairman's absence | Source says the Vice Chairman cannot be from the same service as the Chairman |
-| Senior Enlisted Advisor to the Chairman (SEAC) | Advises the Chairman and Secretary on Total Force integration, utilization, force health, and joint development affecting enlisted personnel; serves as a spokesperson on relevant enlisted issues | An advisory and representative role, not a separate command channel |
+| Senior Enlisted Advisor to the Chairman (SEAC) | Designated by the source as the highest senior enlisted position in the Armed Forces; advises the Chairman and Secretary on Total Force integration, utilization, force health, and joint development affecting enlisted personnel; serves as a spokesperson on relevant enlisted issues | An advisory and representative role, not a separate command channel |
 
 These roles are presented in AFH 1, ¶5.3.
 
-The CJCS may be assigned responsibility by the Secretary of Defense to oversee combatant-command activities, but AFH 1 expressly separates that role from military command. Rank, access, advice, oversight, communication, and command are related concepts, but they are not synonyms. (AFH 1, ¶5.3)
+The CJCS may be assigned responsibility by the Secretary of Defense to oversee combatant-command activities, but AFH 1 expressly separates that role from military command. This is an oversight-without-command illustration: rank, access, advice, oversight, communication, and command are related concepts, but they are not synonyms. (AFH 1, ¶5.3)
 
 **2025 source snapshot—revalidate:** The source describes presidential appointment with Senate advice and consent for the CJCS and VCJCS, General or Admiral grade for the CJCS, a two-year VCJCS tour with up to two additional terms, and the same-service restriction shown above. Appointment rules, tenure provisions, and position designations are policy- or law-dependent and require current verification. (AFH 1, ¶5.3)
 
@@ -302,7 +306,7 @@ The Navy's listed functions include:
 - seizure of minor shore positions reducible by landing forces within fleet organization; and
 - naval reconnaissance, antisubmarine warfare, and protection of shipping. (AFH 1, ¶5.5)
 
-The Navy develops maritime weapons, tactics, techniques, organization, and equipment while coordinating with the Army and Air Force on joint matters, including amphibious operations. AFH 1 also characterizes the U.S. Navy as the world's largest and most capable by specified fleet measures; that comparative claim is a **2025 source snapshot—revalidate**, not an enduring study conclusion. (AFH 1, ¶5.5)
+The Navy develops maritime weapons, tactics, techniques, organization, and equipment while coordinating with the Army and Air Force on joint matters, including amphibious operations. AFH 1 separately asserts that the U.S. Navy is the world's largest and most capable and states that it has the highest combined battle-fleet tonnage and largest aircraft-carrier fleet. Those comparative assertions are a **2025 source snapshot—revalidate**, not an enduring study conclusion, and the fleet measures should not be treated as independently proving the capability assertion. (AFH 1, ¶5.5)
 
 ## 5. The Marine Corps links naval campaigning and expeditionary land capability
 
@@ -768,7 +772,7 @@ AFH 1 identifies:
 2. **Aerospace education:** aviation-focused material for senior members, cadets, and the public.
 3. **Cadet programs:** aviation-centered activities intended to help youth become responsible citizens. (AFH 1, ¶5.12)
 
-The programs connect operational public service, public education, and youth development, but CAP's support remains bounded by its approved role and the source's noncombat limitation.
+The programs connect operational public service, public education, and youth development. The noncombat limitation in this paragraph applies specifically to the SecAF employment authority described by AFH 1 for Air Force programs and missions; it should not be generalized into a complete rule for every use of CAP by every federal department or agency. (AFH 1, ¶5.12)
 
 ### 2025 CAP source snapshot—revalidate
 
@@ -1034,6 +1038,8 @@ The table emphasizes purpose rather than raw facts. All component assignments an
 | Air Force Global Strike Command (AFGSC) | Provides strategic deterrence, global strike, nuclear-enterprise support, intercontinental ballistic-missile capability, and bomber capability | One of two Air Force service components to USSTRATCOM in the source; provides two legs of the nuclear triad (AFH 1, ¶5.15) |
 | Air Force Reserve Command (AFRC) | Organizes, trains, and equips Air Force Reserve units and provides combat-ready capability across a broad mission set | Connects Reserve force preparation to Total Force and combatant-command requirements (AFH 1, ¶5.15) |
 
+AFH 1 also describes AFSOC special tactics squadrons as combining combat controllers, special reconnaissance personnel, pararescuemen, and tactical air control party specialists with members of other services to form joint special operations teams. The composition is a **2025 source snapshot—revalidate**. (AFH 1, ¶5.15)
+
 ### Relationships worth understanding
 
 - **ACC** prepares broad combat air capability.
@@ -1077,6 +1083,8 @@ A C-NAF headquarters normally includes an Air Force Forces staff and an assigned
 
 For a geographic combatant command, the C-NAF commander serving as COMAFFOR will normally also be designated the theater Joint Force Air Component Commander. The source says a component commander may also designate that commander to command a joint task force when required. (AFH 1, ¶5.16)
 
+The C-NAF label and headquarters structure do not by themselves grant control over forces. Any command or control authority depends on the commander's designation, authority delegated by the joint force commander, and the governing orders. (AFH 1, ¶¶5.9, 5.16)
+
 **2025 source snapshot—revalidate:** AFH 1 says there are 10 C-NAFs. The count, headquarters structures, operation-center terminology, dual hats, and command designations are dynamic and order-dependent. (AFH 1, ¶5.16)
 
 ### NAF versus C-NAF
@@ -1085,7 +1093,7 @@ For a geographic combatant command, the C-NAF commander serving as COMAFFOR will
 |---|---|
 | Intermediate administrative level directly under a MAJCOM | Operational warfighting headquarters supporting a joint-force chain |
 | Provides operational leadership and supervision but lacks a complete functional staff | Normally includes an AFFOR staff and operations center |
-| Can contain wings, groups, and squadrons | Focuses on presenting and controlling Air Force component capability for joint operations |
+| Can contain wings, groups, and squadrons | Supports and presents Air Force component capability for joint operations; control depends on designation, delegation, and governing orders |
 
 The source uses related names for structures with different organizing purposes. (AFH 1, ¶5.16)
 
@@ -1103,7 +1111,7 @@ The types separate **mission performance** from **installation support**:
 
 - an operational wing centers on an operational mission;
 - an air base wing centers on base support; and
-- a specialized-mission wing centers on a distinct nonstandard mission.
+- a specialized-mission wing centers on a specialized mission.
 
 **2025 source snapshot—revalidate:** AFH 1 states a minimum adjusted wing population of 1,000, or 750 for Air National Guard and Air Force Reserve Command wings, counting authorizations, students, and a percentage of contractors. Thresholds and calculation rules are policy-dependent. (AFH 1, ¶5.16)
 
@@ -1145,7 +1153,7 @@ The distinction is based on how the flight groups work:
 
 - numbered/named flights create an organized unit from smaller elements;
 - alpha flights repeat the same mission across elements; and
-- functional flights group elements by specific function. (AFH 1, ¶5.16)
+- functional flights group elements that perform specific missions. (AFH 1, ¶5.16)
 
 **2025 source snapshot—revalidate:** The source says flights typically consist of 12 to 100 people. Actual authorization and design depend on current organization guidance. (AFH 1, ¶5.16)
 
@@ -1282,7 +1290,7 @@ These arrows are intentionally simplified. Current orders and authoritative orga
 
 ### Authority and accountability
 
-Authority is assigned downward by level; accountability returns upward. A leader can delegate tasks while retaining responsibility for the result. (AFH 1, ¶¶5.1, 5.3)
+Authority is assigned downward by level; accountability returns upward. In the source's Service Chief example, the Service Chiefs delegate many service duties to their Vice Chiefs while retaining overall responsibility. (AFH 1, ¶¶5.1, 5.3)
 
 ### Advice and command
 
@@ -1351,19 +1359,19 @@ From MAJCOM toward element, organizational scope generally narrows. The hierarch
 |---|---|---|
 | 5.1 | Civilian control; command authority; responsibility and accountability; operational and departmental chains; continuing service administration; Chairman in communications chain | Section 5A, explanations 1–2 and 9 |
 | 5.2 | DoD mission, scale, headquarters, composition; SecDef appointment, advice, policy, operational-chain and written-guidance roles; Armed Forces Policy Council; Under Secretaries and agencies | Section 5A, explanations 3–5 |
-| 5.3 | Joint Staff purpose, direction, Director and composition; CJCS, VCJCS, SEAC; Joint Chiefs roster, advice, doctrine, requirements, logistics, training, education, and Service Chief delegation | Section 5A, explanations 6–8 |
+| 5.3 | Joint Staff purpose, direction, Director and composition; CJCS, VCJCS, and SEAC roles, including oversight without command and the SEAC designation and spokesperson function; Joint Chiefs roster, advice, doctrine, requirements, logistics, training, education, and Service Chief delegation | Section 5A, explanations 6–8 |
 | 5.4 | National-defense purpose and three military departments with associated services | Section 5B, explanation 1 |
 | 5.5 | Key West general functions; shared resources; Army, Navy, Marine Corps, Coast Guard, Air Force, and Space Force functions | Section 5B, explanations 2–10 |
 | 5.6 | Combined-command definition, multinational agreements, and source examples | Section 5C, explanations 1 and 3 |
 | 5.7 | Unified-command establishment, broad continuing mission, multi-department forces, combatant authority, service ADCON, transfer limits, and UCP | Section 5C, explanations 2–4 |
 | 5.8 | Geographic/functional logic; all 11 command profiles; headquarters, AORs, missions, relationships, and source enumeration ambiguity | Section 5C, explanations 5–8 |
 | 5.9 | SecAF assignment of forces; Air Force service components; COMAFFOR; joint operational relationship/OPCON; administrative relationship/ADCON | Section 5C, explanations 9–10 |
-| 5.10 | One-team concept; three components; civilian contribution; operational capability, depth, surge; shared resources; classic and active associations | Section 5D, explanations 1–3 and 12 |
+| 5.10 | One-team concept; three components; civilian contribution; operational capability, depth, surge; shared resources; classic and active associations | Section 5D, explanations 1–3 |
 | 5.11 | ARC purpose, standards, equipment, dispersion, command and mobilization; seven Reserve Components; ANG technicians and dual mission; Reserve leadership, categories, scale, and capabilities | Section 5D, explanations 4–8 |
 | 5.12 | CAP corporate and auxiliary status, noncombat use, alignment, capabilities, three programs, structure, statistics, and source-listed auxiliaries | Section 5D, explanations 9–10 |
 | 5.13 | AFJROTC mission, students, citizenship/leadership/aerospace curriculum, statistics, locations, and no recruiting or service obligation | Section 5D, explanation 11 |
 | 5.14 | DAF duties and structure; Air Force mission and primary functions; joint-partner framing; SecAF appointment and responsibilities | Section 5E, explanations 1–3 |
-| 5.15 | CSAF; Air Staff and A-codes; FOA/DRU and AFDW; MAJCOM logic; Lead/C-MAJCOM; all nine source-listed MAJCOMs and dated snapshots | Section 5E, explanations 4–10 |
+| 5.15 | CSAF; Air Staff and A-codes; FOA/DRU and AFDW; MAJCOM logic; Lead/C-MAJCOM; all nine source-listed MAJCOMs, AFSOC special-tactics composition, dated snapshots, and the ACC/AFGSC bomber conflict | Section 5E, explanations 4–10 and source ambiguities |
 | 5.16 | NAF and C-NAF; wing and its three types; dependent/independent group; squadron; three flight types; element; staffing thresholds and hierarchy | Section 5E, explanations 11–19 |
 
 ## Source ambiguities and cautions requiring revalidation
@@ -1371,35 +1379,34 @@ From MAJCOM toward element, organizational scope generally narrows. The hierarch
 1. **Combatant-command enumeration:** ¶5.8 says there are 11 commands, names six geographic and four functional commands, then profiles USSPACECOM as the eleventh without adding it to the functional enumeration.
 2. **Air Staff office symbols:** ¶5.15 prints a merged A2/6 portfolio containing cyber-effects language and also prints a separate A6 communications portfolio.
 3. **Armed Forces Policy Council roster:** ¶5.2 contains overlapping or potentially dated Under Secretary and Deputy Under Secretary titles.
-4. **Terminology and names:** The source uses names such as “Peterson Air Force Base,” organization names, mission statements, office titles, and component labels that may have changed after the 15 February 2025 baseline.
-5. **Counts and thresholds:** Personnel, unit, aircraft, base, country, AOR, headquarters-staff, and echelon-threshold figures are time-sensitive and sometimes use source-specific counting methods.
-6. **Authority descriptions:** Short AFH summaries of constitutional, statutory, mobilization, OPCON, ADCON, auxiliary, and departmental relationships are educational overviews, not complete legal or operational rules.
+4. **ACC and AFGSC bomber descriptions:** ¶5.15 says ACC operates bomber aircraft, then says AFGSC is responsible for the Air Force's entire bomber force. Preserve both statements as a source conflict; do not infer a current ownership or command relationship from the handbook alone.
+5. **Population denominators:** ¶5.2 gives 826,000 for National Guard and Reserve personnel, while ¶5.11 gives more than 835,300 for the Air Force Reserve alone but expressly includes Ready, Standby, and Retired categories. The source does not provide a shared denominator, so the figures are unreconciled and non-comparable.
+6. **Terminology and names:** The source uses names such as “Peterson Air Force Base,” organization names, mission statements, office titles, and component labels that may have changed after the 15 February 2025 baseline.
+7. **Counts and thresholds:** Personnel, unit, aircraft, base, country, AOR, headquarters-staff, and echelon-threshold figures are time-sensitive and sometimes use source-specific counting methods.
+8. **Authority descriptions:** Short AFH summaries of constitutional, statutory, mobilization, OPCON, ADCON, auxiliary, and departmental relationships are educational overviews, not complete legal or operational rules.
 
-## Revalidation checklist
+## Two-track validation checklist
 
-Before labeling this chapter 27E5/27E6 ready:
+Apply the tracks independently. The exam-source track controls study answers; the current-duty track must never silently overwrite those answers.
 
-- [ ] Confirm the controlling AFH edition in both WAPS Catalogs.
-- [ ] Compare every paragraph in AFH ¶¶5.1–5.16 with the 15 February 2025 baseline.
-- [ ] Confirm Section 5A–5E titles and SSgt/TSgt ADTC levels.
-- [ ] Confirm that “Air Force” versus “USAF” title variants are handled consistently with the release standard.
-- [ ] Revalidate the current operational and administrative chains and all command-authority terminology.
-- [ ] Revalidate DoD, Joint Staff, council, Joint Chiefs, Under Secretary, and agency composition.
-- [ ] Revalidate all appointment, tenure, delegation, transfer, and mobilization statements against current authoritative guidance.
-- [ ] Revalidate the current UCP review posture, combatant-command list, command categories, AORs, headquarters, missions, and dual-hat relationships.
-- [ ] Resolve and document the ¶5.8 USSPACECOM enumeration ambiguity without silently changing the source baseline.
-- [ ] Revalidate all COMAFFOR, OPCON, ADCON, C-MAJCOM, C-NAF, and joint-component relationships.
-- [ ] Revalidate Regular, Guard, Reserve, ARC, IMA, association, host/tenant, equipment, and gaining-command policies.
-- [ ] Revalidate Air National Guard federal/state command descriptions and dual-status-technician language.
-- [ ] Revalidate CAP status, alignment, missions, assets, organization, and the source's civilian-auxiliary list.
-- [ ] Revalidate AFJROTC program scope, unit representation, staffing, locations, counts, and no-obligation wording.
-- [ ] Revalidate DAF, SecAF, CSAF, Air Staff, Space Staff, FOA, DRU, and AFDW structures and assignments.
-- [ ] Revalidate every A-code, merged office symbol, office title, and functional portfolio; resolve the A2/6 and A6 overlap.
-- [ ] Revalidate the MAJCOM roster, Lead/C-MAJCOM designations, component assignments, missions, activation dates, headquarters, assets, populations, percentages, and subordinate-unit counts.
-- [ ] Revalidate NAF and C-NAF counts, structures, staffing limits, operation-center terminology, and commander dual hats.
-- [ ] Revalidate wing, group, squadron, flight, and element definitions, types, population thresholds, and counting methods.
-- [ ] Confirm that every statistic, headquarters, activation date, count, assignment, office symbol, and policy-dependent detail is visibly labeled for revalidation.
+### Exam-source track—before labeling this chapter 27E5/27E6 ready
+
+- [ ] Confirm the AFH edition assigned by each controlling WAPS Catalog.
+- [ ] Compare every paragraph in AFH ¶¶5.1–5.16 with that catalog-controlled edition.
+- [ ] Confirm Section 5A–5E titles, approved curriculum title normalization, and SSgt/TSgt ADTC levels.
+- [ ] Preserve dated facts from the controlling source even when current facts differ; label conflicts and ambiguities rather than silently modernizing them.
+- [ ] Resolve and document the ¶5.8 USSPACECOM enumeration ambiguity, ¶5.15 ACC/AFGSC bomber conflict, A2/6 and A6 overlap, council-roster issue, and non-comparable population figures as source issues.
+- [ ] Confirm that every statistic, headquarters, activation date, count, assignment, office symbol, and policy-dependent detail is visibly identified as a source snapshot.
 - [ ] Citation-review every factual paragraph and every future assessment item against the controlling source.
 - [ ] Confirm that examples remain labeled as invented and non-operational.
 - [ ] Confirm that no language implies official test weighting, prediction, or access to actual or recalled WAPS content.
-- [ ] Complete qualified human review, including legal and policy review appropriate to commercial release.
+- [ ] Complete qualified human review appropriate to release.
+
+### Current-duty track—before operational use only
+
+- [ ] Separately verify current operational and administrative chains, command-authority terminology, law, orders, directives, and the current UCP.
+- [ ] Separately verify current DoD, Joint Staff, council, Joint Chiefs, department, service, component, command, agency, auxiliary, and headquarters organizations.
+- [ ] Separately verify appointments, tenure, delegations, transfers, mobilization, COMAFFOR, OPCON, ADCON, C-MAJCOM, C-NAF, and joint-component relationships.
+- [ ] Separately verify Guard, Reserve, ARC, IMA, association, technician, gaining-command, CAP, and AFJROTC policies and status.
+- [ ] Separately verify Air Staff symbols, MAJCOM and subordinate-echelon structures, missions, locations, counts, thresholds, and commander designations.
+- [ ] Record duty-current differences in a separate operational note or product; never substitute them for an answer tied to the catalog-controlled exam source.
