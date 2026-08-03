@@ -268,7 +268,7 @@ The source identifies three military departments:
 
 These departmental relationships are source-study facts. Current legal status and wartime or directed transfers must be determined from current authority, not this table. (AFH 1, ¶¶5.4–5.5)
 
-The key distinction is between a **department** and a **service**. A department is a civilian-led executive organization that can contain more than one armed service. Thus, the Marine Corps is a distinct service within the Department of the Navy, and the Air Force and Space Force are distinct services within the Department of the Air Force. (AFH 1, ¶¶5.4–5.5)
+The key distinction is between a **department** and a **service**. A military department can contain more than one armed service. Thus, the Marine Corps is a distinct service within the Department of the Navy, and the Air Force and Space Force are distinct services within the Department of the Air Force. (AFH 1, ¶¶5.4–5.5)
 
 ## 2. The Key West framework divides functions while requiring cooperation
 
@@ -513,7 +513,7 @@ The table below is a restrained source-study summary. **Every headquarters, coun
 | U.S. Indo-Pacific Command (USINDOPACOM) | Promotes regional security, partnership, deterrence, response, humanitarian support, and multinational exercises | Headquarters: Camp H. M. Smith, Hawaii; source describes an AOR from the western U.S. shores to India's western border and Antarctica to the Aleutians, encompassing 36 nations (AFH 1, ¶5.8) |
 | U.S. Southern Command (USSOUTHCOM) | Works with partners on regional security, peacekeeping capability, human rights, countering illicit activity, and multinational exercises | Headquarters: Miami, Florida; source says 31 nations in Latin America south of Mexico, Central and South America, and the Caribbean Sea (AFH 1, ¶5.8) |
 
-AFH 1 says that when a U.S. officer serves in the relevant role, the USNORTHCOM commander is also designated Commander, U.S. Element NORAD and Commander of NORAD. That combined/unified overlap is a useful relationship, but the office titles and dual-hatting arrangement require current verification. (AFH 1, ¶5.8)
+AFH 1 says the USNORTHCOM commander is designated Commander, U.S. Element NORAD and, when a U.S. officer fulfills that role, Commander of NORAD. That combined/unified overlap is a useful relationship, but the office titles and dual-hatting arrangement require current verification. (AFH 1, ¶5.8)
 
 ## 7. The five globally oriented command profiles in the source
 
@@ -1083,7 +1083,7 @@ A C-NAF headquarters normally includes an Air Force Forces staff and an assigned
 
 For a geographic combatant command, the C-NAF commander serving as COMAFFOR will normally also be designated the theater Joint Force Air Component Commander. The source says a component commander may also designate that commander to command a joint task force when required. (AFH 1, ¶5.16)
 
-The C-NAF label and headquarters structure do not by themselves grant control over forces. Any command or control authority depends on the commander's designation, authority delegated by the joint force commander, and the governing orders. (AFH 1, ¶¶5.9, 5.16)
+The C-NAF label and headquarters structure do not by themselves establish operational control over forces. A C-NAF supports and presents Air Force component capability; operational authority such as OPCON depends on the commander's designation, authority delegated by the joint force commander, and governing orders, while administrative authority such as ADCON comes through the Secretary of the Air Force and service chain. (AFH 1, ¶¶5.9, 5.15–5.16)
 
 **2025 source snapshot—revalidate:** AFH 1 says there are 10 C-NAFs. The count, headquarters structures, operation-center terminology, dual hats, and command designations are dynamic and order-dependent. (AFH 1, ¶5.16)
 
@@ -1093,9 +1093,9 @@ The C-NAF label and headquarters structure do not by themselves grant control ov
 |---|---|
 | Intermediate administrative level directly under a MAJCOM | Operational warfighting headquarters supporting a joint-force chain |
 | Provides operational leadership and supervision but lacks a complete functional staff | Normally includes an AFFOR staff and operations center |
-| Can contain wings, groups, and squadrons | Supports and presents Air Force component capability for joint operations; control depends on designation, delegation, and governing orders |
+| Can contain wings, groups, and squadrons | Supports and presents Air Force component capability for joint operations; operational authority such as OPCON depends on designation, joint delegation, and governing orders, while ADCON follows the Secretary of the Air Force and service authority |
 
-The source uses related names for structures with different organizing purposes. (AFH 1, ¶5.16)
+The source uses related names for structures with different organizing purposes and authority relationships. (AFH 1, ¶¶5.9, 5.15–5.16)
 
 ## 13. The wing is a mission-centered command echelon
 

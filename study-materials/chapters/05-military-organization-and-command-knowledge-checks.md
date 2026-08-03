@@ -18,7 +18,7 @@
 
 Why does command authority create both downward responsibility and upward accountability at each level?
 
-A. Each level directs lower commands but accounts for its authority primarily to its immediate superior.  
+A. Each level is accountable to all higher levels, but its responsibility stops at the next lower level.  
 B. Each level answers to higher commands while responsibility remains with subordinate commanders.  
 C. Each level is responsible for lower levels and accountable to higher levels in the chain.  
 D. Each level receives authority from above while accountability remains where that authority originated.
@@ -29,7 +29,7 @@ D. Each level receives authority from above while accountability remains where t
 
 **Why the other options are incorrect:**
 
-- **A:** Accountability extends to higher levels in the chain, not merely the immediate superior.
+- **A:** Responsibility extends to all lower levels rather than stopping at the next level in the chain.
 - **B:** Each level retains responsibility for lower levels rather than leaving it solely with subordinates.
 - **D:** Accountability follows the chain upward rather than remaining at the level where authority began.
 
@@ -123,7 +123,7 @@ D. It can place the Chairman in the communications chain while leaving military 
 Which explanation best connects the Department of Defense's structure to its mission?
 
 A. It combines civilian leaders, joint bodies, military departments, combatant commands, and defense activities to provide military forces.  
-B. It combines civilian leadership and military departments while having combatant commands report separately for operational independence.  
+B. It combines civilian leaders, joint bodies, military departments, and defense activities to provide forces while excluding combatant commands from the Department.  
 C. It centers joint organizations and defense agencies under service secretaries so each department can establish defense policy.  
 D. It integrates military departments and defense agencies while giving the Joint Chiefs direct command over combatant forces.
 
@@ -133,7 +133,7 @@ D. It integrates military departments and defense agencies while giving the Join
 
 **Why the other options are incorrect:**
 
-- **B:** Combatant commands are part of the Department and remain under civilian-led operational authority.
+- **B:** Paragraph 5.2 expressly includes unified combatant commands within the Department of Defense.
 - **C:** Service secretaries do not independently establish the Department's general defense policy.
 - **D:** The Joint Chiefs advise and perform joint functions rather than command combatant forces.
 
@@ -434,22 +434,22 @@ D. It serves under the Navy for defense readiness while Homeland Security provid
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-Which activity best illustrates the Coast Guard's combined safety, law-enforcement, and defense-readiness functions?
+A Coast Guard unit enforces federal maritime law while maintaining navigation aids and rescue facilities. Which interpretation best connects those activities to the service's defense role?
 
-A. Conducting maritime surveillance while preparing naval forces to control vital sea lanes  
-B. Maintaining navigation and rescue facilities while conducting strategic air reconnaissance  
-C. Enforcing maritime law while maintaining navigation aids and maritime rescue capabilities  
-D. Regulating maritime safety while preparing land forces for occupation operations
+A. The safety and enforcement duties lead the Coast Guard to assume Navy responsibility for controlling vital sea areas in war.  
+B. The safety and enforcement duties remain civilian functions until armed-service status begins with a declaration of war.  
+C. The safety and enforcement duties coexist with readiness to function as a specialized Navy service in time of war.  
+D. The safety and enforcement duties remain under Homeland Security while wartime readiness transfers separately to the Navy.
 
 **Correct answer: C**
 
-**Rationale:** Coast Guard functions combine maritime law enforcement, safety regulation, navigation aids, icebreaking, rescue, research, and readiness to serve as a specialized Navy service in war.
+**Rationale:** Maritime law enforcement represents the Coast Guard's enforcement role, while navigation aids and rescue facilities support maritime safety. AFH 1 connects those functions with readiness to operate as a specialized service in the Navy in time of war.
 
 **Why the other options are incorrect:**
 
-- **A:** Maritime surveillance fits the Coast Guard, but preparing naval forces for sea control is a Navy responsibility.
-- **B:** Navigation and rescue fit the Coast Guard, but strategic air reconnaissance is an Air Force function.
-- **D:** Maritime safety fits the Coast Guard, but preparing occupation forces is an Army function.
+- **A:** Control of vital sea areas is a Navy function; Coast Guard defense readiness does not transfer that responsibility.
+- **B:** The Coast Guard is a military service and branch of the Armed Forces at all times rather than gaining that status when war is declared.
+- **D:** In the wartime relationship described by AFH 1, the Coast Guard functions as a specialized service in the Navy rather than splitting its readiness from the service.
 
 **Source:** AFH 1, ¶5.5  
 **Review flag:** Standard citation verification
@@ -512,25 +512,25 @@ D. It develops forces for sustained space operations, freedom of action, protect
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Challenge
 
-What shared pattern links the service-specific functions described in Chapter 5?
+A naval station needs a detachment to protect naval property, but the mission does not involve seizing an advanced base or conducting an amphibious landing. How does Chapter 5 classify the requirement?
 
-A. Each service prepares its domain forces while coordinating capabilities that overlap with other services.  
-B. Each service prepares domain forces while establishing a separate national policy for overlapping missions.  
-C. Each service shares general functions while transferring domain-force preparation to combatant commands.  
-D. Each service maintains distinct functions while minimizing cross-service resource use in overlapping missions.
+A. It fits the Marine Corps because security detachments protecting naval property are a separately listed function.  
+B. It belongs to the Navy because Marine functions at naval stations are limited to supporting amphibious landings.  
+C. It belongs to the Coast Guard because protection of naval property is treated as maritime law enforcement.  
+D. It belongs to the Army because protection of a fixed land site is treated as occupation of land.
 
 **Correct answer: A**
 
-**Rationale:** The listed functions establish principal domains while repeatedly requiring coordination in joint areas such as amphibious, airborne, air-defense, and support operations.
+**Rationale:** Marine Corps functions separately include providing security detachments to protect naval property at naval stations and bases. That role does not depend on an advanced-base seizure or amphibious landing mission.
 
 **Why the other options are incorrect:**
 
-- **B:** The services support national policy rather than establish separate policies for overlapping missions.
-- **C:** Combatant commands employ forces but do not replace service preparation responsibilities.
-- **D:** The agreement encourages cross-service use when it improves economy and effectiveness.
+- **B:** The source assigns the naval-property security-detachment role to the Marine Corps rather than limiting Marines at naval stations to amphibious support.
+- **C:** Coast Guard maritime law-enforcement functions do not replace the separately listed Marine security role.
+- **D:** Protecting naval property through a security detachment is distinct from the Army function of occupying land areas.
 
 **Source:** AFH 1, ¶5.5  
-**Review flag:** Instructional synthesis of the service-function relationships in ¶5.5
+**Review flag:** Standard citation verification
 
 ### C05-Q-021
 
@@ -618,25 +618,25 @@ D. It brings forces or agencies of two or more allies together under multination
 - **Ranks:** SSgt; TSgt
 - **Difficulty:** Standard
 
-How do combined commands differ from unified combatant commands?
+A planner must distinguish a cyberspace-superiority requirement from a strategic-attack deterrence requirement. Which comparison correctly assigns the functional combatant commands?
 
-A. Combined commands join allied forces by agreement, while unified commands use multiple U.S. departments for a temporary mission.  
-B. Combined commands join allied forces by agreement, while unified commands draw forces from a single military department.  
-C. Combined commands join allies by agreement; unified commands have continuing missions with forces from multiple U.S. departments.  
-D. Combined and unified commands both draw forces from multiple U.S. departments but differ in geographic scope.
+A. USCYBERCOM deters strategic attacks through nuclear capabilities and global strike, while USSTRATCOM maintains cyberspace superiority.  
+B. USCYBERCOM leads joint deployment and distribution operations, while USSTRATCOM plans and conducts global special operations.  
+C. USCYBERCOM pursues cyberspace superiority, while USSTRATCOM deters strategic attacks and holds nuclear and global-strike responsibilities.  
+D. USCYBERCOM plans and conducts global special operations, while USSTRATCOM leads joint deployment and distribution operations.
 
 **Correct answer: C**
 
-**Rationale:** The multinational basis of a combined command contrasts with a unified combatant command's broad, continuing U.S. mission using forces from two or more military departments.
+**Rationale:** AFH 1 assigns USCYBERCOM the pursuit of cyberspace superiority and assigns USSTRATCOM strategic-attack deterrence, nuclear capabilities, and global strike.
 
 **Why the other options are incorrect:**
 
-- **A:** The unified-command mission is broad and continuing rather than defined as temporary.
-- **B:** Unified commands use forces from two or more military departments rather than a single department.
-- **D:** Allied participation distinguishes combined commands; geographic scope does not create the stated difference.
+- **A:** This reverses the cyberspace role of USCYBERCOM and the strategic-deterrence role of USSTRATCOM.
+- **B:** Joint deployment and distribution belong to USTRANSCOM, while special operations belong to USSOCOM.
+- **D:** Special operations belong to USSOCOM, while joint deployment and distribution belong to USTRANSCOM.
 
-**Source:** AFH 1, ¶¶5.6–5.7  
-**Review flag:** Standard citation verification
+**Source:** AFH 1, ¶5.8  
+**Review flag:** Functional portfolios can change; revalidate against current command guidance
 
 ### C05-Q-025
 
@@ -675,7 +675,7 @@ What does the restriction on transferring an assigned combatant-command force re
 A. Assignment can be changed by a service component commander after notifying the Secretary of Defense.  
 B. Assignment moves the force into another military department until the Unified Command Plan is reviewed.  
 C. Changing assignment requires Secretary of Defense authority or special procedures approved by the President.  
-D. Assignment concludes when operational control is delegated to a subordinate joint force commander.
+D. Assignment gives the gaining combatant commander authority to reassign the force among unified commands as missions change.
 
 **Correct answer: C**
 
@@ -685,7 +685,7 @@ D. Assignment concludes when operational control is delegated to a subordinate j
 
 - **A:** Notification does not substitute for the Secretary's authority or the approved special procedures.
 - **B:** Assignment changes a command relationship but does not move the force into another military department.
-- **D:** Delegating operational control does not terminate the underlying assignment or attachment.
+- **D:** A combatant commander cannot transfer the force to another unified command without the higher authority specified by the source.
 
 **Source:** AFH 1, ¶5.7  
 **Review flag:** Command-assignment rules; verify against the current Unified Command Plan and joint doctrine
@@ -757,7 +757,7 @@ D. The dual title places both organizations under one U.S. combatant-command rel
 
 **Correct answer: A**
 
-**Rationale:** USNORTHCOM is organized around a geographic area and homeland responsibilities. Its commander may also serve in the distinct U.S.-Canadian NORAD command role when a United States officer fulfills that role.
+**Rationale:** USNORTHCOM is organized around a geographic area and homeland responsibilities. Its commander may also serve in the distinct combined-command NORAD role when a United States officer fulfills that role.
 
 **Why the other options are incorrect:**
 
@@ -1226,20 +1226,20 @@ D. It develops citizens of character through leadership and aerospace education 
 
 Why does the Department of the Air Force's structure extend beyond the United States Air Force alone?
 
-A. It combines the Secretariat, Air Staff, and Air Force field units, with Space organizations aligned separately.  
-B. It combines Air and Space staffs and both services' field units, with the Secretariat aligned at Department of Defense level.  
-C. It combines the Secretariat, Air Staff, and Space Staff, with field units remaining separate service structures.  
-D. It combines the civilian Secretariat, Air Staff, and Space Staff together with Air Force and Space Force field units.
+A. It includes the Secretariat, Air Staff, and both services' field units but places the Space Staff outside the Department.  
+B. It includes the Air Staff, Space Staff, and both services' field units but places the Secretariat outside the Department.  
+C. It includes the Secretariat, Air Staff, and Space Staff but places both services' field units outside the Department.  
+D. It includes the Secretariat, Air Staff, Space Staff, and both services' component field units within the Department.
 
 **Correct answer: D**
 
-**Rationale:** AFH 1 identifies the Secretariat, Air Staff, and Space Staff as the Department's major entities and describes field units as component organizations of the Air Force and Space Force.
+**Rationale:** AFH 1 identifies the Secretariat, Air Staff, and Space Staff as the Department's major entities and includes the field units of both the Air Force and Space Force within the Department.
 
 **Why the other options are incorrect:**
 
-- **A:** Paragraph 5.14 includes the Space Staff and Space Force field units within the Department.
-- **B:** The civilian Secretariat is one of the Department's three major entities.
-- **C:** Air Force and Space Force field units are component organizations within the Department.
+- **A:** The Space Staff is one of the Department's three major entities rather than an organization outside the Department.
+- **B:** The Secretariat is one of the Department's three major entities rather than an organization outside the Department.
+- **C:** Air Force and Space Force field units are component organizations included within the Department.
 
 **Source:** AFH 1, ¶5.14  
 **Review flag:** Organizational structure can change; revalidate against the controlling source edition

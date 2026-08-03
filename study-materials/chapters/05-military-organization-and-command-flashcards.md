@@ -464,8 +464,8 @@
 
 ### C05-FC-075
 - **Prompt:** How does a Component Numbered Air Force differ from a conventional Numbered Air Force?
-- **Answer:** A conventional NAF is an administrative echelon under a MAJCOM that provides intermediate operational leadership with an incomplete functional staff. A C-NAF is a warfighting headquarters with an Air Force Forces staff and operations center; when its commander is the COMAFFOR to a geographic CCMD, that commander is normally also the theater JFACC. C-NAF status alone does not grant control; designation, delegated authority, and governing orders determine control.
-- **Source:** AFH 1, ¶5.16
+- **Answer:** A conventional NAF is an administrative echelon under a MAJCOM that provides intermediate operational leadership with an incomplete functional staff. A C-NAF is a warfighting headquarters that supports and presents Air Force component capability with an Air Force Forces staff and operations center; when its commander is the COMAFFOR to a geographic CCMD, that commander is normally also the theater JFACC. C-NAF status alone does not establish OPCON; operational authority depends on designation, joint-force-commander delegation, and governing orders, while ADCON comes through the Secretary of the Air Force and service authority.
+- **Source:** AFH 1, ¶¶5.9, 5.15–5.16
 - **Tags:** SSgt; TSgt; 5E; B—Understanding
 
 ### C05-FC-076
@@ -488,13 +488,13 @@
 
 ### C05-FC-079
 - **Prompt:** How do groups and squadrons differ in scope, and how do dependent and independent groups compare?
-- **Answer:** A group is a minimally staffed tactical echelon below a wing, usually with multiple units; a dependent group serves a wing function, while an independent group performs wing-like duties at smaller scope. A squadron is the Air Force's basic mission or functional building block.
+- **Answer:** A group is a tactical echelon below a wing with minimal staff support, usually with multiple units; a dependent group serves a wing function, while an independent group performs wing-like duties at smaller scope. A squadron is the Air Force's basic mission or functional building block.
 - **Source:** AFH 1, ¶5.16
 - **Tags:** SSgt; TSgt; 5E; B—Understanding
 
 ### C05-FC-080
 - **Prompt:** How do numbered or named, alpha, and functional flights organize squadron work, and where do elements fit?
-- **Answer:** Numbered or named flights combine smaller elements with squadron-like administrative reporting; alpha flights group elements doing identical missions; functional flights group elements doing specific missions. Elements are subdivisions of flights.
+- **Answer:** Numbered or named flights combine smaller elements into organized units, and their strength reporting resembles that of a squadron; alpha flights group elements doing identical missions; functional flights group elements doing specific missions. Elements are subdivisions of flights.
 - **Source:** AFH 1, ¶5.16
 - **Tags:** SSgt; TSgt; 5E; B—Understanding
 
