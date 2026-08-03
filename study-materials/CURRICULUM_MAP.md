@@ -4,6 +4,13 @@
 
 This map transcribes the SSgt and TSgt columns of the Airman Development and Testing Chart (ADTC) in AFH 1, *Airman*, dated 15 February 2025. It is provisional until validated against the official 27E5 and 27E6 WAPS Catalogs.
 
+The ADTC and WAPS Catalog perform different jobs:
+
+- The **ADTC** assigns learning depth to the handbook's subject units.
+- The grade-and-cycle **WAPS Catalog** identifies which handbook chapters are in scope.
+
+An ADTC-rated unit is therefore not automatically in scope for every promotion cycle. The catalog is controlling.
+
 The ADTC level controls **depth of learning**, not a published percentage of operational test questions:
 
 - **A — Remembering:** recognize and recall facts, terms, definitions, and lists.
@@ -15,20 +22,69 @@ Neither the 2025 ADTC nor the public 2026 catalogs provide a chapter-by-chapter 
 
 ## Coverage summary
 
+### Full AFH ADTC universe
+
 | Measure | SSgt | TSgt |
 |---|---:|---:|
-| Active chapter sections | 103 | 103 |
-| Testable attachments | 2 | 2 |
-| Total mapped units | 105 | 105 |
+| ADTC-rated chapter sections | 103 | 103 |
+| ADTC-rated attachments | 2 | 2 |
+| Total ADTC-rated units | 105 | 105 |
 | Level A units | 17 | 7 |
 | Level B units | 87 | 89 |
 | Level C units | 1 | 9 |
 | Level D units | 0 | 0 |
 
-The two grades share the same level for 87 units. Eighteen units require a grade-specific depth overlay:
+These counts describe the handbook universe, not one cycle's active exam scope. Across that universe, the two grades share the same level for 87 units. Eighteen units require a grade-specific depth overlay:
 
 - Ten units move from **A for SSgt** to **B for TSgt**.
 - Eight units move from **B for SSgt** to **C for TSgt**.
+
+### 2026 catalog-controlled historical baseline
+
+| Measure | 26E5 / SSgt product | 26E6 / TSgt product |
+|---|---:|---:|
+| Catalog-scoped chapters | 15 | 17 |
+| Catalog-scoped sections | 74 | 81 |
+| Level A sections | 4 | 0 |
+| Level B sections | 69 | 72* |
+| Level C sections | 1 | 9* |
+| ADTC-rated attachments included by catalog | 0 | 0 |
+
+\*Counts use the consolidated ADTC's B rating for TSgt Section 7B. The section-local chart says C; see the normalization notes.
+
+The 26E5 catalog limits AFPT 00035 to Chapters 1, 5, 7–9, 11–12, 14–15, 17–20, 22, and 24. The 26E6 catalog limits AFPT 00036 to Chapters 1, 5, 7–9, 11–20, 22, and 24. These are historical comparison baselines only and do not establish 27E5/27E6 scope.
+
+## Chapter scope matrix
+
+| Chapter | Subject | 26E5 | 26E6 | Provisional authoring priority |
+|---:|---|:---:|:---:|---|
+| 1 | Professionalism | Yes | Yes | Shared core |
+| 2 | Aviation History | No | No | Reserve pending 2027 catalog |
+| 3 | Air Force Heritage | No | No | Reserve pending 2027 catalog |
+| 4 | Air and Cyberpower | No | No | Reserve pending 2027 catalog |
+| 5 | Military Organization and Command | Yes | Yes | Shared core |
+| 6 | Doctrine and Joint Force | No | No | Reserve pending 2027 catalog |
+| 7 | Enlisted Force Development | Yes | Yes | Shared core |
+| 8 | Assessments and Recognition | Yes | Yes | Shared core |
+| 9 | Enlisted Promotions | Yes | Yes | Shared core |
+| 10 | Assignments and Occupational Codes | No | No | Reserve pending 2027 catalog |
+| 11 | Personnel Programs and Benefits | Yes | Yes | Shared core |
+| 12 | Finance, Manpower, and Resources | Yes | Yes | Shared core |
+| 13 | Developing Organizations | No | Yes | TSgt-priority overlay |
+| 14 | Developing Others | Yes | Yes | Shared core |
+| 15 | Developing Self | Yes | Yes | Shared core |
+| 16 | Developing Ideas | No | Yes | TSgt-priority overlay |
+| 17 | Emergency Management | Yes | Yes | Shared core |
+| 18 | Security | Yes | Yes | Shared core |
+| 19 | Standards of Conduct | Yes | Yes | Shared core |
+| 20 | Enforcing Military Standards | Yes | Yes | Shared core |
+| 21 | Military Justice | No | No | Reserve pending 2027 catalog |
+| 22 | Fitness and Readiness | Yes | Yes | Shared core |
+| 23 | Dress and Appearance | No | No | Reserve pending 2027 catalog |
+| 24 | Military Customs and Courtesies | Yes | Yes | Shared core |
+| Attachments | A4 and A7 have ADTC ratings | No | No | Reserve pending 2027 catalog |
+
+Author the shared core first, then the TSgt-only historical overlay, while keeping reserve chapters mapped but clearly out of the 2026 catalog scope. The moment a 2027 catalog is published, replace this prioritization with its exact chapter list.
 
 ## Chapter 1 — Professionalism
 
@@ -87,7 +143,7 @@ The two grades share the same level for 87 units. Eighteen units require a grade
 | Unit | Topic | SSgt | TSgt | Grade-depth difference |
 |---|---|---:|---:|---|
 | 7A | Leadership Levels | B | B | — |
-| 7B | Enlisted Force Structure | B | B | — |
+| 7B | Enlisted Force Structure | B | B* | The consolidated ADTC says B; the section-local chart says C |
 | 7C | Duty Titles and Special Positions | B | B | — |
 | 7D | Force Development | B | B | — |
 | 7E | Training Responsibilities | B | B | — |
@@ -254,14 +310,14 @@ The two grades share the same level for 87 units. Eighteen units require a grade
 | 24E | Drill and Formation | B | B | — |
 | 24F | Preserving Our Heritage | B | C | TSgt applies heritage-preservation principles in situations |
 
-## Testable attachments
+## ADTC-rated attachments
 
 | Unit | Topic | SSgt | TSgt | Grade-depth difference |
 |---|---|---:|---:|---|
 | A4 | Chief Master Sergeants of the Air Force | A | A | — |
 | A7 | USAF Medal of Honor Recipients | B | B | — |
 
-Attachments 1, 2, 3, 5, 6, and 8 are marked N/A for both SSgt and TSgt and are excluded from the mapped testable units.
+Attachments 1, 2, 3, 5, 6, and 8 are marked N/A for both SSgt and TSgt and are excluded from the ADTC-rated universe. Attachments 4 and 7 have ADTC levels but were not included in the chapter-only scope lines of the 26E5 or 26E6 catalogs.
 
 ## Grade-specific overlay list
 
@@ -297,7 +353,10 @@ The source contains minor internal inconsistencies that content editors must not
 2. The summary ADTC calls Chapter 3 “Air Force Heritage,” while the body heading uses “USAF Heritage.” MyPromotion may display “Air Force Heritage” but should preserve the source citation.
 3. The summary ADTC prints “Section 101D—Civilian Programs.” Context and the chapter body establish this as Section 11D; MyPromotion normalizes it to 11D and records the source typo.
 4. Section 14E is explicitly marked deleted and is not an active study unit.
-5. Punctuation and spacing defects introduced by PDF extraction are not source concepts and should be corrected in original prose.
+5. The consolidated ADTC assigns Section 7B level B to both SSgt and TSgt, but the chart printed at the beginning of Section 7B assigns B to SSgt and C to TSgt. Counts in this map use the consolidated chart. Until the cycle source resolves the conflict, TSgt content should conservatively include C-level application while metadata records the discrepancy.
+6. The ADTC calls Section 16A “What We Know,” while the table of contents and section heading repeat “Accountability and Self-Management,” the title already used for Section 15A. The 16A body begins with “Knowledge is Power,” supporting “What We Know” as the working topic while the inconsistency remains flagged.
+7. Other summary/body label differences include “Air Force” versus “USAF,” “Joint Operation Planning” versus “Joint Planning,” and inconsistent punctuation in Section 18D. These require citation-aware normalization, not changes to substantive meaning.
+8. Punctuation and spacing defects introduced by PDF extraction are not source concepts and should be corrected in original prose.
 
 ## Initial content-allocation method
 
@@ -308,6 +367,6 @@ Until an official operational blueprint is published, content volume should be d
 3. Add comparison and explanation items for level B.
 4. Add original application items for level C.
 5. Generate additional variants only when they test a different relationship, misconception, or use case.
-6. Build mock exams through transparent, balanced sampling across the full testable map.
+6. Build mock exams through transparent, balanced sampling across the exact cycle catalog scope—not the entire ADTC universe.
 7. Label MyPromotion's distribution as a study design—not an estimate of operational test frequency.
 

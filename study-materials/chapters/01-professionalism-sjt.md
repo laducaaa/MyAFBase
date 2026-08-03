@@ -2,7 +2,7 @@
 
 > **Status:** Draft and provisional for 27E5/27E6.
 >
-> These scenarios are wholly original. They are not actual, recalled, reconstructed, or predicted PFE items. The official Air Force uses subject-matter experts and behavioral scientists to establish operational SJT scoring keys. The answers below are MyPromotion educational judgments grounded in the cited public material; they are not official scoring keys.
+> These scenarios are wholly original. They are not actual, recalled, reconstructed, or predicted PFE items. The official Air Force uses subject-matter experts and behavioral scientists to establish operational SJT scoring keys. The answers below are MyPromotion educational judgments grounded in the cited public material; they are not official scoring keys or substitutes for current supervisory, safety, legal, ethics, or technical procedures.
 
 ## How to use this set
 
@@ -21,7 +21,7 @@ Read every option before choosing. Evaluate whether the response:
 - addresses causes rather than appearances alone; and
 - preserves trust, dignity, and accountability.
 
-Ten scenarios produce 20 response selections, matching the number of SJT items in the publicly described PFE structure. This set covers only Chapter 1 concepts and is not a full-spectrum SJT simulation.
+Ten scenarios produce 20 response selections, matching the structure announced for the 22E5/22E6 cycles in [December 2021](https://www.afpc.af.mil/News/Article-Display/Article/2874484/waps-adjusts-for-22e6-22e5-testing-cycles/). The separate [public SJT informational guide](https://www.studyguides.af.mil/Portals/15/documents/Notices/Situational-Judgment-Test-Informational-Guide.pdf) explains the four-option most/least format. Neither source confirms the 2027 structure. This set covers only Chapter 1 concepts and is not a full-spectrum SJT simulation.
 
 ---
 
@@ -33,7 +33,7 @@ You are preparing a status briefing for your section. Shortly before the briefin
 
 A. Correct the figures without telling anyone why they changed so the briefing can continue with minimal attention.  
 B. Notify the appropriate leader, correct the report, identify any decision already affected, and help address the failed checks.  
-C. Present the original report because it was accurate when first assembled and the briefing is already scheduled.  
+C. Present the original report because the briefing is already scheduled, then correct the record afterward.  
 D. Ask a coworker whether the missing checks are important enough to mention, then follow whichever option feels less disruptive.
 
 ### Most effective: B
@@ -60,14 +60,14 @@ C knowingly preserves a false readiness picture for convenience. It fails honest
 
 ## C01-SJT-002 — A teammate falling behind
 
-Your team is approaching an important deadline. One Airman who normally performs well has recently missed intermediate milestones and appears distracted. Other team members are becoming frustrated.
+You lead a small team approaching an important deadline. One Airman who normally performs well has recently missed intermediate milestones and appears distracted. Other team members are becoming frustrated.
 
 ### Response options
 
-A. Meet privately with the Airman, clarify expectations, listen for obstacles, agree on immediate actions, and adjust support or workload where justified while preserving standards.  
+A. Meet privately, clarify the gap, learn what is interfering, and agree on standards, support, and immediate next steps.  
 B. Quietly complete all of the Airman's remaining work and avoid discussing the issue so the deadline is protected.  
-C. Wait until the final deadline passes before addressing the pattern because early intervention may feel intrusive.  
-D. Point out the missed milestones in front of the team so peer pressure motivates immediate improvement.
+C. Ask another teammate to cover the next milestone, then schedule a private conversation with the Airman later that day.  
+D. Remove the Airman from meaningful work and label the pattern unwillingness without first speaking privately.
 
 ### Most effective: A
 
@@ -75,14 +75,14 @@ A addresses both mission and people. It preserves accountability, seeks relevant
 
 ### Least effective: D
 
-D uses public embarrassment rather than respectful leadership. It risks trust and dignity without first understanding the situation.
+D assigns a motive and imposes a major consequence without first gathering facts, setting clear expectations, or offering appropriate support.
 
 ### Option analysis
 
 - **A — Most effective:** Timely, private, fact-seeking, supportive, and standards-based.
 - **B — Ineffective:** It may protect the immediate deadline but hides the issue, prevents development, and creates dependency.
-- **C — Ineffective:** Delay increases mission risk and withholds potentially useful support.
-- **D — Least effective:** Public pressure disregards dignity and is unlikely to produce durable improvement.
+- **C — Partially effective:** It protects an immediate milestone and plans a prompt conversation, but it temporarily shifts work before learning the cause or setting expectations.
+- **D — Least effective:** It assumes unwillingness, disregards dignity, and removes development without first understanding the problem.
 
 **Source basis:** AFH 1, ¶¶1.1, 1.3.1–1.3.3  
 **Primary concepts:** People-oriented professionalism; accountability; respect; duty; teamwork  
@@ -97,14 +97,14 @@ A leader proposes a lawful plan. You believe one assumption is weak and have dat
 
 ### Response options
 
-A. Present the concern and alternative respectfully with supporting evidence, then fully support the lawful final decision.  
+A. State your concern briefly without supporting information, then disengage because the decision belongs to the leader.  
 B. Say nothing during the discussion, then tell teammates afterward that the plan is likely to fail.  
-C. State your concern briefly without supporting information, then disengage because the decision belongs to the leader.  
+C. Present the concern and alternative respectfully with supporting evidence, then fully support the lawful final decision.  
 D. Refuse to assist unless the leader adopts your alternative.
 
-### Most effective: A
+### Most effective: C
 
-A combines constructive dissent, respect for authority, mission focus, and loyal execution.
+C combines constructive dissent, respect for authority, mission focus, and loyal execution.
 
 ### Least effective: D
 
@@ -112,9 +112,9 @@ D makes lawful duty conditional on personal preference and obstructs the team's 
 
 ### Option analysis
 
-- **A — Most effective:** Uses the invited channel, evidence, respect, and loyal follow-through.
+- **A — Partially effective:** Raises the issue but does not provide the evidence needed for an informed decision and abandons shared responsibility.
 - **B — Ineffective:** Withholds useful input and later undermines trust.
-- **C — Partially effective:** Raises the issue but does not provide the evidence needed for an informed decision and abandons shared responsibility.
+- **C — Most effective:** Uses the invited channel, evidence, respect, and loyal follow-through.
 - **D — Least effective:** Substitutes personal preference for lawful duty.
 
 **Source basis:** AFH 1, ¶¶1.1, 1.3.2, 1.3.3  
@@ -130,14 +130,14 @@ A junior teammate developed most of an improvement that your team successfully i
 
 ### Response options
 
-A. Promptly clarify the teammate's contribution and explain how the team developed and implemented the improvement.  
+A. Reject all personal involvement and state that you contributed nothing, even though you helped test and implement the idea.  
 B. Accept the credit during the briefing and privately thank the teammate afterward.  
 C. Remain silent now and correct the record only if the teammate complains.  
-D. Reject all personal involvement and state that you contributed nothing, even though you helped test and implement the idea.
+D. Promptly clarify the teammate's contribution and explain how the team developed and implemented the improvement.
 
-### Most effective: A
+### Most effective: D
 
-A provides an accurate account, recognizes contribution, and reinforces teamwork without denying legitimate shared work.
+D provides an accurate account, recognizes contribution, and reinforces teamwork without denying legitimate shared work.
 
 ### Least effective: B
 
@@ -145,10 +145,10 @@ B knowingly accepts a misleading attribution for personal benefit. A private tha
 
 ### Option analysis
 
-- **A — Most effective:** Honest, accountable, fair, and team-oriented.
+- **A — Partially effective:** It avoids taking excess credit but replaces one inaccuracy with another.
 - **B — Least effective:** Preserves unearned personal credit.
 - **C — Ineffective:** Makes correction dependent on the junior member risking a complaint.
-- **D — Partially effective:** It avoids taking excess credit but replaces one inaccuracy with another.
+- **D — Most effective:** Honest, accountable, fair, and team-oriented.
 
 **Source basis:** AFH 1, ¶¶1.3, 1.3.1, 1.3.3  
 **Primary concepts:** Honesty; accountability; mission; teamwork  
@@ -163,14 +163,14 @@ During a work discussion, one team member makes a demeaning comment about anothe
 
 ### Response options
 
-A. Address the comment promptly and professionally, reinforce the expected standard, check on the affected Airman, and take additional action appropriate to the seriousness and pattern of behavior.  
+A. Send the whole team a general message about respect later without addressing what occurred.  
 B. Join the laughter so the person who made the comment does not feel singled out.  
-C. Send the whole team a general message about respect later without addressing what occurred.  
+C. Address the comment, restate the standard, check on the affected Airman, and determine proportionate follow-up.  
 D. Speak only with the affected Airman afterward and advise them not to take the comment personally.
 
-### Most effective: A
+### Most effective: C
 
-A protects dignity, sets a clear standard, supports the affected person, and leaves room for proportionate follow-up based on facts and severity.
+C protects dignity, sets a clear standard, supports the affected person, and leaves room for proportionate follow-up based on facts and severity.
 
 ### Least effective: B
 
@@ -178,9 +178,9 @@ B reinforces the disrespect and uses senior influence to normalize it.
 
 ### Option analysis
 
-- **A — Most effective:** Timely, direct, respectful, supportive, and appropriately scalable.
+- **A — Ineffective:** A general message avoids accountability and may not correct the specific conduct.
 - **B — Least effective:** Participates in and legitimizes the behavior.
-- **C — Ineffective:** A general message avoids accountability and may not correct the specific conduct.
+- **C — Most effective:** Timely, direct, respectful, supportive, and appropriately scalable.
 - **D — Ineffective:** Checking on the Airman is useful, but minimizing the comment and ignoring the actor fails the standard.
 
 **Source basis:** AFH 1, ¶¶1.1, 1.3.2, 1.3.3  
@@ -190,53 +190,53 @@ B reinforces the disrespect and uses senior influence to normalize it.
 
 ---
 
-## C01-SJT-006 — Safety concern under time pressure
+## C01-SJT-006 — Unresolved concern under time pressure
 
-Your team is behind schedule on a high-visibility task. You identify a condition that may create a preventable safety risk, but pausing work will probably miss the target time.
+Your team is behind schedule on a high-visibility task. You identify unresolved information that could affect the reliability of the result, but pausing for review will probably miss the target time.
 
 ### Response options
 
-A. Continue because schedule performance is the clearest measure of mission focus.  
-B. Raise the concern through the appropriate channel, identify the risk and possible controls, and support a timely informed decision.  
+A. Continue and omit the concern because meeting the schedule is the clearest measure of mission focus.  
+B. Promptly raise the concern and available facts through the appropriate channel, then support an informed decision.  
 C. Discuss the concern with peers but take no action unless someone else agrees to report it.  
-D. Wait until the task is complete, then include the concern in a lessons-learned note.
+D. Finish first, then document the concern in a lessons-learned note.
 
 ### Most effective: B
 
-B demonstrates courage, accountability, and mission focus by giving the decision authority usable risk information and possible controls.
+B demonstrates courage, accountability, honesty, and mission focus by giving the appropriate authority timely, usable information.
 
 ### Least effective: A
 
-A knowingly treats schedule as more important than a preventable safety risk without analysis or authority.
+A knowingly conceals information that may affect the result so the schedule appears successful.
 
 ### Option analysis
 
-- **A — Least effective:** Confuses urgency with permission to ignore risk.
-- **B — Most effective:** Timely, evidence-based, constructive, and uses the appropriate channel.
+- **A — Least effective:** Knowingly omits relevant information and substitutes schedule appearance for reliable mission performance.
+- **B — Most effective:** Timely, fact-based, constructive, and uses the appropriate channel.
 - **C — Ineffective:** Seeks social reassurance instead of taking responsibility.
-- **D — Ineffective:** Lessons learned are valuable, but delaying disclosure fails to address the current risk.
+- **D — Ineffective:** Lessons learned are useful, but delayed disclosure cannot inform the current decision.
 
-**Source basis:** AFH 1, ¶¶1.1, 1.3.1, 1.3.3  
-**Primary concepts:** Courage; accountability; mission; appropriate risk  
+**Source basis:** AFH 1, ¶¶1.1, 1.3.1–1.3.3  
+**Primary concepts:** Honesty; courage; accountability; mission  
 **Ranks:** SSgt; TSgt  
-**Review flag:** Operational safety policy always controls real conduct
+**Review flag:** The response sequence is an educational application; current operational procedures control real conduct
 
 ---
 
 ## C01-SJT-007 — Repeated performance problem
 
-An Airman has made the same correctable error several times. Previous feedback was informal and vague. The latest error caused additional work for the team but no lasting harm.
+You supervise an Airman who has made the same correctable error several times. Previous feedback was informal and vague. The latest error caused additional work for the team but no lasting harm.
 
 ### Response options
 
-A. Meet privately, describe the specific gap and standard, hear the Airman's perspective, establish corrective actions and support, and follow up on progress.  
+A. Ask another supervisor for advice, then postpone the conversation until the next routine feedback session.  
 B. Publicly compare the Airman with the strongest performer so the expected standard is obvious.  
 C. Continue offering general encouragement and assume experience will eventually solve the problem.  
-D. Immediately request the most severe available administrative response without first clarifying the gap or prior expectations.
+D. Meet privately, clarify the gap and standard, hear the Airman, agree on corrective support, and follow up.
 
-### Most effective: A
+### Most effective: D
 
-A combines clarity, dignity, accountability, development, support, and follow-up.
+D combines clarity, dignity, accountability, development, support, and follow-up.
 
 ### Least effective: B
 
@@ -244,10 +244,10 @@ B relies on public embarrassment and comparison rather than specific, respectful
 
 ### Option analysis
 
-- **A — Most effective:** Addresses behavior, standards, causes, support, and accountability.
+- **A — Partially effective:** Seeking advice can help, but postponing specific feedback allows a repeated problem to continue.
 - **B — Least effective:** Damages dignity and trust without providing useful individualized guidance.
 - **C — Ineffective:** Encouragement without clear standards or follow-up is unlikely to correct a repeated problem.
-- **D — Ineffective in the stated facts:** Escalation may become necessary, but jumping immediately to the most severe response is disproportionate to the information given.
+- **D — Most effective:** Addresses behavior, standards, causes, support, and accountability.
 
 **Source basis:** AFH 1, ¶¶1.1, 1.3.1–1.3.3  
 **Primary concepts:** Accountability; respect; leader loyalty; discipline; develops people  
@@ -295,7 +295,7 @@ Your team tested an authorized process improvement. The first attempt failed and
 
 ### Response options
 
-A. Report the result accurately, help recover the work, examine the cause, document lessons, and recommend whether to revise or stop the approach.  
+A. Report the result, recover the work, examine the cause, record lessons, and recommend the next step.  
 B. Describe the attempt as successful because the team learned something useful.  
 C. Abandon all future improvement efforts because failure proves the original process was best.  
 D. Attribute the failure entirely to the person who executed the test, even though the team approved the design.
@@ -328,7 +328,7 @@ A coworker sends you an unverified message claiming an upcoming policy change wi
 
 ### Response options
 
-A. Verify the claim through authoritative sources or the appropriate chain, tell the team what is known and unknown, and avoid spreading unsupported details.  
+A. Verify through authoritative sources, state what is known and unknown, and avoid spreading unsupported details.  
 B. Forward the message with “not sure if true” so everyone can decide whether to act.  
 C. Announce the change as confirmed because preparing early is safer than waiting.  
 D. Ignore the message and the team's questions until an official change causes a problem.
@@ -364,7 +364,7 @@ C converts an unverified claim into asserted fact and can trigger unnecessary or
 | 003 | Constructive dissent | Evidence through chain, then execute | Make duty conditional on preference |
 | 004 | Fair recognition | Correct attribution and recognize team | Accept known unearned credit |
 | 005 | Respectful climate | Address, support, and follow up proportionately | Participate in disrespect |
-| 006 | Safety under pressure | Raise risk with controls and proper authority | Ignore risk for schedule |
+| 006 | Unresolved information under pressure | Raise relevant facts through the proper channel | Omit the concern for schedule appearance |
 | 007 | Corrective feedback | Specific private development and accountability | Public comparison and shame |
 | 008 | Ethics uncertainty | Decline/refrain and seek guidance | Accept and delay disclosure |
 | 009 | Learning from failure | Report, recover, analyze, improve | Shift shared responsibility dishonestly |

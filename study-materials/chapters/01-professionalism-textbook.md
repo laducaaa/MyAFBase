@@ -127,7 +127,7 @@ These characteristics reinforce rather than compete with one another. Values gui
 
 Mission focus includes readiness, selfless duty, sacrifice, and the courage to take appropriate risks when necessary. Airmen and their families make sacrifices in response to the nation's call. (AFH 1, ¶1.1)
 
-“Appropriate risk” does not mean careless action. The word appropriate matters: a professional considers mission necessity, likely consequences, available controls, and the authority to act.
+AFH 1 does not define “appropriate risk” in this paragraph. For source study, retain the complete relationship: courage may be required to take an appropriate risk when necessary. Do not treat Chapter 1 as a substitute for current operational risk-management, safety, technical, or command guidance.
 
 ## 6. People-oriented professionalism
 
@@ -151,7 +151,7 @@ Taking care of people is not the opposite of accomplishing the mission. A capabl
 | Mission focus with disregard for people | People generate and sustain mission capability |
 | Respect with agreement | Airmen can disagree while still treating others with dignity and using proper channels |
 | Accountability with blame avoidance | Accountability requires transparency, ownership, correction, and learning |
-| Appropriate risk with recklessness | Professional risk-taking is reasoned and mission-connected |
+| Appropriate and necessary risk with risk for its own sake | AFH 1 endorses the former but does not define its criteria in this paragraph |
 
 ## Common misconceptions
 
@@ -199,26 +199,28 @@ An occupation can be evaluated mainly by the exchange of labor for compensation.
 
 By swearing to support and defend the Constitution, an Airman accepts a trust from the American people. That trust includes authority, resources, information, and capabilities that must be used for legitimate national purposes. (AFH 1, ¶1.2)
 
-Public trust is sustained when Airmen:
+One instructional way to connect public trust with the rest of Chapter 1 is to ask whether Airmen:
 
 - remain competent;
 - act lawfully and ethically;
 - place official duty before improper personal gain;
-- use force only under justified authority;
+- treat military force as a justified professional responsibility rather than personal power;
 - accept accountability; and
 - preserve confidence in the institution.
 
-The source characterizes the oath and public trust as sacred. The point is not ceremonial language alone; it emphasizes the seriousness and durability of the commitment.
+The source characterizes the oath and public trust as sacred. As an instructional interpretation, that wording emphasizes the seriousness and durability of the commitment rather than ceremony alone.
 
 ## 3. Distinctive military expertise
 
 AFH 1 identifies the profession as distinctive because of expertise in the **justified application of lethal military force** and the willingness to make the ultimate sacrifice. (AFH 1, ¶1.2)
 
-Three parts of that statement matter:
+AFH 1 does not separately define “justified” in ¶1.2. The following is an instructional reading of the phrase, not a legal definition:
 
 1. **Expertise:** force must be applied competently.
-2. **Justification:** capability is exercised under law, authority, policy, and ethical obligation—not personal preference.
+2. **Justification:** capability alone is not the complete professional standard.
 3. **Sacrifice:** military service can require accepting risks and costs beyond those expected in other professions.
+
+Current law, rules of engagement, doctrine, policy, and orders—not this lesson—govern when and how military force may be used.
 
 Not every Airman personally employs a weapon system. Every Airman's role nevertheless supports, enables, governs, sustains, or protects the force that carries out the national-defense mission.
 
@@ -251,7 +253,7 @@ The higher standard also applies when nobody is watching. Public trust depends o
    All Airmen belong to and support the profession, even though their functions differ.
 
 2. **“Military expertise is simply the ability to use force.”**  
-   The source emphasizes justified application, which joins competence with lawful and ethical authority.
+   The source says expertise in the justified application of force. It therefore does not treat capability alone as the complete professional standard.
 
 3. **“The oath is only a ceremonial entry requirement.”**  
    It represents an enduring commitment and acceptance of public trust.
@@ -396,8 +398,8 @@ Excellence calls for sustained continuous improvement and innovation. It does **
 
 The distinction between excellence and perfection is important:
 
-- Perfection treats any error as unacceptable regardless of circumstances.
-- Excellence pursues the highest sustainable standard, learns from error, and continuously improves.
+- Excellence does not demand perfection in everything from everyone.
+- Excellence continuously advances Airmen's craft and knowledge and maintains skills, knowledge, and readiness at the highest possible levels.
 
 ### Mission
 
@@ -528,7 +530,7 @@ These sources do not all perform the same function. Some express ideals, some es
 
 ## 3. Ethical principles and guidelines
 
-AFH 1 uses Title 5, Code of Federal Regulations, Part 2635 to illustrate executive-branch expectations. The chapter emphasizes that government employees should:
+AFH 1 uses Title 5, Code of Federal Regulations, Part 2635 to present examples of mandatory executive-branch principles and guidelines. The chapter states that government employees must:
 
 - place loyalty to the Constitution, law, and ethical principles above private gain;
 - avoid financial interests that conflict with conscientious duty;
@@ -538,7 +540,16 @@ AFH 1 uses Title 5, Code of Federal Regulations, Part 2635 to illustrate executi
 - protect federal property and use it only as authorized; and
 - satisfy lawful financial obligations in good faith. (AFH 1, ¶1.4)
 
-The source also discusses restrictions on gifts between subordinates and superiors, including narrow exceptions and a nominal-value figure. Those details are time-sensitive. For cycle study, use the figure and conditions in the controlling AFH edition. For real conduct, consult the current Joint Ethics Regulation, current regulations, and a local ethics official. (AFH 1, ¶1.4)
+### Dated AFH gift rule
+
+For source-study purposes, the 15 February 2025 AFH states:
+
+- employees generally may not accept gifts from subordinates or employees who receive less pay;
+- personnel may not solicit a donation or contribution from others for a gift to a superior;
+- personnel may not contribute toward a gift to a superior or accept a gift from subordinate personnel; and
+- the stated exception covers voluntary gifts or contributions of nominal value, not exceeding **$10**, for an occasion of special personal significance such as marriage or the birth of a child, or an occasion ending the superior-subordinate relationship such as retirement, permanent change of station, or reassignment. (AFH 1, ¶1.4)
+
+That is the compressed rule as printed in the cycle-baseline handbook. Gift law is more detailed and time-sensitive. For real conduct, use the current Joint Ethics Regulation, current 5 C.F.R. Part 2635, and advice from an appropriate ethics official. Do not use this lesson as an operational gift determination.
 
 ### Ethical principles in plain language
 

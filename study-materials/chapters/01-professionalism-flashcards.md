@@ -372,13 +372,45 @@
 - **Source:** AFH 1, ¶1.5
 - **Tags:** SSgt; TSgt; 1D; B—Understanding
 
+## Additional coverage cards
+
+### C01-FC-061
+- **Prompt:** How broadly should the core values guide Air Force conduct?
+- **Answer:** They are universal, consistent standards for evaluating organizational ethical climate and should motivate attitudes and actions both on and off duty.
+- **Source:** AFH 1, ¶1.3
+- **Tags:** SSgt; TSgt; 1C; C—Applying
+
+### C01-FC-062
+- **Prompt:** What general restriction does the 15 February 2025 AFH state for gifts from subordinates or lower-paid employees?
+- **Answer:** Employees generally may not accept gifts from subordinates or employees who receive less pay. For real conduct, current ethics rules and official guidance control.
+- **Source:** AFH 1, ¶1.4
+- **Tags:** SSgt; TSgt; 1D; B—Understanding; dated-rule
+
+### C01-FC-063
+- **Prompt:** What exception to the superior-subordinate gift restriction is printed in the 15 February 2025 AFH?
+- **Answer:** Voluntary gifts or contributions of nominal value, not exceeding $10, for special personal occasions such as marriage or a child's birth, or occasions ending the superior-subordinate relationship such as retirement, permanent change of station, or reassignment. Apply current ethics guidance to real conduct.
+- **Source:** AFH 1, ¶1.4
+- **Tags:** SSgt; TSgt; 1D; B—Understanding; dated-rule
+
+### C01-FC-064
+- **Prompt:** What does Chapter 1's Call to Duty connect with the Air Force's future success?
+- **Answer:** Future success depends on flexible and adaptable current and next-generation Airmen who can respond faster than potential adversaries. The Air Force seeks to recruit, develop, and retain exceptional Airmen through programs that develop and care for the Total Force and strengthen Air Force culture.
+- **Source:** AFH 1, ¶1.4.2
+- **Tags:** SSgt; TSgt; 1D; B—Understanding
+
+### C01-FC-065
+- **Prompt:** What major progression of ideas runs through the Airman's Creed?
+- **Answer:** Airman and warrior identity; answer to the nation; fly-fight-win mission; heritage, honor, and valor; defense of freedom and country; wingman and leader roles; and commitment not to abandon, falter, or fail.
+- **Source:** AFH 1, ¶1.5
+- **Tags:** SSgt; TSgt; 1D; B—Understanding
+
 ## Flashcard coverage
 
 | Section | Cards | ADTC target |
 |---|---:|---|
 | 1A | 10 | Explain professionalism, obligation, Total Force, mission, and people |
 | 1B | 7 | Explain oath, public trust, distinctive expertise, sacrifice, and joint service |
-| 1C | 25 | Recall virtue groups and apply values to conduct |
-| 1D | 18 | Explain ethics, dilemmas, decision tests, honorable traits, and creed purpose |
-| **Total** | **60** | — |
+| 1C | 26 | Recall virtue groups and apply values to conduct and ethical climate |
+| 1D | 22 | Explain ethics, dated gift rules, dilemmas, decision tests, honorable traits, call to duty, and creed themes |
+| **Total** | **65** | — |
 
