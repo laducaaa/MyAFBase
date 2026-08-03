@@ -4,7 +4,7 @@
 >
 > **Reserve-chapter status:** Chapter 2 was not within the historical scope identified for 26E5/26E6. It is included here as a reserve chapter for possible 27E5/27E6 use. Its prior exclusion does not prove future inclusion, weighting, or testability.
 >
-> **Source boundary:** This is an original textbook explanation of the designated public AFH 1 extraction, Chapter 2, source lines 841–1741. It is not an official study guide and contains no actual, predicted, or recalled WAPS questions.
+> **Source boundary:** This is an original textbook explanation of the designated public AFH 1 Chapter 2 extraction. It is not an official study guide and contains no actual, predicted, or recalled WAPS questions.
 >
 > **Two-track source rule—exam study:** Preserve the facts, dates, numbers, names, and ambiguities in the AFH edition assigned by the controlling WAPS Catalog. Do not silently replace a catalog-controlled answer with a newer historical account or current organizational fact.
 >
@@ -111,7 +111,7 @@ By October 1912, the Aeronautical Division had 11 aircraft, 14 flying officers, 
 
 Corporal Frank Scott enlisted in the Army Field Artillery in 1908 and cross-trained into the Signal Corps in 1911. After work launching and releasing hot-air balloons, he transferred to the Type-B Wright biplane and became its chief mechanic. (AFH 1, ¶2.3)
 
-Scott joined Lieutenant Rockwell on a test flight on 28 September 1912. Engine trouble occurred during the landing attempt, killing both men. AFH 1 identifies Scott as the first enlisted person to die in a military-aircraft accident and says Scott Field, now Scott Air Force Base, Illinois, was named for him. (AFH 1, ¶2.3)
+Scott joined Lieutenant Rockwell on a test flight on 28 September 1912. Engine trouble occurred during the landing attempt, killing both men on what AFH 1 says was Scott’s first and only flight. The source identifies Scott as the first enlisted person to die in a military-aircraft accident and says Scott Field, now Scott Air Force Base, Illinois, was named for him. (AFH 1, ¶2.3)
 
 #### Vernon L. Burge — first American enlisted pilot
 
@@ -141,9 +141,9 @@ During the Mexican Revolution of 1910–1920, forces led by Francisco “Pancho�
 
 The force leaving San Antonio, Texas, included 11 pilot officers, 82 enlisted men, one civilian mechanic, eight Curtiss JN-3 Jennies, 10 trucks, and one automobile. En route, Foulois added two enlisted hospital corpsmen and an engineering section of one officer and 14 enlisted members. (AFH 1, ¶2.5)
 
-The squadron completed reconnaissance flights and carried dispatches, but mountain weather, dust, extreme temperatures, and the 5,000-foot elevations around Casas Grandes in Chihuahua damaged readiness. Within one month, only two of the eight airplanes remained operational. (AFH 1, ¶2.5)
+The squadron completed reconnaissance flights and carried dispatches, but mountain weather, dust, extreme temperatures, and the 5,000-foot elevations of the Chihuahua location AFH 1 prints as “the Casa Grandes” damaged readiness. “Casa Grandes” is retained as an apparent source form rather than silently normalized. Within one month, only two of the eight airplanes remained operational. (AFH 1, ¶2.5)
 
-In February, after almost a year of the campaign commonly called the Punitive Expedition, the pursuit ended. Villa continued leading rebels in northern Mexico until negotiating amnesty and a peace settlement with Mexico’s interim president in 1920. (AFH 1, ¶2.5)
+“In February,” after almost a year of the campaign commonly called the Punitive Expedition, the pursuit ended. AFH 1 does not print a year with that February reference, so this lesson retains the source’s month-only wording. Villa continued leading rebels in northern Mexico until negotiating amnesty and a peace settlement with Mexico’s interim president in 1920. (AFH 1, ¶2.5)
 
 Foulois praised both the pilots who flew dangerous aircraft and the enlisted personnel who worked continuously to keep them flying. AFH 1 draws two explicit field lessons: adequate maintenance was essential, and backup aircraft were needed while damaged airplanes left the line for repair. (AFH 1, ¶2.5)
 
@@ -173,7 +173,7 @@ AFH 1 says Brigadier General Foulois was named Chief of Air Service for the Amer
 | 1913 | 1st Aero Squadron activated | Oldest USAF squadron in AFH 1 (AFH 1, ¶2.3) |
 | 20 Apr 1914 | Ocker becomes third enlisted pilot | Blind-flight pioneer (AFH 1, ¶2.3) |
 | 18 Jul 1914 | Aviation Section begins | Legislatively formalized section (AFH 1, ¶2.4) |
-| 1916–Feb 1917 context | 1st Aero Squadron supports Pancho Villa pursuit | Field-maintenance lessons (AFH 1, ¶2.5) |
+| 1916 / later “In February” (year not printed) | 1st Aero Squadron supports Pancho Villa pursuit | Month-only source wording retained; field-maintenance lessons (AFH 1, ¶2.5) |
 | 20 May 1918 | Aviation Section period ends | Transfer toward Air Service structure (AFH 1, ¶¶2.4, 2.8) |
 | Jun 1930 / Jan 1955 | Ocker’s enclosed-cockpit flight / posthumous Legion of Merit | Long reach of early instrument work (AFH 1, ¶2.3) |
 
@@ -350,7 +350,7 @@ Sergeant Ulysses Nero was selected as a bombardier to demonstrate airpower. Cont
 
 With one bomb left, the crew attacked the already damaged USS *Virginia* and hit its deck, permanently putting it out of commission. Mitchell initially disqualified the crew for disregarding instructions, then reconsidered after other crews could not hit *Virginia* without descending to 1,500 feet. Nero was promoted in the next cycle. (AFH 1, ¶2.9)
 
-AFH 1 defines **NBS** in Martin-Curtiss NBS-1 as **night bomber—short range**. (AFH 1, ¶2.9)
+AFH 1 prints **Martin-Curtiss NBS-1** in the narrative but **Martin-Curtis NBS-1** in the abbreviation note. That note defines **NBS** as **night bomber—short range**. The one- and two-*s* forms are an unresolved source variation, not a spelling choice made by this textbook. (AFH 1, ¶2.9)
 
 #### George H. Holmes — the last enlisted pilot
 
@@ -382,7 +382,7 @@ The crew remained aloft for 150 hours and 40 minutes, received 5,600 gallons of 
 
 #### Ira C. Eaker — refueling pioneer and daylight-bombing advocate
 
-General Ira C. Eaker was commissioned in the Army Reserve after flight school. He participated in the 1926–1927 Pan-American Good Will Flight and flew on the 1929 *Question Mark* mission. AFH 1 characterizes him as an aviation pioneer and advocate for aerospace power. (AFH 1, ¶2.10)
+General Ira C. Eaker was commissioned in the Army Reserve after flight school. He participated in the 1926–1927 Pan-American Good Will Flight and flew on the 1929 *Question Mark* mission. AFH 1 characterizes him as an aviation pioneer and advocate for aerospace power. The source also says the Good Will Flight “is displayed at the National Museum of the USAF in Dayton, Ohio,” but does not identify what physical object the relative clause means; that wording is retained as an ambiguity rather than converted into a claim that a flight itself is on display. (AFH 1, ¶2.10)
 
 During the later World War II Operation Point Blank, Eaker directed daylight strategic bombing while British forces conducted night area bombing. AFH 1 describes the combined effort as around-the-clock attacks on the German military and industrial base in Nazi-occupied territories, reducing German strength and production. This World War II fact appears in ¶2.10 and therefore overlaps the later Chapter 2C chronology. (AFH 1, ¶2.10)
 
@@ -396,7 +396,7 @@ In 1939, President Franklin D. Roosevelt requested $300 million for military avi
 
 ### 9. The U.S. Army Air Forces unified the Army’s air elements
 
-The U.S. Army Air Forces began on 20 June 1941 and, under the date range in the heading, continued through 17 September 1947. It replaced both the Army Air Corps and GHQ Air Force. Though still under the Army, it unified command of air elements, gave the air forces broad autonomy, and placed them on an equality separate from ground forces in the source’s description. (AFH 1, ¶2.12)
+The U.S. Army Air Forces began on 20 June 1941 and, under the date range in the heading, continued through 17 September 1947. It replaced both the Army Air Corps and GHQ Air Force. Though still under the Army, it unified command of air elements, gave the air forces what AFH 1 calls **total autonomy**, and placed them on an equality separate from ground forces in the source’s description. (AFH 1, ¶2.12)
 
 The source then says the Army Air Forces continued as an Army branch until reorganization provisions of Public Law 80-495, the National Security Act of 1947, on 18 September 1947. The one-day difference between the heading’s ending date and the text’s reorganization date is preserved as a boundary convention within ¶2.12. (AFH 1, ¶2.12)
 
@@ -500,7 +500,7 @@ After two years as Chief of the Air Corps, Arnold became Commanding General of t
 ## Section 2B summary
 
 - World War I required a much larger aviation system than the United States possessed in April 1917. (AFH 1, ¶2.6)
-- Observation, spotting, and reconnaissance led the first air-war mission set; pursuit and synchronized forward firing expanded aerial combat. (AFH 1, ¶2.7)
+- Observation, spotting, and reconnaissance led the first air-war mission set; pursuit and propeller-arc machine-gun fire expanded aerial combat. (AFH 1, ¶2.7)
 - Ace recognition began with an initial five-victory threshold, but AFH 1 explicitly says the threshold varies. (AFH 1, ¶2.7)
 - Rickenbacker, the Lafayette Escadrille, and Bullard represent combat achievement, pre-entry American participation, and an inclusion milestone. (AFH 1, ¶2.7)
 - The Division of Military Aeronautics bridged the Signal Corps and Air Service for four days. (AFH 1, ¶2.8)
@@ -581,7 +581,7 @@ Their operations extended across North Africa, the Mediterranean, Sicily, Italy,
 
 #### Benjamin O. Davis Jr. — first African American Air Force general
 
-Benjamin O. Davis Jr. commanded the Tuskegee Airmen and was the son of Benjamin O. Davis Sr., identified by AFH 1 as the first Black general in the Army. Davis Jr. graduated from West Point in 1936, received an infantry commission, and served as a Reserve Officer Training Corps instructor at Tuskegee Institute from 1938 to 1941. (AFH 1, ¶2.15)
+Benjamin O. Davis Jr. commanded the Tuskegee Airmen and was the son of Benjamin O. Davis Sr., identified by AFH 1 as the first Black general in the Army. Davis Jr. graduated from West Point in 1936, received an infantry commission, and served as a Reserve Officer Training Corps instructor at Tuskegee Institute from 1938 to 1941. AFH 1 itself prints the apparent singular form “Reserve Officer Training Corp instructor”; the standard institutional form in the readable prose is not a silent source correction. (AFH 1, ¶2.15)
 
 He became one of the first African Americans admitted to pilot training. On retirement in 1970, AFH 1 describes him as the senior African American officer in the U.S. Armed Forces. He then organized a sky-marshal force to address hijacking and served as Assistant Secretary of Transportation from July 1971 until retiring in 1975. (AFH 1, ¶2.15)
 
@@ -589,7 +589,7 @@ President William J. Clinton promoted Davis to four-star general in a White Hous
 
 ### 6. The Flying Tigers joined American volunteers to China’s defense
 
-The First American Volunteer Group, known as the Flying Tigers, formed in early 1941 to support Nationalist China against Japanese invasion. Captain Claire Lee Chennault recruited the group under U.S. presidential authority and later reached lieutenant general. (AFH 1, ¶2.15)
+The First American Volunteer Group, known as the Flying Tigers, formed in early 1941 to support Nationalist China against Japanese invasion. AFH 1 says the group was recruited under U.S. presidential authority and led by Captain Claire Lee Chennault, who later reached lieutenant general; it does not identify Chennault as the recruiter. (AFH 1, ¶2.15)
 
 Pilots came from the Army Air Corps, Navy, Marine Corps, and a small number of civilians. Officially members of the Chinese Air Force, volunteers signed contracts paying from $250 per month for mechanics to $750 for squadron commanders—about three times their previous earnings according to the source. (AFH 1, ¶2.15)
 
@@ -635,13 +635,13 @@ Operation Argument, also called Big Week, ran from 20 to 25 February 1944. Its o
 
 AFH 1 reports 3,300 Eighth Air Force heavy-bomber sorties, 500 Fifteenth Air Force missions from Italy, 2,750 Royal Air Force Bomber Command night attacks against aircraft plants, and nearly 4,000 protective fighter sorties. The source uses “missions” for the Fifteenth Air Force figure and “attacks” for the RAF figure; do not silently relabel all categories as identical counts. (AFH 1, ¶2.16)
 
-The source reports losses of 226 American bombers, 114 British heavy bombers, and 28 U.S. Army Air Forces fighters. It estimates that 500 Luftwaffe fighters were damaged or destroyed and 400 pilots killed. These operational figures are attributed snapshots, not independently reconciled totals. (AFH 1, ¶2.16)
+The source reports losses of 226 American bombers, 114 British heavy bombers, and 28 fighters under the label it prints here as “U.S. Army Air Force” (singular). Paragraph 2.12 elsewhere names the organization “U.S. Army Air Forces”; the variation is source-printed rather than silently normalized. AFH 1 estimates that 500 Luftwaffe fighters were damaged or destroyed and 400 pilots killed. These operational figures are attributed snapshots, not independently reconciled totals. (AFH 1, ¶2.16)
 
 #### Invasion of Normandy
 
 The Luftwaffe could replace many aircraft, but AFH 1 says it could not replace 2,262 experienced pilots killed in the five months before Normandy. By 6 June 1944, Allied air forces dominated Europe’s skies. (AFH 1, ¶2.16)
 
-On D-Day, the Allies directed 8,722 Army Air Forces sorties and 5,676 Royal Air Force sorties against German defenses in France. The Luftwaffe launched fewer than 100 sorties, and only two German aircraft inflicted damage on the invasion beaches according to the source. AFH 1 presents these figures as evidence that Allied bombers and fighters overcame the German integrated air-defense network. (AFH 1, ¶2.16)
+On D-Day, AFH 1 again uses the singular source form, reporting 8,722 “U.S. Army Air Force” sorties and 5,676 Royal Air Force sorties against German defenses in France. The Luftwaffe launched fewer than 100 sorties, and only two German aircraft inflicted damage on the invasion beaches according to the source. AFH 1 presents these figures as evidence that Allied bombers and fighters overcame the German integrated air-defense network. (AFH 1, ¶2.16)
 
 #### Combined Bomber Offensive
 
@@ -651,7 +651,7 @@ AFH 1 further reports more than one million Germans killed or wounded and 3.6 mi
 
 #### Operation Chowhound
 
-In May 1945, Operation Chowhound worked with the British humanitarian Operation Mana to feed people in the German-occupied Netherlands. AFH 1 says Army Air Forces crews delivered 4,000 tons of food to three million Dutch residents. (AFH 1, ¶2.16)
+In May 1945, Operation Chowhound worked with the British humanitarian mission AFH 1 prints as **Operation Mana** to feed people in the German-occupied Netherlands. “Mana” is retained as the exact source spelling rather than silently changed. AFH 1 says Army Air Forces crews delivered 4,000 tons of food to three million Dutch residents. (AFH 1, ¶2.16)
 
 Ten B-17 groups flew 2,268 sorties, avoided German antiaircraft attacks, and sustained minimal losses. The operation shows that a bomber force could also deliver humanitarian relief near the war’s end. (AFH 1, ¶2.16)
 
@@ -918,11 +918,11 @@ In January 2001, a commission led by then Defense Secretary-designate Donald Rum
 
 Congress had chartered the review of national-security space activities. Its May 2001 product was formally titled the *Report of the Commission to Assess United States National Security, Space Management and Organization*, commonly the Space Commission Report. (AFH 1, ¶2.25)
 
-AFH 1 summarizes the report’s conclusion: U.S. and allied security and economic well-being depend on successful space operations; the United States must remain technologically and operationally at the forefront and integrate space into crisis management, deterrence, and conflict success. This is a paraphrase of the source’s quoted passage, not new policy. (AFH 1, ¶2.25)
+AFH 1 summarizes the report’s conclusion: U.S. and allied security and economic well-being depend on the nation’s ability to operate successfully in space; the United States must remain technologically and operationally at the forefront and use space as an integral part of managing crises, deterring conflict, and—if deterrence fails—prevailing in conflict. This follows the source’s quoted passage, not a restatement as “prevail in space.” (AFH 1, ¶2.25)
 
 ### 8. Space became competitive, congested, and contested
 
-AFH 1 characterizes space over the preceding decade as competitive, congested, and contested. Many countries conduct or participate in communications, remote sensing, and other space programs, so the United States no longer holds the high-ground opportunity alone. (AFH 1, ¶2.26)
+AFH 1 characterizes space over the preceding decade as competitive, congested, and contested. Many countries conduct or participate in communications, remote sensing, and other space programs, so the United States no longer holds the high-ground opportunity alone. The source adds that competing programs and attempts to restrict U.S. space activities would continue to test the United States. (AFH 1, ¶2.26)
 
 On 11 January 2007, China conducted its first successful direct-ascent antisatellite test by destroying one of its own satellites. AFH 1 says the resulting debris increased risk to low-Earth-orbit reconnaissance and weather satellites and to crewed missions, including the International Space Station, Space Shuttle, and Chinese flights. (AFH 1, ¶2.26)
 
@@ -992,7 +992,7 @@ Two rhesus monkeys trained at Randolph AFB were named “Sam Space” and “Mis
 
 Operation Paper Clip recruit Dr. Hans-Georg Clamman and his team designed and built equipment for safe primate suborbital flight. Their cage-like **biopack** both confined a primate in a ballistic-missile nose cone and monitored physiological functions. (AFH 1, ¶2.28)
 
-In 1959, less than a year after Farrell’s simulated moon trip, the first monkey trained and equipped by USAFSAM traveled in space aboard a *Little Joe* rocket. AFH 1 does not identify which of the named monkeys made that flight in this paragraph, so this lesson does not infer the identity. (AFH 1, ¶2.28)
+AFH 1 places the first USAFSAM-trained and -equipped monkey’s *Little Joe* spaceflight in 1959 and also calls it “less than a year” after Farrell’s February 1958 simulation. Because the source supplies no month in 1959, that interval cannot be verified or reconciled from its printed dates and is preserved as a source ambiguity. AFH 1 does not identify which of the named monkeys made the flight, so this lesson does not infer the identity. (AFH 1, ¶2.28)
 
 ### 16. Brooks AFB and later Space Force recognition carried the legacy forward
 
@@ -1019,7 +1019,7 @@ AFH 1 adds that the monkeys’ specially designed space suits used material from
 | 4 Oct 1957 | Sputnik I | Space age and space race (AFH 1, ¶¶2.21, 2.28) |
 | Feb 1958 | Farrell spends seven days in *Terrella I* | Simulated lunar voyage (AFH 1, ¶2.28) |
 | 1958 | Air Force military-space plans; NASA receives crewed mission role | Mercury/Gemini/Apollo basis in source (AFH 1, ¶2.21) |
-| 1959 | Space-medicine effort moves to Brooks; USAFSAM monkey flies on *Little Joe* | Biological spaceflight research (AFH 1, ¶2.28) |
+| 1959 | Space-medicine effort moves to Brooks; USAFSAM monkey flies on *Little Joe* | Source also says “less than a year” after February 1958, an interval not verifiable from its printed dates (AFH 1, ¶2.28) |
 | 1960 / 10 Aug 1960 | NRO formed / Discoverer XIII success | Corona and 3,000+ feet of film (AFH 1, ¶2.23) |
 | 21 Nov 1963 | Kennedy speaks at Brooks AFB | Recognition of space-medicine research (AFH 1, ¶2.28) |
 | 1969–1972 | Six lunar landings | Culmination of source-described NASA partnership (AFH 1, ¶2.28) |
@@ -1177,7 +1177,7 @@ Observation and reconnaissance were central from balloons through World War I ai
 | 1913 | 1st Aero Squadron activated | Oldest USAF squadron in source (AFH 1, ¶2.3) |
 | 18 Jul 1914 | Aviation Section begins | Formal organization and ratings (AFH 1, ¶2.4) |
 | 1914–1918 | World War I | First air war and expanded support system (AFH 1, ¶¶2.6–2.7) |
-| 1916–1917 context | Pancho Villa Expedition | Field readiness and maintenance lessons (AFH 1, ¶2.5) |
+| 1916 / later “In February” (year unstated) | Pancho Villa Expedition | Field readiness and maintenance lessons; source prints month only (AFH 1, ¶2.5) |
 | 6 Apr 1917 | U.S. enters World War I | Small force confronts mobilization need (AFH 1, ¶2.6) |
 | 20–24 May 1918 | Division of Military Aeronautics | Four-day organizational bridge (AFH 1, ¶2.8) |
 | 24 May 1918–2 Jul 1926 | Air Service | Temporary branch, drawdown, airpower advocacy (AFH 1, ¶2.9) |
@@ -1342,7 +1342,7 @@ Every entry below is phrased as an AFH 1 claim.
 
 4. **Operation-name extraction:** The source extraction joins words in places such as “namesfor” and “generalsuggestions.” This textbook normalizes obvious spacing but retains the substance of the operation-naming guidance. (AFH 1, ¶2.1)
 
-5. **General extraction defects:** Soft hyphens, broken words, page headers, image captions, line-wrap artifacts, missing spaces, inconsistent hyphenation, and punctuation appear throughout lines 841–1741. Captions are not treated as separate factual paragraphs unless the surrounding AFH text supplies the fact.
+5. **General extraction and apparent source forms:** Soft hyphens, broken words, page headers, image captions, line-wrap artifacts, missing spaces, inconsistent hyphenation, and punctuation appear throughout the designated extraction. Captions are not treated as separate factual paragraphs unless the surrounding AFH text supplies the fact. Apparent printed forms such as “the Casa Grandes,” “Reserve Officer Training Corp,” and singular “U.S. Army Air Force” in two ¶2.16 count statements are quoted or explicitly attributed rather than silently normalized. In ¶2.5, “In February” supplies no year; retain the month-only wording and do not add an inferred year.
 
 6. **Early-flight “firsts”:** Claims such as first powered sustained controlled flight, first aerial victory, and first true fighter are reproduced as AFH 1 claims. They are not independently reconciled with alternate historical definitions or competing claims. (AFH 1, ¶¶2.2, 2.7)
 
@@ -1354,7 +1354,7 @@ Every entry below is phrased as an AFH 1 claim.
 
 10. **Ace threshold variation:** ¶2.7 says five or more victories were initially required but that the number varies throughout history. Five is not a universal threshold. Victory-credit systems and crew-position treatment must remain source- and period-specific.
 
-11. **Armistice/end-of-war dates:** ¶2.9 gives 11 November 1918 for the Armistice and notes that some memorials use the 1919 Versailles Treaty. Preserve the distinction between ending fighting by armistice and alternate commemorative ending points.
+11. **NBS spelling and Armistice/end-of-war dates:** ¶2.9 prints “Martin-Curtiss” in the Nero narrative and “Martin-Curtis” in its NBS note; preserve that unresolved variation. The paragraph gives 11 November 1918 for the Armistice and notes that some memorials use the 1919 Versailles Treaty. Preserve the distinction between ending fighting by armistice and alternate commemorative ending points.
 
 12. **Army Air Forces boundary:** The ¶2.12 heading ends the organization on 17 September 1947; its text points to National Security Act reorganization provisions on 18 September. Treat this as adjacent boundary wording, not permission to delete either date.
 
@@ -1364,7 +1364,7 @@ Every entry below is phrased as an AFH 1 claim.
 
 15. **EO 8802 scope tension:** ¶2.15 first says EO 8802 prohibited racial discrimination “within the services,” then describes nondiscrimination in vocational and training programs and expressly says segregation remained. Preserve all parts rather than converting the order into immediate full integration.
 
-16. **World War II counts:** Production, inventory, manpower, sortie, mission, attack, loss, casualty, building, food, and aircraft-destruction figures use different terms and sometimes estimates. Do not combine categories or treat all as directly comparable. (AFH 1, ¶¶2.14–2.18)
+16. **World War II counts, organization form, and operation spelling:** Production, inventory, manpower, sortie, mission, attack, loss, casualty, building, food, and aircraft-destruction figures use different terms and sometimes estimates. Do not combine categories or treat all as directly comparable. In ¶2.16, AFH 1 twice prints singular “U.S. Army Air Force” within count statements although ¶2.12 names the U.S. Army Air Forces, and it prints the British food mission as “Operation Mana.” Preserve and attribute those source forms. (AFH 1, ¶¶2.14–2.18)
 
 17. **Biographical superlatives and firsts:** “Most decorated,” “greatest,” “first,” “only,” and similar descriptions for Rickenbacker, Cochran, Keil, Davis, Doolittle, Sanchez, and others remain AFH 1 attributions. They have not been independently ranked or adjudicated.
 
@@ -1386,7 +1386,7 @@ Every entry below is phrased as an AFH 1 claim.
 
 26. **USAFSAM firsts and rhetoric:** ¶2.28 calls USAFSAM’s Department of Space Medicine the world’s first, NASA the world’s first civilian space agency, and USAFSAM the Air Force’s inaugural “space force.” Retain these as source characterizations, not independently verified universal claims.
 
-27. **Primate identity:** ¶2.28 names Sam Space and Miss Sam Space, then refers generally to USAFSAM’s first trained and equipped monkey flying in 1959. It does not identify that individual in the extracted paragraph.
+27. **Primate date and identity:** ¶2.28 places the flight in 1959 while calling it “less than a year” after Farrell’s February 1958 simulation; without a 1959 month, the interval cannot be verified from the printed dates. The paragraph names Sam Space and Miss Sam Space, then refers generally to USAFSAM’s first trained and equipped monkey without identifying that individual.
 
 28. **Snapshot rule for every number:** A historical date or one-time event remains part of the source record, but strength, force size, comparison, location, organization, title, and current-support statements require catalog and duty-track revalidation.
 

@@ -2,6 +2,10 @@
 
 > **Status:** Draft and provisional for 27E5/27E6 preparation; the official 2027 format is unconfirmed.
 >
+> **Reserve-chapter status:** Chapter 2 was outside the historical 26E5 and 26E6 catalog scopes and remains reserve pending the 2027 WAPS catalogs. Prior exclusion does not prove future inclusion, weighting, or scenario testability.
+>
+> **Two-track source rule:** For exam-source study, preserve the facts, dates, names, quantities, terminology, and ambiguities in the AFH edition assigned by the controlling catalog. For duty use, separately verify current organizations, missions, policies, terminology, force counts, locations, and authorities; duty-current information does not overwrite a catalog-controlled answer.
+>
 > These ten supplemental scenarios are wholly original. They are not actual, recalled, reconstructed, or predicted PFE items. They are supplemental SJT practice only, not a claim that aviation history is scenario-tested.
 >
 > AFH 1 assigns every Chapter 2 section **A—Remembering for both SSgt and TSgt**. That designation applies to recognizing or recalling Chapter 2 historical facts; it does not make these scenarios A-level items. Chapter 2's historical facts provide context only and **do not establish behavioral scoring keys**. The most-effective and least-effective selections below are MyPromotion educational judgments based on Chapter 1 professionalism, core values, and ethical reasoning.
@@ -28,33 +32,33 @@ Ten scenarios produce 20 response selections, mirroring only the historical publ
 
 ---
 
-## C02-SJT-001 — Two sources, one transition
+## C02-SJT-001 — Draft label versus designated baseline
 
-You are the NCO preparing an optional heritage handout about the brief 1918 transition into the Air Service. Two public Air Force sources attach different organizational labels to the same transition date. The course owner has designated the 15 February 2025 AFH 1 as this handout's baseline; supplemental sources may be cited when their wording is identified, and the owner accepts discrepancy notes after publication. The handout must be released today, and the disputed label is not needed to meet the lesson objective.
+You are the NCO preparing an optional heritage handout about the brief 1918 transition into the Air Service. Your draft uses an organizational label for that transition that does not appear in the course owner's designated baseline, the 15 February 2025 AFH 1. The owner accepts discrepancy notes after publication, supplemental wording may be cited only when identified as such, the handout must be released today, and the disputed label is not required for the lesson objective.
 
 ### Response options
 
-A. Blend both labels into one transition title so the handout appears consistent across sources.  
-B. Use the supplemental source's label and cite both documents because its webpage is newer.  
-C. Follow the designated baseline wording and send the owner a source-specific discrepancy note.  
-D. Omit the disputed label and describe only the undisputed transfer of aviation responsibilities.
+A. Combine the draft label with AFH 1 phrasing so readers see one seamless transition title.  
+B. Keep the draft label and add a general note that public wording on this point varies.  
+C. Issue the handout with AFH 1's wording and notify the owner about the conflicting label.  
+D. Drop the disputed label and describe only the undisputed transfer of aviation responsibilities.
 
 ### Most effective: C
 
-Paragraphs 2.1 and 2.8 supply the historical context of approximate chronology and the short 1918 organizational transition; they do not prescribe an editorial response. C is the MyPromotion most-effective judgment because it applies the stated source baseline without hiding the conflict and preserves the owner's ability to reconcile future material. Chapter 1 honesty, accountability, and disciplined treatment of uncertainty provide the behavioral basis.
+Paragraph 2.8 supplies the historical context of the short 1918 organizational transition; it does not prescribe an editorial response. C is the MyPromotion most-effective judgment because it applies the stated source baseline, identifies the conflict for the owner, and still meets today's release need. Chapter 1 honesty, accountability, and disciplined treatment of uncertainty provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: A
 
-A creates a composite label that neither identified source necessarily supports and conceals the disagreement from readers. The Chapter 2 passages explain why the historical label matters, but Chapter 1 accurate representation and transparency provide the behavioral basis for the least-effective judgment.
+A creates a composite label that neither the draft nor the designated baseline necessarily supports and presents disagreement as settled wording. The Chapter 2 passage explains why the historical label matters, but Chapter 1 accurate representation and transparency provide the behavioral basis for the least-effective judgment.
 
 ### Option analysis
 
-- **A — Least effective:** It manufactures apparent agreement instead of representing either source and its uncertainty accurately.
-- **B — Ineffective:** It identifies both sources but disregards the designated baseline based only on assumed value from recency.
+- **A — Least effective:** It manufactures apparent agreement instead of representing the assigned baseline and the draft conflict accurately.
+- **B — Ineffective:** It retains non-baseline wording and offers only a vague caveat instead of identifying the conflict for the owner.
 - **C — Most effective:** It uses the assigned source consistently while documenting the precise conflict for responsible follow-up.
-- **D — Partially effective:** It avoids an unsupported label but removes relevant, usable baseline detail from the handout.
+- **D — Partially effective:** It avoids unsupported wording but removes usable baseline detail the handout could still carry.
 
-**Source basis:** AFH 1, ¶¶2.1, 2.8 (historical context); ¶¶1.3.1, 1.4.1 (behavioral basis)  
+**Source basis:** AFH 1, ¶2.8 (historical context); ¶¶1.3.1, 1.4.1 (behavioral basis)  
 **Primary concepts:** Source/version ambiguity; honesty; accountability; uncertainty  
 **ADTC context:** 2B, A—Remembering  
 **Ranks:** SSgt; TSgt  
@@ -68,14 +72,14 @@ You are the reviewer for a public heritage briefing on World War II airpower. A 
 
 ### Response options
 
-A. Replace the claim with a sourced conclusion connecting air superiority to successful land, sea, and air operations.  
+A. Replace the overstated ending with a sourced link between air superiority and joint operational success.  
 B. Keep the slide but have the speaker orally qualify the claim before discussing supporting figures.  
 C. Retain the memorable claim as a thematic headline and place qualifying factors on the next slide.  
 D. Remove the conclusion and end with production totals, allowing the audience to infer significance.
 
 ### Most effective: A
 
-Paragraphs 2.13 and 2.14 provide the historical content against which the conclusion can be checked; they do not themselves rank an Airman's behavior. A is the MyPromotion most-effective judgment because it uses the learner's stated revision authority to preserve a clear conclusion without exceeding the source. Chapter 1 honesty, accountability, discipline, and mission-focused communication provide the behavioral basis.
+Paragraphs 2.13 and 2.14 provide the historical content against which the conclusion can be checked; they do not themselves rank an Airman's behavior. A is the MyPromotion most-effective judgment because it uses the learner's stated revision authority to preserve a clear conclusion without exceeding the source. Chapter 1 honesty, accountability, discipline, and mission-focused communication provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: C
 
@@ -105,11 +109,11 @@ You edit a unit exhibit on the development of instrument flight. Its draft headl
 A. Keep the familiar commander in the headline and add Ocker prominently within the supporting panel.  
 B. Feature Ocker as the principal pioneer and explain collective later progress in supporting text.  
 C. Remove personal attribution and explain the technical progression entirely through devices and dates.  
-D. Credit Ocker's documented contribution while describing later progress as the work of multiple contributors.
+D. Name Ocker's documented work in the headline and treat later advances as shared progress.
 
 ### Most effective: D
 
-Paragraph 2.3 provides the historical context for Ocker's documented work; it does not create a rule for scoring exhibit editors. D is the MyPromotion most-effective judgment because it corrects the specific omission without converting recognition into an unsupported claim of sole authorship. Chapter 1 honesty, respect, accountability, and teamwork provide the behavioral basis.
+Paragraph 2.3 provides the historical context for Ocker's documented work; it does not create a rule for scoring exhibit editors. D is the MyPromotion most-effective judgment because it corrects the specific omission without converting recognition into an unsupported claim of sole authorship. Chapter 1 honesty, respect, accountability, and teamwork provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: A
 
@@ -137,13 +141,13 @@ You lead a classroom readiness exercise built around early aviation's field-main
 ### Response options
 
 A. Add extra backup aircraft to opening inventories while leaving repair capacity outside the scoring model.  
-B. Add one repair-capacity decision whose consequences change aircraft availability during later exercise rounds.  
+B. Require each team to allocate limited maintainers whose downtime reduces flyable aircraft later.  
 C. Add more environmental disruptions and let facilitators discuss maintenance during the final debrief.  
 D. Reset each team's replacement inventory between rounds so every team receives equal launch opportunities.
 
 ### Most effective: B
 
-Paragraph 2.5 supplies historical context about field conditions, maintenance, and backup aircraft; it does not establish a behavioral answer key for exercise design. B is the MyPromotion most-effective judgment because it directly aligns the next iteration with the stated learning objective and observed design gap. Chapter 1 accountability, mission stewardship, discipline, and continuous improvement provide the behavioral basis.
+Paragraph 2.5 supplies historical context about field conditions, maintenance, and backup aircraft; it does not establish a behavioral answer key for exercise design. B is the MyPromotion most-effective judgment because it directly aligns the next iteration with the stated learning objective and observed design gap. Chapter 1 accountability, mission stewardship, discipline, and continuous improvement provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: D
 
@@ -166,18 +170,18 @@ D removes the accumulated resource consequences the stated objective requires le
 
 ## C02-SJT-005 — A promising prototype with one anomaly
 
-You lead a non-operational prototype team developing a sensor-equipped refueling-transfer trainer inspired by early aerial-refueling demonstrations. A simulation is promising, but the first bench run produced one unexplained sensor anomaly. The project plan authorizes your team to conduct bench testing; a review chair alone may approve progression to a human-use trial, and the chair requires complete bench results. A showcase occurs before the next regular review, but displaying a bench-only prototype is acceptable.
+You lead a non-operational prototype team developing a sensor-equipped refueling-transfer trainer inspired by early aerial-refueling demonstrations. A simulation is promising, but the first bench run produced one unexplained sensor anomaly. Under the project plan, your team may continue bench testing and may display a bench-only prototype at an upcoming showcase; only the review chair may approve progression to a human-use trial, and the chair will not review that step without a complete bench-result package. Scheduling volunteers or trial dates before chair approval is outside your authority.
 
 ### Response options
 
-A. Present simulation results as sufficient evidence and ask the chair to waive additional bench testing.  
-B. Reserve a human-trial date and recruit volunteers while clearly noting approval remains pending.  
-C. Run the authorized bench test targeting the anomaly, then give the chair complete results.  
-D. Pause prototype development and showcase only the simulation until another team explains the anomaly.
+A. Present simulation results as enough to proceed and ask the chair to skip further bench work.  
+B. Hold a volunteer signup and pencil a human-trial date while stating chair approval is still required.  
+C. Investigate the sensor anomaly on the bench and deliver the full dataset to the review chair.  
+D. Halt further prototype work and show only the simulation until a different team explains the anomaly.
 
 ### Most effective: C
 
-Paragraph 2.10 supplies historical context about the Question Mark aerial-refueling demonstration; it does not prescribe modern testing or approval. C is the MyPromotion most-effective judgment because it advances the work within the stated authority and gives the decision owner the evidence required by the supplied project plan. Chapter 1 accountability, discipline, mission-focused innovation, and responsible treatment of uncertainty provide the behavioral basis.
+Paragraph 2.10 supplies historical context about the Question Mark aerial-refueling demonstration; it does not prescribe modern testing or approval. C is the MyPromotion most-effective judgment because it advances the work within the stated bench-test authority and gives the decision owner the evidence the project plan requires. Chapter 1 accountability, discipline, mission-focused innovation, and responsible treatment of uncertainty provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: A
 
@@ -186,13 +190,13 @@ A describes incomplete evidence as sufficient and seeks to remove the stated tes
 ### Option analysis
 
 - **A — Least effective:** It overstates the evidence and treats the showcase schedule as grounds to bypass the stated gate.
-- **B — Ineffective:** It preserves formal approval but creates human-trial expectations before the evidence package is complete.
-- **C — Most effective:** It uses existing authority to resolve the known evidence gap before requesting a progression decision.
-- **D — Partially effective:** It protects the boundary but abandons authorized learning and transfers ownership of the anomaly.
+- **B — Ineffective:** It preserves a formal approval label but begins human-trial logistics the stem places outside team authority.
+- **C — Most effective:** It uses existing bench authority to close the known evidence gap before requesting a progression decision.
+- **D — Partially effective:** It respects the human-trial boundary but abandons authorized bench learning and shifts ownership of the anomaly.
 
 **Source basis:** AFH 1, ¶2.10 (historical context); ¶¶1.3.1, 1.3.3, 1.4.1 (behavioral basis)  
 **Primary concepts:** Innovation with safety and authority; accountability; discipline; uncertainty  
-**ADTC context:** 2A, A—Remembering  
+**ADTC context:** 2B, A—Remembering  
 **Ranks:** SSgt; TSgt  
 **Review flag:** Human prototype-realism review; current safety, technical, and approval procedures control real testing
 
@@ -200,18 +204,18 @@ A describes incomplete evidence as sufficient and seeks to remove the stated tes
 
 ## C02-SJT-006 — Recognition that matches the theme
 
-You chair a heritage-program panel choosing four profiles for the theme "Airpower Is a Team Effort." Published panel criteria are documented contribution, connection to the theme, and breadth of aviation roles; fame and rank are not scoring factors, and no role receives an automatic slot. All eight candidates have source-cleared biographies. The draft slate, assembled before the criteria were applied, contains three pilots and one commander; remaining candidates document maintenance, flight nursing, technical support, and organizational leadership. You recommend the slate; the program director approves it.
+You chair a heritage-program panel choosing four profiles for the theme "Airpower Is a Team Effort." Published panel criteria are documented contribution, connection to the theme, and breadth of aviation roles; fame and rank are not scoring factors, and no role receives an automatic slot. All eight candidates have source-cleared biographies. The candidate pool spans pilot, commander, maintenance, flight nursing, technical support, and organizational-leadership roles. The draft slate, assembled before the criteria were applied, contains three pilots and one commander. You recommend the slate; the program director approves it.
 
 ### Response options
 
 A. Retain the familiar slate and use the introduction to acknowledge contributions from other roles.  
-B. Choose one candidate from each available role and compare source strength within those groups.  
-C. Retain two pilot profiles and choose the two strongest documented nonflying contributions.  
-D. Score every candidate against published criteria and recommend the strongest complementary set.
+B. Fill all four slots from four preselected role categories after comparing names only inside each category.  
+C. Keep two pilot profiles and fill the remaining two slots with the strongest nonflying biographies.  
+D. Rank all eight biographies on contribution, theme fit, and role breadth, then propose the top four.
 
 ### Most effective: D
 
-Paragraphs 2.14 and 2.15 provide historical context showing varied flying and nonflying contributions; they do not prescribe a recognition slate or behavioral score. D is the MyPromotion most-effective judgment because it evaluates every candidate impartially and lets documented, theme-relevant contributions produce meaningful breadth. Chapter 1 respect, accountability, mission focus, and teamwork provide the behavioral basis.
+Paragraphs 2.14 and 2.15 provide historical context showing varied flying and nonflying contributions; they do not prescribe a recognition slate or behavioral score. D is the MyPromotion most-effective judgment because it evaluates every candidate impartially and lets documented, theme-relevant contributions produce meaningful breadth. Chapter 1 respect, accountability, mission focus, and teamwork provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: A
 
@@ -220,7 +224,7 @@ A retains a familiarity-based draft assembled before the panel applied its crite
 ### Option analysis
 
 - **A — Least effective:** It substitutes a general acknowledgment for applying the published criteria to the actual selections.
-- **B — Ineffective:** It guarantees role breadth but imposes automatic slots that the stated selection process excludes.
+- **B — Ineffective:** It is executable with four slots, but it imposes category quotas the stated selection process excludes.
 - **C — Partially effective:** It improves role breadth but reserves two positions before comparing every candidate against the criteria.
 - **D — Most effective:** It applies one transparent standard and builds inclusion through complementary, documented contributions.
 
@@ -245,7 +249,7 @@ D. Leave both fields blank until every completed item receives its independent c
 
 ### Most effective: B
 
-Paragraph 2.14 supplies historical context about production, manpower, and support; it does not define this dashboard or establish a reporting key. B is the MyPromotion most-effective judgment because it uses the scenario's metric definitions to give the noon decision all currently qualified information without converting pending work into readiness. Chapter 1 honesty, accountability, and mission stewardship provide the behavioral basis.
+Paragraph 2.14 supplies historical context about production, manpower, and support; it does not define this dashboard or establish a reporting key. B is the MyPromotion most-effective judgment because it uses the scenario's metric definitions to give the noon decision all currently qualified information without converting pending work into readiness. Chapter 1 honesty, accountability, and mission stewardship provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: C
 
@@ -255,7 +259,7 @@ C places an estimate in a field explicitly reserved for checked results and remo
 
 - **A — Ineffective:** Its note discloses the checks, but the decision-driving verified field still overstates the result.
 - **B — Most effective:** It accurately separates known performance from pending work and supports the scheduled decision.
-- **C — Least effective:** It converts a probability into a verified result and hides the unresolved items from their proper field.
+- **C — Least effective:** It converts a probability into a verified result and leaves unresolved items out of their proper field.
 - **D — Partially effective:** It avoids overstatement but withholds thirty-four valid results the noon process can use.
 
 **Source basis:** AFH 1, ¶2.14 (historical context); ¶¶1.3.1, 1.3.3 (behavioral basis)  
@@ -268,29 +272,29 @@ C places an estimate in a field explicitly reserved for checked results and remo
 
 ## C02-SJT-008 — Shared exhibit, shared problem
 
-You lead the Air Force research team for a joint-service public aviation exhibit. The Navy team finds its flight chronology conflicts with the exhibit's shared transition timeline. Your source analyst can resolve the overlap before printing, but loaning that analyst means shortening optional Air Force image captions. Each service lead may loan staff; the joint editor owns final wording; required Air Force text is complete. You decide how to use your analyst today.
+You lead the Air Force research team for a joint-service public aviation exhibit. The Navy team finds its flight chronology conflicts with the exhibit's shared transition timeline. Your source analyst can resolve the overlap before printing, but assigning that analyst today means deferring optional Air Force image-caption polish. Under the joint plan, each service lead may loan staff to the joint editor, who alone owns final wording; required Air Force text is already complete. You decide how to use your analyst today.
 
 ### Response options
 
-A. Loan the analyst through the joint editor, accepting shorter optional Air Force captions today.  
-B. Keep the analyst on Air Force captions and send the Navy team your source list.  
-C. Have the analyst rewrite the Navy chronology and submit that replacement directly for printing.  
-D. Recommend removing the Navy chronology so the exhibit avoids publishing any cross-service conflict.
+A. Assign the analyst to the joint editor's reconciliation work and accept thinner caption polish.  
+B. Keep the analyst on Air Force captions and send the Navy team your supporting extracts.  
+C. Load an analyst-written Navy chronology into the shared print package without the joint editor.  
+D. Ask the joint editor to omit the Navy chronology so the printed exhibit shows no conflict.
 
 ### Most effective: A
 
-Paragraphs 2.15 and 2.16 supply historical context involving cross-service and Allied contributions; they do not prescribe this editorial workflow. A is the MyPromotion most-effective judgment because it uses the stated loan authority and joint editor while trading optional polish for resolution of a shared required product. Chapter 1 joint-team professionalism, mission focus, and teamwork provide the behavioral basis.
+Paragraphs 2.15 and 2.16 supply historical context involving cross-service and Allied contributions; they do not prescribe this editorial workflow. A is the MyPromotion most-effective judgment because it uses the stated loan path to place expertise with the official who owns final wording, trading optional polish for resolution of a shared required product. Chapter 1 joint-team professionalism, mission focus, and teamwork provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
-### Least effective: D
+### Least effective: C
 
-D avoids the coordination problem by removing a sister service's contribution from the shared account. That outcome is not dictated by history; it is ranked through Chapter 1 respect, mission responsibility, and interdependent teamwork. Under the supplied process, expertise and editorial authority are available to resolve rather than suppress the conflict.
+C places revised sister-service text into the print package despite the stem's rule that the joint editor alone owns final wording. Under that stated editor authority, C is uniquely least effective: it does not merely recommend a poor content choice through the proper owner, but substitutes the Air Force lead's draft for the editor's control. Chapter 1 respect for process, mission responsibility, and interdependent teamwork provide the behavioral basis.
 
 ### Option analysis
 
 - **A — Most effective:** It places relevant expertise on the shared problem through the official who owns final wording.
 - **B — Partially effective:** It shares useful material but prioritizes optional service-specific polish over direct support to the joint product.
-- **C — Ineffective:** It applies expertise but bypasses both the Navy team's role and the joint editor's authority.
-- **D — Least effective:** It protects the deadline by reducing the partner's substantive contribution instead of resolving the conflict.
+- **C — Least effective:** It applies expertise while taking final wording away from the joint editor who alone owns it.
+- **D — Ineffective:** It uses the proper editorial channel but seeks to drop a partner contribution instead of resolving the conflict.
 
 **Source basis:** AFH 1, ¶¶2.15–2.16 (historical context); ¶¶1.2, 1.3.2–1.3.3 (behavioral basis)  
 **Primary concepts:** Interservice cooperation; joint team; respect; mission; teamwork  
@@ -306,14 +310,14 @@ You design an unclassified tabletop lesson on civil reliance upon space-enabled 
 
 ### Response options
 
-A. Use the announced capability as the main hypothetical branch and retain baseline details for debrief.  
-B. Use only the validated baseline and defer emerging-capability discussion until the public demonstration.  
-C. Keep the validated baseline and add a clearly hypothetical branch for the emerging capability.  
-D. Use announced performance in calculations but label only the final conclusions as provisional.
+A. Build the session mainly around the announcement and save the cleared baseline for the debrief.  
+B. Teach only the cleared materials and wait until after the public demonstration to discuss the announcement.  
+C. Teach from the cleared lesson materials and add a labeled what-if path for the announcement.  
+D. Use announced performance in calculations but mark only the final conclusions as provisional.
 
 ### Most effective: C
 
-Paragraphs 2.22 and 2.24–2.27 supply historical context about expanding space effects, reliance, competition, and uncertainty; they do not validate the announced capability or rank this teaching choice. C is the MyPromotion most-effective judgment because it preserves an adequate known baseline while using the scenario's authorized branch to explore change without disguising status. Chapter 1 honesty, disciplined innovation, and management of uncertainty provide the behavioral basis.
+Paragraphs 2.22 and 2.24–2.27 supply historical context about expanding space effects, reliance, competition, and uncertainty; they do not validate the announced capability or rank this teaching choice. C is the MyPromotion most-effective judgment because it preserves an adequate known baseline while using the scenario's authorized branch to explore change without disguising status. Chapter 1 honesty, disciplined innovation, and management of uncertainty provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: D
 
@@ -321,10 +325,10 @@ D marks the conclusions as provisional but leaves learners unable to see that pr
 
 ### Option analysis
 
-- **A — Ineffective:** It labels the branch honestly but makes uncertainty central while withholding the adequate baseline until debrief.
+- **A — Ineffective:** It may label the branch honestly but makes uncertainty central while withholding the adequate baseline until debrief.
 - **B — Partially effective:** It preserves accuracy but forgoes an expressly permitted way to examine a relevant emerging possibility.
-- **C — Most effective:** It keeps known capability authoritative while making the uncertain capability useful and unmistakably hypothetical.
-- **D — Least effective:** It qualifies outputs while concealing the projected assumption that produces them.
+- **C — Most effective:** It keeps known capability authoritative while making the uncertain capability useful and unmistakably provisional.
+- **D — Least effective:** It qualifies outputs while leaving the projected assumption that produces them unidentified.
 
 **Source basis:** AFH 1, ¶¶2.22, 2.24–2.27 (historical context); ¶¶1.3.1, 1.3.3, 1.4.1 (behavioral basis)  
 **Primary concepts:** Emerging space-capability uncertainty; honesty; innovation; downstream effects  
@@ -343,11 +347,11 @@ You coordinate public information for an unclassified annual logistics-recovery 
 A. Recommend Steel Strike and explain in each release that "strike" means rapid logistics.  
 B. Keep Steel Strike internally while publishing Hometown Lift to community partners during the exercise.  
 C. Recommend a new fashionable name, expecting novelty to resolve both finalists' limitations.  
-D. Recommend Hometown Lift using the panel's documented audience findings as rationale for the commander.
+D. Put forward Hometown Lift and attach the partner-interpretation evidence for the commander.
 
 ### Most effective: D
 
-Paragraph 2.1 supplies historical context about operation names and public communication; it does not establish a behavioral scoring key. D is the MyPromotion most-effective judgment because it uses the stated audience evidence to recommend one name aligned with the panel's assigned purpose while leaving approval with the commander. Chapter 1 accountability, mission focus, and teamwork provide the behavioral basis.
+Paragraph 2.1 supplies historical context about operation names and public communication; it does not establish a behavioral scoring key. D is the MyPromotion most-effective judgment because it uses the stated audience evidence to recommend one name aligned with the panel's assigned purpose while leaving approval with the commander. Chapter 1 accountability, mission focus, and teamwork provide the behavioral basis. Chapter 2 is A—Remembering; its historical facts do not establish the behavioral scoring key.
 
 ### Least effective: B
 
@@ -379,8 +383,8 @@ B deliberately creates two simultaneous identities despite the stated requiremen
 | C02-SJT-005 | Innovation with safety and authority | C | A | Advance evidence within authority rather than overstate readiness to bypass a gate |
 | C02-SJT-006 | Inclusive recognition | D | A | Apply contribution-based criteria rather than preserve an unscored familiar slate |
 | C02-SJT-007 | Production/readiness data | B | C | Separate verified and pending results rather than convert probability into fact |
-| C02-SJT-008 | Interservice cooperation | A | D | Support the shared product rather than suppress a partner contribution |
-| C02-SJT-009 | Emerging space-capability uncertainty | C | D | Expose projected assumptions rather than hide them behind provisional conclusions |
+| C02-SJT-008 | Interservice cooperation | A | C | Support the shared product through the editor rather than seize final wording |
+| C02-SJT-009 | Emerging space-capability uncertainty | C | D | Expose projected assumptions rather than leave them unidentified behind provisional conclusions |
 | C02-SJT-010 | Operation-name/public communication | D | B | Use audience evidence consistently rather than maintain conflicting identities |
 
 ## Pre-release SJT checks
@@ -395,9 +399,11 @@ B deliberately creates two simultaneous identities despite the stated requiremen
 - [x] The ten requested domains appear once each in the coverage matrix.
 - [x] Chapter 2 citations supply historical context; Chapter 1 citations expressly supply behavioral judgment.
 - [x] The set states that Chapter 2 is A—Remembering for SSgt and TSgt and does not call the scenarios A-level.
+- [x] The set states that Chapter 2 historical facts do not establish behavioral scoring keys.
 - [x] No scenario asks learners to reenact history or judge a historical actor.
 - [x] No key depends on hindsight, classified information, an unstated current procedure, or a policy or legal conclusion.
 - [x] The historical 22E5/22E6 format caveat is retained, and the 2027 format remains explicitly unconfirmed.
+- [x] Reserve-chapter status and the two-track source rule appear in the header.
 - [ ] Obtain independent human review of realism, nuance, answer uniqueness, and citation fit.
 - [ ] Obtain qualified human review of SSgt/TSgt role and authority assumptions.
 - [ ] Recheck all historical facts and controlling real-world procedures against sources in force before release.

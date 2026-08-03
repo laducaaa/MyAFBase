@@ -1,6 +1,6 @@
 # Chapter 2 Flashcards — Aviation History
 
-> **Status:** Draft, citation-mapped, and provisional for 27E5/27E6. Reserve promotion-study applicability is pending the controlling Reserve catalog.
+> **Status:** Draft, citation-mapped, and provisional for 27E5/27E6. Chapter 2 was outside the historical scopes identified for 26E5/26E6 and remains reserve pending the 2027 WAPS catalogs.
 >
 > **Originality:** These are original study prompts, not actual or recalled WAPS items.
 >
@@ -92,7 +92,7 @@
 
 ### C02-FC-014
 - **Prompt:** What first is associated with Corporal Frank Scott?
-- **Answer:** He was the first enlisted person to die in a military-aircraft accident, on 28 September 1912 with Lieutenant Rockwell; Scott Field, now Scott Air Force Base, was named for him.
+- **Answer:** On 28 September 1912, his first and only flight with Lieutenant Rockwell ended when engine trouble on landing killed both men. He was the first enlisted person to die in a military-aircraft accident; Scott Field, now Scott Air Force Base, was named for him.
 - **Source:** AFH 1, ¶2.3
 - **Tags:** SSgt; TSgt; 2A; A—Remembering
 
@@ -318,7 +318,7 @@
 
 ### C02-FC-051
 - **Prompt:** Which blocs does AFH 1 identify in World War II, and what central airpower lesson does it state?
-- **Answer:** The Allies began with France, Poland, the United Kingdom, British India, Australia, Canada, New Zealand, and South Africa; by 1942, the United Nations brought in the United States, Russia, and China. Germany, Japan, and Italy formed the Axis. Air superiority proved prerequisite to successful land, sea, and air operations.
+- **Answer:** The Allies began with France, Poland, the United Kingdom, British India, Australia, Canada, New Zealand, and South Africa; soon the Balkans, Netherlands, Belgium, Greece, and Yugoslavia joined. By 1942, the United Nations brought in the United States, Russia, and China. Germany, Japan, and Italy formed the Axis. Air superiority proved prerequisite to successful land, sea, and air operations.
 - **Source:** AFH 1, ¶2.13
 - **Tags:** SSgt; TSgt; 2C; A—Remembering
 
@@ -342,7 +342,7 @@
 
 ### C02-FC-055
 - **Prompt:** What production, manpower, and support figures show the U.S. air buildup in World War II?
-- **Answer:** Factories produced 33,304 aircraft in 1942 and 72,726 in 1944; manpower exceeded two million by March 1944, with about 27 Airmen supporting each aircraft.
+- **Answer:** Factories produced 33,304 aircraft in 1942, and inventory rose to 72,726 by 1944; manpower exceeded two million by March 1944, with about 27 Airmen supporting each aircraft.
 - **Source:** AFH 1, ¶2.14
 - **Tags:** SSgt; TSgt; 2C; A—Remembering
 
@@ -360,7 +360,7 @@
 
 ### C02-FC-058
 - **Prompt:** Which Tuskegee units and aircraft does AFH 1 identify for 1944?
-- **Answer:** Colonel Benjamin O. Davis, Jr.’s 99th Fighter Squadron fought over Anzio in P-40s, then joined the 332d Fighter Group flying P-39s; later replacements were P-47s and P-51s, respectively.
+- **Answer:** Colonel Benjamin O. Davis, Jr.’s 99th Fighter Squadron fought over Anzio in P-40s; the 332d Fighter Group then joined them with P-39s; later replacements were P-47s and P-51s, respectively.
 - **Source:** AFH 1, ¶2.15
 - **Tags:** SSgt; TSgt; 2C; A—Remembering
 
@@ -384,7 +384,7 @@
 
 ### C02-FC-062
 - **Prompt:** What were the Flying Tigers’ three squadrons, combat credit, and successor?
-- **Answer:** The Adam & Eves, Panda Bears, and Hell’s Angels; the group was credited with almost 300 enemy aircraft destroyed and lost 14 pilots in combat. On 4 July 1942, the 23d Fighter Group replaced it.
+- **Answer:** The Adam & Eves, Panda Bears, and Hell’s Angels; the group was credited with almost 300 enemy aircraft destroyed and lost 14 pilots in combat. On 4 July 1942, the 23rd Fighter Group replaced it.
 - **Source:** AFH 1, ¶2.15
 - **Tags:** SSgt; TSgt; 2C; A—Remembering
 
@@ -530,7 +530,7 @@
 
 ### C02-FC-086
 - **Prompt:** What were Corona and Discoverer XIII?
-- **Answer:** Corona was Eisenhower’s classified Satellite Photo Reconnaissance Program, publicly called Discoverer. Discoverer XIII’s successful 10 August 1960 launch recovered more than 3,000 feet of reconnaissance film; the National Reconnaissance Office was formed that year.
+- **Answer:** Corona was Eisenhower’s classified Satellite Photo Reconnaissance Program, publicly called Discoverer. Discoverer XIII’s successful 10 August 1960 launch acquired more than 3,000 feet of reconnaissance film; the National Reconnaissance Office was formed that year.
 - **Source:** AFH 1, ¶2.23
 - **Tags:** SSgt; TSgt; 2D; A—Remembering
 
@@ -554,13 +554,13 @@
 
 ### C02-FC-090
 - **Prompt:** What warning and conclusion came from the 2001 Space Commission?
-- **Answer:** The Donald Rumsfeld-led commission warned of a surprise “space Pearl Harbor” against U.S. military space assets and concluded that U.S. security and economic well-being require the ability to operate successfully and prevail in space.
+- **Answer:** The Donald Rumsfeld-led commission warned of a surprise “space Pearl Harbor” against U.S. military space assets and concluded that U.S. security and economic well-being depend on the ability to operate successfully in space—and, if deterrence fails, to prevail in conflict.
 - **Source:** AFH 1, ¶2.25
 - **Tags:** SSgt; TSgt; 2D; A—Remembering
 
 ### C02-FC-091
-- **Prompt:** What happened in China’s 11 January 2007 anti-satellite test?
-- **Answer:** China’s first successful direct-ascent ASAT test destroyed one of its own satellites, creating debris that increased risks to low-Earth-orbit satellites and crewed missions in an increasingly competitive, congested, and contested domain.
+- **Prompt:** What ¶2.26 points does AFH 1 make about contested space and China’s 11 January 2007 anti-satellite test?
+- **Answer:** Space had become competitive, congested, and contested, and the United States would continue to be tested by competing programs or attempts to restrict U.S. space activities. China’s first successful direct-ascent ASAT test destroyed one of its own satellites, creating debris that increased risks to low-Earth-orbit satellites and crewed missions.
 - **Source:** AFH 1, ¶2.26
 - **Tags:** SSgt; TSgt; 2D; A—Remembering
 
@@ -631,10 +631,13 @@
 ## Source ambiguities and volatility
 
 - **¶2.4 personnel limits:** The paragraph describes 60 officers and 260 enlisted men, then limits total personnel to 40 with no more than 12 enlisted. Card 021 preserves both rather than reconciling them.
+- **¶2.5 place name:** The source prints “the Casa Grandes” in Chihuahua; do not silently normalize to “Casas Grandes.” Card 023 retains the expedition result without rewriting the place name.
 - **¶¶2.6–2.7 early-war claims:** The source attributes Franz Ferdinand’s assassination to “Yugoslav forces,” states that more than 70 million lives were lost by November 1918, and credits Garros’s deflector system with the first aerial victory. These are source formulations, not independently adjudicated claims.
 - **¶2.9 names and war-end framing:** The source varies between “Martin-Curtiss” and “Martin-Curtis” NBS-1 and distinguishes the 1918 Armistice from memorials using the 1919 Versailles Treaty. Cards retain the substantive source answer without normalizing those details.
+- **¶2.10 / ¶2.15 singular or clipped forms:** The source prints “Army Air Force School of Applied Tactics” and “Reserve Officer Training Corp” (singular “Corp”); preserve those printed forms rather than silently expanding them.
 - **¶2.15 discrimination and inclusion chronology:** The source broadly describes Executive Order 8802 as prohibiting discrimination “within the services” while also saying it did not end segregation. Its Tuskegee chronology, unit labels, aircraft sequence, and totals are preserved as printed.
-- **¶2.16 operation spelling and totals:** The source spells the British food mission “Operation Mana”; other references may use a different spelling. Operation Argument, Normandy, Combined Bomber Offensive, and Chowhound figures remain source-bound estimates.
+- **¶2.16 organization form, operation spelling, and totals:** The source twice prints singular “U.S. Army Air Force” in count statements and spells the British food mission “Operation Mana”; other references may use different forms. Operation Argument, Normandy, Combined Bomber Offensive, and Chowhound figures remain source-bound estimates.
 - **¶2.18 atomic-era framing:** The 1896 uranium/radiation wording, casualty figures, surrender framing, and account of the 1946 UN plan are retained from the assigned text.
+- **¶2.26 contested-space wording:** The source includes the phrase “nearspace peers”; treat it as a flagged source/extraction form and do not invent a definition. Card 091 covers the contested framing, restriction attempts, and ASAT facts without defining that phrase.
 - **¶¶2.22, 2.28 current facts:** Launch-base names, organizational control, force size, and statutory codification can change. In ¶2.28, the 20 December 2019 signing date appears beside the unclear phrase “Title 10 U.S.C., Ch. 908, U.S. Space Force Act, 1 January 2021”; Card 094 preserves and flags it.
 - **¶2.28 USAFSAM wording:** The source spells “Operation Paper Clip” as three words and says a 1959 monkey flight occurred “less than a year” after Farrell’s February 1958 simulation, an interval that is not reconcilable as printed. Both belong to the exam-source track and should not be silently rewritten.
