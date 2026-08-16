@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RemindersView: View {
     @Environment(AppState.self) private var appState
+    @Environment(PurchaseService.self) private var purchaseService
     @Environment(ReadinessTrackerStore.self) private var readinessTrackerStore
     @Environment(WARTrackerStore.self) private var warTrackerStore
     @Binding var selectedTab: Int
@@ -35,7 +36,9 @@ struct RemindersView: View {
     private func remindersContent(for base: Base) -> some View {
         let tracker = readinessTrackerStore.tracker(for: base.id)
         let readinessReminders = ReadinessReminderBuilder.reminders(from: tracker)
-        let awardDeadlines = warTrackerStore.deadlines(for: base.id)
+        let awardDeadlines = purchaseService.hasWARPro
+            ? warTrackerStore.deadlines(for: base.id)
+            : []
         let hasAnyReminders = !readinessReminders.isEmpty || !awardDeadlines.isEmpty
 
         ScrollView {

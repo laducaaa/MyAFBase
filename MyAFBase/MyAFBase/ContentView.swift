@@ -125,8 +125,15 @@ struct ContentView: View {
             Task { await syncHomeWidgets(using: stores) }
         }
         .onChange(of: stores.warTrackerStore.changeToken) { _, _ in
+            guard purchaseService.hasWARPro else { return }
             guard let base = appState.currentBase else { return }
             HomeWidgetSync.publishWARTracker(baseID: base.id, store: stores.warTrackerStore)
+        }
+        .onChange(of: purchaseService.hasLoadedCustomerInfo) { _, _ in
+            Task { await syncWARTracker(using: stores) }
+        }
+        .onChange(of: purchaseService.hasWARPro) { _, _ in
+            Task { await syncWARTracker(using: stores) }
         }
         .baseNavigationToolbar(showBasePicker: $showBasePicker)
         .sheet(isPresented: $showBasePicker) {
@@ -243,7 +250,15 @@ struct ContentView: View {
 
     @MainActor
     private func syncWARTracker(using stores: AppStores) async {
+        guard purchaseService.hasLoadedCustomerInfo else { return }
         WARRetentionService.purgeExpiredEntries(store: stores.warTrackerStore)
+
+        guard purchaseService.hasWARPro else {
+            await WARNotificationService.cancelAll()
+            HomeWidgetSync.resetWARTracker()
+            return
+        }
+
         await WARNotificationService.rescheduleDailyNudge()
         await WARNotificationService.rescheduleWeeklyReminder()
         await WARNotificationService.rescheduleDeadlineReminders(stores.warTrackerStore.allDeadlines()) { baseID in

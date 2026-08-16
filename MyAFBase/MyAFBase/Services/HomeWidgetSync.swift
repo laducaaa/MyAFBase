@@ -49,6 +49,12 @@ enum HomeWidgetSync {
         WidgetDataStore.saveWARTracker(snapshot)
         WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.warQuickLog)
     }
+
+    @MainActor
+    static func resetWARTracker() {
+        WidgetDataStore.saveWARTracker(.placeholder)
+        WidgetCenter.shared.reloadTimelines(ofKind: WidgetKinds.warQuickLog)
+    }
 }
 
 @MainActor
