@@ -4,6 +4,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(AppState.self) private var appState
+    @Environment(PurchaseService.self) private var purchaseService
     @Environment(\.modelContext) private var modelContext
 
     private let injectedStores: AppStores?
@@ -124,8 +125,15 @@ struct ContentView: View {
             Task { await syncHomeWidgets(using: stores) }
         }
         .onChange(of: stores.warTrackerStore.changeToken) { _, _ in
+            guard purchaseService.hasWARPro else { return }
             guard let base = appState.currentBase else { return }
             HomeWidgetSync.publishWARTracker(baseID: base.id, store: stores.warTrackerStore)
+        }
+        .onChange(of: purchaseService.hasLoadedCustomerInfo) { _, _ in
+            Task { await syncWARTracker(using: stores) }
+        }
+        .onChange(of: purchaseService.hasWARPro) { _, _ in
+            Task { await syncWARTracker(using: stores) }
         }
         .baseNavigationToolbar(showBasePicker: $showBasePicker)
         .sheet(isPresented: $showBasePicker) {
@@ -135,10 +143,31 @@ struct ContentView: View {
             get: { appState.showWARQuickLog },
             set: { appState.showWARQuickLog = $0 }
         )) {
-            WARQuickAddSheet(
-                baseID: appState.currentBase?.id ?? "",
-                initialText: appState.pendingWARQuickLogText
-            )
+            Group {
+                if !purchaseService.hasLoadedCustomerInfo {
+                    NavigationStack {
+                        ProgressView("Checking WAR Tracker Pro access…")
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .appScreenBackground()
+                            .navigationTitle("WAR Tracker")
+                            .navigationBarTitleDisplayMode(.inline)
+                            .toolbar {
+                                ToolbarItem(placement: .cancellationAction) {
+                                    Button("Close") {
+                                        appState.showWARQuickLog = false
+                                    }
+                                }
+                            }
+                    }
+                } else if purchaseService.hasWARPro {
+                    WARQuickAddSheet(
+                        baseID: appState.currentBase?.id ?? "",
+                        initialText: appState.pendingWARQuickLogText
+                    )
+                } else {
+                    WARProPaywallView()
+                }
+            }
             .environment(stores.warTrackerStore)
         }
         .fullScreenCover(isPresented: $showOnboarding) {
@@ -221,7 +250,15 @@ struct ContentView: View {
 
     @MainActor
     private func syncWARTracker(using stores: AppStores) async {
+        guard purchaseService.hasLoadedCustomerInfo else { return }
         WARRetentionService.purgeExpiredEntries(store: stores.warTrackerStore)
+
+        guard purchaseService.hasWARPro else {
+            await WARNotificationService.cancelAll()
+            HomeWidgetSync.resetWARTracker()
+            return
+        }
+
         await WARNotificationService.rescheduleDailyNudge()
         await WARNotificationService.rescheduleWeeklyReminder()
         await WARNotificationService.rescheduleDeadlineReminders(stores.warTrackerStore.allDeadlines()) { baseID in

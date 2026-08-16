@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B622729A0000000000000001 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = B622729A0000000000000003 /* RevenueCat */; };
 		W1D2E3E22FE90001009E8970 /* ReadinessWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = W1D2E3T32FE90001009E8970 /* ReadinessWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B622729A0000000000000001 /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,7 @@
 			);
 			name = MyAFBase;
 			packageProductDependencies = (
+				B622729A0000000000000003 /* RevenueCat */,
 			);
 			productName = MyAFBase;
 			productReference = 46E9580D2FE8478A009E8970 /* MyAFBase.app */;
@@ -234,6 +237,9 @@
 			);
 			mainGroup = 46E958042FE8478A009E8970;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B622729A0000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 46E9580E2FE8478A009E8970 /* Products */;
 			projectDirPath = "";
@@ -649,6 +655,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B622729A0000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.83.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B622729A0000000000000003 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B622729A0000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46E958052FE8478A009E8970 /* Project object */;
 }

@@ -13,6 +13,7 @@ private struct WARQuickAddContext: Identifiable {
 /// Home tool tile.
 struct WARTrackerToolView: View {
     @Environment(AppState.self) private var appState
+    @Environment(PurchaseService.self) private var purchaseService
     @Environment(WARTrackerStore.self) private var store
     @Environment(\.scenePhase) private var scenePhase
 
@@ -22,6 +23,7 @@ struct WARTrackerToolView: View {
     @State private var showSettings = false
     @State private var showReports = false
     @State private var showAwardDeadlines = false
+    @State private var showWARProPaywall = false
     @State private var lockState = WARLockState()
     @State private var weekDirection = 1
 
@@ -38,6 +40,39 @@ struct WARTrackerToolView: View {
 
     var body: some View {
         Group {
+            if !purchaseService.hasLoadedCustomerInfo {
+                accessLoadingView
+            } else if purchaseService.hasWARPro {
+                securedTrackerContent
+            } else {
+                WARProLockedView {
+                    showWARProPaywall = true
+                }
+            }
+        }
+        .sheet(isPresented: $showWARProPaywall) {
+            WARProPaywallView()
+        }
+        .onAppear {
+            presentPaywallIfNeeded()
+        }
+        .onChange(of: purchaseService.hasLoadedCustomerInfo) { _, _ in
+            presentPaywallIfNeeded()
+        }
+        .onChange(of: purchaseService.hasWARPro) { _, hasWARPro in
+            if hasWARPro {
+                showWARProPaywall = false
+            }
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .background {
+                lockState.lockIfNeeded()
+            }
+        }
+    }
+
+    private var securedTrackerContent: some View {
+        Group {
             if lockState.isUnlocked {
                 trackerContent
                     .transition(WARMotion.screenTransition)
@@ -48,11 +83,28 @@ struct WARTrackerToolView: View {
         }
         .animation(WARMotion.spring, value: lockState.isUnlocked)
         .task { await lockState.attemptUnlock() }
-        .onChange(of: scenePhase) { _, phase in
-            if phase == .background {
-                lockState.lockIfNeeded()
-            }
+    }
+
+    private var accessLoadingView: some View {
+        VStack(spacing: 12) {
+            ProgressView()
+                .controlSize(.large)
+            Text("Checking WAR Tracker Pro access…")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .appScreenBackground()
+        .navigationTitle("WAR Tracker")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func presentPaywallIfNeeded() {
+        guard purchaseService.hasLoadedCustomerInfo,
+              !purchaseService.hasWARPro else {
+            return
+        }
+        showWARProPaywall = true
     }
 
     private var trackerContent: some View {
@@ -365,6 +417,7 @@ enum WARDateMath {
         WARTrackerToolView()
     }
     .environment(AppState())
+    .environment(PurchaseService(hasWARPro: true, hasLoadedCustomerInfo: true))
     .environment(WARTrackerStore(modelContext: ModelContainerFactory.preview().mainContext))
 }
 #endif
