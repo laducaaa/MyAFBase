@@ -4,6 +4,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(AppState.self) private var appState
+    @Environment(PurchaseService.self) private var purchaseService
     @Environment(\.modelContext) private var modelContext
 
     private let injectedStores: AppStores?
@@ -135,10 +136,31 @@ struct ContentView: View {
             get: { appState.showWARQuickLog },
             set: { appState.showWARQuickLog = $0 }
         )) {
-            WARQuickAddSheet(
-                baseID: appState.currentBase?.id ?? "",
-                initialText: appState.pendingWARQuickLogText
-            )
+            Group {
+                if !purchaseService.hasLoadedCustomerInfo {
+                    NavigationStack {
+                        ProgressView("Checking WAR Tracker Pro access…")
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .appScreenBackground()
+                            .navigationTitle("WAR Tracker")
+                            .navigationBarTitleDisplayMode(.inline)
+                            .toolbar {
+                                ToolbarItem(placement: .cancellationAction) {
+                                    Button("Close") {
+                                        appState.showWARQuickLog = false
+                                    }
+                                }
+                            }
+                    }
+                } else if purchaseService.hasWARPro {
+                    WARQuickAddSheet(
+                        baseID: appState.currentBase?.id ?? "",
+                        initialText: appState.pendingWARQuickLogText
+                    )
+                } else {
+                    WARProPaywallView()
+                }
+            }
             .environment(stores.warTrackerStore)
         }
         .fullScreenCover(isPresented: $showOnboarding) {

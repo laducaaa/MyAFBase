@@ -33,10 +33,15 @@ enum PreviewSupport {
 
 struct ContentViewPreviewHost: View {
     @State private var appState = PreviewSupport.makeAppState()
+    @State private var purchaseService = PurchaseService(
+        hasWARPro: true,
+        hasLoadedCustomerInfo: true
+    )
 
     var body: some View {
         ContentView(stores: PreviewSupport.stores)
             .environment(appState)
+            .environment(purchaseService)
             .modelContainer(PreviewSupport.modelContainer)
             .task {
                 if appState.currentBase == nil {
