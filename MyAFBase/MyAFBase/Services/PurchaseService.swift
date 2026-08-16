@@ -81,7 +81,7 @@ final class PurchaseService {
     }
 
     func warProPackage() async throws -> Package {
-        let offerings = try await Purchases.shared.getOfferings()
+        let offerings = try await Purchases.shared.offerings()
 
         guard let current = offerings.current,
               current.identifier == RevenueCatConfiguration.warProOfferingIdentifier else {

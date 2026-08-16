@@ -221,7 +221,8 @@ struct WARProPaywallView: View {
             defer { operation = nil }
 
             do {
-                switch try await purchaseService.purchaseWARPro(package: package) {
+                let outcome = try await purchaseService.purchaseWARPro(package: package)
+                switch outcome {
                 case .purchased:
                     statusMessage = "Purchase complete. WAR Tracker Pro is unlocked."
                 case .cancelled:
