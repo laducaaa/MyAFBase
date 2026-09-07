@@ -7,7 +7,7 @@
   "wing": "423 ABG",
   "latitude": 52.3619,
   "longitude": -0.2214,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "alconbury-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -109,10 +109,10 @@
       "name": "Finance / Comptroller",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
+      "hours": "Mon-Fri 0900-1500 (closed for training every 2nd Tuesday)",
       "address": "RAF Alconbury, Huntingdon, United Kingdom",
-      "phone": "+44-1480-84-1110",
-      "url": "https://www.alconbury.af.mil/",
+      "phone": "+44-1480-84-3640",
+      "url": "https://www.501csw.usafe.af.mil/Finance/",
       "building": null
     },
     {
@@ -190,7 +190,7 @@
       "phone": "+44-1480-84-1110",
       "address": "RAF Alconbury, Huntingdon PE28 4WD, United Kingdom"
     },
-    "moreInfoURL": "https://www.alconbury.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.501csw.usafe.af.mil/",
     "sections": [
       {
         "id": "nc-1",

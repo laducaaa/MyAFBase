@@ -7,7 +7,7 @@
   "wing": "374 AW",
   "latitude": 35.7485,
   "longitude": 139.3483,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "yokota-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -50,7 +50,7 @@
     {
       "id": "gate-east-gate",
       "name": "East Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",

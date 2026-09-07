@@ -7,7 +7,7 @@
   "wing": "7 BW",
   "latitude": 32.4208,
   "longitude": -99.8546,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "dyess-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Arnold Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Only 24/7 gate. Visitor Control Center at 1518 E Arnold Blvd, Bldg 9265.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 9265)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-2200; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required. Phone: 325-696-2432.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-tye",
       "name": "Tye Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1730; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",

@@ -7,7 +7,7 @@
   "wing": "325 FW",
   "latitude": 30.0696,
   "longitude": -85.5756,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "tyndall-notif-real-id",
@@ -65,7 +65,7 @@
     {
       "id": "gate-tyndall",
       "name": "Tyndall Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with new gate complex completed January 2025 as part of hurricane recovery. Visitor passes can be issued after VCC hours.",
       "traffic": "high",
@@ -76,7 +76,7 @@
     {
       "id": "gate-airey",
       "name": "Airey Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access. Issues visitor passes when VCC is closed — all non-DoD guests require vetting.",
       "traffic": "moderate",
@@ -87,7 +87,7 @@
     {
       "id": "gate-sabre",
       "name": "Sabre Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 housing-area gate. Visitor Control Center located near Sabre Dr and Roosevelt Blvd off US Hwy 98.",
       "traffic": "moderate",
@@ -98,7 +98,7 @@
     {
       "id": "gate-commercial",
       "name": "Commercial Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed until further notice",
       "notes": "Commercial vehicle gate closed. Use Cleveland Gate (CVIA) for commercial traffic during posted hours.",
       "traffic": "low",
@@ -109,7 +109,7 @@
     {
       "id": "gate-cleveland-cvia",
       "name": "Cleveland Gate (CVIA)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1600",
       "notes": "Commercial vehicles only. Closed weekends and federal holidays.",
       "traffic": "low",
@@ -120,7 +120,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (VCC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0630-1530",
       "notes": "Visitor passes and vetting for all non-DoD guests. Trusted Traveler suspended — no vouching at gate. After-hours passes issued at Airey Gate. REAL ID required.",
       "traffic": "moderate",

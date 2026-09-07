@@ -7,7 +7,7 @@
   "wing": "62 AW",
   "latitude": 47.1377,
   "longitude": -122.476,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "jblm-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-mcchord-main",
       "name": "McChord Field Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 McChord Field access via I-5 Exit 125 (Bridgeport Way). Visitor Control Center located adjacent to Main Gate. Call 253-982-2119 for visitor pass coordination.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-mcchord-vcc",
       "name": "McChord Field Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-1930",
       "notes": "Visitor passes and DBIDS registration. Located outside McChord Main Gate off I-5 Exit 125. After-hours visitors processed at Main Gate guard shack.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-mcchord-barnes",
       "name": "McChord Field Barnes Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2000",
       "notes": "Secondary McChord Field access via Perimeter Road, approximately ½ mile from Lincoln Boulevard Gate exit of Lewis Main.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-mcchord-commercial",
       "name": "McChord Field Commercial Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1700",
       "notes": "Commercial vehicle and contractor access on McChord Field. Closed weekends and federal holidays.",
       "traffic": "low",
@@ -93,7 +93,7 @@
     {
       "id": "gate-lewis-liberty",
       "name": "Lewis Main Liberty Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 Lewis Main access via I-5 Exit 120. Lewis Main Visitor Control Center (0500-2200 daily) located outside Liberty Gate. Joint base context for Army-side medical, housing, and services.",
       "traffic": "high",

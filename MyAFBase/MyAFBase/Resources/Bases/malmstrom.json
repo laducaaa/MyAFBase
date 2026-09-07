@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-10th",
       "name": "10th Ave Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with Visitor Control Center.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2200",
       "notes": "Visitor passes and base access. REAL ID required.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-2nd",
       "name": "2nd Ave Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",

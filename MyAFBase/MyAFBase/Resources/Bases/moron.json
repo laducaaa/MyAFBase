@@ -7,7 +7,7 @@
   "wing": "496 ABS",
   "latitude": 37.1749,
   "longitude": -5.6159,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "moron-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary entry point. Visitor processing and Pass & ID located nearby. Taxis drop off/pick up only at gate.",
       "traffic": "moderate",

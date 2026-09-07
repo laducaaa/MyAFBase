@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "South Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. Visitor Control Center at South Gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday access for authorized personnel.",
       "traffic": "low",

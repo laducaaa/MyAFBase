@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Falcon Road)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. After-hours visitor passes issued here when VCC closed (up to 72 hours).",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-south",
       "name": "South Gate (Challenger Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1700; closed weekends and federal holidays",
       "notes": "Weekday commuter gate on Challenger Boulevard.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-jasmine",
       "name": "Jasmine Gate (North)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 north-side gate. Convenient for Friendship and Martha communities.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1700; closed weekends and federal holidays",
       "notes": "Located outside South Gate. Day passes up to 14 days. REAL ID required. Phone: 580-481-6340.",
       "traffic": "moderate",

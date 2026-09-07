@@ -7,7 +7,7 @@
   "wing": "2 BW",
   "latitude": 32.5018,
   "longitude": -93.6627,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "barksdale-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-west",
       "name": "Shreveport (West) Gate — Main",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with West Gate Visitor Center (0600-2200 daily). After-hours passes at gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc-west",
       "name": "West Gate Visitor Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2200",
       "notes": "REAL ID required. Phone: 318-456-3587.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-north",
       "name": "Bossier (North) Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1745; Sat 0800-1400; closed Sun",
       "notes": "Weekday and Saturday access.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-bodcau",
       "name": "Bodcau (South) Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Thu 0430-2359; Fri-Sun 0430-0100",
       "notes": "Extended weekend hours.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-east",
       "name": "Industrial (East) Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0545-1745; passenger inbound Mon-Fri 0630-0800 only",
       "notes": "Commercial and limited passenger access. East VCC Mon-Fri 0600-1745.",
       "traffic": "low",

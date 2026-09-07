@@ -4,10 +4,10 @@
   "fullName": "Joint Base San Antonio-Randolph",
   "location": "Universal City, TX",
   "description": "The Showplace of the Air Force — home of HQ Air Education and Training Command (AETC) and the 12th Flying Training Wing. Premier pilot-training base since 1930.",
-  "wing": "AETC HQ / 12 FTW / 902 ABW",
+  "wing": "AETC HQ / 12 FTW / 502 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main-randolph",
       "name": "Main Gate (Pat Booker Rd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access from Pat Booker Road / I-35. Visitor processing available.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-east-randolph",
       "name": "East Gate (FM 1516)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Alternate access from FM 1516.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-west-randolph",
       "name": "West Gate (Kitty Hawk Rd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Alternate access; closed weekends.",
       "traffic": "low",

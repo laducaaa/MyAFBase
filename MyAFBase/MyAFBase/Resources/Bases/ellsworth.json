@@ -7,7 +7,7 @@
   "wing": "28 BW",
   "latitude": 44.145,
   "longitude": -103.1036,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "ellsworth-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-liberty",
       "name": "Liberty Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Only 24/7 gate. Visitor Control Center located here. Use for RV/FamCamp access.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-bismarck",
       "name": "Bismarck Gate (Commercial)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter and commercial gate near I-90.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-patriot",
       "name": "Patriot Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate near I-90. Restricted to authorized personnel without VCC pass.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Liberty Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat-Sun 0900-1700",
       "notes": "Day passes and visitor registration. REAL ID required. Phone: 605-385-2895.",
       "traffic": "moderate",

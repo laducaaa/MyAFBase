@@ -48,7 +48,7 @@
     {
       "id": "gate-truman",
       "name": "Truman Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with Visitor Control Center. After-hours visitor passes processed here.",
       "traffic": "high",
@@ -59,7 +59,7 @@
     {
       "id": "gate-vcc",
       "name": "Truman Gate Visitor Control Center (VCC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Day passes, visitor registration, and after-hours unofficial visitor passes. REAL ID required. Phone: 505-846-7509.",
       "traffic": "moderate",
@@ -70,7 +70,7 @@
     {
       "id": "gate-eubank",
       "name": "Eubank Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access for authorized personnel. Phone: 505-846-6231.",
       "traffic": "moderate",
@@ -81,7 +81,7 @@
     {
       "id": "gate-maxwell",
       "name": "Maxwell Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access for authorized personnel. Phone: 505-846-7491.",
       "traffic": "moderate",
@@ -92,7 +92,7 @@
     {
       "id": "gate-gibson",
       "name": "Gibson Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-2000; Sat-Sun & holidays 0800-2000",
       "notes": "Daily access with weekend/holiday hours. Phone: 505-846-7240.",
       "traffic": "moderate",
@@ -103,7 +103,7 @@
     {
       "id": "gate-wyoming",
       "name": "Wyoming Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1900; closed weekends and federal holidays",
       "notes": "Weekday commuter gate. Phone: 505-846-6118.",
       "traffic": "low",
@@ -114,7 +114,7 @@
     {
       "id": "gate-carlisle",
       "name": "Carlisle Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: 0530-0930 inbound only; 1530-1730 outbound only",
       "notes": "Limited weekday access. Closed weekends and federal holidays.",
       "traffic": "low",
@@ -125,7 +125,7 @@
     {
       "id": "gate-contractor",
       "name": "Kirtland Contractor Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1300; closed weekends and federal holidays",
       "notes": "Commercial traffic arriving outside these hours must use Truman Gate for searching. Mission-critical personnel use this gate during emergencies.",
       "traffic": "low",
@@ -496,5 +496,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T14:10:34Z"
+  "dataUpdatedAt": "2026-09-07T15:04:41Z"
 }

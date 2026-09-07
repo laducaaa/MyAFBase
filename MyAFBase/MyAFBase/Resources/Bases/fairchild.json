@@ -48,7 +48,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access with visitor processing. After-hours visitor passes issued here.",
       "traffic": "high",
@@ -59,7 +59,7 @@
     {
       "id": "gate-graham",
       "name": "Graham Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access for authorized personnel.",
       "traffic": "moderate",
@@ -70,7 +70,7 @@
     {
       "id": "gate-rambo",
       "name": "Rambo Road Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7 (personnel only)",
       "notes": "Restricted to military/DoD personnel — not open to general public visitors.",
       "traffic": "low",
@@ -81,7 +81,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 4203)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1600; closed weekends, federal holidays, and AMC Family Days",
       "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
@@ -441,5 +441,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T14:07:35Z"
+  "dataUpdatedAt": "2026-09-07T15:04:41Z"
 }

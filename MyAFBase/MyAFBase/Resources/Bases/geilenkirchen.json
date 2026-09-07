@@ -7,7 +7,7 @@
   "wing": "NATO E-3A",
   "latitude": 50.9608,
   "longitude": 6.0424,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "geilenkirchen-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",

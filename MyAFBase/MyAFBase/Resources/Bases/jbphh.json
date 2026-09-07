@@ -7,7 +7,7 @@
   "wing": "15 WG",
   "latitude": 21.339,
   "longitude": -157.954,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "jbphh-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-nimitz-gate-main",
       "name": "Nimitz Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -50,7 +50,7 @@
     {
       "id": "gate-makalapa-gate",
       "name": "Makalapa Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -61,7 +61,7 @@
     {
       "id": "gate-hickam-gate",
       "name": "Hickam Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "low",

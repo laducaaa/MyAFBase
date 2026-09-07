@@ -7,7 +7,7 @@
   "wing": "452 AMW",
   "latitude": 33.8806,
   "longitude": -117.2597,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "march-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-cactus-main",
       "name": "Cactus Ave Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 visitor and military access gate. Day passes issued at the gate; extended visitor access processed at the Visitor Control Center in Bldg 2370. REAL ID required.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-riverside",
       "name": "Riverside Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-1600",
       "notes": "Alternate gate for deliveries and DoD ID card holders 0600-1600 daily. Closed outside posted hours.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-meyer",
       "name": "Meyer Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-1600",
       "notes": "Alternate gate for deliveries and DoD ID card holders 0600-1600 daily. Closed outside posted hours.",
       "traffic": "low",
@@ -82,7 +82,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 2370)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600; UTA Sat 0700-1600",
       "notes": "Visitor passes, DBIDS registration, and extended base access. Closed federal holidays and non-UTA Saturdays. REAL ID required.",
       "traffic": "moderate",

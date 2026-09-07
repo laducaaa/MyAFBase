@@ -7,7 +7,7 @@
   "wing": "90 MW",
   "latitude": 41.1403,
   "longitude": -104.8652,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "fe-warren-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-5",
       "name": "Gate 5 (Central Ave)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access point. After-hours visitor pass issuance.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-1",
       "name": "Gate 1 (Randall Ave & Pershing Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed weekends, federal holidays, and AFGSC Family Days.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-2",
       "name": "Gate 2 (Missile Dr)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-0800 and 1600-1800",
       "notes": "Closed weekends, federal holidays, and AFGSC Family Days.",
       "traffic": "low",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 520)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-1800; closed federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required. Phone: 307-773-3694.",
       "traffic": "moderate",

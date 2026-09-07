@@ -7,7 +7,7 @@
   "wing": "501 CSW",
   "latitude": 51.6822,
   "longitude": -1.7906,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "fairford-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -100,19 +100,19 @@
       "description": "Fitness and wellness facility at RAF Fairford.",
       "hours": "See FSS for current hours",
       "address": "RAF Fairford, Fairford, United Kingdom",
-      "phone": "+44-1285-71-1110",
-      "url": "https://www.fairfordfss.com/fitness/",
-      "building": null
+      "phone": "+44-1285-71-4202",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": "187"
     },
     {
       "id": "res-fairford-finance",
       "name": "Finance / Comptroller",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
+      "hours": "Mon-Fri 0900-1500 (closed for training every 2nd Tuesday)",
       "address": "RAF Fairford, Fairford, United Kingdom",
-      "phone": "+44-1285-71-1110",
-      "url": "https://www.fairford.af.mil/",
+      "phone": "+44-1280-70-4130",
+      "url": "https://www.501csw.usafe.af.mil/Finance/",
       "building": null
     },
     {
@@ -122,9 +122,9 @@
       "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
       "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
       "address": "RAF Fairford, Fairford, United Kingdom",
-      "phone": "+44-1285-71-1110",
-      "url": "https://www.fairfordfss.com/",
-      "building": null
+      "phone": "+44-1285-71-4969",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": "1"
     },
     {
       "id": "res-fairford-fss",
@@ -190,7 +190,7 @@
       "phone": "+44-1285-71-1110",
       "address": "RAF Fairford, Fairford GL7 4DL, United Kingdom"
     },
-    "moreInfoURL": "https://www.fairford.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.501csw.usafe.af.mil/Pathfinder-Portal/RAF-Fairford-Welford/",
     "sections": [
       {
         "id": "nc-1",

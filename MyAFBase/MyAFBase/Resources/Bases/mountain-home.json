@@ -7,7 +7,7 @@
   "wing": "366 FW",
   "latitude": 43.0456,
   "longitude": -115.8724,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "mountain-home-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with Visitor Control Center.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",

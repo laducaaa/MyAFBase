@@ -4,10 +4,10 @@
   "fullName": "Scott Air Force Base",
   "location": "Belleville, IL",
   "description": "Home of Air Mobility Command HQ and the 375th Airlift Wing — the Showcase Wing. Scott commands and controls all U.S. military airlift and air refueling.",
-  "wing": "375 AW / AMC HQ",
+  "wing": "375 AMW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main-west",
       "name": "Main West Gate (Scott-Troy Rd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access from Scott-Troy Road. Visitor processing available.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-north",
       "name": "North Gate (Rieder Rd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-2200; Sat-Sun 0700-2200",
       "notes": "Access from Rieder Road on north side of base.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-south",
       "name": "South Gate (Lebanon Ave)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
       "notes": "Access from Lebanon Avenue. Closed weekends — use Main West or North Gate.",
       "traffic": "low",
@@ -82,7 +82,7 @@
     {
       "id": "gate-vcc-west",
       "name": "Visitor Control Center (West Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-2000; Sat-Sun 0700-1700",
       "notes": "New visitors and guests without base credentials stop here. REAL ID required.",
       "traffic": "moderate",

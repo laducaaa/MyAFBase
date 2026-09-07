@@ -7,7 +7,7 @@
   "wing": "SBD 1",
   "latitude": 38.8121,
   "longitude": -104.7006,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "peterson-notif-aragon-dfac",
@@ -57,7 +57,7 @@
     {
       "id": "gate-west-main",
       "name": "West Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate for inbound and outbound traffic.",
       "traffic": "high",
@@ -68,7 +68,7 @@
     {
       "id": "gate-east",
       "name": "East Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-1800; Sat-Sun 0800-1800",
       "notes": "Closed federal holidays and base down days.",
       "traffic": "moderate",
@@ -79,7 +79,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri inbound 0600-0900; outbound 0600-1800",
       "notes": "Closed weekends, federal holidays, and base down days. Allow extra commute time during construction.",
       "traffic": "low",
@@ -90,7 +90,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600",
       "notes": "Closed weekends, federal holidays, and base down days. Pre-register visitors via DBIDS/DVES. REAL ID required.",
       "traffic": "moderate",

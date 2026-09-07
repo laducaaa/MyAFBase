@@ -7,7 +7,7 @@
   "wing": "319 RW",
   "latitude": 47.9611,
   "longitude": -97.4012,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "grand-forks-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate with Visitor Control Center (Bldg 812). After-hours visitors report to Main Gate Bldg 144.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 812)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630; closed federal holidays, down days, and family days",
       "notes": "Day passes and visitor registration. Phone: 701-747-3587.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-south",
       "name": "Commercial (South) Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1900; closed weekends and federal holidays",
       "notes": "Commercial VCC Bldg 147 open Mon-Fri 0630-1700.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-eielson-school",
       "name": "Eielson School Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: inbound 0600-1530; outbound 1600-1800",
       "notes": "Limited weekday access on County Rd 3 north of Main Gate.",
       "traffic": "low",

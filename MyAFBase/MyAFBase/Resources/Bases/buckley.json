@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-mississippi",
       "name": "Mississippi Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. Can issue visitor passes when VCC is closed (up to 72 hours). Visitor Control Center located here.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-6th-ave",
       "name": "6th Avenue Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed weekends, federal holidays, and SBD 2 down days. Large Vehicle Inspection Point (LVIP) for moving vans east of this gate.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-telluride",
       "name": "Telluride Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed until further notice",
       "notes": "Gate closed until further notice.",
       "traffic": "low",
@@ -82,7 +82,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Mississippi Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500",
       "notes": "Walk-in only. Closed weekends, federal holidays, and SBD 2 down days. Pre-register visitors via DBIDS/DVES. REAL ID required.",
       "traffic": "moderate",

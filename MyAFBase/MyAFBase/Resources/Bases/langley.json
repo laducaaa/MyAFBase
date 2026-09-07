@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -44,7 +44,7 @@
     {
       "id": "gate-lasalle",
       "name": "LaSalle Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary gate with Visitor Control Center (Bldg 5). Daily 0700-1700 for visitor processing and passes.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-armistead",
       "name": "Armistead Gate (West)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access point. Useful for off-hours arrivals.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-king-street",
       "name": "King Street Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2000",
       "notes": "Secondary access point with limited hours.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc-langley",
       "name": "Visitor Control Center (Bldg 5)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0700-1700",
       "notes": "Day passes, visitor registration, and base access requests. Located outside LaSalle Gate.",
       "traffic": "moderate",

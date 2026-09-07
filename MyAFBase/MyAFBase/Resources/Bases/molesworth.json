@@ -5,9 +5,9 @@
   "location": "Huntingdon, United Kingdom",
   "description": "RAF Molesworth is part of the 423rd Air Base Group and hosts joint intelligence and support missions in partnership with RAF Alconbury.",
   "wing": "423 ABG",
-  "latitude": 52.3811,
-  "longitude": -0.4242,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "latitude": 52.3794,
+  "longitude": -0.405,
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "molesworth-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "low",
@@ -190,7 +190,7 @@
       "phone": "+44-1480-84-1110",
       "address": "RAF Molesworth, Huntingdon PE28 5QG, United Kingdom"
     },
-    "moreInfoURL": "https://www.molesworth.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.501csw.usafe.af.mil/",
     "sections": [
       {
         "id": "nc-1",

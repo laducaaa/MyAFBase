@@ -48,7 +48,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Bldg 3)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access on US 95. Visitor Control Center co-located at Main Gate.",
       "traffic": "high",
@@ -59,7 +59,7 @@
     {
       "id": "gate-east",
       "name": "East Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access east of Indian Springs. After-hours visitor passes at gate when VCC closed.",
       "traffic": "moderate",
@@ -70,7 +70,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1400; closed Sat-Sun and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required. Phone: 702-404-3694.",
       "traffic": "moderate",
@@ -310,5 +310,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T14:07:35Z"
+  "dataUpdatedAt": "2026-09-07T15:04:41Z"
 }

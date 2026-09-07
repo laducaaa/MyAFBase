@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-09-07T14:10:34Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-spirit",
       "name": "Spirit Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-south",
       "name": "South Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",

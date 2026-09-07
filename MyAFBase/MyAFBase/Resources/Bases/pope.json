@@ -1,13 +1,13 @@
 {
   "id": "pope",
-  "name": "Pope Field",
+  "name": "Pope Army Airfield",
   "fullName": "Pope Army Airfield",
   "location": "Fort Liberty, NC",
   "description": "Pope Army Airfield is an Air Force installation within Fort Liberty (formerly Fort Bragg), home to the 43rd Air Mobility Operations Group and supporting XVIII Airborne Corps airlift and joint special operations missions. Pope Field is an enclave on Army-controlled Fort Liberty — gate access, visitor passes, and many services depend on Fort Liberty access control points and MWR programs.",
   "wing": "43 AMOG",
   "latitude": 35.1708,
   "longitude": -79.0145,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "pope-notif-real-id",
@@ -62,7 +62,7 @@
     {
       "id": "gate-18-manchester",
       "name": "Gate 18 — Manchester Gate (Pope Field Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-2100",
       "notes": "Primary access point for Pope Field. Closed weekends and federal holidays. Does not issue visitor passes — non-DoD visitors must obtain passes at the Fort Liberty All-American Visitor Control Center first.",
       "traffic": "moderate",
@@ -73,7 +73,7 @@
     {
       "id": "gate-all-american",
       "name": "All-American Gate (Fort Liberty ACP 5)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary Fort Liberty access point for visitors and after-hours entry. Non-DoD personnel without a valid DoD ID must use this gate to receive a visitor pass when VCC is closed (2100-0500).",
       "traffic": "high",
@@ -84,7 +84,7 @@
     {
       "id": "gate-all-american-vcc",
       "name": "All-American Visitor Control Center (Fort Liberty VCC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2100",
       "notes": "Required stop for all non-DoD visitors to Fort Liberty and Pope Field. Bring valid REAL ID, vehicle registration, and proof of insurance. AIE IV registration takes 2-5 minutes during VCC hours.",
       "traffic": "high",
@@ -95,7 +95,7 @@
     {
       "id": "gate-knox-truck-plaza-vcc",
       "name": "Knox Truck Plaza VCC (Commercial)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-2100; Sat-Sun 0500-1300",
       "notes": "Commercial vendors and contractors use this VCC off Cook Street (ACP 16). Not for routine Pope Field visitor access.",
       "traffic": "low",
@@ -106,7 +106,7 @@
     {
       "id": "gate-reilly",
       "name": "Reilly Gate (Fort Liberty)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Fort Liberty gate providing alternate access to the Pope Field area. Valid installation pass or DoD ID required.",
       "traffic": "moderate",
@@ -117,7 +117,7 @@
     {
       "id": "gate-bragg-blvd",
       "name": "Main Gate — Bragg Blvd (Fort Liberty)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Fort Liberty main gate on Bragg Blvd. Pope Field personnel may use any open Fort Liberty ACP with valid credentials; verify current gate status on the Fort Liberty gate information page.",
       "traffic": "high",

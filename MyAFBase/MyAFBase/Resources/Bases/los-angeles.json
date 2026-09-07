@@ -1,13 +1,13 @@
 {
   "id": "los-angeles",
-  "name": "Los Angeles SFB",
-  "fullName": "Los Angeles Space Force Base",
+  "name": "Los Angeles AFB",
+  "fullName": "Los Angeles Air Force Base",
   "location": "El Segundo, CA",
   "description": "Los Angeles SFB is headquarters for Space Systems Command (SSC) and Space Base Delta 3 — a compact urban installation in the South Bay with no flightline. On-base family housing, recreation, and the Fort MacArthur housing annex in San Pedro (~20 miles south) are managed separately from the El Segundo campus.",
   "wing": "SBD 3 / SSC",
   "latitude": 33.9192,
   "longitude": -118.3853,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "los-angeles-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-douglas-st",
       "name": "Douglas Street Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate and main visitor access point. Visitor Control Center (Bldg 260) is located immediately left of the entrance. REAL ID required for visitors.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-aviation-blvd",
       "name": "Aviation Boulevard Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-0800 & 1530-1730",
       "notes": "Closed weekends and federal holidays. Commuter gate for El Segundo campus personnel.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-fort-macarthur-24th",
       "name": "Fort MacArthur 24th Street Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access to Fort MacArthur housing annex. Temporary visitor passes for housing areas issued at gate; may be delayed based on patrol response.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-fort-macarthur-30th",
       "name": "Fort MacArthur 30th Street Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access to Fort MacArthur housing and community facilities in San Pedro.",
       "traffic": "moderate",
@@ -93,7 +93,7 @@
     {
       "id": "gate-pacific-heights",
       "name": "Pacific Heights Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access to Pacific Heights housing area. Restricted to authorized military and DoD ID cardholders and registered visitors.",
       "traffic": "low",
@@ -104,7 +104,7 @@
     {
       "id": "gate-pacific-crest",
       "name": "Pacific Crest Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access to Pacific Crest housing area. Restricted to authorized military and DoD ID cardholders and registered visitors.",
       "traffic": "low",
@@ -115,7 +115,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Douglas Street Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500",
       "notes": "Issues temporary visitor passes, vehicle passes, and DBIDS credentials. Closed weekends, federal holidays, and family days. Fort MacArthur housing visitor passes issued 24/7 at housing gates.",
       "traffic": "moderate",

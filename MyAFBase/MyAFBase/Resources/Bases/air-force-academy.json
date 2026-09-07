@@ -7,7 +7,7 @@
   "wing": "10 ABW",
   "latitude": 38.9983,
   "longitude": -104.8614,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "air-force-academy-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-south",
       "name": "South Gate (Visitors / Non-DoD)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary gate for visitors and non-DoD personnel. Access via I-25 Exit 150. Pass & Registration Office located outside South Gate on the right side of the road. Trusted Traveler suspended — 100% ID checks.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-north",
       "name": "North Gate (DoD ID Encouraged)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2200",
       "notes": "DoD ID cardholders encouraged. Access via I-25 Exit 156. Sponsored visitors may also use this gate during posted hours. 100% ID checks in effect.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-pass-registration",
       "name": "Pass & Registration Office (South Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1500",
       "notes": "Located outside South Gate via I-25 Exit 150. Weekends reserved for events, cadet visitors, and housing guests only. Closed for training on the third Tuesday of each month. Plan 1–2 hour wait times during peak periods. REAL ID required.",
       "traffic": "high",
@@ -77,7 +77,7 @@
     {
       "id": "gate-visitor-center",
       "name": "USAFA Visitor Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "See usafa.edu for current hours",
       "notes": "Visitor information, cadet area tours, and base access guidance. All visitors without DoD ID require a sponsored pass — Trusted Traveler suspended.",
       "traffic": "moderate",

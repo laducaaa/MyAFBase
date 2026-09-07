@@ -38,7 +38,7 @@
     "id": "buckley",
     "name": "Buckley SFB",
     "location": "Aurora, CO",
-    "wing": "SD 4",
+    "wing": "SBD 2 / SD 4",
     "region": "conus"
   },
   {
@@ -157,7 +157,7 @@
     "id": "hanscom",
     "name": "Hanscom AFB",
     "location": "Bedford, MA",
-    "wing": "66 ABW",
+    "wing": "66 ABG",
     "region": "conus"
   },
   {
@@ -232,7 +232,7 @@
   },
   {
     "id": "jblm",
-    "name": "JBLM McChord",
+    "name": "JBLM",
     "location": "Tacoma, WA",
     "wing": "62 AW",
     "region": "conus"
@@ -241,28 +241,28 @@
     "id": "lackland",
     "name": "JBSA Lackland",
     "location": "San Antonio, TX",
-    "wing": "37 TRW",
+    "wing": "37 TRW / 502 ABW",
     "region": "conus"
   },
   {
     "id": "randolph",
     "name": "JBSA-Randolph",
     "location": "Universal City, TX",
-    "wing": "AETC / 902 ABW",
+    "wing": "AETC HQ / 12 FTW / 502 ABW",
     "region": "conus"
   },
   {
     "id": "andrews",
     "name": "Joint Base Andrews",
     "location": "Camp Springs, MD",
-    "wing": "316 WG",
+    "wing": "316 WG / 89 AW",
     "region": "conus"
   },
   {
     "id": "charleston",
     "name": "Joint Base Charleston",
     "location": "North Charleston, SC",
-    "wing": "628 ABW",
+    "wing": "628 ABW / 437 AW",
     "region": "conus"
   },
   {
@@ -311,7 +311,7 @@
     "id": "los-angeles",
     "name": "Los Angeles AFB",
     "location": "El Segundo, CA",
-    "wing": "SSC",
+    "wing": "SBD 3 / SSC",
     "region": "conus"
   },
   {
@@ -325,7 +325,7 @@
     "id": "macdill",
     "name": "MacDill AFB",
     "location": "Tampa, FL",
-    "wing": "6 ARW",
+    "wing": "6 ARW / CENTCOM / SOCOM",
     "region": "conus"
   },
   {
@@ -346,7 +346,7 @@
     "id": "maxwell",
     "name": "Maxwell AFB",
     "location": "Montgomery, AL",
-    "wing": "42 ABW",
+    "wing": "42 ABW / AU / OTS",
     "region": "conus"
   },
   {
@@ -379,8 +379,8 @@
   },
   {
     "id": "moron",
-    "name": "Mor\u00f3n AB",
-    "location": "Mor\u00f3n de la Frontera, Spain",
+    "name": "Morón AB",
+    "location": "Morón de la Frontera, Spain",
     "wing": "496 ABS",
     "region": "oconus"
   },
@@ -395,7 +395,7 @@
     "id": "nellis",
     "name": "Nellis AFB",
     "location": "Las Vegas, NV",
-    "wing": "99 ABW",
+    "wing": "99 ABW / USAFWC / 57 WG",
     "region": "conus"
   },
   {
@@ -444,7 +444,7 @@
     "id": "croughton",
     "name": "RAF Croughton",
     "location": "Brackley, United Kingdom",
-    "wing": "501 CSW",
+    "wing": "422 ABG",
     "region": "oconus"
   },
   {
@@ -493,14 +493,14 @@
     "id": "schriever",
     "name": "Schriever SFB",
     "location": "Colorado Springs, CO",
-    "wing": "SD 9",
+    "wing": "SBD 41",
     "region": "conus"
   },
   {
     "id": "scott",
     "name": "Scott AFB",
     "location": "Belleville, IL",
-    "wing": "375 AMW",
+    "wing": "375 AMW / AMC HQ",
     "region": "conus"
   },
   {
@@ -535,7 +535,7 @@
     "id": "tinker",
     "name": "Tinker AFB",
     "location": "Oklahoma City, OK",
-    "wing": "72 ABW",
+    "wing": "72 ABW / AFSC",
     "region": "conus"
   },
   {
@@ -584,7 +584,7 @@
     "id": "wright-patterson",
     "name": "Wright-Patterson AFB",
     "location": "Dayton, OH",
-    "wing": "88 ABW",
+    "wing": "88 ABW / AFMC HQ",
     "region": "conus"
   },
   {

@@ -7,7 +7,7 @@
   "wing": "18 WG",
   "latitude": 26.3517,
   "longitude": 127.7692,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "kadena-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-gate-1-main",
       "name": "Gate 1 (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -50,7 +50,7 @@
     {
       "id": "gate-gate-2",
       "name": "Gate 2",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -61,7 +61,7 @@
     {
       "id": "gate-gate-5",
       "name": "Gate 5",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": null,
       "traffic": "low",

@@ -7,7 +7,7 @@
   "wing": "37 TRW / 502 ABW",
   "latitude": 29.3842,
   "longitude": -98.6181,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "lackland-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-chapman",
       "name": "JBSA-Chapman Training Annex Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access to Chapman Training Annex. Primary for many training units.",
       "traffic": "moderate",
@@ -60,7 +60,7 @@
     {
       "id": "gate-luke-east",
       "name": "Luke East Gate (Luke Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 primary visitor and resident gate. Luke East VCC open 24/7 for passes.",
       "traffic": "high",
@@ -71,7 +71,7 @@
     {
       "id": "gate-mcmullen",
       "name": "McMullen Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 gate serving west side and training areas.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-valley-hi",
       "name": "Valley Hi Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 gate with adjacent Visitor Control Center (Mon-Fri 0730-1630).",
       "traffic": "high",
@@ -93,7 +93,7 @@
     {
       "id": "gate-security-hill",
       "name": "Security Hill Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed weekends, federal holidays, and AETC family days.",
       "traffic": "low",
@@ -104,7 +104,7 @@
     {
       "id": "gate-selfridge-east",
       "name": "Selfridge East Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-1800",
       "notes": "Closed weekends and federal holidays.",
       "traffic": "low",
@@ -115,7 +115,7 @@
     {
       "id": "gate-growdon",
       "name": "Growdon Gate (Commercial)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-1700",
       "notes": "Commercial vehicle and limited access gate. Closed federal holidays; open on AETC family days.",
       "traffic": "low",

@@ -7,7 +7,7 @@
   "wing": "19 AW",
   "latitude": 34.9169,
   "longitude": -92.1497,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "little-rock-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-vandenberg",
       "name": "Vandenberg Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. After-hours visitor passes issued at Bldg 1502 (gate guard building). Trusted Traveler Program suspended — all visitors require a pass.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-arnold",
       "name": "Arnold Gate (Back Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-2200; Sat-Sun 0600-1800",
       "notes": "Alternate access on Arnold Road near AR-107. Closed federal holidays and Family Days.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-harris-road",
       "name": "Harris Road Gate (School Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-0830 & 1430-1630",
       "notes": "School gate for morning and afternoon school traffic. Closed weekends, holidays, and Family Days. School buses authorized search pit entry.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-marshall",
       "name": "Marshall Road Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Special events only",
       "notes": "Closed except during special events and gate closures. VCC parking accessed via Marshall Road at the traffic light outside Vandenberg Gate.",
       "traffic": "low",
@@ -93,7 +93,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 1508)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1630",
       "notes": "Visitor passes, DBIDS cards, extended passes, and Restricted Area Badges. Appointments recommended (0800-1600); required for RAB issuance. REAL ID required. Trusted Traveler suspended.",
       "traffic": "moderate",

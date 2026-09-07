@@ -7,7 +7,7 @@
   "wing": "60 AMW",
   "latitude": 38.2625,
   "longitude": -122.0261,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "travis-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Travis Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access with visitor processing.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Alternate access for west side facilities.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat 0700-1400; Sun closed",
       "notes": "Day passes and visitor registration at Main Gate area.",
       "traffic": "moderate",

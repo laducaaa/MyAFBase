@@ -7,7 +7,7 @@
   "wing": "78 ABW",
   "latitude": 32.6401,
   "longitude": -83.5919,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "robins-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-watson",
       "name": "Watson Gate (Gate 3)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate and only gate open nights, weekends, and holidays. Visitor Control Center in Bldg 219. Can issue visitor passes when VCC is closed (up to 72 hours).",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-green-st",
       "name": "Green Street Gate (Gate 1)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-1800",
       "notes": "Closed weekends and federal holidays. Popular weekday commuter gate for north Warner Robins and Centerville.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-russell-pkwy",
       "name": "Russell Parkway Gate (Gate 14)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2200",
       "notes": "Daily access gate serving Bonaire, Kathleen, Perry, and Byron corridors. Closed 2200-0500.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-truck",
       "name": "Truck Gate (Gate 4)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Commercial vehicle and truck traffic gate. Closed weekends and federal holidays.",
       "traffic": "low",
@@ -93,7 +93,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Gate 3)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0715-1630",
       "notes": "Passes and registration in Bldg 219 at Watson Gate. DBIDS background checks, contractor badges, and family passes. REAL ID required.",
       "traffic": "moderate",

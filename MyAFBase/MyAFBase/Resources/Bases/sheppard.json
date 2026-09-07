@@ -7,7 +7,7 @@
   "wing": "82 TRW",
   "latitude": 33.989,
   "longitude": -98.492,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "shepp-notif-1",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 entry point with visitor processing. Located off I-44 / State Hwy 240.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-missile-road",
       "name": "Missile Road Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1730",
       "notes": "Visitor Control Center located here. Closed weekends and holidays.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-clinic",
       "name": "Clinic Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: Inbound 0600-0800, Outbound 1600-1800",
       "notes": "Limited hours; inbound morning, outbound evening only.",
       "traffic": "low",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 1405)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0630-1630; closed holidays and 3rd Wednesday of each month",
       "notes": "Day passes and visitor registration. Walk-ins processed in order of arrival.",
       "traffic": "moderate",

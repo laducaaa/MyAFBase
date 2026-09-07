@@ -4,10 +4,10 @@
   "fullName": "Joint Base Andrews",
   "location": "Camp Springs, MD",
   "description": "Joint Base Andrews hosts the 316th Wing and provides priority airlift support for the President, Vice President, and senior leaders. Home of Air Force One.",
-  "wing": "316 WG",
+  "wing": "316 WG / 89 AW",
   "latitude": 38.8108,
   "longitude": -76.8669,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "andrews-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate at Joint Base Andrews.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat 0800-1600; closed Sun and federal holidays",
       "notes": "1832 Robert M Bond Dr. Phone: 301-981-0232.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-virginia",
       "name": "Virginia Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2100",
       "notes": "Alternate access gate.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-pearl-harbor",
       "name": "Pearl Harbor Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Inbound 0500-1600; Outbound 0500-1800",
       "notes": "Limited inbound/outbound hours.",
       "traffic": "low",
