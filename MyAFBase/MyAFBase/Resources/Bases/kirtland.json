@@ -345,7 +345,88 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "kirtland-pooch-plunge-2026-09-07",
+      "title": "Pooch Plunge",
+      "date": "2026-09-07T17:30:00",
+      "endDate": "2026-09-07T19:00:00",
+      "location": "ODR Pool",
+      "address": "22014 Club Rd SE BLDG 22014, Albuquerque, NM 87123",
+      "description": "End-of-season dog swim at ODR pool. Source: Kirtland Force Support calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-oil-change-workshop-2026-09-10",
+      "title": "Oil Change Workshop",
+      "date": "2026-09-10T14:00:00",
+      "endDate": "2026-09-10T16:00:00",
+      "location": "Kirtland AFB",
+      "address": "Albuquerque, NM",
+      "description": "Auto skills oil-change workshop. Source: Kirtland Force Support calendar.",
+      "category": "education"
+    },
+    {
+      "id": "kirtland-catch-cook-fishing-2026-09-12",
+      "title": "Catch and Cook Fishing Trip",
+      "date": "2026-09-12T07:00:00",
+      "endDate": "2026-09-12T15:00:00",
+      "location": "Outdoor Recreation",
+      "address": "North of Albuquerque, NM",
+      "description": "ODR fishing trip with catch-and-cook lunch. Source: Kirtland Force Support calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-bandelier-dayhike-2026-09-13",
+      "title": "Bandelier National Monument Dayhike",
+      "date": "2026-09-13T07:30:00",
+      "endDate": "2026-09-13T16:30:00",
+      "location": "Outdoor Recreation",
+      "address": "Bandelier National Monument, NM",
+      "description": "Strenuous ODR dayhike to Stone Lions area. Source: Kirtland Force Support calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-oktoberfest-2026-09-18",
+      "title": "Oktoberfest",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "Kirtland AFB",
+      "address": "Albuquerque, NM",
+      "description": "Base Oktoberfest community event. Source: Kirtland Force Support calendar.",
+      "category": "community"
+    },
+    {
+      "id": "kirtland-el-malpais-2026-09-19",
+      "title": "El Malpais Lava Tubes",
+      "date": "2026-09-19T07:00:00",
+      "endDate": "2026-09-19T17:00:00",
+      "location": "Outdoor Recreation",
+      "address": "El Malpais National Monument / Grants, NM",
+      "description": "ODR wilderness lava-tube exploration trip. Source: Kirtland Force Support calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-jemez-biking-2026-09-20",
+      "title": "Jemez Mountains Biking Trip",
+      "date": "2026-09-20T07:00:00",
+      "endDate": "2026-09-20T14:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Jemez Mountains, NM",
+      "description": "ODR downhill bike trip in the Jemez mountains. Source: Kirtland Force Support calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-trinity-site-tour-2026-09-29",
+      "title": "Trinity Site Tour",
+      "date": "2026-09-29T08:00:00",
+      "endDate": "2026-09-29T15:00:00",
+      "location": "Outdoor Recreation",
+      "address": "White Sands Missile Range, NM",
+      "description": "Guided Trinity Site tour via ODR (register by Sep 15). Source: Kirtland Force Support calendar.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Truman Gate Visitor Control Center",
@@ -415,5 +496,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T14:07:35Z"
+  "dataUpdatedAt": "2026-09-07T14:10:34Z"
 }

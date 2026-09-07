@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T14:10:34Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -378,6 +378,16 @@
       "address": "McConnell AFB, Wichita, KS 67221",
       "description": "5K run kicking off the Frontiers in Flight Air Show on the flight line.",
       "category": "fitness"
+    },
+    {
+      "id": "mcconnell-frontiers-in-flight-2026",
+      "title": "Frontiers in Flight Open House & Air Show",
+      "date": "2026-10-24",
+      "endDate": "2026-10-25",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Free public open house and air show headlined by the USAF Thunderbirds. Community source: Frontiers in Flight / Visit Wichita.",
+      "category": "community"
     }
   ],
   "newcomers": {

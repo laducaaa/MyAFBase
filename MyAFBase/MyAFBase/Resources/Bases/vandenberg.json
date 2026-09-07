@@ -7,7 +7,7 @@
   "wing": "SLD 30",
   "latitude": 34.742,
   "longitude": -120.5724,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:10:34Z",
   "currentNotifications": [
     {
       "id": "vandenberg-notif-real-id",
@@ -264,7 +264,48 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "vandenberg-galactic-trail-run-2026",
+      "title": "Galactic Trail Run",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T13:00:00",
+      "location": "Parade Grounds / Lake Canyon trails",
+      "address": "Vandenberg SFB, CA",
+      "description": "Space-themed 10K/20K trail run open to on- and off-base community (base access via registration). Source: 30 FSS.",
+      "category": "fitness"
+    },
+    {
+      "id": "vandenberg-pinnacles-day-trip-2026",
+      "title": "Pinnacles Day Trip and Hike",
+      "date": "2026-10-03T06:00:00",
+      "endDate": "2026-10-03T18:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Vandenberg SFB, CA",
+      "description": "ODR day trip and hike to Pinnacles. Public FSS calendar listing.",
+      "category": "recreation"
+    },
+    {
+      "id": "vandenberg-adventure-zipline-2026",
+      "title": "Adventure Course & Zipline Tour",
+      "date": "2026-10-10T09:00:00",
+      "endDate": "2026-10-10T16:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Vandenberg SFB, CA",
+      "description": "ODR adventure course and zipline tour. Public FSS calendar listing.",
+      "category": "recreation"
+    },
+    {
+      "id": "vandenberg-horseback-odr-2026",
+      "title": "Horseback Riding with ODR",
+      "date": "2026-11-07T09:00:00",
+      "endDate": "2026-11-07T14:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Vandenberg SFB, CA",
+      "description": "ODR horseback riding outing. Public FSS calendar listing.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

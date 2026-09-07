@@ -7,7 +7,7 @@
   "wing": "66 ABW",
   "latitude": 42.4571,
   "longitude": -71.289,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T14:10:34Z",
   "currentNotifications": [
     {
       "id": "hanscom-notif-real-id",
@@ -319,7 +319,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "hanscom-board-game-night-2026-09-09",
+      "title": "Board Game Night",
+      "date": "2026-09-09T17:30:00",
+      "endDate": "2026-09-09T19:30:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA 01731",
+      "description": "Free monthly board game night (ages 18+) at The Tavern. Source: 66 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "hanscom-trivia-night-2026-09-09",
+      "title": "Trivia Night",
+      "date": "2026-09-09T18:00:00",
+      "endDate": "2026-09-09T20:00:00",
+      "location": "Hanscom AFB",
+      "address": "Hanscom AFB, MA",
+      "description": "Trivia Night listed on 66 FSS calendar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-karaoke-2026-09-11",
+      "title": "Karaoke Night",
+      "date": "2026-09-11T19:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Hanscom AFB",
+      "address": "Hanscom AFB, MA",
+      "description": "Karaoke Night listed on 66 FSS calendar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-bingo-2026-09-15",
+      "title": "Bingo",
+      "date": "2026-09-15T18:00:00",
+      "endDate": "2026-09-15T20:00:00",
+      "location": "Hanscom AFB",
+      "address": "Hanscom AFB, MA",
+      "description": "Bingo night listed on 66 FSS calendar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-oktoberfest-2026",
+      "title": "Oktoberfest",
+      "date": "2026-09-18T15:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "Hanscom Fitness and Sports Center (Tennis Bubble)",
+      "address": "180 Marrett St, Hanscom AFB, MA 01731",
+      "description": "Free community Oktoberfest with food, live music, crafts, and games for those with base access. Source: 66 FSS.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Hanscom AFB Visitor Control Center",
