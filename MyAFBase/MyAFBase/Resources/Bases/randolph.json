@@ -7,7 +7,7 @@
   "wing": "AETC HQ / 12 FTW / 902 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -359,16 +359,6 @@
   ],
   "events": [
     {
-      "id": "evt-rand-1",
-      "title": "T-7A Red Hawk Pilot Training Milestone",
-      "date": "2026-07-25T10:00:00Z",
-      "endDate": "2026-07-25T14:00:00Z",
-      "location": "Randolph Flightline",
-      "address": "JBSA Randolph, TX 78150",
-      "description": "Milestone celebration for T-7A Red Hawk operational training.",
-      "category": "community"
-    },
-    {
       "id": "evt-rand-2",
       "title": "Randolph Air Show",
       "date": "2026-10-10T09:00:00Z",
@@ -376,6 +366,36 @@
       "location": "Flightline / Parade Grounds",
       "address": "JBSA Randolph, TX 78150",
       "description": "Annual air show open to the public. Arrive early for parking.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-pool-tournament-2026-09-18",
+      "title": "Pool Tournament (Kendrick Club)",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Kendrick Club / Gil's Pub",
+      "address": "JBSA-Randolph",
+      "description": "Free single-elimination pool tournament; JBSA Today. Also listed Oct 16.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-pool-tournament-2026-10-16",
+      "title": "Pool Tournament (Kendrick Club)",
+      "date": "2026-10-16",
+      "endDate": "2026-10-16",
+      "location": "Kendrick Club / Gil's Pub",
+      "address": "JBSA-Randolph",
+      "description": "October pool tournament date from JBSA Today series listing.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-first-fridays-2026-10-02",
+      "title": "First Fridays at Randolph Clubs",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Parr Club / Kendrick Club",
+      "address": "JBSA-Randolph",
+      "description": "First Fridays DJ nights; Sept 4 passed; Oct 2 listed on JBSA Today.",
       "category": "community"
     }
   ],

@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -286,7 +286,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "hurlburt-deep-sea-fishing-2026-09-19",
+      "title": "Deep-Sea Fishing",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
+      "description": "ODR deep-sea fishing trip; myhurlburt.com. Also lists Oct 17 / Nov 14 sessions.",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-paws-play-2026-09-25",
+      "title": "Paws & Play – Splash N Play Pool Party",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
+      "description": "Pool party with pets (vaccine/tag rules); myhurlburt.com.",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-nerf-wars-2026-09-28",
+      "title": "Nerf Wars at the Community Center",
+      "date": "2026-09-28",
+      "endDate": "2026-09-28",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
+      "description": "Free Nerf Wars for kids ages 12+; myhurlburt.com.",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-deep-sea-fishing-2026-10-17",
+      "title": "Deep-Sea Fishing",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
+      "description": "October deep-sea fishing session listed on series page.",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-deep-sea-fishing-2026-11-14",
+      "title": "Deep-Sea Fishing",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
+      "description": "November deep-sea fishing session listed on series page.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (VCC)",

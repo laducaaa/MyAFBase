@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -206,24 +206,24 @@
   ],
   "events": [
     {
-      "id": "ramstein-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Ramstein AB, Ramstein-Miesenbach, Germany",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "id": "ramstein-bazaar-2026-09-18",
+      "title": "62nd Annual Ramstein Bazaar",
+      "date": "2026-09-18",
+      "endDate": "2026-09-20",
+      "location": "Hangars 1 and 2, Ramstein AB",
+      "address": "Ramstein Air Base, Germany",
+      "description": "Annual Ramstein Bazaar (ROSC / 86 FSS community bazaar); Stripes Europe community coverage + ramsteinbazaar.org.",
       "category": "community"
     },
     {
-      "id": "ramstein-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Ramstein AB, Ramstein-Miesenbach, Germany",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
+      "id": "ramstein-uso-family-fright-night-2026-10-30",
+      "title": "USO Family Fright Night (supports FSS Fright Night)",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "USO Kaiserslautern / Ramstein area",
+      "address": "Ramstein AB AMC Passenger Terminal area, Germany",
+      "description": "USO Family Fright Night supporting FSS Fright Night; kaiserslautern.uso.org events.",
+      "category": "community"
     }
   ],
   "newcomers": {

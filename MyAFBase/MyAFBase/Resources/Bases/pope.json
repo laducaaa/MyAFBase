@@ -7,7 +7,7 @@
   "wing": "43 AMOG",
   "latitude": 35.1708,
   "longitude": -79.0145,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "pope-notif-real-id",
@@ -359,28 +359,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "pope-evt-newcomers",
-      "title": "M&FRC Newcomers Orientation",
-      "date": "2026-07-16T11:30:00Z",
-      "endDate": "2026-07-16T20:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "829 Stiner Rd, Pope Army Airfield, NC 28308",
-      "description": "Monthly newcomers orientation held on the third Wednesday — agency briefings, Fort Liberty resources, and Pope Field in-processing guidance.",
-      "category": "community"
-    },
-    {
-      "id": "pope-evt-tuition-assistance",
-      "title": "Tuition Assistance Brief",
-      "date": "2026-07-07T15:00:00Z",
-      "endDate": "2026-07-07T16:00:00Z",
-      "location": "Pope Education and Training Center",
-      "address": "829 Stiner St, Bldg 430, Pope Army Airfield, NC 28308",
-      "description": "Weekly tuition assistance briefing for eligible Airmen. Check pope43fss.com calendar for schedule.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Fort Liberty All-American Visitor Control Center",

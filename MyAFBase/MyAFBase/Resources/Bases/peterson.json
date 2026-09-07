@@ -7,7 +7,7 @@
   "wing": "SBD 1",
   "latitude": 38.8121,
   "longitude": -104.7006,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "peterson-notif-aragon-dfac",
@@ -356,23 +356,103 @@
   ],
   "events": [
     {
-      "id": "peterson-evt-freedom250",
-      "title": "Freedom 250 Celebration",
-      "date": "2026-07-02T16:00:00Z",
-      "endDate": "2026-07-02T22:00:00Z",
-      "location": "Peterson SFB",
-      "address": "Peterson SFB, Colorado Springs, CO 80914",
-      "description": "Base-wide family celebration with free food, live music, carnival rides, games, and historic vehicles.",
+      "id": "peterson-run-ruck-remember-2026-09-11",
+      "title": "Run, Ruck, Remember 5k/10k",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Peterson SFB Fitness",
+      "address": "Peterson SFB, CO",
+      "description": "5k/10k remembrance run; 21 FSS public calendar.",
       "category": "community"
     },
     {
-      "id": "peterson-evt-newcomers",
-      "title": "Newcomers Briefing (Right Start)",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "135 Dover St, Bldg 350, Peterson SFB, CO 80914",
-      "description": "Mandatory newcomers orientation for incoming personnel and families. All branches encouraged to attend.",
+      "id": "peterson-brick-battles-2026-09-11",
+      "title": "Brick Battles",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Peterson SFB",
+      "address": "Peterson SFB, CO",
+      "description": "Brick Battles community event; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-texas-holdem-2026-09-11",
+      "title": "Texas Hold'em Poker Night",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Colorado Pizza & Sports Grill",
+      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
+      "description": "Monthly Texas Hold'em; free to enter, 21+; 21 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-bike-and-wine-2026-09-12",
+      "title": "Bike and Wine",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Outdoor Adventure Programs",
+      "address": "Peterson SFB, CO",
+      "description": "OAP Bike and Wine trip; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-fall-craft-night-2026-09-18",
+      "title": "Fall Make & Take Craft Night",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Peterson Hub Community Center",
+      "address": "Peterson SFB, CO",
+      "description": "Fall craft night; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-eleven-mile-climbing-2026-09-19",
+      "title": "Eleven Mile Canyon Climbing Weekend",
+      "date": "2026-09-19",
+      "endDate": "2026-09-20",
+      "location": "Eleven Mile Canyon",
+      "address": "Colorado",
+      "description": "OAP climbing weekend; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-sup-trip-2026-09-26",
+      "title": "Fall Standup Paddleboarding Trip",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Outdoor Adventure Programs",
+      "address": "Peterson SFB / local waters",
+      "description": "Fall SUP trip; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-trivia-2026-09-16",
+      "title": "Trivia Night",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Colorado Pizza & Sports Grill / The Hub",
+      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
+      "description": "Trivia Night free for DoD ID cardholders; 21 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-trivia-2026-09-30",
+      "title": "Trivia Night",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "location": "Colorado Pizza & Sports Grill / The Hub",
+      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
+      "description": "Trivia Night; 21 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-deployed-family-dinner-2026-09-30",
+      "title": "Deployed Family Dinner",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "location": "Peterson SFB",
+      "address": "Peterson SFB, CO",
+      "description": "Deployed Family Dinner; 21 FSS calendar.",
       "category": "community"
     }
   ],

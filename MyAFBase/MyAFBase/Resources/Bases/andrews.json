@@ -7,7 +7,7 @@
   "wing": "316 WG",
   "latitude": 38.8108,
   "longitude": -76.8669,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "andrews-notif-real-id",
@@ -253,7 +253,68 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "andrews-music-movement-2026-09-07",
+      "title": "Music & Movement",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "JB Andrews Library / Lab programs",
+      "address": "Joint Base Andrews, MD",
+      "description": "Library Music & Movement; andrewsfss.com Lab events list.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-storytime-2026-09-09",
+      "title": "StoryTime",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD 20762",
+      "description": "Weekly StoryTime; 316 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-crafts-cocktails-2026-09-10",
+      "title": "Crafts & Cocktails",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "JB Andrews",
+      "address": "Joint Base Andrews, MD",
+      "description": "Crafts & Cocktails; andrewsfss.com Lab events.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-storytime-2026-09-16",
+      "title": "StoryTime",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD 20762",
+      "description": "Weekly StoryTime; andrewsfss.com event page.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-karaoke-2026-09-17",
+      "title": "Karaoke Night",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD 20762",
+      "description": "Karaoke Night (1st/3rd Thursday series); 316 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-nyc-bus-trip-2026-09-19",
+      "title": "NYC Bus Trip to Radio City Music Hall",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "ITT / Bus Trip",
+      "address": "Joint Base Andrews, MD",
+      "description": "NYC bus trip listed on andrewsfss.com Lab events.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

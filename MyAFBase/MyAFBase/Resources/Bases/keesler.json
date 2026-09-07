@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -368,44 +368,14 @@
   ],
   "events": [
     {
-      "id": "evt-1",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Wings Auditorium",
-      "address": "Bldg 4100, Keesler AFB, Biloxi, MS 39534",
-      "description": "Mandatory orientation for incoming personnel and families. Bring orders and ID cards.",
+      "id": "keesler-cruisin-2026-10-03",
+      "title": "Cruisin' Keesler",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "Keesler AFB",
+      "address": "Keesler AFB, MS",
+      "description": "Cruisin' Keesler listed on keesler81fss.com calendar (featured Oct 3).",
       "category": "community"
-    },
-    {
-      "id": "evt-2",
-      "title": "Base Family Fun Day",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Bay Breeze Event Center",
-      "address": "Keesler AFB, Biloxi, MS 39534",
-      "description": "Community event with food, games, live music, and family activities.",
-      "category": "family"
-    },
-    {
-      "id": "evt-3",
-      "title": "Freedom 5K Run",
-      "date": "2026-06-27T21:00:00Z",
-      "endDate": "2026-06-28T02:30:00Z",
-      "location": "Blake Fitness Center Track",
-      "address": "Bldg 4301, Keesler AFB, Biloxi, MS 39534",
-      "description": "Open to all authorized base personnel and families. Register at the fitness center.",
-      "category": "fitness"
-    },
-    {
-      "id": "evt-4",
-      "title": "Independence Day Celebration",
-      "date": "2026-07-04T22:00:00Z",
-      "endDate": "2026-07-05T01:00:00Z",
-      "location": "Bay Breeze Golf Course",
-      "address": "Keesler AFB, Biloxi, MS 39534",
-      "description": "Holiday celebration with food vendors and fireworks display.",
-      "category": "holiday"
     }
   ],
   "newcomers": {

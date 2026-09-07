@@ -345,18 +345,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "kirtland-evt-newcomers",
-      "title": "TEAM Kirtland Newcomers Orientation",
-      "date": "2026-07-15T13:30:00Z",
-      "endDate": "2026-07-15T18:00:00Z",
-      "location": "Mountain View Club",
-      "address": "Kirtland AFB, Albuquerque, NM 87117",
-      "description": "Monthly orientation and information fair for incoming personnel and spouses. Register through your CSS.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Truman Gate Visitor Control Center",
@@ -426,5 +415,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+  "dataUpdatedAt": "2026-09-07T14:07:35Z"
 }

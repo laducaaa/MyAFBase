@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -354,23 +354,43 @@
   ],
   "events": [
     {
-      "id": "davis-monthan-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "5355 E Granite St, Bldg 2441, Davis-Monthan AFB, Tucson, AZ 85707",
-      "description": "Orientation for incoming 355 WG personnel and families. Bring orders and ID cards.",
+      "id": "dm-pins-and-pals-2026-09-09",
+      "title": "Pins and Pals",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Thunder Alley / Bowling",
+      "address": "Davis-Monthan AFB, AZ",
+      "description": "Midweek bowling hangout series; dmforcesupport.com.",
       "category": "community"
     },
     {
-      "id": "davis-monthan-evt-right-start",
-      "title": "Right Start Newcomers Orientation",
-      "date": "2026-08-05T13:00:00Z",
-      "endDate": "2026-08-05T17:00:00Z",
-      "location": "355th Force Support Squadron",
-      "address": "Davis-Monthan AFB, Tucson, AZ 85707",
-      "description": "Monthly Right Start orientation covering gate access, housing, medical, and local area resources.",
+      "id": "dm-pins-and-pals-2026-09-16",
+      "title": "Pins and Pals",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Thunder Alley / Bowling",
+      "address": "Davis-Monthan AFB, AZ",
+      "description": "Pins and Pals Wednesday series; 355 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "dm-cosmic-bowling-2026-09-11",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Thunder Alley",
+      "address": "Davis-Monthan AFB, AZ",
+      "description": "Cosmic Bowling Fri/Sat series continues; dmforcesupport.com.",
+      "category": "community"
+    },
+    {
+      "id": "dm-friday-unwind-2026-09-11",
+      "title": "Friday Unwind",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Davis-Monthan AFB",
+      "address": "Davis-Monthan AFB, AZ",
+      "description": "Friday Unwind recurring program; September calendar.",
       "category": "community"
     }
   ],

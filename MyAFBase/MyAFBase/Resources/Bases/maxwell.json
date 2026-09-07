@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -378,23 +378,53 @@
   ],
   "events": [
     {
-      "id": "maxwell-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "55 S Mitchell St, Bldg 677, Maxwell AFB, AL 36112",
-      "description": "Orientation for incoming personnel and families at Maxwell and Gunter. All branches encouraged to attend.",
+      "id": "maxwell-911-stair-climb-2026-09-07",
+      "title": "9/11 Memorial Stair Climb Challenge",
+      "date": "2026-09-07",
+      "endDate": "2026-09-11",
+      "location": "Maxwell Fitness Center",
+      "address": "50 West Ash Building 841, Montgomery, AL 36112",
+      "description": "9/11 Memorial Stair Climb Challenge Sep 7–11; lifeatthemax.us.",
       "category": "community"
     },
     {
-      "id": "maxwell-evt-ots-graduation",
-      "title": "OTS Graduation Parade",
-      "date": "2026-08-08T14:00:00Z",
-      "endDate": "2026-08-08T16:00:00Z",
-      "location": "Officer Training School",
-      "address": "501 N LeMay Plaza, Maxwell AFB, AL 36112",
-      "description": "Officer Training School graduation ceremony. Sponsored guests only — closed base access required.",
+      "id": "maxwell-wing-wednesday-2026-09-09",
+      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Maxwell Club Pit",
+      "address": "Maxwell AFB, AL",
+      "description": "Wing Wednesday & Karaoke series; lifeatthemax.us FSS calendar overview.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-wing-wednesday-2026-09-16",
+      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Maxwell Club Pit",
+      "address": "Maxwell AFB, AL",
+      "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-parents-night-out-2026-09-18",
+      "title": "Give Parents a Break + Parents Night Out",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Maxwell AFB",
+      "address": "Maxwell AFB, AL",
+      "description": "Parents Night Out; lifeatthemax.us calendar overview.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-wing-wednesday-2026-09-23",
+      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
+      "date": "2026-09-23",
+      "endDate": "2026-09-23",
+      "location": "Maxwell Club Pit",
+      "address": "Maxwell AFB, AL",
+      "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
       "category": "community"
     }
   ],

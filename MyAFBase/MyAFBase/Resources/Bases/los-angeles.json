@@ -7,7 +7,7 @@
   "wing": "SBD 3 / SSC",
   "latitude": 33.9192,
   "longitude": -118.3853,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "los-angeles-notif-real-id",
@@ -445,38 +445,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "los-angeles-evt-independence-day",
-      "title": "Independence Day Celebration",
-      "date": "2026-07-04T00:00:00Z",
-      "endDate": "2026-07-05T01:00:00Z",
-      "location": "Fort MacArthur Community Center",
-      "address": "210 W 29th St, Bldg 403, Fort MacArthur, San Pedro, CA 90731",
-      "description": "Afternoon celebration with food, music, bounce houses, face painters, and family activities at the Community Center.",
-      "category": "community"
-    },
-    {
-      "id": "los-angeles-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "Bldg 272, Los Angeles SFB, El Segundo, CA 90245",
-      "description": "Orientation for incoming SSC and SBD 3 personnel and families. All branches encouraged to attend.",
-      "category": "community"
-    },
-    {
-      "id": "los-angeles-evt-fitness-challenge",
-      "title": "July Fitness Challenge: Helix Machine",
-      "date": "2026-07-01T07:00:00Z",
-      "endDate": "2026-07-31T23:00:00Z",
-      "location": "Los Angeles SFB Fitness Center",
-      "address": "Bldg 286, Los Angeles SFB, El Segundo, CA 90245",
-      "description": "Monthly fitness challenge at the El Segundo and Fort MacArthur fitness centers.",
-      "category": "fitness"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Los Angeles SFB Visitor Control Center",

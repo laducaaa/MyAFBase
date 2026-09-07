@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -370,16 +370,6 @@
   ],
   "events": [
     {
-      "id": "mcconnell-evt-star-spangled-splash",
-      "title": "Star-Spangled Splash & Car Show",
-      "date": "2026-06-27T23:00:00Z",
-      "endDate": "2026-06-28T02:00:00Z",
-      "location": "Robert J. Dole Community Center",
-      "address": "53476 Wichita St, McConnell AFB, KS 67221",
-      "description": "Annual summer car show with food trucks and family activities.",
-      "category": "community"
-    },
-    {
       "id": "mcconnell-evt-tanker-trot",
       "title": "Tanker Trot 5K",
       "date": "2026-10-24T14:30:00Z",
@@ -388,16 +378,6 @@
       "address": "McConnell AFB, Wichita, KS 67221",
       "description": "5K run kicking off the Frontiers in Flight Air Show on the flight line.",
       "category": "fitness"
-    },
-    {
-      "id": "mcconnell-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "53147 Kansas St #105, Bldg 732, McConnell AFB, KS 67221",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
-      "category": "community"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -294,7 +294,118 @@
       "building": "Bldg 1146"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "luke-movie-night-2026-09-11",
+      "title": "Movie Night",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Base Theater",
+      "address": "Luke AFB, AZ",
+      "description": "Movie Night at Base Theater; 56 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "luke-af-birthday-2026-09-18",
+      "title": "Air Force Birthday Celebration",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Club 56",
+      "address": "14000 Eagle St, Luke AFB, AZ 85309",
+      "description": "AF Birthday celebration with free cake; Club Five Six / 56 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "luke-22-a-day-challenge-2026-09",
+      "title": "Virtual 22 A Day Challenge",
+      "date": "2026-09-07",
+      "endDate": "2026-09-22",
+      "location": "Bryant Fitness Center",
+      "address": "Luke AFB, AZ",
+      "description": "Virtual 22 A Day Challenge through Sept 22; 56 FSS September calendar.",
+      "category": "community"
+    },
+    {
+      "id": "luke-labor-day-bball",
+      "title": "8th Annual Labor Day Basketball Tournament",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-07T20:00:00",
+      "location": "Bryant Fitness Center",
+      "address": "Luke AFB, AZ",
+      "description": "Final day of Labor Day basketball tournament (Sep 4–7); military ID cardholders.",
+      "category": "fitness"
+    },
+    {
+      "id": "luke-tower-challenge",
+      "title": "Tower 2 Tower Challenge",
+      "date": "2026-09-10T05:00:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "Bryant Fitness Center",
+      "address": "Luke AFB, AZ",
+      "description": "Stair-climber challenge (110 floors / 2,071 steps); open to DoW cardholders and interested civilians.",
+      "category": "fitness"
+    },
+    {
+      "id": "luke-911-run",
+      "title": "25th Anniversary: Never Forget Remembrance Run",
+      "date": "2026-09-11T06:00:00",
+      "endDate": "2026-09-11T09:30:00",
+      "location": "Falcon Dunes Golf Course (back 9)",
+      "address": "Luke AFB, AZ",
+      "description": "Remembrance run with trophies for 1st–3rd place female/male.",
+      "category": "fitness"
+    },
+    {
+      "id": "luke-grand-canyon",
+      "title": "Grand Canyon Day Trip",
+      "date": "2026-09-12T06:00:00",
+      "endDate": "2026-09-12T18:00:00",
+      "location": "Grand Canyon Visitor Center (South Entrance)",
+      "address": "Grand Canyon Village, AZ 86023",
+      "description": "ODR day trip for military & DoD ID cardholders.",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-doggie-pool",
+      "title": "Doggie Pool Party",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "Silver Wings Pool",
+      "address": "Luke AFB, AZ",
+      "description": "Free doggie pool party; RSVP via ODR.",
+      "category": "family"
+    },
+    {
+      "id": "luke-fort-tuthill-movie",
+      "title": "Fort Tuthill Movie Under the Stars",
+      "date": "2026-09-19T20:00:00",
+      "endDate": "2026-09-19T22:00:00",
+      "location": "Fort Tuthill",
+      "address": "Flagstaff area / Fort Tuthill, AZ",
+      "description": "Family-friendly outdoor movie; bring blankets and lawn chairs.",
+      "category": "entertainment"
+    },
+    {
+      "id": "luke-skyline-camp",
+      "title": "Skyline Regional Park Camping & Stargazing",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-26T11:00:00",
+      "location": "Skyline Regional Park",
+      "address": "Buckeye/Phoenix area, AZ",
+      "description": "Camping & stargazing celebrating International Observe the Moon Night.",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-hot-air-balloon",
+      "title": "Sunrise Hot Air Balloon",
+      "date": "2026-10-03T04:30:00",
+      "endDate": "2026-10-03T09:00:00",
+      "location": "Outdoor Recreation meetup",
+      "address": "Luke AFB / Phoenix area, AZ",
+      "description": "$225 per person; military & DoD ID cardholders; depart ODR ~0445.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Lightning Gate Visitor Reception Center (VRC)",

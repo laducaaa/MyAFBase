@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -446,14 +446,84 @@
       "category": "community"
     },
     {
-      "id": "wpafb-evt-2",
-      "title": "Newcomers Welcome Brief",
-      "date": "2026-07-21T08:00:00Z",
-      "endDate": "2026-07-21T12:00:00Z",
-      "location": "88 FSS Community Center",
-      "address": "Wright-Patterson AFB, OH 45433",
-      "description": "Monthly newcomers orientation for incoming personnel and families.",
+      "id": "wpafb-fall-planting-party-2026-09-09",
+      "title": "Fall Planting Party",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Wing's Bar & Grille Patio",
+      "address": "Wright-Patterson AFB",
+      "description": "Fall Planting Party with Community Center; wrightpattfss.com.",
       "category": "community"
+    },
+    {
+      "id": "wpafb-run-for-the-fallen-2026-09-11",
+      "title": "Run for the Fallen",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Area B Flight Line / National Museum of the Air Force",
+      "address": "Wright-Patterson AFB",
+      "description": "Ceremonial 1.5-mile walk / 2.5-mile run; 88 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-oktoberfest-2026-09-24",
+      "title": "Oktoberfest",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Wing's Bar and Grille",
+      "address": "Wright-Patterson AFB",
+      "description": "Oktoberfest with German food, beer, live music; 88 FSS homepage.",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-horror-night-halloween-2026-10-30",
+      "title": "Horror Night Halloween Party",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Wright-Patterson AFB",
+      "address": "",
+      "description": "Horror Night / Halloween party (haunted hallway, costume contest, DJ); 88 FSS sponsorship page.",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-plane-talks-sep",
+      "title": "Plane Talks",
+      "date": "2026-09-18T10:00:00",
+      "endDate": "2026-09-18T15:00:00",
+      "location": "National Museum of the U.S. Air Force",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Gallery talks open to museum visitors.",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-rocket-day",
+      "title": "Rocket Day 2026",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "National Museum of the U.S. Air Force",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Free family STEM event; build and launch model rockets.",
+      "category": "family"
+    },
+    {
+      "id": "wpafb-girls-aviation",
+      "title": "Girls in Aviation and STEM Day",
+      "date": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T15:00:00",
+      "location": "National Museum of the U.S. Air Force / NAHF",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Free event for girls ages 6–17 with hands-on aviation/STEM activities.",
+      "category": "family"
+    },
+    {
+      "id": "wpafb-bombers-brews",
+      "title": "After Dark: Bombers and Brews",
+      "date": "2026-11-07T18:00:00",
+      "endDate": "2026-11-07T22:00:00",
+      "location": "National Museum of the U.S. Air Force",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Adults-only (21+) museum after-hours with local brews, open aircraft, live music; $45; doors 5:30 PM.",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

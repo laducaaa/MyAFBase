@@ -7,7 +7,7 @@
   "wing": "55 WG",
   "latitude": 41.1183,
   "longitude": -95.915,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "offutt-notif-real-id",
@@ -253,7 +253,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "offutt-playground-chalk-2026-09-09",
+      "title": "Playground Hangout: Chalk Art",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
+      "description": "Family chalk art hangout at Base Lake; 55 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "offutt-911-run-stair-2026-09-11",
+      "title": "9/11 Remembrance Run & Stair Climb",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "9/11 Remembrance Run & Stair Climb; 55 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "offutt-zombie-apocalypse-2026-09-12",
+      "title": "Zombie Apocalypse Survival Day",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Offutt AFB",
+      "address": "",
+      "description": "Zombie Apocalypse Survival Day (listed sold out on FSS site); 55 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "offutt-car-show-2026-09-19",
+      "title": "2026 Offutt Car Show",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Eagles Landing / Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
+      "description": "Car show; spectators free; 55 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "offutt-observe-moon-night-2026-09-19",
+      "title": "International Observe the Moon Night",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
+      "description": "Moon night with Omaha Astronomical Society; Outdoor Rec; 55 FSS.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 478)",

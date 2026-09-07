@@ -7,7 +7,7 @@
   "wing": "316 WG / 89 AW / 11 WG",
   "latitude": 38.8108,
   "longitude": -76.8669,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "jbab-notif-1",
@@ -410,16 +410,6 @@
       "location": "JBA Flightline",
       "address": "Joint Base Andrews, MD 20762",
       "description": "Annual air show open to the public. Air Force One, military demos, and static displays.",
-      "category": "community"
-    },
-    {
-      "id": "jbab-evt-2",
-      "title": "Newcomers Welcome Brief",
-      "date": "2026-07-07T08:00:00Z",
-      "endDate": "2026-07-07T12:00:00Z",
-      "location": "316 FSS Community Center",
-      "address": "Joint Base Andrews, MD 20762",
-      "description": "Monthly newcomers orientation. Bring orders and CAC.",
       "category": "community"
     }
   ],

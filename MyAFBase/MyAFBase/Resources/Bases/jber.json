@@ -7,7 +7,7 @@
   "wing": "673 ABW",
   "latitude": 61.2524,
   "longitude": -149.8068,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "jber-notif-real-id",
@@ -204,28 +204,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "jber-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "JBER, Anchorage, AK",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "jber-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "JBER, Anchorage, AK",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "JBER Visitor Center",

@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -242,7 +242,38 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "patrick-labor-day-golf-2026-09-07",
+      "title": "Labor Day Golf Tournament",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Manatee Cove / Golf",
+      "address": "Patrick SFB, FL",
+      "description": "Labor Day Golf Tournament shotgun 8AM; gopatrickfl.com events.",
+      "category": "community"
+    },
+    {
+      "id": "patrick-pokemon-tournament-2026-09-19",
+      "title": "Pokemon Champions Tournament",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Launch Pad",
+      "address": "Patrick SFB, FL",
+      "description": "Pokemon Champions Tournament; gopatrickfl.com.",
+      "category": "community"
+    },
+    {
+      "id": "patrick-squadron-olympics-2026-09-21",
+      "title": "Squadron Olympics",
+      "date": "2026-09-21",
+      "endDate": "2026-09-25",
+      "location": "PFSB Gymnasium",
+      "address": "Patrick SFB, FL",
+      "description": "Squadron Olympics (volleyball, basketball, dodgeball, cornhole, tug-of-war); gopatrickfl.com.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (East Gate)",

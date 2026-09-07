@@ -7,7 +7,7 @@
   "wing": "354 FW",
   "latitude": 64.6657,
   "longitude": -147.1015,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "eielson-notif-real-id",
@@ -193,28 +193,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "eielson-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Eielson AFB, Fairbanks, AK",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "eielson-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Eielson AFB, Fairbanks, AK",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Eielson AFB Visitor Center",

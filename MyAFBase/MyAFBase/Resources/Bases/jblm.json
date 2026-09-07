@@ -7,7 +7,7 @@
   "wing": "62 AW",
   "latitude": 47.1377,
   "longitude": -122.476,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "jblm-notif-real-id",
@@ -359,23 +359,53 @@
   ],
   "events": [
     {
-      "id": "jblm-evt-airshow",
-      "title": "JBLM Air Show & Warrior Expo",
-      "date": "2026-07-19T15:00:00Z",
-      "endDate": "2026-07-19T22:00:00Z",
-      "location": "McChord Field Flight Line",
-      "address": "McChord Field, Joint Base Lewis-McChord, WA 98438",
-      "description": "Annual air show featuring C-17 demonstrations, static displays, and community activities.",
+      "id": "jblm-911-stair-climb-2026-09-11",
+      "title": "9/11 Memorial Stair Climb Challenge",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "25th Anniversary 9/11 Memorial Stair Climb Challenge; jblm.armymwr.com.",
       "category": "community"
     },
     {
-      "id": "jblm-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "100 Col Joe Jackson Blvd, McChord Field, WA 98438",
-      "description": "Orientation for incoming Air Force and joint personnel and families. All branches encouraged to attend.",
+      "id": "jblm-half-marathon-2026-09-19",
+      "title": "JBLM Half-Marathon 5K & 1K",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Heritage Hill Park",
+      "address": "JBLM, WA",
+      "description": "Half marathon / 5K / 1K race; JBLM MWR races page.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-oktoberfest-2026-09-25",
+      "title": "JBLM Oktoberfest",
+      "date": "2026-09-25",
+      "endDate": "2026-09-26",
+      "location": "MWR Fest Tent",
+      "address": "JBLM, WA",
+      "description": "JBLM Oktoberfest at MWR Fest Tent; jblm.armymwr.com.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-commanders-cup-2miler-2026-09-25",
+      "title": "Commander's Cup 2-Miler",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Jensen Human Performance Center",
+      "address": "JBLM, WA",
+      "description": "Commander's Cup 2-Miler; JBLM MWR sports page.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-veterans-day-run-2026-11-07",
+      "title": "JBLM Veterans Day Run",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "location": "Wilson Fitness Center",
+      "address": "JBLM, WA",
+      "description": "5th annual Veterans Day Run with wear blue: run to remember; races calendar.",
       "category": "community"
     }
   ],

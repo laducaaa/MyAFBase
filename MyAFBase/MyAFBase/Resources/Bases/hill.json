@@ -7,7 +7,7 @@
   "wing": "75 ABW / Ogden ALC",
   "latitude": 41.124,
   "longitude": -111.973,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "hill-notif-1",
@@ -319,7 +319,68 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "hill-friday-night-frenzy-2026-09-18",
+      "title": "Friday Night Frenzy at Youth Center",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Hill AFB Youth Center",
+      "address": "7712 6th Street, Hill AFB, UT 84056",
+      "description": "Youth Center Friday Night Frenzy (sports, arts, classes); hillfss.com. Page time fields mixed—confirm 1800-2100 on site.",
+      "category": "community"
+    },
+    {
+      "id": "hill-big-buck-bingo-2026-09-29",
+      "title": "Big Buck Bingo at The Landing",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "location": "The Landing",
+      "address": "7420 Miller St, Hill AFB, UT 84056",
+      "description": "Recurring Tue/Thu bingo; DoD cardholders; 75 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "hill-youth-soccer-fall-2026",
+      "title": "Youth Soccer Fall 2026",
+      "date": "2026-09-07",
+      "endDate": "2026-10-10",
+      "location": "Hill AFB Youth Sports",
+      "address": "Hill AFB, UT",
+      "description": "Fall youth soccer season window listed on 75 FSS homepage (Aug 17–Oct 10).",
+      "category": "community"
+    },
+    {
+      "id": "hill-sstar-sep",
+      "title": "SSTaR: Skills, Strengths, Techniques & Resources",
+      "date": "2026-09-25T08:00:00",
+      "endDate": "2026-09-25T12:00:00",
+      "location": "Hill AFB Integrated Resilience",
+      "address": "Hill AFB, UT",
+      "description": "Resilience skills workshop 0800–1200.",
+      "category": "community"
+    },
+    {
+      "id": "hill-7-principles",
+      "title": "7 Principles for Making Marriage Work (1-Day Course)",
+      "date": "2026-10-08T08:30:00",
+      "endDate": "2026-10-08T15:30:00",
+      "location": "Hill AFB Integrated Resilience",
+      "address": "Hill AFB, UT",
+      "description": "One-day marriage skills course 0830–1530.",
+      "category": "family"
+    },
+    {
+      "id": "hill-sstar-oct",
+      "title": "SSTaR: Skills, Strengths, Techniques & Resources",
+      "date": "2026-10-23T08:00:00",
+      "endDate": "2026-10-23T12:00:00",
+      "location": "Hill AFB Integrated Resilience",
+      "address": "Hill AFB, UT",
+      "description": "Resilience skills workshop 0800–1200.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "South Gate Visitor Center",

@@ -7,7 +7,7 @@
   "wing": "325 FW",
   "latitude": 30.0696,
   "longitude": -85.5756,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "tyndall-notif-real-id",
@@ -397,23 +397,33 @@
   ],
   "events": [
     {
-      "id": "tyndall-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "445 Suwannee Rd, Bldg 662, Tyndall AFB, FL 32403",
-      "description": "Orientation for incoming personnel and families arriving during hurricane recovery reconstruction. All branches encouraged to attend.",
+      "id": "tyndall-cardio-challenge-2026-09",
+      "title": "Fitness Center 2026 Cardio Challenge",
+      "date": "2026-09-07",
+      "endDate": "2026-09-30",
+      "location": "Tyndall Fitness Center",
+      "address": "Tyndall AFB, FL",
+      "description": "Ongoing Cardio Challenge through Sept 30; tyndallfss.com calendar.",
       "category": "community"
     },
     {
-      "id": "tyndall-evt-midnight-meal",
-      "title": "DFAC Midnight Meal",
-      "date": "2026-06-29T02:00:00Z",
-      "endDate": "2026-06-30T04:00:00Z",
-      "location": "Berg-Liles Dining Facility",
-      "address": "1690 Mississippi Ave, Tyndall AFB, FL 32403",
-      "description": "Midnight meal for shift workers and flightline personnel. Mon-Fri 2200-0000.",
+      "id": "tyndall-mfrc-car-buying-2026-09-10",
+      "title": "M&FRC Car Buying Workshop",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Military & Family Readiness Center",
+      "address": "Tyndall AFB, FL",
+      "description": "Car buying workshop; 325 FSS homepage listing.",
+      "category": "community"
+    },
+    {
+      "id": "tyndall-mfrc-home-buying-2026-09-10",
+      "title": "MFRC Home Buying Workshop",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Military & Family Readiness Center",
+      "address": "Tyndall AFB, FL",
+      "description": "Home buying workshop; 325 FSS homepage listing.",
       "category": "community"
     }
   ],

@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -275,7 +275,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "beale-loud-saturdays-2026-09-12",
+      "title": "Loud Saturdays at Hub Zemke Library",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Hub Zemke Library",
+      "address": "17849 16th St., Beale AFB, CA 95903",
+      "description": "Games, Lego, Magna-Tiles, Hot Wheels; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-08",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-15",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-22",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-29",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-superhero-run",
+      "title": "Superhero Run (Beale Con side quest)",
+      "date": "2026-09-10T14:30:00",
+      "endDate": "2026-09-10T16:30:00",
+      "location": "Golf Course Track",
+      "address": "Beale AFB, CA",
+      "description": "Fun run wellness side quest for Beale Con 2026; check-in 2:30 pm, start 3:00 pm.",
+      "category": "fitness"
+    },
+    {
+      "id": "beale-kids-night-out",
+      "title": "Kids Night Out in Support of AF Ball",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T23:00:00",
+      "location": "CDC & Youth Center",
+      "address": "Beale AFB, CA",
+      "description": "Childcare for Team Beale during the AF Ball; CDC ages 6 wks–5 yrs ($40), Youth 6–12 ($30).",
+      "category": "family"
+    },
+    {
+      "id": "beale-auto-museum",
+      "title": "California Automobile Museum — Sunday Drive",
+      "date": "2026-09-20T09:00:00",
+      "endDate": "2026-09-20T16:00:00",
+      "location": "California Automobile Museum",
+      "address": "Sacramento, CA",
+      "description": "ODR trip with transport and admission; $20/person; signup deadline Sept 15.",
+      "category": "recreation"
+    },
+    {
+      "id": "beale-kpop-movie",
+      "title": "CAC Movie Night: K-pop Demon Hunters (PG)",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "Community Center Theater Room",
+      "address": "Beale AFB, CA",
+      "description": "Free movie with popcorn/juice/shaved ice; Beale Con side quest.",
+      "category": "entertainment"
+    },
+    {
+      "id": "beale-con-2026",
+      "title": "Beale Con 2026",
+      "date": "2026-09-26T11:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Community Center",
+      "address": "Beale AFB, CA",
+      "description": "Manga-themed convention with cosplay and side-quest prize turn-in.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Welcome/Visitors Center (Gold Country Inn)",

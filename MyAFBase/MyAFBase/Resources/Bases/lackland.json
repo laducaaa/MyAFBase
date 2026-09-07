@@ -7,7 +7,7 @@
   "wing": "37 TRW / 502 ABW",
   "latitude": 29.3842,
   "longitude": -98.6181,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "lackland-notif-1",
@@ -469,24 +469,34 @@
   ],
   "events": [
     {
-      "id": "evt-1",
-      "title": "BMT Graduation Ceremony",
-      "date": "2026-07-10T14:30:00Z",
-      "endDate": "2026-07-10T16:30:00Z",
-      "location": "Parade Grounds",
-      "address": "JBSA Lackland, TX 78236",
-      "description": "Basic Military Training graduation. Families welcome; arrive 90 min early.",
+      "id": "lackland-bingo-arnold-hall-2026-09-09",
+      "title": "Bingo Night (Arnold Hall)",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Arnold Hall Community Center",
+      "address": "JBSA-Lackland",
+      "description": "Bingo at Arnold Hall Community Center; JBSA Today community calendar.",
       "category": "community"
     },
     {
-      "id": "evt-2",
-      "title": "Family Day",
-      "date": "2026-08-14T15:00:00Z",
-      "endDate": "2026-08-14T18:00:00Z",
-      "location": "Warfighting Center",
-      "address": "JBSA Lackland, TX 78236",
-      "description": "Annual family day for technical training Airmen and guests.",
-      "category": "family"
+      "id": "lackland-variety-night-2026-09-18",
+      "title": "Variety Night at Gateway Club",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Gateway Club / Lone Star Lounge",
+      "address": "JBSA-Lackland",
+      "description": "DJ Variety Night at Gateway Club; JBSA Today (also listed Oct dates on series).",
+      "category": "community"
+    },
+    {
+      "id": "lackland-variety-night-2026-10-02",
+      "title": "Variety Night at Gateway Club",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Gateway Club / Lone Star Lounge",
+      "address": "JBSA-Lackland",
+      "description": "DJ Variety Night series dates include Oct 2; JBSA Today.",
+      "category": "community"
     }
   ],
   "newcomers": {

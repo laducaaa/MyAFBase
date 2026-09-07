@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -286,7 +286,78 @@
       "building": "Bldg 5"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "langley-cardboard-regatta-2026-09-12",
+      "title": "JBLE Cardboard Regatta",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "JBLE Outdoor Pool",
+      "address": "2124 Pershing Ave, Fort Eustis, VA",
+      "description": "Cardboard Regatta at Fort Eustis outdoor pool; 733 FSS / jble-eustismwr.com (JBLE Fort Eustis MWR).",
+      "category": "community"
+    },
+    {
+      "id": "langley-serving-heroes-2026-09-16",
+      "title": "September Serving Heroes Community Dinner",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Community Recreation Center",
+      "address": "671 Victory Blvd, Fort Eustis, VA",
+      "description": "Free community meal for military community; 733 FSS public site.",
+      "category": "community"
+    },
+    {
+      "id": "langley-oktoberfest-2026-09-25",
+      "title": "Fort Eustis Oktoberfest 2026",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "FCC Stage",
+      "address": "950 Jefferson Ave, Fort Eustis, VA",
+      "description": "Oktoberfest community event; jble-eustismwr.com events tag listing.",
+      "category": "community"
+    },
+    {
+      "id": "langley-bus-national-mall-2026-09-26",
+      "title": "Fall Bus Trip: National Mall",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "ITT Bus Trip (Fort Eustis)",
+      "address": "",
+      "description": "Fall ITT bus trip to National Mall; 733 FSS bus trips series.",
+      "category": "community"
+    },
+    {
+      "id": "langley-bus-luray-2026-10-18",
+      "title": "Fall Bus Trip: Luray Caverns",
+      "date": "2026-10-18",
+      "endDate": "2026-10-18",
+      "location": "ITT Bus Trip (Fort Eustis)",
+      "address": "",
+      "description": "Fall ITT bus trip to Luray Caverns; 733 FSS bus trips series.",
+      "category": "community"
+    },
+    {
+      "id": "langley-costume-run-2026-10-30",
+      "title": "Costume Run 5k",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Fort Eustis",
+      "address": "Fort Eustis, VA",
+      "description": "Costume Run 5k; jble-eustismwr.com free-events October calendar.",
+      "category": "community"
+    },
+    {
+      "id": "langley-bus-baltimore-christmas-2026-11-28",
+      "title": "Fall Bus Trip: Christmas Village Baltimore",
+      "date": "2026-11-28",
+      "endDate": "2026-11-28",
+      "location": "ITT Bus Trip (Fort Eustis)",
+      "address": "",
+      "description": "Fall ITT bus trip to Christmas Village in Baltimore; 733 FSS.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (LaSalle Gate)",
