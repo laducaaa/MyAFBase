@@ -7,7 +7,7 @@
   "wing": "AETC HQ / 12 FTW / 502 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -359,14 +359,44 @@
   ],
   "events": [
     {
-      "id": "evt-rand-2",
-      "title": "Randolph Air Show",
-      "date": "2026-10-10T09:00:00Z",
-      "endDate": "2026-10-10T17:00:00Z",
-      "location": "Flightline / Parade Grounds",
-      "address": "JBSA Randolph, TX 78150",
-      "description": "Annual air show open to the public. Arrive early for parking.",
+      "id": "randolph-birthday-buffets-2026-09-08",
+      "title": "Birthday Buffets",
+      "date": "2026-09-08T11:00:00",
+      "endDate": "2026-09-08T13:00:00",
+      "location": "RND Parr Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Parr Club September 8 | 11am-1pm Club members who have a birthday in September receive a complimentary meal. Reservations for a group of six or more are encouraged. Cost is $17 for members and $19 for nonmembers. For more information, call 210.658.7445 Tuesday-Friday 10am-3pm.",
       "category": "community"
+    },
+    {
+      "id": "randolph-freedom-5k-2026-09-11",
+      "title": "Freedom 5K",
+      "date": "2026-09-11T07:30:00",
+      "endDate": "2026-09-11T10:00:00",
+      "location": "RND Rambler Fitness Center",
+      "address": "1751 First St E Bldg 999, JBSA Randolph, TX, 78150",
+      "description": "JBSA-Randolph Rambler Fitness Center September 11 | 7:30AM Hosted by the JBSA-Randolph Rambler Fitness Center. Join us at Eberle Park in remembrance of 9/11. Giveaways while supplies last. For more information, call 210.652.7263.",
+      "category": "fitness"
+    },
+    {
+      "id": "randolph-dominoes-tournament-2026-09-11",
+      "title": "Dominoes Tournament",
+      "date": "2026-09-11T17:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "RND Kendrick Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 11 | 5-8pm Oct. 9 | 5-9pm Are you ready for some dominoes? Head to Gil’s Pub for a game night! Join us for a single-elimination tournament. This event is free, and there is no cover to participate. For more information, call 210.658.3887",
+      "category": "community"
+    },
+    {
+      "id": "randolph-prince-princess-tea-party-2026-09-12",
+      "title": "Prince & Princess Tea Party",
+      "date": "2026-09-12T10:30:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "RND Parr Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Parr Club Sept. 12 | 10:30am-1pm Children will enjoy a magical afternoon filled with arts and crafts activities, special take-home keepsakes, and fun toys to remember the day. Adding to the enchantment, beloved princesses will be in attendance to meet guests, take photos, and create unforgettable memories throughout the tea party. Children are encouraged to dress up as their favorite",
+      "category": "family"
     },
     {
       "id": "randolph-pool-tournament-2026-09-18",
@@ -376,6 +406,76 @@
       "location": "Kendrick Club / Gil's Pub",
       "address": "JBSA-Randolph",
       "description": "Free single-elimination pool tournament; JBSA Today. Also listed Oct 16.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-pool-tournament-2026-09-18",
+      "title": "Pool Tournament",
+      "date": "2026-09-18T17:30:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "RND Kendrick Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 18 & Oct. 16 | 5:30-9pm This is a single-elimination tournament. Registration for September’s tournament is open September 14-17. October’s tournament registration opens October 12-15. Winner receives $100 cash. This event is free! No cover to participate. For more information or to register, call 210.569.2510, email jbsarandolphclubs@gmail.com, or stop by Gil’s p",
+      "category": "recreation"
+    },
+    {
+      "id": "randolph-karaoke-friday-2026-09-18",
+      "title": "Karaoke Friday",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "RND Parr Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Parr Club Sept. 18 & Oct. 16 | 6-10pm Discover your inner rock-star and sing your heart out during our Auger Karaoke Night! For more information, call 210.658.7445.",
+      "category": "entertainment"
+    },
+    {
+      "id": "randolph-decade-themed-bingo-2026-09-22",
+      "title": "Decade Themed Bingo",
+      "date": "2026-09-22T18:30:00",
+      "endDate": "2026-09-22T20:30:00",
+      "location": "RND Kendrick Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 22 | 6:30-8:30pm Dress in the decade you were born or the one you like the best for an evening of food, fun and bingo. There will be a contest for Best Decade attire. Music, dancing and lots of winning! This will also be our Mini-Extravaganza. For more information, call 210.658.3557",
+      "category": "entertainment"
+    },
+    {
+      "id": "randolph-first-fridays-2026-10-02",
+      "title": "First Fridays at Randolph Clubs",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Parr Club / Kendrick Club",
+      "address": "JBSA-Randolph",
+      "description": "First Fridays DJ nights; Sept 4 passed; Oct 2 listed on JBSA Today.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-3-mile-wingman-relay-2026-10-03",
+      "title": "3-Mile Wingman Relay",
+      "date": "2026-10-03T07:30:00",
+      "endDate": "2026-10-03T10:30:00",
+      "location": "JBSA-Randolph Heritage Park",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Rambler Fitness Center October 3 | 7:30am | Heritage Park Get your teammate and meet us at Heritage Park. The first teammate must complete a 1.5-mile run before the second teammate can start running the second 1.5 mile. Giveaways are provided while supplies last. For more information, call 210.652.7263.",
+      "category": "fitness"
+    },
+    {
+      "id": "randolph-dominoes-tournament-2026-10-09",
+      "title": "Dominoes Tournament",
+      "date": "2026-10-09T17:00:00",
+      "endDate": "2026-10-09T20:30:00",
+      "location": "RND Kendrick Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 11 | 5-8pm Oct. 9 | 5-9pm Are you ready for some dominoes? Head to Gil’s Pub for a game night! Join us for a single-elimination tournament. This event is free, and there is no cover to participate. For more information, call 210.658.3887",
+      "category": "community"
+    },
+    {
+      "id": "evt-rand-2",
+      "title": "Randolph Air Show",
+      "date": "2026-10-10T09:00:00Z",
+      "endDate": "2026-10-10T17:00:00Z",
+      "location": "Flightline / Parade Grounds",
+      "address": "JBSA Randolph, TX 78150",
+      "description": "Annual air show open to the public. Arrive early for parking.",
       "category": "community"
     },
     {
@@ -389,14 +489,34 @@
       "category": "community"
     },
     {
-      "id": "randolph-first-fridays-2026-10-02",
-      "title": "First Fridays at Randolph Clubs",
-      "date": "2026-10-02",
-      "endDate": "2026-10-02",
-      "location": "Parr Club / Kendrick Club",
-      "address": "JBSA-Randolph",
-      "description": "First Fridays DJ nights; Sept 4 passed; Oct 2 listed on JBSA Today.",
-      "category": "community"
+      "id": "randolph-pool-tournament-2026-10-16",
+      "title": "Pool Tournament",
+      "date": "2026-10-16T17:30:00",
+      "endDate": "2026-10-16T20:30:00",
+      "location": "RND Kendrick Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 18 & Oct. 16 | 5:30-9pm This is a single-elimination tournament. Registration for September’s tournament is open September 14-17. October’s tournament registration opens October 12-15. Winner receives $100 cash. This event is free! No cover to participate. For more information or to register, call 210.569.2510, email jbsarandolphclubs@gmail.com, or stop by Gil’s p",
+      "category": "recreation"
+    },
+    {
+      "id": "randolph-fall-fitness-celebration-2026-10-17",
+      "title": "Fall Fitness Celebration",
+      "date": "2026-10-17T07:30:00",
+      "endDate": "2026-10-17T12:00:00",
+      "location": "RND Heritage Park",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Rambler Fitness Center October 17 | 7:30am | Free Event at Heritage Park This is one event that everybody can participate in, including the young ones. We will have a 5K run for our runners and a 1.5mile run/walk for the young athletes and their parents who would like to participate with their kids. We did not forget about our bikers, a 10K bike for adults and a 5K bike for young ath",
+      "category": "fitness"
+    },
+    {
+      "id": "randolph-halloween-kiddie-bingo-2026-10-17",
+      "title": "Halloween Kiddie Bingo",
+      "date": "2026-10-17T10:00:00",
+      "endDate": "2026-10-17T12:00:00",
+      "location": "RND Parr Club",
+      "address": "JBSA-Randolph, Universal City, TX",
+      "description": "JBSA-Randolph Parr Club October 17 | 10:30AM-12:30PM Join us for Halloween Kiddie Bingo, a free family-friendly event filled with spooky fun. Kids will have the chance to play 5 bingo games for cash prizes. Kids, come out and show your creativity in our Best Dressed Costume Contest, and enjoy an exciting afternoon with a complimentary meal. Costumes are encouraged and guaranteed fun for all ages. ",
+      "category": "holiday"
     }
   ],
   "newcomers": {

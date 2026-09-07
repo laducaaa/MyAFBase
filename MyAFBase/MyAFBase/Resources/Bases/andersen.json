@@ -7,7 +7,7 @@
   "wing": "36 WG",
   "latitude": 13.584,
   "longitude": 144.9305,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "andersen-notif-real-id",
@@ -215,6 +215,16 @@
       "category": "community"
     },
     {
+      "id": "andersen-steam-ahead-2026-09-09",
+      "title": "STEAM Ahead",
+      "date": "2026-09-09T15:00:00",
+      "endDate": "2026-09-09T15:00:00",
+      "location": "Andersen Library",
+      "address": "Yigo, Guam",
+      "description": "STEAM Ahead",
+      "category": "education"
+    },
+    {
       "id": "andersen-family-storytime-2026-09-10",
       "title": "Family Storytime",
       "date": "2026-09-10",
@@ -223,6 +233,96 @@
       "address": "Andersen AFB, Guam",
       "description": "Weekly Thursday Family Storytime; MWR Guam site.",
       "category": "community"
+    },
+    {
+      "id": "andersen-magic-the-gathering-dungeons-dragons-2026-09-10",
+      "title": "Magic: the Gathering & Dungeons & Dragons",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T17:00:00",
+      "location": "Andersen AFB, Guam",
+      "address": "Yigo, Guam",
+      "description": "Magic: the Gathering & Dungeons & Dragons",
+      "category": "community"
+    },
+    {
+      "id": "andersen-climb-to-remember-2026-09-11",
+      "title": "Climb to Remember",
+      "date": "2026-09-11T06:00:00",
+      "endDate": "2026-09-11T06:00:00",
+      "location": "Coral Reef Fitness Center",
+      "address": "Yigo, Guam",
+      "description": "Climb to Remember",
+      "category": "fitness"
+    },
+    {
+      "id": "andersen-greek-salad-cooking-class-2026-09-11",
+      "title": "Greek Salad Cooking Class",
+      "date": "2026-09-11T16:00:00",
+      "endDate": "2026-09-11T16:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Yigo, Guam",
+      "description": "Greek Salad Cooking Class",
+      "category": "recreation"
+    },
+    {
+      "id": "andersen-diy-saturday-ice-cream-perler-beads-2026-09-12",
+      "title": "DIY Saturday - Ice Cream Perler Beads",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T11:00:00",
+      "location": "Andersen Library",
+      "address": "Yigo, Guam",
+      "description": "DIY Saturday - Ice Cream Perler Beads",
+      "category": "education"
+    },
+    {
+      "id": "andersen-adult-trivia-night-air-force-birthday-2026-09-17",
+      "title": "Adult Trivia Night - Air Force Birthday",
+      "date": "2026-09-17T17:00:00",
+      "endDate": "2026-09-17T17:00:00",
+      "location": "Andersen Library",
+      "address": "Yigo, Guam",
+      "description": "Adult Trivia Night - Air Force Birthday",
+      "category": "holiday"
+    },
+    {
+      "id": "andersen-diy-necklace-class-2026-09-18",
+      "title": "DIY Necklace Class",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T16:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Yigo, Guam",
+      "description": "DIY Necklace Class",
+      "category": "recreation"
+    },
+    {
+      "id": "andersen-mason-jar-art-2026-09-19",
+      "title": "Mason Jar Art",
+      "date": "2026-09-19T11:00:00",
+      "endDate": "2026-09-19T11:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Yigo, Guam",
+      "description": "Mason Jar Art",
+      "category": "recreation"
+    },
+    {
+      "id": "andersen-chicken-adobo-cooking-class-2026-09-25",
+      "title": "Chicken Adobo Cooking Class",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T16:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Yigo, Guam",
+      "description": "Chicken Adobo Cooking Class",
+      "category": "recreation"
+    },
+    {
+      "id": "andersen-diy-saturday-comic-book-trivia-2026-09-26",
+      "title": "DIY Saturday - Comic Book Trivia",
+      "date": "2026-09-26T11:00:00",
+      "endDate": "2026-09-26T11:00:00",
+      "location": "Andersen Library",
+      "address": "Yigo, Guam",
+      "description": "DIY Saturday - Comic Book Trivia",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

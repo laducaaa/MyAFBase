@@ -7,7 +7,7 @@
   "wing": "62 AW",
   "latitude": 47.1377,
   "longitude": -122.476,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "jblm-notif-real-id",
@@ -359,6 +359,56 @@
   ],
   "events": [
     {
+      "id": "jblm-afcs-stroller-squad-2026-09-08",
+      "title": "AFCS Stroller Squad",
+      "date": "2026-09-08T10:00:00",
+      "endDate": "2026-09-08T11:20:00",
+      "location": "Heritage Hill",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "New Parent Support Program Tuesday morning family walk.",
+      "category": "family"
+    },
+    {
+      "id": "jblm-baby-book-crafting-group-2026-09-08",
+      "title": "Baby Book Crafting Group",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T12:30:00",
+      "location": "New Parent Support Program",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "New Parent Support Program baby book crafting group.",
+      "category": "family"
+    },
+    {
+      "id": "jblm-storytime-at-mcchord-library-2026-09-08",
+      "title": "Storytime at McChord Library",
+      "date": "2026-09-08T11:00:00",
+      "endDate": "2026-09-08T12:00:00",
+      "location": "McChord Library",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Weekly storytime for children at McChord Library.",
+      "category": "family"
+    },
+    {
+      "id": "jblm-welcome-luncheon-2026-09-08",
+      "title": "Welcome Luncheon",
+      "date": "2026-09-08T12:00:00",
+      "endDate": "2026-09-08T13:30:00",
+      "location": "JBLM ACS/ALCC",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Free welcome luncheon for newcomers to JBLM.",
+      "category": "community"
+    },
+    {
+      "id": "jblm-lego-s-t-e-a-m-club-2026-09-09",
+      "title": "LEGO & S.T.E.A.M. Club",
+      "date": "2026-09-09T16:00:00",
+      "endDate": "2026-09-09T18:00:00",
+      "location": "JBLM Library Programs",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Hands-on LEGO and STEAM club for youth.",
+      "category": "education"
+    },
+    {
       "id": "jblm-911-stair-climb-2026-09-11",
       "title": "9/11 Memorial Stair Climb Challenge",
       "date": "2026-09-11",
@@ -367,6 +417,56 @@
       "address": "Joint Base Lewis-McChord, WA",
       "description": "25th Anniversary 9/11 Memorial Stair Climb Challenge; jblm.armymwr.com.",
       "category": "community"
+    },
+    {
+      "id": "jblm-movie-club-2026-09-11",
+      "title": "Movie Club",
+      "date": "2026-09-11T13:00:00",
+      "endDate": "2026-09-11T15:00:00",
+      "location": "JBLM MWR",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Movie club meetup.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jblm-soldiers-field-house-basketball-tournament",
+      "title": "Soldiers Field House Basketball Tournament",
+      "date": "2026-09-11T17:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Soldiers Field House",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Basketball tournament at Soldiers Field House.",
+      "category": "recreation"
+    },
+    {
+      "id": "jblm-open-mic-night-2026-09-11",
+      "title": "Open Mic Night",
+      "date": "2026-09-11T19:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "JBLM MWR",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Open mic night for performers and spectators.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jblm-jblm-racquetball-tournament-2026-09-12",
+      "title": "JBLM Racquetball Tournament",
+      "date": "2026-09-12T09:00:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "JBLM Fitness",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Free monthly drop-in racquetball tournament.",
+      "category": "recreation"
+    },
+    {
+      "id": "jblm-rock-n-glow-bowling-2026-09-12",
+      "title": "Rock n' Glow Bowling",
+      "date": "2026-09-12T16:00:00",
+      "endDate": "2026-09-12T21:00:00",
+      "location": "Bowl Arena",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Glow bowling special at Bowl Arena.",
+      "category": "recreation"
     },
     {
       "id": "jblm-half-marathon-2026-09-19",
@@ -397,6 +497,16 @@
       "address": "JBLM, WA",
       "description": "Commander's Cup 2-Miler; JBLM MWR sports page.",
       "category": "community"
+    },
+    {
+      "id": "jblm-jblm-oktoberfest-family-day-2026-09-26",
+      "title": "JBLM Oktoberfest Family Day",
+      "date": "2026-09-26T12:00:00",
+      "endDate": "2026-09-26T20:00:00",
+      "location": "MWR Fest Tent",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "Saturday family Oktoberfest with German food, music, lawn games, and market.",
+      "category": "family"
     },
     {
       "id": "jblm-veterans-day-run-2026-11-07",

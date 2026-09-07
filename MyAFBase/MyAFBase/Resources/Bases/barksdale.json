@@ -7,7 +7,7 @@
   "wing": "2 BW",
   "latitude": 32.5018,
   "longitude": -93.6627,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "barksdale-notif-real-id",
@@ -276,14 +276,14 @@
       "category": "community"
     },
     {
-      "id": "barksdale-pt-course-2026-09-14",
-      "title": "Physical Training Course (10 weeks)",
-      "date": "2026-09-14",
-      "endDate": "2026-11-20",
-      "location": "SrA Bell Fitness Center",
-      "address": "Barksdale AFB, LA",
-      "description": "10-week PT course Mon/Wed/Fri 0630-0730; barksdalelife.com.",
-      "category": "community"
+      "id": "barksdale-parents-night-out-2026-09-11",
+      "title": "Parents Night Out",
+      "date": "2026-09-11T18:30:00",
+      "endDate": "2026-09-11T22:30:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Price: $32; Includes dinner service at 7:30pm, and fun themed activities Parents! It's time for a night out! This month's theme is S'mores & More! Each age group of children",
+      "category": "family"
     },
     {
       "id": "barksdale-wood-shop",
@@ -294,6 +294,116 @@
       "address": "Barksdale AFB, LA",
       "description": "Build a two-shelf project; Sept 12 and 19 at 10am; $95/person or $170 for two.",
       "category": "recreation"
+    },
+    {
+      "id": "barksdale-krafty-kids-2026-09-12",
+      "title": "Krafty Kids",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T12:30:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Price: $10 per person; Includes all supplies and instruction Celebrate fall and let your child create a fall suncatcher at Arts and Crafts! To sign up call Arts and Crafts",
+      "category": "family"
+    },
+    {
+      "id": "barksdale-doggie-dip-pawcasso-2026-09-12",
+      "title": "Doggie Dip + Pawcasso",
+      "date": "2026-09-12T16:00:00",
+      "endDate": "2026-09-12T18:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Location: Main Base Pool Price: Doggie Dip is FREE; Pawcasso is $5 per pupper This one's for the doggo's!! Come and socialize them at Doggie Dip and let them become",
+      "category": "recreation"
+    },
+    {
+      "id": "barksdale-pt-course-2026-09-14",
+      "title": "Physical Training Course (10 weeks)",
+      "date": "2026-09-14",
+      "endDate": "2026-11-20",
+      "location": "SrA Bell Fitness Center",
+      "address": "Barksdale AFB, LA",
+      "description": "10-week PT course Mon/Wed/Fri 0630-0730; barksdalelife.com.",
+      "category": "community"
+    },
+    {
+      "id": "barksdale-iron-warrior-program-2026-09-14",
+      "title": "Iron Warrior Program",
+      "date": "2026-09-14T06:30:00",
+      "endDate": "2026-09-14T07:30:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Location: SrA Bell Fitness Center Dates: September 14 through November 20; Training will only take place on Mondays, Wednesdays, and Fridays from 0630 until 0730 during the course dates. All",
+      "category": "fitness"
+    },
+    {
+      "id": "barksdale-archery-class-2026-09-16",
+      "title": "Archery Class",
+      "date": "2026-09-16T17:30:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Location: Red Chute Gun Club Price: $10 per person Archery classes are back through Outdoor Recreation! There's a limited amount of spots available so hurry and sign up! To sign",
+      "category": "outdoor"
+    },
+    {
+      "id": "barksdale-barksdale-r-i-s-e-2026-09-17",
+      "title": "Barksdale R.I.S.E",
+      "date": "2026-09-17T12:00:00",
+      "endDate": "2026-09-18T12:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Location: SrA Bell Fitness Center Who can Participate: All active-duty, civilians, dependents, and retirees are welcome to participate. Together we run, together we rise. Join the SrA Bell Fitness Center",
+      "category": "fitness"
+    },
+    {
+      "id": "barksdale-splatterops-thursdays-2026-09-17",
+      "title": "SplatterOps Thursdays",
+      "date": "2026-09-17T17:00:00",
+      "endDate": "2026-09-17T19:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Price: $25 per person; Includes gear and one 500 round bag of paintballs Location: Paintball Field; near Clear Lake Additional paintball bags will be sold for $11 per bag. Grab",
+      "category": "outdoor"
+    },
+    {
+      "id": "barksdale-trivia-night-2026-09-17",
+      "title": "Trivia Night",
+      "date": "2026-09-17T17:00:00",
+      "endDate": "2026-09-17T19:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Location: Hangar 2 Join Hangar 2 for Trivia Night — where the questions are tough, the laughs are plenty, and the competition is fierce! Bring your friends, test your knowledge,",
+      "category": "entertainment"
+    },
+    {
+      "id": "barksdale-corks-and-crafts-2026-09-18",
+      "title": "Corks and Crafts",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T18:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Price: $40 per person; includes instruction and supplies Create a fall wreath with Arts and Crafts while sipping on your favorite beverage! Call Arts and Crafts at 318-456-3140 to sign",
+      "category": "recreation"
+    },
+    {
+      "id": "barksdale-jackpot-bingo-2026-09-18",
+      "title": "Jackpot BINGO",
+      "date": "2026-09-18T16:30:00",
+      "endDate": "2026-09-18T20:30:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Times: Doors open at 4:30pm; games promptly start at 6:30pm Location: BUFF Community Center Jackpot: $7,000 This month's BINGO will also have a kids ONLY BINGO happening at the same",
+      "category": "entertainment"
+    },
+    {
+      "id": "barksdale-auto-hobby-late-night-2026-09-18",
+      "title": "Auto Hobby Late Night",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T23:00:00",
+      "location": "Barksdale AFB",
+      "address": "Bossier City, LA",
+      "description": "Attention shift workers and night owls! Auto Hobby is having another Late Night! Call 318-456-4695 for further questions about the program, or email autohobby.barksdale@gmail.com.",
+      "category": "community"
     }
   ],
   "newcomers": {

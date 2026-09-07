@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -276,6 +276,66 @@
       "category": "recreation"
     },
     {
+      "id": "altus-story-time-2026-09-08",
+      "title": "Story Time",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T11:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Join us for Library Story Time and enjoy a fun-filled morning of stories, songs, rhymes, and a creative craft! It's the perfect opportunity for babies, toddlers, and young children to",
+      "category": "family"
+    },
+    {
+      "id": "altus-crochet-club-2026-09-08",
+      "title": "Crochet Club",
+      "date": "2026-09-08T16:30:00",
+      "endDate": "2026-09-08T18:30:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Join us for a delightful evening of crocheting! Bring your creativity and learn something new! We will have some materials on hand, but if possible, please bring your own. Recommended",
+      "category": "recreation"
+    },
+    {
+      "id": "altus-murder-mystery-game-night-2026-09-08",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-09-08T17:00:00",
+      "endDate": "2026-09-08T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-mandalorian-movie",
+      "title": "Base Theater: Star Wars — The Mandalorian and Grogu",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Base Theater",
+      "address": "Altus AFB, OK",
+      "description": "Free PG-13 movie showing at the Base Theater.",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-star-wars-the-mandalorian-and-grogu-2026-09-11",
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Altus AFB Theater",
+      "address": "Altus, OK",
+      "description": "FREE MOVIE AT THE BASE THEATER! Journey to a galaxy far, far away with a free showing of Star Wars: The Mandalorian and Grogu, rated PG-13, at the Base Theater!",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-karaoke-night-2026-09-11",
+      "title": "Karaoke Night",
+      "date": "2026-09-11T19:00:00",
+      "endDate": "2026-09-11T23:00:00",
+      "location": "Altus AFB",
+      "address": "Altus, OK",
+      "description": "Karaoke Night at Dark Horse Sports Bar! Grab the mic and get ready to sing your heart out! Join us every Friday from 1900–2300 at Dark Horse Sports Bar for",
+      "category": "entertainment"
+    },
+    {
       "id": "altus-tailgate-5k",
       "title": "Tailgate Classic 5K",
       "date": "2026-09-12T08:00:00",
@@ -284,6 +344,66 @@
       "address": "Altus AFB, OK",
       "description": "Fitness Center Tailgate Classic 5K race kicks off at 0800.",
       "category": "fitness"
+    },
+    {
+      "id": "altus-lego-club-2026-09-12",
+      "title": "LEGO Club",
+      "date": "2026-09-12T10:30:00",
+      "endDate": "2026-09-12T12:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Unleash your inner architect and let your imagination run wild! Join us for a morning of creative building where you can design your very own masterpiece. The best part? Your",
+      "category": "family"
+    },
+    {
+      "id": "altus-fall-bowling-league-2026-09-14",
+      "title": "Fall Bowling League",
+      "date": "2026-09-14T17:30:00",
+      "endDate": "2026-09-14T20:30:00",
+      "location": "Altus AFB Galaxy Lanes",
+      "address": "Altus, OK",
+      "description": "Join Galaxy Lanes for our Fall Bowling League. From 14 September – 23 November, teams of four will compete in a fun 10-week league every Monday from 1730–2030. The cost",
+      "category": "recreation"
+    },
+    {
+      "id": "altus-crochet-club-2026-09-15",
+      "title": "Crochet Club",
+      "date": "2026-09-15T16:30:00",
+      "endDate": "2026-09-15T18:30:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Join us for a delightful evening of crocheting! Bring your creativity and learn something new! We will have some materials on hand, but if possible, please bring your own. Recommended",
+      "category": "recreation"
+    },
+    {
+      "id": "altus-murder-mystery-game-night-2026-09-15",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-family-game-day-2026-09-18",
+      "title": "Family Game Day",
+      "date": "2026-09-18T10:30:00",
+      "endDate": "2026-09-18T12:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Bring the whole family to the Library for an afternoon of fun, creativity, and friendly competition! Enjoy a variety of creative activities, board games, and card games with something for",
+      "category": "family"
+    },
+    {
+      "id": "altus-pokemon-night-2026-09-18",
+      "title": "Pokemon Night",
+      "date": "2026-09-18T15:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Calling all Pokémon Trainers! Get ready for a fun-filled evening of Pokémon adventures at the Library! Trade Pokémon cards, battle in the Pokémon Trading Card Game, color your favorite Pokémon,",
+      "category": "family"
     },
     {
       "id": "altus-got-talent",
@@ -306,6 +426,36 @@
       "category": "recreation"
     },
     {
+      "id": "altus-stem-activity-2026-09-25",
+      "title": "STEM Activity",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Discover, Create, and Explore! Join the Library for an exciting STEM Activity! Have fun while learning through hands-on science, technology, engineering, and mathematics challenges. It's a great opportunity to spark",
+      "category": "education"
+    },
+    {
+      "id": "altus-that-time-i-got-reincarnated-as-a-slime-the-movi-2026-09-2",
+      "title": "That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "Altus AFB Theater",
+      "address": "Altus, OK",
+      "description": "Enjoy a FREE movie showing at the Base Theater! Join us for That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea, rated PG-13. Sit",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-mini-golf-tournament-2026-09-25",
+      "title": "Mini Golf Tournament",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "Altus AFB",
+      "address": "Altus, OK",
+      "description": "Join us for a Mini Golf Tournament and see if you have what it takes to conquer the course! Grab your friends, bring your best putting game, and enjoy an",
+      "category": "recreation"
+    },
+    {
       "id": "altus-pumpkin-pacer",
       "title": "Pumpkin Pacer 10K",
       "date": "2026-10-03T08:00:00",
@@ -324,16 +474,6 @@
       "address": "Altus AFB, OK",
       "description": "Live music, food and drinks, corn hole, bounce houses, and more.",
       "category": "community"
-    },
-    {
-      "id": "altus-mandalorian-movie",
-      "title": "Base Theater: Star Wars — The Mandalorian and Grogu",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "Base Theater",
-      "address": "Altus AFB, OK",
-      "description": "Free PG-13 movie showing at the Base Theater.",
-      "category": "entertainment"
     }
   ],
   "newcomers": {

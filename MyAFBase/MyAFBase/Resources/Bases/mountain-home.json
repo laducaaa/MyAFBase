@@ -7,7 +7,7 @@
   "wing": "366 FW",
   "latitude": 43.0456,
   "longitude": -115.8724,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "mountain-home-notif-real-id",
@@ -242,7 +242,88 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "mountain-home-library-craftytales-2026-09-10",
+      "title": "Library CraftyTales",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "mountain-home-aquatics-paddleboard-yoga-2026-09-12",
+      "title": "Aquatics – Paddleboard Yoga",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "fitness"
+    },
+    {
+      "id": "mountain-home-intro-to-rock-climbing-and-rappelling-2026-09-19",
+      "title": "Intro to Rock Climbing and Rappelling",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mountain-home-job-fair-2026-09-24",
+      "title": "Job Fair",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "education"
+    },
+    {
+      "id": "mountain-home-lead-climbing-2026-09-26",
+      "title": "Lead Climbing",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mountain-home-youth-family-dodgeball-and-pumpkin-spice-2026-10-0",
+      "title": "Youth Family Dodgeball and Pumpkin Spice Bake & Drink Off",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "family"
+    },
+    {
+      "id": "mountain-home-spooky-friday-2026-10-30",
+      "title": "Spooky Friday",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-spooky-library-halloween-2026-10-31",
+      "title": "Spooky Library Halloween",
+      "date": "2026-10-31",
+      "endDate": "2026-10-31",
+      "location": "Mountain Home AFB",
+      "address": "Mountain Home, ID",
+      "description": "Listed on mountainhomefss.com calendar.",
+      "category": "holiday"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 5400)",

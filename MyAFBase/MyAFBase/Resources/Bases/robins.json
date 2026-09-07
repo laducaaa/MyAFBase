@@ -7,7 +7,7 @@
   "wing": "78 ABW",
   "latitude": 32.6401,
   "longitude": -83.5919,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "robins-notif-real-id",
@@ -357,7 +357,28 @@
       "building": "Bldg 956"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "robins-wings-over-wonder-junior-air-force-ball-2026-09-19",
+      "title": "Wings Over Wonder Junior Air Force Ball",
+      "date": "2026-09-19T17:00:00",
+      "endDate": "2026-09-19T21:00:00",
+      "location": "Youth Center",
+      "address": "720 Hawkinsville St. Bldg. 1021, Robins AFB, GA, 31098",
+      "description": "<p>KidVenture invites young guests to soar into a memorable evening at the “Wings Over Wonder” Junior Air Force Ball on Saturday, September 19, 2026, from 5–9 p.m. Designed for children […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "robins-murder-mystery-date-night-2026-09-25",
+      "title": "Murder Mystery Date Night",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Heritage Club",
+      "address": "956 Ninth St. Bldg. 956, Robins AFB, GA, 31098",
+      "description": "<p>Outdoor Recreation invites you to an unforgettable Murder Mystery Date Night featuring “Murder at the Colosseum” on September 25, 2026, at the Heritage Club Ballroom. Guests will take part in […]</p>\\n",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Robins AFB Visitor Control Center",

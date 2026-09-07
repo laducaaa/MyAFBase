@@ -357,6 +357,26 @@
       "category": "recreation"
     },
     {
+      "id": "kirtland-2-tuesdays-2026-09-08",
+      "title": "$2 Tuesdays",
+      "date": "2026-09-08T15:00:00",
+      "endDate": "2026-09-08T21:00:00",
+      "location": "Bowling Center",
+      "address": "3C4V+27 Albuquerque, New Mexico",
+      "description": "Every Tue after 3 p.m., $2 per game $2 shoe rental",
+      "category": "community"
+    },
+    {
+      "id": "kirtland-p3-special-pizza-pop-pins-2026-09-09",
+      "title": "P3 Special: Pizza, Pop & Pins",
+      "date": "2026-09-09T13:00:00",
+      "endDate": "2026-09-09T18:00:00",
+      "location": "Bowling Center",
+      "address": "3C4V+27 Albuquerque, New Mexico",
+      "description": "$30 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and one-topping pizza.",
+      "category": "recreation"
+    },
+    {
       "id": "kirtland-oil-change-workshop-2026-09-10",
       "title": "Oil Change Workshop",
       "date": "2026-09-10T14:00:00",
@@ -365,6 +385,46 @@
       "address": "Albuquerque, NM",
       "description": "Auto skills oil-change workshop. Source: Kirtland Force Support calendar.",
       "category": "education"
+    },
+    {
+      "id": "kirtland-dutch-oven-cooking-workshops-2026-09-10",
+      "title": "Dutch Oven Cooking Workshops",
+      "date": "2026-09-10T16:30:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "ODR",
+      "address": "8001 Gibson Blvd SE, Albuquerque, NM, 87108",
+      "description": "$10 per person; Includes staffing and groceries; All ages; ODR on base Do you go camping and like cooking on the fire? We’ll be teaching recipes you can cook in a dutch oven and prepare at a campsite kitchen. We’ll discuss menu planning, food prep, and where/when you can cook with a dutch oven. When the recipe’s ready, we’ll eat the finished product! Ask the front desk for the next workshop’s reci",
+      "category": "outdoor"
+    },
+    {
+      "id": "kirtland-bouldering-nights-in-2026-09-10",
+      "title": "Bouldering Nights In",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "Kirtland AFB, Albuquerque, NM",
+      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "$7 per person or fee waived through passes; Includes staffing; All ages; ODR on base This fall we’ll keep the Boulder Lab open late some weeknights so you can enjoy some bouldering after work! SIGN UP HERE",
+      "category": "outdoor"
+    },
+    {
+      "id": "kirtland-intro-to-candle-making-2026-09-11",
+      "title": "Intro to Candle Making",
+      "date": "2026-09-11T16:30:00",
+      "endDate": "2026-09-11T18:00:00",
+      "location": "Kirtland AFB, Albuquerque, NM",
+      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "Ages 18+ $20 We melt paraffin wax and add dyes/scent to make candles for home use or as a gift. We provide containers, but participants are encouraged to bring any glass, metal or ceramic containers to make unique “upcycled” candles.",
+      "category": "education"
+    },
+    {
+      "id": "kirtland-cosmic-bowling-2026-09-11",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Bowling Center",
+      "address": "3C4V+27 Albuquerque, New Mexico",
+      "description": "$25/hr We turn the lights off, turn the black lights on, and the music up! Join us every Friday and Saturday night for out-of-this-world fun!",
+      "category": "recreation"
     },
     {
       "id": "kirtland-catch-cook-fishing-2026-09-12",
@@ -385,6 +445,26 @@
       "address": "Bandelier National Monument, NM",
       "description": "Strenuous ODR dayhike to Stone Lions area. Source: Kirtland Force Support calendar.",
       "category": "recreation"
+    },
+    {
+      "id": "kirtland-family-funday-sunday-2026-09-13",
+      "title": "Family Funday Sunday",
+      "date": "2026-09-13T13:00:00",
+      "endDate": "2026-09-13T19:00:00",
+      "location": "Bowling Center",
+      "address": "3C4V+27 Albuquerque, New Mexico",
+      "description": "$30/Family of 4 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and 1-topping pizza! 3C4V+27 Albuquerque, New Mexico",
+      "category": "recreation"
+    },
+    {
+      "id": "kirtland-intro-to-sewing-machine-2026-09-14",
+      "title": "Intro to Sewing Machine",
+      "date": "2026-09-14T14:00:00",
+      "endDate": "2026-09-14T16:00:00",
+      "location": "Kirtland AFB, Albuquerque, NM",
+      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "$30/$40 parent + teen *Teens must attend w/adult AD/Reserve ½ price All beginners welcome-“never ever sewers” to “it’s been a while”. This class is a pre requisite for our other sewing machine classes (intro to sewing machine quilting or basic garment construction).",
+      "category": "education"
     },
     {
       "id": "kirtland-oktoberfest-2026-09-18",
@@ -415,6 +495,46 @@
       "address": "Jemez Mountains, NM",
       "description": "ODR downhill bike trip in the Jemez mountains. Source: Kirtland Force Support calendar.",
       "category": "recreation"
+    },
+    {
+      "id": "kirtland-kids-pine-cone-animals-2026-09-23",
+      "title": "Kids Pine Cone Animals",
+      "date": "2026-09-23T16:30:00",
+      "endDate": "2026-09-23T17:30:00",
+      "location": "Kirtland AFB, Albuquerque, NM",
+      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "Ages 5+ $7",
+      "category": "family"
+    },
+    {
+      "id": "kirtland-dutch-oven-cooking-workshops-2026-09-24",
+      "title": "Dutch Oven Cooking Workshops",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "ODR",
+      "address": "8001 Gibson Blvd SE, Albuquerque, NM, 87108",
+      "description": "$10 per person; Includes staffing and groceries; All ages; ODR on base Do you go camping and like cooking on the fire? We’ll be teaching recipes you can cook in a dutch oven and prepare at a campsite kitchen. We’ll discuss menu planning, food prep, and where/when you can cook with a dutch oven. When the recipe’s ready, we’ll eat the finished product! Ask the front desk for the next workshop’s reci",
+      "category": "outdoor"
+    },
+    {
+      "id": "kirtland-tire-rotation-and-balance-workshop-2026",
+      "title": "Tire Rotation and Balance Workshop",
+      "date": "2026-09-25T14:00:00",
+      "endDate": "2026-09-25T16:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "2051 Texas ST SE Bldg. 20375, Albuquerque, NM, 87108",
+      "description": "SIGN UP HERE",
+      "category": "education"
+    },
+    {
+      "id": "kirtland-intro-to-crochet-knit-2026-09-28",
+      "title": "Intro to Crochet/Knit",
+      "date": "2026-09-28T16:30:00",
+      "endDate": "2026-09-28T17:30:00",
+      "location": "Kirtland AFB, Albuquerque, NM",
+      "address": "Kirtland AFB, Albuquerque, NM",
+      "description": "Ages 12+ $15/$20 parent + teen Instructor is right handed. For knit, continental technique is taught.",
+      "category": "family"
     },
     {
       "id": "kirtland-trinity-site-tour-2026-09-29",
@@ -496,5 +616,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:04:41Z"
+  "dataUpdatedAt": "2026-09-07T15:41:25Z"
 }

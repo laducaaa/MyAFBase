@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -206,6 +206,56 @@
   ],
   "events": [
     {
+      "id": "ramstein-humbergturm-tower-2026-09-10",
+      "title": "Humbergturm Tower",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T22:00:00",
+      "location": "Ramstein Outdoor Recreation",
+      "address": "Ramstein Air Base, DE",
+      "description": "Family-friendly Outdoor Recreation trip to climb Humbergturm Tower and catch the view.",
+      "category": "outdoor"
+    },
+    {
+      "id": "ramstein-women-s-5v5-flag-football-fall-league-2026-09-10",
+      "title": "Women's 5v5 Flag Football Fall League",
+      "date": "2026-09-10T18:30:00",
+      "endDate": "2026-09-10T20:30:00",
+      "location": "Fitness Centers",
+      "address": "Ramstein Air Base, DE",
+      "description": "Air Force Fitness & Sports fall women’s 5v5 flag football league kickoff.",
+      "category": "fitness"
+    },
+    {
+      "id": "ramstein-e-bike-the-netherlands-2026-09-12",
+      "title": "E-Bike the Netherlands",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-13T23:59:00",
+      "location": "Ramstein Outdoor Recreation",
+      "address": "Ramstein Air Base, DE",
+      "description": "Two-day e-bike adventure through the Netherlands with Outdoor Recreation.",
+      "category": "outdoor"
+    },
+    {
+      "id": "ramstein-mr-ms-usafe-bodybuilding-competition-2026-2026-09-12",
+      "title": "Mr. & Ms. USAFE Bodybuilding Competition 2026",
+      "date": "2026-09-12T10:30:00",
+      "endDate": "2026-09-12T18:00:00",
+      "location": "Southside Fitness Center",
+      "address": "Bldg. 2117, Ramstein Air Base, DE",
+      "description": "KMC premier fitness showcase with bikini, figure, wellness, men’s physique, and classic physique categories. Open to DoD ID card holders 18+.",
+      "category": "fitness"
+    },
+    {
+      "id": "ramstein-geierlay-suspension-bridge-hike-2026-09-17",
+      "title": "Geierlay Suspension Bridge Hike",
+      "date": "2026-09-17T09:30:00",
+      "endDate": "2026-09-17T18:00:00",
+      "location": "Ramstein Outdoor Recreation",
+      "address": "Ramstein Air Base, DE",
+      "description": "Outdoor Recreation hike across the Geierlay Suspension Bridge, 100 meters above the forest floor.",
+      "category": "outdoor"
+    },
+    {
       "id": "ramstein-bazaar-2026-09-18",
       "title": "62nd Annual Ramstein Bazaar",
       "date": "2026-09-18",
@@ -216,6 +266,66 @@
       "category": "community"
     },
     {
+      "id": "ramstein-back-in-the-groove-late-night-bash-2026-09-18",
+      "title": "Back in the Groove Late Night Bash",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "Youth Programs",
+      "address": "Ramstein Air Base, DE",
+      "description": "Youth Programs late night bash for teens.",
+      "category": "family"
+    },
+    {
+      "id": "ramstein-community-dodgeball-tournament-2026-09-19",
+      "title": "Community Dodgeball Tournament",
+      "date": "2026-09-19T09:00:00",
+      "endDate": "2026-09-19T18:00:00",
+      "location": "Southside Fitness Center",
+      "address": "Ramstein Air Base, DE",
+      "description": "Community dodgeball tournament hosted by Fitness & Sports.",
+      "category": "fitness"
+    },
+    {
+      "id": "ramstein-scuba-course-2026-2026-09-22",
+      "title": "Scuba Course 2026",
+      "date": "2026-09-22T00:00:00",
+      "endDate": "2026-09-22T23:59:00",
+      "location": "Aquatic Center",
+      "address": "Building 422, Wilson Boulevard, Ramstein Air Base, DE",
+      "description": "Scuba certification course at the Ramstein Aquatic Center.",
+      "category": "outdoor"
+    },
+    {
+      "id": "ramstein-tee-off-for-a-cause-pink-out-tournament-2026-10-02",
+      "title": "Tee Off for a Cause — Pink Out Tournament",
+      "date": "2026-10-02T09:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Woodlawn Golf Course",
+      "address": "Ramstein Air Base, DE",
+      "description": "2026 Pink Out charity golf tournament at Woodlawn Golf Course.",
+      "category": "recreation"
+    },
+    {
+      "id": "ramstein-homemade-craft-market-2026-10-03",
+      "title": "Homemade Craft Market",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-04T23:59:00",
+      "location": "Ramstein Community Center",
+      "address": "Ramstein Air Base, DE",
+      "description": "Community craft market for makers to sell handmade crafts and treats. Fall date 3–4 October.",
+      "category": "community"
+    },
+    {
+      "id": "ramstein-3rd-annual-breast-cancer-awareness-5k-2026-10-03",
+      "title": "3rd Annual Breast Cancer Awareness 5K",
+      "date": "2026-10-03T09:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "Fitness Center",
+      "address": "Ramstein Air Base, DE",
+      "description": "3rd Annual Breast Cancer Awareness 5K supporting the cause with Fitness Centers.",
+      "category": "fitness"
+    },
+    {
       "id": "ramstein-uso-family-fright-night-2026-10-30",
       "title": "USO Family Fright Night (supports FSS Fright Night)",
       "date": "2026-10-30",
@@ -223,6 +333,36 @@
       "location": "USO Kaiserslautern / Ramstein area",
       "address": "Ramstein AB AMC Passenger Terminal area, Germany",
       "description": "USO Family Fright Night supporting FSS Fright Night; kaiserslautern.uso.org events.",
+      "category": "community"
+    },
+    {
+      "id": "ramstein-uso-halloween-bash-teddy-bear-picnic-2026-10-31",
+      "title": "USO Halloween Bash Teddy Bear Picnic",
+      "date": "2026-10-31T10:00:00",
+      "endDate": "2026-10-31T12:00:00",
+      "location": "USO Ramstein",
+      "address": "AMC Passenger Terminal, Bldg. 3333, Ramstein",
+      "description": "Costume teddy bear picnic with games, snacks, and stories for kids.",
+      "category": "family"
+    },
+    {
+      "id": "ramstein-homemade-craft-market-november-2026-11-07",
+      "title": "Homemade Craft Market (November)",
+      "date": "2026-11-07T00:00:00",
+      "endDate": "2026-11-08T23:59:00",
+      "location": "Ramstein Community Center",
+      "address": "Ramstein Air Base, DE",
+      "description": "Fall Homemade Craft Market dates 7–8 November at the Community Center.",
+      "category": "community"
+    },
+    {
+      "id": "ramstein-homemade-craft-market-december-2026-12-05",
+      "title": "Homemade Craft Market (December)",
+      "date": "2026-12-05T00:00:00",
+      "endDate": "2026-12-06T23:59:00",
+      "location": "Ramstein Community Center",
+      "address": "Ramstein Air Base, DE",
+      "description": "Winter Homemade Craft Market dates 5–6 December at the Community Center.",
       "category": "community"
     }
   ],

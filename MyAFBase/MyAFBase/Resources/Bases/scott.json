@@ -7,7 +7,7 @@
   "wing": "375 AMW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -403,6 +403,26 @@
   ],
   "events": [
     {
+      "id": "scott-labor-day-golf-scramble-2026-09-07",
+      "title": "Labor Day Golf Scramble",
+      "date": "2026-09-07T09:00:00",
+      "endDate": "2026-09-07T09:00:00",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
+      "description": "<p>Click Here to Register Online! This Labor Day, ditch the chores and hit the course! Tee off with us on Monday, Sept. 7 at our Labor Day Golf Scramble! Enjoy a fun-filled day on the greens with a 4-person scramble featuring Gross & Peoria handicaps—so everyone has a shot to win. Winning teams will take […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "scott-diy-night-2026-09-10",
+      "title": "DIY Night",
+      "date": "2026-09-10T18:00:00",
+      "endDate": "2026-09-10T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Click Here to Register Online! Unleash your creativity at our upcoming DIY Night on Sept. 10. Whether you’re a beginner or experienced artist, this DIY night will guide you through creating your own Textured Painting on Wood with VineGogh Wine Bar & Art Studio. Grab your friends or partner, and enjoy a night of crafting […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
       "id": "scott-summer-concert-sept-2026-09-11",
       "title": "Summer Concert Series – September",
       "date": "2026-09-11",
@@ -413,13 +433,43 @@
       "category": "community"
     },
     {
-      "id": "scott-fss-fall-fest-2026-09-18",
-      "title": "FSS Fall Fest",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Bldg. 1650 Parking Lot",
-      "address": "469 W Martin St, Scott AFB, IL 62225",
-      "description": "Free Fall Fest: carnival, car show, live band FReSh RAiN; 375 FSS.",
+      "id": "scott-join-keystone-for-a-meaningful-service-project-2026-09-11",
+      "title": "Join Keystone for a Meaningful Service Project",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Youth Center",
+      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
+      "description": "<p>Help us show our appreciation to the Airmen who keep Scott AFB safe every day with our Cookies for the Gate Guards initiative on Friday, Sept. 11, 6-9 p.m.! Keystone members will bake and package cookies before delivering them to our Security Forces gate guards as part of our Heroes Next Door initiative. This project […]</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "scott-bluey-s-big-play-tickets-2026-09-12",
+      "title": "Bluey’s Big Play Tickets",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Bring the whole family for Bluey\\'s Big Play, the hit live stage show featuring Bluey, Bingo, Bandit, and Chilli in a heartwarming adventure filled with laughter, music, and fun for all ages! Location: Fabulous Fox Theatre Dates: Saturday, September 12 – 11:00 a.m., 2:00 p.m. & 5:00 p.m. Sunday, September 13 – 1:00 p.m. Tickets: […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "scott-bridgerton-series-teddy-bear-me-regency-tea-2026-09-14",
+      "title": "Bridgerton Series: Teddy Bear & Me Regency Tea",
+      "date": "2026-09-14T11:00:00",
+      "endDate": "2026-09-14T11:00:00",
+      "location": "Library",
+      "address": "510 Ward Dr, Scott AFB, IL, 62225",
+      "description": "<p>The youngest members of the ton are cordially invited to a most delightful Teddy Bear & Me Regency Tea Party! Bring your favorite teddy bear and join us for a charming morning of tea, sweet treats, enchanting stories, and whimsical activities inspired by the elegance of the Regency era. Sept 14, 2026 | 11:00a Scott […]</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "scott-bridgerton-series-masquerade-mask-making-septemb-2026-09-1",
+      "title": "Bridgerton Series: Masquerade! Mask Making – September",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "701 Ward Dr, Scott AFB, IL, 62225",
+      "description": "<p>Word has spread that the season\\'s most enchanting masquerade is fast approaching, and no member of the ton would dare arrive without an exquisite mask. Join us for Bridgerton-inspired Masquerade Mask Making events, where you\\'ll design and embellish your own elegant creation using feathers, lace, jewels, ribbons, and other beautiful adornments. Wednesday, Sept 16 - […]</p>\\n",
       "category": "community"
     },
     {
@@ -433,6 +483,26 @@
       "category": "community"
     },
     {
+      "id": "scott-fss-fall-fest-2026-09-18",
+      "title": "FSS Fall Fest",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Bldg. 1650 Parking Lot",
+      "address": "469 W Martin St, Scott AFB, IL 62225",
+      "description": "Free Fall Fest: carnival, car show, live band FReSh RAiN; 375 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "scott-the-big-game-show-teen-night-out-2026-09-18",
+      "title": "The Big Game Show Teen Night Out",
+      "date": "2026-09-18T17:30:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "Youth Center",
+      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
+      "description": "<p>Think you have what it takes to win THE BIG GAME SHOW? On Friday, Sept. 18, 5:30 – 9 p.m., grab your friends and join the Scott AFB Youth Center for an unforgettable Teen Night Out! We\\'ll head out for an evening of exciting game show challenges, team competition, and plenty of fun before stopping […]</p>\\n",
+      "category": "family"
+    },
+    {
       "id": "scott-night-golf-2026-09-19",
       "title": "Night Golf",
       "date": "2026-09-19",
@@ -443,14 +513,34 @@
       "category": "community"
     },
     {
-      "id": "scott-summer-concert-oct-2026-10-09",
-      "title": "Summer Concert Series – October",
-      "date": "2026-10-09",
-      "endDate": "2026-10-09",
-      "location": "Cardinal Creek Golf Course",
-      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
-      "description": "Concert series continues Oct 9 (Up All Night); linked from Sept concert page / homepage.",
-      "category": "community"
+      "id": "scott-bridgerton-bingo-2026-09-19",
+      "title": "Bridgerton Bingo",
+      "date": "2026-09-19T18:00:00",
+      "endDate": "2026-09-19T18:00:00",
+      "location": "Scott Community Center",
+      "address": "47 Ward Dr, Scott AFB, IL, 62225",
+      "description": "<p>Click Here to Register Online! Join us for an enchanting evening of Bridgerton Bingo. Whether fortune favors your card or Lady Luck chooses another, this enchanting evening promises charming prizes, and Regency-inspired fun fit for society\\'s finest. Sept 19, 2026 | 6:00p Scott Community Center Doors: 5:00 pm | Play: 6:00 pm Tickets: Early Bird […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "scott-safb-art-show-seeking-artists-2026-09-21",
+      "title": "SAFB Art Show – Seeking Artists!",
+      "date": "2026-09-21T00:00:00",
+      "endDate": "2026-09-25T23:59:59",
+      "location": "Arts & Crafts Center",
+      "address": "701 Ward Dr, Scott AFB, IL, 62225",
+      "description": "<p>Opening Night is October 1st! Learn More Here! Do you have artistic talent? Would you like to showcase your creativity? Enter your artwork in the 2026 Scott AFB Art Show! The top pieces from each category/division will win prizes! Entries accepted Sept. 21-25 at the Arts & Crafts Center. There are two age Divisions: Adult […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "scott-brunswick-ball-demo-day-2026-09-26",
+      "title": "Brunswick Ball Demo Day",
+      "date": "2026-09-26T14:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
+      "description": "<p>Ready to find your next perfect ball? Come test-drive the newest releases from Brunswick and elevate your game! Join us Saturday, September 26 from 2:00-4:00p at Stars & Strikes Bowling Center. Just $20 per person gets you the chance to demo all the New Brunswick bowling balls available. Call 618-744-1277 to sign up!</p>\\n",
+      "category": "recreation"
     },
     {
       "id": "scott-art-show-opening-2026-10-01",
@@ -460,6 +550,36 @@
       "location": "Scott AFB",
       "address": "Scott AFB, IL",
       "description": "Art Show opening night; 375 FSS homepage.",
+      "category": "community"
+    },
+    {
+      "id": "scott-bowling-ball-giveaway-2026-10-01",
+      "title": "Bowling Ball Giveaway",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
+      "description": "<p>Bowl. Enter. Win! From October 1–31, bowl your way to a brand-new bowling ball of your choice at Stars & Strikes! Bowl 3 or more paid games individually during a single visit to earn one entry into the giveaway. The more you bowl, the more chances you have to win! Open to all bowlers. Excludes […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "scott-safb-art-show-gallery-viewing-2026-10-02",
+      "title": "SAFB Art Show – Gallery Viewing",
+      "date": "2026-10-02T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Arts & Crafts Center",
+      "address": "701 Ward Dr, Scott AFB, IL, 62225",
+      "description": "<p>Art Show Submissions Opening Soon! Learn More Here! Opening Night is October 1st! Learn More Here! Join us at the Arts & Crafts Center, October 2-31, for Gallery Viewing Days of the 2026 Art Show! The center is open Monday - Friday, 9am - 6pm, closed Saturday, Sunday and Holidays. Come see all the amazing […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "scott-summer-concert-oct-2026-10-09",
+      "title": "Summer Concert Series – October",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
+      "description": "Concert series continues Oct 9 (Up All Night); linked from Sept concert page / homepage.",
       "category": "community"
     },
     {

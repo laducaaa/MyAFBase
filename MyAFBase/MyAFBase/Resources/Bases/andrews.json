@@ -7,7 +7,7 @@
   "wing": "316 WG / 89 AW",
   "latitude": 38.8108,
   "longitude": -76.8669,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "andrews-notif-real-id",
@@ -265,6 +265,16 @@
       "category": "community"
     },
     {
+      "id": "andrews-crafting-around-2026-09-08",
+      "title": "Crafting Around",
+      "date": "2026-09-08T10:00:00",
+      "endDate": "2026-09-08T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area",
+      "category": "community"
+    },
+    {
       "id": "andrews-storytime-2026-09-09",
       "title": "StoryTime",
       "date": "2026-09-09",
@@ -312,6 +322,76 @@
       "location": "ITT / Bus Trip",
       "address": "Joint Base Andrews, MD",
       "description": "NYC bus trip listed on andrewsfss.com Lab events.",
+      "category": "community"
+    },
+    {
+      "id": "andrews-music-movement-2026-09-21",
+      "title": "Music & Movement",
+      "date": "2026-09-21T10:00:00",
+      "endDate": "2026-09-21T10:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”] Every 1st & 3rd Monday ",
+      "category": "family"
+    },
+    {
+      "id": "andrews-storytime-2026-09-23",
+      "title": "StoryTime",
+      "date": "2026-09-23T10:00:00",
+      "endDate": "2026-09-23T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area",
+      "category": "family"
+    },
+    {
+      "id": "andrews-karaoke-night-2026-10-01",
+      "title": "Karaoke Night",
+      "date": "2026-10-01T19:00:00",
+      "endDate": "2026-10-01T21:00:00",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.4″ _module_preset=”default”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.4″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area",
+      "category": "entertainment"
+    },
+    {
+      "id": "andrews-stem-saturday-2026-10-03",
+      "title": "STEM Saturday",
+      "date": "2026-10-03T12:00:00",
+      "endDate": "2026-10-03T13:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area",
+      "category": "education"
+    },
+    {
+      "id": "andrews-efmp-walk-roll-2026-10-17",
+      "title": "EFMP “Walk & Roll”",
+      "date": "2026-10-17T09:00:00",
+      "endDate": "2026-10-17T12:00:00",
+      "location": "Joint Base Andrews, MD",
+      "address": "Joint Base Andrews, MD",
+      "description": "Location: MPF Field Join us for the EFMP “Walk & Roll” with an Interactive Family Fair! A Community event honoring military families with special needs and celebration inclusion, resilience, and support. The walk and roll promote awareness of EFMP resources and strengthens connections across our community. We aim to partner with Exceptional Family Member Program from all branches of service to sha",
+      "category": "community"
+    },
+    {
+      "id": "andrews-stem-saturday-2026-11-07",
+      "title": "STEM Saturday",
+      "date": "2026-11-07T12:00:00",
+      "endDate": "2026-11-07T13:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area",
+      "category": "education"
+    },
+    {
+      "id": "andrews-nyc-bus-trip-at-macy-s-herald-square-202",
+      "title": "NYC Bus Trip at Macy’s Herald Square",
+      "date": "2026-11-14T07:00:00",
+      "endDate": "2026-11-14T23:00:00",
+      "location": "Information, Tickets & Travel",
+      "address": "1235 Menoher Dr., Joint Base Andrews, MD, 20762",
+      "description": "*Sign-Up Deadline: 12 November 2026 Join JBA Information, Ticket, and Tours to experience the magic of Times Square or delight in Central Park’s rolling lawns, lakes, and woodlands during our New York City fun day. From famous spaces to historic places discover the wonders of the Big Apple. *No minimum age for this trip. Trip Includes: Transportation Trip Cost: $86/person",
       "category": "community"
     }
   ],

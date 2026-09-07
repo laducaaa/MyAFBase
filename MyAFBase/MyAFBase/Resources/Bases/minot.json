@@ -7,7 +7,7 @@
   "wing": "5 BW",
   "latitude": 48.4158,
   "longitude": -101.3587,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "minot-notif-real-id",
@@ -242,7 +242,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "minot-twin-cities-trip-2026-09-07",
+      "title": "Twin Cities Trip",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "community"
+    },
+    {
+      "id": "minot-bundles-for-babies-2026-09-09",
+      "title": "Bundles for Babies",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "family"
+    },
+    {
+      "id": "minot-air-force-birthday-special-lunch-dinner-2026-09-18",
+      "title": "Air Force Birthday Special Lunch & Dinner",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "minot-air-force-birthday-tournament-2026-09-19",
+      "title": "Air Force Birthday Tournament",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "minot-minecraft-party-2026-09-19",
+      "title": "Minecraft Party",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "minot-kayaking-trip-2026-09-26",
+      "title": "Kayaking Trip",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "outdoor"
+    },
+    {
+      "id": "minot-craft-club-2026-09-28",
+      "title": "Craft Club",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "minot-haunted-stacks-begins-2026-09-28",
+      "title": "Haunted Stacks Begins",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "community"
+    },
+    {
+      "id": "minot-haunted-stacks-ends-2026-09-28",
+      "title": "Haunted Stacks Ends",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "community"
+    },
+    {
+      "id": "minot-craft-club-2026-10-15",
+      "title": "Craft Club",
+      "date": "2026-10-15",
+      "endDate": "2026-10-15",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "minot-haunted-stacks-begins-2026-10-17",
+      "title": "Haunted Stacks Begins",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "community"
+    },
+    {
+      "id": "minot-haunted-stacks-ends-2026-10-31",
+      "title": "Haunted Stacks Ends",
+      "date": "2026-10-31",
+      "endDate": "2026-10-31",
+      "location": "Minot AFB",
+      "address": "Minot, ND",
+      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

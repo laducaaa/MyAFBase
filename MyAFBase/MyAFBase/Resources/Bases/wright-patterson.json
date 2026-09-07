@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -436,14 +436,14 @@
   ],
   "events": [
     {
-      "id": "wpafb-evt-1",
-      "title": "AFMC Innovation Summit",
-      "date": "2026-09-15T08:00:00Z",
-      "endDate": "2026-09-15T17:00:00Z",
-      "location": "National Museum of the U.S. Air Force",
-      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
-      "description": "Annual innovation and technology showcase for AFMC personnel and industry partners.",
-      "category": "community"
+      "id": "wright-patterson-wood-turning-class-2026-09-08",
+      "title": "Wood Turning Class",
+      "date": "2026-09-08T17:30:00",
+      "endDate": "2026-09-08T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. […]</p>\\n",
+      "category": "recreation"
     },
     {
       "id": "wpafb-fall-planting-party-2026-09-09",
@@ -466,24 +466,44 @@
       "category": "community"
     },
     {
-      "id": "wpafb-oktoberfest-2026-09-24",
-      "title": "Oktoberfest",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Wing's Bar and Grille",
-      "address": "Wright-Patterson AFB",
-      "description": "Oktoberfest with German food, beer, live music; 88 FSS homepage.",
+      "id": "wright-patterson-first-friday-2026-09-11",
+      "title": "First Friday",
+      "date": "2026-09-11T15:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Wing’s Bar and Grille",
+      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "<p>May not be the first of the month, but the fun is still happening at First Friday on Friday, September 11 in Wing\\'s Bar & Grille beginning at 3pm! Gather your friends and join in for an afternoon and evening filled with great food, refreshing drink specials, a live DJ and a fun atmosphere you […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "wpafb-evt-1",
+      "title": "AFMC Innovation Summit",
+      "date": "2026-09-15T08:00:00Z",
+      "endDate": "2026-09-15T17:00:00Z",
+      "location": "National Museum of the U.S. Air Force",
+      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
+      "description": "Annual innovation and technology showcase for AFMC personnel and industry partners.",
       "category": "community"
     },
     {
-      "id": "wpafb-horror-night-halloween-2026-10-30",
-      "title": "Horror Night Halloween Party",
-      "date": "2026-10-30",
-      "endDate": "2026-10-30",
-      "location": "Wright-Patterson AFB",
-      "address": "",
-      "description": "Horror Night / Halloween party (haunted hallway, costume contest, DJ); 88 FSS sponsorship page.",
+      "id": "wright-patterson-auto-shop-safety-2026-09-16",
+      "title": "Auto Shop Safety",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "<p>Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month </p>\\n",
       "category": "community"
+    },
+    {
+      "id": "wright-patterson-cash-bingo-2026-09-16",
+      "title": "Cash Bingo",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Join in for Cash bingo on Wednesday, September 16 starting at 6 pm in Wing\\'s Bar & Grille! Come out and play bingo for cash prizes. Pay outs are based on attendance with a progressive coverall prize for the last game. Food and drinks will be available for purchase. $35 Per Player Must be 18 […]</p>\\n",
+      "category": "recreation"
     },
     {
       "id": "wpafb-plane-talks-sep",
@@ -493,6 +513,26 @@
       "location": "National Museum of the U.S. Air Force",
       "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
       "description": "Gallery talks open to museum visitors.",
+      "category": "community"
+    },
+    {
+      "id": "wright-patterson-wood-turning-class-2026-09-22",
+      "title": "Wood Turning Class",
+      "date": "2026-09-22T17:30:00",
+      "endDate": "2026-09-22T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "wpafb-oktoberfest-2026-09-24",
+      "title": "Oktoberfest",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Wing's Bar and Grille",
+      "address": "Wright-Patterson AFB",
+      "description": "Oktoberfest with German food, beer, live music; 88 FSS homepage.",
       "category": "community"
     },
     {
@@ -514,6 +554,66 @@
       "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
       "description": "Free event for girls ages 6–17 with hands-on aviation/STEM activities.",
       "category": "family"
+    },
+    {
+      "id": "wright-patterson-pink-ribbon-walk-2026-10-01",
+      "title": "Pink Ribbon Walk",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T19:00:00",
+      "location": "Prairie Trace Golf Course",
+      "address": "4690 Skeel Ave, BLDG 90, Fairborn, Ohio, 45433",
+      "description": "<p>Join in for the Pink Ribbon Walk on Thursday, October 1 from 5 - 7 pm at the Prairie Trace Golf Course This 5k run/walk is to promote breast cancer awareness. Information booths, selfie station, yoga warm up, free event t-shirts, snacks after the run. The event is FREE and family friendly.</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "wright-patterson-bench-press-clinic-2026-10-10",
+      "title": "Bench Press Clinic",
+      "date": "2026-10-10T09:30:00",
+      "endDate": "2026-10-10T10:30:00",
+      "location": "Wright-Field Fitness Center",
+      "address": "2690 C Street Bldg 571, Area B Wright-Patterson AFB, Ohio 45433",
+      "description": "<p>Increase your max with Wright-Patt Fitness and Sports Bench Press Clinic on Saturday, October 10 from 9:30-10:30am. Learn proper form, and prevent injuries with expert coaching. Lift smarter, press further!</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "wright-patterson-mini-moos-brews-2026-10-16",
+      "title": "Mini Moos & Brews",
+      "date": "2026-10-16T16:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "Wing’s Bar & Grille patio",
+      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "<p>Join in for Mini Moos and Brews on Friday, October 16 from 4 - 8 pm at the Wing\\'s Bar & Grille Patio. Meet the Mini Moos Highland Cows and enjoy food trucks, great drinks, and live music.</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "wright-patterson-pumpkin-powder-dash-2026-10-16",
+      "title": "Pumpkin Powder Dash",
+      "date": "2026-10-16T17:30:00",
+      "endDate": "2026-10-16T19:30:00",
+      "location": "Jarvis Fitness Center",
+      "address": "1245 Fir St, Area A, Fairborn, OH, 45432",
+      "description": "<p>Join Child and Youth Programs for the Pumpkin Powder Dash on Friday, October 16 from 5:30 -7:30pm. Don\\'t miss this fun themed kids color run at the Jarvis Fitness Center Track. More information to come.</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "wright-patterson-auto-shop-safety-2026-10-21",
+      "title": "Auto Shop Safety",
+      "date": "2026-10-21T17:00:00",
+      "endDate": "2026-10-21T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "<p>Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month </p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "wpafb-horror-night-halloween-2026-10-30",
+      "title": "Horror Night Halloween Party",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Wright-Patterson AFB",
+      "address": "",
+      "description": "Horror Night / Halloween party (haunted hallway, costume contest, DJ); 88 FSS sponsorship page.",
+      "category": "community"
     },
     {
       "id": "wpafb-bombers-brews",

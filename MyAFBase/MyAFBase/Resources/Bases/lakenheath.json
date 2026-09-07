@@ -7,7 +7,7 @@
   "wing": "48 FW",
   "latitude": 52.4093,
   "longitude": 0.561,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "lakenheath-notif-real-id",
@@ -193,7 +193,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "lakenheath-arundel-castle-2026-09-07",
+      "title": "Arundel Castle",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-harry-potter-studio-tour-2026-09-07",
+      "title": "Harry Potter Studio Tour",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-snowdonia-extreme-day-2026-09-12",
+      "title": "Snowdonia Extreme Day",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-jane-austen-festival-city-of-bath-2026-09-12",
+      "title": "Jane Austen Festival: City of Bath",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-throwdown-showdown-corn-hole-tournament-2026-09-12",
+      "title": "Throwdown Showdown! Corn Hole Tournament at the Liberty Club",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "community"
+    },
+    {
+      "id": "lakenheath-dover-castle-2026-09-13",
+      "title": "Dover Castle",
+      "date": "2026-09-13",
+      "endDate": "2026-09-13",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-air-force-birthday-golf-par-tee-scramble-2026-09-13",
+      "title": "Air Force Birthday: Golf Par-Tee Scramble at Breckland Pines Golf Course",
+      "date": "2026-09-13",
+      "endDate": "2026-09-13",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "fitness"
+    },
+    {
+      "id": "lakenheath-dublin-extreme-day-trip-2026-09-19",
+      "title": "Dublin: Extreme Day Trip",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-featured-oktoberfest-2026-09-19",
+      "title": "Featured Oktoberfest",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-oktoberfest-2026-09-19",
+      "title": "Oktoberfest",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-stained-glass-2026-09-19",
+      "title": "Stained Glass",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "recreation"
+    },
+    {
+      "id": "lakenheath-warwick-castle-2026-09-20",
+      "title": "Warwick Castle",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "RAF Lakenheath Visitor Center",

@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -277,50 +277,20 @@
   ],
   "events": [
     {
-      "id": "beale-loud-saturdays-2026-09-12",
-      "title": "Loud Saturdays at Hub Zemke Library",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
+      "id": "beale-anime-manga-scavenger-hunt-2026-09-07",
+      "title": "Anime & Manga Scavenger Hunt*",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-12T16:00:00",
       "location": "Hub Zemke Library",
-      "address": "17849 16th St., Beale AFB, CA 95903",
-      "description": "Games, Lego, Magna-Tiles, Hot Wheels; bealefss.com.",
-      "category": "community"
+      "address": "17849 16th St. Beale AFB, CA 95903",
+      "description": "Anime & Manga Scavenger Hunt* Sep 7-12 Hub Zemke Library Find all the items and receive a prize! Visit us at Beale Con 2026 in the Ballet Room where we",
+      "category": "education"
     },
     {
       "id": "beale-taco-tuesday-2026-09-08",
       "title": "Taco Tuesday!!",
       "date": "2026-09-08",
       "endDate": "2026-09-08",
-      "location": "Beale AFB",
-      "address": "",
-      "description": "Recurring Taco Tuesday series; bealefss.com.",
-      "category": "community"
-    },
-    {
-      "id": "beale-taco-tuesday-2026-09-15",
-      "title": "Taco Tuesday!!",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "location": "Beale AFB",
-      "address": "",
-      "description": "Recurring Taco Tuesday series; bealefss.com.",
-      "category": "community"
-    },
-    {
-      "id": "beale-taco-tuesday-2026-09-22",
-      "title": "Taco Tuesday!!",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "location": "Beale AFB",
-      "address": "",
-      "description": "Recurring Taco Tuesday series; bealefss.com.",
-      "category": "community"
-    },
-    {
-      "id": "beale-taco-tuesday-2026-09-29",
-      "title": "Taco Tuesday!!",
-      "date": "2026-09-29",
-      "endDate": "2026-09-29",
       "location": "Beale AFB",
       "address": "",
       "description": "Recurring Taco Tuesday series; bealefss.com.",
@@ -335,6 +305,56 @@
       "address": "Beale AFB, CA",
       "description": "Fun run wellness side quest for Beale Con 2026; check-in 2:30 pm, start 3:00 pm.",
       "category": "fitness"
+    },
+    {
+      "id": "beale-throwback-thursdays-2026-09-10",
+      "title": "Throwback Thursdays!!",
+      "date": "2026-09-10T16:00:00",
+      "endDate": "2026-09-10T20:00:00",
+      "location": "Beale Lanes Bowling Center",
+      "address": "17800 Robert Nicoletti Way Bldg. #2431 Beale AFB, CA 95903",
+      "description": "Throwback Thursdays!! Every Thursday 4-8pm Beale Lanes Join us every Thursday from 4pm - 8pm for lots of great specials! $10 per person for 2 hours of bowling! (shoes not",
+      "category": "recreation"
+    },
+    {
+      "id": "beale-french-meadows-reservoir-2026-09-11",
+      "title": "French Meadows Reservoir*",
+      "date": "2026-09-11T09:00:00",
+      "endDate": "2026-09-13T16:00:00",
+      "location": "Outdoor Recreation",
+      "address": "17630 Doolittle Dr. Beale AFB, CA 95903",
+      "description": "French Meadows Reservoir* Sep 11–13 Time: 9 am - 4 pm Cost: $75 Sign-up Deadline: September 8th Note: Transport and campsite provided. Packing list will be shared; please bring camping",
+      "category": "outdoor"
+    },
+    {
+      "id": "beale-first-friday-2026-09-11",
+      "title": "FIRST FRIDAY",
+      "date": "2026-09-11T15:00:00",
+      "endDate": "2026-09-11T17:00:00",
+      "location": "Moos & Brews",
+      "address": "17440 Warren Shingle Rd., Beale AFB, CA, 95903",
+      "description": "FIRST FRIDAY Moos and Brews September 11th 3:09 pm Free pizza while supplies last, drink specials.",
+      "category": "community"
+    },
+    {
+      "id": "beale-loud-saturdays-2026-09-12",
+      "title": "Loud Saturdays at Hub Zemke Library",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Hub Zemke Library",
+      "address": "17849 16th St., Beale AFB, CA 95903",
+      "description": "Games, Lego, Magna-Tiles, Hot Wheels; bealefss.com.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-15",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
     },
     {
       "id": "beale-kids-night-out",
@@ -357,6 +377,16 @@
       "category": "recreation"
     },
     {
+      "id": "beale-taco-tuesday-2026-09-22",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
+      "category": "community"
+    },
+    {
       "id": "beale-kpop-movie",
       "title": "CAC Movie Night: K-pop Demon Hunters (PG)",
       "date": "2026-09-24T17:00:00",
@@ -367,6 +397,16 @@
       "category": "entertainment"
     },
     {
+      "id": "beale-youth-center-scavenger-hunt-2026-09-25",
+      "title": "Youth Center Scavenger Hunt*",
+      "date": "2026-09-25T15:30:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "Youth Center",
+      "address": "15160 Gavin Mandry Bldg. #3340 Beale AFB, CA 95903",
+      "description": "Youth Center Scavenger Hunt* Sep 25, 3:30 pm Members: FREE Non-Members: $5.00 Head to the Youth Center and find the hidden \"Pokemon\" Cards. *This is a SIDE QUEST event for",
+      "category": "family"
+    },
+    {
       "id": "beale-con-2026",
       "title": "Beale Con 2026",
       "date": "2026-09-26T11:00:00",
@@ -374,6 +414,16 @@
       "location": "Community Center",
       "address": "Beale AFB, CA",
       "description": "Manga-themed convention with cosplay and side-quest prize turn-in.",
+      "category": "community"
+    },
+    {
+      "id": "beale-taco-tuesday-2026-09-29",
+      "title": "Taco Tuesday!!",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "location": "Beale AFB",
+      "address": "",
+      "description": "Recurring Taco Tuesday series; bealefss.com.",
       "category": "community"
     }
   ],

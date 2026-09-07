@@ -257,7 +257,148 @@
       "building": "Bldg 99"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "columbus-labor-day-hours-2026-09-07",
+      "title": "Labor Day Hours",
+      "date": "2026-09-07T00:00:00",
+      "endDate": "2026-09-07T23:59:59",
+      "location": "Columbus AFB",
+      "address": "Columbus, MS",
+      "description": "Labor Day hours for the 14 FSS Facilities:",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-debrief-lounge-game-night-2026-09-08",
+      "title": "Debrief Lounge: Game Night",
+      "date": "2026-09-08T16:30:00",
+      "endDate": "2026-09-08T19:30:00",
+      "location": "Event Center",
+      "address": "236 State Loop, Columbus, MS, 39710",
+      "description": "Game Night at the Debrief Lounge is every Tuesday from 1630-1930 featuring your favorite board games and card games.",
+      "category": "entertainment"
+    },
+    {
+      "id": "columbus-resilience-ride-walk-run-remembrance-event-2026-09-10",
+      "title": "Resilience Ride, Walk & Run Remembrance Event",
+      "date": "2026-09-10T07:00:00",
+      "endDate": "2026-09-10T09:00:00",
+      "location": "Event Center",
+      "address": "236 State Loop, Columbus, MS, 39710",
+      "description": "Join the Fitness Center, IPPW, RAPCON, and SAPR on 10 September at the Event Center for the Resilience Ride, Walk & Run Remembrance Event. Choose to participate in a 5K",
+      "category": "fitness"
+    },
+    {
+      "id": "columbus-second-thursday-paintball-2026-09-10",
+      "title": "Second Thursday Paintball",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join Outdoor Recreation for Second Thursday Paintball from 1700-1900 on the Second Thursday of each month from September to November. Team sessions are $25 per person, which will include field",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-pins-pancakes-2026-09-12",
+      "title": "Pins & Pancakes",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T15:00:00",
+      "location": "Bowling Center",
+      "address": "Building 736, Columbus, MS, 39705",
+      "description": "The Bowling Center will host Pins and Pancakes on Saturdays, featuring fun-shaped and funfetti pancakes with a side of bacon or sausage from 1100-1500! Bowl and enjoy FREE kid-friendly movies,",
+      "category": "entertainment"
+    },
+    {
+      "id": "columbus-babysitting-course-2026-09-14",
+      "title": "Babysitting Course",
+      "date": "2026-09-14T16:00:00",
+      "endDate": "2026-09-14T18:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Join the Youth Center Babysitting Course from 14 September to 15 September, from 1600-1800 at the Youth Center Annex. Learn essential basic skills and safe sitter guidelines, along with receiving",
+      "category": "family"
+    },
+    {
+      "id": "columbus-teen-friday-night-lights-2026-09-18",
+      "title": "Teen Friday Night Lights",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Cheer on the Caledonia High School football team with the Youth Center during Teen Friday Night Lights on 18 September from 1800–2200. Teens ages 13–18 are invited to enjoy an",
+      "category": "family"
+    },
+    {
+      "id": "columbus-fall-break-camp-2026-09-28",
+      "title": "Fall Break Camp",
+      "date": "2026-09-28T06:30:00",
+      "endDate": "2026-09-28T17:30:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Keep the fun going over Fall Break at the Youth Center! Campers ages 5–12 will enjoy field trips, games, activities, and meals each day in a safe, supervised environment. Camp",
+      "category": "family"
+    },
+    {
+      "id": "columbus-fall-fishing-camp-2026-09-28",
+      "title": "Fall Fishing Camp",
+      "date": "2026-09-28T08:00:00",
+      "endDate": "2026-09-28T12:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Learn the basics of fishing and catch and fillet your own catfish at Fishing Camp at Barksdale Catfish Lakes! Camp will run from 0800 to 1200, 28 September –",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-movie-matinee-2026-09-28",
+      "title": "Movie Matinee",
+      "date": "2026-09-28T13:00:00",
+      "endDate": "2026-09-28T14:00:00",
+      "location": "Kaye Auditorium",
+      "address": "Columbus AFB, MS, 39710",
+      "description": "The Library will be hosting Movie Matinee on Mondays at the Kaye Auditorium at 1300! The Library will show different movies during the fall break. The movie is free, and",
+      "category": "entertainment"
+    },
+    {
+      "id": "columbus-petals-and-pumpkins-2026-09-30",
+      "title": "Petals and Pumpkins",
+      "date": "2026-09-30T18:00:00",
+      "endDate": "2026-09-30T20:00:00",
+      "location": "The Arts and Crafts Center",
+      "address": "37 Harris Street, Columbus, MS",
+      "description": "Join us for a fun and creative evening of ceramic pumpkin decorating at the Event Center on 30 September from 1800-2000. Participants will decorate a 4-inch ceramic pumpkin using the",
+      "category": "recreation"
+    },
+    {
+      "id": "columbus-cafb-archery-club-2026-10-01",
+      "title": "CAFB Archery Club",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join the CAFB Archery Club and discover the fun and challenge of archery! The club welcomes beginners and experienced archers alike. It’s a great way to practice your skills, meet",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-first-thursday-open-skeet-2026-10-01",
+      "title": "First Thursday Open Skeet",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T19:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join us for Open Skeet Shooting every First Thursday from September through November. Shooting sessions are held from 1700–1900 and are open to participants aged 12 and older. $6 per",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-cullman-oktoberfest-2026-10-03",
+      "title": "Cullman Oktoberfest",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join Outdoor Recreation for a trip to Cullman, Alabama, on 3 October for Cullman Oktoberfest, a celebration of German heritage featuring live music, authentic German food, cultural activities, vendors, entertainment,",
+      "category": "holiday"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 99)",
@@ -327,5 +468,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:04:41Z"
+  "dataUpdatedAt": "2026-09-07T15:41:25Z"
 }

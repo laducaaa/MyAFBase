@@ -7,7 +7,7 @@
   "wing": "434 ARW",
   "latitude": 40.6481,
   "longitude": -86.1521,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "grissom-notif-real-id",
@@ -281,7 +281,28 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "grissom-patriot-day-5k-2026-09-11",
+      "title": "Patriot Day 5K",
+      "date": "2026-09-11T12:00:00",
+      "endDate": "2026-09-11T13:00:00",
+      "location": "Grissom ARB",
+      "address": "Peru, IN",
+      "description": "Patriot Day 5K at Grissom ARB.",
+      "category": "holiday"
+    },
+    {
+      "id": "grissom-warbird-cruise-in-2026-09-19",
+      "title": "Warbird Cruise-in",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T14:30:00",
+      "location": "Grissom Air Museum",
+      "address": "1000 W Hoosier Blvd, Peru, IN",
+      "description": "Rescheduled Warbird Cruise-in at the Grissom Air Museum (adjacent community museum event).",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Grissom ARB Visitor Center",

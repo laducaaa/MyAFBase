@@ -7,7 +7,7 @@
   "wing": "51 FW",
   "latitude": 37.0906,
   "longitude": 127.0297,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "osan-notif-real-id",
@@ -193,7 +193,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "osan-jeju-island-tour-2026-09-05",
+      "title": "Jeju Island Tour",
+      "date": "2026-09-05",
+      "endDate": "2026-09-07",
+      "location": "ITT Desk, Osan AB",
+      "address": "Pyeongtaek, South Korea",
+      "description": "51 FSS ITT overnight trip to Jeju Island (Sat–Mon). Register via ITT.",
+      "category": "outdoor"
+    },
+    {
+      "id": "osan-glamping-tour-2026-09-06",
+      "title": "Glamping Tour",
+      "date": "2026-09-06",
+      "endDate": "2026-09-07",
+      "location": "Outdoor Recreation, Osan AB",
+      "address": "Pyeongtaek, South Korea",
+      "description": "Outdoor Recreation overnight glamping tour for Team Osan.",
+      "category": "outdoor"
+    },
+    {
+      "id": "osan-taco-thursday-at-the-enlisted-club-2026-09-10",
+      "title": "Taco Thursday at the Enlisted Club",
+      "date": "2026-09-10T16:30:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "Enlisted Club",
+      "address": "Osan AB, South Korea",
+      "description": "Recurring Taco Thursday at the Enlisted Club (also Sep 17, 24).",
+      "category": "entertainment"
+    },
+    {
+      "id": "osan-sunday-brunch-at-the-enlisted-club-2026-09-13",
+      "title": "Sunday Brunch at the Enlisted Club",
+      "date": "2026-09-13T10:00:00",
+      "endDate": "2026-09-13T13:30:00",
+      "location": "Enlisted Club",
+      "address": "Osan AB, South Korea",
+      "description": "Sunday brunch at the Enlisted Club (recurring).",
+      "category": "community"
+    },
+    {
+      "id": "osan-yeosu-ocean-cable-car-boseong-green-tea-2026-09-19",
+      "title": "Yeosu Ocean Cable Car & Boseong Green Tea Fields",
+      "date": "2026-09-19",
+      "endDate": "2026-09-20",
+      "location": "ITT Desk, Osan AB",
+      "address": "Pyeongtaek, South Korea",
+      "description": "Weekend ITT cultural trip featuring Yeosu Ocean Cable Car and Boseong tea fields.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Osan AB Visitor Center",

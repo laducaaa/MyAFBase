@@ -7,7 +7,7 @@
   "wing": "87 ABW",
   "latitude": 40.0156,
   "longitude": -74.5917,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "jbmdl-notif-real-id",
@@ -363,7 +363,128 @@
       "building": "Bldg 1200"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "jbmdl-entrepreneur-shark-tank-camp-2026-09-07",
+      "title": "Entrepreneur (Shark Tank) Camp",
+      "date": "2026-09-07T09:00:00",
+      "endDate": "2026-09-07T12:00:00",
+      "location": "FSS Tommy B’s Community Center",
+      "address": "2705 East Arnold Avenue, JBMDL McGuire",
+      "description": "Think big, and pitch like a pro! 9:00am-12:00pm, August 3-August 7, Tommy B’s Community Activity Center, Bldg. 2705 East Arnold Avenue Future business leaders and innovators are invited to join this exciting entrepreneurship camp where campers will solve everyday problems, develop creative products, market their ideas, and sell to fellow campers while competing to earn the most Creator Bucks. Regi",
+      "category": "community"
+    },
+    {
+      "id": "jbmdl-chef-k-culinary-healthy-cooking-camp-2026",
+      "title": "Chef K Culinary Healthy Cooking Camp",
+      "date": "2026-09-07T10:00:00",
+      "endDate": "2026-09-07T13:00:00",
+      "location": "FSS Military & Family Readiness Center",
+      "address": "3435 Broidy Road, JBMDL McGuire, 08641",
+      "description": "Whisk up fun while learning healthy cooking skills! 10:00 am-1:00 pm, July 27-July 31, FSS Military & Family Readiness Center, Bldg. 3435 Broidy Road Young chefs are invited to explore the world of healthy cooking in this hands-on culinary camp. Participants will learn nutrition facts, food labels, food safety, and food preparation techniques while creating dishes inspired by different countries a",
+      "category": "community"
+    },
+    {
+      "id": "jbmdl-family-movie-matinee-2026-09-07",
+      "title": "Family Movie Matinee",
+      "date": "2026-09-07T13:00:00",
+      "endDate": "2026-09-07T15:00:00",
+      "location": "Base Theater",
+      "address": "2909 Tuskegee Airmen Ave, JBMDL McGuire, 08641",
+      "description": "1:00pm-3:00pm, Library, Bldg. 2603 Tuskegee Airmen Avenue, JBMDL McGuire Open to families of all ages. Kick-off Spring break at the Library and join us for a free family movie! Movie TBA. Please feel free to bring your own snacks. 609.754.2079",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbmdl-camp-library-2026-09-08",
+      "title": "Camp Library",
+      "date": "2026-09-08T10:00:00",
+      "endDate": "2026-09-08T11:00:00",
+      "location": "FSS Library",
+      "address": "2603 W Tuskegee Airmen Ave, JBMDL McGuire, 08641",
+      "description": "Plant a seed, grow a love of reading, and enjoy a summer full of fun at Camp Library! Each week features exciting activities including crafts, games, STEM projects, and more designed to keep young minds engaged and creative. 10:00am-11:00am, Library, Bldg. 2603 Tuskegee Airmen Avenue, JBMDL McGuire Best suited for children ages 12 and under. Parents must remain with their children during the progr",
+      "category": "education"
+    },
+    {
+      "id": "jbmdl-beginner-adult-pottery-class-2026-09-08",
+      "title": "Beginner Adult Pottery Class",
+      "date": "2026-09-08T17:30:00",
+      "endDate": "2026-09-08T20:00:00",
+      "location": "FSS Arts & Crafts Center",
+      "address": "6039 Philadelphia St, JBMDL Dix, 08640",
+      "description": "5:30-8:00 PM, Arts and Crafts Center Pottery class for adults ages 18+. We will explore and create with clay with basic and advanced hand-building techniques and will learn some basic wheel throwing. Limited space available. Register at 609-562-5771 $240 for the class + $40 for unlimited clay while class is occurring",
+      "category": "education"
+    },
+    {
+      "id": "jbmdl-artful-escapes-2026-09-09",
+      "title": "Artful Escapes",
+      "date": "2026-09-09T12:00:00",
+      "endDate": "2026-09-09T14:00:00",
+      "location": "FSS Arts & Crafts Center",
+      "address": "6039 Philadelphia St, JBMDL Dix, 08640",
+      "description": "12:00-2:00 PM, Arts and Crafts Center Bored at home while the kids are at school? Come join us to listen to some relaxing music and visit with others in our area as we explore some basic wheel throwing and hand-building techniques. Limited space available Register at 609-562-5771 $180 per person, Supplies not included",
+      "category": "family"
+    },
+    {
+      "id": "jbmdl-family-story-time-2026-09-10",
+      "title": "Family Story Time",
+      "date": "2026-09-10T10:00:00",
+      "endDate": "2026-09-10T10:30:00",
+      "location": "FSS Library",
+      "address": "2603 W Tuskegee Airmen Ave, JBMDL McGuire, 08641",
+      "description": "Bring your little ones for a fun and engaging Story Time experience! Designed for families with children ages 5 and under, each session features a new theme filled with stories, jokes, poems, and interactive fun that sparks imagination and a love of reading. It’s the perfect way to enjoy quality time together while introducing young minds to the magic of books. 📞 Questions? Call 609-754-2079",
+      "category": "family"
+    },
+    {
+      "id": "jbmdl-harvest-fest-2026-09-12",
+      "title": "Harvest Fest",
+      "date": "2026-09-12T16:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Pudgy’s Sports Pub",
+      "address": "2007 Can Do Way, JBMDL McGuire, 08641",
+      "description": "🍂 Harvest Fest is coming to JBMDL! 🍂 Get ready for an unforgettable evening of live music, family fun, great food, and all the best parts of fall—all in one place! 📅 Saturday, September 12 🕓 4:00 PM – 10:00 PM (1600–2200) 📍 Behind Pudgy’s Sports Pub Celebrate the season! Enjoy an exciting lineup of activities including a bier garten, food trucks, pumpkin pickin’, inflatables and carnival games, a ",
+      "category": "community"
+    },
+    {
+      "id": "jbmdl-bingo-bash-2026-09-13",
+      "title": "Bingo Bash",
+      "date": "2026-09-13T16:00:00",
+      "endDate": "2026-09-13T16:00:00",
+      "location": "JB McGuire-Dix-Lakehurst, NJ",
+      "address": "JB McGuire-Dix-Lakehurst, NJ",
+      "description": "Your chance to shout “BINGO!” and win cash prizes! Sunday, September 13 | 4:00 PM | 87FSS Dix Bowling Center, 6054 Doughboy Loop, JBMDL Dix Join us for an exciting afternoon of Bingo at the Dix Bowling Center. Calling begins at 4:00 PM and features 10 great games with opportunities to win cash prizes. Gather your friends and enjoy an afternoon of fun and friendly competition. Registration: Registe",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbmdl-bingo-bash-wednesday-third-wednesdays-2026",
+      "title": "Bingo Bash Wednesday – Third Wednesdays",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T18:00:00",
+      "location": "FSS Bowling Center Dix",
+      "address": "6054 Doughboy Loop, JBMDL Dix, 08641",
+      "description": "Doors open at 5:00pm. 6:30pm Calling begins at 87FSS Bowling Center Dix, 6054 Doughboy Loop, JBMDL Dix. Come out and join us for your chance to shout “BINGO” on the first and third Wednesday of the month. 10 Great games! There will be a progressive coverall game, blackout must be called by weekly ball # called and verified! Cost of admission is $5. Additional books and cards are available for purc",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbmdl-federal-resume-writing-workshop-2026-09-23",
+      "title": "Federal Resume Writing Workshop",
+      "date": "2026-09-23T09:00:00",
+      "endDate": "2026-09-23T12:00:00",
+      "location": "FSS Military & Family Readiness Center",
+      "address": "3435 Broidy Road, JBMDL McGuire, 08641",
+      "description": "Take the next step toward a federal career! This informative workshop will help participants better understand the federal hiring process and how to create a strong federal resume that stands out. 9:00am-12:00pm, Military & Family Readiness Center, Bldg. 3435 Broidy Rd., JBMDL McGuire Topics include setting up a USAJOBS account, navigating USAJOBS, understanding the differences between civilian an",
+      "category": "education"
+    },
+    {
+      "id": "jbmdl-corn-hole-and-firepit-tournament-2026-09-2",
+      "title": "Corn Hole and Firepit Tournament",
+      "date": "2026-09-26T17:00:00",
+      "endDate": "2026-09-26T17:00:00",
+      "location": "FSS Bowling Center Dix",
+      "address": "6054 Doughboy Loop, JBMDL Dix, 08641",
+      "description": "Grab a partner, enjoy an evening by the fire, and compete for prizes in this fun-filled cornhole tournament! Saturday, September 26, 2026 5:00pm (Doors Open) 87FSS Dix Bowling Center 6054 Doughboy Loop, JBMDL Dix Bring your best toss and join us on the patio for a Corn Hole & Fire Pit Tournament! Teams of two will compete for 1st, 2nd, and 3rd place prizes , with play beginning at 6:00pm . Open to",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Fort Dix Welcome Center / VCC",

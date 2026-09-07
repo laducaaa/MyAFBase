@@ -7,7 +7,7 @@
   "wing": "82 TRW",
   "latitude": 33.989,
   "longitude": -98.492,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "shepp-notif-1",
@@ -277,6 +277,16 @@
   ],
   "events": [
     {
+      "id": "sheppard-story-time-2026-09-09",
+      "title": "Story Time",
+      "date": "2026-09-09T10:30:00",
+      "endDate": "2026-09-09T11:30:00",
+      "location": "",
+      "address": "",
+      "description": "Story Time",
+      "category": "family"
+    },
+    {
       "id": "sheppard-wing-wed-9",
       "title": "Wing Wednesday",
       "date": "2026-09-09T15:00:00",
@@ -287,6 +297,26 @@
       "category": "community"
     },
     {
+      "id": "sheppard-intramural-flag-football-loi-s-due-2026-09-11",
+      "title": "Intramural Flag Football LOi’s Due",
+      "date": "2026-09-11T15:00:00",
+      "endDate": "2026-09-11T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Intramural Flag Football LOi’s Due",
+      "category": "fitness"
+    },
+    {
+      "id": "sheppard-dance-till-you-drop-2026-09-11",
+      "title": "Dance Till You Drop",
+      "date": "2026-09-11T21:00:00",
+      "endDate": "2026-09-11T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Dance Till You Drop",
+      "category": "entertainment"
+    },
+    {
       "id": "sheppard-bowling-tourney",
       "title": "Eliminator Bracket Doubles Bowling Tournament",
       "date": "2026-09-12T12:30:00",
@@ -295,6 +325,36 @@
       "address": "Sheppard AFB, TX",
       "description": "Doubles eliminator bracket bowling tournament.",
       "category": "recreation"
+    },
+    {
+      "id": "sheppard-laser-tag-tournament-2026-09-12",
+      "title": "Laser Tag Tournament",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Laser Tag Tournament",
+      "category": "recreation"
+    },
+    {
+      "id": "sheppard-ait-only-9-pin-no-tap-tournament-2026-09-13",
+      "title": "AiT Only 9 Pin No Tap Tournament",
+      "date": "2026-09-13T13:00:00",
+      "endDate": "2026-09-13T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "AiT Only 9 Pin No Tap Tournament",
+      "category": "education"
+    },
+    {
+      "id": "sheppard-story-time-2026-09-16",
+      "title": "Story Time",
+      "date": "2026-09-16T10:30:00",
+      "endDate": "2026-09-16T11:30:00",
+      "location": "",
+      "address": "",
+      "description": "Story Time",
+      "category": "family"
     },
     {
       "id": "sheppard-pow-mia-run",
@@ -327,6 +387,26 @@
       "category": "entertainment"
     },
     {
+      "id": "sheppard-runway-s-foamageddon-2026-09-18",
+      "title": "Runway’s Foamageddon",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "Runway’s Foamageddon",
+      "category": "entertainment"
+    },
+    {
+      "id": "sheppard-dance-till-you-drop-2026-09-18",
+      "title": "Dance Till You Drop",
+      "date": "2026-09-18T21:00:00",
+      "endDate": "2026-09-18T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Dance Till You Drop",
+      "category": "entertainment"
+    },
+    {
       "id": "sheppard-parents-night-out",
       "title": "Parents Night Out",
       "date": "2026-09-19T18:00:00",
@@ -335,6 +415,16 @@
       "address": "Sheppard AFB, TX",
       "description": "Parents Night Out childcare/activity evening.",
       "category": "family"
+    },
+    {
+      "id": "sheppard-9-pin-no-tap-tournament-2026-09-19",
+      "title": "9 Pin No Tap Tournament",
+      "date": "2026-09-19T18:30:00",
+      "endDate": "2026-09-19T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "9 Pin No Tap Tournament",
+      "category": "education"
     },
     {
       "id": "sheppard-rangers-trip",
@@ -357,6 +447,16 @@
       "category": "recreation"
     },
     {
+      "id": "sheppard-witch-hat-centerpiece-cocktails-crafts-class-2026-09-24",
+      "title": "Witch Hat Centerpiece Cocktails & Crafts Class",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Witch Hat Centerpiece Cocktails & Crafts Class",
+      "category": "outdoor"
+    },
+    {
       "id": "sheppard-aeronopoly",
       "title": "Aeronopoly Grand Finale",
       "date": "2026-09-25T15:00:00",
@@ -375,6 +475,26 @@
       "address": "TX",
       "description": "ODR winery trip.",
       "category": "recreation"
+    },
+    {
+      "id": "sheppard-ait-only-9-pin-no-tap-tournament-2026-09-27",
+      "title": "AiT Only 9 Pin No Tap Tournament",
+      "date": "2026-09-27T13:00:00",
+      "endDate": "2026-09-27T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "AiT Only 9 Pin No Tap Tournament",
+      "category": "education"
+    },
+    {
+      "id": "sheppard-9-pin-no-tap-tournament-2026-10-03",
+      "title": "9 Pin No Tap Tournament",
+      "date": "2026-10-03T18:30:00",
+      "endDate": "2026-10-03T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "9 Pin No Tap Tournament",
+      "category": "education"
     }
   ],
   "newcomers": {

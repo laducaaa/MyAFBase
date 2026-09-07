@@ -7,7 +7,7 @@
   "wing": "10 ABW",
   "latitude": 38.9983,
   "longitude": -104.8614,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "air-force-academy-notif-real-id",
@@ -341,7 +341,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "air-force-academy-guided-horse-rides-2026-09-11",
+      "title": "Guided Horse Rides",
+      "date": "2026-09-11T00:00:00",
+      "endDate": "2026-09-11T23:59:59",
+      "location": "Farish Recreation Area",
+      "address": "12005 Rampart Range Rd, Woodland Park, CO, 80840",
+      "description": "<p>Register here: https://cousafaweb.myvscloud.com/webtrac/web/search.html?type=EQUES&display=Detail&module=AR</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "air-force-academy-story-time-and-stretching-with-stuffy-2026-09",
+      "title": "Story Time and Stretching with Stuffy",
+      "date": "2026-09-11T10:00:00",
+      "endDate": "2026-09-11T11:00:00",
+      "location": "Base Library",
+      "address": "Community Center Building - 5136 Redtail Drive Suite H103, USAF Academy, CO, 80840",
+      "description": "Story Time and Stretching with Stuffy",
+      "category": "family"
+    },
+    {
+      "id": "air-force-academy-music-on-the-lawn-2026-09-11",
+      "title": "Music on the Lawn",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Eisenhower Golf Club",
+      "address": "BLDG. 3169 GOLF COURSE ROAD, USAF Academy, CO, 80840",
+      "description": "Music on the Lawn",
+      "category": "entertainment"
+    },
+    {
+      "id": "air-force-academy-guided-horse-rides-2026-09-12",
+      "title": "Guided Horse Rides",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-12T23:59:59",
+      "location": "Farish Recreation Area",
+      "address": "12005 Rampart Range Rd, Woodland Park, CO, 80840",
+      "description": "<p>Register here: https://cousafaweb.myvscloud.com/webtrac/web/search.html?type=EQUES&display=Detail&module=AR</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "air-force-academy-push-pull-competition-2026-09-12",
+      "title": "Push/Pull Competition",
+      "date": "2026-09-12T09:30:00",
+      "endDate": "2026-09-12T12:00:00",
+      "location": "Fitness Center",
+      "address": "5234 ASPEN DRIVE, USAF ACADEMY, CO, 80840",
+      "description": "Push/Pull Competition",
+      "category": "fitness"
+    },
+    {
+      "id": "air-force-academy-tween-book-club-2026-09-15",
+      "title": "Tween Book Club",
+      "date": "2026-09-15T18:00:00",
+      "endDate": "2026-09-15T19:00:00",
+      "location": "Base Library",
+      "address": "Community Center Building - 5136 Redtail Drive Suite H103, USAF Academy, CO, 80840",
+      "description": "Tween Book Club",
+      "category": "family"
+    },
+    {
+      "id": "air-force-academy-story-time-and-stretching-with-stuffy-2026-09",
+      "title": "Story Time and Stretching with Stuffy",
+      "date": "2026-09-18T10:00:00",
+      "endDate": "2026-09-18T11:00:00",
+      "location": "Base Library",
+      "address": "Community Center Building - 5136 Redtail Drive Suite H103, USAF Academy, CO, 80840",
+      "description": "Story Time and Stretching with Stuffy",
+      "category": "family"
+    },
+    {
+      "id": "air-force-academy-county-fair-2026-09-19",
+      "title": "County Fair",
+      "date": "2026-09-19T11:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Equestrian Center",
+      "address": "7063 Cottonwood Dr, USAF Academy, CO, 80840",
+      "description": "County Fair",
+      "category": "family"
+    },
+    {
+      "id": "air-force-academy-intramural-volleyball-2026-09-21",
+      "title": "Intramural Volleyball",
+      "date": "2026-09-21T17:30:00",
+      "endDate": "2026-09-21T19:30:00",
+      "location": "Fitness Center",
+      "address": "5234 ASPEN DRIVE, USAF ACADEMY, CO, 80840",
+      "description": "Intramural Volleyball",
+      "category": "fitness"
+    },
+    {
+      "id": "air-force-academy-pikes-peak-interpretive-hike-2026-09-26",
+      "title": "Pikes Peak Interpretive Hike",
+      "date": "2026-09-26T00:00:00",
+      "endDate": "2026-09-26T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "5136 EAGLE DRIVE, USAF ACADEMY, CO, 80840",
+      "description": "Pikes Peak Interpretive Hike",
+      "category": "outdoor"
+    },
+    {
+      "id": "air-force-academy-library-movie-day-2026-09-26",
+      "title": "Library Movie Day",
+      "date": "2026-09-26T13:30:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Base Library",
+      "address": "Community Center Building - 5136 Redtail Drive Suite H103, USAF Academy, CO, 80840",
+      "description": "Library Movie Day",
+      "category": "entertainment"
+    },
+    {
+      "id": "air-force-academy-pikes-peak-interpretive-hike-2026-10-04",
+      "title": "Pikes Peak Interpretive Hike",
+      "date": "2026-10-04T00:00:00",
+      "endDate": "2026-10-04T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "5136 EAGLE DRIVE, USAF ACADEMY, CO, 80840",
+      "description": "Pikes Peak Interpretive Hike",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "USAFA Pass & Registration Office",

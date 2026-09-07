@@ -7,7 +7,7 @@
   "wing": "75 ABW / Ogden ALC",
   "latitude": 41.124,
   "longitude": -111.973,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "hill-notif-1",
@@ -321,6 +321,66 @@
   ],
   "events": [
     {
+      "id": "hill-youth-soccer-fall-2026",
+      "title": "Youth Soccer Fall 2026",
+      "date": "2026-09-07",
+      "endDate": "2026-10-10",
+      "location": "Hill AFB Youth Sports",
+      "address": "Hill AFB, UT",
+      "description": "Fall youth soccer season window listed on 75 FSS homepage (Aug 17–Oct 10).",
+      "category": "community"
+    },
+    {
+      "id": "hill-big-buck-bingo-at-the-landing-2026-09-08",
+      "title": "Big Buck Bingo at The Landing",
+      "date": "2026-09-08T17:00:00",
+      "endDate": "2026-09-08T19:00:00",
+      "location": "The Landing",
+      "address": "7420 Miller St, Hill AFB, UT 84056 Hill AFB, UT 84056 United States",
+      "description": "Big Buck Bingo at The Landing Tuesdays and Thursdays. Games start at 1700. Doors open at 1500. $25 – 6 cards and 10 games. $30 9 cards and 10 games. 18+ years only allowed in bingo room. DOD cardholders only unless sponsor is present.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hill-ladies-golf-league-thursdays-at-hubbard-mem",
+      "title": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course",
+      "date": "2026-09-10T09:00:00",
+      "endDate": "2026-09-10T11:00:00",
+      "location": "Hubbard Golf Course",
+      "address": "7005 Golf Course Drive, Bldg. 721 Hill AFB, UT 84056 United States +",
+      "description": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course Thursdays 0900 – 1100, May 7 – Oct 29 Weekly: $6 + greens and cart fees. Ages 18+ Register by 3/1/26. Text 801-710-4227 or email HeidiHomoser@gmail.com",
+      "category": "recreation"
+    },
+    {
+      "id": "hill-acrylic-painting-class-september-10-2026-09",
+      "title": "Acrylic Painting Class September 10",
+      "date": "2026-09-10T16:30:00",
+      "endDate": "2026-09-10T19:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
+      "description": "Acrylic Painting Class September 10 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
+      "category": "education"
+    },
+    {
+      "id": "hill-chalk-fest-at-gerrity-memorial-library-2026",
+      "title": "Chalk-Fest at Gerrity Memorial Library",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T12:00:00",
+      "location": "Gerrity Memorial Library",
+      "address": "7415 Weiner St Hill AFB, UT 84056 United States +",
+      "description": "Chalk-Fest at Gerrity Memorial Library When: Saturday September 12th from 1000 to 1200 Fun for all ages! Sidewalk chalk will be provided. Just bring your imagination! The library parking lot will be blocked off for Chalk-Fest. Parking spaces will be reserved on a first-come-first-served basis. Reservations are required. Come by the library or call 801-777-2533",
+      "category": "family"
+    },
+    {
+      "id": "hill-ladies-golf-league-thursdays-at-hubbard-mem",
+      "title": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course",
+      "date": "2026-09-17T09:00:00",
+      "endDate": "2026-09-17T11:00:00",
+      "location": "Hubbard Golf Course",
+      "address": "7005 Golf Course Drive, Bldg. 721 Hill AFB, UT 84056 United States +",
+      "description": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course Thursdays 0900 – 1100, May 7 – Oct 29 Weekly: $6 + greens and cart fees. Ages 18+ Register by 3/1/26. Text 801-710-4227 or email HeidiHomoser@gmail.com",
+      "category": "recreation"
+    },
+    {
       "id": "hill-friday-night-frenzy-2026-09-18",
       "title": "Friday Night Frenzy at Youth Center",
       "date": "2026-09-18",
@@ -328,6 +388,46 @@
       "location": "Hill AFB Youth Center",
       "address": "7712 6th Street, Hill AFB, UT 84056",
       "description": "Youth Center Friday Night Frenzy (sports, arts, classes); hillfss.com. Page time fields mixed—confirm 1800-2100 on site.",
+      "category": "community"
+    },
+    {
+      "id": "hill-yellowstone-airmen-trip-2026-09-18",
+      "title": "Yellowstone Airmen Trip",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-20T23:59:59",
+      "location": "Hill AFB, UT",
+      "address": "Hill AFB, UT",
+      "description": "Yellowstone Airmen Trip When: September 18-20 Who: Active duty single airmen What: Yellowstone National Park Trip. Only $10 per person. Limited number of spots available. Includes transportation, lodging, and guided services. Sign up in person at the Outdoor Recreation Office. 7526 Balmer Ave, Building 150. (801) 777-9666",
+      "category": "outdoor"
+    },
+    {
+      "id": "hill-acrylic-painting-class-october-1-2026-09-24",
+      "title": "Acrylic Painting Class October 1",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T19:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
+      "description": "Acrylic Painting Class October 1 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
+      "category": "education"
+    },
+    {
+      "id": "hill-acrylic-painting-class-september-24-2026-09",
+      "title": "Acrylic Painting Class September 24",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T19:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
+      "description": "Acrylic Painting Class September 24 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
+      "category": "education"
+    },
+    {
+      "id": "hill-sstar-sep",
+      "title": "SSTaR: Skills, Strengths, Techniques & Resources",
+      "date": "2026-09-25T08:00:00",
+      "endDate": "2026-09-25T12:00:00",
+      "location": "Hill AFB Integrated Resilience",
+      "address": "Hill AFB, UT",
+      "description": "Resilience skills workshop 0800–1200.",
       "category": "community"
     },
     {
@@ -341,24 +441,14 @@
       "category": "community"
     },
     {
-      "id": "hill-youth-soccer-fall-2026",
-      "title": "Youth Soccer Fall 2026",
-      "date": "2026-09-07",
-      "endDate": "2026-10-10",
-      "location": "Hill AFB Youth Sports",
-      "address": "Hill AFB, UT",
-      "description": "Fall youth soccer season window listed on 75 FSS homepage (Aug 17–Oct 10).",
-      "category": "community"
-    },
-    {
-      "id": "hill-sstar-sep",
-      "title": "SSTaR: Skills, Strengths, Techniques & Resources",
-      "date": "2026-09-25T08:00:00",
-      "endDate": "2026-09-25T12:00:00",
-      "location": "Hill AFB Integrated Resilience",
-      "address": "Hill AFB, UT",
-      "description": "Resilience skills workshop 0800–1200.",
-      "category": "community"
+      "id": "hill-storytime-october-2026-10-07",
+      "title": "STORYTIME – OCTOBER",
+      "date": "2026-10-07T10:00:00",
+      "endDate": "2026-10-07T14:00:00",
+      "location": "Gerrity Memorial Library",
+      "address": "7415 Weiner St Hill AFB, UT 84056 United States +",
+      "description": "STORYTIME – OCTOBER — public FSS/MWR calendar listing.",
+      "category": "family"
     },
     {
       "id": "hill-7-principles",
@@ -369,6 +459,16 @@
       "address": "Hill AFB, UT",
       "description": "One-day marriage skills course 0830–1530.",
       "category": "family"
+    },
+    {
+      "id": "hill-jackpot-bingo-2026-10-18",
+      "title": "Jackpot Bingo",
+      "date": "2026-10-18T14:00:00",
+      "endDate": "2026-10-18T16:00:00",
+      "location": "The Landing",
+      "address": "7420 Miller St, Hill AFB, UT 84056 Hill AFB, UT 84056 United States",
+      "description": "Jackpot Bingo What: 10 regular games with $100 payouts. $1,000 coverall jackpot. When: Sunday August 9th at The Landing. Doors open at 1200. Games begin at 1400. Where: The Landing Food is allowed and the bar will be open. 18+ only. Must have DoD ID or sponsor present to participate",
+      "category": "entertainment"
     },
     {
       "id": "hill-sstar-oct",

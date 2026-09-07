@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -425,6 +425,46 @@
       "location": "Maxwell Club Pit",
       "address": "Maxwell AFB, AL",
       "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
+      "category": "community"
+    },
+    {
+      "id": "maxwell-spouseworks-career-accelerator-workshop-2026-09-24",
+      "title": "SpouseWorks Career Accelerator Workshop",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Listed on the public FSS calendar.",
+      "category": "education"
+    },
+    {
+      "id": "maxwell-employment-expo-2026-09-30",
+      "title": "Employment Expo",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Listed on the public FSS calendar.",
+      "category": "education"
+    },
+    {
+      "id": "maxwell-wing-wednesday-karaoke-at-the-maxwell-cl-2026-09-30",
+      "title": "Wing Wednesday & Karaoke at the Maxwell Club Pit",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Listed on the public FSS calendar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "maxwell-magic-all-stars-2026-10-03",
+      "title": "Magic All-Stars",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Listed on the public FSS calendar.",
       "category": "community"
     }
   ],

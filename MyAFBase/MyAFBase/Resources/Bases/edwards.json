@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -310,14 +310,24 @@
   ],
   "events": [
     {
-      "id": "edwards-evt-air-show",
-      "title": "Edwards Open House / Air Show",
-      "date": "2026-10-10T14:00:00Z",
-      "endDate": "2026-10-11T22:00:00Z",
-      "location": "Edwards AFB Flightline",
-      "address": "Rosamond Blvd, Edwards AFB, CA 93524",
-      "description": "Periodic Edwards AFB open house showcasing flight test heritage and experimental aircraft. Check official site for dates.",
-      "category": "community"
+      "id": "edwards-cash-bingo-2026-09-08",
+      "title": "Cash Bingo",
+      "date": "2026-09-08T18:00:00",
+      "endDate": "2026-09-08T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Cash Bingo Tuesdays | Club Muroc | 6:00pm - 8:00pm | Doors open at 5:30pm Call Bingo, win cash! $750 minimum payout! $300+ progressive jackpot $50 hotball FSS Insiders get",
+      "category": "entertainment"
+    },
+    {
+      "id": "edwards-construction-crew-2026-09-10",
+      "title": "Construction Crew",
+      "date": "2026-09-10T14:00:00",
+      "endDate": "2026-09-10T15:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join the library's Construction Crew for a hands-on afternoon of engineering and architecture. Whether you're a master of LEGO bricks, a fan of wooden blocks, or a pro with magnetic",
+      "category": "family"
     },
     {
       "id": "edwards-first-friday-2026-09-11",
@@ -360,6 +370,56 @@
       "category": "community"
     },
     {
+      "id": "edwards-9-11-remembrance-workout-2026-09-11",
+      "title": "9/11 Remembrance Workout",
+      "date": "2026-09-11T11:00:00",
+      "endDate": "2026-09-11T13:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "FRIDAY, SEPTEMBER 11 | 11AM-1PM | ROSBURG FITNESS CENTER THIS WORKOUT IS MORE THAN FITNESS - IT'S A TRIBUTE. JOIN US AS WE HONOR THE COURAGE, SACRIFICE AND RESILIENCE OF",
+      "category": "fitness"
+    },
+    {
+      "id": "edwards-first-friday-a13fee",
+      "title": "First Friday",
+      "date": "2026-09-11T16:00:00",
+      "endDate": "2026-09-11T18:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join us for themed fun, great food, and good company! FSS Insiders, enjoy complimentary appetizers!Friday, July 11: Dog Days of Summer Friday, August 7: Peach & Pepper Friday, September 11:",
+      "category": "community"
+    },
+    {
+      "id": "edwards-karaoke-84dbff",
+      "title": "Karaoke",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "THE STAGE IS YOURS! BELT OUT YOUR FAVORITES, CHEER ON YOUR FRIENDS AND MAKE IT A NIGHT OF MUSIC AND MEMORIES! Fridays July 10 & 24 August 7 September 11",
+      "category": "entertainment"
+    },
+    {
+      "id": "edwards-sport-fishing-trip-2026-09-12",
+      "title": "Sport Fishing Trip",
+      "date": "2026-09-12T05:00:00",
+      "endDate": "2026-09-13T16:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join Outdoor Recreation and experience a day of Sport Fishing off the Ventura Coast!Saturday, September 128 am – 4 pm | Departure Time: 5 am$180 (Fishing License and ocean enhancement",
+      "category": "outdoor"
+    },
+    {
+      "id": "edwards-mizuno-fitting-day-2026-09-12",
+      "title": "Mizuno Fitting Day",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T14:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Golfers, test the latest Mizuno technology with an expert fitter at the Mizuno Fitting Day at Muroc Lake Golf Course! Explore new equipment, get personalized recommendations, and take advantage of special",
+      "category": "outdoor"
+    },
+    {
       "id": "edwards-members-lunch-2026-09-15",
       "title": "Members' Lunch (Tacos)",
       "date": "2026-09-15",
@@ -367,6 +427,86 @@
       "location": "Club Muroc",
       "address": "Edwards AFB, CA",
       "description": "Members' Lunch taco theme; 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-blitz-bowl-2026-09-15",
+      "title": "Blitz Bowl",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-17T19:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "September 15-17 | 5-7pm 7V7 Flag football tournament will be played on softball field behind the gym. Games will be 30 minutes beginning at 5pm.",
+      "category": "fitness"
+    },
+    {
+      "id": "edwards-paint-a-ceramic-coaster-set-2026-09-16",
+      "title": "Paint a Ceramic Coaster Set",
+      "date": "2026-09-16T10:00:00",
+      "endDate": "2026-09-16T17:30:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Get creative at Arts & Crafts! Paint your very own, one-of-a-kind custom coaster set!Wednesday, September 16 | All Day$7.50Call 275-ARTS for more information.",
+      "category": "recreation"
+    },
+    {
+      "id": "edwards-musical-bingo-2026-09-16",
+      "title": "Musical Bingo",
+      "date": "2026-09-16T16:30:00",
+      "endDate": "2026-09-16T18:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Enjoy a music-themed twist on bingo where songs replace the numbers. Pick up your card at Fogleman's. 5:30pm - 7pm July 15: 80s Hits August 19: Taylor Swift September 16:",
+      "category": "entertainment"
+    },
+    {
+      "id": "edwards-glow-groove-family-dance-party-2026-09-23",
+      "title": "Glow & Groove Family Dance Party",
+      "date": "2026-09-23T17:00:00",
+      "endDate": "2026-09-23T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "FRIDAY, SEPTEMBER 23 | 5-8 pm | Club Muroc Get ready to glow! Dance the night away with music, glowing décor, and family-friendly fun everyone can enjoy. Free event!",
+      "category": "entertainment"
+    },
+    {
+      "id": "edwards-lap-o-thon-2026-09-24",
+      "title": "Lap-O-Thon",
+      "date": "2026-09-24T07:30:00",
+      "endDate": "2026-09-24T09:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join us at the Rosburg Fitness Center track for the Lap-o-Thon! Test your endurance and see how many laps you can complete on the track!Thursday, September 247:30 – 9 amCall 275-GYM1",
+      "category": "fitness"
+    },
+    {
+      "id": "edwards-dramatic-play-2026-09-25",
+      "title": "Dramatic Play",
+      "date": "2026-09-25T10:00:00",
+      "endDate": "2026-09-25T14:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "FRIDAYS, JULY 31, AUGUST 28 & SEPTEMBER 25 10AM & 1PM | AGES 2-6 JULY 31: FARMER'S MARKET AUGUST 28: GONE FISHING SEPTEMBER 25: ICE CREAM SHOP Dramatic Play invites",
+      "category": "outdoor"
+    },
+    {
+      "id": "edwards-oktoberfest-2026-09-25",
+      "title": "Oktoberfest",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join us at Club Muroc for Oktoberfest! Enjoy an evening of live music, authentic German food and beer, exciting Oktoberfest-themed games and more!Friday, September 25 | 4 – 10 pmFREE EventSponsored",
+      "category": "holiday"
+    },
+    {
+      "id": "edwards-evt-air-show",
+      "title": "Edwards Open House / Air Show",
+      "date": "2026-10-10T14:00:00Z",
+      "endDate": "2026-10-11T22:00:00Z",
+      "location": "Edwards AFB Flightline",
+      "address": "Rosamond Blvd, Edwards AFB, CA 93524",
+      "description": "Periodic Edwards AFB open house showcasing flight test heritage and experimental aircraft. Check official site for dates.",
       "category": "community"
     }
   ],

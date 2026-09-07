@@ -7,7 +7,7 @@
   "wing": "15 WG",
   "latitude": 21.339,
   "longitude": -157.954,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "jbphh-notif-real-id",
@@ -206,6 +206,106 @@
   ],
   "events": [
     {
+      "id": "jbphh-karaoke-night-at-tradewinds-2026-09-09",
+      "title": "Karaoke Night at Tradewinds",
+      "date": "2026-09-09T17:30:00",
+      "endDate": "2026-09-09T20:00:00",
+      "location": "Tradewinds",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Weekly karaoke night at Tradewinds.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbphh-dynamite-dj-nights-2026-09-11",
+      "title": "Dynamite DJ Nights",
+      "date": "2026-09-11T20:00:00",
+      "endDate": "2026-09-11T23:00:00",
+      "location": "The Sandbar",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "DJ night at The Sandbar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbphh-extramural-fall-softball-league-2026-09-12",
+      "title": "Extramural Fall Softball League",
+      "date": "2026-09-12T09:00:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "JBPHH Softball Fields",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Fall extramural softball league play.",
+      "category": "recreation"
+    },
+    {
+      "id": "jbphh-hickam-efmp-coffee-talk-2026-09-14",
+      "title": "Hickam EFMP Coffee Talk",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T11:30:00",
+      "location": "Hickam EFMP",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "EFMP coffee talk for exceptional family members.",
+      "category": "family"
+    },
+    {
+      "id": "jbphh-nex-pet-adoptions-2026-09-19",
+      "title": "NEX Pet Adoptions",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Navy Exchange",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Pet adoption event at the NEX.",
+      "category": "community"
+    },
+    {
+      "id": "jbphh-daytime-playtime-2026-09-24",
+      "title": "Daytime Playtime",
+      "date": "2026-09-24T09:00:00",
+      "endDate": "2026-09-24T11:00:00",
+      "location": "Library",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Daytime playtime for young children at the library.",
+      "category": "family"
+    },
+    {
+      "id": "jbphh-quiet-book-club-2026-09-24",
+      "title": "Quiet Book Club",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T19:30:00",
+      "location": "Library",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Quiet book club meetup at the library.",
+      "category": "education"
+    },
+    {
+      "id": "jbphh-pool-tournament-at-the-sandbar-2026-09-25",
+      "title": "Pool Tournament at The Sandbar",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "The Sandbar",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Pool tournament at The Sandbar.",
+      "category": "recreation"
+    },
+    {
+      "id": "jbphh-adult-book-club-2026-09-29",
+      "title": "Adult Book Club",
+      "date": "2026-09-29T18:00:00",
+      "endDate": "2026-09-29T19:30:00",
+      "location": "Library",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Adult book club at the library.",
+      "category": "education"
+    },
+    {
+      "id": "jbphh-aloha-fridays-2026-10-02",
+      "title": "Aloha Fridays",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T20:00:00",
+      "location": "JBPHH MWR",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Aloha Fridays community social.",
+      "category": "community"
+    },
+    {
       "id": "jbphh-cmsaf-binnicker-run-2026-10-03",
       "title": "CMSAF Binnicker Memorial Run (9K)",
       "date": "2026-10-03",
@@ -214,6 +314,26 @@
       "address": "Hickam Beach, JBPHH, Honolulu, HI 96818",
       "description": "AFSA Chapter 1550 CMSAF Binnicker Memorial 9K; community race listing.",
       "category": "community"
+    },
+    {
+      "id": "jbphh-sensory-swim-saturday-2026-10-03",
+      "title": "Sensory Swim Saturday",
+      "date": "2026-10-03T09:00:00",
+      "endDate": "2026-10-03T11:00:00",
+      "location": "Hickam Family Pool",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Sensory-friendly swim hour at Hickam Family Pool.",
+      "category": "family"
+    },
+    {
+      "id": "jbphh-wentworth-sand-volleyball-tournament-2026",
+      "title": "Wentworth Sand Volleyball Tournament",
+      "date": "2026-10-09T08:30:00",
+      "endDate": "2026-10-09T16:00:00",
+      "location": "Wentworth Sand Volleyball Courts",
+      "address": "JB Pearl Harbor-Hickam, HI",
+      "description": "Sand volleyball tournament at Wentworth courts.",
+      "category": "recreation"
     }
   ],
   "newcomers": {

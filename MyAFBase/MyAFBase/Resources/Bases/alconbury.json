@@ -7,7 +7,7 @@
   "wing": "423 ABG",
   "latitude": 52.3619,
   "longitude": -0.2214,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "alconbury-notif-real-id",
@@ -182,7 +182,88 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "alconbury-archery-axe-throwing-2026-09-08",
+      "title": "Archery & Axe Throwing",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "RAF Alconbury",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Get unlimited use of our outdoor archery and axe throwing ranges for just $10 per person! Open to ages 16+.",
+      "category": "outdoor"
+    },
+    {
+      "id": "alconbury-pathfinders-got-talent-2026-09-09",
+      "title": "Pathfinders’ Got Talent",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "RAF Alconbury Theater",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Dust off those tap shoes, warm up those vocal cords, or start practicing that jaw-dropping party trick you’ve been saving for the right moment. Pathfinders’ Got Talent is officially here, […]",
+      "category": "entertainment"
+    },
+    {
+      "id": "alconbury-wingman-challenge-2026-09-10",
+      "title": "Wingman Challenge",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Fitness Center",
+      "address": "Alconbury, United Kingdom",
+      "description": "Grab your partner and bring your A-game—the Wingman Challenge is here! 🏋️‍♂️🏋️‍♀️ This team competition tests speed, strength, and endurance as you and your teammate tackle a high-energy, timed workout […]",
+      "category": "community"
+    },
+    {
+      "id": "alconbury-trivia-night-2026-09-10",
+      "title": "Trivia Night",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "RAF Alconbury",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Get ready to put your knowledge to the test—Trivia Night is back at The Stukeley Inn in 2026! Gather your smartest (or funniest) friends and form a team of up […]",
+      "category": "entertainment"
+    },
+    {
+      "id": "alconbury-art-on-the-rocks-2026-10-02",
+      "title": "Art on the Rocks",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Stukeley Bar & Restaurant",
+      "address": "Alconbury, United Kingdom",
+      "description": "Art on the Rocks: Paint a Night Flight Barn Owl! Bring some seasonal magic to your canvas with RAF Alconbury Arts & Crafts! For our October session, we are painting […]",
+      "category": "recreation"
+    },
+    {
+      "id": "alconbury-brugge-2026-10-03",
+      "title": "Brugge",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "RAF Alconbury",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Explore one of Europe’s best preserved medieval cities. Stroll along the beautiful canals, through the quiet gardens, admire the architectural splendour along the quaint cobbled streets and enjoy the city […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "alconbury-toddler-tuesday-2026-10-06",
+      "title": "Toddler Tuesday",
+      "date": "2026-10-06",
+      "endDate": "2026-10-06",
+      "location": "RAF Alconbury Community Center",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Join us at the CAC on the first Tuesday of every month for Toddler Tuesday! Let your kids bounce around in the bouncy castles while you enjoy a delicious coffee […]",
+      "category": "family"
+    },
+    {
+      "id": "alconbury-arts-crafts-after-hours-2026-10-07",
+      "title": "Arts & Crafts After Hours",
+      "date": "2026-10-07",
+      "endDate": "2026-10-07",
+      "location": "Arts and Crafts",
+      "address": "Alconbury, United Kingdom",
+      "description": "Unwind, get creative, and wrap up your day at Arts & Crafts After Hours! Whether you’re looking to finish a passion project, learn a new skill, or customize a unique […]",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "RAF Alconbury Visitor Center",

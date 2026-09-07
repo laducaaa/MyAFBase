@@ -7,7 +7,7 @@
   "wing": "SBD 41",
   "latitude": 38.8344,
   "longitude": -104.5264,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "schriever-notif-real-id",
@@ -324,7 +324,38 @@
       "building": "Bldg 210"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "schriever-pre-deployment-2026-09-15",
+      "title": "Pre Deployment",
+      "date": "2026-09-15T12:00:00",
+      "endDate": "2026-09-15T13:00:00",
+      "location": "M&FRC",
+      "address": "101 Falcon Pkwy, Schriever AFB, CO, 80912",
+      "description": "<p>Pre Deployment Brief</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "schriever-pre-deployment-2026-09-29",
+      "title": "Pre Deployment",
+      "date": "2026-09-29T12:00:00",
+      "endDate": "2026-09-29T13:00:00",
+      "location": "M&FRC",
+      "address": "101 Falcon Pkwy, Schriever AFB, CO, 80912",
+      "description": "<p>Pre Deployment Brief</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "schriever-first-friday-2026-10-02",
+      "title": "First Friday",
+      "date": "2026-10-02T02:41:00",
+      "endDate": "2026-10-02T17:00:00",
+      "location": "Schriever Event Center",
+      "address": "20 Falcon Pkwy, Schriever SFB, CO, 80912",
+      "description": "<p>Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and […]</p>\\n",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Schriever SFB Visitor Control Center",

@@ -7,7 +7,7 @@
   "wing": "31 FW",
   "latitude": 46.0319,
   "longitude": 12.5965,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "aviano-notif-real-id",
@@ -193,7 +193,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "aviano-family-movie-night-2026-09-07",
+      "title": "Family Movie Night",
+      "date": "2026-09-07T17:00:00",
+      "endDate": "2026-09-07T20:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Make Mondays Family Night at La Bella Vista Club! Looking for an easy way to kick off the week? Bring the whole family to Family Movie Night every Monday at",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-storytime-2026-09-08",
+      "title": "Storytime",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T11:00:00",
+      "location": "Library",
+      "address": "Aviano, Italy",
+      "description": "Storytime is back at the Library! Bring your little readers for a cozy morning filled with stories, imagination, and plenty of fun. It’s the perfect way to introduce young children",
+      "category": "family"
+    },
+    {
+      "id": "aviano-tapas-trivia-tuesdays-2026-09-08",
+      "title": "Tapas & Trivia Tuesdays",
+      "date": "2026-09-08T17:00:00",
+      "endDate": "2026-09-08T20:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "TAPAS & TRIVIA TUESDAYS Think you know a little bit about everything? Time to prove it. Grab your smartest friends, come hungry, and make Tuesday night your trivia night at",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-flyrox-2026-09-10",
+      "title": "Flyrox",
+      "date": "2026-09-10T08:00:00",
+      "endDate": "2026-09-10T17:00:00",
+      "location": "Wyvern Fitness Center",
+      "address": "Aviano, Italy",
+      "description": "Think You and Your Gym Partner Have What It Takes? FLYROX IS COMING. Grab the person who never lets you quit mid-workout because 9/11 FLYROX is putting Aviano’s fitness to",
+      "category": "fitness"
+    },
+    {
+      "id": "aviano-tune-takeover-2026-09-10",
+      "title": "Tune Takeover",
+      "date": "2026-09-10T08:00:00",
+      "endDate": "2026-09-10T17:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "You pick it. We play it. Thursday nights just got even better at La Bella Vista Club! Join us for Tune Takeover, where you control the playlist. Whether you're into",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-homeschool-libratory-2026-09-10",
+      "title": "Homeschool Libratory",
+      "date": "2026-09-10T10:30:00",
+      "endDate": "2026-09-10T12:00:00",
+      "location": "Library",
+      "address": "Aviano, Italy",
+      "description": "Calling all young scientists! Ready to swap screen time for science time? Join us at the Homeschool Libratory for a morning packed with hands-on learning, discovery, and plenty of “WHOA,",
+      "category": "education"
+    },
+    {
+      "id": "aviano-nerd-night-pints-2026-09-10",
+      "title": "Nerd Night & Pints",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T21:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Nerd Nights & Pints Roll for a great night out! Looking for something different to do on Thursday nights? Grab your favorite board game, gather your friends, and head to",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-horseback-riding-2026-09-12",
+      "title": "Horseback Riding",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-12T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "Aviano, Italy",
+      "description": "Join us for a 2-hour horseback riding experience through beautiful trails, plus a basic horsemanship introduction where you’ll learn how to care for a horse’s coat and properly fit their",
+      "category": "outdoor"
+    },
+    {
+      "id": "aviano-macram-art-class-2026-09-15",
+      "title": "Macramé Art Class",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T19:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "Aviano, Italy",
+      "description": "Make it. Wear it. Tell everyone you made it yourself. Ready to learn something new? Join the Arts & Crafts Center for a four-part Macramé Art Class and turn simple",
+      "category": "recreation"
+    },
+    {
+      "id": "aviano-air-force-birthday-cake-cutting-2026-09-18",
+      "title": "Air Force Birthday Cake Cutting",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-18T23:59:59",
+      "location": "Aviano AB",
+      "address": "Aviano, Italy",
+      "description": "Please join us as we commemorate this special anniversary with an evening of tradition, exceptional cuisine, and fellowship. Guests will enjoy a specially prepared meal, followed by a traditional cake-cutting",
+      "category": "holiday"
+    },
+    {
+      "id": "aviano-canyoning-at-val-arzino-canyon-2026-09-19",
+      "title": "Canyoning at Val Arzino Canyon",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "Aviano, Italy",
+      "description": "Get ready to explore the canyon from the inside out! This adventure combines hiking, rock climbing, swimming, and rappelling as you make your way through the stunning Val Arzino Canyon,",
+      "category": "outdoor"
+    },
+    {
+      "id": "aviano-venetian-island-boat-tour-2026-09-19",
+      "title": "Venetian Island Boat Tour",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T17:00:00",
+      "location": "ITT",
+      "address": "Aviano, Italy",
+      "description": "🚤 Venetian Island Boat Tour | September 19 🇮🇹 YOU’VE SEEN VENICE… BUT HAVE YOU EXPLORED THE LAGOON? 🚤✨ Spend your Saturday cruising across the Venetian Lagoon and",
+      "category": "community"
+    },
+    {
+      "id": "aviano-pirate-day-2026-09-19",
+      "title": "Pirate Day",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Library",
+      "address": "Aviano, Italy",
+      "description": "Ahoy, mateys! Pirate Day is taking over the Library! Set sail for a morning of pirate-themed crafts, games, and all things swashbuckling. Bring the whole crew because this adventure is",
+      "category": "family"
+    },
+    {
+      "id": "aviano-skydiving-trip-2026-09-26",
+      "title": "Skydiving Trip",
+      "date": "2026-09-26T00:00:00",
+      "endDate": "2026-09-26T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "Aviano, Italy",
+      "description": "Ready to take your adventure to a whole new altitude? Experience the ultimate adrenaline rush with a tandem skydive at Skydive Venice. You’ll receive professional instruction before leaping, then experience",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Aviano AB Visitor Center",

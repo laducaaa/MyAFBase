@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -243,6 +243,16 @@
     }
   ],
   "events": [
+    {
+      "id": "whiteman-magic-all-stars-magic-show-2026-09-09",
+      "title": "Magic All Stars: Magic Show",
+      "date": "2026-09-09T17:00:00",
+      "endDate": "2026-09-09T17:00:00",
+      "location": "Mission's End Whiteman AFB, Knob Noster, MO, United States, Missouri 65305",
+      "address": "378 Spirit Blvd, Whiteman Air Force Base, MO 65305, United States, Whiteman Air Force Base, MO",
+      "description": "🎩 POOF! MAGIC ALL STARS: Magic Show 🎩✨ Abracadabra! ✨ Get ready for a magically entertaining night of comedy, illusions, and family fun! 📅 Wednesday, September 9 ⏰ Doors Open at 5 PM | Show Starts at 6 PM 📍 Mission's End, Whiteman AFB 🎟️ FREE SHOW! 🪄 Featuring: ✨ Ben Young ✨ Jason Michaels ✨ Step",
+      "category": "family"
+    },
     {
       "id": "whiteman-oktoberfest-2026-09-25",
       "title": "Oktoberfest",

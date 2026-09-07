@@ -7,7 +7,7 @@
   "wing": "SBD 1",
   "latitude": 38.8121,
   "longitude": -104.7006,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "peterson-notif-aragon-dfac",
@@ -356,6 +356,56 @@
   ],
   "events": [
     {
+      "id": "peterson-featured-ruby-horsethief-canyon-overnigh-2026-09-07",
+      "title": "Featured Ruby-Horsethief Canyon Overnight Weekend Rafting Trip",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-bingo-night-2026-09-07",
+      "title": "Bingo Night",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "peterson-reel-fun-craft-night-2026-09-08",
+      "title": "Reel Fun Craft Night",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "peterson-trivia-night-2026-09-09",
+      "title": "Trivia Night",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "peterson-stress-management-workshop-2026-09-09",
+      "title": "Stress Management Workshop",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "education"
+    },
+    {
       "id": "peterson-run-ruck-remember-2026-09-11",
       "title": "Run, Ruck, Remember 5k/10k",
       "date": "2026-09-11",
@@ -396,6 +446,26 @@
       "category": "community"
     },
     {
+      "id": "peterson-reel-fun-craft-night-2026-09-15",
+      "title": "Reel Fun Craft Night",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "peterson-trivia-2026-09-16",
+      "title": "Trivia Night",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Colorado Pizza & Sports Grill / The Hub",
+      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
+      "description": "Trivia Night free for DoD ID cardholders; 21 FSS.",
+      "category": "community"
+    },
+    {
       "id": "peterson-fall-craft-night-2026-09-18",
       "title": "Fall Make & Take Craft Night",
       "date": "2026-09-18",
@@ -416,6 +486,36 @@
       "category": "community"
     },
     {
+      "id": "peterson-reel-fun-craft-night-2026-09-22",
+      "title": "Reel Fun Craft Night",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "peterson-dodgeball-madness-tournament-2026-09-24",
+      "title": "Dodgeball Madness Tournament",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "peterson-end-of-summer-final-friday-concert-2026-09-25",
+      "title": "End of Summer Final Friday Concert",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "community"
+    },
+    {
       "id": "peterson-sup-trip-2026-09-26",
       "title": "Fall Standup Paddleboarding Trip",
       "date": "2026-09-26",
@@ -426,14 +526,14 @@
       "category": "community"
     },
     {
-      "id": "peterson-trivia-2026-09-16",
-      "title": "Trivia Night",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "location": "Colorado Pizza & Sports Grill / The Hub",
-      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
-      "description": "Trivia Night free for DoD ID cardholders; 21 FSS.",
-      "category": "community"
+      "id": "peterson-reel-fun-craft-night-2026-09-29",
+      "title": "Reel Fun Craft Night",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
+      "category": "recreation"
     },
     {
       "id": "peterson-trivia-2026-09-30",
@@ -453,6 +553,16 @@
       "location": "Peterson SFB",
       "address": "Peterson SFB, CO",
       "description": "Deployed Family Dinner; 21 FSS calendar.",
+      "category": "community"
+    },
+    {
+      "id": "peterson-intermediate-advanced-mountain-bike-trip-2026-10-03",
+      "title": "Intermediate/Advanced Mountain Bike Trip (Captain Jacks)",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "Peterson SFB",
+      "address": "Colorado Springs, CO",
+      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
       "category": "community"
     }
   ],

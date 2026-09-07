@@ -7,7 +7,7 @@
   "wing": "47 FTW",
   "latitude": 29.3594,
   "longitude": -100.778,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "laughlin-notif-real-id",
@@ -242,7 +242,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "laughlin-monday-night-football-2026-09-07",
+      "title": "Monday Night Football",
+      "date": "2026-09-07T19:30:00",
+      "endDate": "2026-09-07T19:30:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: Bowling Center Phone: 8302985526 POC: Heather Slate Title: Monday Night Football Date of Event: Every Monday Time of Event: 7:30p-Game ends Location of Event: Cactus Lanes Bowling Center Registration Date: N/A Who Is This Event Targeted to/for: Everyone Purpose/Why: Show Monday Night Football games Cost: N/A- $2 games and $2 shoes. Loaded nachos $6.95, 12″ Pizza & bucket of beer $26.00 A",
+      "category": "recreation"
+    },
+    {
+      "id": "laughlin-trade-game-night-laughlin-library-thurs",
+      "title": "Trade & Game Night @ Laughlin Library – Thursday",
+      "date": "2026-09-10T16:30:00",
+      "endDate": "2026-09-10T18:30:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Laughlin AFB Library Trade & Game Night – every Thursday and Saturday THURSDAY – 1630-1830 & SATURDAY 1200-1400 @ Library For more info, call 830-298-5119",
+      "category": "education"
+    },
+    {
+      "id": "laughlin-youth-friday-social-night-2026-09-11",
+      "title": "Youth Friday Social Night",
+      "date": "2026-09-11T17:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: Youth Center Phone: 8302985344 POC: Nynell Centilli Alt POC: Raquel Rodriguez Title: Youth Friday Social Night Date of Event: 11 Sept 2026 Time of Event: 1700-2000 Location of Event: Youth Center / Movies 8 Registration Date: Register by 9 Sept 26 in CYPBMS Who Is This Event Targeted to/for: Youth age 9-18 years old Purpose/Why: To provide youth with a safe, positive, and engaging social",
+      "category": "family"
+    },
+    {
+      "id": "laughlin-cactus-lanes-colored-head-pin-bowling-2",
+      "title": "Cactus Lanes Colored Head Pin Bowling",
+      "date": "2026-09-11T20:00:00",
+      "endDate": "2026-09-12T23:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Earn free bowling coupons when you get a strike on your first roll. Staff must witness the strike. If the colored head pin is up and you get a strike on the first roll earn a coupon for a future free game.",
+      "category": "recreation"
+    },
+    {
+      "id": "laughlin-911-memorial-wod-2026-09-12",
+      "title": "911 Memorial WOD",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T10:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: Losano fitness Phone: 830-298-4674 POC: Rob Sanchez Alt POC: Cameron Galindo Title: 911 Memorial WOD Date of Event: September 12, 2026 Time of Event: 0800 – 1000 am Location of Event: Losano Fitness Center outside track Registration Date: none required Who Is This Event Targeted to/for: enlisted members, federal and DOD employees along with youth 13-17 who will need a parent or guardian ",
+      "category": "fitness"
+    },
+    {
+      "id": "laughlin-trade-game-night-laughlin-library-satur",
+      "title": "Trade & Game Night @ Laughlin Library – Saturday",
+      "date": "2026-09-12T12:00:00",
+      "endDate": "2026-09-12T14:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Laughlin AFB Library Trade & Game Night – every Thursday and Saturday THURSDAY – 1630-1830 & SATURDAY 1200-1400 @ Library For more info, call 830-298-5119",
+      "category": "education"
+    },
+    {
+      "id": "laughlin-2nd-annual-street-fighter-tournament-at",
+      "title": "2nd Annual Street Fighter Tournament at XL Landings",
+      "date": "2026-09-12T16:00:00",
+      "endDate": "2026-09-12T16:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: XL Landings Phone: 8302985134 POC: Laura Encerrado Alt POC: Bruce Forester Title: 2nd Annual Street Fighter Tournament at XL Landings Date of Event: Sept 12, 2026 Time of Event: 4PM Location of Event: XL Landings Registration Date: none needed Who Is This Event Targeted to/for: All Base Personal Purpose/Why: Saturday Night Opening at XL Landings Cost: No cost to play or participate Activ",
+      "category": "community"
+    },
+    {
+      "id": "laughlin-making-the-move-tips-and-tricks-for-mov",
+      "title": "Making the Move – Tips and Tricks for Moving Out of the Dorm",
+      "date": "2026-09-14T13:00:00",
+      "endDate": "2026-09-14T13:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Event Information: Workshops on the fundamentals of money management and wise financial decision making. Who: Dorm Residents To register contact the Military and Family Readiness Center at 830-298-5620 or afrc.laughlin@us.af.mil Event Facility: Military and Family Readiness Center",
+      "category": "education"
+    },
+    {
+      "id": "laughlin-start-smart-flag-football-2026-09-17",
+      "title": "Start Smart Flag Football",
+      "date": "2026-09-17T17:00:00",
+      "endDate": "2026-10-06T18:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: Start Smart Phone: 830-298-5344 POC: Raquel Rodriguez Alt POC: Nynell Centilli Title: Start Smart Flag Football Date of Event: September 17-October 6, 2026 Time of Event: 5-6p Location of Event: Hunt Housing Open Field Registration Date: September1-Septmeber 15, 2026 Who Is This Event Targeted to/for: Youth ages 3-4 years old Purpose/Why: The purpose of this program is to teach the funda",
+      "category": "family"
+    },
+    {
+      "id": "laughlin-sept-steam-story-time-2026-09-18",
+      "title": "Sept: STEAM Story Time",
+      "date": "2026-09-18T11:00:00",
+      "endDate": "2026-09-18T11:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: Laughlin Library Phone: 8302985119 POC: Champion, Dariela Alt POC: 8302984377 Title: STEAM Story Time Date of Event: 18 Sep Time of Event: 1100 Location of Event: Library Children’s Room Registration Date: n/a Who Is This Event Targeted to/for: Families Purpose/Why: Explore and create something fun! In partner with M&FRC and School Liaison. Cost: n/a Activity Description: Join us for a s",
+      "category": "family"
+    },
+    {
+      "id": "laughlin-ltc-2026-09-19",
+      "title": "LTC",
+      "date": "2026-09-19T08:30:00",
+      "endDate": "2026-09-19T15:00:00",
+      "location": "Laughlin AFB, Del Rio, TX",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: ODR Phone: 830-488-3295 POC: Sherry Jackson Alt POC: Mia Ojeda Title: LTC Date of Event: 3 Saturday of every month Time of Event: 0830-1500 Location of Event: Cactus Registration Date: Registrar by Wednesday before Who Is This Event Targeted to/for: Everyone Purpose/Why: Learn how to handle your weapon and receive your Texas conceal carry. Cost: $120.00 Activity Description: Instructor w",
+      "category": "outdoor"
+    },
+    {
+      "id": "laughlin-september-4-player-scramble-2026-09-20",
+      "title": "September 4 Player Scramble",
+      "date": "2026-09-20T08:00:00",
+      "endDate": "2026-09-20T08:00:00",
+      "location": "Desert Oaks Golf COurse",
+      "address": "Laughlin AFB, Del Rio, TX",
+      "description": "Activity: FSWG Phone: 298-5451 POC: Mark Drehobl Alt POC: Iliana Rubio – Judith Vastola Date of Event: 20 September Time of Event: 0800 Location of Event: Desert Oaks Golf Course Registration Date: 18 Sep 2026 Who Is This Event Targeted to/for: All golfers Purpose/Why: To have fun. Cost: $40.00 for non-members and $30.00 for members Activity Description: 4 Player team Scramble format golf tourname",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 7002)",

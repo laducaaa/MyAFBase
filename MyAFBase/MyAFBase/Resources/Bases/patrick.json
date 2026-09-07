@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -254,6 +254,16 @@
       "category": "community"
     },
     {
+      "id": "patrick-check-on-your-friends-5k-ccsfs-2026-09-18",
+      "title": "Check on Your Friends 5K @ CCSFS",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "September is National Suicide Prevention Month, so join friends in running the Fitness Center's Check on Your Friends 5K! There are TWO Check on Your Friends 5K's, one at CCSFS and one at PSFB. See dates below: \n- Friday, September 18, 7:15AM @ Cape Canaveral SFS Fitness Center\n- Friday, September 25, 7:15AM @ Patrick SFB River Run Read More",
+      "category": "fitness"
+    },
+    {
       "id": "patrick-pokemon-tournament-2026-09-19",
       "title": "Pokemon Champions Tournament",
       "date": "2026-09-19",
@@ -264,6 +274,16 @@
       "category": "community"
     },
     {
+      "id": "patrick-banana-river-boat-tour-2026-09-19",
+      "title": "Banana River Boat Tour",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Step aboard for a scenic cruise along the Banana River! Explore hidden coves, spot playful wildlife, and take in breathtaking views on a relaxing, family-friendly tour! Must be at least 8 years old and able to swim. \n- Saturday, September 12, 9AM-12PM\n- Please register by September 17\n- AD and sponsored Families $2 pp; All others $10pp Read More",
+      "category": "outdoor"
+    },
+    {
       "id": "patrick-squadron-olympics-2026-09-21",
       "title": "Squadron Olympics",
       "date": "2026-09-21",
@@ -272,6 +292,106 @@
       "address": "Patrick SFB, FL",
       "description": "Squadron Olympics (volleyball, basketball, dodgeball, cornhole, tug-of-war); gopatrickfl.com.",
       "category": "community"
+    },
+    {
+      "id": "patrick-check-on-your-friends-5k-psfb-2026-09-25",
+      "title": "Check on Your Friends 5K @ PSFB",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "September is National Suicide Prevention Month, so join friends in running the Fitness Center's Check on Your Friends 5K! There are TWO Check on Your Friends 5K's, one at CCSFS and one at PSFB. See dates below:  \n- Friday, September 18, 7:15AM @ Cape Canaveral SFS Fitness Center \n- Friday, September 25, 7:15AM @ Patrick SFB River Run Read More",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-efmp-stargazing-2026-10-02",
+      "title": "EFMP Stargazing",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "EFMP Stargazing event at M&FRC. October 2, 6:30-8:30PM. Read More",
+      "category": "family"
+    },
+    {
+      "id": "patrick-wreckage-whispers-banana-river-haunted-b-2026-10-03",
+      "title": "Wreckage & Whispers: Banana River Haunted Boat Tour",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Enjoy a family-friendly, in-house haunted boat tour featuring festive Halloween decorations, spooky atmospheres, and thrilling storytelling about local shipwrecks and the legendary haunted tales of the Banana River. \n- Saturday, Aug. 3\n- 7PM-8:30PM\n- Active Duty & Sponsored Families: $2 per person, All others: $10 per person\n- Please register no later than Oct. 1 Read More",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-paddle-pose-2026-10-17",
+      "title": "Paddle & Pose",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Kickstart your morning with a refreshing sunrise yoga session right on the waters of the Banana River. Led by our expert fitness center instructor, you will flow through poses on a paddleboard as the sun comes up. If water conditions aren't ideal for floating yoga, we’ll move the practice to the scenic ODR docks, followed immediately by an invigorating morning paddle on the river. \n- Saturday, Oct. 17, 7:30AM-9:30AM\n- ODR Docks... Read More",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-cape-tour-2026-10-21",
+      "title": "Cape Tour",
+      "date": "2026-10-21",
+      "endDate": "2026-10-21",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Cape Tour with M&FRC. October 21, 7:30AM-1PM. Read More",
+      "category": "outdoor"
+    },
+    {
+      "id": "patrick-costume-pickleball-tournament-2026-10-23",
+      "title": "Costume Pickleball Tournament",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "The Fitness Center is hosting a pickleball tournament for anyone ages 16+, and the team that has the best costume will win a prize!\nPlease register by October 20. Read More",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-halloween-5k-2026-10-30",
+      "title": "Halloween 5K",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Free 5K open to all ages. The individual with the best costume will win a prize. Read More",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-the-floating-hayride-a-thousand-islands-2026-11-07",
+      "title": "The Floating Hayride: A Thousand Islands Boat Tour",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "If you’ve ever wanted to experience a classic, cozy autumn hayride but with 100% more sunscreen, flip-flops, and zero chance of frostbite, you’ve found it! Welcome to ODR's tropical spin on the traditional autumn corn maze, located right in the winding, wild, and incredibly scenic Thousand Islands of the Space Coast Grab your sunglasses and get ready for a festive, light-hearted journey through nature's ultimate green labyrinth!... Read More",
+      "category": "outdoor"
+    },
+    {
+      "id": "patrick-turkey-trot-5k-2026-11-18",
+      "title": "Turkey Trot 5K",
+      "date": "2026-11-18",
+      "endDate": "2026-11-18",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Join in for this year's Turkey Trot 5K! Free, and all ages are welcome! Read More",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-cape-tour-2026-11-18",
+      "title": "Cape Tour",
+      "date": "2026-11-18",
+      "endDate": "2026-11-18",
+      "location": "Patrick SFB",
+      "address": "Cocoa Beach, FL",
+      "description": "Cape Tour with M&FRC. November 18, 7:30AM-1PM. Read More",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

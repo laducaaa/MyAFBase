@@ -7,7 +7,7 @@
   "wing": "374 AW",
   "latitude": 35.7485,
   "longitude": 139.3483,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "yokota-notif-real-id",
@@ -193,7 +193,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "yokota-story-time-2026-09-08",
+      "title": "Story Time",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Story Time",
+      "category": "family"
+    },
+    {
+      "id": "yokota-sensory-friendly-lego-lab-2026-09-08",
+      "title": "SENSORY FRIENDLY LEGO LAB",
+      "date": "2026-09-08T14:00:00",
+      "endDate": "2026-09-08T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Tuesdays • 2-4 p.m. Library • Free • All Ages Join us for a special sensory Lego playtime. All ages and families are welcome in this space.</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "yokota-yoga-rise-n-shine-2026-09-09",
+      "title": "Yoga Rise N Shine",
+      "date": "2026-09-09T09:30:00",
+      "endDate": "2026-09-09T22:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Wednesdays • 9:30 a.m.–10:30 p.m. Instructor: Jaqueline Goodwin $40/8 Classes $24/4 Classes $7 Walk In</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "yokota-lego-lab-2026-09-09",
+      "title": "LEGO LAB",
+      "date": "2026-09-09T16:00:00",
+      "endDate": "2026-09-09T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Wednesdays • 4-6 p.m. Library • All Ages Calling all Master Builders to join us in the library for an evening of building and creating until your heart\\'s content! Now with Duplo</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "yokota-saturday-karaoke-night-2026-09-12",
+      "title": "Saturday Karaoke Night",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Officers’ Club",
+      "address": "Bldg. 31, Yokota Air Base",
+      "description": "<p>Karaoke Night Every Saturday • 5–10 p.m Officer\\'s Club • FREE • Ages 18 & up </p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "yokota-story-time-2026-09-15",
+      "title": "Story Time",
+      "date": "2026-09-15T10:30:00",
+      "endDate": "2026-09-15T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Story Time",
+      "category": "family"
+    },
+    {
+      "id": "yokota-air-force-birthday-5k-walk-run-2026-09-18",
+      "title": "AIR FORCE BIRTHDAY 5K WALK/RUN",
+      "date": "2026-09-18T07:00:00",
+      "endDate": "2026-09-18T09:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Fri • 18 Sep • 7–9 a.m. Par 3 Golf Course Free • All Ages It\\'s the Air Force\\'s birthday! Come out and celebrate with us at Par 3 with a friendly walk or run. Free refreshments and T-shirts will be provided for all participants on a first-come, first-served basis.</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "yokota-saturday-karaoke-night-2026-09-19",
+      "title": "Saturday Karaoke Night",
+      "date": "2026-09-19T17:00:00",
+      "endDate": "2026-09-19T22:00:00",
+      "location": "Officers’ Club",
+      "address": "Bldg. 31, Yokota Air Base",
+      "description": "<p>Karaoke Night Every Saturday • 5–10 p.m Officer\\'s Club • FREE • Ages 18 & up </p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "yokota-retirees-appreciation-day-2026-09-25",
+      "title": "RETIREES APPRECIATION DAY",
+      "date": "2026-09-25T11:00:00",
+      "endDate": "2026-09-25T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Fri • 25 Sep • Breakfast or Lunch • Charlie T’s 11 a.m.–1:30 p.m. • Chico’s Chop House Show your Retiree ID along with a valid AF Club Card to our cashier and receive a 50% discount on your meal with the purchase of a dinner entree.</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "yokota-matsuri-fall-festival-2026-2026-09-26",
+      "title": "MATSURI FALL FESTIVAL 2026",
+      "date": "2026-09-26T12:00:00",
+      "endDate": "2026-09-26T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Sat • 26 Sep 12–5 p.m. Sakura Shell (Facing the Base Theater) Don\\'t miss the upcoming Matsuri Festival, packed with mouthwatering food, exciting prizes, and vibrant cultural experiences that celebrate Japanese tradition.</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "yokota-tama-hills-resort-the-hills-after-dark-2026-10-31",
+      "title": "TAMA HILLS RESORT THE HILLS AFTER DARK",
+      "date": "2026-10-31T17:00:00",
+      "endDate": "2026-10-31T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Sat • 31 Oct 5-8 p.m. $5 Per Person (Non-Staying Guest) All Ages Reserve by 25 Oct Experience the first of its kind at Tama, a spooky trial hike! Enjoy face painting, apple bobbing, bouncy house, Halloween cartoons, marshmallow roasting station, and a guided tour on the mysterious path! Hamburgers, hot dogs, chips, soda, and […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "yokota-3d-archery-tournament-2026-11-14",
+      "title": "3D ARCHERY TOURNAMENT",
+      "date": "2026-11-14T10:00:00",
+      "endDate": "2026-11-14T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Sat • 14 Nov • 10 a.m.-2 p.m. Tama Hills • All Ages* • $20/$15** Includes: Entry fee, lunch, rental bow & arrows. Prizes: FSS gift cards, free rentals & 2-night stay in a cabin. Sign up at Tama Hills Outdoor Recreation. Call 080-3465-0745 for details. Ages 17 & under must be accompanied by an […]</p>\\n",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Yokota AB Visitor Center",

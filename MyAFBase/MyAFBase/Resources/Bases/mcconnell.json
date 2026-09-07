@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -370,14 +370,114 @@
   ],
   "events": [
     {
-      "id": "mcconnell-evt-tanker-trot",
-      "title": "Tanker Trot 5K",
-      "date": "2026-10-24T14:30:00Z",
-      "endDate": "2026-10-24T16:00:00Z",
-      "location": "McConnell AFB Flight Line",
-      "address": "McConnell AFB, Wichita, KS 67221",
-      "description": "5K run kicking off the Frontiers in Flight Air Show on the flight line.",
-      "category": "fitness"
+      "id": "mcconnell-crafternoon-2026-09-12",
+      "title": "Crafternoon",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "mcconnell-kansas-state-fair-trip-2026-09-12",
+      "title": "Kansas State Fair Trip",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "community"
+    },
+    {
+      "id": "mcconnell-air-force-79th-birthday-social-2026-09-18",
+      "title": "Air Force 79th Birthday Social",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "community"
+    },
+    {
+      "id": "mcconnell-soccer-tournament-2026-09-22",
+      "title": "Soccer Tournament",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "community"
+    },
+    {
+      "id": "mcconnell-craftaholics-2026-09-28",
+      "title": "Craftaholics",
+      "date": "2026-09-28",
+      "endDate": "2026-09-28",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "mcconnell-crafternoon-2026-09-28",
+      "title": "Crafternoon",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "mcconnell-halloween-wine-bottle-lights-2026-09-28",
+      "title": "Halloween Wine Bottle Lights",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "mcconnell-cyp-haunted-house-2026-09-28",
+      "title": "CYP Haunted House",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "community"
+    },
+    {
+      "id": "mcconnell-crafternoon-2026-10-03",
+      "title": "Crafternoon",
+      "date": "2026-10-03",
+      "endDate": "2026-10-03",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "mcconnell-halloween-wine-bottle-lights-2026-10-09",
+      "title": "Halloween Wine Bottle Lights",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "mcconnell-cyp-haunted-house-2026-10-16",
+      "title": "CYP Haunted House",
+      "date": "2026-10-16",
+      "endDate": "2026-10-16",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "community"
     },
     {
       "id": "mcconnell-frontiers-in-flight-2026",
@@ -388,6 +488,26 @@
       "address": "Wichita, KS",
       "description": "Free public open house and air show headlined by the USAF Thunderbirds. Community source: Frontiers in Flight / Visit Wichita.",
       "category": "community"
+    },
+    {
+      "id": "mcconnell-evt-tanker-trot",
+      "title": "Tanker Trot 5K",
+      "date": "2026-10-24T14:30:00Z",
+      "endDate": "2026-10-24T16:00:00Z",
+      "location": "McConnell AFB Flight Line",
+      "address": "McConnell AFB, Wichita, KS 67221",
+      "description": "5K run kicking off the Frontiers in Flight Air Show on the flight line.",
+      "category": "fitness"
+    },
+    {
+      "id": "mcconnell-craftaholics-2026-10-26",
+      "title": "Craftaholics",
+      "date": "2026-10-26",
+      "endDate": "2026-10-26",
+      "location": "McConnell AFB",
+      "address": "Wichita, KS",
+      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
+      "category": "recreation"
     }
   ],
   "newcomers": {

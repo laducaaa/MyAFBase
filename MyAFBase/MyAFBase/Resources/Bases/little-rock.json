@@ -7,7 +7,7 @@
   "wing": "19 AW",
   "latitude": 34.9169,
   "longitude": -92.1497,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "little-rock-notif-real-id",
@@ -357,7 +357,128 @@
       "building": "Bldg 940"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "little-rock-lap-sit-for-toddlers-story-time-2026",
+      "title": "Lap Sit for Toddlers Story Time",
+      "date": "2026-09-10T10:00:00",
+      "endDate": "2026-09-10T11:00:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Bring your little ones to the Little Rock Air Force Base Library for Lap Sit for Toddlers Story Time! Designed for babies up to 23 months old, this engaging program is perfect for introducing your child to the joy of stories, songs, and early literacy in a fun and nurturing environment.",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-chess-club-2026-09-10",
+      "title": "Chess Club",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T18:45:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Make your next move! Whether you’re a chess pro or have never moved a pawn, Chess Club at the Base Library is the perfect place to learn, play, and sharpen your strategy! 2nd & 4th Thursday of every month 5–6:45 PM All ages welcome! September dates: September 10 & 24 Bring your game face and come make your move!",
+      "category": "education"
+    },
+    {
+      "id": "little-rock-9-11-memorial-5k-ruck-2026-09-11",
+      "title": "9/11 Memorial 5K & Ruck",
+      "date": "2026-09-11T06:00:00",
+      "endDate": "2026-09-11T07:00:00",
+      "location": "Heritage Park",
+      "address": "LRAFB",
+      "description": "Honor. Remember. Never Forget. Join the 19 FSS Fitness Center for the 9/11 5K Ruck & Run as we come together to remember and honor those we lost on September 11, 2001. Run or Ruck and challenge yourself while honoring the lives and sacrifices we remember. The top 19 finishers in both the ruck and run will receive a special commemorative patch. After the 5K, stick around for the Little Rock Air For",
+      "category": "fitness"
+    },
+    {
+      "id": "little-rock-cosmic-bowling-2026-09-11",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-11T20:00:00",
+      "endDate": "2026-09-11T23:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "Have some fun with unlimited bowling, black lights and great music in a dance club atmosphere! Shoe rentals are included.",
+      "category": "recreation"
+    },
+    {
+      "id": "little-rock-saturday-family-matinee-watch-a-movi",
+      "title": "Saturday Family Matinee: Watch a Movie and Bowl",
+      "date": "2026-09-12T14:00:00",
+      "endDate": "2026-09-12T16:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "Bring the whole family to the Strike Zone Bowling Center and enjoy unlimited bowling, a large pizza, and a soda per person while watching a family friendly movie for $40. Price covers up to six people and includes shoe rentals.",
+      "category": "entertainment"
+    },
+    {
+      "id": "little-rock-knit-at-night-2026-09-17",
+      "title": "Knit at Night",
+      "date": "2026-09-17T17:30:00",
+      "endDate": "2026-09-17T18:45:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Calling all Fiber Arts lovers! Grab your knitting, crochet, embroidery, or whatever creative project you’re working on and join us for Knit at Night at the Base Library! September 17 at 5:30 PM! Whether you’re learning a new hobby, looking to share your skills, or just want to meet fellow crafters, there’s a spot for you! Bring your project and let’s get creative together!",
+      "category": "community"
+    },
+    {
+      "id": "little-rock-rocktoberfest-2026-09-18",
+      "title": "Rocktoberfest",
+      "date": "2026-09-18T14:00:00",
+      "endDate": "2026-09-18T18:00:00",
+      "location": "Warfit Pavilion",
+      "address": "Little Rock AFB, Jacksonville, AR",
+      "description": "Get ready to ROCKTOBERFEST! Little Rock Air Force Base’s annual Rocktoberfest is coming to Warfit Pavilion on September 18th , and you won’t want to miss the fun! Get ready for an afternoon packed with: Live music from the Polkameisters Traditional German games & contests Best-Dressed Contest FREE Oktoberfest food & drinks (while supplies last) Fun for the whole family! Bring the kids to Kid-Fest!",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-kid-fest-2026-09-18",
+      "title": "Kid Fest",
+      "date": "2026-09-18T15:00:00",
+      "endDate": "2026-09-18T18:00:00",
+      "location": "Warfit Pavilion",
+      "address": "Little Rock AFB, Jacksonville, AR",
+      "description": "KID-FEST IS COMING TO ROCKTOBERFEST! Little ones, this part of the celebration is just for YOU! Bring the family to Kid-Fest for an afternoon packed with fun, games, and plenty of ways to play! Get ready for: Interactive attractions Bounce houses Mechanical bull Photo booth …and more! Let the kids run, jump, play, and make some awesome memories while you enjoy all that Rocktoberfest has to offer! ",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-welcome-back-no-tap-tournament-2026",
+      "title": "Welcome Back No-Tap Tournament",
+      "date": "2026-09-19T17:00:00",
+      "endDate": "2026-09-19T20:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "WELCOME BACK, BOWLERS! Start the season with some friendly competition at the Welcome Back Bowling Tournament at Strike Zone Bowling & Entertainment Center on September 19th! 3 Games | 9-Pin No-Tap Minimum payout: 1 in 6 Open to ages 18+ Whether you’re a seasoned bowler or just looking for a fun challenge, come out and see what you can score! Be sure to arrive early on tournament day to get regist",
+      "category": "recreation"
+    },
+    {
+      "id": "little-rock-fcc-provider-orientation-training-20",
+      "title": "FCC Provider Orientation Training",
+      "date": "2026-09-21T09:00:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "Family Child Care",
+      "address": "1988 Arnold Drive Little Rock, Little Rock, AR, 72099",
+      "description": "FCC Provider Orientation Training is for those who are interested in becoming a licensed Family Child Care Provider on or off base for full/part time care, special needs, 24/7 care or expanded child care. This training is FREE and includes CPR, first aid, nutrition, child abuse awareness, child development, record keeping and much more. For more information and to register, email 19FSS.FSYF.FCC@us",
+      "category": "community"
+    },
+    {
+      "id": "little-rock-petticoats-and-paper-crafts-2026-09",
+      "title": "Petticoats and Paper Crafts",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "Skills Center",
+      "address": "656 Sixth St., Little Rock AFB, AR, 72099",
+      "description": "Step into the Regency Era! Join the Skills Center on September 26th for Petticoats & Paper Crafts —an afternoon of teatime, creativity, and charming Regency-inspired crafts! Try your hand at silhouette drawing, decoupage, fan decorating, watercolor , and more—all at your own pace! Presale tickets are available at the Skills Center for $10 through September 25th. Price at the door will be $12. Wall",
+      "category": "community"
+    },
+    {
+      "id": "little-rock-tactical-air-lit-book-club-2026-10-0",
+      "title": "Tactical Air “Lit” Book Club",
+      "date": "2026-10-01T17:30:00",
+      "endDate": "2026-10-01T18:30:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Calling all book lovers! Love getting lost in a good story, debating characters, plot twists, and questionable decisions? Then the Base Library’s Tactical Air “Lit” Book Club is for you! First Read: Rebecca by Daphne du Maurier Pick up your copy from the Library: Starting September 1st Book Club: October 1 at 5:30 PM Call the Base Library at (501) 987-6979 to secure your spot by September 24th! Th",
+      "category": "education"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Little Rock AFB Visitor Control Center",

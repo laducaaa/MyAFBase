@@ -7,7 +7,7 @@
   "wing": "673 ABW",
   "latitude": 61.2524,
   "longitude": -149.8068,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "jber-notif-real-id",
@@ -204,7 +204,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "jber-money-matter-2026-09-08",
+      "title": "Money Matter$",
+      "date": "2026-09-08T09:00:00",
+      "endDate": "2026-09-08T11:00:00",
+      "location": "JBER, Anchorage, AK",
+      "address": "JBER, Anchorage, AK",
+      "description": "Money Matter$ — public FSS/MWR calendar listing.",
+      "category": "community"
+    },
+    {
+      "id": "jber-preschool-story-time-2026-09-08",
+      "title": "Preschool Story Time",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T10:30:00",
+      "location": "JBER Library",
+      "address": "Bldg. 7 Fourth St, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Every story is a new adventure at Preschool Story Time! Join us every Tuesday at 10:30 AM at the JBER Library for a fun-filled morning of stories, songs, movement, and imagination. Each week features a brand-new theme, bringing fresh books, engaging activities, and exciting discoveries that keep little learners coming back for more. From animals and seasons to space, community helpers, and everyth",
+      "category": "family"
+    },
+    {
+      "id": "jber-picture-frame-class-2026-09-09",
+      "title": "Picture Frame Class",
+      "date": "2026-09-09T10:00:00",
+      "endDate": "2026-09-09T10:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
+      "description": "Turn a favorite photo into a professionally framed piece you can proudly display! Bring a 5×7 photo and learn the basics of custom framing, including how to cut mats, glass, and foam core . You’ll then assemble everything into a precut frame, creating your own finished work of art while learning skills you can use for future framing projects. Ages: 12+ Members: $50 Non-Members: $60 What to Bring P",
+      "category": "education"
+    },
+    {
+      "id": "jber-toddler-time-2026-09-09",
+      "title": "Toddler Time",
+      "date": "2026-09-09T10:00:00",
+      "endDate": "2026-09-09T10:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
+      "description": "Introduce your little one to the joy of creating at Toddler Time! Join us every Wednesday at the JBER Arts & Crafts Center for a themed craft that’s perfect for toddlers and preschoolers. Each week brings a new hands-on project that encourages creativity, builds fine motor skills, and gives families a chance to spend quality time together. Our crafts are simple, colorful, and designed so even the ",
+      "category": "family"
+    },
+    {
+      "id": "jber-bounce-land-2026-09-10",
+      "title": "Bounce Land",
+      "date": "2026-09-10T10:00:00",
+      "endDate": "2026-09-10T16:00:00",
+      "location": "Arctic Oasis Community Center",
+      "address": "9497 20th St, Alaska",
+      "description": "Bounce Land — public FSS/MWR calendar listing.",
+      "category": "community"
+    },
+    {
+      "id": "jber-eat-and-play-weekdays-2026-09-10",
+      "title": "Eat and Play Weekdays",
+      "date": "2026-09-10T12:00:00",
+      "endDate": "2026-09-10T14:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Lunch just got a whole lot more fun! Stop by Frost Bites inside Polar Bowl for lunch on Thursdays and Fridays from Noon to 2 PM, then hit the lanes with a FREE game of bowling. Simply spend $5 or more at Frost Bites, present your receipt at the front counter, and receive one free game of bowling. It’s the perfect excuse to grab a bite with coworkers, meet up with friends, or enjoy a family lunch b",
+      "category": "recreation"
+    },
+    {
+      "id": "jber-bottomless-bowling-2026-09-10",
+      "title": "Bottomless Bowling",
+      "date": "2026-09-10T16:00:00",
+      "endDate": "2026-09-10T20:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "When one game just isn’t enough, it’s time for Bottomless Bowling at Polar Bowl! Join us every Thursday from 4 PM to 8 PM and enjoy unlimited bowling for one low price. Whether you’re challenging your friends, enjoying a family night out, or simply looking for a fun way to spend your evening, Bottomless Bowling lets you keep the strikes rolling for hours. The more you bowl, the more fun you’ll hav",
+      "category": "recreation"
+    },
+    {
+      "id": "jber-karaoke-night-2026-09-11",
+      "title": "Karaoke Night",
+      "date": "2026-09-11T20:00:00",
+      "endDate": "2026-09-12T00:00:00",
+      "location": "Warrior Zone CC",
+      "address": "655 Richardson Dr, Joint Base Elmendorf-Richardson, Alaska, 99505",
+      "description": "Karaoke Night — public FSS/MWR calendar listing.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jber-alcohol-ink-moose-paint-night-2026-09-18",
+      "title": "Alcohol Ink Moose Paint Night",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
+      "description": "Spend the evening getting creative with a colorful Alaskan-inspired project! In this hands-on paint night, you’ll use alcohol inks to create a vibrant moose design. The free-flowing nature of alcohol ink means no two pieces turn out exactly alike, so you’ll head home with a truly one-of-a-kind creation. Ages: 18+ Members: $50 Non-Members: $60 Sign Up Call the Arts & Crafts Center at (907) 384-3717",
+      "category": "education"
+    },
+    {
+      "id": "jber-spark-s-boo-bash-2026-09-25",
+      "title": "Spark’s Boo Bash",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T19:00:00",
+      "location": "Arctic Oasis Community Center",
+      "address": "9497 20th St, Alaska",
+      "description": "Get those costumes ready and join Sparky and the Fire Department for a family-friendly evening of Halloween fun! Families can enjoy bouncy houses, games, the smoke trailer, light snacks, and more spooky surprises throughout the evening. Come dressed as your favorite superhero, witch, wizard, dinosaur, ghost, or anything else you can dream up! What to Expect Bouncy houses Games and family activitie",
+      "category": "holiday"
+    },
+    {
+      "id": "jber-alcohol-ink-moose-paint-class-2026-09-26",
+      "title": "Alcohol Ink Moose Paint Class",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T10:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
+      "description": "Get creative with color and make your own uniquely Alaskan work of art! In this fun, hands-on class, participants will use alcohol inks to create a vibrant moose design. With the flowing and unpredictable nature of alcohol ink, every finished piece will be completely one of a kind! Ages: 5+ Members: $50 Non-Members: $60 Sign Up Call the Arts & Crafts Center at (907) 384-3717 or stop by the facilit",
+      "category": "education"
+    },
+    {
+      "id": "jber-spooktacular-boo-bash-trunk-or-treat-2026-1",
+      "title": "Spooktacular Boo Bash Trunk or Treat",
+      "date": "2026-10-23T16:00:00",
+      "endDate": "2026-10-24T19:00:00",
+      "location": "Aafes Parking Lot",
+      "address": "5800B Westover Ave, anchorage, 99506",
+      "description": "Get ready for a frightfully fun evening at the Spooktacular Boo Bash! Bring the whole family, put on your best costumes, and make your way through a lineup of creatively decorated trunks while collecting plenty of Halloween treats along the way. Trunk or Treat Fun Come ready for an evening filled with Halloween fun, including: 🎃 Trunk or Treat 🍬 Plenty of treats for the kids 👻 Creative and spooky ",
+      "category": "holiday"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "JBER Visitor Center",

@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -364,16 +364,6 @@
       "category": "community"
     },
     {
-      "id": "dm-pins-and-pals-2026-09-16",
-      "title": "Pins and Pals",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "location": "Thunder Alley / Bowling",
-      "address": "Davis-Monthan AFB, AZ",
-      "description": "Pins and Pals Wednesday series; 355 FSS.",
-      "category": "community"
-    },
-    {
       "id": "dm-cosmic-bowling-2026-09-11",
       "title": "Cosmic Bowling",
       "date": "2026-09-11",
@@ -392,6 +382,136 @@
       "address": "Davis-Monthan AFB, AZ",
       "description": "Friday Unwind recurring program; September calendar.",
       "category": "community"
+    },
+    {
+      "id": "davis-monthan-9-11-sunset-ruck-2026-09-11",
+      "title": "9/11 Sunset Ruck",
+      "date": "2026-09-11T17:30:00",
+      "endDate": "2026-09-11T19:30:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "9/11 Sunset Ruck at Davis-Monthan AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "davis-monthan-basic-embroidery-2026-09-11",
+      "title": "Basic Embroidery",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Basic Embroidery at Davis-Monthan AFB.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-zipline-adventure-2026-09-12",
+      "title": "Zipline Adventure",
+      "date": "2026-09-12T08:45:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Zipline Adventure at Davis-Monthan AFB.",
+      "category": "outdoor"
+    },
+    {
+      "id": "dm-pins-and-pals-2026-09-16",
+      "title": "Pins and Pals",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Thunder Alley / Bowling",
+      "address": "Davis-Monthan AFB, AZ",
+      "description": "Pins and Pals Wednesday series; 355 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-gaming-trivia-2026-09-17",
+      "title": "Gaming Trivia",
+      "date": "2026-09-17T17:30:00",
+      "endDate": "2026-09-17T19:30:00",
+      "location": "The Landing Community Center",
+      "address": "Tucson, AZ",
+      "description": "Gaming Trivia at The Landing Community Center.",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-free-movie-the-hunger-games-2026-09-18",
+      "title": "FREE Movie – The Hunger Games",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "The Landing Community Center",
+      "address": "Tucson, AZ",
+      "description": "FREE Movie – The Hunger Games at The Landing Community Center.",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-pom-pom-garland-2026-09-18",
+      "title": "Pom-Pom Garland",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "The Landing Community Center",
+      "address": "Tucson, AZ",
+      "description": "Pom-Pom Garland at The Landing Community Center.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-sabino-canyon-hike-2026-09-19",
+      "title": "Sabino Canyon Hike",
+      "date": "2026-09-19T18:30:00",
+      "endDate": "2026-09-19T21:30:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Sabino Canyon Hike at Davis-Monthan AFB.",
+      "category": "outdoor"
+    },
+    {
+      "id": "davis-monthan-tailgate-bingo-2026-09-24",
+      "title": "Tailgate Bingo",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T20:00:00",
+      "location": "The Landing Community Center",
+      "address": "Tucson, AZ",
+      "description": "Tailgate Bingo at The Landing Community Center.",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-casino-shuttle-trip-2026-09-25",
+      "title": "Casino Shuttle Trip",
+      "date": "2026-09-25T12:00:00",
+      "endDate": "2026-09-25T16:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "For Fam Camp residents, register at the Fam Camp front desk.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-kids-karaoke-2026-09-25",
+      "title": "Kids Karaoke",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T19:30:00",
+      "location": "The Landing Community Center",
+      "address": "Tucson, AZ",
+      "description": "Kids Karaoke at The Landing Community Center.",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-basic-sewing-jar-openers-2026-09-25",
+      "title": "Basic Sewing- Jar Openers",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Basic Sewing- Jar Openers at Davis-Monthan AFB.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-karaoke-night-2026-09-25",
+      "title": "Karaoke Night",
+      "date": "2026-09-25T19:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Karaoke Night at Davis-Monthan AFB.",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

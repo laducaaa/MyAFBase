@@ -7,7 +7,7 @@
   "wing": "501 CSW",
   "latitude": 51.6822,
   "longitude": -1.7906,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "fairford-notif-real-id",
@@ -182,7 +182,18 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "fairford-raf-fairford-oktoberfest-2026-09-26",
+      "title": "RAF Fairford Oktoberfest",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "RAF Fairford",
+      "address": "Fairford, United Kingdom",
+      "description": "422 FSS public calendar event tagged for RAF Fairford.",
+      "category": "holiday"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "RAF Fairford Visitor Center",

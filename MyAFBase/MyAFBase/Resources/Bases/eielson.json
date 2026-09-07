@@ -7,7 +7,7 @@
   "wing": "354 FW",
   "latitude": 64.6657,
   "longitude": -147.1015,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "eielson-notif-real-id",
@@ -193,7 +193,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "eielson-faux-stained-glass-class-2026-09-11",
+      "title": "Faux Stained Glass Class",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Create a unique faux stained glass piece with instructors from Raven City Studio. All supplies are provided, and participants can choose from a variety of shapes to create their own",
+      "category": "recreation"
+    },
+    {
+      "id": "eielson-youth-bowling-league-2026-09-12",
+      "title": "Youth Bowling League",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T12:30:00",
+      "location": "Bowling Center",
+      "address": "Fairbanks, AK",
+      "description": "Join the Arctic Nite Lanes Youth Bowling League for a 16-week USBC-sanctioned season open to youth ages 6–18. Bowlers of all skill levels are welcome to compete, improve their game,",
+      "category": "family"
+    },
+    {
+      "id": "eielson-oktoberfest-2026-09-12",
+      "title": "Oktoberfest",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T20:00:00",
+      "location": "Yukon Club",
+      "address": "Fairbanks, AK",
+      "description": "Raise your stein and celebrate fall the Bavarian way at Eielson’s Annual Oktoberfest outside the Yukon Club! PLUS — enter to WIN from over $9,000 in prizes, including a pair",
+      "category": "holiday"
+    },
+    {
+      "id": "eielson-uso-stand-up-comedy-night-ft-craig-robinson-2026-09-15",
+      "title": "USO Stand Up Comedy Night (ft. Craig Robinson)",
+      "date": "2026-09-15T18:00:00",
+      "endDate": "2026-09-15T20:00:00",
+      "location": "Yukon Cub: Ballroom",
+      "address": "Fairbanks, AK",
+      "description": "Join us for an evening of entertainment and laughter on September 15 at 6 PM in the Yukon Ballroom as we welcome comedian Craig Robinson, with Ralph Roberts opening the",
+      "category": "entertainment"
+    },
+    {
+      "id": "eielson-kids-eat-free-night-2026-09-18",
+      "title": "Kids Eat FREE Night",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "Bowling Center",
+      "address": "Fairbanks, AK",
+      "description": "Join us at Arctic Nite Lanes Bowling Center every 1st and 3rd Friday of the month from 4-7 p.m. Families can enjoy a special dining deal—receive one FREE kids meal",
+      "category": "recreation"
+    },
+    {
+      "id": "eielson-strong-person-competition-2026-09-19",
+      "title": "Strong Person Competition",
+      "date": "2026-09-19T09:00:00",
+      "endDate": "2026-09-19T13:00:00",
+      "location": "Fitness and Sports Center Baker Field House",
+      "address": "Fairbanks, AK",
+      "description": "Do you have what it takes to become Eielson's Strongest Person? Join us on September 19 at the Fitness Center Outdoor Track for an exciting test of strength, power, and",
+      "category": "fitness"
+    },
+    {
+      "id": "eielson-airmen-arts-night-2026-09-19",
+      "title": "Airmen Arts Night",
+      "date": "2026-09-19T18:00:00",
+      "endDate": "2026-09-19T20:00:00",
+      "location": "Eielson AFB",
+      "address": "Fairbanks, AK",
+      "description": "Meet and enjoy an evening with like-minded creative people at Arts & Crafts. The evening will include tie-dyeing themed event shirts and learning how to make your own old-school friendship",
+      "category": "recreation"
+    },
+    {
+      "id": "eielson-parent-tot-craft-dot-button-art-2026-09-24",
+      "title": "Parent & Tot Craft: Dot/Button Art",
+      "date": "2026-09-24T10:30:00",
+      "endDate": "2026-09-24T11:30:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Come enjoy a fun crafting experience with your parent! All supplies will be provided. This event is designed for non-school-age children and will take place at Arts & Crafts from",
+      "category": "family"
+    },
+    {
+      "id": "eielson-indoor-field-day-2026-09-26",
+      "title": "Indoor Field Day",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Community Center",
+      "address": "Fairbanks, AK",
+      "description": "Join us on September 26 from 1–3 PM at the Community Center for Indoor Field Day, a high-energy event packed with movement, teamwork, and fun challenges. Participants will rotate through",
+      "category": "family"
+    },
+    {
+      "id": "eielson-airmen-alley-night-2026-09-28",
+      "title": "Airmen Alley Night",
+      "date": "2026-09-28T16:00:00",
+      "endDate": "2026-09-28T19:00:00",
+      "location": "Bowling Center",
+      "address": "Fairbanks, AK",
+      "description": "Airmen Alley Night happens the last Monday of each month. Single Airmen can enjoy dedicated lanes, two games of bowling, shoe rental, and a meal from our limited menu, all",
+      "category": "recreation"
+    },
+    {
+      "id": "eielson-month-of-magic-dragon-s-hoard-market-2026-10-01",
+      "title": "Month of Magic: Dragon’s Hoard Market",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Library",
+      "address": "Fairbanks, AK",
+      "description": "Visit the Dragon's Hoard Market at the Library all month long and discover magical crafts, activities, and surprises during your visit. Browse the market throughout the month and enjoy fun",
+      "category": "recreation"
+    },
+    {
+      "id": "eielson-month-of-magic-magical-creature-silhouette-paint-2026-10",
+      "title": "Month of Magic: Magical Creature Silhouette Paint Night",
+      "date": "2026-10-01T16:00:00",
+      "endDate": "2026-10-01T17:30:00",
+      "location": "Library",
+      "address": "Fairbanks, AK",
+      "description": "Let your creativity soar at the Library during our Magical Creature Silhouette Painting activity on October 1 from 4–5:30 PM. Drop in and create a colorful silhouette painting featuring your",
+      "category": "entertainment"
+    },
+    {
+      "id": "eielson-make-your-own-halloween-tie-blanket-2026-10-03",
+      "title": "Make Your Own Halloween Tie Blanket",
+      "date": "2026-10-03T10:30:00",
+      "endDate": "2026-10-03T12:30:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Come create your very own Halloween tie blanket! All supplies are included, so just bring your creativity and enjoy a fun crafting experience. This event will be held October 3",
+      "category": "holiday"
+    },
+    {
+      "id": "eielson-smash-bro-tournament-2026-10-03",
+      "title": "Smash Bro Tournament",
+      "date": "2026-10-03T13:00:00",
+      "endDate": "2026-10-03T15:00:00",
+      "location": "Community Center",
+      "address": "Fairbanks, AK",
+      "description": "Join us on October 3 at the Community Center for a FREE Nintendo Smash Bros Tournament open to ages 7 and up. Whether you're a seasoned competitor or just enjoy",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Eielson AFB Visitor Center",

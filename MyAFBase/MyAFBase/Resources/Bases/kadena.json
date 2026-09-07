@@ -7,7 +7,7 @@
   "wing": "18 WG",
   "latitude": 26.3517,
   "longitude": 127.7692,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "kadena-notif-real-id",
@@ -204,7 +204,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "kadena-kids-fishing-camp-2026-09-07",
+      "title": "Kids Fishing Camp",
+      "date": "2026-09-07T00:00:00",
+      "endDate": "2026-09-07T23:59:59",
+      "location": "Kadena Marina",
+      "address": "Kadena Marina, Bldg #3500, Kadena AB, Okinawa 904-0000 Japan",
+      "description": "Monday, September 7 | 10 a.m. $25 | ages 4 and over This labor day, learn the basics, enjoy the outdoors, and build confidence on the water!",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-power-hour-2026-09-07",
+      "title": "Power Hour",
+      "date": "2026-09-07T14:00:00",
+      "endDate": "2026-09-07T15:00:00",
+      "location": "Kadena AB, Okinawa, Japan",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "Monday – Friday • 2 – 3 pm As the new school year begins, be sure to use the Teen Center’s Power Hour Program! Do homework, get peer tutoring, form study groups, all while earning points for prizes such as gift cards, snack bar coupons, and games!",
+      "category": "family"
+    },
+    {
+      "id": "kadena-salsa-night-2026-09-07",
+      "title": "Salsa Night",
+      "date": "2026-09-07T19:00:00",
+      "endDate": "2026-09-07T22:00:00",
+      "location": "The Rocker Club, Building #622",
+      "address": "The Rocker Club, Building #622, Kadena AB, 904-0000",
+      "description": "Every Monday Night Turn up the heat and let the rhythm move you at Salsa Night at The Rocker Club ! Join us for an evening of vibrant Latin beats, energetic dancing, and an electric atmosphere that will keep you on your feet all night long. Whether you’re a seasoned dancer or just want to learn a few moves, everyone is welcome on the dance floor. Feel the music, bring your friends, meet new people",
+      "category": "community"
+    },
+    {
+      "id": "kadena-3-day-tap-workshop-2026-09-08",
+      "title": "3-Day TAP Workshop",
+      "date": "2026-09-08T08:00:00",
+      "endDate": "2026-09-10T16:30:00",
+      "location": "Kadena AB, Okinawa, Japan",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "September 8 – 10 | 8 a.m. – 4:30 p.m. Education Center, Bldg. 59, Room 115 Step 3 of the congressionally mandated Transition Assistance Program (TAP) for service members preparing for separation or retirement from the military.",
+      "category": "education"
+    },
+    {
+      "id": "kadena-smartphone-trivia-2026-09-08",
+      "title": "Smartphone Trivia",
+      "date": "2026-09-08T19:00:00",
+      "endDate": "2026-09-08T22:00:00",
+      "location": "Kadena AB, Okinawa, Japan",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "Free for members | $5 per nonmember Teams of two | minimum of eight participants Think you’ve got what it takes to be the trivia champ? Put your knowledge to the test at Smartphone Trivia Night at The Rocker Club ! Gather your friends, bring your phone, and get ready for a fast-paced night of fun questions, friendly competition, and plenty of laughs.",
+      "category": "entertainment"
+    },
+    {
+      "id": "kadena-stem-science-2026-09-10",
+      "title": "STEM Science",
+      "date": "2026-09-10T16:00:00",
+      "endDate": "2026-09-10T17:00:00",
+      "location": "Schilling Community Center, Building #455",
+      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
+      "description": "Thursdays • 4 – 5 pm • $40 per month 1st & 3rd Thursday • Ages 6 – 9 2nd & 4th Thursday • Ages 10 – 12 Registration required.",
+      "category": "education"
+    },
+    {
+      "id": "kadena-karaoke-2026-09-10",
+      "title": "Karaoke",
+      "date": "2026-09-10T19:00:00",
+      "endDate": "2026-09-10T22:00:00",
+      "location": "The Rocker Club, Building #622",
+      "address": "The Rocker Club, Building #622, Kadena AB, 904-0000",
+      "description": "Step up to the mic and show us what you’ve got at Karaoke Night at The Rocker Club ! Whether you’re a powerhouse vocalist, a shower singer, or just here for the fun, it’s your time to shine. Sing your heart out at Karaoke Night at the Rocker Club on Kadena Air Base, where great music, a lively crowd, and a wide song selection create an unforgettable night of entertainment. Whether you’re a seasone",
+      "category": "entertainment"
+    },
+    {
+      "id": "kadena-911-memorial-run-2026-09-11",
+      "title": "911 Memorial Run",
+      "date": "2026-09-11T14:00:00",
+      "endDate": "2026-09-11T16:00:00",
+      "location": "Kadena AB, Okinawa, Japan",
+      "address": "Kadena AB, Okinawa, Japan",
+      "description": "25th Anniversary Remember. Honor. Run Together. Friday, September 11 | 4 – 6 p.m. Marek Park, Kadena Air Base EVENTS & DIVISIONS 5K Memorial Run | Adult & High School Division 1-Mile Hero Walk / Run | Youth Division SPECIAL FEATURES First Responder & Military Vehicle Displays “Never Forget” Memorial Wall & Flag Tribute Free Water & Snacks Provided Wear: Red, White and Blue or Unit/Department Shirt",
+      "category": "fitness"
+    },
+    {
+      "id": "kadena-mat-about-fall-diy-painted-doormat-worksh",
+      "title": "Mat About Fall: DIY Painted Doormat Workshop",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Schilling Community Center, Building #455",
+      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
+      "description": "Friday, September 11 | 6 – 8 p.m. Schilling Ballroom Register via WebTrac – spaces limited! No experience is necessary; all supplies and materials will be provided. Choose from a variety of seasonal stencils and designs, or create your own unique masterpiece. Bring your creativity and leave with a beautiful handmade decoration perfect for your front porch. $10 per person | pre registration require",
+      "category": "education"
+    },
+    {
+      "id": "kadena-club-championship-2026-09-12",
+      "title": "Club Championship",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-13T23:59:59",
+      "location": "Banyan Tree Golf Course",
+      "address": "Banyan Tree Golf Course, Bldg #12, Kadena AB, Okinawa 904-0000 Japan",
+      "description": "Kadena Cup Series September 12 – 13 Format: Individual Stroke Play Tee Times: Assigned Tournament Fee: $120 Plus green and cart fees for both days Sign-Up Deadline: Monday, September 7 Compete. Challenge Yourself. Claim the Cup.",
+      "category": "community"
+    },
+    {
+      "id": "kadena-family-bingo-2026-09-16",
+      "title": "Family Bingo",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "Schilling Community Center, Building #455",
+      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
+      "description": "Wednesday, September 16 | 5 – 7 p.m. Games begin | 6 p.m. Schilling Ballroom Theme | Super hero Join Team Schilling for this month’s Family Bingo! $10 per player | expert level (eligible for adult prize) $5 per player | beginner level (eligible for child prize) Registration opens via WebTrac on September 1 at 10a.m. Pre-registered individuals may purchase additional cards on the day of the program",
+      "category": "entertainment"
+    },
+    {
+      "id": "kadena-stem-science-2026-09-17",
+      "title": "STEM Science",
+      "date": "2026-09-17T16:00:00",
+      "endDate": "2026-09-17T17:00:00",
+      "location": "Schilling Community Center, Building #455",
+      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
+      "description": "Thursdays • 4 – 5 pm • $40 per month 1st & 3rd Thursday • Ages 6 – 9 2nd & 4th Thursday • Ages 10 – 12 Registration required.",
+      "category": "education"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Kadena AB Visitor Center",

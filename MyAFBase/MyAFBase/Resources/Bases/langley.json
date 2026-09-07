@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -288,6 +288,66 @@
   ],
   "events": [
     {
+      "id": "langley-breakfast-burrito-mondays-2026-09-07",
+      "title": "Breakfast Burrito Mondays",
+      "date": "2026-09-07T07:30:00",
+      "endDate": "2026-09-07T09:30:00",
+      "location": "JBLE-Langley, Hampton, VA",
+      "address": "JBLE-Langley, Hampton, VA",
+      "description": "Breakfast at the Bistro IS BACK EVERY MONDAY! 7:30 to 9:30 AM! New bulk pre-order option! Pay & order in-person at the Bistro by 10 AM Friday & pick up Monday morning.",
+      "category": "community"
+    },
+    {
+      "id": "langley-outdoor-rec-summer-rentals-2026-09-07",
+      "title": "Outdoor Rec Summer Rentals",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-07T17:00:00",
+      "location": "Langley Outdoor Recreation",
+      "address": "77 Holly Street, 23665",
+      "description": "June 24 through September 18. Cost: $45/day Kayaks. paddleboards and canoes.",
+      "category": "outdoor"
+    },
+    {
+      "id": "langley-jiu-jitsu-self-defense-classes-2026-09-0",
+      "title": "Jiu Jitsu Self Defense Classes",
+      "date": "2026-09-07T17:00:00",
+      "endDate": "2026-09-07T18:00:00",
+      "location": "ACC Fitness Center",
+      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
+      "description": "Get ready to roll! Learn effective self-defense techniques, enhance physical fitness & mental resilience, develop discipline, focus & confidence, and connect with your community in a supportive environment! Instructor: Zachary Darroch – IBJJF Black Belt with The Academy/Honey Badger BJJ Las Vegas, NV (certification #79742) Free and open to all with base access!",
+      "category": "fitness"
+    },
+    {
+      "id": "langley-dog-days-at-eaglewood-2026-09-08",
+      "title": "Dog Days at Eaglewood",
+      "date": "2026-09-08T08:00:00",
+      "endDate": "2026-09-08T17:00:00",
+      "location": "Eaglewood Golf Course",
+      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
+      "description": "Banish sad puppy eyes today! Enjoy a round with your best friend when you bring your pooch along.",
+      "category": "community"
+    },
+    {
+      "id": "langley-storytime-2-time-slots-2026-09-09",
+      "title": "Storytime (2 time slots)",
+      "date": "2026-09-09T09:30:00",
+      "endDate": "2026-09-09T12:00:00",
+      "location": "Bateman Library",
+      "address": "42 Ash Ave, 23665",
+      "description": "Take a journey through the alphabet at storytime with stories, crafts, and activities. Storytime is at 9:30 and 11 am. Both times arethe same storytime, so choose the time that works best for your family!",
+      "category": "family"
+    },
+    {
+      "id": "langley-story-time-2026-09-09",
+      "title": "Story Time",
+      "date": "2026-09-09T10:30:00",
+      "endDate": "2026-09-09T12:30:00",
+      "location": "Bateman Library",
+      "address": "42 Ash Ave, 23665",
+      "description": "Join us Wednesdays at 10:30 AM and 11 AM for stories, songs, and activities with new friends at the Bateman Library. September theme is Alphabet, and both sessions are identical. Just pick the time that works best for you!",
+      "category": "family"
+    },
+    {
       "id": "langley-cardboard-regatta-2026-09-12",
       "title": "JBLE Cardboard Regatta",
       "date": "2026-09-12",
@@ -296,6 +356,16 @@
       "address": "2124 Pershing Ave, Fort Eustis, VA",
       "description": "Cardboard Regatta at Fort Eustis outdoor pool; 733 FSS / jble-eustismwr.com (JBLE Fort Eustis MWR).",
       "category": "community"
+    },
+    {
+      "id": "langley-cosmic-bowling-2026-09-12",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-12T19:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Langley Lanes Bowling Center",
+      "address": "75 Nealy Ave, 23665",
+      "description": "Every Saturday!* Cost: $10 kids 13 & under | $13 ages 13+ Shoe rentals are included in the price. *Excludes special events.",
+      "category": "family"
     },
     {
       "id": "langley-serving-heroes-2026-09-16",
@@ -308,6 +378,26 @@
       "category": "community"
     },
     {
+      "id": "langley-bass-fishing-tournament-2026-09-19",
+      "title": "Bass Fishing Tournament",
+      "date": "2026-09-19T05:30:00",
+      "endDate": "2026-09-19T15:00:00",
+      "location": "Bethel Park",
+      "address": "123 Saunders Rd, Pavillion 4, Langley AFB, 23666",
+      "description": "Fishing Tournament hours: 6 am to 3 pm. Sign-in at 5:30 am | weigh-in at 3 pm. Tournaments are subject to change due to scheduling conflicts or weather. Must be 16 years of age or older to enter, must be 18 years of age or older to rent a boat.",
+      "category": "outdoor"
+    },
+    {
+      "id": "langley-suicide-prevention-awareness-5k-run-walk",
+      "title": "Suicide Prevention Awareness 5K Run/Walk",
+      "date": "2026-09-24T07:30:00",
+      "endDate": "2026-09-24T11:00:00",
+      "location": "ACC Fitness Center",
+      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
+      "description": "Third annual 5K Run/Walk! Run for hope, walk for life. Free for all! Free t-shirt for first 100 signed up! Live DJ, food trucks, and helping agencies on site. To register: https://www.signupgenius.com/go/10C084CA4AF22A3F5CE9-63582008-3rdannualsuicide?useFullSite=true#/ Location: ACC Fitness Trail.",
+      "category": "fitness"
+    },
+    {
       "id": "langley-oktoberfest-2026-09-25",
       "title": "Fort Eustis Oktoberfest 2026",
       "date": "2026-09-25",
@@ -316,6 +406,26 @@
       "address": "950 Jefferson Ave, Fort Eustis, VA",
       "description": "Oktoberfest community event; jble-eustismwr.com events tag listing.",
       "category": "community"
+    },
+    {
+      "id": "langley-jble-commander-s-cup-tournament-2026-09",
+      "title": "JBLE Commander’s Cup Tournament",
+      "date": "2026-09-25T08:00:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "Eaglewood Golf Course",
+      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
+      "description": "The four-person Captain Choice format includes Golf Fees, Cart, range balls, goodie bag, and lunch. Prices: $40 E4 & below | $50 AGF memers | $60 E5 & above, retirees & DoD Civilians | $70 guests To register: https://manager.gallusgolf.com/DownloadApp/1469/eaglewood-golf-course",
+      "category": "recreation"
+    },
+    {
+      "id": "langley-bingo-night-2026-09-25",
+      "title": "Bingo Night",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T19:00:00",
+      "location": "Riverview Event Center",
+      "address": "128 Benedict Ave",
+      "description": "Card sales start at 5:30 PM* Games start at 6 PM Children must be supervised by an adult Located at Nosedive Lounge *Cash only!",
+      "category": "entertainment"
     },
     {
       "id": "langley-bus-national-mall-2026-09-26",
@@ -336,6 +446,16 @@
       "address": "",
       "description": "Fall ITT bus trip to Luray Caverns; 733 FSS bus trips series.",
       "category": "community"
+    },
+    {
+      "id": "langley-fishing-the-kings-street-bridge-lures-st",
+      "title": "Fishing The Kings Street Bridge: Lures & Stripes",
+      "date": "2026-10-24T12:00:00",
+      "endDate": "2026-10-24T18:00:00",
+      "location": "Community Programs",
+      "address": "128 Benedict Ave, 23665",
+      "description": "Free and open to all with base access!",
+      "category": "outdoor"
     },
     {
       "id": "langley-costume-run-2026-10-30",
