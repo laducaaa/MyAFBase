@@ -7,7 +7,7 @@
   "wing": "28 BW",
   "latitude": 44.145,
   "longitude": -103.1036,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "ellsworth-notif-real-id",
@@ -253,7 +253,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "ellsworth-babies-budgets-2026-09-08",
+      "title": "Babies & Budgets",
+      "date": "2026-09-08T13:00:00",
+      "endDate": "2026-09-08T14:30:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "22 December | 30 March | 16 June | 8 September 1:00 PM to 2:30 PM This financial readiness class will equip Airmen with the basic knowledge and skills they",
+      "category": "education"
+    },
+    {
+      "id": "ellsworth-camper-101-2026-09-09",
+      "title": "Camper 101",
+      "date": "2026-09-09T10:00:00",
+      "endDate": "2026-09-09T11:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "9 September | 10:00 AM 7 October | 10:00 AM Learn everything you need to know about using a camper this fall so you will be ready in the summer",
+      "category": "community"
+    },
+    {
+      "id": "ellsworth-beyond-the-books-kid-s-book-club-2026-09-11",
+      "title": "Beyond the Books Kid’s Book Club",
+      "date": "2026-09-11T10:30:00",
+      "endDate": "2026-09-11T11:30:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "2nd Friday of the month Mornings at 10:30 AM Afternoons at 3:30 PM Begins 11 Sept 26 Join us at Holbrook Library to get the reading list and get a",
+      "category": "education"
+    },
+    {
+      "id": "ellsworth-kids-club-at-holbrook-library-2026-09-12",
+      "title": "Kids Club at Holbrook Library",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T11:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Saturdays 10:00 AM to 11:00 AM Ages 4-12 Join us every Saturday at Holbrook Library for activities, crafts, and more! For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "recreation"
+    },
+    {
+      "id": "ellsworth-no-pressure-book-club-2026-09-15",
+      "title": "No Pressure Book Club",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T18:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "15 September 5:00 PM to 6:00 PM Meat up and discuss your favorite books, genres, and more! For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "education"
+    },
+    {
+      "id": "ellsworth-creative-kids-art-design-your-own-hat-2026-09-18",
+      "title": "Creative Kids Art: Design Your Own Hat",
+      "date": "2026-09-18T10:00:00",
+      "endDate": "2026-09-18T12:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "18 Sept 10:00 AM to 12:00 PM Students will paint and embellish their own trucker hat. FREE Children must be accompanied by an adult. Must sign-up in advance, no walk-ins.",
+      "category": "fitness"
+    },
+    {
+      "id": "ellsworth-kids-club-at-holbrook-library-2026-09-19",
+      "title": "Kids Club at Holbrook Library",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T11:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Saturdays 10:00 AM to 11:00 AM Ages 4-12 Join us every Saturday at Holbrook Library for activities, crafts, and more! For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "recreation"
+    },
+    {
+      "id": "ellsworth-book-bedazzling-2026-09-19",
+      "title": "Book Bedazzling",
+      "date": "2026-09-19T11:30:00",
+      "endDate": "2026-09-19T12:45:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "19 September 11:30 AM to 12:45 PM Decorate a book cover with sparkling gems! Bring your own favorite book or use one of our donated titles. FREE adult level class.",
+      "category": "education"
+    },
+    {
+      "id": "ellsworth-perler-bead-jewelry-2026-09-22",
+      "title": "Perler Bead Jewelry",
+      "date": "2026-09-22T15:30:00",
+      "endDate": "2026-09-22T16:30:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "22 September 3:30 PM Ages 13+ Have your teen join us at Holbrook Library to learn how to make jewelry from Perler beads. Jewelry will include necklaces, bracelets, and earrings.",
+      "category": "fitness"
+    },
+    {
+      "id": "ellsworth-photography-club-at-arts-crafts-2026-09-23",
+      "title": "Photography Club at Arts & Crafts",
+      "date": "2026-09-23T17:00:00",
+      "endDate": "2026-09-23T19:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "5:00 PM to 7:00 PM Join us once a month for a photography meet up. Usually the 4th Thursday of each month, but days may shift when a group adventure",
+      "category": "recreation"
+    },
+    {
+      "id": "ellsworth-lackadaisy-speakeasy-murder-mystery-2026-09-25",
+      "title": "Lackadaisy Speakeasy Murder Mystery",
+      "date": "2026-09-25T16:30:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "25 September 4:30 PM to 8:00 PM $15 includes dinner and live show Dress up in 1920's attire or Lackadaisy themed outfits. Doors open at 4:30 PM, with Seraphim Theatrical",
+      "category": "community"
+    },
+    {
+      "id": "ellsworth-raider-reset-2026-09-26",
+      "title": "Raider Reset",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T12:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "26 September 8:00 AM to 12:00 PM Enjoy a FREE weekend of child care for stressed active duty families! This is base on a first come, first serve basis and",
+      "category": "family"
+    },
+    {
+      "id": "ellsworth-resilient-raiders-free-bowling-2026-09-26",
+      "title": "Resilient Raiders — FREE Bowling",
+      "date": "2026-09-26T16:00:00",
+      "endDate": "2026-09-26T18:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "FREE Bowling for Back-to-School! 26 September 4:00 PM to 6:00 PM Join us for FREE bowling to meet new friends and have some fun! For more information, contact the School",
+      "category": "recreation"
+    },
+    {
+      "id": "ellsworth-va-services-day-2026-09-29",
+      "title": "VA Services Day",
+      "date": "2026-09-29T08:00:00",
+      "endDate": "2026-09-29T12:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "31 March | 28 April | 26 May | 30 June | 21 July | 31 August | 29 September | 02 November | 01 December 8:00 AM to 12:00",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Liberty Gate)",

@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -288,6 +288,106 @@
   ],
   "events": [
     {
+      "id": "hurlburt-monday-blues-2026-09-07",
+      "title": "Monday Blues",
+      "date": "2026-09-07T09:00:00",
+      "endDate": "2026-09-07T15:00:00",
+      "location": "Hurlburt Lanes",
+      "address": "442 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "Bowl away those Monday Blues at Hurlburt Lanes! Every Monday 9am – 3pm All games – $3 All shoe rentals – $2.50 Questions? Contact Hurlburt Lanes at (850) 884-6941",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-kid-s-boxing-2026-09-08",
+      "title": "Kid’s Boxing",
+      "date": "2026-09-08T16:00:00",
+      "endDate": "2026-09-08T17:30:00",
+      "location": "Aderholt Fitness Center",
+      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
+      "description": "Give your child the chance to build confidence, discipline, and strength with our Kids’ Boxing program! Designed for ages 5-13 , this class focuses on fundamental boxing techniques, fitness, and fun in a safe and supportive environment. 📅 Tuesdays & Thursdays | 4:00 – 5:30 PM 💲 $99/month per person 📍 Aderholt Fitness Center For more information or to sign up, call Aderholt at 850-884-6884 . Let’s ",
+      "category": "fitness"
+    },
+    {
+      "id": "hurlburt-taco-tuesdays-at-the-hooch-2026-09-08",
+      "title": "Taco Tuesdays at the Hooch",
+      "date": "2026-09-08T16:30:00",
+      "endDate": "2026-09-08T19:30:00",
+      "location": "The Hooch Bar & Grill",
+      "address": "107 Kissam St, Hurlburt Field, FL, 32544",
+      "description": "Join us every Tuesday at the Hooch for tacos! $3 Beef or Chicken Tacos $4 Chef’s Special Tacos $4 House Margaritas Bonus: Club members only get $2 off their food orders! Not a club member? Sign up here!",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-competition-boxing-101-2026-09-08",
+      "title": "Competition Boxing 101",
+      "date": "2026-09-08T17:30:00",
+      "endDate": "2026-09-08T20:00:00",
+      "location": "Aderholt Fitness Center",
+      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
+      "description": "Ready to step into the ring? Join our Competition Boxing 101 program and train like a fighter! This program is designed for all skill levels, focusing on technique, conditioning, and sparring fundamentals to prepare you for competition. 📅 Tuesdays & Thursdays | 5:30 – 8:00 PM 💲 $60/month per person 📍 Aderholt Fitness Center For more information or to sign up, call Aderholt at 850-884-6884 . Don’t ",
+      "category": "fitness"
+    },
+    {
+      "id": "hurlburt-prime-rib-night-at-the-hooch-2026-09-09",
+      "title": "Prime Rib Night at The Hooch",
+      "date": "2026-09-09T16:30:00",
+      "endDate": "2026-09-09T19:30:00",
+      "location": "The Hooch Bar & Grill",
+      "address": "107 Kissam St, Hurlburt Field, FL, 32544",
+      "description": "Every Wednesday, stop by The Hooch for Prime Rib Night 8oz. Prime Rib – $25 | 12oz. Prime Rib – $32 while supplies last Club Members receive $2 off purchases of $10 or more! Not a member? Sign up here! Meal includes Slow Roasted Prime Rib Baked Potato House Salad Roll Aujus Questions? Call The Soundside at 850-884-7507",
+      "category": "community"
+    },
+    {
+      "id": "hurlburt-gator-lakes-pizza-scramble-2026-09-09",
+      "title": "Gator Lakes Pizza Scramble",
+      "date": "2026-09-09T17:00:00",
+      "endDate": "2026-09-09T20:00:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "🍕Enjoy a 2-person scramble format golf with Peoria handicap every Wednesday, starting 15 April!🍕 5 PM shotgun start 9 holes Must register each week by calling (850) 881-2251 or visiting the Pro Shop Diamond AGF – $17 Gold AGF – $23 Non-AGF – $33 Cost includes 9 holes, green, and cart fees. Prizes, pizza, and a drink are provided. No walkers allowed during play. This event is open to all DoD Cardho",
+      "category": "recreation"
+    },
+    {
+      "id": "hurlburt-the-heavy-the-hopeful-5k-2026-09-10",
+      "title": "The Heavy & The Hopeful 5K",
+      "date": "2026-09-10T07:00:00",
+      "endDate": "2026-09-10T21:00:00",
+      "location": "Hurlburt Field, FL",
+      "address": "Hurlburt Field, FL",
+      "description": "The Heavy & The Hopeful 5K Run/Walk “We Carry It Together.” 💙 Join us for The Heavy & The Hopeful 5K Run/Walk in recognition of World Suicide Prevention Day . Hosted by the Hurlburt Field Integrated Resilience Office , this meaningful event is an opportunity to come together, acknowledge life’s challenges, and carry a message of hope and support for one another. 📅 Thursday, 10 September ⏰ 7:00 AM ",
+      "category": "fitness"
+    },
+    {
+      "id": "hurlburt-storytime-2026-09-10",
+      "title": "Storytime",
+      "date": "2026-09-10T10:00:00",
+      "endDate": "2026-09-10T11:00:00",
+      "location": "Hurlburt Field Library",
+      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "Come to the Library and enjoy books, crafts and surprises! Held every Thursday 10-11am. Recommended for 3-6yrs! Questions? Contact (850) 884-6266 for more details.",
+      "category": "family"
+    },
+    {
+      "id": "hurlburt-golffest-celebration-2026-09-12",
+      "title": "GolfFest Celebration",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T12:00:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "Celebrate all things golf at GolfFest Celebration ! ⛳🎉 Whether you’re competing in the tournament or just stopping by for the festivities, there’s something for every golfer to enjoy at Gator Lakes Golf Course. 📅 Saturday, 12 September 📍 Gator Lakes Golf Course 🏌️ Pin Seeker Golf Tournament ⏰ 8:00 AM Shotgun Start Compete in an exciting 2-Person Best Ball tournament played across 18 Par 3 holes us",
+      "category": "recreation"
+    },
+    {
+      "id": "hurlburt-gator-lakes-pizza-scramble-2026-09-16",
+      "title": "Gator Lakes Pizza Scramble",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "🍕Enjoy a 2-person scramble format golf with Peoria handicap every Wednesday, starting 15 April!🍕 5 PM shotgun start 9 holes Must register each week by calling (850) 881-2251 or visiting the Pro Shop Diamond AGF – $17 Gold AGF – $23 Non-AGF – $33 Cost includes 9 holes, green, and cart fees. Prizes, pizza, and a drink are provided. No walkers allowed during play. This event is open to all DoD Cardho",
+      "category": "recreation"
+    },
+    {
       "id": "hurlburt-deep-sea-fishing-2026-09-19",
       "title": "Deep-Sea Fishing",
       "date": "2026-09-19",
@@ -306,6 +406,16 @@
       "address": "443 Cody Ave, Hurlburt Field, FL 32544",
       "description": "Pool party with pets (vaccine/tag rules); myhurlburt.com.",
       "category": "community"
+    },
+    {
+      "id": "hurlburt-bingo-at-the-club-2026-09-25",
+      "title": "Bingo at The Club",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "The Soundside",
+      "address": "107 Kissam St, Bldg 90918, Hurlburt Field, Florida, 32544",
+      "description": "✨Bingo at The Club✨ 🗓 Friday, 25 September ⏰ Doors open 5 PM | Bingo starts 6 PM 📍 The Soundside – 107 Kissam St. 🪙 $30 for pre-registration entry & $40 after 18 September Test your luck with Bingo at The Club! Entry fee includes admission for one person, light snacks, and two books (one additional book for club members). Food and beverages available for purchase. No outside food or beverages auth",
+      "category": "entertainment"
     },
     {
       "id": "hurlburt-nerf-wars-2026-09-28",

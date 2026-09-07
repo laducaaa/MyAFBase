@@ -7,7 +7,7 @@
   "wing": "52 FW",
   "latitude": 49.9727,
   "longitude": 6.6925,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "spangdahlem-notif-real-id",
@@ -193,7 +193,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "spangdahlem-via-ferrata-neuerburg-2026-09-12",
+      "title": "Via Ferrata Neuerburg",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-12T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "<p>Sept 12, 2026: Via Ferrata Neuerburg! (Germany) Price:$45.00 (Includes: Transportation, Rental Gear, Guide) The circular Neuerburg Via Ferrata starts at the market square and connects hiking paths with six exciting climbing sections on local slate cliffs . The absolute highlight is ascending directly alongside the massive Neuerburg town coat of arms, which rewards you […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-bad-duerkheimer-wurstmarkt-2026-09-12",
+      "title": "Bad Duerkheimer Wurstmarkt",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T21:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>🍷🎡 The World’s Biggest Wine Festival Awaits! Get ready for a full day of wine, fun, and unforgettable vibes at the legendary Wurstmarkt in Bad Duerkheim. This isn’t just a festival—it’s a full-blown celebration where tradition meets thrills, the Riesling flows freely, and the carnival rides light up the town. 🌟 What to Expect Epic […]</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-fall-festival-2026-09-18",
+      "title": "Fall Festival",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Sweater Weather, Shopping, and S’more-worthy Memories Await!</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-spooky-trivia-the-brickhouse-2026-09-24",
+      "title": "Spooky Trivia @ The Brickhouse",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Put your spooky knowledge to the test—it\\'s free to play and full of frightfully good fun!</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "spangdahlem-spangdahlem-fall-bazaar-2026-09-25",
+      "title": "Spangdahlem Fall Bazaar",
+      "date": "2026-09-25T00:00:00",
+      "endDate": "2026-09-27T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "<p>Fall finds, local treasures, and seasonal surprises await!</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-gr-ne-h-lle-hike-2026-09-26",
+      "title": "Grüne Hölle Hike",
+      "date": "2026-09-26T00:00:00",
+      "endDate": "2026-09-26T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "<p>Sept 26,2026: Grüne Hölle Hike Price:$20 (Includes: Transportation, Guide) The \"Green Hell\" circular route begins near the border town of Bollendorf and winds through the mystical, moss-covered rock forests of the South Eifel. The absolute highlight is navigating the narrow, shaded sandstone chasms of the Grüne Hölle gorge, where towering, water-soaked stone walls block out […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-manderscheid-to-himmerod-abbey-hike-2026-10-03",
+      "title": "Manderscheid to Himmerod Abbey Hike",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "<p>3 Oct 2026 Manderscheid to Himmerod Abbey Hike Join ODR for a day of challenging hiking as we walk from the Manderscheid Castles to Himmerod Abbey. The trip begins early morning with a shuttle to the town of Manderscheid. From there we will check out the Upper Castle and then begin our hike to the […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-hike-spa-2026-10-10",
+      "title": "Hike & SPA",
+      "date": "2026-10-10T08:30:00",
+      "endDate": "2026-10-10T18:45:00",
+      "location": "",
+      "address": "",
+      "description": "<p>🥾 ♨️ Roman Spas & Rebel Trails ! Ready to escape the everyday? This trip combines scenic hiking and pure relaxation in the beautiful Bad Bertrich region—home to Germany’s one-and-only Glauber’s Thermal Salt Spring. It’s the perfect mix of adventure and wellness. 🌿 🏰 🥾 Hiking Adventure & Historic Trails Start your day with a […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-pumpkin-festival-ludwigsburg-2026-10-24",
+      "title": "Pumpkin Festival Ludwigsburg",
+      "date": "2026-10-24T06:00:00",
+      "endDate": "2026-10-24T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>🎃 ✨ The World’s Biggest Pumpkin Festival Awaits! ✨ 🎃 Forget basic pumpkin patches—this is the largest pumpkin festival in the world. Set against the stunning backdrop of a Baroque palace, over 450,000 pumpkins transform the grounds into a colorful autumn wonderland. 🎃 🎬 🍂 Pumpkin Art, Games & Fall Vibes Each year features a […]</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-scary-halloween-at-castle-satzvey-2026-10-31",
+      "title": "Scary Halloween at Castle Satzvey",
+      "date": "2026-10-31T14:00:00",
+      "endDate": "2026-10-31T22:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>🎃 🏰 👻 Enter If You Dare… Step into one of Germany’s most beautiful moated castles and experience a spine-chilling Halloween event like no other. Castle Satzvey, dating back to the 13th century, transforms into a haunted world of eerie encounters, fire shows, and unforgettable thrills. 👻 🔥 A Night of Frights & Spectacle As […]</p>\\n",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Spangdahlem AB Visitor Center",

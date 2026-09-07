@@ -7,7 +7,7 @@
   "wing": "90 MW",
   "latitude": 41.1403,
   "longitude": -104.8652,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "fe-warren-notif-real-id",
@@ -253,7 +253,128 @@
       "building": "Bldg 520"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "fe-warren-medicine-bow-peak-hike-2026-09-07",
+      "title": "Medicine Bow Peak Hike",
+      "date": "2026-09-07T00:00:00",
+      "endDate": "2026-09-07T23:59:59",
+      "location": "Outdoor Recreation",
+      "address": "110 East Plaza, FE Warren AFB, WY",
+      "description": "September 7 - leave in the morning, return in the afternoon Cost: $20 per person Includes transportation and hike.",
+      "category": "outdoor"
+    },
+    {
+      "id": "fe-warren-first-friday-social-hour-at-3-p-m-2026-09-11",
+      "title": "First Friday Social Hour at 3 p.m.",
+      "date": "2026-09-11T15:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Trail’s End Community Center & Wrangler Lounge",
+      "address": "4907 Randall Ave, Bldg 401, Warren AFB, WY, 82005",
+      "description": "September 11 Food available for purchase. First plate free for club members. Food available for purchase.",
+      "category": "community"
+    },
+    {
+      "id": "fe-warren-2nd-saturday-arts-crafts-2026-09-12",
+      "title": "2nd Saturday @ Arts & Crafts",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T14:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
+      "description": "2nd Saturday @ Arts & Crafts at Arts and Crafts Center.",
+      "category": "recreation"
+    },
+    {
+      "id": "fe-warren-oktoberfest-a-the-warren-adventure-park-2026-09-12",
+      "title": "Oktoberfest a the Warren Adventure Park",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T20:00:00",
+      "location": "Warren Adventure Park",
+      "address": "6110 Buffalo Soldier Rd., FE Warren AFB, WY, 82005",
+      "description": "September 12, 5 - 8 p.m. Cost: FREE Live music, food and drinks for sale. Activities and fun for the whole family.",
+      "category": "holiday"
+    },
+    {
+      "id": "fe-warren-open-climb-2026-09-15",
+      "title": "Open Climb",
+      "date": "2026-09-15T16:00:00",
+      "endDate": "2026-09-15T18:00:00",
+      "location": "Outdoor Recreation",
+      "address": "110 East Plaza, FE Warren AFB, WY",
+      "description": "September 15, 4 - 6 p.m. Cost: Free Come get belay certified to use our wall! Already been through our certification? Come climb with us, help set routes or meet",
+      "category": "outdoor"
+    },
+    {
+      "id": "fe-warren-happy-birthday-air-force-5k-2026-09-18",
+      "title": "Happy Birthday Air Force 5K",
+      "date": "2026-09-18T07:30:00",
+      "endDate": "2026-09-18T08:30:00",
+      "location": "Freedom Hall Fitness Center",
+      "address": "6000 Schriever Rd, FE Warren AFB, WY, 82005",
+      "description": "September 18, 7:30 a.m. Cost: Free Come out and celebrate the Air Force’s 79th birthday with us! We are hosting a run to honor our heritage and bring the community",
+      "category": "fitness"
+    },
+    {
+      "id": "fe-warren-pottery-class-sculpt-your-own-pumpkin-or-apple-m-2026",
+      "title": "Pottery Class – Sculpt Your Own Pumpkin or Apple Mug!",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
+      "description": "September 18, 5 - 8 p.m. Cost: $65 per person, ages 12 + Must sign up by September 11.",
+      "category": "recreation"
+    },
+    {
+      "id": "fe-warren-open-paintball-at-the-warren-adventure-park-2026-09-18",
+      "title": "Open Paintball at the Warren Adventure Park",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "Warren Adventure Park",
+      "address": "6110 Buffalo Soldier Rd., FE Warren AFB, WY, 82005",
+      "description": "September 18, 5 - 7 p.m. Cost: $10 Includes equipment, paint and play.",
+      "category": "outdoor"
+    },
+    {
+      "id": "fe-warren-talk-like-a-pirate-day-2026-09-19",
+      "title": "Talk Like a Pirate Day",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Warren Lanes Bowling Center",
+      "address": "6004 10th Cavalry, Warren AFB, WY, 82005",
+      "description": "September 19 Talk like a Pirate, win an eye patch! Aaargh!",
+      "category": "family"
+    },
+    {
+      "id": "fe-warren-stained-glass-ghosts-beginner-friendly-2026-09-19",
+      "title": "Stained Glass Ghosts – Beginner Friendly!",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T15:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
+      "description": "September 19, 10 a.m. - 3 p.m. Cost: $50 per person, ages 12 + Must sign up by September 11.",
+      "category": "recreation"
+    },
+    {
+      "id": "fe-warren-via-feratta-2026-09-20",
+      "title": "Via Feratta",
+      "date": "2026-09-20T00:00:00",
+      "endDate": "2026-09-20T23:59:59",
+      "location": "F.E. Warren AFB",
+      "address": "Cheyenne, WY",
+      "description": "September 20 Cost: $40 adult / $30 child Includes transportation to Estes Park and adventure.",
+      "category": "family"
+    },
+    {
+      "id": "fe-warren-craft-and-corks-diy-autumn-doormat-2026-09-25",
+      "title": "Craft and Corks, DIY Autumn Doormat",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T20:30:00",
+      "location": "Arts and Crafts Center",
+      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
+      "description": "September 25, 5:30 - 8:30 p.m. Cost: $45 per person - includes wine and snacks Must sign up and choose design by September 16.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

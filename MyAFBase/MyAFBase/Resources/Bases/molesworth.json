@@ -7,7 +7,7 @@
   "wing": "423 ABG",
   "latitude": 52.3794,
   "longitude": -0.405,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "molesworth-notif-real-id",
@@ -182,7 +182,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "molesworth-archery-axe-throwing-2026-09-08",
+      "title": "Archery & Axe Throwing",
+      "date": "2026-09-08T17:00:00",
+      "endDate": "2026-09-08T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Get unlimited use of our outdoor archery and axe throwing ranges for just $10 per person! Open to ages 16+.</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-pathfinders-got-talent-2026-09-09",
+      "title": "Pathfinders’ Got Talent",
+      "date": "2026-09-09T18:00:00",
+      "endDate": "2026-09-09T20:00:00",
+      "location": "RAF Alconbury Theater",
+      "address": "",
+      "description": "<p>Dust off those tap shoes, warm up those vocal cords, or start practicing that jaw-dropping party trick you’ve been saving for the right moment. Pathfinders’ Got Talent is officially here, […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "molesworth-wingman-challenge-2026-09-10",
+      "title": "Wingman Challenge",
+      "date": "2026-09-10T14:00:00",
+      "endDate": "2026-09-10T17:00:00",
+      "location": "Fitness Center",
+      "address": "Alconbury",
+      "description": "<p>Grab your partner and bring your A-game—the Wingman Challenge is here! 🏋️‍♂️🏋️‍♀️ This team competition tests speed, strength, and endurance as you and your teammate tackle a high-energy, timed workout against the clock. Whether you\\'re pacing out the runs or splitting up repetitions, teamwork is the name of the game. ⏰ Schedule of Events 1330: […]</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "molesworth-trivia-night-2026-09-10",
+      "title": "Trivia Night",
+      "date": "2026-09-10T18:00:00",
+      "endDate": "2026-09-10T19:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Get ready to put your knowledge to the test—Trivia Night is back at The Stukeley Inn in 2026! Gather your smartest (or funniest) friends and form a team of up to six players for an evening of friendly competition, great atmosphere, and plenty of laughs. 🍽 Come early for dinner! The restaurant opens at 1600, […]</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "molesworth-lake-leisure-days-2026-09-12",
+      "title": "Lake Leisure Days",
+      "date": "2026-09-12T09:00:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "Paxton Lake",
+      "address": "Haul Road, Little Paxton",
+      "description": "<p>Get ready to make a splash at Paxton Lake, where your perfect leisure day awaits! Whether you’re looking to find your sea legs with a sailing taster session for $40 […]</p>\\n",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "RAF Molesworth Visitor Center",

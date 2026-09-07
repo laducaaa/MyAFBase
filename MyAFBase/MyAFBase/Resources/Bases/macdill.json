@@ -7,7 +7,7 @@
   "wing": "6 ARW / CENTCOM / SOCOM",
   "latitude": 27.8497,
   "longitude": -82.5217,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "macdill-notif-1",
@@ -421,6 +421,126 @@
       "address": "8216 Hangar Loop Dr #298, MacDill AFB, FL 33621",
       "description": "Recurring Tue–Fri bowling happy hour; 6 FSS.",
       "category": "community"
+    },
+    {
+      "id": "macdill-pre-k-storytime-2026-09-08",
+      "title": "Pre-K Storytime",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-baby-time-at-the-library-2026-09-09",
+      "title": "Baby Time at the Library",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-slp-efmp-military-parent-workshop-2026-09-10",
+      "title": "SLP & EFMP Military Parent Workshop",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-take-home-craft-2026-09-11",
+      "title": "Take Home Craft",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "macdill-trivia-for-all-2026-09-12",
+      "title": "Trivia for All!",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "macdill-air-force-birthday-3k-5k-run-walk-2026-09-17",
+      "title": "Air Force Birthday 3K/5K Run/Walk",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "macdill-craft-club-macdill-library-2026-09-17",
+      "title": "Craft Club @ MacDill Library",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "macdill-sports-spectacular-september-kids-night-2026-09-18",
+      "title": "Sports Spectacular September Kids Night",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-air-force-birthday-golf-tournament-2026-09-19",
+      "title": "Air Force Birthday Golf Tournament",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "macdill-monte-carlo-bowling-game-night-2026-09-25",
+      "title": "Monte Carlo Bowling Game Night",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "community"
+    },
+    {
+      "id": "macdill-library-fall-festival-2026-09-26",
+      "title": "Library Fall Festival!",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "macdill-efmp-wellness-yoga-2026-10-01",
+      "title": "EFMP: Wellness Yoga",
+      "date": "2026-10-01",
+      "endDate": "2026-10-01",
+      "location": "MacDill AFB",
+      "address": "Tampa, FL",
+      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
+      "category": "family"
     }
   ],
   "newcomers": {

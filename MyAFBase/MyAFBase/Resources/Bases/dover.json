@@ -7,7 +7,7 @@
   "wing": "436 AW",
   "latitude": 39.1295,
   "longitude": -75.466,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "dover-notif-real-id",
@@ -253,7 +253,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "dover-summer-pool-paw-ty-2026-09-07",
+      "title": "Summer Pool Paw-Ty",
+      "date": "2026-09-07T12:00:00",
+      "endDate": "2026-09-07T17:00:00",
+      "location": "Dover AFB Oasis Pool",
+      "address": "841 Circle Drive, Dover, DE, 19901",
+      "description": "Join ODR for one final doggy paddle before the Oasis Pool closes for the season! Pets must be friendly and kept under control. Owner is responsible for pet's behavior at",
+      "category": "outdoor"
+    },
+    {
+      "id": "dover-shiftwave-chair-sessions-2026-09-08",
+      "title": "Shiftwave Chair Sessions",
+      "date": "2026-09-08T08:00:00",
+      "endDate": "2026-09-11T15:30:00",
+      "location": "Dover AFB Bldg 520",
+      "address": "520 Tuskegee Street, Dover, DE, 19902",
+      "description": "Experience deep relaxation, emotional healing, and stress management with the IRO Office's revolutionary Shiftwave Chair! 30-minute sessions begin on Tuesday, Sept. 8 and run through Friday, Sept. 11. Scan the",
+      "category": "community"
+    },
+    {
+      "id": "dover-bowling-101-with-collin-2026-09-11",
+      "title": "Bowling 101 with Collin",
+      "date": "2026-09-11T16:30:00",
+      "endDate": "2026-09-11T18:00:00",
+      "location": "Dover AFB Eagle Lanes Bowling Center",
+      "address": "420 Tuskegee Boulevard, Dover, DE, 19902",
+      "description": "Learn the basics of bowling with our instructor Collin! FREE lessons with $3 shoe rental. Find your mark, improve your game, and reach your goals! Walk-ins welcomed! Every Friday from",
+      "category": "recreation"
+    },
+    {
+      "id": "dover-club-championship-2026-09-12",
+      "title": "Club Championship",
+      "date": "2026-09-12T07:30:00",
+      "endDate": "2026-09-13T16:00:00",
+      "location": "Dover AFB Eagle Creek Golf Course",
+      "address": "810 14th Street, Dover, DE, 19901",
+      "description": "Join us for Eagle Creek's two-day Club Championship this September! $55 for members, $65 for non-members. Prizes will be awarded! Call 302-677-2988 or visit the Pro Shop to sign up!",
+      "category": "recreation"
+    },
+    {
+      "id": "dover-air-space-museum-trip-2026-09-12",
+      "title": "Air & Space Museum Trip",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Smithsonian National Air and Space Museum",
+      "address": "650 Jefferson Dr SW, Washington, DC, DC, 20004",
+      "description": "Join ITT on a trip to the Air & Space Museum, celebrating 50 years of welcoming visitors to DC! $42 per person, MUST visit Bldg. 475 by September 8th to",
+      "category": "community"
+    },
+    {
+      "id": "dover-family-fishing-101-2026-09-12",
+      "title": "Family Fishing 101",
+      "date": "2026-09-12T14:00:00",
+      "endDate": "2026-09-12T16:00:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Ready to cast a line? Sign up for ODR's Family Fishing 101 adventure! Learn fundamental fishing skills; perfect for beginners! Just $15 per person: rods, reels, and bait included! MUST",
+      "category": "outdoor"
+    },
+    {
+      "id": "dover-back-to-school-climb-2026-09-15",
+      "title": "Back to School Climb",
+      "date": "2026-09-15T16:30:00",
+      "endDate": "2026-09-15T18:30:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Ring in the school year with ODR's Back to School Climb! No climbing experience needed, ages 3 and up. $10 per person. Must have legal guardian with anyone under 18.",
+      "category": "outdoor"
+    },
+    {
+      "id": "dover-heavy-minds-trivia-night-2026-09-17",
+      "title": "Heavy Minds Trivia Night",
+      "date": "2026-09-17T18:30:00",
+      "endDate": "2026-09-17T21:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Stop by The Landings for monthly Heavy Minds Trivia Nights! Entry is FREE, drafts are $2, food and drinks are available for purchase. Menu is ESM-eligible. Check the flyer for",
+      "category": "entertainment"
+    },
+    {
+      "id": "dover-intramural-football-sign-ups-deadline-2026-09-18",
+      "title": "Intramural Football Sign-Ups Deadline",
+      "date": "2026-09-18T08:00:00",
+      "endDate": "2026-09-18T15:00:00",
+      "location": "Dover AFB Fitness Center",
+      "address": "423 Chevron Avenue, Dover, DE, 19902",
+      "description": "Sign up for Intramural Football at the Fitness Center! LOIs are due on or before September 18. Coaches meeting on September 18 @ 3pm. Contact SSgt Denney for more details",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-got-your-six-buddy-ruck-2026-09-23",
+      "title": "“Got Your Six” Buddy Ruck",
+      "date": "2026-09-23T13:00:00",
+      "endDate": "2026-09-23T14:00:00",
+      "location": "Dover AFB Fitness Center",
+      "address": "423 Chevron Avenue, Dover, DE, 19902",
+      "description": "In honor of Suicide Prevention Month, IRO is hosting a base-wide Buddy Ruck! Ruck a ~5K route with a buddy, or go solo and get paired up at the event!",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-liberty-eagle-half-marathon-10k-5k-2026-09-26",
+      "title": "Liberty Eagle Half Marathon/10K/5K",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T10:00:00",
+      "location": "Eagle’s Nest Park",
+      "address": "1323 Reno St, Dover, DE, 19902",
+      "description": "Get ready for the 𝗟𝗶𝗯𝗲𝗿𝘁𝘆 𝗘𝗮𝗴𝗹𝗲 𝗛𝗮𝗹𝗳 𝗠𝗮𝗿𝗮𝘁𝗵𝗼𝗻/𝟭𝟬𝗞/𝟱𝗞: where freedom and fitness unite! Sign up at the Fitness Center, or call 302-677-3962! See flyer for pricing. Registration begins August 24.",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-learn-the-ropes-2026-09-29",
+      "title": "Learn the Ropes",
+      "date": "2026-09-29T16:30:00",
+      "endDate": "2026-09-29T18:30:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Learn the ropes with ODR! Train under experienced instructors who prioritize safety & proper technique. Earn your Belay Certification to have access to the rock wall during open hours! $12",
+      "category": "outdoor"
+    },
+    {
+      "id": "dover-varsity-basketball-tryouts-2026-09-29",
+      "title": "Varsity Basketball Tryouts",
+      "date": "2026-09-29T18:00:00",
+      "endDate": "2026-09-29T19:30:00",
+      "location": "Dover AFB Fitness Center",
+      "address": "423 Chevron Avenue, Dover, DE, 19902",
+      "description": "Try out for 2026 Varsity Basketball! Stop by the Fitness Center from Sep. 29 to Sep. 30 from 6pm to 7:30pm. Call 302-677-3962 or visit the front desk for more",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-kayak-boat-graveyard-2026-10-03",
+      "title": "Kayak Boat Graveyard",
+      "date": "2026-10-03T07:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "Mallows Bay Park",
+      "address": "1440 Wilson Landing Rd, Nanjemoy, MD, 20662",
+      "description": "Join ODR on a kayaking journey through the Mallows Bay Ghost Fleet! This ship graveyard is home to the remains of nearly 200 vessels! $64 per person, ages 14 and",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 520)",

@@ -7,7 +7,7 @@
   "wing": "99 ABW / USAFWC / 57 WG",
   "latitude": 36.2361,
   "longitude": -115.0343,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "nellis-notif-1",
@@ -304,16 +304,6 @@
   ],
   "events": [
     {
-      "id": "nellis-art-of-spices-2026-10-02",
-      "title": "Art of Spices: Spice Lab",
-      "date": "2026-10-02",
-      "endDate": "2026-10-02",
-      "location": "Community Commons",
-      "address": "4311 Washington Blvd, Bldg. 312, Nellis AFB, NV 89191",
-      "description": "Hands-on spice blending workshop at Community Commons; 99 FSS event page.",
-      "category": "community"
-    },
-    {
       "id": "nellis-911-triathlon",
       "title": "9/11 Memorial Triathlon",
       "date": "2026-09-11T10:45:00",
@@ -374,6 +364,16 @@
       "category": "recreation"
     },
     {
+      "id": "nellis-art-of-spices-2026-10-02",
+      "title": "Art of Spices: Spice Lab",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312, Nellis AFB, NV 89191",
+      "description": "Hands-on spice blending workshop at Community Commons; 99 FSS event page.",
+      "category": "community"
+    },
+    {
       "id": "nellis-red-rock-climb",
       "title": "Family Rock Climb — Red Rock",
       "date": "2026-10-03T07:00:00",
@@ -382,6 +382,36 @@
       "address": "Las Vegas, NV",
       "description": "$60; ages 3+; family-friendly climbing trip.",
       "category": "recreation"
+    },
+    {
+      "id": "nellis-haunted-neon-nights-2026-10-16",
+      "title": "Haunted Neon Nights",
+      "date": "2026-10-16",
+      "endDate": "2026-10-16",
+      "location": "Nellis AFB",
+      "address": "Las Vegas, NV",
+      "description": "Listed on the public FSS calendar.",
+      "category": "recreation"
+    },
+    {
+      "id": "nellis-lake-mead-e-biking-river-mountains-loop-2026-10-17",
+      "title": "Lake Mead E Biking – River Mountains Loop Trail",
+      "date": "2026-10-17",
+      "endDate": "2026-10-17",
+      "location": "Nellis AFB",
+      "address": "Las Vegas, NV",
+      "description": "Listed on the public FSS calendar.",
+      "category": "outdoor"
+    },
+    {
+      "id": "nellis-death-valley-sightseeing-tour-2026-10-24",
+      "title": "Death Valley Sightseeing Tour",
+      "date": "2026-10-24",
+      "endDate": "2026-10-24",
+      "location": "Nellis AFB",
+      "address": "Las Vegas, NV",
+      "description": "Listed on the public FSS calendar.",
+      "category": "outdoor"
     },
     {
       "id": "nellis-afcea-expo",

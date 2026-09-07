@@ -7,7 +7,7 @@
   "wing": "71 FTW",
   "latitude": 36.3392,
   "longitude": -97.9164,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "vance-notif-real-id",
@@ -253,7 +253,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "vance-wing-wednesday-2026-09-09",
+      "title": "Wing Wednesday",
+      "date": "2026-09-09T10:30:00",
+      "endDate": "2026-09-09T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>12 Wings= $13 (Two Sauces) 6 Wings= $7 (One Sauce) Boneless or Traditional Sauces: Buffalo, Bourbon, BBQ, Asian Zing Dry Rubs: Lemon Pepper and Cajun Call the Crosswinds Club to order: 580-213-7595</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "vance-airmen-golf-night-2026-09-09",
+      "title": "Airmen Golf Night",
+      "date": "2026-09-09T17:00:00",
+      "endDate": "2026-09-09T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Airmen Golf Night",
+      "category": "recreation"
+    },
+    {
+      "id": "vance-trivia-night-2026-09-09",
+      "title": "Trivia Night",
+      "date": "2026-09-09T18:00:00",
+      "endDate": "2026-09-09T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Trivia Night",
+      "category": "recreation"
+    },
+    {
+      "id": "vance-free-magic-show-2026-09-11",
+      "title": "FREE Magic Show",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "FREE Magic Show",
+      "category": "entertainment"
+    },
+    {
+      "id": "vance-wing-wednesday-2026-09-16",
+      "title": "Wing Wednesday",
+      "date": "2026-09-16T10:30:00",
+      "endDate": "2026-09-16T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "<p>12 Wings= $13 (Two Sauces) 6 Wings= $7 (One Sauce) Boneless or Traditional Sauces: Buffalo, Bourbon, BBQ, Asian Zing Dry Rubs: Lemon Pepper and Cajun Call the Crosswinds Club to order: 580-213-7595</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "vance-airmen-golf-night-2026-09-16",
+      "title": "Airmen Golf Night",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Airmen Golf Night",
+      "category": "recreation"
+    },
+    {
+      "id": "vance-roman-nose-camping-trip-2026-09-18",
+      "title": "Roman Nose Camping Trip",
+      "date": "2026-09-18T16:30:00",
+      "endDate": "2026-09-20T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Roman Nose Camping Trip",
+      "category": "outdoor"
+    },
+    {
+      "id": "vance-seasonal-door-hanger-class-2026-09-23",
+      "title": "Seasonal Door Hanger Class",
+      "date": "2026-09-23T18:00:00",
+      "endDate": "2026-09-23T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Seasonal Door Hanger Class",
+      "category": "recreation"
+    },
+    {
+      "id": "vance-sports-day-2026-09-25",
+      "title": "Sports Day",
+      "date": "2026-09-25T09:30:00",
+      "endDate": "2026-09-25T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "Sports Day",
+      "category": "community"
+    },
+    {
+      "id": "vance-parents-night-out-2026-09-26",
+      "title": "Parents Night Out",
+      "date": "2026-09-26T18:00:00",
+      "endDate": "2026-09-26T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "Parents Night Out",
+      "category": "family"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Mendez Visitor Control Center (Bldg 241)",

@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -242,7 +242,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "malmstrom-ceramic-night-at-pgsmoa-2026-09-09",
+      "title": "Ceramic Night at PGSMOA",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "malmstrom-hi-line-climbing-intro-to-rock-climbing-2026-09-11",
+      "title": "Hi-Line Climbing: Intro to Rock Climbing",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "outdoor"
+    },
+    {
+      "id": "malmstrom-fly-fight-win-5k-2026-09-11",
+      "title": "Fly, Fight, Win 5k",
+      "date": "2026-09-11",
+      "endDate": "2026-10-02",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "malmstrom-air-force-birthday-bowl-2026-09-11",
+      "title": "Air Force Birthday Bowl",
+      "date": "2026-09-11",
+      "endDate": "2026-10-02",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-fly-fight-win-5k-2026-09-18",
+      "title": "Fly, Fight, Win 5k",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "malmstrom-air-force-birthday-bowl-2026-09-18",
+      "title": "Air Force Birthday Bowl",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-zombie-run-5k-2026-09-28",
+      "title": "Zombie Run 5K",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "malmstrom-spooktacular-halloween-storytime-2026-09-28",
+      "title": "Spooktacular Halloween Storytime",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-teen-night-centene-haunted-house-2026-09-28",
+      "title": "Teen Night~ Centene Haunted House",
+      "date": "2026-09-28",
+      "endDate": "2026-10-30",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "community"
+    },
+    {
+      "id": "malmstrom-zombie-run-5k-2026-10-29",
+      "title": "Zombie Run 5K",
+      "date": "2026-10-29",
+      "endDate": "2026-10-29",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "fitness"
+    },
+    {
+      "id": "malmstrom-spooktacular-halloween-storytime-2026-10-29",
+      "title": "Spooktacular Halloween Storytime",
+      "date": "2026-10-29",
+      "endDate": "2026-10-29",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-teen-night-centene-haunted-house-2026-10-30",
+      "title": "Teen Night~ Centene Haunted House",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Malmstrom AFB",
+      "address": "Great Falls, MT",
+      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 192)",

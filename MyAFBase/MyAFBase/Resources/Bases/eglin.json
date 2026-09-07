@@ -7,7 +7,7 @@
   "wing": "96 TW",
   "latitude": 30.4636,
   "longitude": -86.5527,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "eglin-notif-1",
@@ -282,6 +282,116 @@
   ],
   "events": [
     {
+      "id": "eglin-youth-guitar-group-lessons-2026-09-07",
+      "title": "Youth Guitar Group Lessons",
+      "date": "2026-09-07T16:30:00",
+      "endDate": "2026-09-07T17:30:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "*Returns Sep 7* Get ready to strum your way into a world of musical fun! The Eglin Youth Center is offering group guitar lessons, perfect for young musicians aged 9",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-bingo-at-the-bayview-2026-09-09",
+      "title": "BINGO! at the Bayview",
+      "date": "2026-09-09T16:00:00",
+      "endDate": "2026-09-09T21:00:00",
+      "location": "Baview Event Center, Building 10870 1018 Boatner Road",
+      "address": "Baview Event Center, Building 10870 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Your Wednesdays Just Got More Exciting with BINGO at the Bayview! Get ready for the BINGO experience you know and love! Your favorite weekly tradition continues its celebrated run at",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-legends-first-2nd-friday-2026-09-11",
+      "title": "Legends First *2nd* Friday",
+      "date": "2026-09-11T15:30:00",
+      "endDate": "2026-09-11T19:00:00",
+      "location": "Legends Sports Grill, Building 825",
+      "address": "Legends Sports Grill, Building 825, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Legends Sports Grill will host its monthly \"First Friday\" social on the 2nd Friday of September ... Gather with good friends and cool colleagues at Legends Sports Grill each month",
+      "category": "community"
+    },
+    {
+      "id": "eglin-bar-bingo-at-legends-sports-grill-2026-09-11",
+      "title": "Bar Bingo at Legends Sports Grill",
+      "date": "2026-09-11T17:00:00",
+      "endDate": "2026-09-11T18:30:00",
+      "location": "Legends Sports Grill, Building 825",
+      "address": "Legends Sports Grill, Building 825, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Bingo just got better at the bar! Join us for a fun night of paper bingo at the bar while you eat, drink, and play. Grab your favorite food, order",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-kid-s-lego-club-2026-09-12",
+      "title": "Kid’s LEGO® Club",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-12T11:30:00",
+      "location": "Eglin Community Library, Building 843",
+      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
+      "description": "*Returning Sep 12* Children ages 5 and older are invited to participate in the Kid's LEGO® Club, held the first Saturday of select months from 10 to 11:30 a.m. at",
+      "category": "family"
+    },
+    {
+      "id": "eglin-fall-2026-steam-team-2026-09-14",
+      "title": "Fall 2026 STEAM Team",
+      "date": "2026-09-14T16:30:00",
+      "endDate": "2026-09-14T17:30:00",
+      "location": "Eglin Community Library, Building 843",
+      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Calling all young creators and curious minds! Join the STEAM Team, a hands-on monthly meet-up adventure designed specifically for school-age kids and homeschoolers during select months in 2026! Dive into",
+      "category": "education"
+    },
+    {
+      "id": "eglin-youth-guitar-group-lessons-2026-09-14",
+      "title": "Youth Guitar Group Lessons",
+      "date": "2026-09-14T16:30:00",
+      "endDate": "2026-09-14T17:30:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "*Returns Sep 7* Get ready to strum your way into a world of musical fun! The Eglin Youth Center is offering group guitar lessons, perfect for young musicians aged 9",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-bingo-at-the-bayview-2026-09-16",
+      "title": "BINGO! at the Bayview",
+      "date": "2026-09-16T16:00:00",
+      "endDate": "2026-09-16T21:00:00",
+      "location": "Baview Event Center, Building 10870 1018 Boatner Road",
+      "address": "Baview Event Center, Building 10870 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Your Wednesdays Just Got More Exciting with BINGO at the Bayview! Get ready for the BINGO experience you know and love! Your favorite weekly tradition continues its celebrated run at",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-fri-yay-drop-in-crafting-day-2026-09-18",
+      "title": "Fri-YaY! Drop-in Crafting Day",
+      "date": "2026-09-18T10:00:00",
+      "endDate": "2026-09-18T14:00:00",
+      "location": "Eglin Community Library, Building 843",
+      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Eglin Community Library invites all crafty kids to their \"Fri-YAY!\" drop-in crafting event, hosted monthly on select Fridays from 10 AM to 2 PM. Stop in any time during",
+      "category": "recreation"
+    },
+    {
+      "id": "eglin-paint-sip-at-legends-2026-09-18",
+      "title": "Paint & Sip at Legends",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "Legends Sports Grill, Building 825",
+      "address": "Legends Sports Grill, Building 825, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Raise a glass to your inner artist and enjoy a \"Paint & Sip\" evening event at Legends Event Center on Friday, September 18, from 5-7 PM. Attendees will be provided",
+      "category": "community"
+    },
+    {
+      "id": "eglin-who-s-your-granny-beginner-s-guide-to-genealogy-2026-09-21",
+      "title": "Who’s Your Granny? — Beginner’s Guide to Genealogy",
+      "date": "2026-09-21T17:30:00",
+      "endDate": "2026-09-21T18:45:00",
+      "location": "Eglin Community Library, Building 843",
+      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Eglin Community Library invites everyone with ancestors (and that would be everyone) to \"Who's Your Granny?\" — an interactive evening workshop offering a hands-on introduction to genealogy on September",
+      "category": "education"
+    },
+    {
       "id": "eglin-beer-bourbon-bbq-2026-09-25",
       "title": "2026 Beer, Bourbon & BBQ",
       "date": "2026-09-25",
@@ -290,6 +400,36 @@
       "address": "Building 10870, 1018 Boatner Road, Eglin AFB, FL 32542",
       "description": "Beer, Bourbon & BBQ evening (21+); 96 FSS / Eglin Exchange; public FSS event page.",
       "category": "community"
+    },
+    {
+      "id": "eglin-keep-going-resiliency-run-2026-09-25",
+      "title": "Keep Going; Resiliency Run",
+      "date": "2026-09-25T07:30:00",
+      "endDate": "2026-09-25T07:30:00",
+      "location": "Postl Point",
+      "address": "Valparaiso, FL",
+      "description": "Eglin Fitness & Sports is proud to partner with IPRO (Integrated Prevention and Resilience Office) to present a 2.2-mile resiliency run in commemoration of Suicide Prevention Month. The message is",
+      "category": "fitness"
+    },
+    {
+      "id": "eglin-soundwaves-sunsets-2026-09-25",
+      "title": "Soundwaves & Sunsets",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Bayview Community Center",
+      "address": "Building 10870, 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Bayview Community Center invites all of Team Eglin to come out for Soundwaves & Sunsets — a FREE night of music and fun beside the water, happening on Friday,",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-super-bingo-nights-play-big-win-big-2026-09-30",
+      "title": "Super BINGO! Nights: Play Big, Win Big",
+      "date": "2026-09-30T14:00:00",
+      "endDate": "2026-09-30T21:00:00",
+      "location": "Bayview Community Center",
+      "address": "Building 10870, 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Your $62 Ticket to Eglin's Biggest Community Game Night! For just $62, you get an entire evening of high-energy entertainment and multiple chances to walk away with a huge cash",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

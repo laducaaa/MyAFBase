@@ -7,7 +7,7 @@
   "wing": "422 ABG",
   "latitude": 51.9875,
   "longitude": -1.1861,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "croughton-notif-real-id",
@@ -204,7 +204,98 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "croughton-toddler-story-time-2026-09-08",
+      "title": "Toddler Story Time",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "family"
+    },
+    {
+      "id": "croughton-baby-story-time-2026-09-09",
+      "title": "Baby Story Time🍼📚",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "family"
+    },
+    {
+      "id": "croughton-run-club-2026-09-09",
+      "title": "Run Club",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "fitness"
+    },
+    {
+      "id": "croughton-yoga-2026-09-10",
+      "title": "Yoga",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "fitness"
+    },
+    {
+      "id": "croughton-afe-bring-the-laughs-2026-09-10",
+      "title": "AFE Bring the Laughs",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "entertainment"
+    },
+    {
+      "id": "croughton-rock-art-therapy-2026-09-11",
+      "title": "Rock Art Therapy",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "recreation"
+    },
+    {
+      "id": "croughton-crafty-cocktail-night-2026-09-18",
+      "title": "Crafty Cocktail Night",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "recreation"
+    },
+    {
+      "id": "croughton-trivia-night-2026-09-25",
+      "title": "Trivia Night",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "entertainment"
+    },
+    {
+      "id": "croughton-raf-croughton-oktoberfest-2026-10-02",
+      "title": "RAF Croughton Oktoberfest",
+      "date": "2026-10-02",
+      "endDate": "2026-10-02",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "holiday"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "RAF Croughton Visitor Center",

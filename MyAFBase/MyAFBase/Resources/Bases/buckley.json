@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -346,7 +346,78 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "buckley-beast-of-buckley-2026-09-11",
+      "title": "Beast of Buckley",
+      "date": "2026-09-11T07:30:00",
+      "endDate": "2026-09-11T14:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "Date: 11 September 2026 Athlete Check In: 0730 hrs. Location: Fitness Center North Parking Lot Entry Fee: $20 Registration: Fitness Center Registration Desk Are you ready to put your power,",
+      "category": "fitness"
+    },
+    {
+      "id": "buckley-lake-powell-houseboat-trip-2026-09-12",
+      "title": "Lake Powell Houseboat Trip",
+      "date": "2026-09-12T05:00:00",
+      "endDate": "2026-09-16T17:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Saturday, September 12- Wednesday, September 16 Where: Lake Powell, AZ Cost: $450 Included: Transportation, food, houseboat, camping gear (as needed), jet ski access, speed boat access, water sport lesson",
+      "category": "outdoor"
+    },
+    {
+      "id": "buckley-intro-to-tea-blending-2026-09-12",
+      "title": "Intro to Tea Blending",
+      "date": "2026-09-12T09:00:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Saturday, September 12 Where: Meet at Plains Conservation Center Cost: $45 Included: Instruction and tea to take home. NO TRANSPORTATION PROVIDED. Details: Have you ever wanted to try to",
+      "category": "community"
+    },
+    {
+      "id": "buckley-bob-ross-paint-night-2026-09-18",
+      "title": "Bob Ross Paint Night",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T19:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 18 September Where: Panther Den Cost: $25 Included: Paint supplies, one drink, guidance Details: Unleash your inner artist at our Bob Ross–inspired Paint Night! Follow along with a guided,",
+      "category": "entertainment"
+    },
+    {
+      "id": "buckley-top-rope-tuesday-2026-09-22",
+      "title": "Top Rope Tuesday",
+      "date": "2026-09-22T18:00:00",
+      "endDate": "2026-09-22T20:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 22 September, meet at 6:15 PM Where: Ubergrippen Cost: $22 without rentals, $27 with rentals Included: Rentals, day pass Details: Join us for an evening of indoor rock climbing!",
+      "category": "outdoor"
+    },
+    {
+      "id": "buckley-concealed-carry-course-2026-10-03",
+      "title": "Concealed Carry Course",
+      "date": "2026-10-03T07:30:00",
+      "endDate": "2026-10-03T17:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Saturday, October 3rd Where: Meet at Colorado Clays at 7:45 AM Cost: $180 Included: Transportation, 8 hr course, rental gun Details: This concealed carry class covers safe firearm handling,",
+      "category": "education"
+    },
+    {
+      "id": "buckley-hike-square-mountain-2026-10-04",
+      "title": "Hike Square Mountain",
+      "date": "2026-10-04T06:30:00",
+      "endDate": "2026-10-04T17:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Sunday, October 4th Where: Meet at ODR at 6:30 AM Cost: $17 *min age 14* Included: Transportation, rentals, day pass Details: Escape to the high alpine and conquer Square",
+      "category": "outdoor"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Buckley SFB Visitor Control Center",

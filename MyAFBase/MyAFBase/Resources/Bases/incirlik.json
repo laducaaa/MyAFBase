@@ -7,7 +7,7 @@
   "wing": "39 ABW",
   "latitude": 37.0021,
   "longitude": 35.4259,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "incirlik-notif-real-id",
@@ -193,7 +193,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "incirlik-labor-day-golf-tournament-2026-09-07",
+      "title": "Labor Day Golf Tournament",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-07T11:00:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "$25 Entry fee – includes lunch, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-dfac-customer-appreciation-labor-day-ho",
+      "title": "DFAC Customer Appreciation – Labor Day Holiday Meal",
+      "date": "2026-09-07T11:00:00",
+      "endDate": "2026-09-07T13:30:00",
+      "location": "Sultan’s Inn DFAC",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "DFAC Customer Appreciation – Labor Day Holiday Meal — public FSS/MWR calendar listing.",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-bowling-tournament-of-the-month-2026-09",
+      "title": "Bowling Tournament of the Month",
+      "date": "2026-09-07T18:00:00",
+      "endDate": "2026-09-07T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-social-hour-poker-2026-09-08",
+      "title": "Social Hour/Poker",
+      "date": "2026-09-08T18:00:00",
+      "endDate": "2026-09-08T21:00:00",
+      "location": "Club Complex",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Don’t forget to visit Taco bar, Taco Tuesday will be on until 2100 too!",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-strike-challenge-2026-09-08",
+      "title": "Strike Challenge",
+      "date": "2026-09-08T19:30:00",
+      "endDate": "2026-09-08T21:30:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Second Tuesday of every month. The player who gets the most strikes in 10 shots wins! $3.50 Entry fee. Winner will receive 50% of the total money collected, based on the number of participants, in the form of gift cards.",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-progressive-bingo-2026-09-09",
+      "title": "Progressive Bingo",
+      "date": "2026-09-09T18:30:00",
+      "endDate": "2026-09-09T21:00:00",
+      "location": "Club Complex",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Progressive Bingo — public FSS/MWR calendar listing.",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-team-trivia-2026-09-10",
+      "title": "Team Trivia",
+      "date": "2026-09-10T19:00:00",
+      "endDate": "2026-09-10T21:00:00",
+      "location": "Club Complex",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Team Trivia — public FSS/MWR calendar listing.",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-we-are-one-911-remembrance-5k-2026-09-1",
+      "title": "We are One-911 Remembrance 5k",
+      "date": "2026-09-11T07:30:00",
+      "endDate": "2026-09-11T20:30:00",
+      "location": "Arkadas Park",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "POC: A1C Nguyen DSN: 676-6086 Sign up by 10 September at this link: https://www.signupgenius.com/go/10C0A45ACAB28A3F5C61-64889548-weareone911",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-karaoke-night-2026-09-11",
+      "title": "Karaoke Night",
+      "date": "2026-09-11T21:00:00",
+      "endDate": "2026-09-12T01:00:00",
+      "location": "Club Complex",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Karaoke Night — public FSS/MWR calendar listing.",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-glow-in-the-dark-golf-tournament-2026-0",
+      "title": "Glow in the Dark Golf Tournament",
+      "date": "2026-09-12T20:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "Format: 4 Person Select Shot (Scramble) $25 Entry fee – includes 2 glow balls per person, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-bath-bomb-workshop-2026-09-15",
+      "title": "Bath Bomb Workshop",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T18:30:00",
+      "location": "Community Center",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "First come first serve",
+      "category": "education"
+    },
+    {
+      "id": "incirlik-bowling-tournament-of-the-month-2026-10",
+      "title": "Bowling Tournament of the Month",
+      "date": "2026-10-05T18:00:00",
+      "endDate": "2026-10-05T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Incirlik AB, Adana, Turkey",
+      "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Incirlik AB Visitor Center",

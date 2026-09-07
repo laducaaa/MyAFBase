@@ -7,7 +7,7 @@
   "wing": "72 ABW / AFSC",
   "latitude": 35.4147,
   "longitude": -97.3866,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "tinker-notif-real-id",
@@ -266,24 +266,24 @@
   ],
   "events": [
     {
-      "id": "tinker-rec-fest-2026-09-18",
-      "title": "Rec Fest",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Tinker AFB (multi-sport locations)",
-      "address": "Tinker AFB / Oklahoma City, OK",
-      "description": "Rec Fest sports showcase with bounce houses, axe throwing, 5K, etc.; tinkerliving.com.",
-      "category": "community"
+      "id": "tinker-grab-and-go-crafts-2026-09-08",
+      "title": "Grab and Go Crafts",
+      "date": "2026-09-08T10:00:00",
+      "endDate": "2026-09-08T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Stop by the Library each week in September and pick up a kid-friendly Grab & Go Craft from the craft cart! Supplies are ready to grab, take home, and create. Available while supplies last. September Crafts Sept 1 - Penny Spinner STEM Toy Sept 8 - Paper Tube Robot Sept 15 - Pirate Boats Sept […]</p>\\n",
+      "category": "outdoor"
     },
     {
-      "id": "tinker-education-open-house-2026-09-24",
-      "title": "Education Services: Open House",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Education Services Center Bldg 201SE Rm 105",
-      "address": "Tinker AFB, OK",
-      "description": "Education open house with bingo card prizes; tinkerliving.com.",
-      "category": "community"
+      "id": "tinker-free-axe-throwing-2026-09-09",
+      "title": "Free Axe Throwing",
+      "date": "2026-09-09T09:00:00",
+      "endDate": "2026-09-09T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only. </p>\\n",
+      "category": "outdoor"
     },
     {
       "id": "tinker-mulligans-opening",
@@ -296,14 +296,24 @@
       "category": "community"
     },
     {
-      "id": "tinker-magic-all-stars",
-      "title": "Magic All Stars",
-      "date": "2026-09-12T18:00:00",
-      "endDate": "2026-09-12T22:00:00",
-      "location": "Tinker Event Center / Club",
-      "address": "Tinker AFB, OK",
-      "description": "Magic show with Ben Young, Jason Michaels, and Stephen Bargatze; show starts 7 PM.",
-      "category": "entertainment"
+      "id": "tinker-weekly-story-time-2026-09-10",
+      "title": "Weekly Story Time",
+      "date": "2026-09-10T11:00:00",
+      "endDate": "2026-09-10T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Don\\'t miss Tinker Libraries Weekly Story time! Happening at the Library every Thursday.</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tinker-beaded-botanical-a-suncatcher-workshop-2026-09-10",
+      "title": "Beaded Botanical: A Suncatcher Workshop",
+      "date": "2026-09-10T17:30:00",
+      "endDate": "2026-09-10T20:30:00",
+      "location": "Arts & Crafts",
+      "address": "",
+      "description": "<p>Registration Link: https://tr.ee/-JbJc9ha_d Join us for a fun, creative, and social evening of crafting! In this hands-on workshop, you’ll learn how to create your very own beaded plant suncatcher—a beautiful and unique piece of décor that brings a little sunshine and sparkle to your space. Each student will receive their own complete beaded plant kit for […]</p>\\n",
+      "category": "outdoor"
     },
     {
       "id": "tinker-doggy-paddle",
@@ -314,6 +324,66 @@
       "address": "Tinker AFB, OK",
       "description": "Last swim day of the season for dogs; dog required for entry.",
       "category": "family"
+    },
+    {
+      "id": "tinker-stepping-stones-class-2026-09-12",
+      "title": "Stepping Stones Class",
+      "date": "2026-09-12T14:00:00",
+      "endDate": "2026-09-12T15:30:00",
+      "location": "Arts & Crafts",
+      "address": "",
+      "description": "<p>Registration Link: https://tr.ee/bzPaTdDaFW Leave your mark with a custom stepping stone that\\'s as unique as you are! Join us at Tinker Arts & Crafts for a fun, hands-on workshop where you\\'ll design and create a one-of-a-kind stepping stone perfect for your garden, flower bed, patio, or as a thoughtful handmade gift. Whether you prefer a colorful […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "tinker-magic-all-stars",
+      "title": "Magic All Stars",
+      "date": "2026-09-12T18:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Tinker Event Center / Club",
+      "address": "Tinker AFB, OK",
+      "description": "Magic show with Ben Young, Jason Michaels, and Stephen Bargatze; show starts 7 PM.",
+      "category": "entertainment"
+    },
+    {
+      "id": "tinker-sewing-class-black-cats-bats-a-halloween-punch-n-2026-09",
+      "title": "Sewing Class: Black Cats & Bats: A Halloween Punch Needle Workshop",
+      "date": "2026-09-15T17:30:00",
+      "endDate": "2026-09-15T20:30:00",
+      "location": "Arts & Crafts",
+      "address": "",
+      "description": "<p>Registration Link: https://tr.ee/rPNbx5uQQa Get into the Halloween spirit with a fun and creative evening of punch needle! In this hands-on workshop, you’ll learn the basics of punch needle while creating your own spooky seasonal design. Choose between a Black Cat or Bat pattern and spend the evening learning, and enjoying a creative night out. All materials […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tinker-weekly-story-time-2026-09-17",
+      "title": "Weekly Story Time",
+      "date": "2026-09-17T11:00:00",
+      "endDate": "2026-09-17T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Don\\'t miss Tinker Libraries Weekly Story time! Happening at the Library every Thursday.</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tinker-rec-fest-2026-09-18",
+      "title": "Rec Fest",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Tinker AFB (multi-sport locations)",
+      "address": "Tinker AFB / Oklahoma City, OK",
+      "description": "Rec Fest sports showcase with bounce houses, axe throwing, 5K, etc.; tinkerliving.com.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-air-force-birthday-tournament-2026-09-18",
+      "title": "Air Force Birthday Tournament",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-18T23:59:59",
+      "location": "Golf Club",
+      "address": "",
+      "description": "<p>2-man scramble Call Tinker Golf to Register -- 405.734.2909 9:00 AM start Entry Fee is $40 per person (green and cart fee) AGF is $20 (Blue & Silver Members)</p>\\n",
+      "category": "recreation"
     },
     {
       "id": "tinker-af-birthday-bowling",
@@ -333,6 +403,46 @@
       "location": "Tinker Golf Course",
       "address": "Tinker AFB, OK",
       "description": "Two-day competitive match-play Ryder Cup style golf event.",
+      "category": "recreation"
+    },
+    {
+      "id": "tinker-10-game-9-pin-no-tap-tournament-2026-09-19",
+      "title": "10 Game 9-Pin No Tap Tournament",
+      "date": "2026-09-19T14:00:00",
+      "endDate": "2026-09-19T18:00:00",
+      "location": "Tinker Lanes",
+      "address": "",
+      "description": "<p>Saturday, September 19, 2026 Check in: 2:00 pm $75.00 Entry fee Open to anyone 18 and older!</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "tinker-education-open-house-2026-09-24",
+      "title": "Education Services: Open House",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Education Services Center Bldg 201SE Rm 105",
+      "address": "Tinker AFB, OK",
+      "description": "Education open house with bingo card prizes; tinkerliving.com.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-weekly-story-time-2026-09-24",
+      "title": "Weekly Story Time",
+      "date": "2026-09-24T11:00:00",
+      "endDate": "2026-09-24T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Don\\'t miss Tinker Libraries Weekly Story time! Happening at the Library every Thursday.</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tinker-witchy-welcome-fall-halloween-door-sign-workshop-2026-09",
+      "title": "🎃 Witchy Welcome: Fall & Halloween Door Sign Workshop",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T20:30:00",
+      "location": "Arts & Crafts",
+      "address": "",
+      "description": "<p>Registration Link: https://tr.ee/WJ86SsIT2R Get ready to welcome the spooky season in style! Join us for a fun and creative evening where you’ll design and paint your very own Fall or Halloween-themed wood round door sign. Each student will get to choose their favorite design and customize it with paint to create a one-of-a-kind sign for their […]</p>\\n",
       "category": "recreation"
     },
     {
@@ -364,6 +474,16 @@
       "address": "Tinker AFB, OK",
       "description": "Childcare same evening as Air Force Ball; $48 per child.",
       "category": "family"
+    },
+    {
+      "id": "tinker-red-tee-golf-tournament-2026-10-30",
+      "title": "Red Tee Golf Tournament",
+      "date": "2026-10-30T00:00:00",
+      "endDate": "2026-10-30T23:59:59",
+      "location": "Golf Club",
+      "address": "",
+      "description": "<p>Starts at 10:00 AM Play from the Red Tees! 4 person scramble $40 per player( green & cart fee) Blue & Silver AGF $20</p>\\n",
+      "category": "recreation"
     }
   ],
   "newcomers": {

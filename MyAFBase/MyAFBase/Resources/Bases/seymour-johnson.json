@@ -268,7 +268,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "seymour-johnson-9-11-memorial-run-ruck-2026-09-11",
+      "title": "9/11 Memorial Run/Ruck",
+      "date": "2026-09-11T08:46:00",
+      "endDate": "2026-09-11T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "9/11 Memorial Run/Ruck",
+      "category": "fitness"
+    },
+    {
+      "id": "seymour-johnson-first-friday-dueling-pianos-show-2026-09-11",
+      "title": "“First Friday,” Dueling Pianos Show",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "“First Friday,” Dueling Pianos Show",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-blakeslee-concert-series-2026-09-11",
+      "title": "Blakeslee Concert Series",
+      "date": "2026-09-11T18:30:00",
+      "endDate": "2026-09-11T20:30:00",
+      "location": "Blakeslee Air Force Recreation Area",
+      "address": "108 Riverfront Rd, Kure Beach, NC, 28449",
+      "description": "<p>The Pleasure Island Chamber of Commerce and the Town of Kure Beach are excited to present this Concert Series at Blakeslee Air Force Recreation Area. Grab your lawn chairs and ​join us for FREE concerts!​The 2nd and 4th Friday of ​July, August and September at 6:30pm. Free golf cart shuttles from parking area to stage […]</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-hearts-apart-bowling-2026-09-14",
+      "title": "Hearts Apart Bowling",
+      "date": "2026-09-14T17:00:00",
+      "endDate": "2026-09-14T21:00:00",
+      "location": "Bowling Center (Phantom Lanes)",
+      "address": "1290 Andrews St, Goldsboro, NC, 27531",
+      "description": "<p>Phantom Lanes offers free bowling to Hearts Apart (deployed affected) families every Monday from 5 to 9 pm, except holidays. There is limited lane availability; first come, first served. While there, enjoy 10% off all snack bar purchases in the 10-Pin Café.</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "seymour-johnson-newcomers-orientation-2026-09-15",
+      "title": "Newcomers Orientation",
+      "date": "2026-09-15T08:00:00",
+      "endDate": "2026-09-15T12:30:00",
+      "location": "Eagles Landing",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "<p>This is an orientation/information event for newly assigned personnel and their families. Hear from on and off base agencies about what they have to offer.</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "seymour-johnson-moving-out-of-the-dorms-class-2026-09-16",
+      "title": "Moving Out of the Dorms Class",
+      "date": "2026-09-16T14:00:00",
+      "endDate": "2026-09-16T16:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "1410 Langley Ave, Goldsboro, NC, 27531",
+      "description": "<p>Topics include choosing where to live, considering a roommate, the application process, understanding the lease agreement, how to set up housekeeping, and budgeting. Airmen will develop a budget reflecting their new financial obligations. Call 919-722-1123 to sign up.</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "seymour-johnson-mission-family-mud-mania-2026-09-19",
+      "title": "Mission: Family Mud Mania",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Debden Park",
+      "address": "",
+      "description": "Mission: Family Mud Mania",
+      "category": "family"
+    },
+    {
+      "id": "seymour-johnson-parents-night-out-2026-09-19",
+      "title": "Parents Night Out",
+      "date": "2026-09-19T18:00:00",
+      "endDate": "2026-09-19T22:00:00",
+      "location": "Youth Center",
+      "address": "1035 Langley Ave, Goldsboro, North Carolina, 27531",
+      "description": "Parents Night Out",
+      "category": "family"
+    },
+    {
+      "id": "seymour-johnson-hearts-apart-bowling-2026-09-21",
+      "title": "Hearts Apart Bowling",
+      "date": "2026-09-21T17:00:00",
+      "endDate": "2026-09-21T21:00:00",
+      "location": "Bowling Center (Phantom Lanes)",
+      "address": "1290 Andrews St, Goldsboro, NC, 27531",
+      "description": "<p>Phantom Lanes offers free bowling to Hearts Apart (deployed affected) families every Monday from 5 to 9 pm, except holidays. There is limited lane availability; first come, first served. While there, enjoy 10% off all snack bar purchases in the 10-Pin Café.</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "seymour-johnson-blakeslee-concert-series-2026-09-25",
+      "title": "Blakeslee Concert Series",
+      "date": "2026-09-25T18:30:00",
+      "endDate": "2026-09-25T20:30:00",
+      "location": "Blakeslee Air Force Recreation Area",
+      "address": "108 Riverfront Rd, Kure Beach, NC, 28449",
+      "description": "<p>The Pleasure Island Chamber of Commerce and the Town of Kure Beach are excited to present this Concert Series at Blakeslee Air Force Recreation Area. Grab your lawn chairs and ​join us for FREE concerts!​The 2nd and 4th Friday of ​July, August and September at 6:30pm. Free golf cart shuttles from parking area to stage […]</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-bundles-for-babies-2026-10-01",
+      "title": "Bundles for Babies",
+      "date": "2026-10-01T09:00:00",
+      "endDate": "2026-10-01T12:30:00",
+      "location": "Eagles Landing",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "<p>Call 919-722-1123 to sign up for the upcoming Bundles for Babies class, which is full of helpful tips for newborn and expectant parents!</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "seymour-johnson-oktoberfest-2026-10-03",
+      "title": "Oktoberfest",
+      "date": "2026-10-03T17:00:00",
+      "endDate": "2026-10-03T21:00:00",
+      "location": "Eagles Landing",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "Oktoberfest",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Berkeley Gate)",
@@ -332,5 +453,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:04:41Z"
+  "dataUpdatedAt": "2026-09-07T15:41:25Z"
 }

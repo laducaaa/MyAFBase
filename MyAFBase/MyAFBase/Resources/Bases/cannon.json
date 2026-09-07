@@ -7,7 +7,7 @@
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
@@ -291,7 +291,98 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "cannon-yoga-2026-09-07",
+      "title": "Yoga",
+      "date": "2026-09-07T17:00:00",
+      "endDate": "2026-09-07T17:00:00",
+      "location": "Cannon Fitness Center",
+      "address": "400 Air Commando Way, Clovis, NM, 88101",
+      "description": "Subject to change. Follow Cannon AFB Fitness on FB for updates.",
+      "category": "fitness"
+    },
+    {
+      "id": "cannon-lapsit-story-time-2026-09-08",
+      "title": "Lapsit Story Time",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T10:30:00",
+      "location": "Cannon Library",
+      "address": "107 Albright Ave",
+      "description": "Build your child’s literacy and social skills at the library with simple stories, rhymes, and songs that are age-appropriate and engaging for babies. Recommended for ages 0-2.",
+      "category": "family"
+    },
+    {
+      "id": "cannon-spin-2026-09-08",
+      "title": "Spin",
+      "date": "2026-09-08T17:00:00",
+      "endDate": "2026-09-08T17:00:00",
+      "location": "Cannon Fitness Center",
+      "address": "400 Air Commando Way, Clovis, NM, 88101",
+      "description": "Subject to change. Follow Cannon AFB Fitness on FB for updates.",
+      "category": "fitness"
+    },
+    {
+      "id": "cannon-preschool-story-time-2026-09-09",
+      "title": "Preschool Story Time",
+      "date": "2026-09-09T10:00:00",
+      "endDate": "2026-09-09T10:00:00",
+      "location": "Cannon Library",
+      "address": "107 Albright Ave",
+      "description": "Reading, singing, and crafting combine to fuel your child’s imagination while boosting literacy and social skills in a fun and welcoming environment. Recommended for ages 3-6.",
+      "category": "family"
+    },
+    {
+      "id": "cannon-red-pin-wednesday-2026-09-09",
+      "title": "Red Pin Wednesday",
+      "date": "2026-09-09T15:00:00",
+      "endDate": "2026-09-09T21:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the",
+      "category": "community"
+    },
+    {
+      "id": "cannon-cosmic-bowling-2026-09-11",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-11T20:00:00",
+      "endDate": "2026-09-11T23:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Get ready to light up the lanes at Cosmic Bowling! Grab your friends and join us at Cannon Lanes for a night of glowing strikes, great vibes, and endless fun.",
+      "category": "recreation"
+    },
+    {
+      "id": "cannon-sunday-family-day-2026-09-13",
+      "title": "Sunday Family Day",
+      "date": "2026-09-13T12:00:00",
+      "endDate": "2026-09-13T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for",
+      "category": "family"
+    },
+    {
+      "id": "cannon-jackpot-bingo-2026-09-18",
+      "title": "Jackpot Bingo",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "Cannon AFB",
+      "address": "Clovis, NM",
+      "description": "Join us for an exciting night of Bingo filled with great prizes, food, and fun. The event will be held in the Landing Zone Tri-Rooms and is open to 75–100",
+      "category": "entertainment"
+    },
+    {
+      "id": "cannon-trivia-at-the-tsl-2026-09-24",
+      "title": "Trivia at the TSL!",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T19:30:00",
+      "location": "Tailgate Sports Lounge",
+      "address": "108 Cunningham Ave Cannon AFB, New Mexico 88103 United States",
+      "description": "Trivium Trivia at TSL | Thursday, 5 PM – 7:30 PM - ANIME EDITION Anime themed trivia and ramen bowl dinner special! ESM Accepted Must have base access.",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -367,6 +367,116 @@
     }
   ],
   "events": [
+    {
+      "id": "keesler-fall-bowling-leagues-2026-09-07",
+      "title": "Fall Bowling Leagues",
+      "date": "2026-09-07T00:00:00",
+      "endDate": "2026-09-07T23:59:59",
+      "location": "Gaude’ Lanes Bowling Center",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "Fall Bowling Leagues — public FSS/MWR calendar listing.",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-youth-baseball-t-ball-registration-2026",
+      "title": "Youth Baseball & T-Ball Registration",
+      "date": "2026-09-09T00:00:00",
+      "endDate": "2026-09-09T23:59:59",
+      "location": "Youth Center",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "AUG 5 – SEP 26 | Season Youth Center Step up to the plate and join our Youth Baseball League! This program is designed for kids ages 3–12 and is the perfect opportunity for young players to learn the fundamentals of baseball, make new friends, and have fun in a supportive team environment. Practices are on Wednesday and games are played on Saturdays Sign up on CYPBMS. Call the Youth Center at 228.",
+      "category": "family"
+    },
+    {
+      "id": "keesler-turbocore-fitness-class-2026-09-09",
+      "title": "TurboCore Fitness Class",
+      "date": "2026-09-09T17:30:00",
+      "endDate": "2026-09-09T18:30:00",
+      "location": "Fitness",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "Monday | 5:30 – 6:30 pm Wednesday | 5:30 – 6:30 pm Dragon Fitness Center TurboCore combines elements of cardio, strength training, and core conditioning, offering a balanced approach to fitness. Each session features a variety of dynamic exercises that target your abs, back, and entire body, ensuring a comprehensive workout that challenges you and keeps you engaged. Our passionate instructors are ",
+      "category": "fitness"
+    },
+    {
+      "id": "keesler-cycling-fitness-class-2026-09-10",
+      "title": "Cycling Fitness Class",
+      "date": "2026-09-10T11:00:00",
+      "endDate": "2026-09-10T12:00:00",
+      "location": "Fitness",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "Thursday | 11 am – Noon Dragon Fitness Center This cycling class is a high-energy, full-body workout that takes place on stationary bikes in a group setting. Led by an enthusiastic instructor, the class is designed to boost cardiovascular health, build endurance, and tone muscles, all while burning calories and having fun. Dragon Fitness Center 228.377.4409",
+      "category": "fitness"
+    },
+    {
+      "id": "keesler-gaming-trivia-2026-09-12",
+      "title": "Gaming Trivia",
+      "date": "2026-09-12T13:00:00",
+      "endDate": "2026-09-12T13:00:00",
+      "location": "McBride Commons",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 12 | 1 pm McBride Commons Think you know gaming culture? Come put your knowledge to the test at Gaming Trivia, hosted at McBride Commons! Join us for a fun round of Trivia: Gaming Edition, where you can challenge yourself and compete with fellow gamers. Entry is free, and a special prize awaits the top trivia contestant. Whether you’re a casual player or a hardcore fan, it’s your chance to sho",
+      "category": "entertainment"
+    },
+    {
+      "id": "keesler-cosmic-bowling-2026-09-12",
+      "title": "Cosmic Bowling",
+      "date": "2026-09-12T20:00:00",
+      "endDate": "2026-09-12T23:00:00",
+      "location": "Gaude’ Lanes Bowling Center",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "Saturdays | 8 – 11 pm Gaude’ Lanes Bowling Center Are you ready to light up your Saturday night? Join us for COSMIC BOWLING at Gaude’ Lanes Bowling Center? Enjoy 3 hours of unlimited bowling, plus shoes. Don’t miss your chance to bowl under the black lights and enjoy an out-of-this-world experience! Mark your calendars, grab your crew, and roll into the fun. Open to all with base access and sponso",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-federal-employment-workshop-2026-09-16",
+      "title": "Federal Employment Workshop",
+      "date": "2026-09-16T08:00:00",
+      "endDate": "2026-09-16T12:00:00",
+      "location": "M&FRC",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 16 | 8 am – Noon Sablich Center | Room 108B Information on how to navigate USA Jobs and federal resume formatting. M&FRC 228.376.8728",
+      "category": "education"
+    },
+    {
+      "id": "keesler-nfl-kickoff-scramble-2026-09-19",
+      "title": "NFL Kickoff Scramble",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T08:00:00",
+      "location": "Bay Breeze Golf Course",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 19 | 8 am | Shotgun Start Bay Breeze Golf Course Kick off the NFL season with our fun 2-player golf scramble. Don’t have a partner? We’ll match you up so everyone can join the action. Compete for prizes awarded to both low net and gross teams. Enjoy great food and drinks on the course and after your round. Celebrate football season with friends, golf, and plenty of excitement! Open to all with",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-super-smash-brothers-tournament-2026-09",
+      "title": "Super Smash Brothers Tournament",
+      "date": "2026-09-19T11:00:00",
+      "endDate": "2026-09-19T13:00:00",
+      "location": "McBride Commons",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 19 | 11 am – 1 pm McBride Commons Calling all gamers! Are you ready for some friendly competition? McBride Commons is excited to host a Smash Brothers tournament. Whether you’re a seasoned pro or just play for fun, join us for an action-packed event and show off your skills. Don’t miss out on the chance to compete, connect with fellow gamers, and enjoy a great time! McBride Commons 228.377.282",
+      "category": "community"
+    },
+    {
+      "id": "keesler-transition-assistance-workshop-2026-09-2",
+      "title": "Transition Assistance Workshop",
+      "date": "2026-09-21T08:00:00",
+      "endDate": "2026-09-21T16:00:00",
+      "location": "M&FRC",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 21 – 23 | 8 am – 4 pm This 3-day Congressionally mandated program, which includes VA benefits and Employment Fundamentals, is designed to prepare military members and their families for their transition to the civilian sector. M&FRC 228.376.8728",
+      "category": "education"
+    },
+    {
+      "id": "keesler-transition-assistance-workshop-2026-09-2",
+      "title": "Transition Assistance Workshop",
+      "date": "2026-09-22T08:00:00",
+      "endDate": "2026-09-22T16:00:00",
+      "location": "M&FRC",
+      "address": "Keesler AFB, Biloxi, MS",
+      "description": "SEP 21 – 23 | 8 am – 4 pm Sablich Center | Room 108B This 3-day Congressionally mandated program includes VA benefits and employment fundamentals and is designed to prepare military members and families for their transition into the civilian sector. M&FRC 228.376.8728",
+      "category": "education"
+    },
     {
       "id": "keesler-cruisin-2026-10-03",
       "title": "Cruisin' Keesler",

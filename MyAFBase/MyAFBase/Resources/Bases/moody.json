@@ -7,7 +7,7 @@
   "wing": "23 WG",
   "latitude": 30.9678,
   "longitude": -83.193,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "moody-notif-real-id",
@@ -368,7 +368,128 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "moody-wing-wednesday-2026-09-09",
+      "title": "Wing Wednesday",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "moody-america-250-trivia-2026-09-09",
+      "title": "America 250 Trivia",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "moody-kids-night-out-hero-s-vs-villains-2026-09-11",
+      "title": "Kids Night Out: Hero’s vs Villains",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "family"
+    },
+    {
+      "id": "moody-bundles-for-babies-2026-09-17",
+      "title": "Bundles for Babies",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "family"
+    },
+    {
+      "id": "moody-golfer-s-bingo-2026-09-18",
+      "title": "Golfer’s Bingo!",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "moody-cork-craft-paint-a-fall-porch-sign-2026-09-25",
+      "title": "Cork & Craft: Paint a Fall Porch Sign",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "moody-trunk-or-treat-2026-09-28",
+      "title": "Trunk or Treat",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "moody-haunted-trail-at-grassy-pond-2026-09-28",
+      "title": "Haunted Trail at Grassy Pond",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "community"
+    },
+    {
+      "id": "moody-modern-horror-trivia-2026-09-28",
+      "title": "Modern Horror Trivia",
+      "date": "2026-09-28",
+      "endDate": "2026-10-31",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "entertainment"
+    },
+    {
+      "id": "moody-trunk-or-treat-2026-10-23",
+      "title": "Trunk or Treat",
+      "date": "2026-10-23",
+      "endDate": "2026-10-23",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "holiday"
+    },
+    {
+      "id": "moody-haunted-trail-at-grassy-pond-2026-10-30",
+      "title": "Haunted Trail at Grassy Pond",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "community"
+    },
+    {
+      "id": "moody-haunted-trail-at-grassy-pond-2026-10-31",
+      "title": "Haunted Trail at Grassy Pond",
+      "date": "2026-10-31",
+      "endDate": "2026-10-31",
+      "location": "Moody AFB",
+      "address": "Valdosta, GA",
+      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Moody AFB Visitor Control Center",

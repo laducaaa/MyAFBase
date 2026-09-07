@@ -7,7 +7,7 @@
   "wing": "60 AMW",
   "latitude": 38.2625,
   "longitude": -122.0261,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "travis-notif-1",
@@ -325,6 +325,26 @@
       "category": "community"
     },
     {
+      "id": "travis-911-tower-climb",
+      "title": "9/11 Memorial Tower Climb",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-30T17:00:00",
+      "location": "Travis Fitness Center",
+      "address": "Travis AFB, CA",
+      "description": "Ongoing memorial tower climb challenge through September 30.",
+      "category": "fitness"
+    },
+    {
+      "id": "travis-story-time-at-the-library-2026-09-08",
+      "title": "Story Time at the Library",
+      "date": "2026-09-08T10:30:00",
+      "endDate": "2026-09-08T11:30:00",
+      "location": "Mitchell Memorial Library",
+      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
+      "description": "<p>Tuesdays at 10:30am Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
+      "category": "family"
+    },
+    {
       "id": "travis-kayaking-fundamentals-2026-09-09",
       "title": "Kayaking Fundamentals Clinic",
       "date": "2026-09-09",
@@ -333,6 +353,76 @@
       "address": "",
       "description": "Kayaking fundamentals clinic; 60 FSS public calendar.",
       "category": "community"
+    },
+    {
+      "id": "travis-family-steam-2026-09-09",
+      "title": "Family STEAM at the Library",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Travis Library",
+      "address": "",
+      "description": "Family STEAM library program; 60 FSS public series.",
+      "category": "community"
+    },
+    {
+      "id": "travis-baby-bounce-at-the-library-2026-09-10",
+      "title": "Baby Bounce at the Library",
+      "date": "2026-09-10T10:30:00",
+      "endDate": "2026-09-10T11:30:00",
+      "location": "Mitchell Memorial Library",
+      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
+      "description": "<p>Thursdays at 10:30am. Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
+      "category": "community"
+    },
+    {
+      "id": "travis-karaoke-night-2026-09-11",
+      "title": "Karaoke Night",
+      "date": "2026-09-11T19:00:00",
+      "endDate": "2026-09-11T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Bring your friends and come sing with us! Doors open at 4:30PM Karaoke starts at 7PM</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "travis-sup",
+      "title": "Stand Up Paddleboarding",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Lake Natoma",
+      "address": "Folsom/Sacramento area, CA",
+      "description": "$50; ages 16+; gear, transport, instruction; pre-register by 9/9.",
+      "category": "recreation"
+    },
+    {
+      "id": "travis-whitewater-rafting-106-2026-09-13",
+      "title": "Whitewater Rafting 106",
+      "date": "2026-09-13T08:00:00",
+      "endDate": "2026-09-13T18:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "<p>Lower South Fork of the American Cost: $75 per person Age: 16+ Beginner friendly 13 miles of whitewater rapids including Hospital Bar, Bouncing Rock, Satan’s Cesspool Class II-III+ rapids Ride in the raft with ODR trained raft guides Includes: Transportation, Guides, Equipment Pre-Register by: 9/9</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-story-time-at-the-library-2026-09-15",
+      "title": "Story Time at the Library",
+      "date": "2026-09-15T10:30:00",
+      "endDate": "2026-09-15T11:30:00",
+      "location": "Mitchell Memorial Library",
+      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
+      "description": "<p>Tuesdays at 10:30am Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "travis-lego-pizza",
+      "title": "Lego Build & Pizza",
+      "date": "2026-09-15T18:30:00",
+      "endDate": "2026-09-15T20:30:00",
+      "location": "Travis Arts & Crafts",
+      "address": "Travis AFB, CA",
+      "description": "Lego building event with pizza.",
+      "category": "family"
     },
     {
       "id": "travis-trivium-trivia-2026-09-16",
@@ -345,6 +435,106 @@
       "category": "community"
     },
     {
+      "id": "travis-indoor-rock-climbing-belay-class-2026-09-16",
+      "title": "Indoor Rock Climbing – Belay Class",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "<p>Cost: $10 per person Age: 14+ Belaying = Managing the climbing rope to protect a climber from falling. Required for all individuals to climb within the Travis ODR Climbing Wall to ensure safety. Belay Class Covers: Knots, Rope management, Climbing equipment, Safety concerns No Previous Experience Needed Temporary Belay Card: Provided after class completion, until […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-rappelling-basics-2026-09-18",
+      "title": "Rappelling Basics",
+      "date": "2026-09-18T08:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Cost: $10 per person Age: 14+ We will be teaching you the basic of rappelling – the art of descent safely from the top to bottom of a cliff Part 3 of our 8 part series to make you ready to be an outdoor rock climber. Clinic can be taken individually or part of the […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-karaoke-night-2026-09-18",
+      "title": "Karaoke Night",
+      "date": "2026-09-18T19:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Bring your friends and come sing with us! Doors open at 4:30PM Karaoke starts at 7PM</p>\\n",
+      "category": "entertainment"
+    },
+    {
+      "id": "travis-surfing",
+      "title": "Surfing 101",
+      "date": "2026-09-20T07:00:00",
+      "endDate": "2026-09-20T18:00:00",
+      "location": "Stinson Beach",
+      "address": "Stinson Beach, CA",
+      "description": "$50; ages 16+; transport, instruction, equipment; pre-register by 9/16.",
+      "category": "recreation"
+    },
+    {
+      "id": "travis-story-time-at-the-library-2026-09-22",
+      "title": "Story Time at the Library",
+      "date": "2026-09-22T10:30:00",
+      "endDate": "2026-09-22T11:30:00",
+      "location": "Mitchell Memorial Library",
+      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
+      "description": "<p>Tuesdays at 10:30am Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "travis-kayaking-fundamentals-clinic-2026-09-23",
+      "title": "Kayaking Fundamentals Clinic",
+      "date": "2026-09-23T17:00:00",
+      "endDate": "2026-09-23T19:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "<p>Cost: $10 per person Age: 14+ We will cover gear, paddle strokes, paddle techniques, and have a chance to practice in the comfort of the Travis Aquatics Center This Clinic is a pre-request for our Intro to Whitewater Kayak Weekend in September! No Previous Experience Needed All Equipment Provided. Pre-Register by: 12PM day of event</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-mellow-makers-patched-crewneck-2026-09-24",
+      "title": "Mellow Makers: Patched Crewneck",
+      "date": "2026-09-24T18:30:00",
+      "endDate": "2026-09-24T20:30:00",
+      "location": "Travis Arts & Crafts",
+      "address": "Bldg 226, 511 Suisun Avenue, Travis AFB, CA, 94535",
+      "description": "<p>Join us for our Sweatshirt Design Workshop and create a one-of-a-kind sweatshirt that\\'s uniquely you!</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "travis-octoberfest-duathlon",
+      "title": "Octoberfest Duathlon",
+      "date": "2026-09-26T07:30:00",
+      "endDate": "2026-09-26T12:30:00",
+      "location": "Travis Fitness Center",
+      "address": "Travis AFB, CA",
+      "description": "Run–bike Octoberfest-themed duathlon.",
+      "category": "fitness"
+    },
+    {
+      "id": "travis-ww-kayak-weekend",
+      "title": "Whitewater Kayaking Weekend",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-27T17:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Travis AFB / river campsite, CA",
+      "description": "$250; ages 16+; two-day whitewater skills up to class II with riverside camping.",
+      "category": "recreation"
+    },
+    {
+      "id": "travis-story-time-at-the-library-2026-09-29",
+      "title": "Story Time at the Library",
+      "date": "2026-09-29T10:30:00",
+      "endDate": "2026-09-29T11:30:00",
+      "location": "Mitchell Memorial Library",
+      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
+      "description": "<p>Tuesdays at 10:30am Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
+      "category": "family"
+    },
+    {
       "id": "travis-trivium-trivia-2026-09-30",
       "title": "Trivium Trivia Night",
       "date": "2026-09-30",
@@ -352,16 +542,6 @@
       "location": "Travis AFB",
       "address": "Travis AFB, CA 94535",
       "description": "Recurring trivia night; 60 FSS series page.",
-      "category": "community"
-    },
-    {
-      "id": "travis-family-steam-2026-09-09",
-      "title": "Family STEAM at the Library",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Travis Library",
-      "address": "",
-      "description": "Family STEAM library program; 60 FSS public series.",
       "category": "community"
     },
     {
@@ -393,66 +573,6 @@
       "address": "Travis AFB, CA 94535",
       "description": "Recurring trivia night; 60 FSS series page.",
       "category": "community"
-    },
-    {
-      "id": "travis-911-tower-climb",
-      "title": "9/11 Memorial Tower Climb",
-      "date": "2026-09-07T08:00:00",
-      "endDate": "2026-09-30T17:00:00",
-      "location": "Travis Fitness Center",
-      "address": "Travis AFB, CA",
-      "description": "Ongoing memorial tower climb challenge through September 30.",
-      "category": "fitness"
-    },
-    {
-      "id": "travis-sup",
-      "title": "Stand Up Paddleboarding",
-      "date": "2026-09-12T08:00:00",
-      "endDate": "2026-09-12T17:00:00",
-      "location": "Lake Natoma",
-      "address": "Folsom/Sacramento area, CA",
-      "description": "$50; ages 16+; gear, transport, instruction; pre-register by 9/9.",
-      "category": "recreation"
-    },
-    {
-      "id": "travis-lego-pizza",
-      "title": "Lego Build & Pizza",
-      "date": "2026-09-15T18:30:00",
-      "endDate": "2026-09-15T20:30:00",
-      "location": "Travis Arts & Crafts",
-      "address": "Travis AFB, CA",
-      "description": "Lego building event with pizza.",
-      "category": "family"
-    },
-    {
-      "id": "travis-surfing",
-      "title": "Surfing 101",
-      "date": "2026-09-20T07:00:00",
-      "endDate": "2026-09-20T18:00:00",
-      "location": "Stinson Beach",
-      "address": "Stinson Beach, CA",
-      "description": "$50; ages 16+; transport, instruction, equipment; pre-register by 9/16.",
-      "category": "recreation"
-    },
-    {
-      "id": "travis-octoberfest-duathlon",
-      "title": "Octoberfest Duathlon",
-      "date": "2026-09-26T07:30:00",
-      "endDate": "2026-09-26T12:30:00",
-      "location": "Travis Fitness Center",
-      "address": "Travis AFB, CA",
-      "description": "Run–bike Octoberfest-themed duathlon.",
-      "category": "fitness"
-    },
-    {
-      "id": "travis-ww-kayak-weekend",
-      "title": "Whitewater Kayaking Weekend",
-      "date": "2026-09-26T08:00:00",
-      "endDate": "2026-09-27T17:00:00",
-      "location": "Outdoor Recreation",
-      "address": "Travis AFB / river campsite, CA",
-      "description": "$250; ages 16+; two-day whitewater skills up to class II with riverside camping.",
-      "category": "recreation"
     }
   ],
   "newcomers": {

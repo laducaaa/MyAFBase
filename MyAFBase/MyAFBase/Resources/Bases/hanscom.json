@@ -7,7 +7,7 @@
   "wing": "66 ABG",
   "latitude": 42.47,
   "longitude": -71.289,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "hanscom-notif-real-id",
@@ -321,6 +321,26 @@
   ],
   "events": [
     {
+      "id": "hanscom-hearts-apart-back-to-school-social-2026",
+      "title": "Hearts Apart Back to School Social",
+      "date": "2026-09-09T14:30:00",
+      "endDate": "2026-09-09T16:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "40 Kirtland St, Hanscom AFB, MA, 01731",
+      "description": "Celebrate the new school year with the Hearts Apart community! Families are invited to enjoy an afternoon of ice cream, adorable baby goats, and time together with other military families. This free event is open to all ages and is designed for families of deployed or remote-tour service members, Exceptional Family Member Program (EFMP) families, and single parents. Date: Wednesday, September 9, 2",
+      "category": "community"
+    },
+    {
+      "id": "hanscom-rock-climbing-training-2026-09-09",
+      "title": "Rock Climbing Training",
+      "date": "2026-09-09T15:00:00",
+      "endDate": "2026-09-09T18:00:00",
+      "location": "Hanscom AFB, Bedford, MA",
+      "address": "Hanscom AFB, Bedford, MA",
+      "description": "Rock Climbing is available from Monday through Friday 6 AM to 6 PM",
+      "category": "recreation"
+    },
+    {
       "id": "hanscom-board-game-night-2026-09-09",
       "title": "Board Game Night",
       "date": "2026-09-09T17:30:00",
@@ -339,6 +359,16 @@
       "address": "Hanscom AFB, MA",
       "description": "Trivia Night listed on 66 FSS calendar.",
       "category": "entertainment"
+    },
+    {
+      "id": "hanscom-buckets-brews-2026-09-11",
+      "title": "Buckets & Brews",
+      "date": "2026-09-11T16:00:00",
+      "endDate": "2026-09-11T19:30:00",
+      "location": "Patriot’s Golf Course",
+      "address": "200 Springs Rd, Bedford, 01730",
+      "description": "⛳🍻 Buckets & Brews at Patriot Golf Course 🍻⛳ Join us every Friday from 4:00–7:30 PM on the driving range for the perfect mix of practice and relaxation! 💲 $20 per person includes: ⛳ 1 regular bucket of balls 🍺 5 PBR beers Grab your friends, work on your swing, and enjoy the warmer weather in a fun, laid-back atmosphere. It’s the perfect way to kick off your weekend! 🌞",
+      "category": "recreation"
     },
     {
       "id": "hanscom-karaoke-2026-09-11",
@@ -361,6 +391,16 @@
       "category": "entertainment"
     },
     {
+      "id": "hanscom-darts-tournament-2026-09-16",
+      "title": "Darts Tournament",
+      "date": "2026-09-16T17:30:00",
+      "endDate": "2026-09-16T19:30:00",
+      "location": "Hanscom AFB, Bedford, MA",
+      "address": "Hanscom AFB, Bedford, MA",
+      "description": "Darts Tournament — public FSS/MWR calendar listing.",
+      "category": "recreation"
+    },
+    {
       "id": "hanscom-oktoberfest-2026",
       "title": "Oktoberfest",
       "date": "2026-09-18T15:00:00",
@@ -369,6 +409,46 @@
       "address": "180 Marrett St, Hanscom AFB, MA 01731",
       "description": "Free community Oktoberfest with food, live music, crafts, and games for those with base access. Source: 66 FSS.",
       "category": "community"
+    },
+    {
+      "id": "hanscom-back-to-school-5k-fun-run-walk-2026-09-2",
+      "title": "Back to School 5K Fun Run/Walk",
+      "date": "2026-09-21T08:00:00",
+      "endDate": "2026-09-21T09:00:00",
+      "location": "Hanscom Fitness and Sports Center",
+      "address": "180 Marrett St, Hanscom AFB, MA, 01731",
+      "description": "Kick off the new school year with the Back-to-School 5K Fun Run/Walk! Runners and walkers of all ages and fitness levels are invited to join the Fitness & Sports Center for a fun, active morning. Commander’s Cup points will be awarded to the first-, second- and third-place male and female finishers, as well as the unit with the most participation. Date: Monday, September 21, 2026 Check-in: 7:30 AM",
+      "category": "fitness"
+    },
+    {
+      "id": "hanscom-karaoke-night-2026-09-25",
+      "title": "Karaoke Night",
+      "date": "2026-09-25T19:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "Karaoke Night at The Tavern Get ready to grab the mic and sing your heart out! Join us at The Tavern on Friday, September 25 for a fun-filled night of music, friends, and karaoke. Whether you’re ready to take center stage or prefer to cheer on the singers, everyone is welcome to join the fun. Pick your favorite song, bring your friends, and get ready for a night of great memories and good times! 📅",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-board-game-night-2026-10-14",
+      "title": "Board Game Night",
+      "date": "2026-10-14T17:30:00",
+      "endDate": "2026-10-14T19:30:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "🎲 Board Game Night at the Tavern 🎲 Join us every 2nd Wednesday of the month at 5:30 PM for a fun and relaxed Board Game Night at the Tavern! This free event (ages 18+) is perfect for anyone looking to learn something new or just enjoy a night out. Each month features a new game, with an instructor on hand to teach the rules and guide play—no experience needed! Come solo or bring friends and get re",
+      "category": "community"
+    },
+    {
+      "id": "hanscom-darts-tournament-2026-10-21",
+      "title": "Darts Tournament",
+      "date": "2026-10-21T17:30:00",
+      "endDate": "2026-10-21T19:30:00",
+      "location": "Hanscom AFB, Bedford, MA",
+      "address": "Hanscom AFB, Bedford, MA",
+      "description": "Darts Tournament — public FSS/MWR calendar listing.",
+      "category": "recreation"
     }
   ],
   "newcomers": {

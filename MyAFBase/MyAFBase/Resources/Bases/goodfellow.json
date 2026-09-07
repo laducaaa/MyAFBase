@@ -7,7 +7,7 @@
   "wing": "17 TRW",
   "latitude": 31.4327,
   "longitude": -100.4056,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "goodfellow-notif-real-id",
@@ -264,7 +264,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "goodfellow-william-lee-martin-seemed-smart-at-the-time-2026-09-1",
+      "title": "William Lee Martin: Seemed Smart at the Time",
+      "date": "2026-09-11T19:30:00",
+      "endDate": "2026-09-11T21:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "William Lee Martin is the comic who finds the humor in life’s decisions that seemed smart at the time. From marriage and parenting to money, pride, and poor judgment, William",
+      "category": "community"
+    },
+    {
+      "id": "goodfellow-intro-to-pottery-2026-09-12",
+      "title": "Intro to Pottery",
+      "date": "2026-09-12T12:00:00",
+      "endDate": "2026-09-12T15:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🏺 Get Creative with Intro to Pottery! 🏺 Ready to get your hands dirty and create something unique? Join us for Intro to Pottery on September 12th from 12:00 PM–3:00",
+      "category": "recreation"
+    },
+    {
+      "id": "goodfellow-card-game-night-2026-09-12",
+      "title": "Card Game Night",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "♠️♥️ Card Game Night at the Powell Event Center ♦️♣️ Shuffle up and join us for an evening of friendly competition, strategy, and fun! Whether you’re a seasoned card shark",
+      "category": "entertainment"
+    },
+    {
+      "id": "goodfellow-youth-book-party-2026-09-14",
+      "title": "Youth Book Party",
+      "date": "2026-09-14T17:00:00",
+      "endDate": "2026-09-14T18:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Youth Book Party @ the Library September 14th 5pm-6pm FMI: 325-654-3232",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-intro-to-pottery-2026-09-14",
+      "title": "Intro to Pottery",
+      "date": "2026-09-14T17:00:00",
+      "endDate": "2026-09-14T18:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Youth Book Party @ the Library September 14th 5pm-6pm FMI: 325-654-3232",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-fibers-club-2026-09-15",
+      "title": "Fibers Club",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T19:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Fibers Club is September 1st & 15th 10:30am-12:30pm in the Goodfellow Library! FMI: 325-654-3232",
+      "category": "education"
+    },
+    {
+      "id": "goodfellow-tekken-8-tournament-2026-09-18",
+      "title": "Tekken 8 Tournament",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T18:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🔥 The stage is set. The fight begins. 🔥 Join us for a high-energy Guilty Gear Strive Tournament! 🗓 September 18th ⏰ 6:00 PM 📍 Powell Event Center Dust off",
+      "category": "community"
+    },
+    {
+      "id": "goodfellow-fright-fest-fiesta-texas-2026-09-19",
+      "title": "Fright Fest Fiesta Texas",
+      "date": "2026-09-19T07:30:00",
+      "endDate": "2026-09-19T21:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎢👻 Ready for thrills, chills, and nonstop fun? Join us for a trip to Six Flags Fiesta Texas Fright Fest! 📅 Saturday, September 12 🕢 Departure: 7:30 AM 🕘 Return:",
+      "category": "community"
+    },
+    {
+      "id": "goodfellow-family-day-at-samfa-sound-into-color-2026-09-19",
+      "title": "Family Day at SAMFA: Sound Into Color",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "The San Angelo Museum of Fine Arts invites families to attend Family Day on Saturday, September 19, 2026, from 10 AM to 2 PM at the Education Studio, located in",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-monsters-of-mathis-2026-09-19",
+      "title": "Monsters of Mathis",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T10:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "💪👹 MONSTERS OF MATHIS POWERLIFT 👹💪 Think you’ve got what it takes to lift like a monster? 🏋️‍♂️🔥 Come out and watch the Monsters of Mathis Powerlift as competitors put",
+      "category": "community"
+    },
+    {
+      "id": "goodfellow-clay-hand-building-2026-09-19",
+      "title": "Clay Hand Building",
+      "date": "2026-09-19T12:00:00",
+      "endDate": "2026-09-19T15:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "In the Arts & Crafts building 109 September 19th, join in on Clay Hand Building 12pm-3pm. Cost: $15 Includes clay, tools, glazes, firing & guided instructions. FMI: 325-654-3237",
+      "category": "recreation"
+    },
+    {
+      "id": "goodfellow-oktoberfest-2026-09-25",
+      "title": "Oktoberfest",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🍻🎉 Oktoberfest is here! 🎉🍻 Grab your friends and join us for an evening of great food, cold beer, live entertainment, and festive fun! 📅 Friday, September 25 🕓 4:00",
+      "category": "holiday"
+    },
+    {
+      "id": "goodfellow-horseback-riding-2026-09-26",
+      "title": "Horseback Riding",
+      "date": "2026-09-26T06:15:00",
+      "endDate": "2026-09-26T16:45:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Saddle up for an unforgettable adventure in the Texas Hill Country! Join us for Horseback Riding in the Texas Hill Country on September 26th! Enjoy a 1.5–2 hour trail ride",
+      "category": "outdoor"
+    },
+    {
+      "id": "goodfellow-card-game-night-2026-09-26",
+      "title": "Card Game Night",
+      "date": "2026-09-26T17:00:00",
+      "endDate": "2026-09-26T22:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "♠️♥️ Card Game Night at the Powell Event Center ♦️♣️ Shuffle up and join us for an evening of friendly competition, strategy, and fun! Whether you’re a seasoned card shark",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

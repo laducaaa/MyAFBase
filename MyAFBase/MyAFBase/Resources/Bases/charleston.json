@@ -7,7 +7,7 @@
   "wing": "628 ABW / 437 AW",
   "latitude": 32.9346,
   "longitude": -80.0406,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "charleston-notif-real-id",
@@ -299,6 +299,16 @@
   ],
   "events": [
     {
+      "id": "charleston-labor-day-meal-2026-09-07",
+      "title": "Labor Day Meal",
+      "date": "2026-09-07T00:00:00",
+      "endDate": "2026-09-07T23:59:59",
+      "location": "AB Gaylor Dining Facility",
+      "address": "211 N Davis Dr, Joint Base Charleston, SC, 29404",
+      "description": "Special Labor Day Meal",
+      "category": "holiday"
+    },
+    {
       "id": "charleston-911-remembrance-5k-2026-09-09",
       "title": "9/11 Remembrance 5K Run",
       "date": "2026-09-09",
@@ -309,6 +319,76 @@
       "category": "community"
     },
     {
+      "id": "charleston-mfrc-on-the-go-2026-09-10",
+      "title": "MFRC on the Go",
+      "date": "2026-09-10T00:00:00",
+      "endDate": "2026-09-10T23:59:59",
+      "location": "NWS Sams Gym/Library promenade",
+      "address": "Joint Base Charleston, SC",
+      "description": "On the go Outreach for MFRC resources 0800-1000",
+      "category": "community"
+    },
+    {
+      "id": "charleston-open-sweepers-2026-09-12",
+      "title": "Open Sweepers",
+      "date": "2026-09-12T00:00:00",
+      "endDate": "2026-09-12T23:59:59",
+      "location": "Starlifter Lanes",
+      "address": "106 W McCaw St, Joint Base Charleston, SC, 29404",
+      "description": "Open Sweepers — public FSS/MWR calendar listing.",
+      "category": "community"
+    },
+    {
+      "id": "charleston-nws-fss-scavenger-hunt-2026-09-13",
+      "title": "NWS FSS Scavenger Hunt",
+      "date": "2026-09-13T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "NWS FSS Facilities",
+      "address": "Joint Base Charleston, SC",
+      "description": "Week long camaraderie and awareness event ending with the hibachi hero band on saturday",
+      "category": "community"
+    },
+    {
+      "id": "charleston-jblg-nws-cdc-open-house-2026-09-16",
+      "title": "JBLG – NWS CDC Open House",
+      "date": "2026-09-16T17:15:00",
+      "endDate": "2026-09-16T18:30:00",
+      "location": "NWS CDC",
+      "address": "Joint Base Charleston, SC",
+      "description": "Come see what’s happening at the NWS Child Development Center! Explore classroom activities connected to the ELM curriculum, meet with staff, and learn about community resources available to families. Parents and children are welcome to participate.",
+      "category": "family"
+    },
+    {
+      "id": "charleston-odr-surfside-social-2026-09-17",
+      "title": "ODR – Surfside Social",
+      "date": "2026-09-17T00:00:00",
+      "endDate": "2026-09-17T23:59:59",
+      "location": "The wash at Folly Beach",
+      "address": "Joint Base Charleston, SC",
+      "description": "For those who are learning to surf or already know how to surf, this meet up is for you. 8am-Noon",
+      "category": "outdoor"
+    },
+    {
+      "id": "charleston-stem-day-2026-09-19",
+      "title": "STEM Day",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Joint Base Charleston, SC",
+      "address": "Joint Base Charleston, SC",
+      "description": "STEM Day — public FSS/MWR calendar listing.",
+      "category": "education"
+    },
+    {
+      "id": "charleston-sibshops-2026-09-19",
+      "title": "Sibshops",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Joint Base Charleston, SC",
+      "address": "Joint Base Charleston, SC",
+      "description": "Sibling Support workshop facilitated bt EFMP-FS to promote family resiliency",
+      "category": "education"
+    },
+    {
       "id": "charleston-bells-across-america-2026-09-22",
       "title": "Bells Across America (Gold Star Families)",
       "date": "2026-09-22",
@@ -317,6 +397,46 @@
       "address": "Joint Base Charleston, SC",
       "description": "Gold Star Families Bells Across America ceremony; jbcharleston.com September Calendar.",
       "category": "community"
+    },
+    {
+      "id": "charleston-family-movie-night-2026-09-25",
+      "title": "Family Movie Night",
+      "date": "2026-09-25T00:00:00",
+      "endDate": "2026-09-25T23:59:59",
+      "location": "NWS Library",
+      "address": "Joint Base Charleston, SC",
+      "description": "Family-friendly movie at the library",
+      "category": "entertainment"
+    },
+    {
+      "id": "charleston-joint-base-lindsey-graham-golf-champi",
+      "title": "Joint Base Lindsey Graham Golf Championship",
+      "date": "2026-10-17T00:00:00",
+      "endDate": "2026-10-18T23:59:59",
+      "location": "AB & NWS Golf Course",
+      "address": "Joint Base Charleston, SC",
+      "description": "Tournament Round 1 at Redbank GC, Round 2 at Wrenwoods GC",
+      "category": "recreation"
+    },
+    {
+      "id": "charleston-boo-bash-2026-10-23",
+      "title": "Boo Bash",
+      "date": "2026-10-23T00:00:00",
+      "endDate": "2026-10-23T23:59:59",
+      "location": "NWS Library",
+      "address": "Joint Base Charleston, SC",
+      "description": "Trunk or Treat, Costume Contests, Library “Walkthrough”",
+      "category": "holiday"
+    },
+    {
+      "id": "charleston-warrior-5k-2026-10-23",
+      "title": "Warrior 5k",
+      "date": "2026-10-23T00:00:00",
+      "endDate": "2026-10-23T23:59:59",
+      "location": "AB Fitness Center",
+      "address": "205 W Hill Blvd, Charleston, SC, 29404",
+      "description": "5k Run/Walk",
+      "category": "fitness"
     }
   ],
   "newcomers": {

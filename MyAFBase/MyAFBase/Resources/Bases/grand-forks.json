@@ -7,7 +7,7 @@
   "wing": "319 RW",
   "latitude": 47.9611,
   "longitude": -97.4012,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "grand-forks-notif-real-id",
@@ -253,7 +253,148 @@
       "building": "Bldg 812"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "grand-forks-lab-lesson-2026-09-08",
+      "title": "Lab & Lesson",
+      "date": "2026-09-08T13:00:00",
+      "endDate": "2026-09-08T15:00:00",
+      "location": "Library",
+      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
+      "description": "Get ready to experiment and explore with Lab & Lesson at the Library! Join us on the 2nd & 4th Tuesday of every month, from 1pm to 3pm, for this",
+      "category": "education"
+    },
+    {
+      "id": "grand-forks-family-skate-night-2026-09-11",
+      "title": "Family Skate Night",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T22:00:00",
+      "location": "Youth & Teen Center",
+      "address": "470 Tuskegee Airmen Blvd. Bldg. 316, Grand Forks AFB, ND, 58205",
+      "description": "Roll on down to the Youth & Teen Center for Family Skate Night! Join us for 4 hours of open skating fun! Plus, we'll have music, games, snacks available for",
+      "category": "entertainment"
+    },
+    {
+      "id": "grand-forks-give-parents-a-break-2026-09-12",
+      "title": "Give Parents a Break",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T21:00:00",
+      "location": "Child Development Center",
+      "address": "1683 J Street Bldg. 168, Grand Forks AFB, ND, 58205",
+      "description": "Let us entertain your kids, while you take a few hours off! The Give Parents a Break program is funded by the Air Force Aid Society and provides childcare for",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-free-movie-night-2026-09-18",
+      "title": "Free Movie Night",
+      "date": "2026-09-18T17:30:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "Base Theater",
+      "address": "551 Holzapple St., Grand Forks AFB, ND, 58205",
+      "description": "Join us on Friday, 18 September for a FREE Movie Night at the Base Theater! We'll be showing a double-feature presentation of TBD (G/PG), followed by TBD (PG-13/R). Doors open",
+      "category": "entertainment"
+    },
+    {
+      "id": "grand-forks-tails-trails-5k-run-walk-2026-09-25",
+      "title": "Tails & Trails 5K Run/Walk",
+      "date": "2026-09-25T15:00:00",
+      "endDate": "2026-09-25T16:30:00",
+      "location": "5k Trail (across from the Fitness Center)",
+      "address": "449 Tuskegee Airman Blvd, Bldg 384, Grand Forks AFB, ND, 58205",
+      "description": "Grab your leash, lace up your sneakers, and join us on 25 September at the 5K Trail for a 5K run/walk for you and your pets! The run/walk kicks off at",
+      "category": "fitness"
+    },
+    {
+      "id": "grand-forks-hybrid-community-game-night-2026-09-25",
+      "title": "Hybrid Community Game Night",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T18:00:00",
+      "location": "ZeroGround Esports Lounge",
+      "address": "449 Tuskegee Airmen Blvd. Bldg. 384, Grand Forks AFB, ND, 58205",
+      "description": "Join us on the 4th Friday of every month for GFAFB Gaming's Hybrid Community Game Night! Join in-person at ZeroGround Esports Lounge / Fitness Center or virtually in the GFAFB",
+      "category": "fitness"
+    },
+    {
+      "id": "grand-forks-steam-saturday-pirates-2026-09-26",
+      "title": "STEAM Saturday: Pirates",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Library",
+      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
+      "description": "Arrr! Avast ye land lubbers! Join us at the Library on Saturday, 26 September from 1pm to 3pm for swashbuckling afternoon of STEAM fun! Enjoy pirate-themed water experiments, treasure hunts,",
+      "category": "education"
+    },
+    {
+      "id": "grand-forks-first-friday-2026-10-02",
+      "title": "First Friday",
+      "date": "2026-10-02T15:30:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Northern Lights Club",
+      "address": "652 Holzapple St. Bldg. 118, Grand Forks AFB, ND, 58205",
+      "description": "Join us on 2 October for a special Oktoberfest themed First Friday, hosted by the 319th Communications Squadron! Enjoy sausage and spaetzle + pretzels and beer cheese for dinner! Cost",
+      "category": "holiday"
+    },
+    {
+      "id": "grand-forks-kids-craft-class-2026-10-06",
+      "title": "Kids Craft Class",
+      "date": "2026-10-06T15:30:00",
+      "endDate": "2026-10-06T16:30:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Get crafty with Arts & Crafts’ Kids Classes! Join us every other Tuesday as we create a fun, kid-friendly craft! Cost is $5 per child Sign up with Arts & Crafts",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-free-movie-night-2026-10-09",
+      "title": "Free Movie Night",
+      "date": "2026-10-09T17:30:00",
+      "endDate": "2026-10-09T22:00:00",
+      "location": "Base Theater",
+      "address": "551 Holzapple St., Grand Forks AFB, ND, 58205",
+      "description": "Join us on Friday, 9 October for a FREE Movie Night at the Base Theater! We'll be showing a double-feature presentation of TBD (G/PG), followed by TBD (PG-13/R). Doors open",
+      "category": "entertainment"
+    },
+    {
+      "id": "grand-forks-give-parents-a-break-2026-10-10",
+      "title": "Give Parents a Break",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T14:00:00",
+      "location": "Child Development Center",
+      "address": "1683 J Street Bldg. 168, Grand Forks AFB, ND, 58205",
+      "description": "Let us entertain your kids, while you take a few hours off! The Give Parents a Break program is funded by the Air Force Aid Society and provides childcare for",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-beginning-crochet-2026-10-13",
+      "title": "Beginning Crochet",
+      "date": "2026-10-13T11:00:00",
+      "endDate": "2026-10-13T13:00:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Want to pick up the perfect new hobby for winter? Join us at Arts & Crafts on 13 October for Beginning Crochet! Learn the basic crochet stitches including chain stitch,",
+      "category": "recreation"
+    },
+    {
+      "id": "grand-forks-beginning-knitting-2026-10-21",
+      "title": "Beginning Knitting",
+      "date": "2026-10-21T11:00:00",
+      "endDate": "2026-10-21T13:00:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Ever wanted to learn how to knit? Join us at Arts & Crafts on 21 October for Beginning Knitting! Learn basic knitting skills such as cast on, cast off, knit,",
+      "category": "recreation"
+    },
+    {
+      "id": "grand-forks-scrapbooking-papercrafting-day-2026-10-24",
+      "title": "Scrapbooking & Papercrafting Day",
+      "date": "2026-10-24T09:00:00",
+      "endDate": "2026-10-24T16:00:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Join us for a day of FREE crafting and scrapbooking fun! Drop-in any time between 9am to 4pm to work on your current creation! Enhance your project with our Cricut",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 812)",

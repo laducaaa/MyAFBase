@@ -7,7 +7,7 @@
   "wing": "55 WG",
   "latitude": 41.1183,
   "longitude": -95.915,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "offutt-notif-real-id",
@@ -285,6 +285,36 @@
       "category": "community"
     },
     {
+      "id": "offutt-4-person-hot-ball-scramble-2026-09-12",
+      "title": "4-Person Hot Ball Scramble",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Willow Lakes Golf Course",
+      "address": "12301 S. 25th St, Bellevue, NE, United States",
+      "description": "🔥🏌️Get your golf game sizzling! Register for the 14th ANNUAL 4-PERSON HOT BALL SCRAMBLE at Willow Lakes Golf Course. Saturday, September 12 with a 9:30am shotgun start. Three members of each team play a scramble format. The fourth golfer plays an individual HOT BALL. Both results are added up to score the hole.  ONLY $45 […]",
+      "category": "community"
+    },
+    {
+      "id": "offutt-bike-bus-mud-fun-2026-09-13",
+      "title": "Bike Bus & Mud Fun",
+      "date": "2026-09-13",
+      "endDate": "2026-09-13",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
+      "description": "🚲💦 💥 Ride, race, and get muddy! Sign your kids up for the BIKE BUS & MUD FUN hosted by Offutt Outdoor Rec. 📅 Sunday, September 13 ⏰ 1 – 3pm 📍 Offutt Base Lake Kids ages 10+ can bring their bikes for an afternoon of: 🚲 Bike racing, mud riding, and riding around the lake 🏆 Prizes & bike swag 🍿 […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-end-of-summer-bash-2026-09-18",
+      "title": "End of Summer Bash",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
+      "description": "🎉 Celebrate summer’s last hurrah with a fun-filled evening for all ages! Head to the END OF SUMMER BASH at the Offutt Base Lake on Friday, September 18 from 4 - 7pm. Packed with FREE activities, food, and family fun: 🦎 Critter Close-Ups 🌭 Hot dogs, chips, drinks, and ice cream (while supplies last). 🍺 Alcoholic beverages will be […]",
+      "category": "community"
+    },
+    {
       "id": "offutt-car-show-2026-09-19",
       "title": "2026 Offutt Car Show",
       "date": "2026-09-19",
@@ -303,6 +333,46 @@
       "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
       "description": "Moon night with Omaha Astronomical Society; Outdoor Rec; 55 FSS.",
       "category": "community"
+    },
+    {
+      "id": "offutt-hornady-ammunition-plant-tour-2026-09-23",
+      "title": "Hornady Ammunition Plant Tour",
+      "date": "2026-09-23",
+      "endDate": "2026-09-23",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "🏭🎯 An exclusive behind-the-scenes tour! Register for the HORNADY AMMUNITION PLANT TOUR hosted by Offutt Outdoor Rec. 📅 Wednesday, September 23 📍 Grand Island, NE 🚌 Depart Outdoor Rec at […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-playground-hangout-nature-scavenger-hunt-2026-09-23",
+      "title": "Playground Hangout: Nature Scavenger Hunt",
+      "date": "2026-09-23",
+      "endDate": "2026-09-23",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
+      "description": "🌿 Adventure is waiting just beyond the trail! Grab your family and explore during PLAYGROUND HANGOUT: NATURE SCAVENGER HUNT hosted by Offutt Outdoor Rec. We’ll hike around the lOffutt Base Lake, search for […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-couples-canoe-movie-night-2026-09-25",
+      "title": "Couples Canoe & Movie Night",
+      "date": "2026-09-25",
+      "endDate": "2026-09-25",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
+      "description": "🌅 One unforgettable date night. Sign up for the COUPLES CANOE & MOVIE NIGHT hosted by Offutt Outdoor Rec. 🗓 Friday, September 25 📍 Offutt Base Lake | Eagles Landing 🕡 […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-ladies-kayaking-night-2026-10-09",
+      "title": "Ladies Kayaking Night",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
+      "description": "🌊 New to kayaking? Grab a paddle and give it a try! Register for LADIES KAYAKING NIGHT hosted by Offutt Outdoor Rec. 🛶 Friday, October 9  from 5:30–8:30pm 📍 Offutt Base Lake Designed for […]",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

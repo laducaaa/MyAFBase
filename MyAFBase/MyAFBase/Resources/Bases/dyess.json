@@ -7,7 +7,7 @@
   "wing": "7 BW",
   "latitude": 32.4208,
   "longitude": -99.8546,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "dyess-notif-real-id",
@@ -242,7 +242,148 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "dyess-fatherhood-effects-workshop-2026-09-07",
+      "title": "Fatherhood Effects Workshop",
+      "date": "2026-09-07T11:00:00",
+      "endDate": "2026-09-07T13:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Come to a lunch and learn hosted by BCFS we will talk about how to: Resolve conflict and improve communication in your family.Improve your children’s behavior problemsDealing with complicated emotionsOvercoming",
+      "category": "family"
+    },
+    {
+      "id": "dyess-tinker-time-2026-09-07",
+      "title": "Tinker Time",
+      "date": "2026-09-07T14:00:00",
+      "endDate": "2026-09-07T18:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Learn with play using building blocks, magnets, marbles, & more! A come & go program for all ages. Every Monday, excluding Federal Holidays. Contact: Sara Ritson Email: sara.ritson@us.af.mil Phone: 325-696-6873",
+      "category": "community"
+    },
+    {
+      "id": "dyess-lego-builders-2026-09-08",
+      "title": "Lego Builders",
+      "date": "2026-09-08T09:30:00",
+      "endDate": "2026-09-08T11:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Come build with us at your Dyess Library! We will have an assortment of building materials including Lego's, KEVA Blocks, and more! Come and go program for all ages. Every",
+      "category": "family"
+    },
+    {
+      "id": "dyess-reintegration-2026-09-08",
+      "title": "Reintegration",
+      "date": "2026-09-08T09:30:00",
+      "endDate": "2026-09-08T10:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Required by all AF Members returning from TDY/Remote TDY and a Deployment that are more than 30 days and members PCSing to a Remote assignment. Spouses are highly encouraged to",
+      "category": "community"
+    },
+    {
+      "id": "dyess-basic-budgeting-2026-09-08",
+      "title": "Basic Budgeting",
+      "date": "2026-09-08T13:00:00",
+      "endDate": "2026-09-08T16:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Learn the basic tenets of money management, controlling spending, and taking back control of personal finances. Attendees will build a detailed household budget along with instructions on how to continue",
+      "category": "community"
+    },
+    {
+      "id": "dyess-dungeons-dragons-short-sessions-2026-09-08",
+      "title": "Dungeons & Dragons Short Sessions",
+      "date": "2026-09-08T16:30:00",
+      "endDate": "2026-09-08T19:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Dungeons & Dragons during the week? Yes, please! Join us every Tuesday, excluding holidays, for a short session of D&D. All experience levels welcome. We have character sheets and dice",
+      "category": "community"
+    },
+    {
+      "id": "dyess-fatherhood-effects-workshop-2026-09-09",
+      "title": "Fatherhood Effects Workshop",
+      "date": "2026-09-09T11:00:00",
+      "endDate": "2026-09-09T13:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Come learn how to: Resolve conflict and improve communication in your family.Improve your children’s behavior problemsDealing with complicated emotionsOvercoming issues of aggression, alcohol and violence 24/7 Dad curriculum teaches the",
+      "category": "family"
+    },
+    {
+      "id": "dyess-remembrance-5k-honoring-9-11-2026-09-11",
+      "title": "Remembrance 5K • Honoring 9/11",
+      "date": "2026-09-11T08:15:00",
+      "endDate": "2026-09-11T10:15:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Join us as we come together to honor the heroes, lives lost, and all who were impacted on September 11. This Remembrance 5K invites our Dyess community to walk, run,",
+      "category": "fitness"
+    },
+    {
+      "id": "dyess-dungeons-dragons-2026-09-12",
+      "title": "Dungeons & Dragons",
+      "date": "2026-09-12T13:30:00",
+      "endDate": "2026-09-12T17:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Interested in playing Dungeons & Dragons but never have? Enjoy playing but don't have a current group? Join the library in our family friendly Dungeons & Dragons game. For new",
+      "category": "education"
+    },
+    {
+      "id": "dyess-thunder-alley-cosmic-bowling-2026-09-12",
+      "title": "Thunder Alley: Cosmic Bowling",
+      "date": "2026-09-12T17:00:00",
+      "endDate": "2026-09-12T21:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Thunder Alley: Cosmic Bowling at Dyess AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "dyess-lego-builders-2026-09-15",
+      "title": "Lego Builders",
+      "date": "2026-09-15T09:30:00",
+      "endDate": "2026-09-15T11:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Come build with us at your Dyess Library! We will have an assortment of building materials including Lego's, KEVA Blocks, and more! Come and go program for all ages. Every",
+      "category": "family"
+    },
+    {
+      "id": "dyess-ksl-quarterly-continuing-education-and-networkin-2026-09-1",
+      "title": "KSL Quarterly Continuing Education and Networking",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T19:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "M&FRC provides networking/education opportunities to compliment Initial KSL training for both KSLs and KSMs. Contact: Military and Family Readiness Email: 7fss.a.frc@us.af.mil Phone: 325-696-5999",
+      "category": "education"
+    },
+    {
+      "id": "dyess-trivia-night-the-bomb-shelter-bar-2026-09-18",
+      "title": "Trivia Night @ The Bomb Shelter Bar",
+      "date": "2026-09-18T17:30:00",
+      "endDate": "2026-09-18T19:30:00",
+      "location": "Hangar Center",
+      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
+      "description": "Think you’ve got the brains to beat the bar? Bring your best guesses, wild hunches, and random knowledge for a night of free trivia, laughs, and friendly competition at the",
+      "category": "entertainment"
+    },
+    {
+      "id": "dyess-free-pool-tournament-2026-09-23",
+      "title": "Free Pool Tournament",
+      "date": "2026-09-23T17:30:00",
+      "endDate": "2026-09-23T19:30:00",
+      "location": "Hangar Center",
+      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
+      "description": "Wednesday, September 23 | 5:30 PM–7:30 PM Hangar Center | 357 Ave B, Building 7106 Rack ’em up and join us for a FREE Pool Tournament at Hangar Center! Whether",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 9265)",

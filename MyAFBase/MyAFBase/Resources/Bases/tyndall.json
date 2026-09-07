@@ -7,7 +7,7 @@
   "wing": "325 FW",
   "latitude": 30.0696,
   "longitude": -85.5756,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "tyndall-notif-real-id",
@@ -407,6 +407,26 @@
       "category": "community"
     },
     {
+      "id": "tyndall-youth-programs-homeschool-open-gym-2026-09-07",
+      "title": "Youth Programs Homeschool Open Gym",
+      "date": "2026-09-07T09:00:00",
+      "endDate": "2026-09-07T11:00:00",
+      "location": "Youth Center Ball Fields",
+      "address": "3223, 2700 Sabre Dr, Tyndall AFB, FL, 32403",
+      "description": "<p>HOMESCHOOL OPEN GYM IS HERE! Looking for a fun way to get out of the house, stay active, and connect with other homeschool families? Join us every Monday during the school year for Homeschool Open Gym at the Tyndall Youth Center! Beginning August 31 9–11 AM Tyndall Youth CenterHomeschool families on Tyndall and DoD ID […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-tyndall-fitness-yoga-2026-09-08",
+      "title": "Tyndall Fitness Yoga",
+      "date": "2026-09-08T12:00:00",
+      "endDate": "2026-09-08T13:00:00",
+      "location": "Fitness Center",
+      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
+      "description": "<p>A foundational, user-friendly yoga class designed to improve the health, performance and mental acuity of any individual interested. A beginner or seasoned, this class is for everyone. Note: No classes on Family Days or holidays. All classes are subject to cancellation on short notice. For questions, call 850-283-2403.</p>\\n",
+      "category": "fitness"
+    },
+    {
       "id": "tyndall-mfrc-car-buying-2026-09-10",
       "title": "M&FRC Car Buying Workshop",
       "date": "2026-09-10",
@@ -425,6 +445,106 @@
       "address": "Tyndall AFB, FL",
       "description": "Home buying workshop; 325 FSS homepage listing.",
       "category": "community"
+    },
+    {
+      "id": "tyndall-mfrc-car-buying-workshop-2026-09-10",
+      "title": "MFRC Car Buying Workshop",
+      "date": "2026-09-10T11:30:00",
+      "endDate": "2026-09-10T13:00:00",
+      "location": "Base Support Center",
+      "address": "445 Suwannee Rd, Bldg 662, Tyndall, FL, 32403",
+      "description": "<p>Thinking about refinancing your current auto loan or buying your first car? Get the facts, tools, and confidence you need to make smart financial decisions. In this workshop is facilitated by Tyndall Federal Credit Union, you\\'ll learn: Understanding Credit scores and reports Creating a realistic car-buying budget. Auto loans, interest rates, and loan terms Dealer […]</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "tyndall-tyndall-fitness-yoga-2026-09-10",
+      "title": "Tyndall Fitness Yoga",
+      "date": "2026-09-10T12:00:00",
+      "endDate": "2026-09-10T13:00:00",
+      "location": "Fitness Center",
+      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
+      "description": "<p>A foundational, user-friendly yoga class designed to improve the health, performance and mental acuity of any individual interested. A beginner or seasoned, this class is for everyone. Note: No classes on Family Days or holidays. All classes are subject to cancellation on short notice. For questions, call 850-283-2403.</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "tyndall-tyndall-youth-hero-fun-run-2026-09-11",
+      "title": "Tyndall Youth – Hero Fun Run",
+      "date": "2026-09-11T16:00:00",
+      "endDate": "2026-09-11T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>🦸‍♂️🦸‍♀️Youth Superhero Fun Run 🏃‍♀️💨 Suit up, lace up, and unleash your inner superhero! Join Tyndall AFB Youth Programs - 325 FSS for an evening of family-friendly fun at the Youth Superhero Fun Run on Thursday, September 11 at the Tyndall AFB Track. 📆Event Details: ⏰Registration: 4:00 PM 🏃 Fun Run: 5:00 PM – 6:00 […]</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "tyndall-tyndall-fitness-what-a-ride-duathlon-2026-09-12",
+      "title": "Tyndall Fitness What-A-Ride Duathlon",
+      "date": "2026-09-12T07:00:00",
+      "endDate": "2026-09-12T09:00:00",
+      "location": "Fitness Center",
+      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
+      "description": "<p>Ready to test your endurance? Join Tyndall Fitness for the What-a-Ride Duathlon! Saturday, August 12 7:00–9:00 AM Fitness Center Racquetball CourtChallenge yourself with a 5K run followed by an IC6 Indoor Cycle ride. The top 3 finishers in each gender will take home a gift card! FREE to participate! Register here: https://www.webscorer.com/register?pid=1&raceid=439962.Eligible participants:• Ac",
+      "category": "fitness"
+    },
+    {
+      "id": "tyndall-weekend-warrior-2026-09-12",
+      "title": "Weekend Warrior",
+      "date": "2026-09-12T09:00:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL, 32403",
+      "description": "<p> Weekend Warrior is HERE! Tyndall Outdoor Recreation is giving our Tyndall Dorm Residents the perfect reason to get outside and explore! Every weekend, dorm residents can rent ONE item for FREE for the day! Choose from: Kayaks, Canoes, or Paddleboards E-Bikes or Scooters Fishing Poles Whether you’re paddling the bay, cruising the trails, or casting […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-weekend-warrior-2026-09-13",
+      "title": "Weekend Warrior",
+      "date": "2026-09-13T09:00:00",
+      "endDate": "2026-09-13T17:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL, 32403",
+      "description": "<p> Weekend Warrior is HERE! Tyndall Outdoor Recreation is giving our Tyndall Dorm Residents the perfect reason to get outside and explore! Every weekend, dorm residents can rent ONE item for FREE for the day! Choose from: Kayaks, Canoes, or Paddleboards E-Bikes or Scooters Fishing Poles Whether you’re paddling the bay, cruising the trails, or casting […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-youth-programs-homeschool-open-gym-2026-09-14",
+      "title": "Youth Programs Homeschool Open Gym",
+      "date": "2026-09-14T09:00:00",
+      "endDate": "2026-09-14T11:00:00",
+      "location": "Youth Center Ball Fields",
+      "address": "3223, 2700 Sabre Dr, Tyndall AFB, FL, 32403",
+      "description": "<p>HOMESCHOOL OPEN GYM IS HERE! Looking for a fun way to get out of the house, stay active, and connect with other homeschool families? Join us every Monday during the school year for Homeschool Open Gym at the Tyndall Youth Center! Beginning August 31 9–11 AM Tyndall Youth CenterHomeschool families on Tyndall and DoD ID […]</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-checkertail-welcome-2026-09-17",
+      "title": "Checkertail Welcome",
+      "date": "2026-09-17T08:00:00",
+      "endDate": "2026-09-17T11:00:00",
+      "location": "Oasis",
+      "address": "204 Louisiana Ave,, Tyndall AFB, FL, 32403",
+      "description": "<p>Join us for the Monthly Checkertail Welcome Festival! The Newcomer Briefing is at 0800–1100 at the Horizons Club, Ballroom B. Horizons Club, Ballroom B, Bldg 1550. 209 Louisiana Ave, Tyndall AFB, FL Mandatory for Service Members. Spouses encouraged to attend. Contact your Command Support Staff or Unit Program Coordinator to get signed up. Presented by […]</p>\\n",
+      "category": "education"
+    },
+    {
+      "id": "tyndall-odr-skydiving-adventure-2026-09-19",
+      "title": "ODR Skydiving Adventure",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "<p>Ready for an adrenaline rush? Go skydiving with us! Join us on Saturday, 21 March at 8 AM. Only 10 spots are available. The cost is $250 per person, must be 18+, and sign-ups must be done in person at Outdoor Rec. Don’t miss out! Now open to anyone with MWR privileges! Cancellations made less than seven […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-toddler-finger-painting-2026-09-22",
+      "title": "Toddler Finger Painting",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "Arts & Crafts Classrooms",
+      "address": "475 Minnesota Ave, Bldg 945M, Tyndall AFB, FL, 32403",
+      "description": "<p>Let those little artists get messy! Bring your toddler to the Tyndall Arts & Crafts Center for Toddler Finger Painting! Let their creativity run wild as they make their very own colorful masterpiece. All supplies are provided, and best of all—we take care of the cleanup! Just bring your little one and get ready for […]</p>\\n",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

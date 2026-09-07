@@ -7,7 +7,7 @@
   "wing": "37 TRW / 502 ABW",
   "latitude": 29.3842,
   "longitude": -98.6181,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "lackland-notif-1",
@@ -469,6 +469,16 @@
   ],
   "events": [
     {
+      "id": "lackland-labor-day-2-person-scramble-2026-09-07",
+      "title": "Labor Day 2-Person Scramble",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-07T12:00:00",
+      "location": "LAK Gateway Hills Golf Course",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Gateway Hills Golf Course Sept. 7 | 8AM Labor Day 2 Person Scramble at Gateway Hills Golf Course. 0800 tee off on Monday 7 Sept 2026. $30 tournament entry fee plus greens and cart fees. Entry fee includes prize fund and a BBQ plate with chicken, brisket, beans, potato salad and a drink. Lunch and prize presentation to be held immediately after the tournament in the Greenside Grill ar",
+      "category": "recreation"
+    },
+    {
       "id": "lackland-bingo-arnold-hall-2026-09-09",
       "title": "Bingo Night (Arnold Hall)",
       "date": "2026-09-09",
@@ -477,6 +487,26 @@
       "address": "JBSA-Lackland",
       "description": "Bingo at Arnold Hall Community Center; JBSA Today community calendar.",
       "category": "community"
+    },
+    {
+      "id": "lackland-gateway-hills-steak-night-2026-09-09",
+      "title": "Gateway Hills Steak Night",
+      "date": "2026-09-09T17:00:00",
+      "endDate": "2026-09-09T18:00:00",
+      "location": "LAK Gateway Hills Golf Course",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Gateway Hills Golf Course Every other Wednesday | 5pm Looking for the best mid-week meal on JBSA? Join us at Gateway Hills Golf Course for our premium Wednesday Steak Night! We are serving up a mouthwatering 10oz Ribeye Steak, complete with a loaded baked potato, vegetable medley, and a warm dinner roll—all for just $28.00 per plate. Every other Wednesday. Only 40 seats available per",
+      "category": "recreation"
+    },
+    {
+      "id": "lackland-bingo-night-at-the-hall-2026-09-17",
+      "title": "Bingo Night at the Hall",
+      "date": "2026-09-17T18:00:00",
+      "endDate": "2026-09-17T20:00:00",
+      "location": "LAK Arnold Hall Community Center",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Arnold Hall Community Center Sept. 17 | 6-8pm Come out to Arnold Hall for some bingo. Packs start at $26. Complimentary nachos provided while supplies last. Alcoholic beverages available for purchase. For more information, call 210.671.2619",
+      "category": "entertainment"
     },
     {
       "id": "lackland-variety-night-2026-09-18",
@@ -489,6 +519,26 @@
       "category": "community"
     },
     {
+      "id": "lackland-variety-night-2026-09-18",
+      "title": "Variety Night",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "LAK Gateway Club",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Gateway Club September 4, 11, 18 & October 2, 9, 16, 23 | 4 -10pm Gateway Club hosts Variety Night as DJ Tony Style plays a wide variety of music in the Lone Star Lounge. Relax in the lounge or enjoy the weather on the patio. For more information, call 210.645.7034",
+      "category": "entertainment"
+    },
+    {
+      "id": "lackland-travel-expo-2026-09-25",
+      "title": "Travel Expo",
+      "date": "2026-09-25T11:00:00",
+      "endDate": "2026-09-25T14:00:00",
+      "location": "LAK Gateway Club",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA Leisure Travel and Information, Tickets & Travel Hosted by JBSA Lackland Gateway Club Sept. 25 11am to 12pm: Active duty in uniform early entry 12-2pm: General public Open to all DOW ID cardholders. Free food and prizes while supplies last. Grand Prize Giveaway! Military-exclusive offers. Explore vacation deals Global destinations & travel reps | Giveaways & prizes For more information, call ",
+      "category": "community"
+    },
+    {
       "id": "lackland-variety-night-2026-10-02",
       "title": "Variety Night at Gateway Club",
       "date": "2026-10-02",
@@ -497,6 +547,76 @@
       "address": "JBSA-Lackland",
       "description": "DJ Variety Night series dates include Oct 2; JBSA Today.",
       "category": "community"
+    },
+    {
+      "id": "lackland-travel-talk-2026-10-13",
+      "title": "Travel Talk",
+      "date": "2026-10-13T11:30:00",
+      "endDate": "2026-10-13T12:30:00",
+      "location": "LAK Leisure Travel",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Leisure Travel Oct. 13, Nov. 10 & Dec. 8 | 11:30AM-12:30PM • LET’S TALK EVERYTHING TRAVEL • Join us via Facebook Live on the Joint Base San Antonio Information Tickets and Travel Facebook page to ask questions and get updates for pricing, attractions and travel package deals. For more information, call 210.671.7111",
+      "category": "community"
+    },
+    {
+      "id": "lackland-boo-bash-2026-10-17",
+      "title": "Boo Bash",
+      "date": "2026-10-17T13:00:00",
+      "endDate": "2026-10-17T15:00:00",
+      "location": "LAK Arnold Hall Community Center",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Arnold Hall Community Center Oct. 17 | 1-3PM It’s that time of year to dress up for Arnold Hall Community Center’s costume contest! Don’t miss out on this spooktacular event. Enjoy free popcorn, candy bags, games, pumpkin carving, and a costume contest! Doors open at 1PM. This event is free and open to all DoW cardholders. For more information, call 210.671.2619 or email arnoldhallev",
+      "category": "holiday"
+    },
+    {
+      "id": "lackland-halloween-party-2026-10-30",
+      "title": "Halloween Party",
+      "date": "2026-10-30T16:00:00",
+      "endDate": "2026-10-30T23:00:00",
+      "location": "LAK Gateway Club",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Gateway Club October 30 | 4-11pm Prize awarded for best costume. Halloween trivia throughout the night in the Lone Star Lounge. Entertainment provided by DJ Tony Style. Special of the Night Fried Catfish Plate from 3-9pm. Plate includes Fried catfish, hush puppies, French fries, coleslaw and jalapeno cornbread. The cost of the meal $12 Members and $14 Nonmembers. This event is 18+ on",
+      "category": "holiday"
+    },
+    {
+      "id": "lackland-thanksgiving-bingo-2026-11-05",
+      "title": "Thanksgiving Bingo",
+      "date": "2026-11-05T08:00:00",
+      "endDate": "2026-11-05T17:00:00",
+      "location": "LAK Arnold Hall Community Center",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Arnold Hall Community Center Nov. 5 | 6-8PM Who’s ready for bingo? Doors open at 5:30PM, with nachos provided while supplies last. Alcoholic beverages are available for purchase. Registration is recommended. For more information, call 210.671.2619 or email arnoldhallevents@gmail.com",
+      "category": "holiday"
+    },
+    {
+      "id": "lackland-fall-sailing-2026-11-07",
+      "title": "Fall Sailing",
+      "date": "2026-11-07T00:00:00",
+      "endDate": "2026-11-14T23:59:59",
+      "location": "LAK Leisure Travel",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Leisure Travel Nov. 7-14, 2026 Seven nights to the Bahamas sailing out of Galveston, TX on the Carnival Dream. Rates start at $828 per person. Gratuities and travel protection can be added. Ports of call include: Key West, Florida • Celebration Key, Bahamas Nassau, Bahamas. For more information, call (210) 671-7111.",
+      "category": "community"
+    },
+    {
+      "id": "lackland-hit-the-trails-fall-bike-riding-2026-11",
+      "title": "Hit the Trails Fall Bike Riding",
+      "date": "2026-11-11T17:30:00",
+      "endDate": "2026-11-11T19:00:00",
+      "location": "LAK Outdoor Recreation",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Outdoor Rec. November 11 | 5:30–7pm Get outside and enjoy the fall scenery with JBSA-Lackland Outdoor Recreation! Join us for a trail ride and outdoor adventure at Lost Maples State Natural Area. Riders of all ages and skill levels are welcome, making this a great opportunity for experienced cyclists, beginners, and families to enjoy the trails together. Participants may bring their ",
+      "category": "outdoor"
+    },
+    {
+      "id": "lackland-defender-s-cup-soccer-tournament-2026-1",
+      "title": "Defender’s Cup Soccer Tournament",
+      "date": "2026-12-05T00:00:00",
+      "endDate": "2026-12-07T23:59:59",
+      "location": "LAK Fitness Centers",
+      "address": "JBSA-Lackland, San Antonio, TX",
+      "description": "JBSA-Lackland Fitness and Sports Dec. 5-7 | 8AM-9PM $600 per team | 40 Team Max San Antonio Surf Soccer Club, 7440 FM 1560 N., San Antonio, TX 78254 For more information or to register your team, please call the JBSA-Lackland Fitness & Sports office at 210.671.2401",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

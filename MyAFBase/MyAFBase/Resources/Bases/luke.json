@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -296,26 +296,6 @@
   ],
   "events": [
     {
-      "id": "luke-movie-night-2026-09-11",
-      "title": "Movie Night",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Base Theater",
-      "address": "Luke AFB, AZ",
-      "description": "Movie Night at Base Theater; 56 FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "luke-af-birthday-2026-09-18",
-      "title": "Air Force Birthday Celebration",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Club 56",
-      "address": "14000 Eagle St, Luke AFB, AZ 85309",
-      "description": "AF Birthday celebration with free cake; Club Five Six / 56 FSS.",
-      "category": "community"
-    },
-    {
       "id": "luke-22-a-day-challenge-2026-09",
       "title": "Virtual 22 A Day Challenge",
       "date": "2026-09-07",
@@ -344,6 +324,26 @@
       "address": "Luke AFB, AZ",
       "description": "Stair-climber challenge (110 floors / 2,071 steps); open to DoW cardholders and interested civilians.",
       "category": "fitness"
+    },
+    {
+      "id": "luke-movie-night-2026-09-11",
+      "title": "Movie Night",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Base Theater",
+      "address": "Luke AFB, AZ",
+      "description": "Movie Night at Base Theater; 56 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "luke-bundles-for-babies-2026-09-11",
+      "title": "Bundles for Babies",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "category": "family"
     },
     {
       "id": "luke-911-run",
@@ -376,6 +376,16 @@
       "category": "family"
     },
     {
+      "id": "luke-af-birthday-2026-09-18",
+      "title": "Air Force Birthday Celebration",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Club 56",
+      "address": "14000 Eagle St, Luke AFB, AZ 85309",
+      "description": "AF Birthday celebration with free cake; Club Five Six / 56 FSS.",
+      "category": "community"
+    },
+    {
       "id": "luke-fort-tuthill-movie",
       "title": "Fort Tuthill Movie Under the Stars",
       "date": "2026-09-19T20:00:00",
@@ -396,6 +406,56 @@
       "category": "recreation"
     },
     {
+      "id": "luke-saturday-crafternoons-2026-09-26",
+      "title": "Saturday Crafternoons",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-wargaming-club-2026-09-26",
+      "title": "Wargaming Club",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-hearts-apart-chicken-n-pickle-2026-09-27",
+      "title": "Hearts Apart: Chicken N Pickle",
+      "date": "2026-09-27",
+      "endDate": "2026-09-27",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-outdoor-education-program-2026-09-28",
+      "title": "Outdoor Education Program",
+      "date": "2026-09-28",
+      "endDate": "2026-09-28",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "category": "outdoor"
+    },
+    {
+      "id": "luke-scary-movie-marathon-2026-10-02",
+      "title": "Scary Movie Marathon",
+      "date": "2026-10-02T18:30:00",
+      "endDate": "2026-10-02T20:30:00",
+      "location": "Luke AFB",
+      "address": "Glendale, AZ",
+      "description": "Friday Scary Movie Marathon series (Oct 2, 9, 16, 23).",
+      "category": "entertainment"
+    },
+    {
       "id": "luke-hot-air-balloon",
       "title": "Sunrise Hot Air Balloon",
       "date": "2026-10-03T04:30:00",
@@ -404,6 +464,26 @@
       "address": "Luke AFB / Phoenix area, AZ",
       "description": "$225 per person; military & DoD ID cardholders; depart ODR ~0445.",
       "category": "recreation"
+    },
+    {
+      "id": "luke-wingman-wednesdays-2026-10-07",
+      "title": "Wingman Wednesdays",
+      "date": "2026-10-07T15:30:00",
+      "endDate": "2026-10-07T20:00:00",
+      "location": "Zemke's Lounge / Club Five Six",
+      "address": "14000 Eagle St, Luke AFB, AZ 85309",
+      "description": "Weekly Wednesday hangout; free entry, wing variety $0.75.",
+      "category": "entertainment"
+    },
+    {
+      "id": "luke-operations-kids-2026-2026-10-17",
+      "title": "Operations KIDS 2026",
+      "date": "2026-10-17T09:30:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "Hangar 431 & Fowler Park",
+      "address": "Luke AFB, Glendale, AZ",
+      "description": "Kid-friendly deployment simulation with mock orders, FOB Thunderbolt stations, and Welcome Home. Register by 1 Oct.",
+      "category": "family"
     }
   ],
   "newcomers": {

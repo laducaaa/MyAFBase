@@ -292,6 +292,16 @@
   ],
   "events": [
     {
+      "id": "fairchild-bowl-turning-class-2026-09-08",
+      "title": "Bowl Turning Class",
+      "date": "2026-09-08T16:00:00",
+      "endDate": "2026-09-08T19:30:00",
+      "location": "Fairchild AFB",
+      "address": "Spokane, WA",
+      "description": "Bowl Turning Class There’s something special about creating a piece you’ll use for years to come. In this hands-on, multi-day class, you’ll learn the fundamentals of woodturning as you transform",
+      "category": "recreation"
+    },
+    {
       "id": "fairchild-horseback-dinner-2026-09-11",
       "title": "OAP Trips – Horseback Dinner Ride",
       "date": "2026-09-11",
@@ -441,5 +451,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:04:41Z"
+  "dataUpdatedAt": "2026-09-07T15:41:25Z"
 }

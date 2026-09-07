@@ -7,7 +7,7 @@
   "wing": "49 WG",
   "latitude": 32.8523,
   "longitude": -106.1066,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-07T15:41:25Z",
   "currentNotifications": [
     {
       "id": "holloman-notif-real-id",
@@ -275,7 +275,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "holloman-dance-night-2026-09-09",
+      "title": "Dance Night",
+      "date": "2026-09-09T17:00:00",
+      "endDate": "2026-09-09T19:00:00",
+      "location": "Community Activity Center",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Dust off those boots and come dance the night away at the Community Activity Center! Join us September 2, 9 & 23 for a FREE night of line dancing, two-step, and salsa dancing. From 5–6 PM , learn your line dancing and two-step moves, then turn up the rhythm with salsa dancing from 6–7 PM . Best part? Participation is FREE, and drop-ins are always welcome! Registration is encouraged, so grab your d",
+      "category": "entertainment"
+    },
+    {
+      "id": "holloman-bingo-night-2026-09-10",
+      "title": "Bingo Night",
+      "date": "2026-09-10T17:00:00",
+      "endDate": "2026-09-10T19:00:00",
+      "location": "Community Activity Center",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Get ready to mark those cards and chase that BINGO! Join us at the CAC on September 10 & 24 for a night of fun, friendly competition, and winning possibilities. Doors open at 5 PM, card sales end at 5:45 PM, and games begin at 6 PM. Bingo books are $15 when pre-ordered by 4 PM the day before, or $20 at the door, plus $2 progressive cards. Pre-orders can be made in person or by phone. For more info",
+      "category": "entertainment"
+    },
+    {
+      "id": "holloman-wonder-on-wheels-2026-09-11",
+      "title": "Wonder on Wheels",
+      "date": "2026-09-11T10:30:00",
+      "endDate": "2026-09-11T16:00:00",
+      "location": "Holloman AFB, Alamogordo, NM",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Get ready to explore, discover, and have some hands-on fun when Wonders on Wheels brings its traveling museum exhibit to Holloman! This FREE, interactive experience from the New Mexico Department of Cultural Affairs is open to all ages and celebrates the 250th anniversary of the Declaration of Independence . 📅 September 11 🕦 11:30AM – 4PM 📍 BX Parking Lot 🎟️ FREE & open to all ages! Come check out",
+      "category": "family"
+    },
+    {
+      "id": "holloman-keystone-club-fridays-2026-09-11",
+      "title": "Keystone Club Fridays",
+      "date": "2026-09-11T16:00:00",
+      "endDate": "2026-09-11T18:00:00",
+      "location": "Child & Youth Programs",
+      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
+      "description": "Calling all youth and teens ages 10–18! The Youth & Teen Center is kicking off Torch Club & Keystone Club Fridays beginning September 4. Join us every Friday from 2–5 PM for fun social-recreational activities, new experiences, and opportunities to build leadership skills and make new friends! Registration is required through the AF CYPBMS Parent Portal. Register under the Camps and Instructional t",
+      "category": "family"
+    },
+    {
+      "id": "holloman-rock-cactus-paint-sip-2026-09-11",
+      "title": "Rock Cactus Paint & Sip",
+      "date": "2026-09-11T17:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "270 W 2nd St, Bldg 270, Holloman AFB, NM, 88330",
+      "description": "Grab your friends and join us for a night of creativity, drinks, and desert vibes! 🌵🎨 Paint a one-of-a-kind cactus scene at Paint & Sip on September 11. Only $35 per person! 📍 Arts & Crafts Center | 3–6 PM",
+      "category": "education"
+    },
+    {
+      "id": "holloman-jump-week-2026-09-15",
+      "title": "Jump Week",
+      "date": "2026-09-15T09:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Community Activity Center",
+      "address": "Holloman AFB, Alamogordo, NM",
+      "description": "Get ready to bounce, slide, laugh, and PLAY! Bring the whole family to the Community Activity Center September 15 – 18 from 9AM – 5PM for a week packed with inflatable fun! FREE fun for the whole family! Parent participation is encouraged, and supervision is required. Children under 16 must be supervised by their personal adult.",
+      "category": "family"
+    },
+    {
+      "id": "holloman-coffee-air-dry-clay-2026-09-18",
+      "title": "Coffee Air Dry Clay",
+      "date": "2026-09-18T15:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "270 W 2nd St, Bldg 270, Holloman AFB, NM, 88330",
+      "description": "☕️ Turn your coffee grounds into something creative! Join us for Coffee & Air Dry Clay Day on September 18 from 3–5 PM at the Arts & Crafts Center. $25 per person | All supplies provided 📞 Call 575-572-3760 or click the link below to sign up! https://docs.google.com/forms/d/1j79QGgjyOmmCdzQmJzjOiCfZXtJQ0DacvYTWkQ0eths/viewform?edit_requested=true",
+      "category": "education"
+    },
+    {
+      "id": "holloman-unplug-paint-teen-night-2026-09-18",
+      "title": "Unplug & Paint Teen Night",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "Child & Youth Programs",
+      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
+      "description": "Teens ages 13 – 18 , it’s time to put down the screens and pick up a paintbrush! Join Youth Programs for Unplug & Paint Teen Night on September 18 from 6PM – 8PM for an evening of abstract painting, creativity, and fun with friends. 📍 226 Patterson Dr., Bldg. 647 🎟️ Space is limited—reservation required! Reserve your spot by calling 575-572-3753 or emailing ruth.thompson.7@us.af.mil .",
+      "category": "family"
+    },
+    {
+      "id": "holloman-home-alone-safety-training-2026-09-24",
+      "title": "Home Alone Safety Training",
+      "date": "2026-09-24T09:00:00",
+      "endDate": "2026-09-24T11:00:00",
+      "location": "Child & Youth Programs",
+      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
+      "description": "🏠 Is your child ready to stay home alone? Help your 10-11-year-old build confidence and learn important safety skills at our Home Alone Safety Training at the Youth Center! Upon completion, 10-year-olds may be left home alone for up to 2 hours before 10PM without a sitter. 📅 September 24 | 9AM – 11AM 📍 Youth Center, 226 Patterson Dr., Bldg. 647 Spots are limited! Reserve your child’s spot by calli",
+      "category": "education"
+    },
+    {
+      "id": "holloman-holloman-marathon-ace-of-races-2026-10",
+      "title": "Holloman Marathon: Ace of Races",
+      "date": "2026-10-10T06:30:00",
+      "endDate": "2026-10-10T12:00:00",
+      "location": "Flight Line",
+      "address": "Holloman AFB, 88330",
+      "description": "🏃‍♂️🔥 ACE OF RACES IS BACK AT HOLLOMAN AFB! 🔥🏃‍♀️ Mark your calendars for October 10, 2026, and get ready for one of the most unique race experiences in the Southwest! Whether you’re chasing a new PR, running your first race, or cheering on your family and friends, the Ace of Races has something for every fitness level. Experience the thrill of running directly on the Holloman AFB flight line, pas",
+      "category": "fitness"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Welcome Center (Bldg 1)",
