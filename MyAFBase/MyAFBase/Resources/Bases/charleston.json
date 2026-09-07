@@ -7,7 +7,7 @@
   "wing": "628 ABW / 437 AW",
   "latitude": 32.9346,
   "longitude": -80.0406,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "charleston-notif-real-id",
@@ -297,7 +297,28 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "charleston-911-remembrance-5k-2026-09-09",
+      "title": "9/11 Remembrance 5K Run",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Air Base Fitness Center",
+      "address": "Joint Base Charleston, SC",
+      "description": "Free 9/11 Remembrance 5K for those with base access; jbcharleston.com September Calendar.",
+      "category": "community"
+    },
+    {
+      "id": "charleston-bells-across-america-2026-09-22",
+      "title": "Bells Across America (Gold Star Families)",
+      "date": "2026-09-22",
+      "endDate": "2026-09-22",
+      "location": "Military and Family Readiness",
+      "address": "Joint Base Charleston, SC",
+      "description": "Gold Star Families Bells Across America ceremony; jbcharleston.com September Calendar.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center / Welcome Center",

@@ -7,7 +7,7 @@
   "wing": "36 WG",
   "latitude": 13.584,
   "longitude": 144.9305,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "andersen-notif-real-id",
@@ -195,24 +195,34 @@
   ],
   "events": [
     {
-      "id": "andersen-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Andersen AFB, Yigo, Guam",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "id": "andersen-preschool-storytime-2026-09-08",
+      "title": "Preschool Storytime",
+      "date": "2026-09-08",
+      "endDate": "2026-09-08",
+      "location": "Andersen Library",
+      "address": "Andersen AFB, Guam",
+      "description": "Weekly Tuesday Preschool Storytime (recurring); aafb.militarymwrguam.com sample week pattern.",
       "category": "community"
     },
     {
-      "id": "andersen-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Andersen AFB, Yigo, Guam",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
+      "id": "andersen-baby-storytime-2026-09-09",
+      "title": "Baby Storytime",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Andersen Library",
+      "address": "Andersen AFB, Guam",
+      "description": "Weekly Wednesday Baby Storytime; MWR Guam site recurring listing.",
+      "category": "community"
+    },
+    {
+      "id": "andersen-family-storytime-2026-09-10",
+      "title": "Family Storytime",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Andersen Library",
+      "address": "Andersen AFB, Guam",
+      "description": "Weekly Thursday Family Storytime; MWR Guam site.",
+      "category": "community"
     }
   ],
   "newcomers": {

@@ -290,7 +290,88 @@
       "building": "Bldg 4203"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "fairchild-horseback-dinner-2026-09-11",
+      "title": "OAP Trips – Horseback Dinner Ride",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Outdoor Adventure Program / Riverside State Park area",
+      "address": "Fairchild AFB, WA",
+      "description": "Horseback dinner ride OAP trip; fairchildfun.com.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-zipline-2026-09-12",
+      "title": "OAP Trips – Ziplining at Timberline Adventures",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Timberline Adventures",
+      "address": "Idaho (OAP trip from Fairchild)",
+      "description": "Ziplining OAP trip; fairchildfun.com.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-saturday-cinema-2026-09-12",
+      "title": "Saturday Cinema – The Little Mermaid",
+      "date": "2026-09-12",
+      "endDate": "2026-09-12",
+      "location": "Base Theater",
+      "address": "610 W Castle St, Fairchild AFB, WA",
+      "description": "Saturday Cinema screening; fairchildfun.com.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-family-cooking-2026-09-15",
+      "title": "September Family Cooking Class",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "location": "Fairchild AFB",
+      "address": "Fairchild AFB, WA",
+      "description": "Family cooking class; fairchildfun.com homepage.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-mother-son-dance-2026-09-18",
+      "title": "Release the Kraken! Mother Son Dance",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Red Morgan Community Center",
+      "address": "10 Ent St, Fairchild AFB, WA 99011",
+      "description": "Undersea-themed Mother-Son Dance; fairchildfun.com event page.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-oktoberfest-2026-09-26",
+      "title": "Fairchild Oktoberfest 2026",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Miller Park",
+      "address": "Fairchild AFB, WA 99011",
+      "description": "Free Oktoberfest afternoon; German food, family fun, live music; fairchildfun.com.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-rock-out-park-2026-09-26",
+      "title": "Rock Out in the Park 2026",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "location": "Miller Park",
+      "address": "Fairchild AFB, WA 99011",
+      "description": "Free live music alongside Oktoberfest; fairchildfun.com.",
+      "category": "community"
+    },
+    {
+      "id": "fairchild-autumn-equinox-5k-2026-09-29",
+      "title": "Autumn Equinox 5K",
+      "date": "2026-09-29",
+      "endDate": "2026-09-29",
+      "location": "Fairchild AFB",
+      "address": "Fairchild AFB, WA",
+      "description": "Free Autumn Equinox 5K / 1.5-mile walk; fairchildfun.com September calendar.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 4203)",
@@ -360,5 +441,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+  "dataUpdatedAt": "2026-09-07T14:07:35Z"
 }

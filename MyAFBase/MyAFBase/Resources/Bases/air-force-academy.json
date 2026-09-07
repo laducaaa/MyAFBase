@@ -7,7 +7,7 @@
   "wing": "10 ABW",
   "latitude": 38.9983,
   "longitude": -104.8614,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "air-force-academy-notif-real-id",
@@ -341,38 +341,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "usafa-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "6248 W Pine Loop, USAF Academy, CO 80840",
-      "description": "Orientation for incoming 10 ABW personnel and families. Bring PCS orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "usafa-evt-red-white-brews",
-      "title": "Red, White & Brews",
-      "date": "2026-07-10T21:30:00Z",
-      "endDate": "2026-07-11T00:00:00Z",
-      "location": "Falcon Club",
-      "address": "USAF Academy, CO 80840",
-      "description": "Patriotic community social at the Falcon Club with food and beverages.",
-      "category": "community"
-    },
-    {
-      "id": "usafa-evt-summer-reading",
-      "title": "Summer Reading Program",
-      "date": "2026-05-29T14:00:00Z",
-      "endDate": "2026-07-24T23:00:00Z",
-      "location": "Community Center Library",
-      "address": "USAF Academy, CO 80840",
-      "description": "Base library summer reading program for families and youth.",
-      "category": "family"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "USAFA Pass & Registration Office",

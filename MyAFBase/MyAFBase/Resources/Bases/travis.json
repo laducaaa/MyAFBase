@@ -7,7 +7,7 @@
   "wing": "60 AMW",
   "latitude": 38.2625,
   "longitude": -122.0261,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "travis-notif-1",
@@ -313,7 +313,148 @@
       "building": "Bldg 381"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "travis-back-to-school-safety-2026-09",
+      "title": "Back to School Safety Special",
+      "date": "2026-09-07",
+      "endDate": "2026-09-11",
+      "location": "Travis AFB",
+      "address": "",
+      "description": "60 FSS Back to School Safety Special (public FSS calendar).",
+      "category": "community"
+    },
+    {
+      "id": "travis-kayaking-fundamentals-2026-09-09",
+      "title": "Kayaking Fundamentals Clinic",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Travis Outdoor Recreation",
+      "address": "",
+      "description": "Kayaking fundamentals clinic; 60 FSS public calendar.",
+      "category": "community"
+    },
+    {
+      "id": "travis-trivium-trivia-2026-09-16",
+      "title": "Trivium Trivia Night",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "location": "Travis AFB",
+      "address": "Travis AFB, CA 94535",
+      "description": "Recurring trivia night (Wednesdays); 60 FSS series page.",
+      "category": "community"
+    },
+    {
+      "id": "travis-trivium-trivia-2026-09-30",
+      "title": "Trivium Trivia Night",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "location": "Travis AFB",
+      "address": "Travis AFB, CA 94535",
+      "description": "Recurring trivia night; 60 FSS series page.",
+      "category": "community"
+    },
+    {
+      "id": "travis-family-steam-2026-09-09",
+      "title": "Family STEAM at the Library",
+      "date": "2026-09-09",
+      "endDate": "2026-09-09",
+      "location": "Travis Library",
+      "address": "",
+      "description": "Family STEAM library program; 60 FSS public series.",
+      "category": "community"
+    },
+    {
+      "id": "travis-trivium-trivia-2026-10-14",
+      "title": "Trivium Trivia Night",
+      "date": "2026-10-14",
+      "endDate": "2026-10-14",
+      "location": "Travis AFB",
+      "address": "Travis AFB, CA 94535",
+      "description": "Recurring trivia night; 60 FSS series page.",
+      "category": "community"
+    },
+    {
+      "id": "travis-trivium-trivia-2026-11-11",
+      "title": "Trivium Trivia Night",
+      "date": "2026-11-11",
+      "endDate": "2026-11-11",
+      "location": "Travis AFB",
+      "address": "Travis AFB, CA 94535",
+      "description": "Recurring trivia night; 60 FSS series page.",
+      "category": "community"
+    },
+    {
+      "id": "travis-trivium-trivia-2026-12-09",
+      "title": "Trivium Trivia Night",
+      "date": "2026-12-09",
+      "endDate": "2026-12-09",
+      "location": "Travis AFB",
+      "address": "Travis AFB, CA 94535",
+      "description": "Recurring trivia night; 60 FSS series page.",
+      "category": "community"
+    },
+    {
+      "id": "travis-911-tower-climb",
+      "title": "9/11 Memorial Tower Climb",
+      "date": "2026-09-07T08:00:00",
+      "endDate": "2026-09-30T17:00:00",
+      "location": "Travis Fitness Center",
+      "address": "Travis AFB, CA",
+      "description": "Ongoing memorial tower climb challenge through September 30.",
+      "category": "fitness"
+    },
+    {
+      "id": "travis-sup",
+      "title": "Stand Up Paddleboarding",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Lake Natoma",
+      "address": "Folsom/Sacramento area, CA",
+      "description": "$50; ages 16+; gear, transport, instruction; pre-register by 9/9.",
+      "category": "recreation"
+    },
+    {
+      "id": "travis-lego-pizza",
+      "title": "Lego Build & Pizza",
+      "date": "2026-09-15T18:30:00",
+      "endDate": "2026-09-15T20:30:00",
+      "location": "Travis Arts & Crafts",
+      "address": "Travis AFB, CA",
+      "description": "Lego building event with pizza.",
+      "category": "family"
+    },
+    {
+      "id": "travis-surfing",
+      "title": "Surfing 101",
+      "date": "2026-09-20T07:00:00",
+      "endDate": "2026-09-20T18:00:00",
+      "location": "Stinson Beach",
+      "address": "Stinson Beach, CA",
+      "description": "$50; ages 16+; transport, instruction, equipment; pre-register by 9/16.",
+      "category": "recreation"
+    },
+    {
+      "id": "travis-octoberfest-duathlon",
+      "title": "Octoberfest Duathlon",
+      "date": "2026-09-26T07:30:00",
+      "endDate": "2026-09-26T12:30:00",
+      "location": "Travis Fitness Center",
+      "address": "Travis AFB, CA",
+      "description": "Run–bike Octoberfest-themed duathlon.",
+      "category": "fitness"
+    },
+    {
+      "id": "travis-ww-kayak-weekend",
+      "title": "Whitewater Kayaking Weekend",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-27T17:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Travis AFB / river campsite, CA",
+      "description": "$250; ages 16+; two-day whitewater skills up to class II with riverside camping.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

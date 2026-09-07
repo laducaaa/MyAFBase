@@ -7,7 +7,7 @@
   "wing": "2 BW",
   "latitude": 32.5018,
   "longitude": -93.6627,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "barksdale-notif-real-id",
@@ -264,7 +264,38 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "barksdale-bowling-happy-hour-2026-09-07",
+      "title": "Bomber Alley Bowling Happy Hour",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Bomber Alley Bowling Center",
+      "address": "Barksdale AFB, LA",
+      "description": "Happy hour Tue/Wed/Sat from Sep 1 onward; barksdalelife.com events.",
+      "category": "community"
+    },
+    {
+      "id": "barksdale-pt-course-2026-09-14",
+      "title": "Physical Training Course (10 weeks)",
+      "date": "2026-09-14",
+      "endDate": "2026-11-20",
+      "location": "SrA Bell Fitness Center",
+      "address": "Barksdale AFB, LA",
+      "description": "10-week PT course Mon/Wed/Fri 0630-0730; barksdalelife.com.",
+      "category": "community"
+    },
+    {
+      "id": "barksdale-wood-shop",
+      "title": "Wood Shop Certification Class",
+      "date": "2026-09-12T10:00:00",
+      "endDate": "2026-09-19T12:00:00",
+      "location": "Arts and Crafts / Wood Shop",
+      "address": "Barksdale AFB, LA",
+      "description": "Build a two-shelf project; Sept 12 and 19 at 10am; $95/person or $170 for two.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "West Gate Visitor Control Center",

@@ -235,7 +235,18 @@
       "building": "Bldg 3"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "creech-afcea-expo",
+      "title": "AFCEA Tech, Cyber & Tactical Expo at Creech",
+      "date": "2026-11-04T08:00:00",
+      "endDate": "2026-11-04T17:00:00",
+      "location": "DFAC",
+      "address": "Creech AFB, NV",
+      "description": "14th Annual Tech, Cyber & Tactical Expo (base access / industry registration).",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Main Gate)",
@@ -299,5 +310,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+  "dataUpdatedAt": "2026-09-07T14:07:35Z"
 }

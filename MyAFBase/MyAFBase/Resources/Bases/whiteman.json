@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:10:34Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -242,7 +242,18 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "whiteman-oktoberfest-2026-09-25",
+      "title": "Oktoberfest",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Mission's End Club & Refueling Point Coffee Trailer",
+      "address": "322 Spirit Blvd, Whiteman AFB, MO",
+      "description": "Oktoberfest with German-style food, music, games, and costume contest. Base access required. Source: 509 FSS listing via AllEvents.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Spirit Gate)",

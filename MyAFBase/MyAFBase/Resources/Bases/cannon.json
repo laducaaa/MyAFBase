@@ -7,7 +7,7 @@
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
@@ -291,18 +291,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "cannon-evt-newcomers",
-      "title": "Commando Newcomers Orientation",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "331 D.L. Ingram Ave, Cannon AFB, NM 88103",
-      "description": "Mandatory orientation for newly assigned permanent-party personnel. Bring orders and ID cards.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

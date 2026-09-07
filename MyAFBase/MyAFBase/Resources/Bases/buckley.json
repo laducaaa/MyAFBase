@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -346,28 +346,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "buckley-evt-funfest",
-      "title": "Funfest Community Celebration",
-      "date": "2026-07-11T15:00:00Z",
-      "endDate": "2026-07-11T22:00:00Z",
-      "location": "460th Force Support Squadron",
-      "address": "Buckley SFB, Aurora, CO 80011",
-      "description": "Annual base-wide community celebration with food, music, and family activities.",
-      "category": "community"
-    },
-    {
-      "id": "buckley-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "Bldg 606, Buckley SFB, Aurora, CO 80011",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Buckley SFB Visitor Control Center",

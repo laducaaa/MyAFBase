@@ -7,7 +7,7 @@
   "wing": "18 WG",
   "latitude": 26.3517,
   "longitude": 127.7692,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "kadena-notif-real-id",
@@ -204,28 +204,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "kadena-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Kadena AB, Okinawa, Japan",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "kadena-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Kadena AB, Okinawa, Japan",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Kadena AB Visitor Center",

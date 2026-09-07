@@ -7,7 +7,7 @@
   "wing": "100 ARW",
   "latitude": 52.3619,
   "longitude": 0.4864,
-  "dataUpdatedAt": "2026-06-23T16:10:14Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "mildenhall-notif-real-id",
@@ -195,24 +195,54 @@
   ],
   "events": [
     {
-      "id": "mildenhall-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
+      "id": "mildenhall-trivia-2026-09-10",
+      "title": "Trivia Night at Galaxy Club",
+      "date": "2026-09-10",
+      "endDate": "2026-09-10",
+      "location": "Galaxy Club",
+      "address": "RAF Mildenhall, UK",
+      "description": "Thursday Trivia Night series; 100fss.com.",
       "category": "community"
     },
     {
-      "id": "mildenhall-evt-fss",
-      "title": "Community Event",
-      "date": "2026-08-22T16:00:00Z",
-      "endDate": "2026-08-22T22:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "RAF Mildenhall, Mildenhall, United Kingdom",
-      "description": "Check the FSS calendar for current community events, holiday activities, and family programs.",
-      "category": "family"
+      "id": "mildenhall-trivia-2026-09-17",
+      "title": "Trivia Night at Galaxy Club",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "Galaxy Club",
+      "address": "RAF Mildenhall, UK",
+      "description": "Thursday Trivia Night; 100 FSS calendar overview.",
+      "category": "community"
+    },
+    {
+      "id": "mildenhall-trivia-2026-09-24",
+      "title": "Trivia Night at Galaxy Club",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Galaxy Club",
+      "address": "RAF Mildenhall, UK",
+      "description": "Thursday Trivia Night; 100 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "mildenhall-library-scavenger-2026-09-07",
+      "title": "Library Scavenger Hunt",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Base Library",
+      "address": "RAF Mildenhall, UK",
+      "description": "Library scavenger hunt (weekly Monday starts through month); 100 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "mildenhall-axe-throwing-2026-09-24",
+      "title": "Axe Throwing Thursdays!",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "RAF Mildenhall",
+      "address": "RAF Mildenhall, UK",
+      "description": "Axe Throwing Thursdays listed on 100 FSS calendar overview.",
+      "category": "community"
     }
   ],
   "newcomers": {

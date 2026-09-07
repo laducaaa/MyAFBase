@@ -7,7 +7,7 @@
   "wing": "82 TRW",
   "latitude": 33.989,
   "longitude": -98.492,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "shepp-notif-1",
@@ -275,7 +275,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "sheppard-wing-wed-9",
+      "title": "Wing Wednesday",
+      "date": "2026-09-09T15:00:00",
+      "endDate": "2026-09-09T20:00:00",
+      "location": "Sheppard AFB",
+      "address": "619 4th Ave, Bldg 430, Sheppard AFB, TX 76311",
+      "description": "Weekly Wing Wednesday specials.",
+      "category": "community"
+    },
+    {
+      "id": "sheppard-bowling-tourney",
+      "title": "Eliminator Bracket Doubles Bowling Tournament",
+      "date": "2026-09-12T12:30:00",
+      "endDate": "2026-09-12T17:00:00",
+      "location": "Bowling Center",
+      "address": "Sheppard AFB, TX",
+      "description": "Doubles eliminator bracket bowling tournament.",
+      "category": "recreation"
+    },
+    {
+      "id": "sheppard-pow-mia-run",
+      "title": "POW/MIA Run",
+      "date": "2026-09-17T09:00:00",
+      "endDate": "2026-09-18T09:00:00",
+      "location": "Sheppard AFB",
+      "address": "Sheppard AFB, TX",
+      "description": "POW/MIA remembrance run.",
+      "category": "fitness"
+    },
+    {
+      "id": "sheppard-911-5k",
+      "title": "9/11 Never Forget Sheppard 5K",
+      "date": "2026-09-18T08:00:00",
+      "endDate": "2026-09-18T10:00:00",
+      "location": "Sheppard AFB",
+      "address": "Sheppard AFB, TX",
+      "description": "Partnered with M&FRC; includes AFFF 1-mile Run/Walk/Remember.",
+      "category": "fitness"
+    },
+    {
+      "id": "sheppard-foamageddon",
+      "title": "Runway's Foamageddon",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T22:00:00",
+      "location": "Runway Bar & Grill",
+      "address": "Sheppard AFB, TX",
+      "description": "Foamageddon party at Runway.",
+      "category": "entertainment"
+    },
+    {
+      "id": "sheppard-parents-night-out",
+      "title": "Parents Night Out",
+      "date": "2026-09-19T18:00:00",
+      "endDate": "2026-09-19T22:00:00",
+      "location": "Youth Programs",
+      "address": "Sheppard AFB, TX",
+      "description": "Parents Night Out childcare/activity evening.",
+      "category": "family"
+    },
+    {
+      "id": "sheppard-rangers-trip",
+      "title": "Military Appreciation Day Texas Rangers Game Trip",
+      "date": "2026-09-20T09:30:00",
+      "endDate": "2026-09-20T18:30:00",
+      "location": "Texas Rangers / Globe Life Field",
+      "address": "Arlington, TX",
+      "description": "ODR trip for Military Appreciation Day at a Rangers game.",
+      "category": "recreation"
+    },
+    {
+      "id": "sheppard-witch-hat-craft",
+      "title": "Witch Hat Centerpiece Cocktails & Crafts",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T20:00:00",
+      "location": "Arts & Crafts",
+      "address": "Sheppard AFB, TX",
+      "description": "Fall craft and cocktails class.",
+      "category": "recreation"
+    },
+    {
+      "id": "sheppard-aeronopoly",
+      "title": "Aeronopoly Grand Finale",
+      "date": "2026-09-25T15:00:00",
+      "endDate": "2026-09-25T18:00:00",
+      "location": "Sheppard AFB",
+      "address": "Sheppard AFB, TX",
+      "description": "Aeronopoly grand finale event.",
+      "category": "community"
+    },
+    {
+      "id": "sheppard-horseshoe-cellars",
+      "title": "Horseshoe Bend Cellars Trip",
+      "date": "2026-09-27T13:00:00",
+      "endDate": "2026-09-27T17:00:00",
+      "location": "Horseshoe Bend Cellars",
+      "address": "TX",
+      "description": "ODR winery trip.",
+      "category": "recreation"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center (Bldg 1405)",

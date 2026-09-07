@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -264,7 +264,78 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "altus-labor-day-bowling",
+      "title": "Labor Day 97¢ Bowling",
+      "date": "2026-09-07T11:00:00",
+      "endDate": "2026-09-07T18:00:00",
+      "location": "Galaxy Lanes",
+      "address": "Altus AFB, OK",
+      "description": "Celebrate Labor Day at Galaxy Lanes with 97¢ bowling from 1100–1800.",
+      "category": "recreation"
+    },
+    {
+      "id": "altus-tailgate-5k",
+      "title": "Tailgate Classic 5K",
+      "date": "2026-09-12T08:00:00",
+      "endDate": "2026-09-12T09:00:00",
+      "location": "Fitness Center",
+      "address": "Altus AFB, OK",
+      "description": "Fitness Center Tailgate Classic 5K race kicks off at 0800.",
+      "category": "fitness"
+    },
+    {
+      "id": "altus-got-talent",
+      "title": "AGT: Altus' Got Talent & Kid's Showcase",
+      "date": "2026-09-18T19:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "Club Altus",
+      "address": "Altus AFB, OK",
+      "description": "Talent showcase for all ages at Club Altus, 1900–2100.",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-senior-club-champ",
+      "title": "Senior Club Championship",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-20T14:00:00",
+      "location": "Windy Trails Golf Course",
+      "address": "Altus AFB, OK",
+      "description": "Two-day senior golf championship with three divisions (ages 50+).",
+      "category": "recreation"
+    },
+    {
+      "id": "altus-pumpkin-pacer",
+      "title": "Pumpkin Pacer 10K",
+      "date": "2026-10-03T08:00:00",
+      "endDate": "2026-10-03T09:30:00",
+      "location": "Fitness Center",
+      "address": "Altus AFB, OK",
+      "description": "Fitness Center Pumpkin Pacer 10K run starting at 0800.",
+      "category": "fitness"
+    },
+    {
+      "id": "altus-swoktoberfest",
+      "title": "Swoktoberfest (Southwest Oklahoma Fest)",
+      "date": "2026-10-03T17:00:00",
+      "endDate": "2026-10-03T21:00:00",
+      "location": "Field adjacent to Club Altus",
+      "address": "Altus AFB, OK",
+      "description": "Live music, food and drinks, corn hole, bounce houses, and more.",
+      "category": "community"
+    },
+    {
+      "id": "altus-mandalorian-movie",
+      "title": "Base Theater: Star Wars — The Mandalorian and Grogu",
+      "date": "2026-09-11T18:00:00",
+      "endDate": "2026-09-11T20:00:00",
+      "location": "Base Theater",
+      "address": "Altus AFB, OK",
+      "description": "Free PG-13 movie showing at the Base Theater.",
+      "category": "entertainment"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

@@ -7,7 +7,7 @@
   "wing": "452 AMW",
   "latitude": 33.8806,
   "longitude": -117.2597,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "march-notif-real-id",
@@ -313,28 +313,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "march-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Airman & Family Readiness Center",
-      "address": "1261 Graeber St, Bldg 2313, March ARB, CA 92518",
-      "description": "Orientation for incoming 452nd AMW personnel and families. Covers reserve-specific services, off-base housing, UTA reporting, and base access. Bring orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "march-evt-uta",
-      "title": "Unit Training Assembly (UTA) Weekend",
-      "date": "2026-08-08T12:00:00Z",
-      "endDate": "2026-08-10T04:00:00Z",
-      "location": "452nd Air Mobility Wing",
-      "address": "March ARB, Moreno Valley, CA 92518",
-      "description": "Monthly reserve drill weekend — expanded dining, MPF, VCC, fitness, and MWR services available. Traditional reservists report to MPF Bldg 2314 at 0700 on first UTA.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "March ARB Visitor Control Center",

@@ -7,7 +7,7 @@
   "wing": "19 AW",
   "latitude": 34.9169,
   "longitude": -92.1497,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "little-rock-notif-real-id",
@@ -357,28 +357,7 @@
       "building": "Bldg 940"
     }
   ],
-  "events": [
-    {
-      "id": "little-rock-evt-cosmic-bowling",
-      "title": "Cosmic Bowling",
-      "date": "2026-07-04T01:00:00Z",
-      "endDate": "2026-07-04T04:00:00Z",
-      "location": "Strike Zone Bowling Center",
-      "address": "956 Cannon Circle, Little Rock AFB, AR 72099",
-      "description": "Weekly cosmic bowling with black lights and music at Strike Zone.",
-      "category": "recreation"
-    },
-    {
-      "id": "little-rock-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "940 Arnold Dr, Bldg 940, Little Rock AFB, AR 72099",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Little Rock AFB Visitor Control Center",

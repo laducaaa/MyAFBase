@@ -7,7 +7,7 @@
   "wing": "23 WG",
   "latitude": 30.9678,
   "longitude": -83.193,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "moody-notif-real-id",
@@ -368,28 +368,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "moody-evt-backpack-bash",
-      "title": "Backpack to School Bash",
-      "date": "2026-07-24T13:00:00Z",
-      "endDate": "2026-07-24T16:00:00Z",
-      "location": "Outdoor Adventures",
-      "address": "4379 George St, Bldg 840, Moody AFB, GA 31699",
-      "description": "Back-to-school community event with family activities hosted by Outdoor Adventures.",
-      "category": "family"
-    },
-    {
-      "id": "moody-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-16T14:00:00Z",
-      "endDate": "2026-07-16T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "4851 Burrell St, Bldg 404, Moody AFB, GA 31699",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Moody AFB Visitor Control Center",

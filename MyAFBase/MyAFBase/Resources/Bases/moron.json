@@ -7,7 +7,7 @@
   "wing": "496 ABS",
   "latitude": 37.1749,
   "longitude": -5.6159,
-  "dataUpdatedAt": "2026-06-23T20:00:00Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "moron-notif-real-id",
@@ -204,18 +204,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "moron-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Force Support Squadron",
-      "address": "Morón AB, Morón de la Frontera, Spain",
-      "description": "Orientation for incoming personnel and families. Bring orders and ID cards.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Morón AB Visitor Center / Pass & ID",

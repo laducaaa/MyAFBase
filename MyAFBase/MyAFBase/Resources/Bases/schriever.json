@@ -7,7 +7,7 @@
   "wing": "SD 15",
   "latitude": 38.8344,
   "longitude": -104.5264,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "schriever-notif-real-id",
@@ -324,28 +324,7 @@
       "building": "Bldg 210"
     }
   ],
-  "events": [
-    {
-      "id": "schriever-evt-right-start",
-      "title": "Right Start Newcomers Orientation",
-      "date": "2026-07-16T14:00:00Z",
-      "endDate": "2026-07-16T17:30:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "101 Falcon Pkwy, Schriever SFB, CO 80912",
-      "description": "3.5-hour orientation covering installation resources, benefits, and community information for incoming personnel and families.",
-      "category": "community"
-    },
-    {
-      "id": "schriever-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "101 Falcon Pkwy, Schriever SFB, CO 80912",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Schriever SFB Visitor Control Center",

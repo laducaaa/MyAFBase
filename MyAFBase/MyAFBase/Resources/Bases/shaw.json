@@ -7,7 +7,7 @@
   "wing": "20 FW",
   "latitude": 33.9727,
   "longitude": -80.4708,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "shaw-notif-real-id",
@@ -253,7 +253,38 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "shaw-bowling-movie-2026-09-07",
+      "title": "Bowling & a Movie",
+      "date": "2026-09-07",
+      "endDate": "2026-09-07",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw AFB, SC 29152",
+      "description": "Sunday Bowling & a Movie series; shaw20fss.com (page copy may still show older monthly films—confirm on site).",
+      "category": "community"
+    },
+    {
+      "id": "shaw-bowling-movie-2026-09-13",
+      "title": "Bowling & a Movie",
+      "date": "2026-09-13",
+      "endDate": "2026-09-13",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw AFB, SC 29152",
+      "description": "Sunday Bowling & a Movie; 20 FSS homepage listing.",
+      "category": "community"
+    },
+    {
+      "id": "shaw-saturday-story-time-2026-09-20",
+      "title": "Saturday Story Time",
+      "date": "2026-09-20",
+      "endDate": "2026-09-20",
+      "location": "McElveen Library",
+      "address": "Shaw AFB, SC 29152",
+      "description": "3rd Saturday Story Time ages 2–6; shaw20fss.com.",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",

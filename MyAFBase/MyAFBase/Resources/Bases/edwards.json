@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -320,13 +320,53 @@
       "category": "community"
     },
     {
-      "id": "edwards-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "Edwards AFB, CA 93524",
-      "description": "Orientation for incoming personnel and families. All branches encouraged to attend.",
+      "id": "edwards-first-friday-2026-09-11",
+      "title": "First Friday at Club Muroc",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Club Muroc",
+      "address": "Edwards AFB, CA",
+      "description": "Themed First Friday (Cheese Please!); 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-paint-wine-2026-09-11",
+      "title": "Paint & Wine Night",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Club Muroc",
+      "address": "Edwards AFB, CA",
+      "description": "Paint & Wine Night at Club Muroc; 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-karaoke-2026-09-11",
+      "title": "Karaoke at Club Muroc",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Club Muroc",
+      "address": "Edwards AFB, CA",
+      "description": "Karaoke night; 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-bake-bingo-2026-09-11",
+      "title": "Bake Up The Fun Bingo",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Club Muroc",
+      "address": "Edwards AFB, CA",
+      "description": "Themed family bingo; 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-members-lunch-2026-09-15",
+      "title": "Members' Lunch (Tacos)",
+      "date": "2026-09-15",
+      "endDate": "2026-09-15",
+      "location": "Club Muroc",
+      "address": "Edwards AFB, CA",
+      "description": "Members' Lunch taco theme; 412 FSS.",
       "category": "community"
     }
   ],

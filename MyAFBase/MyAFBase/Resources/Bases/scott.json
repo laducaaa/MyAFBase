@@ -7,7 +7,7 @@
   "wing": "375 AW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -403,23 +403,73 @@
   ],
   "events": [
     {
-      "id": "scott-evt-1",
-      "title": "Scott AFB Air Show",
-      "date": "2026-05-16T09:00:00Z",
-      "endDate": "2026-05-17T17:00:00Z",
-      "location": "Scott AFB Flightline",
-      "address": "Scott AFB, IL 62225",
-      "description": "Biennial air show open to the public. Military and civilian aircraft displays.",
+      "id": "scott-summer-concert-sept-2026-09-11",
+      "title": "Summer Concert Series – September",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
+      "description": "Free concert (Broseph Tucker Band); 375 FSS.",
       "category": "community"
     },
     {
-      "id": "scott-evt-2",
-      "title": "Newcomers Welcome Brief",
-      "date": "2026-07-14T08:00:00Z",
-      "endDate": "2026-07-14T12:00:00Z",
-      "location": "375 FSS Community Center",
-      "address": "Scott AFB, IL 62225",
-      "description": "Monthly newcomers orientation for incoming personnel and families.",
+      "id": "scott-fss-fall-fest-2026-09-18",
+      "title": "FSS Fall Fest",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Bldg. 1650 Parking Lot",
+      "address": "469 W Martin St, Scott AFB, IL 62225",
+      "description": "Free Fall Fest: carnival, car show, live band FReSh RAiN; 375 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "scott-trivia-night-2026-09-17",
+      "title": "Trivia Night",
+      "date": "2026-09-17",
+      "endDate": "2026-09-17",
+      "location": "Scott AFB",
+      "address": "Scott AFB, IL",
+      "description": "Trivia Night; 375 FSS homepage listing.",
+      "category": "community"
+    },
+    {
+      "id": "scott-night-golf-2026-09-19",
+      "title": "Night Golf",
+      "date": "2026-09-19",
+      "endDate": "2026-09-19",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
+      "description": "Glow / night golf scramble; 375 FSS event page.",
+      "category": "community"
+    },
+    {
+      "id": "scott-summer-concert-oct-2026-10-09",
+      "title": "Summer Concert Series – October",
+      "date": "2026-10-09",
+      "endDate": "2026-10-09",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
+      "description": "Concert series continues Oct 9 (Up All Night); linked from Sept concert page / homepage.",
+      "category": "community"
+    },
+    {
+      "id": "scott-art-show-opening-2026-10-01",
+      "title": "SAFB Art Show – Opening Night",
+      "date": "2026-10-01",
+      "endDate": "2026-10-01",
+      "location": "Scott AFB",
+      "address": "Scott AFB, IL",
+      "description": "Art Show opening night; 375 FSS homepage.",
+      "category": "community"
+    },
+    {
+      "id": "scott-bridgerton-masquerade-2026-11-14",
+      "title": "Bridgerton Masquerade Ball",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "location": "Scott AFB",
+      "address": "Scott AFB, IL",
+      "description": "Bridgerton Masquerade Ball; 375 FSS homepage.",
       "category": "community"
     }
   ],

@@ -7,7 +7,7 @@
   "wing": "434 ARW",
   "latitude": 40.6481,
   "longitude": -86.1521,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "grissom-notif-real-id",
@@ -281,28 +281,7 @@
       "building": null
     }
   ],
-  "events": [
-    {
-      "id": "grissom-evt-newcomers",
-      "title": "Newcomers Briefing",
-      "date": "2026-07-15T14:00:00Z",
-      "endDate": "2026-07-15T16:00:00Z",
-      "location": "Military & Family Readiness Center",
-      "address": "7088 Tanker St, Bldg 431, Grissom ARB, Peru, IN 46971",
-      "description": "Orientation for incoming 434th ARW personnel and families. Covers reserve-specific services, off-base housing, and base access. Bring orders and ID cards.",
-      "category": "community"
-    },
-    {
-      "id": "grissom-evt-uta",
-      "title": "Unit Training Assembly (UTA) Weekend",
-      "date": "2026-08-08T12:00:00Z",
-      "endDate": "2026-08-10T04:00:00Z",
-      "location": "434th Air Refueling Wing",
-      "address": "Grissom ARB, Peru, IN 46971",
-      "description": "Monthly reserve drill weekend — expanded dining, MPF, and MWR services available. Check unit schedule for reporting times.",
-      "category": "community"
-    }
-  ],
+  "events": [],
   "newcomers": {
     "primaryAction": {
       "title": "Grissom ARB Visitor Center",

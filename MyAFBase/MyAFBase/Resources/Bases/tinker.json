@@ -7,7 +7,7 @@
   "wing": "72 ABW / AFSC",
   "latitude": 35.4147,
   "longitude": -97.3866,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T14:07:35Z",
   "currentNotifications": [
     {
       "id": "tinker-notif-real-id",
@@ -264,7 +264,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "tinker-rec-fest-2026-09-18",
+      "title": "Rec Fest",
+      "date": "2026-09-18",
+      "endDate": "2026-09-18",
+      "location": "Tinker AFB (multi-sport locations)",
+      "address": "Tinker AFB / Oklahoma City, OK",
+      "description": "Rec Fest sports showcase with bounce houses, axe throwing, 5K, etc.; tinkerliving.com.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-education-open-house-2026-09-24",
+      "title": "Education Services: Open House",
+      "date": "2026-09-24",
+      "endDate": "2026-09-24",
+      "location": "Education Services Center Bldg 201SE Rm 105",
+      "address": "Tinker AFB, OK",
+      "description": "Education open house with bingo card prizes; tinkerliving.com.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-mulligans-opening",
+      "title": "Mulligan's Grand Opening",
+      "date": "2026-09-10T11:00:00",
+      "endDate": "2026-09-10T13:00:00",
+      "location": "Tinker Golf Course / Mulligan's Grill",
+      "address": "Tinker AFB, OK",
+      "description": "Ribbon cutting at 11 AM for Mulligan's Grill grand opening.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-magic-all-stars",
+      "title": "Magic All Stars",
+      "date": "2026-09-12T18:00:00",
+      "endDate": "2026-09-12T22:00:00",
+      "location": "Tinker Event Center / Club",
+      "address": "Tinker AFB, OK",
+      "description": "Magic show with Ben Young, Jason Michaels, and Stephen Bargatze; show starts 7 PM.",
+      "category": "entertainment"
+    },
+    {
+      "id": "tinker-doggy-paddle",
+      "title": "Doggy Paddle",
+      "date": "2026-09-12T11:00:00",
+      "endDate": "2026-09-12T15:00:00",
+      "location": "Base Pool",
+      "address": "Tinker AFB, OK",
+      "description": "Last swim day of the season for dogs; dog required for entry.",
+      "category": "family"
+    },
+    {
+      "id": "tinker-af-birthday-bowling",
+      "title": "Air Force Birthday Bowling",
+      "date": "2026-09-18T10:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Bowling Center",
+      "address": "Tinker AFB, OK",
+      "description": "Celebrate the Air Force birthday with special bowling pricing.",
+      "category": "recreation"
+    },
+    {
+      "id": "tinker-ryder-cup",
+      "title": "Tinker Strong Ryder Cup",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-20T17:00:00",
+      "location": "Tinker Golf Course",
+      "address": "Tinker AFB, OK",
+      "description": "Two-day competitive match-play Ryder Cup style golf event.",
+      "category": "recreation"
+    },
+    {
+      "id": "tinker-retiree-day",
+      "title": "Military Retiree Appreciation Day",
+      "date": "2026-09-26T07:30:00",
+      "endDate": "2026-09-26T12:00:00",
+      "location": "Tinker Event Center",
+      "address": "Tinker AFB, OK",
+      "description": "Retirees connect with base organizations and resources.",
+      "category": "community"
+    },
+    {
+      "id": "tinker-alabaster",
+      "title": "Alabaster Caverns Day Trip",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T17:00:00",
+      "location": "Alabaster Caverns State Park",
+      "address": "Freedom, OK",
+      "description": "ODR day trip to Alabaster Caverns.",
+      "category": "recreation"
+    },
+    {
+      "id": "tinker-kids-night-out",
+      "title": "Kids Night Out (AF Ball childcare)",
+      "date": "2026-09-26T17:00:00",
+      "endDate": "2026-09-26T23:00:00",
+      "location": "Youth Programs",
+      "address": "Tinker AFB, OK",
+      "description": "Childcare same evening as Air Force Ball; $48 per child.",
+      "category": "family"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Visitor Control Center",
