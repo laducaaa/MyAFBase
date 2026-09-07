@@ -7,7 +7,7 @@
   "wing": "99 ABW / USAFWC / 57 WG",
   "latitude": 36.2361,
   "longitude": -115.0343,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "nellis-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Craig Road)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access from Craig Road / N Las Vegas Blvd. High traffic during exercises.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-landings",
       "name": "Landings Gate (Housing)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access for housing area.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-manch-manor",
       "name": "Manch Manor Gate (Housing)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 housing access; normally closed but open during construction/special events.",
       "traffic": "low",
@@ -82,7 +82,7 @@
     {
       "id": "gate-range-road",
       "name": "Range Road Gate (Hospital side)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 gate; after-hours/weekend 72-hour passes available here.",
       "traffic": "moderate",
@@ -93,7 +93,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0630-1630",
       "notes": "Day passes and visitor registration. Trusted Traveler suspended — all non-DoD ID visitors require sponsor + pass.",
       "traffic": "moderate",
@@ -104,7 +104,7 @@
     {
       "id": "gate-area-ii",
       "name": "Area II Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0530-1730",
       "notes": "Restricted hours gate.",
       "traffic": "low",
@@ -115,7 +115,7 @@
     {
       "id": "gate-beale",
       "name": "Beale Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1730",
       "notes": "Closed weekends.",
       "traffic": "low",
@@ -126,7 +126,7 @@
     {
       "id": "gate-simons",
       "name": "Simons Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-1700",
       "notes": "Daily access with limited hours.",
       "traffic": "low",

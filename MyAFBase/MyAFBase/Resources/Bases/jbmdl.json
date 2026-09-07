@@ -7,7 +7,7 @@
   "wing": "87 ABW",
   "latitude": 40.0156,
   "longitude": -74.5917,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "jbmdl-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-mcguire-main",
       "name": "McGuire Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access for McGuire side. Welcome Center located outside gate (currently closed indefinitely; coordinate at 609-754-3003).",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-route68",
       "name": "Route 68 Gate (Main Dix Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access for Fort Dix side.",
       "traffic": "high",
@@ -66,7 +66,7 @@
     {
       "id": "gate-lakehurst-main",
       "name": "Lakehurst Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access for Lakehurst side.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-bolling",
       "name": "Bolling Gate (Housing)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access for housing area.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-browns-mills",
       "name": "Browns Mills / Texas Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access point.",
       "traffic": "moderate",
@@ -99,7 +99,7 @@
     {
       "id": "gate-pemberton",
       "name": "Pemberton Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-0900 and 1400-1600 (school year only)",
       "notes": "Limited hours for school access. Closed outside school year.",
       "traffic": "low",
@@ -110,7 +110,7 @@
     {
       "id": "gate-wrightstown",
       "name": "Wrightstown Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1700",
       "notes": "Weekday access point.",
       "traffic": "moderate",
@@ -121,7 +121,7 @@
     {
       "id": "gate-mcguire-commercial",
       "name": "McGuire-Dix Commercial Gate (Checkpoint 9)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1400; Sat 0600-1200; Sun closed",
       "notes": "Commercial vehicle access only.",
       "traffic": "low",
@@ -132,7 +132,7 @@
     {
       "id": "gate-lakehurst-commercial",
       "name": "Lakehurst Commercial Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1400",
       "notes": "Commercial vehicle access only.",
       "traffic": "low",
@@ -143,7 +143,7 @@
     {
       "id": "gate-vcc-fort-dix",
       "name": "Fort Dix Welcome Center / VCC",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1630; Sat 0700-1300; Sun closed; holidays/family days 0700-1300",
       "notes": "Visitor passes and base access coordination. Phone: 609-562-6601/6602.",
       "traffic": "moderate",
@@ -154,7 +154,7 @@
     {
       "id": "gate-vcc-lakehurst",
       "name": "Lakehurst Welcome Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1400; closed weekends/holidays",
       "notes": "Visitor passes and base access coordination. Phone: 732-323-2693.",
       "traffic": "low",

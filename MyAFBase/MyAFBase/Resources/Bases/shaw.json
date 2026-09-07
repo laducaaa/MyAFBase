@@ -7,7 +7,7 @@
   "wing": "20 FW",
   "latitude": 33.9727,
   "longitude": -80.4708,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "shaw-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. VCC adjacent to Main Gate on Broad St/Shaw Dr.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630; closed weekends and federal holidays",
       "notes": "After-hours passes at Main Gate Security Forces. Phone: 803-895-2038.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-sumter",
       "name": "Sumter Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access (temporary hours).",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-441",
       "name": "441 Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2000",
       "notes": "Temporary 7-day access.",
       "traffic": "low",

@@ -4,10 +4,10 @@
   "fullName": "RAF Croughton",
   "location": "Brackley, United Kingdom",
   "description": "RAF Croughton hosts the 501st Combat Support Wing communications mission and provides critical connectivity for U.S. and allied operations in Europe.",
-  "wing": "501 CSW",
-  "latitude": 52.0117,
-  "longitude": -1.1889,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "wing": "422 ABG",
+  "latitude": 51.9875,
+  "longitude": -1.1861,
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "croughton-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-gate",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "low",
@@ -100,19 +100,19 @@
       "description": "Fitness and wellness facility at RAF Croughton.",
       "hours": "See FSS for current hours",
       "address": "RAF Croughton, Brackley, United Kingdom",
-      "phone": "+44-1280-70-1110",
-      "url": "https://www.croughtonfss.com/fitness/",
-      "building": null
+      "phone": "+44-1280-70-8449",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": "50"
     },
     {
       "id": "res-croughton-finance",
       "name": "Finance / Comptroller",
       "category": "finance",
       "description": "Military pay, travel vouchers, and finance customer service.",
-      "hours": "Mon-Fri during duty hours",
+      "hours": "Mon-Fri 0900-1500 (closed for training every 2nd Tuesday)",
       "address": "RAF Croughton, Brackley, United Kingdom",
-      "phone": "+44-1280-70-1110",
-      "url": "https://www.croughton.af.mil/",
+      "phone": "+44-1280-70-8337",
+      "url": "https://www.501csw.usafe.af.mil/Finance/",
       "building": null
     },
     {
@@ -122,9 +122,9 @@
       "description": "ID cards, DEERS, assignments, promotions, and personnel actions.",
       "hours": "Mon-Fri during duty hours; use RAPIDS for ID card appointments",
       "address": "RAF Croughton, Brackley, United Kingdom",
-      "phone": "+44-1280-70-1110",
-      "url": "https://www.croughtonfss.com/",
-      "building": null
+      "phone": "+44-1280-70-8324",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": "201"
     },
     {
       "id": "res-croughton-fss",
@@ -155,9 +155,9 @@
       "description": "Recreation and leisure programs at RAF Croughton.",
       "hours": "See FSS for current hours",
       "address": "RAF Croughton, Brackley, United Kingdom",
-      "phone": "+44-1280-70-1110",
-      "url": "https://www.croughtonfss.com/",
-      "building": null
+      "phone": "+44-1280-70-8419",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": "26"
     },
     {
       "id": "res-croughton-visitor-center",
@@ -180,6 +180,28 @@
       "phone": "+44-1280-70-3421",
       "url": "https://www.croughton.af.mil/",
       "building": null
+    },
+    {
+      "id": "res-croughton-fss-dir",
+      "name": "RAF Croughton FSS Directory",
+      "category": "services",
+      "description": "Public Force Support directory with current commercial/DSN phones for fitness, MPF, ODR, lodging, and more.",
+      "hours": null,
+      "address": "RAF Croughton, Brackley, United Kingdom",
+      "phone": "+44-1280-70-8324",
+      "url": "https://rafcroughtonfss.com/directory/",
+      "building": null
+    },
+    {
+      "id": "res-501csw-directory",
+      "name": "501 CSW Official Directories (2025 PDFs)",
+      "category": "services",
+      "description": "Official 501 CSW installation directories for Alconbury-Molesworth, Croughton, Fairford-Welford, and other Pathfinder sites.",
+      "hours": null,
+      "address": null,
+      "phone": null,
+      "url": "https://www.501csw.usafe.af.mil/Contact-Us/501-CSW-Directories/",
+      "building": null
     }
   ],
   "events": [],
@@ -190,7 +212,7 @@
       "phone": "+44-1280-70-1110",
       "address": "RAF Croughton, Brackley NN13 5NY, United Kingdom"
     },
-    "moreInfoURL": "https://www.croughton.af.mil/Newcomers/",
+    "moreInfoURL": "https://www.501csw.usafe.af.mil/",
     "sections": [
       {
         "id": "nc-1",

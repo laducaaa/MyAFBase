@@ -2,12 +2,12 @@
   "id": "hanscom",
   "name": "Hanscom AFB",
   "fullName": "Hanscom Air Force Base",
-  "location": "Bedford/Lexington, MA",
+  "location": "Bedford, MA",
   "description": "Headquarters of the Air Force Life Cycle Management Center and a major electronics systems acquisition hub in the Boston metro area. A predominantly civilian and contractor workforce supporting C3I and cyber programs — no flightline operations or traditional DFAC.",
-  "wing": "66 ABW",
-  "latitude": 42.4571,
+  "wing": "66 ABG",
+  "latitude": 42.47,
   "longitude": -71.289,
-  "dataUpdatedAt": "2026-09-07T14:10:34Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "hanscom-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-sartain",
       "name": "Sartain Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate on Hanscom Drive. Visitor passes available here when VCC is closed (up to next duty day). After 2200, Exit 31B is the only gate open per official directions.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-ruiz",
       "name": "Ruiz Gate (Hartwell Ave)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0530-2200",
       "notes": "Open daily 0530-2200 except federal holidays per hanscom.af.mil. Formerly Hartwell Gate. Note: hanscomhousing.com lists 24/7 — verify current hours before travel.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Sartain Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1600",
       "notes": "Closed weekends and federal holidays. Sponsors can obtain visitor passes for up to 60 days. AFMC family days: 0600-1400. REAL ID required.",
       "traffic": "moderate",

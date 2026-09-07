@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -52,7 +52,7 @@
     {
       "id": "gate-south",
       "name": "South Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access point. After-hours visitor passes issued here.",
       "traffic": "high",
@@ -63,7 +63,7 @@
     {
       "id": "gate-lightning",
       "name": "Lightning Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2100",
       "notes": "Primary visitor gate. Visitor Reception Center (VRC) located here.",
       "traffic": "high",
@@ -74,7 +74,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: 0600-0800 (in/out), 1445-1700 (out only); closed weekends/holidays/family days",
       "notes": "Limited hours access point.",
       "traffic": "low",
@@ -85,7 +85,7 @@
     {
       "id": "gate-vrc",
       "name": "Lightning Gate Visitor Reception Center (VRC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600; Sat-Sun 0800-1300; closed holidays and base down days",
       "notes": "Day passes, visitor registration, and DBIDS pass issuance. REAL ID required. Sponsor must accompany guests.",
       "traffic": "moderate",
@@ -96,7 +96,7 @@
     {
       "id": "gate-crc",
       "name": "South Gate Commercial Reception Center (CRC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500; closed weekends/holidays/base down days",
       "notes": "Commercial vehicle and contractor processing. Documentation required (bill of lading, work order, etc.).",
       "traffic": "moderate",

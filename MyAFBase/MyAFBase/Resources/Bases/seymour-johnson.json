@@ -48,7 +48,7 @@
     {
       "id": "gate-berkeley",
       "name": "Berkeley Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Only 24/7 gate. Visitor Control Center located here. Primary visitor and resident access.",
       "traffic": "high",
@@ -59,7 +59,7 @@
     {
       "id": "gate-slocumb",
       "name": "Slocumb Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Open to all traffic including RVs and commercial vehicles.",
       "traffic": "moderate",
@@ -70,7 +70,7 @@
     {
       "id": "gate-oak-forest",
       "name": "Oak Forest Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",
@@ -81,7 +81,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required. Located at Berkeley Gate.",
       "traffic": "moderate",
@@ -332,5 +332,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+  "dataUpdatedAt": "2026-09-07T15:04:41Z"
 }

@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-west-main",
       "name": "West Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access from Rosamond Blvd. Visitor Control Center located at West Gate, Bldg 1004.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "North access to Edwards AFB. DoD ID holders and authorized visitors only.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-south",
       "name": "South Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "South access to Edwards AFB. DoD ID holders and authorized visitors only.",
       "traffic": "low",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (West Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600",
       "notes": "Visitor passes and base access. Located at West Gate, Bldg 1004. REAL ID required for all visitors.",
       "traffic": "moderate",

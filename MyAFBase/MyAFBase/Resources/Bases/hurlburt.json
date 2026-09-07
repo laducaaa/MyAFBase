@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Miracle Strip Pkwy)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access on US Hwy 98. Visitor processing after VCC hours at gate with sponsor.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-soundside",
       "name": "Soundside Gate (Back Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access. Visitor Control Center located on soundside across Hwy 98.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-kerwood",
       "name": "Kerwood Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed until further notice",
       "notes": "Permanently closed until further notice.",
       "traffic": "low",
@@ -77,7 +77,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (VCC)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1700; Sat-Sun 0700-1700",
       "notes": "Day passes and visitor registration. REAL ID required. Email 1SOSFS.SFOXI.DL@us.af.mil for group/event access.",
       "traffic": "moderate",

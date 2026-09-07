@@ -7,7 +7,7 @@
   "wing": "75 ABW / Ogden ALC",
   "latitude": 41.124,
   "longitude": -111.973,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "hill-notif-1",
@@ -44,7 +44,7 @@
     {
       "id": "gate-south",
       "name": "South Gate (Main 24/7)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. Recommended for first-time arrivals. South Gate Visitor Center Mon-Fri 0700-1600.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "South Gate Visitor Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. Open on AFMC Family Days. Phone: 801-777-8631.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-west",
       "name": "West Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0400-2200; Sat-Sun 0800-1800; closed federal holidays and AFMC Family Days",
       "notes": "High-traffic commuter gate with Visitor Center access.",
       "traffic": "high",
@@ -77,7 +77,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0430-1700; closed weekends and federal holidays; open AFMC Family Days",
       "notes": "Commercial vehicle inspections Mon-Fri 0600-1500. After-hours commercial contact BDOC 801-777-3058.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-roy",
       "name": "Roy Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0400-2000; closed weekends and federal holidays",
       "notes": "Weekday commuter access.",
       "traffic": "low",
@@ -99,7 +99,7 @@
     {
       "id": "gate-southwest",
       "name": "Southwest Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: 0600-0800 inbound/outbound; 1430-1700 outbound only",
       "notes": "Limited weekday access. Closed weekends and federal holidays.",
       "traffic": "low",

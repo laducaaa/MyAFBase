@@ -48,7 +48,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (East Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access. Visitor passes issued here when VCC is closed. Trusted Traveler program 0600-2200.",
       "traffic": "high",
@@ -59,7 +59,7 @@
     {
       "id": "gate-south",
       "name": "South Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; closed weekends and federal holidays",
       "notes": "Weekday commuter gate.",
       "traffic": "low",
@@ -70,7 +70,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Bldg 99)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630; closed weekends and federal holidays",
       "notes": "Day passes and visitor registration. REAL ID required. Pre-registration available via email to VCC.",
       "traffic": "moderate",
@@ -327,5 +327,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-06-28T10:26:26Z"
+  "dataUpdatedAt": "2026-09-07T15:04:41Z"
 }

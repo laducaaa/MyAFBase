@@ -7,7 +7,7 @@
   "wing": "71 FTW",
   "latitude": 36.3392,
   "longitude": -97.9164,
-  "dataUpdatedAt": "2026-06-28T10:26:26Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "vance-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access with visitor processing. Visitor passes available after hours at Hairston Gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Mendez Visitor Control Center (Bldg 241)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500 (closed 1200-1230 for lunch); closed last Friday of month at 1200, federal holidays, and wing down days",
       "notes": "Day passes and visitor registration. REAL ID required. Phone: 580-213-7410.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-hairston",
       "name": "Hairston Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 gate. Visitor passes available after hours when VCC is closed.",
       "traffic": "moderate",

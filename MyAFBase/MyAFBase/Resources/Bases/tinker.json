@@ -7,7 +7,7 @@
   "wing": "72 ABW / AFSC",
   "latitude": 35.4147,
   "longitude": -97.3866,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "tinker-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-tinker",
       "name": "Tinker Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate at I-40 & S Air Depot Blvd. Visitor Center co-located outside gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Center (Pass & ID)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1500; closed federal holidays",
       "notes": "Weekend visitor passes issued at gates. Phone: 405-734-5191.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-hruskocy",
       "name": "Hruskocy Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Preferred gate for vehicles towing trailers.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-gott",
       "name": "Gott Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Preferred gate for vehicles towing trailers.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-lancer",
       "name": "Lancer Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-2000",
       "notes": "Closed weekends and federal holidays.",
       "traffic": "moderate",

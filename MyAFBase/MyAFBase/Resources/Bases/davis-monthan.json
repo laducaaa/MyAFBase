@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-craycroft",
       "name": "Craycroft Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate. Visitor Center outside gate Mon-Fri 0530-1900 for passes; after hours Craycroft IACP issues DBIDS passes.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-swan",
       "name": "Swan Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed on federal holidays.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-search",
       "name": "Search Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed on federal holidays.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-n-wilmot",
       "name": "N. Wilmot Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-1800",
       "notes": "Closed on federal holidays.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-s-wilmot",
       "name": "S. Wilmot Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Inbound commercial traffic only. Closed on federal holidays.",
       "traffic": "low",
@@ -99,7 +99,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Craycroft Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1900",
       "notes": "Located outside Craycroft Gate for base passes. After hours and weekends, Craycroft IACP issues DBIDS passes. Gate operations: 520-228-3200.",
       "traffic": "moderate",

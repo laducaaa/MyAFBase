@@ -7,7 +7,7 @@
   "wing": "434 ARW",
   "latitude": 40.6481,
   "longitude": -86.1521,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "grissom-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-main-hoosier-blvd",
       "name": "Main Gate (Hoosier Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access point for Grissom ARB. Security Forces: 765-688-3384.",
       "traffic": "moderate",
@@ -50,7 +50,7 @@
     {
       "id": "gate-visitor-center",
       "name": "Visitor Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1515; closed weekends and federal holidays",
       "notes": "Visitor passes and base access registration. REAL ID required. Phone: 765-688-4352.",
       "traffic": "moderate",
@@ -61,7 +61,7 @@
     {
       "id": "gate-aeroplex",
       "name": "Grissom Aeroplex Gate (Joint-Use)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1700; closed weekends and federal holidays",
       "notes": "Joint-use airfield access for authorized Aeroplex tenants and contractors.",
       "traffic": "low",

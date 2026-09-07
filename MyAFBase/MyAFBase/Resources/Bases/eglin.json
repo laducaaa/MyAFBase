@@ -7,7 +7,7 @@
   "wing": "96 TW",
   "latitude": 30.4636,
   "longitude": -86.5527,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "eglin-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-east",
       "name": "East Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access. After-hours visitor passes from gate guards (not contractors/foreign nationals).",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Armament Museum)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600; Sat-Sun 0800-1200",
       "notes": "Bldg 2938 at Air Force Armament Museum. Passes no longer issued at gate VCC during business hours (Mon-Fri 0600-1600).",
       "traffic": "moderate",

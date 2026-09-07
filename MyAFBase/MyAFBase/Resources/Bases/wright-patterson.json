@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -49,7 +49,7 @@
     {
       "id": "gate-area-a-main",
       "name": "Area A Gate 1A (Springfield St / Ohio SR-4)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary access to Area A (main base). Use for visitor processing and first-time entry.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-area-a-harshman",
       "name": "Area A Gate 1B (Harshman Rd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0500-2100; Sat-Sun 0600-2100",
       "notes": "Alternate access to Area A from Harshman Road.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-area-b-main",
       "name": "Area B Gate (Skeel Ave / Kettering Blvd)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
       "notes": "Access to Area B (Gentile ARS / AFLCMC area). Closed weekends — use Area A.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-visitor-center",
       "name": "Visitor Control Center (Gate 12-A, Area A)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800; Sat 0700-1300; Sun closed",
       "notes": "New visitors and guests without base access credentials must stop here.",
       "traffic": "moderate",

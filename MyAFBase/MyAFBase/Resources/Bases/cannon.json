@@ -7,7 +7,7 @@
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main-sextant",
       "name": "Main Gate (Sextant Ave)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary installation access. After-hours unofficial visitor passes processed here 2200-0600 with sponsor present.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Closed weekends and federal holidays.",
       "traffic": "low",
@@ -71,7 +71,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2200",
       "notes": "Day passes and visitor vetting. REAL ID required. After 2200 use Main Gate with sponsor.",
       "traffic": "moderate",

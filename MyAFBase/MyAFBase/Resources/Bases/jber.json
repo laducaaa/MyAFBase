@@ -7,7 +7,7 @@
   "wing": "673 ABW",
   "latitude": 61.2524,
   "longitude": -149.8068,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "jber-notif-real-id",
@@ -39,7 +39,7 @@
     {
       "id": "gate-richardson-gate-main",
       "name": "Richardson Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -50,7 +50,7 @@
     {
       "id": "gate-elmendorf-gate",
       "name": "Elmendorf Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -61,7 +61,7 @@
     {
       "id": "gate-boniface-gate",
       "name": "Boniface Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "low",

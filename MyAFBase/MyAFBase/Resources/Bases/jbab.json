@@ -1,13 +1,13 @@
 {
   "id": "jbab",
-  "name": "Joint Base Andrews",
-  "fullName": "Joint Base Andrews",
-  "location": "Camp Springs, MD",
-  "description": "Home of Air Force One (89th Airlift Wing), the 316th Wing, and the National Capital Region's premier aerial port. Located 10 miles from Washington D.C.",
-  "wing": "316 WG / 89 AW / 11 WG",
-  "latitude": 38.8108,
-  "longitude": -76.8669,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "name": "JBAB",
+  "fullName": "Joint Base Anacostia-Bolling",
+  "location": "Washington, DC",
+  "description": "Joint Base Anacostia-Bolling is an Air Force-led joint installation in Southeast Washington, D.C., hosted by the 11th Wing (Air Force District of Washington). It supports dozens of DoD and federal mission partners in the National Capital Region.",
+  "wing": "11 WG",
+  "latitude": 38.8428,
+  "longitude": -77.0161,
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "jbab-notif-1",
@@ -21,72 +21,56 @@
   "emergencyNumbers": [
     {
       "id": "em-1",
-      "label": "316th SFS Base Defense Operations Center",
-      "number": "301-981-2001"
-    },
-    {
-      "id": "em-2",
-      "label": "Emergency (Fire/Medical/Police)",
+      "label": "911 Emergency",
       "number": "911"
     },
     {
-      "id": "em-3",
+      "id": "em-2",
       "label": "Base Operator",
-      "number": "301-981-1110"
+      "number": "703-545-6700"
+    },
+    {
+      "id": "em-3",
+      "label": "JBAB Visitor Control Center",
+      "number": "202-767-5505"
     },
     {
       "id": "em-4",
-      "label": "Malcolm Grow Medical Clinics",
-      "number": "301-981-2273"
-    },
-    {
-      "id": "em-5",
-      "label": "Sexual Assault Hotline (SARC)",
-      "number": "301-981-7272"
+      "label": "Military & Family Readiness Center",
+      "number": "202-284-4473"
     }
   ],
   "gates": [
     {
-      "id": "gate-main-auth-west",
-      "name": "Auth Gate (Auth Rd / Old Auth Rd West)",
-      "status": "open",
+      "id": "gate-arnold",
+      "name": "Arnold Gate (Main)",
+      "status": "see-hours",
       "hours": "Open 24/7",
-      "notes": "Primary access from Auth Road / Suitland Pkwy. DoD ID or visitor pass required.",
-      "traffic": "high",
-      "address": "Auth Rd, Camp Springs, MD 20746",
-      "latitude": 38.8178,
-      "longitude": -76.88
-    },
-    {
-      "id": "gate-piscataway-east",
-      "name": "Piscataway Gate (Piscataway Rd / East Gate)",
-      "status": "open",
-      "hours": "Mon-Fri 0500-2200; Sat-Sun 0600-2200",
-      "notes": "Alternate access from Piscataway Road (east side of base).",
-      "traffic": "moderate",
-      "address": "Piscataway Rd, Andrews AFB, MD 20762",
+      "notes": "Intersection of Malcolm X Ave SE and MacDill Blvd SE. Hours can change for FPCON/events — confirm on official JBAB visitors page.",
+      "traffic": "unknown",
+      "address": "Malcolm X Ave SE & MacDill Blvd SE, Washington, DC",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-menoher-vcc",
-      "name": "Menoher Gate / Visitor Control Center",
-      "status": "open",
-      "hours": "Mon-Fri 0600-1800; Sat 0700-1300; Sun closed",
-      "notes": "New visitors must stop here for day passes. Sponsor required. REAL ID required.",
-      "traffic": "moderate",
-      "address": "1191 Menoher Dr, Joint Base Andrews, MD 20762",
+      "id": "gate-south",
+      "name": "South Gate / Joint Visitor Center",
+      "status": "see-hours",
+      "hours": "Mon-Thu 0500-2000; Fri 0500-1700; closed weekends and federal holidays",
+      "notes": "Primary visitor processing gate. VCC hours commonly Mon-Fri 0500-1600 (confirm locally). Status see-hours only — no live open/closed promise.",
+      "traffic": "unknown",
+      "address": "Chappie James Blvd & Overlook Ave SW, Washington, DC",
       "latitude": null,
       "longitude": null
     },
     {
-      "id": "gate-alabama-south",
-      "name": "Alabama Gate (Alabama Ave)",
-      "status": "open",
-      "hours": "Mon-Fri 0600-1800; Sat-Sun closed",
-      "notes": "Alternate entry from Alabama Ave for base residents.",
-      "traffic": "low",
-      "address": "Alabama Ave, Camp Springs, MD 20746",
+      "id": "gate-firth-sterling",
+      "name": "Firth Sterling Gate",
+      "status": "see-hours",
+      "hours": "Mon-Fri inbound 0630-0830; outbound 0630-0830 and 1500-1700; closed federal holidays and military pass days",
+      "notes": "Limited rush-hour lanes. Pedestrian turnstiles/bicycle gate noted 24/7 for registered IDs on official visitors page.",
+      "traffic": "unknown",
+      "address": "Firth Sterling Ave SW & Defense Blvd, Washington, DC",
       "latitude": null,
       "longitude": null
     }
@@ -415,68 +399,34 @@
   ],
   "newcomers": {
     "primaryAction": {
-      "title": "JBA In-Processing / Newcomers",
-      "url": "https://www.jba.af.mil/Newcomers/",
-      "phone": "301-981-1110",
-      "address": "Joint Base Andrews, MD 20762"
+      "title": "JBAB Visitors Center / Check-in",
+      "url": "https://installations.militaryonesource.mil/military-installation/joint-base-anacostia-bolling/base-essentials/check-in-procedures",
+      "phone": "202-767-5505",
+      "address": "256 McGuire Ave, Building 256, Washington, DC 20032"
     },
-    "moreInfoURL": "https://www.jba.af.mil/Newcomers/",
+    "moreInfoURL": "https://installations.militaryonesource.mil/in-depth-overview/joint-base-anacostia-bolling",
     "sections": [
       {
         "id": "nc-1",
-        "title": "Required Documents",
-        "body": "Bring PCS orders, CAC, medical/dental records, marriage/birth certificates, and all travel receipts for finance settlement.",
-        "links": null
-      },
-      {
-        "id": "nc-2",
-        "title": "In-Processing",
-        "body": "Report to your gaining unit and complete MPF in-processing. JBA supports both Air Force and joint-service personnel — confirm reporting procedures with your unit.",
+        "title": "Installation overview",
+        "body": "Joint Base Anacostia-Bolling is in Southeast Washington, D.C. Host wing is the 11th Wing. Use MilitaryINSTALLATIONS for check-in procedures and current contacts.",
         "links": [
           {
             "id": "link-1",
-            "title": "JBA Newcomers",
-            "url": "https://www.jba.af.mil/Newcomers/"
+            "title": "MilitaryINSTALLATIONS — JBAB overview",
+            "url": "https://installations.militaryonesource.mil/in-depth-overview/joint-base-anacostia-bolling"
           }
         ]
       },
       {
-        "id": "nc-3",
-        "title": "Housing",
-        "body": "Contact Housing at 301-981-5670 before arrival. Privatized housing (Corvias) for families. Temporary lodging: Presidential Inn 301-981-4614. High demand — book early.",
+        "id": "nc-2",
+        "title": "Military & Family Readiness",
+        "body": "Relocation and family readiness support at 118 Brookley Avenue, Bldg 13. Hours commonly M-F 0800-1530; confirm before visiting.",
         "links": [
           {
             "id": "link-2",
-            "title": "JBA Housing",
-            "url": "https://www.housing.af.mil/housing/housing-on-base/joint-base-andrews/"
-          }
-        ]
-      },
-      {
-        "id": "nc-4",
-        "title": "NCR / Washington D.C. Area",
-        "body": "JBA is 10 miles from Capitol Hill. Metro access via Green Line. Traffic on Auth Rd and Branch Ave can be heavy 0700-0900 and 1600-1800. Many DoD agencies in the region require JBA or Pentagon badge access.",
-        "links": null
-      },
-      {
-        "id": "nc-5",
-        "title": "Quick Resources",
-        "body": "Key contacts: BDOC 301-981-2001 | Housing 301-981-5670 | MPF 301-981-6377 | Medical 301-981-2273 | FSS 301-981-1110.",
-        "links": [
-          {
-            "id": "link-mos",
-            "title": "Military OneSource",
-            "url": "https://www.militaryonesource.mil/"
-          },
-          {
-            "id": "link-mil",
-            "title": "Military.com Base Guide",
-            "url": "https://www.military.com/base-guide/andrews-air-force-base"
-          },
-          {
-            "id": "link-bd",
-            "title": "BaseDirectory.com",
-            "url": "https://www.basedirectory.com/#air-force"
+            "title": "JBAB Military & Family Readiness",
+            "url": "https://installations.militaryonesource.mil/military-installation/joint-base-anacostia-bolling/military-and-family-support-center/relocation-assistance"
           }
         ]
       }

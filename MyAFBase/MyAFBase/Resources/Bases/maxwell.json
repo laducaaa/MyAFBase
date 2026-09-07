@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -57,7 +57,7 @@
     {
       "id": "gate-maxwell-blvd",
       "name": "Maxwell Blvd Gate (Main)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 Maxwell AFB access. Closed base — all visitors must be sponsored and pre-registered; no Visitor Control Center on installation.",
       "traffic": "high",
@@ -68,7 +68,7 @@
     {
       "id": "gate-kelly-st",
       "name": "Kelly St Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Commercial Vehicle Inspection Gate. Closed weekends and federal holidays.",
       "traffic": "moderate",
@@ -79,7 +79,7 @@
     {
       "id": "gate-day-st",
       "name": "Day St Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed until further notice",
       "notes": "Gate closed until further notice.",
       "traffic": "low",
@@ -90,7 +90,7 @@
     {
       "id": "gate-gunter-dickerson",
       "name": "Gunter Dickerson Gate (Congressman Dickinson Dr)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 Gunter Annex access. Closed base — sponsored visitors only.",
       "traffic": "moderate",
@@ -101,7 +101,7 @@
     {
       "id": "gate-gunter-dalraida",
       "name": "Gunter Dalraida Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed until further notice",
       "notes": "Dalraida Road gate closed until further notice.",
       "traffic": "low",

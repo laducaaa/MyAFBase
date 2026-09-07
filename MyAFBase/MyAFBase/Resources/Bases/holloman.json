@@ -7,7 +7,7 @@
   "wing": "49 WG",
   "latitude": 32.8523,
   "longitude": -106.1066,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "holloman-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (New Mexico Ave)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Only 24/7 gate. Visitor Welcome Center (Bldg 1) daily 0600-2200. After 2200, escorted visitors processed at Main Gate.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Welcome Center (Bldg 1)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0600-2200",
       "notes": "Visitor passes, RAB badges, and contractor passes. REAL ID required. Phone: 575-572-5951.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri: inbound 0600-0800, outbound 0600-1800; closed weekends, federal holidays, and wing down days",
       "notes": "Weekday commuter gate.",
       "traffic": "low",
@@ -77,7 +77,7 @@
     {
       "id": "gate-la-luz",
       "name": "La Luz Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Permanently closed",
       "notes": "Permanently closed — do not use.",
       "traffic": "low",

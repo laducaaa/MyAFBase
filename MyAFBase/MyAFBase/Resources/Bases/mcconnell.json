@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-09-07T14:10:34Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main-east",
       "name": "Main (East) Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate on Kansas Street off South Rock Road. Visitor Control Center located outside this gate.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-family-housing",
       "name": "Family Housing Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Residential access for on-base housing areas.",
       "traffic": "low",
@@ -71,7 +71,7 @@
     {
       "id": "gate-west",
       "name": "West Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1800",
       "notes": "Entrance to the Kansas Air National Guard complex and commercial vehicle/vendor inspection station. Closed weekends, federal holidays, and wing down days except designated drill weekends.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Outside Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0700-1600",
       "notes": "Visitor passes, contractor badges, and restricted area badges. Closed weekends, federal holidays, and wing down days. REAL ID required.",
       "traffic": "moderate",

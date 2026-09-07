@@ -7,7 +7,7 @@
   "wing": "23 WG",
   "latitude": 30.9678,
   "longitude": -83.193,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "moody-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-main",
       "name": "Main Gate (Moody Pkwy)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate on GA-125. Visitor Control Center located to the right of the security checkpoint — do not approach the gate for visitor passes.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-quiet-pines",
       "name": "Quiet Pines Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access on GA-125 north of the Main Gate. Convenient for Hahira and north-corridor commuters.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-north",
       "name": "North Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-2000",
       "notes": "Closed weekends and federal holidays. Best access for North Lowndes County and northern Hahira. 23rd Medical Group is just inside this gate.",
       "traffic": "moderate",
@@ -82,7 +82,7 @@
     {
       "id": "gate-south",
       "name": "South Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 1600-1800 (outbound only)",
       "notes": "Outbound traffic only — not available for inbound access. Closed weekends and federal holidays.",
       "traffic": "low",
@@ -93,7 +93,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630",
       "notes": "Walk-in visitor passes and background checks. Closed weekends and federal holidays. REAL ID required. Pre-register visitors via DBIDS/DVES when possible.",
       "traffic": "moderate",

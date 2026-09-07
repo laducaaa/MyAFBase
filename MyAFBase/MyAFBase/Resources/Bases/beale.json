@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -44,7 +44,7 @@
     {
       "id": "gate-grass-valley",
       "name": "Grass Valley Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 access point.",
       "traffic": "high",
@@ -55,7 +55,7 @@
     {
       "id": "gate-vassar-lake",
       "name": "Vassar Lake Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 alternate access point.",
       "traffic": "moderate",
@@ -66,7 +66,7 @@
     {
       "id": "gate-doolittle",
       "name": "Doolittle Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "24/7 access point.",
       "traffic": "moderate",
@@ -77,7 +77,7 @@
     {
       "id": "gate-wheatland",
       "name": "Wheatland Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Daily 0500-2100",
       "notes": "Limited hours access point.",
       "traffic": "moderate",
@@ -88,7 +88,7 @@
     {
       "id": "gate-schneider",
       "name": "Schneider Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-0800",
       "notes": "Limited morning hours only.",
       "traffic": "low",
@@ -99,7 +99,7 @@
     {
       "id": "gate-vcc",
       "name": "Welcome/Visitors Center (Gold Country Inn)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0730-1630; Sat 0800-1300; Sun closed",
       "notes": "Day passes and visitor registration. Phone: 530-634-2953. REAL ID required.",
       "traffic": "moderate",

@@ -3,11 +3,11 @@
   "name": "Schriever SFB",
   "fullName": "Schriever Space Force Base",
   "location": "Colorado Springs, CO",
-  "description": "Schriever SFB is a satellite operations installation east of Colorado Springs, home to Space Delta 15 and multiple space C2 squadrons supporting GPS and military satellite operations. A no-flightline, mission-focused base with no on-base BX, commissary, or traditional DFAC — most garrison services are consolidated with nearby Peterson SFB under Space Base Delta 1.",
-  "wing": "SD 15",
+  "description": "Schriever SFB east of Colorado Springs hosts multiple Space Force mission deltas and, since June 2025, Space Base Delta 41 as the dedicated host organization for installation and combat-support functions. A no-flightline, mission-focused base; many quality-of-life services remain coordinated with the broader Colorado Springs Space Force community.",
+  "wing": "SBD 41",
   "latitude": 38.8344,
   "longitude": -104.5264,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:13:07Z",
   "currentNotifications": [
     {
       "id": "schriever-notif-real-id",
@@ -49,7 +49,7 @@
     {
       "id": "gate-north-enoch",
       "name": "North Enoch Gate (Main Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Primary 24/7 gate on Enoch Road. Visitor Control Center is located here just prior to the gate entry. Can issue visitor passes when VCC is closed.",
       "traffic": "high",
@@ -60,7 +60,7 @@
     {
       "id": "gate-west-irwin",
       "name": "West Irwin Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1900",
       "notes": "Closest gate to Colorado Springs via HWY 94 and Irwin Road. Closed weekends, federal holidays, and base down days.",
       "traffic": "moderate",
@@ -71,7 +71,7 @@
     {
       "id": "gate-vcc",
       "name": "Visitor Control Center (North Enoch Gate)",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Thu 0700-1600; Fri 0700-1400",
       "notes": "Closed weekends, federal holidays, and base down days. Pre-register visitors via DBIDS/DVES. REAL ID required. RA badges issued Mon-Fri 0700-1200 — call 719-567-5620 to confirm walk-ins.",
       "traffic": "moderate",

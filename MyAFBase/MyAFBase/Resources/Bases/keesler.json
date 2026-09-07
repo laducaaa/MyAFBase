@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-09-07T14:07:35Z",
+  "dataUpdatedAt": "2026-09-07T15:04:41Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -47,7 +47,7 @@
     {
       "id": "gate-division",
       "name": "Division Street Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": "Visitor Center adjacent; pass processing Mon-Fri 0600-1500.",
       "traffic": "moderate",
@@ -58,7 +58,7 @@
     {
       "id": "gate-pass-road",
       "name": "Pass Road Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Open 24/7",
       "notes": null,
       "traffic": "moderate",
@@ -69,7 +69,7 @@
     {
       "id": "gate-meadows",
       "name": "Meadows Drive Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0530-1800",
       "notes": "Closed weekends and federal holidays.",
       "traffic": "low",
@@ -80,7 +80,7 @@
     {
       "id": "gate-commercial",
       "name": "Commercial Vehicle Gate",
-      "status": "open",
+      "status": "see-hours",
       "hours": "Mon-Fri 0600-1500",
       "notes": "Located off Bayview Avenue. Closed weekends, AETC family days, and federal holidays.",
       "traffic": "low",
@@ -91,7 +91,7 @@
     {
       "id": "gate-white-ave",
       "name": "White Avenue Gate",
-      "status": "closed",
+      "status": "see-hours",
       "hours": "Closed",
       "notes": "Permanently closed per official gate hours. Use Division Street or Pass Road gates.",
       "traffic": "unknown",
