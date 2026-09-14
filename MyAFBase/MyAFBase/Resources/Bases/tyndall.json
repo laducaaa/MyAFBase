@@ -7,7 +7,7 @@
   "wing": "325 FW",
   "latitude": 30.0696,
   "longitude": -85.5756,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "tyndall-notif-real-id",
@@ -407,106 +407,6 @@
       "category": "community"
     },
     {
-      "id": "tyndall-youth-programs-homeschool-open-gym-2026-09-07",
-      "title": "Youth Programs Homeschool Open Gym",
-      "date": "2026-09-07T09:00:00",
-      "endDate": "2026-09-07T11:00:00",
-      "location": "Youth Center Ball Fields",
-      "address": "3223, 2700 Sabre Dr, Tyndall AFB, FL, 32403",
-      "description": "<p>HOMESCHOOL OPEN GYM IS HERE! Looking for a fun way to get out of the house, stay active, and connect with other homeschool families? Join us every Monday during the school year for Homeschool Open Gym at the Tyndall Youth Center! Beginning August 31 9–11 AM Tyndall Youth CenterHomeschool families on Tyndall and DoD ID […]</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "tyndall-tyndall-fitness-yoga-2026-09-08",
-      "title": "Tyndall Fitness Yoga",
-      "date": "2026-09-08T12:00:00",
-      "endDate": "2026-09-08T13:00:00",
-      "location": "Fitness Center",
-      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
-      "description": "<p>A foundational, user-friendly yoga class designed to improve the health, performance and mental acuity of any individual interested. A beginner or seasoned, this class is for everyone. Note: No classes on Family Days or holidays. All classes are subject to cancellation on short notice. For questions, call 850-283-2403.</p>\\n",
-      "category": "fitness"
-    },
-    {
-      "id": "tyndall-mfrc-car-buying-2026-09-10",
-      "title": "M&FRC Car Buying Workshop",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Military & Family Readiness Center",
-      "address": "Tyndall AFB, FL",
-      "description": "Car buying workshop; 325 FSS homepage listing.",
-      "category": "community"
-    },
-    {
-      "id": "tyndall-mfrc-home-buying-2026-09-10",
-      "title": "MFRC Home Buying Workshop",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Military & Family Readiness Center",
-      "address": "Tyndall AFB, FL",
-      "description": "Home buying workshop; 325 FSS homepage listing.",
-      "category": "community"
-    },
-    {
-      "id": "tyndall-mfrc-car-buying-workshop-2026-09-10",
-      "title": "MFRC Car Buying Workshop",
-      "date": "2026-09-10T11:30:00",
-      "endDate": "2026-09-10T13:00:00",
-      "location": "Base Support Center",
-      "address": "445 Suwannee Rd, Bldg 662, Tyndall, FL, 32403",
-      "description": "<p>Thinking about refinancing your current auto loan or buying your first car? Get the facts, tools, and confidence you need to make smart financial decisions. In this workshop is facilitated by Tyndall Federal Credit Union, you\\'ll learn: Understanding Credit scores and reports Creating a realistic car-buying budget. Auto loans, interest rates, and loan terms Dealer […]</p>\\n",
-      "category": "education"
-    },
-    {
-      "id": "tyndall-tyndall-fitness-yoga-2026-09-10",
-      "title": "Tyndall Fitness Yoga",
-      "date": "2026-09-10T12:00:00",
-      "endDate": "2026-09-10T13:00:00",
-      "location": "Fitness Center",
-      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
-      "description": "<p>A foundational, user-friendly yoga class designed to improve the health, performance and mental acuity of any individual interested. A beginner or seasoned, this class is for everyone. Note: No classes on Family Days or holidays. All classes are subject to cancellation on short notice. For questions, call 850-283-2403.</p>\\n",
-      "category": "fitness"
-    },
-    {
-      "id": "tyndall-tyndall-youth-hero-fun-run-2026-09-11",
-      "title": "Tyndall Youth – Hero Fun Run",
-      "date": "2026-09-11T16:00:00",
-      "endDate": "2026-09-11T18:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>🦸‍♂️🦸‍♀️Youth Superhero Fun Run 🏃‍♀️💨 Suit up, lace up, and unleash your inner superhero! Join Tyndall AFB Youth Programs - 325 FSS for an evening of family-friendly fun at the Youth Superhero Fun Run on Thursday, September 11 at the Tyndall AFB Track. 📆Event Details: ⏰Registration: 4:00 PM 🏃 Fun Run: 5:00 PM – 6:00 […]</p>\\n",
-      "category": "fitness"
-    },
-    {
-      "id": "tyndall-tyndall-fitness-what-a-ride-duathlon-2026-09-12",
-      "title": "Tyndall Fitness What-A-Ride Duathlon",
-      "date": "2026-09-12T07:00:00",
-      "endDate": "2026-09-12T09:00:00",
-      "location": "Fitness Center",
-      "address": "1601 Mississippi Rd, Tyndall AFB, FL, 32403",
-      "description": "<p>Ready to test your endurance? Join Tyndall Fitness for the What-a-Ride Duathlon! Saturday, August 12 7:00–9:00 AM Fitness Center Racquetball CourtChallenge yourself with a 5K run followed by an IC6 Indoor Cycle ride. The top 3 finishers in each gender will take home a gift card! FREE to participate! Register here: https://www.webscorer.com/register?pid=1&raceid=439962.Eligible participants:• Ac",
-      "category": "fitness"
-    },
-    {
-      "id": "tyndall-weekend-warrior-2026-09-12",
-      "title": "Weekend Warrior",
-      "date": "2026-09-12T09:00:00",
-      "endDate": "2026-09-12T17:00:00",
-      "location": "Tyndall Outdoor Recreation",
-      "address": "2699 Falcon St, Panama City, FL, 32403",
-      "description": "<p> Weekend Warrior is HERE! Tyndall Outdoor Recreation is giving our Tyndall Dorm Residents the perfect reason to get outside and explore! Every weekend, dorm residents can rent ONE item for FREE for the day! Choose from: Kayaks, Canoes, or Paddleboards E-Bikes or Scooters Fishing Poles Whether you’re paddling the bay, cruising the trails, or casting […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "tyndall-weekend-warrior-2026-09-13",
-      "title": "Weekend Warrior",
-      "date": "2026-09-13T09:00:00",
-      "endDate": "2026-09-13T17:00:00",
-      "location": "Tyndall Outdoor Recreation",
-      "address": "2699 Falcon St, Panama City, FL, 32403",
-      "description": "<p> Weekend Warrior is HERE! Tyndall Outdoor Recreation is giving our Tyndall Dorm Residents the perfect reason to get outside and explore! Every weekend, dorm residents can rent ONE item for FREE for the day! Choose from: Kayaks, Canoes, or Paddleboards E-Bikes or Scooters Fishing Poles Whether you’re paddling the bay, cruising the trails, or casting […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
       "id": "tyndall-youth-programs-homeschool-open-gym-2026-09-14",
       "title": "Youth Programs Homeschool Open Gym",
       "date": "2026-09-14T09:00:00",
@@ -515,6 +415,16 @@
       "address": "3223, 2700 Sabre Dr, Tyndall AFB, FL, 32403",
       "description": "<p>HOMESCHOOL OPEN GYM IS HERE! Looking for a fun way to get out of the house, stay active, and connect with other homeschool families? Join us every Monday during the school year for Homeschool Open Gym at the Tyndall Youth Center! Beginning August 31 9–11 AM Tyndall Youth CenterHomeschool families on Tyndall and DoD ID […]</p>\\n",
       "category": "family"
+    },
+    {
+      "id": "tyndall-book-club-2026-09-16",
+      "title": "Book Club",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "404 Commons",
+      "address": "561 Suwannee Rd, Tyndall AFB, FL",
+      "description": "📚 Tyndall Library Book Club 📚 📅 When: 3rd Wednesday of each Month ⏰ Time: 6 PM 📍 Where: 404 Commons, 561 Suwannee Ave., Bldg 650 Join us for this month’s Tyndall Library Book Club as we dive into a new book every month! Whether you’re an avid reader or just looking for a fun evening, this is the perfect opportunity to connect with fellow book lovers. What to Expect: 📖 Engaging discussion! 🍪 Tempting treats to enjoy while we chat. 🎁 Exciting door prizes to win! 💬 Join the Conversation Online: Be part of our growing community! Join the Tyndall Library Book Club Facebook Group for updates and mor",
+      "category": "outdoor"
     },
     {
       "id": "tyndall-checkertail-welcome-2026-09-17",
@@ -537,6 +447,26 @@
       "category": "outdoor"
     },
     {
+      "id": "tyndall-weekend-warrior-2026-09-19",
+      "title": "Weekend Warrior",
+      "date": "2026-09-19T09:00:00",
+      "endDate": "2026-09-19T17:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL, 32403",
+      "description": "Weekend Warrior is HERE! Tyndall Outdoor Recreation is giving our Tyndall Dorm Residents the perfect reason to get outside and explore! Every weekend, dorm residents can rent ONE item for FREE for the day! Choose from: Kayaks, Canoes, or Paddleboards E-Bikes or Scooters Fishing Poles Whether you’re paddling the bay, cruising the trails, or casting a line, adventure is waiting! ODR Hours: 9 AM – 5 PM Every Weekend One free item per day, per resident. Get out there and make the most of your weekend—your next adventure starts at ODR!",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-mfrc-seamless-transition-2026-09-22",
+      "title": "MFRC Seamless Transition",
+      "date": "2026-09-22T08:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "445 Suwannee Avenue, Tyndall AFB, FL, 32403",
+      "description": "Your one-stop-shop for additional information beyond the TAP curriculum. Join MFRC on the following 2026 dates: March 17, May 19, July 21, September 22, and November 17. Learn about these Key topics: Filing a VA Claim DD Form 214 Worksheet Household Goods Shipping Finance & Leave Tricare (for retirees) & More! To register, please call (850)-283-2400 or email 325fss.fsh.mfrc@us.af.mil. 1300-1630 hrs Military & Family Readiness Center 445 Suwannee Rd, Bldg 662, Rm 221, Tyndall AFB, FL 32403",
+      "category": "family"
+    },
+    {
       "id": "tyndall-toddler-finger-painting-2026-09-22",
       "title": "Toddler Finger Painting",
       "date": "2026-09-22T10:00:00",
@@ -545,6 +475,166 @@
       "address": "475 Minnesota Ave, Bldg 945M, Tyndall AFB, FL, 32403",
       "description": "<p>Let those little artists get messy! Bring your toddler to the Tyndall Arts & Crafts Center for Toddler Finger Painting! Let their creativity run wild as they make their very own colorful masterpiece. All supplies are provided, and best of all—we take care of the cleanup! Just bring your little one and get ready for […]</p>\\n",
       "category": "outdoor"
+    },
+    {
+      "id": "tyndall-lunchtime-wineglass-painting-2026-09-23",
+      "title": "Lunchtime Wineglass Painting",
+      "date": "2026-09-23T11:00:00",
+      "endDate": "2026-09-23T13:00:00",
+      "location": "Arts & Crafts Classrooms",
+      "address": "475 Minnesota Ave, Bldg 945M, Tyndall AFB, FL 32403",
+      "description": "Take a break from your daily duties and get creative with our Lunchtime Wine Glass Painting! Join Tyndall Arts & Crafts on September 9th & 23rd from 11:00 AM-1:00 PM for a relaxing painting experience! Create and customize your very own wine glass to take home. $10 per person Tyndall Arts & Crafts Only 16 spots available! Whether you're looking for a fun lunch break activity or just some time to unwind and get creati",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-odr-deep-sea-fishing-at-tyndall-2026-09-26",
+      "title": "ODR Deep Sea Fishing at Tyndall",
+      "date": "2026-09-26T07:00:00",
+      "endDate": "2026-09-26T12:30:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL, 32403",
+      "description": "Set sail with our friends “The Crooked Hooker” on the following fall dates: Fall 2026 Charter Schedule Charter Date Weather Backup Date Departure Saturday, September 26, 2026 Sunday, September 27, 2026 7:00 AM (5 Hours) Saturday, October 24, 2026 Sunday, October 25, 2026 7:00 AM (5 Hours) Saturday, November 28, 2026 Sunday, November 29, 2026 7:00 AM (5 Hours) Program & Pricing Details Below are the packages we will be offering. All trips will depart directly from the Tyndall Base Marina, and participants will register through the Outdoor Recreation office (850-283-2255). Package Option Price D",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-odr-deep-sea-fishing-2026-09-26",
+      "title": "ODR Deep Sea Fishing",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join Tyndall ODR in their Adventure Program! $275 per person Event dates: 16 May 14 June * New Date Added! 20 June 18 July 25 July 15 August 22 August 26 September 24 October 28 November *6 people per trip. Open to anyone with MWR privileges and those with valid DoW credentials/ID’s. Veterans, retirees, Active Duty, their families, and Single Airmen can bring 1 guest. DoW Civilians may attend. No refunds for cancellations less than 7 days. For ODR inquiries: 2699 Falcon St Open Thu-Mon @ 0900-1700 (Closed Tue-Wed) (850) 283-2255 MUST REGISTER IN PERSON WITH VALID ID",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-fitness-center-zumbathon-2026-09-26",
+      "title": "Fitness Center Zumbathon",
+      "date": "2026-09-26T09:00:00",
+      "endDate": "2026-09-26T11:00:00",
+      "location": "Fitness Center",
+      "address": "1601 Mississippi Rd, Tyndall AFB, FL 32403",
+      "description": "Ready to MOVE, GROOVE & HAVE SOME FUN?! Join us for the Tyndall Fitness Center Zumbathon on September 26 from 9:00-11:00 AM! Whether you're a seasoned Zumba fan or have never tried it before , this event is for YOU! Bring your partner, your friends, your spouse, or come solo - everyone is welcome! Civilians • Military • Retirees • Spouses • Singles • Couples There's no experience required - just bring yourself, some ",
+      "category": "fitness"
+    },
+    {
+      "id": "tyndall-odr-vip-day-at-the-e-o-wilson-biophilia-center-2026-10-0",
+      "title": "ODR VIP Day at the E.O. Wilson Biophilia Center",
+      "date": "2026-10-02T07:30:00",
+      "endDate": "2026-10-02T15:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL 32403",
+      "description": "EXCLUSIVE VIP NATURE TRIP! Escape the base and join Tyndall Outdoor Recreation for a private VIP adventure at the E.O. Wilson Biophilia Center on Friday, October 2! For just $35 per person , your day includes: Private ambassador animal encounter Guided trail hike Behind-the-scenes tour Admission Round-trip transportation from Tyndall Friday, October 2, 2026 Meet at ODR: 7:30 AM Depart: 8:00 AM Return to base: 3:00 PM",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-magic-all-stars-2026-10-07",
+      "title": "Magic All Stars",
+      "date": "2026-10-07T18:00:00",
+      "endDate": "2026-10-07T20:00:00",
+      "location": "Oasis",
+      "address": "204 Louisiana Ave,, Tyndall AFB, 32403",
+      "description": "MAGIC IS COMING TO TYNDALL! Get ready for an evening of magic, mystery and family-friendly fun with the Magic All Stars Free Show! Join us Wednesday, October 7 at 6 PM in the Oasis Ballroom for an unforgettable show featuring: Ben Young Jason Michaels Jessica Jane And the best part? IT'S COMPLETELY FREE! Bring the whole family and prepare to be amazed! You won't want to miss this magical night at Tyndall AFB. Wednesd",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-odr-cruise-the-canopy-2026-10-15",
+      "title": "ODR Cruise the Canopy",
+      "date": "2026-10-15T07:30:00",
+      "endDate": "2026-10-15T13:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL 32403",
+      "description": "🚲🌿 CRUISE THE CANOPY - WE HANDLE THE LOGISTICS, YOU ENJOY THE RIDE! 🌿🚲 Ready for an adventure without all the hassle? We've got the bikes. We've got the ride. We've got the gear. You just show up and let ODR handle the rest! For just $25, your adventure includes: 🚴‍♀️Premium Class-1 pedal-assist e-bike ⛑Fitted, high-quality helmet 🚌Round-trip transportation from ODR to the trailhead 🧭 Experienced ODR guides to lead t",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-checkertail-welcome-2026-10-15",
+      "title": "Checkertail Welcome",
+      "date": "2026-10-15T08:00:00",
+      "endDate": "2026-10-15T11:00:00",
+      "location": "Oasis",
+      "address": "204 Louisiana Ave,, Tyndall AFB, 32403",
+      "description": "Join us for the Monthly Checkertail Welcome Festival! The Newcomer Briefing is at 0800–1100 at the Horizons Club, Ballroom B. Horizons Club, Ballroom B, Bldg 1550. 209 Louisiana Ave, Tyndall AFB, FL Mandatory for Service Members. Spouses encouraged to attend. Contact your Command Support Staff or Unit Program Coordinator to get signed up. Presented by Military & Family Readiness Center.",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-bingo-night-at-the-new-community-commons-2-2026-10-16",
+      "title": "Bingo Night at the NEW Community Commons 2",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "Community Commons 2",
+      "address": "475 Minnesota Ave, Bldg 945M, Tyndall AFB, FL 32403",
+      "description": "BINGO NIGHT IS COMING TO COMMUNITY COMMONS 2! Join us for the very first Bingo Night at the new Community Commons 2 on 16 October 2026 from 6-8 PM! Location: 475 Minnesota Ave, Bldg 945M, Rm 890 Cost: Bingo packs: $10 Additional packs: $2 Markers will be provided! Bring your friends, test your luck, and come enjoy a fun evening of bingo at our brand-new community space. We can't wait to see you there! For more inform",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-odr-beach-horseback-ride-2026-10-22",
+      "title": "ODR Beach Horseback Ride",
+      "date": "2026-10-22T18:00:00",
+      "endDate": "2026-10-22T19:00:00",
+      "location": "Tyndall AFB",
+      "address": "Panama City, FL",
+      "description": "SADDLE UP FOR A SUNSET BEACH RIDE! Trade the ordinary for an unforgettable evening on horseback! Join Outdoor Recreation for a 1-hour beach horseback ride along the beautiful Gulf Coast at sunset. Here's the important stuff: Single rider only - one rider per horse Transportation is NOT provided - participants must drive themselves to the ranch Enjoy a scenic beach ride as the sun goes down October 22 6:00 PM Rockin' ",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-fss-fall-fest-trunk-or-treat-2026-10-23",
+      "title": "FSS Fall Fest & Trunk-or-Treat",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T20:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL 32403",
+      "description": "FALL FEST & TRUNK OR TREAT IS COMING TO TYNDALL! Get ready for an evening packed with fall fun, sweet treats, and family-friendly activities! October 23 5:00 PM-8:00 PM Candy starts at 5:30 PM Community Center Parking Lot, 475 Minnesota Ave, Bldg 945M Come enjoy: Trunk or Treat & plenty of candy Hay rides Inflatable corn maze Fall-themed fun & activities And MORE! Who can attend? This event is open to Active Duty mem",
+      "category": "holiday"
+    },
+    {
+      "id": "tyndall-mfrc-home-buying-workshop-2026-10-27",
+      "title": "MFRC Home Buying Workshop",
+      "date": "2026-10-27T11:30:00",
+      "endDate": "2026-10-27T13:00:00",
+      "location": "Base Support Center",
+      "address": "445 Suwannee Rd, Bldg 662, Tyndall, FL 32403",
+      "description": "Buying a home is a major milestone in life, but it can also be overwhelming if you're not fully prepared. This course is designed to increase the knowledge and comfort level of first-time home buyers and serve as a refresher for repeat home buyers. This workshop is facilitated by Tyndall Federal Credit Union. 12 August @ 3 PM 10 September @ 3 PM 27 October @ 11:30 AM Held at MFRC, Bldg 662, Rm 228. For more informati",
+      "category": "education"
+    },
+    {
+      "id": "tyndall-odr-u-s-army-aviation-museum-trip-2026-10-29",
+      "title": "ODR U.S Army Aviation Museum Trip",
+      "date": "2026-10-29T09:00:00",
+      "endDate": "2026-10-29T14:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL 32403",
+      "description": "TAKE FLIGHT WITH TYNDALL OUTDOOR RECREATION! Tyndall Outdoor Recreation is heading to the U.S. Army Aviation Museum at Fort Rucker, AL on October 29 ! Depart Tyndall ODR: 9 AM Cost: $10 per person Transportation/gas included, with the remainder of the cost going directly to the museum as a donation. Explore more than 160 aircraft , including one of the world's largest collections of military helicopters! BASE ACCESS ",
+      "category": "outdoor"
+    },
+    {
+      "id": "tyndall-halloween-haunted-caverns-trip-2026-10-31",
+      "title": "Halloween “Haunted Caverns” Trip",
+      "date": "2026-10-31T08:00:00",
+      "endDate": "2026-10-31T13:00:00",
+      "location": "Tyndall Outdoor Recreation",
+      "address": "2699 Falcon St, Panama City, FL 32403",
+      "description": "Get ready for a spooky adventure! Join Tyndall Outdoor Recreation for our Haunted Caverns Adventure on October 31st at 8:00 AM! Descend into the shadows on a 1-hour guided cave tour , then brave the pitch-black Tunnel Cave for an unforgettable “lights out” hiking challenge! Guided cave tour + tunnel cave hike Picnic lunch included $20 per person Closed-toed shoes required Spots are limited! Stop by the Tyndall ODR Of",
+      "category": "holiday"
+    },
+    {
+      "id": "tyndall-checkertail-welcome-2026-11-12",
+      "title": "Checkertail Welcome",
+      "date": "2026-11-12T08:00:00",
+      "endDate": "2026-11-12T11:00:00",
+      "location": "Oasis",
+      "address": "204 Louisiana Ave,, Tyndall AFB, 32403",
+      "description": "Join us for the Monthly Checkertail Welcome Festival! The Newcomer Briefing is at 0800–1100 at the Horizons Club, Ballroom B. Horizons Club, Ballroom B, Bldg 1550. 209 Louisiana Ave, Tyndall AFB, FL Mandatory for Service Members. Spouses encouraged to attend. Contact your Command Support Staff or Unit Program Coordinator to get signed up. Presented by Military & Family Readiness Center.",
+      "category": "family"
+    },
+    {
+      "id": "tyndall-fss-tree-lighting-2026-12-04",
+      "title": "FSS Tree Lighting",
+      "date": "2026-12-04T18:00:00",
+      "endDate": "2026-12-04T19:00:00",
+      "location": "Tyndall AFB",
+      "address": "Panama City, FL",
+      "description": "Stay Tuned for more information. Be sure to follow us on social media for event announcements!",
+      "category": "family"
     }
   ],
   "newcomers": {

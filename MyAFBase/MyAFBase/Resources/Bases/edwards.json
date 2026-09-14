@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -310,114 +310,14 @@
   ],
   "events": [
     {
-      "id": "edwards-cash-bingo-2026-09-08",
-      "title": "Cash Bingo",
-      "date": "2026-09-08T18:00:00",
-      "endDate": "2026-09-08T20:00:00",
+      "id": "edwards-sensory-explorers-2026-09-14",
+      "title": "Sensory Explorers",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T11:00:00",
       "location": "Edwards AFB",
       "address": "Edwards, CA",
-      "description": "Cash Bingo Tuesdays | Club Muroc | 6:00pm - 8:00pm | Doors open at 5:30pm Call Bingo, win cash! $750 minimum payout! $300+ progressive jackpot $50 hotball FSS Insiders get",
-      "category": "entertainment"
-    },
-    {
-      "id": "edwards-construction-crew-2026-09-10",
-      "title": "Construction Crew",
-      "date": "2026-09-10T14:00:00",
-      "endDate": "2026-09-10T15:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join the library's Construction Crew for a hands-on afternoon of engineering and architecture. Whether you're a master of LEGO bricks, a fan of wooden blocks, or a pro with magnetic",
-      "category": "family"
-    },
-    {
-      "id": "edwards-first-friday-2026-09-11",
-      "title": "First Friday at Club Muroc",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Club Muroc",
-      "address": "Edwards AFB, CA",
-      "description": "Themed First Friday (Cheese Please!); 412 FSS.",
+      "description": "Little ones are invited to explore the world through their senses. Using a variety of textures, colors, sounds and materials, little explorers will engage in hands-on activities that stimulate their curiosity and support their development. 10 am - 11 am | Ages 0 - 5 July 6: Playdough Bug Fossils August 10: Tide Pool Treasures September 14: DIY Shaker Bottles Contact 275-BOOK for more information",
       "category": "community"
-    },
-    {
-      "id": "edwards-paint-wine-2026-09-11",
-      "title": "Paint & Wine Night",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Club Muroc",
-      "address": "Edwards AFB, CA",
-      "description": "Paint & Wine Night at Club Muroc; 412 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "edwards-karaoke-2026-09-11",
-      "title": "Karaoke at Club Muroc",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Club Muroc",
-      "address": "Edwards AFB, CA",
-      "description": "Karaoke night; 412 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "edwards-bake-bingo-2026-09-11",
-      "title": "Bake Up The Fun Bingo",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Club Muroc",
-      "address": "Edwards AFB, CA",
-      "description": "Themed family bingo; 412 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "edwards-9-11-remembrance-workout-2026-09-11",
-      "title": "9/11 Remembrance Workout",
-      "date": "2026-09-11T11:00:00",
-      "endDate": "2026-09-11T13:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "FRIDAY, SEPTEMBER 11 | 11AM-1PM | ROSBURG FITNESS CENTER THIS WORKOUT IS MORE THAN FITNESS - IT'S A TRIBUTE. JOIN US AS WE HONOR THE COURAGE, SACRIFICE AND RESILIENCE OF",
-      "category": "fitness"
-    },
-    {
-      "id": "edwards-first-friday-a13fee",
-      "title": "First Friday",
-      "date": "2026-09-11T16:00:00",
-      "endDate": "2026-09-11T18:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join us for themed fun, great food, and good company! FSS Insiders, enjoy complimentary appetizers!Friday, July 11: Dog Days of Summer Friday, August 7: Peach & Pepper Friday, September 11:",
-      "category": "community"
-    },
-    {
-      "id": "edwards-karaoke-84dbff",
-      "title": "Karaoke",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "THE STAGE IS YOURS! BELT OUT YOUR FAVORITES, CHEER ON YOUR FRIENDS AND MAKE IT A NIGHT OF MUSIC AND MEMORIES! Fridays July 10 & 24 August 7 September 11",
-      "category": "entertainment"
-    },
-    {
-      "id": "edwards-sport-fishing-trip-2026-09-12",
-      "title": "Sport Fishing Trip",
-      "date": "2026-09-12T05:00:00",
-      "endDate": "2026-09-13T16:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join Outdoor Recreation and experience a day of Sport Fishing off the Ventura Coast!Saturday, September 128 am – 4 pm | Departure Time: 5 am$180 (Fishing License and ocean enhancement",
-      "category": "outdoor"
-    },
-    {
-      "id": "edwards-mizuno-fitting-day-2026-09-12",
-      "title": "Mizuno Fitting Day",
-      "date": "2026-09-12T10:00:00",
-      "endDate": "2026-09-12T14:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Golfers, test the latest Mizuno technology with an expert fitter at the Mizuno Fitting Day at Muroc Lake Golf Course! Explore new equipment, get personalized recommendations, and take advantage of special",
-      "category": "outdoor"
     },
     {
       "id": "edwards-members-lunch-2026-09-15",
@@ -427,6 +327,16 @@
       "location": "Club Muroc",
       "address": "Edwards AFB, CA",
       "description": "Members' Lunch taco theme; 412 FSS.",
+      "category": "community"
+    },
+    {
+      "id": "edwards-members-lunch-2026-09-15",
+      "title": "Members' Lunch",
+      "date": "2026-09-15T11:00:00",
+      "endDate": "2026-09-15T13:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "FSS Insiders, grab your complimentary monthly lunch today at Club Muroc! Monday, July 13: Fajitas Monday, August 17: BBQ Tuesday, September 15: Tacos 11 am - 1 pm Must be present to receive Members Lunch Call 277-2830 for more information.",
       "category": "community"
     },
     {
@@ -458,6 +368,36 @@
       "address": "Edwards, CA",
       "description": "Enjoy a music-themed twist on bingo where songs replace the numbers. Pick up your card at Fogleman's. 5:30pm - 7pm July 15: 80s Hits August 19: Taylor Swift September 16:",
       "category": "entertainment"
+    },
+    {
+      "id": "edwards-hiring-fair-2026-09-17",
+      "title": "Hiring Fair",
+      "date": "2026-09-17T10:00:00",
+      "endDate": "2026-09-17T14:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join us for the 2026 Hiring Fair! This event will feature a diverse lineup of recruiters, including on-base organizations and off-base employers from a variety of civilian industries. Designed to connect transitional service members, military spouses, veterans, and all job seekers with top-tier employers and career opportunities! Thursday, September 17 | 10 am - 2 pm At the Military & Family Readiness Center, 90 Farr",
+      "category": "family"
+    },
+    {
+      "id": "edwards-operation-red-carpet-2026-09-18",
+      "title": "Operation Red Carpet",
+      "date": "2026-09-18T18:30:00",
+      "endDate": "2026-09-18T21:30:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "FRIDAY, SEPTEMBER 18 | 6:30-9:30PM | $30 AGES 9-18 (18 YEAR OLD MUST BE ENROLLED IN SCHOOL) Step out of your everyday gear and into the spotlight! We are rolling out the red carpet for our teens and youth to celebrate your resilience and awesomeness. Join us for a night of incredible music, dancing, photo booths, and a catered dinner. This is your chance to experience the tradition of a Military Ball with a modern, t",
+      "category": "family"
+    },
+    {
+      "id": "edwards-9-pin-no-tap-tournament-2026-09-19",
+      "title": "9-Pin No-Tap Tournament",
+      "date": "2026-09-19T11:00:00",
+      "endDate": "2026-09-19T13:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Stop by High Desert Lanes tomorrow for the 9-Pin No-Tap Tournament! Knock down 9 pins on your first ball and it counts as a strike! Saturday, July 11 | 11 am Saturday, August 22 | 11 am Saturday, September 19 | 11 am $30 entry fee Call 275-BOWL for more information.",
+      "category": "education"
     },
     {
       "id": "edwards-glow-groove-family-dance-party-2026-09-23",
@@ -498,6 +438,16 @@
       "address": "Edwards, CA",
       "description": "Join us at Club Muroc for Oktoberfest! Enjoy an evening of live music, authentic German food and beer, exciting Oktoberfest-themed games and more!Friday, September 25 | 4 – 10 pmFREE EventSponsored",
       "category": "holiday"
+    },
+    {
+      "id": "edwards-wine-tasting-2026-09-26",
+      "title": "Wine Tasting",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T14:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Enjoy a relaxing day exploring the scenic vineyards of Agua Dulce and Reyes Winery. 11 am - 2pm Departure: 10 am $40 (transportation only) 21& up Sign up by September 21",
+      "category": "outdoor"
     },
     {
       "id": "edwards-evt-air-show",

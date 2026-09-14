@@ -7,7 +7,7 @@
   "wing": "366 FW",
   "latitude": 43.0456,
   "longitude": -115.8724,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "mountain-home-notif-real-id",
@@ -244,24 +244,24 @@
   ],
   "events": [
     {
-      "id": "mountain-home-library-craftytales-2026-09-10",
-      "title": "Library CraftyTales",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Mountain Home AFB",
-      "address": "Mountain Home, ID",
-      "description": "Listed on mountainhomefss.com calendar.",
-      "category": "recreation"
+      "id": "mountain-home-holiday-budget-2026-09-16",
+      "title": "Holiday Budget",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T18:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "575 Gunfighter Ave bldg 180, Mountain Home AFB, ID, 83648",
+      "description": "Sleigh your Holiday Budget at the M&FR, and stress less this Holiday! Learn great tips for surviving this holiday season financially. Call MFRC to register: 208.828.2458.",
+      "category": "holiday"
     },
     {
-      "id": "mountain-home-aquatics-paddleboard-yoga-2026-09-12",
-      "title": "Aquatics – Paddleboard Yoga",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Mountain Home AFB",
-      "address": "Mountain Home, ID",
-      "description": "Listed on mountainhomefss.com calendar.",
-      "category": "fitness"
+      "id": "mountain-home-dfac-air-force-birthday-meal-2026-09-18",
+      "title": "DFAC - Air Force Birthday Meal",
+      "date": "2026-09-18T11:30:00",
+      "endDate": "2026-09-18T13:30:00",
+      "location": "DFAC",
+      "address": "680 Bldg 2805, Falcon St, Mountain Home AFB, ID 83648",
+      "description": "Join the DFAC for a special meal honoring the Air Force birthday.",
+      "category": "holiday"
     },
     {
       "id": "mountain-home-intro-to-rock-climbing-and-rappelling-2026-09-19",
@@ -284,6 +284,26 @@
       "category": "education"
     },
     {
+      "id": "mountain-home-parent-child-family-dance-2026-09-25",
+      "title": "Parent Child Family Dance",
+      "date": "2026-09-25T17:30:00",
+      "endDate": "2026-09-25T19:00:00",
+      "location": "Youth Programs",
+      "address": "650 Phantom Ave, Bldg 2830, Mountain Home AFB, ID 83648",
+      "description": "Families, please bring your favorite homemade soup or chili ready to serve. We will have judges and prizes. Cornbread, bread, and drinks will be provided! Only $10 per family! Sign up with CYPBMS https://parent.afcyp.com/ No CYPBMS account? Call 208 828 2501 to create an account.",
+      "category": "family"
+    },
+    {
+      "id": "mountain-home-teen-kickback-2026-09-25",
+      "title": "Teen Kickback",
+      "date": "2026-09-25T19:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Teen Center",
+      "address": "Building 2371",
+      "description": "Come hang out, enjoy some awesome themed snacks, and dive into a great lineup of games! It is the perfect chance to chill with friends, eat some great food, and just have a lot of fun after school! FREE event! Sign up with CYPBMS https://parent.afcyp.com/",
+      "category": "family"
+    },
+    {
       "id": "mountain-home-lead-climbing-2026-09-26",
       "title": "Lead Climbing",
       "date": "2026-09-26",
@@ -291,6 +311,36 @@
       "location": "Mountain Home AFB",
       "address": "Mountain Home, ID",
       "description": "Listed on mountainhomefss.com calendar.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mountain-home-teen-night-escape-the-room-2026-09-26",
+      "title": "Teen Night Escape the Room",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T17:00:00",
+      "location": "Youth Programs",
+      "address": "650 Phantom Ave, Bldg 2830, Mountain Home AFB, ID 83648",
+      "description": "Can you escape the room? Teen activity for ages 13-18. Only $35 per person. Sign up with CYPBMS https://parent.afcyp.com/ For more information, please call 208-828-2501.",
+      "category": "family"
+    },
+    {
+      "id": "mountain-home-movie-night-2026-09-26",
+      "title": "Movie Night",
+      "date": "2026-09-26T15:00:00",
+      "endDate": "2026-09-26T21:00:00",
+      "location": "Gunfighter Theater",
+      "address": "Desert St, Mountain Home AFB, ID 83648",
+      "description": "Movie night featuring: Paw Patrol: The Movie (G) Doors open at 3 pm. Movie starts at 3:30 pm Top Gun (PG) Doors open at 6 pm. Movie starts at 6:30 pm Movies are FREE, concessions are available for purchase.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mountain-home-mountain-bike-trips-2026-10-02",
+      "title": "Mountain Bike Trips",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Outdoor Adventure",
+      "address": "655 Pine Street bldg 2800, Mountain Home AFB, ID, 83648",
+      "description": "Learn how to mountain bike by taking this introductory class at Eagle Bike Park! Includes: bike, helmet, transportation, and guide! Only $59 per person. Must be minimum age of 14 years old. All trips leave from ODR at 5pm and return at 9pm. Sign up now! 208-828-6333.",
       "category": "outdoor"
     },
     {
@@ -304,6 +354,46 @@
       "category": "family"
     },
     {
+      "id": "mountain-home-dfac-columbus-day-holiday-meal-2026-10-12",
+      "title": "DFAC – Columbus Day Holiday Meal",
+      "date": "2026-10-12T11:30:00",
+      "endDate": "2026-10-12T13:30:00",
+      "location": "DFAC",
+      "address": "680 Bldg 2805, Falcon St, Mountain Home AFB, ID, 83648",
+      "description": "Join the DFAC for a delicious holiday meal! For more information, please call 208.828.2313.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-odr-intro-to-rock-climbing-2026-10-15",
+      "title": "ODR – Intro to Rock Climbing",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T21:00:00",
+      "location": "Fitness Center",
+      "address": "385 Aardvark Avenue, Bldg 2371, Mountain Home AFB, ID, 83648",
+      "description": "Learn the ropes with ODR, Intro to climbing and belaying. Ages 14+ (Under 18 must have an adult present) Only $25 per person. For more information, please call 208.828.6333.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mountain-home-halloween-glow-night-2026-10-16",
+      "title": "Halloween Glow Night",
+      "date": "2026-10-16T16:30:00",
+      "endDate": "2026-10-16T19:00:00",
+      "location": "Gunfighter Kids' Gym",
+      "address": "480 5th Avenue, Bldg 2610, Mountain Home AFB, ID 83648",
+      "description": "Get ready for a spooky fun glow night at the Kids' Gym! Session 1 | 4:30 - 5:30pm Session 2 | 6-7pm Wristband sales starting 15 mins prior to doors open (4:15) & (5:45). $3 per child, parents free! Limit of 50 children per session. For more information, please call 208.828.5674.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-bowling-candy-strike-2026-10-17",
+      "title": "Bowling – Candy Strike",
+      "date": "2026-10-17T15:00:00",
+      "endDate": "2026-10-17T18:00:00",
+      "location": "Strikers Bowling",
+      "address": "680 Falcon Street, Bldg 2805, Mountain Home AFB, ID, 83648",
+      "description": "Score a Strike or Spare to win a full-size candy bar. *While Supplies Last.13 & under can participate.* Join in for a costume contest! 2 winners: 1 child & 1 adult. 99-cent games & Shoes. $5 extra charge for kids to participate. If the line exists, a limit of 3 games per lane will be in effect. For more information, please call 208.828.6329.",
+      "category": "family"
+    },
+    {
       "id": "mountain-home-spooky-friday-2026-10-30",
       "title": "Spooky Friday",
       "date": "2026-10-30",
@@ -314,6 +404,16 @@
       "category": "holiday"
     },
     {
+      "id": "mountain-home-creep-it-real-5k-2026-10-30",
+      "title": "Creep it Real 5K",
+      "date": "2026-10-30T19:00:00",
+      "endDate": "2026-10-30T21:00:00",
+      "location": "Holt Park",
+      "address": "Mountain Home, ID",
+      "description": "Wear your favorite costume and run like the monsters are chasing you! 7pm sign up. Run starts at 7:30pm.",
+      "category": "fitness"
+    },
+    {
       "id": "mountain-home-spooky-library-halloween-2026-10-31",
       "title": "Spooky Library Halloween",
       "date": "2026-10-31",
@@ -322,6 +422,36 @@
       "address": "Mountain Home, ID",
       "description": "Listed on mountainhomefss.com calendar.",
       "category": "holiday"
+    },
+    {
+      "id": "mountain-home-turkey-touchdowns-thanksgiving-buffet-2026-11-12",
+      "title": "Turkey & Touchdowns Thanksgiving Buffet",
+      "date": "2026-11-12T17:00:00",
+      "endDate": "2026-11-12T22:00:00",
+      "location": "Silver Sage Golf & Events",
+      "address": "Mountain Home, ID",
+      "description": "Watch the game with friends while enjoying a Thanksgiving Buffet! $13 per meal on the Meal Card. For more information, please call 208828.2105.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-golf-turkey-shoot-2026-11-14",
+      "title": "Golf - Turkey Shoot",
+      "date": "2026-11-14T10:00:00",
+      "endDate": "2026-11-14T17:00:00",
+      "location": "Silver Sage Golf",
+      "address": "435 1st Avenue, Mountain Home AFB, ID 83648",
+      "description": "Kick off Thanksgiving season with a scramble! Everyone goes home with a turkey or ham. $50 per person; includes a turkey or a ham for each player. (Applicable greens and cart fees apply.) For more information, please call 208.828.6559",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-trap-skeet-turkey-shoot-2026-11-19",
+      "title": "Trap & Skeet - Turkey Shoot",
+      "date": "2026-11-19T10:00:00",
+      "endDate": "2026-11-21T14:00:00",
+      "location": "Trap & Skeet",
+      "address": "Falcon St, Mountain Home AFB, ID 83648",
+      "description": "Trap Shoot Thursday | Five Stand Friday | Skeet Shoot Saturday An event each day! Compete in one or all! The top shooter each day wins a Turkey! $15 plus standard range fees. Must be at least 10 years old and able to safely handle a shotgun by themselves. Register to get a chance at a door prize. Maximum Participants: 20, Minimum Participants: 5 ODR: 208.828.6333 | Trap & Skeet: 208.8285.8727",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

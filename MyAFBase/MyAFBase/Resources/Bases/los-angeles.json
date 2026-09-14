@@ -7,7 +7,7 @@
   "wing": "SBD 3 / SSC",
   "latitude": 33.9192,
   "longitude": -118.3853,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "los-angeles-notif-real-id",
@@ -447,36 +447,6 @@
   ],
   "events": [
     {
-      "id": "los-angeles-annual-gratitude-connectedness-5k-2026-09-10",
-      "title": "Annual Gratitude & Connectedness 5K",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "fitness"
-    },
-    {
-      "id": "los-angeles-bites-brews-2026-09-10",
-      "title": "Bites & Brews",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "community"
-    },
-    {
-      "id": "los-angeles-fast-furious-car-build-2026-09-10",
-      "title": "Fast & Furious Car Build",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "community"
-    },
-    {
       "id": "los-angeles-corn-hole-competition-2026-09-15",
       "title": "Corn Hole Competition",
       "date": "2026-09-15",
@@ -495,6 +465,26 @@
       "address": "El Segundo, CA",
       "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
       "category": "community"
+    },
+    {
+      "id": "los-angeles-post-deployment-reintegration-2026-09-16",
+      "title": "Post-Deployment Reintegration",
+      "date": "2026-09-16T09:00:00",
+      "endDate": "2026-09-16T10:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This workshop is intended for Service Members returning from deployment. We will provide Airman or Guardians, civilians, and families with information, assistance, and other tools they need to handle problems within different aspects that often arise after a long deployment. More Information Location: For more information, contact the Military & Family Readiness Center at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "education"
+    },
+    {
+      "id": "los-angeles-pre-deployment-readiness-2026-09-16",
+      "title": "Pre-Deployment Readiness",
+      "date": "2026-09-16T13:00:00",
+      "endDate": "2026-09-16T14:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This family-friendly workshop will educate, prepare, and connect you with deployment-relevant resources on base. In addition, Pre-Deployment Readiness workshop will give you tips on how to prepare yourself and family members for deployment. Spouses are encouraged to attend. Service members must attend within 30 days of deploying. More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. Military & Family Readiness Center web site www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
     },
     {
       "id": "los-angeles-family-craft-night-2026-09-18",
@@ -517,6 +507,16 @@
       "category": "family"
     },
     {
+      "id": "los-angeles-pre-arrival-orientation-2026-09-23",
+      "title": "Pre-Arrival Orientation",
+      "date": "2026-09-23T13:00:00",
+      "endDate": "2026-09-23T14:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "Relocating to Los Angeles AFB within the next 6 months? Join us on Microsoft Teams to learn valuable information to help plan your move! Hear from the following local agencies: Child & Youth Programs Military & Family Readiness Center South Bay Workforce Investment Board TMO Housing Office Tricare School Liaison Program Military Personnel Flight (MPF) Finance Office FSS Marketing Office More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
+    },
+    {
       "id": "los-angeles-thank-goodness-it-s-thursday-karaoke-nig-2026-09-24",
       "title": "Thank Goodness It’s Thursday – Karaoke Night",
       "date": "2026-09-24",
@@ -527,6 +527,16 @@
       "category": "entertainment"
     },
     {
+      "id": "los-angeles-professional-development-benefits-of-life-coaching-2",
+      "title": "Professional Development: Benefits of Life Coaching",
+      "date": "2026-09-24T11:00:00",
+      "endDate": "2026-09-24T12:00:00",
+      "location": "Professional Development Center",
+      "address": "483 N Aviation Blvd Bldg. 272, C1-209, El Segundo, CA 90245",
+      "description": "Discover how life coaching can support both personal and professional growth. This seminar explores the transformative impact of coaching in helping individuals clarify goals, strengthen self-awareness, and make more confident decisions. Participants will gain practical insight into how life coaching promotes accountability, enhances overall well-being, and provides tools to create meaningful, lasting change. Whether",
+      "category": "education"
+    },
+    {
       "id": "los-angeles-outdoor-movie-night-the-mandalorian-and-2026-09-25",
       "title": "Outdoor Movie Night: The Mandalorian and Grogu",
       "date": "2026-09-25",
@@ -535,6 +545,146 @@
       "address": "El Segundo, CA",
       "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
       "category": "outdoor"
+    },
+    {
+      "id": "los-angeles-fitness-challenge-elliptical-machine-2026-10-01",
+      "title": "Fitness Challenge: Elliptical Machine",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-30T23:59:59",
+      "location": "Fitness & Sports Centers",
+      "address": "200 N Douglas St Bldg. 286, El Segundo, CA 90245",
+      "description": "Challenge yourself using Elliptical Machine this month! Log your miles all month long at El Segundo or Ft. MacArthur. The participant with the most miles wins a prize! Health and Wellness Center Fitness Improvement Program (FIP) More Information Contact LA AFB Fitness & Sports Center for more information at (310) 653-6771 . www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "fitness"
+    },
+    {
+      "id": "los-angeles-introduction-to-linkedin-2026-10-06",
+      "title": "Introduction to LinkedIn",
+      "date": "2026-10-06T09:00:00",
+      "endDate": "2026-10-06T13:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "Come join us for an informative session on how to make the most out of your LinkedIn profile. Whether you're a seasoned professional or just starting out, this event is perfect for anyone looking to enhance their online presence. Learn about creating a compelling profile, networking effectively, and utilizing LinkedIn's features to boost your career opportunities. Don't miss out on this chance to level up your profes",
+      "category": "education"
+    },
+    {
+      "id": "los-angeles-post-deployment-reintegration-2026-10-07",
+      "title": "Post-Deployment Reintegration",
+      "date": "2026-10-07T09:00:00",
+      "endDate": "2026-10-07T10:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This workshop is intended for Service Members returning from deployment. We will provide Airman or Guardians, civilians, and families with information, assistance, and other tools they need to handle problems within different aspects that often arise after a long deployment. More Information Location: For more information, contact the Military & Family Readiness Center at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "education"
+    },
+    {
+      "id": "los-angeles-pre-deployment-readiness-2026-10-07",
+      "title": "Pre-Deployment Readiness",
+      "date": "2026-10-07T13:00:00",
+      "endDate": "2026-10-07T14:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This family-friendly workshop will educate, prepare, and connect you with deployment-relevant resources on base. In addition, Pre-Deployment Readiness workshop will give you tips on how to prepare yourself and family members for deployment. Spouses are encouraged to attend. Service members must attend within 30 days of deploying. More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. Military & Family Readiness Center web site www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
+    },
+    {
+      "id": "los-angeles-mug-coaster-painting-2026-10-08",
+      "title": "Mug & Coaster Painting",
+      "date": "2026-10-08T16:30:00",
+      "endDate": "2026-10-08T18:30:00",
+      "location": "South Bay Bar & Grill",
+      "address": "200 N Douglas St, (Bldg. 270), El Segundo, CA 90245",
+      "description": "Get creative and design a one-of-a-kind ceramic mug and matching coaster! In this fun, hands-on workshop, participants will paint and personalize their own ceramic set using a variety of paints and decorative materials provided. Whether you're creating a unique keepsake, a thoughtful handmade gift, or simply enjoying an afternoon of crafting, this event is perfect for all skill levels. Location: South Bay Dining Room",
+      "category": "recreation"
+    },
+    {
+      "id": "los-angeles-ftec-first-term-enlisted-course-2026-10-13",
+      "title": "FTEC - First Term Enlisted Course",
+      "date": "2026-10-13T07:45:00",
+      "endDate": "2026-10-16T16:30:00",
+      "location": "Professional Development Center",
+      "address": "483 N Aviation Blvd Bldg. 272, C1-209, El Segundo, CA 90245",
+      "description": "The First Term Enlisted Course (FTEC) is a mandatory program (reference, AFI 36-2624 para 6.2) structured to guide first term Airmen/Guardian transitioning from a training environment to their first duty assignment. This course will expand and reinforce lessons learned from Basic Military Training (BMT), Airmen's Week & Technical Training School. Additionally, this course will help establish networking and relationsh",
+      "category": "education"
+    },
+    {
+      "id": "los-angeles-breast-cancer-awareness-5k-2026-10-14",
+      "title": "Breast Cancer Awareness 5K",
+      "date": "2026-10-14T07:00:00",
+      "endDate": "2026-10-14T07:00:00",
+      "location": "Fitness & Sports Centers",
+      "address": "200 N Douglas St Bldg. 286, El Segundo, CA 90245",
+      "description": "October is Breast Cancer Awareness Month, and we invite you to walk or run with us to show support for survivors and their families. Wear pink to raise awareness and stand in solidarity! Plus, participants can compete for great prizes and giveaways. Let's make every step count! Note: Arrive to LA AFB Track by 0710. Contact Fitness & Sports Center for more information. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "fitness"
+    },
+    {
+      "id": "los-angeles-kids-konnection-bug-hunt-2026-10-14",
+      "title": "Kids Konnection Bug Hunt",
+      "date": "2026-10-14T10:00:00",
+      "endDate": "2026-10-14T12:00:00",
+      "location": "Community Center",
+      "address": "111 W 29th St Bldg. 403,, San Pedro, CA, 90731",
+      "description": "Get ready for a creepy-crawly adventure at the Community Center this October! Kids will receive a bingo-style card and search for hidden bugs around the center—find them all and win some candy! Costumes are encouraged but not required—come dressed for some spooky fun! This free event is perfect for little explorers ages 5 and under who love a good hunt. More Information Contact the Community Center at: (310) 653-8341 or visit our site at: https://www.lafss.com/cc/ . www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "holiday"
+    },
+    {
+      "id": "los-angeles-fall-festival-2026-10-17",
+      "title": "Fall Festival",
+      "date": "2026-10-17T14:00:00",
+      "endDate": "2026-10-17T17:00:00",
+      "location": "Force Support Squadron",
+      "address": "200 North Douglas Street, El Segundo, CA 90245",
+      "description": "[et_pb_section fb_built=”1″ admin_label=”section” _builder_version=”4.27.6″ custom_margin=”||0px||false|false” custom_padding=”||0px||false|false” global_colors_info=”{}”][et_pb_row admin_label=”row” _builder_version=”4.27.6″ background_size=”initial” background_position=”top_left” background_repeat=”repeat” width=”100%” max_width=”100%” custom_margin=”||0px||false|false” custom_padding=”||0px||false|false” global_co",
+      "category": "community"
+    },
+    {
+      "id": "los-angeles-halloween-treat-bags-pumpkin-painting-2026-10-23",
+      "title": "Halloween Treat Bags & Pumpkin Painting",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T20:30:00",
+      "location": "Community Center",
+      "address": "111 W 29th St Bldg. 403,, San Pedro, CA 90731",
+      "description": "Get into the Halloween spirit at the Community Center! Join the Arts & Crafts and Community Center in the Ballroom for a fun-filled evening of pumpkin painting and Halloween treat bag decorating. Each family gets a pumpkin to paint Create your own Halloween treat bag Take your pumpkin home or display it at Trunk-or-Treat on October 30! Open to all with base access. Cost: $5 per pumpkin Pre-registration required Pumpk",
+      "category": "holiday"
+    },
+    {
+      "id": "los-angeles-trunk-or-treat-2026-10-30",
+      "title": "Trunk-or-Treat",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T20:00:00",
+      "location": "Community Center",
+      "address": "111 W 29th St Bldg. 403,, San Pedro, CA, 90731",
+      "description": "Get ready for a spooktacular night of trick-or-treating fun at the Community Center! The ghouls and goblins will be out, and we’re bringing the Halloween spirit with decorated trunks, tons of candy, and festive fun. This event is open to all with base access, and provides a safe and exciting environment for trick-or-treaters to enjoy. Costumes are highly encouraged! VOLUNTEERS NEEDED – Be a part of our Boo Crew! Decorate your trunk and hand out candy * for a chance to win prizes in these categories: Best Overall Trunk – Most outstanding, well-decorated trunk Most Creative Trunk – Most unique a",
+      "category": "holiday"
+    },
+    {
+      "id": "los-angeles-temecula-winery-tour-2026-11-07",
+      "title": "Temecula Winery Tour",
+      "date": "2026-11-07T07:00:00",
+      "endDate": "2026-11-07T19:00:00",
+      "location": "Community Center",
+      "address": "111 W 29th St Bldg. 403,, San Pedro, CA, 90731",
+      "description": "The Community Center will be visiting three of Temecula’s best wineries on this day-long excursion through wine country! Pay as you taste while we chauffeur you around to each winery. (1) Wilson Creek Winery (1 hour) — Award-winning wine and almond champagne. https://www.wilsoncreekwinery.com (2) Ponte Winery (2 hours) Lunch offered at this location. ( Not included in trip cost ) https://www.pontewinery.com Or (3) South Coast Winery Wine tasting and state-of-the-art winery. https://www.southcoastwinery.com (4) Calloway Vineyard & Winery Wine tasting, shopping, and live music. https://www.calla",
+      "category": "entertainment"
+    },
+    {
+      "id": "los-angeles-turkey-bowling-2026-11-17",
+      "title": "Turkey Bowling",
+      "date": "2026-11-17T11:00:00",
+      "endDate": "2026-11-17T16:00:00",
+      "location": "Los Angeles AFB",
+      "address": "El Segundo, CA",
+      "description": "Strike up some fun at our Turkey Bowling event! Test your skills, compete for the highest score, and take home a prize. Roll your way into the holiday spirit and see if you can score a turkey (three strikes in a row)! More Information www.Facebook.com/61FSS www.Instagram.com/61FSS Sign-Up Begins October 5-November 12",
+      "category": "recreation"
+    },
+    {
+      "id": "los-angeles-turkey-trot-5k-2026-11-18",
+      "title": "Turkey Trot 5k",
+      "date": "2026-11-18T07:15:00",
+      "endDate": "2026-11-18T07:15:00",
+      "location": "Fitness & Sports Centers",
+      "address": "200 N Douglas St Bldg. 286, El Segundo, CA 90245",
+      "description": "Get ready to trot like a turkey at our festive Turkey Trot 5K! Show off your best Thanksgiving-themed attire-turkey hats encouraged! Prizes awarded to the Top Male, Top Female, and the participant with the closest estimated time (no watch timers allowed!). Don't miss out on the fun-let's gobble up some miles together! Note: Arrive to LA AFB Track by 0710. More Information Location: LA AFB Track Contact LA AFB Fitness",
+      "category": "holiday"
     }
   ],
   "newcomers": {

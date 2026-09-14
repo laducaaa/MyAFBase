@@ -7,7 +7,7 @@
   "wing": "NATO E-3A",
   "latitude": 50.9608,
   "longitude": 6.0424,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "geilenkirchen-notif-real-id",
@@ -182,7 +182,108 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "geilenkirchen-karaoke-nite-2026-09-14",
+      "title": "Karaoke Nite",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Karaoke Nite",
+      "category": "entertainment"
+    },
+    {
+      "id": "geilenkirchen-parent-s-night-out-cdc-sac-2026-09-14",
+      "title": "Parent's Night Out | CDC & SAC",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Parent's Night Out | CDC & SAC",
+      "category": "family"
+    },
+    {
+      "id": "geilenkirchen-soldier-family-readiness-training-2026-09-14",
+      "title": "Soldier & Family Readiness Training",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Soldier & Family Readiness Training",
+      "category": "education"
+    },
+    {
+      "id": "geilenkirchen-lille-france-day-trip-oct-10-register-by-sept-25-2",
+      "title": "Lille, France Day Trip | Oct 10 | Register by Sept 25",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Lille, France Day Trip | Oct 10 | Register by Sept 25",
+      "category": "outdoor"
+    },
+    {
+      "id": "geilenkirchen-movie-matinee-2026-10-01",
+      "title": "Movie Matinee",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Movie Matinee",
+      "category": "entertainment"
+    },
+    {
+      "id": "geilenkirchen-adult-beginner-s-class-for-sewing-2026-10-01",
+      "title": "Adult Beginner's Class for Sewing",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Adult Beginner's Class for Sewing",
+      "category": "recreation"
+    },
+    {
+      "id": "geilenkirchen-crossfit-gk-2026-10-01",
+      "title": "CrossFit GK",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "CrossFit GK",
+      "category": "fitness"
+    },
+    {
+      "id": "geilenkirchen-day-trip-to-giethoorn-oct-24-register-by-oct-9-202",
+      "title": "Day Trip to Giethoorn | Oct 24 | Register by Oct 9",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Day Trip to Giethoorn | Oct 24 | Register by Oct 9",
+      "category": "outdoor"
+    },
+    {
+      "id": "geilenkirchen-35-min-hiit-2026-10-01",
+      "title": "35 Min HIIT",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "35 Min HIIT",
+      "category": "community"
+    },
+    {
+      "id": "geilenkirchen-abs-assets-2026-10-01",
+      "title": "Abs & Assets",
+      "date": "2026-10-01T10:00:00",
+      "endDate": "2026-10-01T10:00:00",
+      "location": "Geilenkirchen AB",
+      "address": "Geilenkirchen, Germany",
+      "description": "Abs & Assets",
+      "category": "community"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Geilenkirchen AB Visitor Center",

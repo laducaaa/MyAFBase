@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -244,26 +244,6 @@
   ],
   "events": [
     {
-      "id": "malmstrom-ceramic-night-at-pgsmoa-2026-09-09",
-      "title": "Ceramic Night at PGSMOA",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Malmstrom AFB",
-      "address": "Great Falls, MT",
-      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "malmstrom-hi-line-climbing-intro-to-rock-climbing-2026-09-11",
-      "title": "Hi-Line Climbing: Intro to Rock Climbing",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Malmstrom AFB",
-      "address": "Great Falls, MT",
-      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
-      "category": "outdoor"
-    },
-    {
       "id": "malmstrom-fly-fight-win-5k-2026-09-11",
       "title": "Fly, Fight, Win 5k",
       "date": "2026-09-11",
@@ -284,6 +264,46 @@
       "category": "holiday"
     },
     {
+      "id": "malmstrom-efmp-deployed-family-event-2026-09-15",
+      "title": "EFMP/Deployed Family Event",
+      "date": "2026-09-15T16:30:00",
+      "endDate": "2026-09-15T17:30:00",
+      "location": "",
+      "address": "",
+      "description": "Cost: Free Create and Discover! STEM Kits available for pick-up at the M&FRC. Limited availability. Please call the M&FRC at 731-4900 for more information.",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-home-alone-class-2026-09-16",
+      "title": "Home Alone Class",
+      "date": "2026-09-16T17:30:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "The Youth Center will be hosting a home alone class, which teaches youth about safety, and skills in handling emergencies, strangers, online risks, and basic first aid when unsupervised. The course builds self-confidence and independence to help the youth feel empowered when they are at home by themselves and allows parents to feel more secure when youth are alone. Registration closes for this event on Wednesday, September 14. Please sign up on the CYPBMS-Parent Portal. Cost: $12 Ages: 8-12",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-living-by-nature-s-calendar-seasonal-living-prac-2026",
+      "title": "Living By Nature’s Calendar: Seasonal Living Practices",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Wednesday, September 16 | 6 – 8 pm While Earth goes through seasons every year, our bodies respond differently to those seasons as we eat different foods, take in different amounts of sunlight, and experience different weather. Learn a few of the best practices to help your body adjust as the seasons change and what you can do to help keep yourself in optimal condition throughout the year. All you need to bring is a notebook, pen and curiosity! Register by Thursday, September 3 by calling 731-3359. Cost: $15 Ages: 18+",
+      "category": "outdoor"
+    },
+    {
+      "id": "malmstrom-pages-and-plant-bingo-2026-09-17",
+      "title": "Pages and Plant Bingo",
+      "date": "2026-09-17T18:00:00",
+      "endDate": "2026-09-17T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring all your bookish friends and plant-loving humans on down to the Grizzly Bend for some fun competition with a night of bingo. Participants will have six chances to win a variety of book and plant bundles that will include special editions, décor, and more! Pre-purchase of cards will begin at the Grizzly Bend on Monday, September 14 at 6:30 am and end Thursday, September 17 at 3 pm. Doors will open at 5:30 pm with the first game starting at 6 pm, and food and drinks will be available for purchase all night in the lounge. Cards will also be available for purchase at the event. Cost: $5 per ",
+      "category": "entertainment"
+    },
+    {
       "id": "malmstrom-fly-fight-win-5k-2026-09-18",
       "title": "Fly, Fight, Win 5k",
       "date": "2026-09-18",
@@ -302,6 +322,46 @@
       "address": "Great Falls, MT",
       "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
       "category": "holiday"
+    },
+    {
+      "id": "malmstrom-hip-hop-bowling-2026-09-18",
+      "title": "Hip Hop Bowling",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for a night of rhythm and rolls at our Hip-Hop & Bowling Night! Celebrate the vibrant energy of hip-hop while enjoying a fun-filled evening of bowling with friends. Show off your lyrical skills! We’ll have an open mic for anyone who wants to drop some bars between games. Cost: $22 per hour per lane (6 people per lane), shoe rental $3 Food Special: Buy one personal pizza and a soft drink, get one 50% off.",
+      "category": "entertainment"
+    },
+    {
+      "id": "malmstrom-leadership-night-torch-club-and-teen-council-2026-09-1",
+      "title": "Leadership Night- Torch Club and Teen Council",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join this elite youth led event, where youth plan, design, implement, and create the vision for the club! Youth Leaders will deliver “9/11 letters” to local emergency responders. Registration closes for this event on Wednesday, September 16. Please sign up on the CYPBMS-Parent Portal . Cost: Free Ages: 9-12 and 13-18",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-wellness-wednesday-snack-n-chat-2026-09-23",
+      "title": "Wellness Wednesday: Snack-N-Chat",
+      "date": "2026-09-23T10:30:00",
+      "endDate": "2026-09-23T11:30:00",
+      "location": "",
+      "address": "",
+      "description": "Cost: Free Informal sit down with our MFLC. Children are welcome but supervision is not provided. Feel free to bring a snack and come chat! Please call the M&FRC at 731-4900 for more information. Location is Grizzly Bend.",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-total-teen-takeover-ramen-dodge-ball-2026-09-25",
+      "title": "Total Teen Takeover- Ramen & Dodge Ball",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "Back by popular demand, are the two favorites among teens! Join us at the youth center as we play dodge ball and enjoy fresh ramen together. You can invite a friend for this event too! The snack bar will be open. Registration closes for this event on Wednesday, September 23. Please sign up on the CYPBMS-Parent Portal. Cost: Free Ages: 13-18",
+      "category": "family"
     },
     {
       "id": "malmstrom-zombie-run-5k-2026-09-28",
@@ -332,6 +392,26 @@
       "address": "Great Falls, MT",
       "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
       "category": "community"
+    },
+    {
+      "id": "malmstrom-money-matters-monday-holiday-spending-2026-10-19",
+      "title": "Money Matters Monday: Holiday Spending",
+      "date": "2026-10-19T10:30:00",
+      "endDate": "2026-10-19T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Cost: Free Learn tips and resources to help you plan for successful holidays that won’t break the bank! Please call the M&FRC at 731-4900 to register.",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-spooky-pre-teen-night-lock-in-2026-10-23",
+      "title": "Spooky Pre-Teen Night~ Lock-In",
+      "date": "2026-10-23T19:00:00",
+      "endDate": "2026-10-24T07:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring your sleeping bag; comfy PJs; favorite card games; costumes, and share the night with good friends, great music, and yummy food! The Pre-Teen Lock in is officially here, so join us from 7 pm to 7 am for some FUN! Snack bar will be open and fully stocked. Please sign up through the CYPBMS-Parent Portal by Wednesday October 21 st . Cost: $40 Ages: 9-12",
+      "category": "holiday"
     },
     {
       "id": "malmstrom-zombie-run-5k-2026-10-29",

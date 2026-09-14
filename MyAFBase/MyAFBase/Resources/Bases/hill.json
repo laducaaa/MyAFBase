@@ -7,7 +7,7 @@
   "wing": "75 ABW / Ogden ALC",
   "latitude": 41.124,
   "longitude": -111.973,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "hill-notif-1",
@@ -331,44 +331,14 @@
       "category": "community"
     },
     {
-      "id": "hill-big-buck-bingo-at-the-landing-2026-09-08",
-      "title": "Big Buck Bingo at The Landing",
-      "date": "2026-09-08T17:00:00",
-      "endDate": "2026-09-08T19:00:00",
-      "location": "The Landing",
-      "address": "7420 Miller St, Hill AFB, UT 84056 Hill AFB, UT 84056 United States",
-      "description": "Big Buck Bingo at The Landing Tuesdays and Thursdays. Games start at 1700. Doors open at 1500. $25 – 6 cards and 10 games. $30 9 cards and 10 games. 18+ years only allowed in bingo room. DOD cardholders only unless sponsor is present.",
-      "category": "entertainment"
-    },
-    {
-      "id": "hill-ladies-golf-league-thursdays-at-hubbard-mem",
-      "title": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course",
-      "date": "2026-09-10T09:00:00",
-      "endDate": "2026-09-10T11:00:00",
-      "location": "Hubbard Golf Course",
-      "address": "7005 Golf Course Drive, Bldg. 721 Hill AFB, UT 84056 United States +",
-      "description": "Ladies Golf League Thursdays at Hubbard Memorial Golf Course Thursdays 0900 – 1100, May 7 – Oct 29 Weekly: $6 + greens and cart fees. Ages 18+ Register by 3/1/26. Text 801-710-4227 or email HeidiHomoser@gmail.com",
-      "category": "recreation"
-    },
-    {
-      "id": "hill-acrylic-painting-class-september-10-2026-09",
-      "title": "Acrylic Painting Class September 10",
-      "date": "2026-09-10T16:30:00",
-      "endDate": "2026-09-10T19:30:00",
-      "location": "Arts & Crafts Center",
-      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
-      "description": "Acrylic Painting Class September 10 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
+      "id": "hill-financial-lunch-and-learn-2026-09-16",
+      "title": "Financial Lunch and Learn",
+      "date": "2026-09-16T11:30:00",
+      "endDate": "2026-09-16T12:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "5837 D Ave. Bldg 150, Hill Air Force Base, UT 84056",
+      "description": "Financial Lunch and Learn Lunch & Learn provided by America First Credit Union. Classes open to all military, dependents, retirees, Guard/Reserve, and DoD Civilians. Lunch provided to those who sign up by noon the day prior to the workshop. Paying for Higher Education Wed 18 March 1130 - 1230 Home buying Wed 15 April 1130 - 1230 What is Your Money Personality Wed 13 May 1130 - 1230 Car buying Wed 10 June 1130 - 1230 ",
       "category": "education"
-    },
-    {
-      "id": "hill-chalk-fest-at-gerrity-memorial-library-2026",
-      "title": "Chalk-Fest at Gerrity Memorial Library",
-      "date": "2026-09-12T10:00:00",
-      "endDate": "2026-09-12T12:00:00",
-      "location": "Gerrity Memorial Library",
-      "address": "7415 Weiner St Hill AFB, UT 84056 United States +",
-      "description": "Chalk-Fest at Gerrity Memorial Library When: Saturday September 12th from 1000 to 1200 Fun for all ages! Sidewalk chalk will be provided. Just bring your imagination! The library parking lot will be blocked off for Chalk-Fest. Parking spaces will be reserved on a first-come-first-served basis. Reservations are required. Come by the library or call 801-777-2533",
-      "category": "family"
     },
     {
       "id": "hill-ladies-golf-league-thursdays-at-hubbard-mem",
@@ -401,6 +371,26 @@
       "category": "outdoor"
     },
     {
+      "id": "hill-hearts-apart-dinner-2026-09-18",
+      "title": "Hearts Apart Dinner",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T19:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "5837 D Ave. Bldg 150, Hill Air Force Base, UT 84056",
+      "description": "Hearts Apart Dinner Date: Friday, 18 September. 1800 - 1930 Location: M&FRC What: Free dinner for families that are separated due to military deployment. This is a chance to socialize with other families who are facing the same struggles, and to learn about resources available to you. Must RSVP to attend. Please leave your name and how many children (if any) you plan to bring with. Contact MSgt Rachael Cyr at rachel.",
+      "category": "family"
+    },
+    {
+      "id": "hill-hearts-apart-dinner-september-2026-2026-09-18",
+      "title": "Hearts Apart Dinner September 2026",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T19:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "5837 D Ave. Bldg 150, Hill Air Force Base, UT 84056",
+      "description": "Hearts Apart Dinner September 2026 Free dinner for families that are separated due to military deployment. This is a chance to socialize with other families who are facing the same struggles, and to learn about resources available to you. Must RSVP to attend. Contact MSgt Rachel Cyr rachel.cyr@us.af.mil or call the M&FRC front desk at 801-777-4681 to sign up. Please leave your name and how many children (if any) that",
+      "category": "family"
+    },
+    {
       "id": "hill-acrylic-painting-class-october-1-2026-09-24",
       "title": "Acrylic Painting Class October 1",
       "date": "2026-09-24T16:30:00",
@@ -421,6 +411,16 @@
       "category": "education"
     },
     {
+      "id": "hill-summer-night-live-concert-featuring-modern-respect-band-202",
+      "title": "Summer Night Live Concert Featuring Modern Respect Band",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T20:00:00",
+      "location": "Centennial Park",
+      "address": "1100 Park Ln, Hill Air Force Base, UT 84056",
+      "description": "Summer Night Live Concert Featuring Modern Respect Band When: Thursday September 24, 2026 1800 - 2000 Where: Centennial Park",
+      "category": "entertainment"
+    },
+    {
       "id": "hill-sstar-sep",
       "title": "SSTaR: Skills, Strengths, Techniques & Resources",
       "date": "2026-09-25T08:00:00",
@@ -429,6 +429,26 @@
       "address": "Hill AFB, UT",
       "description": "Resilience skills workshop 0800–1200.",
       "category": "community"
+    },
+    {
+      "id": "hill-wingman-relay-race-2026-09-25",
+      "title": "Wingman Relay Race",
+      "date": "2026-09-25T09:00:00",
+      "endDate": "2026-09-25T11:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "7981 Georgia Street Hill Hill AFB, UT 84056 United States +",
+      "description": "Wingman Relay Race When: Friday September 25 at 0900. Check in at 0800 Where: Centennial Park Registration Details: Register at the Warrior Fitness Center - 7250 Balmer St. Bldg 533 - (801) 777-2762 Cost: $15 per participant. Pay by Sept 4th to guarantee a t-shirt 8-Person - 1.5 miles each. 4-person - 3 Miles each 2-person - 6 miles each",
+      "category": "fitness"
+    },
+    {
+      "id": "hill-military-life-cycle-2026-09-25",
+      "title": "Military Life Cycle",
+      "date": "2026-09-25T11:30:00",
+      "endDate": "2026-09-25T12:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "5837 D Ave. Bldg 150, Hill Air Force Base, UT 84056",
+      "description": "Military Life Cycle A monthly series designed to help you understand key VA benefits and resources at every stage of military life. Survivor & Casualty Assistance Resources - Friday August 21 1130-1230 VA Benefits 101 - Friday September 25 1130-1230",
+      "category": "education"
     },
     {
       "id": "hill-big-buck-bingo-2026-09-29",

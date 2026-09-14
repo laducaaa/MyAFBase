@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -266,96 +266,6 @@
   ],
   "events": [
     {
-      "id": "altus-labor-day-bowling",
-      "title": "Labor Day 97¢ Bowling",
-      "date": "2026-09-07T11:00:00",
-      "endDate": "2026-09-07T18:00:00",
-      "location": "Galaxy Lanes",
-      "address": "Altus AFB, OK",
-      "description": "Celebrate Labor Day at Galaxy Lanes with 97¢ bowling from 1100–1800.",
-      "category": "recreation"
-    },
-    {
-      "id": "altus-story-time-2026-09-08",
-      "title": "Story Time",
-      "date": "2026-09-08T10:30:00",
-      "endDate": "2026-09-08T11:00:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Join us for Library Story Time and enjoy a fun-filled morning of stories, songs, rhymes, and a creative craft! It's the perfect opportunity for babies, toddlers, and young children to",
-      "category": "family"
-    },
-    {
-      "id": "altus-crochet-club-2026-09-08",
-      "title": "Crochet Club",
-      "date": "2026-09-08T16:30:00",
-      "endDate": "2026-09-08T18:30:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Join us for a delightful evening of crocheting! Bring your creativity and learn something new! We will have some materials on hand, but if possible, please bring your own. Recommended",
-      "category": "recreation"
-    },
-    {
-      "id": "altus-murder-mystery-game-night-2026-09-08",
-      "title": "Murder Mystery Game Night",
-      "date": "2026-09-08T17:00:00",
-      "endDate": "2026-09-08T19:00:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-mandalorian-movie",
-      "title": "Base Theater: Star Wars — The Mandalorian and Grogu",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "Base Theater",
-      "address": "Altus AFB, OK",
-      "description": "Free PG-13 movie showing at the Base Theater.",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-star-wars-the-mandalorian-and-grogu-2026-09-11",
-      "title": "Star Wars: The Mandalorian and Grogu",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "Altus AFB Theater",
-      "address": "Altus, OK",
-      "description": "FREE MOVIE AT THE BASE THEATER! Journey to a galaxy far, far away with a free showing of Star Wars: The Mandalorian and Grogu, rated PG-13, at the Base Theater!",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-karaoke-night-2026-09-11",
-      "title": "Karaoke Night",
-      "date": "2026-09-11T19:00:00",
-      "endDate": "2026-09-11T23:00:00",
-      "location": "Altus AFB",
-      "address": "Altus, OK",
-      "description": "Karaoke Night at Dark Horse Sports Bar! Grab the mic and get ready to sing your heart out! Join us every Friday from 1900–2300 at Dark Horse Sports Bar for",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-tailgate-5k",
-      "title": "Tailgate Classic 5K",
-      "date": "2026-09-12T08:00:00",
-      "endDate": "2026-09-12T09:00:00",
-      "location": "Fitness Center",
-      "address": "Altus AFB, OK",
-      "description": "Fitness Center Tailgate Classic 5K race kicks off at 0800.",
-      "category": "fitness"
-    },
-    {
-      "id": "altus-lego-club-2026-09-12",
-      "title": "LEGO Club",
-      "date": "2026-09-12T10:30:00",
-      "endDate": "2026-09-12T12:00:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Unleash your inner architect and let your imagination run wild! Join us for a morning of creative building where you can design your very own masterpiece. The best part? Your",
-      "category": "family"
-    },
-    {
       "id": "altus-fall-bowling-league-2026-09-14",
       "title": "Fall Bowling League",
       "date": "2026-09-14T17:30:00",
@@ -474,6 +384,56 @@
       "address": "Altus AFB, OK",
       "description": "Live music, food and drinks, corn hole, bounce houses, and more.",
       "category": "community"
+    },
+    {
+      "id": "altus-harry-potter-teen-trivia-2026-10-24",
+      "title": "Harry Potter Teen Trivia",
+      "date": "2026-10-24T10:30:00",
+      "endDate": "2026-10-24T12:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Join the Library for the Harry Potter Teen Trivia from 1100 - 1300 Represent your Hogwarts House and test your Harry Potter knowledge! Suggested age 13+. For more information, please call 580-481-6302",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-halloween-bowling-2026-10-31",
+      "title": "Halloween Bowling",
+      "date": "2026-10-31T12:00:00",
+      "endDate": "2026-10-31T18:00:00",
+      "location": "Altus AFB Galaxy Lanes",
+      "address": "Altus, OK",
+      "description": "Halloween Bowling at Galaxy Lanes! Get ready for a spooktacular afternoon of bowling from 1200-1800 at Galaxy Lanes! Bowlers who come dressed in costume can enjoy $2 games per person and $1 shoe rental! Kids Costume Contest at 1500! Come dressed to impress and show off your best Halloween look! Bring the whole family for an afternoon of bowling, costumes, and Halloween fun! For more information, please call 580-481-6",
+      "category": "holiday"
+    },
+    {
+      "id": "altus-turkey-shoot-two-man-scramble-2026-11-14",
+      "title": "Turkey Shoot Two-Man Scramble",
+      "date": "2026-11-14T10:00:00",
+      "endDate": "2026-11-14T15:00:00",
+      "location": "Windy Trails Golf Course",
+      "address": "Altus, OK",
+      "description": "Grab your favorite golf partner and head out to Windy Trails Golf Course for the Turkey Shoot Two-Man Scramble! Tee off begins at 1000 for a fun-filled day of competition, camaraderie, and great golf. Entry is just $20 per golfer, making it the perfect chance to enjoy the course and test your skills with friends. For more information, please call 580-481-7207.",
+      "category": "outdoor"
+    },
+    {
+      "id": "altus-gobble-trot-5k-2026-11-20",
+      "title": "Gobble Trot 5K",
+      "date": "2026-11-20T07:00:00",
+      "endDate": "2026-11-20T08:00:00",
+      "location": "Altus AFB Fitness Center",
+      "address": "Altus, OK",
+      "description": "Start the Thanksgiving season off on the right foot at the Fitness Center's Gobble Trot 5K! Lace up your running shoes and join us for a fun and festive morning run beginning at 0700. Whether you're racing for a personal best or just coming out for the holiday spirit, it's the perfect way to kick off the season with friends, family, and fitness fun!",
+      "category": "holiday"
+    },
+    {
+      "id": "altus-holiday-tree-lighting-2026-12-01",
+      "title": "Holiday Tree Lighting",
+      "date": "2026-12-01T17:00:00",
+      "endDate": "2026-12-01T19:00:00",
+      "location": "Wings of Freedom Park",
+      "address": "Altus, OK",
+      "description": "Celebrate the start of the holiday season with your Air Force family at the Holiday Tree Lighting at Wings of Freedom Park! Enjoy an evening filled with holiday cheer, festive spirit, and community fun as we light up the season together. Festivities begin at 1700 - don't miss this magical holiday tradition!",
+      "category": "holiday"
     }
   ],
   "newcomers": {

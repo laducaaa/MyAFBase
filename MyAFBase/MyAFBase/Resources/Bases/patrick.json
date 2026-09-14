@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -244,16 +244,6 @@
   ],
   "events": [
     {
-      "id": "patrick-labor-day-golf-2026-09-07",
-      "title": "Labor Day Golf Tournament",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "Manatee Cove / Golf",
-      "address": "Patrick SFB, FL",
-      "description": "Labor Day Golf Tournament shotgun 8AM; gopatrickfl.com events.",
-      "category": "community"
-    },
-    {
       "id": "patrick-check-on-your-friends-5k-ccsfs-2026-09-18",
       "title": "Check on Your Friends 5K @ CCSFS",
       "date": "2026-09-18",
@@ -262,6 +252,16 @@
       "address": "Cocoa Beach, FL",
       "description": "September is National Suicide Prevention Month, so join friends in running the Fitness Center's Check on Your Friends 5K! There are TWO Check on Your Friends 5K's, one at CCSFS and one at PSFB. See dates below: \n- Friday, September 18, 7:15AM @ Cape Canaveral SFS Fitness Center\n- Friday, September 25, 7:15AM @ Patrick SFB River Run Read More",
       "category": "fitness"
+    },
+    {
+      "id": "patrick-marina-membership-social-2026-09-18",
+      "title": "Marina Membership Social",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-18T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Join the Marina for our monthly membership social, featuring live music from the Soul Time Band. Tickets will be on sale in the Marina office. Remaining tickets will be sold at the door. $250 drawing at 6PM, Members Only. Must be present to win. - $2 Members, $15 Non-Members",
+      "category": "outdoor"
     },
     {
       "id": "patrick-pokemon-tournament-2026-09-19",
@@ -284,6 +284,16 @@
       "category": "outdoor"
     },
     {
+      "id": "patrick-themed-trivia-night-harry-potter-2026-09-19",
+      "title": "Themed Trivia Night: Harry Potter",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Grab your owl, it's time to head to Hogwarts! Test your Harry Potter knowledge at our themed trivia night. Answer the halfway point question correctly and win a $20 FSS gift card.",
+      "category": "entertainment"
+    },
+    {
       "id": "patrick-squadron-olympics-2026-09-21",
       "title": "Squadron Olympics",
       "date": "2026-09-21",
@@ -292,6 +302,16 @@
       "address": "Patrick SFB, FL",
       "description": "Squadron Olympics (volleyball, basketball, dodgeball, cornhole, tug-of-war); gopatrickfl.com.",
       "category": "community"
+    },
+    {
+      "id": "patrick-boots-2-business-2026-09-23",
+      "title": "Boots 2 Business",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Boots 2 Business at the Military and Family Readiness Center. September 23-24, 8:30AM-3:30PM.",
+      "category": "education"
     },
     {
       "id": "patrick-check-on-your-friends-5k-psfb-2026-09-25",
@@ -324,6 +344,26 @@
       "category": "holiday"
     },
     {
+      "id": "patrick-roblox-forsaken-scary-launch-pad-tournament-2026-10-10",
+      "title": "Roblox Forsaken *scary* Launch Pad Tournament",
+      "date": "2026-10-10T00:00:00",
+      "endDate": "2026-10-10T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Successfully escape for your chance to win a $25 FSS GC!",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-marina-membership-social-octoberfest-2026-10-16",
+      "title": "Marina Membership Social: Octoberfest",
+      "date": "2026-10-16T00:00:00",
+      "endDate": "2026-10-16T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Monthly Membership social with an Octoberfest twist, and a chance to win $250! - $2 for members, $15 for non-members",
+      "category": "outdoor"
+    },
+    {
       "id": "patrick-paddle-pose-2026-10-17",
       "title": "Paddle & Pose",
       "date": "2026-10-17",
@@ -352,6 +392,26 @@
       "address": "Cocoa Beach, FL",
       "description": "The Fitness Center is hosting a pickleball tournament for anyone ages 16+, and the team that has the best costume will win a prize!\nPlease register by October 20. Read More",
       "category": "fitness"
+    },
+    {
+      "id": "patrick-halloween-trivia-2026-10-25",
+      "title": "Halloween Trivia",
+      "date": "2026-10-25T00:00:00",
+      "endDate": "2026-10-25T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Dress up in your best costume, bowl, and have some candy while answering halloween-themed trivia questions! Per person pricing: $5 for 1 hour, $7 for 2 hours",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-trivia-night-halloween-2026-10-28",
+      "title": "Trivia Night: Halloween",
+      "date": "2026-10-28T00:00:00",
+      "endDate": "2026-10-28T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Halloween-themed trivia night at the Marina! October 28, 6:30-7:30PM.",
+      "category": "holiday"
     },
     {
       "id": "patrick-halloween-5k-2026-10-30",
@@ -392,6 +452,36 @@
       "address": "Cocoa Beach, FL",
       "description": "Cape Tour with M&FRC. November 18, 7:30AM-1PM. Read More",
       "category": "outdoor"
+    },
+    {
+      "id": "patrick-basketball-clinic-2026-11-19",
+      "title": "Basketball Clinic",
+      "date": "2026-11-19T00:00:00",
+      "endDate": "2026-11-19T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Basketball clinic would provide a better understanding and motor skills which gradually build more confidence to all participants, while they are having fun at the same time. This Basketball Clinic is for kids ages 8 - 12 years old. Mr. Sidney Ferrel will be our guest instructor. For more information, call our youth center - 321-494-3006 / 3151, email: luis.rexach_lebron@spaceforce.mil",
+      "category": "fitness"
+    },
+    {
+      "id": "patrick-thanksgiving-buffet-2026-11-26",
+      "title": "Thanksgiving Buffet",
+      "date": "2026-11-26T00:00:00",
+      "endDate": "2026-11-26T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Reservations only. 1 Nov through 20 Nov – Seatings at 11:00, 12:30, 2:00 Members: $64.99 / Non-members: $69.99, Children 6-12 years: $27.99 / Children 5 and under: FREE",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-cape-tour-2026-12-16",
+      "title": "Cape Tour",
+      "date": "2026-12-16T00:00:00",
+      "endDate": "2026-12-16T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Cape Tour with M&FRC. December 16, 7:30AM-1PM.",
+      "category": "recreation"
     }
   ],
   "newcomers": {

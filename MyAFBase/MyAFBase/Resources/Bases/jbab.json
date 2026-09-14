@@ -7,7 +7,7 @@
   "wing": "11 WG",
   "latitude": 38.8428,
   "longitude": -77.0161,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "jbab-notif-1",
@@ -387,6 +387,66 @@
   ],
   "events": [
     {
+      "id": "jbab-walking-book-club-2026-09-15",
+      "title": "Walking Book Club",
+      "date": "2026-09-15T16:30:00",
+      "endDate": "2026-09-15T16:30:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "Every 3rd Tuesday at 4:30pm. Combine a healthy body and sharp mind with the Walking Book Club! Read the book at home and then discuss it with the group while you walk. *While these events are recurring, be sure to visit the Library’s page to view their calendar of events for the month and check for any changes in their event schedule!",
+      "category": "recreation"
+    },
+    {
+      "id": "jbab-romance-book-club-2026-09-17",
+      "title": "Romance Book Club",
+      "date": "2026-09-17T16:30:00",
+      "endDate": "2026-09-17T16:30:00",
+      "location": "Liberty Park Welcome Center",
+      "address": "",
+      "description": "Every 3rd Thursday at 4:30pm. Immerse yourself in a world of romance in this age 18+ book club! Follow the Library’s Facebook page for updates on the book of the month. This book club is held at the Liberty Park Welcome Center (2097 San Antonio Blvd). *While these events are recurring, be sure to visit the Library’s page to view their calendar of events for the month and check for any changes in their event schedule!",
+      "category": "outdoor"
+    },
+    {
+      "id": "jbab-2-for-1-steak-night-2026-09-17",
+      "title": "2-for-1 Steak Night",
+      "date": "2026-09-17T17:00:00",
+      "endDate": "2026-09-17T20:00:00",
+      "location": "Goose's Landing",
+      "address": "50 Theisen Street, Washington, District of Columbia 20032",
+      "description": "2-FOR-1 STEAK NIGHT IS BACK! Bring your appetite and join us at Goose's Landing for 2-for-1 Steak Night! Enjoy a delicious dinner and make it a night out with family or friends. September 17 5-8 PM Goose's Landing Choose from: 10-12 oz New York Strip or Rib Eye Steak 8 oz Salmon Filet 8 oz Breast of Chicken Pair your entrée with your choice of side and a mixed green salad. Iced tea, coffee, or water is included, and ",
+      "category": "family"
+    },
+    {
+      "id": "jbab-karaoke-night-2026-09-17",
+      "title": "Karaoke Night",
+      "date": "2026-09-17T19:00:00",
+      "endDate": "2026-09-17T21:00:00",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.4″ _module_preset=”default”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.4″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Join the fun with DJ Chris at The Club at Andrews (1889 Arnold Ave) for Karaoke Night every 1st and 3rd Thursday of the month . Doors open at 3:00",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbab-end-of-summer-bbq-at-the-slip-inn-2026-09-18",
+      "title": "End of Summer BBQ at the Slip Inn",
+      "date": "2026-09-18T16:30:00",
+      "endDate": "2026-09-18T20:30:00",
+      "location": "Slip Inn Waterfront Restaurant",
+      "address": "2482 Arnold Ave, washington, DC 20032",
+      "description": "SEND SUMMER OFF WITH A SIZZLE, JBAB! Join us at the Slip Inn for our End of Summer BBQ ! We're wrapping up the season with tasty BBQ favorites, music, and plenty of fun! Friday, September 18 4:30-8:30 PM Slip Inn Test your skills on the mechanical bull Try your hand at axe throwing Enjoy music by DJ Chris Dig into delicious BBQ food specials BBQ Menu: Smoked Turkey Leg - $15 Pulled Pork Sandwich - $6 BBQ Chicken Sand",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbab-nyc-bus-trip-to-radio-city-music-hall-2026-09-19",
+      "title": "NYC Bus Trip to Radio City Music Hall",
+      "date": "2026-09-19T07:00:00",
+      "endDate": "2026-09-19T23:00:00",
+      "location": "Information, Tickets & Travel",
+      "address": "1235 Menoher Dr., Joint Base Andrews, MD, 20762",
+      "description": "*Sign-Up Deadline: 17 September 2026 Join JBA Information, Ticket, and Tours to experience the magic of Times Square or delight in Central Park’s rolling lawns, lakes, and woodlands during our New York City fun day. From famous spaces to historic places discover the wonders of the Big Apple. *No minimum age for this trip. Trip Includes: Transportation Trip Cost: $86/person",
+      "category": "outdoor"
+    },
+    {
       "id": "jbab-evt-1",
       "title": "Joint Base Andrews Air & Space Expo",
       "date": "2026-09-19T09:00:00Z",
@@ -395,6 +455,136 @@
       "address": "Joint Base Andrews, MD 20762",
       "description": "Annual air show open to the public. Air Force One, military demos, and static displays.",
       "category": "community"
+    },
+    {
+      "id": "jbab-90-s-vs-2000-s-cosmic-bowling-2026-09-19",
+      "title": "90's vs 2000's Cosmic Bowling",
+      "date": "2026-09-19T20:30:00",
+      "endDate": "2026-09-19T23:30:00",
+      "location": "Potomac Lanes Bowling Center",
+      "address": "McChord St, Bldg. 1310, washington, DC 20032",
+      "description": "90's VS. 2000's - WHICH ERA WINS?! It's time for a throwback at Potomac Lanes! We're cranking up the black lights and playing the biggest hits from the 90's and 2000's all night long! Saturday, September 19 8:30-11:30 PM Potomac Lanes $21 Military $26 Civilians Come dressed in your favorite throwback style, grab your bowling crew, and get ready for a night of Cosmic Bowling, nostalgia, and nonstop hits! Backstreet Bo",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbab-odr-smithsonian-zoo-trip-2026-09-20",
+      "title": "ODR Smithsonian Zoo Trip",
+      "date": "2026-09-20T10:00:00",
+      "endDate": "2026-09-20T16:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Giovannoli St SW, Washington, District of Columbia 20032",
+      "description": "TAKE A WILD DAY TRIP WITH JBAB OUTDOOR RECREATION! Join us for a fun-filled trip to the Smithsonian National Zoo without the stress of driving, DC traffic, or finding parking-we've got your transportation covered! Sunday, September 20 10 AM-4 PM $10 per person Departure: 10 AM from the Outdoor Recreation parking lot, Bolling AFB Return: 4 PM pick-up from the National Zoo Seating is limited to ONLY 12 participants, so",
+      "category": "outdoor"
+    },
+    {
+      "id": "jbab-music-movement-2026-09-21",
+      "title": "Music & Movement",
+      "date": "2026-09-21T10:00:00",
+      "endDate": "2026-09-21T10:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical elements and vocalization through fun songs and motions. *For ages 8 and under. *While these events are recurrin",
+      "category": "family"
+    },
+    {
+      "id": "jbab-crafting-around-2026-09-22",
+      "title": "Crafting Around",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ global_colors_info=”{}” sticky_enabled=”0″] Every 2nd & 4th Tuesday f rom 10:00am-11:00am. Join Ms. Cynara for a free, fun and educational kids’ crafting time in the Library. *All ages welcome (with adult supervision). *While thes",
+      "category": "family"
+    },
+    {
+      "id": "jbab-oktoberfest-2026-2026-09-25",
+      "title": "OKTOBERFEST 2026",
+      "date": "2026-09-25T15:00:00",
+      "endDate": "2026-09-25T19:00:00",
+      "location": "Slip Inn Waterfront Restaurant",
+      "address": "2482 Arnold Ave, washington, DC 20032",
+      "description": "JBAB, OKTOBERFEST IS COMING! Oktoberfest is coming to Joint Base Anacostia-Bolling ! Break out your lederhosen and dirndls and get ready for an afternoon filled with German-inspired favorites, beer & food specials, live music, festive contests & prizes, and plenty of Oktoberfest fun! September 25 3 PM Slip Inn FREE EVENT! BONUS: The first 70 customers will receive a FREE Oktoberfest stein! Get there early-you won't w",
+      "category": "holiday"
+    },
+    {
+      "id": "jbab-karaoke-night-2026-10-01",
+      "title": "Karaoke Night",
+      "date": "2026-10-01T19:00:00",
+      "endDate": "2026-10-01T21:00:00",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.4″ _module_preset=”default”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.4″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Join the fun with DJ Chris at The Club at Andrews (1889 Arnold Ave) for Karaoke Night every 1st and 3rd Thursday of the month . Doors open at 3:00",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbab-music-movement-2026-10-05",
+      "title": "Music & Movement",
+      "date": "2026-10-05T10:00:00",
+      "endDate": "2026-10-05T10:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ admin_label=”section” _builder_version=”4.16″ global_colors_info=”{}”][et_pb_row admin_label=”row” _builder_version=”4.16″ background_size=”initial” background_position=”top_left” background_repeat=”repeat” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.16″ custom_padding=”|||” global_colors_info=”{}” custom_padding__hover=”|||”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ sticky_enabled=”0″] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical element",
+      "category": "family"
+    },
+    {
+      "id": "jbab-crafting-around-2026-10-13",
+      "title": "Crafting Around",
+      "date": "2026-10-13T10:00:00",
+      "endDate": "2026-10-13T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Every 2nd & 4th Tuesday f rom 10:00am-11:00am. Join Ms. Cynara for a free, fun and educational kids’ crafting time in the Library. *All ages welco",
+      "category": "family"
+    },
+    {
+      "id": "jbab-romance-book-club-2026-10-15",
+      "title": "Romance Book Club",
+      "date": "2026-10-15T16:30:00",
+      "endDate": "2026-10-15T16:30:00",
+      "location": "Liberty Park Welcome Center",
+      "address": "",
+      "description": "Every 3rd Thursday at 4:30pm. Immerse yourself in a world of romance in this age 18+ book club! Follow the Library’s Facebook page for updates on the book of the month. This book club is held at the Liberty Park Welcome Center (2097 San Antonio Blvd). *While these events are recurring, be sure to visit the Library’s page to view their calendar of events for the month and check for any changes in their event schedule!",
+      "category": "outdoor"
+    },
+    {
+      "id": "jbab-efmp-walk-roll-2026-10-17",
+      "title": "EFMP “Walk & Roll”",
+      "date": "2026-10-17T09:00:00",
+      "endDate": "2026-10-17T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Location: MPF Field Join us for the EFMP “Walk & Roll” with an Interactive Family Fair! A Community event honoring military families with special needs and celebration inclusion, resilience, and support. The walk and roll promote awareness of EFMP resources and strengthens connections across our community. We aim to partner with Exceptional Family Member Program from all branches of service to share resources, amplify impact and stand united. Together, we walk to support, inform and empower EFM Families.",
+      "category": "family"
+    },
+    {
+      "id": "jbab-karaoke-night-2026-11-05",
+      "title": "Karaoke Night",
+      "date": "2026-11-05T19:00:00",
+      "endDate": "2026-11-05T21:00:00",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.4″ _module_preset=”default”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.4″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Join the fun with DJ Chris at The Club at Andrews (1889 Arnold Ave) for Karaoke Night every 1st and 3rd Thursday of the month . Doors open at 3:00",
+      "category": "entertainment"
+    },
+    {
+      "id": "jbab-nyc-bus-trip-at-macy-s-herald-square-2026-11-14",
+      "title": "NYC Bus Trip at Macy’s Herald Square",
+      "date": "2026-11-14T07:00:00",
+      "endDate": "2026-11-14T23:00:00",
+      "location": "Information, Tickets & Travel",
+      "address": "1235 Menoher Dr., Joint Base Andrews, MD, 20762",
+      "description": "*Sign-Up Deadline: 12 November 2026 Join JBA Information, Ticket, and Tours to experience the magic of Times Square or delight in Central Park’s rolling lawns, lakes, and woodlands during our New York City fun day. From famous spaces to historic places discover the wonders of the Big Apple. *No minimum age for this trip. Trip Includes: Transportation Trip Cost: $86/person",
+      "category": "outdoor"
+    },
+    {
+      "id": "jbab-romance-book-club-2026-11-19",
+      "title": "Romance Book Club",
+      "date": "2026-11-19T16:30:00",
+      "endDate": "2026-11-19T16:30:00",
+      "location": "Liberty Park Welcome Center",
+      "address": "",
+      "description": "Every 3rd Thursday at 4:30pm. Immerse yourself in a world of romance in this age 18+ book club! Follow the Library’s Facebook page for updates on the book of the month. This book club is held at the Liberty Park Welcome Center (2097 San Antonio Blvd). *While these events are recurring, be sure to visit the Library’s page to view their calendar of events for the month and check for any changes in their event schedule!",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

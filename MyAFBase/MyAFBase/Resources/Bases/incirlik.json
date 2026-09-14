@@ -7,7 +7,7 @@
   "wing": "39 ABW",
   "latitude": 37.0021,
   "longitude": 35.4259,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "incirlik-notif-real-id",
@@ -195,104 +195,34 @@
   ],
   "events": [
     {
-      "id": "incirlik-labor-day-golf-tournament-2026-09-07",
-      "title": "Labor Day Golf Tournament",
-      "date": "2026-09-07T08:00:00",
-      "endDate": "2026-09-07T11:00:00",
-      "location": "Hodja Lakes Golf Course",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "$25 Entry fee – includes lunch, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
-      "category": "recreation"
-    },
-    {
-      "id": "incirlik-dfac-customer-appreciation-labor-day-ho",
-      "title": "DFAC Customer Appreciation – Labor Day Holiday Meal",
-      "date": "2026-09-07T11:00:00",
-      "endDate": "2026-09-07T13:30:00",
-      "location": "Sultan’s Inn DFAC",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "DFAC Customer Appreciation – Labor Day Holiday Meal — public FSS/MWR calendar listing.",
-      "category": "holiday"
-    },
-    {
-      "id": "incirlik-bowling-tournament-of-the-month-2026-09",
-      "title": "Bowling Tournament of the Month",
-      "date": "2026-09-07T18:00:00",
-      "endDate": "2026-09-07T21:00:00",
+      "id": "incirlik-movie-nite-2026-09-14",
+      "title": "Movie Nite",
+      "date": "2026-09-14T19:30:00",
+      "endDate": "2026-09-14T21:30:00",
       "location": "Big City Bowl & Diner",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
-      "category": "recreation"
+      "address": "",
+      "description": "Second Monday of every month starting at 1930. Free entry! Don’t miss the cinematic experience selected for you on the LED Bowling screens!",
+      "category": "entertainment"
     },
     {
-      "id": "incirlik-social-hour-poker-2026-09-08",
-      "title": "Social Hour/Poker",
-      "date": "2026-09-08T18:00:00",
-      "endDate": "2026-09-08T21:00:00",
-      "location": "Club Complex",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Don’t forget to visit Taco bar, Taco Tuesday will be on until 2100 too!",
-      "category": "community"
-    },
-    {
-      "id": "incirlik-strike-challenge-2026-09-08",
-      "title": "Strike Challenge",
-      "date": "2026-09-08T19:30:00",
-      "endDate": "2026-09-08T21:30:00",
+      "id": "incirlik-base-bowling-league-2026-09-15",
+      "title": "Base Bowling League",
+      "date": "2026-09-15T00:00:00",
+      "endDate": "2026-11-17T23:59:59",
       "location": "Big City Bowl & Diner",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Second Tuesday of every month. The player who gets the most strikes in 10 shots wins! $3.50 Entry fee. Winner will receive 50% of the total money collected, based on the number of participants, in the form of gift cards.",
+      "address": "Adana, Turkey",
+      "description": "ELIGIBILITY: Active Duty, Reserve, Guard, DoD Civilians, NATO Allies, Dependents (18+) FORMAT: 9 Pin No Tap - Individual or Teams (number dependent) SEASON DURATION: 10 Weeks: 16 Sept 2026 - 18 Nov 2026 LEAGUE FEE: $15 per bowler / week (covers games & prize fund) PRE-SEASON MEETING: 15 September 2026 at the Bowling Alley POC REGISTRATION / POC: TSgt Charles Wright Email: Charles.wright.10@us.af.mil Phone: 907-952-68",
+      "category": "education"
+    },
+    {
+      "id": "incirlik-lake-side-cafe-closure-2026-09-15",
+      "title": "Lake Side Cafe Closure",
+      "date": "2026-09-15T00:00:00",
+      "endDate": "2026-09-15T23:59:59",
+      "location": "Lake Side cafe",
+      "address": "Adana, Turkey",
+      "description": "Lakeside Cafe will be closed on 15 September for scheduled hood cleaning.",
       "category": "community"
-    },
-    {
-      "id": "incirlik-progressive-bingo-2026-09-09",
-      "title": "Progressive Bingo",
-      "date": "2026-09-09T18:30:00",
-      "endDate": "2026-09-09T21:00:00",
-      "location": "Club Complex",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Progressive Bingo — public FSS/MWR calendar listing.",
-      "category": "entertainment"
-    },
-    {
-      "id": "incirlik-team-trivia-2026-09-10",
-      "title": "Team Trivia",
-      "date": "2026-09-10T19:00:00",
-      "endDate": "2026-09-10T21:00:00",
-      "location": "Club Complex",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Team Trivia — public FSS/MWR calendar listing.",
-      "category": "entertainment"
-    },
-    {
-      "id": "incirlik-we-are-one-911-remembrance-5k-2026-09-1",
-      "title": "We are One-911 Remembrance 5k",
-      "date": "2026-09-11T07:30:00",
-      "endDate": "2026-09-11T20:30:00",
-      "location": "Arkadas Park",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "POC: A1C Nguyen DSN: 676-6086 Sign up by 10 September at this link: https://www.signupgenius.com/go/10C0A45ACAB28A3F5C61-64889548-weareone911",
-      "category": "fitness"
-    },
-    {
-      "id": "incirlik-karaoke-night-2026-09-11",
-      "title": "Karaoke Night",
-      "date": "2026-09-11T21:00:00",
-      "endDate": "2026-09-12T01:00:00",
-      "location": "Club Complex",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Karaoke Night — public FSS/MWR calendar listing.",
-      "category": "entertainment"
-    },
-    {
-      "id": "incirlik-glow-in-the-dark-golf-tournament-2026-0",
-      "title": "Glow in the Dark Golf Tournament",
-      "date": "2026-09-12T20:00:00",
-      "endDate": "2026-09-12T22:00:00",
-      "location": "Hodja Lakes Golf Course",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "Format: 4 Person Select Shot (Scramble) $25 Entry fee – includes 2 glow balls per person, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
-      "category": "recreation"
     },
     {
       "id": "incirlik-bath-bomb-workshop-2026-09-15",
@@ -305,6 +235,76 @@
       "category": "education"
     },
     {
+      "id": "incirlik-introduction-to-photography-2026-09-16",
+      "title": "Introduction to Photography",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T19:00:00",
+      "location": "Community Center",
+      "address": "Adana, Turkey",
+      "description": "at the Community Center Photography Room",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-latin-dance-class-2026-09-17",
+      "title": "Latin Dance Class",
+      "date": "2026-09-17T21:00:00",
+      "endDate": "2026-09-17T21:00:00",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "Latin Dance Class: 2100 to 2230 DJ Music/Latin Night will continue until 0200 am",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-end-of-summer-pool-party-2026-09-18",
+      "title": "End of Summer Pool Party",
+      "date": "2026-09-18T19:00:00",
+      "endDate": "2026-09-18T23:00:00",
+      "location": "Swimming Pool",
+      "address": "Adana, Turkey",
+      "description": "Free Entry Snacks and drinks will be available for purchase US Personnel has priority in entry. Adults Only!",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-2026-titan-1-commander-s-cup-2026-09-19",
+      "title": "2026 TITAN 1 Commander's Cup",
+      "date": "2026-09-19T08:39:00",
+      "endDate": "2026-09-19T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "$39 Entry fee - includes steak luncheon, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-incirlik-airmen-golf-clinic-2026-09-22",
+      "title": "Incirlik Airmen Golf Clinic",
+      "date": "2026-09-22T17:00:00",
+      "endDate": "2026-09-25T18:00:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "$45 entry fee includes: 4 hours of golf instructions, course rules, etiquettes, clubs, balls, tees.",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-spades-and-darts-tournament-2026-09-22",
+      "title": "Spades and Darts Tournament",
+      "date": "2026-09-22T18:00:00",
+      "endDate": "2026-09-22T20:00:00",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "Spades and Darts Tournament",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-4-person-scramble-select-shot-golf-tourney-2026-10-03",
+      "title": "4 Person Scramble/Select shot Golf Tourney",
+      "date": "2026-10-03T08:30:00",
+      "endDate": "2026-10-03T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "",
+      "description": "9 holes of Par 3 golf + 9 holes of regular Golf Scramble $25 includes lunch, door prizes, and prizes for top 3 places, longest drive, closest to pin, & door prizes.",
+      "category": "recreation"
+    },
+    {
       "id": "incirlik-bowling-tournament-of-the-month-2026-10",
       "title": "Bowling Tournament of the Month",
       "date": "2026-10-05T18:00:00",
@@ -313,6 +313,136 @@
       "address": "Incirlik AB, Adana, Turkey",
       "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
       "category": "recreation"
+    },
+    {
+      "id": "incirlik-dj-hawk-afe-show-2026-10-06",
+      "title": "DJ Hawk-AFE Show",
+      "date": "2026-10-06T00:00:00",
+      "endDate": "2026-10-06T23:59:59",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "at the E-club",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-ball-speed-competition-2026-10-06",
+      "title": "Ball Speed Competition",
+      "date": "2026-10-06T19:00:00",
+      "endDate": "2026-10-06T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "First Tuesday of the Month from 1900-2100 Entry fee $3.50. 3 Shots per player. The player with the fastest average wins! Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift card. For details, contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-basic-electrical-scooter-class-for-all-2026-10-10",
+      "title": "Basic Electrical Scooter Class for All",
+      "date": "2026-10-10T15:00:00",
+      "endDate": "2026-10-10T15:30:00",
+      "location": "Auto Hobby Shop",
+      "address": "Adana, Turkey",
+      "description": "This class teaches do-it-yourselfers how to: 1- Check tires for wear and pressures 2- Check battery connections for oxidation and battery condition 3- Check brake operation and adjustment 4- Check operation of lights and turn signals 5- Check battery charger and charging system operation The class is taught by an ASE (National Institute for Automotive Service Excellence) certified mechanic at the Auto Hobby Shop. The",
+      "category": "education"
+    },
+    {
+      "id": "incirlik-columbus-day-golf-tournament-2026-10-12",
+      "title": "Columbus Day Golf Tournament",
+      "date": "2026-10-12T08:30:00",
+      "endDate": "2026-10-12T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "",
+      "description": "Format: 4 Person Scramble (Select shot) $25 includes lunch, door prizes, and prizes for top 3 places, longest drive, closest to pin, & door prizes.",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-columbus-day-9-pin-no-tap-bowling-tournament-2026-10-12",
+      "title": "Columbus Day 9-Pin No-Tap Bowling Tournament",
+      "date": "2026-10-12T18:00:00",
+      "endDate": "2026-10-12T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Top 3 players will win free games!",
+      "category": "education"
+    },
+    {
+      "id": "incirlik-movie-nite-2026-10-12",
+      "title": "Movie Nite",
+      "date": "2026-10-12T19:30:00",
+      "endDate": "2026-10-12T21:30:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "Second Monday of every month starting at 1930. Free entry! Don’t miss the cinematic experience selected for you on the LED Bowling screens!",
+      "category": "entertainment"
+    },
+    {
+      "id": "incirlik-female-powder-puff-flag-football-2026-10-16",
+      "title": "Female Powder Puff Flag Football",
+      "date": "2026-10-16T17:30:00",
+      "endDate": "2026-10-16T19:30:00",
+      "location": "LTL Fitness Center",
+      "address": "",
+      "description": "at LTL Field",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-dfac-customer-appreciation-oktoberfest-meal-2026-10-22",
+      "title": "DFAC Customer Appreciation Oktoberfest Meal",
+      "date": "2026-10-22T16:15:00",
+      "endDate": "2026-10-22T19:45:00",
+      "location": "Sultan's Inn DFAC",
+      "address": "Adana, Turkey",
+      "description": "DFAC Customer Appreciation Oktoberfest Meal",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-wilson-handicap-golf-tournament-2026-10-24",
+      "title": "Wilson Handicap Golf Tournament",
+      "date": "2026-10-24T08:30:00",
+      "endDate": "2026-10-24T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "",
+      "description": "4 Person Scramble (Select shot) $25 includes lunch, door prizes, and prizes for top 3 places, longest drive, closest to pin, & door prizes.",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-bowling-tournament-of-the-month-2026-11-02",
+      "title": "Bowling Tournament of the Month",
+      "date": "2026-11-02T18:00:00",
+      "endDate": "2026-11-02T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-ball-speed-competition-2026-11-03",
+      "title": "Ball Speed Competition",
+      "date": "2026-11-03T19:00:00",
+      "endDate": "2026-11-03T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "First Tuesday of the Month from 1900-2100 Entry fee $3.50. 3 Shots per player. The player with the fastest average wins! Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift card. For details, contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-ball-speed-competition-2026-12-01",
+      "title": "Ball Speed Competition",
+      "date": "2026-12-01T19:00:00",
+      "endDate": "2026-12-01T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "First Tuesday of the Month from 1900-2100 Entry fee $3.50. 3 Shots per player. The player with the fastest average wins! Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift card. For details, contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "community"
+    },
+    {
+      "id": "incirlik-bowling-tournament-of-the-month-2026-12-07",
+      "title": "Bowling Tournament of the Month",
+      "date": "2026-12-07T18:00:00",
+      "endDate": "2026-12-07T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "",
+      "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
+      "category": "fitness"
     }
   ],
   "newcomers": {

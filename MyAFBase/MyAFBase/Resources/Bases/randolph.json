@@ -7,7 +7,7 @@
   "wing": "AETC HQ / 12 FTW / 502 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -359,46 +359,6 @@
   ],
   "events": [
     {
-      "id": "randolph-birthday-buffets-2026-09-08",
-      "title": "Birthday Buffets",
-      "date": "2026-09-08T11:00:00",
-      "endDate": "2026-09-08T13:00:00",
-      "location": "RND Parr Club",
-      "address": "JBSA-Randolph, Universal City, TX",
-      "description": "JBSA-Randolph Parr Club September 8 | 11am-1pm Club members who have a birthday in September receive a complimentary meal. Reservations for a group of six or more are encouraged. Cost is $17 for members and $19 for nonmembers. For more information, call 210.658.7445 Tuesday-Friday 10am-3pm.",
-      "category": "community"
-    },
-    {
-      "id": "randolph-freedom-5k-2026-09-11",
-      "title": "Freedom 5K",
-      "date": "2026-09-11T07:30:00",
-      "endDate": "2026-09-11T10:00:00",
-      "location": "RND Rambler Fitness Center",
-      "address": "1751 First St E Bldg 999, JBSA Randolph, TX, 78150",
-      "description": "JBSA-Randolph Rambler Fitness Center September 11 | 7:30AM Hosted by the JBSA-Randolph Rambler Fitness Center. Join us at Eberle Park in remembrance of 9/11. Giveaways while supplies last. For more information, call 210.652.7263.",
-      "category": "fitness"
-    },
-    {
-      "id": "randolph-dominoes-tournament-2026-09-11",
-      "title": "Dominoes Tournament",
-      "date": "2026-09-11T17:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "RND Kendrick Club",
-      "address": "JBSA-Randolph, Universal City, TX",
-      "description": "JBSA-Randolph Kendrick Club Sept. 11 | 5-8pm Oct. 9 | 5-9pm Are you ready for some dominoes? Head to Gil’s Pub for a game night! Join us for a single-elimination tournament. This event is free, and there is no cover to participate. For more information, call 210.658.3887",
-      "category": "community"
-    },
-    {
-      "id": "randolph-prince-princess-tea-party-2026-09-12",
-      "title": "Prince & Princess Tea Party",
-      "date": "2026-09-12T10:30:00",
-      "endDate": "2026-09-12T13:00:00",
-      "location": "RND Parr Club",
-      "address": "JBSA-Randolph, Universal City, TX",
-      "description": "JBSA-Randolph Parr Club Sept. 12 | 10:30am-1pm Children will enjoy a magical afternoon filled with arts and crafts activities, special take-home keepsakes, and fun toys to remember the day. Adding to the enchantment, beloved princesses will be in attendance to meet guests, take photos, and create unforgettable memories throughout the tea party. Children are encouraged to dress up as their favorite",
-      "category": "family"
-    },
-    {
       "id": "randolph-pool-tournament-2026-09-18",
       "title": "Pool Tournament (Kendrick Club)",
       "date": "2026-09-18",
@@ -459,6 +419,16 @@
       "category": "fitness"
     },
     {
+      "id": "randolph-reel-eats-2026-10-03",
+      "title": "Reel Eats",
+      "date": "2026-10-03T11:00:00",
+      "endDate": "2026-10-03T13:00:00",
+      "location": "RND Parr Club",
+      "address": "Universal City, TX",
+      "description": "THIS EVENT HAS BEEN SOLD OUT JBSA-Community Programs Oct. 3 | 11AM-1PM Hosted by the JBSA-Randolph Parr Club, this immersive movie experience features a 5-course themed meal and a screening of Disney's Ratatouille. Registration runs from Aug. 21 to Sept. 28. Ages 2 and younger are free, ages 3-10 are $15, and ages 11 and older are $20. Open to all DoW ID cardholders and their families. For more info, please call 210.",
+      "category": "entertainment"
+    },
+    {
       "id": "randolph-dominoes-tournament-2026-10-09",
       "title": "Dominoes Tournament",
       "date": "2026-10-09T17:00:00",
@@ -476,6 +446,16 @@
       "location": "Flightline / Parade Grounds",
       "address": "JBSA Randolph, TX 78150",
       "description": "Annual air show open to the public. Arrive early for parking.",
+      "category": "community"
+    },
+    {
+      "id": "randolph-birthday-meals-2026-10-13",
+      "title": "Birthday Meals",
+      "date": "2026-10-13T11:00:00",
+      "endDate": "2026-10-13T13:00:00",
+      "location": "RND Parr Club",
+      "address": "Universal City, TX",
+      "description": "JBSA-Randolph Parr Club Oct. 13 | 11am-1pm Club members who have a birthday in September receive a complimentary meal. Reservations for a group of six or more are encouraged. $17 for members, $19 for nonmembers. For more information, call 210.658.7445, Tuesday-Friday, 10am-3pm.",
       "category": "community"
     },
     {
@@ -509,6 +489,16 @@
       "category": "fitness"
     },
     {
+      "id": "randolph-flea-market-2026-10-17",
+      "title": "Flea Market",
+      "date": "2026-10-17T09:00:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "RND Outdoor Recreation",
+      "address": "Universal City, TX",
+      "description": "JBSA-Randolph Outdoor Recreation October 17 | 9am-2pm The Flea Market will be held at Heritage Park. The cost is $15, which includes a 9×20 space and one six-foot table (additional tables available for $6). Additional spaces can be purchased for $15. All sign-ups must be done in person at the Randolph Outdoor Recreation office. For more information, call 210.652.5640.",
+      "category": "outdoor"
+    },
+    {
       "id": "randolph-halloween-kiddie-bingo-2026-10-17",
       "title": "Halloween Kiddie Bingo",
       "date": "2026-10-17T10:00:00",
@@ -517,6 +507,26 @@
       "address": "JBSA-Randolph, Universal City, TX",
       "description": "JBSA-Randolph Parr Club October 17 | 10:30AM-12:30PM Join us for Halloween Kiddie Bingo, a free family-friendly event filled with spooky fun. Kids will have the chance to play 5 bingo games for cash prizes. Kids, come out and show your creativity in our Best Dressed Costume Contest, and enjoy an exciting afternoon with a complimentary meal. Costumes are encouraged and guaranteed fun for all ages. ",
       "category": "holiday"
+    },
+    {
+      "id": "randolph-paddle-board-kayak-class-2026-10-24",
+      "title": "Paddle Board & Kayak Class",
+      "date": "2026-10-24T10:00:00",
+      "endDate": "2026-10-24T15:00:00",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "Universal City, TX",
+      "description": "JBSA Recreation Park at Canyon Lake Sept. 5 & Oct. 24 | 10am to 12pm & 1-3pm Join us at the Hancock Cove Beach for a two-hour class on kayaks and paddle boards. The cost for this class is $20 per person and is open to all DoD ID cardholders. The deadline to register is the day before the class. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com",
+      "category": "outdoor"
+    },
+    {
+      "id": "randolph-indoor-marathon-2026-12-07",
+      "title": "Indoor Marathon",
+      "date": "2026-12-07T00:00:00",
+      "endDate": "2026-12-11T23:59:59",
+      "location": "RND Rambler Fitness Center",
+      "address": "1751 First St E Bldg 999, JBSA Randolph, TX 78150",
+      "description": "JBSA-Randolph Rambler Fitness Center Dec. 7-11 | Regular Business Hours This is a self-monitored program based on an honor system. Participants will have 5 days to complete 26.1 miles run/walk. Log in cards may be picked up at the front desk and dated for their start date. Giveaways while supplies last. For more information, call 210.652.7263",
+      "category": "fitness"
     }
   ],
   "newcomers": {

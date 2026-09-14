@@ -7,7 +7,7 @@
   "wing": "SLD 30",
   "latitude": 34.742,
   "longitude": -120.5724,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "vandenberg-notif-real-id",
@@ -266,36 +266,6 @@
   ],
   "events": [
     {
-      "id": "vandenberg-story-time-at-the-library-2026-09-08",
-      "title": "Story Time at the Library",
-      "date": "2026-09-08T10:00:00",
-      "endDate": "2026-09-08T11:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Bring your little ones to Story Time at the Library, where enchanting tales, playful songs, and lots of giggles await! Every Tuesday and Friday at 1000.</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "vandenberg-arcade-tournaments-at-surf-lanes-2026-09-09",
-      "title": "Arcade Tournaments at Surf Lanes",
-      "date": "2026-09-09T00:00:00",
-      "endDate": "2026-09-09T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "<p>Come by Surf Lanes during our normal hours of operations, register at the front desk for $6.00, and compete for the highest score! Each tournament throughout the summer will be competing for prizes! July- Basketball August- Skee Ball September- Air Hockey Tournament Rules: *No limit on how many times to register. ($6.00 per register/per entry) […]</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "vandenberg-thursday-night-football-2026-09-10",
-      "title": "Thursday Night Football",
-      "date": "2026-09-10T16:00:00",
-      "endDate": "2026-09-10T21:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That\\'s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks […]</p>\\n",
-      "category": "entertainment"
-    },
-    {
       "id": "vandenberg-story-time-at-the-library-2026-09-15",
       "title": "Story Time at the Library",
       "date": "2026-09-15T10:00:00",
@@ -304,6 +274,16 @@
       "address": "",
       "description": "<p>Bring your little ones to Story Time at the Library, where enchanting tales, playful songs, and lots of giggles await! Every Tuesday and Friday at 1000.</p>\\n",
       "category": "family"
+    },
+    {
+      "id": "vandenberg-arcade-tournaments-at-surf-lanes-2026-09-16",
+      "title": "Arcade Tournaments at Surf Lanes",
+      "date": "2026-09-16T00:00:00",
+      "endDate": "2026-09-16T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Come by Surf Lanes during our normal hours of operations, register at the front desk for $6.00, and compete for the highest score! Each tournament throughout the summer will be competing for prizes! July- Basketball August- Skee Ball September- Air Hockey Tournament Rules: *No limit on how many times to register. ($6.00 per register/per entry) *Roll off for tie breakers. *Register at any time during the tournament period. *Players must play all three games from July to September to be eligible for the Champion prize. *A central leaderboard will track scores: totals from all three games will de",
+      "category": "outdoor"
     },
     {
       "id": "vandenberg-thursday-night-football-2026-09-17",
@@ -356,6 +336,16 @@
       "category": "entertainment"
     },
     {
+      "id": "vandenberg-oktoberfest-2026-09-25",
+      "title": "OktoberFest",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for an evening of Oktoberfest Fun featuring games, prizes, specialty food, and refreshing beer. Don’t forget to wear your Lederhosen!",
+      "category": "holiday"
+    },
+    {
       "id": "vandenberg-galactic-trail-run-2026",
       "title": "Galactic Trail Run",
       "date": "2026-09-26T08:00:00",
@@ -406,6 +396,26 @@
       "category": "recreation"
     },
     {
+      "id": "vandenberg-thursday-night-football-2026-10-08",
+      "title": "Thursday Night Football",
+      "date": "2026-10-08T16:00:00",
+      "endDate": "2026-10-08T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That’s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks from the SpaceBar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "vandenberg-halloween-movie-night-2026-10-09",
+      "title": "Halloween Movie Night",
+      "date": "2026-10-09T17:30:00",
+      "endDate": "2026-10-09T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join the PCC for Halloween Movie Night! Playing Hotel Transylvania $8 for supplies Each kid gets 2 cookies with icing to decorate them Costumes are encouraged!",
+      "category": "holiday"
+    },
+    {
       "id": "vandenberg-adventure-zipline-2026",
       "title": "Adventure Course & Zipline Tour",
       "date": "2026-10-10T09:00:00",
@@ -414,6 +424,66 @@
       "address": "Vandenberg SFB, CA",
       "description": "ODR adventure course and zipline tour. Public FSS calendar listing.",
       "category": "recreation"
+    },
+    {
+      "id": "vandenberg-spooky-boo-ing-9-pin-no-tap-tournament-2026-10-10",
+      "title": "Spooky Boo-ing 9 Pin No Tap Tournament",
+      "date": "2026-10-10T13:00:00",
+      "endDate": "2026-10-10T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Spooky BOO-ing 9 Pin No Tap Tournament at your Surf Lanes Bowling Center Wear your spookiest Halloween shirt for a special prize. Saturday, Oct 10th, 2026 Sign in: 13:00 Bowling starts at 13:30 Cost: $25.00 per bowler. *Payout 1 of 5. Sign up by Oct 9th, 2026. Call (805) 606-3209 for more info.",
+      "category": "holiday"
+    },
+    {
+      "id": "vandenberg-video-game-club-halloween-party-2026-10-29",
+      "title": "Video Game Club – Halloween Party!",
+      "date": "2026-10-29T17:00:00",
+      "endDate": "2026-10-29T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "Video Game Club’s Halloween Party! Thursday, 29 Oct at 1700. Join us for a super fun Halloween themed Gaming event. Come in costume and enjoy Halloween treats!",
+      "category": "holiday"
+    },
+    {
+      "id": "vandenberg-annual-spookfest-trunk-or-treat-2026-10-30",
+      "title": "Annual Spookfest & Trunk-or-Treat",
+      "date": "2026-10-30T17:30:00",
+      "endDate": "2026-10-30T19:30:00",
+      "location": "",
+      "address": "",
+      "description": "Save the Date: Spookfest is Back! The Annual Youth Center Spookfest is back and better than ever! Bring the whole family out for an evening packed with thrills, chills, and lots of candy. Whether you want to score some sweet treats at the Trunk-or-Treat, show off your moves at our spooky dance party, or enjoy games and crafts, there is something for every ghoul and goblin! When: Friday, 30 October | 1730 – 1930 Where: The Youth Center Cost: Free admission! Costumes are highly encouraged! Trunk-or-Treat Contest: Want to decorate your trunk and compete for prizes? Keep your eyes peeled for a sig",
+      "category": "holiday"
+    },
+    {
+      "id": "vandenberg-pcc-halloween-party-2026-10-30",
+      "title": "PCC Halloween Party",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T21:30:00",
+      "location": "",
+      "address": "",
+      "description": "Get ready for a night of spooky fun! Hit the dance floor with a live DJ, enjoy specialty Halloween cocktails, dancing and fun! Come dressed to impress for our costume contest! Enter the following categories: Scariest Most Creative Funniest Best Overall We hope to see you there!",
+      "category": "holiday"
+    },
+    {
+      "id": "vandenberg-halloween-at-surf-lanes-2026-10-30",
+      "title": "Halloween at Surf Lanes",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Spooky Fun at Surf Lanes for their annual Halloween Party! Enjoy bowling, great food and drinks from the grill, and come dressed in your costume! Have questions? Contact Surf Lanes at (805) 606-3209.",
+      "category": "holiday"
+    },
+    {
+      "id": "vandenberg-thursday-night-football-2026-11-05",
+      "title": "Thursday Night Football",
+      "date": "2026-11-05T16:00:00",
+      "endDate": "2026-11-05T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That’s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks from the SpaceBar.",
+      "category": "entertainment"
     },
     {
       "id": "vandenberg-horseback-odr-2026",

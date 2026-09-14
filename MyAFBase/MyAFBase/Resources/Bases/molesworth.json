@@ -7,7 +7,7 @@
   "wing": "423 ABG",
   "latitude": 52.3794,
   "longitude": -0.405,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "molesworth-notif-real-id",
@@ -184,54 +184,214 @@
   ],
   "events": [
     {
-      "id": "molesworth-archery-axe-throwing-2026-09-08",
-      "title": "Archery & Axe Throwing",
-      "date": "2026-09-08T17:00:00",
-      "endDate": "2026-09-08T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Get unlimited use of our outdoor archery and axe throwing ranges for just $10 per person! Open to ages 16+.</p>\\n",
-      "category": "outdoor"
+      "id": "molesworth-t-shirt-quilt-class-2026-09-14",
+      "title": "T-shirt Quilt Class",
+      "date": "2026-09-14T00:00:00",
+      "endDate": "2026-09-14T23:59:59",
+      "location": "Arts and Crafts",
+      "address": "Alconbury",
+      "description": "Turn Memories Into Masterpieces: T-shirt Quilt Class Don't let your favorite concert, sports, or travel memories gather dust in the back of your closet! Bring those beloved t-shirts to life and transform them into a cozy, custom keepsake in this step-by-step workshop hosted by Arts & Crafts. Whether you want to preserve military milestones, school memories, or a collection of your favorite graphic tees, we will guide",
+      "category": "education"
     },
     {
-      "id": "molesworth-pathfinders-got-talent-2026-09-09",
-      "title": "Pathfinders’ Got Talent",
-      "date": "2026-09-09T18:00:00",
-      "endDate": "2026-09-09T20:00:00",
-      "location": "RAF Alconbury Theater",
-      "address": "",
-      "description": "<p>Dust off those tap shoes, warm up those vocal cords, or start practicing that jaw-dropping party trick you’ve been saving for the right moment. Pathfinders’ Got Talent is officially here, […]</p>\\n",
+      "id": "molesworth-fall-into-fun-2026-09-18",
+      "title": "Fall Into Fun!",
+      "date": "2026-09-18T15:00:00",
+      "endDate": "2026-09-18T21:00:00",
+      "location": "Teen Center",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Teens, kick off the autumn season with Youth Programs! Hang out with friends for an evening packed with movies, music, party games, and great food. 📅 Date: Friday, 18 September 📍 Location: Youth Programs (RAF Alconbury) ⏰ Time: 1500 - 2100 What to Expect: Party Games: Fall Bingo, Charades & Minute to Win It 🎲 Movies, Music & Friends 🎬🎶 Food, Drinks & Snacks 🍕🥤 Details & Pricing: CYP Members: FREE Non-Members: $10 Reg",
       "category": "family"
     },
     {
-      "id": "molesworth-wingman-challenge-2026-09-10",
-      "title": "Wingman Challenge",
-      "date": "2026-09-10T14:00:00",
-      "endDate": "2026-09-10T17:00:00",
+      "id": "molesworth-portmeirion-a-taste-of-italy-in-wales-2026-09-19",
+      "title": "Portmeirion: A Taste of Italy in Wales",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "RAF Molesworth",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Join us for a memorable day trip to the picturesque village of Portmeirion, one of Wales' most unique and enchanting destinations. Known for its colourful Italian-inspired architecture, lush gardens, and stunning coastal views, Portmeirion offers the perfect escape from the everyday. Your journey begins with comfortable, hassle-free transportation, allowing you to sit back, relax, and enjoy the scenic route. Upon arr",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-craft-coffee-2026-09-21",
+      "title": "Craft & Coffee",
+      "date": "2026-09-21T10:00:00",
+      "endDate": "2026-09-21T12:00:00",
+      "location": "Arts and Crafts",
+      "address": "Alconbury",
+      "description": "🎨 Craft & Coffee: Paint the Autumn Owl 🦉☕ Ready to welcome those cozy fall vibes? Gather the family and fly on over to the Community Center for a creative, caffeine-fueled morning! We are kicking off the autumn season by painting an adorable, wide-eyed autumn owl perched on a glowing crescent moon. No masterpiece-making experience required-just bring your enthusiasm, and we'll handle the rest! 📅 The Details: When: 21",
+      "category": "family"
+    },
+    {
+      "id": "molesworth-paris-3-day-tour-with-disney-option-2026-09-25",
+      "title": "Paris 3-Day Tour with Disney Option",
+      "date": "2026-09-25T00:00:00",
+      "endDate": "2026-09-27T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Visit Europe’s beautiful City of Love and Lights! Stroll along the banks of the River Seine, take in the spectacular famous monuments, indulge in world class shopping and enjoy some exquisite French cuisine. Adult £339 | Child (2-11) £289 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. EARLY BIRD DISCOUNT AVAILABLE : Book at least 6 weeks prior to departure ",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-usa-fulbright-college-day-fair-2026-09-26",
+      "title": "USA Fulbright college Day Fair",
+      "date": "2026-09-26T07:45:00",
+      "endDate": "2026-09-26T17:15:00",
+      "location": "RAF Molesworth",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Take a free charter bus trip to London to attend USA College Day, Europe's largest U.S. university fair. Meet with admissions representatives from over 100 U.S. universities and attend seminars on choosing, funding, and applying to colleges. Event Date: 26 September Meetup Location: AMHS Time: 07:45 to 17:15 Sign Up: https://www.signupgenius.com/go/10C0B44ABAC22A4F5C70-50270200-fulbright Important Details: Limited to",
+      "category": "education"
+    },
+    {
+      "id": "molesworth-intramural-flag-football-tournament-2026-09-30",
+      "title": "Intramural Flag Football Tournament",
+      "date": "2026-09-30T16:00:00",
+      "endDate": "2026-09-30T21:00:00",
       "location": "Fitness Center",
       "address": "Alconbury",
-      "description": "<p>Grab your partner and bring your A-game—the Wingman Challenge is here! 🏋️‍♂️🏋️‍♀️ This team competition tests speed, strength, and endurance as you and your teammate tackle a high-energy, timed workout against the clock. Whether you\\'re pacing out the runs or splitting up repetitions, teamwork is the name of the game. ⏰ Schedule of Events 1330: […]</p>\\n",
+      "description": "Event: 7 vs 7 Flag Football Tournament (Unit Level) Date: 30 SEPT-01 OCT ( Sign-up Deadline: 24 September ) Start Time: 1600 *SIGN UP AS A TEAM* -Single Elimination Tournament -Unit Level Play (Teams must be formed from unit) -7 vs 7 (10 players maximum) Following NFL Flag Rules. NON-CONTACT: QB: At the start of a play, the center snaps the football back to the quarterback, who can either hand it off or throw it. QB ",
       "category": "fitness"
     },
     {
-      "id": "molesworth-trivia-night-2026-09-10",
-      "title": "Trivia Night",
-      "date": "2026-09-10T18:00:00",
-      "endDate": "2026-09-10T19:30:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Get ready to put your knowledge to the test—Trivia Night is back at The Stukeley Inn in 2026! Gather your smartest (or funniest) friends and form a team of up to six players for an evening of friendly competition, great atmosphere, and plenty of laughs. 🍽 Come early for dinner! The restaurant opens at 1600, […]</p>\\n",
-      "category": "recreation"
+      "id": "molesworth-oktoberfest-2026-10-08",
+      "title": "Oktoberfest",
+      "date": "2026-10-08T16:00:00",
+      "endDate": "2026-10-08T21:00:00",
+      "location": "RAF Molesworth",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Dust off your dirndls and lederhosen! Join us for a festive evening of authentic eats, cold brews, and classic Oktoberfest vibes. 📅 Date: Thursday, 8 October 📍 Location: The Stukeley Inn (RAF Alconbury) ⏰ Time: 1600 - 2100 (Food served until 1945) What to Expect: Bratwurst 🌭 Draft Bitburger 🍺 Themed Cocktails 🍹 Oktoberfest Playlist 🎺 Costumes optional (but highly encouraged! 📞 Questions? Contact us at DSN: 268-3502 o",
+      "category": "holiday"
     },
     {
-      "id": "molesworth-lake-leisure-days-2026-09-12",
-      "title": "Lake Leisure Days",
-      "date": "2026-09-12T09:00:00",
-      "endDate": "2026-09-12T13:00:00",
-      "location": "Paxton Lake",
-      "address": "Haul Road, Little Paxton",
-      "description": "<p>Get ready to make a splash at Paxton Lake, where your perfect leisure day awaits! Whether you’re looking to find your sea legs with a sailing taster session for $40 […]</p>\\n",
-      "category": "community"
+      "id": "molesworth-trivia-night-2026-10-15",
+      "title": "Trivia Night",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T19:30:00",
+      "location": "RAF Molesworth",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Get ready to put your knowledge to the test- Trivia Night is back at The Stukeley Inn in 2026! Gather your smartest (or funniest) friends and form a team of up to six players for an evening of friendly competition, great atmosphere, and plenty of laughs. 🍽 Come early for dinner! The restaurant opens at 1600 , so arrive ahead of game time to enjoy great food and get your team fueled up for the challenge. 🎉 Entry is co",
+      "category": "entertainment"
+    },
+    {
+      "id": "molesworth-paris-3-day-tour-with-disney-option-2026-10-23",
+      "title": "Paris 3-Day Tour with Disney Option",
+      "date": "2026-10-23T00:00:00",
+      "endDate": "2026-10-25T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Visit Europe’s beautiful City of Love and Lights! Stroll along the banks of the River Seine, take in the spectacular famous monuments, indulge in world class shopping and enjoy some exquisite French cuisine. Adult £339 | Child (2-11) £289 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. EARLY BIRD DISCOUNT AVAILABLE : Book at least 6 weeks prior to departure ",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-zombie-run-5k-2026-10-23",
+      "title": "Zombie Run 5K",
+      "date": "2026-10-23T14:30:00",
+      "endDate": "2026-10-23T16:00:00",
+      "location": "Fitness Center",
+      "address": "Alconbury",
+      "description": "Lace up your running shoes-or crawl if you must. 🧟‍♂️🏃‍♀️ The annual Zombie Run 5K is coming to RAF Alconbury! Whether you're sprinting for survival or shuffling with the horde, grab your crew and join us for an afternoon of fitness and Halloween fun. Date: 23 October Time: 1530 (Check-in starts at 1430) Location: RAF Alconbury Fitness Center T-Shirt Deadline: Register by 15 October to guarantee your event T-shirt! S",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-alton-towers-scarefest-2026-10-31",
+      "title": "Alton Towers Scarefest",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Immerse yourself in a frightful world of spine-tingling Halloween attractions and sensational live entertainment at Alton Tower’s Annual Scarefest. £89 per person Includes: Luxury coach travel, entry to Alton Towers with a full day to explore the Theme park",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-fall-fest-2026-10-31",
+      "title": "Fall Fest",
+      "date": "2026-10-31T13:00:00",
+      "endDate": "2026-10-31T15:30:00",
+      "location": "RAF Alconbury Community Center",
+      "address": "Huntingdon, United Kingdom",
+      "description": "🎃 Get ready for a frightfully good time! The RAF Alconbury Fall Fest is bringing all the spooky season magic to base. Here is everything you need to know about the upcoming autumn Extravaganza! 👻 🎪 What's Happening Around Base 🚜 Hayride & Pumpkin Patch: Hop aboard the spooky Hayride for a scenic lift over to the Pumpkin Patch to pick up your free pumpkin ! 🚗 Trunk-or-Treat (CAC Parking Lot): Load up on candy at the f",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-trunk-or-treat-2026-10-31",
+      "title": "Trunk or Treat",
+      "date": "2026-10-31T13:00:00",
+      "endDate": "2026-10-31T15:30:00",
+      "location": "RAF Alconbury Community Center",
+      "address": "",
+      "description": "🎃 Deck Your Trunk for Trunk-or-Treat! 🚗👻 Got a knack for spooky decor or a wild imagination? We need volunteers to help make this year’s Fall Fest Trunk-or-Treat unforgettable for our community! Transform your vehicle’s trunk into a hauntingly awesome display and hand out treats to all the little ghouls and goblins on base. Not only is it a blast to participate, but you’ll also be competing for major bragging rights and FSS Gift Cards ! 🏆 Contest Categories 😱 Scariest Trunk 🎨 Most Creative Trunk 👑 Best Overall Trunk 📋 What You Need to Know Bring the Sweet Stuff: Participating trunks must provi",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-fall-fest-teen-after-party-2026-10-31",
+      "title": "Fall Fest Teen After Party!",
+      "date": "2026-10-31T15:00:00",
+      "endDate": "2026-10-31T21:00:00",
+      "location": "Teen Center",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Calling all teens! Celebrate Halloween night with Youth Programs at our Fall Fest Teen Party. Dress up in your favorite costume and hang out for a night packed with fun. 📅 Date: Saturday, 31 October 📍 Location: Youth Programs (RAF Alconbury) ⏰ Time: 1500 - 2100 🎭 Costumes encouraged! Details & Pricing: CYP Members: FREE Non-Members: $10 Registration: Sign up on the CYPBMS portal 📞 Questions? Contact Youth Programs at",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-cologne-christmas-market-2026-11-21",
+      "title": "Cologne Christmas Market",
+      "date": "2026-11-21T00:00:00",
+      "endDate": "2026-11-21T23:59:59",
+      "location": "RAF Molesworth",
+      "address": "Huntingdon, United Kingdom",
+      "description": "Cologne's Christmas markets, offer a magical, festive experience centred around the iconic Cathedral which hosts the most popular market with its massive Christmas tree and over 150 stalls, selling unique gifts, traditional Glühwein, and Bratwurst. You'll find themed markets like the Harbor Market with its large Ferris wheel and local seafood, the Angels' Market, known for its “stars in the trees” lighting, the gnom",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-stunning-switzerland-for-thanksgiving-5-day-tour-2026",
+      "title": "Stunning Switzerland for Thanksgiving 5-Day Tour",
+      "date": "2026-11-25T00:00:00",
+      "endDate": "2026-11-29T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Enjoy the breathtaking shimmering mountain peaks of the Alps and the shores of Lake Lucerne, with tranquil blue waters, picturesque Alpine villages, and lush green hillsides on this fantastic Thanksgiving Tour. Staying in the mountainside village of Emmetten, you will have time to explore Lucerne, where a visit to the Lion Monument is a must! Join our optional excursions (extra cost) to take a boat trip on Lake Lucerne, with commentary, go up Mount Rigi, where Pontius Pilate’s soul was said to be exiled and visit Engelberg, where you can take a ride on the ROTAIR, a 360° revolving gondola, up ",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-paris-3-day-tour-with-disney-option-2026-11-27",
+      "title": "Paris 3-Day Tour with Disney Option",
+      "date": "2026-11-27T00:00:00",
+      "endDate": "2026-11-29T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Visit Europe’s beautiful City of Love and Lights! Stroll along the banks of the River Seine, take in the spectacular famous monuments, indulge in world class shopping and enjoy some exquisite French cuisine. Adult £339 | Child (2-11) £289 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. EARLY BIRD DISCOUNT AVAILABLE : Book at least 6 weeks prior to departure ",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-edinburgh-christmas-market-2026-11-28",
+      "title": "Edinburgh Christmas Market",
+      "date": "2026-11-28T00:00:00",
+      "endDate": "2026-11-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "At Christmas time, Edinburgh transforms into a truly magical city, full of twinkling lights, festive food and music. Nestled in the heart of the historic city centre, enjoy the traditional German-style Christmas Market with over 70 stalls unique gifts and tasty treats. Wander through the fun fair, enjoy the views from Scotland’s largest ferris wheel or enjoy some ice skating. £139 per person Includes: Luxury coach travel, free time to explore Edinburgh’s Christmas Festival",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-bath-christmas-market-2026-11-28",
+      "title": "Bath Christmas Market",
+      "date": "2026-11-28T00:00:00",
+      "endDate": "2026-11-28T23:59:59",
+      "location": "RAF Alconbury Community Center",
+      "address": "",
+      "description": "Get into the holiday spirit with a day trip to one of the UK’s most iconic festive markets. Enjoy round trip transportation and plenty of free time to explore the festive chalets, artisan gifts, delicious holiday treats, and picturesque streets of historic Bath. Trip Date: 28 November Sign up Deadline: 13 November Pricing: Adults: £86 Children: £76 Infants: £20 Includes transportation and free time at the Bath Christmas Market. How to Book: Contact Information, Tickets & Travel (ITT) today! COMM: 01480 843704 DSN: 268 3704",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-brussels-christmas-market-2026-12-05",
+      "title": "Brussels Christmas Market",
+      "date": "2026-12-05T00:00:00",
+      "endDate": "2026-12-05T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "The cobbled streets and pretty squares of Belgium’s Capital spring to life with the festive fun at the Brussels Winter Wonders event. With over 250 snow-dusted chalets, buzzing bars and pop-up restaurants Brussels Christmas Market is perfect for those last-minute stockingfillers! Get a bird’s eye view from the Ferris Wheel or take a spin on the merry-go-round as the sweet, spicy scent of waffles and Glühwein drifts through the chilly air. You’ll find a multitude of diverse activities at this unmissable event. £125 per person Includes: Luxury coach travel, return ferry crossing, free time in B",
+      "category": "holiday"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
@@ -293,74 +293,14 @@
   ],
   "events": [
     {
-      "id": "cannon-yoga-2026-09-07",
-      "title": "Yoga",
-      "date": "2026-09-07T17:00:00",
-      "endDate": "2026-09-07T17:00:00",
-      "location": "Cannon Fitness Center",
-      "address": "400 Air Commando Way, Clovis, NM, 88101",
-      "description": "Subject to change. Follow Cannon AFB Fitness on FB for updates.",
-      "category": "fitness"
-    },
-    {
-      "id": "cannon-lapsit-story-time-2026-09-08",
-      "title": "Lapsit Story Time",
-      "date": "2026-09-08T10:30:00",
-      "endDate": "2026-09-08T10:30:00",
-      "location": "Cannon Library",
-      "address": "107 Albright Ave",
-      "description": "Build your child’s literacy and social skills at the library with simple stories, rhymes, and songs that are age-appropriate and engaging for babies. Recommended for ages 0-2.",
-      "category": "family"
-    },
-    {
-      "id": "cannon-spin-2026-09-08",
-      "title": "Spin",
-      "date": "2026-09-08T17:00:00",
-      "endDate": "2026-09-08T17:00:00",
-      "location": "Cannon Fitness Center",
-      "address": "400 Air Commando Way, Clovis, NM, 88101",
-      "description": "Subject to change. Follow Cannon AFB Fitness on FB for updates.",
-      "category": "fitness"
-    },
-    {
-      "id": "cannon-preschool-story-time-2026-09-09",
-      "title": "Preschool Story Time",
-      "date": "2026-09-09T10:00:00",
-      "endDate": "2026-09-09T10:00:00",
-      "location": "Cannon Library",
-      "address": "107 Albright Ave",
-      "description": "Reading, singing, and crafting combine to fuel your child’s imagination while boosting literacy and social skills in a fun and welcoming environment. Recommended for ages 3-6.",
-      "category": "family"
-    },
-    {
-      "id": "cannon-red-pin-wednesday-2026-09-09",
+      "id": "cannon-red-pin-wednesday-2026-09-16",
       "title": "Red Pin Wednesday",
-      "date": "2026-09-09T15:00:00",
-      "endDate": "2026-09-09T21:00:00",
+      "date": "2026-09-16T15:00:00",
+      "endDate": "2026-09-16T21:00:00",
       "location": "Cannon Lanes",
       "address": "108 Albright Ave, Clovis, NM, 88101",
-      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
       "category": "community"
-    },
-    {
-      "id": "cannon-cosmic-bowling-2026-09-11",
-      "title": "Cosmic Bowling",
-      "date": "2026-09-11T20:00:00",
-      "endDate": "2026-09-11T23:00:00",
-      "location": "Cannon Lanes",
-      "address": "108 Albright Ave, Clovis, NM, 88101",
-      "description": "Get ready to light up the lanes at Cosmic Bowling! Grab your friends and join us at Cannon Lanes for a night of glowing strikes, great vibes, and endless fun.",
-      "category": "recreation"
-    },
-    {
-      "id": "cannon-sunday-family-day-2026-09-13",
-      "title": "Sunday Family Day",
-      "date": "2026-09-13T12:00:00",
-      "endDate": "2026-09-13T20:00:00",
-      "location": "Cannon Lanes",
-      "address": "108 Albright Ave, Clovis, NM, 88101",
-      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for",
-      "category": "family"
     },
     {
       "id": "cannon-jackpot-bingo-2026-09-18",
@@ -373,6 +313,36 @@
       "category": "entertainment"
     },
     {
+      "id": "cannon-sunday-family-day-2026-09-20",
+      "title": "Sunday Family Day",
+      "date": "2026-09-20T12:00:00",
+      "endDate": "2026-09-20T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
+      "category": "family"
+    },
+    {
+      "id": "cannon-ditch-the-dorms-2026-09-22",
+      "title": "Ditch the Dorms",
+      "date": "2026-09-22T09:00:00",
+      "endDate": "2026-09-22T12:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "This course helps service members moving out of the dorms and is mandatory to get the move-out process started. Must have base access.",
+      "category": "education"
+    },
+    {
+      "id": "cannon-plan-my-move-relocation-assistance-2026-09-22",
+      "title": "Plan My Move/Relocation Assistance",
+      "date": "2026-09-22T13:00:00",
+      "endDate": "2026-09-22T15:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "Experts from TMO, Housing, Legal/Claims, Finance, EFMP & MFRC brief entitlements to military members and spouses to make your PCS as smooth as possible.",
+      "category": "education"
+    },
+    {
       "id": "cannon-trivia-at-the-tsl-2026-09-24",
       "title": "Trivia at the TSL!",
       "date": "2026-09-24T17:00:00",
@@ -380,6 +350,116 @@
       "location": "Tailgate Sports Lounge",
       "address": "108 Cunningham Ave Cannon AFB, New Mexico 88103 United States",
       "description": "Trivium Trivia at TSL | Thursday, 5 PM – 7:30 PM - ANIME EDITION Anime themed trivia and ramen bowl dinner special! ESM Accepted Must have base access.",
+      "category": "entertainment"
+    },
+    {
+      "id": "cannon-sunday-family-day-2026-10-04",
+      "title": "Sunday Family Day",
+      "date": "2026-10-04T12:00:00",
+      "endDate": "2026-10-04T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
+      "category": "family"
+    },
+    {
+      "id": "cannon-plan-my-move-relocation-assistance-2026-10-06",
+      "title": "Plan My Move/Relocation Assistance",
+      "date": "2026-10-06T13:00:00",
+      "endDate": "2026-10-06T15:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM, 88103",
+      "description": "Experts from TMO, Housing, Legal/Claims, Finance, EFMP & MFRC brief entitlements to military members and spouses to make your PCS as smooth as possible.",
+      "category": "family"
+    },
+    {
+      "id": "cannon-red-pin-wednesday-2026-10-07",
+      "title": "Red Pin Wednesday",
+      "date": "2026-10-07T15:00:00",
+      "endDate": "2026-10-07T21:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
+      "category": "community"
+    },
+    {
+      "id": "cannon-ditch-the-dorms-2026-10-13",
+      "title": "Ditch the Dorms",
+      "date": "2026-10-13T09:00:00",
+      "endDate": "2026-10-13T12:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM, 88103",
+      "description": "This course helps service members moving out of the dorms and is mandatory to get the move-out process started. Must have base access.",
+      "category": "education"
+    },
+    {
+      "id": "cannon-jackpot-bingo-2026-10-16",
+      "title": "Jackpot Bingo",
+      "date": "2026-10-16T17:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "Cannon AFB",
+      "address": "Clovis, NM",
+      "description": "Join us for an exciting night of Bingo filled with great prizes, food, and fun. The event will be held in the Landing Zone Tri-Rooms and is open to 75-100 players. Food will be available for purchase from 5:30 PM to 8:00 PM, so come hungry and make a night of it. Bingo cards will go on sale from 5:00 PM to 6:00 PM. The evening will kick off at 6:00 PM with introductions and rules, followed by nonstop Bingo action unt",
+      "category": "family"
+    },
+    {
+      "id": "cannon-trivia-at-the-tsl-2026-10-22",
+      "title": "Trivia at the TSL!",
+      "date": "2026-10-22T17:00:00",
+      "endDate": "2026-10-22T19:30:00",
+      "location": "Tailgate Sports Lounge",
+      "address": "108 Cunningham Ave Cannon AFB, New Mexico 88103 United States",
+      "description": "Trivium Trivia at TSL | Thursday, 5 PM - 7:30 PM - ANIME EDITION Anime themed trivia and ramen bowl dinner special! ESM Accepted Must have base access.",
+      "category": "entertainment"
+    },
+    {
+      "id": "cannon-clovis-bus-tour-2026-10-28",
+      "title": "Clovis Bus Tour",
+      "date": "2026-10-28T08:00:00",
+      "endDate": "2026-10-28T13:30:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "New to Cannon or a longtime local? This tour's for you! Join the Military & Family Readiness Center for a guided tour of the Clovis community- perfect for getting to know the area or discovering something new! This tour is made possible through a partnership with the Committee of 50, the Clovis/ Curry County Chamber of Commerce, and the M& FRC. Details: Open to anyone with base access Limited to 20 participants Lunch",
+      "category": "family"
+    },
+    {
+      "id": "cannon-bundles-for-babies-2026-11-04",
+      "title": "Bundles for Babies",
+      "date": "2026-11-04T13:00:00",
+      "endDate": "2026-11-04T16:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "Designed to teach soon to be and new parents basic parenting skills. Includes Babies and Budgets: New parents will learn ways to manage the financial changes that come with a child addition. Required for first time Active-duty members! Counts for MyVector learning! AD members/Dependents will receive $150 gift! *Dates are subject to change",
+      "category": "education"
+    },
+    {
+      "id": "cannon-adoption-101-2026-11-19",
+      "title": "Adoption 101",
+      "date": "2026-11-19T11:00:00",
+      "endDate": "2026-11-19T12:00:00",
+      "location": "Cannon Military & Family Readiness Center",
+      "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
+      "description": "Workshop will guide your learning about the process for private, domestic and international adoption. Gain insights of the home study process, NM adoption statutes, and subsidy or tax credits for adoptive families",
+      "category": "education"
+    },
+    {
+      "id": "cannon-jackpot-bingo-2026-11-20",
+      "title": "Jackpot Bingo",
+      "date": "2026-11-20T17:00:00",
+      "endDate": "2026-11-20T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for an exciting night of Bingo filled with great prizes, food, and fun. The event will be held in the Landing Zone Tri-Rooms and is open to 75–100 players. Food will be available for purchase from 5:30 PM to 8:00 PM, so come hungry and make a night of it. Bingo cards will go on sale from 5:00 PM to 6:00 PM. The evening will kick off at 6:00 PM with introductions and rules, followed by nonstop Bingo action until 9:00 PM. The cost per person covers 10 games. Club members play for $25, while non-members play for $30. Daubers will be available for purchase for $3 each, and extra jackpot ca",
+      "category": "entertainment"
+    },
+    {
+      "id": "cannon-trivia-at-the-tsl-2026-11-26",
+      "title": "Trivia at the TSL!",
+      "date": "2026-11-26T17:00:00",
+      "endDate": "2026-11-26T19:30:00",
+      "location": "Tailgate Sports Lounge",
+      "address": "108 Cunningham Ave Cannon AFB, New Mexico 88103 United States",
+      "description": "Trivium Trivia at TSL | Thursday, 5 PM – 7:30 PM – ANIME EDITION Anime themed trivia and ramen bowl dinner special! ESM Accepted Must have base access.",
       "category": "entertainment"
     }
   ],

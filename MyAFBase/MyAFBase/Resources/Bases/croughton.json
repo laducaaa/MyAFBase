@@ -7,7 +7,7 @@
   "wing": "422 ABG",
   "latitude": 51.9875,
   "longitude": -1.1861,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "croughton-notif-real-id",
@@ -206,64 +206,54 @@
   ],
   "events": [
     {
-      "id": "croughton-toddler-story-time-2026-09-08",
+      "id": "croughton-toddler-story-time-2026-09-15",
       "title": "Toddler Story Time",
-      "date": "2026-09-08",
-      "endDate": "2026-09-08",
+      "date": "2026-09-15T10:30:00",
+      "endDate": "2026-09-15T23:30:00",
       "location": "RAF Croughton",
       "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "description": "Join us at the library every Tuesday at 10:30 am for stories, music & craft. No registration is required.",
       "category": "family"
     },
     {
-      "id": "croughton-baby-story-time-2026-09-09",
+      "id": "croughton-beginner-s-lifting-2026-09-15",
+      "title": "Beginner's Lifting",
+      "date": "2026-09-15T12:00:00",
+      "endDate": "2026-09-15T12:30:00",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Learn the fundamentals of strength training in our Beginner's Lifting class. No experience needed-just bring yourself and we'll help you build confidence one lift at a time.",
+      "category": "fitness"
+    },
+    {
+      "id": "croughton-baby-story-time-2026-09-16",
       "title": "Baby Story Time🍼📚",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "RAF Croughton",
+      "date": "2026-09-16T10:30:00",
+      "endDate": "2026-09-16T11:00:00",
+      "location": "Library",
       "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "description": "Bring your little ones to Baby Story Time every Wednesday at 10:30 AM! Designed for babies aged 0-24 months, this gentle and interactive session features soothing stories, playful songs, and simple activities that encourage early language development and bonding. It's a wonderful opportunity to introduce your baby to the world of books and connect with other parents in a warm, welcoming environment.",
       "category": "family"
     },
     {
-      "id": "croughton-run-club-2026-09-09",
+      "id": "croughton-run-club-2026-09-16",
       "title": "Run Club",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
+      "date": "2026-09-16T12:00:00",
+      "endDate": "2026-09-16T13:00:00",
       "location": "RAF Croughton",
       "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "description": "Run Club social hour! Every Wednesday | 1200-1300 | At the Track | All are welcome to join, whether you're experienced or a beginner!!",
       "category": "fitness"
     },
     {
-      "id": "croughton-yoga-2026-09-10",
+      "id": "croughton-yoga-2026-09-17",
       "title": "Yoga",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
+      "date": "2026-09-17T15:00:00",
+      "endDate": "2026-09-17T16:00:00",
       "location": "RAF Croughton",
       "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "description": "Join us for a relaxing yoga session designed to help you improve flexibility, build strength, and find balance-both on and off the mat. Whether you're a beginner or an experienced yogi, everyone is welcome.",
       "category": "fitness"
-    },
-    {
-      "id": "croughton-afe-bring-the-laughs-2026-09-10",
-      "title": "AFE Bring the Laughs",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "RAF Croughton",
-      "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
-      "category": "entertainment"
-    },
-    {
-      "id": "croughton-rock-art-therapy-2026-09-11",
-      "title": "Rock Art Therapy",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "RAF Croughton",
-      "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
-      "category": "recreation"
     },
     {
       "id": "croughton-crafty-cocktail-night-2026-09-18",
@@ -273,6 +263,16 @@
       "location": "RAF Croughton",
       "address": "Brackley, United Kingdom",
       "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "recreation"
+    },
+    {
+      "id": "croughton-blackout-poetry-2026-09-18",
+      "title": "Blackout Poetry",
+      "date": "2026-09-18T11:00:00",
+      "endDate": "2026-09-18T13:00:00",
+      "location": "RAF Croughton",
+      "address": "Brackley, United Kingdom",
+      "description": "Join us as we create simple, stunning artwork. Relax as we create poetry by blacking out old books or magazine pages, giving your mind a well-deserved break. Breathe and let the noise drift away.",
       "category": "recreation"
     },
     {
@@ -293,6 +293,16 @@
       "location": "RAF Croughton",
       "address": "Brackley, United Kingdom",
       "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
+      "category": "holiday"
+    },
+    {
+      "id": "croughton-halloween-spooktacular-2026-10-30",
+      "title": "Halloween Spooktacular",
+      "date": "2026-10-30T16:30:00",
+      "endDate": "2026-10-30T18:30:00",
+      "location": "Library",
+      "address": "Brackley, United Kingdom",
+      "description": "Looking for some frightfully good fun, then the RAF Croughton Library's Halloween Spooktacular is just for you! Dress to impress…or scare, we've got games and challenges, crafts, interactive spooky art, cut out photo portrait and more! It will be a scream",
       "category": "holiday"
     }
   ],

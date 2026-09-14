@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -436,46 +436,6 @@
   ],
   "events": [
     {
-      "id": "wright-patterson-wood-turning-class-2026-09-08",
-      "title": "Wood Turning Class",
-      "date": "2026-09-08T17:30:00",
-      "endDate": "2026-09-08T20:30:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. […]</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "wpafb-fall-planting-party-2026-09-09",
-      "title": "Fall Planting Party",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Wing's Bar & Grille Patio",
-      "address": "Wright-Patterson AFB",
-      "description": "Fall Planting Party with Community Center; wrightpattfss.com.",
-      "category": "community"
-    },
-    {
-      "id": "wpafb-run-for-the-fallen-2026-09-11",
-      "title": "Run for the Fallen",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Area B Flight Line / National Museum of the Air Force",
-      "address": "Wright-Patterson AFB",
-      "description": "Ceremonial 1.5-mile walk / 2.5-mile run; 88 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "wright-patterson-first-friday-2026-09-11",
-      "title": "First Friday",
-      "date": "2026-09-11T15:00:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Wing’s Bar and Grille",
-      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
-      "description": "<p>May not be the first of the month, but the fun is still happening at First Friday on Friday, September 11 in Wing\\'s Bar & Grille beginning at 3pm! Gather your friends and join in for an afternoon and evening filled with great food, refreshing drink specials, a live DJ and a fun atmosphere you […]</p>\\n",
-      "category": "recreation"
-    },
-    {
       "id": "wpafb-evt-1",
       "title": "AFMC Innovation Summit",
       "date": "2026-09-15T08:00:00Z",
@@ -536,6 +496,26 @@
       "category": "community"
     },
     {
+      "id": "wright-patterson-dolly-parton-friday-2026-09-25",
+      "title": "Dolly Parton Friday",
+      "date": "2026-09-25T16:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "Wing’s Bar and Grille",
+      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "Join Wing’s Bar & Grille for Dolly Parton Friday on September 25 from 4 – 10 pm! Come and celebrate the Queen of Country with karaoke, laughter, food, cocktails, and plenty of Dolly-inspired fun.",
+      "category": "entertainment"
+    },
+    {
+      "id": "wright-patterson-kids-movie-night-2026-09-25",
+      "title": "Kids Movie Night",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Community Center",
+      "address": "4771 Lahm Circle Bldg 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "Join in for Kids Movie Night on Friday, September 25 from 6 – 9 pm at the Wright-Patt Community Center. Kids and family can enjoy Jurassic Park on the big screen with FREE popcorn and pretzels.",
+      "category": "outdoor"
+    },
+    {
       "id": "wpafb-rocket-day",
       "title": "Rocket Day 2026",
       "date": "2026-09-26T10:00:00",
@@ -576,6 +556,16 @@
       "category": "fitness"
     },
     {
+      "id": "wright-patterson-wood-turning-class-2026-10-13",
+      "title": "Wood Turning Class",
+      "date": "2026-10-13T17:30:00",
+      "endDate": "2026-10-13T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
       "id": "wright-patterson-mini-moos-brews-2026-10-16",
       "title": "Mini Moos & Brews",
       "date": "2026-10-16T16:00:00",
@@ -606,6 +596,26 @@
       "category": "community"
     },
     {
+      "id": "wright-patterson-the-great-pumpkin-palooza-2026-10-22",
+      "title": "The Great Pumpkin Palooza",
+      "date": "2026-10-22T16:00:00",
+      "endDate": "2026-10-22T19:00:00",
+      "location": "Turtle Pond",
+      "address": "Pearson Road, Wright-Patterson Air Force Base, 45433",
+      "description": "Get ready for the Great Pumpkin Palooza on Thursday, October 22 from 4 – 7 pm. This free fall celebration has activities for the whole family including a pumpkin carving competition, pumpkin bowling, a caricature artists, photo booth, trunk or treating and more! Registration is recommended for the carving competition.",
+      "category": "family"
+    },
+    {
+      "id": "wright-patterson-zombie-chase-5k-fun-run-2026-10-23",
+      "title": "Zombie Chase 5K Fun Run",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:30:00",
+      "location": "Bass Lake",
+      "address": "Wright-Patterson AFB, OH 45433",
+      "description": "Prepare for the thrill with Fitness and Sports for the 5K Zombie Chase Fun Run on Friday, October 23 at 5 pm at Bass Lake. Prizes will be awarded to the best individual/group costume and fastest male and female finishers. Participant registration is not required For more information, and to volunteer call at 937-257-4225",
+      "category": "fitness"
+    },
+    {
       "id": "wpafb-horror-night-halloween-2026-10-30",
       "title": "Horror Night Halloween Party",
       "date": "2026-10-30",
@@ -624,6 +634,46 @@
       "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
       "description": "Adults-only (21+) museum after-hours with local brews, open aircraft, live music; $45; doors 5:30 PM.",
       "category": "entertainment"
+    },
+    {
+      "id": "wright-patterson-wood-turning-class-2026-11-10",
+      "title": "Wood Turning Class",
+      "date": "2026-11-10T17:30:00",
+      "endDate": "2026-11-10T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-auto-shop-safety-2026-11-18",
+      "title": "Auto Shop Safety",
+      "date": "2026-11-18T17:00:00",
+      "endDate": "2026-11-18T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-wood-turning-class-2026-12-08",
+      "title": "Wood Turning Class",
+      "date": "2026-12-08T17:30:00",
+      "endDate": "2026-12-08T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-auto-shop-safety-2026-12-16",
+      "title": "Auto Shop Safety",
+      "date": "2026-12-16T17:00:00",
+      "endDate": "2026-12-16T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month",
+      "category": "education"
     }
   ],
   "newcomers": {

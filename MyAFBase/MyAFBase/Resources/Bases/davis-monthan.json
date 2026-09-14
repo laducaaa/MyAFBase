@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -354,64 +354,14 @@
   ],
   "events": [
     {
-      "id": "dm-pins-and-pals-2026-09-09",
-      "title": "Pins and Pals",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Thunder Alley / Bowling",
-      "address": "Davis-Monthan AFB, AZ",
-      "description": "Midweek bowling hangout series; dmforcesupport.com.",
-      "category": "community"
-    },
-    {
-      "id": "dm-cosmic-bowling-2026-09-11",
-      "title": "Cosmic Bowling",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Thunder Alley",
-      "address": "Davis-Monthan AFB, AZ",
-      "description": "Cosmic Bowling Fri/Sat series continues; dmforcesupport.com.",
-      "category": "community"
-    },
-    {
-      "id": "dm-friday-unwind-2026-09-11",
-      "title": "Friday Unwind",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Davis-Monthan AFB",
-      "address": "Davis-Monthan AFB, AZ",
-      "description": "Friday Unwind recurring program; September calendar.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-9-11-sunset-ruck-2026-09-11",
-      "title": "9/11 Sunset Ruck",
-      "date": "2026-09-11T17:30:00",
-      "endDate": "2026-09-11T19:30:00",
+      "id": "davis-monthan-home-buying-workshop-2026-09-15",
+      "title": "Home Buying Workshop",
+      "date": "2026-09-15T13:00:00",
+      "endDate": "2026-09-15T15:00:00",
       "location": "Davis-Monthan AFB",
       "address": "Tucson, AZ",
-      "description": "9/11 Sunset Ruck at Davis-Monthan AFB.",
-      "category": "fitness"
-    },
-    {
-      "id": "davis-monthan-basic-embroidery-2026-09-11",
-      "title": "Basic Embroidery",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Basic Embroidery at Davis-Monthan AFB.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-zipline-adventure-2026-09-12",
-      "title": "Zipline Adventure",
-      "date": "2026-09-12T08:45:00",
-      "endDate": "2026-09-12T17:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Zipline Adventure at Davis-Monthan AFB.",
-      "category": "outdoor"
+      "description": "Home Buying Workshop",
+      "category": "education"
     },
     {
       "id": "dm-pins-and-pals-2026-09-16",
@@ -422,6 +372,26 @@
       "address": "Davis-Monthan AFB, AZ",
       "description": "Pins and Pals Wednesday series; 355 FSS.",
       "category": "community"
+    },
+    {
+      "id": "davis-monthan-federal-resume-workshop-2026-09-16",
+      "title": "Federal Resume Workshop",
+      "date": "2026-09-16T13:00:00",
+      "endDate": "2026-09-16T15:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Federal Resume Workshop",
+      "category": "education"
+    },
+    {
+      "id": "davis-monthan-ditching-the-dorms-2026-09-17",
+      "title": "Ditching the Dorms",
+      "date": "2026-09-17T14:00:00",
+      "endDate": "2026-09-17T16:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "M&FRC RM 148 Required class for all airmen moving out of the dorm. Will discuss information on expenses that may be incurred when living in this economy. This includes where to search for a home/apt, reviewing the lease, setting up utilities, and more.",
+      "category": "education"
     },
     {
       "id": "davis-monthan-gaming-trivia-2026-09-17",
@@ -462,6 +432,16 @@
       "address": "Tucson, AZ",
       "description": "Sabino Canyon Hike at Davis-Monthan AFB.",
       "category": "outdoor"
+    },
+    {
+      "id": "davis-monthan-bundles-for-babies-2026-09-24",
+      "title": "Bundles for Babies",
+      "date": "2026-09-24T09:00:00",
+      "endDate": "2026-09-24T11:30:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Bundles for Babies",
+      "category": "family"
     },
     {
       "id": "davis-monthan-tailgate-bingo-2026-09-24",
@@ -512,6 +492,26 @@
       "address": "Tucson, AZ",
       "description": "Karaoke Night at Davis-Monthan AFB.",
       "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-atv-tour-2026-09-26",
+      "title": "ATV Tour",
+      "date": "2026-09-26T07:45:00",
+      "endDate": "2026-09-26T15:30:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "ATV Tour",
+      "category": "outdoor"
+    },
+    {
+      "id": "davis-monthan-racing-tournament-2026-09-26",
+      "title": "Racing Tournament",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Racing Tournament",
+      "category": "recreation"
     }
   ],
   "newcomers": {

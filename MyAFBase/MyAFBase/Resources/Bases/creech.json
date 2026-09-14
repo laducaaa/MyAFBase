@@ -237,6 +237,156 @@
   ],
   "events": [
     {
+      "id": "creech-air-force-birthday-5k-run-2026-09-18",
+      "title": "Air Force Birthday 5K Run",
+      "date": "2026-09-18T07:00:00",
+      "endDate": "2026-09-18T10:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Air Force Birthday 5K Run FRIDAY • SEPTEMBER 18 • 7:00 AM Prizes for the first male and female runners To Volunteer please visit: https://www.signupgenius.com/go/10C044BA8AE23A6FBC61-64837692-airforce#/ The run will take place by the Warrior Fitness Center located at 3705 Freedom Cir. bldg. 1705 Call 702-652-4891 for more information.",
+      "category": "holiday"
+    },
+    {
+      "id": "creech-oktoberfest-2026-09-18",
+      "title": "Oktoberfest",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "The Club",
+      "address": "5871 Fitzgerald, Bldg. 554, Nellis AFB, NV 89191",
+      "description": "Friday, September 18 4pm - 7pm at The Club Food & Drinks for purchase. $15 / meal platter Contests: Best Dressed, Stein Holding, & Pretzel Eating Free to Attend! Volunteer Sign Up, Click here!",
+      "category": "holiday"
+    },
+    {
+      "id": "creech-colorado-river-kayak-tour-2026-09-19",
+      "title": "Colorado River Kayak Tour",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T14:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Date: September 19 Program Title: Colorado River Kayak Tour Time: 0800-1400 Cost: $70 per person Age: 14+ Details: Escape to the stunning beauty of the Colorado River with our beginner-friendly kayaking tour! This easy and enjoyable trip is perfect for first-time kayakers and anyone looking to learn the basics of paddling in a breathtaking desert setting. One of our amazing instructors will guide you through the calm",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-glass-is-in-session-2026-09-23",
+      "title": "GLASS is in Session!",
+      "date": "2026-09-23T16:00:00",
+      "endDate": "2026-09-23T19:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "GLASS is in session! Faux Stained Glass Art Workshop Wednesday, September 23, 2026 4pm - 7pm $20 RSVP by September 16, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Dr, # 610, Nellis Air Force Base, NV, 89191 Children must be accompanied by an adult. Limited seats available.",
+      "category": "recreation"
+    },
+    {
+      "id": "creech-stand-up-paddleboarding-lake-mead-2026-09-26",
+      "title": "Stand Up Paddleboarding Lake Mead",
+      "date": "2026-09-26T07:00:00",
+      "endDate": "2026-09-26T12:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Date: September 26 Program Title: Stand Up Paddleboarding Lake Mead Time: 0700-1200 Cost: $50 per person Age: 12+ Details: Escape the heat and find your oasis at Lake Mead! Join us for a refreshing morning of paddleboarding on this stunning desert lake fed by the Colorado River. Whether you're a beginner or looking to refine your skills, this is the perfect opportunity to connect with nature, enjoy great company, and",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-horseback-riding-bbq-dinner-2026-09-26",
+      "title": "Horseback Riding & BBQ Dinner",
+      "date": "2026-09-26T15:00:00",
+      "endDate": "2026-09-26T20:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Date: September 26 Program Title: Horseback Riding & BBQ Dinner Time: 1500 - 2000 Cost: $120 Age: 6+ Details: We will be hitting the trails by horseback as we ride off into the sunset on a guided trip let by authentic cowboys and girls. After a few hours of trail exploration, the ride will end with a steak BBQ dinner (vegetarian options available), and then a relaxing campfire under the stars. Due to the nature of th",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-cpr-classes-blended-2026-10-02",
+      "title": "CPR CLASSES_BLENDED",
+      "date": "2026-10-02T10:00:00",
+      "endDate": "2026-10-02T12:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV 89191",
+      "description": "CPR CLASSES_BLENDED Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 2 TIME: 10am - 12pm DESCRIPTION: Online training and in-person instructor-led skill sessions. Upon successful completion of this in-person instructor-led training, you will be issued a valid 2-year digital certificate for Adult & Pediatric, First Aid/CPR/AED training. COST: $80 /person MUST HAVE BASE ACCESS TO ATTEND ht",
+      "category": "education"
+    },
+    {
+      "id": "creech-cpr-classes-tourniquet-2026-10-02",
+      "title": "CPR CLASSES_TOURNIQUET",
+      "date": "2026-10-02T13:00:00",
+      "endDate": "2026-10-02T14:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 2 TIME: 1pm – 2:30pm DESCRIPTION: Learn the function of hemostatic dressing for controlling life-threatening bleeding COST: $55 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "community"
+    },
+    {
+      "id": "creech-family-rock-climb-red-rock-2026-10-03",
+      "title": "Family Rock Climb - Red Rock",
+      "date": "2026-10-03T07:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Date: October 3 Program Title: F amily Rock Climb - Red Rock Time: 0700-1400 Cost: $60 per person Age: 3+ Details: This trip is designed for families with children who would like to go climbing outside. We've got plenty of equipment for all ages - children and parents alike! Join us as we head to a local crag to try your hand at climbing. Our certified and trained AMGA guides will teach you everything you need to kno",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-family-rock-climb-red-rock-2026-10-03",
+      "title": "Family Rock Climb – Red Rock",
+      "date": "2026-10-03T07:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Date: October 3 Program Title: F amily Rock Climb – Red Rock Time: 0700-1400 Cost: $60 per person Age: 3+ Details: This trip is designed for families with children who would like to go climbing outside. We’ve got plenty of equipment for all ages – children and parents alike! Join us as we head to a local crag to try your hand at climbing. Our certified and trained AMGA guides will teach you everything you need to know. No previous experience needed. Equipment, transportation, and instruction provided. Difficulty: XX Pre-Register by: 10/1 Last Day to Cancel for a Refund: 9/30",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-cpr-classes-babysitters-2026-10-03",
+      "title": "CPR CLASSES_BABYSITTERS",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV 89191",
+      "description": "CPR CLASSES_BABYSITTERS Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 3 TIME: 10am - 2pm DESCRIPTION: Prepare youth ages 11 and up to safely and confidently care for children and infants. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "family"
+    },
+    {
+      "id": "creech-try-scuba-2026-10-03",
+      "title": "Try Scuba",
+      "date": "2026-10-03T11:00:00",
+      "endDate": "2026-10-03T15:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "All equipment provided. Dives are scheduled in ONE-HOUR time slots.",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-haunted-neon-nights-2026-10-16",
+      "title": "Haunted Neon Nights",
+      "date": "2026-10-16T16:00:00",
+      "endDate": "2026-10-16T21:00:00",
+      "location": "Base Theatre Parking Lot",
+      "address": "4330 Stealth Ave, Las Vegas, NV 89191",
+      "description": "Event Name: Haunted Neon Nights Date: October 16, 2026 Time: 4:00-9:00 PM Location: Base Theatre Parking Lot Admission: FREE Event Description: Get ready for a Halloween night like no other! Haunted Neon Nights brings together Halloween, neon, music, and Fast & Furious-inspired car culture for a one-of-a-kind event at Nellis. We're partnering with Hot Import Nights to bring custom and import car elements into our Tru",
+      "category": "holiday"
+    },
+    {
+      "id": "creech-lake-mead-e-biking-river-mountains-loop-trail-2026-10-17",
+      "title": "Lake Mead E Biking – River Mountains Loop Trail",
+      "date": "2026-10-17T08:00:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Date: October 17 Program Title: Lake Mead E Biking – River Mountains Loop Trail Time: 0800-1400 Cost: $60 per person Age: 14+ Details: Embark on an electric bike adventure along a section of the scenic River Mountains Loop Trail! This awesome 26-mile trail offers panoramic views of Lake Mead, the surrounding mountains, and the Las Vegas Valley. Enjoy a comfortable and exhilarating ride, exploring diverse desert landscapes and experiencing the beauty of Southern Nevada like never before. Price includes transportation, equipment, and guide. Difficulty: XX Pre-Register by: 10/15 Last Day to Cance",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-shrink-or-treat-2026-10-21",
+      "title": "Shrink or Treat!",
+      "date": "2026-10-21T16:00:00",
+      "endDate": "2026-10-21T19:00:00",
+      "location": "Arts & Crafts",
+      "address": "5850 Devlin Drive, Bldg. 610 Nellis AFB, NV 89191",
+      "description": "SHRINK OR TREAT! Halloween Shrink Art Keychain Class Create your own BOO-tiful shrink-plastic charms! Design your own spooky shrink-plastic charms, watch them magically shrink, then turn them into one-of-a-kind Halloween keychains! Wednesday, October 21, 2026 4pm - 7pm $20/ person RSVP by October 14, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Drive Nellis Air Force Ba",
+      "category": "holiday"
+    },
+    {
       "id": "creech-afcea-expo",
       "title": "AFCEA Tech, Cyber & Tactical Expo at Creech",
       "date": "2026-11-04T08:00:00",
@@ -245,6 +395,16 @@
       "address": "Creech AFB, NV",
       "description": "14th Annual Tech, Cyber & Tactical Expo (base access / industry registration).",
       "category": "community"
+    },
+    {
+      "id": "creech-cpr-classes-babysitter-2026-11-06",
+      "title": "CPR CLASSES_BABYSITTER",
+      "date": "2026-11-06T10:00:00",
+      "endDate": "2026-11-06T14:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Fri, Nov 6 TIME: 10:00am - 2:00pm DESCRIPTION: Prepare youth ages 11 and up to safely and confidently care for children and infants. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "family"
     }
   ],
   "newcomers": {
@@ -310,5 +470,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:04:41Z"
+  "dataUpdatedAt": "2026-09-14T06:41:37Z"
 }

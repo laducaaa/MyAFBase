@@ -292,46 +292,6 @@
   ],
   "events": [
     {
-      "id": "fairchild-bowl-turning-class-2026-09-08",
-      "title": "Bowl Turning Class",
-      "date": "2026-09-08T16:00:00",
-      "endDate": "2026-09-08T19:30:00",
-      "location": "Fairchild AFB",
-      "address": "Spokane, WA",
-      "description": "Bowl Turning Class There’s something special about creating a piece you’ll use for years to come. In this hands-on, multi-day class, you’ll learn the fundamentals of woodturning as you transform",
-      "category": "recreation"
-    },
-    {
-      "id": "fairchild-horseback-dinner-2026-09-11",
-      "title": "OAP Trips – Horseback Dinner Ride",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Outdoor Adventure Program / Riverside State Park area",
-      "address": "Fairchild AFB, WA",
-      "description": "Horseback dinner ride OAP trip; fairchildfun.com.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-zipline-2026-09-12",
-      "title": "OAP Trips – Ziplining at Timberline Adventures",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Timberline Adventures",
-      "address": "Idaho (OAP trip from Fairchild)",
-      "description": "Ziplining OAP trip; fairchildfun.com.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-saturday-cinema-2026-09-12",
-      "title": "Saturday Cinema – The Little Mermaid",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Base Theater",
-      "address": "610 W Castle St, Fairchild AFB, WA",
-      "description": "Saturday Cinema screening; fairchildfun.com.",
-      "category": "community"
-    },
-    {
       "id": "fairchild-family-cooking-2026-09-15",
       "title": "September Family Cooking Class",
       "date": "2026-09-15",
@@ -350,6 +310,16 @@
       "address": "10 Ent St, Fairchild AFB, WA 99011",
       "description": "Undersea-themed Mother-Son Dance; fairchildfun.com event page.",
       "category": "community"
+    },
+    {
+      "id": "fairchild-release-the-kraken-20-000-leagues-under-the-sea-mother",
+      "title": "Release the Kraken! 20,000 leagues under the sea: Mother Son Dance",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T20:00:00",
+      "location": "Red Morgan Community Center",
+      "address": "10 Ent St, Fairchild AFB, 99011",
+      "description": "Release the Kraken! 20,000 Leagues Under the Sea: Mother-Son Dance Dive into an unforgettable evening of music, dancing, and underwater adventure at Fairchild AFB! The Kraken has been released, and the dance floor is waiting! Grab your favorite dance partner and journey beneath the waves for Release the Kraken! 20,000 Leagues Under the Sea: Mother-Son Dance at the Red Morgan Community Center. Mothers and sons are inv",
+      "category": "family"
     },
     {
       "id": "fairchild-oktoberfest-2026-09-26",
@@ -372,6 +342,16 @@
       "category": "community"
     },
     {
+      "id": "fairchild-rock-out-in-the-park-2026-free-event-at-fairchild-afb",
+      "title": "Rock Out in the Park 2026 | Free Event at Fairchild AFB",
+      "date": "2026-09-26T11:30:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Miller Park",
+      "address": "Fairchild AFB, WA 99011",
+      "description": "🎸 Rock Out in the Park! Saturday, September 26, 2026 | 11:30 AM-3:00 PM 📍 Miller Park | Fairchild AFB 🎟️ FREE EVENT Get ready to rock! Join us at Miller Park on Saturday, September 26, for an afternoon of live music, free German food, family activities, and good times as we celebrate alongside Fairchild AFB Oktoberfest. Bring the whole family for an event that is 100% free to attend! 🎶 Live Music Lineup Turn up the v",
+      "category": "holiday"
+    },
+    {
       "id": "fairchild-autumn-equinox-5k-2026-09-29",
       "title": "Autumn Equinox 5K",
       "date": "2026-09-29",
@@ -380,6 +360,16 @@
       "address": "Fairchild AFB, WA",
       "description": "Free Autumn Equinox 5K / 1.5-mile walk; fairchildfun.com September calendar.",
       "category": "community"
+    },
+    {
+      "id": "fairchild-oap-trips-horseback-dinner-ride-2026-10-17",
+      "title": "OAP Trips - Horseback Dinner Ride",
+      "date": "2026-10-17T17:00:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "Fairchild AFB",
+      "address": "Spokane, WA",
+      "description": "Saddle up for an evening ride through Riverside State Park's scenic 14,000 acres. Cruise tranquil trails in the cool evening air, then head back to the arena for dinner. It's a laid-back adventure that kicks your weekend off right-close to home, but far from ordinary. Trip Dates: * June 26 * July 31 * August 7 * August 21 * September 11 Meet Time: 5 PM Location: PNW Guided Trail Rides, WA Participants will drive pers",
+      "category": "outdoor"
     }
   ],
   "newcomers": {
@@ -451,5 +441,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:41:25Z"
+  "dataUpdatedAt": "2026-09-14T06:41:37Z"
 }

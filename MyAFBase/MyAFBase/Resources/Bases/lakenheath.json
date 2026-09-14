@@ -7,7 +7,7 @@
   "wing": "48 FW",
   "latitude": 52.4093,
   "longitude": 0.561,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "lakenheath-notif-real-id",
@@ -195,74 +195,44 @@
   ],
   "events": [
     {
-      "id": "lakenheath-arundel-castle-2026-09-07",
-      "title": "Arundel Castle",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "RAF Lakenheath",
+      "id": "lakenheath-crochet-projects-beanie-scarf-part-2-2026-09-16",
+      "title": "Crochet Projects: Beanie & Scarf (part 2)",
+      "date": "2026-09-16T18:00:00",
+      "endDate": "2026-09-16T20:00:00",
+      "location": "Arts & Crafts",
       "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
+      "description": "Wednesday • September 16 6pm - 8pm Ages 12+ | $30",
+      "category": "recreation"
     },
     {
-      "id": "lakenheath-harry-potter-studio-tour-2026-09-07",
-      "title": "Harry Potter Studio Tour",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
+      "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-09-17",
+      "title": "Liberty Club Lunch Buffet: Southern",
+      "date": "2026-09-17T11:00:00",
+      "endDate": "2026-09-17T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Head on over to the Liberty Club Grill for a delicious American classic, Southern food . 11am – 1:30pm Adults $15.95 · Children (5-12) $8.95 · 4 & under eat free!",
+      "category": "family"
     },
     {
-      "id": "lakenheath-snowdonia-extreme-day-2026-09-12",
-      "title": "Snowdonia Extreme Day",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
+      "id": "lakenheath-clock-making-2026-09-17",
+      "title": "Clock Making",
+      "date": "2026-09-17T17:30:00",
+      "endDate": "2026-09-17T19:30:00",
       "location": "RAF Lakenheath",
       "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
+      "description": "Thursday • September 17 | 5:30pm - 7:30pm | $40 Ages 10+ | Sign up by September 15",
+      "category": "recreation"
     },
     {
-      "id": "lakenheath-jane-austen-festival-city-of-bath-2026-09-12",
-      "title": "Jane Austen Festival: City of Bath",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
+      "id": "lakenheath-family-bingo-2026-09-18",
+      "title": "Family Bingo",
+      "date": "2026-09-18T18:00:00",
+      "endDate": "2026-09-18T20:00:00",
       "location": "RAF Lakenheath",
       "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-throwdown-showdown-corn-hole-tournament-2026-09-12",
-      "title": "Throwdown Showdown! Corn Hole Tournament at the Liberty Club",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "community"
-    },
-    {
-      "id": "lakenheath-dover-castle-2026-09-13",
-      "title": "Dover Castle",
-      "date": "2026-09-13",
-      "endDate": "2026-09-13",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-air-force-birthday-golf-par-tee-scramble-2026-09-13",
-      "title": "Air Force Birthday: Golf Par-Tee Scramble at Breckland Pines Golf Course",
-      "date": "2026-09-13",
-      "endDate": "2026-09-13",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "fitness"
+      "description": "Friday • September 18 6pm start | $10 per book 📍 Ward CAC on RAF Feltwell All Ages!",
+      "category": "family"
     },
     {
       "id": "lakenheath-dublin-extreme-day-trip-2026-09-19",
@@ -305,6 +275,36 @@
       "category": "recreation"
     },
     {
+      "id": "lakenheath-hike-of-the-month-arundel-river-2026-09-19",
+      "title": "Hike of the Month: Arundel River",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "RAF Lakenheath",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Saturday • September 19 Exertion Level: MODERATE Ages 10+ | All $38 Transportation and a guided hike",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-stonehenge-city-of-salisbury-2026-09-19",
+      "title": "Stonehenge & City of Salisbury",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Saturdays • July 25 & September 19 Adult £85 | Child (5-17) £69 | Infant £20 Inclusive: Transportation, Stonehenge entry & free time to explore the City of Salisbury Experience Britain’s most extraordinary monument and UNESCO World Heritage Site. Explore the visitor center, which offers both permanent and temporary exhibitions, alongside an outdoor display showcasing a group of Neolithic houses. Following this, we will proceed to the city of Salisbury. *English Heritage Members. Ask ITT about discounted prices *Cathedral entry not included Book now!",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-karaoke-night-2026-09-19",
+      "title": "Karaoke Night",
+      "date": "2026-09-19T21:00:00",
+      "endDate": "2026-09-20T02:00:00",
+      "location": "Liberty Club Bar",
+      "address": "",
+      "description": "Who needs a stage when you have a karaoke machine? Free entry | Huge selection of songs: Online karaoke | KaraFun",
+      "category": "entertainment"
+    },
+    {
       "id": "lakenheath-warwick-castle-2026-09-20",
       "title": "Warwick Castle",
       "date": "2026-09-20",
@@ -313,6 +313,106 @@
       "address": "Lakenheath, United Kingdom",
       "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
       "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-disney-paris-2026-09-25",
+      "title": "Disney Paris",
+      "date": "2026-09-25T08:00:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Adult £459 Child (2-11) £399 | Infant £120 Includes *Luxury Coach Travel *Return Ferry Crossing *Two Nights Bed and Breakfast *1 Day/2 Park Hopper Ticket for Disneyland Paris *Visit to the Sacre Coeur & Place Du Tertre Book now!",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-fall-fest-2026-09-26",
+      "title": "Fall Fest",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Eagles' Landing - Community Event Center",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Join RAF Lakenheath Community & Event Centers for a celebration of crisp air, local art, and cozy eats at Eagles' Landing - CEC. Support Tri-base creators by shopping handmade goods. Saturday • September 26 10am - 3pm | FREE ENTRY Eagles' Landing - CEC And, a HUGE thank you to our sponsors, Keesler Federal Credit Union & TailWings !",
+      "category": "community"
+    },
+    {
+      "id": "lakenheath-skydiving-with-odr-2026-09-27",
+      "title": "Skydiving with ODR",
+      "date": "2026-09-27T00:00:00",
+      "endDate": "2026-09-27T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Sunday • September 27 All $345 | Ages 18+ Transportation and skydiving experience *Waivers required for active duty",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-stratford-upon-avon-kenilworth-castle-2026-09-27",
+      "title": "Stratford-Upon-Avon & Kenilworth Castle",
+      "date": "2026-09-27T08:00:00",
+      "endDate": "2026-09-27T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Adult £50 | Child (5-17) £41 | Infant £20 Includes: Transportation, entry into Kenilworth Castle and free time to explore Stratford-Upon-Avon. Discover the enchanting allure of Kenilworth Castle, with its striking red, sandstone towers, keep, and walls that shimmer beautifully in the soft light of dawn and dusk. Uncover its intriguing ties to Henry V while enjoying a peaceful walk through the charming Tudor gardens. Then, make your way to the literary hub of England and dive into the delightful market town that is the birthplace of the iconic William Shakespeare. *English Heritage Members: Ask",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-10-01",
+      "title": "Liberty Club Lunch Buffet: Southern",
+      "date": "2026-10-01T11:00:00",
+      "endDate": "2026-10-01T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Head on over to the Liberty Club Grill for a delicious American classic, Southern food . 11am – 1:30pm Adults $15.95 · Children (5-12) $8.95 · 4 & under eat free!",
+      "category": "family"
+    },
+    {
+      "id": "lakenheath-mid-week-bingo-2026-10-07",
+      "title": "Mid-Week Bingo",
+      "date": "2026-10-07T08:00:00",
+      "endDate": "2026-10-07T17:00:00",
+      "location": "Eagles' Landing - Community Event Center",
+      "address": "Lakenheath, United Kingdom",
+      "description": "📍 Eagles Landing Ballroom Doors open 5pm | Games begin 6pm $10 per book | 6 rounds only CASH PRIZES!",
+      "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-big-bucks-bingo-2026-10-16",
+      "title": "Big Bucks Bingo",
+      "date": "2026-10-16T17:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "Eagles' Landing - Community Event Center",
+      "address": "Lakenheath, United Kingdom",
+      "description": "📍 Eagles Landing Ballroom Doors open 5pm | Games begin 6pm $30 per two books | $10 per additional book $1,000 in CASH PRIZES!",
+      "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-little-pumpkins-family-halloween-party-2026-10-28",
+      "title": "Little Pumpkins Family Halloween Party",
+      "date": "2026-10-28T17:00:00",
+      "endDate": "2026-10-28T19:00:00",
+      "location": "Liberty Club Grill",
+      "address": "Building 648, RAF Lakenheath, IP279FB",
+      "description": "Little Pumpkins Family Halloween Party at The Liberty Club Wednesday • October 28 | 5pm - 7pm Scary buffet and entertainment from James D Partytime Walk-ins only! Adult $15 | Child (5-12) $8 | 4 & under eat free",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-night-of-the-spirits-halloween-party-2026-10-30",
+      "title": "Night of the Spirits Halloween Party",
+      "date": "2026-10-30T21:00:00",
+      "endDate": "2026-10-31T01:00:00",
+      "location": "Liberty Club Bar",
+      "address": "Lakenheath, United Kingdom",
+      "description": "Night of the Spirits Adult Halloween Party Costume contest and a night of spooky fun! The Liberty Club Friday • October 30 9pm - 1am | Free entry Wing Night from 8:30pm",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-after-dark-mega-bingo-2026-11-13",
+      "title": "After Dark Mega Bingo",
+      "date": "2026-11-13T17:00:00",
+      "endDate": "2026-11-13T21:00:00",
+      "location": "Liberty Club Grill",
+      "address": "Building 648, RAF Lakenheath, IP279FB",
+      "description": "$2K in prizes Doors open at 6pm Games start at 7pm Drink specials and food menu available",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

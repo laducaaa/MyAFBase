@@ -7,7 +7,7 @@
   "wing": "375 AMW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -403,56 +403,6 @@
   ],
   "events": [
     {
-      "id": "scott-labor-day-golf-scramble-2026-09-07",
-      "title": "Labor Day Golf Scramble",
-      "date": "2026-09-07T09:00:00",
-      "endDate": "2026-09-07T09:00:00",
-      "location": "Cardinal Creek Golf Course",
-      "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
-      "description": "<p>Click Here to Register Online! This Labor Day, ditch the chores and hit the course! Tee off with us on Monday, Sept. 7 at our Labor Day Golf Scramble! Enjoy a fun-filled day on the greens with a 4-person scramble featuring Gross & Peoria handicaps—so everyone has a shot to win. Winning teams will take […]</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "scott-diy-night-2026-09-10",
-      "title": "DIY Night",
-      "date": "2026-09-10T18:00:00",
-      "endDate": "2026-09-10T18:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Click Here to Register Online! Unleash your creativity at our upcoming DIY Night on Sept. 10. Whether you’re a beginner or experienced artist, this DIY night will guide you through creating your own Textured Painting on Wood with VineGogh Wine Bar & Art Studio. Grab your friends or partner, and enjoy a night of crafting […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "scott-summer-concert-sept-2026-09-11",
-      "title": "Summer Concert Series – September",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Cardinal Creek Golf Course",
-      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
-      "description": "Free concert (Broseph Tucker Band); 375 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "scott-join-keystone-for-a-meaningful-service-project-2026-09-11",
-      "title": "Join Keystone for a Meaningful Service Project",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Youth Center",
-      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
-      "description": "<p>Help us show our appreciation to the Airmen who keep Scott AFB safe every day with our Cookies for the Gate Guards initiative on Friday, Sept. 11, 6-9 p.m.! Keystone members will bake and package cookies before delivering them to our Security Forces gate guards as part of our Heroes Next Door initiative. This project […]</p>\\n",
-      "category": "entertainment"
-    },
-    {
-      "id": "scott-bluey-s-big-play-tickets-2026-09-12",
-      "title": "Bluey’s Big Play Tickets",
-      "date": "2026-09-12T11:00:00",
-      "endDate": "2026-09-12T11:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Bring the whole family for Bluey\\'s Big Play, the hit live stage show featuring Bluey, Bingo, Bandit, and Chilli in a heartwarming adventure filled with laughter, music, and fun for all ages! Location: Fabulous Fox Theatre Dates: Saturday, September 12 – 11:00 a.m., 2:00 p.m. & 5:00 p.m. Sunday, September 13 – 1:00 p.m. Tickets: […]</p>\\n",
-      "category": "family"
-    },
-    {
       "id": "scott-bridgerton-series-teddy-bear-me-regency-tea-2026-09-14",
       "title": "Bridgerton Series: Teddy Bear & Me Regency Tea",
       "date": "2026-09-14T11:00:00",
@@ -533,6 +483,26 @@
       "category": "outdoor"
     },
     {
+      "id": "scott-pga-hope-clinics-2026-09-22",
+      "title": "PGA Hope Clinics",
+      "date": "2026-09-22T00:00:00",
+      "endDate": "2026-09-24T23:59:59",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
+      "description": "Click Here to Register Now! Elevate your golf skills today! Start your golf journey at Cardinal Creek Golf Course as they host the upcoming PGA Hope Clinics program. PGA Hope provides a unique and memorable experience for our military Veterans and Active Duty. No experience is necessary to take part in these 6 Week Programs led by PGA of America Professionals that are certified in adaptive instruction. September 22 – October 27 | Tuesdays | Men & Women September 24 – October 29 | Thursdays | Men & Women Cardinal Creek Golf Course Provided at no-cost plus use of adaptive golf equipment Registra",
+      "category": "education"
+    },
+    {
+      "id": "scott-mobile-dmv-2026-09-24",
+      "title": "Mobile DMV",
+      "date": "2026-09-24T10:00:00",
+      "endDate": "2026-09-24T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "This event has been cancelled. Sorry for any inconvenience this may cause. The Illinois Department of Motor Vehicles (DMV) Mobile Unit will be at SAFB to provide basic vehicle services for on-base customers. Anyone in need of driver license renewals, ID cards, vehicle registration, Real ID, and road tests can use this convenient service. Location: Zeppelins at the Community Center Date: September 24 Time: 10:00 am – 2:00 pm Payment Options: Major credit/debit cards, checks and money orders Cash is not accepted For specific questions, contact the Belleville DMV at 618-236-8750 .",
+      "category": "community"
+    },
+    {
       "id": "scott-brunswick-ball-demo-day-2026-09-26",
       "title": "Brunswick Ball Demo Day",
       "date": "2026-09-26T14:00:00",
@@ -541,6 +511,16 @@
       "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
       "description": "<p>Ready to find your next perfect ball? Come test-drive the newest releases from Brunswick and elevate your game! Join us Saturday, September 26 from 2:00-4:00p at Stars & Strikes Bowling Center. Just $20 per person gets you the chance to demo all the New Brunswick bowling balls available. Call 618-744-1277 to sign up!</p>\\n",
       "category": "recreation"
+    },
+    {
+      "id": "scott-usmnt-vs-chile-2026-09-29",
+      "title": "USMNT vs. Chile",
+      "date": "2026-09-29T19:00:00",
+      "endDate": "2026-09-29T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "The USA Men’s National Soccer Team is coming to St. Louis! Experience the excitement as the USMNT takes on Chile at Energizer Park on Tuesday, September 29 with kickoff at 7:00 p.m. Don’t miss your chance to cheer on Team USA in this thrilling international matchup! Location: Energizer Park, St. Louis Dates: Sept. 29, 7:00p Tickets: $20 each | Section 201, 210 & 211 Tickets are limited—call Information, Tickets & Travel at 618-256-5919 to reserve yours today!",
+      "category": "outdoor"
     },
     {
       "id": "scott-art-show-opening-2026-10-01",
@@ -573,6 +553,26 @@
       "category": "outdoor"
     },
     {
+      "id": "scott-teen-volunteer-event-you-ve-been-boo-d-2026-10-02",
+      "title": "TEEN VOLUNTEER EVENT: YOU’VE BEEN BOO’D",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Youth Center",
+      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
+      "description": "You’ve Been Boo’d! Teens ages 13–18 are invited to help create spooky treats for our School Age Care program members on Friday, October 2, 6-9 p.m. This event is free, and volunteer hours are guaranteed. Register through CYP-BMS by Wednesday, September 30. For more information, contact Youth Programs at 618-256-5139 .",
+      "category": "holiday"
+    },
+    {
+      "id": "scott-dress-a-pin-decorating-contest-2026-10-08",
+      "title": "Dress-A-Pin Decorating Contest",
+      "date": "2026-10-08T00:00:00",
+      "endDate": "2026-10-22T23:59:59",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
+      "description": "Can you create the spookiest, creepiest or most creative bowling pin? Join Stars & Strikes for a fun Halloween Dress-A-Pin Decorating Contest and turn an ordinary bowling pin into a spooky masterpiece! Pick up your pin, decorate it with your best Halloween-themed design, and enter for a chance to win great prizes! Contest Details: Pick Up & Enter: Oct. 8-22 $5/pin – includes one bowling pin to decorate 3 Age Groups: 10 & under | 11-17 | 18 & up Judging begins Oct. 22 Winner Announced Oct. 24 For full details, call the Stars & Strikes Bowling Center (618)-744-1277 .",
+      "category": "holiday"
+    },
+    {
       "id": "scott-summer-concert-oct-2026-10-09",
       "title": "Summer Concert Series – October",
       "date": "2026-10-09",
@@ -581,6 +581,56 @@
       "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
       "description": "Concert series continues Oct 9 (Up All Night); linked from Sept concert page / homepage.",
       "category": "community"
+    },
+    {
+      "id": "scott-2026-club-championship-2026-10-09",
+      "title": "2026 Club Championship",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-11T23:59:59",
+      "location": "Cardinal Creek Golf Course",
+      "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
+      "description": "Click Here to Register Online! The 2026 Cardinal Creek Club Championship is calling all golfers ready to test their game and this year, you can join the competition at a special lower rate! Play 36 holes of flighted individual stroke play and enjoy a weekend full of competition, camaraderie and extras. Friday kicks off with a Player Party from 5:00-7:00p with appetizers & drinks for you + a guest, followed by FREE live music on the patio until 8:30p. Then it’s game time Saturday and Sunday, with lunch included both days and a Pitchfix Set for every player! Shotgun Start: 8:00 am @ Cardinal Cre",
+      "category": "entertainment"
+    },
+    {
+      "id": "scott-crafty-with-kari-2026-10-15",
+      "title": "Crafty with Kari",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T18:00:00",
+      "location": "Scott Community Center",
+      "address": "47 Ward Dr, Scott AFB, IL, 62225",
+      "description": "Click Here to Register Online! Attention Pinterest enthusiasts & DIY’ers! It’s time to get crafty at the Scott Community Center’s upcoming event – Crafty with Kari on October 15! Create your own Christmas Pearl Art! Location: Zeppelins at the Community Center Date/Time: Oct. 15 | 6:00 pm Cost: $25 per person – includes supplies, instruction, and a non-alcoholic beverage Open to ages 14+ | Limited to 20 participants | Base access required Register by noon Oct. 14 Call the Scott Community Center at (618) 744-1333 to register or click here to register online!",
+      "category": "holiday"
+    },
+    {
+      "id": "scott-teen-night-out-2026-10-16",
+      "title": "TEEN NIGHT OUT",
+      "date": "2026-10-16T17:30:00",
+      "endDate": "2026-10-16T22:00:00",
+      "location": "Youth Center",
+      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
+      "description": "Teens ages 13-18, get ready for a frighteningly fun Teen Night Out at Mid America Adventure on Friday, October 16, 5:30-10 p.m. Cost is $40 for members and $50 for non-members. Admission and transportation are included. Register through CYP-BMS by Wednesday, October 7. Space may be limited, so register early! For more information, contact Youth Programs at 618-256-5139 .",
+      "category": "family"
+    },
+    {
+      "id": "scott-trivia-night-2026-10-22",
+      "title": "Trivia Night",
+      "date": "2026-10-22T17:00:00",
+      "endDate": "2026-10-22T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Ready to test your brainpower? Join us for an evening of fun and friendly competition at Trivia Night on Oct. 22 at Zeppelins in the Community Center! We’ve got several rounds lined up for your team to compete in – top team wins a prize! We’ll have assorted salads, wraps w/chips available until 7:00pm for just $12/person. Any purchase comes with a nonalcoholic beverage. Location: Zeppelins at the Community Center Date: Oct. 22 Time: Doors open at 4:00 pm | Trivia starts at 5:00 pm Open to ages 18+ | Free to play | Base access required Teams of 2, 3, or 4 max — register by noon on Oct. 22 Call ",
+      "category": "entertainment"
+    },
+    {
+      "id": "scott-scary-bowl-2026-10-24",
+      "title": "Scary Bowl",
+      "date": "2026-10-24T13:00:00",
+      "endDate": "2026-10-24T15:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
+      "description": "Celebrate Halloween with a night of bowling, food & festive fun at Stars & Strikes annual Scary Bowl, Oct. 24! Get into the Halloween spirit and enter our Costume Contest (optional)! Don’t miss this perfect mix of strikes, slices, and spooky surprises—reserve your lane today! Event Details: 2 Hours Unlimited Bowling w/shoe rental Pizza Buffet & Unlimited Fountain Drinks Costume Contest – prize for best costume Oct. 24 | 1:00 – 3:00 pm Stars & Strikes Bowling Center $50 per lane (up to 6 players) Register in person, call Stars & Strikes, (618) 744-1277 or online soon!",
+      "category": "holiday"
     },
     {
       "id": "scott-bridgerton-masquerade-2026-11-14",

@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -348,16 +348,6 @@
   ],
   "events": [
     {
-      "id": "buckley-beast-of-buckley-2026-09-11",
-      "title": "Beast of Buckley",
-      "date": "2026-09-11T07:30:00",
-      "endDate": "2026-09-11T14:00:00",
-      "location": "Buckley SFB",
-      "address": "Aurora, CO",
-      "description": "Date: 11 September 2026 Athlete Check In: 0730 hrs. Location: Fitness Center North Parking Lot Entry Fee: $20 Registration: Fitness Center Registration Desk Are you ready to put your power,",
-      "category": "fitness"
-    },
-    {
       "id": "buckley-lake-powell-houseboat-trip-2026-09-12",
       "title": "Lake Powell Houseboat Trip",
       "date": "2026-09-12T05:00:00",
@@ -368,14 +358,44 @@
       "category": "outdoor"
     },
     {
-      "id": "buckley-intro-to-tea-blending-2026-09-12",
-      "title": "Intro to Tea Blending",
-      "date": "2026-09-12T09:00:00",
-      "endDate": "2026-09-12T13:00:00",
+      "id": "buckley-career-summit-2026-09-15",
+      "title": "Career Summit",
+      "date": "2026-09-15T09:00:00",
+      "endDate": "2026-09-15T16:00:00",
       "location": "Buckley SFB",
       "address": "Aurora, CO",
-      "description": "When: Saturday, September 12 Where: Meet at Plains Conservation Center Cost: $45 Included: Instruction and tea to take home. NO TRANSPORTATION PROVIDED. Details: Have you ever wanted to try to",
-      "category": "community"
+      "description": "Where: LDC Event Center | Bldg. 1032 Details: Transitioning service members, veterans, military spouses, and military caregivers are welcome. Connecting World-Class Military Community Talent with American Employers. Transition Workshops: 0900-1230 hrs Military Spouse Workshop: 0900-1300 hrs Hiring Fair: 1330-1600 hrs Click here to register: *THE DOW AND SERVICE BRANCHES DO NOT ENDORSE ANY COMPANY, SPONSOR OR THEIR PR",
+      "category": "education"
+    },
+    {
+      "id": "buckley-college-readiness-workshop-2026-09-15",
+      "title": "College Readiness Workshop",
+      "date": "2026-09-15T16:30:00",
+      "endDate": "2026-09-15T17:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "Date: 15 September Time: 1630-1730 hrs. Location: Youth Center This workshop is designed to assist students with getting ready for college. We will be discussing the application process, financial aid, GI Bill, as well as applying for scholarships and other valuable resources. Don't miss out!",
+      "category": "education"
+    },
+    {
+      "id": "buckley-buckley-newcomers-orientation-2026-09-16",
+      "title": "Buckley Newcomers' Orientation",
+      "date": "2026-09-16T08:00:00",
+      "endDate": "2026-09-16T16:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 16 September Where: Bldg. 606 | Auditorium Details: Mandatory briefing for all newly arrived military members and civilians, complete with briefings from base leadership and local referral agencies.",
+      "category": "education"
+    },
+    {
+      "id": "buckley-veteran-support-2026-09-17",
+      "title": "Veteran Support",
+      "date": "2026-09-17T13:00:00",
+      "endDate": "2026-09-17T16:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 17 September Where: Bldg. 606 | Rm. 140 Conference Room Details: Arapahoe County Veterans Service Office (VSO) Support for active-duty service members and veterans with base access, providing information and education on applying for VA benefits. During this time, you can ask general questions or make an appointment for a more personalized session. To register for courses please call M&FRC at 720-847-6681 or e-",
+      "category": "education"
     },
     {
       "id": "buckley-bob-ross-paint-night-2026-09-18",
@@ -398,6 +418,16 @@
       "category": "outdoor"
     },
     {
+      "id": "buckley-tricare-for-retiring-service-members-and-their-families",
+      "title": "Tricare for Retiring Service Members and their Families",
+      "date": "2026-09-30T11:00:00",
+      "endDate": "2026-09-30T12:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 30 September Where: Bldg. 606 | Auditorium Details: TriWest representatives will provide information to retiring service members about TRICARE Prime and select options once they enter retirement. Important information includes enrollment deadlines, premiums, and finding care. To register for courses please call M&FRC at 720-847-6681 or e-mail: 460fss.fsh.mfrc@spaceforce.mil",
+      "category": "family"
+    },
+    {
       "id": "buckley-concealed-carry-course-2026-10-03",
       "title": "Concealed Carry Course",
       "date": "2026-10-03T07:30:00",
@@ -415,6 +445,36 @@
       "location": "Buckley SFB",
       "address": "Aurora, CO",
       "description": "When: Sunday, October 4th Where: Meet at ODR at 6:30 AM Cost: $17 *min age 14* Included: Transportation, rentals, day pass Details: Escape to the high alpine and conquer Square",
+      "category": "outdoor"
+    },
+    {
+      "id": "buckley-astronomy-night-2026-10-09",
+      "title": "Astronomy Night",
+      "date": "2026-10-09T19:00:00",
+      "endDate": "2026-10-09T21:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Saturday, October 3rd Where: Meet at ODR at 7 PM Cost: $10 Included: Presentation, telescope viewing Details: Discover the wonders of the night sky during a guided astronomy experience, brought to you by the Denver Astronomical Society. With the help of telescopes and knowledgeable hosts, you'll observe planets, stars, and deep-sky objects while learning more about the night sky above us. Whether you're a first",
+      "category": "outdoor"
+    },
+    {
+      "id": "buckley-top-rope-tuesday-2026-10-13",
+      "title": "Top Rope Tuesday",
+      "date": "2026-10-13T17:00:00",
+      "endDate": "2026-10-13T19:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Tuesday, October 13th Where: Meet at Ubergrippen Cost: $22 without rentals, $27 with rentals Included: rentals, day pass Details: Join us for an evening of indoor rock climbing! We are heading to our local indoor gym to scale some walls. No experience necessary for this outing. The facility offers state of the art auto-belays, giving you access to over 200 routes. These include both top roping and bouldering op",
+      "category": "outdoor"
+    },
+    {
+      "id": "buckley-moab-hiking-off-roading-and-canyoneering-2026-11-07",
+      "title": "Moab Hiking, Off-roading and Canyoneering",
+      "date": "2026-11-07T07:00:00",
+      "endDate": "2026-11-10T17:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: Saturday, November 7th- Tuesday, November 10th Where: Meet at ODR at 7 AM (return - 5 PM Sun.) Cost: w/ camping rentals: $340, w/o rentals: $300 *minimum age 14* Included: Transportation, camping gear, biking and canyoneering gear, food Details: Don't miss this epic 4-day, 3-night campout in Moab, Utah! This multisport weekend is filled with epic trails and long rappels. Professional guides will take us on an a",
       "category": "outdoor"
     }
   ],

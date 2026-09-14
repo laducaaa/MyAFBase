@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -206,43 +206,33 @@
   ],
   "events": [
     {
-      "id": "ramstein-humbergturm-tower-2026-09-10",
-      "title": "Humbergturm Tower",
-      "date": "2026-09-10T17:00:00",
-      "endDate": "2026-09-10T22:00:00",
-      "location": "Ramstein Outdoor Recreation",
-      "address": "Ramstein Air Base, DE",
-      "description": "Family-friendly Outdoor Recreation trip to climb Humbergturm Tower and catch the view.",
-      "category": "outdoor"
+      "id": "ramstein-story-time-craft-2026-09-14",
+      "title": "Story Time & Craft",
+      "date": "2026-09-14T00:00:00",
+      "endDate": "2026-09-14T23:59:59",
+      "location": "USO Baumholder",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for another fun Story Time & Craft event for your littlest Baumholder guests (preschool aged children & their parents). Kiddos will get to hear a fun story and then work on a corresponding craft to help develop those fine motor skill…",
+      "category": "family"
     },
     {
-      "id": "ramstein-women-s-5v5-flag-football-fall-league-2026-09-10",
-      "title": "Women's 5v5 Flag Football Fall League",
-      "date": "2026-09-10T18:30:00",
-      "endDate": "2026-09-10T20:30:00",
-      "location": "Fitness Centers",
-      "address": "Ramstein Air Base, DE",
-      "description": "Air Force Fitness & Sports fall women’s 5v5 flag football league kickoff.",
-      "category": "fitness"
+      "id": "ramstein-community-appreciation-drop-2026-09-15",
+      "title": "Community Appreciation Drop",
+      "date": "2026-09-15T00:00:00",
+      "endDate": "2026-09-15T23:59:59",
+      "location": "USO Ramstein",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Do you know a unit here at Ramstein Air Base that exemplifies dedication, excellence, and hard work? We invite you to nominate them for recognition. Selected units will receive a token of appreciation consisting of light snacks or a meal, a beverage…",
+      "category": "community"
     },
     {
-      "id": "ramstein-e-bike-the-netherlands-2026-09-12",
-      "title": "E-Bike the Netherlands",
-      "date": "2026-09-12T00:00:00",
-      "endDate": "2026-09-13T23:59:00",
-      "location": "Ramstein Outdoor Recreation",
-      "address": "Ramstein Air Base, DE",
-      "description": "Two-day e-bike adventure through the Netherlands with Outdoor Recreation.",
-      "category": "outdoor"
-    },
-    {
-      "id": "ramstein-mr-ms-usafe-bodybuilding-competition-2026-2026-09-12",
-      "title": "Mr. & Ms. USAFE Bodybuilding Competition 2026",
-      "date": "2026-09-12T10:30:00",
-      "endDate": "2026-09-12T18:00:00",
-      "location": "Southside Fitness Center",
-      "address": "Bldg. 2117, Ramstein Air Base, DE",
-      "description": "KMC premier fitness showcase with bikini, figure, wellness, men’s physique, and classic physique categories. Open to DoD ID card holders 18+.",
+      "id": "ramstein-smash-showdown-tournament-2026-09-16",
+      "title": "Smash Showdown Tournament",
+      "date": "2026-09-16T00:00:00",
+      "endDate": "2026-09-16T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for a smashing good time as our popular Super Smash Brothers Tournament returns! This event brings together players of all skill levels for friendly competition, allowing participants to battle with favorite characters and vie for the title …",
       "category": "fitness"
     },
     {
@@ -264,6 +254,16 @@
       "address": "Ramstein Air Base, Germany",
       "description": "Annual Ramstein Bazaar (ROSC / 86 FSS community bazaar); Stripes Europe community coverage + ramsteinbazaar.org.",
       "category": "community"
+    },
+    {
+      "id": "ramstein-boards-swords-2026-09-18",
+      "title": "Boards & Swords",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-18T23:59:59",
+      "location": "USO Ramstein",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us at USO Ramstein for our weekly “Boards and Swords” gaming event, where Magic: The Gathering takes center stage. Whether you’re a seasoned player or new to the game, come battle it out and enjoy some friendly competition",
+      "category": "entertainment"
     },
     {
       "id": "ramstein-back-in-the-groove-late-night-bash-2026-09-18",
@@ -296,6 +296,16 @@
       "category": "outdoor"
     },
     {
+      "id": "ramstein-deployed-partners-breakfast-2026-09-29",
+      "title": "Deployed Partners Breakfast",
+      "date": "2026-09-29T00:00:00",
+      "endDate": "2026-09-29T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for a morning of connection, encouragement, and community with others who understand the unique challenges of deployment. Whether you’re navigating your first deployment or have been through many, this breakfast provides a welcoming space to…",
+      "category": "family"
+    },
+    {
       "id": "ramstein-tee-off-for-a-cause-pink-out-tournament-2026-10-02",
       "title": "Tee Off for a Cause — Pink Out Tournament",
       "date": "2026-10-02T09:00:00",
@@ -326,6 +336,26 @@
       "category": "fitness"
     },
     {
+      "id": "ramstein-fall-family-bingo-2026-10-17",
+      "title": "Fall Family BINGO",
+      "date": "2026-10-17T00:00:00",
+      "endDate": "2026-10-17T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for our Fall Cozy Vibes Family Bingo event! Gather with family and friends for an evening of friendly bingo competition, delicious fall-inspired snacks, and plenty of seasonal fun. With amazing prizes up for grabs, you won’t want to miss you…",
+      "category": "family"
+    },
+    {
+      "id": "ramstein-october-craft-connect-pumpkin-door-sign-painting-2026-1",
+      "title": "October Craft & Connect - Pumpkin Door Sign Painting",
+      "date": "2026-10-20T00:00:00",
+      "endDate": "2026-10-20T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for October’s Craft & Connect as we create our own festive pumpkin door signs! Enjoy delicious coffee and pastries while connecting with fellow spouses and embracing the fall season through a fun and creative activity. It’s the perfect w…",
+      "category": "holiday"
+    },
+    {
       "id": "ramstein-uso-family-fright-night-2026-10-30",
       "title": "USO Family Fright Night (supports FSS Fright Night)",
       "date": "2026-10-30",
@@ -334,6 +364,26 @@
       "address": "Ramstein AB AMC Passenger Terminal area, Germany",
       "description": "USO Family Fright Night supporting FSS Fright Night; kaiserslautern.uso.org events.",
       "category": "community"
+    },
+    {
+      "id": "ramstein-family-fright-night-2026-10-30",
+      "title": "Family Fright Night",
+      "date": "2026-10-30T00:00:00",
+      "endDate": "2026-10-30T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "The USO is proud to support FSS Fright Night by hosting a spooky, hands-on game for our young trick-or-treaters, giving them a chance to win candy and festive Halloween prizes while adding a little extra fun to the night.",
+      "category": "holiday"
+    },
+    {
+      "id": "ramstein-halloween-bash-teddy-bear-picnic-2026-10-31",
+      "title": "Halloween Bash Teddy Bear Picnic",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for our Halloween Bash Teddy Bear Picnic! Children are invited to dress up in their favorite Halloween costumes and bring along their best fluffy friend for a morning filled with exciting games, tasty snacks, and festive stories. Come ready …",
+      "category": "holiday"
     },
     {
       "id": "ramstein-uso-halloween-bash-teddy-bear-picnic-2026-10-31",
@@ -364,6 +414,16 @@
       "address": "Ramstein Air Base, DE",
       "description": "Winter Homemade Craft Market dates 5–6 December at the Community Center.",
       "category": "community"
+    },
+    {
+      "id": "ramstein-bingo-all-the-way-2026-12-05",
+      "title": "BINGO All the Way",
+      "date": "2026-12-05T00:00:00",
+      "endDate": "2026-12-05T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "Join us for a festive morning of family fun, Christmas snacks, exciting bingo games, and amazing prizes! Bring the whole family along and enjoy some friendly competition, holiday cheer, and plenty of festive fun.",
+      "category": "holiday"
     }
   ],
   "newcomers": {

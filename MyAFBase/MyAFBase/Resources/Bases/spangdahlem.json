@@ -7,7 +7,7 @@
   "wing": "52 FW",
   "latitude": 49.9727,
   "longitude": 6.6925,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "spangdahlem-notif-real-id",
@@ -195,26 +195,6 @@
   ],
   "events": [
     {
-      "id": "spangdahlem-via-ferrata-neuerburg-2026-09-12",
-      "title": "Via Ferrata Neuerburg",
-      "date": "2026-09-12T00:00:00",
-      "endDate": "2026-09-12T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "<p>Sept 12, 2026: Via Ferrata Neuerburg! (Germany) Price:$45.00 (Includes: Transportation, Rental Gear, Guide) The circular Neuerburg Via Ferrata starts at the market square and connects hiking paths with six exciting climbing sections on local slate cliffs . The absolute highlight is ascending directly alongside the massive Neuerburg town coat of arms, which rewards you […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "spangdahlem-bad-duerkheimer-wurstmarkt-2026-09-12",
-      "title": "Bad Duerkheimer Wurstmarkt",
-      "date": "2026-09-12T11:00:00",
-      "endDate": "2026-09-12T21:30:00",
-      "location": "",
-      "address": "",
-      "description": "<p>🍷🎡 The World’s Biggest Wine Festival Awaits! Get ready for a full day of wine, fun, and unforgettable vibes at the legendary Wurstmarkt in Bad Duerkheim. This isn’t just a festival—it’s a full-blown celebration where tradition meets thrills, the Riesling flows freely, and the carnival rides light up the town. 🌟 What to Expect Epic […]</p>\\n",
-      "category": "community"
-    },
-    {
       "id": "spangdahlem-fall-festival-2026-09-18",
       "title": "Fall Festival",
       "date": "2026-09-18T17:00:00",
@@ -223,6 +203,16 @@
       "address": "",
       "description": "<p>Sweater Weather, Shopping, and S’more-worthy Memories Await!</p>\\n",
       "category": "community"
+    },
+    {
+      "id": "spangdahlem-canoe-waterfall-tour-2026-09-19",
+      "title": "Canoe Waterfall Tour",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Sept 05, 2026: Canoe Waterfall Tour (Germany) Price: $59 (Includes: Transportation, Rental Gear, Guide) Your canoe trip begins on the scenic Saar River from the historic banks of Saarburg. You will immediately paddle into the mouth of the Leukbach to marvel at the spectacular 20-meter waterfall cascading right in the center of the old town. Finally, you will drift back onto the main river channel to enjoy a peaceful paddle past rolling vineyards and green hills. Stop by or call ODR to sign up!",
+      "category": "outdoor"
     },
     {
       "id": "spangdahlem-spooky-trivia-the-brickhouse-2026-09-24",
@@ -255,6 +245,16 @@
       "category": "outdoor"
     },
     {
+      "id": "spangdahlem-roman-explorer-2026-09-26",
+      "title": "Roman Explorer",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "🏛️ Ave, Adventurer! Step Into Ancient Rome Escape the everyday and journey back to the age of emperors and legions! This day trip is part history lesson, part pure relaxation, and all-around epic. 🌅 Morning: Conquer the Roman Frontier Start your adventure at the Roman Museum Limites , where history comes alive. Explore archaeological treasures, reconstructed structures, and immersive exhibits that reveal how Roman soldiers lived, worked, and defended the empire’s borders along the Rhine. Then, channel your inner legionary in an archery class —test your aim and see if you have what it takes to ",
+      "category": "education"
+    },
+    {
       "id": "spangdahlem-manderscheid-to-himmerod-abbey-hike-2026-10-03",
       "title": "Manderscheid to Himmerod Abbey Hike",
       "date": "2026-10-03T00:00:00",
@@ -265,6 +265,16 @@
       "category": "outdoor"
     },
     {
+      "id": "spangdahlem-prague-2026-10-03",
+      "title": "Prague",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-06T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "(Tourist Passport Required) 🏰 🍺 ✨ The Golden City Awaits! Get ready to experience Prague , the “City of a Hundred Spires,” where historic landmarks meet vibrant nightlife. From medieval streets and hilltop castles to riverside views and legendary breweries, this trip blends culture, fun, and unforgettable moments. 🏰 🌉 🍻 4 Days of History, Views & Czech Vibes Day 1: Arrival & First Impressions We depart in the morning and arrive in Prague by early evening. After check-in at our comfortable 4-star hotel , the rest of the evening is yours—relax or head out to explore the city at your own pace. Da",
+      "category": "recreation"
+    },
+    {
       "id": "spangdahlem-hike-spa-2026-10-10",
       "title": "Hike & SPA",
       "date": "2026-10-10T08:30:00",
@@ -272,6 +282,26 @@
       "location": "",
       "address": "",
       "description": "<p>🥾 ♨️ Roman Spas & Rebel Trails ! Ready to escape the everyday? This trip combines scenic hiking and pure relaxation in the beautiful Bad Bertrich region—home to Germany’s one-and-only Glauber’s Thermal Salt Spring. It’s the perfect mix of adventure and wellness. 🌿 🏰 🥾 Hiking Adventure & Historic Trails Start your day with a […]</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-trading-card-night-2026-10-14",
+      "title": "Trading Card Night",
+      "date": "2026-10-14T18:00:00",
+      "endDate": "2026-10-14T20:00:00",
+      "location": "Community Commons PentHouse",
+      "address": "",
+      "description": "Bring your favorite cards and join fellow enthusiasts for a fun-filled Trading Card Night! Swap, battle, and showcase your collection in a welcoming, social atmosphere. Perfect for collectors and players of all experience levels!",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-snow-world-ski-snowboard-trip-2026-10-24",
+      "title": "Snow World Ski/Snowboard Trip",
+      "date": "2026-10-24T00:00:00",
+      "endDate": "2026-10-24T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "24 Oct 2026 Snow World Ski/Snowboard Trip Get ready for alpine adventures this winter with some warm-up laps on easy beginner terrain. Join ODR for a day in the Netherlands and spend the day perfecting your turns on the indoor slopes of Snow World. Ages 14 and up. Trip includes transportation, gear rental, and lift ticket. $139",
       "category": "outdoor"
     },
     {
@@ -293,6 +323,76 @@
       "address": "",
       "description": "<p>🎃 🏰 👻 Enter If You Dare… Step into one of Germany’s most beautiful moated castles and experience a spine-chilling Halloween event like no other. Castle Satzvey, dating back to the 13th century, transforms into a haunted world of eerie encounters, fire shows, and unforgettable thrills. 👻 🔥 A Night of Frights & Spectacle As […]</p>\\n",
       "category": "entertainment"
+    },
+    {
+      "id": "spangdahlem-hunting-festival-bouillon-castle-2026-11-07",
+      "title": "Hunting Festival @ Bouillon Castle",
+      "date": "2026-11-07T08:30:00",
+      "endDate": "2026-11-07T18:30:00",
+      "location": "",
+      "address": "",
+      "description": "(Tourist Passport Required) 🍂 🏹 🎺 Experience the Ardennes’ Ultimate Autumn Festival 🎺 🏹 🍂 Step into the heart of the Ardennes and experience a lively celebration of tradition, culture, and local flavors at the annual Hunting Festival in Bouillon . Set beneath the legendary castle, this event blends rustic charm with festive energy. 🛍️ 🍖 🍷 Markets, Flavors & Local Finds Wander through a vibrant open-air market filled with regional specialties and unique goods: • Game Market – Wild boar, venison, and deer, available fresh or prepared as pâtés and charcuterie • Local Products – Wines, beers, jams",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-christmas-caves-valkenburg-2026-11-21",
+      "title": "Christmas Caves Valkenburg",
+      "date": "2026-11-21T11:00:00",
+      "endDate": "2026-11-21T22:45:00",
+      "location": "",
+      "address": "",
+      "description": "(Tourist Passport Required) 🎄 ✨ Step Into Europe’s Most Magical Christmas Town ✨ 🎄 Experience the holiday season like never before in Valkenburg , where Christmas comes to life underground . Twinkling lights, festive stalls, and the scent of seasonal treats create a truly unforgettable winter wonderland. 🎄 🕯️ 🎁 A Unique Christmas Experience Ranked among Europe’s Best Christmas Destinations (Top 10, 2023) , Valkenburg is famous for its one-of-a-kind markets set inside historic marlstone caves. Explore a festive world filled with handcrafted gifts, decorations, and regional delicacies—all in a m",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-sold-out-christmas-at-ravenna-gorge-2026-11-28",
+      "title": "**SOLD OUT** Christmas at Ravenna Gorge",
+      "date": "2026-11-28T00:00:00",
+      "endDate": "2026-11-29T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "**THIS TRIP IS CURRENTLY SOLD OUT! Check with ITT for alternate trip options and other upcoming Christmas Market adventures** (Tourist Passport Required) 🎄 ✨ Two Countries, One Magical Christmas Adventure ✨ 🎄 Get ready for the ultimate festive getaway—combining city vibes, fairytale scenery, and legendary Christmas markets . From Freiburg’s cozy streets to a market hidden in a gorge and the iconic Strasbourg Christmas market, this trip is pure holiday magic. 🎄 Day 1: Freiburg & Ravenna Gorge Start your journey in the vibrant city of Freiburg , known for its medieval streets, charming canals, a",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-christmas-at-nuremberg-rothenburg-2026-12-05",
+      "title": "Christmas at Nuremberg & Rothenburg",
+      "date": "2026-12-05T06:00:00",
+      "endDate": "2026-12-05T23:00:00",
+      "location": "",
+      "address": "",
+      "description": "🎄 🏰 Step Into a Classic German Christmas Fairytale 🏰 🎄 Step into a festive fairytale as you explore two of Germany’s most iconic Christmas destinations. From the world-famous Nuremberg Christkindlesmarkt to the charming medieval streets of Rothenburg ob der Tauber , this trip is packed with tradition, history, and holiday spirit. 🎄 🏙️ 🍷 Nuremberg: Germany’s Most Famous Christmas Market Dating back to the 16th century , the Christkindlesmarkt is one of the oldest and most celebrated Christmas markets in the world. Highlights: • Local Specialties – Try “3 im Weggla” (Nuremberg sausages in a roll",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-sold-out-christmas-at-dresden-striezelmarkt-2026-12",
+      "title": "**SOLD OUT** Christmas at Dresden Striezelmarkt",
+      "date": "2026-12-11T00:00:00",
+      "endDate": "2026-12-14T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "**THIS TRIP IS CURRENTLY SOLD OUT! Check with ITT for alternate options and other upcoming Christmas Market adventures** 🎄✨ Germany’s Most Iconic Christmas Markets in One Trip 🎄✨ Get ready for a festive 4-day getaway through some of Germany’s most magical Christmas destinations. From historic Dresden to charming Meissen and a final stop in Erfurt , this trip is packed with holiday traditions, cozy vibes, and unforgettable moments. 🎄 🏙️ 🍷 Day 1: Arrival in Dresden We arrive in Dresden , the capital of Saxony, and check into our centrally located hotel—just steps from the Old Town and the famous",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-sold-out-christmas-at-ravenna-gorge-2026-12-12",
+      "title": "*SOLD OUT* Christmas at Ravenna Gorge",
+      "date": "2026-12-12T00:00:00",
+      "endDate": "2026-12-13T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "**THIS TRIP IS CURRENTLY SOLD OUT! Check with ITT for alternate trip options and other upcoming Christmas Market adventures** (Tourist Passport Required) 🎄 ✨ Two Countries, One Magical Christmas Adventure ✨ 🎄 Get ready for the ultimate festive getaway—combining city vibes, fairytale scenery, and legendary Christmas markets . From Freiburg’s cozy streets to a market hidden in a gorge and the iconic Strasbourg Christmas market, this trip is pure holiday magic. 🎄 Day 1: Freiburg & Ravenna Gorge Start your journey in the vibrant city of Freiburg , known for its medieval streets, charming canals, a",
+      "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-french-christmas-at-strasbourg-colmar-2026-12-19",
+      "title": "French Christmas at Strasbourg & Colmar",
+      "date": "2026-12-19T06:30:00",
+      "endDate": "2026-12-19T21:30:00",
+      "location": "",
+      "address": "",
+      "description": "(Tourist passport required) 🎄🏰 Two Storybook Cities, One Unforgettable Christmas Trip 🏰 🎄 Get ready for a Christmas experience straight out of a storybook. This trip takes you to two of the most magical holiday destinations in Europe—Colmar and Strasbourg—where festive lights, historic charm, and unforgettable атмосpheres come together. 🏰 Colmar: A Real-Life Fairytale Step into a town that feels like it was built for Christmas. ✨ A City That Glows Colmar’s Old Town transforms into a sea of twinkling lights, perfectly highlighting its colorful half-timbered houses and canals. Every corner feels",
+      "category": "holiday"
     }
   ],
   "newcomers": {
