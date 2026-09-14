@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -378,26 +378,6 @@
   ],
   "events": [
     {
-      "id": "maxwell-911-stair-climb-2026-09-07",
-      "title": "9/11 Memorial Stair Climb Challenge",
-      "date": "2026-09-07",
-      "endDate": "2026-09-11",
-      "location": "Maxwell Fitness Center",
-      "address": "50 West Ash Building 841, Montgomery, AL 36112",
-      "description": "9/11 Memorial Stair Climb Challenge Sep 7–11; lifeatthemax.us.",
-      "category": "community"
-    },
-    {
-      "id": "maxwell-wing-wednesday-2026-09-09",
-      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Maxwell Club Pit",
-      "address": "Maxwell AFB, AL",
-      "description": "Wing Wednesday & Karaoke series; lifeatthemax.us FSS calendar overview.",
-      "category": "community"
-    },
-    {
       "id": "maxwell-wing-wednesday-2026-09-16",
       "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
       "date": "2026-09-16",
@@ -406,6 +386,16 @@
       "address": "Maxwell AFB, AL",
       "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
       "category": "community"
+    },
+    {
+      "id": "maxwell-wing-wednesday-karaoke-at-the-maxwell-club-pit-2026-09-1",
+      "title": "Wing Wednesday & Karaoke at the Maxwell Club Pit",
+      "date": "2026-09-16T16:00:00",
+      "endDate": "2026-09-16T23:00:00",
+      "location": "Maxwell Club",
+      "address": "375 West Dr, Montgomery, AL 36112",
+      "description": "Wing Wednesday & Karaoke at the Maxwell Club Pit! Mark your calendars!!!! 50¢ wings from 4-8 PM Karaoke from 7-11 PM Bring your appetite, your friends, and your best singing voice for a night of wings, fun, and unforgettable performances! Maxwell Club - don't miss out!",
+      "category": "entertainment"
     },
     {
       "id": "maxwell-parents-night-out-2026-09-18",
@@ -466,6 +456,136 @@
       "address": "Montgomery, AL",
       "description": "Listed on the public FSS calendar.",
       "category": "community"
+    },
+    {
+      "id": "maxwell-take-a-hike-2026-10-09",
+      "title": "Take a Hike",
+      "date": "2026-10-09T13:00:00",
+      "endDate": "2026-10-09T14:30:00",
+      "location": "Mid-Bay Shores",
+      "address": "801 White Point Road, Niceville, 32578",
+      "description": "Join Jeff at Mid-Bay Shores on 9 October for Take a Hike , a relaxing outdoor adventure along the beautiful shores of Lake Pippen . Participants will enjoy an approximately one-hour, easy-paced hike while exploring the natural surroundings of Mid-Bay Shores. The event will run from 1300-1430 , providing a great opportunity to get outside, enjoy the scenery, and spend some time in nature.",
+      "category": "outdoor"
+    },
+    {
+      "id": "maxwell-base-campout-2026-10-09",
+      "title": "Base Campout",
+      "date": "2026-10-09T17:30:00",
+      "endDate": "2026-10-10T09:00:00",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Join us for Base Campout at FAMCAMP on October 9-10! Check-in begins at 1730, followed by dinner at 1800 and a Zootopia 2 screening at 1845. Breakfast will be served at 0700 the following morning. Admission is $10 and includes s'mores, popcorn, and snow cones, with additional dinner options available for purchase. Dinner selections include a burger and hot dog meal for $12, smoked chicken for $25, or steak for $30. R",
+      "category": "outdoor"
+    },
+    {
+      "id": "maxwell-monthly-unite-training-2026-10-14",
+      "title": "Monthly UNITE Training",
+      "date": "2026-10-14T13:00:00",
+      "endDate": "2026-10-14T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us on the 2nd Wednesday of each month at 1300 at McBride Auditorium, Bldg. 804, Room 201. Connect, learn, and make the most of the UNITE program! Questions? Contact 334-953-3662 or 42FSS.FSWU.UNITE@US.AF.MIL",
+      "category": "education"
+    },
+    {
+      "id": "maxwell-doppel-fest-2026-10-17",
+      "title": "Doppel Fest",
+      "date": "2026-10-17T15:00:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "Maxwell Club",
+      "address": "375 West Dr, Montgomery, AL 36112",
+      "description": "Doppel Fest brings two celebrations together for one full day of fall fun at the Maxwell Club! From 11 AM-3 PM , families can enjoy kids' activities, crafts, a trackless train, pumpkin patch, food available for purchase, and live music from Auf Geht's . Then, from 5-9 PM , Doppel Fest transforms into Oktoberfest After Dark , an 18+ celebration featuring more live music from Auf Geht's , Oktoberfest games, a costume c",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-monster-mash-dance-party-2026-10-29",
+      "title": "Monster Mash Dance Party",
+      "date": "2026-10-29T18:00:00",
+      "endDate": "2026-10-29T19:30:00",
+      "location": "Maxwell Club",
+      "address": "375 West Dr, Montgomery, AL, 36112",
+      "description": "The Monster Mash Dance Party will be a fun, Halloween-themed dance class where participants are encouraged to dress up in their favorite costumes and enjoy an energetic evening of music and movement. The Maxwell Club will partner with Fitness to host this exciting event, creating a festive and engaging experience for participants of all fitness levels. The event will take place on 29 October from 1800–1930 . Come dressed in your best costume and get ready to dance the night away! Sign Up Now: https://forms.gle/wRw8eRDBPT6zq1pW8",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-monthly-unite-training-2026-11-11",
+      "title": "Monthly UNITE Training",
+      "date": "2026-11-11T13:00:00",
+      "endDate": "2026-11-11T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us on the 2nd Wednesday of each month at 1300 at McBride Auditorium, Bldg. 804, Room 201. Connect, learn, and make the most of the UNITE program! Questions? Contact 334-953-3662 or 42FSS.FSWU.UNITE@US.AF.MIL",
+      "category": "education"
+    },
+    {
+      "id": "maxwell-turkey-trot-2026-11-14",
+      "title": "Turkey Trot",
+      "date": "2026-11-14T08:00:00",
+      "endDate": "2026-11-14T10:00:00",
+      "location": "Maxwell Fitness Center",
+      "address": "50 West Ash Building 841, Montgomery, AL 36112",
+      "description": "Join us on November 14 at 8:00 AM for the Turkey Trot , a family-friendly event featuring a 5K race and 1-mile fun run for participants of all ages and fitness levels. The course will start and finish at the Maxwell Fitness Center , providing a fun and energetic way for families and friends to get active together. Awards will be presented to the 1st, 2nd, and 3rd place finishers , and every child who participates wil",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-nature-hike-with-jeff-2026-11-17",
+      "title": "Nature Hike with Jeff",
+      "date": "2026-11-17T13:00:00",
+      "endDate": "2026-11-17T14:30:00",
+      "location": "Mid-Bay Shores",
+      "address": "801 White Point Road, Niceville, 32578",
+      "description": "Enjoy the cooler fall weather at Mid-Bay Shores on 17 November with a Nature Hike led by Jeff. From 1300-1430 , participants will take an easy-paced walk through the Mid-Bay Shores Nature Trails , enjoying the peaceful surroundings and seasonal scenery. Come out for a relaxing afternoon of fresh air, nature, and exploration.",
+      "category": "outdoor"
+    },
+    {
+      "id": "maxwell-give-parents-a-break-parents-night-out-2026-11-21",
+      "title": "Give Parents a Break + Parents Night Out",
+      "date": "2026-11-21T12:00:00",
+      "endDate": "2026-11-21T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "Give Parents a Break and Parents Night Out will be held on November 21 from 12–4 PM at Gunter CDC & SAC . The cost is $32 per child , and space is limited to 54 participants , so be sure to RSVP by November 6 . Care is available through Maxwell CDC for children ages 6 weeks–5 years and Maxwell SAC for children ages 5–12 ; 5-year-olds must be enrolled in kindergarten. Families already enrolled in CYP should contact Maxwell CDC or SAC to request registration access, while families who are not enrolled can register through the CYP-BMS Portal by selecting Camp/Instructional Classes Registration. F",
+      "category": "outdoor"
+    },
+    {
+      "id": "maxwell-bowl-a-turkey-win-a-turkey-2026-11-21",
+      "title": "Bowl-a-Turkey & Win-a-Turkey",
+      "date": "2026-11-21T15:00:00",
+      "endDate": "2026-11-21T21:00:00",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Get ready to roll for a chance to take home your Thanksgiving turkey! Join us for Bowl a Turkey and Win a Turkey on Saturday, November 21, 2026, from 3-9 p.m. at Maxwell Bowling Center & Gunter Lanes . Come out, hit the lanes, and see if you have what it takes to bowl a turkey and win a turkey!",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-ugly-sweater-contest-tree-lighting-2026-12-18",
+      "title": "Ugly Sweater Contest & Tree Lighting",
+      "date": "2026-12-18T00:00:00",
+      "endDate": "2026-12-18T23:59:59",
+      "location": "Mid-Bay Shores",
+      "address": "801 White Point Road, Niceville, 32578",
+      "description": "Celebrate the holiday season at Mid-Bay Shores on 18 December with an Ugly Sweater Contest and Tree Lighting! Wear your funniest, most festive, or most outrageous holiday sweater and join us for some seasonal fun. The celebration will also include the lighting of the Mid-Bay Shores Christmas tree , creating a festive evening for everyone to enjoy.",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-valentine-s-day-stay-special-2027-02-13",
+      "title": "Valentine’s Day Stay Special",
+      "date": "2027-02-13T00:00:00",
+      "endDate": "2027-02-15T23:59:59",
+      "location": "Mid-Bay Shores",
+      "address": "801 White Point Road, Niceville, 32578",
+      "description": "Make Valentine’s Day extra special with a relaxing getaway at Mid-Bay Shores . Guests who book a two-night stay in one of our Bungalows or Modular Homes that includes 14 February will receive $50 off their stay . The Valentine’s package will also include sparkling juice and a box of chocolates , providing a sweet finishing touch to your Mid-Bay Shores Valentine’s getaway.",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-super-bowl-party-2027-02-14",
+      "title": "Super Bowl Party",
+      "date": "2027-02-14T00:00:00",
+      "endDate": "2027-02-14T23:59:59",
+      "location": "Maxwell AFB",
+      "address": "Montgomery, AL",
+      "description": "Save the Date: The Maxwell Club invites you to join us for an unforgettable Super Bowl Party on February 14, 2027 . Mark your calendar and get ready for an exciting celebration featuring great company, game-day entertainment, and a memorable Super Bowl experience.",
+      "category": "recreation"
     }
   ],
   "newcomers": {

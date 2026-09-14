@@ -7,7 +7,7 @@
   "wing": "43 AMOG",
   "latitude": 35.1708,
   "longitude": -79.0145,
-  "dataUpdatedAt": "2026-09-07T15:13:07Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "pope-notif-real-id",
@@ -359,7 +359,48 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "pope-tuition-assistance-brief-2026-09-15",
+      "title": "Tuition Assistance Brief",
+      "date": "2026-09-15T11:00:00",
+      "endDate": "2026-09-15T12:00:00",
+      "location": "Military &#038; Family Readiness Center",
+      "address": "829 Stiner Road, Pope AAF, NC",
+      "description": "Offered every Tuesday at 11:00 AM, excluding Family Days and Holidays. This briefing is mandatory for first time active-duty users of Military Tuition Assistance and those who have not used TA in over a year.",
+      "category": "education"
+    },
+    {
+      "id": "pope-skillbridge-brief-2026-09-15",
+      "title": "SkillBridge Brief",
+      "date": "2026-09-15T12:00:00",
+      "endDate": "2026-09-15T13:00:00",
+      "location": "Military &#038; Family Readiness Center",
+      "address": "829 Stiner Road, Pope AAF, NC",
+      "description": "Offered every Tuesday at 12:00 PM, excluding Family Days and Holidays. The SkillBridge Program provides eligible transitioning DAF members opportunities to develop their career skills through civilian on-the-job training, employment skills training, apprenticeships, and internships to help them prepare to transition from military to civilian employment. The Skillbridge brief is available for anyone interested in lear",
+      "category": "education"
+    },
+    {
+      "id": "pope-tuition-assistance-brief-2026-10-06",
+      "title": "Tuition Assistance Brief",
+      "date": "2026-10-06T11:00:00",
+      "endDate": "2026-10-06T12:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "829 Stiner Road, Pope AAF, NC, 28308",
+      "description": "Offered every Tuesday at 11:00 AM, excluding Family Days and Holidays. This briefing is mandatory for first time active-duty users of Military Tuition Assistance and those who have not used TA in over a year.",
+      "category": "education"
+    },
+    {
+      "id": "pope-skillbridge-brief-2026-10-06",
+      "title": "SkillBridge Brief",
+      "date": "2026-10-06T12:00:00",
+      "endDate": "2026-10-06T13:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "829 Stiner Road, Pope AAF, NC, 28308",
+      "description": "Offered every Tuesday at 12:00 PM, excluding Family Days and Holidays. The SkillBridge Program provides eligible transitioning DAF members opportunities to develop their career skills through civilian on-the-job training, employment skills training, apprenticeships, and internships to help them prepare to transition from military to civilian employment. The Skillbridge brief is available for anyone interested in learning more about the program. Attendance is recommended at least 12-18 months from your separation date. If you are within 12 months of your Date of Separation, this brief will make",
+      "category": "education"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Fort Liberty All-American Visitor Control Center",

@@ -259,56 +259,6 @@
   ],
   "events": [
     {
-      "id": "columbus-labor-day-hours-2026-09-07",
-      "title": "Labor Day Hours",
-      "date": "2026-09-07T00:00:00",
-      "endDate": "2026-09-07T23:59:59",
-      "location": "Columbus AFB",
-      "address": "Columbus, MS",
-      "description": "Labor Day hours for the 14 FSS Facilities:",
-      "category": "holiday"
-    },
-    {
-      "id": "columbus-debrief-lounge-game-night-2026-09-08",
-      "title": "Debrief Lounge: Game Night",
-      "date": "2026-09-08T16:30:00",
-      "endDate": "2026-09-08T19:30:00",
-      "location": "Event Center",
-      "address": "236 State Loop, Columbus, MS, 39710",
-      "description": "Game Night at the Debrief Lounge is every Tuesday from 1630-1930 featuring your favorite board games and card games.",
-      "category": "entertainment"
-    },
-    {
-      "id": "columbus-resilience-ride-walk-run-remembrance-event-2026-09-10",
-      "title": "Resilience Ride, Walk & Run Remembrance Event",
-      "date": "2026-09-10T07:00:00",
-      "endDate": "2026-09-10T09:00:00",
-      "location": "Event Center",
-      "address": "236 State Loop, Columbus, MS, 39710",
-      "description": "Join the Fitness Center, IPPW, RAPCON, and SAPR on 10 September at the Event Center for the Resilience Ride, Walk & Run Remembrance Event. Choose to participate in a 5K",
-      "category": "fitness"
-    },
-    {
-      "id": "columbus-second-thursday-paintball-2026-09-10",
-      "title": "Second Thursday Paintball",
-      "date": "2026-09-10T17:00:00",
-      "endDate": "2026-09-10T19:00:00",
-      "location": "Outdoor Recreation",
-      "address": "Columbus, MS",
-      "description": "Join Outdoor Recreation for Second Thursday Paintball from 1700-1900 on the Second Thursday of each month from September to November. Team sessions are $25 per person, which will include field",
-      "category": "outdoor"
-    },
-    {
-      "id": "columbus-pins-pancakes-2026-09-12",
-      "title": "Pins & Pancakes",
-      "date": "2026-09-12T11:00:00",
-      "endDate": "2026-09-12T15:00:00",
-      "location": "Bowling Center",
-      "address": "Building 736, Columbus, MS, 39705",
-      "description": "The Bowling Center will host Pins and Pancakes on Saturdays, featuring fun-shaped and funfetti pancakes with a side of bacon or sausage from 1100-1500! Bowl and enjoy FREE kid-friendly movies,",
-      "category": "entertainment"
-    },
-    {
       "id": "columbus-babysitting-course-2026-09-14",
       "title": "Babysitting Course",
       "date": "2026-09-14T16:00:00",
@@ -319,6 +269,26 @@
       "category": "family"
     },
     {
+      "id": "columbus-teddy-bear-storytime-2026-09-15",
+      "title": "Teddy Bear Storytime",
+      "date": "2026-09-15T10:00:00",
+      "endDate": "2026-09-15T10:00:00",
+      "location": "Library",
+      "address": "Blaze Commons, Columbus, 39710",
+      "description": "Join us for Teddy Bear Storytime on 15 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
+      "category": "family"
+    },
+    {
+      "id": "columbus-smooth-move-2026-09-17",
+      "title": "Smooth Move",
+      "date": "2026-09-17T10:00:00",
+      "endDate": "2026-09-17T10:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "C, 166 Circle Drive, Columbus, MS 39710",
+      "description": "Getting ready to PCS? Let the M&FRC help you transition with Smooth Move on 17 September at 1000 at the M&FRC! Receive pertinent information from the Subject Matter Experts to aid in a successful move for you and your family! Contact the Military & Family Readiness Center at (662) 434-2790 for more information or to register!",
+      "category": "family"
+    },
+    {
       "id": "columbus-teen-friday-night-lights-2026-09-18",
       "title": "Teen Friday Night Lights",
       "date": "2026-09-18T18:00:00",
@@ -326,6 +296,16 @@
       "location": "Youth Center",
       "address": "386 Imes St. Columbus AFB",
       "description": "Cheer on the Caledonia High School football team with the Youth Center during Teen Friday Night Lights on 18 September from 1800–2200. Teens ages 13–18 are invited to enjoy an",
+      "category": "family"
+    },
+    {
+      "id": "columbus-elephant-storytime-2026-09-22",
+      "title": "Elephant Storytime",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T10:00:00",
+      "location": "Library",
+      "address": "Blaze Commons, Columbus, 39710",
+      "description": "Join us for Elephant Storytime on 22 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
       "category": "family"
     },
     {
@@ -357,6 +337,16 @@
       "address": "Columbus AFB, MS, 39710",
       "description": "The Library will be hosting Movie Matinee on Mondays at the Kaye Auditorium at 1300! The Library will show different movies during the fall break. The movie is free, and",
       "category": "entertainment"
+    },
+    {
+      "id": "columbus-rabbit-storytime-2026-09-29",
+      "title": "Rabbit Storytime",
+      "date": "2026-09-29T10:00:00",
+      "endDate": "2026-09-29T10:00:00",
+      "location": "Library",
+      "address": "Blaze Commons, Columbus, 39710",
+      "description": "Join us for Rabbit Storytime on 29 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
+      "category": "family"
     },
     {
       "id": "columbus-petals-and-pumpkins-2026-09-30",
@@ -396,6 +386,26 @@
       "location": "Outdoor Recreation",
       "address": "Columbus, MS",
       "description": "Join Outdoor Recreation for a trip to Cullman, Alabama, on 3 October for Cullman Oktoberfest, a celebration of German heritage featuring live music, authentic German food, cultural activities, vendors, entertainment,",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-halloween-trivia-night-2026-10-22",
+      "title": "Halloween Trivia Night",
+      "date": "2026-10-22T17:30:00",
+      "endDate": "2026-10-22T17:30:00",
+      "location": "Community Center",
+      "address": "Columbus, MS",
+      "description": "Are you the master of horror movies, monster lore, and all things creepy? Join us at the Community Center for Halloween Trivia Night, sponsored by the Columbus Young Professionals (CYP) on 22 Oct at 1730. This event is for ages 18+ and is free to play. We'll have free appetizers to snack on while you play, and the bar will be serving drinks for purchase all night. Off-Base CYP participants MUST RSVP to Emily.Krawiec@",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-halloween-storytime-2026-10-27",
+      "title": "Halloween Storytime",
+      "date": "2026-10-27T10:00:00",
+      "endDate": "2026-10-27T10:00:00",
+      "location": "Library",
+      "address": "Blaze Commons, Columbus, 39710",
+      "description": "Join us for Halloween Storytime on 27 October at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
       "category": "holiday"
     }
   ],
@@ -468,5 +478,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-07T15:41:25Z"
+  "dataUpdatedAt": "2026-09-14T06:41:37Z"
 }

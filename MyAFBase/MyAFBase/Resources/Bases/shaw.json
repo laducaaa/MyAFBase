@@ -7,7 +7,7 @@
   "wing": "20 FW",
   "latitude": 33.9727,
   "longitude": -80.4708,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "shaw-notif-real-id",
@@ -255,26 +255,6 @@
   ],
   "events": [
     {
-      "id": "shaw-bowling-movie-2026-09-07",
-      "title": "Bowling & a Movie",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "Shaw Lanes Bowling Center",
-      "address": "416 Recreation St., Shaw AFB, SC 29152",
-      "description": "Sunday Bowling & a Movie series; shaw20fss.com (page copy may still show older monthly films—confirm on site).",
-      "category": "community"
-    },
-    {
-      "id": "shaw-bowling-movie-2026-09-13",
-      "title": "Bowling & a Movie",
-      "date": "2026-09-13",
-      "endDate": "2026-09-13",
-      "location": "Shaw Lanes Bowling Center",
-      "address": "416 Recreation St., Shaw AFB, SC 29152",
-      "description": "Sunday Bowling & a Movie; 20 FSS homepage listing.",
-      "category": "community"
-    },
-    {
       "id": "shaw-saturday-story-time-2026-09-20",
       "title": "Saturday Story Time",
       "date": "2026-09-20",
@@ -363,6 +343,56 @@
       "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
       "description": "<p>Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie, a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices",
       "category": "entertainment"
+    },
+    {
+      "id": "shaw-bowling-a-movie-2026-11-08",
+      "title": "Bowling & a Movie",
+      "date": "2026-11-08T14:00:00",
+      "endDate": "2026-11-08T17:00:00",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
+      "description": "Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie , a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices may vary depending on the menu. For more info, call Shaw Lanes Bowling Center 803.895.2732 . Don’t miss out on this perfect Sunday activity!",
+      "category": "family"
+    },
+    {
+      "id": "shaw-saturday-story-time-2026-11-15",
+      "title": "Saturday Story Time",
+      "date": "2026-11-15T11:00:00",
+      "endDate": "2026-11-15T12:00:00",
+      "location": "McElveen Library",
+      "address": "Shaw Air Force Base, SC, 29152",
+      "description": "Saturday Story Time Location: McElveen Library When: Every 3rd Saturday of the month | 11:00 AM – 12:00 PM Perfect for Ages: 2–6 Bring the little ones and join us for Saturday Story Time at McElveen Library! Enjoy stories, songs, and early literacy fun designed for young children and their families. No registration needed—just drop in! For more information, call 803.895.4518 .",
+      "category": "family"
+    },
+    {
+      "id": "shaw-bowling-a-movie-2026-12-06",
+      "title": "Bowling & a Movie",
+      "date": "2026-12-06T14:00:00",
+      "endDate": "2026-12-06T17:00:00",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
+      "description": "Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie , a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices may vary depending on the menu. For more info, call Shaw Lanes Bowling Center 803.895.2732 . Don’t miss out on this perfect Sunday activity!",
+      "category": "family"
+    },
+    {
+      "id": "shaw-saturday-story-time-2026-12-20",
+      "title": "Saturday Story Time",
+      "date": "2026-12-20T11:00:00",
+      "endDate": "2026-12-20T12:00:00",
+      "location": "McElveen Library",
+      "address": "Shaw Air Force Base, SC, 29152",
+      "description": "Saturday Story Time Location: McElveen Library When: Every 3rd Saturday of the month | 11:00 AM – 12:00 PM Perfect for Ages: 2–6 Bring the little ones and join us for Saturday Story Time at McElveen Library! Enjoy stories, songs, and early literacy fun designed for young children and their families. No registration needed—just drop in! For more information, call 803.895.4518 .",
+      "category": "family"
+    },
+    {
+      "id": "shaw-saturday-story-time-2027-01-17",
+      "title": "Saturday Story Time",
+      "date": "2027-01-17T11:00:00",
+      "endDate": "2027-01-17T12:00:00",
+      "location": "McElveen Library",
+      "address": "Shaw Air Force Base, SC, 29152",
+      "description": "Saturday Story Time Location: McElveen Library When: Every 3rd Saturday of the month | 11:00 AM – 12:00 PM Perfect for Ages: 2–6 Bring the little ones and join us for Saturday Story Time at McElveen Library! Enjoy stories, songs, and early literacy fun designed for young children and their families. No registration needed—just drop in! For more information, call 803.895.4518 .",
+      "category": "family"
     }
   ],
   "newcomers": {

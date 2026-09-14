@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -368,64 +368,24 @@
   ],
   "events": [
     {
-      "id": "keesler-fall-bowling-leagues-2026-09-07",
+      "id": "keesler-fall-bowling-leagues-2026-09-14",
       "title": "Fall Bowling Leagues",
-      "date": "2026-09-07T00:00:00",
-      "endDate": "2026-09-07T23:59:59",
-      "location": "Gaude’ Lanes Bowling Center",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "Fall Bowling Leagues — public FSS/MWR calendar listing.",
+      "date": "2026-09-14T00:00:00",
+      "endDate": "2026-09-14T23:59:59",
+      "location": "Gaude' Lanes Bowling Center",
+      "address": "Biloxi, MS",
+      "description": "Fall Bowling Leagues",
       "category": "recreation"
     },
     {
-      "id": "keesler-youth-baseball-t-ball-registration-2026",
-      "title": "Youth Baseball & T-Ball Registration",
-      "date": "2026-09-09T00:00:00",
-      "endDate": "2026-09-09T23:59:59",
-      "location": "Youth Center",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "AUG 5 – SEP 26 | Season Youth Center Step up to the plate and join our Youth Baseball League! This program is designed for kids ages 3–12 and is the perfect opportunity for young players to learn the fundamentals of baseball, make new friends, and have fun in a supportive team environment. Practices are on Wednesday and games are played on Saturdays Sign up on CYPBMS. Call the Youth Center at 228.",
-      "category": "family"
-    },
-    {
-      "id": "keesler-turbocore-fitness-class-2026-09-09",
-      "title": "TurboCore Fitness Class",
-      "date": "2026-09-09T17:30:00",
-      "endDate": "2026-09-09T18:30:00",
-      "location": "Fitness",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "Monday | 5:30 – 6:30 pm Wednesday | 5:30 – 6:30 pm Dragon Fitness Center TurboCore combines elements of cardio, strength training, and core conditioning, offering a balanced approach to fitness. Each session features a variety of dynamic exercises that target your abs, back, and entire body, ensuring a comprehensive workout that challenges you and keeps you engaged. Our passionate instructors are ",
+      "id": "keesler-monday-night-intramural-league-2026-09-14",
+      "title": "Monday Night Intramural League",
+      "date": "2026-09-14T19:00:00",
+      "endDate": "2026-09-14T19:00:00",
+      "location": "Gaude' Lanes Bowling Center",
+      "address": "Biloxi, MS",
+      "description": "SEP 14 | 7 pm Guade' Lanes Bowling Center The Intramural Bowling League is perfect for anyone looking for a fun, casual way to enjoy bowling with friends or to meet new people. Teams are made up of four players, making it easy to join with a group or sign up solo and get matched with others. Open to all skill levels, the league focuses on friendly competition, teamwork, and a relaxed atmosphere. Open to all with base",
       "category": "fitness"
-    },
-    {
-      "id": "keesler-cycling-fitness-class-2026-09-10",
-      "title": "Cycling Fitness Class",
-      "date": "2026-09-10T11:00:00",
-      "endDate": "2026-09-10T12:00:00",
-      "location": "Fitness",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "Thursday | 11 am – Noon Dragon Fitness Center This cycling class is a high-energy, full-body workout that takes place on stationary bikes in a group setting. Led by an enthusiastic instructor, the class is designed to boost cardiovascular health, build endurance, and tone muscles, all while burning calories and having fun. Dragon Fitness Center 228.377.4409",
-      "category": "fitness"
-    },
-    {
-      "id": "keesler-gaming-trivia-2026-09-12",
-      "title": "Gaming Trivia",
-      "date": "2026-09-12T13:00:00",
-      "endDate": "2026-09-12T13:00:00",
-      "location": "McBride Commons",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "SEP 12 | 1 pm McBride Commons Think you know gaming culture? Come put your knowledge to the test at Gaming Trivia, hosted at McBride Commons! Join us for a fun round of Trivia: Gaming Edition, where you can challenge yourself and compete with fellow gamers. Entry is free, and a special prize awaits the top trivia contestant. Whether you’re a casual player or a hardcore fan, it’s your chance to sho",
-      "category": "entertainment"
-    },
-    {
-      "id": "keesler-cosmic-bowling-2026-09-12",
-      "title": "Cosmic Bowling",
-      "date": "2026-09-12T20:00:00",
-      "endDate": "2026-09-12T23:00:00",
-      "location": "Gaude’ Lanes Bowling Center",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "Saturdays | 8 – 11 pm Gaude’ Lanes Bowling Center Are you ready to light up your Saturday night? Join us for COSMIC BOWLING at Gaude’ Lanes Bowling Center? Enjoy 3 hours of unlimited bowling, plus shoes. Don’t miss your chance to bowl under the black lights and enjoy an out-of-this-world experience! Mark your calendars, grab your crew, and roll into the fun. Open to all with base access and sponso",
-      "category": "recreation"
     },
     {
       "id": "keesler-federal-employment-workshop-2026-09-16",
@@ -438,6 +398,26 @@
       "category": "education"
     },
     {
+      "id": "keesler-plan-my-move-pcs-briefing-2026-09-16",
+      "title": "Plan My Move PCS Briefing",
+      "date": "2026-09-16T14:00:00",
+      "endDate": "2026-09-16T15:00:00",
+      "location": "M&FRC",
+      "address": "Biloxi, MS",
+      "description": "SEP 16 | 2 - 3 pm Sablich Center | Room 108A Reduce the stress of PCSing by attending this class. Briefers include representatives from M&FRC, Housing, TMO, Tricare, and Finance. M&FRC 228.376.8728",
+      "category": "education"
+    },
+    {
+      "id": "keesler-outdoor-recreation-open-house-2026-09-18",
+      "title": "Outdoor Recreation Open House",
+      "date": "2026-09-18T11:00:00",
+      "endDate": "2026-09-18T17:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Biloxi, MS",
+      "description": "SEP 18 | 11 am Outdoor Recreation Marina Park Join us for the Outdoor Recreation Open House! Enjoy the giant water slide, bounce houses, axe-throwing trailer, ice rink, games, equipment demonstrations, and much more!. Explore all our programs, rentals, and adventures. Grilled food will be available for purchase. It's a day of fun for all ages-come out and discover your next adventure! Open to all with base access and",
+      "category": "outdoor"
+    },
+    {
       "id": "keesler-nfl-kickoff-scramble-2026-09-19",
       "title": "NFL Kickoff Scramble",
       "date": "2026-09-19T08:00:00",
@@ -445,6 +425,16 @@
       "location": "Bay Breeze Golf Course",
       "address": "Keesler AFB, Biloxi, MS",
       "description": "SEP 19 | 8 am | Shotgun Start Bay Breeze Golf Course Kick off the NFL season with our fun 2-player golf scramble. Don’t have a partner? We’ll match you up so everyone can join the action. Compete for prizes awarded to both low net and gross teams. Enjoy great food and drinks on the course and after your round. Celebrate football season with friends, golf, and plenty of excitement! Open to all with",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-color-me-happy-mosaic-art-class-2026-09-19",
+      "title": "Color Me Happy: Mosaic Art Class",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T10:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Biloxi, MS",
+      "description": "SEP 19 | 10 am Arts & Crafts Center Learn the basics of designing and assembling colorful glass and tiles to create unique mosaic pieces. Under instructor guidance, you'll craft your own picture frame, vase, or tea light holder, gaining hands-on experience in arranging and adhering your materials. This class is perfect for beginners eager to explore their creativity and leave with a beautiful, personalized project. O",
       "category": "recreation"
     },
     {
@@ -458,6 +448,36 @@
       "category": "community"
     },
     {
+      "id": "keesler-driving-clinic-2026-09-19",
+      "title": "Driving Clinic",
+      "date": "2026-09-19T12:00:00",
+      "endDate": "2026-09-19T13:00:00",
+      "location": "Bay Breeze Golf Course",
+      "address": "Biloxi, MS",
+      "description": "SEP 19 | Noon - 1 pm Bay Breeze Golf Clinic Want to hit the ball farther? Join our Driving Clinic and learn the secret to increasing your clubhead speed with PGA Professional Bob Dacey. Bob will share expert tips and techniques to help you add power and distance to your drives. No matter your skill level, you'll walk away with practical drills and advice to take your game to the next level. Open to all with base acce",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-culinary-class-rice-around-the-world-2026-09-19",
+      "title": "Culinary Class: Rice Around the World",
+      "date": "2026-09-19T13:00:00",
+      "endDate": "2026-09-19T15:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Biloxi, MS",
+      "description": "SEP 19 | 1 - 3 pm Arts & Crafts Center Celebrate National Rice Month this September by joining the Rice Around the World culinary class! Discover how rice is prepared and enjoyed in cuisines across the globe. In this instructor-led class, you'll learn to make a variety of flavorful rice dishes inspired by international traditions. Menu: Arroz con Pollo | Filipino Yellow Rice w/shrimp and chorizo | Korean Bibimbap Bow",
+      "category": "recreation"
+    },
+    {
+      "id": "keesler-give-parents-a-break-mini-air-force-ball-2026-09-19",
+      "title": "Give Parents A Break: Mini Air Force Ball",
+      "date": "2026-09-19T17:30:00",
+      "endDate": "2026-09-19T22:30:00",
+      "location": "Youth Center",
+      "address": "Biloxi, MS",
+      "description": "SEP 19 | 5:30 - 10:30 pm SEP 11 - 17 | Registration Youth Center | Child Development Center The Youth Center and the Child Development Center are excited to host the Mini Air Force Ball! Dress up in your favorite ball gown or tuxedo, walk the red carpet, and be the star of the show. Enjoy delicious food, fun games, and a crafts station-all happening the same night as the official Air Force Ball. This special event of",
+      "category": "family"
+    },
+    {
       "id": "keesler-transition-assistance-workshop-2026-09-2",
       "title": "Transition Assistance Workshop",
       "date": "2026-09-21T08:00:00",
@@ -468,6 +488,16 @@
       "category": "education"
     },
     {
+      "id": "keesler-survivor-benefit-2026-09-21",
+      "title": "Survivor Benefit",
+      "date": "2026-09-21T15:00:00",
+      "endDate": "2026-09-21T16:00:00",
+      "location": "M&FRC",
+      "address": "Biloxi, MS",
+      "description": "SEP 21 | 3 -4 pm Sablich Center | Room 108A Briefing to advise retiring service members and their spouses on the survivor benefit program to assist in making an informed decision before retirement on benefits. M&FRC 228.376.8728",
+      "category": "education"
+    },
+    {
       "id": "keesler-transition-assistance-workshop-2026-09-2",
       "title": "Transition Assistance Workshop",
       "date": "2026-09-22T08:00:00",
@@ -475,6 +505,16 @@
       "location": "M&FRC",
       "address": "Keesler AFB, Biloxi, MS",
       "description": "SEP 21 – 23 | 8 am – 4 pm Sablich Center | Room 108B This 3-day Congressionally mandated program includes VA benefits and employment fundamentals and is designed to prepare military members and families for their transition into the civilian sector. M&FRC 228.376.8728",
+      "category": "education"
+    },
+    {
+      "id": "keesler-pre-separation-brief-2026-09-22",
+      "title": "Pre-Separation Brief",
+      "date": "2026-09-22T09:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "M&FRC",
+      "address": "Biloxi, MS",
+      "description": "SEP 22 | 9 -11 am Sablich Center | Room 108A Congressionally mandated Pre-Separation brief for those separating or retiring. Initial counseling with a TAP counselor must be completed before pre-separation. M&FRC 228.376.8728",
       "category": "education"
     },
     {

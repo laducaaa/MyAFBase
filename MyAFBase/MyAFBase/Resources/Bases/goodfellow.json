@@ -7,7 +7,7 @@
   "wing": "17 TRW",
   "latitude": 31.4327,
   "longitude": -100.4056,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "goodfellow-notif-real-id",
@@ -266,36 +266,6 @@
   ],
   "events": [
     {
-      "id": "goodfellow-william-lee-martin-seemed-smart-at-the-time-2026-09-1",
-      "title": "William Lee Martin: Seemed Smart at the Time",
-      "date": "2026-09-11T19:30:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "William Lee Martin is the comic who finds the humor in life’s decisions that seemed smart at the time. From marriage and parenting to money, pride, and poor judgment, William",
-      "category": "community"
-    },
-    {
-      "id": "goodfellow-intro-to-pottery-2026-09-12",
-      "title": "Intro to Pottery",
-      "date": "2026-09-12T12:00:00",
-      "endDate": "2026-09-12T15:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "🏺 Get Creative with Intro to Pottery! 🏺 Ready to get your hands dirty and create something unique? Join us for Intro to Pottery on September 12th from 12:00 PM–3:00",
-      "category": "recreation"
-    },
-    {
-      "id": "goodfellow-card-game-night-2026-09-12",
-      "title": "Card Game Night",
-      "date": "2026-09-12T17:00:00",
-      "endDate": "2026-09-12T22:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "♠️♥️ Card Game Night at the Powell Event Center ♦️♣️ Shuffle up and join us for an evening of friendly competition, strategy, and fun! Whether you’re a seasoned card shark",
-      "category": "entertainment"
-    },
-    {
       "id": "goodfellow-youth-book-party-2026-09-14",
       "title": "Youth Book Party",
       "date": "2026-09-14T17:00:00",
@@ -376,6 +346,26 @@
       "category": "recreation"
     },
     {
+      "id": "goodfellow-fiesta-night-2026-09-19",
+      "title": "Fiesta Night",
+      "date": "2026-09-19T18:00:00",
+      "endDate": "2026-09-19T23:59:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🌮🎉 FIESTA NIGHT! 🎉🌮 Grab your amigos and get ready to fiesta! 💃🕺 Join us for a festive night filled with good vibes, great company, and a mixed variety of margarita flavors for only $3! 🍹✨ Come dressed to celebrate and enjoy a night of music, fun, and fiesta vibes! 🎶🌶️🌵 📅 September 29th ⏰ 6:00 PM - 12:00 AM 📍 Powell Event Center 🍹 Margaritas - $3 🌟 Bring your amigos. Bring your fiesta spirit. Let's make it a night to",
+      "category": "community"
+    },
+    {
+      "id": "goodfellow-civilian-writing-resume-2026-09-24",
+      "title": "Civilian Writing Resume",
+      "date": "2026-09-24T14:00:00",
+      "endDate": "2026-09-24T15:30:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Learn the basic steps to writing an effective Civilian Resume September 24th 2pm - 3:30pm in the M&FRC Building 145. To register contact William.Gathecha.1@us.af.mil",
+      "category": "education"
+    },
+    {
       "id": "goodfellow-oktoberfest-2026-09-25",
       "title": "Oktoberfest",
       "date": "2026-09-25T16:00:00",
@@ -404,6 +394,46 @@
       "address": "San Angelo, TX",
       "description": "♠️♥️ Card Game Night at the Powell Event Center ♦️♣️ Shuffle up and join us for an evening of friendly competition, strategy, and fun! Whether you’re a seasoned card shark",
       "category": "entertainment"
+    },
+    {
+      "id": "goodfellow-intro-to-pottery-2026-10-03",
+      "title": "Intro to Pottery",
+      "date": "2026-10-03T12:00:00",
+      "endDate": "2026-10-03T15:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🏺 Get Creative with Intro to Pottery! 🏺 Ready to get your hands dirty and create something unique? Join us for Intro to Pottery on October 3rd from 12:00 PM-3:00 PM in the Arts & Crafts Building 109! This beginner-friendly class is perfect for anyone interested in learning the basics of pottery in a fun and relaxed environment. No experience is needed-just bring your creativity, and we'll provide the guidance to help",
+      "category": "recreation"
+    },
+    {
+      "id": "goodfellow-breast-cancer-awareness-5k-2026-10-10",
+      "title": "Breast Cancer Awareness 5K",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T11:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎀 Lace up for a cause! 💗 Join us for our Breast Cancer Awareness 5K Run on October 10th from 10-11 AM at the Parade Field . Come run, walk, and show your support as we honor survivors, remember those we've lost, and stand together in the fight against breast cancer. 🏃‍♀️🎀 Sign up now! Wear pink and bring your friends and family! 💕 FMI: 325-654-3242",
+      "category": "fitness"
+    },
+    {
+      "id": "goodfellow-guilty-gear-strive-tournament-2026-10-16",
+      "title": "Guilty Gear Strive Tournament",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T18:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Join the Guilty Gear Strive Tournament October 16th at 6pm in the Powell Event Center. First come first serve, no sign-up required. FMI: 325-654-3247",
+      "category": "recreation"
+    },
+    {
+      "id": "goodfellow-santa-s-market-2026-11-21",
+      "title": "Santa's Market",
+      "date": "2026-11-21T10:00:00",
+      "endDate": "2026-11-21T16:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎄✨ Get ready for the 44th Annual Santa's Market! ✨🎄 Join us for a festive day of holiday shopping featuring unique, handmade gifts from local artisans and crafters. It's the perfect opportunity to find one-of-a-kind treasures and get a head start on your holiday shopping! 🎁🛍️ 📅 Saturday, November 21, 2024 🕙 10:00 AM - 4:00 PM 📍 Goodfellow AFB Fire Academy High Bay Come out, shop local, and enjoy this beloved holiday ",
+      "category": "holiday"
     }
   ],
   "newcomers": {

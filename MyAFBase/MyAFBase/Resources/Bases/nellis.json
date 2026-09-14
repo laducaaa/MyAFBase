@@ -7,7 +7,7 @@
   "wing": "99 ABW / USAFWC / 57 WG",
   "latitude": 36.2361,
   "longitude": -115.0343,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "nellis-notif-1",
@@ -304,14 +304,14 @@
   ],
   "events": [
     {
-      "id": "nellis-911-triathlon",
-      "title": "9/11 Memorial Triathlon",
-      "date": "2026-09-11T10:45:00",
-      "endDate": "2026-09-11T15:00:00",
-      "location": "Warrior Fitness Center / Thunderbird Hangar",
-      "address": "Nellis AFB, NV",
-      "description": "Participant check-in 10:45 AM; kick-off 11:30 AM; remembrance at Thunderbird Hangar.",
-      "category": "fitness"
+      "id": "nellis-cpr-classes-in-person-2026-09-14",
+      "title": "CPR CLASSES_IN-PERSON",
+      "date": "2026-09-14T10:00:00",
+      "endDate": "2026-09-14T14:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "CPR CLASSES_IN-PERSON Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: SEP 14 TIME: 10:00PM – 2:30PM DESCRIPTION: This class is taught in a traditional in-person instructor-led session. Upon successful completion of this in-person instructor-led training, you will be issued a valid 2-year digital certificate for Adult & Pediatric, First Aid/CPR/AED training. COST: $90 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "education"
     },
     {
       "id": "nellis-af-birthday-5k",
@@ -322,6 +322,16 @@
       "address": "Nellis AFB, NV",
       "description": "5K with prizes for first male and female runners.",
       "category": "fitness"
+    },
+    {
+      "id": "nellis-oktoberfest-2026-09-18",
+      "title": "Oktoberfest",
+      "date": "2026-09-18T16:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "The Club",
+      "address": "5871 Fitzgerald, Bldg. 554, Nellis AFB, NV, 89191",
+      "description": "Friday, September 18 4pm – 7pm at The Club Food & Drinks for purchase. $15 / meal platter Contests: Best Dressed, Stein Holding, & Pretzel Eating Free to Attend! Volunteer Sign Up, Click here!",
+      "category": "holiday"
     },
     {
       "id": "nellis-colorado-kayak",
@@ -342,6 +352,16 @@
       "address": "Nellis AFB, NV",
       "description": "$20; RSVP by Sept 16 to nellisartsandcrafts@outlook.com or 702-652-2849.",
       "category": "recreation"
+    },
+    {
+      "id": "nellis-glass-is-in-session-2026-09-23",
+      "title": "GLASS is in Session!",
+      "date": "2026-09-23T16:00:00",
+      "endDate": "2026-09-23T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "GLASS is in session! Faux Stained Glass Art Workshop Wednesday, September 23, 2026 4pm – 7pm $20 RSVP by September 16, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Dr, # 610, Nellis Air Force Base, NV, 89191 Children must be accompanied by an adult. Limited seats available.",
+      "category": "family"
     },
     {
       "id": "nellis-sup-mead",
@@ -374,6 +394,26 @@
       "category": "community"
     },
     {
+      "id": "nellis-cpr-classes-blended-2026-10-02",
+      "title": "CPR CLASSES_BLENDED",
+      "date": "2026-10-02T10:00:00",
+      "endDate": "2026-10-02T12:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "CPR CLASSES_BLENDED Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 2 TIME: 10am – 12pm DESCRIPTION: Online training and in-person instructor-led skill sessions. Upon successful completion of this in-person instructor-led training, you will be issued a valid 2-year digital certificate for Adult & Pediatric, First Aid/CPR/AED training. COST: $80 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "education"
+    },
+    {
+      "id": "nellis-cpr-classes-tourniquet-2026-10-02",
+      "title": "CPR CLASSES_TOURNIQUET",
+      "date": "2026-10-02T13:00:00",
+      "endDate": "2026-10-02T14:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 2 TIME: 1pm – 2:30pm DESCRIPTION: Learn the function of hemostatic dressing for controlling life-threatening bleeding COST: $55 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "community"
+    },
+    {
       "id": "nellis-red-rock-climb",
       "title": "Family Rock Climb — Red Rock",
       "date": "2026-10-03T07:00:00",
@@ -382,6 +422,36 @@
       "address": "Las Vegas, NV",
       "description": "$60; ages 3+; family-friendly climbing trip.",
       "category": "recreation"
+    },
+    {
+      "id": "nellis-family-rock-climb-red-rock-2026-10-03",
+      "title": "Family Rock Climb – Red Rock",
+      "date": "2026-10-03T07:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Date: October 3 Program Title: F amily Rock Climb – Red Rock Time: 0700-1400 Cost: $60 per person Age: 3+ Details: This trip is designed for families with children who would like to go climbing outside. We’ve got plenty of equipment for all ages – children and parents alike! Join us as we head to a local crag to try your hand at climbing. Our certified and trained AMGA guides will teach you everything you need to know. No previous experience needed. Equipment, transportation, and instruction provided. Difficulty: XX Pre-Register by: 10/1 Last Day to Cancel for a Refund: 9/30",
+      "category": "outdoor"
+    },
+    {
+      "id": "nellis-cpr-classes-babysitters-2026-10-03",
+      "title": "CPR CLASSES_BABYSITTERS",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "CPR CLASSES_BABYSITTERS Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 3 TIME: 10am – 2pm DESCRIPTION: Prepare youth ages 11 and up to safely and confidently care for children and infants. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "family"
+    },
+    {
+      "id": "nellis-try-scuba-2026-10-03",
+      "title": "Try Scuba",
+      "date": "2026-10-03T11:00:00",
+      "endDate": "2026-10-03T15:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "All equipment provided. Dives are scheduled in ONE-HOUR time slots.",
+      "category": "outdoor"
     },
     {
       "id": "nellis-haunted-neon-nights-2026-10-16",
@@ -404,6 +474,16 @@
       "category": "outdoor"
     },
     {
+      "id": "nellis-shrink-or-treat-2026-10-21",
+      "title": "Shrink or Treat!",
+      "date": "2026-10-21T16:00:00",
+      "endDate": "2026-10-21T19:00:00",
+      "location": "Arts & Crafts",
+      "address": "5850 Devlin Drive, Bldg. 610 Nellis AFB, NV, 89191",
+      "description": "SHRINK OR TREAT! Halloween Shrink Art Keychain Class Create your own BOO-tiful shrink-plastic charms! Design your own spooky shrink-plastic charms, watch them magically shrink, then turn them into one-of-a-kind Halloween keychains! Wednesday, October 21, 2026 4pm – 7pm $20/ person RSVP by October 14, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Drive Nellis Air Force Base, NV, 89115 Children must be accompanied by an adult. Limited seats available.",
+      "category": "holiday"
+    },
+    {
       "id": "nellis-death-valley-sightseeing-tour-2026-10-24",
       "title": "Death Valley Sightseeing Tour",
       "date": "2026-10-24",
@@ -422,6 +502,16 @@
       "address": "Nellis AFB, NV",
       "description": "25th Annual Tech & Cyber Expo with exhibits and speaker sessions (base access required).",
       "category": "community"
+    },
+    {
+      "id": "nellis-cpr-classes-babysitter-2026-11-06",
+      "title": "CPR CLASSES_BABYSITTER",
+      "date": "2026-11-06T10:00:00",
+      "endDate": "2026-11-06T14:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Fri, Nov 6 TIME: 10:00am – 2:00pm DESCRIPTION: Prepare youth ages 11 and up to safely and confidently care for children and infants. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "family"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "SBD 41",
   "latitude": 38.8344,
   "longitude": -104.5264,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "schriever-notif-real-id",
@@ -354,6 +354,66 @@
       "address": "20 Falcon Pkwy, Schriever SFB, CO, 80912",
       "description": "<p>Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and […]</p>\\n",
       "category": "entertainment"
+    },
+    {
+      "id": "schriever-pre-deployment-2026-10-13",
+      "title": "Pre Deployment",
+      "date": "2026-10-13T12:00:00",
+      "endDate": "2026-10-13T13:00:00",
+      "location": "M&FRC",
+      "address": "101 Falcon Pkwy, Schriever AFB, CO 80912",
+      "description": "Pre Deployment Brief",
+      "category": "family"
+    },
+    {
+      "id": "schriever-first-friday-2026-11-06",
+      "title": "First Friday",
+      "date": "2026-11-06T02:41:00",
+      "endDate": "2026-11-06T17:00:00",
+      "location": "Schriever Event Center",
+      "address": "20 Falcon Pkwy, Schriever SFB, CO 80912",
+      "description": "Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and open to all DoD ID cardholders and their dependent family members. For more information, call 719-567-2525.",
+      "category": "family"
+    },
+    {
+      "id": "schriever-pre-deployment-2026-11-10",
+      "title": "Pre Deployment",
+      "date": "2026-11-10T12:00:00",
+      "endDate": "2026-11-10T13:00:00",
+      "location": "M&FRC",
+      "address": "101 Falcon Pkwy, Schriever AFB, CO, 80912",
+      "description": "Pre Deployment Brief",
+      "category": "education"
+    },
+    {
+      "id": "schriever-first-friday-2026-12-04",
+      "title": "First Friday",
+      "date": "2026-12-04T02:41:00",
+      "endDate": "2026-12-04T17:00:00",
+      "location": "Schriever Event Center",
+      "address": "20 Falcon Pkwy, Schriever SFB, CO, 80912",
+      "description": "Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and open to all DoD ID cardholders and their dependent family members. For more information, call 719-567-2525.",
+      "category": "family"
+    },
+    {
+      "id": "schriever-first-friday-2027-01-01",
+      "title": "First Friday",
+      "date": "2027-01-01T02:41:00",
+      "endDate": "2027-01-01T17:00:00",
+      "location": "Schriever Event Center",
+      "address": "20 Falcon Pkwy, Schriever SFB, CO, 80912",
+      "description": "Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and open to all DoD ID cardholders and their dependent family members. For more information, call 719-567-2525.",
+      "category": "family"
+    },
+    {
+      "id": "schriever-first-friday-2027-02-05",
+      "title": "First Friday",
+      "date": "2027-02-05T02:41:00",
+      "endDate": "2027-02-05T17:00:00",
+      "location": "Schriever Event Center",
+      "address": "20 Falcon Pkwy, Schriever SFB, CO, 80912",
+      "description": "Wrap up the week with us at First Friday! There will be music and games for entertainment as well as light refreshments and adult beverages for purchase. Discounted items for cash payments! Take a moment to wind down and relax with your friends and coworkers before you start your weekend. This event is FREE and open to all DoD ID cardholders and their dependent family members. For more information, call 719-567-2525.",
+      "category": "family"
     }
   ],
   "newcomers": {

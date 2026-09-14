@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -306,73 +306,33 @@
       "category": "community"
     },
     {
-      "id": "luke-labor-day-bball",
-      "title": "8th Annual Labor Day Basketball Tournament",
-      "date": "2026-09-07T08:00:00",
-      "endDate": "2026-09-07T20:00:00",
-      "location": "Bryant Fitness Center",
-      "address": "Luke AFB, AZ",
-      "description": "Final day of Labor Day basketball tournament (Sep 4–7); military ID cardholders.",
-      "category": "fitness"
-    },
-    {
-      "id": "luke-tower-challenge",
-      "title": "Tower 2 Tower Challenge",
-      "date": "2026-09-10T05:00:00",
-      "endDate": "2026-09-10T19:00:00",
-      "location": "Bryant Fitness Center",
-      "address": "Luke AFB, AZ",
-      "description": "Stair-climber challenge (110 floors / 2,071 steps); open to DoW cardholders and interested civilians.",
-      "category": "fitness"
-    },
-    {
-      "id": "luke-movie-night-2026-09-11",
-      "title": "Movie Night",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Base Theater",
-      "address": "Luke AFB, AZ",
-      "description": "Movie Night at Base Theater; 56 FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "luke-bundles-for-babies-2026-09-11",
-      "title": "Bundles for Babies",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Luke AFB",
-      "address": "Glendale, AZ",
-      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
+      "id": "luke-youth-and-teen-programs-open-recreation-2026-202-2026-09-14",
+      "title": "Youth and Teen Programs, Open Recreation-2026-2027 School Year",
+      "date": "2026-09-14T13:00:00",
+      "endDate": "2026-09-14T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Days: Monday-Friday Time: 1 :00 p.m.- 5:30 pm Location: Youth Programs, bldg 1143 Register / Sign-up By: Monthly Cost: $35.00 Age: 9-18 Details: Youth Programs are designed to encourage members ages 9-18 to realize a wide variety of positive outcomes, a strategy for developing the “whole child.” Youth Programs offers tested, proven and nationally recognized programs in five Core Program Areas that include The Arts, Leadership & Service, Health & Wellness, education and Sports and Recreation that closely align with the developmental needs of all young people Current immunizations and flu shot i",
       "category": "family"
     },
     {
-      "id": "luke-911-run",
-      "title": "25th Anniversary: Never Forget Remembrance Run",
-      "date": "2026-09-11T06:00:00",
-      "endDate": "2026-09-11T09:30:00",
-      "location": "Falcon Dunes Golf Course (back 9)",
-      "address": "Luke AFB, AZ",
-      "description": "Remembrance run with trophies for 1st–3rd place female/male.",
-      "category": "fitness"
+      "id": "luke-carnival-night-2026-09-14",
+      "title": "Carnival Night",
+      "date": "2026-09-14T17:00:00",
+      "endDate": "2026-09-14T18:00:00",
+      "location": "Library",
+      "address": "480 5th St bldg 2610, Mountain Home AFB, Idaho, 83648",
+      "description": "Date: 14 September 2026 Time: 1700-1800 Location: Base Library Details: Step right up to our Library Carnival Night for an unforgettable evening packed with thrilling games and family-friendly fun! Indulge your sweet tooth while you play, with classic treats like fluffy cotton candy, refreshing snow cones, and buttery popcorn waiting for everyone.",
+      "category": "outdoor"
     },
     {
-      "id": "luke-grand-canyon",
-      "title": "Grand Canyon Day Trip",
-      "date": "2026-09-12T06:00:00",
-      "endDate": "2026-09-12T18:00:00",
-      "location": "Grand Canyon Visitor Center (South Entrance)",
-      "address": "Grand Canyon Village, AZ 86023",
-      "description": "ODR day trip for military & DoD ID cardholders.",
-      "category": "recreation"
-    },
-    {
-      "id": "luke-doggie-pool",
-      "title": "Doggie Pool Party",
-      "date": "2026-09-12T10:00:00",
-      "endDate": "2026-09-12T13:00:00",
-      "location": "Silver Wings Pool",
-      "address": "Luke AFB, AZ",
-      "description": "Free doggie pool party; RSVP via ODR.",
+      "id": "luke-children-s-storytime-2026-09-16",
+      "title": "Children’s Storytime",
+      "date": "2026-09-16T10:00:00",
+      "endDate": "2026-09-16T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "Event: Children’s Storytime Location: Luke AFB Library Contact: 623-856-7191 Childrens-Storytime_Low-Res",
       "category": "family"
     },
     {
@@ -384,6 +344,16 @@
       "address": "14000 Eagle St, Luke AFB, AZ 85309",
       "description": "AF Birthday celebration with free cake; Club Five Six / 56 FSS.",
       "category": "community"
+    },
+    {
+      "id": "luke-air-force-birthday-cornhole-tournament-2026-09-18",
+      "title": "Air Force Birthday Cornhole Tournament",
+      "date": "2026-09-18T13:00:00",
+      "endDate": "2026-09-18T16:00:00",
+      "location": "Community Commons",
+      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "📅 Date: Friday, September 18, 2026 | Register By: September 16, 2026 📍 Location: Community Commons ⏰ Time: 1300-1600 🏆 Format: 2-Person Teams | Double Elimination 👥 Registration: Limited to first 8 teams Questions? (623) 856-7152 | 56.communitycenter@gmail.com",
+      "category": "holiday"
     },
     {
       "id": "luke-fort-tuthill-movie",
@@ -404,6 +374,16 @@
       "address": "Buckeye/Phoenix area, AZ",
       "description": "Camping & stargazing celebrating International Observe the Moon Night.",
       "category": "recreation"
+    },
+    {
+      "id": "luke-all-bets-are-off-community-poker-tournament-2026-09-25",
+      "title": "All Bets Are Off: Community Poker Tournament",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "Community Commons",
+      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "Date: 25 September 2026 Time: 1800-2200 | Tournament starts: 1830 Location: Community Commons Cost: $15 Entry Fee (Includes tournament seat, food, and drinks!) Details: 🏆 The Prize Pool Place Prize 🥇 1st Place $150 cash 🥈 2nd Place $100 cash 🥉 3rd Place $75 cash 🍕 What’s Included in Your $15 Ticket? Full Tournament Buy-In: Starting stack of chips and a seat at the tables. Food & Drinks: Free refreshments and grub provided to keep you fueled through the final table. ⚠️ Watch Out For (Pitfalls to Avoid) Late Arrivals: To keep the tournament running smoothly, the first cards fly precisely at 6:30",
+      "category": "fitness"
     },
     {
       "id": "luke-saturday-crafternoons-2026-09-26",
@@ -446,6 +426,16 @@
       "category": "outdoor"
     },
     {
+      "id": "luke-all-day-wing-fest-2026-09-30",
+      "title": "All Day Wing Fest",
+      "date": "2026-09-30T00:00:00",
+      "endDate": "2026-09-30T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Last Weds of the month – All Day Wing Fest Date: Last Wednesday of the Month Location: Club Five Six Time: Lunch – 1100-1300 Dinner – 1530",
+      "category": "recreation"
+    },
+    {
       "id": "luke-scary-movie-marathon-2026-10-02",
       "title": "Scary Movie Marathon",
       "date": "2026-10-02T18:30:00",
@@ -466,6 +456,26 @@
       "category": "recreation"
     },
     {
+      "id": "luke-private-wine-tour-21-up-2026-10-03",
+      "title": "Private – Wine Tour 21 + Up",
+      "date": "2026-10-03T09:00:00",
+      "endDate": "2026-10-03T15:30:00",
+      "location": "",
+      "address": "",
+      "description": "Date: 3 October 2026 Time: 0845 Depart:0900 Arrive at location: ~ 1045(1hr 45min ) Return: ~1545 Location: Alcantara Vineyards and Winery, 3445 S Grapevine Way, Camp Verde, AZ 86322 Participants: All Military & DoD ID Card Holders (ODR REG) Price: $90 per person / 13 max participants Registration Start: 1 September 2026 Registration End: 30 September 2026 *No refund will be given after this date Description: Let us be your designated chauffeur to the Private Vineyard & Winery Tour & Private Wine Tasting with the Winemaker, Ron Brumley. In-depth discussion of the vineyard, walking tour, cellar ",
+      "category": "outdoor"
+    },
+    {
+      "id": "luke-start-smart-flag-football-2026-10-06",
+      "title": "Start Smart Flag Football",
+      "date": "2026-10-06T16:30:00",
+      "endDate": "2026-10-06T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Date(s): 1 September – 6 October Time: 1630 – 1730 Location: Youth Programs Price: $25 Details: Ages 3 – 5. The program prepares children for organized football in a fun, non-threatening environment. Sports physical, immunization record, and proof of flu shot required. Class is limited to 15 children. **Register online at parent.afcyp.com",
+      "category": "fitness"
+    },
+    {
       "id": "luke-wingman-wednesdays-2026-10-07",
       "title": "Wingman Wednesdays",
       "date": "2026-10-07T15:30:00",
@@ -473,6 +483,26 @@
       "location": "Zemke's Lounge / Club Five Six",
       "address": "14000 Eagle St, Luke AFB, AZ 85309",
       "description": "Weekly Wednesday hangout; free entry, wing variety $0.75.",
+      "category": "entertainment"
+    },
+    {
+      "id": "luke-youth-flag-football-2026-10-07",
+      "title": "Youth Flag Football",
+      "date": "2026-10-07T16:30:00",
+      "endDate": "2026-10-07T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Date(s): 2 September – 7 October 2026 Time: 1630 – 1730 Location: Youth Programs Price: $35 Details: Ages 5K-15. This is a non-competitive youth sport that emphasizes good sportsmanship, skill development, equal participation and loads of fun. First-time players are highly encouraged to participate. Sports physical, immunization record and proof of flu shot required. **Register online at parent.afcyp.com.",
+      "category": "fitness"
+    },
+    {
+      "id": "luke-dusty-slay-comedy-tour-2026-10-09",
+      "title": "Dusty Slay: Comedy Tour",
+      "date": "2026-10-09T18:00:00",
+      "endDate": "2026-10-09T21:00:00",
+      "location": "Club Five Six",
+      "address": "14000 Eagle St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "Date: 9 October 2026 Time: 1800 Location: Club Five Six Age: 18+ Only Details: Comedian Dusty Slay featuring Dennis Gaxiola | Adult Comedy",
       "category": "entertainment"
     },
     {

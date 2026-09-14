@@ -7,7 +7,7 @@
   "wing": "501 CSW",
   "latitude": 51.6822,
   "longitude": -1.7906,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "fairford-notif-real-id",
@@ -184,6 +184,36 @@
   ],
   "events": [
     {
+      "id": "fairford-blackout-poetry-2026-09-18",
+      "title": "Blackout Poetry",
+      "date": "2026-09-18T11:00:00",
+      "endDate": "2026-09-18T13:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us as we create simple, stunning artwork. Relax as we create poetry by blacking out old books or magazine pages, giving your mind a well-deserved break. Breathe and let the noise drift away.",
+      "category": "community"
+    },
+    {
+      "id": "fairford-crafty-cocktail-night-2026-09-18",
+      "title": "Crafty Cocktail Night",
+      "date": "2026-09-18T16:30:00",
+      "endDate": "2026-09-18T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join us to Paint cocktail glasses while enjoying some good drinks & Food",
+      "category": "recreation"
+    },
+    {
+      "id": "fairford-trivia-night-2026-09-25",
+      "title": "Trivia Night",
+      "date": "2026-09-25T16:30:00",
+      "endDate": "2026-09-25T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "🧠 Trivia Night at The Crown! 🍻 Think you know it all? Put your knowledge to the test at Trivia Night! Gather your team, bring your best guesses, and compete for bragging rights. 🎯 From random facts to pop culture and everything in between, you never know what questions are coming your way! 📍 The Crown 🧠 Trivia Night 👥 Grab your team. Test your knowledge. Have some fun!",
+      "category": "entertainment"
+    },
+    {
       "id": "fairford-raf-fairford-oktoberfest-2026-09-26",
       "title": "RAF Fairford Oktoberfest",
       "date": "2026-09-26",
@@ -191,6 +221,16 @@
       "location": "RAF Fairford",
       "address": "Fairford, United Kingdom",
       "description": "422 FSS public calendar event tagged for RAF Fairford.",
+      "category": "holiday"
+    },
+    {
+      "id": "fairford-halloween-spooktacular-2026-10-30",
+      "title": "Halloween Spooktacular",
+      "date": "2026-10-30T16:30:00",
+      "endDate": "2026-10-30T18:30:00",
+      "location": "Library",
+      "address": "",
+      "description": "Looking for some frightfully good fun, then the RAF Croughton Library’s Halloween Spooktacular is just for you! Dress to impress…or scare, we’ve got games and challenges, crafts, interactive spooky art, cut out photo portrait and more! It will be a scream",
       "category": "holiday"
     }
   ],

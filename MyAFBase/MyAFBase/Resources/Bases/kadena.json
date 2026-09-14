@@ -7,7 +7,7 @@
   "wing": "18 WG",
   "latitude": 26.3517,
   "longitude": 127.7692,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "kadena-notif-real-id",
@@ -206,104 +206,74 @@
   ],
   "events": [
     {
-      "id": "kadena-kids-fishing-camp-2026-09-07",
-      "title": "Kids Fishing Camp",
-      "date": "2026-09-07T00:00:00",
-      "endDate": "2026-09-07T23:59:59",
-      "location": "Kadena Marina",
-      "address": "Kadena Marina, Bldg #3500, Kadena AB, Okinawa 904-0000 Japan",
-      "description": "Monday, September 7 | 10 a.m. $25 | ages 4 and over This labor day, learn the basics, enjoy the outdoors, and build confidence on the water!",
-      "category": "outdoor"
-    },
-    {
-      "id": "kadena-power-hour-2026-09-07",
-      "title": "Power Hour",
-      "date": "2026-09-07T14:00:00",
-      "endDate": "2026-09-07T15:00:00",
-      "location": "Kadena AB, Okinawa, Japan",
-      "address": "Kadena AB, Okinawa, Japan",
-      "description": "Monday – Friday • 2 – 3 pm As the new school year begins, be sure to use the Teen Center’s Power Hour Program! Do homework, get peer tutoring, form study groups, all while earning points for prizes such as gift cards, snack bar coupons, and games!",
-      "category": "family"
-    },
-    {
-      "id": "kadena-salsa-night-2026-09-07",
-      "title": "Salsa Night",
-      "date": "2026-09-07T19:00:00",
-      "endDate": "2026-09-07T22:00:00",
-      "location": "The Rocker Club, Building #622",
-      "address": "The Rocker Club, Building #622, Kadena AB, 904-0000",
-      "description": "Every Monday Night Turn up the heat and let the rhythm move you at Salsa Night at The Rocker Club ! Join us for an evening of vibrant Latin beats, energetic dancing, and an electric atmosphere that will keep you on your feet all night long. Whether you’re a seasoned dancer or just want to learn a few moves, everyone is welcome on the dance floor. Feel the music, bring your friends, meet new people",
-      "category": "community"
-    },
-    {
-      "id": "kadena-3-day-tap-workshop-2026-09-08",
-      "title": "3-Day TAP Workshop",
-      "date": "2026-09-08T08:00:00",
-      "endDate": "2026-09-10T16:30:00",
-      "location": "Kadena AB, Okinawa, Japan",
-      "address": "Kadena AB, Okinawa, Japan",
-      "description": "September 8 – 10 | 8 a.m. – 4:30 p.m. Education Center, Bldg. 59, Room 115 Step 3 of the congressionally mandated Transition Assistance Program (TAP) for service members preparing for separation or retirement from the military.",
+      "id": "kadena-tsp-millionaire-2026-09-14",
+      "title": "TSP Millionaire",
+      "date": "2026-09-14T09:00:00",
+      "endDate": "2026-09-14T11:00:00",
+      "location": "MFRC, Building #220",
+      "address": "M&FRC, Building #220, Kadena AB",
+      "description": "Mon Sep 14th 9:00am - 11:00am Military & Family Readiness Center, Bldg 220 , 904-0200, Japan This workshop provides an overview of the TSP Roth and Traditional savings/retirement plan.",
       "category": "education"
     },
     {
-      "id": "kadena-smartphone-trivia-2026-09-08",
+      "id": "kadena-mangrove-kayaking-2026-09-15",
+      "title": "Mangrove Kayaking",
+      "date": "2026-09-15T06:00:00",
+      "endDate": "2026-09-15T11:30:00",
+      "location": "Outdoor Recreation, Building #313",
+      "address": "Outdoor Recreation, Building #313, Kadena AB, 904-0034",
+      "description": "Tuesday, September 15 | 6 - 11:30 a.m. $80 | ages 6 and over",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-post-deployment-brief-2026-09-15",
+      "title": "Post-Deployment Brief",
+      "date": "2026-09-15T08:30:00",
+      "endDate": "2026-09-15T10:00:00",
+      "location": "MFRC, Building #220",
+      "address": "M&FRC, Building #220, Kadena AB",
+      "description": "September 1, 8, 15, 22, 29 | 8:30 – 10 a.m. Open to all members deploying for 30 days or more. Family members are encouraged to attend. Military & Family Readiness Center BLDG#220",
+      "category": "education"
+    },
+    {
+      "id": "kadena-ballroom-and-salsa-dance-lessons-2026-09-15",
+      "title": "Ballroom and Salsa Dance Lessons",
+      "date": "2026-09-15T17:45:00",
+      "endDate": "2026-09-15T18:45:00",
+      "location": "",
+      "address": "",
+      "description": "Tuesdays | 5:45 – 6:45 p.m. $60 for four lessons Step into the rhythm with our Ballroom and Salsa Dance Lessons! Whether you’re a beginner or want to brush up on your skills, this is your chance to learn! To register, stop by the Schilling Community Center",
+      "category": "community"
+    },
+    {
+      "id": "kadena-smartphone-trivia-2026-09-15",
       "title": "Smartphone Trivia",
-      "date": "2026-09-08T19:00:00",
-      "endDate": "2026-09-08T22:00:00",
-      "location": "Kadena AB, Okinawa, Japan",
-      "address": "Kadena AB, Okinawa, Japan",
+      "date": "2026-09-15T19:00:00",
+      "endDate": "2026-09-15T22:00:00",
+      "location": "",
+      "address": "",
       "description": "Free for members | $5 per nonmember Teams of two | minimum of eight participants Think you’ve got what it takes to be the trivia champ? Put your knowledge to the test at Smartphone Trivia Night at The Rocker Club ! Gather your friends, bring your phone, and get ready for a fast-paced night of fun questions, friendly competition, and plenty of laughs.",
       "category": "entertainment"
     },
     {
-      "id": "kadena-stem-science-2026-09-10",
-      "title": "STEM Science",
-      "date": "2026-09-10T16:00:00",
-      "endDate": "2026-09-10T17:00:00",
-      "location": "Schilling Community Center, Building #455",
-      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
-      "description": "Thursdays • 4 – 5 pm • $40 per month 1st & 3rd Thursday • Ages 6 – 9 2nd & 4th Thursday • Ages 10 – 12 Registration required.",
+      "id": "kadena-kids-night-special-2026-09-16",
+      "title": "Kids Night Special",
+      "date": "2026-09-16T08:00:00",
+      "endDate": "2026-09-16T17:00:00",
+      "location": "Hanabi’s, The Rocker",
+      "address": "Hanabi's, The Rocker, Building #622, Kadena AB, 904-0000",
+      "description": "Wednesdays | 4-9 p.m. 50% off | ages 5 – 12 Free | ages 4 and under Bring the whole family. Children 12 and under receive special pricing with the purchase of an adult entrée. Dine-in only.",
+      "category": "family"
+    },
+    {
+      "id": "kadena-cksp-continuing-education-2026-09-16",
+      "title": "CKSP Continuing Education",
+      "date": "2026-09-16T13:00:00",
+      "endDate": "2026-09-16T15:00:00",
+      "location": "Kadena AB",
+      "address": "Okinawa, Japan",
+      "description": "Wed Sep 16th 1:00pm - 3:00pm Education Center , Bldg 59 | Room 116 Commander's Key Support Program, annual updates/continuing education in-seat Suicide Awareness and SAPR annual training.",
       "category": "education"
-    },
-    {
-      "id": "kadena-karaoke-2026-09-10",
-      "title": "Karaoke",
-      "date": "2026-09-10T19:00:00",
-      "endDate": "2026-09-10T22:00:00",
-      "location": "The Rocker Club, Building #622",
-      "address": "The Rocker Club, Building #622, Kadena AB, 904-0000",
-      "description": "Step up to the mic and show us what you’ve got at Karaoke Night at The Rocker Club ! Whether you’re a powerhouse vocalist, a shower singer, or just here for the fun, it’s your time to shine. Sing your heart out at Karaoke Night at the Rocker Club on Kadena Air Base, where great music, a lively crowd, and a wide song selection create an unforgettable night of entertainment. Whether you’re a seasone",
-      "category": "entertainment"
-    },
-    {
-      "id": "kadena-911-memorial-run-2026-09-11",
-      "title": "911 Memorial Run",
-      "date": "2026-09-11T14:00:00",
-      "endDate": "2026-09-11T16:00:00",
-      "location": "Kadena AB, Okinawa, Japan",
-      "address": "Kadena AB, Okinawa, Japan",
-      "description": "25th Anniversary Remember. Honor. Run Together. Friday, September 11 | 4 – 6 p.m. Marek Park, Kadena Air Base EVENTS & DIVISIONS 5K Memorial Run | Adult & High School Division 1-Mile Hero Walk / Run | Youth Division SPECIAL FEATURES First Responder & Military Vehicle Displays “Never Forget” Memorial Wall & Flag Tribute Free Water & Snacks Provided Wear: Red, White and Blue or Unit/Department Shirt",
-      "category": "fitness"
-    },
-    {
-      "id": "kadena-mat-about-fall-diy-painted-doormat-worksh",
-      "title": "Mat About Fall: DIY Painted Doormat Workshop",
-      "date": "2026-09-11T18:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "Schilling Community Center, Building #455",
-      "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
-      "description": "Friday, September 11 | 6 – 8 p.m. Schilling Ballroom Register via WebTrac – spaces limited! No experience is necessary; all supplies and materials will be provided. Choose from a variety of seasonal stencils and designs, or create your own unique masterpiece. Bring your creativity and leave with a beautiful handmade decoration perfect for your front porch. $10 per person | pre registration require",
-      "category": "education"
-    },
-    {
-      "id": "kadena-club-championship-2026-09-12",
-      "title": "Club Championship",
-      "date": "2026-09-12T00:00:00",
-      "endDate": "2026-09-13T23:59:59",
-      "location": "Banyan Tree Golf Course",
-      "address": "Banyan Tree Golf Course, Bldg #12, Kadena AB, Okinawa 904-0000 Japan",
-      "description": "Kadena Cup Series September 12 – 13 Format: Individual Stroke Play Tee Times: Assigned Tournament Fee: $120 Plus green and cart fees for both days Sign-Up Deadline: Monday, September 7 Compete. Challenge Yourself. Claim the Cup.",
-      "category": "community"
     },
     {
       "id": "kadena-family-bingo-2026-09-16",
@@ -316,6 +286,26 @@
       "category": "entertainment"
     },
     {
+      "id": "kadena-closure-kadena-education-training-2026-09-17",
+      "title": "Closure: Kadena Education & Training",
+      "date": "2026-09-17T00:00:00",
+      "endDate": "2026-09-17T23:59:59",
+      "location": "Kadena AB",
+      "address": "Okinawa, Japan",
+      "description": "We will be closed all day on September 17 for FSD training.",
+      "category": "education"
+    },
+    {
+      "id": "kadena-department-of-labor-employment-track-2026-09-17",
+      "title": "Department of Labor Employment Track",
+      "date": "2026-09-17T08:00:00",
+      "endDate": "2026-09-18T16:30:00",
+      "location": "Education Center | Rm 115",
+      "address": "Okinawa, Japan",
+      "description": "Thu Sep 17th - Fri 18th | 8:00 a.m.- 4:30 p.m. Education Center , Bldg 59, Room 115 Part of the congressionally mandated Transition Assistance Program (TAP) for service members preparing for separation or retirement from the military. Open to transitioning service members who have completed the TAP Workshop and their spouses.",
+      "category": "education"
+    },
+    {
       "id": "kadena-stem-science-2026-09-17",
       "title": "STEM Science",
       "date": "2026-09-17T16:00:00",
@@ -324,6 +314,156 @@
       "address": "Schilling Community Center, Building #455, Kadena AB, 904-0200",
       "description": "Thursdays • 4 – 5 pm • $40 per month 1st & 3rd Thursday • Ages 6 – 9 2nd & 4th Thursday • Ages 10 – 12 Registration required.",
       "category": "education"
+    },
+    {
+      "id": "kadena-karaoke-2026-09-17",
+      "title": "Karaoke",
+      "date": "2026-09-17T19:00:00",
+      "endDate": "2026-09-17T22:00:00",
+      "location": "The Rocker Club, Building #622",
+      "address": "The Rocker Club, Building #622, Kadena AB, 904-0000",
+      "description": "Step up to the mic and show us what you’ve got at Karaoke Night at The Rocker Club ! Whether you’re a powerhouse vocalist, a shower singer, or just here for the fun, it’s your time to shine. Sing your heart out at Karaoke Night at the Rocker Club on Kadena Air Base, where great music, a lively crowd, and a wide song selection create an unforgettable night of entertainment. Whether you’re a seasoned performer or just having fun with friends, enjoy a welcoming atmosphere, top hits across genres, and one of the best nightlife experiences on base.",
+      "category": "entertainment"
+    },
+    {
+      "id": "kadena-power-boat-safety-classes-2026-09-18",
+      "title": "Power Boat Safety Classes",
+      "date": "2026-09-18T09:00:00",
+      "endDate": "2026-09-18T09:00:00",
+      "location": "Kadena Marina",
+      "address": "Kadena Marina, Bldg #3500, Kadena AB, Okinawa 904-0000 Japan",
+      "description": "Fridays and Saturdays • 9 am Online certification and hands-on safety training. This class is required to rent power boats at Kadena Marina.",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-language-exchange-2026-09-18",
+      "title": "Language Exchange ランゲージエクスチェンジ!!",
+      "date": "2026-09-18T11:30:00",
+      "endDate": "2026-09-18T12:30:00",
+      "location": "MFRC, Building #220",
+      "address": "M&FRC, Building #220, Kadena AB",
+      "description": "September 11, 18 and 25 | 11:30 a.m. – 12:30 p.m. Military & Family Readiness Center, Bldg 220 A language exchange group for both Japanese and English speakers. Learn about language and culture from native speakers and practice your conversation skills. If you would like to cancel, please call Military & Family Readiness Center DSN (315) 634-3366 or Commercial 098-961-3366 お昼休みに英会話練習しませんか？ ランゲージエクスチェンジ募集！ 嘉手納基地へアクセスできる方はどなたでも参加できます。",
+      "category": "family"
+    },
+    {
+      "id": "kadena-pups-and-paddleboards-2026-09-19",
+      "title": "Pups and Paddleboards",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Kadena Marina",
+      "address": "Kadena Marina, Bldg #3500, Kadena AB, Okinawa 904-0000 Japan",
+      "description": "Saturday, September 19 | 9 a.m. Bring your dog and enjoy stand-up paddleboarding at Kadena Marina.",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-september-smackdown-2026-2026-09-19",
+      "title": "September Smackdown 2026",
+      "date": "2026-09-19T00:00:00",
+      "endDate": "2026-09-19T23:59:59",
+      "location": "Kadena ESPORTS",
+      "address": "",
+      "description": "Saturday, September 19 Schilling Community Center Register: July 20 – September 1 Games | MTG, Street Fighter, Tekken and Super Smash Bros Visit kadenafss.com/esports to register now!",
+      "category": "entertainment"
+    },
+    {
+      "id": "kadena-pre-deployment-brief-2026-09-22",
+      "title": "Pre-Deployment Brief",
+      "date": "2026-09-22T12:00:00",
+      "endDate": "2026-09-22T12:00:00",
+      "location": "MFRC, Building #220",
+      "address": "M&FRC, Building #220, Kadena AB",
+      "description": "September 8 and 22 | 10 - 11:30 a.m. Open to all members deploying for 30 days or more. Family members are encouraged to attend. Military & Family Readiness Center, Bldg 220 , 904-0200, Japan",
+      "category": "family"
+    },
+    {
+      "id": "kadena-amazing-race-2026-09-23",
+      "title": "Amazing Race",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-25T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Team Kadena “Amazing Race” Date: September 23-25 Registration Deadline: September 18 Register at: https://www.zeffy.com/en-us/ticketing/amazing-race–2026 Follow on Facebook: “Amazing Race Team Kadena” & “Kadena Force Support Squadron” Location: Kadena AB Team Size: 4+ people Cost: FREE Who: Team Kadena Spouses What: Team up with fellow Team Kadena spouses to solve clues, tackle squadron-hosted challenges, and discover the people and missions behind Team Kadena. Awards Ceremony & After Party: September 25 Location: The Rocker Club Time: 7 p.m.",
+      "category": "fitness"
+    },
+    {
+      "id": "kadena-membership-appreciation-day-2026-09-25",
+      "title": "Membership Appreciation Day",
+      "date": "2026-09-25T15:30:00",
+      "endDate": "2026-09-25T17:00:00",
+      "location": "Youth Center, Building #1849",
+      "address": "Youth Center, Building #1849, Kadena AB, 904-0000",
+      "description": "For Youth Center Members Only* Friday, September 25 | 3:30 p.m.",
+      "category": "family"
+    },
+    {
+      "id": "kadena-sup-and-snorkeling-2026-09-26",
+      "title": "SUP and Snorkeling",
+      "date": "2026-09-26T08:00:00",
+      "endDate": "2026-09-26T13:00:00",
+      "location": "Outdoor Recreation, Building #313",
+      "address": "Outdoor Recreation, Building #313, Kadena AB, 904-0034",
+      "description": "Saturday, September 26 | 8 a.m. - 1 p.m. $40 | ages 6 and over",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-intro-to-archery-class-2026-09-26",
+      "title": "Intro to Archery Class",
+      "date": "2026-09-26T15:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "Outdoor Recreation, Building #313",
+      "address": "Outdoor Recreation, Building #313, Kadena AB, 904-0034",
+      "description": "Intro to Archery Class Saturday, September 26 | 3 - 4 p.m.",
+      "category": "outdoor"
+    },
+    {
+      "id": "kadena-japanese-grocery-shopping-bus-tour-2026-09-30",
+      "title": "Japanese Grocery Shopping Bus Tour!",
+      "date": "2026-09-30T09:30:00",
+      "endDate": "2026-09-30T12:00:00",
+      "location": "MFRC, Building #220",
+      "address": "M&FRC, Building #220, Kadena AB",
+      "description": "Wednesday, September 30 9:30 a.m. - noon Take a guided tour to an off-base grocery store and learn to navigate supermarket aisles and identify the most common staple foods in Japanese. Transportation provided. Meet up at Military & Family Readiness Center by 09:30 #220 to ride the bus. If you have your own shopping bags and basket, please bring! 16 years old and above only. If you would like to cancel, please call Mi",
+      "category": "family"
+    },
+    {
+      "id": "kadena-superintendent-s-revenge-2026-10-03",
+      "title": "Superintendent's Revenge",
+      "date": "2026-10-03T07:30:00",
+      "endDate": "2026-10-03T17:00:00",
+      "location": "Banyan Tree Golf Course",
+      "address": "Banyan Tree Golf Course, Bldg #12, Kadena AB, Okinawa 904-0000 Japan",
+      "description": "Saturday, October 3 Shotgun start | 7:30 a.m. Four-person scramble Registration deadline | Monday, September 28 $50 per person, plus green and cart fee.",
+      "category": "recreation"
+    },
+    {
+      "id": "kadena-79th-air-force-ball-2026-10-03",
+      "title": "79th Air Force Ball",
+      "date": "2026-10-03T17:00:00",
+      "endDate": "2026-10-03T23:59:00",
+      "location": "",
+      "address": "",
+      "description": "Keystone of the Pacific Registration Saturday, Oct. 3 Social Hour | 5 p.m. Program Begins | 6 p.m. Okinawa Suntory Arena Military Attire: Mess dress or semi-formal Civilian Attire: Formal After-Party | 9 p.m. Rocker Club, Kadena Air Base",
+      "category": "recreation"
+    },
+    {
+      "id": "kadena-ballroom-and-salsa-dance-lessons-2026-10-06",
+      "title": "Ballroom and Salsa Dance Lessons",
+      "date": "2026-10-06T17:45:00",
+      "endDate": "2026-10-06T18:45:00",
+      "location": "",
+      "address": "",
+      "description": "Tuesdays | 5:45 – 6:45 p.m. $60 for four lessons Step into the rhythm with our Ballroom and Salsa Dance Lessons! Whether you’re a beginner or want to brush up on your skills, this is your chance to learn! To register, stop by the Schilling Community Center",
+      "category": "community"
+    },
+    {
+      "id": "kadena-ballroom-and-salsa-dance-lessons-2026-11-03",
+      "title": "Ballroom and Salsa Dance Lessons",
+      "date": "2026-11-03T17:45:00",
+      "endDate": "2026-11-03T18:45:00",
+      "location": "",
+      "address": "",
+      "description": "Tuesdays | 5:45 – 6:45 p.m. $60 for four lessons Step into the rhythm with our Ballroom and Salsa Dance Lessons! Whether you’re a beginner or want to brush up on your skills, this is your chance to learn! To register, stop by the Schilling Community Center",
+      "category": "community"
     }
   ],
   "newcomers": {

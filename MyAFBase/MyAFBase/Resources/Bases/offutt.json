@@ -7,7 +7,7 @@
   "wing": "55 WG",
   "latitude": 41.1183,
   "longitude": -95.915,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "offutt-notif-real-id",
@@ -255,56 +255,6 @@
   ],
   "events": [
     {
-      "id": "offutt-playground-chalk-2026-09-09",
-      "title": "Playground Hangout: Chalk Art",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
-      "description": "Family chalk art hangout at Base Lake; 55 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "offutt-911-run-stair-2026-09-11",
-      "title": "9/11 Remembrance Run & Stair Climb",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Offutt AFB",
-      "address": "Bellevue, NE",
-      "description": "9/11 Remembrance Run & Stair Climb; 55 FSS calendar.",
-      "category": "community"
-    },
-    {
-      "id": "offutt-zombie-apocalypse-2026-09-12",
-      "title": "Zombie Apocalypse Survival Day",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Offutt AFB",
-      "address": "",
-      "description": "Zombie Apocalypse Survival Day (listed sold out on FSS site); 55 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "offutt-4-person-hot-ball-scramble-2026-09-12",
-      "title": "4-Person Hot Ball Scramble",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Willow Lakes Golf Course",
-      "address": "12301 S. 25th St, Bellevue, NE, United States",
-      "description": "🔥🏌️Get your golf game sizzling! Register for the 14th ANNUAL 4-PERSON HOT BALL SCRAMBLE at Willow Lakes Golf Course. Saturday, September 12 with a 9:30am shotgun start. Three members of each team play a scramble format. The fourth golfer plays an individual HOT BALL. Both results are added up to score the hole.  ONLY $45 […]",
-      "category": "community"
-    },
-    {
-      "id": "offutt-bike-bus-mud-fun-2026-09-13",
-      "title": "Bike Bus & Mud Fun",
-      "date": "2026-09-13",
-      "endDate": "2026-09-13",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
-      "description": "🚲💦 💥 Ride, race, and get muddy! Sign your kids up for the BIKE BUS & MUD FUN hosted by Offutt Outdoor Rec. 📅 Sunday, September 13 ⏰ 1 – 3pm 📍 Offutt Base Lake Kids ages 10+ can bring their bikes for an afternoon of: 🚲 Bike racing, mud riding, and riding around the lake 🏆 Prizes & bike swag 🍿 […]",
-      "category": "outdoor"
-    },
-    {
       "id": "offutt-end-of-summer-bash-2026-09-18",
       "title": "End of Summer Bash",
       "date": "2026-09-18",
@@ -355,6 +305,16 @@
       "category": "outdoor"
     },
     {
+      "id": "offutt-hornady-ammunition-plant-tour-sold-out-2026-09-23",
+      "title": "Hornady Ammunition Plant Tour **SOLD OUT**",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "UPDATE: This event is sold out. 🎯 An exclusive behind-the-scenes tour! Register for the HORNADY AMMUNITION PLANT TOUR hosted by Offutt Outdoor Rec. 📅 Wednesday, September 23 📍 Grand Island, NE 🚌 Depart Outdoor Rec at 7:45am Go beyond the finished product and see how precision ammunition is made, from lead core casting and bullet assembly to the quality control processes that set Hornady apart. Tour Highlights: ✔️ Amm",
+      "category": "outdoor"
+    },
+    {
       "id": "offutt-couples-canoe-movie-night-2026-09-25",
       "title": "Couples Canoe & Movie Night",
       "date": "2026-09-25",
@@ -365,6 +325,16 @@
       "category": "outdoor"
     },
     {
+      "id": "offutt-golf-fitting-day-2026-10-02",
+      "title": "Golf Fitting Day",
+      "date": "2026-10-02T14:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Willow Lakes Golf Course",
+      "address": "12301 S. 25th St, Bellevue, NE 68123",
+      "description": "⛳Sample the latest technology in golf equipment! Register for GOLF FITTING DAY at Willow Lakes Golf Course. Friday, October 2 from 2-6pm. Improve your game & try out the newest gear from PXG for FREE. PXG offers special military pricing on their golf clubs, providing incredible value. ➡️Click here to book a fitting appointment: https://app.acuityscheduling.com/schedule.php?owner=15121460&calendarID=12054347 Willow La",
+      "category": "recreation"
+    },
+    {
       "id": "offutt-ladies-kayaking-night-2026-10-09",
       "title": "Ladies Kayaking Night",
       "date": "2026-10-09",
@@ -373,6 +343,56 @@
       "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
       "description": "🌊 New to kayaking? Grab a paddle and give it a try! Register for LADIES KAYAKING NIGHT hosted by Offutt Outdoor Rec. 🛶 Friday, October 9  from 5:30–8:30pm 📍 Offutt Base Lake Designed for […]",
       "category": "outdoor"
+    },
+    {
+      "id": "offutt-sugar-skull-painting-2026-10-09",
+      "title": "Sugar Skull Painting",
+      "date": "2026-10-09T17:30:00",
+      "endDate": "2026-10-09T20:00:00",
+      "location": "Offutt Event Center",
+      "address": "914 SAC Blvd, Offutt AFB, NE 68113",
+      "description": "💀🎨Make the world more colorful! Register for SUGAR SKULL PAINTING hosted by the Warhawk Community Center and Offutt Arts & Crafts. 📅 Friday, October 9 ⏰ 5:30 - 8pm 📍 Offutt Event Center Enjoy a fun evening where you can create your own colorful ceramic sugar skull while enjoying good food, a drink, and a family movie. Includes: 💀 Ceramic sugar skull 🖌️ All painting supplies & instruction 🌮 Chips & salsa 🍹 One Margari",
+      "category": "family"
+    },
+    {
+      "id": "offutt-ride-the-rails-2026-10-17",
+      "title": "Ride the Rails",
+      "date": "2026-10-17T00:00:00",
+      "endDate": "2026-10-17T23:59:59",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "🚲✨ Pedal across the sky at sunset. Register for RIDE THE RAILS hosted by Offutt Outdoor Rec. 📅 Saturday, October 17 📍Boone, Iowa Pedal an electric-assist railbike along a scenic 12.5-mile round trip, crossing the impressive Bass Creek High Trestle and the Des Moines River Bridge as the sun begins to set. Your trip includes: ✔️ Transportation from Outdoor Rec ✔️ Railbike ticket ✔️ Electric-assist railbike ✔️ Twilight ",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-family-fun-at-the-farm-2026-10-17",
+      "title": "Family Fun at the Farm",
+      "date": "2026-10-17T14:00:00",
+      "endDate": "2026-10-17T18:00:00",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "🔥 Fall is better around the firepit! 🍂 Register for FAMILY FUN AT THE FARM hosted by the Warhawk Community Center. 📅 Saturday, October 17 🕑 2 - 6pm 📍 Bellevue Berry Farm Round up the family for an afternoon of food, fun, and fall vibes. Hang out around the campfire, roast some s'mores, enjoy a hot dog and let the kids experience all the fun of the farm. ONLY $24 per person. Ages 2 & under are FREE. Open to all DoD ID",
+      "category": "family"
+    },
+    {
+      "id": "offutt-thermal-west-texas-hog-hunt-2026-10-23",
+      "title": "Thermal West Texas Hog Hunt",
+      "date": "2026-10-23T00:00:00",
+      "endDate": "2026-10-25T23:59:59",
+      "location": "Offutt AFB",
+      "address": "Bellevue, NE",
+      "description": "🌙🐗 The hunt begins after dark. Take adventure to the next level with a THERMAL WEST TEXAS HOG HUNT hosted by Offutt Outdoor Rec. A high-action, all-inclusive thermal hunting experience across 450,000 acres of prime land. 📅 October 23 - 25 🕖 Depart Friday morning • Return Sunday night 💲 $1,300 per person 📍 West Texas What's Included ✔️ 2 nights of guided thermal hog hunts ✔️ Opportunity to shoot numerous hogs ✔️ Suppr",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-titans-of-offutt-powerlifting-competition-2026-10-31",
+      "title": "Titans of Offutt Powerlifting Competition",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Offutt Field House",
+      "address": "308 Looking Glass Ave, Offutt AFB, NE 68113",
+      "description": "💪 Got the strength? Prove it! 🏋️ Get ready for the 2026 TITANS OF OFFUTT POWERLIFTING COMPETITION hosted by the Offutt Field House. Compete in traditional bench, deadlift, and squat events. 📅 Saturday, Oct. 31 ONLY $10 per competitor. Registration opens soon. Start training, mark your calendar and get ready to lift!",
+      "category": "fitness"
     }
   ],
   "newcomers": {

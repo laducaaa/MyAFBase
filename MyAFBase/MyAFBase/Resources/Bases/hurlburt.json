@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -288,94 +288,14 @@
   ],
   "events": [
     {
-      "id": "hurlburt-monday-blues-2026-09-07",
-      "title": "Monday Blues",
-      "date": "2026-09-07T09:00:00",
-      "endDate": "2026-09-07T15:00:00",
-      "location": "Hurlburt Lanes",
-      "address": "442 Cody Ave, Hurlburt Field, FL, 32544",
-      "description": "Bowl away those Monday Blues at Hurlburt Lanes! Every Monday 9am – 3pm All games – $3 All shoe rentals – $2.50 Questions? Contact Hurlburt Lanes at (850) 884-6941",
-      "category": "community"
-    },
-    {
-      "id": "hurlburt-kid-s-boxing-2026-09-08",
-      "title": "Kid’s Boxing",
-      "date": "2026-09-08T16:00:00",
-      "endDate": "2026-09-08T17:30:00",
-      "location": "Aderholt Fitness Center",
-      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
-      "description": "Give your child the chance to build confidence, discipline, and strength with our Kids’ Boxing program! Designed for ages 5-13 , this class focuses on fundamental boxing techniques, fitness, and fun in a safe and supportive environment. 📅 Tuesdays & Thursdays | 4:00 – 5:30 PM 💲 $99/month per person 📍 Aderholt Fitness Center For more information or to sign up, call Aderholt at 850-884-6884 . Let’s ",
-      "category": "fitness"
-    },
-    {
-      "id": "hurlburt-taco-tuesdays-at-the-hooch-2026-09-08",
-      "title": "Taco Tuesdays at the Hooch",
-      "date": "2026-09-08T16:30:00",
-      "endDate": "2026-09-08T19:30:00",
-      "location": "The Hooch Bar & Grill",
-      "address": "107 Kissam St, Hurlburt Field, FL, 32544",
-      "description": "Join us every Tuesday at the Hooch for tacos! $3 Beef or Chicken Tacos $4 Chef’s Special Tacos $4 House Margaritas Bonus: Club members only get $2 off their food orders! Not a club member? Sign up here!",
-      "category": "community"
-    },
-    {
-      "id": "hurlburt-competition-boxing-101-2026-09-08",
-      "title": "Competition Boxing 101",
-      "date": "2026-09-08T17:30:00",
-      "endDate": "2026-09-08T20:00:00",
-      "location": "Aderholt Fitness Center",
-      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
-      "description": "Ready to step into the ring? Join our Competition Boxing 101 program and train like a fighter! This program is designed for all skill levels, focusing on technique, conditioning, and sparring fundamentals to prepare you for competition. 📅 Tuesdays & Thursdays | 5:30 – 8:00 PM 💲 $60/month per person 📍 Aderholt Fitness Center For more information or to sign up, call Aderholt at 850-884-6884 . Don’t ",
-      "category": "fitness"
-    },
-    {
-      "id": "hurlburt-prime-rib-night-at-the-hooch-2026-09-09",
-      "title": "Prime Rib Night at The Hooch",
-      "date": "2026-09-09T16:30:00",
-      "endDate": "2026-09-09T19:30:00",
-      "location": "The Hooch Bar & Grill",
-      "address": "107 Kissam St, Hurlburt Field, FL, 32544",
-      "description": "Every Wednesday, stop by The Hooch for Prime Rib Night 8oz. Prime Rib – $25 | 12oz. Prime Rib – $32 while supplies last Club Members receive $2 off purchases of $10 or more! Not a member? Sign up here! Meal includes Slow Roasted Prime Rib Baked Potato House Salad Roll Aujus Questions? Call The Soundside at 850-884-7507",
-      "category": "community"
-    },
-    {
-      "id": "hurlburt-gator-lakes-pizza-scramble-2026-09-09",
-      "title": "Gator Lakes Pizza Scramble",
-      "date": "2026-09-09T17:00:00",
-      "endDate": "2026-09-09T20:00:00",
-      "location": "Gator Lakes Golf Course",
-      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
-      "description": "🍕Enjoy a 2-person scramble format golf with Peoria handicap every Wednesday, starting 15 April!🍕 5 PM shotgun start 9 holes Must register each week by calling (850) 881-2251 or visiting the Pro Shop Diamond AGF – $17 Gold AGF – $23 Non-AGF – $33 Cost includes 9 holes, green, and cart fees. Prizes, pizza, and a drink are provided. No walkers allowed during play. This event is open to all DoD Cardho",
-      "category": "recreation"
-    },
-    {
-      "id": "hurlburt-the-heavy-the-hopeful-5k-2026-09-10",
-      "title": "The Heavy & The Hopeful 5K",
-      "date": "2026-09-10T07:00:00",
-      "endDate": "2026-09-10T21:00:00",
-      "location": "Hurlburt Field, FL",
-      "address": "Hurlburt Field, FL",
-      "description": "The Heavy & The Hopeful 5K Run/Walk “We Carry It Together.” 💙 Join us for The Heavy & The Hopeful 5K Run/Walk in recognition of World Suicide Prevention Day . Hosted by the Hurlburt Field Integrated Resilience Office , this meaningful event is an opportunity to come together, acknowledge life’s challenges, and carry a message of hope and support for one another. 📅 Thursday, 10 September ⏰ 7:00 AM ",
-      "category": "fitness"
-    },
-    {
-      "id": "hurlburt-storytime-2026-09-10",
-      "title": "Storytime",
-      "date": "2026-09-10T10:00:00",
-      "endDate": "2026-09-10T11:00:00",
-      "location": "Hurlburt Field Library",
-      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
-      "description": "Come to the Library and enjoy books, crafts and surprises! Held every Thursday 10-11am. Recommended for 3-6yrs! Questions? Contact (850) 884-6266 for more details.",
+      "id": "hurlburt-start-smart-flag-football-2026-09-14",
+      "title": "Start Smart Flag Football",
+      "date": "2026-09-14T00:00:00",
+      "endDate": "2026-10-16T23:59:59",
+      "location": "Hurlburt Field Youth Programs",
+      "address": "117 McMillan St, Hurlburt Field, FL 32544",
+      "description": "Get your little athlete ready for the fun of organized football in a safe, positive, and encouraging environment! 🏈🌟 Start Smart Flag Football helps children and parents learn the basics of the game together-without the pressure of competition or fear of getting hurt. 📅 Registration: 14 September - 16 October 📅 Classes: 19 October - 4 November ⏰ Mondays & Wednesdays | 5:00-6:00 PM 📍 Youth Center 👧🧒 Ages 3-5 Over this",
       "category": "family"
-    },
-    {
-      "id": "hurlburt-golffest-celebration-2026-09-12",
-      "title": "GolfFest Celebration",
-      "date": "2026-09-12T08:00:00",
-      "endDate": "2026-09-12T12:00:00",
-      "location": "Gator Lakes Golf Course",
-      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
-      "description": "Celebrate all things golf at GolfFest Celebration ! ⛳🎉 Whether you’re competing in the tournament or just stopping by for the festivities, there’s something for every golfer to enjoy at Gator Lakes Golf Course. 📅 Saturday, 12 September 📍 Gator Lakes Golf Course 🏌️ Pin Seeker Golf Tournament ⏰ 8:00 AM Shotgun Start Compete in an exciting 2-Person Best Ball tournament played across 18 Par 3 holes us",
-      "category": "recreation"
     },
     {
       "id": "hurlburt-gator-lakes-pizza-scramble-2026-09-16",
@@ -386,6 +306,36 @@
       "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
       "description": "🍕Enjoy a 2-person scramble format golf with Peoria handicap every Wednesday, starting 15 April!🍕 5 PM shotgun start 9 holes Must register each week by calling (850) 881-2251 or visiting the Pro Shop Diamond AGF – $17 Gold AGF – $23 Non-AGF – $33 Cost includes 9 holes, green, and cart fees. Prizes, pizza, and a drink are provided. No walkers allowed during play. This event is open to all DoD Cardho",
       "category": "recreation"
+    },
+    {
+      "id": "hurlburt-creative-nights-make-your-own-fall-porch-sign-2026-09-1",
+      "title": "Creative Nights - Make Your Own Fall Porch Sign",
+      "date": "2026-09-16T17:00:00",
+      "endDate": "2026-09-16T18:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
+      "description": "Join us at our Cre ative Nig hts at the Community Center ! Join us and create a beautiful fall-themed porch sign perfect for welcoming guests all autumn long! Choose your colors, designs, and seasonal touches to craft a piece that fits your home's style. For just $20 per person , all supplies and craft to keep are included. Space is limited Must sign up in at the Community Center: Monday-Friday 10am-6pm (cash only, w",
+      "category": "recreation"
+    },
+    {
+      "id": "hurlburt-pow-mia-vigil-run-2026-09-17",
+      "title": "POW/MIA Vigil Run",
+      "date": "2026-09-17T07:00:00",
+      "endDate": "2026-09-18T07:00:00",
+      "location": "Aderholt Fitness Center",
+      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida 32544",
+      "description": "Until They All Come Home. You Are Not Forgotten. 🕯️ Presented by Hurlburt Field and The Sumners: POW/MIA 24-Hour Vigil Run/Walk - a powerful tribute honoring the service members who never returned home and those still missing. Together, we will Stand Watch. Keep the Promise. and carry the vigil forward in remembrance. 📅 17-18 September ⏰ Run Begins: 7:00 AM, Thursday, 17 September 📍 Aderholt Fitness Center Track Part",
+      "category": "fitness"
+    },
+    {
+      "id": "hurlburt-community-music-jam-2026-09-18",
+      "title": "Community Music Jam",
+      "date": "2026-09-18T17:00:00",
+      "endDate": "2026-09-18T19:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
+      "description": "Calling all musicians, singers, and music lovers! Join us for an evening of fellowship, creativity, and great music at our Community Music Jam. Whether you play an instrument, love to sing, or simply enjoy live music, everyone is welcome. Come connect with fellow musicians, sharpen your skills, and make lasting memories through the universal language of music. All skill levels are welcome-from beginners to seasoned p",
+      "category": "entertainment"
     },
     {
       "id": "hurlburt-deep-sea-fishing-2026-09-19",
@@ -408,6 +358,16 @@
       "category": "community"
     },
     {
+      "id": "hurlburt-paddleboard-101-2026-09-25",
+      "title": "Paddleboard 101",
+      "date": "2026-09-25T09:30:00",
+      "endDate": "2026-09-25T12:00:00",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
+      "description": "Paddleboard 101 🌊 Ready to get on the water? Learn the basics of paddleboarding in this beginner-friendly class designed to help you build the skills and confidence you need to get started. Our instructors will cover essential paddleboarding techniques, safety, balance, and paddling skills-all in a fun, supportive environment. 📅 Friday, 25 September ⏰ 9:30 AM 📍 ODR Beach - 100 Corlew Rd. 💰 $20 per person - Paddleboar",
+      "category": "outdoor"
+    },
+    {
       "id": "hurlburt-bingo-at-the-club-2026-09-25",
       "title": "Bingo at The Club",
       "date": "2026-09-25T17:00:00",
@@ -428,6 +388,36 @@
       "category": "community"
     },
     {
+      "id": "hurlburt-star-gazing-2026-09-28",
+      "title": "Star Gazing",
+      "date": "2026-09-28T16:00:00",
+      "endDate": "2026-09-28T21:00:00",
+      "location": "Lil' Commando Community Park",
+      "address": "McMillan Street, Hurlburt Field, Florida 32544",
+      "description": "🌟 STAR GAZING! 🔭✨ Join the Hurlburt Field Base Library, Hurlburt Youth Center & Northwest Florida Astronomy Association for a night under the stars! 📅 Monday, 16 October 🕔 5-9 PM | Setup @ 4pm 📍 Youth Center Ball Park, Fields 3 & 4 Come explore the night sky and view planets with expert astronomers on hand to help. Participants are welcome to bring their own telescope and join the fun! 📞 884-6266 🌐 hurlburtlibrary.or",
+      "category": "family"
+    },
+    {
+      "id": "hurlburt-magic-all-stars-2026-10-09",
+      "title": "Magic All Stars",
+      "date": "2026-10-09T18:00:00",
+      "endDate": "2026-10-09T20:30:00",
+      "location": "The Soundside",
+      "address": "107 Kissam St, Bldg 90918, Hurlburt Field, Florida 32544",
+      "description": "Magic All Stars ✨🎩 Get ready for an evening of magic, laughter, and family-friendly entertainment! Join us for the Magic All Stars , featuring three incredible performers who will amaze and delight audiences of all ages. 🎩 Featuring: ✨ Jason Michaels ✨ Ben Young ✨ Jessica Jane 📅 Friday, 9 October ⏰ Doors Open: 6:00 PM 🎭 Show Starts: 6:30 PM 📍 The Soundside - 107 Kissam St. 🎟️ FREE Admission Bring the whole family and",
+      "category": "family"
+    },
+    {
+      "id": "hurlburt-creative-nights-make-your-own-charcuterie-board-2026-10",
+      "title": "Creative Nights - Make Your Own Charcuterie Board",
+      "date": "2026-10-14T17:00:00",
+      "endDate": "2026-10-14T18:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
+      "description": "Join us at our Cre ative Nig hts at the Community Center ! Design and create your own wooden charcuterie board ! You'll sand, stain, and personalize your board to make a beautiful serving piece that's perfect for entertaining or gifting. For just $20 per person , all supplies and craft to keep are included. Space is limited Must sign up in at the Community Center: Monday-Friday 10am-6pm (cash only, with an ATM on-sit",
+      "category": "recreation"
+    },
+    {
       "id": "hurlburt-deep-sea-fishing-2026-10-17",
       "title": "Deep-Sea Fishing",
       "date": "2026-10-17",
@@ -438,6 +428,16 @@
       "category": "community"
     },
     {
+      "id": "hurlburt-fall-fest-2026-2026-10-30",
+      "title": "Fall Fest 2026",
+      "date": "2026-10-30T16:00:00",
+      "endDate": "2026-10-30T19:00:00",
+      "location": "Lil' Commando Community Park",
+      "address": "McMillan Street, Hurlburt Field, Florida 32544",
+      "description": "Get ready for a frightfully fun evening the whole family will enjoy! 🎃🍂 Fall Fest 2026 , presented by Hurlburt Field & Eglin Federal Credit Union , is packed with Halloween fun, festive activities, and plenty of treats for all ages. 📅 Friday, 30 October ⏰ 4:00 PM 📍 Lil' Commando Park 🎟️ FREE Entry Enjoy an evening filled with: 🎃 Trunk or Treat - Vote for your favorite decorated vehicle and enjoy treats along the way!",
+      "category": "holiday"
+    },
+    {
       "id": "hurlburt-deep-sea-fishing-2026-11-14",
       "title": "Deep-Sea Fishing",
       "date": "2026-11-14",
@@ -446,6 +446,16 @@
       "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
       "description": "November deep-sea fishing session listed on series page.",
       "category": "community"
+    },
+    {
+      "id": "hurlburt-tree-lighting-winter-wonderland-2026-12-04",
+      "title": "Tree Lighting & Winter Wonderland",
+      "date": "2026-12-04T16:00:00",
+      "endDate": "2026-12-04T19:00:00",
+      "location": "Air Memorial Park",
+      "address": "315 Independence Rd, Hurlburt Field, FL 32544",
+      "description": "🎄 Tree Lighting & Winter Wonderland - 4 December 2026 Kick off the holidays with twinkling lights, winter magic, and festive cheer for the whole family. ❄️✨ Details coming soon - check back for more! Check back in for 2027 events! Check out volunteer opportunities!",
+      "category": "family"
     }
   ],
   "newcomers": {

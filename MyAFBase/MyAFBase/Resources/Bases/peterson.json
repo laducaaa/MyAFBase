@@ -7,7 +7,7 @@
   "wing": "SBD 1",
   "latitude": 38.8121,
   "longitude": -104.7006,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "peterson-notif-aragon-dfac",
@@ -356,93 +356,13 @@
   ],
   "events": [
     {
-      "id": "peterson-featured-ruby-horsethief-canyon-overnigh-2026-09-07",
-      "title": "Featured Ruby-Horsethief Canyon Overnight Weekend Rafting Trip",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "community"
-    },
-    {
-      "id": "peterson-bingo-night-2026-09-07",
-      "title": "Bingo Night",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "entertainment"
-    },
-    {
-      "id": "peterson-reel-fun-craft-night-2026-09-08",
-      "title": "Reel Fun Craft Night",
-      "date": "2026-09-08",
-      "endDate": "2026-09-08",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "peterson-trivia-night-2026-09-09",
-      "title": "Trivia Night",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "entertainment"
-    },
-    {
-      "id": "peterson-stress-management-workshop-2026-09-09",
-      "title": "Stress Management Workshop",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "education"
-    },
-    {
-      "id": "peterson-run-ruck-remember-2026-09-11",
-      "title": "Run, Ruck, Remember 5k/10k",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Peterson SFB Fitness",
-      "address": "Peterson SFB, CO",
-      "description": "5k/10k remembrance run; 21 FSS public calendar.",
-      "category": "community"
-    },
-    {
-      "id": "peterson-brick-battles-2026-09-11",
-      "title": "Brick Battles",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Peterson SFB",
-      "address": "Peterson SFB, CO",
-      "description": "Brick Battles community event; 21 FSS calendar.",
-      "category": "community"
-    },
-    {
-      "id": "peterson-texas-holdem-2026-09-11",
-      "title": "Texas Hold'em Poker Night",
-      "date": "2026-09-11",
-      "endDate": "2026-09-11",
-      "location": "Colorado Pizza & Sports Grill",
-      "address": "260 Glasgow Ave, Peterson SFB, CO 80914",
-      "description": "Monthly Texas Hold'em; free to enter, 21+; 21 FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "peterson-bike-and-wine-2026-09-12",
-      "title": "Bike and Wine",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "Outdoor Adventure Programs",
-      "address": "Peterson SFB, CO",
-      "description": "OAP Bike and Wine trip; 21 FSS calendar.",
+      "id": "peterson-pre-deployment-remote-tours-2026-09-14",
+      "title": "Pre-Deployment & Remote Tours",
+      "date": "2026-09-14T13:00:00",
+      "endDate": "2026-09-14T16:00:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "",
       "category": "community"
     },
     {
@@ -466,6 +386,16 @@
       "category": "community"
     },
     {
+      "id": "peterson-stem-quest-2026-09-17",
+      "title": "STEM Quest",
+      "date": "2026-09-17T16:30:00",
+      "endDate": "2026-09-17T18:00:00",
+      "location": "Peterson Library",
+      "address": "201 Stewart Ave., Peterson SFB, CO, 80914",
+      "description": "Join us for STEM Quest , a hands-on, family-friendly program exploring science, technology, engineering, and math. Held on the 1st and 3rd Thursdays of each month, this interactive program invites families to participate in fun experiments, creative challenges, and engaging activities designed to spark curiosity and learning for kids and teens. Open to military families. No registration required.",
+      "category": "family"
+    },
+    {
       "id": "peterson-fall-craft-night-2026-09-18",
       "title": "Fall Make & Take Craft Night",
       "date": "2026-09-18",
@@ -474,6 +404,16 @@
       "address": "Peterson SFB, CO",
       "description": "Fall craft night; 21 FSS calendar.",
       "category": "community"
+    },
+    {
+      "id": "peterson-elevate-your-relationship-in-2026-2026-09-18",
+      "title": "ELEVATE YOUR RELATIONSHIP IN 2026",
+      "date": "2026-09-18T12:00:00",
+      "endDate": "2026-09-18T16:30:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "ELEVATE YOUR RELATIONSHIP IN 2026 – PART 2 PLUS RECEIVE $160 September 18 is Part 2 of the Elevate 8-hour session. This is a two-part session that began on September 4 . Couples must attend both September 4 and September 18 to complete the full 8-hour curriculum and be eligible for the $160 grant . Part 1: September 4 Part 2: September 18 Time: 12:00 PM to 4:30 PM Location: M&FRC, Building 350, Suite 1203, unless otherwise noted. Register today! Call 719-556-6141 or email 21fss.fsh_distro@us.af.mil to reserve your seat. Please follow installation guidance regarding snow procedures.",
+      "category": "outdoor"
     },
     {
       "id": "peterson-eleven-mile-climbing-2026-09-19",
@@ -494,6 +434,26 @@
       "address": "Colorado Springs, CO",
       "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
       "category": "recreation"
+    },
+    {
+      "id": "peterson-heartlink-spouse-orientation-2026-09-23",
+      "title": "Heartlink Spouse Orientation",
+      "date": "2026-09-23T08:30:00",
+      "endDate": "2026-09-23T13:30:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "Whether you’re new to Peterson SFB, a new military spouse, or simply looking to connect and build relationships, Heart Link is your gateway to a supportive community! Join us to discover valuable resources and information from our incredible partner agencies. Location: Military & Family Readiness, Building 350, Peterson SFB • Orientation: M&FRC Large Classroom • Resource Fair: Building 350 Atrium Details: • Free lunch provided • Children are welcome • Click to register , or contact us today by phone or email to sign up! Come learn, connect, and build your support network!",
+      "category": "family"
+    },
+    {
+      "id": "peterson-trivia-night-2026-09-23",
+      "title": "Trivia Night",
+      "date": "2026-09-23T18:00:00",
+      "endDate": "2026-09-23T20:00:00",
+      "location": "The Peterson Hub – Community Center",
+      "address": "260 Glasgow Ave # 1013, Peterson SFB, CO, 80914",
+      "description": "Colorado Pizza & Sports Grill Weekly Prizes This program is free and available to all DOD ID Cardholders.",
+      "category": "entertainment"
     },
     {
       "id": "peterson-dodgeball-madness-tournament-2026-09-24",
@@ -564,6 +524,56 @@
       "address": "Colorado Springs, CO",
       "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
       "category": "community"
+    },
+    {
+      "id": "peterson-pre-deployment-remote-tours-2026-10-05",
+      "title": "Pre-Deployment & Remote Tours",
+      "date": "2026-10-05T13:00:00",
+      "endDate": "2026-10-05T16:00:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "peterson-great-sand-dunes-national-park-sand-sledding-tri-2026-1",
+      "title": "Great Sand Dunes National Park Sand Sledding Trip",
+      "date": "2026-10-17T06:00:00",
+      "endDate": "2026-10-17T18:00:00",
+      "location": "Peterson Outdoor Recreation",
+      "address": "830 Tinker Street Building 640, Peterson SFB, CO, 80914",
+      "description": "This must-do Colorado adventure takes place at the Great Sand Dunes National Park and Preserve. You will have the opportunity to do a self-guided hike of Star Dune (750 ft.) or take it easy on some of the lower angle ridges to try out sand sledding. It’s sure to be a trip you won’t forget. Cost: $100/person. Includes transportation, sand sled rental, lunch, and entrance fee to the park. 2026 Date: Saturday, October 17 Location: Great Sand Dunes National Park & Preserve Time: 6 a.m. – 6p.m.; Trip meets at ODR. Cancellation Deadline: Friday, October 2, by 5 p.m. Sign-up Deadline: Tuesday, Octobe",
+      "category": "outdoor"
+    },
+    {
+      "id": "peterson-3rd-annual-smashtober-pickleball-tournament-begi-2026-1",
+      "title": "3rd Annual Smashtober Pickleball Tournament – Beginners/Intermediate",
+      "date": "2026-10-22T09:00:00",
+      "endDate": "2026-10-22T13:00:00",
+      "location": "Peterson Fitness Center",
+      "address": "225 E Stewart Peterson # 560, Peterson SFB, 80914",
+      "description": "Join us for the 3rd Annual Smashtober Pickleball Tournament , a two-day competition open to players of all skill levels. Day one features beginner and intermediate matches, while day two highlights advanced-level play. Come compete or cheer on participants in this exciting tournament at the Peterson Fitness Center.",
+      "category": "fitness"
+    },
+    {
+      "id": "peterson-3rd-annual-smashtober-pickleball-tournament-adva-2026-1",
+      "title": "3rd Annual Smashtober Pickleball Tournament – Advanced",
+      "date": "2026-10-23T09:00:00",
+      "endDate": "2026-10-23T13:00:00",
+      "location": "Peterson Fitness Center",
+      "address": "225 E Stewart Peterson # 560, Peterson SFB, 80914",
+      "description": "Join us for the 3rd Annual Smashtober Pickleball Tournament , a two-day competition open to players of all skill levels. Day one features beginner and intermediate matches, while day two highlights advanced-level play. Come compete or cheer on participants in this exciting tournament at the Peterson Fitness Center.",
+      "category": "fitness"
+    },
+    {
+      "id": "peterson-fall-fest-2026-2026-10-23",
+      "title": "Fall Fest 2026",
+      "date": "2026-10-23T16:00:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "The Peterson Hub – Community Center",
+      "address": "260 Glasgow Ave # 1013, Peterson SFB, CO, 80914",
+      "description": "Coming this fall…A hauntingly good time is taking shape. FALL FEST 2026 A Hauntingly Good Time Is Taking Shape! Fall Fest 2026 is coming to the Peterson Hub on Friday, October 23, from 4 – 7 p.m. , and we’re getting ready for an evening packed with Halloween fun for the whole family! Fall Fest will have something for everyone, including: Hayrides provided by Corwin Toyota DJ Starlos Costume Contest Magician Bounce Houses Pumpkin Painting in the Pavilion area Cotton Candy Straw Maze Can Toss Ring Toss Corn Hole Face Painting Whether you’re coming to compete for Best Trunk, show off your costume",
+      "category": "holiday"
     }
   ],
   "newcomers": {

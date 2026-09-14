@@ -7,7 +7,7 @@
   "wing": "100 ARW",
   "latitude": 52.3619,
   "longitude": 0.4864,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "mildenhall-notif-real-id",
@@ -195,46 +195,6 @@
   ],
   "events": [
     {
-      "id": "mildenhall-library-scavenger-2026-09-07",
-      "title": "Library Scavenger Hunt",
-      "date": "2026-09-07",
-      "endDate": "2026-09-07",
-      "location": "Base Library",
-      "address": "RAF Mildenhall, UK",
-      "description": "Library scavenger hunt (weekly Monday starts through month); 100 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "mildenhall-scavenger-hunt-2026-09-07",
-      "title": "Scavenger Hunt",
-      "date": "2026-09-07T00:00:00",
-      "endDate": "2026-09-07T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "<p>🔎📚 Library Scavenger Hunt – All Month Long! 📚🔎 Ready for an adventure? A new scavenger hunt begins every Monday at the Library! Search high and low to find the hidden pictures throughout the library. Once you complete the hunt, you’ll get to choose a prize from the treasure box! 🏆✨ 🗓 New Hunt Available: […]</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "mildenhall-trivia-2026-09-10",
-      "title": "Trivia Night at Galaxy Club",
-      "date": "2026-09-10",
-      "endDate": "2026-09-10",
-      "location": "Galaxy Club",
-      "address": "RAF Mildenhall, UK",
-      "description": "Thursday Trivia Night series; 100fss.com.",
-      "category": "community"
-    },
-    {
-      "id": "mildenhall-trivia-night-2026-09-10",
-      "title": "Trivia Night",
-      "date": "2026-09-10T19:00:00",
-      "endDate": "2026-09-10T21:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Trivia Night | Every Thursday | 7–9 PMPut your knowledge to the test at Trivia Night at the Galaxy Club! Join us every Thursday for an evening of fun, friendly competition, and brain-teasing questions. Bring your friends, form a team, and see if you have what it takes to claim the bragging rights. Whether you’re […]</p>\\n",
-      "category": "recreation"
-    },
-    {
       "id": "mildenhall-library-scavenger-hunt-2026-09-14",
       "title": "Library Scavenger Hunt",
       "date": "2026-09-14T00:00:00",
@@ -335,6 +295,36 @@
       "category": "family"
     },
     {
+      "id": "mildenhall-scavenger-hunt-2026-09-28",
+      "title": "Scavenger Hunt",
+      "date": "2026-09-28T00:00:00",
+      "endDate": "2026-09-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🔎📚 Library Scavenger Hunt – All Month Long! 📚🔎 Ready for an adventure? A new scavenger hunt begins every Monday at the Library! Search high and low to find the hidden pictures throughout the library. Once you complete the hunt, you’ll get to choose a prize from the treasure box ! 🏆✨ 🗓 New Hunt Available: Every Monday 📍 Location: Library, Building 425 Library Hours: 📖 Mon / Tues / Wed / Fri: 10 AM – 5 PM 📖 Thurs: 10 AM – 7 PM 📖 Sat: 10 AM – 5 PM Bring your friends, your family, and your best detective skills. Happy hunting! 🕵️‍♂️🗺️",
+      "category": "outdoor"
+    },
+    {
+      "id": "mildenhall-trivia-night-2026-10-01",
+      "title": "Trivia Night",
+      "date": "2026-10-01T19:00:00",
+      "endDate": "2026-10-01T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Trivia Night | Every Thursday | 7–9 PM Put your knowledge to the test at Trivia Night at the Galaxy Club! Join us every Thursday for an evening of fun, friendly competition, and brain-teasing questions. Bring your friends, form a team, and see if you have what it takes to claim the bragging rights. Whether you’re a trivia master or just in it for the laughs, everyone is welcome. Follow the Galaxy Club Facebook page for weekly themes and the most up-to-date information.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mildenhall-scavenger-hunt-2026-10-05",
+      "title": "Scavenger Hunt",
+      "date": "2026-10-05T00:00:00",
+      "endDate": "2026-10-05T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🔎📚 Library Scavenger Hunt – All Month Long! 📚🔎 Ready for an adventure? A new scavenger hunt begins every Monday at the Library! Search high and low to find the hidden pictures throughout the library. Once you complete the hunt, you’ll get to choose a prize from the treasure box ! 🏆✨ 🗓 New Hunt Available: Every Monday 📍 Location: Library, Building 425 Library Hours: 📖 Mon / Tues / Wed / Fri: 10 AM – 5 PM 📖 Thurs: 10 AM – 7 PM 📖 Sat: 10 AM – 5 PM Bring your friends, your family, and your best detective skills. Happy hunting! 🕵️‍♂️🗺️",
+      "category": "outdoor"
+    },
+    {
       "id": "mildenhall-axe-throwing-thursdays-2026-10-22",
       "title": "Axe Throwing Thursdays!",
       "date": "2026-10-22T00:00:00",
@@ -342,6 +332,66 @@
       "location": "",
       "address": "",
       "description": "<p>🪓 Axe Throwing Thursdays! 📅 Last Thursday of each month – May through August💵 $20 per person⏱ 90-minute sessions👥 Ages 12+ 📞 Sign up: 01638 544283📍 Building 162 (near the bowling alley & post office) 🎯 Aim, throw, and have a blast! Follow RAF Mildenhall Outdoor Recreation Facebook for all the fun!</p>\\n",
+      "category": "outdoor"
+    },
+    {
+      "id": "mildenhall-trivia-night-2026-11-05",
+      "title": "Trivia Night",
+      "date": "2026-11-05T19:00:00",
+      "endDate": "2026-11-05T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Trivia Night | Every Thursday | 7–9 PM Put your knowledge to the test at Trivia Night at the Galaxy Club! Join us every Thursday for an evening of fun, friendly competition, and brain-teasing questions. Bring your friends, form a team, and see if you have what it takes to claim the bragging rights. Whether you’re a trivia master or just in it for the laughs, everyone is welcome. Follow the Galaxy Club Facebook page for weekly themes and the most up-to-date information.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mildenhall-axe-throwing-thursdays-2026-11-26",
+      "title": "Axe Throwing Thursdays!",
+      "date": "2026-11-26T00:00:00",
+      "endDate": "2026-11-26T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🪓 Axe Throwing Thursdays! 📅 Last Thursday of each month – May through August 💵 $20 per person ⏱ 90-minute sessions 👥 Ages 12+ 📞 Sign up: 01638 544283 📍 Building 162 (near the bowling alley & post office) 🎯 Aim, throw, and have a blast! Follow RAF Mildenhall Outdoor Recreation Facebook for all the fun!",
+      "category": "outdoor"
+    },
+    {
+      "id": "mildenhall-trivia-night-2026-12-03",
+      "title": "Trivia Night",
+      "date": "2026-12-03T19:00:00",
+      "endDate": "2026-12-03T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Trivia Night | Every Thursday | 7–9 PM Put your knowledge to the test at Trivia Night at the Galaxy Club! Join us every Thursday for an evening of fun, friendly competition, and brain-teasing questions. Bring your friends, form a team, and see if you have what it takes to claim the bragging rights. Whether you’re a trivia master or just in it for the laughs, everyone is welcome. Follow the Galaxy Club Facebook page for weekly themes and the most up-to-date information.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mildenhall-axe-throwing-thursdays-2026-12-24",
+      "title": "Axe Throwing Thursdays!",
+      "date": "2026-12-24T00:00:00",
+      "endDate": "2026-12-24T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🪓 Axe Throwing Thursdays! 📅 Last Thursday of each month – May through August 💵 $20 per person ⏱ 90-minute sessions 👥 Ages 12+ 📞 Sign up: 01638 544283 📍 Building 162 (near the bowling alley & post office) 🎯 Aim, throw, and have a blast! Follow RAF Mildenhall Outdoor Recreation Facebook for all the fun!",
+      "category": "outdoor"
+    },
+    {
+      "id": "mildenhall-trivia-night-2027-01-07",
+      "title": "Trivia Night",
+      "date": "2027-01-07T19:00:00",
+      "endDate": "2027-01-07T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Trivia Night | Every Thursday | 7–9 PM Put your knowledge to the test at Trivia Night at the Galaxy Club! Join us every Thursday for an evening of fun, friendly competition, and brain-teasing questions. Bring your friends, form a team, and see if you have what it takes to claim the bragging rights. Whether you’re a trivia master or just in it for the laughs, everyone is welcome. Follow the Galaxy Club Facebook page for weekly themes and the most up-to-date information.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mildenhall-axe-throwing-thursdays-2027-01-28",
+      "title": "Axe Throwing Thursdays!",
+      "date": "2027-01-28T00:00:00",
+      "endDate": "2027-01-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🪓 Axe Throwing Thursdays! 📅 Last Thursday of each month – May through August 💵 $20 per person ⏱ 90-minute sessions 👥 Ages 12+ 📞 Sign up: 01638 544283 📍 Building 162 (near the bowling alley & post office) 🎯 Aim, throw, and have a blast! Follow RAF Mildenhall Outdoor Recreation Facebook for all the fun!",
       "category": "outdoor"
     }
   ],

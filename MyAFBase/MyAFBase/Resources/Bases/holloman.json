@@ -7,7 +7,7 @@
   "wing": "49 WG",
   "latitude": 32.8523,
   "longitude": -106.1066,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "holloman-notif-real-id",
@@ -277,56 +277,6 @@
   ],
   "events": [
     {
-      "id": "holloman-dance-night-2026-09-09",
-      "title": "Dance Night",
-      "date": "2026-09-09T17:00:00",
-      "endDate": "2026-09-09T19:00:00",
-      "location": "Community Activity Center",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "description": "Dust off those boots and come dance the night away at the Community Activity Center! Join us September 2, 9 & 23 for a FREE night of line dancing, two-step, and salsa dancing. From 5–6 PM , learn your line dancing and two-step moves, then turn up the rhythm with salsa dancing from 6–7 PM . Best part? Participation is FREE, and drop-ins are always welcome! Registration is encouraged, so grab your d",
-      "category": "entertainment"
-    },
-    {
-      "id": "holloman-bingo-night-2026-09-10",
-      "title": "Bingo Night",
-      "date": "2026-09-10T17:00:00",
-      "endDate": "2026-09-10T19:00:00",
-      "location": "Community Activity Center",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "description": "Get ready to mark those cards and chase that BINGO! Join us at the CAC on September 10 & 24 for a night of fun, friendly competition, and winning possibilities. Doors open at 5 PM, card sales end at 5:45 PM, and games begin at 6 PM. Bingo books are $15 when pre-ordered by 4 PM the day before, or $20 at the door, plus $2 progressive cards. Pre-orders can be made in person or by phone. For more info",
-      "category": "entertainment"
-    },
-    {
-      "id": "holloman-wonder-on-wheels-2026-09-11",
-      "title": "Wonder on Wheels",
-      "date": "2026-09-11T10:30:00",
-      "endDate": "2026-09-11T16:00:00",
-      "location": "Holloman AFB, Alamogordo, NM",
-      "address": "Holloman AFB, Alamogordo, NM",
-      "description": "Get ready to explore, discover, and have some hands-on fun when Wonders on Wheels brings its traveling museum exhibit to Holloman! This FREE, interactive experience from the New Mexico Department of Cultural Affairs is open to all ages and celebrates the 250th anniversary of the Declaration of Independence . 📅 September 11 🕦 11:30AM – 4PM 📍 BX Parking Lot 🎟️ FREE & open to all ages! Come check out",
-      "category": "family"
-    },
-    {
-      "id": "holloman-keystone-club-fridays-2026-09-11",
-      "title": "Keystone Club Fridays",
-      "date": "2026-09-11T16:00:00",
-      "endDate": "2026-09-11T18:00:00",
-      "location": "Child & Youth Programs",
-      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
-      "description": "Calling all youth and teens ages 10–18! The Youth & Teen Center is kicking off Torch Club & Keystone Club Fridays beginning September 4. Join us every Friday from 2–5 PM for fun social-recreational activities, new experiences, and opportunities to build leadership skills and make new friends! Registration is required through the AF CYPBMS Parent Portal. Register under the Camps and Instructional t",
-      "category": "family"
-    },
-    {
-      "id": "holloman-rock-cactus-paint-sip-2026-09-11",
-      "title": "Rock Cactus Paint & Sip",
-      "date": "2026-09-11T17:00:00",
-      "endDate": "2026-09-11T20:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "270 W 2nd St, Bldg 270, Holloman AFB, NM, 88330",
-      "description": "Grab your friends and join us for a night of creativity, drinks, and desert vibes! 🌵🎨 Paint a one-of-a-kind cactus scene at Paint & Sip on September 11. Only $35 per person! 📍 Arts & Crafts Center | 3–6 PM",
-      "category": "education"
-    },
-    {
       "id": "holloman-jump-week-2026-09-15",
       "title": "Jump Week",
       "date": "2026-09-15T09:00:00",
@@ -335,6 +285,26 @@
       "address": "Holloman AFB, Alamogordo, NM",
       "description": "Get ready to bounce, slide, laugh, and PLAY! Bring the whole family to the Community Activity Center September 15 – 18 from 9AM – 5PM for a week packed with inflatable fun! FREE fun for the whole family! Parent participation is encouraged, and supervision is required. Children under 16 must be supervised by their personal adult.",
       "category": "family"
+    },
+    {
+      "id": "holloman-swim-club-at-the-indoor-pool-2026-09-15",
+      "title": "Swim Club at the Indoor Pool",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T19:00:00",
+      "location": "Domenici Fitness & Sports Center",
+      "address": "1051 W Connecticut Ave Building 588, Holloman AFB, NM 88330",
+      "description": "Join us for Swim Club at the Indoor Pool! Whether you want to sharpen your technique, get in a great workout, or just enjoy a swim with friends, this is a great way to stay active and connect with fellow swimmers. 📅 September 15 | Domenici Fitness & Sports Center | 5-7 p.m. | Ages 18+ | FREE Grab your swimsuit and dive in - we'll see you at the pool! 🏊‍♂️ #HollomanFitRec",
+      "category": "fitness"
+    },
+    {
+      "id": "holloman-usaf-birthday-at-the-dfac-2026-09-18",
+      "title": "USAF Birthday at the DFAC",
+      "date": "2026-09-18T00:00:00",
+      "endDate": "2026-09-18T23:59:59",
+      "location": "Shifting Sands DFAC",
+      "address": "596 W 4th St, Holloman AFB, NM 88330",
+      "description": "Stop by the Shifting Sands DFAC on Friday, September 18 to celebrate the United States Air Force's 79th birthday!! Check out the menu below before you go, and don't forget to grab yourself a slice of cake!",
+      "category": "holiday"
     },
     {
       "id": "holloman-coffee-air-dry-clay-2026-09-18",
@@ -357,6 +327,16 @@
       "category": "family"
     },
     {
+      "id": "holloman-dance-night-2026-09-23",
+      "title": "Dance Night",
+      "date": "2026-09-23T17:00:00",
+      "endDate": "2026-09-23T19:00:00",
+      "location": "Community Activity Center",
+      "address": "Alamogordo, NM",
+      "description": "Dust off those boots and come dance the night away at the Community Activity Center! Join us September 2, 9 & 23 for a FREE night of line dancing, two-step, and salsa dancing. From 5-6 PM , learn your line dancing and two-step moves, then turn up the rhythm with salsa dancing from 6-7 PM . Best part? Participation is FREE, and drop-ins are always welcome! Registration is encouraged, so grab your dancing shoes and com",
+      "category": "community"
+    },
+    {
       "id": "holloman-home-alone-safety-training-2026-09-24",
       "title": "Home Alone Safety Training",
       "date": "2026-09-24T09:00:00",
@@ -367,6 +347,36 @@
       "category": "education"
     },
     {
+      "id": "holloman-bingo-night-2026-09-24",
+      "title": "Bingo Night",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "Community Activity Center",
+      "address": "Alamogordo, NM",
+      "description": "Get ready to mark those cards and chase that BINGO! Join us at the CAC on September 10 & 24 for a night of fun, friendly competition, and winning possibilities. Doors open at 5 PM, card sales end at 5:45 PM, and games begin at 6 PM. Bingo books are $15 when pre-ordered by 4 PM the day before, or $20 at the door, plus $2 progressive cards. Pre-orders can be made in person or by phone. For more information: 575-572-747",
+      "category": "family"
+    },
+    {
+      "id": "holloman-cia-recruitment-2026-09-25",
+      "title": "CIA Recruitment",
+      "date": "2026-09-25T09:00:00",
+      "endDate": "2026-09-25T15:00:00",
+      "location": "Holloman AFB",
+      "address": "Alamogordo, NM",
+      "description": "Ready to take your skills and experience beyond the military? The CIA is recruiting for opportunities within its Directorate of Operations, including Specialized Skills Officer and Para-Military Operations Officer positions. 📅 September 25 ⏰ 9-11 AM & 1-3 PM 📍 BLDG 788 Stop by to learn more about serving your country in a new capacity.",
+      "category": "community"
+    },
+    {
+      "id": "holloman-compass-club-launch-party-2026-10-05",
+      "title": "Compass Club Launch Party",
+      "date": "2026-10-05T15:30:00",
+      "endDate": "2026-10-05T17:00:00",
+      "location": "Ahrens Memorial Library",
+      "address": "Alamogordo, NM",
+      "description": "Holloman families, help your military-connected kids navigate deployment with confidence, connection and support. Compass Club is a new support and resiliency club for school-aged military-connected children, featuring guest speakers, MFLCs, fun activities and meaningful talking points. Join us for the Launch Party October 5 at 3:30PM at Ahrens Memorial Library ! Compass Club is open to military-connected children ag",
+      "category": "family"
+    },
+    {
       "id": "holloman-holloman-marathon-ace-of-races-2026-10",
       "title": "Holloman Marathon: Ace of Races",
       "date": "2026-10-10T06:30:00",
@@ -375,6 +385,26 @@
       "address": "Holloman AFB, 88330",
       "description": "🏃‍♂️🔥 ACE OF RACES IS BACK AT HOLLOMAN AFB! 🔥🏃‍♀️ Mark your calendars for October 10, 2026, and get ready for one of the most unique race experiences in the Southwest! Whether you’re chasing a new PR, running your first race, or cheering on your family and friends, the Ace of Races has something for every fitness level. Experience the thrill of running directly on the Holloman AFB flight line, pas",
       "category": "fitness"
+    },
+    {
+      "id": "holloman-holloman-homeschool-stemquest-2026-10-21",
+      "title": "Holloman Homeschool STEMQuest",
+      "date": "2026-10-21T10:00:00",
+      "endDate": "2026-10-21T12:00:00",
+      "location": "Education Center, Room 213",
+      "address": "596 W 4th St, Holloman AFB, NM 88330",
+      "description": "Holloman Homeschool is launching STEMQuest , an exciting opportunity for homeschoolers ages 5-13 to explore science, technology, engineering, and mathematics through hands-on activities, collaborative exploration, and inquiry-led learning! 📚 No cost for military-connected families! 📅 2026-2027 Dates: Oct. 21 • Dec. 16 • Feb. 17 • Apr. 21 📍 Education Center, Bldg. 224, Classroom 213 Spots are limited, so RSVP using th",
+      "category": "education"
+    },
+    {
+      "id": "holloman-mesilla-valley-maze-pumpkin-patch-2026-10-24",
+      "title": "Mesilla Valley Maze & Pumpkin Patch",
+      "date": "2026-10-24T11:00:00",
+      "endDate": "2026-10-24T19:00:00",
+      "location": "Holloman AFB",
+      "address": "Alamogordo, NM",
+      "description": "EFMP families and families with a loved one currently deployed or serving on a remote tour, join Holloman Family Services for a FREE day of fall fun at the Mesilla Valley Maze & Pumpkin Patch! 🌽🎃 📅 Saturday, October 24 ⏰ 11AM - 7PM 📍 3855 W. Picacho Ave., Las Cruces, NM Entrance is provided free of charge by Holloman Family Services . RSVP by scanning the QR code on the flyer and get ready for pumpkins, family fun, a",
+      "category": "family"
     }
   ],
   "newcomers": {

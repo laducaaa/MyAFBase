@@ -7,7 +7,7 @@
   "wing": "496 ABS",
   "latitude": 37.1749,
   "longitude": -5.6159,
-  "dataUpdatedAt": "2026-09-07T15:04:41Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "moron-notif-real-id",
@@ -204,7 +204,58 @@
       "building": null
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "moron-total-body-reset-2026-09-14",
+      "title": "Total Body Reset",
+      "date": "2026-09-14T06:45:00",
+      "endDate": "2026-09-14T07:30:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS",
+      "description": "Total Body Reset",
+      "category": "fitness"
+    },
+    {
+      "id": "moron-face-to-face-2026-09-14",
+      "title": "Face to Face",
+      "date": "2026-09-14T17:00:00",
+      "endDate": "2026-09-14T18:00:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS",
+      "description": "Face to Face",
+      "category": "fitness"
+    },
+    {
+      "id": "moron-glutes-abs-and-legs-2026-09-15",
+      "title": "Glutes, Abs and Legs",
+      "date": "2026-09-15T17:00:00",
+      "endDate": "2026-09-15T17:30:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS",
+      "description": "Glutes, Abs and Legs",
+      "category": "fitness"
+    },
+    {
+      "id": "moron-indoor-cycling-2026-09-16",
+      "title": "Indoor Cycling",
+      "date": "2026-09-16T12:15:00",
+      "endDate": "2026-09-16T13:00:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS",
+      "description": "Indoor Cycling",
+      "category": "fitness"
+    },
+    {
+      "id": "moron-face-to-face-2026-10-01",
+      "title": "Face to Face",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T18:00:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS, 41530",
+      "description": "",
+      "category": "fitness"
+    }
+  ],
   "newcomers": {
     "primaryAction": {
       "title": "Morón AB Visitor Center / Pass & ID",

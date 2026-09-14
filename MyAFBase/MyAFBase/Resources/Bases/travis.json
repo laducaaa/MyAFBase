@@ -7,7 +7,7 @@
   "wing": "60 AMW",
   "latitude": 38.2625,
   "longitude": -122.0261,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "travis-notif-1",
@@ -315,16 +315,6 @@
   ],
   "events": [
     {
-      "id": "travis-back-to-school-safety-2026-09",
-      "title": "Back to School Safety Special",
-      "date": "2026-09-07",
-      "endDate": "2026-09-11",
-      "location": "Travis AFB",
-      "address": "",
-      "description": "60 FSS Back to School Safety Special (public FSS calendar).",
-      "category": "community"
-    },
-    {
       "id": "travis-911-tower-climb",
       "title": "9/11 Memorial Tower Climb",
       "date": "2026-09-07T08:00:00",
@@ -335,74 +325,14 @@
       "category": "fitness"
     },
     {
-      "id": "travis-story-time-at-the-library-2026-09-08",
-      "title": "Story Time at the Library",
-      "date": "2026-09-08T10:30:00",
-      "endDate": "2026-09-08T11:30:00",
-      "location": "Mitchell Memorial Library",
-      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
-      "description": "<p>Tuesdays at 10:30am Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "travis-kayaking-fundamentals-2026-09-09",
-      "title": "Kayaking Fundamentals Clinic",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Travis Outdoor Recreation",
-      "address": "",
-      "description": "Kayaking fundamentals clinic; 60 FSS public calendar.",
-      "category": "community"
-    },
-    {
-      "id": "travis-family-steam-2026-09-09",
-      "title": "Family STEAM at the Library",
-      "date": "2026-09-09",
-      "endDate": "2026-09-09",
-      "location": "Travis Library",
-      "address": "",
-      "description": "Family STEAM library program; 60 FSS public series.",
-      "category": "community"
-    },
-    {
-      "id": "travis-baby-bounce-at-the-library-2026-09-10",
-      "title": "Baby Bounce at the Library",
-      "date": "2026-09-10T10:30:00",
-      "endDate": "2026-09-10T11:30:00",
-      "location": "Mitchell Memorial Library",
-      "address": "Bldg 436, 510 Travis Ave, Travis AFB, CA 94535, USA",
-      "description": "<p>Thursdays at 10:30am. Join us for stories, songs, movement, and fun as we kick off an exciting Summer Reading season!</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "travis-karaoke-night-2026-09-11",
-      "title": "Karaoke Night",
-      "date": "2026-09-11T19:00:00",
-      "endDate": "2026-09-11T22:00:00",
+      "id": "travis-military-ta-briefs-2026-09-15",
+      "title": "Military TA Briefs",
+      "date": "2026-09-15T09:00:00",
+      "endDate": "2026-09-15T17:00:00",
       "location": "",
       "address": "",
-      "description": "<p>Bring your friends and come sing with us! Doors open at 4:30PM Karaoke starts at 7PM</p>\\n",
-      "category": "entertainment"
-    },
-    {
-      "id": "travis-sup",
-      "title": "Stand Up Paddleboarding",
-      "date": "2026-09-12T08:00:00",
-      "endDate": "2026-09-12T17:00:00",
-      "location": "Lake Natoma",
-      "address": "Folsom/Sacramento area, CA",
-      "description": "$50; ages 16+; gear, transport, instruction; pre-register by 9/9.",
-      "category": "recreation"
-    },
-    {
-      "id": "travis-whitewater-rafting-106-2026-09-13",
-      "title": "Whitewater Rafting 106",
-      "date": "2026-09-13T08:00:00",
-      "endDate": "2026-09-13T18:00:00",
-      "location": "Travis Outdoor Recreation",
-      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
-      "description": "<p>Lower South Fork of the American Cost: $75 per person Age: 16+ Beginner friendly 13 miles of whitewater rapids including Hospital Bar, Bouncing Rock, Satan’s Cesspool Class II-III+ rapids Ride in the raft with ODR trained raft guides Includes: Transportation, Guides, Equipment Pre-Register by: 9/9</p>\\n",
-      "category": "outdoor"
+      "description": "The Education & Training Center is committed to the educational and vocational needs of our civilians and active duty military personnel and their adult family members. For more details call, 707.424.3444",
+      "category": "education"
     },
     {
       "id": "travis-story-time-at-the-library-2026-09-15",
@@ -465,6 +395,16 @@
       "category": "entertainment"
     },
     {
+      "id": "travis-whitewater-rafting-105-2026-09-19",
+      "title": "Whitewater Rafting 105",
+      "date": "2026-09-19T08:00:00",
+      "endDate": "2026-09-19T18:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "Upper South Fork of the American Cost: $75 per person Age: 16+ This more continuous stretch of whitewater starts of with bigger rapids before letting up 8 miles of whitewater rapids including Meat Grinder, Triple Threat, and Troublemaker Class II-III+ rapids Ride in the raft with ODR trained raft guides Includes: Transportation, Guides, Equipment Pre-Register by : 9/16",
+      "category": "outdoor"
+    },
+    {
       "id": "travis-surfing",
       "title": "Surfing 101",
       "date": "2026-09-20T07:00:00",
@@ -503,6 +443,16 @@
       "address": "Bldg 226, 511 Suisun Avenue, Travis AFB, CA, 94535",
       "description": "<p>Join us for our Sweatshirt Design Workshop and create a one-of-a-kind sweatshirt that\\'s uniquely you!</p>\\n",
       "category": "education"
+    },
+    {
+      "id": "travis-karaoke-night-2026-09-25",
+      "title": "Karaoke Night",
+      "date": "2026-09-25T19:00:00",
+      "endDate": "2026-09-25T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring your friends and come sing with us! Doors open at 4:30PM Karaoke starts at 7PM",
+      "category": "entertainment"
     },
     {
       "id": "travis-octoberfest-duathlon",
@@ -545,6 +495,56 @@
       "category": "community"
     },
     {
+      "id": "travis-indoor-rock-climbing-belay-class-2026-09-30",
+      "title": "Indoor Rock Climbing – Belay Class",
+      "date": "2026-09-30T17:00:00",
+      "endDate": "2026-09-30T19:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "Cost: $10 per person Age: 14+ Belaying = Managing the climbing rope to protect a climber from falling. Required for all individuals to climb within the Travis ODR Climbing Wall to ensure safety. Belay Class Covers : Knots, Rope management, Climbing equipment, Safety concerns No Previous Experience Needed Temporary Belay Card: Provided after class completion, until you pass your belay exam. All Equipment Provided. Pre-Register 12PM day of event.",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-military-ta-briefs-2026-10-01",
+      "title": "Military TA Briefs",
+      "date": "2026-10-01T09:00:00",
+      "endDate": "2026-10-01T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "The Education & Training Center is committed to the educational and vocational needs of our civilians and active duty military personnel and their adult family members. For more details call, 707.424.3444",
+      "category": "education"
+    },
+    {
+      "id": "travis-lead-climbing-basics-sport-climbing-2026-10-02",
+      "title": "Lead Climbing Basics – Sport Climbing",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T19:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "Cost: $10 per person Age: 14+ We will be teaching you the basic of lead climbing with a focus on sport climbing. Part 4 of our 8 part series to make you ready to be an outdoor rock climber. Clinic can be taken individually or part of the whole series (sign up for only one or for all!) Equipment provided Pre-Register by 12PM day of event",
+      "category": "outdoor"
+    },
+    {
+      "id": "travis-karaoke-night-2026-10-02",
+      "title": "Karaoke Night",
+      "date": "2026-10-02T19:00:00",
+      "endDate": "2026-10-02T22:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring your friends and come sing with us! Doors open at 4:30PM Karaoke starts at 7PM",
+      "category": "entertainment"
+    },
+    {
+      "id": "travis-whitewater-rafting-105-2026-10-03",
+      "title": "Whitewater Rafting 105",
+      "date": "2026-10-03T08:00:00",
+      "endDate": "2026-10-03T18:00:00",
+      "location": "Travis Outdoor Recreation",
+      "address": "Bldg 863, 273 Ellis Dr, Fairfield, CA, 94535",
+      "description": "Upper South Fork of the American Cost: $75 per person Age: 16+ This more continuous stretch of whitewater starts of with bigger rapids before letting up 8 miles of whitewater rapids including Meat Grinder, Triple Threat, and Troublemaker Class II-III+ rapids Ride in the raft with ODR trained raft guides Includes: Transportation, Guides, Equipment Pre-Register by : 9/30",
+      "category": "outdoor"
+    },
+    {
       "id": "travis-trivium-trivia-2026-10-14",
       "title": "Trivium Trivia Night",
       "date": "2026-10-14",
@@ -555,6 +555,16 @@
       "category": "community"
     },
     {
+      "id": "travis-graveyard-bash-halloween-run-2026-10-24",
+      "title": "Graveyard Bash Halloween Run",
+      "date": "2026-10-24T09:30:00",
+      "endDate": "2026-10-24T13:30:00",
+      "location": "Travis Fitness Center",
+      "address": "Bldg 434, 550 Travis Ave, Travis AFB, CA 94535, US",
+      "description": "Creep it real at the Travis Fitness Center’s Graveyard Bash! Dress up, dash through the haunted course, and enjoy a frightfully fun run full of ghoulish games and spooky surprises. Costumes encouraged—treats (and maybe tricks) await at the finish line! Fee: $5 Per Person Ages: All (4 and under free) Check-In: 9:30am Register by October 23 For more information call, 707.424.2008",
+      "category": "holiday"
+    },
+    {
       "id": "travis-trivium-trivia-2026-11-11",
       "title": "Trivium Trivia Night",
       "date": "2026-11-11",
@@ -563,6 +573,16 @@
       "address": "Travis AFB, CA 94535",
       "description": "Recurring trivia night; 60 FSS series page.",
       "category": "community"
+    },
+    {
+      "id": "travis-grinch-dodgeball-2026-12-04",
+      "title": "Grinch Dodgeball",
+      "date": "2026-12-04T14:00:00",
+      "endDate": "2026-12-04T16:00:00",
+      "location": "Travis Fitness Center",
+      "address": "Bldg 434, 550 Travis Ave, Travis AFB, CA 94535, US",
+      "description": "Steal the spotlight (not the Christmas cheer!) Join Travis Fitness Center’s Grinch Dodgeball! Dodge, duck, and dash your way to victory in this festive, fast-paced tournament. Costumes encouraged—let’s see who’s naughty… and who’s nice! Fee: Free Start: 2pm Register by November 20 Form more information call, 707.424.2008",
+      "category": "holiday"
     },
     {
       "id": "travis-trivium-trivia-2026-12-09",

@@ -7,7 +7,7 @@
   "wing": "90 MW",
   "latitude": 41.1403,
   "longitude": -104.8652,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "fe-warren-notif-real-id",
@@ -255,44 +255,14 @@
   ],
   "events": [
     {
-      "id": "fe-warren-medicine-bow-peak-hike-2026-09-07",
-      "title": "Medicine Bow Peak Hike",
-      "date": "2026-09-07T00:00:00",
-      "endDate": "2026-09-07T23:59:59",
-      "location": "Outdoor Recreation",
-      "address": "110 East Plaza, FE Warren AFB, WY",
-      "description": "September 7 - leave in the morning, return in the afternoon Cost: $20 per person Includes transportation and hike.",
-      "category": "outdoor"
-    },
-    {
-      "id": "fe-warren-first-friday-social-hour-at-3-p-m-2026-09-11",
-      "title": "First Friday Social Hour at 3 p.m.",
-      "date": "2026-09-11T15:00:00",
-      "endDate": "2026-09-11T21:00:00",
-      "location": "Trail’s End Community Center & Wrangler Lounge",
-      "address": "4907 Randall Ave, Bldg 401, Warren AFB, WY, 82005",
-      "description": "September 11 Food available for purchase. First plate free for club members. Food available for purchase.",
-      "category": "community"
-    },
-    {
-      "id": "fe-warren-2nd-saturday-arts-crafts-2026-09-12",
-      "title": "2nd Saturday @ Arts & Crafts",
-      "date": "2026-09-12T10:00:00",
-      "endDate": "2026-09-12T14:00:00",
-      "location": "Arts and Crafts Center",
-      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
-      "description": "2nd Saturday @ Arts & Crafts at Arts and Crafts Center.",
-      "category": "recreation"
-    },
-    {
-      "id": "fe-warren-oktoberfest-a-the-warren-adventure-park-2026-09-12",
-      "title": "Oktoberfest a the Warren Adventure Park",
-      "date": "2026-09-12T17:00:00",
-      "endDate": "2026-09-12T20:00:00",
-      "location": "Warren Adventure Park",
-      "address": "6110 Buffalo Soldier Rd., FE Warren AFB, WY, 82005",
-      "description": "September 12, 5 - 8 p.m. Cost: FREE Live music, food and drinks for sale. Activities and fun for the whole family.",
-      "category": "holiday"
+      "id": "fe-warren-fcc-new-provider-course-2026-09-14",
+      "title": "FCC New Provider Course",
+      "date": "2026-09-14T08:30:00",
+      "endDate": "2026-09-18T15:30:00",
+      "location": "Family Child Care",
+      "address": "7205 15th Cavalry, FE Warren AFB, WY",
+      "description": "September 14 - 18, 8:30 a.m. - 3:30 p.m. The FCC New Provider Course equips participants with the tools and guidance required to become a provisionally certified FCC Provider. Additional course dates are available at funatwarren.com. Register by calling (307) 631-2645 or emailing joyce.cisneros@us.af.mil for details. BENEFITS: - Be your own boss - Get paid to watch your own child(ren) - Work Full-time or Part-time - ",
+      "category": "education"
     },
     {
       "id": "fe-warren-open-climb-2026-09-15",
@@ -355,6 +325,16 @@
       "category": "recreation"
     },
     {
+      "id": "fe-warren-moon-festival-at-the-warren-adventure-park-2026-09-19",
+      "title": "Moon Festival at the Warren Adventure Park",
+      "date": "2026-09-19T19:00:00",
+      "endDate": "2026-09-19T21:00:00",
+      "location": "Warren Adventure Park",
+      "address": "6110 Buffalo Soldier Rd., FE Warren AFB, WY 82005",
+      "description": "September 19 Cost: Free Join us for the International Observe the Moon Night, a worldwide global event hosted by NASA Science to celebrate lunar science and exploration.",
+      "category": "holiday"
+    },
+    {
       "id": "fe-warren-via-feratta-2026-09-20",
       "title": "Via Feratta",
       "date": "2026-09-20T00:00:00",
@@ -365,6 +345,16 @@
       "category": "family"
     },
     {
+      "id": "fe-warren-homeschool-laser-tag-2026-09-22",
+      "title": "Homeschool Laser Tag",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "Fall Hall Community Center",
+      "address": "110 East Plaza, FE Warren AFB, WY",
+      "description": "September 22, 10 a.m. - 11 a.m. Cost: Free Are you a Homeschooler looking to get out of the house, get some exercise and meet new friends in the community? Join us at Fall Hall Community Center for FREE Laser Tag Games for Homeschool kids!",
+      "category": "education"
+    },
+    {
       "id": "fe-warren-craft-and-corks-diy-autumn-doormat-2026-09-25",
       "title": "Craft and Corks, DIY Autumn Doormat",
       "date": "2026-09-25T17:30:00",
@@ -372,6 +362,26 @@
       "location": "Arts and Crafts Center",
       "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
       "description": "September 25, 5:30 - 8:30 p.m. Cost: $45 per person - includes wine and snacks Must sign up and choose design by September 16.",
+      "category": "recreation"
+    },
+    {
+      "id": "fe-warren-ladies-sunday-swap-2026-09-27",
+      "title": "Ladies Sunday Swap",
+      "date": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T14:00:00",
+      "location": "Fall Hall Community Center",
+      "address": "110 East Plaza, FE Warren AFB, WY",
+      "description": "September 27, 10 a.m. Cost: $20 Join us at Awake Coffee Shop for a fun Sunday Swap! Bring something handmade, homemade, or homegrown to swap with the group - think baked goods, jams, sourdough starters, garden goodies, crafts, candles, flowers, personalized gifts, or anything made with love. You'll also get to customize your own collection bag! Registration is $20 and includes the bag craft, a breakfast pastry bar, a",
+      "category": "recreation"
+    },
+    {
+      "id": "fe-warren-2nd-saturday-arts-crafts-2026-10-10",
+      "title": "2nd Saturday @ Arts & Crafts",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T14:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
+      "description": "2nd Saturday @ Arts & Crafts",
       "category": "recreation"
     }
   ],

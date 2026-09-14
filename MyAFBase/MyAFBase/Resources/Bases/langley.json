@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -288,86 +288,6 @@
   ],
   "events": [
     {
-      "id": "langley-breakfast-burrito-mondays-2026-09-07",
-      "title": "Breakfast Burrito Mondays",
-      "date": "2026-09-07T07:30:00",
-      "endDate": "2026-09-07T09:30:00",
-      "location": "JBLE-Langley, Hampton, VA",
-      "address": "JBLE-Langley, Hampton, VA",
-      "description": "Breakfast at the Bistro IS BACK EVERY MONDAY! 7:30 to 9:30 AM! New bulk pre-order option! Pay & order in-person at the Bistro by 10 AM Friday & pick up Monday morning.",
-      "category": "community"
-    },
-    {
-      "id": "langley-outdoor-rec-summer-rentals-2026-09-07",
-      "title": "Outdoor Rec Summer Rentals",
-      "date": "2026-09-07T08:00:00",
-      "endDate": "2026-09-07T17:00:00",
-      "location": "Langley Outdoor Recreation",
-      "address": "77 Holly Street, 23665",
-      "description": "June 24 through September 18. Cost: $45/day Kayaks. paddleboards and canoes.",
-      "category": "outdoor"
-    },
-    {
-      "id": "langley-jiu-jitsu-self-defense-classes-2026-09-0",
-      "title": "Jiu Jitsu Self Defense Classes",
-      "date": "2026-09-07T17:00:00",
-      "endDate": "2026-09-07T18:00:00",
-      "location": "ACC Fitness Center",
-      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
-      "description": "Get ready to roll! Learn effective self-defense techniques, enhance physical fitness & mental resilience, develop discipline, focus & confidence, and connect with your community in a supportive environment! Instructor: Zachary Darroch – IBJJF Black Belt with The Academy/Honey Badger BJJ Las Vegas, NV (certification #79742) Free and open to all with base access!",
-      "category": "fitness"
-    },
-    {
-      "id": "langley-dog-days-at-eaglewood-2026-09-08",
-      "title": "Dog Days at Eaglewood",
-      "date": "2026-09-08T08:00:00",
-      "endDate": "2026-09-08T17:00:00",
-      "location": "Eaglewood Golf Course",
-      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
-      "description": "Banish sad puppy eyes today! Enjoy a round with your best friend when you bring your pooch along.",
-      "category": "community"
-    },
-    {
-      "id": "langley-storytime-2-time-slots-2026-09-09",
-      "title": "Storytime (2 time slots)",
-      "date": "2026-09-09T09:30:00",
-      "endDate": "2026-09-09T12:00:00",
-      "location": "Bateman Library",
-      "address": "42 Ash Ave, 23665",
-      "description": "Take a journey through the alphabet at storytime with stories, crafts, and activities. Storytime is at 9:30 and 11 am. Both times arethe same storytime, so choose the time that works best for your family!",
-      "category": "family"
-    },
-    {
-      "id": "langley-story-time-2026-09-09",
-      "title": "Story Time",
-      "date": "2026-09-09T10:30:00",
-      "endDate": "2026-09-09T12:30:00",
-      "location": "Bateman Library",
-      "address": "42 Ash Ave, 23665",
-      "description": "Join us Wednesdays at 10:30 AM and 11 AM for stories, songs, and activities with new friends at the Bateman Library. September theme is Alphabet, and both sessions are identical. Just pick the time that works best for you!",
-      "category": "family"
-    },
-    {
-      "id": "langley-cardboard-regatta-2026-09-12",
-      "title": "JBLE Cardboard Regatta",
-      "date": "2026-09-12",
-      "endDate": "2026-09-12",
-      "location": "JBLE Outdoor Pool",
-      "address": "2124 Pershing Ave, Fort Eustis, VA",
-      "description": "Cardboard Regatta at Fort Eustis outdoor pool; 733 FSS / jble-eustismwr.com (JBLE Fort Eustis MWR).",
-      "category": "community"
-    },
-    {
-      "id": "langley-cosmic-bowling-2026-09-12",
-      "title": "Cosmic Bowling",
-      "date": "2026-09-12T19:00:00",
-      "endDate": "2026-09-12T22:00:00",
-      "location": "Langley Lanes Bowling Center",
-      "address": "75 Nealy Ave, 23665",
-      "description": "Every Saturday!* Cost: $10 kids 13 & under | $13 ages 13+ Shoe rentals are included in the price. *Excludes special events.",
-      "category": "family"
-    },
-    {
       "id": "langley-serving-heroes-2026-09-16",
       "title": "September Serving Heroes Community Dinner",
       "date": "2026-09-16",
@@ -388,6 +308,16 @@
       "category": "outdoor"
     },
     {
+      "id": "langley-fall-2026-bike-rentals-2026-09-21",
+      "title": "Fall 2026 Bike Rentals",
+      "date": "2026-09-21T09:00:00",
+      "endDate": "2026-10-30T17:00:00",
+      "location": "Langley Outdoor Recreation",
+      "address": "77 Holly Street, 23665",
+      "description": "Eight-speed bikes and cruisers for only $50 per weekday or weekend (Sat-Sun) From September 21 to October 30.",
+      "category": "outdoor"
+    },
+    {
       "id": "langley-suicide-prevention-awareness-5k-run-walk",
       "title": "Suicide Prevention Awareness 5K Run/Walk",
       "date": "2026-09-24T07:30:00",
@@ -396,6 +326,16 @@
       "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
       "description": "Third annual 5K Run/Walk! Run for hope, walk for life. Free for all! Free t-shirt for first 100 signed up! Live DJ, food trucks, and helping agencies on site. To register: https://www.signupgenius.com/go/10C084CA4AF22A3F5CE9-63582008-3rdannualsuicide?useFullSite=true#/ Location: ACC Fitness Trail.",
       "category": "fitness"
+    },
+    {
+      "id": "langley-cardboard-creations-2026-09-24",
+      "title": "Cardboard Creations",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T17:30:00",
+      "location": "Community Programs",
+      "address": "128 Benedict Ave, 23665",
+      "description": "A fun cardboard craft event! Supplies will be provided; all ages are welcome! To register: https://www.signupgenius.com/go/10C0845AEA722A2FEC43-65060594-cardboard?useFullSite=true#/",
+      "category": "recreation"
     },
     {
       "id": "langley-oktoberfest-2026-09-25",
@@ -428,6 +368,16 @@
       "category": "entertainment"
     },
     {
+      "id": "langley-free-craft-night-decoupage-pumpkin-patch-2026-09-25",
+      "title": "Free Craft Night: Decoupage Pumpkin Patch",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T19:30:00",
+      "location": "Eaglewood Golf Course",
+      "address": "630 Weyland Rd, Langley AFB, VA 23665",
+      "description": "Free for all ages 15+. All materials and instructions provided. Food and drink available for purchase. Play music bingo with prizes. Space is limited, so register now! To register: https://manager.gallusgolf.com/Register/77804/craft-night-decoupage-pumpkin-patch",
+      "category": "family"
+    },
+    {
       "id": "langley-bus-national-mall-2026-09-26",
       "title": "Fall Bus Trip: National Mall",
       "date": "2026-09-26",
@@ -436,6 +386,16 @@
       "address": "",
       "description": "Fall ITT bus trip to National Mall; 733 FSS bus trips series.",
       "category": "community"
+    },
+    {
+      "id": "langley-kite-day-at-the-park-2026-10-17",
+      "title": "Kite Day At The Park",
+      "date": "2026-10-17T11:00:00",
+      "endDate": "2026-10-17T15:00:00",
+      "location": "Bethel Park",
+      "address": "123 Saunders Rd, Pavillion 4, Langley AFB, 23666",
+      "description": "Fly your own, or use provided kites, and enjoy arts and crafts! It's fun for the whole family! Free for military and families!",
+      "category": "family"
     },
     {
       "id": "langley-bus-luray-2026-10-18",
@@ -466,6 +426,26 @@
       "address": "Fort Eustis, VA",
       "description": "Costume Run 5k; jble-eustismwr.com free-events October calendar.",
       "category": "community"
+    },
+    {
+      "id": "langley-community-game-night-2026-10-30",
+      "title": "Community Game Night",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T20:00:00",
+      "location": "Eaglewood Golf Course",
+      "address": "630 Weyland Rd, Langley AFB, VA 23665",
+      "description": "Free and open to all! Games will be provided, and food & beverage will be available for purchase. Pre-register here: https://manager.gallusgolf.com/Register/77784/community-game-night",
+      "category": "recreation"
+    },
+    {
+      "id": "langley-dmv-connect-2026-11-19",
+      "title": "DMV Connect",
+      "date": "2026-11-19T10:00:00",
+      "endDate": "2026-11-19T16:00:00",
+      "location": "JBLE-Langley",
+      "address": "Hampton, VA",
+      "description": "DMV Connect offers: -Real ID -Driver's Licenses -ID Cards for adults and children -Disabled parking placards -Vehicle Titles -Virginia Vital Records -Address changes -Vehicle registrations -E-ZPass transponders -Compliance summaries -Transcripts -Hunting and Fishing Licences Location: Jamestown Room at Riverview Event Center Lunch hours: 12:30-1:30 PM.",
+      "category": "outdoor"
     },
     {
       "id": "langley-bus-baltimore-christmas-2026-11-28",

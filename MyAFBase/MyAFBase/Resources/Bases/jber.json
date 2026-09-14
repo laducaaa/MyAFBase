@@ -7,7 +7,7 @@
   "wing": "673 ABW",
   "latitude": 61.2524,
   "longitude": -149.8068,
-  "dataUpdatedAt": "2026-09-07T15:41:25Z",
+  "dataUpdatedAt": "2026-09-14T06:41:37Z",
   "currentNotifications": [
     {
       "id": "jber-notif-real-id",
@@ -206,84 +206,44 @@
   ],
   "events": [
     {
-      "id": "jber-money-matter-2026-09-08",
-      "title": "Money Matter$",
-      "date": "2026-09-08T09:00:00",
-      "endDate": "2026-09-08T11:00:00",
-      "location": "JBER, Anchorage, AK",
-      "address": "JBER, Anchorage, AK",
-      "description": "Money Matter$ — public FSS/MWR calendar listing.",
-      "category": "community"
-    },
-    {
-      "id": "jber-preschool-story-time-2026-09-08",
-      "title": "Preschool Story Time",
-      "date": "2026-09-08T10:30:00",
-      "endDate": "2026-09-08T10:30:00",
-      "location": "JBER Library",
-      "address": "Bldg. 7 Fourth St, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AR, 99505",
-      "description": "Every story is a new adventure at Preschool Story Time! Join us every Tuesday at 10:30 AM at the JBER Library for a fun-filled morning of stories, songs, movement, and imagination. Each week features a brand-new theme, bringing fresh books, engaging activities, and exciting discoveries that keep little learners coming back for more. From animals and seasons to space, community helpers, and everyth",
-      "category": "family"
-    },
-    {
-      "id": "jber-picture-frame-class-2026-09-09",
-      "title": "Picture Frame Class",
-      "date": "2026-09-09T10:00:00",
-      "endDate": "2026-09-09T10:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
-      "description": "Turn a favorite photo into a professionally framed piece you can proudly display! Bring a 5×7 photo and learn the basics of custom framing, including how to cut mats, glass, and foam core . You’ll then assemble everything into a precut frame, creating your own finished work of art while learning skills you can use for future framing projects. Ages: 12+ Members: $50 Non-Members: $60 What to Bring P",
+      "id": "jber-cfrr-training-2026-09-15",
+      "title": "CFRR Training",
+      "date": "2026-09-15T09:00:00",
+      "endDate": "2026-09-15T11:00:00",
+      "location": "Army Community Service",
+      "address": "600 Richardson Dr., JBER, AK",
+      "description": "Prepare to make a difference as a Command Family Readiness Representative (CFRR). This training is designed for Soldiers selected to serve as their unit's CFRR and provides the knowledge needed to confidently support commanders, SFRG leadership, and military families. Topics include CFRR roles and responsibilities, family readiness communication, assisting unit leadership, and building strong support networks through",
       "category": "education"
     },
     {
-      "id": "jber-toddler-time-2026-09-09",
-      "title": "Toddler Time",
-      "date": "2026-09-09T10:00:00",
-      "endDate": "2026-09-09T10:30:00",
+      "id": "jber-clay-hand-building-autumn-wreath-2026-09-16",
+      "title": "Clay Hand-Building: Autumn Wreath",
+      "date": "2026-09-16T10:00:00",
+      "endDate": "2026-09-16T17:00:00",
       "location": "Arts & Crafts Center",
-      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK, 99505",
-      "description": "Introduce your little one to the joy of creating at Toddler Time! Join us every Wednesday at the JBER Arts & Crafts Center for a themed craft that’s perfect for toddlers and preschoolers. Each week brings a new hands-on project that encourages creativity, builds fine motor skills, and gives families a chance to spend quality time together. Our crafts are simple, colorful, and designed so even the ",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK 99505",
+      "description": "Get into the spooky-season spirit with a little clay creativity! In this hands-on class, you'll create an autumn-inspired wreath featuring playful ghosts and pumpkins . Learn clay hand-building techniques as you shape and add your own details to create a festive decoration perfect for displaying all season long. Members: $40 Non-Members: $50 Sign Up Call the Arts & Crafts Center at (907) 384-3717 or stop by the facil",
+      "category": "holiday"
+    },
+    {
+      "id": "jber-eat-and-play-weekdays-2026-09-17",
+      "title": "Eat and Play Weekdays",
+      "date": "2026-09-17T12:00:00",
+      "endDate": "2026-09-17T14:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Lunch just got a whole lot more fun! Stop by Frost Bites inside Polar Bowl for lunch on Thursdays and Fridays from Noon to 2 PM, then hit the lanes with a FREE game of bowling. Simply spend $5 or more at Frost Bites, present your receipt at the front counter, and receive one free game of bowling. It’s the perfect excuse to grab a bite with coworkers, meet up with friends, or enjoy a family lunch before a little friendly competition. Even better, EMT Meal Cards are accepted at Frost Bites, making Eat & Play an easy and affordable way to enjoy your lunch break. Offer Details: Thursdays & Fridays",
       "category": "family"
     },
     {
-      "id": "jber-bounce-land-2026-09-10",
-      "title": "Bounce Land",
-      "date": "2026-09-10T10:00:00",
-      "endDate": "2026-09-10T16:00:00",
-      "location": "Arctic Oasis Community Center",
-      "address": "9497 20th St, Alaska",
-      "description": "Bounce Land — public FSS/MWR calendar listing.",
-      "category": "community"
-    },
-    {
-      "id": "jber-eat-and-play-weekdays-2026-09-10",
-      "title": "Eat and Play Weekdays",
-      "date": "2026-09-10T12:00:00",
-      "endDate": "2026-09-10T14:00:00",
-      "location": "Polar Bowl",
-      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
-      "description": "Lunch just got a whole lot more fun! Stop by Frost Bites inside Polar Bowl for lunch on Thursdays and Fridays from Noon to 2 PM, then hit the lanes with a FREE game of bowling. Simply spend $5 or more at Frost Bites, present your receipt at the front counter, and receive one free game of bowling. It’s the perfect excuse to grab a bite with coworkers, meet up with friends, or enjoy a family lunch b",
-      "category": "recreation"
-    },
-    {
-      "id": "jber-bottomless-bowling-2026-09-10",
-      "title": "Bottomless Bowling",
-      "date": "2026-09-10T16:00:00",
-      "endDate": "2026-09-10T20:00:00",
-      "location": "Polar Bowl",
-      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
-      "description": "When one game just isn’t enough, it’s time for Bottomless Bowling at Polar Bowl! Join us every Thursday from 4 PM to 8 PM and enjoy unlimited bowling for one low price. Whether you’re challenging your friends, enjoying a family night out, or simply looking for a fun way to spend your evening, Bottomless Bowling lets you keep the strikes rolling for hours. The more you bowl, the more fun you’ll hav",
-      "category": "recreation"
-    },
-    {
-      "id": "jber-karaoke-night-2026-09-11",
-      "title": "Karaoke Night",
-      "date": "2026-09-11T20:00:00",
-      "endDate": "2026-09-12T00:00:00",
-      "location": "Warrior Zone CC",
-      "address": "655 Richardson Dr, Joint Base Elmendorf-Richardson, Alaska, 99505",
-      "description": "Karaoke Night — public FSS/MWR calendar listing.",
-      "category": "entertainment"
+      "id": "jber-iditarod-dfac-celebrates-79-years-2026-09-18",
+      "title": "Iditarod DFAC Celebrates 79 Years",
+      "date": "2026-09-18T11:00:00",
+      "endDate": "2026-09-18T13:30:00",
+      "location": "Iditarod Dining Facility",
+      "address": "Bldg. 8088 25th St, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AR 99505",
+      "description": "Celebrate the '70s! We're cranking up the funk, layin' down the beats, and throwin' a 79th birthday community bash so fly it's gonna blow your bell bottoms off! U.S. Air Force Birthday Thursday, 18 September 2026 11 AM to 1:30 PM Iditarod DFAC Menu: Ambrosia Salad…………………………………….$1.10 Turkey Wellington Florentine…………………..$2.85 Beef Stroganoff……………………………………..$4.00 Mashed Potatoes…………………………………..$0.75 Peas & Carrots……………",
+      "category": "holiday"
     },
     {
       "id": "jber-alcohol-ink-moose-paint-night-2026-09-18",
@@ -296,6 +256,56 @@
       "category": "education"
     },
     {
+      "id": "jber-glass-fusion-class-forget-me-not-or-sitka-rose-2026-09-19",
+      "title": "Glass Fusion Class: Forget-Me-Not or Sitka Rose",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T17:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK 99505",
+      "description": "Create a beautiful piece inspired by Alaska's wildflowers! In this hands-on glass fusion class, participants will design their choice of a Forget-Me-Not or Sitka Rose using colorful glass. Learn the basics of glass fusion while creating a one-of-a-kind piece that celebrates Alaska's natural beauty. Ages: 10+ Members: $50 Non-Members: $60 Sign Up Call the Arts & Crafts Center at (907) 384-3717 or stop by the facility ",
+      "category": "recreation"
+    },
+    {
+      "id": "jber-fall-vendor-fair-2026-09-19",
+      "title": "Fall Vendor Fair",
+      "date": "2026-09-19T10:00:00",
+      "endDate": "2026-09-19T16:00:00",
+      "location": "Arctic Oasis Community Center",
+      "address": "9497 20th St, Alaska",
+      "description": "Come shop, browse, and see what local vendors have to offer at the Vendor Fair! Spend the day discovering unique finds, handmade goods, gifts, and more from vendors right here in the community. Whether you're looking for something special or just want to see what catches your eye, stop by and support our participating vendors. Date: Saturday, September 19 Time: 10 AM-4 PM Come Shop the Fair! 🛍️ Browse a variety of ve",
+      "category": "community"
+    },
+    {
+      "id": "jber-u-s-air-force-birthday-bash-2026-09-20",
+      "title": "U.S. Air Force Birthday Bash",
+      "date": "2026-09-20T07:00:00",
+      "endDate": "2026-09-20T12:00:00",
+      "location": "Moose Run Golf Course",
+      "address": "27000 Arctic Valley Rd, Joint Base Elmendorf-Richardson, Alaska 99505",
+      "description": "U.S. Air Force Birthday Bash Celebrate 79 Years of Air Force Heritage on the Green! Every year, U.S. Air Force golf courses across the globe tee off on the exact same day to commemorate the founding and storied history of our Air Force. Join fellow service members, retirees, DoW personnel, and community members at Moose Run Golf Course for a day of friendly competition, camaraderie, and celebration. Whether you're pl",
+      "category": "holiday"
+    },
+    {
+      "id": "jber-sunday-funday-bowling-pins-pitchers-2026-09-20",
+      "title": "Sunday Funday: Bowling Pins & Pitchers",
+      "date": "2026-09-20T13:00:00",
+      "endDate": "2026-09-20T18:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Wrap up your weekend with strikes, laughs, and great company at Polar Bowl’s Sunday Fun-Day ! Gather your family or friends and enjoy 90 minutes of bowling plus two complimentary pitchers of soda with every lane reservation. Whether you’re celebrating a special occasion, spending quality time together, or simply looking for a fun Sunday activity, this package makes it easy to enjoy an afternoon at the lanes. Shoe rental is included, so all you need to bring is your game face! Sundays | 1 PM – 6 PM Pricing: JBERLife! Members: $45 per lane Non-Members: $50 per lane Make Sunday your new favorite ",
+      "category": "family"
+    },
+    {
+      "id": "jber-picture-frame-class-2026-09-23",
+      "title": "Picture Frame Class",
+      "date": "2026-09-23T10:00:00",
+      "endDate": "2026-09-23T17:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "Bldg. 755 D st, Joint Base Elmendorf-Richardson, Joint Base Elmendorf-Richardson, AK 99505",
+      "description": "Turn a favorite photo into a professionally framed piece you can proudly display! Bring a 5×7 photo and learn the basics of custom framing, including how to cut mats, glass, and foam core . You'll then assemble everything into a precut frame, creating your own finished work of art while learning skills you can use for future framing projects. Ages: 12+ Members: $50 Non-Members: $60 What to Bring Please bring one 5×7 ",
+      "category": "recreation"
+    },
+    {
       "id": "jber-spark-s-boo-bash-2026-09-25",
       "title": "Spark’s Boo Bash",
       "date": "2026-09-25T17:00:00",
@@ -304,6 +314,16 @@
       "address": "9497 20th St, Alaska",
       "description": "Get those costumes ready and join Sparky and the Fire Department for a family-friendly evening of Halloween fun! Families can enjoy bouncy houses, games, the smoke trailer, light snacks, and more spooky surprises throughout the evening. Come dressed as your favorite superhero, witch, wizard, dinosaur, ghost, or anything else you can dream up! What to Expect Bouncy houses Games and family activitie",
       "category": "holiday"
+    },
+    {
+      "id": "jber-level-up-youth-late-night-2026-09-25",
+      "title": "Level Up Youth Late Night",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "2 Rivers Youth & Teen Center",
+      "address": "Bldg. 297 6th St, Joint Base Elmendorf-Richardson, AR 99505",
+      "description": "Level Up Youth Late Night The wait is over! 2Rivers Youth Center is hosting its first major youth event of the season, and we are kicking things off with an epic gaming and gym night just for ages 9-12! Grab your squad, bring your “co-op partner,” and get ready to dominate. Friday, Sep 25 • 6-8 PM 2Rivers Youth Center (297 6th St) Event Highlights: Video Game Tournaments: Show off your skills and compete for bragging",
+      "category": "outdoor"
     },
     {
       "id": "jber-alcohol-ink-moose-paint-class-2026-09-26",
@@ -316,6 +336,76 @@
       "category": "education"
     },
     {
+      "id": "jber-jber-rapid-hiring-event-sat-26-sep-2026-09-26",
+      "title": "JBER Rapid Hiring Event - Sat, 26 Sep",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "JBER",
+      "address": "Anchorage, AK",
+      "description": "Make Your Move at JBER's Rapid Hiring Event If you're ready to step into a mission‑driven career that supports the JBER community, this is your moment. The NAF Recruiting team is hosting a Rapid Hiring Event at Dimond Mall, Suite 136 (next to PacSun), 800 E Dimond Blvd, Anchorage, AK - you can walk in, interview on the spot, and meet the managers who are building tomorrow's teams. 🗓 Saturday, 26 September 2026 ⏰ 10 A",
+      "category": "community"
+    },
+    {
+      "id": "jber-10th-annual-ironman-tough-day-2026-09-27",
+      "title": "10th Annual Ironman Tough Day",
+      "date": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T14:00:00",
+      "location": "JBER",
+      "address": "Anchorage, AK",
+      "description": "It's time for us to take revenge! Play at your own risk … 10th Annual Ironman Tough Day The Ironman Tournament is a 2-Person Best Ball tournament and a fun way to play the course in a configuration you may not normally see. We'll have a good time setting up the course and you'll hopefully have a great time playing it. The course will be firm and pins a little difficult (if we can get the cup cutter into the ground)! ",
+      "category": "outdoor"
+    },
+    {
+      "id": "jber-eat-and-play-weekdays-2026-10-01",
+      "title": "Eat and Play Weekdays",
+      "date": "2026-10-01T12:00:00",
+      "endDate": "2026-10-01T14:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Lunch just got a whole lot more fun! Stop by Frost Bites inside Polar Bowl for lunch on Thursdays and Fridays from Noon to 2 PM, then hit the lanes with a FREE game of bowling. Simply spend $5 or more at Frost Bites, present your receipt at the front counter, and receive one free game of bowling. It’s the perfect excuse to grab a bite with coworkers, meet up with friends, or enjoy a family lunch before a little friendly competition. Even better, EMT Meal Cards are accepted at Frost Bites, making Eat & Play an easy and affordable way to enjoy your lunch break. Offer Details: Thursdays & Fridays",
+      "category": "family"
+    },
+    {
+      "id": "jber-teen-late-night-takeover-2026-10-02",
+      "title": "Teen Late Night Takeover",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T22:00:00",
+      "location": "JBER",
+      "address": "Anchorage, AK",
+      "description": "Looking for the ultimate after-hours hangout? Grab a friend and takeover 2Rivers Youth Center for a night packed with high-energy activities, awesome food, and great vibes. Teen Late Night Takeover Friday, Oct 2 • 6:00 PM - 10:00 PM 2Rivers Youth Center What's Happening? Nerf Wars: High-stakes tactical battles. Bring your game face. RC Car Racing: High-speed track action. Open-Court Hoops: Bring your squad for pickup",
+      "category": "family"
+    },
+    {
+      "id": "jber-sunday-funday-bowling-pins-pitchers-2026-10-04",
+      "title": "Sunday Funday: Bowling Pins & Pitchers",
+      "date": "2026-10-04T13:00:00",
+      "endDate": "2026-10-04T18:00:00",
+      "location": "Polar Bowl",
+      "address": "Bldg. 7176 Fighter Dr, Joint Base Elmendorf-Richardson, AR, 99505",
+      "description": "Wrap up your weekend with strikes, laughs, and great company at Polar Bowl’s Sunday Fun-Day ! Gather your family or friends and enjoy 90 minutes of bowling plus two complimentary pitchers of soda with every lane reservation. Whether you’re celebrating a special occasion, spending quality time together, or simply looking for a fun Sunday activity, this package makes it easy to enjoy an afternoon at the lanes. Shoe rental is included, so all you need to bring is your game face! Sundays | 1 PM – 6 PM Pricing: JBERLife! Members: $45 per lane Non-Members: $50 per lane Make Sunday your new favorite ",
+      "category": "family"
+    },
+    {
+      "id": "jber-karaoke-night-2026-10-09",
+      "title": "Karaoke Night",
+      "date": "2026-10-09T20:00:00",
+      "endDate": "2026-10-10T00:00:00",
+      "location": "Warrior Zone CC",
+      "address": "655 Richardson Dr, Joint Base Elmendorf-Richardson, Alaska, 99505",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "jber-command-team-training-2026-10-14",
+      "title": "Command Team Training",
+      "date": "2026-10-14T09:00:00",
+      "endDate": "2026-10-14T11:00:00",
+      "location": "Army Community Service",
+      "address": "600 Richardson Dr., JBER, AK",
+      "description": "Strong command teams build strong communities. Command Team Training is designed for incoming Army commanders and leadership teams who want to strengthen their Soldier and Family Readiness Group while creating a supportive environment for military families. Participants will learn about SFRG regulations, volunteer recruitment, communication best practices, and strategies for building an engaged and effective family r",
+      "category": "education"
+    },
+    {
       "id": "jber-spooktacular-boo-bash-trunk-or-treat-2026-1",
       "title": "Spooktacular Boo Bash Trunk or Treat",
       "date": "2026-10-23T16:00:00",
@@ -324,6 +414,26 @@
       "address": "5800B Westover Ave, anchorage, 99506",
       "description": "Get ready for a frightfully fun evening at the Spooktacular Boo Bash! Bring the whole family, put on your best costumes, and make your way through a lineup of creatively decorated trunks while collecting plenty of Halloween treats along the way. Trunk or Treat Fun Come ready for an evening filled with Halloween fun, including: 🎃 Trunk or Treat 🍬 Plenty of treats for the kids 👻 Creative and spooky ",
       "category": "holiday"
+    },
+    {
+      "id": "jber-karaoke-night-2026-11-13",
+      "title": "Karaoke Night",
+      "date": "2026-11-13T20:00:00",
+      "endDate": "2026-11-14T00:00:00",
+      "location": "Warrior Zone CC",
+      "address": "655 Richardson Dr, Joint Base Elmendorf-Richardson, Alaska, 99505",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "jber-karaoke-night-2026-12-11",
+      "title": "Karaoke Night",
+      "date": "2026-12-11T20:00:00",
+      "endDate": "2026-12-12T00:00:00",
+      "location": "Warrior Zone CC",
+      "address": "655 Richardson Dr, Joint Base Elmendorf-Richardson, Alaska, 99505",
+      "description": "",
+      "category": "entertainment"
     }
   ],
   "newcomers": {
