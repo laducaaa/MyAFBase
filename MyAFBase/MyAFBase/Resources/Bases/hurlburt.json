@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -298,54 +298,14 @@
       "category": "family"
     },
     {
-      "id": "hurlburt-gator-lakes-pizza-scramble-2026-09-16",
-      "title": "Gator Lakes Pizza Scramble",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T20:00:00",
-      "location": "Gator Lakes Golf Course",
-      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
-      "description": "🍕Enjoy a 2-person scramble format golf with Peoria handicap every Wednesday, starting 15 April!🍕 5 PM shotgun start 9 holes Must register each week by calling (850) 881-2251 or visiting the Pro Shop Diamond AGF – $17 Gold AGF – $23 Non-AGF – $33 Cost includes 9 holes, green, and cart fees. Prizes, pizza, and a drink are provided. No walkers allowed during play. This event is open to all DoD Cardho",
-      "category": "recreation"
-    },
-    {
-      "id": "hurlburt-creative-nights-make-your-own-fall-porch-sign-2026-09-1",
-      "title": "Creative Nights - Make Your Own Fall Porch Sign",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T18:00:00",
-      "location": "Hurlburt Field Community Center",
-      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
-      "description": "Join us at our Cre ative Nig hts at the Community Center ! Join us and create a beautiful fall-themed porch sign perfect for welcoming guests all autumn long! Choose your colors, designs, and seasonal touches to craft a piece that fits your home's style. For just $20 per person , all supplies and craft to keep are included. Space is limited Must sign up in at the Community Center: Monday-Friday 10am-6pm (cash only, w",
-      "category": "recreation"
-    },
-    {
-      "id": "hurlburt-pow-mia-vigil-run-2026-09-17",
-      "title": "POW/MIA Vigil Run",
-      "date": "2026-09-17T07:00:00",
-      "endDate": "2026-09-18T07:00:00",
+      "id": "hurlburt-kuk-sool-won-2026-09-21",
+      "title": "Kuk Sool Won",
+      "date": "2026-09-21T17:00:00",
+      "endDate": "2026-09-21T18:00:00",
       "location": "Aderholt Fitness Center",
-      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida 32544",
-      "description": "Until They All Come Home. You Are Not Forgotten. 🕯️ Presented by Hurlburt Field and The Sumners: POW/MIA 24-Hour Vigil Run/Walk - a powerful tribute honoring the service members who never returned home and those still missing. Together, we will Stand Watch. Keep the Promise. and carry the vigil forward in remembrance. 📅 17-18 September ⏰ Run Begins: 7:00 AM, Thursday, 17 September 📍 Aderholt Fitness Center Track Part",
+      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
+      "description": "Kuk Sool Won is traditional Korean martial arts. Available Monday’s, Wednesday’s, and Friday’s at Aderholt Fitness Center. Class Times: Youth (ages 6+): 5-6PM Adults: 6-7PM Monthly Cost: $65/student | Ask about family rates. Be able to gain Physical Fitness Well Being Stress Relief Confidence Perseverance Self Defense Skills This is a family friendly activity for all to enjoy! For more details or to sign up, call Aderholt Fitness at 850-884-6884.",
       "category": "fitness"
-    },
-    {
-      "id": "hurlburt-community-music-jam-2026-09-18",
-      "title": "Community Music Jam",
-      "date": "2026-09-18T17:00:00",
-      "endDate": "2026-09-18T19:00:00",
-      "location": "Hurlburt Field Community Center",
-      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
-      "description": "Calling all musicians, singers, and music lovers! Join us for an evening of fellowship, creativity, and great music at our Community Music Jam. Whether you play an instrument, love to sing, or simply enjoy live music, everyone is welcome. Come connect with fellow musicians, sharpen your skills, and make lasting memories through the universal language of music. All skill levels are welcome-from beginners to seasoned p",
-      "category": "entertainment"
-    },
-    {
-      "id": "hurlburt-deep-sea-fishing-2026-09-19",
-      "title": "Deep-Sea Fishing",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Hurlburt Outdoor Recreation & Marina",
-      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
-      "description": "ODR deep-sea fishing trip; myhurlburt.com. Also lists Oct 17 / Nov 14 sessions.",
-      "category": "community"
     },
     {
       "id": "hurlburt-paws-play-2026-09-25",
@@ -398,6 +358,46 @@
       "category": "family"
     },
     {
+      "id": "hurlburt-halloween-bowling-pin-decorating-contest-2026-10-01",
+      "title": "Halloween Bowling Pin Decorating Contest",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-28T23:59:59",
+      "location": "Hurlburt Lanes",
+      "address": "442 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "👻Halloween Bowling Pin Decorating Contest🎃 🗓 Pick up pin & decorate 1-28 October | Available during business hours ⏰ Winners announced on Saturday, 31 October | Noon 📍 Hurlburt Lanes Bowling – 442 Cody Ave., Bldg. 90231 🪙 FREE – Open to all ages! Get your craft on with Halloween Bowling Pin Decorating Contest! Come by to Hurlburt Lanes Bowling to register in person, take home your pin, and decorate away. Decorated bowling pins must be submitted by 28 October. FSS gift card prizes for the top 3 winners! First Place: $50 FSS Gift Card Second Place: $25 FSS Gift Card Third Place: $10 FSS Gift Car",
+      "category": "holiday"
+    },
+    {
+      "id": "hurlburt-art-photo-contest-2026-10-01",
+      "title": "Art & Photo Contest",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-30T23:59:00",
+      "location": "Hurlburt Field",
+      "address": "Hurlburt Field, FL",
+      "description": "2026 Air Force Art & Photo Contest 🎨📸 Theme: Joy Unfiltered What does joy look like when it’s real, spontaneous, and unfiltered? This year’s contest challenges artists and photographers to capture authentic moments of happiness, connection, pride, relief, and contentment. Forget perfection—show us Joy Unfiltered . 🎨 Art Categories 2D Art: Drawing, painting, sketching, mixed media, and more 3D Art: Sculpture, ceramics, pottery, glass, wood, fiber, textiles, and more Youth age groups: 6–8, 9–12, and 13–17 Adult: 18+ 📸 Photography Categories Youth age groups: 9–12 and 13–17 Adult: 18+ 📅 Contest P",
+      "category": "family"
+    },
+    {
+      "id": "hurlburt-inshore-fishing-2026-10-04",
+      "title": "Inshore Fishing",
+      "date": "2026-10-04T06:00:00",
+      "endDate": "2026-10-04T10:00:00",
+      "location": "ODR Marina Beach",
+      "address": "100 Corlew Rd, Hurlburt Field, FL, 32544",
+      "description": "Experience the thrill of fishing with Luck Chucky Inshore Fishing Charters! 🐟🎣 6 AM-10 AM (4-hour sessions) | $137.50 registration price | Max 4 participants per session Register in-person at ODR or call (850) 884-6939 Guided by Captain Chuck, fellow fishers will traverse the gentle inshore waters of the Emerald Coast for Redfish and Bull Reds, Speckled Trout, Flounder, Sheepshead, and more! Lucky Chucky Charters offer inshore and nearshore from Fort Walton Beach to Destin. 2026 Dates 11 July 16 August 20 September 4 October 15 November Information subject to change. For more information, cont",
+      "category": "outdoor"
+    },
+    {
+      "id": "hurlburt-future-stars-2026-10-06",
+      "title": "Future Stars",
+      "date": "2026-10-06T16:30:00",
+      "endDate": "2026-10-06T17:30:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "Future Stars Golf Program ⭐⛳ Help your young golfer build skills, confidence, and a love for the game with Future Stars , featuring the U.S. Kids Player Pathway Program at Gator Lakes Golf Course! Designed for ages 6–12 , this 4-week program combines professional instruction with fun, engaging activities that help juniors develop their golf game in a supportive environment. 📅 6–28 October 📍 Gator Lakes Golf Course 👧🧒 Ages 6–12 ⏱️ 60-minute classes ⛳ Choose Your Class Tuesdays at 4:30 PM Wednesdays at 4:30 PM 👥 Limited to 6 juniors per class 💲 Program Fees: Current Players: $100 New Players: $1",
+      "category": "family"
+    },
+    {
       "id": "hurlburt-magic-all-stars-2026-10-09",
       "title": "Magic All Stars",
       "date": "2026-10-09T18:00:00",
@@ -418,6 +418,26 @@
       "category": "recreation"
     },
     {
+      "id": "hurlburt-pinewood-derby-halloween-edition-2026-10-15",
+      "title": "Pinewood Derby: Halloween Edition",
+      "date": "2026-10-15T16:00:00",
+      "endDate": "2026-10-15T18:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "Pinewood Derby: Halloween Edition Get ready for a frightfully fun race! 🎃🏎️ Join us for the Pinewood Derby: Halloween Edition , where creativity meets speed in a family-friendly Halloween celebration. 📅 Saturday, 17 October 2026 ⏰ 10:00 AM 📍 Community Center 💲 $5 per person Design and decorate your own Halloween-themed Pinewood Derby car , then race it against the competition! Come dressed in your favorite costume and enjoy a morning filled with racing, music, seasonal fun, and family-friendly excitement. 🕸️🏁 🎨 Car Decorating: 📅 15–16 October ⏰ 4–6:30 PM 🍪 Light refreshments provided 📌 Registr",
+      "category": "holiday"
+    },
+    {
+      "id": "hurlburt-quarterly-game-night-throwdown-2026-10-16",
+      "title": "Quarterly Game Night Throwdown",
+      "date": "2026-10-16T17:00:00",
+      "endDate": "2026-10-16T19:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "🎮 Quarterly Game Night Throwdown is HERE! 🎮 Think you’ve got what it takes to dominate the competition? Join us at the Community Center for epic quarterly gaming tournaments featuring fan-favorite games like Mario Kart , Super Smash Bros. , Mortal Kombat , and Injustice 2 ! 🗓 Fridays at 5pm: • May 15 • July 17 • October 16 • December 11 🔥 Compete against other gamers 🍔 Enjoy bites from the on-site food truck 🏆 Battle it out to see who’s the best on Hurlburt Field Grab your friends, sign up, and get ready for an unforgettable night of gaming! 📍 Community Center – 443 Cody Ave 🎮 Hosted with Air ",
+      "category": "entertainment"
+    },
+    {
       "id": "hurlburt-deep-sea-fishing-2026-10-17",
       "title": "Deep-Sea Fishing",
       "date": "2026-10-17",
@@ -426,6 +446,16 @@
       "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
       "description": "October deep-sea fishing session listed on series page.",
       "category": "community"
+    },
+    {
+      "id": "hurlburt-movie-on-the-beach-2026-10-17",
+      "title": "Movie on the Beach",
+      "date": "2026-10-17T17:00:00",
+      "endDate": "2026-10-17T20:00:00",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL, 32544",
+      "description": "🌅🎬 Movie on the Beach 🎬🌅 Kick back, relax, and enjoy a movie night like no other—right on the sand! Join us for Movie on the Beach , happening the 3rd Saturday of every month at the Hurlburt Field ODR Marina . ✨ What to know: 🎟️ FREE & open to all ages 🎥 Movie begins at sunset 🪑 Bring beach chairs, blankets, and your favorite water floaty 🍿 Grab your refreshments, the Tiki Bar is available until 7pm! ☔ Weather Watch: Event details are subject to change and may be postponed to Sunday due to weather. Updates will be shared on Facebook 24–48 hours in advance . So grab your crew, claim your spot i",
+      "category": "outdoor"
     },
     {
       "id": "hurlburt-fall-fest-2026-2026-10-30",

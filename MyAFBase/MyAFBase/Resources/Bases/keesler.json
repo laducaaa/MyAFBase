@@ -7,7 +7,7 @@
   "wing": "81 TRW",
   "latitude": 30.4108,
   "longitude": -88.9242,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "keesler-notif-1",
@@ -368,116 +368,6 @@
   ],
   "events": [
     {
-      "id": "keesler-fall-bowling-leagues-2026-09-14",
-      "title": "Fall Bowling Leagues",
-      "date": "2026-09-14T00:00:00",
-      "endDate": "2026-09-14T23:59:59",
-      "location": "Gaude' Lanes Bowling Center",
-      "address": "Biloxi, MS",
-      "description": "Fall Bowling Leagues",
-      "category": "recreation"
-    },
-    {
-      "id": "keesler-monday-night-intramural-league-2026-09-14",
-      "title": "Monday Night Intramural League",
-      "date": "2026-09-14T19:00:00",
-      "endDate": "2026-09-14T19:00:00",
-      "location": "Gaude' Lanes Bowling Center",
-      "address": "Biloxi, MS",
-      "description": "SEP 14 | 7 pm Guade' Lanes Bowling Center The Intramural Bowling League is perfect for anyone looking for a fun, casual way to enjoy bowling with friends or to meet new people. Teams are made up of four players, making it easy to join with a group or sign up solo and get matched with others. Open to all skill levels, the league focuses on friendly competition, teamwork, and a relaxed atmosphere. Open to all with base",
-      "category": "fitness"
-    },
-    {
-      "id": "keesler-federal-employment-workshop-2026-09-16",
-      "title": "Federal Employment Workshop",
-      "date": "2026-09-16T08:00:00",
-      "endDate": "2026-09-16T12:00:00",
-      "location": "M&FRC",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "SEP 16 | 8 am – Noon Sablich Center | Room 108B Information on how to navigate USA Jobs and federal resume formatting. M&FRC 228.376.8728",
-      "category": "education"
-    },
-    {
-      "id": "keesler-plan-my-move-pcs-briefing-2026-09-16",
-      "title": "Plan My Move PCS Briefing",
-      "date": "2026-09-16T14:00:00",
-      "endDate": "2026-09-16T15:00:00",
-      "location": "M&FRC",
-      "address": "Biloxi, MS",
-      "description": "SEP 16 | 2 - 3 pm Sablich Center | Room 108A Reduce the stress of PCSing by attending this class. Briefers include representatives from M&FRC, Housing, TMO, Tricare, and Finance. M&FRC 228.376.8728",
-      "category": "education"
-    },
-    {
-      "id": "keesler-outdoor-recreation-open-house-2026-09-18",
-      "title": "Outdoor Recreation Open House",
-      "date": "2026-09-18T11:00:00",
-      "endDate": "2026-09-18T17:00:00",
-      "location": "Outdoor Recreation",
-      "address": "Biloxi, MS",
-      "description": "SEP 18 | 11 am Outdoor Recreation Marina Park Join us for the Outdoor Recreation Open House! Enjoy the giant water slide, bounce houses, axe-throwing trailer, ice rink, games, equipment demonstrations, and much more!. Explore all our programs, rentals, and adventures. Grilled food will be available for purchase. It's a day of fun for all ages-come out and discover your next adventure! Open to all with base access and",
-      "category": "outdoor"
-    },
-    {
-      "id": "keesler-nfl-kickoff-scramble-2026-09-19",
-      "title": "NFL Kickoff Scramble",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T08:00:00",
-      "location": "Bay Breeze Golf Course",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "SEP 19 | 8 am | Shotgun Start Bay Breeze Golf Course Kick off the NFL season with our fun 2-player golf scramble. Don’t have a partner? We’ll match you up so everyone can join the action. Compete for prizes awarded to both low net and gross teams. Enjoy great food and drinks on the course and after your round. Celebrate football season with friends, golf, and plenty of excitement! Open to all with",
-      "category": "recreation"
-    },
-    {
-      "id": "keesler-color-me-happy-mosaic-art-class-2026-09-19",
-      "title": "Color Me Happy: Mosaic Art Class",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T10:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "Biloxi, MS",
-      "description": "SEP 19 | 10 am Arts & Crafts Center Learn the basics of designing and assembling colorful glass and tiles to create unique mosaic pieces. Under instructor guidance, you'll craft your own picture frame, vase, or tea light holder, gaining hands-on experience in arranging and adhering your materials. This class is perfect for beginners eager to explore their creativity and leave with a beautiful, personalized project. O",
-      "category": "recreation"
-    },
-    {
-      "id": "keesler-super-smash-brothers-tournament-2026-09",
-      "title": "Super Smash Brothers Tournament",
-      "date": "2026-09-19T11:00:00",
-      "endDate": "2026-09-19T13:00:00",
-      "location": "McBride Commons",
-      "address": "Keesler AFB, Biloxi, MS",
-      "description": "SEP 19 | 11 am – 1 pm McBride Commons Calling all gamers! Are you ready for some friendly competition? McBride Commons is excited to host a Smash Brothers tournament. Whether you’re a seasoned pro or just play for fun, join us for an action-packed event and show off your skills. Don’t miss out on the chance to compete, connect with fellow gamers, and enjoy a great time! McBride Commons 228.377.282",
-      "category": "community"
-    },
-    {
-      "id": "keesler-driving-clinic-2026-09-19",
-      "title": "Driving Clinic",
-      "date": "2026-09-19T12:00:00",
-      "endDate": "2026-09-19T13:00:00",
-      "location": "Bay Breeze Golf Course",
-      "address": "Biloxi, MS",
-      "description": "SEP 19 | Noon - 1 pm Bay Breeze Golf Clinic Want to hit the ball farther? Join our Driving Clinic and learn the secret to increasing your clubhead speed with PGA Professional Bob Dacey. Bob will share expert tips and techniques to help you add power and distance to your drives. No matter your skill level, you'll walk away with practical drills and advice to take your game to the next level. Open to all with base acce",
-      "category": "recreation"
-    },
-    {
-      "id": "keesler-culinary-class-rice-around-the-world-2026-09-19",
-      "title": "Culinary Class: Rice Around the World",
-      "date": "2026-09-19T13:00:00",
-      "endDate": "2026-09-19T15:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "Biloxi, MS",
-      "description": "SEP 19 | 1 - 3 pm Arts & Crafts Center Celebrate National Rice Month this September by joining the Rice Around the World culinary class! Discover how rice is prepared and enjoyed in cuisines across the globe. In this instructor-led class, you'll learn to make a variety of flavorful rice dishes inspired by international traditions. Menu: Arroz con Pollo | Filipino Yellow Rice w/shrimp and chorizo | Korean Bibimbap Bow",
-      "category": "recreation"
-    },
-    {
-      "id": "keesler-give-parents-a-break-mini-air-force-ball-2026-09-19",
-      "title": "Give Parents A Break: Mini Air Force Ball",
-      "date": "2026-09-19T17:30:00",
-      "endDate": "2026-09-19T22:30:00",
-      "location": "Youth Center",
-      "address": "Biloxi, MS",
-      "description": "SEP 19 | 5:30 - 10:30 pm SEP 11 - 17 | Registration Youth Center | Child Development Center The Youth Center and the Child Development Center are excited to host the Mini Air Force Ball! Dress up in your favorite ball gown or tuxedo, walk the red carpet, and be the star of the show. Enjoy delicious food, fun games, and a crafts station-all happening the same night as the official Air Force Ball. This special event of",
-      "category": "family"
-    },
-    {
       "id": "keesler-transition-assistance-workshop-2026-09-2",
       "title": "Transition Assistance Workshop",
       "date": "2026-09-21T08:00:00",
@@ -496,6 +386,16 @@
       "address": "Biloxi, MS",
       "description": "SEP 21 | 3 -4 pm Sablich Center | Room 108A Briefing to advise retiring service members and their spouses on the survivor benefit program to assist in making an informed decision before retirement on benefits. M&FRC 228.376.8728",
       "category": "education"
+    },
+    {
+      "id": "keesler-facet-frenzy-sale-2026-09-22",
+      "title": "Facet Frenzy Sale",
+      "date": "2026-09-22T00:00:00",
+      "endDate": "2026-09-22T23:59:59",
+      "location": "Arts & Crafts Center",
+      "address": "Biloxi, MS",
+      "description": "SEP 1 – 30 Arts & Crafts Center Discover the Facet Frenzy Bisque Sale at the Arts & Crafts Center! Dive into a vibrant collection of stylish geometric ceramics and enjoy an exclusive 10% off, available while supplies last. Whether you’re a seasoned artist or just looking for a creative escape, this is the perfect opportunity to add some modern flair to your collection. Please note: paint and studio fees are additional. Stop by and let your creativity shine! Open to all with base access and sponsored guests Arts & Crafts Center 228.377.2821",
+      "category": "outdoor"
     },
     {
       "id": "keesler-transition-assistance-workshop-2026-09-2",
@@ -518,6 +418,76 @@
       "category": "education"
     },
     {
+      "id": "keesler-youth-baseball-t-ball-registration-2026-09-23",
+      "title": "Youth Baseball & T-Ball Registration",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "Youth Center",
+      "address": "Biloxi, MS",
+      "description": "AUG 5 – SEP 26 | Season Youth Center Step up to the plate and join our Youth Baseball League! This program is designed for kids ages 3–12 and is the perfect opportunity for young players to learn the fundamentals of baseball, make new friends, and have fun in a supportive team environment. Practices are on Wednesday and games are played on Saturdays Sign up on CYPBMS. Call the Youth Center at 228.377.4116 Open to all with base access and sponsored guests Ages | 3 – 12 $50 Ages 3 – 4 | $ 60 | Ages 5 – 12",
+      "category": "family"
+    },
+    {
+      "id": "keesler-intramural-football-2026-09-24",
+      "title": "Intramural Football",
+      "date": "2026-09-24T14:00:00",
+      "endDate": "2026-09-24T17:00:00",
+      "location": "Fitness",
+      "address": "Biloxi, MS",
+      "description": "SEP 24 | 2 pm Coaches Meeting Triangle Fitness Center Season starts October 5 – December We’re excited to announce that the Intramural Flag-Football Coaches Meeting will take place on September 24. If you’re interested in coaching or assisting this season, this is your chance to get involved, meet fellow coaches, and learn everything you need to know for a successful season. Open to all with base access and sponsored guests Ages | 18+ Sports Council Meetings Quarter 1: March 19 Quarter 2: June 18",
+      "category": "fitness"
+    },
+    {
+      "id": "keesler-fallen-heroes-butterfly-release-2026-09-25",
+      "title": "Fallen Heroes: Butterfly Release",
+      "date": "2026-09-25T10:00:00",
+      "endDate": "2026-09-25T10:00:00",
+      "location": "M&FRC",
+      "address": "Biloxi, MS",
+      "description": "SEP 25 | 10 am Fallen Heroes Butterfly Garden: Marina Park Join us for the Fallen Heroes Butterfly Release, a heartfelt event dedicated to honoring the service and sacrifice of our Fallen Service members. Butterflies, symbols of transformation and hope, will be released in the serene setting of the Fallen Heroes Butterfly Garden. This special ceremony invites everyone in attendance to take part in a collective tribute—each guest will have the opportunity to release a butterfly in remembrance and gratitude. Let us gather to celebrate the enduring legacy of our heroes and embrace the beauty of r",
+      "category": "outdoor"
+    },
+    {
+      "id": "keesler-youth-bowling-league-2026-09-26",
+      "title": "Youth Bowling League",
+      "date": "2026-09-26T10:00:00",
+      "endDate": "2026-09-26T10:00:00",
+      "location": "Gaude’ Lanes Bowling Center",
+      "address": "Biloxi, MS",
+      "description": "Saturdays | 10 am Gaude’ Lanes Bowling Center The Youth Bowling League is the perfect place for young bowlers to learn, compete, and make new friends. Teams will be formed one week before the start date, giving everyone a chance to meet their teammates and get ready for the season. Open to all skill levels, the league focuses on teamwork, skill-building, and fun in a supportive environment. Open to all with base access and sponsored guests Call Gaude’ Lanes Bowling Center at 228.377,2817 for more information",
+      "category": "family"
+    },
+    {
+      "id": "keesler-crabbing-class-2026-09-27",
+      "title": "Crabbing Class",
+      "date": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T10:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Biloxi, MS",
+      "description": "SEP 27 | 10 am Keesler Marina Join our Crabbing Class at Keesler Marina and learn how to catch the beloved blue crab! Surrounded by the beautiful waters of the marina, you’ll receive hands-on instruction in the basics of recreational crabbing. Each participant will receive one crab ring and bait, making it easy for beginners and fun for all ages. Discover the secrets of successful crabbing and enjoy a memorable day on the water. Open to all with base access and sponsored guests Ages | 5+ $15 | Per Person Register by September 24 Outdoor Recreation 228.377.3160",
+      "category": "outdoor"
+    },
+    {
+      "id": "keesler-fall-into-halloween-bisque-sale-2026-10-01",
+      "title": "“Fall” Into Halloween Bisque Sale!",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "Arts & Crafts Center",
+      "address": "Biloxi, MS",
+      "description": "OCT 1- 31 Arts & Crafts Center Spooktacular savings are waiting for you at our annual Halloween Bisque Sale. Create your fall, Halloween, and Dia de Muertos (day of the dead) decor, Grab your favorite designs, and receive a 10% discount on the purchase. Open to all with base access and sponsored guests All Ages Arts & Crafts Center 228,377.2821",
+      "category": "holiday"
+    },
+    {
+      "id": "keesler-farmers-crafts-market-2026-10-02",
+      "title": "Farmers & Crafts Market",
+      "date": "2026-10-02T10:00:00",
+      "endDate": "2026-10-02T13:00:00",
+      "location": "McBride Commons",
+      "address": "Biloxi, MS",
+      "description": "OCT 2 | 10 am – 2 p Marina Park If fresh and local is important, check out the Farmers & Crafts Market. Local growers, bakers, and artisans give you a selection homegrown and handmade goods. The market is the perfect place to support local vendors and enjoy a community spirit. Open to all with base access and sponsored guests All Ages FREE McBride Commons 228,377.2821",
+      "category": "outdoor"
+    },
+    {
       "id": "keesler-cruisin-2026-10-03",
       "title": "Cruisin' Keesler",
       "date": "2026-10-03",
@@ -526,6 +496,66 @@
       "address": "Keesler AFB, MS",
       "description": "Cruisin' Keesler listed on keesler81fss.com calendar (featured Oct 3).",
       "category": "community"
+    },
+    {
+      "id": "keesler-cruisin-keesler-2026-10-03",
+      "title": "Cruisin’ Keesler.",
+      "date": "2026-10-03T08:00:00",
+      "endDate": "2026-10-03T08:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Biloxi, MS",
+      "description": "EVENT: OCT 3 | 8 am at Outdoor Recreation Marina Park Get ready for our 23rd Annual Car Show! Rev up your engines for the 23rd Annual Cruisin’ Keesler Car Show, happening at Keesler Air Force Base! This family-friendly event showcases a stunning variety of classic cars, hot rods, muscle machines, and custom builds. View the classics under the classic oak trees! Whether you’re a car enthusiast or just looking for a fun morning out, Cruisin’ Keesler has something for everyone—don’t miss it! Open to all with base access and sponsored guests. Entry is free for viewers. Registration | July 1 – Octo",
+      "category": "outdoor"
+    },
+    {
+      "id": "keesler-youth-bowling-league-2026-10-03",
+      "title": "Youth Bowling League",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T10:00:00",
+      "location": "Gaude’ Lanes Bowling Center",
+      "address": "Biloxi, MS",
+      "description": "Saturdays | 10 am Gaude’ Lanes Bowling Center The Youth Bowling League is the perfect place for young bowlers to learn, compete, and make new friends. Teams will be formed one week before the start date, giving everyone a chance to meet their teammates and get ready for the season. Open to all skill levels, the league focuses on teamwork, skill-building, and fun in a supportive environment. Open to all with base access and sponsored guests Call Gaude’ Lanes Bowling Center at 228.377,2817 for more information",
+      "category": "family"
+    },
+    {
+      "id": "keesler-base-newcomers-2026-10-06",
+      "title": "Base Newcomers",
+      "date": "2026-10-06T08:15:00",
+      "endDate": "2026-10-06T12:00:00",
+      "location": "M&FRC",
+      "address": "Biloxi, MS",
+      "description": "OCT 6 | 8:15 am – Noon Sablich Center | Room 108B Orientation to the base with multiple agencies providing mandatory briefings. Call 228.376.8728 to register with the Military Family Readiness Center",
+      "category": "family"
+    },
+    {
+      "id": "keesler-junior-golf-clinics-2026-10-10",
+      "title": "Junior Golf Clinics",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T11:00:00",
+      "location": "Bay Breeze Golf Course",
+      "address": "Biloxi, MS",
+      "description": "OCT 10, 17, & 24 | 10 – 11 am Bay Breeze Golf Course Kids receive simple, step-by-step instruction on grip, stance, swing, and putting, plus lessons in golf etiquette and sportsmanship, Open to all with base access and sponsored guests Ages | 6 – 16 $100 | Per Child | 3 sessions Register by October 8 Bay Breeze Golf Course 228.377.3832",
+      "category": "family"
+    },
+    {
+      "id": "keesler-zombie-5k-2026-10-16",
+      "title": "Zombie 5K",
+      "date": "2026-10-16T07:00:00",
+      "endDate": "2026-10-16T07:00:00",
+      "location": "Fitness",
+      "address": "",
+      "description": "OCT 16 | 7 am | Registration | 6:30 am Triangle Fitness Center Join us for a family-friendly 5K run or walk that’s packed with fun and excitement! Come dressed in your favorite Zombie or Halloween costume and enjoy a festive atmosphere with fellow participants. Whether you run or walk, this event promises a spooky good time for all ages! Open to all with base access and sponsored guests All Ages FREE Triangle Fitness Center 228.377.3056",
+      "category": "holiday"
+    },
+    {
+      "id": "keesler-hiller-park-kayak-trip-2026-10-24",
+      "title": "Hiller Park Kayak Trip",
+      "date": "2026-10-24T09:00:00",
+      "endDate": "2026-10-24T09:00:00",
+      "location": "Outdoor Recreation",
+      "address": "",
+      "description": "OCT 24 | 9 am Marina Boat Ramp Join us for the Hiller Park Kayak trip, a blend of outdoor adventure and scenic relaxation. This trip is 3.5 miles of peaceful paddling, taking roughly two and a half hours. You will enjoy a great view of the water, and delicious breakfast burritos. Open to all with base access and sponsored guests Ages | 12+ $20 | Per Person Register by October 21 Outdoor Recreation 228.377.3160",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

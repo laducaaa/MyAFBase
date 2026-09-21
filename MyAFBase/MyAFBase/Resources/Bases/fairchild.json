@@ -292,36 +292,6 @@
   ],
   "events": [
     {
-      "id": "fairchild-family-cooking-2026-09-15",
-      "title": "September Family Cooking Class",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "location": "Fairchild AFB",
-      "address": "Fairchild AFB, WA",
-      "description": "Family cooking class; fairchildfun.com homepage.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-mother-son-dance-2026-09-18",
-      "title": "Release the Kraken! Mother Son Dance",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Red Morgan Community Center",
-      "address": "10 Ent St, Fairchild AFB, WA 99011",
-      "description": "Undersea-themed Mother-Son Dance; fairchildfun.com event page.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-release-the-kraken-20-000-leagues-under-the-sea-mother",
-      "title": "Release the Kraken! 20,000 leagues under the sea: Mother Son Dance",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "Red Morgan Community Center",
-      "address": "10 Ent St, Fairchild AFB, 99011",
-      "description": "Release the Kraken! 20,000 Leagues Under the Sea: Mother-Son Dance Dive into an unforgettable evening of music, dancing, and underwater adventure at Fairchild AFB! The Kraken has been released, and the dance floor is waiting! Grab your favorite dance partner and journey beneath the waves for Release the Kraken! 20,000 Leagues Under the Sea: Mother-Son Dance at the Red Morgan Community Center. Mothers and sons are inv",
-      "category": "family"
-    },
-    {
       "id": "fairchild-oktoberfest-2026-09-26",
       "title": "Fairchild Oktoberfest 2026",
       "date": "2026-09-26",
@@ -369,6 +339,16 @@
       "location": "Fairchild AFB",
       "address": "Spokane, WA",
       "description": "Saddle up for an evening ride through Riverside State Park's scenic 14,000 acres. Cruise tranquil trails in the cool evening air, then head back to the arena for dinner. It's a laid-back adventure that kicks your weekend off right-close to home, but far from ordinary. Trip Dates: * June 26 * July 31 * August 7 * August 21 * September 11 Meet Time: 5 PM Location: PNW Guided Trail Rides, WA Participants will drive pers",
+      "category": "outdoor"
+    },
+    {
+      "id": "fairchild-oap-trips-horseback-dinner-ride-2026-10-17",
+      "title": "OAP Trips – Horseback Dinner Ride",
+      "date": "2026-10-17T17:00:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Saddle up for an evening ride through Riverside State Park’s scenic 14,000 acres. Cruise tranquil trails in the cool evening air, then head back to the arena for dinner. It’s a laid-back adventure that kicks your weekend off right—close to home, but far from ordinary. Trip Dates: * June 26 * July 31 * August 7 * August 21 * September 11 Meet Time: 5 PM Location: PNW Guided Trail Rides, WA Participants will drive personal vehicles for OAP trips. If you need driving accommodations, contact OAP at 509-247-3879. Eligibility: Open to Team Fairchild DoD ID Card holders, ages 10+ Minimum 2 / Maximum ",
       "category": "outdoor"
     }
   ],
@@ -441,5 +421,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-14T06:41:37Z"
+  "dataUpdatedAt": "2026-09-21T06:35:07Z"
 }

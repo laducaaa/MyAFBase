@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -206,86 +206,6 @@
   ],
   "events": [
     {
-      "id": "ramstein-story-time-craft-2026-09-14",
-      "title": "Story Time & Craft",
-      "date": "2026-09-14T00:00:00",
-      "endDate": "2026-09-14T23:59:59",
-      "location": "USO Baumholder",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "Join us for another fun Story Time & Craft event for your littlest Baumholder guests (preschool aged children & their parents). Kiddos will get to hear a fun story and then work on a corresponding craft to help develop those fine motor skill…",
-      "category": "family"
-    },
-    {
-      "id": "ramstein-community-appreciation-drop-2026-09-15",
-      "title": "Community Appreciation Drop",
-      "date": "2026-09-15T00:00:00",
-      "endDate": "2026-09-15T23:59:59",
-      "location": "USO Ramstein",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "Do you know a unit here at Ramstein Air Base that exemplifies dedication, excellence, and hard work? We invite you to nominate them for recognition. Selected units will receive a token of appreciation consisting of light snacks or a meal, a beverage…",
-      "category": "community"
-    },
-    {
-      "id": "ramstein-smash-showdown-tournament-2026-09-16",
-      "title": "Smash Showdown Tournament",
-      "date": "2026-09-16T00:00:00",
-      "endDate": "2026-09-16T23:59:59",
-      "location": "USO Kaiserslautern",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "Join us for a smashing good time as our popular Super Smash Brothers Tournament returns! This event brings together players of all skill levels for friendly competition, allowing participants to battle with favorite characters and vie for the title …",
-      "category": "fitness"
-    },
-    {
-      "id": "ramstein-geierlay-suspension-bridge-hike-2026-09-17",
-      "title": "Geierlay Suspension Bridge Hike",
-      "date": "2026-09-17T09:30:00",
-      "endDate": "2026-09-17T18:00:00",
-      "location": "Ramstein Outdoor Recreation",
-      "address": "Ramstein Air Base, DE",
-      "description": "Outdoor Recreation hike across the Geierlay Suspension Bridge, 100 meters above the forest floor.",
-      "category": "outdoor"
-    },
-    {
-      "id": "ramstein-bazaar-2026-09-18",
-      "title": "62nd Annual Ramstein Bazaar",
-      "date": "2026-09-18",
-      "endDate": "2026-09-20",
-      "location": "Hangars 1 and 2, Ramstein AB",
-      "address": "Ramstein Air Base, Germany",
-      "description": "Annual Ramstein Bazaar (ROSC / 86 FSS community bazaar); Stripes Europe community coverage + ramsteinbazaar.org.",
-      "category": "community"
-    },
-    {
-      "id": "ramstein-boards-swords-2026-09-18",
-      "title": "Boards & Swords",
-      "date": "2026-09-18T00:00:00",
-      "endDate": "2026-09-18T23:59:59",
-      "location": "USO Ramstein",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "Join us at USO Ramstein for our weekly “Boards and Swords” gaming event, where Magic: The Gathering takes center stage. Whether you’re a seasoned player or new to the game, come battle it out and enjoy some friendly competition",
-      "category": "entertainment"
-    },
-    {
-      "id": "ramstein-back-in-the-groove-late-night-bash-2026-09-18",
-      "title": "Back in the Groove Late Night Bash",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T22:00:00",
-      "location": "Youth Programs",
-      "address": "Ramstein Air Base, DE",
-      "description": "Youth Programs late night bash for teens.",
-      "category": "family"
-    },
-    {
-      "id": "ramstein-community-dodgeball-tournament-2026-09-19",
-      "title": "Community Dodgeball Tournament",
-      "date": "2026-09-19T09:00:00",
-      "endDate": "2026-09-19T18:00:00",
-      "location": "Southside Fitness Center",
-      "address": "Ramstein Air Base, DE",
-      "description": "Community dodgeball tournament hosted by Fitness & Sports.",
-      "category": "fitness"
-    },
-    {
       "id": "ramstein-scuba-course-2026-2026-09-22",
       "title": "Scuba Course 2026",
       "date": "2026-09-22T00:00:00",
@@ -296,6 +216,46 @@
       "category": "outdoor"
     },
     {
+      "id": "ramstein-whisked-wednesdays-2026-09-23",
+      "title": "Whisked Wednesdays",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "ramstein-lego-plant-party-2026-09-24",
+      "title": "Lego Plant Party",
+      "date": "2026-09-24T00:00:00",
+      "endDate": "2026-09-24T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "ramstein-boards-swords-2026-09-25",
+      "title": "Boards & Swords",
+      "date": "2026-09-25T00:00:00",
+      "endDate": "2026-09-25T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "ramstein-paws-pancakes-2026-09-26",
+      "title": "Paws & Pancakes",
+      "date": "2026-09-26T00:00:00",
+      "endDate": "2026-09-26T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "community"
+    },
+    {
       "id": "ramstein-deployed-partners-breakfast-2026-09-29",
       "title": "Deployed Partners Breakfast",
       "date": "2026-09-29T00:00:00",
@@ -304,6 +264,16 @@
       "address": "Kaiserslautern Military Community, Germany",
       "description": "Join us for a morning of connection, encouragement, and community with others who understand the unique challenges of deployment. Whether you’re navigating your first deployment or have been through many, this breakfast provides a welcoming space to…",
       "category": "family"
+    },
+    {
+      "id": "ramstein-boards-swords-2026-10-02",
+      "title": "Boards & Swords",
+      "date": "2026-10-02T00:00:00",
+      "endDate": "2026-10-02T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "entertainment"
     },
     {
       "id": "ramstein-tee-off-for-a-cause-pink-out-tournament-2026-10-02",
@@ -334,6 +304,26 @@
       "address": "Ramstein Air Base, DE",
       "description": "3rd Annual Breast Cancer Awareness 5K supporting the cause with Fitness Centers.",
       "category": "fitness"
+    },
+    {
+      "id": "ramstein-the-crochet-corner-2026-10-07",
+      "title": "The Crochet Corner",
+      "date": "2026-10-07T00:00:00",
+      "endDate": "2026-10-07T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "recreation"
+    },
+    {
+      "id": "ramstein-community-appreciation-drop-2026-10-15",
+      "title": "Community Appreciation Drop",
+      "date": "2026-10-15T00:00:00",
+      "endDate": "2026-10-15T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "community"
     },
     {
       "id": "ramstein-fall-family-bingo-2026-10-17",
@@ -394,6 +384,16 @@
       "address": "AMC Passenger Terminal, Bldg. 3333, Ramstein",
       "description": "Costume teddy bear picnic with games, snacks, and stories for kids.",
       "category": "family"
+    },
+    {
+      "id": "ramstein-boards-swords-2026-11-06",
+      "title": "Boards & Swords",
+      "date": "2026-11-06T00:00:00",
+      "endDate": "2026-11-06T23:59:59",
+      "location": "USO Kaiserslautern",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "",
+      "category": "entertainment"
     },
     {
       "id": "ramstein-homemade-craft-market-november-2026-11-07",

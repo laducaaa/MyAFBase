@@ -7,7 +7,7 @@
   "wing": "7 BW",
   "latitude": 32.4208,
   "longitude": -99.8546,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "dyess-notif-real-id",
@@ -244,86 +244,6 @@
   ],
   "events": [
     {
-      "id": "dyess-3-day-tap-class-2026-09-14",
-      "title": "3-Day TAP Class",
-      "date": "2026-09-14T08:00:00",
-      "endDate": "2026-09-16T16:00:00",
-      "location": "",
-      "address": "",
-      "description": "3-Day Mandatory Transition Class for all separating and retiring service members. Must complete Initial Counseling and Pre-Separation before attending. Please call 325-696-5999 for information or to sign up.",
-      "category": "education"
-    },
-    {
-      "id": "dyess-fatherhood-effects-workshop-2026-09-14",
-      "title": "Fatherhood Effects Workshop",
-      "date": "2026-09-14T11:00:00",
-      "endDate": "2026-09-14T13:00:00",
-      "location": "",
-      "address": "",
-      "description": "Come to a lunch and learn hosted by BCFS we will talk about how to: Resolve conflict and improve communication in your family. Improve your children’s behavior problems Dealing with complicated emotions Overcoming issues of aggression, alcohol and violence 24/7 Dad curriculum teaches the characteristics of a: good father, discipline and a healthy work-family balance. Call the MFRC to register! Contact: Military & Family Readiness Center Email: 7FSS.A.FRC@us.af.mil Phone: 325-696-5999",
-      "category": "family"
-    },
-    {
-      "id": "dyess-lego-builders-2026-09-15",
-      "title": "Lego Builders",
-      "date": "2026-09-15T09:30:00",
-      "endDate": "2026-09-15T11:30:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Come build with us at your Dyess Library! We will have an assortment of building materials including Lego's, KEVA Blocks, and more! Come and go program for all ages. Every",
-      "category": "family"
-    },
-    {
-      "id": "dyess-reintegration-2026-09-15",
-      "title": "Reintegration",
-      "date": "2026-09-15T09:30:00",
-      "endDate": "2026-09-15T10:30:00",
-      "location": "",
-      "address": "",
-      "description": "Required by all AF Members returning from TDY/Remote TDY and a Deployment that are more than 30 days and members PCSing to a Remote assignment. Spouses are highly encouraged to attend. Briefings include Public Health, MFLC, Mental Health/ADAPT, Chaplain, Safety and Readiness NCO. Contact: M&FRC Phone: 325-696-5999",
-      "category": "community"
-    },
-    {
-      "id": "dyess-ksl-quarterly-continuing-education-and-networkin-2026-09-1",
-      "title": "KSL Quarterly Continuing Education and Networking",
-      "date": "2026-09-16T18:00:00",
-      "endDate": "2026-09-16T19:30:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "M&FRC provides networking/education opportunities to compliment Initial KSL training for both KSLs and KSMs. Contact: Military and Family Readiness Email: 7fss.a.frc@us.af.mil Phone: 325-696-5999",
-      "category": "education"
-    },
-    {
-      "id": "dyess-air-force-79th-birthday-2026-09-18",
-      "title": "Air Force 79th Birthday",
-      "date": "2026-09-18T00:00:00",
-      "endDate": "2026-09-18T23:59:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Air Force 79th Birthday",
-      "category": "holiday"
-    },
-    {
-      "id": "dyess-efmp-resource-fair-2026-09-18",
-      "title": "EFMP Resource Fair",
-      "date": "2026-09-18T11:00:00",
-      "endDate": "2026-09-18T13:00:00",
-      "location": "Hangar Center",
-      "address": "357 Ave B, Dyess Air Force Base, TX 79607-1212",
-      "description": "Come out and engage with and learn about EFMP resources from on and off base agencies. No registration is required. Contact: Jennifer Merritt & Alyssa Hiser Email: 7fss.fsh.efmp-familysupport@us.af.mil Phone: 3256965999",
-      "category": "family"
-    },
-    {
-      "id": "dyess-trivia-night-the-bomb-shelter-bar-2026-09-18",
-      "title": "Trivia Night @ The Bomb Shelter Bar",
-      "date": "2026-09-18T17:30:00",
-      "endDate": "2026-09-18T19:30:00",
-      "location": "Hangar Center",
-      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
-      "description": "Think you’ve got the brains to beat the bar? Bring your best guesses, wild hunches, and random knowledge for a night of free trivia, laughs, and friendly competition at the",
-      "category": "entertainment"
-    },
-    {
       "id": "dyess-fall-soccer-season-begins-2026-09-21",
       "title": "Fall Soccer Season begins",
       "date": "2026-09-21T08:00:00",
@@ -344,6 +264,16 @@
       "category": "fitness"
     },
     {
+      "id": "dyess-fatherhood-effects-workshop-2026-09-21",
+      "title": "Fatherhood Effects Workshop",
+      "date": "2026-09-21T11:00:00",
+      "endDate": "2026-09-21T13:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Come to a lunch and learn hosted by BCFS we will talk about how to: Resolve conflict and improve communication in your family. Improve your children’s behavior problems Dealing with complicated emotions Overcoming issues of aggression, alcohol and violence 24/7 Dad curriculum teaches the characteristics of a: good father, discipline and a healthy work-family balance. Call the MFRC to register! Contact: Military & Family Readiness Center Email: 7FSS.A.FRC@us.af.mil Phone: 325-696-5999",
+      "category": "family"
+    },
+    {
       "id": "dyess-free-pool-tournament-2026-09-23",
       "title": "Free Pool Tournament",
       "date": "2026-09-23T17:30:00",
@@ -352,6 +282,16 @@
       "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
       "description": "Wednesday, September 23 | 5:30 PM–7:30 PM Hangar Center | 357 Ave B, Building 7106 Rack ’em up and join us for a FREE Pool Tournament at Hangar Center! Whether",
       "category": "recreation"
+    },
+    {
+      "id": "dyess-make-take-crafts-2026-09-24",
+      "title": "Make & Take Crafts",
+      "date": "2026-09-24T14:00:00",
+      "endDate": "2026-09-24T18:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Every 2nd & 4th Thursday (excluding holidays) during the school year, join your Dyess Library for Make & Take Crafts! Crafts will vary between easy craft kits to more detailed projects. While some crafts might require a little more dexterity and parent assistant for our younger crafters, all ages are welcome. Available while supplies last. Call the library at 325-696-6873 for more information. Contact: Sara Ritson Email: sara.ritson@us.af.mil Phone: 325-696-6873",
+      "category": "family"
     },
     {
       "id": "dyess-efmp-date-night-positivity-boards-2026-09-24",
@@ -374,6 +314,26 @@
       "category": "family"
     },
     {
+      "id": "dyess-kids-night-out-2026-09-25",
+      "title": "Kids Night Out",
+      "date": "2026-09-25T18:30:00",
+      "endDate": "2026-09-25T21:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "SECRET SPY! Youth ages 5 (must be in kindergarten)-12 will use their inner detective skills, with a mystery at hand, working with other peers to solve the crime of the missing Candyman. Secret clues, coding, and backlighting for finger prints. Who is responsible for the candy mans disappearance. Dinner will be: Hot dogs, tater tots, and juice Cost is $30.00 per child Contact: Amy Darling Email: amy.darling.2@us.af.mil Phone: 325-696-4797",
+      "category": "family"
+    },
+    {
+      "id": "dyess-dove-hunt-2026-09-26",
+      "title": "Dove Hunt",
+      "date": "2026-09-26T05:00:00",
+      "endDate": "2026-09-26T21:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Outdoor Recreation Dove Hunt Join us for a classic Texas dove hunt hosted by Outdoor Recreation. Enjoy the outdoors and experience a well‑managed hunt with plenty of action. Event Details Cost: $48.00 per person Valid Texas hunting license required for all participants Gun and ammo not provided — hunters must bring their own equipment What to Expect A great hunt with an experienced outfitter who knows the land, the birds, and how to create a safe, enjoyable experience for every participant. Whether you’re a seasoned hunter or new to the field, this is a great chance to get out and enjoy Texas ",
+      "category": "outdoor"
+    },
+    {
       "id": "dyess-3-day-tap-class-2026-09-28",
       "title": "3 Day TAP Class",
       "date": "2026-09-28T00:00:00",
@@ -382,6 +342,16 @@
       "address": "Abilene, TX",
       "description": "3-Day Mandatory Transition Class for all separating and retiring service members. Must complete Initial Counseling and Pre-Separation before attending. Please call 325-696-5999 for information or to sign up. Contact: Misti Hauger Email: misti.hauger.1@us.af.mil Phone: 325-696-5999",
       "category": "education"
+    },
+    {
+      "id": "dyess-fatherhood-effect-workshop-2026-09-28",
+      "title": "Fatherhood Effect Workshop",
+      "date": "2026-09-28T11:00:00",
+      "endDate": "2026-09-28T13:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "The Fatherhood EFFECT program offers workshops designed for fathers and father figures using the evidence-based 24/7 Dad curriculum. These sessions help dads build strong family bonds, improve communication, and handle everyday parenting challenges. Contact: Military & Family Readiness Center Email: 7FSS.A.FRC@us.af.mil Phone: 325-696-5999",
+      "category": "family"
     },
     {
       "id": "dyess-efmp-town-hall-2026-10-01",
@@ -414,6 +384,26 @@
       "category": "family"
     },
     {
+      "id": "dyess-oktoberfest-first-friday-2026-10-02",
+      "title": "Oktoberfest First Friday",
+      "date": "2026-10-02T16:00:00",
+      "endDate": "2026-10-02T20:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "",
+      "category": "holiday"
+    },
+    {
+      "id": "dyess-basic-budgeting-2026-10-05",
+      "title": "Basic Budgeting",
+      "date": "2026-10-05T09:00:00",
+      "endDate": "2026-10-05T12:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Learn the basic tenets of money management, controlling spending, and taking back control of personal finances. Attendees will build a detailed household budget along with instructions on how to continue to use it in the future to maintain their financial awareness. The budget will also be used for members to present to their leadership for the purposes of moving out of the dormitory. Contact: Military & Family Readiness Center Email: 7fss.a.frc@us.af.mil Phone: 325-696-5999",
+      "category": "family"
+    },
+    {
       "id": "dyess-efmp-101-2026-10-23",
       "title": "EFMP 101",
       "date": "2026-10-23T09:00:00",
@@ -431,6 +421,16 @@
       "location": "Dyess AFB",
       "address": "Abilene, TX",
       "description": "🎃👻 Get ready for a spooktacular night of treats, tricks, and family fun! 👻🎃 Join us for Spooktacular Trunk or Treat on October 23rd from 5-7 PM for an evening packed with decorated trunks, candy, costumes, and Halloween magic! 🍬🕸️ Bring the whole crew, wear your favorite costume, and get ready to make some fang-tastic memories with the Dyess community! 🧡 📅 October 23 ⏰ 5-7 PM 📍 Location: 7th Medical Group Don't miss ",
+      "category": "holiday"
+    },
+    {
+      "id": "dyess-halloween-boo-wling-party-2026-10-30",
+      "title": "Halloween Boo-wling Party",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T21:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Wear a costume and get 2 FREE games of bowling! Costume Contest @ 7:30 PM: Win coupons for FREE games and food to use on a future visit!",
       "category": "holiday"
     },
     {

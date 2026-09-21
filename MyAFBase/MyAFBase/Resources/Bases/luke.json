@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -306,66 +306,6 @@
       "category": "community"
     },
     {
-      "id": "luke-youth-and-teen-programs-open-recreation-2026-202-2026-09-14",
-      "title": "Youth and Teen Programs, Open Recreation-2026-2027 School Year",
-      "date": "2026-09-14T13:00:00",
-      "endDate": "2026-09-14T17:30:00",
-      "location": "Youth Programs",
-      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
-      "description": "Days: Monday-Friday Time: 1 :00 p.m.- 5:30 pm Location: Youth Programs, bldg 1143 Register / Sign-up By: Monthly Cost: $35.00 Age: 9-18 Details: Youth Programs are designed to encourage members ages 9-18 to realize a wide variety of positive outcomes, a strategy for developing the “whole child.” Youth Programs offers tested, proven and nationally recognized programs in five Core Program Areas that include The Arts, Leadership & Service, Health & Wellness, education and Sports and Recreation that closely align with the developmental needs of all young people Current immunizations and flu shot i",
-      "category": "family"
-    },
-    {
-      "id": "luke-carnival-night-2026-09-14",
-      "title": "Carnival Night",
-      "date": "2026-09-14T17:00:00",
-      "endDate": "2026-09-14T18:00:00",
-      "location": "Library",
-      "address": "480 5th St bldg 2610, Mountain Home AFB, Idaho, 83648",
-      "description": "Date: 14 September 2026 Time: 1700-1800 Location: Base Library Details: Step right up to our Library Carnival Night for an unforgettable evening packed with thrilling games and family-friendly fun! Indulge your sweet tooth while you play, with classic treats like fluffy cotton candy, refreshing snow cones, and buttery popcorn waiting for everyone.",
-      "category": "outdoor"
-    },
-    {
-      "id": "luke-children-s-storytime-2026-09-16",
-      "title": "Children’s Storytime",
-      "date": "2026-09-16T10:00:00",
-      "endDate": "2026-09-16T11:00:00",
-      "location": "",
-      "address": "",
-      "description": "Event: Children’s Storytime Location: Luke AFB Library Contact: 623-856-7191 Childrens-Storytime_Low-Res",
-      "category": "family"
-    },
-    {
-      "id": "luke-af-birthday-2026-09-18",
-      "title": "Air Force Birthday Celebration",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Club 56",
-      "address": "14000 Eagle St, Luke AFB, AZ 85309",
-      "description": "AF Birthday celebration with free cake; Club Five Six / 56 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "luke-air-force-birthday-cornhole-tournament-2026-09-18",
-      "title": "Air Force Birthday Cornhole Tournament",
-      "date": "2026-09-18T13:00:00",
-      "endDate": "2026-09-18T16:00:00",
-      "location": "Community Commons",
-      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
-      "description": "📅 Date: Friday, September 18, 2026 | Register By: September 16, 2026 📍 Location: Community Commons ⏰ Time: 1300-1600 🏆 Format: 2-Person Teams | Double Elimination 👥 Registration: Limited to first 8 teams Questions? (623) 856-7152 | 56.communitycenter@gmail.com",
-      "category": "holiday"
-    },
-    {
-      "id": "luke-fort-tuthill-movie",
-      "title": "Fort Tuthill Movie Under the Stars",
-      "date": "2026-09-19T20:00:00",
-      "endDate": "2026-09-19T22:00:00",
-      "location": "Fort Tuthill",
-      "address": "Flagstaff area / Fort Tuthill, AZ",
-      "description": "Family-friendly outdoor movie; bring blankets and lawn chairs.",
-      "category": "entertainment"
-    },
-    {
       "id": "luke-skyline-camp",
       "title": "Skyline Regional Park Camping & Stargazing",
       "date": "2026-09-25T16:00:00",
@@ -513,6 +453,86 @@
       "location": "Hangar 431 & Fowler Park",
       "address": "Luke AFB, Glendale, AZ",
       "description": "Kid-friendly deployment simulation with mock orders, FOB Thunderbolt stations, and Welcome Home. Register by 1 Oct.",
+      "category": "family"
+    },
+    {
+      "id": "luke-intramural-flag-football-playoffs-2026-10-19",
+      "title": "Intramural Flag Football Playoffs",
+      "date": "2026-10-19T18:00:00",
+      "endDate": "2026-10-19T19:00:00",
+      "location": "Bryant Fitness Center",
+      "address": "14053 W Shooting Star St, Glendale, AZ",
+      "description": "Date(s): 19 – 29 October 2026 Time: 1800 – 1900 Location: Bryant Fitness Center Details: The top eight teams to finish the intramural flag football season",
+      "category": "fitness"
+    },
+    {
+      "id": "luke-dorm-airmen-halloween-party-2026-10-23",
+      "title": "Dorm Airmen Halloween Party",
+      "date": "2026-10-23T16:00:00",
+      "endDate": "2026-10-23T21:30:00",
+      "location": "",
+      "address": "",
+      "description": "Date: 23 October 2026 Time: 1600-2130 Location: Community Commons Details: Open to all Dorm Airmen! Escape the dorms and join us in the Community Center for a night of free food, sweets, and games.",
+      "category": "holiday"
+    },
+    {
+      "id": "luke-fort-tuthill-fall-fest-2026-10-24",
+      "title": "Fort Tuthill Fall Fest",
+      "date": "2026-10-24T14:00:00",
+      "endDate": "2026-10-24T16:00:00",
+      "location": "Fort Tuthill",
+      "address": "Fort Tuthill Luke AFB Recreation Area HC 39 Box 5, Flagstaff, AZ",
+      "description": "Date: 24 October 2026 Time: 2:00 PM – 4:00 PM Location: Fort Tuthill Details: Celebrate the season with an afternoon of festive fun! Enjoy a hayride through the campground, pumpkin carving, hot chocolate, and popcorn for everyone. Family-friendly, cozy, and perfect for all ages. Cost: Free",
+      "category": "holiday"
+    },
+    {
+      "id": "luke-goldfield-haunted-walking-tour-2026-10-24",
+      "title": "Goldfield Haunted Walking Tour",
+      "date": "2026-10-24T18:30:00",
+      "endDate": "2026-10-24T23:00:00",
+      "location": "",
+      "address": "",
+      "description": "Date: October 24th, 2026 Arrive at ODR: 1830 Depart: 1845 Arrive at location: ~ (2000 ) Return: ~ 2300 Location: 4650 N Mammoth Mine Rd Apache Junction, AZ 85119 Participants:All Military & DoD ID Card Holders & Single Airmen/Deployed Affected DUAL Price: $65 per person / 13 max participants Registration Start: September 1st, 2026 Last Day for Refunds: October 12th, 2026 Registration End: October 14th, 2026 Description: Experience a tour through the once rich mining town like never before! Unearth Goldfield’s darker secrets, enjoy this haunted, 1 hr 45 min walking tour through the historic tow",
+      "category": "outdoor"
+    },
+    {
+      "id": "luke-havasupai-backpacking-trip-2026-10-28",
+      "title": "Havasupai Backpacking Trip",
+      "date": "2026-10-28T00:00:00",
+      "endDate": "2026-11-01T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Date(s): 28 October – 1 November Time: 1300 Location: Havasupai Participants: All Military & DoD ID Card Holders (ODR REG) Price: $570 per person / 13 max participants Registration Start: May 1st 50% Deposit Due Last Day for Refunds: July 1st for 50% deposit refund Registration End: October 1st, 2026 Remaining deposit due Details: The hike is approximately 10 miles one way and begins with a series of switchbacks dropping steeply into the canyon. Expect uneven terrain, loose gravel, and exposure to sun for much of the hike. Price includes permit, trip guide, transportation, gear listed below an",
+      "category": "outdoor"
+    },
+    {
+      "id": "luke-all-day-wing-fest-2026-10-28",
+      "title": "All Day Wing Fest",
+      "date": "2026-10-28T00:00:00",
+      "endDate": "2026-10-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Last Weds of the month – All Day Wing Fest Date: Last Wednesday of the Month Location: Club Five Six Time: Lunch – 1100-1300 Dinner – 1530",
+      "category": "recreation"
+    },
+    {
+      "id": "luke-fall-fest-2026-10-30",
+      "title": "Fall Fest",
+      "date": "2026-10-30T17:00:00",
+      "endDate": "2026-10-30T20:00:00",
+      "location": "Community Commons",
+      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "Date: 30 Oct 2026 Time: 1700 – 2000 Location: Community Commons Cost: Free Admission Details: Join us for spooky fun! Trick-or-treat through our Trunk o Treat, brave the chills of our Haunted Maze, admire classic cars at our Car Show, pick the perfect pumpkin from our Pumpkin Patch, and show off your creativity in our Trunk-or-Treat Competition. Plus so much more frightful fun awaits!",
+      "category": "holiday"
+    },
+    {
+      "id": "luke-fall-fest-costume-contest-2026-10-30",
+      "title": "Fall Fest Costume Contest",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T19:00:00",
+      "location": "Community Commons",
+      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "Date: 30 October 2026 We’re awarding 1st and 2nd place in each category for the Funniest, Scariest, and Most Original costumes. How to Enter: Be at the stage during your designated time slot: 6:00 PM: Babies (Ages 0-3) 6:15 PM: Little Goblins (Ages 4-7) 6:30 PM: Ghosts & Ghouls (Ages 8-11) 6:45 PM: Vampires & Zombies (Ages 12-17) 7:00 PM: Groups (2+ Participants) Don’t miss out on the spooktacular fun! Good luck!",
       "category": "family"
     }
   ],

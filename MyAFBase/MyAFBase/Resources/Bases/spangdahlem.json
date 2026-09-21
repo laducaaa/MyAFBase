@@ -7,7 +7,7 @@
   "wing": "52 FW",
   "latitude": 49.9727,
   "longitude": 6.6925,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "spangdahlem-notif-real-id",
@@ -195,26 +195,6 @@
   ],
   "events": [
     {
-      "id": "spangdahlem-fall-festival-2026-09-18",
-      "title": "Fall Festival",
-      "date": "2026-09-18T17:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Sweater Weather, Shopping, and S’more-worthy Memories Await!</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "spangdahlem-canoe-waterfall-tour-2026-09-19",
-      "title": "Canoe Waterfall Tour",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "Sept 05, 2026: Canoe Waterfall Tour (Germany) Price: $59 (Includes: Transportation, Rental Gear, Guide) Your canoe trip begins on the scenic Saar River from the historic banks of Saarburg. You will immediately paddle into the mouth of the Leukbach to marvel at the spectacular 20-meter waterfall cascading right in the center of the old town. Finally, you will drift back onto the main river channel to enjoy a peaceful paddle past rolling vineyards and green hills. Stop by or call ODR to sign up!",
-      "category": "outdoor"
-    },
-    {
       "id": "spangdahlem-spooky-trivia-the-brickhouse-2026-09-24",
       "title": "Spooky Trivia @ The Brickhouse",
       "date": "2026-09-24T18:00:00",
@@ -335,6 +315,16 @@
       "category": "holiday"
     },
     {
+      "id": "spangdahlem-certified-forest-guide-tour-eifel-national-park-2026",
+      "title": "Certified Forest Guide Tour – Eifel National Park",
+      "date": "2026-11-14T00:00:00",
+      "endDate": "2026-11-14T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Certified Forest Guide Tour – Eifel National Park Discover the natural beauty of Eifel National Park on a guided adventure through one of Western Germany’s protected wilderness areas. Led by a certified National Park Forest Guide, you’ll explore the park’s forests, streams, and rugged landscapes while learning how nature is being allowed to develop freely under the park’s motto, “Let nature be nature.” It’s a great opportunity to spend a day outdoors, experience the Eifel from a new perspective, and learn more about the wildlife, forests, and conservation efforts that make this National Park s",
+      "category": "outdoor"
+    },
+    {
       "id": "spangdahlem-christmas-caves-valkenburg-2026-11-21",
       "title": "Christmas Caves Valkenburg",
       "date": "2026-11-21T11:00:00",
@@ -353,6 +343,26 @@
       "address": "",
       "description": "**THIS TRIP IS CURRENTLY SOLD OUT! Check with ITT for alternate trip options and other upcoming Christmas Market adventures** (Tourist Passport Required) 🎄 ✨ Two Countries, One Magical Christmas Adventure ✨ 🎄 Get ready for the ultimate festive getaway—combining city vibes, fairytale scenery, and legendary Christmas markets . From Freiburg’s cozy streets to a market hidden in a gorge and the iconic Strasbourg Christmas market, this trip is pure holiday magic. 🎄 Day 1: Freiburg & Ravenna Gorge Start your journey in the vibrant city of Freiburg , known for its medieval streets, charming canals, a",
       "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-snowworld-indoor-ski-snowboard-trip-2026-11-28",
+      "title": "SnowWorld Indoor Ski & Snowboard Trip",
+      "date": "2026-11-28T00:00:00",
+      "endDate": "2026-11-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "SnowWorld Indoor Ski & Snowboard Trip Get ready to hit the slopes! Join ODR for a day at SnowWorld in the Netherlands, where you can enjoy skiing or snowboarding on the indoor slopes – no matter what the weather is doing outside. Whether you’re looking to refresh your skills, get some early-season practice, or simply enjoy a fun day on the snow, this trip is a great way to get ready for your next winter adventure. Ages: 14+ Cost: $139 per person Includes: Transportation, gear rental, and lift ticket.",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-ice-skating-trip-eissporthalle-bitburg-2026-12-04",
+      "title": "Ice Skating Trip – Eissporthalle Bitburg",
+      "date": "2026-12-04T00:00:00",
+      "endDate": "2026-12-04T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ice Skating Trip – Eissporthalle Bitburg Lace up your skates and enjoy a fun winter day on the ice! Join ODR for a trip to Eissporthalle Bitburg, where you can skate, have some laughs, and enjoy a classic winter activity close to home. Whether you’re confident on the ice, looking to practice your skills, or stepping onto the rink for the first time, this trip is a great outing for all skill levels. Date: December 4, 2026 Cost: $20 per person Includes: Transportation, entry fees, and rental equipment.",
+      "category": "outdoor"
     },
     {
       "id": "spangdahlem-christmas-at-nuremberg-rothenburg-2026-12-05",
@@ -385,6 +395,16 @@
       "category": "holiday"
     },
     {
+      "id": "spangdahlem-ski-day-trip-s-lden-austria-2026-12-19",
+      "title": "Ski Day Trip – Sölden, Austria",
+      "date": "2026-12-19T00:00:00",
+      "endDate": "2026-12-19T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ski Day Trip – Sölden, Austria Get ready to hit the slopes! Join ODR for a ski day trip to Sölden, Austria, and experience one of the country’s most exciting alpine destinations. With expansive mountain terrain, incredible views, and Sölden’s famous BIG 3 peaks, there’s plenty to explore throughout the day. Whether you’re looking forward to carving your way down the mountain or simply enjoying the atmosphere of an Austrian ski town, it’s a great way to kick off the ski season. Date: December 19, 2026 Cost: $249 per person",
+      "category": "outdoor"
+    },
+    {
       "id": "spangdahlem-french-christmas-at-strasbourg-colmar-2026-12-19",
       "title": "French Christmas at Strasbourg & Colmar",
       "date": "2026-12-19T06:30:00",
@@ -393,6 +413,46 @@
       "address": "",
       "description": "(Tourist passport required) 🎄🏰 Two Storybook Cities, One Unforgettable Christmas Trip 🏰 🎄 Get ready for a Christmas experience straight out of a storybook. This trip takes you to two of the most magical holiday destinations in Europe—Colmar and Strasbourg—where festive lights, historic charm, and unforgettable атмосpheres come together. 🏰 Colmar: A Real-Life Fairytale Step into a town that feels like it was built for Christmas. ✨ A City That Glows Colmar’s Old Town transforms into a sea of twinkling lights, perfectly highlighting its colorful half-timbered houses and canals. Every corner feels",
       "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-ski-day-trip-ischgl-austria-2027-01-23",
+      "title": "Ski Day Trip – Ischgl, Austria",
+      "date": "2027-01-23T00:00:00",
+      "endDate": "2027-01-23T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ski Day Trip – Ischgl, Austria Experience an unforgettable day in the Austrian Alps! Join ODR for a ski day trip to Ischgl and the Silvretta Arena, a premier winter destination known for its extensive slopes and incredible mountain scenery. Explore 239 km of slopes, with terrain stretching across the border into Samnaun, Switzerland. Whether you’re looking to cover as much of the mountain as possible, enjoy the high-altitude runs, or experience Ischgl’s lively après-ski atmosphere, there’s plenty to make the most of your day. Date: January 23, 2027 Cost: $259 per person",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-ski-day-trip-grindelwald-switzerland-2027-02-06",
+      "title": "Ski Day Trip – Grindelwald, Switzerland",
+      "date": "2027-02-06T00:00:00",
+      "endDate": "2027-02-06T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ski Day Trip – Grindelwald, Switzerland Experience a day of skiing surrounded by some of Switzerland’s most iconic mountain scenery! Join ODR for a trip to Grindelwald and the Jungfrau Ski Region, set beneath the impressive peaks of the Eiger, Mönch, and Jungfrau. With more than 210km of slopes throughout the region, there’s plenty to explore. Enjoy the wide-open runs around Grindelwald-First, take in the breathtaking Alpine views, or challenge yourself on the famous Lauberhorn downhill course near Wengen. Date: February 6, 2027 Cost: $249 per person",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-ski-day-trip-chamonix-mont-blanc-france-2027-02-27",
+      "title": "Ski Day Trip – Chamonix-Mont-Blanc, France",
+      "date": "2027-02-27T00:00:00",
+      "endDate": "2027-02-27T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ski Day Trip – Chamonix-Mont-Blanc, France Experience an unforgettable day on the slopes in Chamonix-Mont-Blanc, France! Set beneath the towering Mont Blanc, this legendary Alpine destination offers incredible skiing and breathtaking mountain views. Explore Chamonix’s renowned ski area, take on the exciting mountain terrain, and enjoy panoramic views throughout the valley. Whether you’re looking for challenging runs or simply want to experience skiing in one of Europe’s most iconic winter destinations, this trip is sure to be one to remember. Date: February 27, 2027 Cost: $249 per person",
+      "category": "outdoor"
+    },
+    {
+      "id": "spangdahlem-ski-apr-s-day-trip-silvretta-montafon-2027-03-13",
+      "title": "Ski & Après Day Trip – Silvretta Montafon",
+      "date": "2027-03-13T00:00:00",
+      "endDate": "2027-03-13T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ski & Après Day Trip – Silvretta Montafon Hit the slopes and stay for the music! Join ODR for a day at Silvretta Montafon, combining a full day of skiing with an exciting après-ski experience. Explore 140km of slopes surrounded by beautiful Austrian Alpine scenery before wrapping up the day with live entertainment featuring DJ Big Tim and Pietro Basile. It’s the perfect trip for those looking to enjoy great skiing, music, and a lively mountain atmosphere all in one day. Date: March 13, 2027 Cost: $219 per person",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

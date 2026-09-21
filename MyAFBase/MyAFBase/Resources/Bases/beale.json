@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -277,56 +277,6 @@
   ],
   "events": [
     {
-      "id": "beale-taco-tuesday-2026-09-15",
-      "title": "Taco Tuesday!!",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "location": "Beale AFB",
-      "address": "",
-      "description": "Recurring Taco Tuesday series; bealefss.com.",
-      "category": "community"
-    },
-    {
-      "id": "beale-throwback-thursdays-2026-09-17",
-      "title": "Throwback Thursdays!!",
-      "date": "2026-09-17T16:00:00",
-      "endDate": "2026-09-17T20:00:00",
-      "location": "Beale Lanes Bowling Center",
-      "address": "17800 Robert Nicoletti Way Bldg. #2431 Beale AFB, CA 95903",
-      "description": "Throwback Thursdays!! Every Thursday 4-8pm Beale Lanes Join us every Thursday from 4pm - 8pm for lots of great specials! $10 per person for 2 hours of bowling! (shoes not included) $10 Pitcher filled with your favorite beverage $10 Loaded Fries!",
-      "category": "recreation"
-    },
-    {
-      "id": "beale-kids-night-out",
-      "title": "Kids Night Out in Support of AF Ball",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T23:00:00",
-      "location": "CDC & Youth Center",
-      "address": "Beale AFB, CA",
-      "description": "Childcare for Team Beale during the AF Ball; CDC ages 6 wks–5 yrs ($40), Youth 6–12 ($30).",
-      "category": "family"
-    },
-    {
-      "id": "beale-loud-saturdays-2026-09-19",
-      "title": "Loud Saturdays",
-      "date": "2026-09-19T09:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Hub Zemke Library",
-      "address": "17849 16th St. Beale AFB, CA 95903",
-      "description": "Loud Saturdays Every Saturday Hub Zemke Library Loud Saturdays with games, Lego table, Magna-Tiles, and Hot Wheels!",
-      "category": "community"
-    },
-    {
-      "id": "beale-auto-museum",
-      "title": "California Automobile Museum — Sunday Drive",
-      "date": "2026-09-20T09:00:00",
-      "endDate": "2026-09-20T16:00:00",
-      "location": "California Automobile Museum",
-      "address": "Sacramento, CA",
-      "description": "ODR trip with transport and admission; $20/person; signup deadline Sept 15.",
-      "category": "recreation"
-    },
-    {
       "id": "beale-taco-tuesday-2026-09-22",
       "title": "Taco Tuesday!!",
       "date": "2026-09-22",
@@ -335,6 +285,16 @@
       "address": "",
       "description": "Recurring Taco Tuesday series; bealefss.com.",
       "category": "community"
+    },
+    {
+      "id": "beale-throwback-thursdays-2026-09-24",
+      "title": "Throwback Thursdays!!",
+      "date": "2026-09-24T16:00:00",
+      "endDate": "2026-09-24T20:00:00",
+      "location": "Beale Lanes Bowling Center",
+      "address": "17800 Robert Nicoletti Way Bldg. #2431 Beale AFB, CA 95903",
+      "description": "Throwback Thursdays!! Every Thursday 4-8pm Beale Lanes Join us every Thursday from 4pm – 8pm for lots of great specials! $10 per person for 2 hours of bowling! (shoes not included) $10 Pitcher filled with your favorite beverage $10 Loaded Fries!",
+      "category": "recreation"
     },
     {
       "id": "beale-kpop-movie",
@@ -367,6 +327,16 @@
       "category": "family"
     },
     {
+      "id": "beale-loud-saturdays-2026-09-26",
+      "title": "Loud Saturdays",
+      "date": "2026-09-26T09:00:00",
+      "endDate": "2026-09-26T14:00:00",
+      "location": "Hub Zemke Library",
+      "address": "17849 16th St. Beale AFB, CA 95903",
+      "description": "Loud Saturdays Every Saturday Hub Zemke Library Loud Saturdays with games, Lego table, Magna-Tiles, and Hot Wheels!",
+      "category": "recreation"
+    },
+    {
       "id": "beale-con-2026",
       "title": "Beale Con 2026",
       "date": "2026-09-26T11:00:00",
@@ -385,6 +355,16 @@
       "address": "",
       "description": "Recurring Taco Tuesday series; bealefss.com.",
       "category": "community"
+    },
+    {
+      "id": "beale-bishops-pumpkin-farm-2026-10-10",
+      "title": "Bishops Pumpkin Farm",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T16:00:00",
+      "location": "Outdoor Recreation",
+      "address": "17630 Doolittle Dr. Beale AFB, CA 95903",
+      "description": "Bishops Pumpkin Farm Oct 10, 10 am–4 pm Cost: $35 Sign-up Deadline: Oct 6 Beale ODR Celebrate the fall season with a trip to Bishop’s Pumpkin Farm! Enjoy hayrides, a corn maze, farm attractions, seasonal treats, and plenty of time to explore. Whether you’re picking the perfect pumpkin or making memories with family and friends, this festive day trip is the perfect way to welcome autumn. We will provide admission for the Corn Maze, Golden Grain Raceway, Train Ride and a voucher for a cup of cookies.",
+      "category": "holiday"
     }
   ],
   "newcomers": {

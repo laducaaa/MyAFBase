@@ -7,7 +7,7 @@
   "wing": "37 TRW / 502 ABW",
   "latitude": 29.3842,
   "longitude": -98.6181,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "lackland-notif-1",
@@ -469,66 +469,6 @@
   ],
   "events": [
     {
-      "id": "lackland-bingo-night-at-the-hall-2026-09-17",
-      "title": "Bingo Night at the Hall",
-      "date": "2026-09-17T18:00:00",
-      "endDate": "2026-09-17T20:00:00",
-      "location": "LAK Arnold Hall Community Center",
-      "address": "JBSA-Lackland, San Antonio, TX",
-      "description": "JBSA-Lackland Arnold Hall Community Center Sept. 17 | 6-8pm Come out to Arnold Hall for some bingo. Packs start at $26. Complimentary nachos provided while supplies last. Alcoholic beverages available for purchase. For more information, call 210.671.2619",
-      "category": "entertainment"
-    },
-    {
-      "id": "lackland-variety-night-2026-09-18",
-      "title": "Variety Night at Gateway Club",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Gateway Club / Lone Star Lounge",
-      "address": "JBSA-Lackland",
-      "description": "DJ Variety Night at Gateway Club; JBSA Today (also listed Oct dates on series).",
-      "category": "community"
-    },
-    {
-      "id": "lackland-variety-night-2026-09-18",
-      "title": "Variety Night",
-      "date": "2026-09-18T16:00:00",
-      "endDate": "2026-09-18T22:00:00",
-      "location": "LAK Gateway Club",
-      "address": "JBSA-Lackland, San Antonio, TX",
-      "description": "JBSA-Lackland Gateway Club September 4, 11, 18 & October 2, 9, 16, 23 | 4 -10pm Gateway Club hosts Variety Night as DJ Tony Style plays a wide variety of music in the Lone Star Lounge. Relax in the lounge or enjoy the weather on the patio. For more information, call 210.645.7034",
-      "category": "entertainment"
-    },
-    {
-      "id": "lackland-star-gazing-2026-09-18",
-      "title": "Star Gazing",
-      "date": "2026-09-18T20:30:00",
-      "endDate": "2026-09-18T21:30:00",
-      "location": "Recreation Park @ Canyon Lake",
-      "address": "San Antonio, TX",
-      "description": "JBSA-Recreation Park at Canyon Lake Sept. 18 8:45-9:45pm Oct. 10 8:30-9:30pm See the solar system and beyond like never before through powerful telescopes. This time of year we should have excellent views of many of the planets in our solar system in addition to constellations and deep space objects. Open to all DoW Card holders. May be rescheduled due to weather or low visibility. $20/Adult $10/Child (12 and under).",
-      "category": "outdoor"
-    },
-    {
-      "id": "lackland-beyond-the-marina-boat-tours-2026-09-19",
-      "title": "Beyond the Marina Boat Tours",
-      "date": "2026-09-19T10:30:00",
-      "endDate": "2026-09-19T12:00:00",
-      "location": "Recreation Park @ Canyon Lake",
-      "address": "San Antonio, TX",
-      "description": "JBSA Recreation Park at Canyon Lake September 19 & October 10 | 10:30am - 12pm Enjoy a 1 ½ hour chauffeured boat tour around Canyon Lake. A guided tour on Canyon Lake is the perfect way to experience one of Texas' most beautiful lakes. More tours will be made available as needed. Cost is $30 for adults and $15 for a child 12 and younger. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com.",
-      "category": "outdoor"
-    },
-    {
-      "id": "lackland-dutch-oven-cooking-class-2026-09-19",
-      "title": "Dutch Oven Cooking Class",
-      "date": "2026-09-19T13:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Recreation Park @ Canyon Lake",
-      "address": "San Antonio, TX",
-      "description": "JBSA Recreation Park at Canyon Lake September 19 & October 17 | 1-2PM Enjoy the cooler weather while learning a new skill so you can make some scrumptious treats for family and friends. Previous classes have prepared gorilla bread, banana bread, and cobblers. $20 per person. This class is open to all DoW ID cardholders. To reserve your spot, please call 830.964.3576 or email jbsalodgingres@gmail.com.",
-      "category": "outdoor"
-    },
-    {
       "id": "lackland-travel-expo-2026-09-25",
       "title": "Travel Expo",
       "date": "2026-09-25T11:00:00",
@@ -537,6 +477,16 @@
       "address": "JBSA-Lackland, San Antonio, TX",
       "description": "JBSA Leisure Travel and Information, Tickets & Travel Hosted by JBSA Lackland Gateway Club Sept. 25 11am to 12pm: Active duty in uniform early entry 12-2pm: General public Open to all DOW ID cardholders. Free food and prizes while supplies last. Grand Prize Giveaway! Military-exclusive offers. Explore vacation deals Global destinations & travel reps | Giveaways & prizes For more information, call ",
       "category": "community"
+    },
+    {
+      "id": "lackland-oktoberfest-2026-09-25",
+      "title": "Oktoberfest",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Joint Base San Antonio",
+      "address": "San Antonio, TX",
+      "description": "Joint Base San Antonio Fort Sam Houston Sept. 25 | 5-9pm Located At The Army South Parking Lot Between Dickman And Stanley Rd. Live Entertainment by 323d Army Band “Ft Sam’s Own”, Beethoven’s Oompa Band, Kids Fun Zone, DJ, food and refreshments for purchase. Enjoy live music, German beer, festival tent, festive food, interactive activities for the whole family and much more. Parking and admission are free. So get your lederhosen on and meet us on Fort Sam Houston for some mirthful merriment, Bavarian style. Open to all DoW ID cardholders and their families. There is a costume contest with priz",
+      "category": "holiday"
     },
     {
       "id": "lackland-variety-night-2026-10-02",
@@ -549,6 +499,26 @@
       "category": "community"
     },
     {
+      "id": "lackland-dominoes-tournament-2026-10-09",
+      "title": "Dominoes Tournament",
+      "date": "2026-10-09T17:00:00",
+      "endDate": "2026-10-09T20:30:00",
+      "location": "RND Kendrick Club",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 11 | 5-8pm Oct. 9 | 5-9pm Are you ready for some dominoes? Head to Gil’s Pub for a game night! Join us for a single-elimination tournament. This event is free, and there is no cover to participate. For more information, call 210.658.3887",
+      "category": "fitness"
+    },
+    {
+      "id": "lackland-beyond-the-marina-boat-tours-2026-10-10",
+      "title": "Beyond the Marina Boat Tours",
+      "date": "2026-10-10T10:30:00",
+      "endDate": "2026-10-10T12:00:00",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "San Antonio, TX",
+      "description": "JBSA Recreation Park at Canyon Lake September 19 & October 10 | 10:30am – 12pm Enjoy a 1 ½ hour chauffeured boat tour around Canyon Lake. A guided tour on Canyon Lake is the perfect way to experience one of Texas’ most beautiful lakes. More tours will be made available as needed. Cost is $30 for adults and $15 for a child 12 and younger. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com.",
+      "category": "outdoor"
+    },
+    {
       "id": "lackland-travel-talk-2026-10-13",
       "title": "Travel Talk",
       "date": "2026-10-13T11:30:00",
@@ -559,6 +529,36 @@
       "category": "community"
     },
     {
+      "id": "lackland-pool-tournament-2026-10-16",
+      "title": "Pool Tournament",
+      "date": "2026-10-16T17:30:00",
+      "endDate": "2026-10-16T20:30:00",
+      "location": "RND Kendrick Club",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Randolph Kendrick Club Sept. 18 & Oct. 16 | 5:30-9pm This is a single-elimination tournament. Registration for September’s tournament is open September 14-17. October’s tournament registration opens October 12-15. Winner receives $100 cash. This event is free! No cover to participate. For more information or to register, call 210.569.2510, email jbsarandolphclubs@gmail.com, or stop by Gil’s pub.",
+      "category": "fitness"
+    },
+    {
+      "id": "lackland-fall-fest-2026-10-17",
+      "title": "Fall Fest",
+      "date": "2026-10-17T09:30:00",
+      "endDate": "2026-10-17T13:30:00",
+      "location": "LAK Amphitheater",
+      "address": "San Antonio, TX",
+      "description": "JBSA Community Programs October 17 | 9:30AM-1:30PM Held at JBSA-Lackland, above the Amphitheater Come out for a morning of fun. There will be a Pumpkin Patch, Petting Zoo, Food Trucks, Interactive Activities, a Shopping Market, Music, Crafts, Games, and more. Sponsored by: T-Mobile, Navy Federal, USAA, Sondermind, Telemynd, First Command, and RBFCU",
+      "category": "family"
+    },
+    {
+      "id": "lackland-halloween-kiddie-bingo-2026-10-17",
+      "title": "Halloween Kiddie Bingo",
+      "date": "2026-10-17T10:00:00",
+      "endDate": "2026-10-17T12:00:00",
+      "location": "RND Parr Club",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Randolph Parr Club October 17 | 10:30AM-12:30PM Join us for Halloween Kiddie Bingo, a free family-friendly event filled with spooky fun. Kids will have the chance to play 5 bingo games for cash prizes. Kids, come out and show your creativity in our Best Dressed Costume Contest, and enjoy an exciting afternoon with a complimentary meal. Costumes are encouraged and guaranteed fun for all ages. This event is open to everyone and is FREE to attend with limited seating. For more information, call the cashier’s cage at 210.658.7445 from 10am-3pm Tues.-Fri. or email us at jbsarandolphclubs@gmail",
+      "category": "holiday"
+    },
+    {
       "id": "lackland-boo-bash-2026-10-17",
       "title": "Boo Bash",
       "date": "2026-10-17T13:00:00",
@@ -567,6 +567,16 @@
       "address": "JBSA-Lackland, San Antonio, TX",
       "description": "JBSA-Lackland Arnold Hall Community Center Oct. 17 | 1-3PM It’s that time of year to dress up for Arnold Hall Community Center’s costume contest! Don’t miss out on this spooktacular event. Enjoy free popcorn, candy bags, games, pumpkin carving, and a costume contest! Doors open at 1PM. This event is free and open to all DoW cardholders. For more information, call 210.671.2619 or email arnoldhallev",
       "category": "holiday"
+    },
+    {
+      "id": "lackland-missions-e-bike-tour-2026-10-24",
+      "title": "Missions E-Bike Tour",
+      "date": "2026-10-24T08:30:00",
+      "endDate": "2026-10-24T15:00:00",
+      "location": "LAK Outdoor Recreation",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Lackland Outdoor Rec. Oct 24 | 8:30AM-3PM $30 per person. Price includes transportation, a bike, and safety equipment. Open to ages 10 and older (must be able to confidently ride a bike for 14 miles). Register by Oct 21. Join us for a 14-mile round-trip bike ride through San Antonio’s historic missions, beginning at Mission San Jose. We will spend 30-45 minutes at each mission to learn about San Antonio’s unique history (about 2.5 miles between each stop). Bringing a snack or lunch is encouraged. For more information or to register, call 210.925.5533 or 210.925.5532 or 210.851.6409.",
+      "category": "outdoor"
     },
     {
       "id": "lackland-paddle-board-kayak-class-2026-10-24",
@@ -587,6 +597,16 @@
       "address": "JBSA-Lackland, San Antonio, TX",
       "description": "JBSA-Lackland Gateway Club October 30 | 4-11pm Prize awarded for best costume. Halloween trivia throughout the night in the Lone Star Lounge. Entertainment provided by DJ Tony Style. Special of the Night Fried Catfish Plate from 3-9pm. Plate includes Fried catfish, hush puppies, French fries, coleslaw and jalapeno cornbread. The cost of the meal $12 Members and $14 Nonmembers. This event is 18+ on",
       "category": "holiday"
+    },
+    {
+      "id": "lackland-monster-mash-trunk-or-treat-2026-10-30",
+      "title": "Monster Mash Trunk or Treat",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T21:00:00",
+      "location": "FSH Youth Programs",
+      "address": "5557 Watkins Path, Bldg. 1630, Fort Sam Houston, TX",
+      "description": "JBSA-Fort Sam Houston Youth Programs October 30 | 6-9pm Entry fee: $10 per family of four | $3 per person Come out to the W. Ed Parker Youth Programs, B1630, for the Monster Mash Trunk or Treat. Partake in Carnival Games, Costume Contests, the Trunk or Treat Trail, and various Activities. Trunk or Treat volunteers are needed. Contact us to reserve your trunk spot. Candy available while supplies last.",
+      "category": "outdoor"
     },
     {
       "id": "lackland-thanksgiving-meals-to-go-2026-11-03",

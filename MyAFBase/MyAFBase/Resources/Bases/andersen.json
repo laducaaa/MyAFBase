@@ -7,7 +7,7 @@
   "wing": "36 WG",
   "latitude": 13.584,
   "longitude": 144.9305,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "andersen-notif-real-id",
@@ -195,54 +195,44 @@
   ],
   "events": [
     {
-      "id": "andersen-steam-ahead-2026-09-16",
+      "id": "andersen-youth-sports-startsmart-basketball-2026-09-21",
+      "title": "Youth Sports StartSmart Basketball",
+      "date": "2026-09-21T12:00:00",
+      "endDate": "2026-09-21T12:00:00",
+      "location": "Andersen AFB",
+      "address": "Yigo, Guam",
+      "description": "Youth Sports StartSmart Basketball",
+      "category": "fitness"
+    },
+    {
+      "id": "andersen-steam-ahead-2026-09-23",
       "title": "STEAM Ahead",
-      "date": "2026-09-16T15:00:00",
-      "endDate": "2026-09-16T15:00:00",
+      "date": "2026-09-23T15:00:00",
+      "endDate": "2026-09-23T15:00:00",
       "location": "Andersen Library",
       "address": "Yigo, Guam",
       "description": "STEAM Ahead",
-      "category": "community"
+      "category": "education"
     },
     {
-      "id": "andersen-adult-trivia-night-air-force-birthday-2026-09-17",
-      "title": "Adult Trivia Night - Air Force Birthday",
-      "date": "2026-09-17T17:00:00",
-      "endDate": "2026-09-17T17:00:00",
+      "id": "andersen-family-storytime-2026-09-24",
+      "title": "Family Storytime",
+      "date": "2026-09-24T15:00:00",
+      "endDate": "2026-09-24T15:00:00",
       "location": "Andersen Library",
       "address": "Yigo, Guam",
-      "description": "Adult Trivia Night - Air Force Birthday",
-      "category": "holiday"
+      "description": "Family Storytime at Andersen Library. Starts 3:00PM.",
+      "category": "family"
     },
     {
-      "id": "andersen-magic-the-gathering-dungeons-dragons-2026-09-17",
+      "id": "andersen-magic-the-gathering-dungeons-dragons-2026-09-24",
       "title": "Magic: the Gathering & Dungeons & Dragons",
-      "date": "2026-09-17T17:00:00",
-      "endDate": "2026-09-17T17:00:00",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T17:00:00",
       "location": "Andersen AFB",
       "address": "Yigo, Guam",
       "description": "Magic: the Gathering & Dungeons & Dragons",
       "category": "community"
-    },
-    {
-      "id": "andersen-diy-necklace-class-2026-09-18",
-      "title": "DIY Necklace Class",
-      "date": "2026-09-18T16:00:00",
-      "endDate": "2026-09-18T16:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "Yigo, Guam",
-      "description": "DIY Necklace Class",
-      "category": "recreation"
-    },
-    {
-      "id": "andersen-mason-jar-art-2026-09-19",
-      "title": "Mason Jar Art",
-      "date": "2026-09-19T11:00:00",
-      "endDate": "2026-09-19T11:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "Yigo, Guam",
-      "description": "Mason Jar Art",
-      "category": "recreation"
     },
     {
       "id": "andersen-chicken-adobo-cooking-class-2026-09-25",
@@ -282,6 +272,46 @@
       "location": "Sumay Marina Adventure Center",
       "address": "Yigo, Guam",
       "description": "First Fridays",
+      "category": "outdoor"
+    },
+    {
+      "id": "andersen-full-moon-paddle-2026-10-26",
+      "title": "Full Moon Paddle",
+      "date": "2026-10-26T16:00:00",
+      "endDate": "2026-10-26T16:00:00",
+      "location": "Sumay Marina Adventure Center",
+      "address": "Yigo, Guam",
+      "description": "Full Moon Paddle at Sumay Marina Adventure Center. Starts 4:00PM.",
+      "category": "outdoor"
+    },
+    {
+      "id": "andersen-first-fridays-2026-11-06",
+      "title": "First Fridays",
+      "date": "2026-11-06T16:00:00",
+      "endDate": "2026-11-06T16:00:00",
+      "location": "Sumay Marina Adventure Center",
+      "address": "Yigo, Guam",
+      "description": "First Fridays at Sumay Marina Adventure Center. Starts 4:00PM.",
+      "category": "outdoor"
+    },
+    {
+      "id": "andersen-full-moon-paddle-2026-11-25",
+      "title": "Full Moon Paddle",
+      "date": "2026-11-25T16:00:00",
+      "endDate": "2026-11-25T16:00:00",
+      "location": "Sumay Marina Adventure Center",
+      "address": "Yigo, Guam",
+      "description": "Full Moon Paddle at Sumay Marina Adventure Center. Starts 4:00PM.",
+      "category": "outdoor"
+    },
+    {
+      "id": "andersen-first-fridays-2026-12-04",
+      "title": "First Fridays",
+      "date": "2026-12-04T16:00:00",
+      "endDate": "2026-12-04T16:00:00",
+      "location": "Sumay Marina Adventure Center",
+      "address": "Yigo, Guam",
+      "description": "First Fridays at Sumay Marina Adventure Center. Starts 4:00PM.",
       "category": "outdoor"
     }
   ],

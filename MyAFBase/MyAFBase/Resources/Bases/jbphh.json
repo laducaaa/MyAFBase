@@ -7,7 +7,7 @@
   "wing": "15 WG",
   "latitude": 21.339,
   "longitude": -157.954,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "jbphh-notif-real-id",
@@ -206,56 +206,6 @@
   ],
   "events": [
     {
-      "id": "jbphh-hickam-efmp-coffee-talk-2026-09-14",
-      "title": "Hickam EFMP Coffee Talk",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T11:30:00",
-      "location": "Hickam EFMP",
-      "address": "JB Pearl Harbor-Hickam, HI",
-      "description": "EFMP coffee talk for exceptional family members.",
-      "category": "family"
-    },
-    {
-      "id": "jbphh-karaoke-night-at-tradewinds-2026-09-16",
-      "title": "Karaoke Night at Tradewinds",
-      "date": "2026-09-16T17:30:00",
-      "endDate": "2026-09-16T17:30:00",
-      "location": "Tradewinds",
-      "address": "Honolulu, HI",
-      "description": "Karaoke Night at Tradewinds",
-      "category": "entertainment"
-    },
-    {
-      "id": "jbphh-dynamite-dj-nights-2026-09-18",
-      "title": "Dynamite DJ Nights",
-      "date": "2026-09-18T20:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "The Sandbar",
-      "address": "Honolulu, HI",
-      "description": "Dynamite DJ Nights",
-      "category": "entertainment"
-    },
-    {
-      "id": "jbphh-nex-pet-adoptions-2026-09-19",
-      "title": "NEX Pet Adoptions",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Navy Exchange",
-      "address": "JB Pearl Harbor-Hickam, HI",
-      "description": "Pet adoption event at the NEX.",
-      "category": "community"
-    },
-    {
-      "id": "jbphh-nex-pet-adoptions-2026-09-19",
-      "title": "NEX: Pet Adoptions",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T10:00:00",
-      "location": "Navy Exchange Events",
-      "address": "Honolulu, HI",
-      "description": "NEX: Pet Adoptions",
-      "category": "community"
-    },
-    {
       "id": "jbphh-jbphh-reset-an-mwr-resiliency-day-event-2026-09-23",
       "title": "JBPHH RESET - An MWR Resiliency Day Event",
       "date": "2026-09-23T14:00:00",
@@ -356,6 +306,16 @@
       "category": "family"
     },
     {
+      "id": "jbphh-fall-break-youth-ocean-adventure-camp-surf-camp-2026-10-05",
+      "title": "Fall Break Youth Ocean Adventure Camp & Surf Camp",
+      "date": "2026-10-05T17:00:00",
+      "endDate": "2026-10-05T17:00:00",
+      "location": "JB Pearl Harbor-Hickam",
+      "address": "Honolulu, HI",
+      "description": "Fall Break Youth Ocean Adventure Camp & Surf Camp",
+      "category": "outdoor"
+    },
+    {
       "id": "jbphh-wentworth-sand-volleyball-tournament-2026",
       "title": "Wentworth Sand Volleyball Tournament",
       "date": "2026-10-09T08:30:00",
@@ -364,6 +324,16 @@
       "address": "JB Pearl Harbor-Hickam, HI",
       "description": "Sand volleyball tournament at Wentworth courts.",
       "category": "recreation"
+    },
+    {
+      "id": "jbphh-start-smart-flag-football-2026-2026-11-06",
+      "title": "Start Smart Flag Football 2026",
+      "date": "2026-11-06T17:00:00",
+      "endDate": "2026-11-06T17:00:00",
+      "location": "JB Pearl Harbor-Hickam",
+      "address": "Honolulu, HI",
+      "description": "Start Smart Flag Football 2026",
+      "category": "fitness"
     }
   ],
   "newcomers": {

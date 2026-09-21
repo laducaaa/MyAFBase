@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -378,36 +378,6 @@
   ],
   "events": [
     {
-      "id": "maxwell-wing-wednesday-2026-09-16",
-      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "location": "Maxwell Club Pit",
-      "address": "Maxwell AFB, AL",
-      "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
-      "category": "community"
-    },
-    {
-      "id": "maxwell-wing-wednesday-karaoke-at-the-maxwell-club-pit-2026-09-1",
-      "title": "Wing Wednesday & Karaoke at the Maxwell Club Pit",
-      "date": "2026-09-16T16:00:00",
-      "endDate": "2026-09-16T23:00:00",
-      "location": "Maxwell Club",
-      "address": "375 West Dr, Montgomery, AL 36112",
-      "description": "Wing Wednesday & Karaoke at the Maxwell Club Pit! Mark your calendars!!!! 50¢ wings from 4-8 PM Karaoke from 7-11 PM Bring your appetite, your friends, and your best singing voice for a night of wings, fun, and unforgettable performances! Maxwell Club - don't miss out!",
-      "category": "entertainment"
-    },
-    {
-      "id": "maxwell-parents-night-out-2026-09-18",
-      "title": "Give Parents a Break + Parents Night Out",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Maxwell AFB",
-      "address": "Maxwell AFB, AL",
-      "description": "Parents Night Out; lifeatthemax.us calendar overview.",
-      "category": "community"
-    },
-    {
       "id": "maxwell-wing-wednesday-2026-09-23",
       "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
       "date": "2026-09-23",
@@ -418,6 +388,16 @@
       "category": "community"
     },
     {
+      "id": "maxwell-operation-gulf-coast-careers-austal-airbus-novel-2026-09",
+      "title": "Operation Gulf Coast Careers- Austal, Airbus, & Novelis Hiring Event",
+      "date": "2026-09-23T14:00:00",
+      "endDate": "2026-09-23T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us on September 23, 2026, at 2:00 PM CT for a relaxed virtual hiring and information session designed for transitioning service members from multiple military bases. Representatives from Airbus, Austal USA, and Novelis will introduce their companies and connect directly with attendees about employment opportunities, career paths, and what they look for in candidates. Following a brief welcome, you’ll have the opportunity to choose an employer breakout room, ask questions, and learn more about available positions across a variety of departments and experience levels. The event will be held",
+      "category": "education"
+    },
+    {
       "id": "maxwell-spouseworks-career-accelerator-workshop-2026-09-24",
       "title": "SpouseWorks Career Accelerator Workshop",
       "date": "2026-09-24",
@@ -425,6 +405,16 @@
       "location": "Maxwell AFB",
       "address": "Montgomery, AL",
       "description": "Listed on the public FSS calendar.",
+      "category": "education"
+    },
+    {
+      "id": "maxwell-career-accelerator-workshop-2026-09-24",
+      "title": "Career Accelerator Workshop",
+      "date": "2026-09-24T10:00:00",
+      "endDate": "2026-09-24T15:00:00",
+      "location": "MFRC",
+      "address": "55 S. Mitchell St. Bldg 677, Montgomery, AL, 36112",
+      "description": "Ready to take the next step in your career? Join us for the Career Accelerator Workshop on September 24 from 10 a.m.–3 p.m. at the M&FRC, Bldg. 677. Designed to empower military spouses, this event offers career-building workshops, breakout sessions, valuable resources, and opportunities to make meaningful connections while gaining tools and strategies to build a high-impact career. To register, call 334-953-2353 . For workshop and breakout session details, visit the link provided.",
       "category": "education"
     },
     {
@@ -488,6 +478,16 @@
       "category": "education"
     },
     {
+      "id": "maxwell-doppel-fest-fall-family-fun-2026-10-17",
+      "title": "Doppel Fest | Fall Family Fun",
+      "date": "2026-10-17T11:00:00",
+      "endDate": "2026-10-17T15:00:00",
+      "location": "Maxwell Club",
+      "address": "375 West Dr, Montgomery, AL, 36112",
+      "description": "Join us for Doppel Fest , a fun-filled fall celebration for the whole family! From 11 AM–3 PM , enjoy kids’ activities and crafts, a trackless train, a pumpkin patch, and live music from Auf Geht’s . Located at the Maxwell Club! Food will also be available for purchase throughout the event. A special thank you to our amazing event sponsor, USAA , for helping make Doppel Fest possible!",
+      "category": "family"
+    },
+    {
       "id": "maxwell-doppel-fest-2026-10-17",
       "title": "Doppel Fest",
       "date": "2026-10-17T15:00:00",
@@ -495,6 +495,16 @@
       "location": "Maxwell Club",
       "address": "375 West Dr, Montgomery, AL 36112",
       "description": "Doppel Fest brings two celebrations together for one full day of fall fun at the Maxwell Club! From 11 AM-3 PM , families can enjoy kids' activities, crafts, a trackless train, pumpkin patch, food available for purchase, and live music from Auf Geht's . Then, from 5-9 PM , Doppel Fest transforms into Oktoberfest After Dark , an 18+ celebration featuring more live music from Auf Geht's , Oktoberfest games, a costume c",
+      "category": "holiday"
+    },
+    {
+      "id": "maxwell-doppel-fest-oktoberfest-after-dark-2026-10-17",
+      "title": "Doppel Fest | Oktoberfest After Dark",
+      "date": "2026-10-17T17:00:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for Doppel Fest and a special Oktoberfest After Dark celebration! From 5–9 PM on October 17th , guests ages 18+ can enjoy Oktoberfest-inspired food, festive games and contests, a costume contest, and even more live music from Auf Geht’s . Located inside the Maxwell Club. Come dressed for the occasion and get ready for an evening of food, music, and Oktoberfest fun. A huge thank-you to our amazing event sponsor, USAA , for helping make Doppel Fest possible!",
       "category": "holiday"
     },
     {
@@ -556,6 +566,16 @@
       "address": "Montgomery, AL",
       "description": "Get ready to roll for a chance to take home your Thanksgiving turkey! Join us for Bowl a Turkey and Win a Turkey on Saturday, November 21, 2026, from 3-9 p.m. at Maxwell Bowling Center & Gunter Lanes . Come out, hit the lanes, and see if you have what it takes to bowl a turkey and win a turkey!",
       "category": "holiday"
+    },
+    {
+      "id": "maxwell-monthly-unite-training-2026-12-09",
+      "title": "Monthly UNITE Training",
+      "date": "2026-12-09T13:00:00",
+      "endDate": "2026-12-09T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us on the 2nd Wednesday of each month at 1300 at McBride Auditorium, Bldg. 804, Room 201. Connect, learn, and make the most of the UNITE program! Questions? Contact 334-953-3662 or 42FSS.FSWU.UNITE@US.AF.MIL",
+      "category": "education"
     },
     {
       "id": "maxwell-ugly-sweater-contest-tree-lighting-2026-12-18",

@@ -7,7 +7,7 @@
   "wing": "NATO E-3A",
   "latitude": 50.9608,
   "longitude": 6.0424,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "geilenkirchen-notif-real-id",
@@ -184,44 +184,64 @@
   ],
   "events": [
     {
-      "id": "geilenkirchen-karaoke-nite-2026-09-14",
-      "title": "Karaoke Nite",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T10:00:00",
-      "location": "Geilenkirchen AB",
+      "id": "geilenkirchen-adult-beginner-s-class-for-sewing-2026-09-21",
+      "title": "Adult Beginner’s Class for Sewing",
+      "date": "2026-09-21T10:00:00",
+      "endDate": "2026-09-21T12:00:00",
+      "location": "NATO Air Base Geilenkirchen",
       "address": "Geilenkirchen, Germany",
-      "description": "Karaoke Nite",
-      "category": "entertainment"
-    },
-    {
-      "id": "geilenkirchen-parent-s-night-out-cdc-sac-2026-09-14",
-      "title": "Parent's Night Out | CDC & SAC",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T10:00:00",
-      "location": "Geilenkirchen AB",
-      "address": "Geilenkirchen, Germany",
-      "description": "Parent's Night Out | CDC & SAC",
-      "category": "family"
-    },
-    {
-      "id": "geilenkirchen-soldier-family-readiness-training-2026-09-14",
-      "title": "Soldier & Family Readiness Training",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T10:00:00",
-      "location": "Geilenkirchen AB",
-      "address": "Geilenkirchen, Germany",
-      "description": "Soldier & Family Readiness Training",
+      "description": "Sep 21 2026, 10 am - 12 pm Typically repeats weekly on Mondays and Wednesdays. Sep 21 2026, 10 am - 12 pm 🪡✂️ Discover the Art of Sewing at JFC Brunssum Library! ✂️🪡 Have you ever wanted to learn the craft of sewing, to create your own unique designs and bring your ideas to life? Well, now's your chance! Join our Adult Beginner’s Sewing Class at the JFC Brunssum Library. This class is perfect for beginners who are just starting their sewing journey. Our experienced instructor will guide you through the basics and help you build the skills you need to create your own sewing projects. Registrati",
       "category": "education"
     },
     {
-      "id": "geilenkirchen-lille-france-day-trip-oct-10-register-by-sept-25-2",
-      "title": "Lille, France Day Trip | Oct 10 | Register by Sept 25",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T10:00:00",
-      "location": "Geilenkirchen AB",
+      "id": "geilenkirchen-story-time-2026-09-21",
+      "title": "Story Time",
+      "date": "2026-09-21T11:00:00",
+      "endDate": "2026-09-21T11:30:00",
+      "location": "NATO Air Base Geilenkirchen",
       "address": "Geilenkirchen, Germany",
-      "description": "Lille, France Day Trip | Oct 10 | Register by Sept 25",
-      "category": "outdoor"
+      "description": "Enjoy stories, rhymes, and songs at the library. Sep 21 2026, 11 am - 11:30 am Typically repeats weekly on Mondays. Sep 21 2026, 11 am - 11:30 am Step into a world of stories, movement, and dance at Brunssum Library. Imaginations soar as little listeners engage in tales brought to life with expressive story telling. Sing along with joyful tunes and get moving with interactive play. Whether you’re clapping, twirling, or laughing along, it’s a wonderful way to celebrate the power of stories. Cost Free Registration Information JFC Brunssum Library Facebook X Pinterest Email Print Export to Calend",
+      "category": "family"
+    },
+    {
+      "id": "geilenkirchen-lego-freestyle-2026-09-21",
+      "title": "Lego Freestyle",
+      "date": "2026-09-21T13:00:00",
+      "endDate": "2026-09-21T18:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Come to the library during opening hours, relax and get into the building flow. Sep 21 2026, 1 pm - 6 pm Typically repeats weekly on Mondays. Sep 21 2026, 1 pm - 6 pm Cost Free Program Libraries Facebook X Pinterest Email Print Export to Calendar",
+      "category": "recreation"
+    },
+    {
+      "id": "geilenkirchen-lego-set-building-2026-09-22",
+      "title": "Lego Set Building",
+      "date": "2026-09-22T13:00:00",
+      "endDate": "2026-09-22T18:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Choose sets to work on or continue a set you worked on the previous week. Sep 22 2026, 1 pm - 6 pm Typically repeats weekly on Tuesdays and Fridays. Sep 22 2026, 1 pm - 6 pm Cost Free Program Libraries Facebook X Pinterest Email Print Export to Calendar",
+      "category": "recreation"
+    },
+    {
+      "id": "geilenkirchen-rise-align-2026-09-24",
+      "title": "Rise & Align",
+      "date": "2026-09-24T09:00:00",
+      "endDate": "2026-09-24T10:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Wake up your body and center your mind with our Rise and Align class. Sep 24 2026, 9 am - 10 am Typically repeats weekly on Thursdays. Sep 24 2026, 9 am - 10 am This morning flow is designed to energize, ground, and prepare you for the day ahead. We'll combine gentle stretches, mindful breathwork, and flowing sequences to help you align physically and mentally. Whether you're new to yoga or deep in your practice, you'll leave feeling refreshed, focused, and ready to take on whatever comes your way. Program Fitness Center Facebook X Pinterest Email Print Export to Calendar",
+      "category": "fitness"
+    },
+    {
+      "id": "geilenkirchen-family-fun-night-fall-festivities-2026-09-25",
+      "title": "Family Fun Night: Fall Festivities",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Bring the family and enjoy Family Fun Night: Fall Festivities on September 25 from 5 p.m. to 8 p.m. at the HUB . Sep 25 2026, 5 pm - 8 pm Sep 25 2026, 5 pm - 8 pm The event will feature games, food, and family fun, and is open to all U.S. and NATO ID cardholders and their guests . Hosted with support from Gary Sinise Foundation and Andrews Federal Credit Union!* * Paid ad. No federal endorsement implied. Cost Free Program The Hub Facebook X Pinterest Email Print Export to Calendar",
+      "category": "family"
     },
     {
       "id": "geilenkirchen-movie-matinee-2026-10-01",
@@ -282,6 +302,56 @@
       "address": "Geilenkirchen, Germany",
       "description": "Abs & Assets",
       "category": "community"
+    },
+    {
+      "id": "geilenkirchen-boss-installation-meeting-2026-10-01",
+      "title": "BOSS Installation Meeting",
+      "date": "2026-10-01T15:00:00",
+      "endDate": "2026-10-01T16:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "We will recognize Soldiers and review the past month’s accomplishments and review upcoming events. Oct 1 2026, 3 pm - 4 pm Typically repeats semimonthly on Thursdays. Oct 1 2026, 3 pm - 4 pm Come hear about upcoming Recreation & Leisure Events, Life Skill Events, and Volunteer Opportunities. We encourage you to share your ideas for what events you'd like to see with BOSS. Meetings are open to everyone, but mandatory for BOSS Representatives. Who is a BOSS Soldier? All Active Duty, Single Parents and Geographic Bachelors and welcome. Cost Free Program Brunssum BOSS Facebook X Pinterest Email Pr",
+      "category": "community"
+    },
+    {
+      "id": "geilenkirchen-flea-market-at-the-hub-2026-10-03",
+      "title": "Flea Market at The HUB",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Looking for great deals or hoping to clear out a few items? Oct 3 2026, 10 am - 2 pm Oct 3 2026, 10 am - 2 pm Join us for the Flea Market on Saturday, October 3 , from 10 a.m. to 2 p.m. at The Hub at Brunssum . Reserve a table for just $10 and take part in a fun community event filled with bargains, browsing, and local sellers. Whether you are shopping or selling, there will be something for everyone. Cost free to shop $10 per table ( to sell) Registration Information Register with The Hub Program The Hub Facebook X Pinterest Email Print Export to Calendar",
+      "category": "community"
+    },
+    {
+      "id": "geilenkirchen-lille-france-day-trip-oct-10-register-by-sept-25-2",
+      "title": "Lille, France Day Trip | Oct 10 | Register by Sept 25",
+      "date": "2026-10-10T09:00:00",
+      "endDate": "2026-10-10T17:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Bonjour, adventure! 🥐 Add a touch of French-Flemish charm to your fall calendar with our Day Trip to Lille! Sep 21 2026, 12 pm - Oct 8 2026, 1 pm Typically repeats daily. Sep 21 2026, 12 pm - Oct 8 2026, 1 pm Register Now! Known as the \"Capital of Flanders,\" Lille is famous for its stunning architecture, historic cobblestone streets, and mouthwatering local cuisine (you have to try the waffles and local pastries!). Whether you want to explore the breathtaking Grand Place, marvel at the Vieille Bourse, or shop in vibrant boutique stores, Lille offers a perfect blend of history and modern Europe",
+      "category": "recreation"
+    },
+    {
+      "id": "geilenkirchen-day-trip-to-giethoorn-oct-24-register-by-oct-9-202",
+      "title": "Day Trip to Giethoorn | Oct 24 | Register by Oct 9",
+      "date": "2026-10-24T09:00:00",
+      "endDate": "2026-10-24T17:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Escape to the \"Venice of the Netherlands\"! 🛶 Join us for a magical Day Trip to Giethoorn. Sep 21 2026, 12 pm - 1 pm Typically repeats daily. Sep 21 2026, 12 pm - 1 pm Register Now! Known for its peaceful canals, charming wooden bridges, and beautiful thatched-roof farmhouses, Giethoorn is a village straight out of a fairytale. With almost no roads in the village center, you can spend your day gliding along the water in a rented whisper boat, strolling the scenic footpaths, and soaking in the serene autumn atmosphere. 📅 Trip Date: Saturday, October 24 from 6:30 a.m. to 8 p.m. 💲 Cost: $69 per pe",
+      "category": "outdoor"
+    },
+    {
+      "id": "geilenkirchen-paris-express-nov-21-register-now-2026-11-21",
+      "title": "Paris Express | Nov 21 | Register NOW",
+      "date": "2026-11-21T09:00:00",
+      "endDate": "2026-11-21T17:00:00",
+      "location": "NATO Air Base Geilenkirchen",
+      "address": "Geilenkirchen, Germany",
+      "description": "Paris Express Trip – An Action-Packed Adventure to the City of Lights Sep 26 2026 - Nov 6 2026 Sep 26 2026 - Nov 6 2026 Register Now! Get ready for an exciting Paris Express Trip filled with unforgettable sights, energy, and adventure in the City of Lights . This fast-paced experience is perfect for travelers who want to make the most of their time while exploring one of Europe’s most iconic destinations. From world-famous landmarks and charming streets to shopping, dining, and cultural attractions, this intense, action-packed trip offers a full day of discovery and excitement. Whether you wan",
+      "category": "recreation"
     }
   ],
   "newcomers": {

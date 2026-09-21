@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -264,86 +264,6 @@
       "category": "holiday"
     },
     {
-      "id": "malmstrom-efmp-deployed-family-event-2026-09-15",
-      "title": "EFMP/Deployed Family Event",
-      "date": "2026-09-15T16:30:00",
-      "endDate": "2026-09-15T17:30:00",
-      "location": "",
-      "address": "",
-      "description": "Cost: Free Create and Discover! STEM Kits available for pick-up at the M&FRC. Limited availability. Please call the M&FRC at 731-4900 for more information.",
-      "category": "family"
-    },
-    {
-      "id": "malmstrom-home-alone-class-2026-09-16",
-      "title": "Home Alone Class",
-      "date": "2026-09-16T17:30:00",
-      "endDate": "2026-09-16T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "The Youth Center will be hosting a home alone class, which teaches youth about safety, and skills in handling emergencies, strangers, online risks, and basic first aid when unsupervised. The course builds self-confidence and independence to help the youth feel empowered when they are at home by themselves and allows parents to feel more secure when youth are alone. Registration closes for this event on Wednesday, September 14. Please sign up on the CYPBMS-Parent Portal. Cost: $12 Ages: 8-12",
-      "category": "family"
-    },
-    {
-      "id": "malmstrom-living-by-nature-s-calendar-seasonal-living-prac-2026",
-      "title": "Living By Nature’s Calendar: Seasonal Living Practices",
-      "date": "2026-09-16T18:00:00",
-      "endDate": "2026-09-16T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "Wednesday, September 16 | 6 – 8 pm While Earth goes through seasons every year, our bodies respond differently to those seasons as we eat different foods, take in different amounts of sunlight, and experience different weather. Learn a few of the best practices to help your body adjust as the seasons change and what you can do to help keep yourself in optimal condition throughout the year. All you need to bring is a notebook, pen and curiosity! Register by Thursday, September 3 by calling 731-3359. Cost: $15 Ages: 18+",
-      "category": "outdoor"
-    },
-    {
-      "id": "malmstrom-pages-and-plant-bingo-2026-09-17",
-      "title": "Pages and Plant Bingo",
-      "date": "2026-09-17T18:00:00",
-      "endDate": "2026-09-17T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "Bring all your bookish friends and plant-loving humans on down to the Grizzly Bend for some fun competition with a night of bingo. Participants will have six chances to win a variety of book and plant bundles that will include special editions, décor, and more! Pre-purchase of cards will begin at the Grizzly Bend on Monday, September 14 at 6:30 am and end Thursday, September 17 at 3 pm. Doors will open at 5:30 pm with the first game starting at 6 pm, and food and drinks will be available for purchase all night in the lounge. Cards will also be available for purchase at the event. Cost: $5 per ",
-      "category": "entertainment"
-    },
-    {
-      "id": "malmstrom-fly-fight-win-5k-2026-09-18",
-      "title": "Fly, Fight, Win 5k",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Malmstrom AFB",
-      "address": "Great Falls, MT",
-      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
-      "category": "fitness"
-    },
-    {
-      "id": "malmstrom-air-force-birthday-bowl-2026-09-18",
-      "title": "Air Force Birthday Bowl",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Malmstrom AFB",
-      "address": "Great Falls, MT",
-      "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
-      "category": "holiday"
-    },
-    {
-      "id": "malmstrom-hip-hop-bowling-2026-09-18",
-      "title": "Hip Hop Bowling",
-      "date": "2026-09-18T17:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "",
-      "address": "",
-      "description": "Join us for a night of rhythm and rolls at our Hip-Hop & Bowling Night! Celebrate the vibrant energy of hip-hop while enjoying a fun-filled evening of bowling with friends. Show off your lyrical skills! We’ll have an open mic for anyone who wants to drop some bars between games. Cost: $22 per hour per lane (6 people per lane), shoe rental $3 Food Special: Buy one personal pizza and a soft drink, get one 50% off.",
-      "category": "entertainment"
-    },
-    {
-      "id": "malmstrom-leadership-night-torch-club-and-teen-council-2026-09-1",
-      "title": "Leadership Night- Torch Club and Teen Council",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "Join this elite youth led event, where youth plan, design, implement, and create the vision for the club! Youth Leaders will deliver “9/11 letters” to local emergency responders. Registration closes for this event on Wednesday, September 16. Please sign up on the CYPBMS-Parent Portal . Cost: Free Ages: 9-12 and 13-18",
-      "category": "family"
-    },
-    {
       "id": "malmstrom-wellness-wednesday-snack-n-chat-2026-09-23",
       "title": "Wellness Wednesday: Snack-N-Chat",
       "date": "2026-09-23T10:30:00",
@@ -351,6 +271,16 @@
       "location": "",
       "address": "",
       "description": "Cost: Free Informal sit down with our MFLC. Children are welcome but supervision is not provided. Feel free to bring a snack and come chat! Please call the M&FRC at 731-4900 for more information. Location is Grizzly Bend.",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-cpr-first-aid-class-2026-09-23",
+      "title": "CPR/First Aid Class",
+      "date": "2026-09-23T17:30:00",
+      "endDate": "2026-09-23T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Are you wanting to learn some first aid and CPR skills to help make sure you know how to keep your family and friends safe or to add another certification to your list to show how awesome you are? Come learn at the Grizzly Bend from an American Heart Association certified instructor. We will go over basic first aid along with infant, child, and adult CPR. After the instructional portion, there will be a skills test to ensure that each individual is comfortable with the steps and knowledge they have learned. Upon passing the written and skills tests, participants will be issued a CPR/First Aid ",
       "category": "family"
     },
     {
@@ -392,6 +322,56 @@
       "address": "Great Falls, MT",
       "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
       "category": "community"
+    },
+    {
+      "id": "malmstrom-spooktacular-diy-door-sign-kit-2026-10-01",
+      "title": "Spooktacular DIY Door Sign Kit",
+      "date": "2026-10-01T09:00:00",
+      "endDate": "2026-10-01T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Get ready for some spooky fun! Our Halloween door sign has everything you need to create your own festive decoration! Pick your designs, paint, assemble and enjoy! Kits include your choice of 2 pre-cut pieces with self-adhesive backing for a mess-free, glue-free assembly, paint applicator and paint. Perfect for a fun family activity, girls’ night, or a creative Halloween project. Limited kits available – get your before they disappear! Beginning Thursday, October 1 | All Month Cost: Non-members $40 Club Members $36",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-oktoberfest-2026-10-02",
+      "title": "Oktoberfest",
+      "date": "2026-10-02T15:41:00",
+      "endDate": "2026-10-02T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Our annual Oktoberfest celebration is back! Come on down to the Grizzly Bend in your best lederhosen and dirndls to celebrate Bavarian heritage and history! The family-friendly area will include bounce houses, ring toss, games and more! Dress up the entire family and compete in our costume contest! Don’t forget to capture those memories at the photo booth and try your hand at axe throwing! Adults, show off your skills at the stein holding and keg squatting! Prizes will be awarded for contest winners. The meal buffet will include a delicious array of German food including bratwurst with all the",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-jumping-java-2026-10-06",
+      "title": "Jumping Java",
+      "date": "2026-10-06T08:00:00",
+      "endDate": "2026-10-06T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring your little ones to the Grizzly Bend so they can get all of their energy out in our bouncy castles or playing games while you socialize. Children must be supervised by a responsible adult at all times. Cost: Free Ages: All are welcome",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-house-of-dragons-bowling-night-2026-10-09",
+      "title": "House of Dragons Bowling Night",
+      "date": "2026-10-09T17:00:00",
+      "endDate": "2026-10-09T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Tiny tots! Get ready to show off your bowling skills. It’s going to be a fun night of Cosmo bowling and dragons. You heard it right, dragons. Tiny tots will have a chance to bowl a strike with our glow in the dark dragon bowling ramps. We will also have some kids’ music playing just for you. You don’t want to miss our bowling and pizza deals! Don’t miss out on this epic evening of fun, friendship, and fantastic savings! Cost: $22 per hour per lane (6 people per lane), $3 shoe rental. Food Special: BOGO personal pan pizza!",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-cash-bingo-2026-10-15",
+      "title": "Cash Bingo",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Who’s ready to win some cold hard cash? Bring all your friends and family on down to the Grizzly Bend for some fun competition with a night of bingo. Participants will have six chances to win cash pots of $50, $100, $150, $200, $250, and $300. Bingo cards may be pre-purchased at the Grizzly Bend from Tuesday, October 13 at 6:30 am to Thursday, October 15 at 3 pm. Card sales at the event will open at 5:30 pm, and food and drinks will be available for purchase all night in the lounge. Cost: $5 per 3-on-1 bingo card for club members, $10 per 3-on-1 bingo card for non-members ($7 if pre-purchased)",
+      "category": "family"
     },
     {
       "id": "malmstrom-money-matters-monday-holiday-spending-2026-10-19",
@@ -442,6 +422,26 @@
       "address": "Great Falls, MT",
       "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
       "category": "community"
+    },
+    {
+      "id": "malmstrom-feathered-fury-5k-2026-11-19",
+      "title": "Feathered Fury 5K",
+      "date": "2026-11-19T07:00:00",
+      "endDate": "2026-11-19T10:00:00",
+      "location": "",
+      "address": "",
+      "description": "Get ready to strut your stuff! Whether you’re a seasoned runner or just looking to shake off those extra Thanksgiving calories ahead of time, this turkey-themed 5K is the perfect way to kick off the holiday season. Register as a flock of four or fly solo – either way you’re in for a good time! Dress up in your best turkey gear or come as you are – just be ready to wobble your way to the finish line. We’ve got prizes for the fastest turkeys and the best dressed flock that’ll make you gobble with glee! This 5K is all about fun, family and a little friendly competition. So, gather your flock, lac",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-date-night-bowling-2026-11-27",
+      "title": "Date Night Bowling",
+      "date": "2026-11-27T17:00:00",
+      "endDate": "2026-11-27T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Looking for a fun and relaxing night out? Bring your special someone and enjoy a Date Night of bowling, music, food and fun! This will be a perfect night to spend together. Cost: $22 hour per lane (6 people per lane) $3 shoe rentals. Food Special: $1 off single topping pizza",
+      "category": "recreation"
     }
   ],
   "newcomers": {

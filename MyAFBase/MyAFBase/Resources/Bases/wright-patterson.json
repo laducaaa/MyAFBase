@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -436,46 +436,6 @@
   ],
   "events": [
     {
-      "id": "wpafb-evt-1",
-      "title": "AFMC Innovation Summit",
-      "date": "2026-09-15T08:00:00Z",
-      "endDate": "2026-09-15T17:00:00Z",
-      "location": "National Museum of the U.S. Air Force",
-      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
-      "description": "Annual innovation and technology showcase for AFMC personnel and industry partners.",
-      "category": "community"
-    },
-    {
-      "id": "wright-patterson-auto-shop-safety-2026-09-16",
-      "title": "Auto Shop Safety",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T18:00:00",
-      "location": "Auto Hobby Shop",
-      "address": "Bldg 1227, Wright Patterson AFB, OH",
-      "description": "<p>Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month </p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "wright-patterson-cash-bingo-2026-09-16",
-      "title": "Cash Bingo",
-      "date": "2026-09-16T18:00:00",
-      "endDate": "2026-09-16T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join in for Cash bingo on Wednesday, September 16 starting at 6 pm in Wing\\'s Bar & Grille! Come out and play bingo for cash prizes. Pay outs are based on attendance with a progressive coverall prize for the last game. Food and drinks will be available for purchase. $35 Per Player Must be 18 […]</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "wpafb-plane-talks-sep",
-      "title": "Plane Talks",
-      "date": "2026-09-18T10:00:00",
-      "endDate": "2026-09-18T15:00:00",
-      "location": "National Museum of the U.S. Air Force",
-      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
-      "description": "Gallery talks open to museum visitors.",
-      "category": "community"
-    },
-    {
       "id": "wright-patterson-wood-turning-class-2026-09-22",
       "title": "Wood Turning Class",
       "date": "2026-09-22T17:30:00",
@@ -543,6 +503,26 @@
       "location": "Prairie Trace Golf Course",
       "address": "4690 Skeel Ave, BLDG 90, Fairborn, Ohio, 45433",
       "description": "<p>Join in for the Pink Ribbon Walk on Thursday, October 1 from 5 - 7 pm at the Prairie Trace Golf Course This 5k run/walk is to promote breast cancer awareness. Information booths, selfie station, yoga warm up, free event t-shirts, snacks after the run. The event is FREE and family friendly.</p>\\n",
+      "category": "fitness"
+    },
+    {
+      "id": "wright-patterson-99th-anniversary-of-wright-field-2026-10-02",
+      "title": "99th Anniversary of Wright Field",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us in celebration of the 99th Anniversary of Wright Field on Friday, October 2 from 3 – 4pm in Wing’s Bar & Grille. Commemorate the 99th anniversary with our historian, ABW Leadership, and base community. This celebration will be connected with First Friday with themed desserts and drinks.",
+      "category": "community"
+    },
+    {
+      "id": "wright-patterson-ryder-cup-2026-10-10",
+      "title": "Ryder Cup",
+      "date": "2026-10-10T09:00:00",
+      "endDate": "2026-10-11T15:00:00",
+      "location": "Prairie Trace Golf Course",
+      "address": "4690 Skeel Ave, BLDG 90, Fairborn, 45433",
+      "description": "Get ready for two days of friendly competition at the Ryder Cup on Prairies Trace October 10-11! Grab your partner and hit the course for a two-day tournament featuring a different format for each day: Saturday, October 10: 2 – Person Best Ball Sunday, October 11: 2- Person Alternate Shot Entry Fee is $35 | Green and cart fees are not included | Fee includes lunch and prizes USGA Handicap is required for the net portion of the event. For more information, call Prairie Trace at 937-257-7961",
       "category": "fitness"
     },
     {
@@ -616,6 +596,16 @@
       "category": "fitness"
     },
     {
+      "id": "wright-patterson-wood-turning-class-2026-10-27",
+      "title": "Wood Turning Class",
+      "date": "2026-10-27T17:30:00",
+      "endDate": "2026-10-27T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
       "id": "wpafb-horror-night-halloween-2026-10-30",
       "title": "Horror Night Halloween Party",
       "date": "2026-10-30",
@@ -656,6 +646,16 @@
       "category": "education"
     },
     {
+      "id": "wright-patterson-wood-turning-class-2026-11-24",
+      "title": "Wood Turning Class",
+      "date": "2026-11-24T17:30:00",
+      "endDate": "2026-11-24T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
       "id": "wright-patterson-wood-turning-class-2026-12-08",
       "title": "Wood Turning Class",
       "date": "2026-12-08T17:30:00",
@@ -670,6 +670,36 @@
       "title": "Auto Shop Safety",
       "date": "2026-12-16T17:00:00",
       "endDate": "2026-12-16T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-wood-turning-class-2026-12-22",
+      "title": "Wood Turning Class",
+      "date": "2026-12-22T17:30:00",
+      "endDate": "2026-12-22T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. To sign up for this class, please call the Arts & Crafts Center at 937.257.7025 Location Arts & Crafts Center – Wood Shop Contact 937.257.7025",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-auto-shop-safety-2027-01-20",
+      "title": "Auto Shop Safety",
+      "date": "2027-01-20T17:00:00",
+      "endDate": "2027-01-20T18:00:00",
+      "location": "Auto Hobby Shop",
+      "address": "Bldg 1227, Wright Patterson AFB, OH",
+      "description": "Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month",
+      "category": "education"
+    },
+    {
+      "id": "wright-patterson-auto-shop-safety-2027-02-17",
+      "title": "Auto Shop Safety",
+      "date": "2027-02-17T17:00:00",
+      "endDate": "2027-02-17T18:00:00",
       "location": "Auto Hobby Shop",
       "address": "Bldg 1227, Wright Patterson AFB, OH",
       "description": "Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month",

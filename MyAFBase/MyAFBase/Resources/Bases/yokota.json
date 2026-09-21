@@ -7,7 +7,7 @@
   "wing": "374 AW",
   "latitude": 35.7485,
   "longitude": 139.3483,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "yokota-notif-real-id",
@@ -195,146 +195,6 @@
   ],
   "events": [
     {
-      "id": "yokota-beginner-bowling-class-2026-09-14",
-      "title": "BEGINNER BOWLING CLASS",
-      "date": "2026-09-14T00:00:00",
-      "endDate": "2026-09-14T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "Mondays starting 2 Jun • 5-7 p.m. Tomodachi Lanes • $15 • All Ages Get beginner-training from our resident pro, Takashi Kudoh. Classes will be 2 hours long, where you can learn the basics to get started in bowling! Bowlers do not need their own equipment to participate. *No end date",
-      "category": "education"
-    },
-    {
-      "id": "yokota-tap-dod-day-2026-09-14",
-      "title": "TAP/DOD Day",
-      "date": "2026-09-14T08:00:00",
-      "endDate": "2026-09-14T16:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "TAP/DOD Day",
-      "category": "community"
-    },
-    {
-      "id": "yokota-eep-warden-coordinator-training-2026-09-14",
-      "title": "EEP Warden/Coordinator Training",
-      "date": "2026-09-14T13:00:00",
-      "endDate": "2026-09-14T14:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "EEP Warden/Coordinator Training",
-      "category": "education"
-    },
-    {
-      "id": "yokota-story-time-2026-09-15",
-      "title": "Story Time",
-      "date": "2026-09-15T10:30:00",
-      "endDate": "2026-09-15T23:30:00",
-      "location": "",
-      "address": "",
-      "description": "Story Time",
-      "category": "family"
-    },
-    {
-      "id": "yokota-marriage-financial-touchpoint-2026-09-15",
-      "title": "Marriage Financial Touchpoint",
-      "date": "2026-09-15T14:00:00",
-      "endDate": "2026-09-15T15:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "Marriage Financial Touchpoint",
-      "category": "education"
-    },
-    {
-      "id": "yokota-sensory-friendly-lego-lab-2026-09-15",
-      "title": "SENSORY FRIENDLY LEGO LAB",
-      "date": "2026-09-15T14:00:00",
-      "endDate": "2026-09-15T16:00:00",
-      "location": "",
-      "address": "",
-      "description": "Tuesdays • 2-4 p.m. Library • Free • All Ages Join us for a special sensory Lego playtime. All ages and families are welcome in this space.",
-      "category": "recreation"
-    },
-    {
-      "id": "yokota-2-kids-meal-night-2026-09-15",
-      "title": "$2 KIDS MEAL NIGHT",
-      "date": "2026-09-15T16:00:00",
-      "endDate": "2026-09-15T18:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "Route 16 • All Ages **With purchase of an adult meal, dine-in only.",
-      "category": "community"
-    },
-    {
-      "id": "yokota-kids-eat-free-2026-09-15",
-      "title": "KIDS EAT FREE",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T20:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "5-8 p.m. • Charlie T's",
-      "category": "community"
-    },
-    {
-      "id": "yokota-tap-dol-employment-2026-09-16",
-      "title": "TAP/DOL Employment",
-      "date": "2026-09-16T08:00:00",
-      "endDate": "2026-09-16T16:00:00",
-      "location": "Yokota AB",
-      "address": "Fussa, Japan",
-      "description": "TAP/DOL Employment",
-      "category": "education"
-    },
-    {
-      "id": "yokota-wednesdays-wingman-wednesday-trivia-2026-09-16",
-      "title": "Wednesdays: Wingman Wednesday & Trivia",
-      "date": "2026-09-16T18:00:00",
-      "endDate": "2026-09-16T21:00:00",
-      "location": "Enlisted Club",
-      "address": "Bldg. 2066, Yokota Air Base",
-      "description": "Every Wednesday at 6 p.m - 9 p.m at the Enlisted Club.",
-      "category": "entertainment"
-    },
-    {
-      "id": "yokota-thursday-trivia-night-2026-09-17",
-      "title": "Thursday Trivia Night",
-      "date": "2026-09-17T18:00:00",
-      "endDate": "2026-09-17T20:30:00",
-      "location": "Officers' Club",
-      "address": "Bldg. 31, Yokota Air Base",
-      "description": "Trivia Night Every Thursdays • 6-8:30 p.m • Officer's Club Come join us for Thursday Trivia Night!",
-      "category": "entertainment"
-    },
-    {
-      "id": "yokota-air-force-birthday-5k-walk-run-2026-09-18",
-      "title": "AIR FORCE BIRTHDAY 5K WALK/RUN",
-      "date": "2026-09-18T07:00:00",
-      "endDate": "2026-09-18T09:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Fri • 18 Sep • 7–9 a.m. Par 3 Golf Course Free • All Ages It\\'s the Air Force\\'s birthday! Come out and celebrate with us at Par 3 with a friendly walk or run. Free refreshments and T-shirts will be provided for all participants on a first-come, first-served basis.</p>\\n",
-      "category": "fitness"
-    },
-    {
-      "id": "yokota-tama-hills-games-movie-night-2026-09-18",
-      "title": "TAMA HILLS GAMES & MOVIE NIGHT",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "Fridays & Saturdays • 6-8 p.m. Ends: Sat • 28 Feb Tama Hills Golf & Resort • Free • All Ages We are now opening our conference room where children’s movies will be played, and games will be provided. Popcorn can be purchased at the Tama Lodge Store. *Availability depends on conference room reservations.",
-      "category": "family"
-    },
-    {
-      "id": "yokota-saturday-karaoke-night-2026-09-19",
-      "title": "Saturday Karaoke Night",
-      "date": "2026-09-19T17:00:00",
-      "endDate": "2026-09-19T22:00:00",
-      "location": "Officers’ Club",
-      "address": "Bldg. 31, Yokota Air Base",
-      "description": "<p>Karaoke Night Every Saturday • 5–10 p.m Officer\\'s Club • FREE • Ages 18 & up </p>\\n",
-      "category": "entertainment"
-    },
-    {
       "id": "yokota-story-time-2026-09-22",
       "title": "Story Time",
       "date": "2026-09-22T10:30:00",
@@ -343,6 +203,16 @@
       "address": "",
       "description": "",
       "category": "family"
+    },
+    {
+      "id": "yokota-sensory-friendly-lego-lab-2026-09-22",
+      "title": "SENSORY FRIENDLY LEGO LAB",
+      "date": "2026-09-22T14:00:00",
+      "endDate": "2026-09-22T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "Tuesdays • 2-4 p.m. Library • Free • All Ages Join us for a special sensory Lego playtime. All ages and families are welcome in this space.",
+      "category": "entertainment"
     },
     {
       "id": "yokota-tap-pre-separation-counseling-2026-09-23",
@@ -355,6 +225,16 @@
       "category": "education"
     },
     {
+      "id": "yokota-lego-lab-2026-09-23",
+      "title": "LEGO LAB",
+      "date": "2026-09-23T16:00:00",
+      "endDate": "2026-09-23T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "Wednesdays • 4-6 p.m. Library • All Ages Calling all Master Builders to join us in the library for an evening of building and creating until your heart’s content! Now with Duplo",
+      "category": "entertainment"
+    },
+    {
       "id": "yokota-ibasho-junior-enlisted-social-hour-2026-09-24",
       "title": "IBASHO: JUNIOR ENLISTED SOCIAL HOUR",
       "date": "2026-09-24T17:00:00",
@@ -362,6 +242,16 @@
       "location": "",
       "address": "",
       "description": "Thu • 24 Sep • 5-9 p.m. Roll & Respawn Gaming Center Are you junior enlisted and looking for a community-based social hour? Come out to Roll & Respawn at the Yujo Community Center for an all-you-can-eat taco buffet, and multiple party-style games like Mario Party!",
+      "category": "entertainment"
+    },
+    {
+      "id": "yokota-thursday-trivia-night-2026-09-24",
+      "title": "Thursday Trivia Night",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T20:30:00",
+      "location": "Officers’ Club",
+      "address": "Bldg. 31, Yokota Air Base",
+      "description": "Trivia Night Every Thursdays • 6–8:30 p.m • Officer’s Club Come join us for Thursday Trivia Night!",
       "category": "entertainment"
     },
     {
@@ -375,6 +265,16 @@
       "category": "entertainment"
     },
     {
+      "id": "yokota-tama-hills-games-movie-night-2026-09-25",
+      "title": "TAMA HILLS GAMES & MOVIE NIGHT",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Fridays & Saturdays • 6-8 p.m. Ends: Sat • 28 Feb Tama Hills Golf & Resort • Free • All Ages We are now opening our conference room where children’s movies will be played, and games will be provided. Popcorn can be purchased at the Tama Lodge Store. *Availability depends on conference room reservations.",
+      "category": "family"
+    },
+    {
       "id": "yokota-matsuri-fall-festival-2026-2026-09-26",
       "title": "MATSURI FALL FESTIVAL 2026",
       "date": "2026-09-26T12:00:00",
@@ -383,6 +283,16 @@
       "address": "",
       "description": "<p>Sat • 26 Sep 12–5 p.m. Sakura Shell (Facing the Base Theater) Don\\'t miss the upcoming Matsuri Festival, packed with mouthwatering food, exciting prizes, and vibrant cultural experiences that celebrate Japanese tradition.</p>\\n",
       "category": "community"
+    },
+    {
+      "id": "yokota-story-time-2026-09-29",
+      "title": "Story Time",
+      "date": "2026-09-29T10:30:00",
+      "endDate": "2026-09-29T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "family"
     },
     {
       "id": "yokota-thursday-trivia-night-2026-10-01",
@@ -415,6 +325,46 @@
       "category": "holiday"
     },
     {
+      "id": "yokota-tama-hills-games-movie-night-2026-10-03",
+      "title": "TAMA HILLS GAMES & MOVIE NIGHT",
+      "date": "2026-10-03T18:00:00",
+      "endDate": "2026-10-03T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Fridays & Saturdays • 6-8 p.m. Ends: Sat • 28 Feb Tama Hills Golf & Resort • Free • All Ages We are now opening our conference room where children’s movies will be played, and games will be provided. Popcorn can be purchased at the Tama Lodge Store. *Availability depends on conference room reservations.",
+      "category": "family"
+    },
+    {
+      "id": "yokota-story-time-2026-10-06",
+      "title": "Story Time",
+      "date": "2026-10-06T10:30:00",
+      "endDate": "2026-10-06T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "family"
+    },
+    {
+      "id": "yokota-sensory-friendly-lego-lab-2026-10-06",
+      "title": "SENSORY FRIENDLY LEGO LAB",
+      "date": "2026-10-06T14:00:00",
+      "endDate": "2026-10-06T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "Tuesdays • 2-4 p.m. Library • Free • All Ages Join us for a special sensory Lego playtime. All ages and families are welcome in this space.",
+      "category": "entertainment"
+    },
+    {
+      "id": "yokota-lego-lab-2026-10-07",
+      "title": "LEGO LAB",
+      "date": "2026-10-07T16:00:00",
+      "endDate": "2026-10-07T18:00:00",
+      "location": "",
+      "address": "",
+      "description": "Wednesdays • 4-6 p.m. Library • All Ages Calling all Master Builders to join us in the library for an evening of building and creating until your heart’s content! Now with Duplo",
+      "category": "entertainment"
+    },
+    {
       "id": "yokota-member-s-world-tour-north-america-2026-10-15",
       "title": "MEMBER’S WORLD TOUR: NORTH AMERICA",
       "date": "2026-10-15T00:00:00",
@@ -433,6 +383,16 @@
       "address": "",
       "description": "<p>Sat • 31 Oct 5-8 p.m. $5 Per Person (Non-Staying Guest) All Ages Reserve by 25 Oct Experience the first of its kind at Tama, a spooky trial hike! Enjoy face painting, apple bobbing, bouncy house, Halloween cartoons, marshmallow roasting station, and a guided tour on the mysterious path! Hamburgers, hot dogs, chips, soda, and […]</p>\\n",
       "category": "outdoor"
+    },
+    {
+      "id": "yokota-tama-hills-games-movie-night-2026-11-06",
+      "title": "TAMA HILLS GAMES & MOVIE NIGHT",
+      "date": "2026-11-06T18:00:00",
+      "endDate": "2026-11-06T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Fridays & Saturdays • 6-8 p.m. Ends: Sat • 28 Feb Tama Hills Golf & Resort • Free • All Ages We are now opening our conference room where children’s movies will be played, and games will be provided. Popcorn can be purchased at the Tama Lodge Store. *Availability depends on conference room reservations.",
+      "category": "family"
     },
     {
       "id": "yokota-3d-archery-tournament-2026-11-14",

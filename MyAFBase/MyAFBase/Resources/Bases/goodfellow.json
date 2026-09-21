@@ -7,7 +7,7 @@
   "wing": "17 TRW",
   "latitude": 31.4327,
   "longitude": -100.4056,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "goodfellow-notif-real-id",
@@ -266,96 +266,6 @@
   ],
   "events": [
     {
-      "id": "goodfellow-youth-book-party-2026-09-14",
-      "title": "Youth Book Party",
-      "date": "2026-09-14T17:00:00",
-      "endDate": "2026-09-14T18:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "Youth Book Party @ the Library September 14th 5pm-6pm FMI: 325-654-3232",
-      "category": "family"
-    },
-    {
-      "id": "goodfellow-intro-to-pottery-2026-09-14",
-      "title": "Intro to Pottery",
-      "date": "2026-09-14T17:00:00",
-      "endDate": "2026-09-14T18:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "Youth Book Party @ the Library September 14th 5pm-6pm FMI: 325-654-3232",
-      "category": "family"
-    },
-    {
-      "id": "goodfellow-fibers-club-2026-09-15",
-      "title": "Fibers Club",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T19:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "Fibers Club is September 1st & 15th 10:30am-12:30pm in the Goodfellow Library! FMI: 325-654-3232",
-      "category": "education"
-    },
-    {
-      "id": "goodfellow-tekken-8-tournament-2026-09-18",
-      "title": "Tekken 8 Tournament",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T18:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "🔥 The stage is set. The fight begins. 🔥 Join us for a high-energy Guilty Gear Strive Tournament! 🗓 September 18th ⏰ 6:00 PM 📍 Powell Event Center Dust off",
-      "category": "community"
-    },
-    {
-      "id": "goodfellow-fright-fest-fiesta-texas-2026-09-19",
-      "title": "Fright Fest Fiesta Texas",
-      "date": "2026-09-19T07:30:00",
-      "endDate": "2026-09-19T21:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "🎢👻 Ready for thrills, chills, and nonstop fun? Join us for a trip to Six Flags Fiesta Texas Fright Fest! 📅 Saturday, September 12 🕢 Departure: 7:30 AM 🕘 Return:",
-      "category": "community"
-    },
-    {
-      "id": "goodfellow-family-day-at-samfa-sound-into-color-2026-09-19",
-      "title": "Family Day at SAMFA: Sound Into Color",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "The San Angelo Museum of Fine Arts invites families to attend Family Day on Saturday, September 19, 2026, from 10 AM to 2 PM at the Education Studio, located in",
-      "category": "family"
-    },
-    {
-      "id": "goodfellow-monsters-of-mathis-2026-09-19",
-      "title": "Monsters of Mathis",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T10:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "💪👹 MONSTERS OF MATHIS POWERLIFT 👹💪 Think you’ve got what it takes to lift like a monster? 🏋️‍♂️🔥 Come out and watch the Monsters of Mathis Powerlift as competitors put",
-      "category": "community"
-    },
-    {
-      "id": "goodfellow-clay-hand-building-2026-09-19",
-      "title": "Clay Hand Building",
-      "date": "2026-09-19T12:00:00",
-      "endDate": "2026-09-19T15:00:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "In the Arts & Crafts building 109 September 19th, join in on Clay Hand Building 12pm-3pm. Cost: $15 Includes clay, tools, glazes, firing & guided instructions. FMI: 325-654-3237",
-      "category": "recreation"
-    },
-    {
-      "id": "goodfellow-fiesta-night-2026-09-19",
-      "title": "Fiesta Night",
-      "date": "2026-09-19T18:00:00",
-      "endDate": "2026-09-19T23:59:00",
-      "location": "Goodfellow AFB",
-      "address": "San Angelo, TX",
-      "description": "🌮🎉 FIESTA NIGHT! 🎉🌮 Grab your amigos and get ready to fiesta! 💃🕺 Join us for a festive night filled with good vibes, great company, and a mixed variety of margarita flavors for only $3! 🍹✨ Come dressed to celebrate and enjoy a night of music, fun, and fiesta vibes! 🎶🌶️🌵 📅 September 29th ⏰ 6:00 PM - 12:00 AM 📍 Powell Event Center 🍹 Margaritas - $3 🌟 Bring your amigos. Bring your fiesta spirit. Let's make it a night to",
-      "category": "community"
-    },
-    {
       "id": "goodfellow-civilian-writing-resume-2026-09-24",
       "title": "Civilian Writing Resume",
       "date": "2026-09-24T14:00:00",
@@ -416,6 +326,46 @@
       "category": "fitness"
     },
     {
+      "id": "goodfellow-fright-fest-fiesta-texas-2026-10-10",
+      "title": "Fright Fest Fiesta Texas",
+      "date": "2026-10-10T11:00:00",
+      "endDate": "2026-10-11T01:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎢👻 Ready for thrills, chills, and nonstop fun? Join us for a trip to Six Flags Fiesta Texas Fright Fest! 📅 Saturday, October 10th 🕢 Departure: 11 AM 🕘 Return: 1 AM 📍 Pick-Up & Drop-Off: TRAC Building 109 💲 Cost: $55 per DoD Card Holder Experience heart-pounding rides, haunted attractions, spooky entertainment, and all the excitement Fright Fest has to offer. Don’t miss your chance to enjoy an unforgettable day of thrills with us! Reserve your spot today by calling 325-654-5249. Spots are limited!",
+      "category": "holiday"
+    },
+    {
+      "id": "goodfellow-blocktoberfest-2026-10-10",
+      "title": "Blocktoberfest",
+      "date": "2026-10-10T12:00:00",
+      "endDate": "2026-10-10T17:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "We will have live music, Oktoberfest food, some games, stein holding, lots of Zero One Brewing Company Oktoberfest and Hefewiezen, and hoping to bring in Horny Toad and Grain Theory for the fun as well! W Beauregard Ave: Between Irving & Chadbourne St 12:00 pm – 5:00 pm Check out more events happening in October here in San Angelo > Events | Historic Downtown San Angelo",
+      "category": "holiday"
+    },
+    {
+      "id": "goodfellow-cross-stitching-101-2026-10-10",
+      "title": "Cross-Stitching 101",
+      "date": "2026-10-10T12:00:00",
+      "endDate": "2026-10-10T15:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🧵✨ Try something new with Cross-Stitch 101! ✨🧵 Join us for a fun, beginner-friendly class where you’ll learn the basics of cross-stitching from start to finish! No experience necessary, and supplies are included. 🎨🪡 📅 Oct. 10 | 12–3 PM 📅 Oct. 15 | 5–7 PM 📍 Arts & Crafts Bldg. #109 💲 Cost: $17 Advanced reservations required! Call Arts & Crafts at (325) 654-3237 to reserve your spot. 💜 *Anyone under 18 must be accompanied by a parent/guardian*",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-card-game-night-2026-10-10",
+      "title": "Card Game Night",
+      "date": "2026-10-10T17:00:00",
+      "endDate": "2026-10-10T22:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "♠️♥️ Card Game Night at the Powell Event Center ♦️♣️ Shuffle up and join us for an evening of friendly competition, strategy, and fun! Whether you’re a seasoned card shark or just looking for a great way to spend the evening with friends, Card Game Night is the perfect place to play, socialize, and enjoy some exciting games. 📅 October 10 & 24 🕔 5:00 PM – 10:00 PM 📍 Powell Event Center Bring your favorite deck or jump into a game with fellow players. All skill levels are welcome! FMI: 325-654-3247",
+      "category": "entertainment"
+    },
+    {
       "id": "goodfellow-guilty-gear-strive-tournament-2026-10-16",
       "title": "Guilty Gear Strive Tournament",
       "date": "2026-10-16T18:00:00",
@@ -426,6 +376,56 @@
       "category": "recreation"
     },
     {
+      "id": "goodfellow-street-fighter-tournament-2026-10-16",
+      "title": "Street Fighter Tournament",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T18:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎮🔥 ROUND 1… FIGHT! 🔥🎮 Think you’ve got what it takes? 🥊 Step into the ring for Street Fighter Tournament Night on October 16th at 6 p.m. at the Powell Event Center! Bring your skills, bring your friends, and get ready to battle it out for gaming glory! 🏆🎮 FMI: 325-654-3247",
+      "category": "fitness"
+    },
+    {
+      "id": "goodfellow-horseback-riding-2026-10-17",
+      "title": "Horseback Riding",
+      "date": "2026-10-17T06:15:00",
+      "endDate": "2026-10-17T16:45:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Saddle up for an unforgettable adventure in the Texas Hill Country! Join us for Horseback Riding in the Texas Hill Country on October 17th! Enjoy a 1.5–2 hour trail ride through a beautiful ranch and up into the hills, with plenty of opportunities for photos along the way. After the ride, we’ll head to Fredericksburg, TX for free time to explore, shop, and grab something to eat! October 17th $75 for DoD card holders Depart: 6:15 AM | Return: 4:45 PM All trips depart from TRAC Bldg. #109 RSVP/FMI: (325) 654-5249 Spots are limited, so don’t miss your chance to saddle up and experience the Hill C",
+      "category": "outdoor"
+    },
+    {
+      "id": "goodfellow-visual-arts-capitol-of-texas-mural-festival-ii-2026-1",
+      "title": "Visual Arts Capitol of Texas Mural Festival II",
+      "date": "2026-10-17T09:30:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "Art in Uncommon Places is proud to host the second Visual Arts Capitol of Texas Mural Festival. The Visual Arts Capitol Texas Mural Festival will be held in “The Art Yard” backyard of the AIUP Studio. Join us to watch Texas muralists from Austin, Fort Worth, La Marque, Round Rock, San Antonio, San Marcus and Seguin, join our San Angelo Muralists painting live to our theme, Cowboys and Creatives. Throughout the day, the public will be able to watch muralists at work, meet the artists, experience skateboard art, food and family fun, and celebrate why San Angelo has earned recognition as the Visu",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-kids-pumpkin-painting-2026-10-17",
+      "title": "Kids Pumpkin Painting",
+      "date": "2026-10-17T12:00:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎃🎨 Get ready for some fall fun! Join us for Kids Pumpkin Painting on October 17 from 12–2 PM ! Kids can paint and decorate their very own pumpkin with all supplies included. 🍂🖌️ 💵 Only $8 📍 Arts & Crafts, Bldg. #109 📞 Call (325) 654-3237 to sign up! ✨ Advanced registration encouraged—walk-ins welcome while supplies last!",
+      "category": "family"
+    },
+    {
+      "id": "goodfellow-ceramic-pumpkin-painting-2026-10-31",
+      "title": "Ceramic Pumpkin Painting",
+      "date": "2026-10-31T12:00:00",
+      "endDate": "2026-10-31T15:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎃🎨 Get creative this Halloween! Join us for Ceramic Pumpkin Painting on October 31 from 12–3 PM at the Arts & Crafts Center! Paint your own ceramic pumpkin and bring your fall vision to life. 🍂🖌️ ✨ $20 includes: ceramic pumpkin, paints & glazes, and firing fees 📍 Arts & Crafts Center, Bldg. #109 👨‍👩‍👧 Open to all ages — anyone under 18 must be accompanied by a parent/guardian. 📞 Advanced reservation required: (325) 654-3237 Spots are limited, so reserve your pumpkin today! 🎃",
+      "category": "holiday"
+    },
+    {
       "id": "goodfellow-santa-s-market-2026-11-21",
       "title": "Santa's Market",
       "date": "2026-11-21T10:00:00",
@@ -433,6 +433,16 @@
       "location": "Goodfellow AFB",
       "address": "San Angelo, TX",
       "description": "🎄✨ Get ready for the 44th Annual Santa's Market! ✨🎄 Join us for a festive day of holiday shopping featuring unique, handmade gifts from local artisans and crafters. It's the perfect opportunity to find one-of-a-kind treasures and get a head start on your holiday shopping! 🎁🛍️ 📅 Saturday, November 21, 2024 🕙 10:00 AM - 4:00 PM 📍 Goodfellow AFB Fire Academy High Bay Come out, shop local, and enjoy this beloved holiday ",
+      "category": "holiday"
+    },
+    {
+      "id": "goodfellow-santa-s-market-2026-11-21",
+      "title": "Santa’s Market",
+      "date": "2026-11-21T10:00:00",
+      "endDate": "2026-11-21T16:00:00",
+      "location": "Goodfellow AFB",
+      "address": "San Angelo, TX",
+      "description": "🎄✨ Get ready for the 44th Annual Santa’s Market! ✨🎄 Join us for a festive day of holiday shopping featuring unique, handmade gifts from local artisans and crafters. It’s the perfect opportunity to find one-of-a-kind treasures and get a head start on your holiday shopping! 🎁🛍️ 📅 Saturday, November 21, 2024 🕙 10:00 AM – 4:00 PM 📍 Goodfellow AFB Fire Academy High Bay Come out, shop local, and enjoy this beloved holiday tradition! 🎅🎄",
       "category": "holiday"
     }
   ],

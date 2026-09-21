@@ -7,7 +7,7 @@
   "wing": "39 ABW",
   "latitude": 37.0021,
   "longitude": 35.4259,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "incirlik-notif-real-id",
@@ -195,16 +195,6 @@
   ],
   "events": [
     {
-      "id": "incirlik-movie-nite-2026-09-14",
-      "title": "Movie Nite",
-      "date": "2026-09-14T19:30:00",
-      "endDate": "2026-09-14T21:30:00",
-      "location": "Big City Bowl & Diner",
-      "address": "",
-      "description": "Second Monday of every month starting at 1930. Free entry! Don’t miss the cinematic experience selected for you on the LED Bowling screens!",
-      "category": "entertainment"
-    },
-    {
       "id": "incirlik-base-bowling-league-2026-09-15",
       "title": "Base Bowling League",
       "date": "2026-09-15T00:00:00",
@@ -213,66 +203,6 @@
       "address": "Adana, Turkey",
       "description": "ELIGIBILITY: Active Duty, Reserve, Guard, DoD Civilians, NATO Allies, Dependents (18+) FORMAT: 9 Pin No Tap - Individual or Teams (number dependent) SEASON DURATION: 10 Weeks: 16 Sept 2026 - 18 Nov 2026 LEAGUE FEE: $15 per bowler / week (covers games & prize fund) PRE-SEASON MEETING: 15 September 2026 at the Bowling Alley POC REGISTRATION / POC: TSgt Charles Wright Email: Charles.wright.10@us.af.mil Phone: 907-952-68",
       "category": "education"
-    },
-    {
-      "id": "incirlik-lake-side-cafe-closure-2026-09-15",
-      "title": "Lake Side Cafe Closure",
-      "date": "2026-09-15T00:00:00",
-      "endDate": "2026-09-15T23:59:59",
-      "location": "Lake Side cafe",
-      "address": "Adana, Turkey",
-      "description": "Lakeside Cafe will be closed on 15 September for scheduled hood cleaning.",
-      "category": "community"
-    },
-    {
-      "id": "incirlik-bath-bomb-workshop-2026-09-15",
-      "title": "Bath Bomb Workshop",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T18:30:00",
-      "location": "Community Center",
-      "address": "Incirlik AB, Adana, Turkey",
-      "description": "First come first serve",
-      "category": "education"
-    },
-    {
-      "id": "incirlik-introduction-to-photography-2026-09-16",
-      "title": "Introduction to Photography",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T19:00:00",
-      "location": "Community Center",
-      "address": "Adana, Turkey",
-      "description": "at the Community Center Photography Room",
-      "category": "community"
-    },
-    {
-      "id": "incirlik-latin-dance-class-2026-09-17",
-      "title": "Latin Dance Class",
-      "date": "2026-09-17T21:00:00",
-      "endDate": "2026-09-17T21:00:00",
-      "location": "Club Complex",
-      "address": "Adana, Turkey",
-      "description": "Latin Dance Class: 2100 to 2230 DJ Music/Latin Night will continue until 0200 am",
-      "category": "entertainment"
-    },
-    {
-      "id": "incirlik-end-of-summer-pool-party-2026-09-18",
-      "title": "End of Summer Pool Party",
-      "date": "2026-09-18T19:00:00",
-      "endDate": "2026-09-18T23:00:00",
-      "location": "Swimming Pool",
-      "address": "Adana, Turkey",
-      "description": "Free Entry Snacks and drinks will be available for purchase US Personnel has priority in entry. Adults Only!",
-      "category": "recreation"
-    },
-    {
-      "id": "incirlik-2026-titan-1-commander-s-cup-2026-09-19",
-      "title": "2026 TITAN 1 Commander's Cup",
-      "date": "2026-09-19T08:39:00",
-      "endDate": "2026-09-19T11:30:00",
-      "location": "Hodja Lakes Golf Course",
-      "address": "Adana, Turkey",
-      "description": "$39 Entry fee - includes steak luncheon, door prizes, and prizes for top 3 places, longest drive, and closest to pin.",
-      "category": "recreation"
     },
     {
       "id": "incirlik-incirlik-airmen-golf-clinic-2026-09-22",
@@ -405,6 +335,36 @@
       "category": "fitness"
     },
     {
+      "id": "incirlik-i-see-dead-people-halloween-5k-2026-10-30",
+      "title": "I See Dead People! Halloween 5K",
+      "date": "2026-10-30T07:30:00",
+      "endDate": "2026-10-30T20:30:00",
+      "location": "Arkadas Park",
+      "address": "Adana, Turkey",
+      "description": "Sign-up by October 28th at this link: https://www.signupgenius.com/go/10C0A45ACAB28A3F5C61-65231482-iseedead A community 5K run filled with energy, costumes, and fun. Celebrate fitness, community, and creativity — plus prizes for best costume! 👟 Special Prize Alert: Best dressed or most creative costume will win a prize!",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-halloween-hyper-bowling-tournament-2026-10-30",
+      "title": "Halloween Hyper Bowling Tournament",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Top 3 players will win free games.",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-halloween-party-2026-10-31",
+      "title": "Halloween Party",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "at the Ballroom",
+      "category": "holiday"
+    },
+    {
       "id": "incirlik-bowling-tournament-of-the-month-2026-11-02",
       "title": "Bowling Tournament of the Month",
       "date": "2026-11-02T18:00:00",
@@ -423,6 +383,56 @@
       "address": "",
       "description": "First Tuesday of the Month from 1900-2100 Entry fee $3.50. 3 Shots per player. The player with the fastest average wins! Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift card. For details, contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
       "category": "community"
+    },
+    {
+      "id": "incirlik-veterans-day-9-pin-bowling-tournament-2026-11-10",
+      "title": "Veterans Day 9 Pin Bowling Tournament",
+      "date": "2026-11-10T18:00:00",
+      "endDate": "2026-11-10T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Top 3 players will get free games.",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-veterans-memorial-day-golf-tournament-2026-11-11",
+      "title": "Veterans Memorial Day Golf Tournament",
+      "date": "2026-11-11T08:30:00",
+      "endDate": "2026-11-11T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "Format: 4-Person Scramble (Select Shot) Entry Fee: $25.00 Includes lunch, prizes for the Top 3 Places , Longest Drive , Closest to the Pin , and Door Prizes .",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-thanksgiving-9-pin-bowling-tournament-2026-11-24",
+      "title": "Thanksgiving 9 Pin Bowling Tournament",
+      "date": "2026-11-24T18:00:00",
+      "endDate": "2026-11-24T21:00:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Top 3 players will win frozen Turkey.",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-dfac-customer-appreciation-thanksgiving-day-meal-2026-1",
+      "title": "DFAC Customer Appreciation – Thanksgiving Day Meal",
+      "date": "2026-11-26T00:00:00",
+      "endDate": "2026-11-26T23:59:59",
+      "location": "Sultan’s Inn DFAC",
+      "address": "Adana, Turkey",
+      "description": "",
+      "category": "holiday"
+    },
+    {
+      "id": "incirlik-thanksgiving-golf-tournament-2026-11-26",
+      "title": "Thanksgiving Golf Tournament",
+      "date": "2026-11-26T09:00:00",
+      "endDate": "2026-11-26T12:00:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "Turkey Shoot Out – Thanksgiving Outing 🦃 ⛳ Format: 4-Person Scramble (Select Shot) Entry Fee: $25.00, including lunch, prizes for the Top 3 Places, Longest Drive, Closest to the Pin, and Door Prizes.",
+      "category": "holiday"
     },
     {
       "id": "incirlik-ball-speed-competition-2026-12-01",

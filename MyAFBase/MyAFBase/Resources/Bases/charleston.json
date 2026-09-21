@@ -7,7 +7,7 @@
   "wing": "628 ABW / 437 AW",
   "latitude": 32.9346,
   "longitude": -80.0406,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "charleston-notif-real-id",
@@ -299,76 +299,6 @@
   ],
   "events": [
     {
-      "id": "charleston-nws-fss-scavenger-hunt-2026-09-13",
-      "title": "NWS FSS Scavenger Hunt",
-      "date": "2026-09-13T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "NWS FSS Facilities",
-      "address": "Joint Base Charleston, SC",
-      "description": "Week long camaraderie and awareness event ending with the hibachi hero band on saturday",
-      "category": "community"
-    },
-    {
-      "id": "charleston-heart-link-2026-09-15",
-      "title": "Heart Link",
-      "date": "2026-09-15T00:00:00",
-      "endDate": "2026-09-15T23:59:59",
-      "location": "AB Military & Family Readiness Center",
-      "address": "North Charleston, SC",
-      "description": "Spouse Orientation",
-      "category": "education"
-    },
-    {
-      "id": "charleston-jblg-nws-cdc-open-house-2026-09-16",
-      "title": "JBLG – NWS CDC Open House",
-      "date": "2026-09-16T17:15:00",
-      "endDate": "2026-09-16T18:30:00",
-      "location": "NWS CDC",
-      "address": "Joint Base Charleston, SC",
-      "description": "Come see what’s happening at the NWS Child Development Center! Explore classroom activities connected to the ELM curriculum, meet with staff, and learn about community resources available to families. Parents and children are welcome to participate.",
-      "category": "family"
-    },
-    {
-      "id": "charleston-odr-surfside-social-2026-09-17",
-      "title": "ODR – Surfside Social",
-      "date": "2026-09-17T00:00:00",
-      "endDate": "2026-09-17T23:59:59",
-      "location": "The wash at Folly Beach",
-      "address": "Joint Base Charleston, SC",
-      "description": "For those who are learning to surf or already know how to surf, this meet up is for you. 8am-Noon",
-      "category": "outdoor"
-    },
-    {
-      "id": "charleston-navy-ombudsman-appreciation-ceremony-2026-09-18",
-      "title": "Navy Ombudsman Appreciation Ceremony",
-      "date": "2026-09-18T00:00:00",
-      "endDate": "2026-09-18T23:59:59",
-      "location": "NWS Military & Family Readiness Center",
-      "address": "North Charleston, SC",
-      "description": "Celebration honoring Ombudsman who connect Navy families",
-      "category": "family"
-    },
-    {
-      "id": "charleston-stem-day-2026-09-19",
-      "title": "STEM Day",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "Joint Base Charleston, SC",
-      "address": "Joint Base Charleston, SC",
-      "description": "STEM Day — public FSS/MWR calendar listing.",
-      "category": "education"
-    },
-    {
-      "id": "charleston-sibshops-2026-09-19",
-      "title": "Sibshops",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "Joint Base Charleston, SC",
-      "address": "Joint Base Charleston, SC",
-      "description": "Sibling Support workshop facilitated bt EFMP-FS to promote family resiliency",
-      "category": "education"
-    },
-    {
       "id": "charleston-ws-tap-21-23-2026-09-21",
       "title": "WS TAP 21-23",
       "date": "2026-09-21T00:00:00",
@@ -389,6 +319,36 @@
       "category": "community"
     },
     {
+      "id": "charleston-employer-panel-2026-09-23",
+      "title": "Employer Panel",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "M&FRC NWS",
+      "address": "Charleston, SC",
+      "description": "Local recruiters share hiring advice with TAP workshop attendees",
+      "category": "education"
+    },
+    {
+      "id": "charleston-hearts-apart-deployed-families-dinner-1730-1930-2026",
+      "title": "Hearts Apart – Deployed Families Dinner (1730-1930)",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "M&FRC AB",
+      "address": "Charleston, SC",
+      "description": "Deployed spouse networking event, Texas Roadhouse dinner",
+      "category": "community"
+    },
+    {
+      "id": "charleston-civilian-professional-development-2026-09-23",
+      "title": "Civilian Professional Development",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "AB Commons",
+      "address": "Charleston, SC",
+      "description": "MFRC Lead",
+      "category": "community"
+    },
+    {
       "id": "charleston-tsp-you-2026-09-24",
       "title": "TSP & YOU",
       "date": "2026-09-24T00:00:00",
@@ -397,6 +357,26 @@
       "address": "North Charleston, SC",
       "description": "Plan your retirement, fund your TSP, live the life your terms",
       "category": "education"
+    },
+    {
+      "id": "charleston-2-day-dol-ew-2026-09-24",
+      "title": "2-Day DOL EW",
+      "date": "2026-09-24T00:00:00",
+      "endDate": "2026-09-24T23:59:59",
+      "location": "M&FRC NWS",
+      "address": "Charleston, SC",
+      "description": "In Person",
+      "category": "community"
+    },
+    {
+      "id": "charleston-bells-across-america-2026-09-24",
+      "title": "Bells Across America",
+      "date": "2026-09-24T00:00:00",
+      "endDate": "2026-09-24T23:59:59",
+      "location": "JB Charleston",
+      "address": "Charleston, SC",
+      "description": "Reflective Ceremony for fallen service members",
+      "category": "community"
     },
     {
       "id": "charleston-family-movie-night-2026-09-25",
@@ -429,6 +409,46 @@
       "category": "fitness"
     },
     {
+      "id": "charleston-parent-advisory-boar-meeting-2026-10-08",
+      "title": "Parent Advisory Boar Meeting",
+      "date": "2026-10-08T00:00:00",
+      "endDate": "2026-10-08T23:59:59",
+      "location": "JB Charleston",
+      "address": "Charleston, SC",
+      "description": "Quarterly meeting w/ parents and staff",
+      "category": "family"
+    },
+    {
+      "id": "charleston-odr-hangout-at-nexus-2026-10-16",
+      "title": "ODR – Hangout at Nexus",
+      "date": "2026-10-16T00:00:00",
+      "endDate": "2026-10-16T23:59:59",
+      "location": "Goose Creek, SC",
+      "address": "Charleston, SC",
+      "description": "A relaxed night for adults to connect, play games, and enjoy good company. Light food and non-alcoholic drinks availble.",
+      "category": "outdoor"
+    },
+    {
+      "id": "charleston-the-haunted-hustle-2026-10-16",
+      "title": "The Haunted Hustle",
+      "date": "2026-10-16T00:00:00",
+      "endDate": "2026-10-16T23:59:59",
+      "location": "Sams Fitness Center",
+      "address": "Charleston, SC",
+      "description": "5k Run/Walk and costume family friendly event. Prizes for best costume, top male and female time and fastest family time, Race starts at 7am",
+      "category": "fitness"
+    },
+    {
+      "id": "charleston-family-movie-night-2026-10-16",
+      "title": "Family Movie Night",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "AB Library",
+      "address": "Charleston, SC",
+      "description": "Family Friendly movie at the library",
+      "category": "family"
+    },
+    {
       "id": "charleston-joint-base-lindsey-graham-golf-champi",
       "title": "Joint Base Lindsey Graham Golf Championship",
       "date": "2026-10-17T00:00:00",
@@ -437,6 +457,16 @@
       "address": "Joint Base Charleston, SC",
       "description": "Tournament Round 1 at Redbank GC, Round 2 at Wrenwoods GC",
       "category": "recreation"
+    },
+    {
+      "id": "charleston-flag-football-league-begins-2026-10-20",
+      "title": "Flag Football League Begins",
+      "date": "2026-10-20T00:00:00",
+      "endDate": "2026-10-20T23:59:59",
+      "location": "Sam’s Sports Field",
+      "address": "Charleston, SC",
+      "description": "A 7v7 player league held at the WS Sports Field located behind Sam’s Fitness Center. Expected number of teams is 10.",
+      "category": "fitness"
     },
     {
       "id": "charleston-boo-bash-2026-10-23",

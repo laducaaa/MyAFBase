@@ -7,7 +7,7 @@
   "wing": "AETC HQ / 12 FTW / 502 ABW",
   "latitude": 29.529,
   "longitude": -98.278,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "randolph-notif-1",
@@ -359,36 +359,6 @@
   ],
   "events": [
     {
-      "id": "randolph-pool-tournament-2026-09-18",
-      "title": "Pool Tournament (Kendrick Club)",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Kendrick Club / Gil's Pub",
-      "address": "JBSA-Randolph",
-      "description": "Free single-elimination pool tournament; JBSA Today. Also listed Oct 16.",
-      "category": "community"
-    },
-    {
-      "id": "randolph-pool-tournament-2026-09-18",
-      "title": "Pool Tournament",
-      "date": "2026-09-18T17:30:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "RND Kendrick Club",
-      "address": "JBSA-Randolph, Universal City, TX",
-      "description": "JBSA-Randolph Kendrick Club Sept. 18 & Oct. 16 | 5:30-9pm This is a single-elimination tournament. Registration for September’s tournament is open September 14-17. October’s tournament registration opens October 12-15. Winner receives $100 cash. This event is free! No cover to participate. For more information or to register, call 210.569.2510, email jbsarandolphclubs@gmail.com, or stop by Gil’s p",
-      "category": "recreation"
-    },
-    {
-      "id": "randolph-karaoke-friday-2026-09-18",
-      "title": "Karaoke Friday",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T22:00:00",
-      "location": "RND Parr Club",
-      "address": "JBSA-Randolph, Universal City, TX",
-      "description": "JBSA-Randolph Parr Club Sept. 18 & Oct. 16 | 6-10pm Discover your inner rock-star and sing your heart out during our Auger Karaoke Night! For more information, call 210.658.7445.",
-      "category": "entertainment"
-    },
-    {
       "id": "randolph-decade-themed-bingo-2026-09-22",
       "title": "Decade Themed Bingo",
       "date": "2026-09-22T18:30:00",
@@ -399,6 +369,46 @@
       "category": "entertainment"
     },
     {
+      "id": "randolph-oktoberfest-2026-09-25",
+      "title": "Oktoberfest",
+      "date": "2026-09-25T17:00:00",
+      "endDate": "2026-09-25T21:00:00",
+      "location": "Joint Base San Antonio",
+      "address": "Universal City, TX",
+      "description": "Joint Base San Antonio Fort Sam Houston Sept. 25 | 5-9pm Located At The Army South Parking Lot Between Dickman And Stanley Rd. Live Entertainment by 323d Army Band “Ft Sam’s Own”, Beethoven’s Oompa Band, Kids Fun Zone, DJ, food and refreshments for purchase. Enjoy live music, German beer, festival tent, festive food, interactive activities for the whole family and much more. Parking and admission are free. So get your lederhosen on and meet us on Fort Sam Houston for some mirthful merriment, Bavarian style. Open to all DoW ID cardholders and their families. There is a costume contest with priz",
+      "category": "holiday"
+    },
+    {
+      "id": "randolph-canyon-lake-annual-pass-2026-09-30",
+      "title": "Canyon Lake Annual Pass",
+      "date": "2026-09-30T00:00:00",
+      "endDate": "2026-09-30T23:59:59",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "Universal City, TX",
+      "description": "JBSA Recreation Park at Canyon Lake Purchase a Joint Base San Antonio Recreation Park at Canyon Lake annual pass for $100 for you and a spouse and enjoy the lake all summer. This pass gets you into both Sunny Side and Hancock Cove. Otherwise, the daily entry fee for the park is $15 per visit, per vehicle. Annual passes include a vehicle and boat/trailer pass and are valid for one year from date of issue for daily use only, during the hours we are open. You can also buy a dependent pass for an additional $35 as long as they are over 18 and have a valid DoD ID card. For more information, please ",
+      "category": "outdoor"
+    },
+    {
+      "id": "randolph-riding-lessons-2026-10-01",
+      "title": "Riding Lessons",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "FSH Equestrian Center",
+      "address": "Universal City, TX",
+      "description": "JBSA-Fort Sam Houston Equestrian Center Whether you’re a beginner or an experienced rider, the JBSA-Fort Sam Houston Equestrian Center offers horseback riding lessons for all skill levels in both English and Western styles. Lessons are available by appointment only, with horses, saddles, and tack provided for each session. Riders must be at least 7 years old to participate. Private lessons are $60 per hour, semi-private lessons are $50 per rider, and group lessons are $40 per rider. Be sure to ask about available package deals!",
+      "category": "outdoor"
+    },
+    {
+      "id": "randolph-dallas-cowboys-home-game-packages-2026-10-01",
+      "title": "Dallas Cowboys Home Game Packages",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "JBSA ITT Offices",
+      "address": "Universal City, TX",
+      "description": "JBSA Information, Tickets, and Travel Are you ready for some Football? Dallas Cowboys home game packages are available at all JBSA ITT locations. Rates range from $525-$1,395 per person. Packages Include: Round-trip shuttle from hotel to stadium One game ticket per person One night hotel stay Entry for each person to the tailgate party (includes free food and drinks) Pep Rally the day before the game at the hotel Both Saturday and Sunday games check in on Saturdays and check out on Sundays Thanksgiving Day game (Nov. 26) will check in on Thursday and check out on Friday Extra night is $200 per",
+      "category": "holiday"
+    },
+    {
       "id": "randolph-first-fridays-2026-10-02",
       "title": "First Fridays at Randolph Clubs",
       "date": "2026-10-02",
@@ -407,6 +417,26 @@
       "address": "JBSA-Randolph",
       "description": "First Fridays DJ nights; Sept 4 passed; Oct 2 listed on JBSA Today.",
       "category": "community"
+    },
+    {
+      "id": "randolph-first-fridays-2026-10-02",
+      "title": "First Fridays",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "RND Clubs",
+      "address": "Universal City, TX",
+      "description": "JBSA-Randolph Clubs Sept. 4 & Oct. 2 Parr Club – Auger Inn First Fridays with DJ Stevie Mack 5-8pm Join us for First Fridays in the Auger Inn. Dance the night away and unwind after work with music by DJ Stevie Mack and great drinks from our friendly bartender. For more information, call 210.658.7445 Kendrick Club – Gil’s Pub with DJ T-Real 5-9pm Join us for First Fridays in Gil’s Pub. Dance the night away after your work week and relax with DJ T-Real, and enjoy great food and specialty drinks. For more information, call 210.658.3557 Monthly Drink Specials: September Washington Apple Canadian W",
+      "category": "entertainment"
+    },
+    {
+      "id": "randolph-smart-girls-tea-party-2026-10-02",
+      "title": "Smart Girls Tea Party",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "FSH Youth Programs",
+      "address": "5557 Watkins Path, Bldg. 1630, Fort Sam Houston, TX",
+      "description": "JBSA-Fort Sam Houston Youth Programs Oct 2 | 5-6PM W. Ed Parker Youth Programs Join your friends as we build friendships, strengthen communication skills and develop the self-confidence needed to become positive leaders at the Smart-Girls Tea Party. We will have interactive activities, thoughtful discussions and of course, tea! $5 per youth. Register through CYPBMS by September 29. For more information call 210.221.3502.",
+      "category": "family"
     },
     {
       "id": "randolph-3-mile-wingman-relay-2026-10-03",
@@ -447,6 +477,16 @@
       "address": "JBSA Randolph, TX 78150",
       "description": "Annual air show open to the public. Arrive early for parking.",
       "category": "community"
+    },
+    {
+      "id": "randolph-beyond-the-marina-boat-tours-2026-10-10",
+      "title": "Beyond the Marina Boat Tours",
+      "date": "2026-10-10T10:30:00",
+      "endDate": "2026-10-10T12:00:00",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "Universal City, TX",
+      "description": "JBSA Recreation Park at Canyon Lake September 19 & October 10 | 10:30am – 12pm Enjoy a 1 ½ hour chauffeured boat tour around Canyon Lake. A guided tour on Canyon Lake is the perfect way to experience one of Texas’ most beautiful lakes. More tours will be made available as needed. Cost is $30 for adults and $15 for a child 12 and younger. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com.",
+      "category": "outdoor"
     },
     {
       "id": "randolph-birthday-meals-2026-10-13",
@@ -516,6 +556,16 @@
       "location": "Recreation Park @ Canyon Lake",
       "address": "Universal City, TX",
       "description": "JBSA Recreation Park at Canyon Lake Sept. 5 & Oct. 24 | 10am to 12pm & 1-3pm Join us at the Hancock Cove Beach for a two-hour class on kayaks and paddle boards. The cost for this class is $20 per person and is open to all DoD ID cardholders. The deadline to register is the day before the class. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com",
+      "category": "outdoor"
+    },
+    {
+      "id": "randolph-monster-mash-trunk-or-treat-2026-10-30",
+      "title": "Monster Mash Trunk or Treat",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T21:00:00",
+      "location": "FSH Youth Programs",
+      "address": "5557 Watkins Path, Bldg. 1630, Fort Sam Houston, TX",
+      "description": "JBSA-Fort Sam Houston Youth Programs October 30 | 6-9pm Entry fee: $10 per family of four | $3 per person Come out to the W. Ed Parker Youth Programs, B1630, for the Monster Mash Trunk or Treat. Partake in Carnival Games, Costume Contests, the Trunk or Treat Trail, and various Activities. Trunk or Treat volunteers are needed. Contact us to reserve your trunk spot. Candy available while supplies last.",
       "category": "outdoor"
     },
     {

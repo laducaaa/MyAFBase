@@ -7,7 +7,7 @@
   "wing": "48 FW",
   "latitude": 52.4093,
   "longitude": 0.561,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "lakenheath-notif-real-id",
@@ -195,124 +195,24 @@
   ],
   "events": [
     {
-      "id": "lakenheath-crochet-projects-beanie-scarf-part-2-2026-09-16",
-      "title": "Crochet Projects: Beanie & Scarf (part 2)",
-      "date": "2026-09-16T18:00:00",
-      "endDate": "2026-09-16T20:00:00",
-      "location": "Arts & Crafts",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Wednesday • September 16 6pm - 8pm Ages 12+ | $30",
-      "category": "recreation"
-    },
-    {
-      "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-09-17",
+      "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-09-24",
       "title": "Liberty Club Lunch Buffet: Southern",
-      "date": "2026-09-17T11:00:00",
-      "endDate": "2026-09-17T13:30:00",
+      "date": "2026-09-24T11:00:00",
+      "endDate": "2026-09-24T13:30:00",
       "location": "",
       "address": "",
       "description": "Head on over to the Liberty Club Grill for a delicious American classic, Southern food . 11am – 1:30pm Adults $15.95 · Children (5-12) $8.95 · 4 & under eat free!",
       "category": "family"
     },
     {
-      "id": "lakenheath-clock-making-2026-09-17",
-      "title": "Clock Making",
-      "date": "2026-09-17T17:30:00",
-      "endDate": "2026-09-17T19:30:00",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Thursday • September 17 | 5:30pm - 7:30pm | $40 Ages 10+ | Sign up by September 15",
-      "category": "recreation"
-    },
-    {
-      "id": "lakenheath-family-bingo-2026-09-18",
-      "title": "Family Bingo",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Friday • September 18 6pm start | $10 per book 📍 Ward CAC on RAF Feltwell All Ages!",
-      "category": "family"
-    },
-    {
-      "id": "lakenheath-dublin-extreme-day-trip-2026-09-19",
-      "title": "Dublin: Extreme Day Trip",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-featured-oktoberfest-2026-09-19",
-      "title": "Featured Oktoberfest",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "holiday"
-    },
-    {
-      "id": "lakenheath-oktoberfest-2026-09-19",
-      "title": "Oktoberfest",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "holiday"
-    },
-    {
-      "id": "lakenheath-stained-glass-2026-09-19",
-      "title": "Stained Glass",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "recreation"
-    },
-    {
-      "id": "lakenheath-hike-of-the-month-arundel-river-2026-09-19",
-      "title": "Hike of the Month: Arundel River",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Saturday • September 19 Exertion Level: MODERATE Ages 10+ | All $38 Transportation and a guided hike",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-stonehenge-city-of-salisbury-2026-09-19",
-      "title": "Stonehenge & City of Salisbury",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T17:00:00",
+      "id": "lakenheath-paris-3-day-2026-09-25",
+      "title": "Paris 3-Day",
+      "date": "2026-09-25T00:00:00",
+      "endDate": "2026-09-25T23:59:59",
       "location": "",
       "address": "",
-      "description": "Saturdays • July 25 & September 19 Adult £85 | Child (5-17) £69 | Infant £20 Inclusive: Transportation, Stonehenge entry & free time to explore the City of Salisbury Experience Britain’s most extraordinary monument and UNESCO World Heritage Site. Explore the visitor center, which offers both permanent and temporary exhibitions, alongside an outdoor display showcasing a group of Neolithic houses. Following this, we will proceed to the city of Salisbury. *English Heritage Members. Ask ITT about discounted prices *Cathedral entry not included Book now!",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-karaoke-night-2026-09-19",
-      "title": "Karaoke Night",
-      "date": "2026-09-19T21:00:00",
-      "endDate": "2026-09-20T02:00:00",
-      "location": "Liberty Club Bar",
-      "address": "",
-      "description": "Who needs a stage when you have a karaoke machine? Free entry | Huge selection of songs: Online karaoke | KaraFun",
-      "category": "entertainment"
-    },
-    {
-      "id": "lakenheath-warwick-castle-2026-09-20",
-      "title": "Warwick Castle",
-      "date": "2026-09-20",
-      "endDate": "2026-09-20",
-      "location": "RAF Lakenheath",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Lakenheath.",
-      "category": "outdoor"
+      "description": "Adult £339 | Child (2-11) £289 | Infant £120 | *Single Supplement £120 Includes: coach transportation, return ferry crossing, two nights bed & breakfast accommodation, transport into Paris on day two, and visits to Sacre Cœur & Place du Tertre Book now!",
+      "category": "family"
     },
     {
       "id": "lakenheath-disney-paris-2026-09-25",
@@ -355,6 +255,16 @@
       "category": "outdoor"
     },
     {
+      "id": "lakenheath-london-dyo-2026-09-27",
+      "title": "London DYO",
+      "date": "2026-09-27T08:00:00",
+      "endDate": "2026-09-27T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Saturdays • August 8 & 22 • September 19 Sundays • August 16 & 30 • September 6 & 27 Adult £37 | Child (3-14) £35 | Infant £20 Fancy seeing London and taking in some of the sights or just doing a bit of shopping? Then this is the tour for you. We’ll get you to London where you can explore on your own, then pick you up at the designated area to get you safely back home. INTERESTED IN A LONDON CITY PASS? Contact our Travel Agents for a full listing: ittlakenheath@gmail.com Never been before? Then why not purchase a discounted ticket at ITT for the Tower of London, Big Bus, London Eye, Madame Tus",
+      "category": "family"
+    },
+    {
       "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-10-01",
       "title": "Liberty Club Lunch Buffet: Southern",
       "date": "2026-10-01T11:00:00",
@@ -363,6 +273,46 @@
       "address": "",
       "description": "Head on over to the Liberty Club Grill for a delicious American classic, Southern food . 11am – 1:30pm Adults $15.95 · Children (5-12) $8.95 · 4 & under eat free!",
       "category": "family"
+    },
+    {
+      "id": "lakenheath-london-dyo-2026-10-03",
+      "title": "London DYO",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Saturday • October 3 & 10 Adult £37 | Child (3-14) £35 | Infant £20 Plan your day ahead of time while ITT takes the wheel! Book now: https://www.ittlakenheath.com/home",
+      "category": "family"
+    },
+    {
+      "id": "lakenheath-bolsover-castle-sherwood-forest-2026-10-03",
+      "title": "Bolsover Castle & Sherwood Forest",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Saturday • October 3 Adult £64 | Child (5-17) £54 | Infant £20 Transportation, Bolsover Castle entry, and free time to explore Sherwood Forest Book now: https://www.ittlakenheath.com/inc/sdetail/47620",
+      "category": "family"
+    },
+    {
+      "id": "lakenheath-karaoke-night-2026-10-03",
+      "title": "Karaoke Night",
+      "date": "2026-10-03T21:00:00",
+      "endDate": "2026-10-03T21:00:00",
+      "location": "Liberty Club Bar",
+      "address": "",
+      "description": "Who needs a stage when you have a karaoke machine? Free entry | Huge selection of songs: Online karaoke | KaraFun",
+      "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-latin-night-2026-10-03",
+      "title": "Latin Night",
+      "date": "2026-10-03T21:00:00",
+      "endDate": "2026-10-04T01:00:00",
+      "location": "Liberty Club Bar",
+      "address": "",
+      "description": "The Liberty Club is bringing the rhythm, the spice, and just the right amount of chaos to the dance floor. It’s Latin Night, baby — where the hips don’t lie and neither do the vibes. From salsa to reggaetón, bachata to Latin pop, our DJ is serving nonstop bangers that’ll have you saying “just one more song” at least 12 times. Whether you’re a seasoned salsero or just here to dramatically sip a mojito and look mysterious, this is your night. Free entry • Live DJ • On-site dance instructor",
+      "category": "entertainment"
     },
     {
       "id": "lakenheath-mid-week-bingo-2026-10-07",
@@ -375,6 +325,26 @@
       "category": "entertainment"
     },
     {
+      "id": "lakenheath-phantasialand-3-day-2026-10-09",
+      "title": "Phantasialand (3-Day)",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Adult £449 | Child (2-11) £369 | Infant £120 *Single supplement £120 Includes coach transportation, return ferry crossing, two nights’ bed & breakfast accommodation, and transport to & 1-day entry pass to Phantasialand. Rollercoaster fans are in for a treat at award-winning Phantasialand, near Cologne. One of the park’s flagship attractions is Taron, the longest multi-launch rollercoaster in the world, twisting and turning dramatically through the mystery world of Klugheim. Try not to scream on Railk as it swings, back and forth, at incredible speeds! In the Mexico themed world get an extreme ",
+      "category": "outdoor"
+    },
+    {
+      "id": "lakenheath-hip-hop-r-b-night-2026-10-09",
+      "title": "Hip-Hop/R&B Night",
+      "date": "2026-10-09T20:00:00",
+      "endDate": "2026-10-10T01:00:00",
+      "location": "Liberty Club Bar",
+      "address": "",
+      "description": "Join us for a Hip-Hop/R&B Night at the Liberty Club! 9pm – 1am | 18+ Live Dj, drinks, and wing night!",
+      "category": "entertainment"
+    },
+    {
       "id": "lakenheath-big-bucks-bingo-2026-10-16",
       "title": "Big Bucks Bingo",
       "date": "2026-10-16T17:00:00",
@@ -383,6 +353,16 @@
       "address": "Lakenheath, United Kingdom",
       "description": "📍 Eagles Landing Ballroom Doors open 5pm | Games begin 6pm $30 per two books | $10 per additional book $1,000 in CASH PRIZES!",
       "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-disney-paris-2026-10-23",
+      "title": "Disney Paris",
+      "date": "2026-10-23T08:00:00",
+      "endDate": "2026-10-23T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Adult £459 Child (2-11) £399 | Infant £120 Includes *Luxury Coach Travel *Return Ferry Crossing *Two Nights Bed and Breakfast *1 Day/2 Park Hopper Ticket for Disneyland Paris *Visit to the Sacre Coeur & Place Du Tertre Book now!",
+      "category": "outdoor"
     },
     {
       "id": "lakenheath-little-pumpkins-family-halloween-party-2026-10-28",
