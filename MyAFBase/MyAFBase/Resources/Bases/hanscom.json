@@ -7,7 +7,7 @@
   "wing": "66 ABG",
   "latitude": 42.47,
   "longitude": -71.289,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "hanscom-notif-real-id",
@@ -321,36 +321,6 @@
   ],
   "events": [
     {
-      "id": "hanscom-bingo-2026-09-15",
-      "title": "Bingo",
-      "date": "2026-09-15T18:00:00",
-      "endDate": "2026-09-15T20:00:00",
-      "location": "Hanscom AFB",
-      "address": "Hanscom AFB, MA",
-      "description": "Bingo night listed on 66 FSS calendar.",
-      "category": "entertainment"
-    },
-    {
-      "id": "hanscom-darts-tournament-2026-09-16",
-      "title": "Darts Tournament",
-      "date": "2026-09-16T17:30:00",
-      "endDate": "2026-09-16T19:30:00",
-      "location": "Hanscom AFB, Bedford, MA",
-      "address": "Hanscom AFB, Bedford, MA",
-      "description": "Darts Tournament — public FSS/MWR calendar listing.",
-      "category": "recreation"
-    },
-    {
-      "id": "hanscom-oktoberfest-2026",
-      "title": "Oktoberfest",
-      "date": "2026-09-18T15:00:00",
-      "endDate": "2026-09-18T19:00:00",
-      "location": "Hanscom Fitness and Sports Center (Tennis Bubble)",
-      "address": "180 Marrett St, Hanscom AFB, MA 01731",
-      "description": "Free community Oktoberfest with food, live music, crafts, and games for those with base access. Source: 66 FSS.",
-      "category": "community"
-    },
-    {
       "id": "hanscom-back-to-school-5k-fun-run-walk-2026-09-2",
       "title": "Back to School 5K Fun Run/Walk",
       "date": "2026-09-21T08:00:00",
@@ -361,6 +331,26 @@
       "category": "fitness"
     },
     {
+      "id": "hanscom-commander-s-cup-2026-09-21",
+      "title": "Commander’s Cup",
+      "date": "2026-09-21T08:00:00",
+      "endDate": "2026-09-21T17:00:00",
+      "location": "Hanscom Fitness and Sports Center",
+      "address": "180 Marrett St, Hanscom AFB, MA, 01731",
+      "description": "🏆 2026 COMMANDERS CUP 🏆 It’s time to get moving! The Hanscom Fitness & Sports Center invites Team Hanscom to compete in the 2026 Commanders Cup ! 💪🏆 Join us for a full week of friendly competition featuring running, pickleball, climbing, swimming, golf, volleyball, cornhole and more. Gather your team, represent your unit and compete for Commanders Cup bragging rights! 📅 EVENT SCHEDULE MONDAY, SEPT. 21 🏃 5K Run 🏓 Pickleball Tournament 📣 Opening Remarks TUESDAY, SEPT. 22 🧗 Rock Wall Climbing 🏊 300M Swim — Solo & Team of 3 🎯 Cornhole Tournament WEDNESDAY, SEPT. 23 ⛳ Patriot Golf Tournament — 8–11",
+      "category": "fitness"
+    },
+    {
+      "id": "hanscom-rock-climbing-training-2026-09-23",
+      "title": "Rock Climbing Training",
+      "date": "2026-09-23T15:00:00",
+      "endDate": "2026-09-23T18:00:00",
+      "location": "Hanscom AFB",
+      "address": "Bedford, MA",
+      "description": "Rock Climbing is available from Monday through Friday 6 AM to 6 PM",
+      "category": "education"
+    },
+    {
       "id": "hanscom-karaoke-night-2026-09-25",
       "title": "Karaoke Night",
       "date": "2026-09-25T19:00:00",
@@ -369,6 +359,46 @@
       "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
       "description": "Karaoke Night at The Tavern Get ready to grab the mic and sing your heart out! Join us at The Tavern on Friday, September 25 for a fun-filled night of music, friends, and karaoke. Whether you’re ready to take center stage or prefer to cheer on the singers, everyone is welcome to join the fun. Pick your favorite song, bring your friends, and get ready for a night of great memories and good times! 📅",
       "category": "entertainment"
+    },
+    {
+      "id": "hanscom-teen-night-at-youth-center-2026-09-25",
+      "title": "Teen Night at Youth Center",
+      "date": "2026-09-25T19:00:00",
+      "endDate": "2026-09-25T22:30:00",
+      "location": "Hanscom Youth Center",
+      "address": "98 Marrett St, Bldg. 1993, Hanscom AFB, MA, 01731",
+      "description": "Youth Center Teen Night Looking for a place to hang out, meet new people, and have some fun? Join the Hanscom Youth Center for Teen Night! 🎉 Designed for teens ages 13–18 , Teen Night is all about getting together, getting active, and having a great time. Take part in a volleyball tournament, team-building challenges, games, activities, and more while connecting with friends and meeting other teens in the Hanscom community. Whether you’re a regular at the Youth Center or checking it out for the first time, come ready to play, compete, connect, and make the most of your Friday night! 📅 Friday, ",
+      "category": "fitness"
+    },
+    {
+      "id": "hanscom-first-friday-flannel-fest-2026-10-02",
+      "title": "First Friday Flannel Fest",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "🪵 FLANNEL FEST AT THE TAVERN Break out your favorite flannel and join us for First Friday: Flannel Fest at The Tavern! 🧡🍂 Come kick off the weekend with food, prizes, friends and fun . Wear your best flannel and enjoy an evening of good vibes and karaoke! 📅 Friday, October 2 ⏰ Doors open at 3 PM 🍴 Food & prizes at 5 PM 🎤 Karaoke at 7 PM Members: FREE Non-members: $5 for food and prize eligibility Grab your flannel, bring your friends and come celebrate First Friday at The Tavern! 🤠🪵🎶",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-rock-climbing-training-2026-10-07",
+      "title": "Rock Climbing Training",
+      "date": "2026-10-07T15:00:00",
+      "endDate": "2026-10-07T18:00:00",
+      "location": "Hanscom AFB",
+      "address": "Bedford, MA",
+      "description": "Rock Climbing is available from Monday through Friday 6 AM to 6 PM",
+      "category": "education"
+    },
+    {
+      "id": "hanscom-fall-5k-fun-run-walk-2026-10-14",
+      "title": "Fall 5K Fun Run/Walk",
+      "date": "2026-10-14T08:00:00",
+      "endDate": "2026-10-14T09:00:00",
+      "location": "Hanscom AFB",
+      "address": "Bedford, MA",
+      "description": "🍂 FALL 5K FUN RUN/WALK Lace up your sneakers and enjoy the beautiful fall weather at the Fall 5K Fun Run/Walk ! 🍁👟 Whether you’re looking to run, walk, or simply get outside and have some fun, this event is a great way to stay active and enjoy the season with friends, family and the Hanscom community. 📅 Date: Wed, Oct 14th ⏰ Time: 8am 📍 Location: Fitness & Sports Center Come ready to move, have fun and celebrate fall! 🍂 Run it. Walk it. Enjoy it! 👟🍁",
+      "category": "fitness"
     },
     {
       "id": "hanscom-board-game-night-2026-10-14",
@@ -391,6 +421,16 @@
       "category": "recreation"
     },
     {
+      "id": "hanscom-hearts-apart-crafts-cookies-n-cupcakes-2026-10-28",
+      "title": "Hearts Apart: Crafts, Cookies n’ Cupcakes",
+      "date": "2026-10-28T14:30:00",
+      "endDate": "2026-10-28T16:30:00",
+      "location": "Military & Family Readiness Center",
+      "address": "40 Kirtland St, Hanscom AFB, MA, 01731",
+      "description": "🎃 CRAFTS, COOKIES N’ CUPCAKES Join the Military & Family Readiness Center for Hearts Apart: Crafts, Cookies N’ Cupcakes! 🎃🍪🧁 This Halloween-themed Hearts Apart event is a fun afternoon for families to connect, get creative and enjoy some sweet treats together. Create festive crafts, decorate cookies and enjoy little treats along the way! 📅 Wednesday, October 28 ⏰ 2:30–4:30 PM 📍 Building 1240 – Large Classroom Come ready for crafts, cookies, cupcakes and family fun! 🎃👻🍪🧁",
+      "category": "holiday"
+    },
+    {
       "id": "hanscom-board-game-night-2026-11-11",
       "title": "Board Game Night",
       "date": "2026-11-11T17:30:00",
@@ -409,6 +449,56 @@
       "address": "Bedford, MA",
       "description": "Darts Tournament",
       "category": "recreation"
+    },
+    {
+      "id": "hanscom-board-game-night-2026-12-09",
+      "title": "Board Game Night",
+      "date": "2026-12-09T17:30:00",
+      "endDate": "2026-12-09T19:30:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "🎲 Board Game Night at the Tavern 🎲 Join us every 2nd Wednesday of the month at 5:30 PM for a fun and relaxed Board Game Night at the Tavern! This free event (ages 18+) is perfect for anyone looking to learn something new or just enjoy a night out. Each month features a new game, with an instructor on hand to teach the rules and guide play—no experience needed! Come solo or bring friends and get ready for a great night of games, laughs, and good company.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-darts-tournament-2026-12-16",
+      "title": "Darts Tournament",
+      "date": "2026-12-16T17:30:00",
+      "endDate": "2026-12-16T19:30:00",
+      "location": "Hanscom AFB",
+      "address": "Bedford, MA",
+      "description": "",
+      "category": "fitness"
+    },
+    {
+      "id": "hanscom-board-game-night-2027-01-13",
+      "title": "Board Game Night",
+      "date": "2027-01-13T17:30:00",
+      "endDate": "2027-01-13T19:30:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "🎲 Board Game Night at the Tavern 🎲 Join us every 2nd Wednesday of the month at 5:30 PM for a fun and relaxed Board Game Night at the Tavern! This free event (ages 18+) is perfect for anyone looking to learn something new or just enjoy a night out. Each month features a new game, with an instructor on hand to teach the rules and guide play—no experience needed! Come solo or bring friends and get ready for a great night of games, laughs, and good company.",
+      "category": "entertainment"
+    },
+    {
+      "id": "hanscom-darts-tournament-2027-01-20",
+      "title": "Darts Tournament",
+      "date": "2027-01-20T17:30:00",
+      "endDate": "2027-01-20T19:30:00",
+      "location": "Hanscom AFB",
+      "address": "Bedford, MA",
+      "description": "",
+      "category": "fitness"
+    },
+    {
+      "id": "hanscom-board-game-night-2027-02-10",
+      "title": "Board Game Night",
+      "date": "2027-02-10T17:30:00",
+      "endDate": "2027-02-10T19:30:00",
+      "location": "The Tavern",
+      "address": "1419 Kirtland St, Bldg 1425, Hanscom AFB, MA, 01731",
+      "description": "🎲 Board Game Night at the Tavern 🎲 Join us every 2nd Wednesday of the month at 5:30 PM for a fun and relaxed Board Game Night at the Tavern! This free event (ages 18+) is perfect for anyone looking to learn something new or just enjoy a night out. Each month features a new game, with an instructor on hand to teach the rules and guide play—no experience needed! Come solo or bring friends and get ready for a great night of games, laughs, and good company.",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

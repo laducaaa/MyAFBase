@@ -7,7 +7,7 @@
   "wing": "99 ABW / USAFWC / 57 WG",
   "latitude": 36.2361,
   "longitude": -115.0343,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "nellis-notif-1",
@@ -304,44 +304,14 @@
   ],
   "events": [
     {
-      "id": "nellis-cpr-classes-in-person-2026-09-14",
-      "title": "CPR CLASSES_IN-PERSON",
-      "date": "2026-09-14T10:00:00",
-      "endDate": "2026-09-14T14:30:00",
-      "location": "Community Commons",
-      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
-      "description": "CPR CLASSES_IN-PERSON Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: SEP 14 TIME: 10:00PM – 2:30PM DESCRIPTION: This class is taught in a traditional in-person instructor-led session. Upon successful completion of this in-person instructor-led training, you will be issued a valid 2-year digital certificate for Adult & Pediatric, First Aid/CPR/AED training. COST: $90 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
-      "category": "education"
-    },
-    {
-      "id": "nellis-af-birthday-5k",
-      "title": "Air Force Birthday 5K Run",
-      "date": "2026-09-18T07:00:00",
-      "endDate": "2026-09-18T10:00:00",
-      "location": "Nellis AFB",
-      "address": "Nellis AFB, NV",
-      "description": "5K with prizes for first male and female runners.",
-      "category": "fitness"
-    },
-    {
-      "id": "nellis-oktoberfest-2026-09-18",
-      "title": "Oktoberfest",
-      "date": "2026-09-18T16:00:00",
-      "endDate": "2026-09-18T19:00:00",
-      "location": "The Club",
-      "address": "5871 Fitzgerald, Bldg. 554, Nellis AFB, NV, 89191",
-      "description": "Friday, September 18 4pm – 7pm at The Club Food & Drinks for purchase. $15 / meal platter Contests: Best Dressed, Stein Holding, & Pretzel Eating Free to Attend! Volunteer Sign Up, Click here!",
-      "category": "holiday"
-    },
-    {
-      "id": "nellis-colorado-kayak",
-      "title": "Colorado River Kayak Tour",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Colorado River",
-      "address": "Near Las Vegas, NV",
-      "description": "$70; ages 14+; beginner-friendly kayak tour.",
-      "category": "recreation"
+      "id": "nellis-year-round-recreation-swim-2026-09-21",
+      "title": "Year-Round Recreation Swim",
+      "date": "2026-09-21T10:00:00",
+      "endDate": "2026-09-21T23:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "MON | WED | FRI 1000 – 1100 / 1600-1700 CALL 702.652.4712 FOR MORE INFORMATION.",
+      "category": "community"
     },
     {
       "id": "nellis-glass-workshop",
@@ -404,6 +374,16 @@
       "category": "education"
     },
     {
+      "id": "nellis-year-round-recreation-swim-2026-10-02",
+      "title": "Year-Round Recreation Swim",
+      "date": "2026-10-02T10:00:00",
+      "endDate": "2026-10-02T23:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "MON | WED | FRI 1000 – 1100 / 1600-1700 CALL 702.652.4712 FOR MORE INFORMATION.",
+      "category": "community"
+    },
+    {
       "id": "nellis-cpr-classes-tourniquet-2026-10-02",
       "title": "CPR CLASSES_TOURNIQUET",
       "date": "2026-10-02T13:00:00",
@@ -452,6 +432,46 @@
       "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
       "description": "All equipment provided. Dives are scheduled in ONE-HOUR time slots.",
       "category": "outdoor"
+    },
+    {
+      "id": "nellis-concealed-carry-weapon-2026-10-04",
+      "title": "Concealed Carry Weapon",
+      "date": "2026-10-04T08:00:00",
+      "endDate": "2026-10-04T16:00:00",
+      "location": "Clark County Shooting Complex",
+      "address": "11357 N. DECATUR BLVD, LAS VEGAS, NV, 89131",
+      "description": "DOD CARD HOLDERS $70.00 REGISTRAION BEGINS 30 DAYS PRIOR TO THE EVENT NON-DOD CARD HOLDERS $100.00 REGISTRAION BEGINS 15 DAYS PRIOR TO THE EVENT Click Here to Sign Up Class wil be held at Clark County Shooting Complex Classroom E DOD cardholders must sign up in person at C2 * Please be on the look out for the enrollment package to complete and return.",
+      "category": "education"
+    },
+    {
+      "id": "nellis-cpr-classes-in-person-2026-10-05",
+      "title": "CPR CLASSES_IN-PERSON",
+      "date": "2026-10-05T16:00:00",
+      "endDate": "2026-10-05T20:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "CPR CLASSES_IN-PERSON Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Oct 5 TIME: 4pm – 8:30pm DESCRIPTION: This class is taught in a traditional in-person instructor-led session. Upon successful completion of this in-person instructor-led training, you will be issued a valid 2-year digital certificate for Adult & Pediatric, First Aid/CPR/AED training. COST: $90 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
+      "category": "education"
+    },
+    {
+      "id": "nellis-club-championship-golf-tournament-2026-10-10",
+      "title": "Club Championship Golf Tournament",
+      "date": "2026-10-10T08:00:00",
+      "endDate": "2026-10-10T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "Club Championship Golf Tournament Saturday & Sunday • OCTOBER 10-11 • 2026 • 8 AM SHOTGUN START EACH DAY *$140 Per Player CHAMPIONSHIP FLIGHT Blue Tees • GROSS • No Handicap OPEN FLIGHT White Tees • NET FORWARD FLIGHT Gold Tees • Age 65-Up or 18 handicap & above • NET LADIES FLIGHT Red Tees • NET PRIZES FOR TOP FINISHERS IN EACH DIVISION *ENTRY INCLUDES: 36 Holes of Golf • Cart Rental • Range Balls • Lunch Served After Play Both Days CALL 702-652-4497 OR STOP BY TO SIGN-UP Sunrise Vista Golf Course is located at Nellis AFB • 2841 Kinley Drive, Bldg 1626",
+      "category": "fitness"
+    },
+    {
+      "id": "nellis-haunted-neon-nights-volunteer-2026-10-15",
+      "title": "Haunted Neon Nights Volunteer",
+      "date": "2026-10-15T10:00:00",
+      "endDate": "2026-10-15T16:00:00",
+      "location": "Base Theatre Parking Lot",
+      "address": "4330 Stealth Ave, Las Vegas, NV, 89191",
+      "description": "Need volunteers for Set-up Day 1 Thursday, October 15 10am – 4pm Sign up here to Volunteer",
+      "category": "community"
     },
     {
       "id": "nellis-haunted-neon-nights-2026-10-16",
@@ -512,6 +532,26 @@
       "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
       "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Fri, Nov 6 TIME: 10:00am – 2:00pm DESCRIPTION: Prepare youth ages 11 and up to safely and confidently care for children and infants. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND https://99fss.com/m/CPR",
       "category": "family"
+    },
+    {
+      "id": "nellis-achieving-financial-security-2026-11-13",
+      "title": "Achieving Financial Security",
+      "date": "2026-11-13T14:00:00",
+      "endDate": "2026-11-13T16:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Covering all things: getting out of debt, saving and investing, and explain that the best way to know how much money you have to put toward your debt, save or invest, and help create a budget for our ‘students’ to stick to! It’s free to attend and there will be light refreshments such as water and chips to snack on! It’s a 1-hour talk followed by a 1-hour workshop. They’ll build their own budgets and if they have any questions, they can ask or follow up privately with the Financial Counselor at the MFRC.",
+      "category": "education"
+    },
+    {
+      "id": "nellis-concealed-carry-weapon-2026-11-15",
+      "title": "Concealed Carry Weapon",
+      "date": "2026-11-15T08:00:00",
+      "endDate": "2026-11-15T16:00:00",
+      "location": "Clark County Shooting Complex",
+      "address": "11357 N. DECATUR BLVD, LAS VEGAS, NV, 89131",
+      "description": "DOD CARD HOLDERS $70.00 REGISTRAION BEGINS 30 DAYS PRIOR TO THE EVENT NON-DOD CARD HOLDERS $100.00 REGISTRATION BEGINS 15 DAYS PRIOR TO THE EVENT Click Here to Sign Up Class wil be held at Clark County Shooting Complex Classroom E DOD cardholders must sign up in person at C2 * Please be on the look out for the enrollment package to complete and return.",
+      "category": "education"
     }
   ],
   "newcomers": {

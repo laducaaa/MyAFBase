@@ -7,7 +7,7 @@
   "wing": "423 ABG",
   "latitude": 52.3794,
   "longitude": -0.405,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "molesworth-notif-real-id",
@@ -184,36 +184,6 @@
   ],
   "events": [
     {
-      "id": "molesworth-t-shirt-quilt-class-2026-09-14",
-      "title": "T-shirt Quilt Class",
-      "date": "2026-09-14T00:00:00",
-      "endDate": "2026-09-14T23:59:59",
-      "location": "Arts and Crafts",
-      "address": "Alconbury",
-      "description": "Turn Memories Into Masterpieces: T-shirt Quilt Class Don't let your favorite concert, sports, or travel memories gather dust in the back of your closet! Bring those beloved t-shirts to life and transform them into a cozy, custom keepsake in this step-by-step workshop hosted by Arts & Crafts. Whether you want to preserve military milestones, school memories, or a collection of your favorite graphic tees, we will guide",
-      "category": "education"
-    },
-    {
-      "id": "molesworth-fall-into-fun-2026-09-18",
-      "title": "Fall Into Fun!",
-      "date": "2026-09-18T15:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "Teen Center",
-      "address": "Huntingdon, United Kingdom",
-      "description": "Teens, kick off the autumn season with Youth Programs! Hang out with friends for an evening packed with movies, music, party games, and great food. 📅 Date: Friday, 18 September 📍 Location: Youth Programs (RAF Alconbury) ⏰ Time: 1500 - 2100 What to Expect: Party Games: Fall Bingo, Charades & Minute to Win It 🎲 Movies, Music & Friends 🎬🎶 Food, Drinks & Snacks 🍕🥤 Details & Pricing: CYP Members: FREE Non-Members: $10 Reg",
-      "category": "family"
-    },
-    {
-      "id": "molesworth-portmeirion-a-taste-of-italy-in-wales-2026-09-19",
-      "title": "Portmeirion: A Taste of Italy in Wales",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "RAF Molesworth",
-      "address": "Huntingdon, United Kingdom",
-      "description": "Join us for a memorable day trip to the picturesque village of Portmeirion, one of Wales' most unique and enchanting destinations. Known for its colourful Italian-inspired architecture, lush gardens, and stunning coastal views, Portmeirion offers the perfect escape from the everyday. Your journey begins with comfortable, hassle-free transportation, allowing you to sit back, relax, and enjoy the scenic route. Upon arr",
-      "category": "outdoor"
-    },
-    {
       "id": "molesworth-craft-coffee-2026-09-21",
       "title": "Craft & Coffee",
       "date": "2026-09-21T10:00:00",
@@ -262,6 +232,16 @@
       "address": "Huntingdon, United Kingdom",
       "description": "Dust off your dirndls and lederhosen! Join us for a festive evening of authentic eats, cold brews, and classic Oktoberfest vibes. 📅 Date: Thursday, 8 October 📍 Location: The Stukeley Inn (RAF Alconbury) ⏰ Time: 1600 - 2100 (Food served until 1945) What to Expect: Bratwurst 🌭 Draft Bitburger 🍺 Themed Cocktails 🍹 Oktoberfest Playlist 🎺 Costumes optional (but highly encouraged! 📞 Questions? Contact us at DSN: 268-3502 o",
       "category": "holiday"
+    },
+    {
+      "id": "molesworth-cologne-3-day-tour-with-phantasialand-option-2026-10",
+      "title": "Cologne 3-Day Tour with Phantasialand Option",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-11T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Nestled on the western fringes of the country, Cologne is one of the best cities in Germany to explore. Famed for its cathedral, Kölsch beer and love of carnival, this sociable city by the Rhine makes for a vibrant city break. The beautiful Gothic cathedral, which towers above the Old Town was artfully reconstructed after its devastation in World War II. Today, it’s a place of quaint cobbles and historic breweries, along with some outstanding art museums. Adult £379 | Child (2-11) £299 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & b",
+      "category": "family"
     },
     {
       "id": "molesworth-trivia-night-2026-10-15",
@@ -392,6 +372,76 @@
       "address": "",
       "description": "The cobbled streets and pretty squares of Belgium’s Capital spring to life with the festive fun at the Brussels Winter Wonders event. With over 250 snow-dusted chalets, buzzing bars and pop-up restaurants Brussels Christmas Market is perfect for those last-minute stockingfillers! Get a bird’s eye view from the Ferris Wheel or take a spin on the merry-go-round as the sweet, spicy scent of waffles and Glühwein drifts through the chilly air. You’ll find a multitude of diverse activities at this unmissable event. £125 per person Includes: Luxury coach travel, return ferry crossing, free time in B",
       "category": "holiday"
+    },
+    {
+      "id": "molesworth-dodgeball-tournament-2026-12-10",
+      "title": "Dodgeball Tournament",
+      "date": "2026-12-10T16:00:00",
+      "endDate": "2026-12-10T18:00:00",
+      "location": "Fitness Center",
+      "address": "Alconbury",
+      "description": "Dodgeball Tournament Gather your team and get ready to duck, dip, dive, and dodge! Join us for an exciting Dodgeball Tournament at the RAFA Fitness Center. Date: 10 December Start Time: 1600 Location: RAFA Fitness Center (Basketball Court) Team Info: Teams of 6-10 (*Adults only) Registration Deadline: Sign up your team by 7 December For more information or to register, scan the QR code on the flyer or contact Fitness & Sports: DSN: 268-3531 | COMM: 01480 843531 Let me know if you would like any further changes!",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-aachen-christmas-market-2026-12-12",
+      "title": "Aachen Christmas Market",
+      "date": "2026-12-12T00:00:00",
+      "endDate": "2026-12-12T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Aachen Christmas Market transforms the historic old town around the Cathedral and Town Hall into a festive village. Be enchanted by the magic of the stalls and glittering lights, enjoy iconic Aachener Printen (gingerbread), Glühwein, and the cosy atmosphere, making Aachen one of Germany’s most beautiful and traditional markets. £159 per person Includes: Luxury coach travel, return ferry crossing, free time in Aachen",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-brugge-christmas-market-2026-12-19",
+      "title": "Brugge Christmas Market",
+      "date": "2026-12-19T00:00:00",
+      "endDate": "2026-12-19T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "This well-preserved medieval city, with its beautiful setting, is host to one of Belgium’s most famous Christmas Markets, offering an abundance of winter treats, warm Glühwein and tasty snacks. Brugge’s two Christmas Markets in the city centre are guaranteed to be beautifully decorated with their warm finish and atmospheric lighting in the typical Winter Glow style. These blissful winter hamlets with their cosy ambiance, packed with knick-knacks are sure to get you into the Christmas spirit. £119 per person Includes: Luxury coach travel, return ferry crossing, free time in Brugge",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-christmastime-in-paris-with-disney-option-2026-12-26",
+      "title": "Christmastime in Paris with Disney Option",
+      "date": "2026-12-26T00:00:00",
+      "endDate": "2026-12-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Christmas is a magical time to visit the City of Lights! Shops glow with colourful Christmas displays entertaining children and adults alike. With 150,000 lights adorning the Champs Elysées and pâtisserie shelves full of festive delights. Adult: £339 | Child (2-11): £289 | Infant: £120 | Single Supplement: £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. ADD DISNEYLAND The magic of Christmas ",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-new-year-at-edinburgh-s-hogmanay-3-day-tour-2026-12-3",
+      "title": "New Year at Edinburgh’s Hogmanay 3-Day Tour",
+      "date": "2026-12-30T00:00:00",
+      "endDate": "2027-01-01T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Edinburgh’s Hogmanay is recognized globally as one of the world’s biggest New Year celebrations. Thousands of people descend upon the streets for a massive party with a great mix of stages, giant screens and the famous fireworks with Edinburgh Castle as the ultimate backdrop (weather permitting). Our 3-day tour allows time to enjoy the Winter Festival. The historical capital is transformed with a spectacular program of festive events and attractions including Traditional Christmas Markets, Ice Skating, fairground rides, community events and more, Edinburgh’s Christmas and Hogmanay is the best ",
+      "category": "holiday"
+    },
+    {
+      "id": "molesworth-paris-3-day-tour-with-disney-option-2027-01-16",
+      "title": "Paris 3-Day Tour with Disney Option",
+      "date": "2027-01-16T00:00:00",
+      "endDate": "2027-01-18T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Visit Europe’s beautiful City of Love and Lights! Stroll along the banks of the River Seine, take in the spectacular famous monuments, indulge in world class shopping and enjoy some exquisite French cuisine. Adult £339 | Child (2-11) £289 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. EARLY BIRD DISCOUNT AVAILABLE : Book at least 6 weeks prior to departure ",
+      "category": "outdoor"
+    },
+    {
+      "id": "molesworth-paris-3-day-tour-with-disney-option-2027-02-13",
+      "title": "Paris 3-Day Tour with Disney Option",
+      "date": "2027-02-13T00:00:00",
+      "endDate": "2027-02-15T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Visit Europe’s beautiful City of Love and Lights! Stroll along the banks of the River Seine, take in the spectacular famous monuments, indulge in world class shopping and enjoy some exquisite French cuisine. Adult £339 | Child (2-11) £289 | Infant £120 | Single Supplement £120 Includes: Luxury coach travel, return ferry crossing, 2 nights bed & breakfast, transport into Paris on Day 2, visit to the Sacré Coeur and Place du Tertre. Optional: Tour of Paris by coach & boat. Evening meal at a traditional Parisien restaurant. EARLY BIRD DISCOUNT AVAILABLE : Book at least 6 weeks prior to departure ",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

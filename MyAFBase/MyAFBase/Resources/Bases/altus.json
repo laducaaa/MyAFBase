@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -266,74 +266,34 @@
   ],
   "events": [
     {
-      "id": "altus-fall-bowling-league-2026-09-14",
-      "title": "Fall Bowling League",
-      "date": "2026-09-14T17:30:00",
-      "endDate": "2026-09-14T20:30:00",
-      "location": "Altus AFB Galaxy Lanes",
-      "address": "Altus, OK",
-      "description": "Join Galaxy Lanes for our Fall Bowling League. From 14 September – 23 November, teams of four will compete in a fun 10-week league every Monday from 1730–2030. The cost",
-      "category": "recreation"
-    },
-    {
-      "id": "altus-crochet-club-2026-09-15",
-      "title": "Crochet Club",
-      "date": "2026-09-15T16:30:00",
-      "endDate": "2026-09-15T18:30:00",
+      "id": "altus-story-time-2026-09-22",
+      "title": "Story Time",
+      "date": "2026-09-22T10:30:00",
+      "endDate": "2026-09-22T11:00:00",
       "location": "Altus AFB Library",
       "address": "Altus, OK",
-      "description": "Join us for a delightful evening of crocheting! Bring your creativity and learn something new! We will have some materials on hand, but if possible, please bring your own. Recommended",
-      "category": "recreation"
+      "description": "Join us for Library Story Time and enjoy a fun-filled morning of stories, songs, rhymes, and a creative craft! It’s the perfect opportunity for babies, toddlers, and young children to learn, laugh, and explore alongside their caregivers. Suggested for ages 0–6. For more information, please call 580-481-6302.",
+      "category": "family"
     },
     {
-      "id": "altus-murder-mystery-game-night-2026-09-15",
+      "id": "altus-murder-mystery-game-night-2026-09-22",
       "title": "Murder Mystery Game Night",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T19:00:00",
+      "date": "2026-09-22T17:00:00",
+      "endDate": "2026-09-22T19:00:00",
       "location": "Altus AFB Library",
       "address": "Altus, OK",
-      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
       "category": "entertainment"
     },
     {
-      "id": "altus-family-game-day-2026-09-18",
-      "title": "Family Game Day",
-      "date": "2026-09-18T10:30:00",
-      "endDate": "2026-09-18T12:00:00",
-      "location": "Altus AFB Library",
+      "id": "altus-texas-hold-em-2026-09-24",
+      "title": "Texas Hold ‘Em",
+      "date": "2026-09-24T18:00:00",
+      "endDate": "2026-09-24T21:00:00",
+      "location": "Altus AFB Dark Horse Sports Bar",
       "address": "Altus, OK",
-      "description": "Bring the whole family to the Library for an afternoon of fun, creativity, and friendly competition! Enjoy a variety of creative activities, board games, and card games with something for",
-      "category": "family"
-    },
-    {
-      "id": "altus-pokemon-night-2026-09-18",
-      "title": "Pokemon Night",
-      "date": "2026-09-18T15:00:00",
-      "endDate": "2026-09-18T17:00:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Calling all Pokémon Trainers! Get ready for a fun-filled evening of Pokémon adventures at the Library! Trade Pokémon cards, battle in the Pokémon Trading Card Game, color your favorite Pokémon,",
-      "category": "family"
-    },
-    {
-      "id": "altus-got-talent",
-      "title": "AGT: Altus' Got Talent & Kid's Showcase",
-      "date": "2026-09-18T19:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "Club Altus",
-      "address": "Altus AFB, OK",
-      "description": "Talent showcase for all ages at Club Altus, 1900–2100.",
+      "description": "Get ready for an exciting Thursday night at the Dark Horse Sports Bar with Texas Hold ’Em from 1800 – 2100! Test your poker skills, enjoy great company, and compete for bragging rights in a fun and lively atmosphere. Club members play for free, and non-members can join the action for just $5. Don’t miss one of the best weekly hangouts on base! For more information, please call 481-7034.",
       "category": "entertainment"
-    },
-    {
-      "id": "altus-senior-club-champ",
-      "title": "Senior Club Championship",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-20T14:00:00",
-      "location": "Windy Trails Golf Course",
-      "address": "Altus AFB, OK",
-      "description": "Two-day senior golf championship with three divisions (ages 50+).",
-      "category": "recreation"
     },
     {
       "id": "altus-stem-activity-2026-09-25",
@@ -366,6 +326,26 @@
       "category": "recreation"
     },
     {
+      "id": "altus-fall-youth-bowling-league-2026-09-26",
+      "title": "Fall Youth Bowling League",
+      "date": "2026-09-26T11:30:00",
+      "endDate": "2026-09-26T14:30:00",
+      "location": "Altus AFB Galaxy Lanes",
+      "address": "Altus, OK",
+      "description": "Fall Youth Bowling League is rolling into Galaxy Lanes! Young bowlers can hit the lanes for five weeks of friendly competition and fun from 26 September – 24 October, 1130–1430. With three age divisions, there’s a spot for everyone ages 17 and younger! Cost is $7 for ages 10 & younger and $9 for ages 11–17, with shoes included. For more information, please call 580-481-7440.",
+      "category": "family"
+    },
+    {
+      "id": "altus-texas-hold-em-2026-10-01",
+      "title": "Texas Hold ‘Em",
+      "date": "2026-10-01T18:00:00",
+      "endDate": "2026-10-01T21:00:00",
+      "location": "Altus AFB Dark Horse Sports Bar",
+      "address": "Altus, OK",
+      "description": "Get ready for an exciting Thursday night at the Dark Horse Sports Bar with Texas Hold ’Em from 1800 – 2100! Test your poker skills, enjoy great company, and compete for bragging rights in a fun and lively atmosphere. Club members play for free, and non-members can join the action for just $5. Don’t miss one of the best weekly hangouts on base! For more information, please call 481-7034.",
+      "category": "entertainment"
+    },
+    {
       "id": "altus-pumpkin-pacer",
       "title": "Pumpkin Pacer 10K",
       "date": "2026-10-03T08:00:00",
@@ -386,6 +366,26 @@
       "category": "community"
     },
     {
+      "id": "altus-murder-mystery-game-night-2026-10-06",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-10-06T17:00:00",
+      "endDate": "2026-10-06T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-1-best-ball-of-2-2026-10-10",
+      "title": "1 Best Ball of 2",
+      "date": "2026-10-10T09:00:00",
+      "endDate": "2026-10-10T14:00:00",
+      "location": "Windy Trails Golf Course",
+      "address": "Altus, OK",
+      "description": "Grab a partner and hit the greens at Windy Trails Golf Course for the 1 Best Ball of 2 Tournament! Compete in two-person teams where every great shot counts as you battle it out for the best score on the course. Tee off begins at 0900, and entry is just $15 per golfer. Don’t miss a fun day of competition, teamwork, and great golf! For more information, please call 580-481-7207.",
+      "category": "fitness"
+    },
+    {
       "id": "altus-harry-potter-teen-trivia-2026-10-24",
       "title": "Harry Potter Teen Trivia",
       "date": "2026-10-24T10:30:00",
@@ -404,6 +404,16 @@
       "address": "Altus, OK",
       "description": "Halloween Bowling at Galaxy Lanes! Get ready for a spooktacular afternoon of bowling from 1200-1800 at Galaxy Lanes! Bowlers who come dressed in costume can enjoy $2 games per person and $1 shoe rental! Kids Costume Contest at 1500! Come dressed to impress and show off your best Halloween look! Bring the whole family for an afternoon of bowling, costumes, and Halloween fun! For more information, please call 580-481-6",
       "category": "holiday"
+    },
+    {
+      "id": "altus-murder-mystery-game-night-2026-11-03",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-11-03T17:00:00",
+      "endDate": "2026-11-03T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
+      "category": "entertainment"
     },
     {
       "id": "altus-turkey-shoot-two-man-scramble-2026-11-14",

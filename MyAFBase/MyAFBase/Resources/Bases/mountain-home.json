@@ -7,7 +7,7 @@
   "wing": "366 FW",
   "latitude": 43.0456,
   "longitude": -115.8724,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "mountain-home-notif-real-id",
@@ -244,36 +244,6 @@
   ],
   "events": [
     {
-      "id": "mountain-home-holiday-budget-2026-09-16",
-      "title": "Holiday Budget",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T18:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "575 Gunfighter Ave bldg 180, Mountain Home AFB, ID, 83648",
-      "description": "Sleigh your Holiday Budget at the M&FR, and stress less this Holiday! Learn great tips for surviving this holiday season financially. Call MFRC to register: 208.828.2458.",
-      "category": "holiday"
-    },
-    {
-      "id": "mountain-home-dfac-air-force-birthday-meal-2026-09-18",
-      "title": "DFAC - Air Force Birthday Meal",
-      "date": "2026-09-18T11:30:00",
-      "endDate": "2026-09-18T13:30:00",
-      "location": "DFAC",
-      "address": "680 Bldg 2805, Falcon St, Mountain Home AFB, ID 83648",
-      "description": "Join the DFAC for a special meal honoring the Air Force birthday.",
-      "category": "holiday"
-    },
-    {
-      "id": "mountain-home-intro-to-rock-climbing-and-rappelling-2026-09-19",
-      "title": "Intro to Rock Climbing and Rappelling",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Mountain Home AFB",
-      "address": "Mountain Home, ID",
-      "description": "Listed on mountainhomefss.com calendar.",
-      "category": "outdoor"
-    },
-    {
       "id": "mountain-home-job-fair-2026-09-24",
       "title": "Job Fair",
       "date": "2026-09-24",
@@ -332,6 +302,16 @@
       "address": "Desert St, Mountain Home AFB, ID 83648",
       "description": "Movie night featuring: Paw Patrol: The Movie (G) Doors open at 3 pm. Movie starts at 3:30 pm Top Gun (PG) Doors open at 6 pm. Movie starts at 6:30 pm Movies are FREE, concessions are available for purchase.",
       "category": "entertainment"
+    },
+    {
+      "id": "mountain-home-family-stem-night-2026-10-02",
+      "title": "Family STEM Night",
+      "date": "2026-10-02T15:30:00",
+      "endDate": "2026-10-02T17:30:00",
+      "location": "Stephensen Elementary School",
+      "address": "",
+      "description": "FREE Family STEM Night Presented by Youth Programs and Stephensen Elementary. Located at Stephensen Elementary. Includes multiple stations of robotics, engineering, mathematics, and creative visualization! For more information, please call 208.828.2501.",
+      "category": "family"
     },
     {
       "id": "mountain-home-mountain-bike-trips-2026-10-02",
@@ -394,6 +374,26 @@
       "category": "family"
     },
     {
+      "id": "mountain-home-boo-bash-2026-10-23",
+      "title": "Boo Bash",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "Youth Programs",
+      "address": "650 Phantom Ave, Bldg 2830, Mountain Home AFB, ID, 83648",
+      "description": "Boo Bash is back with the treats, tricks, and spooktakular time! Food Trucks, movies, popcorn, hay rides, games, and prizes! Trunk-or-Treat Trunks filled with spooks and treats! At the Youth Center parking lot! Sign up to decorate your car and be part of the trunk-or-treat extravaganza! –> https://www.signupgenius.com/go/10C0E44ACAC29A5FCC07-65059204-boobash Carnival Carnival Tickets available for pre-sale October 13 at the Youth Center .25 cents each ticket or $5, $10, or $20 ticket Packages. *cash only* Volunteers needed to run Carnival Games inside the Youth Center during the event. –> http",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-teen-costume-night-2026-10-29",
+      "title": "Teen Costume Night",
+      "date": "2026-10-29T19:00:00",
+      "endDate": "2026-10-29T21:00:00",
+      "location": "Teen Center",
+      "address": "Building 2371",
+      "description": "Join the Youth Center for a night of costumes, creativity, and Halloween fun as teens take over the Teen Center for an evening of spooky vibes, music, games, and prizes! FREE event for ages 13-18. For more information, please call 208-828-2501.",
+      "category": "holiday"
+    },
+    {
       "id": "mountain-home-spooky-friday-2026-10-30",
       "title": "Spooky Friday",
       "date": "2026-10-30",
@@ -424,6 +424,36 @@
       "category": "holiday"
     },
     {
+      "id": "mountain-home-bundles-for-babies-2026-11-09",
+      "title": "Bundles for Babies",
+      "date": "2026-11-09T17:00:00",
+      "endDate": "2026-11-09T19:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "575 Gunfighter Ave bldg 180, Mountain Home AFB, ID, 83648",
+      "description": "Financial planning and budgeting for that bundle you are expecting! *Registration is required, call M&FRC 208.828.2458. For parents expecting and newborn up to 2 months Dates: Feb 23 | 1-3pm May 14 | 5-7pm Aug 10 | 1-3pm Nov 9 | 5-7pm",
+      "category": "family"
+    },
+    {
+      "id": "mountain-home-veterans-day-meal-2026-11-11",
+      "title": "Veterans Day Meal",
+      "date": "2026-11-11T11:30:00",
+      "endDate": "2026-11-11T23:30:00",
+      "location": "DFAC",
+      "address": "680 Bldg 2805, Falcon St, Mountain Home AFB, ID, 83648",
+      "description": "A delicious meal by the Wagon Wheel Dining Facility to honor all who have served. For more information, please call 208.828.2313.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-dfac-fiesta-meal-2026-11-12",
+      "title": "DFAC – Fiesta Meal",
+      "date": "2026-11-12T11:00:00",
+      "endDate": "2026-11-12T13:00:00",
+      "location": "DFAC",
+      "address": "680 Bldg 2805, Falcon St, Mountain Home AFB, ID, 83648",
+      "description": "Join the DFAC for a delicious fiesta-based meal! For more information, please call 208.828.2313.",
+      "category": "community"
+    },
+    {
       "id": "mountain-home-turkey-touchdowns-thanksgiving-buffet-2026-11-12",
       "title": "Turkey & Touchdowns Thanksgiving Buffet",
       "date": "2026-11-12T17:00:00",
@@ -431,6 +461,26 @@
       "location": "Silver Sage Golf & Events",
       "address": "Mountain Home, ID",
       "description": "Watch the game with friends while enjoying a Thanksgiving Buffet! $13 per meal on the Meal Card. For more information, please call 208828.2105.",
+      "category": "holiday"
+    },
+    {
+      "id": "mountain-home-odr-intro-to-rock-climbing-2026-11-12",
+      "title": "ODR – Intro to Rock Climbing",
+      "date": "2026-11-12T18:00:00",
+      "endDate": "2026-11-12T21:00:00",
+      "location": "Fitness Center",
+      "address": "385 Aardvark Avenue, Bldg 2371, Mountain Home AFB, ID, 83648",
+      "description": "Learn the ropes with ODR, Intro to climbing and belaying. Ages 14+ (Under 18 must have an adult present) Only $25 per person. For more information, please call 208.828.6333.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mountain-home-last-call-for-holiday-parties-2026-11-13",
+      "title": "Last Call for Holiday Parties",
+      "date": "2026-11-13T08:00:00",
+      "endDate": "2026-11-13T17:00:00",
+      "location": "Silver Sage Golf & Events",
+      "address": "",
+      "description": "We will take care of all the food and beverages! Call or email to book today! 208.828.2105 | 366fss.fswc.EventCenter@us.af.mil",
       "category": "holiday"
     },
     {

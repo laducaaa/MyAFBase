@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -354,84 +354,14 @@
   ],
   "events": [
     {
-      "id": "davis-monthan-home-buying-workshop-2026-09-15",
-      "title": "Home Buying Workshop",
-      "date": "2026-09-15T13:00:00",
-      "endDate": "2026-09-15T15:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Home Buying Workshop",
-      "category": "education"
-    },
-    {
-      "id": "dm-pins-and-pals-2026-09-16",
+      "id": "davis-monthan-pins-and-pals-2026-09-23",
       "title": "Pins and Pals",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "location": "Thunder Alley / Bowling",
-      "address": "Davis-Monthan AFB, AZ",
-      "description": "Pins and Pals Wednesday series; 355 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-federal-resume-workshop-2026-09-16",
-      "title": "Federal Resume Workshop",
-      "date": "2026-09-16T13:00:00",
-      "endDate": "2026-09-16T15:00:00",
+      "date": "2026-09-23T15:00:00",
+      "endDate": "2026-09-23T18:00:00",
       "location": "Davis-Monthan AFB",
       "address": "Tucson, AZ",
-      "description": "Federal Resume Workshop",
-      "category": "education"
-    },
-    {
-      "id": "davis-monthan-ditching-the-dorms-2026-09-17",
-      "title": "Ditching the Dorms",
-      "date": "2026-09-17T14:00:00",
-      "endDate": "2026-09-17T16:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "M&FRC RM 148 Required class for all airmen moving out of the dorm. Will discuss information on expenses that may be incurred when living in this economy. This includes where to search for a home/apt, reviewing the lease, setting up utilities, and more.",
-      "category": "education"
-    },
-    {
-      "id": "davis-monthan-gaming-trivia-2026-09-17",
-      "title": "Gaming Trivia",
-      "date": "2026-09-17T17:30:00",
-      "endDate": "2026-09-17T19:30:00",
-      "location": "The Landing Community Center",
-      "address": "Tucson, AZ",
-      "description": "Gaming Trivia at The Landing Community Center.",
-      "category": "entertainment"
-    },
-    {
-      "id": "davis-monthan-free-movie-the-hunger-games-2026-09-18",
-      "title": "FREE Movie – The Hunger Games",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "The Landing Community Center",
-      "address": "Tucson, AZ",
-      "description": "FREE Movie – The Hunger Games at The Landing Community Center.",
-      "category": "entertainment"
-    },
-    {
-      "id": "davis-monthan-pom-pom-garland-2026-09-18",
-      "title": "Pom-Pom Garland",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "The Landing Community Center",
-      "address": "Tucson, AZ",
-      "description": "Pom-Pom Garland at The Landing Community Center.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-sabino-canyon-hike-2026-09-19",
-      "title": "Sabino Canyon Hike",
-      "date": "2026-09-19T18:30:00",
-      "endDate": "2026-09-19T21:30:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Sabino Canyon Hike at Davis-Monthan AFB.",
-      "category": "outdoor"
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
     },
     {
       "id": "davis-monthan-bundles-for-babies-2026-09-24",
@@ -461,6 +391,16 @@
       "location": "Davis-Monthan AFB",
       "address": "Tucson, AZ",
       "description": "For Fam Camp residents, register at the Fam Camp front desk.",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-friday-unwind-2026-09-25",
+      "title": "Friday Unwind",
+      "date": "2026-09-25T15:00:00",
+      "endDate": "2026-09-25T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
       "category": "community"
     },
     {
@@ -512,6 +452,66 @@
       "address": "Tucson, AZ",
       "description": "Racing Tournament",
       "category": "recreation"
+    },
+    {
+      "id": "davis-monthan-friday-unwind-2026-10-02",
+      "title": "Friday Unwind",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-pins-and-pals-2026-10-07",
+      "title": "Pins and Pals",
+      "date": "2026-10-07T15:00:00",
+      "endDate": "2026-10-07T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
+    },
+    {
+      "id": "davis-monthan-pins-and-pals-2026-11-04",
+      "title": "Pins and Pals",
+      "date": "2026-11-04T15:00:00",
+      "endDate": "2026-11-04T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
+    },
+    {
+      "id": "davis-monthan-friday-unwind-2026-11-06",
+      "title": "Friday Unwind",
+      "date": "2026-11-06T15:00:00",
+      "endDate": "2026-11-06T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-pins-and-pals-2026-12-02",
+      "title": "Pins and Pals",
+      "date": "2026-12-02T15:00:00",
+      "endDate": "2026-12-02T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
+    },
+    {
+      "id": "davis-monthan-friday-unwind-2026-12-04",
+      "title": "Friday Unwind",
+      "date": "2026-12-04T15:00:00",
+      "endDate": "2026-12-04T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "community"
     }
   ],
   "newcomers": {

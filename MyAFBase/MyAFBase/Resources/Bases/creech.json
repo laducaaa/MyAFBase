@@ -237,36 +237,6 @@
   ],
   "events": [
     {
-      "id": "creech-air-force-birthday-5k-run-2026-09-18",
-      "title": "Air Force Birthday 5K Run",
-      "date": "2026-09-18T07:00:00",
-      "endDate": "2026-09-18T10:00:00",
-      "location": "Creech AFB",
-      "address": "Indian Springs, NV",
-      "description": "Air Force Birthday 5K Run FRIDAY • SEPTEMBER 18 • 7:00 AM Prizes for the first male and female runners To Volunteer please visit: https://www.signupgenius.com/go/10C044BA8AE23A6FBC61-64837692-airforce#/ The run will take place by the Warrior Fitness Center located at 3705 Freedom Cir. bldg. 1705 Call 702-652-4891 for more information.",
-      "category": "holiday"
-    },
-    {
-      "id": "creech-oktoberfest-2026-09-18",
-      "title": "Oktoberfest",
-      "date": "2026-09-18T16:00:00",
-      "endDate": "2026-09-18T19:00:00",
-      "location": "The Club",
-      "address": "5871 Fitzgerald, Bldg. 554, Nellis AFB, NV 89191",
-      "description": "Friday, September 18 4pm - 7pm at The Club Food & Drinks for purchase. $15 / meal platter Contests: Best Dressed, Stein Holding, & Pretzel Eating Free to Attend! Volunteer Sign Up, Click here!",
-      "category": "holiday"
-    },
-    {
-      "id": "creech-colorado-river-kayak-tour-2026-09-19",
-      "title": "Colorado River Kayak Tour",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T14:00:00",
-      "location": "Creech AFB",
-      "address": "Indian Springs, NV",
-      "description": "Date: September 19 Program Title: Colorado River Kayak Tour Time: 0800-1400 Cost: $70 per person Age: 14+ Details: Escape to the stunning beauty of the Colorado River with our beginner-friendly kayaking tour! This easy and enjoyable trip is perfect for first-time kayakers and anyone looking to learn the basics of paddling in a breathtaking desert setting. One of our amazing instructors will guide you through the calm",
-      "category": "outdoor"
-    },
-    {
       "id": "creech-glass-is-in-session-2026-09-23",
       "title": "GLASS is in Session!",
       "date": "2026-09-23T16:00:00",
@@ -275,6 +245,16 @@
       "address": "Indian Springs, NV",
       "description": "GLASS is in session! Faux Stained Glass Art Workshop Wednesday, September 23, 2026 4pm - 7pm $20 RSVP by September 16, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Dr, # 610, Nellis Air Force Base, NV, 89191 Children must be accompanied by an adult. Limited seats available.",
       "category": "recreation"
+    },
+    {
+      "id": "creech-swimming-lessons-2026-09-24",
+      "title": "Swimming Lessons",
+      "date": "2026-09-24T16:00:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "Swimming Lessons for ages 3-13 years old 4:00pm – 7:00pm Each swim is 30 minutes long Billed monthly (4-5 classes) Must be scheduled in advance Call ODR for more information at 702.652.2514. Will be held at Warrior Fitness Pool.",
+      "category": "outdoor"
     },
     {
       "id": "creech-stand-up-paddleboarding-lake-mead-2026-09-26",
@@ -294,6 +274,16 @@
       "location": "Creech AFB",
       "address": "Indian Springs, NV",
       "description": "Date: September 26 Program Title: Horseback Riding & BBQ Dinner Time: 1500 - 2000 Cost: $120 Age: 6+ Details: We will be hitting the trails by horseback as we ride off into the sunset on a guided trip let by authentic cowboys and girls. After a few hours of trail exploration, the ride will end with a steak BBQ dinner (vegetarian options available), and then a relaxing campfire under the stars. Due to the nature of th",
+      "category": "outdoor"
+    },
+    {
+      "id": "creech-swimming-lessons-2026-10-01",
+      "title": "Swimming Lessons",
+      "date": "2026-10-01T16:00:00",
+      "endDate": "2026-10-01T19:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "Swimming Lessons for ages 3-13 years old 4:00pm – 7:00pm Each swim is 30 minutes long Billed monthly (4-5 classes) Must be scheduled in advance Call ODR for more information at 702.652.2514. Will be held at Warrior Fitness Pool.",
       "category": "outdoor"
     },
     {
@@ -357,6 +347,26 @@
       "category": "outdoor"
     },
     {
+      "id": "creech-club-championship-golf-tournament-2026-10-10",
+      "title": "Club Championship Golf Tournament",
+      "date": "2026-10-10T08:00:00",
+      "endDate": "2026-10-10T15:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Club Championship Golf Tournament Saturday & Sunday • OCTOBER 10-11 • 2026 • 8 AM SHOTGUN START EACH DAY *$140 Per Player CHAMPIONSHIP FLIGHT Blue Tees • GROSS • No Handicap OPEN FLIGHT White Tees • NET FORWARD FLIGHT Gold Tees • Age 65-Up or 18 handicap & above • NET LADIES FLIGHT Red Tees • NET PRIZES FOR TOP FINISHERS IN EACH DIVISION *ENTRY INCLUDES: 36 Holes of Golf • Cart Rental • Range Balls • Lunch Served After Play Both Days CALL 702-652-4497 OR STOP BY TO SIGN-UP Sunrise Vista Golf Course is located at Nellis AFB • 2841 Kinley Drive, Bldg 1626",
+      "category": "fitness"
+    },
+    {
+      "id": "creech-haunted-neon-nights-volunteer-2026-10-16",
+      "title": "Haunted Neon Nights Volunteer",
+      "date": "2026-10-16T08:00:00",
+      "endDate": "2026-10-16T23:30:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Need volunteers for Set-up Day 2 Friday, October 16 8am – 11:30pm Sign up here to Volunteer",
+      "category": "community"
+    },
+    {
       "id": "creech-haunted-neon-nights-2026-10-16",
       "title": "Haunted Neon Nights",
       "date": "2026-10-16T16:00:00",
@@ -385,6 +395,16 @@
       "address": "5850 Devlin Drive, Bldg. 610 Nellis AFB, NV 89191",
       "description": "SHRINK OR TREAT! Halloween Shrink Art Keychain Class Create your own BOO-tiful shrink-plastic charms! Design your own spooky shrink-plastic charms, watch them magically shrink, then turn them into one-of-a-kind Halloween keychains! Wednesday, October 21, 2026 4pm - 7pm $20/ person RSVP by October 14, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Drive Nellis Air Force Ba",
       "category": "holiday"
+    },
+    {
+      "id": "creech-death-valley-sightseeing-tour-2026-10-24",
+      "title": "Death Valley Sightseeing Tour",
+      "date": "2026-10-24T06:30:00",
+      "endDate": "2026-10-24T17:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Date: October 24 Program Title: Death Valley Sightseeing Tour Time: 0630-1700 Cost: $50 per person Age: 8+ Details: Trade the neon lights for vast landscapes! Death Valley National Park, a hidden gem just a couple of hours’ drive from Nellis, offers a dramatic contrast to city life. Explore the lowest point in the United States and discover a landscape of stark beauty and surprising resilience. We’ll drive through this unique desert environment, stopping at scenic overlooks to capture the unforgettable views. Transportation and park entrance are included – just bring your curiosity and prepare",
+      "category": "recreation"
     },
     {
       "id": "creech-afcea-expo",
@@ -470,5 +490,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-14T06:41:37Z"
+  "dataUpdatedAt": "2026-09-21T06:35:07Z"
 }

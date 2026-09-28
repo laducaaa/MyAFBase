@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -288,26 +288,6 @@
   ],
   "events": [
     {
-      "id": "langley-serving-heroes-2026-09-16",
-      "title": "September Serving Heroes Community Dinner",
-      "date": "2026-09-16",
-      "endDate": "2026-09-16",
-      "location": "Community Recreation Center",
-      "address": "671 Victory Blvd, Fort Eustis, VA",
-      "description": "Free community meal for military community; 733 FSS public site.",
-      "category": "community"
-    },
-    {
-      "id": "langley-bass-fishing-tournament-2026-09-19",
-      "title": "Bass Fishing Tournament",
-      "date": "2026-09-19T05:30:00",
-      "endDate": "2026-09-19T15:00:00",
-      "location": "Bethel Park",
-      "address": "123 Saunders Rd, Pavillion 4, Langley AFB, 23666",
-      "description": "Fishing Tournament hours: 6 am to 3 pm. Sign-in at 5:30 am | weigh-in at 3 pm. Tournaments are subject to change due to scheduling conflicts or weather. Must be 16 years of age or older to enter, must be 18 years of age or older to rent a boat.",
-      "category": "outdoor"
-    },
-    {
       "id": "langley-fall-2026-bike-rentals-2026-09-21",
       "title": "Fall 2026 Bike Rentals",
       "date": "2026-09-21T09:00:00",
@@ -316,6 +296,66 @@
       "address": "77 Holly Street, 23665",
       "description": "Eight-speed bikes and cruisers for only $50 per weekday or weekend (Sat-Sun) From September 21 to October 30.",
       "category": "outdoor"
+    },
+    {
+      "id": "langley-jiu-jitsu-self-defense-classes-2026-09-21",
+      "title": "Jiu Jitsu Self Defense Classes",
+      "date": "2026-09-21T17:00:00",
+      "endDate": "2026-09-21T18:00:00",
+      "location": "ACC Fitness Center",
+      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
+      "description": "Get ready to roll! Learn effective self-defense techniques, enhance physical fitness & mental resilience, develop discipline, focus & confidence, and connect with your community in a supportive environment! Instructor: Zachary Darroch – IBJJF Black Belt with The Academy/Honey Badger BJJ Las Vegas, NV (certification #79742) Free and open to all with base access!",
+      "category": "fitness"
+    },
+    {
+      "id": "langley-dog-days-at-eaglewood-2026-09-22",
+      "title": "Dog Days at Eaglewood",
+      "date": "2026-09-22T08:00:00",
+      "endDate": "2026-09-22T17:00:00",
+      "location": "Eaglewood Golf Course",
+      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
+      "description": "Banish sad puppy eyes today! Enjoy a round with your best friend when you bring your pooch along.",
+      "category": "community"
+    },
+    {
+      "id": "langley-baby-me-pre-postnatal-wellness-education-class-2026-09-2",
+      "title": "Baby & Me: Pre & Postnatal Wellness Education Class",
+      "date": "2026-09-23T07:30:00",
+      "endDate": "2026-09-23T08:00:00",
+      "location": "Shellbank Fitness Center",
+      "address": "36 Sweeney Blvd, 23665",
+      "description": "The last Wednesday of every month at Shellbank Education classroom! -Holistic nutrition for mom and baby by trimester -Maintaining a healthy exercise program before and after delivery -Emotional support and self-care strategies -Family advocacy and active duty guidelines",
+      "category": "family"
+    },
+    {
+      "id": "langley-storytime-2-time-slots-2026-09-23",
+      "title": "Storytime (2 time slots)",
+      "date": "2026-09-23T09:30:00",
+      "endDate": "2026-09-23T12:00:00",
+      "location": "Bateman Library",
+      "address": "42 Ash Ave, 23665",
+      "description": "Take a journey through the alphabet at storytime with stories, crafts, and activities. Storytime is at 9:30 and 11 am. Both times arethe same storytime, so choose the time that works best for your family!",
+      "category": "family"
+    },
+    {
+      "id": "langley-story-time-2026-09-23",
+      "title": "Story Time",
+      "date": "2026-09-23T10:30:00",
+      "endDate": "2026-09-23T12:30:00",
+      "location": "Bateman Library",
+      "address": "42 Ash Ave, 23665",
+      "description": "Join us Wednesdays at 10:30 AM and 11 AM for stories, songs, and activities with new friends at the Bateman Library. September theme is Alphabet, and both sessions are identical. Just pick the time that works best for you!",
+      "category": "family"
+    },
+    {
+      "id": "langley-new-lunch-bowl-langley-lanes-2026-09-23",
+      "title": "New Lunch & Bowl Langley Lanes",
+      "date": "2026-09-23T11:00:00",
+      "endDate": "2026-09-23T14:00:00",
+      "location": "Langley Lanes Bowling Center",
+      "address": "75 Nealy Ave, 23665",
+      "description": "Enjoy 2 games of bowling, a cheeseburger, tenders of wings, and a fountain drink. Shoes included! Cost: $18",
+      "category": "recreation"
     },
     {
       "id": "langley-suicide-prevention-awareness-5k-run-walk",
@@ -386,6 +426,26 @@
       "address": "",
       "description": "Fall ITT bus trip to National Mall; 733 FSS bus trips series.",
       "category": "community"
+    },
+    {
+      "id": "langley-september-movie-nights-2026-09-30",
+      "title": "September Movie Nights",
+      "date": "2026-09-30T17:30:00",
+      "endDate": "2026-09-30T19:30:00",
+      "location": "Langley Base Theater",
+      "address": "66 Nealy Ave, Langley AFB, 23665",
+      "description": "In The Grey (R), September 2 at 5:30 PM Michael (PG-13), September 16 at 5:30 PM Paw Patrol: The Movie (PG), September 30 at 5:30 PM. Free to all! Outside food and drinks must have a lid. Children must be supervised by an adult.",
+      "category": "family"
+    },
+    {
+      "id": "langley-firsty-thursday-2026-10-01",
+      "title": "Firsty Thursday",
+      "date": "2026-10-01T16:00:00",
+      "endDate": "2026-10-01T19:00:00",
+      "location": "Riverview Event Center",
+      "address": "128 Benedict Ave",
+      "description": "Enjoy food, games, drinks, live music & more! *The event will take place on the first Thursday of each month, excluding other 633rd events, holidays, and family days.",
+      "category": "family"
     },
     {
       "id": "langley-kite-day-at-the-park-2026-10-17",

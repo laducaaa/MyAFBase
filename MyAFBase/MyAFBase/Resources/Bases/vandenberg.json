@@ -7,7 +7,7 @@
   "wing": "SLD 30",
   "latitude": 34.742,
   "longitude": -120.5724,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "vandenberg-notif-real-id",
@@ -266,46 +266,6 @@
   ],
   "events": [
     {
-      "id": "vandenberg-story-time-at-the-library-2026-09-15",
-      "title": "Story Time at the Library",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T11:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Bring your little ones to Story Time at the Library, where enchanting tales, playful songs, and lots of giggles await! Every Tuesday and Friday at 1000.</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "vandenberg-arcade-tournaments-at-surf-lanes-2026-09-16",
-      "title": "Arcade Tournaments at Surf Lanes",
-      "date": "2026-09-16T00:00:00",
-      "endDate": "2026-09-16T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "Come by Surf Lanes during our normal hours of operations, register at the front desk for $6.00, and compete for the highest score! Each tournament throughout the summer will be competing for prizes! July- Basketball August- Skee Ball September- Air Hockey Tournament Rules: *No limit on how many times to register. ($6.00 per register/per entry) *Roll off for tie breakers. *Register at any time during the tournament period. *Players must play all three games from July to September to be eligible for the Champion prize. *A central leaderboard will track scores: totals from all three games will de",
-      "category": "outdoor"
-    },
-    {
-      "id": "vandenberg-thursday-night-football-2026-09-17",
-      "title": "Thursday Night Football",
-      "date": "2026-09-17T16:00:00",
-      "endDate": "2026-09-17T21:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That\\'s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks […]</p>\\n",
-      "category": "entertainment"
-    },
-    {
-      "id": "vandenberg-the-macaroni-cheese-festival-2026-09-19",
-      "title": "The Macaroni & Cheese Festival",
-      "date": "2026-09-19T12:30:00",
-      "endDate": "2026-09-19T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join ITT for a delicious day at the Macaroni & Cheese Festival in beautiful Avila Beach! Indulge in mouthwatering mac & cheese creations from top chefs, sip on local wines and craft beers, and enjoy live music and ocean views. Grab your friends and come hungry - this is one trip you won\\'t want to […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
       "id": "vandenberg-story-time-at-the-library-2026-09-22",
       "title": "Story Time at the Library",
       "date": "2026-09-22T10:00:00",
@@ -313,6 +273,26 @@
       "location": "",
       "address": "",
       "description": "<p>Bring your little ones to Story Time at the Library, where enchanting tales, playful songs, and lots of giggles await! Every Tuesday and Friday at 1000.</p>\\n",
+      "category": "family"
+    },
+    {
+      "id": "vandenberg-arcade-tournaments-at-surf-lanes-2026-09-23",
+      "title": "Arcade Tournaments at Surf Lanes",
+      "date": "2026-09-23T00:00:00",
+      "endDate": "2026-09-23T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Come by Surf Lanes during our normal hours of operations, register at the front desk for $6.00, and compete for the highest score! Each tournament throughout the summer will be competing for prizes! July- Basketball August- Skee Ball September- Air Hockey Tournament Rules: *No limit on how many times to register. ($6.00 per register/per entry) *Roll off for tie breakers. *Register at any time during the tournament period. *Players must play all three games from July to September to be eligible for the Champion prize. *A central leaderboard will track scores: totals from all three games will de",
+      "category": "outdoor"
+    },
+    {
+      "id": "vandenberg-steam-ozobot-city-2026-09-23",
+      "title": "STEAM – Ozobot City",
+      "date": "2026-09-23T13:30:00",
+      "endDate": "2026-09-23T14:15:00",
+      "location": "",
+      "address": "",
+      "description": "STEAM Ozobot CIty- This program is for elementary age children to participate in crafts and activities that reinforce concepts in Science Technology Engineering and Math.",
       "category": "family"
     },
     {
@@ -334,6 +314,16 @@
       "address": "",
       "description": "<p>Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That\\'s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks […]</p>\\n",
       "category": "entertainment"
+    },
+    {
+      "id": "vandenberg-caltap-seminar-2026-09-25",
+      "title": "CALTAP Seminar",
+      "date": "2026-09-25T08:00:00",
+      "endDate": "2026-09-25T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Are you preparing to separate from the military? If so, you may have questions about your earned benefits and other services available to you as a veteran in the state of California. Please join the California Transition Assistance Program (CalTAP), along with other service providers as we discuss the benefits available to you and your family within the state of California. This briefing is open to all service members, veterans, and their family members. Upcoming CalTAP Seminar dates are 25 September2026 from 0800-1200 – Call the M&FRC at 606-0039 to Sign-up!",
+      "category": "family"
     },
     {
       "id": "vandenberg-oktoberfest-2026-09-25",
@@ -376,6 +366,16 @@
       "category": "family"
     },
     {
+      "id": "vandenberg-steam-lego-movie-making-2026-09-30",
+      "title": "STEAM – Lego Movie Making",
+      "date": "2026-09-30T13:30:00",
+      "endDate": "2026-09-30T14:15:00",
+      "location": "",
+      "address": "",
+      "description": "This program is for elementary age children to participate in crafts and activities that reinforce concepts in Science Technology Engineering and Math. Kid’s will take pictures of a Lego setup and create a stop motion mini film with it.",
+      "category": "family"
+    },
+    {
       "id": "vandenberg-thursday-night-football-2026-10-01",
       "title": "Thursday Night Football",
       "date": "2026-10-01T16:00:00",
@@ -384,6 +384,16 @@
       "address": "",
       "description": "<p>Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That\\'s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks […]</p>\\n",
       "category": "entertainment"
+    },
+    {
+      "id": "vandenberg-board-game-event-2026-10-01",
+      "title": "Board Game Event",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T18:30:00",
+      "location": "",
+      "address": "",
+      "description": "The library will have a Board Game event for kids and family on the 1st and 3rd Thursday of each month at 1700. Choose one of our many games to play and have fun with family and friends.",
+      "category": "family"
     },
     {
       "id": "vandenberg-pinnacles-day-trip-2026",
@@ -434,6 +444,26 @@
       "address": "",
       "description": "Spooky BOO-ing 9 Pin No Tap Tournament at your Surf Lanes Bowling Center Wear your spookiest Halloween shirt for a special prize. Saturday, Oct 10th, 2026 Sign in: 13:00 Bowling starts at 13:30 Cost: $25.00 per bowler. *Payout 1 of 5. Sign up by Oct 9th, 2026. Call (805) 606-3209 for more info.",
       "category": "holiday"
+    },
+    {
+      "id": "vandenberg-thursday-night-football-2026-10-15",
+      "title": "Thursday Night Football",
+      "date": "2026-10-15T16:00:00",
+      "endDate": "2026-10-15T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That’s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks from the SpaceBar.",
+      "category": "entertainment"
+    },
+    {
+      "id": "vandenberg-fitness-center-monthly-5k-2026-10-29",
+      "title": "Fitness Center Monthly 5K",
+      "date": "2026-10-29T15:30:00",
+      "endDate": "2026-10-29T16:30:00",
+      "location": "",
+      "address": "",
+      "description": "Get ready to push your pace and level up your run! Join us for our Monthly 5K on Thursday, October 29, 2026, at 1530 at the Duane G. Wolfe Fitness Center a high energy event focused on improving run times, building endurance, and strengthening overall fitness. Whether you’re aiming to cut down your time, stay mission-ready, or just enjoy a great run with the community, this event provides the perfect opportunity to challenge yourself in a motivating, team driven environment. Open to all who want to participate, every pace, every level. Show up, put in the work, and let’s get faster together!",
+      "category": "fitness"
     },
     {
       "id": "vandenberg-video-game-club-halloween-party-2026-10-29",
@@ -494,6 +524,16 @@
       "address": "Vandenberg SFB, CA",
       "description": "ODR horseback riding outing. Public FSS calendar listing.",
       "category": "recreation"
+    },
+    {
+      "id": "vandenberg-thursday-night-football-2026-11-12",
+      "title": "Thursday Night Football",
+      "date": "2026-11-12T16:00:00",
+      "endDate": "2026-11-12T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join the Pacific Coast Center for Thursday Night Football! Are you in a PCC League? Every time you show up you get entered in to win the grand prize! Not in a PCC League? That’s okay! Come out and enjoy the game on the big TVs, cheer on your team, and enjoy food and drinks from the SpaceBar.",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

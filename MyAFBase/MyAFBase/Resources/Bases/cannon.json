@@ -7,7 +7,7 @@
   "wing": "27 SOW",
   "latitude": 34.3828,
   "longitude": -103.322,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "cannon-notif-real-id",
@@ -293,36 +293,6 @@
   ],
   "events": [
     {
-      "id": "cannon-red-pin-wednesday-2026-09-16",
-      "title": "Red Pin Wednesday",
-      "date": "2026-09-16T15:00:00",
-      "endDate": "2026-09-16T21:00:00",
-      "location": "Cannon Lanes",
-      "address": "108 Albright Ave, Clovis, NM, 88101",
-      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
-      "category": "community"
-    },
-    {
-      "id": "cannon-jackpot-bingo-2026-09-18",
-      "title": "Jackpot Bingo",
-      "date": "2026-09-18T17:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "Cannon AFB",
-      "address": "Clovis, NM",
-      "description": "Join us for an exciting night of Bingo filled with great prizes, food, and fun. The event will be held in the Landing Zone Tri-Rooms and is open to 75–100",
-      "category": "entertainment"
-    },
-    {
-      "id": "cannon-sunday-family-day-2026-09-20",
-      "title": "Sunday Family Day",
-      "date": "2026-09-20T12:00:00",
-      "endDate": "2026-09-20T20:00:00",
-      "location": "Cannon Lanes",
-      "address": "108 Albright Ave, Clovis, NM, 88101",
-      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
-      "category": "family"
-    },
-    {
       "id": "cannon-ditch-the-dorms-2026-09-22",
       "title": "Ditch the Dorms",
       "date": "2026-09-22T09:00:00",
@@ -343,6 +313,16 @@
       "category": "education"
     },
     {
+      "id": "cannon-red-pin-wednesday-2026-09-23",
+      "title": "Red Pin Wednesday",
+      "date": "2026-09-23T15:00:00",
+      "endDate": "2026-09-23T21:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
+      "category": "community"
+    },
+    {
       "id": "cannon-trivia-at-the-tsl-2026-09-24",
       "title": "Trivia at the TSL!",
       "date": "2026-09-24T17:00:00",
@@ -351,6 +331,16 @@
       "address": "108 Cunningham Ave Cannon AFB, New Mexico 88103 United States",
       "description": "Trivium Trivia at TSL | Thursday, 5 PM – 7:30 PM - ANIME EDITION Anime themed trivia and ramen bowl dinner special! ESM Accepted Must have base access.",
       "category": "entertainment"
+    },
+    {
+      "id": "cannon-sunday-family-day-2026-09-27",
+      "title": "Sunday Family Day",
+      "date": "2026-09-27T12:00:00",
+      "endDate": "2026-09-27T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
+      "category": "family"
     },
     {
       "id": "cannon-sunday-family-day-2026-10-04",
@@ -383,6 +373,16 @@
       "category": "community"
     },
     {
+      "id": "cannon-sunday-family-day-2026-10-11",
+      "title": "Sunday Family Day",
+      "date": "2026-10-11T12:00:00",
+      "endDate": "2026-10-11T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
+      "category": "family"
+    },
+    {
       "id": "cannon-ditch-the-dorms-2026-10-13",
       "title": "Ditch the Dorms",
       "date": "2026-10-13T09:00:00",
@@ -391,6 +391,16 @@
       "address": "331 D. L. Ingram Ave, Cannon AFB, NM, 88103",
       "description": "This course helps service members moving out of the dorms and is mandatory to get the move-out process started. Must have base access.",
       "category": "education"
+    },
+    {
+      "id": "cannon-red-pin-wednesday-2026-10-14",
+      "title": "Red Pin Wednesday",
+      "date": "2026-10-14T15:00:00",
+      "endDate": "2026-10-14T21:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
+      "category": "community"
     },
     {
       "id": "cannon-jackpot-bingo-2026-10-16",
@@ -423,6 +433,16 @@
       "category": "family"
     },
     {
+      "id": "cannon-sunday-family-day-2026-11-01",
+      "title": "Sunday Family Day",
+      "date": "2026-11-01T12:00:00",
+      "endDate": "2026-11-01T20:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "$25/per lane (up to 6 players) Bring the family down to Cannon Lanes for 2 hours of bowling fun! Shoe rental included. Add a pizza and pitcher of soda for $15!",
+      "category": "family"
+    },
+    {
       "id": "cannon-bundles-for-babies-2026-11-04",
       "title": "Bundles for Babies",
       "date": "2026-11-04T13:00:00",
@@ -431,6 +451,16 @@
       "address": "331 D. L. Ingram Ave, Cannon AFB, NM 88103",
       "description": "Designed to teach soon to be and new parents basic parenting skills. Includes Babies and Budgets: New parents will learn ways to manage the financial changes that come with a child addition. Required for first time Active-duty members! Counts for MyVector learning! AD members/Dependents will receive $150 gift! *Dates are subject to change",
       "category": "education"
+    },
+    {
+      "id": "cannon-red-pin-wednesday-2026-11-04",
+      "title": "Red Pin Wednesday",
+      "date": "2026-11-04T15:00:00",
+      "endDate": "2026-11-04T21:00:00",
+      "location": "Cannon Lanes",
+      "address": "108 Albright Ave, Clovis, NM, 88101",
+      "description": "Every Wednesday, 3 PM – 9 PM Keep an eye on the pins—two red pins will be randomly placed on each lane. If a red pin shows up as the headpin and you roll a strike, let the front desk know and you will score a free game. Shoe rental is not included and remains $2. You do not have to use your free game the same day you earn it. It can be redeemed any time we are open, as long as it is used within that same month. Everyone is welcome to participate, so come bowl, get lucky, and enjoy the fun.",
+      "category": "community"
     },
     {
       "id": "cannon-adoption-101-2026-11-19",

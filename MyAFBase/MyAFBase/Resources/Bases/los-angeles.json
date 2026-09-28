@@ -7,7 +7,7 @@
   "wing": "SBD 3 / SSC",
   "latitude": 33.9192,
   "longitude": -118.3853,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "los-angeles-notif-real-id",
@@ -447,56 +447,6 @@
   ],
   "events": [
     {
-      "id": "los-angeles-corn-hole-competition-2026-09-15",
-      "title": "Corn Hole Competition",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "community"
-    },
-    {
-      "id": "los-angeles-club-member-customer-appreciation-breakf-2026-09-15",
-      "title": "Club Member & Customer Appreciation Breakfast",
-      "date": "2026-09-15",
-      "endDate": "2026-09-15",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "community"
-    },
-    {
-      "id": "los-angeles-post-deployment-reintegration-2026-09-16",
-      "title": "Post-Deployment Reintegration",
-      "date": "2026-09-16T09:00:00",
-      "endDate": "2026-09-16T10:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
-      "description": "This workshop is intended for Service Members returning from deployment. We will provide Airman or Guardians, civilians, and families with information, assistance, and other tools they need to handle problems within different aspects that often arise after a long deployment. More Information Location: For more information, contact the Military & Family Readiness Center at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
-      "category": "education"
-    },
-    {
-      "id": "los-angeles-pre-deployment-readiness-2026-09-16",
-      "title": "Pre-Deployment Readiness",
-      "date": "2026-09-16T13:00:00",
-      "endDate": "2026-09-16T14:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
-      "description": "This family-friendly workshop will educate, prepare, and connect you with deployment-relevant resources on base. In addition, Pre-Deployment Readiness workshop will give you tips on how to prepare yourself and family members for deployment. Spouses are encouraged to attend. Service members must attend within 30 days of deploying. More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. Military & Family Readiness Center web site www.Facebook.com/61FSS www.Instagram.com/61FSS",
-      "category": "family"
-    },
-    {
-      "id": "los-angeles-family-craft-night-2026-09-18",
-      "title": "Family Craft Night",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Los Angeles AFB",
-      "address": "El Segundo, CA",
-      "description": "Listed on the public FSS/MWR calendar for Los Angeles AFB.",
-      "category": "family"
-    },
-    {
       "id": "los-angeles-bundles-for-babies-2026-09-23",
       "title": "Bundles for Babies",
       "date": "2026-09-23",
@@ -507,6 +457,16 @@
       "category": "family"
     },
     {
+      "id": "los-angeles-post-deployment-reintegration-2026-09-23",
+      "title": "Post-Deployment Reintegration",
+      "date": "2026-09-23T09:00:00",
+      "endDate": "2026-09-23T10:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This workshop is intended for Service Members returning from deployment. We will provide Airman or Guardians, civilians, and families with information, assistance, and other tools they need to handle problems within different aspects that often arise after a long deployment. More Information Location: For more information, contact the Military & Family Readiness Center at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
+    },
+    {
       "id": "los-angeles-pre-arrival-orientation-2026-09-23",
       "title": "Pre-Arrival Orientation",
       "date": "2026-09-23T13:00:00",
@@ -514,6 +474,16 @@
       "location": "Military & Family Readiness Center",
       "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
       "description": "Relocating to Los Angeles AFB within the next 6 months? Join us on Microsoft Teams to learn valuable information to help plan your move! Hear from the following local agencies: Child & Youth Programs Military & Family Readiness Center South Bay Workforce Investment Board TMO Housing Office Tricare School Liaison Program Military Personnel Flight (MPF) Finance Office FSS Marketing Office More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
+    },
+    {
+      "id": "los-angeles-pre-deployment-readiness-2026-09-23",
+      "title": "Pre-Deployment Readiness",
+      "date": "2026-09-23T13:00:00",
+      "endDate": "2026-09-23T14:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This family-friendly workshop will educate, prepare, and connect you with deployment-relevant resources on base. In addition, Pre-Deployment Readiness workshop will give you tips on how to prepare yourself and family members for deployment. Spouses are encouraged to attend. Service members must attend within 30 days of deploying. More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. Military & Family Readiness Center web site www.Facebook.com/61FSS www.Instagram.com/61FSS",
       "category": "family"
     },
     {
@@ -617,6 +587,16 @@
       "category": "fitness"
     },
     {
+      "id": "los-angeles-post-deployment-reintegration-2026-10-14",
+      "title": "Post-Deployment Reintegration",
+      "date": "2026-10-14T09:00:00",
+      "endDate": "2026-10-14T10:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This workshop is intended for Service Members returning from deployment. We will provide Airman or Guardians, civilians, and families with information, assistance, and other tools they need to handle problems within different aspects that often arise after a long deployment. More Information Location: For more information, contact the Military & Family Readiness Center at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
+    },
+    {
       "id": "los-angeles-kids-konnection-bug-hunt-2026-10-14",
       "title": "Kids Konnection Bug Hunt",
       "date": "2026-10-14T10:00:00",
@@ -625,6 +605,26 @@
       "address": "111 W 29th St Bldg. 403,, San Pedro, CA, 90731",
       "description": "Get ready for a creepy-crawly adventure at the Community Center this October! Kids will receive a bingo-style card and search for hidden bugs around the center—find them all and win some candy! Costumes are encouraged but not required—come dressed for some spooky fun! This free event is perfect for little explorers ages 5 and under who love a good hunt. More Information Contact the Community Center at: (310) 653-8341 or visit our site at: https://www.lafss.com/cc/ . www.Facebook.com/61FSS www.Instagram.com/61FSS",
       "category": "holiday"
+    },
+    {
+      "id": "los-angeles-efmp-family-support-orientation-2026-10-14",
+      "title": "EFMP Family Support Orientation",
+      "date": "2026-10-14T10:00:00",
+      "endDate": "2026-10-14T12:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "The Exceptional Family Member Program (EFMP) provides comprehensive support to Family members with special needs. An Exceptional Family Member is a Family member with any physical, emotional, developmental, or intellectual disorder that requires special treatment, therapy, education, training, or counseling, and meets the eligibility criteria. Join us to learn more about the basics of EFMP and the 3 components. This briefing is mandatory for new Exceptional Family Member Program enroll-es and Q-Coded families who just PCS’ed to Los Angeles AFB. Pre-registration is required. More Information Lo",
+      "category": "family"
+    },
+    {
+      "id": "los-angeles-pre-deployment-readiness-2026-10-14",
+      "title": "Pre-Deployment Readiness",
+      "date": "2026-10-14T13:00:00",
+      "endDate": "2026-10-14T14:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "Military & Family Readiness Center, 200 North Douglas Street, (Bldg. 272 C1-209), El Segundo, CA",
+      "description": "This family-friendly workshop will educate, prepare, and connect you with deployment-relevant resources on base. In addition, Pre-Deployment Readiness workshop will give you tips on how to prepare yourself and family members for deployment. Spouses are encouraged to attend. Service members must attend within 30 days of deploying. More Information Location: Please email at LAAFB.MFRC@spaceforce.mil or call us at (310) 653-5290 for location. Military & Family Readiness Center web site www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "family"
     },
     {
       "id": "los-angeles-fall-festival-2026-10-17",
@@ -637,6 +637,16 @@
       "category": "community"
     },
     {
+      "id": "los-angeles-hot-shot-3-point-competition-2026-10-21",
+      "title": "“Hot-Shot” 3-Point Competition",
+      "date": "2026-10-21T11:00:00",
+      "endDate": "2026-10-21T16:00:00",
+      "location": "Fitness & Sports Centers",
+      "address": "200 N Douglas St Bldg. 286, El Segundo, CA, 90245",
+      "description": "Think you’ve got the best shot on base? Show off your sharpshooting skills at our 3-Point Competition! Take 10 shots from 5 spots on the court, with 2 rebounds allowed. More Information Location: Outdoor Basketball Courts www.Facebook.com/61FSS www.Instagram.com/61FSS Sign-Up September 7—October 14",
+      "category": "outdoor"
+    },
+    {
       "id": "los-angeles-halloween-treat-bags-pumpkin-painting-2026-10-23",
       "title": "Halloween Treat Bags & Pumpkin Painting",
       "date": "2026-10-23T17:00:00",
@@ -647,6 +657,16 @@
       "category": "holiday"
     },
     {
+      "id": "los-angeles-thank-goodness-it-s-thursday-trivia-night-2026-10-29",
+      "title": "Thank Goodness It’s Thursday – Trivia Night",
+      "date": "2026-10-29T14:00:00",
+      "endDate": "2026-10-29T17:00:00",
+      "location": "South Bay Bar & Grill",
+      "address": "200 N Douglas St, (Bldg. 270), El Segundo, CA, 90245",
+      "description": "Kick back, grab a drink, and test your knowledge at TGI Thursday – Trivia Night at South Bay Bar & Grill! Enjoy a laid-back afternoon with friends and co-workers while indulging in complimentary hors d’oeuvres (while supplies last) and some friendly competition. Sponsored By: No Federal Endorsement of Sponsors Intended. More Information www.Facebook.com/61FSS www.Instagram.com/61FSS",
+      "category": "entertainment"
+    },
+    {
       "id": "los-angeles-trunk-or-treat-2026-10-30",
       "title": "Trunk-or-Treat",
       "date": "2026-10-30T18:00:00",
@@ -654,6 +674,16 @@
       "location": "Community Center",
       "address": "111 W 29th St Bldg. 403,, San Pedro, CA, 90731",
       "description": "Get ready for a spooktacular night of trick-or-treating fun at the Community Center! The ghouls and goblins will be out, and we’re bringing the Halloween spirit with decorated trunks, tons of candy, and festive fun. This event is open to all with base access, and provides a safe and exciting environment for trick-or-treaters to enjoy. Costumes are highly encouraged! VOLUNTEERS NEEDED – Be a part of our Boo Crew! Decorate your trunk and hand out candy * for a chance to win prizes in these categories: Best Overall Trunk – Most outstanding, well-decorated trunk Most Creative Trunk – Most unique a",
+      "category": "holiday"
+    },
+    {
+      "id": "los-angeles-professional-development-holiday-resilience-2026-11",
+      "title": "Professional Development: Holiday Resilience",
+      "date": "2026-11-05T11:00:00",
+      "endDate": "2026-11-05T12:00:00",
+      "location": "Professional Development Center",
+      "address": "483 N Aviation Blvd Bldg. 272, C1-209, El Segundo, CA, 90245",
+      "description": "The holiday season can be joyful—but it can also bring unique challenges. This workshop provides a supportive and informative space to better understand Seasonal Affective Disorder (SAD), often referred to as seasonal depression. Participants will learn to recognize common signs and symptoms of SAD and explore practical, evidence-based coping strategies to help manage its impact on overall well-being. Attendees will leave with actionable tools to navigate the winter months, build emotional resilience, and support a healthier, more balanced mood during the holiday season. More Information Locat",
       "category": "holiday"
     },
     {

@@ -7,7 +7,7 @@
   "wing": "55 WG",
   "latitude": 41.1183,
   "longitude": -95.915,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "offutt-notif-real-id",
@@ -255,36 +255,6 @@
   ],
   "events": [
     {
-      "id": "offutt-end-of-summer-bash-2026-09-18",
-      "title": "End of Summer Bash",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
-      "description": "🎉 Celebrate summer’s last hurrah with a fun-filled evening for all ages! Head to the END OF SUMMER BASH at the Offutt Base Lake on Friday, September 18 from 4 - 7pm. Packed with FREE activities, food, and family fun: 🦎 Critter Close-Ups 🌭 Hot dogs, chips, drinks, and ice cream (while supplies last). 🍺 Alcoholic beverages will be […]",
-      "category": "community"
-    },
-    {
-      "id": "offutt-car-show-2026-09-19",
-      "title": "2026 Offutt Car Show",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Eagles Landing / Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
-      "description": "Car show; spectators free; 55 FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "offutt-observe-moon-night-2026-09-19",
-      "title": "International Observe the Moon Night",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE 68113",
-      "description": "Moon night with Omaha Astronomical Society; Outdoor Rec; 55 FSS.",
-      "category": "community"
-    },
-    {
       "id": "offutt-hornady-ammunition-plant-tour-2026-09-23",
       "title": "Hornady Ammunition Plant Tour",
       "date": "2026-09-23",
@@ -322,6 +292,16 @@
       "location": "Offutt Base Lake",
       "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
       "description": "🌅 One unforgettable date night. Sign up for the COUPLES CANOE & MOVIE NIGHT hosted by Offutt Outdoor Rec. 🗓 Friday, September 25 📍 Offutt Base Lake | Eagles Landing 🕡 […]",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-neon-night-paddle-2026-09-26",
+      "title": "Neon Night Paddle",
+      "date": "2026-09-26T19:00:00",
+      "endDate": "2026-09-26T22:00:00",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, 68113",
+      "description": "✨ Glow up your night & hit the water! Register for a NEON NIGHT PADDLE hosted by Offutt Outdoor Rec. 📅 Saturday, September 26 ⏰ 7–10pm 📍 Offutt Base Lake Paddle beneath the full moon as glowing, colorful lights turn your evening on the water into an unforgettable nighttime adventure. 🌕💫 No experience needed. Kayaks, life jackets, and basic instruction are included. ONLY $25 per person. Ages 16+ | Open to all DoD IDs ➡️Sign up at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9am – 5pm. Closed Wednesdays & weekends.",
       "category": "outdoor"
     },
     {
@@ -375,6 +355,26 @@
       "category": "family"
     },
     {
+      "id": "offutt-haunted-hike-2026-10-18",
+      "title": "Haunted Hike",
+      "date": "2026-10-18T08:00:00",
+      "endDate": "2026-10-18T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "👻 🌲Think you can make it through the park without getting spooked? Sign up for a HAUNTED HIKE hosted by Offutt Outdoor Rec. 📅 Sunday, October 18 | 8am – noon 📍 Hummel Park Explore the rolling hills & wooded trails of Hummel Park, one of Omaha’s most haunted locations. Check out the legendary Morphing Stairs, explore old structures, and make a spooky spiderweb craft as we hike. At the end, warm up with a cup of cider. 🍎 ONLY $15 per person | Open to all DoD IDs Ages 10+ | Ages 16 & under must be accompanied by an adult ➡️Registration required. Sign up at Outdoor Rec. Located in Bldg 362 with Au",
+      "category": "holiday"
+    },
+    {
+      "id": "offutt-monster-buddy-keychain-hand-sewing-class-2026-10-21",
+      "title": "Monster Buddy Keychain Hand Sewing Class",
+      "date": "2026-10-21T17:30:00",
+      "endDate": "2026-10-21T19:30:00",
+      "location": "Arts & Crafts",
+      "address": "101 Union Ln, Offutt AFB, NE, 68113",
+      "description": "🧵🐰🐱Make a little monster! Register for a MONSTER BUDDY KEYCHAIN HAND SEWING CLASS hosted by Offutt Arts & Crafts. 🗓️ Wednesday, October 21 | 5:30–7:30pm 📍 Offutt Arts & Crafts Pick a personality, grab a needle and thread, and create a tiny companion of your very own! Choose a bunny or cat, then learn the basics of hand sewing as you stitch and create your new buddy. No sewing experience needed. All materials and instruction are provided! ONLY $16 per person | Open to all DoD IDs ➡️Register at Arts & Crafts or call 402-294-3837. Located in Bldg 363 with ITT. Open 10am – 4pm. Closed Wednesdays &",
+      "category": "education"
+    },
+    {
       "id": "offutt-thermal-west-texas-hog-hunt-2026-10-23",
       "title": "Thermal West Texas Hog Hunt",
       "date": "2026-10-23T00:00:00",
@@ -382,6 +382,16 @@
       "location": "Offutt AFB",
       "address": "Bellevue, NE",
       "description": "🌙🐗 The hunt begins after dark. Take adventure to the next level with a THERMAL WEST TEXAS HOG HUNT hosted by Offutt Outdoor Rec. A high-action, all-inclusive thermal hunting experience across 450,000 acres of prime land. 📅 October 23 - 25 🕖 Depart Friday morning • Return Sunday night 💲 $1,300 per person 📍 West Texas What's Included ✔️ 2 nights of guided thermal hog hunts ✔️ Opportunity to shoot numerous hogs ✔️ Suppr",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-fall-fun-at-the-lake-2026-10-23",
+      "title": "Fall Fun at the Lake",
+      "date": "2026-10-23T18:00:00",
+      "endDate": "2026-10-23T21:00:00",
+      "location": "Offutt Base Lake",
+      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, 68113",
+      "description": "🍂🔥 Cozy up and make some memories! Bring your family to FALL FUN AT THE LAKE hosted by Offutt Outdoor Rec. 📅 Friday, October 23 | 6–9pm 📍 Offutt Base Lake Fall is calling, and it’s bringing a bonfire, hayrides and MORE! Gather around the fire for cookie s’mores and hot chocolate, decorate your own mini pumpkin, then settle in for “Hotel Transylvania” on the big outdoor screen. ONLY $15 per person. Open to all DoD IDs. All ages welcome. ➡️Sign up at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9am – 5pm. Closed Wednesdays & weekends.",
       "category": "outdoor"
     },
     {
@@ -393,6 +403,16 @@
       "address": "308 Looking Glass Ave, Offutt AFB, NE 68113",
       "description": "💪 Got the strength? Prove it! 🏋️ Get ready for the 2026 TITANS OF OFFUTT POWERLIFTING COMPETITION hosted by the Offutt Field House. Compete in traditional bench, deadlift, and squat events. 📅 Saturday, Oct. 31 ONLY $10 per competitor. Registration opens soon. Start training, mark your calendar and get ready to lift!",
       "category": "fitness"
+    },
+    {
+      "id": "offutt-boo-bowling-bash-2026-10-31",
+      "title": "Boo Bowling Bash",
+      "date": "2026-10-31T12:00:00",
+      "endDate": "2026-10-31T17:00:00",
+      "location": "Peacekeeper Lanes",
+      "address": "106 Peacekeeper Dr, Offutt AFB, NE, 68113",
+      "description": "🕷️🎳🎃Spooky strikes! Bring your family to the BOO BOWLING BASH at Peacekeeper Lanes! 📅 Saturday, October 31 🕛 12–5pm Come dressed in your Halloween best and get: 👻 FREE shoe rental 🥤 FREE regular fountain drink 🏆 PRIZES EVERY HOUR for the best costumes! 📍Find Peacekeeper Lanes in the basement of Bldg D, Entrance 7.",
+      "category": "holiday"
     }
   ],
   "newcomers": {

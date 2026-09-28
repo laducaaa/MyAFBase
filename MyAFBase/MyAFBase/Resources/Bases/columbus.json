@@ -259,46 +259,6 @@
   ],
   "events": [
     {
-      "id": "columbus-babysitting-course-2026-09-14",
-      "title": "Babysitting Course",
-      "date": "2026-09-14T16:00:00",
-      "endDate": "2026-09-14T18:00:00",
-      "location": "Youth Center",
-      "address": "386 Imes St. Columbus AFB",
-      "description": "Join the Youth Center Babysitting Course from 14 September to 15 September, from 1600-1800 at the Youth Center Annex. Learn essential basic skills and safe sitter guidelines, along with receiving",
-      "category": "family"
-    },
-    {
-      "id": "columbus-teddy-bear-storytime-2026-09-15",
-      "title": "Teddy Bear Storytime",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T10:00:00",
-      "location": "Library",
-      "address": "Blaze Commons, Columbus, 39710",
-      "description": "Join us for Teddy Bear Storytime on 15 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
-      "category": "family"
-    },
-    {
-      "id": "columbus-smooth-move-2026-09-17",
-      "title": "Smooth Move",
-      "date": "2026-09-17T10:00:00",
-      "endDate": "2026-09-17T10:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "C, 166 Circle Drive, Columbus, MS 39710",
-      "description": "Getting ready to PCS? Let the M&FRC help you transition with Smooth Move on 17 September at 1000 at the M&FRC! Receive pertinent information from the Subject Matter Experts to aid in a successful move for you and your family! Contact the Military & Family Readiness Center at (662) 434-2790 for more information or to register!",
-      "category": "family"
-    },
-    {
-      "id": "columbus-teen-friday-night-lights-2026-09-18",
-      "title": "Teen Friday Night Lights",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T22:00:00",
-      "location": "Youth Center",
-      "address": "386 Imes St. Columbus AFB",
-      "description": "Cheer on the Caledonia High School football team with the Youth Center during Teen Friday Night Lights on 18 September from 1800–2200. Teens ages 13–18 are invited to enjoy an",
-      "category": "family"
-    },
-    {
       "id": "columbus-elephant-storytime-2026-09-22",
       "title": "Elephant Storytime",
       "date": "2026-09-22T10:00:00",
@@ -306,6 +266,26 @@
       "location": "Library",
       "address": "Blaze Commons, Columbus, 39710",
       "description": "Join us for Elephant Storytime on 22 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
+      "category": "family"
+    },
+    {
+      "id": "columbus-air-force-families-forever-2026-09-23",
+      "title": "Air Force Families Forever",
+      "date": "2026-09-23T13:00:00",
+      "endDate": "2026-09-23T13:00:00",
+      "location": "Military & Family Readiness Center",
+      "address": "C, 166 Circle Drive, Columbus, MS, 39710",
+      "description": "Visit the M&FRC for Air Force Families Forever every 4th Wednesday of the month at 1300. Learn what the M&FRC has to offer: • Support for Gold Star Families • Assistance for those in need • Awareness and Advocacy • Family Resource Connections • Community Outreach Serving families, strengthening communities, and making a difference every day.",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-pins-pancakes-2026-09-26",
+      "title": "Pins & Pancakes",
+      "date": "2026-09-26T11:00:00",
+      "endDate": "2026-09-26T15:00:00",
+      "location": "Bowling Center",
+      "address": "Building 736, Columbus, MS, 39705",
+      "description": "The Bowling Center will host Pins and Pancakes on Saturdays, featuring fun-shaped and funfetti pancakes with a side of bacon or sausage from 1100-1500! Bowl and enjoy FREE kid-friendly movies, and cool cosmic lighting from 1100-1800! Questions? Call the Bowling Center at (662) 434-3426.",
       "category": "family"
     },
     {
@@ -339,6 +319,26 @@
       "category": "entertainment"
     },
     {
+      "id": "columbus-fall-break-camp-2026-09-29",
+      "title": "Fall Break Camp",
+      "date": "2026-09-29T06:30:00",
+      "endDate": "2026-09-29T17:30:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Keep the fun going over Fall Break at the Youth Center! Campers ages 5–12 will enjoy field trips, games, activities, and meals each day in a safe, supervised environment. Camp runs 28 September–9 October from 0630–1730. Register by 22 September through MCC and CYPBMS. For more information, call the Youth Center at (662) 434-2504.",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-fall-fishing-camp-2026-09-29",
+      "title": "Fall Fishing Camp",
+      "date": "2026-09-29T08:00:00",
+      "endDate": "2026-09-29T12:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Learn the basics of fishing and catch and fillet your own catfish at Fishing Camp at Barksdale Catfish Lakes! Camp will run from 0800 to 1200, 28 September – 2 October, during fall break. The registration deadline is 21 September 2026. Camp is open to youth ages 9 and up. $50 per youth. Transportation to and from the catfish lake will be provided. Call the Youth Center at (662) 434-2504 for more information.",
+      "category": "outdoor"
+    },
+    {
       "id": "columbus-rabbit-storytime-2026-09-29",
       "title": "Rabbit Storytime",
       "date": "2026-09-29T10:00:00",
@@ -369,6 +369,26 @@
       "category": "outdoor"
     },
     {
+      "id": "columbus-fall-break-camp-2026-10-01",
+      "title": "Fall Break Camp",
+      "date": "2026-10-01T06:30:00",
+      "endDate": "2026-10-01T17:30:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Keep the fun going over Fall Break at the Youth Center! Campers ages 5–12 will enjoy field trips, games, activities, and meals each day in a safe, supervised environment. Camp runs 28 September–9 October from 0630–1730. Register by 22 September through MCC and CYPBMS. For more information, call the Youth Center at (662) 434-2504.",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-fall-fishing-camp-2026-10-01",
+      "title": "Fall Fishing Camp",
+      "date": "2026-10-01T08:00:00",
+      "endDate": "2026-10-01T12:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Learn the basics of fishing and catch and fillet your own catfish at Fishing Camp at Barksdale Catfish Lakes! Camp will run from 0800 to 1200, 28 September – 2 October, during fall break. The registration deadline is 21 September 2026. Camp is open to youth ages 9 and up. $50 per youth. Transportation to and from the catfish lake will be provided. Call the Youth Center at (662) 434-2504 for more information.",
+      "category": "outdoor"
+    },
+    {
       "id": "columbus-first-thursday-open-skeet-2026-10-01",
       "title": "First Thursday Open Skeet",
       "date": "2026-10-01T17:00:00",
@@ -379,6 +399,16 @@
       "category": "outdoor"
     },
     {
+      "id": "columbus-magic-all-stars-show-2026-10-02",
+      "title": "Magic All Stars Show",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Kaye Auditorium",
+      "address": "Columbus AFB, MS, 39710",
+      "description": "Air Force Entertainment is sending Magic All-Stars Ben Young, Jason Michaels, and Stephen Bargatze to Columbus Air Force Base for a FREE Show at the Kaye Auditorium on 2 October! Doors open at 1730 and the show starts at 1800! This show is a family-friendly event, and there will be FREE Pizza while supplies last!",
+      "category": "family"
+    },
+    {
       "id": "columbus-cullman-oktoberfest-2026-10-03",
       "title": "Cullman Oktoberfest",
       "date": "2026-10-03T00:00:00",
@@ -387,6 +417,16 @@
       "address": "Columbus, MS",
       "description": "Join Outdoor Recreation for a trip to Cullman, Alabama, on 3 October for Cullman Oktoberfest, a celebration of German heritage featuring live music, authentic German food, cultural activities, vendors, entertainment,",
       "category": "holiday"
+    },
+    {
+      "id": "columbus-second-thursday-paintball-2026-10-08",
+      "title": "Second Thursday Paintball",
+      "date": "2026-10-08T17:00:00",
+      "endDate": "2026-10-08T19:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join Outdoor Recreation for Second Thursday Paintball from 1700-1900 on the Second Thursday of each month from September to November. Team sessions are $25 per person, which will include field use for 2 hours, 500 rounds (1 bag of paintballs), and equipment rental. Limited space; max. of 20 people for staffing and time purposes. Additional boxes of paintballs can be purchased at $50 per box (2000 rounds). Payment due at time of registration. Sign-up deadline is Thursday before to ensure paintballs can be purchased ahead of time. Participants must reserve the paintball field by calling Outdoor ",
+      "category": "outdoor"
     },
     {
       "id": "columbus-halloween-trivia-night-2026-10-22",
@@ -478,5 +518,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-14T06:41:37Z"
+  "dataUpdatedAt": "2026-09-21T06:35:07Z"
 }

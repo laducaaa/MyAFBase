@@ -7,7 +7,7 @@
   "wing": "19 AW",
   "latitude": 34.9169,
   "longitude": -92.1497,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "little-rock-notif-real-id",
@@ -359,56 +359,6 @@
   ],
   "events": [
     {
-      "id": "little-rock-smart-girls-2026-09-16",
-      "title": "SMART Girls",
-      "date": "2026-09-16T16:30:00",
-      "endDate": "2026-09-16T17:30:00",
-      "location": "YOUTH CENTER",
-      "address": "1992 Arkansas Blvd, Little Rock, AR 72099",
-      "description": "The Youth Center invites youth ages 9-18 to join SMART Girls, a program that meets on the third Wednesday of each month! Each session focuses on building healthy habits, eating well, staying active, and learning about overall wellness and positive lifestyle choices. The cost is $5 per session or $50 for the entire year. Registration is available through the CYPBMS portal, or you can call the Youth Center at 501-987-6",
-      "category": "family"
-    },
-    {
-      "id": "little-rock-knit-at-night-2026-09-17",
-      "title": "Knit at Night",
-      "date": "2026-09-17T17:30:00",
-      "endDate": "2026-09-17T18:45:00",
-      "location": "Base Library",
-      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
-      "description": "Calling all Fiber Arts lovers! Grab your knitting, crochet, embroidery, or whatever creative project you’re working on and join us for Knit at Night at the Base Library! September 17 at 5:30 PM! Whether you’re learning a new hobby, looking to share your skills, or just want to meet fellow crafters, there’s a spot for you! Bring your project and let’s get creative together!",
-      "category": "community"
-    },
-    {
-      "id": "little-rock-rocktoberfest-2026-09-18",
-      "title": "Rocktoberfest",
-      "date": "2026-09-18T14:00:00",
-      "endDate": "2026-09-18T18:00:00",
-      "location": "Warfit Pavilion",
-      "address": "Little Rock AFB, Jacksonville, AR",
-      "description": "Get ready to ROCKTOBERFEST! Little Rock Air Force Base’s annual Rocktoberfest is coming to Warfit Pavilion on September 18th , and you won’t want to miss the fun! Get ready for an afternoon packed with: Live music from the Polkameisters Traditional German games & contests Best-Dressed Contest FREE Oktoberfest food & drinks (while supplies last) Fun for the whole family! Bring the kids to Kid-Fest!",
-      "category": "family"
-    },
-    {
-      "id": "little-rock-kid-fest-2026-09-18",
-      "title": "Kid Fest",
-      "date": "2026-09-18T15:00:00",
-      "endDate": "2026-09-18T18:00:00",
-      "location": "Warfit Pavilion",
-      "address": "Little Rock AFB, Jacksonville, AR",
-      "description": "KID-FEST IS COMING TO ROCKTOBERFEST! Little ones, this part of the celebration is just for YOU! Bring the family to Kid-Fest for an afternoon packed with fun, games, and plenty of ways to play! Get ready for: Interactive attractions Bounce houses Mechanical bull Photo booth …and more! Let the kids run, jump, play, and make some awesome memories while you enjoy all that Rocktoberfest has to offer! ",
-      "category": "family"
-    },
-    {
-      "id": "little-rock-welcome-back-no-tap-tournament-2026",
-      "title": "Welcome Back No-Tap Tournament",
-      "date": "2026-09-19T17:00:00",
-      "endDate": "2026-09-19T20:00:00",
-      "location": "STRIKE ZONE BOWLING CENTER",
-      "address": "956 Cannon Circle, Little Rock, AR, 72099",
-      "description": "WELCOME BACK, BOWLERS! Start the season with some friendly competition at the Welcome Back Bowling Tournament at Strike Zone Bowling & Entertainment Center on September 19th! 3 Games | 9-Pin No-Tap Minimum payout: 1 in 6 Open to ages 18+ Whether you’re a seasoned bowler or just looking for a fun challenge, come out and see what you can score! Be sure to arrive early on tournament day to get regist",
-      "category": "recreation"
-    },
-    {
       "id": "little-rock-fcc-provider-orientation-training-20",
       "title": "FCC Provider Orientation Training",
       "date": "2026-09-21T09:00:00",
@@ -417,6 +367,16 @@
       "address": "1988 Arnold Drive Little Rock, Little Rock, AR, 72099",
       "description": "FCC Provider Orientation Training is for those who are interested in becoming a licensed Family Child Care Provider on or off base for full/part time care, special needs, 24/7 care or expanded child care. This training is FREE and includes CPR, first aid, nutrition, child abuse awareness, child development, record keeping and much more. For more information and to register, email 19FSS.FSYF.FCC@us",
       "category": "community"
+    },
+    {
+      "id": "little-rock-torch-club-2026-09-24",
+      "title": "Torch Club",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T17:00:00",
+      "location": "YOUTH CENTER",
+      "address": "1992 Arkansas Blvd, Little Rock, AR, 72099",
+      "description": "Torch Club meets every 1st and 4th Thursday at the Youth Center! Open to ages 10–13, this free club uses fun activities and projects to help members build leadership, teamwork, responsibility, decision-making, goal-setting, and other valuable life skills. No registration needed!",
+      "category": "family"
     },
     {
       "id": "little-rock-chess-club-2026-09-24",
@@ -449,6 +409,16 @@
       "category": "community"
     },
     {
+      "id": "little-rock-saturday-family-matinee-watch-a-movie-and-bowl-2026",
+      "title": "Saturday Family Matinee: Watch a Movie and Bowl",
+      "date": "2026-09-26T14:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "Bring the whole family to the Strike Zone Bowling Center and enjoy unlimited bowling, a large pizza, and a soda per person while watching a family friendly movie for $40. Price covers up to six people and includes shoe rentals.",
+      "category": "family"
+    },
+    {
       "id": "little-rock-little-rockin-artist-sensory-safe-2026-09-28",
       "title": "Little Rockin' Artist: Sensory Safe",
       "date": "2026-09-28T16:30:00",
@@ -459,6 +429,26 @@
       "category": "community"
     },
     {
+      "id": "little-rock-little-rockin-artist-sensory-safe-2026-09-28",
+      "title": "Little Rockin’ Artist: Sensory Safe",
+      "date": "2026-09-28T16:30:00",
+      "endDate": "2026-09-28T17:30:00",
+      "location": "Skills Center",
+      "address": "656 Sixth St., Little Rock AFB, AR, 72099",
+      "description": "Join the Skills Center on September 28th for Little Rockin’ Artist: Sensory Safe! We’ll turn the lights down and take some time to decompress with coloring and kinetic sand. Event is free to attend. Registration deadline is September 25th. Register now at www.rockinattherock.com/skillsclass.",
+      "category": "community"
+    },
+    {
+      "id": "little-rock-little-herky-story-hour-2026-09-29",
+      "title": "Little Herky Story Hour",
+      "date": "2026-09-29T10:00:00",
+      "endDate": "2026-09-29T11:00:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Little Herky Story Hour is taking flight! Bring your little readers to the Base Library on September 15th & 29th for a fun-filled story time featuring: A great story Songs to sing along to A fun craft to take home Come make some memories, get creative, and enjoy a little story time fun with us!",
+      "category": "family"
+    },
+    {
       "id": "little-rock-story-time-for-preschoolers-2026-10-01",
       "title": "Story Time for Preschoolers",
       "date": "2026-10-01T10:00:00",
@@ -466,6 +456,16 @@
       "location": "Base Library",
       "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR 72099",
       "description": "Join the Base Library for a fun and interactive story time for preschoolers!",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-torch-club-2026-10-01",
+      "title": "Torch Club",
+      "date": "2026-10-01T16:30:00",
+      "endDate": "2026-10-01T17:30:00",
+      "location": "YOUTH CENTER",
+      "address": "1992 Arkansas Blvd, Little Rock, AR, 72099",
+      "description": "Torch Club meets every 1st and 4th Thursday at the Youth Center! Open to ages 10–13, this free club uses fun activities and projects to help members build leadership, teamwork, responsibility, decision-making, goal-setting, and other valuable life skills. No registration needed!",
       "category": "family"
     },
     {
@@ -499,6 +499,36 @@
       "category": "holiday"
     },
     {
+      "id": "little-rock-cars-and-coffee-2026-10-03",
+      "title": "Cars and Coffee",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T12:00:00",
+      "location": "Auto Hobby",
+      "address": "656 6th Street Little Rock AFB, Little Rock, AR, 72099",
+      "description": "Join Auto Hobby for Cars and Coffee on the first Saturday of every month from 10 AM – noon! Enjoy free donuts and coffee while connecting with fellow car enthusiasts. It’s the perfect way to kick off your weekend—bring your favorite ride and share the morning with a great community of car lovers. Don’t miss this monthly gathering!",
+      "category": "recreation"
+    },
+    {
+      "id": "little-rock-saturday-family-matinee-watch-a-movie-and-bowl-2026",
+      "title": "Saturday Family Matinee: Watch a Movie and Bowl",
+      "date": "2026-10-03T14:00:00",
+      "endDate": "2026-10-03T16:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "Bring the whole family to the Strike Zone Bowling Center and enjoy unlimited bowling, a large pizza, and a soda per person while watching a family friendly movie for $40. Price covers up to six people and includes shoe rentals.",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-chess-club-2026-10-08",
+      "title": "Chess Club",
+      "date": "2026-10-08T17:00:00",
+      "endDate": "2026-10-08T18:45:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Make your next move! Whether you’re a chess pro or have never moved a pawn, Chess Club at the Base Library is the perfect place to learn, play, and sharpen your strategy! 2nd & 4th Thursday of every month 5–6:45 PM All ages welcome! September dates: September 10 & 24 Bring your game face and come make your move!",
+      "category": "recreation"
+    },
+    {
       "id": "little-rock-knit-at-night-2026-10-15",
       "title": "Knit at Night",
       "date": "2026-10-15T17:30:00",
@@ -517,6 +547,26 @@
       "address": "1988 Arnold Drive Little Rock, Little Rock, AR 72099",
       "description": "FCC Provider Orientation Training is for those who are interested in becoming a licensed Family Child Care Provider on or off base for full/part time care, special needs, 24/7 care or expanded child care. This training is FREE and includes CPR, first aid, nutrition, child abuse awareness, child development, record keeping and much more. For more information and to register, email 19FSS.FSYF.FCC@us.af.mil or call FCC ",
       "category": "education"
+    },
+    {
+      "id": "little-rock-little-rockin-artist-sensory-safe-2026-10-26",
+      "title": "Little Rockin’ Artist: Sensory Safe",
+      "date": "2026-10-26T16:30:00",
+      "endDate": "2026-10-26T17:30:00",
+      "location": "Skills Center",
+      "address": "656 Sixth St., Little Rock AFB, AR, 72099",
+      "description": "Join the Skills Center on October 26th for Little Rockin’ Artist: Sensory Safe! We’ll turn the lights down and take some time to decompress with coloring and kinetic sand. Event is free to attend. Registration deadline is October 25th. Register now at www.rockinattherock.com/skillsclass.",
+      "category": "community"
+    },
+    {
+      "id": "little-rock-cars-and-coffee-2026-11-07",
+      "title": "Cars and Coffee",
+      "date": "2026-11-07T10:00:00",
+      "endDate": "2026-11-07T12:00:00",
+      "location": "Auto Hobby",
+      "address": "656 6th Street Little Rock AFB, Little Rock, AR, 72099",
+      "description": "Join Auto Hobby for Cars and Coffee on the first Saturday of every month from 10 AM – noon! Enjoy free donuts and coffee while connecting with fellow car enthusiasts. It’s the perfect way to kick off your weekend—bring your favorite ride and share the morning with a great community of car lovers. Don’t miss this monthly gathering!",
+      "category": "recreation"
     }
   ],
   "newcomers": {

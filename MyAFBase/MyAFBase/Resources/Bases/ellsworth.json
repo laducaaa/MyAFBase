@@ -7,7 +7,7 @@
   "wing": "28 BW",
   "latitude": 44.145,
   "longitude": -103.1036,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "ellsworth-notif-real-id",
@@ -255,54 +255,14 @@
   ],
   "events": [
     {
-      "id": "ellsworth-ditching-the-dorms-and-dfac-2026-09-14",
-      "title": "Ditching the Dorms and DFAC",
-      "date": "2026-09-14T12:00:00",
-      "endDate": "2026-09-14T16:00:00",
+      "id": "ellsworth-bouncing-book-babies-2026-09-22",
+      "title": "Bouncing Book Babies",
+      "date": "2026-09-22T10:30:00",
+      "endDate": "2026-09-22T11:30:00",
       "location": "Ellsworth AFB",
       "address": "Box Elder, SD",
-      "description": "13 April | 1 June | 3 August 8 AM to 12 PM 18 May | 20 July | 14 September 12 PM to 4 PM Ditching the dorms and DFAC is a class which provides education on renting apartments/homes, co-renters, contracts, military clause, and budgeting. It will also cover budgeting essentials, from understanding your income and building a practical spending plan to conquering debt and maximizing your assets, including your TSP. Indiv",
-      "category": "education"
-    },
-    {
-      "id": "ellsworth-no-pressure-book-club-2026-09-15",
-      "title": "No Pressure Book Club",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T18:00:00",
-      "location": "Ellsworth AFB",
-      "address": "Box Elder, SD",
-      "description": "15 September 5:00 PM to 6:00 PM Meat up and discuss your favorite books, genres, and more! For more information, please contact Holbrook Library at 605-385-1688.",
-      "category": "education"
-    },
-    {
-      "id": "ellsworth-creative-kids-art-design-your-own-hat-2026-09-18",
-      "title": "Creative Kids Art: Design Your Own Hat",
-      "date": "2026-09-18T10:00:00",
-      "endDate": "2026-09-18T12:00:00",
-      "location": "Ellsworth AFB",
-      "address": "Box Elder, SD",
-      "description": "18 Sept 10:00 AM to 12:00 PM Students will paint and embellish their own trucker hat. FREE Children must be accompanied by an adult. Must sign-up in advance, no walk-ins.",
-      "category": "fitness"
-    },
-    {
-      "id": "ellsworth-kids-club-at-holbrook-library-2026-09-19",
-      "title": "Kids Club at Holbrook Library",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T11:00:00",
-      "location": "Ellsworth AFB",
-      "address": "Box Elder, SD",
-      "description": "Saturdays 10:00 AM to 11:00 AM Ages 4-12 Join us every Saturday at Holbrook Library for activities, crafts, and more! For more information, please contact Holbrook Library at 605-385-1688.",
-      "category": "recreation"
-    },
-    {
-      "id": "ellsworth-book-bedazzling-2026-09-19",
-      "title": "Book Bedazzling",
-      "date": "2026-09-19T11:30:00",
-      "endDate": "2026-09-19T12:45:00",
-      "location": "Ellsworth AFB",
-      "address": "Box Elder, SD",
-      "description": "19 September 11:30 AM to 12:45 PM Decorate a book cover with sparkling gems! Bring your own favorite book or use one of our donated titles. FREE adult level class.",
-      "category": "education"
+      "description": "Tuesdays 10:30 AM Join us at Holbrook Library for our Newest Storytime for your Youngest Raiders! Parents will come with their babies and learn nursery rhymes, songs, and reading tips. After, there will be playtime. Geared toward ages 0-2 years old For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "family"
     },
     {
       "id": "ellsworth-perler-bead-jewelry-2026-09-22",
@@ -323,6 +283,16 @@
       "address": "Box Elder, SD",
       "description": "5:00 PM to 7:00 PM Join us once a month for a photography meet up. Usually the 4th Thursday of each month, but days may shift when a group adventure",
       "category": "recreation"
+    },
+    {
+      "id": "ellsworth-photography-club-at-arts-crafts-2026-09-24",
+      "title": "Photography Club at Arts & Crafts",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Starts 23 April 5:00 PM to 7:00 PM Join us once a month for a photography meet up. Usually the 4th Thursday of each month, but days may shift when a group adventure is planned. Learn photo editing, framing, displaying, outdoor photography, and more! You may use a digital camera or your cell phone. All skill levels are welcome. 23 Apr | First meetup at Arts & Crafts | 5:00PM 28 May | Group adventure | 5:00PM 13 Jun | Hike with Outdoor Recreation to Botany Canyon (sign up on Eventbrite) | 9:30AM (meet at Arts & Crafts unless you are driving separately) 23 Jul | Photo Editing | 5:00PM 27 Aug | Gr",
+      "category": "outdoor"
     },
     {
       "id": "ellsworth-lackadaisy-speakeasy-murder-mystery-2026-09-25",
@@ -365,6 +335,16 @@
       "category": "education"
     },
     {
+      "id": "ellsworth-varsity-volleyball-tryouts-2026-09-28",
+      "title": "Varsity Volleyball Tryouts",
+      "date": "2026-09-28T17:00:00",
+      "endDate": "2026-09-28T18:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Women’s Team | 28 September | 5:00 PM to 6:00 PM Men’s Team | 30 September | 5:00 PM to 6:00 PM Contact SSgt Oscar Deleon at 812-661-8806 or email at oscar.deleon.2@us.af.mil for more information.",
+      "category": "fitness"
+    },
+    {
       "id": "ellsworth-va-services-day-2026-09-29",
       "title": "VA Services Day",
       "date": "2026-09-29T08:00:00",
@@ -383,6 +363,16 @@
       "address": "Box Elder, SD",
       "description": "October - February 1 - 31 October | Trick or Treat Trot | Virtual 1 - 30 November | Gobble ‘Till You Wobble | Virtual 1 - 31 December | The Santa Shuffle | Virtual 1 - 31 January | Freeze Your Pace Off | Virtual 1 - 28 February | Heart and Sole | Virtual Register Online - Sign up one week prior to each months race on Eventbrite. eafbvirtualholiday5kseries2026.eventbrite.com Run the way your want! Race must be complet",
       "category": "holiday"
+    },
+    {
+      "id": "ellsworth-bouncing-book-babies-2026-10-06",
+      "title": "Bouncing Book Babies",
+      "date": "2026-10-06T10:30:00",
+      "endDate": "2026-10-06T11:30:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Tuesdays 10:30 AM Join us at Holbrook Library for our Newest Storytime for your Youngest Raiders! Parents will come with their babies and learn nursery rhymes, songs, and reading tips. After, there will be playtime. Geared toward ages 0-2 years old For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "family"
     },
     {
       "id": "ellsworth-camper-101-2026-10-07",
@@ -405,6 +395,16 @@
       "category": "education"
     },
     {
+      "id": "ellsworth-beyond-the-books-kid-s-book-club-2026-10-09",
+      "title": "Beyond the Books Kid’s Book Club",
+      "date": "2026-10-09T15:30:00",
+      "endDate": "2026-10-09T16:30:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "9 October 2nd Friday of the month Mornings at 10:30 AM Afternoons at 3:30 PM Join us at Holbrook Library to get the reading list and get a glimpse at each months book and engage in a fun book activity. October book is: “Around the World in 80 Days” Limited books will be available. Geared toward elementary aged children. For more information, please contact Holbrook Library at 605-385-1688.",
+      "category": "family"
+    },
+    {
       "id": "ellsworth-klondike-challenge-2026-10-17",
       "title": "Klondike Challenge",
       "date": "2026-10-17T08:00:00",
@@ -413,6 +413,36 @@
       "address": "Box Elder, SD",
       "description": "17 October 8:00 AM start time | Check in at 8:00 AM $45 PRGC Members $60 non-members Entry fee is cash only Enjoy complimentary donuts and lunch. Payout will be determined by the participation. For more information, please contact Prairie Ridge Golf Course at 605-923-4999.",
       "category": "recreation"
+    },
+    {
+      "id": "ellsworth-photography-club-at-arts-crafts-2026-10-21",
+      "title": "Photography Club at Arts & Crafts",
+      "date": "2026-10-21T17:00:00",
+      "endDate": "2026-10-21T19:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "5:00 PM to 7:00 PM Join us once a month for a photography meet up. Usually the 4th Thursday of each month, but days may shift when a group adventure is planned. Learn photo editing, framing, displaying, outdoor photography, and more! You may use a digital camera or your cell phone. All skill levels are welcome. Dates may shift when a group adventure is planned 26 Aug | Group Adventure | 5:00 PM 23 Sept | Curate your photos for the Art Show 21 Oct | Framing art for the Art Show at Arts & Crafts | 5:00 PM 2 Nov – 25 Nov | Art Show at Arts & Crafts all month long Register at Arts & Crafts. For mo",
+      "category": "outdoor"
+    },
+    {
+      "id": "ellsworth-trunk-or-treat-vehicle-sign-up-2026-10-24",
+      "title": "Trunk or Treat Vehicle Sign-Up",
+      "date": "2026-10-24T10:00:00",
+      "endDate": "2026-10-24T12:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "Date of event: 24 October | 10:00 AM to 12:00 PM Join us if you dare on 24 October in our annual Trunk or Treat at Dakota’s parking lot. Register today to decorate your vehicle and hand out candy to all the little ghouls, ghosts, and goblins (and all the princesses and super heroes too!) on 24 October. All groups welcome Candy will be provided! If you would like to decorate a vehicle, please register on Eventbrite. https://eafbtrunkortreatcandyhandout2026.eventbrite.com Please register by 21 October. For more information, please contact FSS Marketing at 605-385-1533",
+      "category": "family"
+    },
+    {
+      "id": "ellsworth-glow-in-the-dark-golf-tournament-2026-10-25",
+      "title": "Glow in the Dark Golf Tournament",
+      "date": "2026-10-25T19:00:00",
+      "endDate": "2026-10-25T22:00:00",
+      "location": "Ellsworth AFB",
+      "address": "Box Elder, SD",
+      "description": "25 September 7:00 PM start time | Check in at 8:00 AM $40 PRGC Members $50 non-members Entry fee is cash only Enjoy complimentary donuts and lunch. Payout will be determined by the participation. For more information, please contact Prairie Ridge Golf Course at 605-923-4999.",
+      "category": "fitness"
     }
   ],
   "newcomers": {

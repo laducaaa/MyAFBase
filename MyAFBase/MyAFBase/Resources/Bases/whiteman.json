@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -244,36 +244,6 @@
   ],
   "events": [
     {
-      "id": "whiteman-lunch-time-bingo-2026-09-15",
-      "title": "Lunch Time Bingo",
-      "date": "2026-09-15T11:30:00",
-      "endDate": "2026-09-15T12:30:00",
-      "location": "Whiteman AFB",
-      "address": "Knob Noster, MO",
-      "description": "Lunch Time Bingo",
-      "category": "entertainment"
-    },
-    {
-      "id": "whiteman-skillbridge-briefing-2026-09-15",
-      "title": "Skillbridge Briefing",
-      "date": "2026-09-15T13:00:00",
-      "endDate": "2026-09-15T14:00:00",
-      "location": "Professional Development Center",
-      "address": "Whiteman AFB, MO 65305",
-      "description": "This briefing is the first step for Airmen who are interested in participating in the DoD SkillBridge program. The program provides eligible transitioning DAF members opportunities to develop career skills through civilian on-the-job-training, employment skills training, apprenticeships, and internships to help them prepare for their transition from military to civilian employment.",
-      "category": "education"
-    },
-    {
-      "id": "whiteman-cosmic-bowling-2026-09-18",
-      "title": "Cosmic Bowling",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T22:00:00",
-      "location": "Stars &#038; Strikes Bowling Center",
-      "address": "699 Mitchell Ave, Whiteman AFB, MO",
-      "description": "Cosmic Bowling",
-      "category": "entertainment"
-    },
-    {
       "id": "whiteman-chili-bingo-night-2026-09-22",
       "title": "Chili-Bingo Night",
       "date": "2026-09-22T00:00:00",
@@ -354,6 +324,16 @@
       "category": "community"
     },
     {
+      "id": "whiteman-lunch-time-bingo-2026-10-20",
+      "title": "Lunch Time Bingo",
+      "date": "2026-10-20T11:30:00",
+      "endDate": "2026-10-20T12:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
       "id": "whiteman-campground-decorating-contest-2026-10-24",
       "title": "Campground Decorating Contest",
       "date": "2026-10-24T00:00:00",
@@ -384,6 +364,16 @@
       "category": "outdoor"
     },
     {
+      "id": "whiteman-steam-library-2026-11-11",
+      "title": "STEAM – Library",
+      "date": "2026-11-11T13:00:00",
+      "endDate": "2026-11-11T14:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "STEAM – Science, Technology, Engineering, Art, Mathematics Whiteman AFB Library. Every 2nd & 4th Wednesday of each month. Ages 6-12",
+      "category": "education"
+    },
+    {
       "id": "whiteman-downtown-youth-vendor-market-2026-11-14",
       "title": "Downtown Youth Vendor Market!",
       "date": "2026-11-14T00:00:00",
@@ -394,6 +384,16 @@
       "category": "family"
     },
     {
+      "id": "whiteman-lunch-time-bingo-2026-11-17",
+      "title": "Lunch Time Bingo",
+      "date": "2026-11-17T11:30:00",
+      "endDate": "2026-11-17T12:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
       "id": "whiteman-jingle-bell-hikes-2026-12-01",
       "title": "Jingle Bell Hikes",
       "date": "2026-12-01T00:00:00",
@@ -402,6 +402,56 @@
       "address": "Knob Noster, MO",
       "description": "Public community event near Whiteman AFB (Jingle Bell Hikes).",
       "category": "community"
+    },
+    {
+      "id": "whiteman-steam-library-2026-12-09",
+      "title": "STEAM – Library",
+      "date": "2026-12-09T13:00:00",
+      "endDate": "2026-12-09T14:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "STEAM – Science, Technology, Engineering, Art, Mathematics Whiteman AFB Library. Every 2nd & 4th Wednesday of each month. Ages 6-12",
+      "category": "education"
+    },
+    {
+      "id": "whiteman-lunch-time-bingo-2026-12-15",
+      "title": "Lunch Time Bingo",
+      "date": "2026-12-15T11:30:00",
+      "endDate": "2026-12-15T12:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "whiteman-steam-library-2027-01-13",
+      "title": "STEAM – Library",
+      "date": "2027-01-13T13:00:00",
+      "endDate": "2027-01-13T14:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "STEAM – Science, Technology, Engineering, Art, Mathematics Whiteman AFB Library. Every 2nd & 4th Wednesday of each month. Ages 6-12",
+      "category": "education"
+    },
+    {
+      "id": "whiteman-lunch-time-bingo-2027-01-19",
+      "title": "Lunch Time Bingo",
+      "date": "2027-01-19T11:30:00",
+      "endDate": "2027-01-19T12:30:00",
+      "location": "",
+      "address": "",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "whiteman-steam-library-2027-02-10",
+      "title": "STEAM – Library",
+      "date": "2027-02-10T13:00:00",
+      "endDate": "2027-02-10T14:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "STEAM – Science, Technology, Engineering, Art, Mathematics Whiteman AFB Library. Every 2nd & 4th Wednesday of each month. Ages 6-12",
+      "category": "education"
     }
   ],
   "newcomers": {

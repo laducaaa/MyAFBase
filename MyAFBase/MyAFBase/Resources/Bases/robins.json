@@ -7,7 +7,7 @@
   "wing": "78 ABW",
   "latitude": 32.6401,
   "longitude": -83.5919,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "robins-notif-real-id",
@@ -359,66 +359,6 @@
   ],
   "events": [
     {
-      "id": "robins-aqua-challenge-fitness-class-2026-09-14",
-      "title": "Aqua Challenge Fitness Class",
-      "date": "2026-09-14T09:00:00",
-      "endDate": "2026-09-14T10:00:00",
-      "location": "Fitness Center",
-      "address": "826 Eighth Street, Robins AFB, GA",
-      "description": "Jump right into our aqua classes to build cardiovascular fitness and strength! Our water aerobic classes are easy on your joints, yet challenging enough to help you reach new levels of fitness. This is a low-impact water aerobics class, and is suitable to all fitness levels.",
-      "category": "fitness"
-    },
-    {
-      "id": "robins-spin-fitness-class-2026-09-14",
-      "title": "Spin Fitness Class",
-      "date": "2026-09-14T16:00:00",
-      "endDate": "2026-09-14T17:00:00",
-      "location": "Fitness Center",
-      "address": "826 Eighth Street, Robins AFB, GA",
-      "description": "Indoor cycling exposing participants to a variety of training styles and energy zones to improve health and fitness. Be ready for the ride of your life as the instructor has you sprint, climb hills, and other drills to simulate outdoor riding!",
-      "category": "fitness"
-    },
-    {
-      "id": "robins-zumba-fitness-class-2026-09-14",
-      "title": "Zumba Fitness Class",
-      "date": "2026-09-14T16:00:00",
-      "endDate": "2026-09-14T17:00:00",
-      "location": "Fitness Center",
-      "address": "826 Eighth Street, Robins AFB, GA",
-      "description": "Zumba fuses easy to follow dance moves with aerobic conditioning to make exercising fun for all fitness levels.",
-      "category": "fitness"
-    },
-    {
-      "id": "robins-stretch-fitness-class-2026-09-15",
-      "title": "Stretch Fitness Class",
-      "date": "2026-09-15T09:30:00",
-      "endDate": "2026-09-15T10:30:00",
-      "location": "Fitness Center",
-      "address": "826 Eighth Street, Robins AFB, GA",
-      "description": "Low impact stretching to improve flexibility, mobility, and overall body awareness. Expect guided movements and postures aimed at loosening muscles, relieving tension, and enhancing range of motion.",
-      "category": "fitness"
-    },
-    {
-      "id": "robins-yoga-fitness-class-2026-09-15",
-      "title": "Yoga Fitness Class",
-      "date": "2026-09-15T16:30:00",
-      "endDate": "2026-09-15T17:30:00",
-      "location": "Fitness Center",
-      "address": "826 Eighth Street, Robins AFB, GA",
-      "description": "Engage your mind, body, and spirit in equal measure. Along with added strength, an increase in flexibility and balance will be gained. In addition, there is time to relax and reflect to let your daily stress fade away. All ages and levels of experience will benefit.",
-      "category": "fitness"
-    },
-    {
-      "id": "robins-wings-over-wonder-junior-air-force-ball-2026-09-19",
-      "title": "Wings Over Wonder Junior Air Force Ball",
-      "date": "2026-09-19T17:00:00",
-      "endDate": "2026-09-19T21:00:00",
-      "location": "Youth Center",
-      "address": "720 Hawkinsville St. Bldg. 1021, Robins AFB, GA, 31098",
-      "description": "<p>KidVenture invites young guests to soar into a memorable evening at the “Wings Over Wonder” Junior Air Force Ball on Saturday, September 19, 2026, from 5–9 p.m. Designed for children […]</p>\\n",
-      "category": "family"
-    },
-    {
       "id": "robins-murder-mystery-date-night-2026-09-25",
       "title": "Murder Mystery Date Night",
       "date": "2026-09-25T17:30:00",
@@ -436,6 +376,16 @@
       "location": "Heritage Club",
       "address": "956 Ninth St. Bldg. 956, Robins AFB, GA 31098",
       "description": "Outdoor Recreation invites you to an unforgettable Murder Mystery Date Night featuring “Murder at the Colosseum” on September 25, 2026, at the Heritage Club Ballroom. Guests will take part in an interactive murder mystery game filled with clues, characters, improvisation, and plenty of laughs. Dinner is included as part of the evening, and attendees are encouraged to dress up and embrace the ancient Roman theme for e",
+      "category": "outdoor"
+    },
+    {
+      "id": "robins-fall-break-camp-2026-10-13",
+      "title": "Fall Break Camp",
+      "date": "2026-10-13T08:00:00",
+      "endDate": "2026-10-16T17:00:00",
+      "location": "Youth Center",
+      "address": "720 Hawkinsville St. Bldg. 1021, Robins AFB, GA, 31098",
+      "description": "Adventure Awaits This Fall Break! Looking for a fun and engaging way for your child to spend Fall Break? Robins AFB School Age Program has you covered! Join us for Fall Break Camp, October 13–16 , where children ages 5–12 can enjoy three days filled with games, friends, outdoor activities, field trips, and plenty of opportunities to make great memories. 🌽 Field Trip to Lane Packing One of the highlights of the week will be a special field trip to Lane Packing , where campers can enjoy some classic fall activities, including: 🌽 Exploring a corn maze 🚜 Enjoying a fun hayride 🍦 Treating themselve",
       "category": "outdoor"
     }
   ],

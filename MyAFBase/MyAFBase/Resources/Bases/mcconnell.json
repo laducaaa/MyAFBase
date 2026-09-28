@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -370,66 +370,6 @@
   ],
   "events": [
     {
-      "id": "mcconnell-story-time-squad-2026-09-15",
-      "title": "Story Time Squad",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T11:00:00",
-      "location": "McConnell AFB Library",
-      "address": "53476 Wichita St., Wichita, KS, 67221",
-      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
-      "category": "family"
-    },
-    {
-      "id": "mcconnell-kanza-kids-2026-09-16",
-      "title": "Kanza Kids",
-      "date": "2026-09-16T16:15:00",
-      "endDate": "2026-09-16T17:00:00",
-      "location": "McConnell AFB Library",
-      "address": "53476 Wichita St., Wichita, KS, 67221",
-      "description": "Kanza Kids – Will It Whip? Get ready for a deliciously fun experiment at Kanza Kids! This month, we’re asking the question: “Will It Whip?” as we explore the science behind whipped cream and create our own tasty flavored whipped cream. Through this hands-on activity, kids will learn how simple ingredients transform into a fluffy treat while experimenting with different flavors. It’s the perfect mix of science, creativity, and fun! The program is held at the Youth Center, but you do not need to be a Youth Center member to attend. Children under the age of 12 must be accompanied by an adult. Com",
-      "category": "family"
-    },
-    {
-      "id": "mcconnell-air-force-79th-birthday-social-2026-09-18",
-      "title": "Air Force 79th Birthday Social",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "McConnell AFB",
-      "address": "Wichita, KS",
-      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
-      "category": "community"
-    },
-    {
-      "id": "mcconnell-family-library-lights-camera-create-2026-09-18",
-      "title": "Family Library Lights, Camera, Create!",
-      "date": "2026-09-18T18:00:00",
-      "endDate": "2026-09-18T20:00:00",
-      "location": "McConnell AFB Library",
-      "address": "53476 Wichita St., Wichita, KS, 67221",
-      "description": "Family Library: Lights, Camera, Create! – The Iron Giant (Rated PG) Join us for a fun-filled afternoon of creativity and a classic family movie! Bring your current work in progress—whether it’s knitting, crocheting, coloring, drawing, or another creative project—and settle in for a showing of The Iron Giant (Rated PG). We’ll also have a themed craft available for anyone who’d like to create something new during the movie. Friendly snacks and drinks will be provided, so come relax, get creative, and enjoy a cozy movie experience with family and friends. We can’t wait to see you there!",
-      "category": "family"
-    },
-    {
-      "id": "mcconnell-hearts-apart-2026-09-19",
-      "title": "Hearts Apart",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T17:00:00",
-      "location": "Tanganyika Wildlife Park",
-      "address": "1000 S Hawkins Ln, Goddard, KS, 67052",
-      "description": "Deployment-Affected Family Day at Tanganyika Wildlife Park Take a break, make memories, and enjoy a fun-filled day with your family at Tanganyika Wildlife Park! Deployment-affected spouses and their families are invited to spend the day exploring incredible animal encounters, interactive exhibits, and exciting attractions. Important: Families must arrive between 10:00 a.m. and 11:00 a.m. to receive entry. RSVP by September 16 by calling the Military & Family Readiness Center (M&FRC) at 316-759-6020. We look forward to sharing a day of adventure, connection, and family fun with you!",
-      "category": "outdoor"
-    },
-    {
-      "id": "mcconnell-swim-lessons-2026-09-19",
-      "title": "Swim Lessons",
-      "date": "2026-09-19T12:00:00",
-      "endDate": "2026-09-19T16:00:00",
-      "location": "",
-      "address": "",
-      "description": "🏊‍♂️ Make a Splash with Swim Lessons! 🌊 Join Outdoor Recreation for swim classes—just $10 per class with 3 classes offered each month! 💦 📅 Class Schedule: 👶 Parent & Baby (6+ months): 12:00–12:45 PM 🧒 Toddler (2–5 years): 12:50–1:35 PM 🧑‍🎓 School Age (5–10 years): 1:40–2:25 PM 🧒 School Age (11–16 years): 2:25–3:10 PM 👩‍🦳 Adult (16+ years): 3:15–4:00 PM 📍 Sign up today with Outdoor Recreation! 📝 Call 316-759-4435. 💧 Spots are limited, so dive in and reserve yours now! 💧 What to Bring to Swim Lessons: • Swimsuit • Towel • Googles (Optional) • Swim Cap (Optional) • Water bottle (recommended)",
-      "category": "outdoor"
-    },
-    {
       "id": "mcconnell-soccer-tournament-2026-09-22",
       "title": "Soccer Tournament",
       "date": "2026-09-22",
@@ -440,6 +380,16 @@
       "category": "community"
     },
     {
+      "id": "mcconnell-story-time-squad-2026-09-22",
+      "title": "Story Time Squad",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
+      "category": "family"
+    },
+    {
       "id": "mcconnell-game-night-2026-09-25",
       "title": "Game Night",
       "date": "2026-09-25T18:00:00",
@@ -447,6 +397,16 @@
       "location": "The Breakaway Lounge",
       "address": "Dole Center Building #412, McConnell AFB, KS, 67221",
       "description": "Celebrate the end of the month with a night of pure fun at The Breakaway! Kick off your weekend early and dive into an evening packed with entertainment. We’ve got something for everyone: • Six different gaming consoles • Classic and modern board games • Mini putt-putt • Sports games and more! Bring your friends—or come make new ones! No matter how you play, The Breakaway is the place to be to wrap up the month.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mcconnell-swim-lessons-2026-09-26",
+      "title": "Swim Lessons",
+      "date": "2026-09-26T12:00:00",
+      "endDate": "2026-09-26T16:00:00",
+      "location": "",
+      "address": "",
+      "description": "🏊‍♂️ Make a Splash with Swim Lessons! 🌊 Join Outdoor Recreation for swim classes—just $10 per class with 3 classes offered each month! 💦 📅 Class Schedule: 👶 Parent & Baby (6+ months): 12:00–12:45 PM 🧒 Toddler (2–5 years): 12:50–1:35 PM 🧑‍🎓 School Age (5–10 years): 1:40–2:25 PM 🧒 School Age (11–16 years): 2:25–3:10 PM 👩‍🦳 Adult (16+ years): 3:15–4:00 PM 📍 Sign up today with Outdoor Recreation! 📝 Call 316-759-4435. 💧 Spots are limited, so dive in and reserve yours now! 💧 What to Bring to Swim Lessons: • Swimsuit • Towel • Googles (Optional) • Swim Cap (Optional) • Water bottle (recommended)",
       "category": "outdoor"
     },
     {
@@ -520,6 +480,36 @@
       "category": "family"
     },
     {
+      "id": "mcconnell-story-time-squad-2026-10-06",
+      "title": "Story Time Squad",
+      "date": "2026-10-06T10:00:00",
+      "endDate": "2026-10-06T11:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
+      "category": "family"
+    },
+    {
+      "id": "mcconnell-first-tuesday-bingo-2026-10-06",
+      "title": "First Tuesday Bingo",
+      "date": "2026-10-06T17:30:00",
+      "endDate": "2026-10-06T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "First Tuesday Bingo Get ready for a fun night of excitement! Join us in the Pulley Ballroom —doors open at 5:30 pm , and games begin at 6:30 pm . Ages 16+ are welcome to attend; ages 18+ may play and win. For $25 , you’ll receive entry to all 10 regular games plus both jackpot rounds ! Don’t have a dauber? No worries— daubers are available for purchase on-site.",
+      "category": "entertainment"
+    },
+    {
+      "id": "mcconnell-trivia-thursday-2026-10-08",
+      "title": "Trivia Thursday",
+      "date": "2026-10-08T15:00:00",
+      "endDate": "2026-10-08T22:00:00",
+      "location": "Tanker Tavern",
+      "address": "Dole Center",
+      "description": "Every Second Thursday from 3pm to 10pm Put your knowledge to the test at Trivia Thursday with general and occasional themed trivia, tiered prizes, and drink specials all evening—hosted by the Community Center!",
+      "category": "entertainment"
+    },
+    {
       "id": "mcconnell-halloween-wine-bottle-lights-2026-10-09",
       "title": "Halloween Wine Bottle Lights",
       "date": "2026-10-09",
@@ -530,6 +520,16 @@
       "category": "holiday"
     },
     {
+      "id": "mcconnell-youth-center-fall-into-baking-bake-off-2026-10-10",
+      "title": "Youth Center “FALL INTO BAKING” Bake-Off",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T11:00:00",
+      "location": "Youth Center",
+      "address": "3015 Arnold Blvd, Bldg 2800, Wichita, KS, 67210",
+      "description": "The Youth Center will host a Bake-Off inspired by one of our members, Alice Ornelas. Two categories: pre-teens must bake a cake and teens must bake cookies. 1st and 2nd place prizes in each category. ALL baked goods MUST be cooked by participants with minimal parent support and must be cooked at home and brought to the Youth Center. Baked goods will be judged on: appearance-texture-taste. Participants will bring their recipe cards (provided by YC) on the day of with all ingredients used. CALL 759-4070 to register and pick up blank recipe cards.",
+      "category": "family"
+    },
+    {
       "id": "mcconnell-cyp-haunted-house-2026-10-16",
       "title": "CYP Haunted House",
       "date": "2026-10-16",
@@ -538,6 +538,16 @@
       "address": "Wichita, KS",
       "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
       "category": "community"
+    },
+    {
+      "id": "mcconnell-creep-it-real-dumbbells-and-dance-party-2026-10-20",
+      "title": "Creep it Real: Dumbbells and Dance Party",
+      "date": "2026-10-20T15:30:00",
+      "endDate": "2026-10-20T16:30:00",
+      "location": "Aerobics Room",
+      "address": "Fitness Center, McConnell AFB, KS, 67221",
+      "description": "Where the beats are spooky and the gains are scary! Group class Signs up not required. Participants have a chance to win a raffled gift card at the end of class",
+      "category": "holiday"
     },
     {
       "id": "mcconnell-frontiers-in-flight-2026",
@@ -568,6 +578,16 @@
       "address": "Wichita, KS",
       "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
       "category": "recreation"
+    },
+    {
+      "id": "mcconnell-turkey-trot-5k-2026-11-10",
+      "title": "Turkey Trot 5K",
+      "date": "2026-11-10T07:00:00",
+      "endDate": "2026-11-10T08:00:00",
+      "location": "Fitness Center",
+      "address": "Building #412, McConnell AFB, KS, 67221",
+      "description": "The Fast and the Feathered! Join us as we FLY through our outdoor race track and get some calories burned in preparation for Thanksgiving! • First place first male and female runner will receive a prize turkey • One extra runner at the event will be chosen at random to receive a BONUS prize turkey. • To sign up for the event: https://www.signupgenius.com/go/10C054CADAB2FA4F8C61-63838846-turkey • To sign up as a volunteer: https://www.signupgenius.com/go/10C054CADAB2FA4F8C61-64394809-volunteers",
+      "category": "holiday"
     },
     {
       "id": "mcconnell-winterfest-2026-12-05",

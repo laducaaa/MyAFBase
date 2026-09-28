@@ -7,7 +7,7 @@
   "wing": "436 AW",
   "latitude": 39.1295,
   "longitude": -75.466,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "dover-notif-real-id",
@@ -255,46 +255,6 @@
   ],
   "events": [
     {
-      "id": "dover-back-to-school-climb-2026-09-15",
-      "title": "Back to School Climb",
-      "date": "2026-09-15T16:30:00",
-      "endDate": "2026-09-15T18:30:00",
-      "location": "Dover AFB Outdoor Recreation",
-      "address": "475 Chevron Avenue, Dover, DE, 19902",
-      "description": "Ring in the school year with ODR's Back to School Climb! No climbing experience needed, ages 3 and up. $10 per person. Must have legal guardian with anyone under 18.",
-      "category": "outdoor"
-    },
-    {
-      "id": "dover-heavy-minds-trivia-night-2026-09-17",
-      "title": "Heavy Minds Trivia Night",
-      "date": "2026-09-17T18:30:00",
-      "endDate": "2026-09-17T21:00:00",
-      "location": "Dover AFB T-Tails Lounge",
-      "address": "479 Chevron Avenue, Dover, DE, 19902",
-      "description": "Stop by The Landings for monthly Heavy Minds Trivia Nights! Entry is FREE, drafts are $2, food and drinks are available for purchase. Menu is ESM-eligible. Check the flyer for",
-      "category": "entertainment"
-    },
-    {
-      "id": "dover-intramural-football-sign-ups-deadline-2026-09-18",
-      "title": "Intramural Football Sign-Ups Deadline",
-      "date": "2026-09-18T08:00:00",
-      "endDate": "2026-09-18T15:00:00",
-      "location": "Dover AFB Fitness Center",
-      "address": "423 Chevron Avenue, Dover, DE, 19902",
-      "description": "Sign up for Intramural Football at the Fitness Center! LOIs are due on or before September 18. Coaches meeting on September 18 @ 3pm. Contact SSgt Denney for more details",
-      "category": "fitness"
-    },
-    {
-      "id": "dover-bike-atlantic-city-boardwalk-2026-09-19",
-      "title": "Bike Atlantic City Boardwalk",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T13:00:00",
-      "location": "Atlantic City Boardwalk",
-      "address": "2301 Boardwalk, Atlantic City, NJ 08401",
-      "description": "Bike the Atlantic City Boardwalk with ODR! Experience the coastline on a trip down this historic 5-mile boardwalk! $55 per person, MUST visit Bldg. 475 to sign up. Call 302-677-3959 for info!",
-      "category": "outdoor"
-    },
-    {
       "id": "dover-got-your-six-buddy-ruck-2026-09-23",
       "title": "“Got Your Six” Buddy Ruck",
       "date": "2026-09-23T13:00:00",
@@ -332,6 +292,16 @@
       "location": "Dover AFB Fitness Center",
       "address": "423 Chevron Avenue, Dover, DE, 19902",
       "description": "Try out for 2026 Varsity Basketball! Stop by the Fitness Center from Sep. 29 to Sep. 30 from 6pm to 7:30pm. Call 302-677-3962 or visit the front desk for more",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-varsity-basketball-tryouts-2026-09-30",
+      "title": "Varsity Basketball Tryouts",
+      "date": "2026-09-30T18:00:00",
+      "endDate": "2026-09-30T19:30:00",
+      "location": "Dover AFB Fitness Center",
+      "address": "423 Chevron Avenue, Dover, DE, 19902",
+      "description": "Try out for 2026 Varsity Basketball! Stop by the Fitness Center from Sep. 29 to Sep. 30 from 6pm to 7:30pm. Call 302-677-3962 or visit the front desk for more information!",
       "category": "fitness"
     },
     {
@@ -385,6 +355,26 @@
       "category": "holiday"
     },
     {
+      "id": "dover-pumpkin-archery-jack-o-launch-2026-10-13",
+      "title": "Pumpkin Archery & Jack-o’-Launch",
+      "date": "2026-10-13T16:30:00",
+      "endDate": "2026-10-13T18:30:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Join ODR for Pumpkin Archery this fall! Take aim at real pumpkins launched sky-high from a slingshot! $22 per person, ages 6 and up. All gear included. MUST sign up @ Bldg. 475 before October 12th! Call 302-677-3959 for more information.",
+      "category": "outdoor"
+    },
+    {
+      "id": "dover-heavy-minds-trivia-night-2026-10-15",
+      "title": "Heavy Minds Trivia Night",
+      "date": "2026-10-15T18:30:00",
+      "endDate": "2026-10-15T21:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Stop by The Landings for monthly Heavy Minds Trivia Nights! Entry is FREE, drafts are $2, food and drinks are available for purchase. Menu is ESM-eligible. Check the flyer for dates. Call 302-677-6024 for more info!",
+      "category": "entertainment"
+    },
+    {
       "id": "dover-oktoberfest-2026-10-16",
       "title": "Oktoberfest",
       "date": "2026-10-16T15:30:00",
@@ -393,6 +383,56 @@
       "address": "479 Chevron Avenue, Dover, DE 19902",
       "description": "Celebrate Oktoberfest with FSS! Stop by T-Tails at The Landings on Oct. 16 for Oktoberfest-themed food, drinks, games, and more! Buffet is FREE for members, $7 for non-members. Call 302-677-6024 for more information.",
       "category": "holiday"
+    },
+    {
+      "id": "dover-bluesuiters-golf-tournament-2026-10-19",
+      "title": "Bluesuiters Golf Tournament",
+      "date": "2026-10-19T09:00:00",
+      "endDate": "2026-10-19T13:00:00",
+      "location": "Dover AFB Eagle Creek Golf Course",
+      "address": "810 14th Street, Dover, DE, 19901",
+      "description": "The 436th FSS is pleased to announce this year’s annual 𝗕𝗹𝘂𝗲𝘀𝘂𝗶𝘁𝗲𝗿𝘀 𝗚𝗼𝗹𝗳 𝗧𝗼𝘂𝗿𝗻𝗮𝗺𝗲𝗻𝘁 on Oct. 19, 2026! Sign up 𝗙𝗢𝗥𝗘 a fantastic opportunity where Dover AFB Airmen tee off and connect with local civic leaders. Join us at Eagle Creek for a chance to share stories, ideas, and experiences! $70 per player. Scan the QR code or call 302-677-2988 to sign up TODAY!",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-halloween-planter-workshop-2026-10-24",
+      "title": "Halloween Planter Workshop",
+      "date": "2026-10-24T10:00:00",
+      "endDate": "2026-10-24T12:00:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Get into the autumn spirit with ODR’s hands-on Halloween Planter Workshop! Design your very own petrifying planter for just $20 per person! MUST visit Bldg. 475 to sign up. Call 302-677-3959 for more info!",
+      "category": "holiday"
+    },
+    {
+      "id": "dover-trunk-or-treat-2026-2026-10-30",
+      "title": "Trunk-or-Treat 2026",
+      "date": "2026-10-30T17:00:00",
+      "endDate": "2026-10-30T19:00:00",
+      "location": "Dover AFB Military & Family Readiness Center",
+      "address": "846 Sumner Drive, Dover, DE, 19902",
+      "description": "Save the date! Join us for 𝗧𝗿𝘂𝗻𝗸-𝗼𝗿-𝗧𝗿𝗲𝗮𝘁: a spook-tacular evening filled with treats, tricks, and trunk-loads of fun! Featuring games, food, bar, rock-climbing, prizes for Best Trunk, live music, and MORE! Open to all DoD cardholders. Call 302-677-6930 for more information.",
+      "category": "holiday"
+    },
+    {
+      "id": "dover-heavy-minds-trivia-night-2026-11-19",
+      "title": "Heavy Minds Trivia Night",
+      "date": "2026-11-19T18:30:00",
+      "endDate": "2026-11-19T21:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Stop by The Landings for monthly Heavy Minds Trivia Nights! Entry is FREE, drafts are $2, food and drinks are available for purchase. Menu is ESM-eligible. Check the flyer for dates. Call 302-677-6024 for more info!",
+      "category": "entertainment"
+    },
+    {
+      "id": "dover-heavy-minds-trivia-night-2026-12-03",
+      "title": "Heavy Minds Trivia Night",
+      "date": "2026-12-03T18:30:00",
+      "endDate": "2026-12-03T21:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Stop by The Landings for monthly Heavy Minds Trivia Nights! Entry is FREE, drafts are $2, food and drinks are available for purchase. Menu is ESM-eligible. Check the flyer for dates. Call 302-677-6024 for more info!",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

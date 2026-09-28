@@ -7,7 +7,7 @@
   "wing": "31 FW",
   "latitude": 46.0319,
   "longitude": 12.5965,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "aviano-notif-real-id",
@@ -195,64 +195,64 @@
   ],
   "events": [
     {
-      "id": "aviano-macram-art-class-2026-09-15",
-      "title": "Macramé Art Class",
-      "date": "2026-09-15T17:00:00",
-      "endDate": "2026-09-15T19:00:00",
-      "location": "Arts and Crafts Center",
+      "id": "aviano-family-movie-night-2026-09-21",
+      "title": "Family Movie Night",
+      "date": "2026-09-21T17:00:00",
+      "endDate": "2026-09-21T20:00:00",
+      "location": "La Bella Vista Club",
       "address": "Aviano, Italy",
-      "description": "Make it. Wear it. Tell everyone you made it yourself. Ready to learn something new? Join the Arts & Crafts Center for a four-part Macramé Art Class and turn simple",
-      "category": "recreation"
+      "description": "Make Mondays Family Night at La Bella Vista Club! Looking for an easy way to kick off the week? Bring the whole family to Family Movie Night every Monday at LBV! With every adult entrée purchase of $10 or more, receive one FREE kids’ meal! While you enjoy dinner, the kids can settle in for: A family-friendly movie Games Coloring pages An evening full of fun! It’s the perfect excuse to skip cooking, enjoy a delicious meal, and make some family memories together. La Bella Vista Club Every Monday 5:00 PM – 8:00 PM We can’t wait to see your family there!",
+      "category": "family"
     },
     {
-      "id": "aviano-macram-art-class-2026-09-17",
-      "title": "Macramé Art Class",
-      "date": "2026-09-17T17:00:00",
-      "endDate": "2026-09-17T19:00:00",
-      "location": "Arts and Crafts Center",
-      "address": "Aviano, Italy",
-      "description": "Make it. Wear it. Tell everyone you made it yourself. Ready to learn something new? Join the Arts & Crafts Center for a four-part Macramé Art Class and turn simple cord into your very own handmade purse! Whether you're already crafty or have never tried macramé before, this is a fun way to get creative, learn a new skill, and leave with something you'll actually want to use. September 15, 17, 22 & 24 5-7 PM $85 for a",
-      "category": "recreation"
-    },
-    {
-      "id": "aviano-air-force-birthday-cake-cutting-2026-09-18",
-      "title": "Air Force Birthday Cake Cutting",
-      "date": "2026-09-18T00:00:00",
-      "endDate": "2026-09-18T23:59:59",
-      "location": "Aviano AB",
-      "address": "Aviano, Italy",
-      "description": "Please join us as we commemorate this special anniversary with an evening of tradition, exceptional cuisine, and fellowship. Guests will enjoy a specially prepared meal, followed by a traditional cake-cutting",
-      "category": "holiday"
-    },
-    {
-      "id": "aviano-canyoning-at-val-arzino-canyon-2026-09-19",
-      "title": "Canyoning at Val Arzino Canyon",
-      "date": "2026-09-19T00:00:00",
-      "endDate": "2026-09-19T23:59:59",
-      "location": "Outdoor Recreation",
-      "address": "Aviano, Italy",
-      "description": "Get ready to explore the canyon from the inside out! This adventure combines hiking, rock climbing, swimming, and rappelling as you make your way through the stunning Val Arzino Canyon,",
-      "category": "outdoor"
-    },
-    {
-      "id": "aviano-venetian-island-boat-tour-2026-09-19",
-      "title": "Venetian Island Boat Tour",
-      "date": "2026-09-19T08:00:00",
-      "endDate": "2026-09-19T17:00:00",
-      "location": "ITT",
-      "address": "Aviano, Italy",
-      "description": "🚤 Venetian Island Boat Tour | September 19 🇮🇹 YOU’VE SEEN VENICE… BUT HAVE YOU EXPLORED THE LAGOON? 🚤✨ Spend your Saturday cruising across the Venetian Lagoon and",
-      "category": "community"
-    },
-    {
-      "id": "aviano-pirate-day-2026-09-19",
-      "title": "Pirate Day",
-      "date": "2026-09-19T10:00:00",
-      "endDate": "2026-09-19T14:00:00",
+      "id": "aviano-storytime-2026-09-22",
+      "title": "Storytime",
+      "date": "2026-09-22T10:30:00",
+      "endDate": "2026-09-22T11:00:00",
       "location": "Library",
       "address": "Aviano, Italy",
-      "description": "Ahoy, mateys! Pirate Day is taking over the Library! Set sail for a morning of pirate-themed crafts, games, and all things swashbuckling. Bring the whole crew because this adventure is",
+      "description": "Storytime is back at the Library! Bring your little readers for a cozy morning filled with stories, imagination, and plenty of fun. It’s the perfect way to introduce young children to the magic of books while enjoying some quality time together. For ages 0–36 months Come snuggle up, turn the pages, and let the stories begin because it’s never too early to fall in love with reading!",
       "category": "family"
+    },
+    {
+      "id": "aviano-macram-art-class-2026-09-22",
+      "title": "Macramé Art Class",
+      "date": "2026-09-22T17:00:00",
+      "endDate": "2026-09-22T19:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "Aviano, Italy",
+      "description": "Make it. Wear it. Tell everyone you made it yourself. Ready to learn something new? Join the Arts & Crafts Center for a four-part Macramé Art Class and turn simple cord into your very own handmade purse! Whether you’re already crafty or have never tried macramé before, this is a fun way to get creative, learn a new skill, and leave with something you’ll actually want to use. September 15, 17, 22 & 24 5–7 PM $85 for all four classes Theme: Purse Making Ages 16+ Arts & Crafts Center, Bldg. 1464 All four classes are needed to complete your purse, so you’ll get plenty of time to learn, create, and",
+      "category": "education"
+    },
+    {
+      "id": "aviano-tapas-trivia-tuesdays-2026-09-22",
+      "title": "Tapas & Trivia Tuesdays",
+      "date": "2026-09-22T17:00:00",
+      "endDate": "2026-09-22T20:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "TAPAS & TRIVIA TUESDAYS Think you know a little bit about everything? Time to prove it. Grab your smartest friends, come hungry, and make Tuesday night your trivia night at LBV! Enjoy tapas, put your random knowledge to good use, and see if your team has what it takes to come out on top. Every Tuesday 5–8 PM La Bella Vista Club Good food + good company + a little friendly competition = a much better Tuesday night.",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-wing-wednesday-2026-09-23",
+      "title": "Wing Wednesday",
+      "date": "2026-09-23T08:00:00",
+      "endDate": "2026-09-23T17:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "The best midweek tradition is back! It’s Wing Wednesday at La Bella Vista Club! Gather your friends, bring your appetite, and enjoy your favorite wings for just $1 each. Every Wednesday 5:00 PM – 7:00 PM Only $1 per wing (10-wing minimum, dine-in only) Choose from delicious flavors like: Buffalo Lemon Pepper Honey Chipotle Garlic Parmesan BBQ Cajun …and more! Pair them with your favorite dipping sauce and make your Wednesday plans easy. We’ll see you at LBV! See less",
+      "category": "recreation"
+    },
+    {
+      "id": "aviano-nerd-night-pints-2026-09-24",
+      "title": "Nerd Night & Pints",
+      "date": "2026-09-24T17:00:00",
+      "endDate": "2026-09-24T21:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Nerd Nights & Pints Roll for a great night out! Looking for something different to do on Thursday nights? Grab your favorite board game, gather your friends, and head to La Bella Vista Club for an evening of games, laughs, and great drinks! Spend $10 or more and enjoy a FREE fountain drink, plus themed alcoholic and non-alcoholic drink specials. Light snacks are also available upon request. Every Thursday 5:00 PM – 9:00 PM Ages 16+ Whether you’re into strategy games, party games, or classic favorites, there’s always room at the table. See you Thursday!",
+      "category": "entertainment"
     },
     {
       "id": "aviano-final-friday-2026-09-25",
@@ -285,6 +285,16 @@
       "category": "family"
     },
     {
+      "id": "aviano-country-night-2026-09-25",
+      "title": "Country Night",
+      "date": "2026-09-25T18:00:00",
+      "endDate": "2026-09-25T23:30:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Country Night – Facebook Caption Dust off your boots because Country Night is back at the La Bella Vista Club all August long! Every Friday beginning at 6 PM, enjoy your favorite country hits, great food, and a fun night out with friends. Here’s what’s happening: August 7, 14 & 21: Learn some Country Line Dancing with Natalie beginning at 7:30 PM August 28: Live music by Brian Whether you’re an experienced dancer or just want to enjoy the music, everyone is welcome. Every Friday in August 6:00 PM until close La Bella Vista Club Grab your boots, bring your friends, and join us for a month of co",
+      "category": "entertainment"
+    },
+    {
       "id": "aviano-skydiving-trip-2026-09-26",
       "title": "Skydiving Trip",
       "date": "2026-09-26T00:00:00",
@@ -293,6 +303,56 @@
       "address": "Aviano, Italy",
       "description": "Ready to take your adventure to a whole new altitude? Experience the ultimate adrenaline rush with a tandem skydive at Skydive Venice. You’ll receive professional instruction before leaping, then experience",
       "category": "outdoor"
+    },
+    {
+      "id": "aviano-nerd-night-pints-2026-10-01",
+      "title": "Nerd Night & Pints",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T21:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Nerd Nights & Pints Roll for a great night out! Looking for something different to do on Thursday nights? Grab your favorite board game, gather your friends, and head to La Bella Vista Club for an evening of games, laughs, and great drinks! Spend $10 or more and enjoy a FREE fountain drink, plus themed alcoholic and non-alcoholic drink specials. Light snacks are also available upon request. Every Thursday 5:00 PM – 9:00 PM Ages 16+ Whether you’re into strategy games, party games, or classic favorites, there’s always room at the table. See you Thursday!",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-country-night-2026-10-02",
+      "title": "Country Night",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T23:30:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Country Night – Facebook Caption Dust off your boots because Country Night is back at the La Bella Vista Club all August long! Every Friday beginning at 6 PM, enjoy your favorite country hits, great food, and a fun night out with friends. Here’s what’s happening: August 7, 14 & 21: Learn some Country Line Dancing with Natalie beginning at 7:30 PM August 28: Live music by Brian Whether you’re an experienced dancer or just want to enjoy the music, everyone is welcome. Every Friday in August 6:00 PM until close La Bella Vista Club Grab your boots, bring your friends, and join us for a month of co",
+      "category": "entertainment"
+    },
+    {
+      "id": "aviano-family-movie-night-2026-10-05",
+      "title": "Family Movie Night",
+      "date": "2026-10-05T17:00:00",
+      "endDate": "2026-10-05T20:00:00",
+      "location": "La Bella Vista Club",
+      "address": "Aviano, Italy",
+      "description": "Make Mondays Family Night at La Bella Vista Club! Looking for an easy way to kick off the week? Bring the whole family to Family Movie Night every Monday at LBV! With every adult entrée purchase of $10 or more, receive one FREE kids’ meal! While you enjoy dinner, the kids can settle in for: A family-friendly movie Games Coloring pages An evening full of fun! It’s the perfect excuse to skip cooking, enjoy a delicious meal, and make some family memories together. La Bella Vista Club Every Monday 5:00 PM – 8:00 PM We can’t wait to see your family there!",
+      "category": "family"
+    },
+    {
+      "id": "aviano-storytime-2026-10-06",
+      "title": "Storytime",
+      "date": "2026-10-06T10:30:00",
+      "endDate": "2026-10-06T11:00:00",
+      "location": "Library",
+      "address": "Aviano, Italy",
+      "description": "Storytime is back at the Library! Bring your little readers for a cozy morning filled with stories, imagination, and plenty of fun. It’s the perfect way to introduce young children to the magic of books while enjoying some quality time together. For ages 0–36 months Come snuggle up, turn the pages, and let the stories begin because it’s never too early to fall in love with reading!",
+      "category": "family"
+    },
+    {
+      "id": "aviano-storytime-2026-11-03",
+      "title": "Storytime",
+      "date": "2026-11-03T10:30:00",
+      "endDate": "2026-11-03T11:00:00",
+      "location": "Library",
+      "address": "Aviano, Italy",
+      "description": "Storytime is back at the Library! Bring your little readers for a cozy morning filled with stories, imagination, and plenty of fun. It’s the perfect way to introduce young children to the magic of books while enjoying some quality time together. For ages 0–36 months Come snuggle up, turn the pages, and let the stories begin because it’s never too early to fall in love with reading!",
+      "category": "family"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "23 WG",
   "latitude": 30.9678,
   "longitude": -83.193,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "moody-notif-real-id",
@@ -370,64 +370,24 @@
   ],
   "events": [
     {
-      "id": "moody-family-fit-camp-2026-09-15",
+      "id": "moody-family-fit-camp-2026-09-22",
       "title": "Family Fit Camp",
-      "date": "2026-09-15T09:00:00",
-      "endDate": "2026-09-15T10:00:00",
+      "date": "2026-09-22T09:00:00",
+      "endDate": "2026-09-22T10:00:00",
       "location": "Moody AFB Fitness Center",
       "address": "4851 Burrel St, Bldg 404, Valdosta, GA, 31699",
       "description": "Join us at Moody AFB Fitness Center for Family Fit Camp! All fitness and age levels welcome! Classes are FREE to attend All you need is: Water Great Energy A Friend For more information, call (229) 257-1621",
       "category": "outdoor"
     },
     {
-      "id": "moody-story-time-2026-09-15",
+      "id": "moody-story-time-2026-09-22",
       "title": "Story Time",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T11:00:00",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
       "location": "Library",
       "address": "480 5th St bldg 2610, Mountain Home AFB, Idaho, 83648",
-      "description": "Join us at the Moody Library for Story Time, where each week we explore a new book theme through exciting stories and activities. It’s the perfect way for children to discover the magic of reading! For more information, call (229) 257-3539 May 19: Airplane May 26: Weather June 2: Sea Turtles June 16: Father’s Day June 23: Eric Carle June 30: Patriotic July 14: Pout Pout Fish July 21: Horses July 28: School Bus",
-      "category": "family"
-    },
-    {
-      "id": "moody-bundles-for-babies-2026-09-17",
-      "title": "Bundles for Babies",
-      "date": "2026-09-17",
-      "endDate": "2026-09-17",
-      "location": "Moody AFB",
-      "address": "Valdosta, GA",
-      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
-      "category": "family"
-    },
-    {
-      "id": "moody-fall-career-fair-2026-09-17",
-      "title": "Fall Career Fair",
-      "date": "2026-09-17T10:00:00",
-      "endDate": "2026-09-17T13:00:00",
-      "location": "Capt Weber Room",
-      "address": "5091 Gardner St Bldg., 400, Valdosta, Georgia, 31699",
-      "description": "Your Next Career Awaits at the Moody AFB Fall Career Fair! Ready for a new opportunity? Connect with top employers at Moody Air Force Base. This event is free and open to all job seekers. Don’t miss your chance to land your next role. Register for free today! Location : Captian Weber Room POC : Military & Family Readiness Center – 229-257-3333",
-      "category": "family"
-    },
-    {
-      "id": "moody-golfer-s-bingo-2026-09-18",
-      "title": "Golfer’s Bingo!",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Moody AFB",
-      "address": "Valdosta, GA",
-      "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
-      "category": "entertainment"
-    },
-    {
-      "id": "moody-deck-duel-saturdays-2026-09-19",
-      "title": "Deck Duel Saturdays",
-      "date": "2026-09-19T13:00:00",
-      "endDate": "2026-09-19T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "Saturdays are for deck gaming! Be it Magic: The Gathering, Pokémon, Yu-Gi-Oh or even Lorcana, bring your cards and play with friends.",
-      "category": "entertainment"
+      "description": "Join us at the Moody Library for Story Time, where each week we explore a new book theme through exciting stories and activities. It’s the perfect way for children to discover the magic of reading! For more information, call (229) 257-3539 Upcoming Themes: Sept 22: Ice Cream Sept 29: Taco Oct 13: Curious George Oct 20: Author Visit/Pumpkin Oct 27: Chocolate Nov 10: Military Appreciation Nov 17: Thanksgiving Dec 1: Movie Day Dec 8: Llama Llama",
+      "category": "holiday"
     },
     {
       "id": "moody-federal-resume-workshop-2026-09-23",
@@ -458,6 +418,16 @@
       "address": "4251 George St, Moody AFB, GA, 31699",
       "description": "Celebrate the season at Harvest Fest! Enjoy festive food, prizes, and live polka music featuring the Hungry Five German Band. Custom Harvest Fest commemorative steins are available to pre-order from The SHOP now until Sept. 21st for $25. Steins will also be available for purchase at the event for $30 while supplies last! Grab your friends and get ready for an evening filled with great food, music and fall fun!",
       "category": "holiday"
+    },
+    {
+      "id": "moody-deck-duel-saturdays-2026-09-26",
+      "title": "Deck Duel Saturdays",
+      "date": "2026-09-26T13:00:00",
+      "endDate": "2026-09-26T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Saturdays are for deck gaming! Be it Magic: The Gathering, Pokémon, Yu-Gi-Oh or even Lorcana, bring your cards and play with friends.",
+      "category": "entertainment"
     },
     {
       "id": "moody-trunk-or-treat-2026-09-28",
@@ -520,6 +490,16 @@
       "category": "entertainment"
     },
     {
+      "id": "moody-family-fit-camp-2026-10-06",
+      "title": "Family Fit Camp",
+      "date": "2026-10-06T09:00:00",
+      "endDate": "2026-10-06T10:00:00",
+      "location": "Moody AFB Fitness Center",
+      "address": "4851 Burrel St, Bldg 404, Valdosta, GA, 31699",
+      "description": "Join us at Moody AFB Fitness Center for Family Fit Camp! All fitness and age levels welcome! Classes are FREE to attend All you need is: Water Great Energy A Friend For more information, call (229) 257-1621",
+      "category": "outdoor"
+    },
+    {
       "id": "moody-story-time-2026-10-06",
       "title": "Story Time",
       "date": "2026-10-06T10:00:00",
@@ -528,6 +508,36 @@
       "address": "480 5th St bldg 2610, Mountain Home AFB, Idaho, 83648",
       "description": "Join us at the Moody Library for Story Time, where each week we explore a new book theme through exciting stories and activities. It’s the perfect way for children to discover the magic of reading! For more information, call (229) 257-3539 May 19: Airplane May 26: Weather June 2: Sea Turtles June 16: Father’s Day June 23: Eric Carle June 30: Patriotic July 14: Pout Pout Fish July 21: Horses July 28: School Bus",
       "category": "family"
+    },
+    {
+      "id": "moody-kids-night-out-carnival-craze-2026-10-09",
+      "title": "Kids Night Out: Carnival Craze",
+      "date": "2026-10-09T18:30:00",
+      "endDate": "2026-10-09T22:30:00",
+      "location": "Moody AFB Youth Center",
+      "address": "1804 Prewitte St, Bldg., 1804, Valdosta, Georgia, 31699",
+      "description": "Step right up for an evening of carnival-themed fun at Youth Programs! Our Kids Night Out will be packed with exciting games, creative activities, friendly competitions, and carnival-inspired challenges that will keep our youth entertained all night long! Test your skills at carnival games, get creative with fun crafts, enjoy carnival-style treats, and see who can earn the most prizes! From ring toss and bean bag games to silly challenges and carnival surprises, there will be something for everyone. Cost is $32 Open to youth in kindergarten through age 12. Must be enrolled in CYPBMS.",
+      "category": "family"
+    },
+    {
+      "id": "moody-deck-duel-saturdays-2026-10-10",
+      "title": "Deck Duel Saturdays",
+      "date": "2026-10-10T13:00:00",
+      "endDate": "2026-10-10T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Saturdays are for deck gaming! Be it Magic: The Gathering, Pokémon, Yu-Gi-Oh or even Lorcana, bring your cards and play with friends.",
+      "category": "entertainment"
+    },
+    {
+      "id": "moody-story-time-2026-10-13",
+      "title": "Story Time",
+      "date": "2026-10-13T10:00:00",
+      "endDate": "2026-10-13T11:00:00",
+      "location": "Library",
+      "address": "480 5th St bldg 2610, Mountain Home AFB, Idaho, 83648",
+      "description": "Join us at the Moody Library for Story Time, where each week we explore a new book theme through exciting stories and activities. It’s the perfect way for children to discover the magic of reading! For more information, call (229) 257-3539 Upcoming Themes: Sept 22: Ice Cream Sept 29: Taco Oct 13: Curious George Oct 20: Author Visit/Pumpkin Oct 27: Chocolate Nov 10: Military Appreciation Nov 17: Thanksgiving Dec 1: Movie Day Dec 8: Llama Llama",
+      "category": "holiday"
     },
     {
       "id": "moody-bookish-bingo-2026-10-16",
@@ -568,6 +578,16 @@
       "address": "Valdosta, GA",
       "description": "Listed on the public FSS/MWR calendar for Moody AFB.",
       "category": "community"
+    },
+    {
+      "id": "moody-family-fit-camp-2026-11-03",
+      "title": "Family Fit Camp",
+      "date": "2026-11-03T09:00:00",
+      "endDate": "2026-11-03T10:00:00",
+      "location": "Moody AFB Fitness Center",
+      "address": "4851 Burrel St, Bldg 404, Valdosta, GA, 31699",
+      "description": "Join us at Moody AFB Fitness Center for Family Fit Camp! All fitness and age levels welcome! Classes are FREE to attend All you need is: Water Great Energy A Friend For more information, call (229) 257-1621",
+      "category": "outdoor"
     },
     {
       "id": "moody-family-fall-fest-2026-11-24",

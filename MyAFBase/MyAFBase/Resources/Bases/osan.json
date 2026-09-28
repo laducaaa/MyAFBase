@@ -7,7 +7,7 @@
   "wing": "51 FW",
   "latitude": 37.0906,
   "longitude": 127.0297,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "osan-notif-real-id",
@@ -195,32 +195,22 @@
   ],
   "events": [
     {
-      "id": "osan-taco-thursday-2026-09-17",
+      "id": "osan-taco-thursday-2026-09-24",
       "title": "Taco Thursday",
-      "date": "2026-09-17T16:30:00",
-      "endDate": "2026-09-17T19:00:00",
-      "location": "Osan AB",
-      "address": "Pyeongtaek, South Korea",
+      "date": "2026-09-24T16:30:00",
+      "endDate": "2026-09-24T19:00:00",
+      "location": "",
+      "address": "",
       "description": "Enlisted Club",
       "category": "recreation"
     },
     {
-      "id": "osan-yeosu-ocean-cable-car-boseong-green-tea-2026-09-19",
-      "title": "Yeosu Ocean Cable Car & Boseong Green Tea Fields",
-      "date": "2026-09-19",
-      "endDate": "2026-09-20",
-      "location": "ITT Desk, Osan AB",
-      "address": "Pyeongtaek, South Korea",
-      "description": "Weekend ITT cultural trip featuring Yeosu Ocean Cable Car and Boseong tea fields.",
-      "category": "recreation"
-    },
-    {
-      "id": "osan-sunday-brunch-2026-09-20",
+      "id": "osan-sunday-brunch-2026-09-27",
       "title": "Sunday Brunch",
-      "date": "2026-09-20T10:00:00",
-      "endDate": "2026-09-20T13:30:00",
-      "location": "Osan AB",
-      "address": "Pyeongtaek, South Korea",
+      "date": "2026-09-27T10:00:00",
+      "endDate": "2026-09-27T13:30:00",
+      "location": "",
+      "address": "",
       "description": "Enlisted Club",
       "category": "recreation"
     },
@@ -239,6 +229,16 @@
       "title": "Sunday Brunch",
       "date": "2026-10-04T10:00:00",
       "endDate": "2026-10-04T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
+      "id": "osan-taco-thursday-2026-10-08",
+      "title": "Taco Thursday",
+      "date": "2026-10-08T16:30:00",
+      "endDate": "2026-10-08T19:00:00",
       "location": "",
       "address": "",
       "description": "Enlisted Club",
@@ -265,6 +265,16 @@
       "category": "holiday"
     },
     {
+      "id": "osan-sunday-brunch-2026-10-11",
+      "title": "Sunday Brunch",
+      "date": "2026-10-11T10:00:00",
+      "endDate": "2026-10-11T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
       "id": "osan-jinju-namgang-yudeung-lantern-festival-2026-10-17",
       "title": "Jinju Namgang Yudeung Lantern Festival",
       "date": "2026-10-17T09:00:00",
@@ -273,6 +283,16 @@
       "address": "Pyeongtaek, South Korea",
       "description": "51 FSS ITT trip to Jinju Namgang Yudeung Lantern Festival, Saturday-Sunday 17-18 October. Listed on 51fss.com homepage.",
       "category": "holiday"
+    },
+    {
+      "id": "osan-sunday-brunch-2026-11-01",
+      "title": "Sunday Brunch",
+      "date": "2026-11-01T10:00:00",
+      "endDate": "2026-11-01T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
     }
   ],
   "newcomers": {

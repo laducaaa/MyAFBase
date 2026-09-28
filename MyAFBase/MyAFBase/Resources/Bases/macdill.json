@@ -7,7 +7,7 @@
   "wing": "6 ARW / CENTCOM / SOCOM",
   "latitude": 27.8497,
   "longitude": -82.5217,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "macdill-notif-1",
@@ -403,106 +403,6 @@
   ],
   "events": [
     {
-      "id": "macdill-hurricane-prep-2026-2026-09-15",
-      "title": "Hurricane Prep 2026",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T12:00:00",
-      "location": "MFRC",
-      "address": "8105 Condor St. Bldg. #18, MacDill AFB, FL 33621",
-      "description": "Hurricane season is coming-are you ready? Join us for Hurricane Prep 2026 and get the tools, resources, and guidance you need to keep yourself and your family safe. Dates: May 19 | June 16 | July 21 | August 18 | September 15 Time: 10 AM-12 PM Location: Military & Family Readiness Center Register now by calling or emailing: Call: (813) 828-0145 | Email : fsc.frontdesk@us.af.mil",
-      "category": "family"
-    },
-    {
-      "id": "macdill-pre-k-storytime-2026-09-15",
-      "title": "Pre-K Storytime",
-      "date": "2026-09-15T10:00:00",
-      "endDate": "2026-09-15T11:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
-      "description": "Enjoy themed stories, songs, and rhymes together! Afterward, there will be a craft provided.",
-      "category": "family"
-    },
-    {
-      "id": "macdill-air-force-birthday-3k-5k-run-walk-2026-09-16",
-      "title": "Air Force Birthday 3K/5K Run/Walk",
-      "date": "2026-09-16T06:30:00",
-      "endDate": "2026-09-16T07:30:00",
-      "location": "Short Fitness Center",
-      "address": "8115 Cypress Stand St Tampa, Florida, FL 33621",
-      "description": "Lace up your sneakers and come celebrate another Air Force year! When: Wednesday, September 16 Time: 6:45 AM Where: Meet at the Short Fitness Center Turf Field (North Track) Only 30 shirts available, FIRST COME, FIRST SERVED by signing up! Pick up your shirt on the day of the race. Prizes for 1st place in both races Volunteers needed! Sign up here: https://www.signupgenius.com/go/10C0F4AA9A92BAAF4C70-65503008-2026#/",
-      "category": "holiday"
-    },
-    {
-      "id": "macdill-baby-time-at-the-library-2026-09-16",
-      "title": "Baby Time at the Library",
-      "date": "2026-09-16T09:30:00",
-      "endDate": "2026-09-16T10:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
-      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
-      "category": "family"
-    },
-    {
-      "id": "macdill-silent-book-club-2026-09-16",
-      "title": "Silent Book Club",
-      "date": "2026-09-16T17:30:00",
-      "endDate": "2026-09-16T18:30:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL 33621",
-      "description": "Con't find the time to read that book you've had forever? Come and join the MacDill AFB library for small snacks and an hour of uninterrupted reading! At the end, you can share things about your book or opt out-your choice, no pressure! When: Thursday, September 17 Time: 4 PM Where: MacDill AFB Library Ages: 18+ Come and get some reading done!",
-      "category": "education"
-    },
-    {
-      "id": "macdill-air-force-birthday-3k-5k-run-walk-2026-09-17",
-      "title": "Air Force Birthday 3K/5K Run/Walk",
-      "date": "2026-09-17",
-      "endDate": "2026-09-17",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "fitness"
-    },
-    {
-      "id": "macdill-craft-club-macdill-library-2026-09-17",
-      "title": "Craft Club @ MacDill Library",
-      "date": "2026-09-17",
-      "endDate": "2026-09-17",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "macdill-school-liaison-program-parent-workshop-2026-09-17",
-      "title": "School Liaison Program Parent Workshop",
-      "date": "2026-09-17T18:00:00",
-      "endDate": "2026-09-17T19:00:00",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Navigating the digital world can be challenging - but you don't have to do it alone! Join the Digital Parenting Workshop for a parent-focused presentations on screen use and social media. When: Thursday, September 17 Time: 6 PM Where: TEAMS Meeting ID: 993 803 350 677 Passcode: Tn3ff23m POC: Dr. Venetia Waters, (813) 828-0146, venetia.waters@us.af.mil",
-      "category": "education"
-    },
-    {
-      "id": "macdill-sports-spectacular-september-kids-night-2026-09-18",
-      "title": "Sports Spectacular September Kids Night",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "family"
-    },
-    {
-      "id": "macdill-air-force-birthday-golf-tournament-2026-09-19",
-      "title": "Air Force Birthday Golf Tournament",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "fitness"
-    },
-    {
       "id": "macdill-game-club-macdill-library-2026-09-21",
       "title": "Game Club @ MacDill Library",
       "date": "2026-09-21T16:00:00",
@@ -510,6 +410,26 @@
       "location": "MacDill Library",
       "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL 33621",
       "description": "Join us for some fun downtime playing board or card games. Use one of ours or bring on you want to share with others! Where: MacDill AFB Library Time: 4 PM",
+      "category": "family"
+    },
+    {
+      "id": "macdill-pre-k-storytime-2026-09-22",
+      "title": "Pre-K Storytime",
+      "date": "2026-09-22T10:00:00",
+      "endDate": "2026-09-22T11:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Enjoy themed stories, songs, and rhymes together! Afterward, there will be a craft provided.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-baby-time-at-the-library-2026-09-23",
+      "title": "Baby Time at the Library",
+      "date": "2026-09-23T09:30:00",
+      "endDate": "2026-09-23T10:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
       "category": "family"
     },
     {
@@ -543,6 +463,16 @@
       "category": "holiday"
     },
     {
+      "id": "macdill-lego-club-macdill-library-2026-09-28",
+      "title": "Lego Club @ MacDill Library",
+      "date": "2026-09-28T16:00:00",
+      "endDate": "2026-09-28T18:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Where: MacDil AFB Library Time: 4 PM Come and join us for some exciting, seasonal builds. We will be focusing on the Fall season!",
+      "category": "entertainment"
+    },
+    {
       "id": "macdill-mcee-meeting-2026-09-28",
       "title": "MCEE Meeting",
       "date": "2026-09-28T16:30:00",
@@ -573,6 +503,26 @@
       "category": "family"
     },
     {
+      "id": "macdill-2026-air-force-art-photo-contest-2026-10-01",
+      "title": "2026 AIR FORCE ART & PHOTO CONTEST",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-31T11:59:00",
+      "location": "",
+      "address": "",
+      "description": "The 2026 Air Force Art & Photo Contest runs from 1 October – 31 October 2026 with the theme “Joy Unfiltered.” Theme “Joy Unfiltered” (Covers both Art & Photography) Submission Period 1 Oct 2026 (12:00 PM CST) to 31 Oct 2026 (12:00 PM CST) Prizes Gift Cards for all groups: 1st Place: $500 | 2nd Place: $400 | 3rd Place: $300 Category Eligible Age Groups Art 2D Art Adult (18+), Youth (6-8), Pre-Teen (9-12), Teen (13-17) Art 3D Art Adult (18+), Child (6-8), Pre-Teen (9-12), Teen (13-17) Photography Standard Adult (18+), Pre-Teen (9-12), Teen (13-17) TO ENTER CONTEST https://myairforcelife.com/art-",
+      "category": "family"
+    },
+    {
+      "id": "macdill-halloween-paint-it-party-macdill-library-2026-10-03",
+      "title": "Halloween Paint-It Party @ MacDill Library",
+      "date": "2026-10-03T12:00:00",
+      "endDate": "2026-10-03T14:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "When: Saturday, October 3 Time: 12-2 PM Come on over to MacDill library and pick an unfinished wooden cut out, paint it, and take it home to display your holiday cheer!",
+      "category": "holiday"
+    },
+    {
       "id": "macdill-pre-k-storytime-2026-10-06",
       "title": "Pre-K Storytime",
       "date": "2026-10-06T10:00:00",
@@ -583,6 +533,26 @@
       "category": "family"
     },
     {
+      "id": "macdill-baby-time-at-the-library-2026-10-07",
+      "title": "Baby Time at the Library",
+      "date": "2026-10-07T09:30:00",
+      "endDate": "2026-10-07T10:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-m-frc-bundles-for-babies-2026-10-13",
+      "title": "M&FRC: Bundles for Babies",
+      "date": "2026-10-13T08:30:00",
+      "endDate": "2026-10-13T12:30:00",
+      "location": "MFRC",
+      "address": "8105 Condor St. Bldg. #18, MacDill AFB, FL, 33621",
+      "description": "Prepare for your growing family with M&FRC: Bundles for Babies! This informative and supportive class is designed for expecting military families, offering valuable guidance as you get ready to welcome your newest addition. Connect with 8+ base agencies and gain access to essential resources, expert advice, and helpful tips to support you before and after baby arrives. Enjoy informative briefings, resource sharing, and a Q&A with experts to help answer all your questions. 2026 Dates: April 14 • June 9 • August 11 • October 13 • December 8 Time: 8:30 AM – 12:30 PM Location: M&FRC (Bldg. 18) Eli",
+      "category": "family"
+    },
+    {
       "id": "macdill-spaghetti-night-2026-10-13",
       "title": "Spaghetti Night",
       "date": "2026-10-13T17:00:00",
@@ -590,6 +560,16 @@
       "location": "Seascapes",
       "address": "",
       "description": "Join us for a delicious plate of Spaghetti and Meatballs served with a slice of garlic bread — all for just $10! Want to make it a full meal? Add a side salad for only $3. Where: SeaScapes Time: 5-8 PM Don’t miss Trivia at 6 PM! Bring your appetite, bring your friends, and let’s make Tuesday night delicious!",
+      "category": "entertainment"
+    },
+    {
+      "id": "macdill-lego-club-macdill-library-2026-10-15",
+      "title": "Lego Club @ MacDill Library",
+      "date": "2026-10-15T16:00:00",
+      "endDate": "2026-10-15T18:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Where: MacDil AFB Library Time: 4 PM Come and join us for some exciting, seasonal builds. We will be focusing on the Fall season!",
       "category": "entertainment"
     },
     {

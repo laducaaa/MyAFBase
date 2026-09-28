@@ -7,7 +7,7 @@
   "wing": "375 AMW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -403,76 +403,6 @@
   ],
   "events": [
     {
-      "id": "scott-bridgerton-series-teddy-bear-me-regency-tea-2026-09-14",
-      "title": "Bridgerton Series: Teddy Bear & Me Regency Tea",
-      "date": "2026-09-14T11:00:00",
-      "endDate": "2026-09-14T11:00:00",
-      "location": "Library",
-      "address": "510 Ward Dr, Scott AFB, IL, 62225",
-      "description": "<p>The youngest members of the ton are cordially invited to a most delightful Teddy Bear & Me Regency Tea Party! Bring your favorite teddy bear and join us for a charming morning of tea, sweet treats, enchanting stories, and whimsical activities inspired by the elegance of the Regency era. Sept 14, 2026 | 11:00a Scott […]</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "scott-bridgerton-series-masquerade-mask-making-septemb-2026-09-1",
-      "title": "Bridgerton Series: Masquerade! Mask Making – September",
-      "date": "2026-09-16T17:00:00",
-      "endDate": "2026-09-16T19:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "701 Ward Dr, Scott AFB, IL, 62225",
-      "description": "<p>Word has spread that the season\\'s most enchanting masquerade is fast approaching, and no member of the ton would dare arrive without an exquisite mask. Join us for Bridgerton-inspired Masquerade Mask Making events, where you\\'ll design and embellish your own elegant creation using feathers, lace, jewels, ribbons, and other beautiful adornments. Wednesday, Sept 16 - […]</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "scott-trivia-night-2026-09-17",
-      "title": "Trivia Night",
-      "date": "2026-09-17",
-      "endDate": "2026-09-17",
-      "location": "Scott AFB",
-      "address": "Scott AFB, IL",
-      "description": "Trivia Night; 375 FSS homepage listing.",
-      "category": "community"
-    },
-    {
-      "id": "scott-fss-fall-fest-2026-09-18",
-      "title": "FSS Fall Fest",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Bldg. 1650 Parking Lot",
-      "address": "469 W Martin St, Scott AFB, IL 62225",
-      "description": "Free Fall Fest: carnival, car show, live band FReSh RAiN; 375 FSS.",
-      "category": "community"
-    },
-    {
-      "id": "scott-the-big-game-show-teen-night-out-2026-09-18",
-      "title": "The Big Game Show Teen Night Out",
-      "date": "2026-09-18T17:30:00",
-      "endDate": "2026-09-18T21:00:00",
-      "location": "Youth Center",
-      "address": "4691 Patriots Dr, Scott AFB, IL, 62225",
-      "description": "<p>Think you have what it takes to win THE BIG GAME SHOW? On Friday, Sept. 18, 5:30 – 9 p.m., grab your friends and join the Scott AFB Youth Center for an unforgettable Teen Night Out! We\\'ll head out for an evening of exciting game show challenges, team competition, and plenty of fun before stopping […]</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "scott-night-golf-2026-09-19",
-      "title": "Night Golf",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Cardinal Creek Golf Course",
-      "address": "1192 Golf Course Rd, Scott AFB, IL 62225",
-      "description": "Glow / night golf scramble; 375 FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "scott-bridgerton-bingo-2026-09-19",
-      "title": "Bridgerton Bingo",
-      "date": "2026-09-19T18:00:00",
-      "endDate": "2026-09-19T18:00:00",
-      "location": "Scott Community Center",
-      "address": "47 Ward Dr, Scott AFB, IL, 62225",
-      "description": "<p>Click Here to Register Online! Join us for an enchanting evening of Bridgerton Bingo. Whether fortune favors your card or Lady Luck chooses another, this enchanting evening promises charming prizes, and Regency-inspired fun fit for society\\'s finest. Sept 19, 2026 | 6:00p Scott Community Center Doors: 5:00 pm | Play: 6:00 pm Tickets: Early Bird […]</p>\\n",
-      "category": "recreation"
-    },
-    {
       "id": "scott-safb-art-show-seeking-artists-2026-09-21",
       "title": "SAFB Art Show – Seeking Artists!",
       "date": "2026-09-21T00:00:00",
@@ -510,6 +440,16 @@
       "location": "Stars & Strikes Bowling Center",
       "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
       "description": "<p>Ready to find your next perfect ball? Come test-drive the newest releases from Brunswick and elevate your game! Join us Saturday, September 26 from 2:00-4:00p at Stars & Strikes Bowling Center. Just $20 per person gets you the chance to demo all the New Brunswick bowling balls available. Call 618-744-1277 to sign up!</p>\\n",
+      "category": "recreation"
+    },
+    {
+      "id": "scott-bowler-appreciation-day-2026-09-27",
+      "title": "Bowler Appreciation Day",
+      "date": "2026-09-27T13:00:00",
+      "endDate": "2026-09-27T15:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
+      "description": "Gather your friends and roll on over to Stars and Strikes Bowling Center for Bowler Appreciation Day! Enjoy FREE bowling on Sunday, Sept. 27, from 1:00–3:00 pm. Free and open to all! It’s first come, first served—so don’t wait to snag your lane! For complete details, call 618-744-1277.",
       "category": "recreation"
     },
     {
@@ -551,6 +491,16 @@
       "address": "701 Ward Dr, Scott AFB, IL, 62225",
       "description": "<p>Art Show Submissions Opening Soon! Learn More Here! Opening Night is October 1st! Learn More Here! Join us at the Arts & Crafts Center, October 2-31, for Gallery Viewing Days of the 2026 Art Show! The center is open Monday - Friday, 9am - 6pm, closed Saturday, Sunday and Holidays. Come see all the amazing […]</p>\\n",
       "category": "outdoor"
+    },
+    {
+      "id": "scott-bridgerton-series-masquerade-mask-making-october-2026-10-0",
+      "title": "Bridgerton Series: Masquerade! Mask Making – October",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T19:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "701 Ward Dr, Scott AFB, IL, 62225",
+      "description": "Word has spread that the season’s most enchanting masquerade is fast approaching, and no member of the ton would dare arrive without an exquisite mask. Join us for Bridgerton-inspired Masquerade Mask Making events, where you’ll design and embellish your own elegant creation using feathers, lace, jewels, ribbons, and other beautiful adornments. Friday, Oct 2 – 5:00-8:00p | $20 | ages 13+ | Register by Sept 25 Call the Arts & Crafts Center to register, 618-256-6033 .",
+      "category": "recreation"
     },
     {
       "id": "scott-teen-volunteer-event-you-ve-been-boo-d-2026-10-02",
@@ -631,6 +581,16 @@
       "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
       "description": "Celebrate Halloween with a night of bowling, food & festive fun at Stars & Strikes annual Scary Bowl, Oct. 24! Get into the Halloween spirit and enter our Costume Contest (optional)! Don’t miss this perfect mix of strikes, slices, and spooky surprises—reserve your lane today! Event Details: 2 Hours Unlimited Bowling w/shoe rental Pizza Buffet & Unlimited Fountain Drinks Costume Contest – prize for best costume Oct. 24 | 1:00 – 3:00 pm Stars & Strikes Bowling Center $50 per lane (up to 6 players) Register in person, call Stars & Strikes, (618) 744-1277 or online soon!",
       "category": "holiday"
+    },
+    {
+      "id": "scott-mobile-dmv-2026-10-29",
+      "title": "Mobile DMV",
+      "date": "2026-10-29T10:00:00",
+      "endDate": "2026-10-29T14:00:00",
+      "location": "Scott Community Center",
+      "address": "47 Ward Dr, Scott AFB, IL, 62225",
+      "description": "The Illinois Department of Motor Vehicles (DMV) Mobile Unit will be at SAFB to provide basic vehicle services for on-base customers. Anyone in need of driver license renewals, ID cards, vehicle registration, Real ID, and road tests can use this convenient service. Location: Zeppelins at the Community Center Date: October 29 Time: 10:00 am – 2:00 pm Payment Options: Major credit/debit cards, checks and money orders Cash is not accepted For specific questions, contact the Belleville DMV at 618-236-8750 .",
+      "category": "community"
     },
     {
       "id": "scott-bridgerton-masquerade-2026-11-14",

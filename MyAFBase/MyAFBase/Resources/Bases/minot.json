@@ -7,7 +7,7 @@
   "wing": "5 BW",
   "latitude": 48.4158,
   "longitude": -101.3587,
-  "dataUpdatedAt": "2026-09-14T06:41:37Z",
+  "dataUpdatedAt": "2026-09-21T06:35:07Z",
   "currentNotifications": [
     {
       "id": "minot-notif-real-id",
@@ -244,84 +244,34 @@
   ],
   "events": [
     {
-      "id": "minot-tap-dow-transition-day-2026-09-14",
-      "title": "TAP DOW Transition Day",
-      "date": "2026-09-14T08:00:00",
-      "endDate": "2026-09-14T16:00:00",
+      "id": "minot-first-duty-station-officer-financial-course-2026-09-22",
+      "title": "First Duty Station Officer Financial Course",
+      "date": "2026-09-22T09:00:00",
+      "endDate": "2026-09-22T11:00:00",
       "location": "Military & Family Readiness Center",
       "address": "291 Peacekeeper PL, Minot AFB, ND, 58704",
+      "description": "Sign up today for the First Duty Station Officer Financial Course on 22 September 2026 from 9:00AM – 11:00AM at the Military & Family Readiness Center. In accordance with AFI 36-3009 First Term/First Duty Station Officers must complete this financial course upon arrival to Minot AFB. The following will be taught in this class: • Leave and Earnings Statement (LES) • Saving and investing (TSP) • Blended Retirement System (BRS) • Credit, car, and home buying • Budgeting information • And much more! For details or to register, call 723-3950 or email 5fss.family.support@us.af.mil",
+      "category": "family"
+    },
+    {
+      "id": "minot-base-right-start-2026-09-23",
+      "title": "Base Right Start",
+      "date": "2026-09-23T07:30:00",
+      "endDate": "2026-09-23T12:30:00",
+      "location": "Jimmy Doolittle Center",
+      "address": "174 Summit Dr, Minot AFB, ND, 58704",
       "description": "For more information, call the Military & Family Readiness Center at 723-3950 or email 5fss.family.support@us.af.mil",
       "category": "family"
     },
     {
-      "id": "minot-tap-va-services-and-benefits-briefing-2026-09-15",
-      "title": "TAP VA Services and Benefits Briefing",
-      "date": "2026-09-15T08:00:00",
-      "endDate": "2026-09-15T16:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "291 Peacekeeper PL, Minot AFB, ND, 58704",
-      "description": "For more information, call the Military & Family Readiness Center at 723-3950 or email 5fss.family.support@us.af.mil",
-      "category": "education"
-    },
-    {
-      "id": "minot-tap-employment-fundamentals-of-career-transition-2026-09-1",
-      "title": "TAP Employment Fundamentals of Career Transition",
-      "date": "2026-09-16T08:00:00",
-      "endDate": "2026-09-16T16:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "291 Peacekeeper PL, Minot AFB, ND, 58704",
-      "description": "For more information, call the Military & Family Readiness Center at 723-3950 or email 5fss.family.support@us.af.mil",
-      "category": "family"
-    },
-    {
-      "id": "minot-storytime-2026-09-16",
+      "id": "minot-storytime-2026-09-23",
       "title": "Storytime",
-      "date": "2026-09-16T10:30:00",
-      "endDate": "2026-09-16T11:30:00",
+      "date": "2026-09-23T10:30:00",
+      "endDate": "2026-09-23T11:30:00",
       "location": "Library",
       "address": "156 Missile Ave, Minot AFB, ND, 58704",
       "description": "Join us in-person or online! To access the Storytime Videos: 1. Apply for a Minot AFB Library card 2. Request to join the Minot AFB Storytime Club on Facebook at facebook.com/groups/649758152482141 For more information, call the Minot AFB Library at 723-3344.",
       "category": "family"
-    },
-    {
-      "id": "minot-air-force-birthday-special-lunch-dinner-2026-09-18",
-      "title": "Air Force Birthday Special Lunch & Dinner",
-      "date": "2026-09-18",
-      "endDate": "2026-09-18",
-      "location": "Minot AFB",
-      "address": "Minot, ND",
-      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
-      "category": "holiday"
-    },
-    {
-      "id": "minot-progressive-bingo-fall-series-2026-09-18",
-      "title": "Progressive Bingo Fall Series",
-      "date": "2026-09-18T17:30:00",
-      "endDate": "2026-09-18T19:30:00",
-      "location": "",
-      "address": "",
-      "description": "Progressive Bingo is Back at Rockers! Ready to test your luck and chase the jackpot? Join us at Rockers Bar & Grill for an evening of excitement, laughs, and big wins! Balls Called: 1730 Rockers Bar & Grill Registration Closes: 1630 the day before each event If nobody wins, the jackpot grows by $50 each month until there’s a winner, then resets to $250 and starts climbing again! Register here: http://www.memberplanet.com/s/minotafbclubs/progbingo26 Upcoming Dates: October 16, November 20 Pricing: Club Member Pre-Registration: $30, Non-Member Pre-Registration: $35, At the Door: $40 Extra Single",
-      "category": "entertainment"
-    },
-    {
-      "id": "minot-air-force-birthday-tournament-2026-09-19",
-      "title": "Air Force Birthday Tournament",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Minot AFB",
-      "address": "Minot, ND",
-      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
-      "category": "holiday"
-    },
-    {
-      "id": "minot-minecraft-party-2026-09-19",
-      "title": "Minecraft Party",
-      "date": "2026-09-19",
-      "endDate": "2026-09-19",
-      "location": "Minot AFB",
-      "address": "Minot, ND",
-      "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
-      "category": "recreation"
     },
     {
       "id": "minot-teen-paintball-showdown-2026-09-23",
@@ -342,6 +292,16 @@
       "address": "Minot, ND",
       "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
       "category": "outdoor"
+    },
+    {
+      "id": "minot-air-force-birthday-tournament-2026-09-26",
+      "title": "Air Force Birthday Tournament",
+      "date": "2026-09-26T09:00:00",
+      "endDate": "2026-09-26T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "79th Air Force Birthday Golf Tournament Saturday, September 26 Shotgun Start: 9:00 AM Rough Rider Golf Course Entry Fee: $50 per player Registration Closes: September 24 Register here: http://www.memberplanet.com/s/minotafbclubs/afbirthday2026 Celebrate the 79th Birthday of the United States Air Force with a day of golf, great food, and friendly competition! Enjoy more than just 18 holes—we’ll have the driving range open with fun shot-making challenges , plus exciting Pro Shop contests throughout the day, including: Closest to the Pin, Long Drive, & Long Putt Whether you’re chasing bragging ri",
+      "category": "holiday"
     },
     {
       "id": "minot-paintball-open-play-2026-09-26",
@@ -384,6 +344,26 @@
       "category": "community"
     },
     {
+      "id": "minot-fall-into-fitness-5k-2026-09-29",
+      "title": "Fall into Fitness 5K",
+      "date": "2026-09-29T09:00:00",
+      "endDate": "2026-09-29T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "Fall into a Healthier You! Lace up, enjoy the crisp fall air, and get moving! Join McAdoo Fitness Center for a fun 5K filled with fitness, fall vibes, and community spirit. Whether you run, jog, or walk—come out, get active, and fall into fitness! Top 2 Male & Female Runners will win a VIP Pass to fight Force! 29 September 2026 | 0900 Start/Finish: Auto Hobby Shop Sign up to run: https://www.signupgenius.com/go/10C094BAFAD23A3F4C34-65921059-fall#/ Sign up to volunteer: https://www.signupgenius.com/go/10C094BAFAD23A3F4C34-65844542-fall#/ View the run route: https://5thforcesupport.com/wp-conten",
+      "category": "fitness"
+    },
+    {
+      "id": "minot-teen-paintball-showdown-2026-09-30",
+      "title": "Teen Paintball Showdown",
+      "date": "2026-09-30T18:00:00",
+      "endDate": "2026-09-30T20:00:00",
+      "location": "Youth Center",
+      "address": "286 Peacekeeper Pl, Minot AFB, ND, 58704",
+      "description": "Join us for an action-packed night of paintball, teamwork, and fun with friends! Middle School Teens 23 September 2026 6:00PM – 8:00PM High School Teens 30 September 2026 6:00PM – 8:00PM Only $25 Spots are limited! Register on the CYPBMS website at https://parent.afcyp.com/ For details, call the Youth Center at 723-2838",
+      "category": "family"
+    },
+    {
       "id": "minot-craft-club-2026-10-15",
       "title": "Craft Club",
       "date": "2026-10-15",
@@ -392,6 +372,16 @@
       "address": "Minot, ND",
       "description": "Listed on the public FSS/MWR calendar for Minot AFB.",
       "category": "recreation"
+    },
+    {
+      "id": "minot-registration-closes-ballet-instructional-class-2026-10-16",
+      "title": "Registration Closes: Ballet Instructional Class",
+      "date": "2026-10-16T00:00:00",
+      "endDate": "2026-10-16T23:59:59",
+      "location": "Youth Center",
+      "address": "286 Peacekeeper Pl, Minot AFB, ND, 58704",
+      "description": "Let your little dancer take center stage! ✨ The Youth Center is offering Ballet Instructional Classes for aspiring dancers ages 4–18 . Whether they’re taking their first steps in ballet or building on their skills, this class is a great opportunity to learn, move, and express themselves through dance. 📅 October 19, 2026 – January 29, 2027 📍 Youth Center Ages 4–12 • YC Members: $110 • Non-Members: $130 Ages 13–18 • YC Members: $150 • Non-Members: $170 🎟️ Register by October 16, 2026 📱 723-2838 🌐 Register at parent.afcyp.com",
+      "category": "family"
     },
     {
       "id": "minot-haunted-stacks-begins-2026-10-17",
@@ -412,6 +402,16 @@
       "address": "213 Tanker Trail, Minot AFB, ND, 58704",
       "description": "Join us for a Fall Festival Special Lunch & Dinner on 28 October 2026 at the Dakota Inn Dining Facility from 10:30AM – 1:30PM and 4:30PM – 6:30PM! Featured Menu: Braised Beef Brisket Pork Viener Schnitzel Corned Beef Sandwich Pretzel with Cheese Oma’s Noodles Apple Braised Cabbage German Chocolate Cake",
       "category": "community"
+    },
+    {
+      "id": "minot-zombie-5k-run-2026-10-30",
+      "title": "Zombie 5K Run",
+      "date": "2026-10-30T06:30:00",
+      "endDate": "2026-10-30T08:00:00",
+      "location": "",
+      "address": "",
+      "description": "Survivor or Zombie? You decide! Dress up, lace up, and get ready to run for your life! Whether you’re escaping the undead or joining the horde, this 5K is all about spooky fun, big energy, and surviving the finish line. 30 Oct 2026 | 0630 Sign up here: https://www.signupgenius.com/go/10C094BAFAD23A3F4C34-65926460-zombie#/ Volunteer sign up: https://www.signupgenius.com/go/10C094BAFAD23A3F4C34-65925551-zombie#/ Run route: https://5thforcesupport.com/wp-content/uploads/2026/09/Zombie-Run-5K-Map-scaled.jpg",
+      "category": "holiday"
     },
     {
       "id": "minot-haunted-stacks-ends-2026-10-31",
