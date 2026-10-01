@@ -7,7 +7,7 @@
   "wing": "52 FW",
   "latitude": 49.9727,
   "longitude": 6.6925,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "spangdahlem-notif-real-id",
@@ -28,6 +28,11 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-spangdahlem-112",
+      "label": "German Emergency (off-base)",
+      "number": "112"
     },
     {
       "id": "em-3",

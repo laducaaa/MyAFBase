@@ -7,7 +7,7 @@
   "wing": "374 AW",
   "latitude": 35.7485,
   "longitude": 139.3483,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "yokota-notif-real-id",
@@ -28,6 +28,16 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-yokota-119",
+      "label": "Japanese Fire/EMS (off-base)",
+      "number": "119"
+    },
+    {
+      "id": "em-yokota-110",
+      "label": "Japanese Police (off-base)",
+      "number": "110"
     },
     {
       "id": "em-3",

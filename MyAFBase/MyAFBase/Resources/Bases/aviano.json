@@ -7,7 +7,7 @@
   "wing": "31 FW",
   "latitude": 46.0319,
   "longitude": 12.5965,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "aviano-notif-real-id",
@@ -28,6 +28,11 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-aviano-112",
+      "label": "Italian Emergency (off-base)",
+      "number": "112"
     },
     {
       "id": "em-3",

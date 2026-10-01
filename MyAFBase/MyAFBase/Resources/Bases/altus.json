@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -21,8 +21,8 @@
   "emergencyNumbers": [
     {
       "id": "em-altus-1",
-      "label": "Altus Security Forces",
-      "number": "580-481-5201"
+      "label": "Altus Security Forces (97 SFS)",
+      "number": "580-481-6610"
     },
     {
       "id": "em-altus-2",
@@ -32,7 +32,7 @@
     {
       "id": "em-altus-3",
       "label": "Base Operator",
-      "number": "580-481-1110"
+      "number": "580-481-5110"
     },
     {
       "id": "em-altus-4",

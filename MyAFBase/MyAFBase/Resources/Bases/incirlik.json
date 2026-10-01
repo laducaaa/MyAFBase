@@ -7,7 +7,7 @@
   "wing": "39 ABW",
   "latitude": 37.0021,
   "longitude": 35.4259,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "incirlik-notif-real-id",
@@ -28,6 +28,11 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-incirlik-112",
+      "label": "Turkish Emergency (off-base)",
+      "number": "112"
     },
     {
       "id": "em-3",

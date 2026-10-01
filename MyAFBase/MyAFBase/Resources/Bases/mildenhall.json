@@ -7,7 +7,7 @@
   "wing": "100 ARW",
   "latitude": 52.3619,
   "longitude": 0.4864,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "mildenhall-notif-real-id",
@@ -20,17 +20,22 @@
   ],
   "emergencyNumbers": [
     {
-      "id": "em-1",
-      "label": "RAF Mildenhall Security Forces",
-      "number": "+44-1638-54-3421"
+      "id": "em-mildenhall-sfs",
+      "label": "RAF Mildenhall Security Forces / BDOC",
+      "number": "+44-1638-54-2667"
     },
     {
-      "id": "em-2",
-      "label": "911 Emergency",
+      "id": "em-mildenhall-911",
+      "label": "On-base Emergency",
       "number": "911"
     },
     {
-      "id": "em-3",
+      "id": "em-mildenhall-999",
+      "label": "UK Emergency (off-base)",
+      "number": "999"
+    },
+    {
+      "id": "em-mildenhall-operator",
       "label": "Base Operator",
       "number": "+44-1638-54-1110"
     }

@@ -7,7 +7,7 @@
   "wing": "422 ABG",
   "latitude": 51.9875,
   "longitude": -1.1861,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "croughton-notif-real-id",
@@ -28,6 +28,11 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-croughton-999",
+      "label": "UK Emergency (off-base)",
+      "number": "999"
     },
     {
       "id": "em-3",

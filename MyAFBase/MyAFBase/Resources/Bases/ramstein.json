@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -20,17 +20,27 @@
   ],
   "emergencyNumbers": [
     {
-      "id": "em-1",
-      "label": "Ramstein AB Security Forces",
-      "number": "+49-6371-47-3421"
+      "id": "em-ramstein-led",
+      "label": "Ramstein Law Enforcement Desk / Security Forces",
+      "number": "+49-6371-47-2050"
     },
     {
-      "id": "em-2",
-      "label": "911 Emergency",
+      "id": "em-ramstein-led-alt",
+      "label": "Law Enforcement Desk Alternate",
+      "number": "+49-6371-47-2366"
+    },
+    {
+      "id": "em-ramstein-911",
+      "label": "On-base Emergency",
       "number": "911"
     },
     {
-      "id": "em-3",
+      "id": "em-ramstein-112",
+      "label": "German Emergency (off-base)",
+      "number": "112"
+    },
+    {
+      "id": "em-ramstein-operator",
       "label": "Base Operator",
       "number": "+49-6371-47-1110"
     }
