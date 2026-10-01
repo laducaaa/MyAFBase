@@ -7,7 +7,7 @@
   "wing": "354 FW",
   "latitude": 64.6657,
   "longitude": -147.1015,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "eielson-notif-real-id",
@@ -195,26 +195,6 @@
   ],
   "events": [
     {
-      "id": "eielson-parent-tot-craft-dot-button-art-2026-09-24",
-      "title": "Parent & Tot Craft: Dot/Button Art",
-      "date": "2026-09-24T10:30:00",
-      "endDate": "2026-09-24T11:30:00",
-      "location": "Arts & Crafts",
-      "address": "Fairbanks, AK",
-      "description": "Come enjoy a fun crafting experience with your parent! All supplies will be provided. This event is designed for non-school-age children and will take place at Arts & Crafts from",
-      "category": "family"
-    },
-    {
-      "id": "eielson-indoor-field-day-2026-09-26",
-      "title": "Indoor Field Day",
-      "date": "2026-09-26T13:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Community Center",
-      "address": "Fairbanks, AK",
-      "description": "Join us on September 26 from 1–3 PM at the Community Center for Indoor Field Day, a high-energy event packed with movement, teamwork, and fun challenges. Participants will rotate through",
-      "category": "family"
-    },
-    {
       "id": "eielson-airmen-alley-night-2026-09-28",
       "title": "Airmen Alley Night",
       "date": "2026-09-28T16:00:00",
@@ -233,6 +213,16 @@
       "address": "Fairbanks, AK",
       "description": "Visit the Dragon's Hoard Market at the Library all month long and discover magical crafts, activities, and surprises during your visit. Browse the market throughout the month and enjoy fun",
       "category": "recreation"
+    },
+    {
+      "id": "eielson-boo-ling-pin-costume-contest-2026-10-01",
+      "title": "Boo-ling Pin Costume Contest",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-24T23:59:59",
+      "location": "Bowling Center",
+      "address": "Fairbanks, AK",
+      "description": "Get creative and join the Boo-ling Pin Contest! For just $5, you’ll receive a bowling pin to take home and transform into your most imaginative, spooky, silly, or stylish creation. Winners in each age category will receive a $25 FSS Gift Card ! Submission Period: October 1–24 Voting Period: October 26–30 Age Categories: Ages 6 & under Ages 7–12 Ages 13–17 Adult We supply the pin. You supply the creativity. Let your imagination roll — may the best-dressed pin win!",
+      "category": "holiday"
     },
     {
       "id": "eielson-month-of-magic-magical-creature-silhouette-paint-2026-10",
@@ -255,6 +245,16 @@
       "category": "holiday"
     },
     {
+      "id": "eielson-sold-out-make-your-own-halloween-tie-blanket-2026-10-03",
+      "title": "SOLD OUT: Make Your Own Halloween Tie Blanket",
+      "date": "2026-10-03T10:30:00",
+      "endDate": "2026-10-03T12:30:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Come create your very own Halloween tie blanket! All supplies are included, so just bring your creativity and enjoy a fun crafting experience. This event will be held October 3 at Arts & Crafts from 10:30 AM–12:30 PM. The cost is $25, and space is limited. Please register by October 1.",
+      "category": "holiday"
+    },
+    {
       "id": "eielson-smash-bro-tournament-2026-10-03",
       "title": "Smash Bro Tournament",
       "date": "2026-10-03T13:00:00",
@@ -265,6 +265,56 @@
       "category": "entertainment"
     },
     {
+      "id": "eielson-little-explorer-s-playgroup-2026-10-06",
+      "title": "Little Explorer’s Playgroup",
+      "date": "2026-10-06T10:30:00",
+      "endDate": "2026-10-06T11:30:00",
+      "location": "Library",
+      "address": "Fairbanks, AK",
+      "description": "Bring your little ones to enjoy hands-on activities, toys, and imaginative play designed especially for children ages 3 and under and their caregivers. It’s a fun opportunity to explore, learn, and make new friends in a welcoming environment.",
+      "category": "family"
+    },
+    {
+      "id": "eielson-october-teen-camp-team-trebuchet-2026-10-07",
+      "title": "October Teen Camp: Team Trebuchet",
+      "date": "2026-10-07T17:00:00",
+      "endDate": "2026-10-07T19:00:00",
+      "location": "School Age Care",
+      "address": "Fairbanks, AK",
+      "description": "Ready to build, compete, and launch? Teens in 6th–12th grade can put their creativity and engineering skills to the test at the School Age Center! Participants will learn basic design and construction techniques while building 2–3 competing trebuchets for the ultimate pumpkin launch challenge! Registration is through CYPBMS. Spots are limited. Camp hosted October 7, 14, 21 & 28 from 5–7 PM $20 for 4 sessions Don’t have a CYPBMS account? Contact Youth Programs at 907-377-5437, and our staff will help you get started. Participants must have a current physical and immunization record, including t",
+      "category": "outdoor"
+    },
+    {
+      "id": "eielson-parent-tot-craft-pumpkin-and-candy-corn-magnets-2026-10",
+      "title": "Parent & Tot Craft: Pumpkin and Candy Corn Magnets",
+      "date": "2026-10-08T10:30:00",
+      "endDate": "2026-10-08T11:30:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Parent & Child Toddler Craft: Pumpkin & Candy Corn Magnets Come enjoy crafting with your parent! All supplies will be provided for this fun hands-on activity designed for non-school-age children. Toddlers will create their own pumpkin and candy corn magnets to take home. The event will take place October 8 from 10:30 AM–12:30 PM at Arts & Crafts. The cost is $8, and space is limited. Please register by October 6. REGISTER HERE",
+      "category": "family"
+    },
+    {
+      "id": "eielson-afe-guitaro-sing-with-me-2026-10-09",
+      "title": "AFE: Guitaro Sing With Me",
+      "date": "2026-10-09T16:30:00",
+      "endDate": "2026-10-09T18:30:00",
+      "location": "Yukon Club",
+      "address": "Fairbanks, AK",
+      "description": "Join us October 9 at the Yukon Club for a FREE, all-ages event featuring Sing With Me by Guitaro! Doors open at 4:00 p.m., so come early to grab a spot and get ready for an unforgettable time singing your heart out. Bring the whole family, jump into the fun, and enjoy an evening filled with music, singing and good times at the Yukon Club.",
+      "category": "family"
+    },
+    {
+      "id": "eielson-pumpkin-carving-contest-2026-10-17",
+      "title": "Pumpkin Carving Contest",
+      "date": "2026-10-17T14:00:00",
+      "endDate": "2026-10-17T17:00:00",
+      "location": "Arts & Crafts",
+      "address": "Fairbanks, AK",
+      "description": "Come participate in the Arts & Crafts Pumpkin Contest! Light snacks, drinks, and all carving supplies will be provided, but participants must bring their own pumpkin. Prizes will be awarded to the top three winners in both team and individual categories, along with one overall Best in Show winner. All participants will compete for the coveted pumpkin trophies. The event will take place October 17 at Arts & Crafts. Pumpkin carving will be from 2:00–4:15 PM, judging will take place from 4:15–4:45 PM, and winners will be announced from 4:45–5:00 PM. The cost is $10 per person or $15 per team. Reg",
+      "category": "entertainment"
+    },
+    {
       "id": "eielson-month-of-magic-adopt-a-dragon-bingo-night-2026-10-20",
       "title": "Month of Magic: Adopt a Dragon Bingo Night",
       "date": "2026-10-20T17:30:00",
@@ -272,6 +322,16 @@
       "location": "Library",
       "address": "Fairbanks, AK",
       "description": "Join us at the Library on October 20 from 5:30-6:30 PM for an exciting game of Dragon Bingo ! Players of all ages will have the chance to win and adopt their very own 3D-printed dragon . Bring your family, test your luck, and enjoy an evening of fun and friendly competition. This event is free and open to all ages . No registration is required-just stop by and play!",
+      "category": "family"
+    },
+    {
+      "id": "eielson-month-of-magic-dragon-tales-storytime-2026-10-21",
+      "title": "Month of Magic: Dragon Tales Storytime",
+      "date": "2026-10-21T10:30:00",
+      "endDate": "2026-10-21T11:30:00",
+      "location": "Library",
+      "address": "Fairbanks, AK",
+      "description": "Join us at the Library for a special Mythical Creatures-themed Storytime as part of our Month of Magic celebration. This fun and imaginative event is designed for children ages 0–5 . No registration is needed—just drop in and enjoy the magic.",
       "category": "family"
     },
     {

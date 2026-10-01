@@ -7,7 +7,7 @@
   "wing": "20 FW",
   "latitude": 33.9727,
   "longitude": -80.4708,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "shaw-notif-real-id",
@@ -255,16 +255,6 @@
   ],
   "events": [
     {
-      "id": "shaw-bowling-a-movie-2026-09-27",
-      "title": "Bowling & a Movie",
-      "date": "2026-09-27T14:00:00",
-      "endDate": "2026-09-27T17:00:00",
-      "location": "Shaw Lanes Bowling Center",
-      "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
-      "description": "<p>Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie, a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices",
-      "category": "entertainment"
-    },
-    {
       "id": "shaw-bowling-a-movie-2026-10-04",
       "title": "Bowling & a Movie",
       "date": "2026-10-04T14:00:00",
@@ -353,6 +343,26 @@
       "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
       "description": "Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie , a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices may vary depending on the menu. For more info, call Shaw Lanes Bowling Center 803.895.2732 . Don’t miss out on this perfect Sunday activity!",
       "category": "family"
+    },
+    {
+      "id": "shaw-bowling-a-movie-2026-11-22",
+      "title": "Bowling & a Movie",
+      "date": "2026-11-22T14:00:00",
+      "endDate": "2026-11-22T17:00:00",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw Air Force Base, SC, 29152",
+      "description": "Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie , a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices may vary depending on the menu. For more info, call Shaw Lanes Bowling Center 803.895.2732 . Don’t miss out on this perfect Sunday activity!",
+      "category": "family"
+    },
+    {
+      "id": "shaw-bowling-a-movie-2026-11-29",
+      "title": "Bowling & a Movie",
+      "date": "2026-11-29T14:00:00",
+      "endDate": "2026-11-29T17:00:00",
+      "location": "Shaw Lanes Bowling Center",
+      "address": "416 Recreation St., Shaw Air Force Base, SC",
+      "description": "Join Shaw Lanes Bowling Center every Sunday in March from 2-5 PM for Bowling & a Movie , a fun-filled afternoon of bowling and a movie! Each week features a different movie: March 2 – Wallace & Gromit: Vengeance Most Fowl (PG) March 9 – Sonic the Hedgehog 3 (PG) March 16 – Song of the Sea (PG) March 23 – Dune Pt. 2 (PG-13) March 30 – Who Framed Roger Rabbit (PG) (Classic Kid Movie Series) Prices may vary depending on the menu. For more info, call Shaw Lanes Bowling Center 803.895.2732 . Don’t miss out on this perfect Sunday activity!",
+      "category": "fitness"
     },
     {
       "id": "shaw-bowling-a-movie-2026-12-06",

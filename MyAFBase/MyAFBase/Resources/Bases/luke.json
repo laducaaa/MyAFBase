@@ -7,7 +7,7 @@
   "wing": "56 FW",
   "latitude": 33.535,
   "longitude": -112.3832,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "luke-notif-real-id",
@@ -296,66 +296,6 @@
   ],
   "events": [
     {
-      "id": "luke-22-a-day-challenge-2026-09",
-      "title": "Virtual 22 A Day Challenge",
-      "date": "2026-09-07",
-      "endDate": "2026-09-22",
-      "location": "Bryant Fitness Center",
-      "address": "Luke AFB, AZ",
-      "description": "Virtual 22 A Day Challenge through Sept 22; 56 FSS September calendar.",
-      "category": "community"
-    },
-    {
-      "id": "luke-skyline-camp",
-      "title": "Skyline Regional Park Camping & Stargazing",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-26T11:00:00",
-      "location": "Skyline Regional Park",
-      "address": "Buckeye/Phoenix area, AZ",
-      "description": "Camping & stargazing celebrating International Observe the Moon Night.",
-      "category": "recreation"
-    },
-    {
-      "id": "luke-all-bets-are-off-community-poker-tournament-2026-09-25",
-      "title": "All Bets Are Off: Community Poker Tournament",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Community Commons",
-      "address": "14037 W Phantom St, Luke AFB, AZ 85309, Glendale, AZ",
-      "description": "Date: 25 September 2026 Time: 1800-2200 | Tournament starts: 1830 Location: Community Commons Cost: $15 Entry Fee (Includes tournament seat, food, and drinks!) Details: 🏆 The Prize Pool Place Prize 🥇 1st Place $150 cash 🥈 2nd Place $100 cash 🥉 3rd Place $75 cash 🍕 What’s Included in Your $15 Ticket? Full Tournament Buy-In: Starting stack of chips and a seat at the tables. Food & Drinks: Free refreshments and grub provided to keep you fueled through the final table. ⚠️ Watch Out For (Pitfalls to Avoid) Late Arrivals: To keep the tournament running smoothly, the first cards fly precisely at 6:30",
-      "category": "fitness"
-    },
-    {
-      "id": "luke-saturday-crafternoons-2026-09-26",
-      "title": "Saturday Crafternoons",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "Luke AFB",
-      "address": "Glendale, AZ",
-      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "luke-wargaming-club-2026-09-26",
-      "title": "Wargaming Club",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "Luke AFB",
-      "address": "Glendale, AZ",
-      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "luke-hearts-apart-chicken-n-pickle-2026-09-27",
-      "title": "Hearts Apart: Chicken N Pickle",
-      "date": "2026-09-27",
-      "endDate": "2026-09-27",
-      "location": "Luke AFB",
-      "address": "Glendale, AZ",
-      "description": "Listed on the public FSS/MWR calendar for Luke AFB.",
-      "category": "recreation"
-    },
-    {
       "id": "luke-outdoor-education-program-2026-09-28",
       "title": "Outdoor Education Program",
       "date": "2026-09-28",
@@ -366,6 +306,16 @@
       "category": "outdoor"
     },
     {
+      "id": "luke-youth-and-teen-programs-open-recreation-2026-202-2026-09-28",
+      "title": "Youth and Teen Programs, Open Recreation-2026-2027 School Year",
+      "date": "2026-09-28T13:00:00",
+      "endDate": "2026-09-28T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Days: Monday-Friday Time: 1 :00 p.m.- 5:30 pm Location: Youth Programs, bldg 1143 Register / Sign-up By: Monthly Cost: $35.00 Age: 9-18 Details: Youth Programs are designed to encourage members ages 9-18 to realize a wide variety of positive outcomes, a strategy for developing the “whole child.” Youth Programs offers tested, proven and nationally recognized programs in five Core Program Areas that include The Arts, Leadership & Service, Health & Wellness, education and Sports and Recreation that closely align with the developmental needs of all young people Current immunizations and flu shot i",
+      "category": "family"
+    },
+    {
       "id": "luke-all-day-wing-fest-2026-09-30",
       "title": "All Day Wing Fest",
       "date": "2026-09-30T00:00:00",
@@ -374,6 +324,46 @@
       "address": "",
       "description": "Last Weds of the month – All Day Wing Fest Date: Last Wednesday of the Month Location: Club Five Six Time: Lunch – 1100-1300 Dinner – 1530",
       "category": "recreation"
+    },
+    {
+      "id": "luke-children-s-storytime-2026-09-30",
+      "title": "Children’s Storytime",
+      "date": "2026-09-30T10:00:00",
+      "endDate": "2026-09-30T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "Event: Children’s Storytime Location: Luke AFB Library Contact: 623-856-7191 Childrens-Storytime_Low-Res",
+      "category": "family"
+    },
+    {
+      "id": "luke-youth-and-teen-programs-open-recreation-2026-202-2026-10-01",
+      "title": "Youth and Teen Programs, Open Recreation-2026-2027 School Year",
+      "date": "2026-10-01T13:00:00",
+      "endDate": "2026-10-01T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Days: Monday-Friday Time: 1 :00 p.m.- 5:30 pm Location: Youth Programs, bldg 1143 Register / Sign-up By: Monthly Cost: $35.00 Age: 9-18 Details: Youth Programs are designed to encourage members ages 9-18 to realize a wide variety of positive outcomes, a strategy for developing the “whole child.” Youth Programs offers tested, proven and nationally recognized programs in five Core Program Areas that include The Arts, Leadership & Service, Health & Wellness, education and Sports and Recreation that closely align with the developmental needs of all young people Current immunizations and flu shot i",
+      "category": "family"
+    },
+    {
+      "id": "luke-fighter-wing-1st-friday-2026-10-02",
+      "title": "Fighter Wing 1st Friday",
+      "date": "2026-10-02T16:00:00",
+      "endDate": "2026-10-02T20:00:00",
+      "location": "Club Five Six",
+      "address": "14000 Eagle St, Luke AFB, AZ 85309, Glendale, AZ",
+      "description": "Event Name: Fighter Wing 1st Friday Date: Recurring every First Friday of every month Time: 1600-2000 Location: Zemke’s Lounge at Club Five Six Target audience: 56th Fighter Wing a nd families Price: Free entry, Complimentary appetizers. First Friday Drink specials available, Scotch n Cigar on the patio during cooler months. DJ Service or Live music.",
+      "category": "entertainment"
+    },
+    {
+      "id": "luke-mini-golf-and-movie-collab-2026-10-02",
+      "title": "Mini Golf and Movie Collab",
+      "date": "2026-10-02T17:30:00",
+      "endDate": "2026-10-02T18:30:00",
+      "location": "Base Theater",
+      "address": "",
+      "description": "Date(s): 11 September | 2 & 16 October | 6 & 20 November 2026 Time: 1730-1830 Location: Base Theater Details: Join us for an hour before each movie, where we’ll have our mini golf course and other lawn games set up for everyone to enjoy. Stop by to play a round of mini golf, have some fun, and learn about everything Outdoor Recreation has to offer!",
+      "category": "outdoor"
     },
     {
       "id": "luke-scary-movie-marathon-2026-10-02",
@@ -406,6 +396,26 @@
       "category": "outdoor"
     },
     {
+      "id": "luke-fall-break-camp-2026-10-05",
+      "title": "Fall Break Camp",
+      "date": "2026-10-05T06:00:00",
+      "endDate": "2026-10-09T17:30:00",
+      "location": "Youth Programs",
+      "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
+      "description": "Date: October 5-9 & 12-16 2026 Time: 0600-1730 Location: Youth Programs Details: There are lots of fun and exciting activities for your child to choose from: arts & crafts, computers, STEM, fitness fun, outdoor play, field trips, and much more! Cost per child is based on total family income and includes breakfast, lunch, and afternoon snack! Spaces are limited, so please call the School-Age Care Program desk at (623) 856-7470 for more information today! Please register online at https://parent.afcyp.com/",
+      "category": "outdoor"
+    },
+    {
+      "id": "luke-lunch-break-axe-throwing-2026-10-05",
+      "title": "Lunch Break Axe Throwing",
+      "date": "2026-10-05T11:00:00",
+      "endDate": "2026-10-05T13:00:00",
+      "location": "",
+      "address": "",
+      "description": "Date: Monday – Thursday | All Month of October Time: 1100-1300 Location: Outdoor Recreation Price: $5 All-you-can-play Details: Come spend your lunch break at Outdoor Recreation and let off some steam in our Axe Throwing Trailer!",
+      "category": "outdoor"
+    },
+    {
       "id": "luke-start-smart-flag-football-2026-10-06",
       "title": "Start Smart Flag Football",
       "date": "2026-10-06T16:30:00",
@@ -414,6 +424,16 @@
       "address": "Luke Air Force Base Youth Center 50152006, Glendale, AZ",
       "description": "Date(s): 1 September – 6 October Time: 1630 – 1730 Location: Youth Programs Price: $25 Details: Ages 3 – 5. The program prepares children for organized football in a fun, non-threatening environment. Sports physical, immunization record, and proof of flu shot required. Class is limited to 15 children. **Register online at parent.afcyp.com",
       "category": "fitness"
+    },
+    {
+      "id": "luke-children-s-storytime-2026-10-07",
+      "title": "Children’s Storytime",
+      "date": "2026-10-07T10:00:00",
+      "endDate": "2026-10-07T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "Event: Children’s Storytime Location: Luke AFB Library Contact: 623-856-7191 Childrens-Storytime_Low-Res",
+      "category": "family"
     },
     {
       "id": "luke-wingman-wednesdays-2026-10-07",

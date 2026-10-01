@@ -7,7 +7,7 @@
   "wing": "22 ARW",
   "latitude": 37.6219,
   "longitude": -97.2682,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "mcconnell-notif-real-id",
@@ -370,46 +370,6 @@
   ],
   "events": [
     {
-      "id": "mcconnell-soccer-tournament-2026-09-22",
-      "title": "Soccer Tournament",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "location": "McConnell AFB",
-      "address": "Wichita, KS",
-      "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
-      "category": "community"
-    },
-    {
-      "id": "mcconnell-story-time-squad-2026-09-22",
-      "title": "Story Time Squad",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:00:00",
-      "location": "McConnell AFB Library",
-      "address": "53476 Wichita St., Wichita, KS, 67221",
-      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
-      "category": "family"
-    },
-    {
-      "id": "mcconnell-game-night-2026-09-25",
-      "title": "Game Night",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T23:00:00",
-      "location": "The Breakaway Lounge",
-      "address": "Dole Center Building #412, McConnell AFB, KS, 67221",
-      "description": "Celebrate the end of the month with a night of pure fun at The Breakaway! Kick off your weekend early and dive into an evening packed with entertainment. We’ve got something for everyone: • Six different gaming consoles • Classic and modern board games • Mini putt-putt • Sports games and more! Bring your friends—or come make new ones! No matter how you play, The Breakaway is the place to be to wrap up the month.",
-      "category": "outdoor"
-    },
-    {
-      "id": "mcconnell-swim-lessons-2026-09-26",
-      "title": "Swim Lessons",
-      "date": "2026-09-26T12:00:00",
-      "endDate": "2026-09-26T16:00:00",
-      "location": "",
-      "address": "",
-      "description": "🏊‍♂️ Make a Splash with Swim Lessons! 🌊 Join Outdoor Recreation for swim classes—just $10 per class with 3 classes offered each month! 💦 📅 Class Schedule: 👶 Parent & Baby (6+ months): 12:00–12:45 PM 🧒 Toddler (2–5 years): 12:50–1:35 PM 🧑‍🎓 School Age (5–10 years): 1:40–2:25 PM 🧒 School Age (11–16 years): 2:25–3:10 PM 👩‍🦳 Adult (16+ years): 3:15–4:00 PM 📍 Sign up today with Outdoor Recreation! 📝 Call 316-759-4435. 💧 Spots are limited, so dive in and reserve yours now! 💧 What to Bring to Swim Lessons: • Swimsuit • Towel • Googles (Optional) • Swim Cap (Optional) • Water bottle (recommended)",
-      "category": "outdoor"
-    },
-    {
       "id": "mcconnell-craftaholics-2026-09-28",
       "title": "Craftaholics",
       "date": "2026-09-28",
@@ -448,6 +408,16 @@
       "address": "Wichita, KS",
       "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
       "category": "community"
+    },
+    {
+      "id": "mcconnell-story-time-squad-2026-09-29",
+      "title": "Story Time Squad",
+      "date": "2026-09-29T10:00:00",
+      "endDate": "2026-09-29T11:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
+      "category": "family"
     },
     {
       "id": "mcconnell-crafternoon-2026-10-03",
@@ -530,6 +500,16 @@
       "category": "family"
     },
     {
+      "id": "mcconnell-story-time-squad-2026-10-13",
+      "title": "Story Time Squad",
+      "date": "2026-10-13T10:00:00",
+      "endDate": "2026-10-13T11:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
+      "category": "family"
+    },
+    {
       "id": "mcconnell-cyp-haunted-house-2026-10-16",
       "title": "CYP Haunted House",
       "date": "2026-10-16",
@@ -550,6 +530,26 @@
       "category": "holiday"
     },
     {
+      "id": "mcconnell-kanza-kids-2026-10-21",
+      "title": "Kanza Kids",
+      "date": "2026-10-21T16:15:00",
+      "endDate": "2026-10-21T17:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "Join the Library at the Youth Center to create your very own pet ghost! The program is held at the Youth Center, but you do not need to be a Youth Center member to attend. Children under the age of 12 must be accompanied by an adult.",
+      "category": "family"
+    },
+    {
+      "id": "mcconnell-friday-on-the-frontier-2026-10-23",
+      "title": "Friday On The Frontier",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "Hangar 1126",
+      "address": "1126 Paper Street, McConnell AFB, KS, 67221",
+      "description": "Exclusive to DoD cardholders Experience Frontiers in Flight before the gates open to the general public! Friday on the Frontier is an exclusive preview event giving military members and their families the opportunity to enjoy the excitement of the Frontiers in Flight Air Show a day early. Then, keep the celebration going from 5–7 PM with a live concert featuring Jaelen Johnston, plus food trucks and more. For more information, visit refuelmcconnell.com/frontiersinflight .",
+      "category": "entertainment"
+    },
+    {
       "id": "mcconnell-frontiers-in-flight-2026",
       "title": "Frontiers in Flight Open House & Air Show",
       "date": "2026-10-24",
@@ -558,6 +558,16 @@
       "address": "Wichita, KS",
       "description": "Free public open house and air show headlined by the USAF Thunderbirds. Community source: Frontiers in Flight / Visit Wichita.",
       "category": "community"
+    },
+    {
+      "id": "mcconnell-frontiers-in-flight-airshow-2026-10-24",
+      "title": "Frontiers in Flight Airshow",
+      "date": "2026-10-24T10:30:00",
+      "endDate": "2026-10-24T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Frontiers in Flight Air Show 2026 October 24–25, 2026 | McConnell Air Force Base Get ready, Wichita—the sky is calling! Frontiers in Flight returns to McConnell Air Force Base October 24–25 for an unforgettable weekend of aviation, excitement and family fun. Watch the U.S. Air Force Thunderbirds take to the skies alongside incredible civilian aerobatic performers and military demonstrations, then explore an impressive lineup of aircraft and interactive static displays on the flight line. From high-speed passes and precision aerobatics to the chance to see military and civilian aircraft up clos",
+      "category": "family"
     },
     {
       "id": "mcconnell-evt-tanker-trot",
@@ -578,6 +588,36 @@
       "address": "Wichita, KS",
       "description": "Listed on the public FSS/MWR calendar for McConnell AFB.",
       "category": "recreation"
+    },
+    {
+      "id": "mcconnell-game-night-2026-10-30",
+      "title": "Game Night",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T23:00:00",
+      "location": "The Breakaway Lounge",
+      "address": "Dole Center Building #412, McConnell AFB, KS, 67221",
+      "description": "Celebrate the end of the month with a night of pure fun at The Breakaway! Kick off your weekend early and dive into an evening packed with entertainment. We’ve got something for everyone: • Six different gaming consoles • Classic and modern board games • Mini putt-putt • Sports games and more! Bring your friends—or come make new ones! No matter how you play, The Breakaway is the place to be to wrap up the month.",
+      "category": "outdoor"
+    },
+    {
+      "id": "mcconnell-story-time-squad-2026-11-03",
+      "title": "Story Time Squad",
+      "date": "2026-11-03T10:00:00",
+      "endDate": "2026-11-03T11:00:00",
+      "location": "McConnell AFB Library",
+      "address": "53476 Wichita St., Wichita, KS, 67221",
+      "description": "📚 Story Time Squad Join us each week for a fun and engaging program designed for prereaders! Through stories, crafts, and play, little learners will build early literacy skills and discover the joy of reading. Story Time will be held in the Library’s Sunflower Room —a cozy space perfect for sparking imagination and a lifelong love of learning.",
+      "category": "family"
+    },
+    {
+      "id": "mcconnell-first-tuesday-bingo-2026-11-03",
+      "title": "First Tuesday Bingo",
+      "date": "2026-11-03T17:30:00",
+      "endDate": "2026-11-03T20:30:00",
+      "location": "",
+      "address": "",
+      "description": "First Tuesday Bingo Get ready for a fun night of excitement! Join us in the Pulley Ballroom —doors open at 5:30 pm , and games begin at 6:30 pm . Ages 16+ are welcome to attend; ages 18+ may play and win. For $25 , you’ll receive entry to all 10 regular games plus both jackpot rounds ! Don’t have a dauber? No worries— daubers are available for purchase on-site.",
+      "category": "entertainment"
     },
     {
       "id": "mcconnell-turkey-trot-5k-2026-11-10",

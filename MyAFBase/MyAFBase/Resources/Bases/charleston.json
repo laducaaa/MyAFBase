@@ -7,7 +7,7 @@
   "wing": "628 ABW / 437 AW",
   "latitude": 32.9346,
   "longitude": -80.0406,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "charleston-notif-real-id",
@@ -299,94 +299,14 @@
   ],
   "events": [
     {
-      "id": "charleston-ws-tap-21-23-2026-09-21",
-      "title": "WS TAP 21-23",
-      "date": "2026-09-21T00:00:00",
-      "endDate": "2026-09-21T23:59:59",
-      "location": "M&FRC NWS",
-      "address": "North Charleston, SC",
-      "description": "In Person",
-      "category": "education"
-    },
-    {
-      "id": "charleston-bells-across-america-2026-09-22",
-      "title": "Bells Across America (Gold Star Families)",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "location": "Military and Family Readiness",
-      "address": "Joint Base Charleston, SC",
-      "description": "Gold Star Families Bells Across America ceremony; jbcharleston.com September Calendar.",
-      "category": "community"
-    },
-    {
-      "id": "charleston-employer-panel-2026-09-23",
-      "title": "Employer Panel",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
-      "location": "M&FRC NWS",
+      "id": "charleston-ksl-recognition-program-2026-09-30",
+      "title": "KSL Recognition Program",
+      "date": "2026-09-30T00:00:00",
+      "endDate": "2026-09-30T23:59:59",
+      "location": "Professional Development Center",
       "address": "Charleston, SC",
-      "description": "Local recruiters share hiring advice with TAP workshop attendees",
-      "category": "education"
-    },
-    {
-      "id": "charleston-hearts-apart-deployed-families-dinner-1730-1930-2026",
-      "title": "Hearts Apart – Deployed Families Dinner (1730-1930)",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
-      "location": "M&FRC AB",
-      "address": "Charleston, SC",
-      "description": "Deployed spouse networking event, Texas Roadhouse dinner",
+      "description": "Recognition Ceremony for KSL/M",
       "category": "community"
-    },
-    {
-      "id": "charleston-civilian-professional-development-2026-09-23",
-      "title": "Civilian Professional Development",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
-      "location": "AB Commons",
-      "address": "Charleston, SC",
-      "description": "MFRC Lead",
-      "category": "community"
-    },
-    {
-      "id": "charleston-tsp-you-2026-09-24",
-      "title": "TSP & YOU",
-      "date": "2026-09-24T00:00:00",
-      "endDate": "2026-09-24T23:59:59",
-      "location": "M&FRC AB",
-      "address": "North Charleston, SC",
-      "description": "Plan your retirement, fund your TSP, live the life your terms",
-      "category": "education"
-    },
-    {
-      "id": "charleston-2-day-dol-ew-2026-09-24",
-      "title": "2-Day DOL EW",
-      "date": "2026-09-24T00:00:00",
-      "endDate": "2026-09-24T23:59:59",
-      "location": "M&FRC NWS",
-      "address": "Charleston, SC",
-      "description": "In Person",
-      "category": "community"
-    },
-    {
-      "id": "charleston-bells-across-america-2026-09-24",
-      "title": "Bells Across America",
-      "date": "2026-09-24T00:00:00",
-      "endDate": "2026-09-24T23:59:59",
-      "location": "JB Charleston",
-      "address": "Charleston, SC",
-      "description": "Reflective Ceremony for fallen service members",
-      "category": "community"
-    },
-    {
-      "id": "charleston-family-movie-night-2026-09-25",
-      "title": "Family Movie Night",
-      "date": "2026-09-25T00:00:00",
-      "endDate": "2026-09-25T23:59:59",
-      "location": "NWS Library",
-      "address": "Joint Base Charleston, SC",
-      "description": "Family-friendly movie at the library",
-      "category": "entertainment"
     },
     {
       "id": "charleston-odr-charleston-county-latin-festival-volunteering-202",
@@ -409,6 +329,36 @@
       "category": "fitness"
     },
     {
+      "id": "charleston-tap-ab-5-7-oct-2026-10-05",
+      "title": "TAP AB 5-7 Oct",
+      "date": "2026-10-05T00:00:00",
+      "endDate": "2026-10-05T23:59:59",
+      "location": "AB Military & Family Readiness Center",
+      "address": "Charleston, SC",
+      "description": "TAP Regularly monthly schedule",
+      "category": "education"
+    },
+    {
+      "id": "charleston-ab-pre-separation-briefing-2026-10-07",
+      "title": "AB Pre-Separation Briefing",
+      "date": "2026-10-07T00:00:00",
+      "endDate": "2026-10-07T23:59:59",
+      "location": "AB Military & Family Readiness Center",
+      "address": "Charleston, SC",
+      "description": "In person",
+      "category": "education"
+    },
+    {
+      "id": "charleston-employer-panel-2026-10-07",
+      "title": "Employer Panel",
+      "date": "2026-10-07T00:00:00",
+      "endDate": "2026-10-07T23:59:59",
+      "location": "AB Military & Family Readiness Center",
+      "address": "Charleston, SC",
+      "description": "Local recruiters share hiring advice with TAP workshop attendees",
+      "category": "education"
+    },
+    {
       "id": "charleston-parent-advisory-boar-meeting-2026-10-08",
       "title": "Parent Advisory Boar Meeting",
       "date": "2026-10-08T00:00:00",
@@ -417,6 +367,26 @@
       "address": "Charleston, SC",
       "description": "Quarterly meeting w/ parents and staff",
       "category": "family"
+    },
+    {
+      "id": "charleston-tab-ab-8-9-dol-ew-2026-10-08",
+      "title": "TAB AB 8-9 DOL EW",
+      "date": "2026-10-08T00:00:00",
+      "endDate": "2026-10-08T23:59:59",
+      "location": "AB Military & Family Readiness Center",
+      "address": "Charleston, SC",
+      "description": "TAP Regularly monthly schedule",
+      "category": "education"
+    },
+    {
+      "id": "charleston-open-sweepers-2026-10-10",
+      "title": "Open Sweepers",
+      "date": "2026-10-10T00:00:00",
+      "endDate": "2026-10-10T23:59:59",
+      "location": "Starlifter Lanes",
+      "address": "106 W McCaw St, Joint Base Charleston, SC, 29404",
+      "description": "",
+      "category": "community"
     },
     {
       "id": "charleston-odr-hangout-at-nexus-2026-10-16",
@@ -487,6 +457,26 @@
       "address": "205 W Hill Blvd, Charleston, SC, 29404",
       "description": "5k Run/Walk",
       "category": "fitness"
+    },
+    {
+      "id": "charleston-lakeside-pumpkin-fest-2026-10-24",
+      "title": "Lakeside Pumpkin Fest",
+      "date": "2026-10-24T11:00:00",
+      "endDate": "2026-10-24T14:00:00",
+      "location": "Short Stay",
+      "address": "211 Short Stay Rd., Moncks Coroner, SC, 29461",
+      "description": "🎃 Lakeside Pumpkin Fest Sat, 24 Oct • 11a–2p | JBLG – Short Stay Celebrate fall at the lake with a Floating Pumpkin Hunt , pumpkin painting, s’mores, fall photo spots, apple toss and more games! Normal entry fee applies.",
+      "category": "outdoor"
+    },
+    {
+      "id": "charleston-spooky-strikes-2026-10-24",
+      "title": "Spooky Strikes",
+      "date": "2026-10-24T14:00:00",
+      "endDate": "2026-10-24T18:00:00",
+      "location": "JB Charleston",
+      "address": "Charleston, SC",
+      "description": "👻 Spooky Strikes Sat, 24 Oct • 2–6p | JBLG – AB Starlifter Lanes Costumes + bowling = a spooktacular Saturday! Kids ages 16 & under who wear a costume bowl 2 games FREE. Come dressed for Halloween fun and hit the lanes! 🎳🎃",
+      "category": "holiday"
     }
   ],
   "newcomers": {

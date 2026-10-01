@@ -7,7 +7,7 @@
   "wing": "SBD 2 / SD 4",
   "latitude": 39.7017,
   "longitude": -104.7517,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "buckley-notif-real-id",
@@ -348,46 +348,6 @@
   ],
   "events": [
     {
-      "id": "buckley-ditch-the-dorms-financial-2026-09-22",
-      "title": "Ditch the Dorms Financial",
-      "date": "2026-09-22T15:00:00",
-      "endDate": "2026-09-22T16:00:00",
-      "location": "",
-      "address": "",
-      "description": "When: 22 September Where: Panther Hall Theater Room Details: Mandatory class for all dorm residents who are within 3-6 months of eligibility to move out of the dorms. Eligibility is determined by a member’s unit.",
-      "category": "education"
-    },
-    {
-      "id": "buckley-top-rope-tuesday-2026-09-22",
-      "title": "Top Rope Tuesday",
-      "date": "2026-09-22T18:00:00",
-      "endDate": "2026-09-22T20:00:00",
-      "location": "Buckley SFB",
-      "address": "Aurora, CO",
-      "description": "When: 22 September, meet at 6:15 PM Where: Ubergrippen Cost: $22 without rentals, $27 with rentals Included: Rentals, day pass Details: Join us for an evening of indoor rock climbing!",
-      "category": "outdoor"
-    },
-    {
-      "id": "buckley-senior-tap-2-day-dol-workshop-2026-09-24",
-      "title": "Senior TAP: 2 Day DOL Workshop",
-      "date": "2026-09-24T08:00:00",
-      "endDate": "2026-09-25T16:00:00",
-      "location": "Buckley SFB",
-      "address": "Aurora, CO",
-      "description": "When: 24 – 25 September Where: Bldg. 606 Auditorium Details: This Department of Labor (DOL) Employment Workshop is a comprehensive two-day curriculum covering emerging best practices in career development focused on retirees with 20+ years of service. Open to E-7/E-9 and O4 and above. To attend, you must register for courses. Please call M&FRC at 720-847-6681 or email: 460fss.fsh.mfrc@spaceforce.mil",
-      "category": "education"
-    },
-    {
-      "id": "buckley-youth-night-out-2026-09-25",
-      "title": "Youth Night Out",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Buckley SFB",
-      "address": "Aurora, CO",
-      "description": "Date: 25 September Time: 1730-2100 hrs. Location: Youth Center | Bldg. 350 Cost: $10 per youth. Join us at the Youth Center for a Back-to-School Youth Night Out! Youth ages 5–18 can enjoy an evening of art activities, games, a dance party, karaoke, and more. Dinner and snacks will be provided. Sign Up Here *Youth ages 9-18yrs must be members of Buckley Youth Programs.",
-      "category": "family"
-    },
-    {
       "id": "buckley-tap-pre-separation-2026-09-30",
       "title": "TAP Pre–Separation",
       "date": "2026-09-30T08:00:00",
@@ -515,6 +475,56 @@
       "location": "Buckley SFB",
       "address": "Aurora, CO",
       "description": "When: 14 October Where: Bldg. 606 | Auditorium Details: Join Wings Credit Union and your M&FRC team for this Home Buying lunch-and-learn class. We will cover the VA home loan, how to find a lender, and all the many steps of the home-buying process from open houses to inspections to closing. Sign-up required, as a light lunch will be provided.",
+      "category": "education"
+    },
+    {
+      "id": "buckley-career-and-credentialing-exploration-c2e-2026-10-15",
+      "title": "Career and Credentialing Exploration (C2E)",
+      "date": "2026-10-15T08:00:00",
+      "endDate": "2026-10-16T16:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 15–16 October Where: Bldg. 606 | Auditorium Details: The Department of Labor presents this 2-day workshop. It provides information regarding technical and vocational career opportunities, along with credential exploration.",
+      "category": "education"
+    },
+    {
+      "id": "buckley-veteran-support-2026-10-15",
+      "title": "Veteran Support",
+      "date": "2026-10-15T13:00:00",
+      "endDate": "2026-10-15T16:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 15 October Where: Bldg. 606 | Rm. 140 Conference Room Details: Arapahoe County Veterans Service Office (VSO) Support for active-duty service members and veterans with base access, providing information and education on applying for VA benefits. During this time, you can ask general questions or make an appointment for a more personalized session. To register for courses please call M&FRC at 720-847-6681 or e-mail: 460fss.fsh.mfrc@spaceforce.mil",
+      "category": "education"
+    },
+    {
+      "id": "buckley-tap-entrepreneurship-boots-to-business-workshop-2026-10",
+      "title": "TAP Entrepreneurship/Boots to Business Workshop",
+      "date": "2026-10-22T08:00:00",
+      "endDate": "2026-10-23T16:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 22-23 October Where: Bldg. 606 | Auditorium Details: For all Separating or Retiring Military Members. Boots to Business (B2B) is an entrepreneurial education and training program offered by the Small Business Administration (SBA) as part of the Department of Defense’s Transition Assistance Program (TAP). B2B provides participants with an overview of business ownership and is open to service members (including National Guard and Reserve) and military spouses.",
+      "category": "education"
+    },
+    {
+      "id": "buckley-trunk-or-treat-2026-10-24",
+      "title": "Trunk or Treat",
+      "date": "2026-10-24T17:30:00",
+      "endDate": "2026-10-24T20:30:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "Trunk-or-Treat is Coming! ️ Get ready for a spook-tacular evening at the Youth Center’s Trunk-or-Treat on 24 October 2026! Dress in your best costumes and join us from 1730 to 2030 at the Youth Center Parking Lot for a night filled with candy, fun, and frights for all ages! Location: Youth Center Parking Lot FREE GET INVOLVED: Trunk Decorating Contest: Here Volunteer! Here! Sign up to be a haunted house actor: Here EVENT HIGHLIGHTS: – Trunk-or-Treating: 1730-2030 – Scavenger Hunt Bingo: 1730-2000 – Refreshments: 1745-2000 – Photo Opportunities: 1745-2000 – Hay Rides: 1800-2030 – Haunted House ",
+      "category": "holiday"
+    },
+    {
+      "id": "buckley-cryptocurrency-basic-with-the-sec-2026-10-27",
+      "title": "Cryptocurrency Basic with the SEC",
+      "date": "2026-10-27T11:00:00",
+      "endDate": "2026-10-27T12:00:00",
+      "location": "Buckley SFB",
+      "address": "Aurora, CO",
+      "description": "When: 27 October Where: Bldg. 606 | Auditorium Details: The Securities and Exchange Commission is teaming up with your Personal Financial Readiness Program to help you understand crypto, its role in your investment plan, and potential downsides.",
       "category": "education"
     },
     {

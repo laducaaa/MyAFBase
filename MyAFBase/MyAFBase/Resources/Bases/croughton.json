@@ -7,7 +7,7 @@
   "wing": "422 ABG",
   "latitude": 51.9875,
   "longitude": -1.1861,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "croughton-notif-real-id",
@@ -206,54 +206,24 @@
   ],
   "events": [
     {
-      "id": "croughton-toddler-story-time-2026-09-22",
+      "id": "croughton-toddler-story-time-2026-09-29",
       "title": "Toddler Story Time",
-      "date": "2026-09-22T10:30:00",
-      "endDate": "2026-09-22T23:30:00",
+      "date": "2026-09-29T10:30:00",
+      "endDate": "2026-09-29T23:30:00",
       "location": "",
       "address": "",
       "description": "Join us at the library every Tuesday at 10:30 am for stories, music & craft. No registration is required.",
       "category": "family"
     },
     {
-      "id": "croughton-baby-story-time-2026-09-23",
+      "id": "croughton-baby-story-time-2026-09-30",
       "title": "Baby Story Time🍼📚",
-      "date": "2026-09-23T10:30:00",
-      "endDate": "2026-09-23T11:00:00",
+      "date": "2026-09-30T10:30:00",
+      "endDate": "2026-09-30T11:00:00",
       "location": "Library",
       "address": "",
       "description": "Bring your little ones to Baby Story Time every Wednesday at 10:30 AM! Designed for babies aged 0-24 months, this gentle and interactive session features soothing stories, playful songs, and simple activities that encourage early language development and bonding. It’s a wonderful opportunity to introduce your baby to the world of books and connect with other parents in a warm, welcoming environment.",
       "category": "family"
-    },
-    {
-      "id": "croughton-run-club-2026-09-23",
-      "title": "Run Club",
-      "date": "2026-09-23T12:00:00",
-      "endDate": "2026-09-23T13:00:00",
-      "location": "",
-      "address": "",
-      "description": "Run Club social hour! Every Wednesday | 1200-1300 | At the Track | All are welcome to join, whether you’re experienced or a beginner!!",
-      "category": "fitness"
-    },
-    {
-      "id": "croughton-trivia-night-2026-09-25",
-      "title": "Trivia Night",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "RAF Croughton",
-      "address": "Brackley, United Kingdom",
-      "description": "Listed on the public FSS/MWR calendar for RAF Croughton.",
-      "category": "entertainment"
-    },
-    {
-      "id": "croughton-raf-fairford-oktoberfest-2026-09-26",
-      "title": "RAF Fairford Oktoberfest",
-      "date": "2026-09-26T17:00:00",
-      "endDate": "2026-09-26T23:00:00",
-      "location": "",
-      "address": "",
-      "description": "🍻 Oktoberfest is coming to Fairford! Get ready for an evening of good food, great company, and Oktoberfest fun! 🎉 Join us at Air Spare for a celebration filled with German-inspired favorites, festive vibes, and plenty of reasons to raise a glass. Gather your crew, break out your best Oktoberfest look, and come celebrate with us! 🥨🍻 📍 Air Spare 🍺 Oktoberfest 🎉 Good food. Good friends. Great times.",
-      "category": "holiday"
     },
     {
       "id": "croughton-raf-croughton-oktoberfest-2026-10-02",
@@ -296,6 +266,46 @@
       "category": "fitness"
     },
     {
+      "id": "croughton-toddler-story-time-2026-10-13",
+      "title": "Toddler Story Time",
+      "date": "2026-10-13T10:30:00",
+      "endDate": "2026-10-13T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join us at the library every Tuesday at 10:30 am for stories, music & craft. No registration is required.",
+      "category": "family"
+    },
+    {
+      "id": "croughton-baby-story-time-2026-10-14",
+      "title": "Baby Story Time🍼📚",
+      "date": "2026-10-14T10:30:00",
+      "endDate": "2026-10-14T11:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "Bring your little ones to Baby Story Time every Wednesday at 10:30 AM! Designed for babies aged 0-24 months, this gentle and interactive session features soothing stories, playful songs, and simple activities that encourage early language development and bonding. It’s a wonderful opportunity to introduce your baby to the world of books and connect with other parents in a warm, welcoming environment.",
+      "category": "family"
+    },
+    {
+      "id": "croughton-cash-bingo-2026-10-16",
+      "title": "Cash Bingo",
+      "date": "2026-10-16T16:30:00",
+      "endDate": "2026-10-17T00:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for a fun night of Bingo and your chance to win a cash prize! Doors open at 1630 and we’ll start calling the first number at 1800.",
+      "category": "entertainment"
+    },
+    {
+      "id": "croughton-sip-paint-night-2026-10-23",
+      "title": "Sip & Paint Night",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for a fun evening of fun with painting and delicious drinks! $45 per person, Ages 17+ Call Arts & Crafts for more information 236 8541",
+      "category": "recreation"
+    },
+    {
       "id": "croughton-halloween-spooktacular-2026-10-30",
       "title": "Halloween Spooktacular",
       "date": "2026-10-30T16:30:00",
@@ -306,6 +316,16 @@
       "category": "holiday"
     },
     {
+      "id": "croughton-halloween-party-trivia-night-2026-10-30",
+      "title": "Halloween Party & Trivia Night",
+      "date": "2026-10-30T16:30:00",
+      "endDate": "2026-10-31T00:00:00",
+      "location": "",
+      "address": "",
+      "description": "You’re invited to our Halloween Party & Trivia Night! Dress up in your spookiest best, doors open at 1630",
+      "category": "holiday"
+    },
+    {
       "id": "croughton-toddler-story-time-2026-11-03",
       "title": "Toddler Story Time",
       "date": "2026-11-03T10:30:00",
@@ -313,6 +333,16 @@
       "location": "",
       "address": "",
       "description": "Join us at the library every Tuesday at 10:30 am for stories, music & craft. No registration is required.",
+      "category": "family"
+    },
+    {
+      "id": "croughton-baby-story-time-2026-11-04",
+      "title": "Baby Story Time🍼📚",
+      "date": "2026-11-04T10:30:00",
+      "endDate": "2026-11-04T11:00:00",
+      "location": "Library",
+      "address": "",
+      "description": "Bring your little ones to Baby Story Time every Wednesday at 10:30 AM! Designed for babies aged 0-24 months, this gentle and interactive session features soothing stories, playful songs, and simple activities that encourage early language development and bonding. It’s a wonderful opportunity to introduce your baby to the world of books and connect with other parents in a warm, welcoming environment.",
       "category": "family"
     }
   ],

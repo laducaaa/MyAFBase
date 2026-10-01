@@ -7,7 +7,7 @@
   "wing": "86 AW",
   "latitude": 49.4369,
   "longitude": 7.6003,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "ramstein-notif-real-id",
@@ -206,56 +206,6 @@
   ],
   "events": [
     {
-      "id": "ramstein-scuba-course-2026-2026-09-22",
-      "title": "Scuba Course 2026",
-      "date": "2026-09-22T00:00:00",
-      "endDate": "2026-09-22T23:59:00",
-      "location": "Aquatic Center",
-      "address": "Building 422, Wilson Boulevard, Ramstein Air Base, DE",
-      "description": "Scuba certification course at the Ramstein Aquatic Center.",
-      "category": "outdoor"
-    },
-    {
-      "id": "ramstein-whisked-wednesdays-2026-09-23",
-      "title": "Whisked Wednesdays",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
-      "location": "USO Kaiserslautern",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "",
-      "category": "community"
-    },
-    {
-      "id": "ramstein-lego-plant-party-2026-09-24",
-      "title": "Lego Plant Party",
-      "date": "2026-09-24T00:00:00",
-      "endDate": "2026-09-24T23:59:59",
-      "location": "USO Kaiserslautern",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "",
-      "category": "entertainment"
-    },
-    {
-      "id": "ramstein-boards-swords-2026-09-25",
-      "title": "Boards & Swords",
-      "date": "2026-09-25T00:00:00",
-      "endDate": "2026-09-25T23:59:59",
-      "location": "USO Kaiserslautern",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "",
-      "category": "entertainment"
-    },
-    {
-      "id": "ramstein-paws-pancakes-2026-09-26",
-      "title": "Paws & Pancakes",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "USO Kaiserslautern",
-      "address": "Kaiserslautern Military Community, Germany",
-      "description": "",
-      "category": "community"
-    },
-    {
       "id": "ramstein-deployed-partners-breakfast-2026-09-29",
       "title": "Deployed Partners Breakfast",
       "date": "2026-09-29T00:00:00",
@@ -364,6 +314,16 @@
       "address": "Kaiserslautern Military Community, Germany",
       "description": "The USO is proud to support FSS Fright Night by hosting a spooky, hands-on game for our young trick-or-treaters, giving them a chance to win candy and festive Halloween prizes while adding a little extra fun to the night.",
       "category": "holiday"
+    },
+    {
+      "id": "ramstein-paws-pancakes-2026-10-30",
+      "title": "Paws & Pancakes",
+      "date": "2026-10-30T00:00:00",
+      "endDate": "2026-10-30T23:59:59",
+      "location": "USO Ramstein",
+      "address": "Kaiserslautern Military Community, Germany",
+      "description": "USO Canine Volunteers will be on-site to provide plenty of puppy love while we serve up fresh, delicious pancakes for the Ramstein community. Whether you’re working or just need a pick-me-up, stop by to enjoy some furry friends and flapjacks!",
+      "category": "community"
     },
     {
       "id": "ramstein-halloween-bash-teddy-bear-picnic-2026-10-31",

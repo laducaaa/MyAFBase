@@ -7,7 +7,7 @@
   "wing": "99 ABW / USAFWC / 57 WG",
   "latitude": 36.2361,
   "longitude": -115.0343,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "nellis-notif-1",
@@ -304,54 +304,14 @@
   ],
   "events": [
     {
-      "id": "nellis-year-round-recreation-swim-2026-09-21",
+      "id": "nellis-year-round-recreation-swim-2026-09-28",
       "title": "Year-Round Recreation Swim",
-      "date": "2026-09-21T10:00:00",
-      "endDate": "2026-09-21T23:00:00",
+      "date": "2026-09-28T10:00:00",
+      "endDate": "2026-09-28T23:00:00",
       "location": "Warrior Fitness Center",
       "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
       "description": "MON | WED | FRI 1000 – 1100 / 1600-1700 CALL 702.652.4712 FOR MORE INFORMATION.",
       "category": "community"
-    },
-    {
-      "id": "nellis-glass-workshop",
-      "title": "GLASS is in Session! Faux Stained Glass Workshop",
-      "date": "2026-09-23T16:00:00",
-      "endDate": "2026-09-23T19:00:00",
-      "location": "Nellis Arts & Crafts",
-      "address": "Nellis AFB, NV",
-      "description": "$20; RSVP by Sept 16 to nellisartsandcrafts@outlook.com or 702-652-2849.",
-      "category": "recreation"
-    },
-    {
-      "id": "nellis-glass-is-in-session-2026-09-23",
-      "title": "GLASS is in Session!",
-      "date": "2026-09-23T16:00:00",
-      "endDate": "2026-09-23T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "GLASS is in session! Faux Stained Glass Art Workshop Wednesday, September 23, 2026 4pm – 7pm $20 RSVP by September 16, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Dr, # 610, Nellis Air Force Base, NV, 89191 Children must be accompanied by an adult. Limited seats available.",
-      "category": "family"
-    },
-    {
-      "id": "nellis-sup-mead",
-      "title": "Stand Up Paddleboarding Lake Mead",
-      "date": "2026-09-26T07:00:00",
-      "endDate": "2026-09-26T12:00:00",
-      "location": "Lake Mead",
-      "address": "NV",
-      "description": "$50; ages 12+.",
-      "category": "recreation"
-    },
-    {
-      "id": "nellis-horseback-bbq",
-      "title": "Horseback Riding & BBQ Dinner",
-      "date": "2026-09-26T15:00:00",
-      "endDate": "2026-09-26T20:00:00",
-      "location": "Outdoor Recreation trails",
-      "address": "Near Nellis AFB, NV",
-      "description": "$120; ages 6+; trail ride and BBQ dinner.",
-      "category": "recreation"
     },
     {
       "id": "nellis-art-of-spices-2026-10-02",
@@ -464,6 +424,16 @@
       "category": "fitness"
     },
     {
+      "id": "nellis-club-championship-golf-tournament-2026-10-11",
+      "title": "Club Championship Golf Tournament",
+      "date": "2026-10-11T08:00:00",
+      "endDate": "2026-10-11T15:00:00",
+      "location": "",
+      "address": "",
+      "description": "Club Championship Golf Tournament Saturday & Sunday • OCTOBER 10-11 • 2026 • 8 AM SHOTGUN START EACH DAY *$140 Per Player CHAMPIONSHIP FLIGHT Blue Tees • GROSS • No Handicap OPEN FLIGHT White Tees • NET FORWARD FLIGHT Gold Tees • Age 65-Up or 18 handicap & above • NET LADIES FLIGHT Red Tees • NET PRIZES FOR TOP FINISHERS IN EACH DIVISION *ENTRY INCLUDES: 36 Holes of Golf • Cart Rental • Range Balls • Lunch Served After Play Both Days CALL 702-652-4497 OR STOP BY TO SIGN-UP Sunrise Vista Golf Course is located at Nellis AFB • 2841 Kinley Drive, Bldg 1626",
+      "category": "fitness"
+    },
+    {
       "id": "nellis-haunted-neon-nights-volunteer-2026-10-15",
       "title": "Haunted Neon Nights Volunteer",
       "date": "2026-10-15T10:00:00",
@@ -482,6 +452,16 @@
       "address": "Las Vegas, NV",
       "description": "Listed on the public FSS calendar.",
       "category": "recreation"
+    },
+    {
+      "id": "nellis-haunted-neon-nights-volunteer-2026-10-16",
+      "title": "Haunted Neon Nights Volunteer",
+      "date": "2026-10-16T08:00:00",
+      "endDate": "2026-10-16T23:30:00",
+      "location": "",
+      "address": "",
+      "description": "Need volunteers for Set-up Day 2 Friday, October 16 8am – 11:30pm Sign up here to Volunteer",
+      "category": "community"
     },
     {
       "id": "nellis-lake-mead-e-biking-river-mountains-loop-2026-10-17",
@@ -534,6 +514,36 @@
       "category": "family"
     },
     {
+      "id": "nellis-babysitter-certification-2026-11-06",
+      "title": "BABYSITTER CERTIFICATION",
+      "date": "2026-11-06T10:00:00",
+      "endDate": "2026-11-06T14:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Fri, Nov 6 TIME: 10:00am – 2:00pm DESCRIPTION: Prepares youth ages 11 and up to safely and confidently care for children and infants with hands-on activities and discussions. COST: $99 /person MUST HAVE BASE ACCESS TO ATTEND Register For The Class Here",
+      "category": "family"
+    },
+    {
+      "id": "nellis-cpr-aed-blended-2026-11-06",
+      "title": "CPR/AED BLENDED",
+      "date": "2026-11-06T10:00:00",
+      "endDate": "2026-11-06T12:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Friday, November 6 TIME: 10am – 12pm DESCRIPTION: Respond to a variety of first aid, breathing, and cardiac emergencies such as choking, heat stroke, and cardiac arrest in both online and in-person sessions. COST: $80 /person MUST HAVE BASE ACCESS TO ATTEND Register For The Class Here",
+      "category": "education"
+    },
+    {
+      "id": "nellis-cpr-aed-in-person-2026-11-09",
+      "title": "CPR/AED IN-PERSON",
+      "date": "2026-11-09T16:00:00",
+      "endDate": "2026-11-09T20:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "RED CROSS CERTIFICATION CLASS_CPR IN-PERSON Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Monday, November 9 TIME: 4pm – 8:30pm DESCRIPTION: Respond to a variety of first aid, breathing, and cardiac emergencies such as choking, heat stroke, and cardiac arrest in a traditional in-person instructor-led session. COST: $90 /person MUST HAVE BASE ACCESS TO ATTEND Register For The Class Here",
+      "category": "education"
+    },
+    {
       "id": "nellis-achieving-financial-security-2026-11-13",
       "title": "Achieving Financial Security",
       "date": "2026-11-13T14:00:00",
@@ -552,6 +562,26 @@
       "address": "11357 N. DECATUR BLVD, LAS VEGAS, NV, 89131",
       "description": "DOD CARD HOLDERS $70.00 REGISTRAION BEGINS 30 DAYS PRIOR TO THE EVENT NON-DOD CARD HOLDERS $100.00 REGISTRATION BEGINS 15 DAYS PRIOR TO THE EVENT Click Here to Sign Up Class wil be held at Clark County Shooting Complex Classroom E DOD cardholders must sign up in person at C2 * Please be on the look out for the enrollment package to complete and return.",
       "category": "education"
+    },
+    {
+      "id": "nellis-cpr-aed-blended-2026-12-04",
+      "title": "CPR/AED BLENDED",
+      "date": "2026-12-04T10:00:00",
+      "endDate": "2026-12-04T12:00:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "RED CROSS CERTIFICATION CLASS_CPR BLENDED Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Friday, December 4 TIME: 10am – 12pm DESCRIPTION: Respond to a variety of first aid, breathing, and cardiac emergencies such as choking, heat stroke, and cardiac arrest in both online and in-person sessions. COST: $80 /person MUST HAVE BASE ACCESS TO ATTEND Register For The Class Here",
+      "category": "education"
+    },
+    {
+      "id": "nellis-cpr-aed-in-person-2026-12-07",
+      "title": "CPR/AED IN-PERSON",
+      "date": "2026-12-07T10:00:00",
+      "endDate": "2026-12-07T14:30:00",
+      "location": "Community Commons",
+      "address": "4311 Washington Blvd, Bldg. 312 Nellis AFB, NV, 89191",
+      "description": "RED CROSS CERTIFICATION CLASS_CPR IN-PERSON Learn lifesaving skills. Build confidence. Be prepared. Save a life. DATE: Friday, December 7 TIME: 10am – 2:30pm DESCRIPTION: Respond to a variety of first aid, breathing, and cardiac emergencies such as choking, heat stroke, and cardiac arrest in a traditional in-person instructor-led session. COST: $90 /person MUST HAVE BASE ACCESS TO ATTEND",
+      "category": "community"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "355 WG",
   "latitude": 32.1665,
   "longitude": -110.883,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "davis-monthan-notif-real-id",
@@ -354,104 +354,14 @@
   ],
   "events": [
     {
-      "id": "davis-monthan-pins-and-pals-2026-09-23",
+      "id": "davis-monthan-pins-and-pals-2026-09-30",
       "title": "Pins and Pals",
-      "date": "2026-09-23T15:00:00",
-      "endDate": "2026-09-23T18:00:00",
+      "date": "2026-09-30T15:00:00",
+      "endDate": "2026-09-30T18:00:00",
       "location": "Davis-Monthan AFB",
       "address": "Tucson, AZ",
       "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
       "category": "family"
-    },
-    {
-      "id": "davis-monthan-bundles-for-babies-2026-09-24",
-      "title": "Bundles for Babies",
-      "date": "2026-09-24T09:00:00",
-      "endDate": "2026-09-24T11:30:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Bundles for Babies",
-      "category": "family"
-    },
-    {
-      "id": "davis-monthan-tailgate-bingo-2026-09-24",
-      "title": "Tailgate Bingo",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T20:00:00",
-      "location": "The Landing Community Center",
-      "address": "Tucson, AZ",
-      "description": "Tailgate Bingo at The Landing Community Center.",
-      "category": "entertainment"
-    },
-    {
-      "id": "davis-monthan-casino-shuttle-trip-2026-09-25",
-      "title": "Casino Shuttle Trip",
-      "date": "2026-09-25T12:00:00",
-      "endDate": "2026-09-25T16:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "For Fam Camp residents, register at the Fam Camp front desk.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-friday-unwind-2026-09-25",
-      "title": "Friday Unwind",
-      "date": "2026-09-25T15:00:00",
-      "endDate": "2026-09-25T18:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-kids-karaoke-2026-09-25",
-      "title": "Kids Karaoke",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T19:30:00",
-      "location": "The Landing Community Center",
-      "address": "Tucson, AZ",
-      "description": "Kids Karaoke at The Landing Community Center.",
-      "category": "entertainment"
-    },
-    {
-      "id": "davis-monthan-basic-sewing-jar-openers-2026-09-25",
-      "title": "Basic Sewing- Jar Openers",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Basic Sewing- Jar Openers at Davis-Monthan AFB.",
-      "category": "community"
-    },
-    {
-      "id": "davis-monthan-karaoke-night-2026-09-25",
-      "title": "Karaoke Night",
-      "date": "2026-09-25T19:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Karaoke Night at Davis-Monthan AFB.",
-      "category": "entertainment"
-    },
-    {
-      "id": "davis-monthan-atv-tour-2026-09-26",
-      "title": "ATV Tour",
-      "date": "2026-09-26T07:45:00",
-      "endDate": "2026-09-26T15:30:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "ATV Tour",
-      "category": "outdoor"
-    },
-    {
-      "id": "davis-monthan-racing-tournament-2026-09-26",
-      "title": "Racing Tournament",
-      "date": "2026-09-26T13:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Davis-Monthan AFB",
-      "address": "Tucson, AZ",
-      "description": "Racing Tournament",
-      "category": "recreation"
     },
     {
       "id": "davis-monthan-friday-unwind-2026-10-02",
@@ -464,6 +374,26 @@
       "category": "community"
     },
     {
+      "id": "davis-monthan-puffy-halloween-wreath-2026-10-02",
+      "title": "Puffy Halloween Wreath",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "holiday"
+    },
+    {
+      "id": "davis-monthan-sonoita-wine-tour-2026-10-03",
+      "title": "Sonoita Wine Tour",
+      "date": "2026-10-03T09:30:00",
+      "endDate": "2026-10-03T16:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "recreation"
+    },
+    {
       "id": "davis-monthan-pins-and-pals-2026-10-07",
       "title": "Pins and Pals",
       "date": "2026-10-07T15:00:00",
@@ -472,6 +402,66 @@
       "address": "Tucson, AZ",
       "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
       "category": "family"
+    },
+    {
+      "id": "davis-monthan-free-movie-corpse-bride-2026-10-13",
+      "title": "FREE MOVIE -Corpse Bride",
+      "date": "2026-10-13T10:00:00",
+      "endDate": "2026-10-13T12:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-pins-and-pals-2026-10-14",
+      "title": "Pins and Pals",
+      "date": "2026-10-14T15:00:00",
+      "endDate": "2026-10-14T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
+    },
+    {
+      "id": "davis-monthan-free-movie-beetlejuice-2026-10-14",
+      "title": "FREE MOVIE- Beetlejuice",
+      "date": "2026-10-14T16:00:00",
+      "endDate": "2026-10-14T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-free-movie-ghostbusters-2026-10-15",
+      "title": "FREE MOVIE- Ghostbusters",
+      "date": "2026-10-15T10:00:00",
+      "endDate": "2026-10-15T12:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "davis-monthan-cozy-countdown-to-pumpkin-fest-2026-10-19",
+      "title": "Cozy Countdown to Pumpkin Fest",
+      "date": "2026-10-19T00:00:00",
+      "endDate": "2026-10-23T23:59:59",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "davis-monthan-pumpkin-fest-2026-10-23",
+      "title": "Pumpkin Fest",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "",
+      "category": "community"
     },
     {
       "id": "davis-monthan-pins-and-pals-2026-11-04",
@@ -492,6 +482,16 @@
       "address": "Tucson, AZ",
       "description": "",
       "category": "community"
+    },
+    {
+      "id": "davis-monthan-pins-and-pals-2026-11-11",
+      "title": "Pins and Pals",
+      "date": "2026-11-11T15:00:00",
+      "endDate": "2026-11-11T18:00:00",
+      "location": "Davis-Monthan AFB",
+      "address": "Tucson, AZ",
+      "description": "Take a midweek break at Pins & Pals! Enjoy bowling and good company with your friends and family from 3-6 PM in a relaxed, fun atmosphere.",
+      "category": "family"
     },
     {
       "id": "davis-monthan-pins-and-pals-2026-12-02",

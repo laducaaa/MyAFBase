@@ -7,7 +7,7 @@
   "wing": "341 MW",
   "latitude": 47.5067,
   "longitude": -111.1817,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "malmstrom-notif-real-id",
@@ -264,36 +264,6 @@
       "category": "holiday"
     },
     {
-      "id": "malmstrom-wellness-wednesday-snack-n-chat-2026-09-23",
-      "title": "Wellness Wednesday: Snack-N-Chat",
-      "date": "2026-09-23T10:30:00",
-      "endDate": "2026-09-23T11:30:00",
-      "location": "",
-      "address": "",
-      "description": "Cost: Free Informal sit down with our MFLC. Children are welcome but supervision is not provided. Feel free to bring a snack and come chat! Please call the M&FRC at 731-4900 for more information. Location is Grizzly Bend.",
-      "category": "family"
-    },
-    {
-      "id": "malmstrom-cpr-first-aid-class-2026-09-23",
-      "title": "CPR/First Aid Class",
-      "date": "2026-09-23T17:30:00",
-      "endDate": "2026-09-23T20:00:00",
-      "location": "",
-      "address": "",
-      "description": "Are you wanting to learn some first aid and CPR skills to help make sure you know how to keep your family and friends safe or to add another certification to your list to show how awesome you are? Come learn at the Grizzly Bend from an American Heart Association certified instructor. We will go over basic first aid along with infant, child, and adult CPR. After the instructional portion, there will be a skills test to ensure that each individual is comfortable with the steps and knowledge they have learned. Upon passing the written and skills tests, participants will be issued a CPR/First Aid ",
-      "category": "family"
-    },
-    {
-      "id": "malmstrom-total-teen-takeover-ramen-dodge-ball-2026-09-25",
-      "title": "Total Teen Takeover- Ramen & Dodge Ball",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "",
-      "address": "",
-      "description": "Back by popular demand, are the two favorites among teens! Join us at the youth center as we play dodge ball and enjoy fresh ramen together. You can invite a friend for this event too! The snack bar will be open. Registration closes for this event on Wednesday, September 23. Please sign up on the CYPBMS-Parent Portal. Cost: Free Ages: 13-18",
-      "category": "family"
-    },
-    {
       "id": "malmstrom-zombie-run-5k-2026-09-28",
       "title": "Zombie Run 5K",
       "date": "2026-09-28",
@@ -334,6 +304,16 @@
       "category": "holiday"
     },
     {
+      "id": "malmstrom-spooktacular-diy-door-sign-kit-2026-10-02",
+      "title": "Spooktacular DIY Door Sign Kit",
+      "date": "2026-10-02T09:00:00",
+      "endDate": "2026-10-02T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Get ready for some spooky fun! Our Halloween door sign has everything you need to create your own festive decoration! Pick your designs, paint, assemble and enjoy! Kits include your choice of 2 pre-cut pieces with self-adhesive backing for a mess-free, glue-free assembly, paint applicator and paint. Perfect for a fun family activity, girls’ night, or a creative Halloween project. Limited kits available – get your before they disappear! Beginning Thursday, October 1 | All Month Cost: Non-members $40 Club Members $36",
+      "category": "holiday"
+    },
+    {
       "id": "malmstrom-oktoberfest-2026-10-02",
       "title": "Oktoberfest",
       "date": "2026-10-02T15:41:00",
@@ -364,6 +344,16 @@
       "category": "family"
     },
     {
+      "id": "malmstrom-jumping-java-2026-10-13",
+      "title": "Jumping Java",
+      "date": "2026-10-13T08:00:00",
+      "endDate": "2026-10-13T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Bring your little ones to the Grizzly Bend so they can get all of their energy out in our bouncy castles or playing games while you socialize. Children must be supervised by a responsible adult at all times. Cost: Free Ages: All are welcome",
+      "category": "family"
+    },
+    {
       "id": "malmstrom-cash-bingo-2026-10-15",
       "title": "Cash Bingo",
       "date": "2026-10-15T18:00:00",
@@ -371,6 +361,16 @@
       "location": "",
       "address": "",
       "description": "Who’s ready to win some cold hard cash? Bring all your friends and family on down to the Grizzly Bend for some fun competition with a night of bingo. Participants will have six chances to win cash pots of $50, $100, $150, $200, $250, and $300. Bingo cards may be pre-purchased at the Grizzly Bend from Tuesday, October 13 at 6:30 am to Thursday, October 15 at 3 pm. Card sales at the event will open at 5:30 pm, and food and drinks will be available for purchase all night in the lounge. Cost: $5 per 3-on-1 bingo card for club members, $10 per 3-on-1 bingo card for non-members ($7 if pre-purchased)",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-teen-night-origami-2026-10-16",
+      "title": "Teen Night~ Origami",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T21:00:00",
+      "location": "",
+      "address": "",
+      "description": "Tonight, at the youth center, we will be making mythical creatures or action origami at the Youth Center. We will also try a chopstick challenge, eating various foods with chopsticks! Each active membership can bring one guest. Snack bar will be open and fully stocked. Please sign up through the CYPBMS-Parent Portal by Wednesday October 14 th . Cost: Free Ages: 13-18",
       "category": "family"
     },
     {
@@ -384,6 +384,16 @@
       "category": "holiday"
     },
     {
+      "id": "malmstrom-wellness-wednesday-bundles-for-babies-2026-10-21",
+      "title": "Wellness Wednesday: Bundles for Babies",
+      "date": "2026-10-21T09:00:00",
+      "endDate": "2026-10-21T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "Learn about resources available to help you prepare for labor, delivery, car seat safety, dental care for both mother and child, stress management for new parents and overall care for your newborn. We will also cover financial awareness of the cost for raising a child. Participants receive a $150 courtesy of the Air Force Aid Society. Please call 731-4900 to register. Cost: Free",
+      "category": "family"
+    },
+    {
       "id": "malmstrom-spooky-pre-teen-night-lock-in-2026-10-23",
       "title": "Spooky Pre-Teen Night~ Lock-In",
       "date": "2026-10-23T19:00:00",
@@ -392,6 +402,16 @@
       "address": "",
       "description": "Bring your sleeping bag; comfy PJs; favorite card games; costumes, and share the night with good friends, great music, and yummy food! The Pre-Teen Lock in is officially here, so join us from 7 pm to 7 am for some FUN! Snack bar will be open and fully stocked. Please sign up through the CYPBMS-Parent Portal by Wednesday October 21 st . Cost: $40 Ages: 9-12",
       "category": "holiday"
+    },
+    {
+      "id": "malmstrom-wellness-wednesday-snack-n-chat-2026-10-28",
+      "title": "Wellness Wednesday: Snack-N-Chat",
+      "date": "2026-10-28T12:00:00",
+      "endDate": "2026-10-28T13:00:00",
+      "location": "",
+      "address": "",
+      "description": "Cost: Free Informal sit down with our MFLC. Children are welcome but supervision is not provided. Feel free to bring a snack and come chat! Please call the M&FRC at 731-4900 for more information. Location is Grizzly Bend.",
+      "category": "family"
     },
     {
       "id": "malmstrom-zombie-run-5k-2026-10-29",
@@ -422,6 +442,36 @@
       "address": "Great Falls, MT",
       "description": "Listed on the public FSS/MWR calendar for Malmstrom AFB.",
       "category": "community"
+    },
+    {
+      "id": "malmstrom-halloween-hayride-2026-10-31",
+      "title": "Halloween Hayride",
+      "date": "2026-10-31T11:00:00",
+      "endDate": "2026-10-31T11:00:00",
+      "location": "",
+      "address": "",
+      "description": "Hitch a ride to the Commanders’ and Chiefs’ Parties on the Halloween Hayride. Full route and schedule dropping soon!",
+      "category": "holiday"
+    },
+    {
+      "id": "malmstrom-library-cat-vs-dog-voting-2026-11-02",
+      "title": "Library Cat Vs Dog Voting",
+      "date": "2026-11-02T08:00:00",
+      "endDate": "2026-11-02T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Kid-friendly voting! Cast your vote for your favorite: Cat vs. Dog! Only one can win. One vote per day. Cost: Free Ages: 17 and under",
+      "category": "family"
+    },
+    {
+      "id": "malmstrom-lego-club-fall-builders-2026-11-04",
+      "title": "LEGO Club: Fall Builders",
+      "date": "2026-11-04T15:00:00",
+      "endDate": "2026-11-04T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Wednesday, November 4 | 3 – 5 pm Fall is here, and we’re bringing the season to life with LEGO bricks! This month at LEGO Club, get creative with all things autumn. Build colorful fall trees, cozy cabins, Thanksgiving scenes, woodland animals, pumpkins, leaf piles, or anything else that makes you think of fall. After building, we’ll wrap up with a fun show-and-tell to share everyone’s creations. 🧱 Theme: Fall Builders 🍁 Build colorful trees, cozy cabins, woodland creatures, and more 🦃 Create your own Thanksgiving or autumn-inspired scene 🗣 Show-and-tell to showcase your amazing creations 👧👦 Pe",
+      "category": "holiday"
     },
     {
       "id": "malmstrom-feathered-fury-5k-2026-11-19",

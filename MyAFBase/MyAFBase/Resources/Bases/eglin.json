@@ -7,7 +7,7 @@
   "wing": "96 TW",
   "latitude": 30.4636,
   "longitude": -86.5527,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "eglin-notif-1",
@@ -282,124 +282,24 @@
   ],
   "events": [
     {
-      "id": "eglin-who-s-your-granny-beginner-s-guide-to-genealogy-2026-09-21",
-      "title": "Who’s Your Granny? — Beginner’s Guide to Genealogy",
-      "date": "2026-09-21T17:30:00",
-      "endDate": "2026-09-21T18:45:00",
-      "location": "Eglin Community Library, Building 843",
-      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
-      "description": "The Eglin Community Library invites everyone with ancestors (and that would be everyone) to \"Who's Your Granny?\" — an interactive evening workshop offering a hands-on introduction to genealogy on September",
-      "category": "education"
-    },
-    {
-      "id": "eglin-my-mini-me-dance-class-2026-09-22",
+      "id": "eglin-my-mini-me-dance-class-2026-09-29",
       "title": "My Mini & Me Dance Class",
-      "date": "2026-09-22T12:00:00",
-      "endDate": "2026-09-22T13:00:00",
+      "date": "2026-09-29T12:00:00",
+      "endDate": "2026-09-29T13:00:00",
       "location": "Youth Center, Building 2582",
       "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
       "description": "Join the Eglin Youth Center on Tuesdays from 12 to 1 p.m. beginning September 1, 2026 for a special dance program perfect for parents and their littles! Can your “mini” walk? Then this class is for them! And YOU! Jazz, tap, ballet, and creative movement with your mini. Bond through movement and music while creating memories with your young ones. Plus a healthy activity! The cost is $80 per month per child w/ adult. Open to children ages 0 through 2! (As long as they can walk! And boogie!) Event Calendar: https://eglin96fss.com/series/mini-me-dance-classes/",
       "category": "family"
     },
     {
-      "id": "eglin-youth-dance-class-tap-jazz-tues-ages-3-4-2026-09-22",
+      "id": "eglin-youth-dance-class-tap-jazz-tues-ages-3-4-2026-09-29",
       "title": "Youth Dance Class: Tap/Jazz (Tues, Ages 3-4)",
-      "date": "2026-09-22T15:30:00",
-      "endDate": "2026-09-22T16:30:00",
+      "date": "2026-09-29T15:30:00",
+      "endDate": "2026-09-29T16:30:00",
       "location": "Youth Center, Building 2582",
       "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
       "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 3-4 Tuesdays, 3:30-4:30 — Tap/Jazz Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a f",
       "category": "family"
-    },
-    {
-      "id": "eglin-surviving-adulthood-a-crash-course-2026-09-23",
-      "title": "Surviving Adulthood: A Crash Course",
-      "date": "2026-09-23T09:00:00",
-      "endDate": "2026-09-23T10:30:00",
-      "location": "M&FRC, Building 205",
-      "address": "M&FRC, Building 205, Eglin Air Force Base, FL 32542-0000",
-      "description": "Surviving Adulthood: A Crash Course Designed for young adults of any age! Workshops to teach basic life skills to assist with navigating the daily challenges of modern adult life. Snacks are allowed! Topics: • Personality Awareness • Healthy Relationships • Finances • Self-Care • Mental Wellness & Much More! REGISTER TODAY! | Open to All DoD ID Cardholders Contact Eglin's Military & Family Readiness Center at 850.882",
-      "category": "education"
-    },
-    {
-      "id": "eglin-fss-101-child-youth-services-2026-09-23",
-      "title": "FSS 101: Child & Youth Services",
-      "date": "2026-09-23T11:00:00",
-      "endDate": "2026-09-23T12:00:00",
-      "location": "Child & Youth Services",
-      "address": "2582 Hatchee Road, EGLIN AFB, FL 32542",
-      "description": "The 96th Force Support Squadron is opening our doors to Team Eglin through FSS 101, a monthly program highlighting the mission, people, and services that support our installation every day. From June 23, 2026, through February 2027, each session will feature different FSS flights and provide insight into how they contribute to mission readiness and quality-of-life support across Team Eglin. FSS 101 is a monthly progr",
-      "category": "education"
-    },
-    {
-      "id": "eglin-youth-dance-classes-tap-ballet-wed-ages-3-4-2026-09-23",
-      "title": "Youth Dance Classes: Tap/Ballet (Wed, Ages 3-4)",
-      "date": "2026-09-23T15:30:00",
-      "endDate": "2026-09-23T16:30:00",
-      "location": "Youth Center, Building 2582",
-      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
-      "description": "*Dance Classes Return starting Sep 1* The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 3-4 Wednesdays, 3:30-4:30 — Tap/Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access",
-      "category": "family"
-    },
-    {
-      "id": "eglin-youth-dance-class-ballet-wed-ages-5-12-2026-09-23",
-      "title": "Youth Dance Class: Ballet (Wed, Ages 5-12)",
-      "date": "2026-09-23T16:45:00",
-      "endDate": "2026-09-23T17:45:00",
-      "location": "Youth Center, Building 2582",
-      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
-      "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 5-12 Wednesdays, 4:45-5:45 — Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a ",
-      "category": "family"
-    },
-    {
-      "id": "eglin-tsp-mastery-unlocking-the-potential-of-your-thrift-savin-2",
-      "title": "TSP Mastery: Unlocking the Potential of Your Thrift Savings Plan",
-      "date": "2026-09-24T10:00:00",
-      "endDate": "2026-09-24T11:30:00",
-      "location": "M&FRC, Building 205",
-      "address": "M&FRC, Building 205, Eglin Air Force Base, FL 32542-0000",
-      "description": "The Thrift Savings Plan is a 401K retirement savings program for military members and civilian federal employees. Eglin's Military & Family Readiness Center will host a “TSP Mastery” workshop, providing an overview of the TSP and it's options and operations. The insights shared will aid participants in setting their money management strategies and achieving their financial goals. Please call to register. Contact Egli",
-      "category": "education"
-    },
-    {
-      "id": "eglin-beer-bourbon-bbq-2026-09-25",
-      "title": "2026 Beer, Bourbon & BBQ",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Bayview Community Center",
-      "address": "Building 10870, 1018 Boatner Road, Eglin AFB, FL 32542",
-      "description": "Beer, Bourbon & BBQ evening (21+); 96 FSS / Eglin Exchange; public FSS event page.",
-      "category": "community"
-    },
-    {
-      "id": "eglin-keep-going-resiliency-run-2026-09-25",
-      "title": "Keep Going; Resiliency Run",
-      "date": "2026-09-25T07:30:00",
-      "endDate": "2026-09-25T07:30:00",
-      "location": "Postl Point",
-      "address": "Valparaiso, FL",
-      "description": "Eglin Fitness & Sports is proud to partner with IPRO (Integrated Prevention and Resilience Office) to present a 2.2-mile resiliency run in commemoration of Suicide Prevention Month. The message is",
-      "category": "fitness"
-    },
-    {
-      "id": "eglin-soundwaves-sunsets-2026-09-25",
-      "title": "Soundwaves & Sunsets",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Bayview Community Center",
-      "address": "Building 10870, 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
-      "description": "The Bayview Community Center invites all of Team Eglin to come out for Soundwaves & Sunsets — a FREE night of music and fun beside the water, happening on Friday,",
-      "category": "entertainment"
-    },
-    {
-      "id": "eglin-beer-bourbon-bbq-2026-09-25",
-      "title": "Beer, Bourbon & BBQ",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Bayview Community Center",
-      "address": "Building 10870, 1018 Boatner Road, Eglin Air Force Base, FL 32542-0000",
-      "description": "Join us at at the Bayview Community Center for Beer, Bourbon & BBQ presented by the 96th Force Support Squadron and Eglin's Class Six - an unforgettable evening of smoky goodness, smooth sips, and good times on Friday, September 25, from 5:30-9 PM. We're bringing you the best in BBQ, craft beverages, and entertainment, all in one place right by the water with sunset views. All Active Duty, DoD Civilians, Retirees, an",
-      "category": "outdoor"
     },
     {
       "id": "eglin-super-bingo-nights-play-big-win-big-2026-09-30",
@@ -410,6 +310,26 @@
       "address": "Building 10870, 1018 Boatner Road, Eglin Air Force Base, FL, 32542-0000",
       "description": "Your $62 Ticket to Eglin's Biggest Community Game Night! For just $62, you get an entire evening of high-energy entertainment and multiple chances to walk away with a huge cash",
       "category": "entertainment"
+    },
+    {
+      "id": "eglin-youth-dance-classes-tap-ballet-wed-ages-3-4-2026-09-30",
+      "title": "Youth Dance Classes: Tap/Ballet (Wed, Ages 3-4)",
+      "date": "2026-09-30T15:30:00",
+      "endDate": "2026-09-30T16:30:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "*Dance Classes Return starting Sep 1* The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 3-4 Wednesdays, 3:30-4:30 — Tap/Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access",
+      "category": "family"
+    },
+    {
+      "id": "eglin-youth-dance-class-ballet-wed-ages-5-12-2026-09-30",
+      "title": "Youth Dance Class: Ballet (Wed, Ages 5-12)",
+      "date": "2026-09-30T16:45:00",
+      "endDate": "2026-09-30T17:45:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 5-12 Wednesdays, 4:45-5:45 — Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a ",
+      "category": "family"
     },
     {
       "id": "eglin-my-mini-me-dance-class-2026-10-06",
@@ -429,6 +349,16 @@
       "location": "Youth Center, Building 2582",
       "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
       "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 3-4 Tuesdays, 3:30-4:30 — Tap/Jazz Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a f",
+      "category": "family"
+    },
+    {
+      "id": "eglin-youth-dance-class-tap-jazz-tues-ages-5-12-2026-10-06",
+      "title": "Youth Dance Class: Tap/Jazz (Tues, Ages 5-12)",
+      "date": "2026-10-06T16:45:00",
+      "endDate": "2026-10-06T17:45:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 5-12 Tuesdays, 4:45-5:45 — Tap/Jazz Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a ",
       "category": "family"
     },
     {
@@ -460,6 +390,56 @@
       "address": "1760 Memorial Trail, Eglin AFB, FL 32542",
       "description": "All of Team Eglin is invited to experience the wonder and amazement of “Magic All Stars,” presented by Air Force Entertainment. On Thursday, October 8, at 6 PM the Eglin Enlisted Heritage Hall (near the Exchange) will welcome Jason Michaels, Ben Young, and Jessica Jane to the stage for an evening of pure magic! These award-winning performers know how to keep their audience in awe with sleight-of-hand mastery, mind-be",
       "category": "outdoor"
+    },
+    {
+      "id": "eglin-my-mini-me-dance-class-2026-10-13",
+      "title": "My Mini & Me Dance Class",
+      "date": "2026-10-13T12:00:00",
+      "endDate": "2026-10-13T13:00:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Join the Eglin Youth Center on Tuesdays from 12 to 1 p.m. beginning September 1, 2026 for a special dance program perfect for parents and their littles! Can your “mini” walk? Then this class is for them! And YOU! Jazz, tap, ballet, and creative movement with your mini. Bond through movement and music while creating memories with your young ones. Plus a healthy activity! The cost is $80 per month per child w/ adult. Open to children ages 0 through 2! (As long as they can walk! And boogie!) Event Calendar: https://eglin96fss.com/series/mini-me-dance-classes/",
+      "category": "family"
+    },
+    {
+      "id": "eglin-youth-dance-classes-tap-ballet-wed-ages-3-4-2026-10-14",
+      "title": "Youth Dance Classes: Tap/Ballet (Wed, Ages 3-4)",
+      "date": "2026-10-14T15:30:00",
+      "endDate": "2026-10-14T16:30:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "*Dance Classes Return starting Sep 1* The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 3-4 Wednesdays, 3:30-4:30 — Tap/Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access",
+      "category": "family"
+    },
+    {
+      "id": "eglin-youth-dance-class-ballet-wed-ages-5-12-2026-10-14",
+      "title": "Youth Dance Class: Ballet (Wed, Ages 5-12)",
+      "date": "2026-10-14T16:45:00",
+      "endDate": "2026-10-14T17:45:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "The Eglin Youth Center hosts weekly Dance Classes for ages 3 to 12, offering a variety of dance styles. Ballet, tap, and jazz classes are available, with each weekly class lasting 1 hour. Ages 5-12 Wednesdays, 4:45-5:45 — Ballet Cost is $60 for a full month of classes. Contact the Eglin Youth Center at 850.882.8212 for more information. Registration Must Be Completed Through the PARENT PORTAL: Families WITH a Parent Portal Account, Click Here: parent.AFCYP.com LOG IN Families WITHOUT a Parent Portal Account, Click Here to Send an Email Requesting Access: 96FSS.FSFY.YouthCenter@us.af.mil For a ",
+      "category": "family"
+    },
+    {
+      "id": "eglin-the-phantom-of-the-theatre-murder-mystery-2026-10-16",
+      "title": "The Phantom of the Theatre Murder Mystery",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T19:30:00",
+      "location": "Eglin Community Library, Building 843",
+      "address": "Eglin Library, Building 843, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Join the Eglin Community Library for a thrilling evening of secrets and suspense as they present The Phantom of the Theatre Murder Mystery. The stage is set, the curtains are drawn, and a crime has been committed. Now, it’s up to you to solve the mystery! The event will be a “mix and mingle,” reading-based mystery where you’ll interact with fellow guests to uncover clues and expose the killer. Friday, October 16 6:00 PM – 7:30 PM (The program will begin promptly at 6:00 PM) Audience: Ages 18 and Up Only Costumes are encouraged, but not required! Light refreshments will be provided Registration",
+      "category": "entertainment"
+    },
+    {
+      "id": "eglin-my-mini-me-dance-class-2026-11-03",
+      "title": "My Mini & Me Dance Class",
+      "date": "2026-11-03T12:00:00",
+      "endDate": "2026-11-03T13:00:00",
+      "location": "Youth Center, Building 2582",
+      "address": "Youth Center, Building 2582, Eglin Air Force Base, FL, 32542-0000",
+      "description": "Join the Eglin Youth Center on Tuesdays from 12 to 1 p.m. beginning September 1, 2026 for a special dance program perfect for parents and their littles! Can your “mini” walk? Then this class is for them! And YOU! Jazz, tap, ballet, and creative movement with your mini. Bond through movement and music while creating memories with your young ones. Plus a healthy activity! The cost is $80 per month per child w/ adult. Open to children ages 0 through 2! (As long as they can walk! And boogie!) Event Calendar: https://eglin96fss.com/series/mini-me-dance-classes/",
+      "category": "family"
     }
   ],
   "newcomers": {

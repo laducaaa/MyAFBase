@@ -7,7 +7,7 @@
   "wing": "51 FW",
   "latitude": 37.0906,
   "longitude": 127.0297,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "osan-notif-real-id",
@@ -195,26 +195,6 @@
   ],
   "events": [
     {
-      "id": "osan-taco-thursday-2026-09-24",
-      "title": "Taco Thursday",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "",
-      "address": "",
-      "description": "Enlisted Club",
-      "category": "recreation"
-    },
-    {
-      "id": "osan-sunday-brunch-2026-09-27",
-      "title": "Sunday Brunch",
-      "date": "2026-09-27T10:00:00",
-      "endDate": "2026-09-27T13:30:00",
-      "location": "",
-      "address": "",
-      "description": "Enlisted Club",
-      "category": "recreation"
-    },
-    {
       "id": "osan-taco-thursday-2026-10-01",
       "title": "Taco Thursday",
       "date": "2026-10-01T16:30:00",
@@ -275,6 +255,16 @@
       "category": "recreation"
     },
     {
+      "id": "osan-taco-thursday-2026-10-15",
+      "title": "Taco Thursday",
+      "date": "2026-10-15T16:30:00",
+      "endDate": "2026-10-15T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
       "id": "osan-jinju-namgang-yudeung-lantern-festival-2026-10-17",
       "title": "Jinju Namgang Yudeung Lantern Festival",
       "date": "2026-10-17T09:00:00",
@@ -285,10 +275,50 @@
       "category": "holiday"
     },
     {
+      "id": "osan-sunday-brunch-2026-10-18",
+      "title": "Sunday Brunch",
+      "date": "2026-10-18T10:00:00",
+      "endDate": "2026-10-18T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
       "id": "osan-sunday-brunch-2026-11-01",
       "title": "Sunday Brunch",
       "date": "2026-11-01T10:00:00",
       "endDate": "2026-11-01T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
+      "id": "osan-taco-thursday-2026-11-05",
+      "title": "Taco Thursday",
+      "date": "2026-11-05T16:30:00",
+      "endDate": "2026-11-05T19:00:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
+      "id": "osan-sunday-brunch-2026-11-08",
+      "title": "Sunday Brunch",
+      "date": "2026-11-08T10:00:00",
+      "endDate": "2026-11-08T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "Enlisted Club",
+      "category": "recreation"
+    },
+    {
+      "id": "osan-taco-thursday-2026-12-03",
+      "title": "Taco Thursday",
+      "date": "2026-12-03T16:30:00",
+      "endDate": "2026-12-03T19:00:00",
       "location": "",
       "address": "",
       "description": "Enlisted Club",

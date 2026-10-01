@@ -7,7 +7,7 @@
   "wing": "72 ABW / AFSC",
   "latitude": 35.4147,
   "longitude": -97.3866,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "tinker-notif-real-id",
@@ -266,124 +266,14 @@
   ],
   "events": [
     {
-      "id": "tinker-pre-deployment-briefing-2026-09-22",
-      "title": "Pre-Deployment Briefing",
-      "date": "2026-09-22T08:00:00",
-      "endDate": "2026-09-22T09:00:00",
-      "location": "MFRC",
+      "id": "tinker-9001-cafe-grand-opening-2026-09-28",
+      "title": "9001 Cafe Grand Opening",
+      "date": "2026-09-28T07:00:00",
+      "endDate": "2026-09-28T13:00:00",
+      "location": "Bldg. 9001",
       "address": "",
-      "description": "September 1, 8, 15, 22 0800-0900 – Briefings to all personnel, particularly those tasked with a firm deployment of 30+ days (conducted no earlier than 60 days, and NLT 30 days prior to departure). Briefers are Chaplain, MFLC, Legal, EFMP, School Liaison, family Advocacy, Casualty, Personal Financial Readiness Counselors, and M&FRC Readiness Deployment Support Team.",
-      "category": "family"
-    },
-    {
-      "id": "tinker-grab-and-go-crafts-2026-09-22",
-      "title": "Grab and Go Crafts",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T18:00:00",
-      "location": "",
-      "address": "",
-      "description": "Stop by the Library each week in September and pick up a kid-friendly Grab & Go Craft from the craft cart! Supplies are ready to grab, take home, and create. Available while supplies last. September Crafts Sept 1 – Penny Spinner STEM Toy Sept 8 – Paper Tube Robot Sept 15 – Pirate Boats Sept 22- Pom-Pom Caterpiller",
-      "category": "family"
-    },
-    {
-      "id": "tinker-free-axe-throwing-2026-09-23",
-      "title": "Free Axe Throwing",
-      "date": "2026-09-23T09:00:00",
-      "endDate": "2026-09-23T17:00:00",
-      "location": "",
-      "address": "",
-      "description": "Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only.",
-      "category": "outdoor"
-    },
-    {
-      "id": "tinker-education-open-house-2026-09-24",
-      "title": "Education Services: Open House",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Education Services Center Bldg 201SE Rm 105",
-      "address": "Tinker AFB, OK",
-      "description": "Education open house with bingo card prizes; tinkerliving.com.",
+      "description": "Building 9001 and Depot Leaders, We are excited to announce that a new full food service option for building 9001, 9001 Café located at the previously known “The Assembly” conference room, is set to open on 28 September. Café 9001, a $2.67M kitchen and facility upgrade, will provide cooked to order breakfast and lunch from 0700 – 0930 & 1030 – 1300 with additional grab and go items available 24/7 to meet the needs of personnel, day, or night.",
       "category": "community"
-    },
-    {
-      "id": "tinker-weekly-story-time-2026-09-24",
-      "title": "Weekly Story Time",
-      "date": "2026-09-24T11:00:00",
-      "endDate": "2026-09-24T12:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Don\\'t miss Tinker Libraries Weekly Story time! Happening at the Library every Thursday.</p>\\n",
-      "category": "family"
-    },
-    {
-      "id": "tinker-weeknight-family-bowling-2026-09-25",
-      "title": "Weeknight Family Bowling",
-      "date": "2026-09-25T00:00:00",
-      "endDate": "2026-09-25T23:59:00",
-      "location": "Tinker Lanes",
-      "address": "",
-      "description": "16″ any topping(s) 4 Soft Drinks $27 Pizza Special $3.00 PER GAME $2.50 SHOE RENTAL",
-      "category": "family"
-    },
-    {
-      "id": "tinker-witchy-welcome-fall-halloween-door-sign-workshop-2026-09",
-      "title": "🎃 Witchy Welcome: Fall & Halloween Door Sign Workshop",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T20:30:00",
-      "location": "Arts & Crafts",
-      "address": "",
-      "description": "<p>Registration Link: https://tr.ee/WJ86SsIT2R Get ready to welcome the spooky season in style! Join us for a fun and creative evening where you’ll design and paint your very own Fall or Halloween-themed wood round door sign. Each student will get to choose their favorite design and customize it with paint to create a one-of-a-kind sign for their […]</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "tinker-alabaster-caverns-2026-09-26",
-      "title": "Alabaster Caverns",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "Outdoor Recreation",
-      "address": "",
-      "description": "Join ODR for a day trip to Alabaster Caverns in Freedom, Oklahoma! Explore one of Oklahoma’s coolest hidden gems, take in the sights, and enjoy a day of adventure outside the ordinary. Alabaster Caverns State Park Day Trip Sign up by calling ODR! Space is limited, so don’t wait to reserve your spot! Grab your adventure crew and let’s go exploring! #StrongerTogether #TeamTinker #TinkerAFB",
-      "category": "outdoor"
-    },
-    {
-      "id": "tinker-retiree-day",
-      "title": "Military Retiree Appreciation Day",
-      "date": "2026-09-26T07:30:00",
-      "endDate": "2026-09-26T12:00:00",
-      "location": "Tinker Event Center",
-      "address": "Tinker AFB, OK",
-      "description": "Retirees connect with base organizations and resources.",
-      "category": "community"
-    },
-    {
-      "id": "tinker-alabaster",
-      "title": "Alabaster Caverns Day Trip",
-      "date": "2026-09-26T08:00:00",
-      "endDate": "2026-09-26T17:00:00",
-      "location": "Alabaster Caverns State Park",
-      "address": "Freedom, OK",
-      "description": "ODR day trip to Alabaster Caverns.",
-      "category": "recreation"
-    },
-    {
-      "id": "tinker-kids-night-out",
-      "title": "Kids Night Out (AF Ball childcare)",
-      "date": "2026-09-26T17:00:00",
-      "endDate": "2026-09-26T23:00:00",
-      "location": "Youth Programs",
-      "address": "Tinker AFB, OK",
-      "description": "Childcare same evening as Air Force Ball; $48 per child.",
-      "category": "family"
-    },
-    {
-      "id": "tinker-kids-night-out-2026-09-26",
-      "title": "Kids Night Out",
-      "date": "2026-09-26T17:00:00",
-      "endDate": "2026-09-26T23:00:00",
-      "location": "Youth Center",
-      "address": "",
-      "description": "This event takes place the same evening as the Air Force Ball – Make your child care plans early! 5:00 PM – 11:00 PM $48 PER CHILD // SPACE IS LIMITED Saturday, September 26, 2026 MUST BE SIGNED UP AND PAID BY 4 PM WEDNESDAY THE 23rd CDC WEST : 6 MONTHS TO 5 YEARS YOUTH CENTER: K – 6TH GRADE Sign up using your CYPBMS portal account or call 734-3646 (CDC West) or 734-1234 (Youth Center) for more information.",
-      "category": "family"
     },
     {
       "id": "tinker-parenting-w-love-logic-2026-09-29",
@@ -394,6 +284,26 @@
       "address": "",
       "description": "September 29 1100-1300 – Learn how to parent effectively while teaching your children responsibility and growing their character. (Lunch and Learn – Bring your lunch) All P&WL classes are available virtually – register to learn more.",
       "category": "family"
+    },
+    {
+      "id": "tinker-free-axe-throwing-2026-09-30",
+      "title": "Free Axe Throwing",
+      "date": "2026-09-30T09:00:00",
+      "endDate": "2026-09-30T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only.",
+      "category": "outdoor"
+    },
+    {
+      "id": "tinker-reintegration-briefing-2026-10-01",
+      "title": "Reintegration Briefing",
+      "date": "2026-10-01T08:00:00",
+      "endDate": "2026-10-01T09:00:00",
+      "location": "MFRC",
+      "address": "",
+      "description": "October 1, 8, 15, 22, 29 0800-0900 – A briefing for returning deployers. Topics includes resiliency, mental health, communication, time management and more.",
+      "category": "education"
     },
     {
       "id": "tinker-weeknight-family-bowling-2026-10-02",
@@ -416,6 +326,16 @@
       "category": "family"
     },
     {
+      "id": "tinker-right-start-2026-10-07",
+      "title": "Right Start",
+      "date": "2026-10-07T07:30:00",
+      "endDate": "2026-10-07T12:00:00",
+      "location": "MFRC",
+      "address": "",
+      "description": "0730-1200 – Base in processing briefings by the M&FRC, Installation Commander, Chief, Housing, Education, Legal, IG, EFMP, SLO, EO, Readiness, Safety, Marketing, MFLC, Chapel, etc. Open to Active-Duty personnel and families newly assigned to Tinker AFB.",
+      "category": "family"
+    },
+    {
       "id": "tinker-free-axe-throwing-2026-10-07",
       "title": "Free Axe Throwing",
       "date": "2026-10-07T09:00:00",
@@ -424,6 +344,26 @@
       "address": "",
       "description": "Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only.",
       "category": "outdoor"
+    },
+    {
+      "id": "tinker-weeknight-family-bowling-2026-10-09",
+      "title": "Weeknight Family Bowling",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:59:00",
+      "location": "Tinker Lanes",
+      "address": "",
+      "description": "16″ any topping(s) 4 Soft Drinks $27 Pizza Special $3.00 PER GAME $2.50 SHOE RENTAL",
+      "category": "family"
+    },
+    {
+      "id": "tinker-pre-deployment-briefing-2026-10-13",
+      "title": "Pre-Deployment Briefing",
+      "date": "2026-10-13T08:00:00",
+      "endDate": "2026-10-13T09:00:00",
+      "location": "MFRC",
+      "address": "",
+      "description": "October 6, 13, 20, 27 0800-0900 – Briefings to all personnel, particularly those tasked with a firm deployment of 30+ days (conducted no earlier than 60 days, and NLT 30 days prior to departure). Briefers are Chaplain, MFLC, Legal, EFMP, School Liaison, family Advocacy, Casualty, Personal Financial Readiness Counselors, and M&FRC Readiness Deployment Support Team.",
+      "category": "family"
     },
     {
       "id": "tinker-free-axe-throwing-2026-10-14",
@@ -436,6 +376,26 @@
       "category": "outdoor"
     },
     {
+      "id": "tinker-free-axe-throwing-2026-10-21",
+      "title": "Free Axe Throwing",
+      "date": "2026-10-21T09:00:00",
+      "endDate": "2026-10-21T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only.",
+      "category": "outdoor"
+    },
+    {
+      "id": "tinker-parenting-with-love-logic-2026-10-27",
+      "title": "Parenting With Love & Logic",
+      "date": "2026-10-27T11:00:00",
+      "endDate": "2026-10-27T13:00:00",
+      "location": "MFRC",
+      "address": "",
+      "description": "1100-1300 – Learn how to parent effectively while teaching your children responsibility and growing their character. (Lunch and Learn – Bring your lunch) All P&WL classes are available virtually – register to learn more.",
+      "category": "family"
+    },
+    {
       "id": "tinker-red-tee-golf-tournament-2026-10-30",
       "title": "Red Tee Golf Tournament",
       "date": "2026-10-30T00:00:00",
@@ -444,6 +404,16 @@
       "address": "",
       "description": "<p>Starts at 10:00 AM Play from the Red Tees! 4 person scramble $40 per player( green & cart fee) Blue & Silver AGF $20</p>\\n",
       "category": "recreation"
+    },
+    {
+      "id": "tinker-baby-basics-2026-11-03",
+      "title": "Baby Basics",
+      "date": "2026-11-03T18:00:00",
+      "endDate": "2026-11-03T20:00:00",
+      "location": "",
+      "address": "",
+      "description": "Partnering with Family Advocacy Baby Basics 3 Week Series A series of three free classes presented at the Tinker AFB Medical Center for anyone with base access. Reduce new parent anxiety Labor & delivery Common infant conditions Feeding a baby Safety and health Understanding baby blues and postpartum depression Calming a baby Nurturing infant attachment Hunger cues Financial planning for a baby Sleep",
+      "category": "family"
     },
     {
       "id": "tinker-free-axe-throwing-2026-11-04",
@@ -464,6 +434,16 @@
       "address": "",
       "description": "👑 Queens, it’s your time to shine on the course! ⛳ Grab your golf partner and join us for the Queens Tournament at Tinker Golf! This fun 2-person Best Ball event features 18 holes played as a Pitch, Chip & Putt Tournament , making it the perfect opportunity to enjoy some friendly competition and a great day on the greens. 📅 November 6, 2026 🕐 1:00 PM Shotgun Start 💵 Entry Fee: $30 | AGF Members: $15 📝 Registration Deadline: November 4, 2026 🌦️ Weather permitting. Tag your golf partner, register before the deadline, and come compete for the crown! 👑🏌️‍♀️ #TinkerStrong #TeamTinker #TinkerAFB",
       "category": "fitness"
+    },
+    {
+      "id": "tinker-free-axe-throwing-2026-11-11",
+      "title": "Free Axe Throwing",
+      "date": "2026-11-11T09:00:00",
+      "endDate": "2026-11-11T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join Outdoor Recreation on Wednesdays for free axe throwing! Open to active duty only.",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

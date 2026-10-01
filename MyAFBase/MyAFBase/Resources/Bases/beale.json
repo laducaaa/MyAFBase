@@ -7,7 +7,7 @@
   "wing": "9 RW",
   "latitude": 39.1361,
   "longitude": -121.4364,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "beale-notif-real-id",
@@ -277,76 +277,6 @@
   ],
   "events": [
     {
-      "id": "beale-taco-tuesday-2026-09-22",
-      "title": "Taco Tuesday!!",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "location": "Beale AFB",
-      "address": "",
-      "description": "Recurring Taco Tuesday series; bealefss.com.",
-      "category": "community"
-    },
-    {
-      "id": "beale-throwback-thursdays-2026-09-24",
-      "title": "Throwback Thursdays!!",
-      "date": "2026-09-24T16:00:00",
-      "endDate": "2026-09-24T20:00:00",
-      "location": "Beale Lanes Bowling Center",
-      "address": "17800 Robert Nicoletti Way Bldg. #2431 Beale AFB, CA 95903",
-      "description": "Throwback Thursdays!! Every Thursday 4-8pm Beale Lanes Join us every Thursday from 4pm – 8pm for lots of great specials! $10 per person for 2 hours of bowling! (shoes not included) $10 Pitcher filled with your favorite beverage $10 Loaded Fries!",
-      "category": "recreation"
-    },
-    {
-      "id": "beale-kpop-movie",
-      "title": "CAC Movie Night: K-pop Demon Hunters (PG)",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "Community Center Theater Room",
-      "address": "Beale AFB, CA",
-      "description": "Free movie with popcorn/juice/shaved ice; Beale Con side quest.",
-      "category": "entertainment"
-    },
-    {
-      "id": "beale-cac-movie-night-kpop-demon-hunters-pg-2026-09-24",
-      "title": "CAC MOVIE NIGHT: KPOP DEMON HUNTERS(PG)*",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "Community Center",
-      "address": "17651 Warren Shingle Rd, Beale AFB, CA 95903",
-      "description": "MOVIE NIGHT AT THE CAC* Movie showing K-pop Demon Hunters(PG) Sep 24, 5pm Community Center Theater Room Doors open 4:30 showtime at 5pm Free concessions popcorn, juice, shaved ice. *This is a SIDE QUEST event for Beale Con 2026. You will earn a ticket that you can submit at Beale Con 2026 for a chance to win a Vacation for a family of 4 at DISNEYLAND! Beale Con 2026 is on September 26, from 11am-3pm at the Community ",
-      "category": "family"
-    },
-    {
-      "id": "beale-youth-center-scavenger-hunt-2026-09-25",
-      "title": "Youth Center Scavenger Hunt*",
-      "date": "2026-09-25T15:30:00",
-      "endDate": "2026-09-25T17:00:00",
-      "location": "Youth Center",
-      "address": "15160 Gavin Mandry Bldg. #3340 Beale AFB, CA 95903",
-      "description": "Youth Center Scavenger Hunt* Sep 25, 3:30 pm Members: FREE Non-Members: $5.00 Head to the Youth Center and find the hidden \"Pokemon\" Cards. *This is a SIDE QUEST event for",
-      "category": "family"
-    },
-    {
-      "id": "beale-loud-saturdays-2026-09-26",
-      "title": "Loud Saturdays",
-      "date": "2026-09-26T09:00:00",
-      "endDate": "2026-09-26T14:00:00",
-      "location": "Hub Zemke Library",
-      "address": "17849 16th St. Beale AFB, CA 95903",
-      "description": "Loud Saturdays Every Saturday Hub Zemke Library Loud Saturdays with games, Lego table, Magna-Tiles, and Hot Wheels!",
-      "category": "recreation"
-    },
-    {
-      "id": "beale-con-2026",
-      "title": "Beale Con 2026",
-      "date": "2026-09-26T11:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Community Center",
-      "address": "Beale AFB, CA",
-      "description": "Manga-themed convention with cosplay and side-quest prize turn-in.",
-      "category": "community"
-    },
-    {
       "id": "beale-taco-tuesday-2026-09-29",
       "title": "Taco Tuesday!!",
       "date": "2026-09-29",
@@ -357,6 +287,36 @@
       "category": "community"
     },
     {
+      "id": "beale-decoupage-pumpkins-2026-10-01",
+      "title": "Decoupage Pumpkins",
+      "date": "2026-10-01T16:00:00",
+      "endDate": "2026-10-01T18:00:00",
+      "location": "Arts and Crafts Center",
+      "address": "17651 Warren Shingle Rd, Beale AFB, CA 95903",
+      "description": "Decoupage Pumpkins Arts & Crafts Oct 1, 4:00–6:00 pm | $15 Learn the basics of decoupage and take home a cute little pumpkin. All materials included.",
+      "category": "recreation"
+    },
+    {
+      "id": "beale-first-friday-2026-10-02",
+      "title": "FIRST FRIDAY",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T17:00:00",
+      "location": "Moos & Brews",
+      "address": "17440 Warren Shingle Rd., Beale AFB, CA, 95903",
+      "description": "FIRST FRIDAY October 2 3:09 pm Moos and Brews Free pizza while supplies last, drink specials.",
+      "category": "community"
+    },
+    {
+      "id": "beale-kids-pumpkin-painting-craft-2026-10-07",
+      "title": "Kids Pumpkin Painting Craft",
+      "date": "2026-10-07T15:00:00",
+      "endDate": "2026-10-07T17:00:00",
+      "location": "Community Center",
+      "address": "17651 Warren Shingle Rd, Beale AFB, CA 95903",
+      "description": "Kids Pumpkin painting craft Oct 7, 3:00pm Community Center Game Room Cider, cookies, FREE enjoy while supplies last.",
+      "category": "family"
+    },
+    {
       "id": "beale-bishops-pumpkin-farm-2026-10-10",
       "title": "Bishops Pumpkin Farm",
       "date": "2026-10-10T10:00:00",
@@ -364,6 +324,96 @@
       "location": "Outdoor Recreation",
       "address": "17630 Doolittle Dr. Beale AFB, CA 95903",
       "description": "Bishops Pumpkin Farm Oct 10, 10 am–4 pm Cost: $35 Sign-up Deadline: Oct 6 Beale ODR Celebrate the fall season with a trip to Bishop’s Pumpkin Farm! Enjoy hayrides, a corn maze, farm attractions, seasonal treats, and plenty of time to explore. Whether you’re picking the perfect pumpkin or making memories with family and friends, this festive day trip is the perfect way to welcome autumn. We will provide admission for the Corn Maze, Golden Grain Raceway, Train Ride and a voucher for a cup of cookies.",
+      "category": "holiday"
+    },
+    {
+      "id": "beale-special-story-time-2026-10-10",
+      "title": "Special Story Time",
+      "date": "2026-10-10T12:30:00",
+      "endDate": "2026-10-10T14:00:00",
+      "location": "Hub Zemke Library",
+      "address": "17849 16th St. Beale AFB, CA 95903",
+      "description": "Special Story Time Hub Zemke Library Oct 10, 12:30 pm Kids will enjoy a Bluey-themed story with a take-home activity.",
+      "category": "family"
+    },
+    {
+      "id": "beale-monte-carlo-night-2026-10-10",
+      "title": "Monte Carlo Night!",
+      "date": "2026-10-10T18:00:00",
+      "endDate": "2026-10-10T21:00:00",
+      "location": "Beale Lanes Bowling Center",
+      "address": "17800 Robert Nicoletti Way Bldg. #2431 Beale AFB, CA 95903",
+      "description": "Monte Carlo Night! Oct 10, 6 pm $22 Entry Beale Lanes Knock down colored pins and win cash prizes!!!",
+      "category": "community"
+    },
+    {
+      "id": "beale-fall-bazaar-2026-10-16",
+      "title": "Fall Bazaar",
+      "date": "2026-10-16T16:00:00",
+      "endDate": "2026-10-16T18:00:00",
+      "location": "Beale AFB",
+      "address": "Beale AFB, CA",
+      "description": "Fall Bazaar October 16, 4-6pm Ryden Park Join us for a fantastic autumn day packed with excitement for the whole family! Bring your friends, family, and fall spirit—we can’t wait to see you there! 🍁✨ Here is what you can look forward to: 🚀 Euro Bungee Bounce: Soar to new heights and flip for fun! 🎟️ Carnival Games: Test your skills and win awesome prizes! 🛍️ Local Booths: Shop unique crafts, delicious treats, and local vendor goods! Trunk or Treat brought to you by Beale AFB Homes. Sign up below. Award will be given to the best decorated car! https://www.signupgenius.com/go/10C0F44A5AB23AAFDC2",
+      "category": "family"
+    },
+    {
+      "id": "beale-coldstream-canyon-fall-colors-hike-2026-10-17",
+      "title": "Coldstream Canyon Fall Colors Hike",
+      "date": "2026-10-17T08:00:00",
+      "endDate": "2026-10-17T16:00:00",
+      "location": "Outdoor Recreation",
+      "address": "17630 Doolittle Dr. Beale AFB, CA 95903",
+      "description": "Coldstream Canyon Fall Colors Hike October 17, 8am-4pm $35 Sign-Up Deadline: Oct 13 Beale ODR Enjoy a scenic fall hike through Coldstream Canyon near Donner Memorial State Park, following the canyon through pine forest, along Coldstream Creek, and past ponds surrounded by colorful aspens and cottonwoods. The trail offers a peaceful alpine setting with views of the surrounding Sierra ridges and plenty of opportunities to enjoy the vibrant gold, yellow, and orange fall foliage. * Mileage: 4.6 miles * Elevation Gain: 734 ft * Difficulty: Moderate",
+      "category": "outdoor"
+    },
+    {
+      "id": "beale-trick-or-treat-week-2026-10-19",
+      "title": "Trick or Treat Week!",
+      "date": "2026-10-19T00:00:00",
+      "endDate": "2026-10-24T23:59:59",
+      "location": "Hub Zemke Library",
+      "address": "17849 16th St. Beale AFB, CA 95903",
+      "description": "Trick or Treat Week! Oct 19–24, All Day Hub Zemke Library Celebrate the spooky season with us all week long at the library! Come dressed in your favorite costume. Whether it’s spooky, silly, magical, or inspired by your favorite character, stop by the library to show off your look. As a special treat, costumed visitors will receive a delicious Rice Krispy Treat (while supplies last!)",
+      "category": "holiday"
+    },
+    {
+      "id": "beale-costume-fun-run-2026-10-21",
+      "title": "Costume Fun Run",
+      "date": "2026-10-21T14:30:00",
+      "endDate": "2026-10-21T17:00:00",
+      "location": "Beale AFB",
+      "address": "Beale AFB, CA",
+      "description": "Costume Fun Run October 21 Check-in- 2:30pm Run begins- 3:00pm 5190 Camp Beale Hwy Beale AFB, CA 95903 Participants can run, walk, or job 2 miles or 5k. Costumes are encouraged! Sign Up here: https://www.signupgenius.com/go/20F0D48AFAC23A4FCC25-65732487-costume?utm_source=qrcode#/",
+      "category": "outdoor"
+    },
+    {
+      "id": "beale-lights-on-afterschool-2026-10-22",
+      "title": "Lights on Afterschool",
+      "date": "2026-10-22T15:30:00",
+      "endDate": "2026-10-22T16:30:00",
+      "location": "Youth Center",
+      "address": "15160 Gavin Mandry Bldg. #3340 Beale AFB, CA 95903",
+      "description": "Lights on Afterschool Youth Center Oct 22, 3:30–4:30 pm Come check out our programs and all we do here at the Beale Youth Center. Join us for fun carnival games and activities! There will be info tables and the opportunity to explore the facility to see all the amazing things are youth our doing in our Youth Center.",
+      "category": "family"
+    },
+    {
+      "id": "beale-magic-the-gathering-game-night-2026-10-23",
+      "title": "Magic the Gathering Game Night",
+      "date": "2026-10-23T14:00:00",
+      "endDate": "2026-10-23T22:00:00",
+      "location": "Community Center",
+      "address": "17651 Warren Shingle Rd, Beale AFB, CA 95903",
+      "description": "Magic the Gathering Game Night Oct 23, 2:00pm-10:pm Community Center Game room FREE ENTRY",
+      "category": "entertainment"
+    },
+    {
+      "id": "beale-kids-spooky-movie-night-halloween-town-pg-2026-10-23",
+      "title": "Kids Spooky Movie Night: Halloween Town (PG)",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:30:00",
+      "location": "Community Center",
+      "address": "17651 Warren Shingle Rd, Beale AFB, CA 95903",
+      "description": "Kids Spooky Movie Night Halloween Town (PG) Oct 23, Movie begins 5pm and doors open 4:30 Community Center (Game Room) Enjoy free popcorn, juice FREE.",
       "category": "holiday"
     }
   ],

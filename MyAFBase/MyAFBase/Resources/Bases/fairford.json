@@ -7,7 +7,7 @@
   "wing": "501 CSW",
   "latitude": 51.6822,
   "longitude": -1.7906,
-  "dataUpdatedAt": "2026-09-21T06:24:30Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "fairford-notif-real-id",
@@ -184,24 +184,34 @@
   ],
   "events": [
     {
-      "id": "fairford-trivia-night-2026-09-25",
-      "title": "Trivia Night",
-      "date": "2026-09-25T16:30:00",
-      "endDate": "2026-09-25T23:30:00",
+      "id": "fairford-raf-croughton-oktoberfest-2026-10-02",
+      "title": "RAF Croughton Oktoberfest",
+      "date": "2026-10-02T16:30:00",
+      "endDate": "2026-10-02T23:30:00",
       "location": "",
       "address": "",
-      "description": "🧠 Trivia Night at The Crown! 🍻 Think you know it all? Put your knowledge to the test at Trivia Night! Gather your team, bring your best guesses, and compete for bragging rights. 🎯 From random facts to pop culture and everything in between, you never know what questions are coming your way! 📍 The Crown 🧠 Trivia Night 👥 Grab your team. Test your knowledge. Have some fun!",
+      "description": "🍻 Oktoberfest is coming to The Crown! Get ready for an evening of good food, great company, and Oktoberfest fun! 🎉 Join us at The Crown for a celebration filled with German-inspired favorites, festive vibes, and plenty of reasons to raise a glass. Gather your crew, break out your best Oktoberfest look, and come celebrate with us! 🥨🍻 📍 The Crown 🍺 Oktoberfest 🎉 Good food. Good friends. Great times.",
+      "category": "community"
+    },
+    {
+      "id": "fairford-cash-bingo-2026-10-16",
+      "title": "Cash Bingo",
+      "date": "2026-10-16T16:30:00",
+      "endDate": "2026-10-17T00:00:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for a fun night of Bingo and your chance to win a cash prize! Doors open at 1630 and we’ll start calling the first number at 1800.",
       "category": "entertainment"
     },
     {
-      "id": "fairford-raf-fairford-oktoberfest-2026-09-26",
-      "title": "RAF Fairford Oktoberfest",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "RAF Fairford",
-      "address": "Fairford, United Kingdom",
-      "description": "422 FSS public calendar event tagged for RAF Fairford.",
-      "category": "holiday"
+      "id": "fairford-sip-paint-night-2026-10-23",
+      "title": "Sip & Paint Night",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:30:00",
+      "location": "",
+      "address": "",
+      "description": "Join us for a fun evening of fun with painting and delicious drinks! $45 per person, Ages 17+ Call Arts & Crafts for more information 236 8541",
+      "category": "recreation"
     },
     {
       "id": "fairford-halloween-spooktacular-2026-10-30",
@@ -211,6 +221,16 @@
       "location": "Library",
       "address": "",
       "description": "Looking for some frightfully good fun, then the RAF Croughton Library’s Halloween Spooktacular is just for you! Dress to impress…or scare, we’ve got games and challenges, crafts, interactive spooky art, cut out photo portrait and more! It will be a scream",
+      "category": "holiday"
+    },
+    {
+      "id": "fairford-halloween-party-trivia-night-2026-10-30",
+      "title": "Halloween Party & Trivia Night",
+      "date": "2026-10-30T16:30:00",
+      "endDate": "2026-10-31T00:00:00",
+      "location": "",
+      "address": "",
+      "description": "You’re invited to our Halloween Party & Trivia Night! Dress up in your spookiest best, doors open at 1630",
       "category": "holiday"
     }
   ],

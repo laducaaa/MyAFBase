@@ -7,7 +7,7 @@
   "wing": "2 BW",
   "latitude": 32.5018,
   "longitude": -93.6627,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "barksdale-notif-real-id",
@@ -276,10 +276,10 @@
       "category": "community"
     },
     {
-      "id": "barksdale-iron-warrior-program-2026-09-21",
+      "id": "barksdale-iron-warrior-program-2026-09-28",
       "title": "Iron Warrior Program",
-      "date": "2026-09-21T06:30:00",
-      "endDate": "2026-09-21T07:30:00",
+      "date": "2026-09-28T06:30:00",
+      "endDate": "2026-09-28T07:30:00",
       "location": "Barksdale AFB",
       "address": "Barksdale AFB, LA",
       "description": "Location: SrA Bell Fitness Center Dates: September 14 through November 20; Training will only take place on Mondays, Wednesdays, and Fridays from 0630 until 0730 during the course dates. All active-duty, civilians, retirees and dependents are welcome to attend. Improve your overall fitness, build strength and endurance over the 10 week physical training course! For questions about the program, or to sign up call 318-456-4135.",
@@ -304,6 +304,16 @@
       "address": "Barksdale AFB, LA",
       "description": "Date: October 3 and 10 at 10am Price: $95 per person, $170 per two people (spouse or relative); price includes all instruction and supplies Learn how to build your own nightstand from the pros in the Wood Shop! To sign up call the Wood Shop at 318-456-3409 . Sign ups must be at least 72 hours before the class.",
       "category": "education"
+    },
+    {
+      "id": "barksdale-iron-warrior-program-2026-10-05",
+      "title": "Iron Warrior Program",
+      "date": "2026-10-05T06:30:00",
+      "endDate": "2026-10-05T07:30:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Location: SrA Bell Fitness Center Dates: September 14 through November 20; Training will only take place on Mondays, Wednesdays, and Fridays from 0630 until 0730 during the course dates. All active-duty, civilians, retirees and dependents are welcome to attend. Improve your overall fitness, build strength and endurance over the 10 week physical training course! For questions about the program, or to sign up call 318-456-4135.",
+      "category": "fitness"
     },
     {
       "id": "barksdale-fall-break-bowling-special-2026-10-06",
@@ -346,6 +356,16 @@
       "category": "holiday"
     },
     {
+      "id": "barksdale-wood-shop-certification-class-2026-10-10",
+      "title": "Wood Shop Certification Class",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T15:00:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Date: October 3 and 10 at 10am Price: $95 per person, $170 per two people (spouse or relative); price includes all instruction and supplies Learn how to build your own nightstand from the pros in the Wood Shop! To sign up call the Wood Shop at 318-456-3409 . Sign ups must be at least 72 hours before the class.",
+      "category": "education"
+    },
+    {
       "id": "barksdale-lake-charles-fishing-trip-2026-10-10",
       "title": "Lake Charles Fishing Trip",
       "date": "2026-10-10T12:00:00",
@@ -376,6 +396,16 @@
       "category": "recreation"
     },
     {
+      "id": "barksdale-month-of-the-military-family-special-2026-10-13",
+      "title": "Month of the Military Family Special",
+      "date": "2026-10-13T11:00:00",
+      "endDate": "2026-10-13T20:00:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Location: Bomber Alley Bowling Center Times: Every Tuesday in October from 11am until 8pm Price: $1.50 per person/game; $3 shoe rentals per person Celebrate Month of the Military Family by going to the Bomber Alley Bowling Center! Kids can also eat for FREE from 5pm until closing. For further questions about the special, call 318-456-4133.",
+      "category": "family"
+    },
+    {
       "id": "barksdale-splatterops-thursdays-2026-10-15",
       "title": "SplatterOps Thursdays",
       "date": "2026-10-15T17:00:00",
@@ -386,6 +416,16 @@
       "category": "outdoor"
     },
     {
+      "id": "barksdale-trivia-night-2026-10-15",
+      "title": "Trivia Night",
+      "date": "2026-10-15T17:00:00",
+      "endDate": "2026-10-15T19:00:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Location: Hangar 2 Join Hangar 2 for Trivia Night — where the questions are tough, the laughs are plenty, and the competition is fierce! Bring your friends, test your knowledge, and see if you can claim the top spot. For questions about Trivia Night, call 318-456-2738.",
+      "category": "entertainment"
+    },
+    {
       "id": "barksdale-sip-and-paint-2026-10-16",
       "title": "Sip and Paint",
       "date": "2026-10-16T16:00:00",
@@ -393,6 +433,16 @@
       "location": "Barksdale AFB",
       "address": "Bossier City, LA",
       "description": "Price: $15 per person; Includes all supplies and instruction This unique experience invites you and your partner - whether romantic duo or close friends - to sit across from each other and create portraits of one another! No experience necessary! This class is BYOB. Call Arts and Crafts at 318-456-3140 to sign up today. Sign-ups must take place at least 72 hours before the class.",
+      "category": "recreation"
+    },
+    {
+      "id": "barksdale-auto-hobby-late-night-2026-10-16",
+      "title": "Auto Hobby Late Night",
+      "date": "2026-10-16T17:00:00",
+      "endDate": "2026-10-16T23:00:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Attention shift workers and night owls! Auto Hobby is having another Late Night! Call 318-456-4695 for further questions about the program, or email autohobby.barksdale@gmail.com.",
       "category": "recreation"
     },
     {
@@ -444,6 +494,16 @@
       "address": "Barksdale AFB, LA",
       "description": "Price: $8 per person; Shoe rentals are included in price. Celebrate Halloween before trick-or-treating at the Bomber Alley Bowling Center! Pay $8 and enjoy all the bowling you want for 2 hours. There will also be door prizes! For further questions about the bash, call 318-456-4133.",
       "category": "holiday"
+    },
+    {
+      "id": "barksdale-iron-warrior-program-2026-11-02",
+      "title": "Iron Warrior Program",
+      "date": "2026-11-02T06:30:00",
+      "endDate": "2026-11-02T07:30:00",
+      "location": "Barksdale AFB",
+      "address": "Barksdale AFB, LA",
+      "description": "Location: SrA Bell Fitness Center Dates: September 14 through November 20; Training will only take place on Mondays, Wednesdays, and Fridays from 0630 until 0730 during the course dates. All active-duty, civilians, retirees and dependents are welcome to attend. Improve your overall fitness, build strength and endurance over the 10 week physical training course! For questions about the program, or to sign up call 318-456-4135.",
+      "category": "fitness"
     }
   ],
   "newcomers": {

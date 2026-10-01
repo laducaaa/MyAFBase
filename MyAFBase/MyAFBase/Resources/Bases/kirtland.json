@@ -347,96 +347,6 @@
   ],
   "events": [
     {
-      "id": "kirtland-intro-to-stained-glass-2026-09-22",
-      "title": "Intro to Stained Glass",
-      "date": "2026-09-22T14:00:00",
-      "endDate": "2026-09-22T16:00:00",
-      "location": "Arts & Crafts Center",
-      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
-      "description": "Ages 18+ $40 AD/Reserve ½ price",
-      "category": "recreation"
-    },
-    {
-      "id": "kirtland-2-tuesdays-2026-09-22",
-      "title": "$2 Tuesdays",
-      "date": "2026-09-22T15:00:00",
-      "endDate": "2026-09-22T21:00:00",
-      "location": "Bowling Center",
-      "address": "3C4V+27 Albuquerque, New Mexico",
-      "description": "Every Tue after 3 p.m., $2 per game $2 shoe rental",
-      "category": "community"
-    },
-    {
-      "id": "kirtland-p3-special-pizza-pop-pins-2026-09-23",
-      "title": "P3 Special: Pizza, Pop & Pins",
-      "date": "2026-09-23T13:00:00",
-      "endDate": "2026-09-23T18:00:00",
-      "location": "Bowling Center",
-      "address": "3C4V+27 Albuquerque, New Mexico",
-      "description": "$30 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and one-topping pizza.",
-      "category": "recreation"
-    },
-    {
-      "id": "kirtland-kids-pine-cone-animals-2026-09-23",
-      "title": "Kids Pine Cone Animals",
-      "date": "2026-09-23T16:30:00",
-      "endDate": "2026-09-23T17:30:00",
-      "location": "Kirtland AFB, Albuquerque, NM",
-      "address": "Kirtland AFB, Albuquerque, NM",
-      "description": "Ages 5+ $7",
-      "category": "family"
-    },
-    {
-      "id": "kirtland-kids-pine-cone-animals-2026-09-24",
-      "title": "Kids Pine Cone Animals",
-      "date": "2026-09-24T14:00:00",
-      "endDate": "2026-09-24T15:00:00",
-      "location": "Kirtland AFB",
-      "address": "Albuquerque, NM",
-      "description": "Ages 5+ $7",
-      "category": "recreation"
-    },
-    {
-      "id": "kirtland-dutch-oven-cooking-workshops-2026-09-24",
-      "title": "Dutch Oven Cooking Workshops",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "ODR",
-      "address": "8001 Gibson Blvd SE, Albuquerque, NM, 87108",
-      "description": "$10 per person; Includes staffing and groceries; All ages; ODR on base Do you go camping and like cooking on the fire? We’ll be teaching recipes you can cook in a dutch oven and prepare at a campsite kitchen. We’ll discuss menu planning, food prep, and where/when you can cook with a dutch oven. When the recipe’s ready, we’ll eat the finished product! Ask the front desk for the next workshop’s reci",
-      "category": "outdoor"
-    },
-    {
-      "id": "kirtland-bouldering-nights-in-2026-09-24",
-      "title": "Bouldering Nights In",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "Kirtland AFB",
-      "address": "Albuquerque, NM",
-      "description": "$7 per person or fee waived through passes; Includes staffing; All ages; ODR on base This fall we’ll keep the Boulder Lab open late some weeknights so you can enjoy some bouldering after work! SIGN UP HERE",
-      "category": "outdoor"
-    },
-    {
-      "id": "kirtland-tire-rotation-and-balance-workshop-2026",
-      "title": "Tire Rotation and Balance Workshop",
-      "date": "2026-09-25T14:00:00",
-      "endDate": "2026-09-25T16:00:00",
-      "location": "Auto Hobby Shop",
-      "address": "2051 Texas ST SE Bldg. 20375, Albuquerque, NM, 87108",
-      "description": "SIGN UP HERE",
-      "category": "education"
-    },
-    {
-      "id": "kirtland-family-funday-sunday-2026-09-27",
-      "title": "Family Funday Sunday",
-      "date": "2026-09-27T13:00:00",
-      "endDate": "2026-09-27T19:00:00",
-      "location": "Bowling Center",
-      "address": "3C4V+27 Albuquerque, New Mexico",
-      "description": "$30/Family of 4 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and 1-topping pizza! 3C4V+27 Albuquerque, New Mexico",
-      "category": "family"
-    },
-    {
       "id": "kirtland-intro-to-crochet-knit-2026-09-28",
       "title": "Intro to Crochet/Knit",
       "date": "2026-09-28T16:30:00",
@@ -487,6 +397,16 @@
       "category": "recreation"
     },
     {
+      "id": "kirtland-post-prost-party-first-friday-2026-10-02",
+      "title": "Post Prost Party – First Friday",
+      "date": "2026-10-02T15:30:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Mountain View",
+      "address": "22000 Club Rd. Bldg. 22000 Kirtland, AFB.",
+      "description": "🍻 Did you miss Oktoberfest or just want to relive the fun? Join us for the Post Prost Party – First Friday, October 2nd at 3:30 PM at Mountain View! 🎉 Enjoy drinks for purchase and free food while supplies last. Don’t miss out!",
+      "category": "holiday"
+    },
+    {
       "id": "kirtland-family-funday-sunday-2026-10-04",
       "title": "Family Funday Sunday",
       "date": "2026-10-04T13:00:00",
@@ -494,6 +414,16 @@
       "location": "Bowling Center",
       "address": "3C4V+27 Albuquerque, New Mexico",
       "description": "$30/Family of 4 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and 1-topping pizza! 3C4V+27 Albuquerque, New Mexico",
+      "category": "family"
+    },
+    {
+      "id": "kirtland-intro-to-sewing-machine-2026-10-06",
+      "title": "Intro to Sewing Machine",
+      "date": "2026-10-06T14:00:00",
+      "endDate": "2026-10-06T16:00:00",
+      "location": "Arts & Crafts Center",
+      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
+      "description": "Registration/payment policy: All classes require registration (phone or in person) at least (1) business day before class . Payment is due at time of registration (for most classes) . We can offer class credit for missed classes, but no refunds. Ages 12+ $30/$40 parent + teen *Teens must attend w/paying adult AD/Reserve ½ price All beginners welcome-“never ever sewers” to “it’s been a while”. This class is a pre requisite for our other sewing machine classes (intro to sewing machine quilting or basic garment construction).",
       "category": "family"
     },
     {
@@ -515,6 +445,66 @@
       "address": "3C4V+27 Albuquerque, New Mexico",
       "description": "$30 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and one-topping pizza.",
       "category": "recreation"
+    },
+    {
+      "id": "kirtland-family-funday-sunday-2026-10-11",
+      "title": "Family Funday Sunday",
+      "date": "2026-10-11T13:00:00",
+      "endDate": "2026-10-11T19:00:00",
+      "location": "Bowling Center",
+      "address": "3C4V+27 Albuquerque, New Mexico",
+      "description": "$30/Family of 4 Includes 4 pair of shoes, 1 hour of bowling, 4 fountain drinks, and 1-topping pizza! 3C4V+27 Albuquerque, New Mexico",
+      "category": "family"
+    },
+    {
+      "id": "kirtland-halloween-howl-virtual-class-2026-10-15",
+      "title": "Halloween Howl – Virtual Class",
+      "date": "2026-10-15T09:00:00",
+      "endDate": "2026-10-15T09:30:00",
+      "location": "Kirtland AFB",
+      "address": "Albuquerque, NM",
+      "description": "",
+      "category": "holiday"
+    },
+    {
+      "id": "kirtland-intro-to-polymer-clay-2026-10-16",
+      "title": "Intro to Polymer Clay",
+      "date": "2026-10-16T14:00:00",
+      "endDate": "2026-10-16T15:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
+      "description": "Registration/payment policy: All classes require registration (phone or in person) at least (1) business day before class . Payment is due at time of registration (for most classes) . We can offer class credit for missed classes, but no refunds. Ages 12 + $ 20/$25 parent + teen Teens must attend with paying adult . Think “Play doh” but for adults ! Easy to do—and we have all the equipment!",
+      "category": "family"
+    },
+    {
+      "id": "kirtland-whimsical-wreath-workshop-2026-10-19",
+      "title": "Whimsical Wreath Workshop",
+      "date": "2026-10-19T17:15:00",
+      "endDate": "2026-10-19T19:15:00",
+      "location": "Arts & Crafts Center",
+      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
+      "description": "Registration/payment policy: All classes require registration (phone or in person) at least (1) business day before class . Payment is due at time of registration (for most classes) . We can offer class credit for missed classes, but no refunds. Ages 12+ $30/$40 parent + teen Teens must attend with paying adult. We provide the supplies: wreath forms, burlap, mesh, faux flowers, ribbon, assorted seasonal items (fall, Halloween, Christmas, etc). We’ve got the tools: glue guns, wire cutters, zip ties and expert guidance! You bring your ideas and creativity!",
+      "category": "holiday"
+    },
+    {
+      "id": "kirtland-intro-to-crochet-knit-2026-10-20",
+      "title": "Intro to Crochet/Knit",
+      "date": "2026-10-20T16:30:00",
+      "endDate": "2026-10-20T17:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
+      "description": "Registration/payment policy: All classes require registration (phone or in person) at least (1) business day before class . Payment is due at time of registration (for most classes) . We can offer class credit for missed classes, but no refunds. Ages 12+ $15/$20 parent + teen Instructor is right handed. For knit, continental technique is taught.",
+      "category": "family"
+    },
+    {
+      "id": "kirtland-kids-wicked-good-drawing-magic-2026-10-21",
+      "title": "Kids – Wicked Good Drawing Magic",
+      "date": "2026-10-21T16:30:00",
+      "endDate": "2026-10-21T17:30:00",
+      "location": "Arts & Crafts Center",
+      "address": "8001 Gibson Boulevard Southeast BLDG 20170, Kirtland AFB, NM 87117",
+      "description": "Ages 5+ $7 Drawings with a surprise ! Registration/payment policy: All classes require registration (phone or in person) at least (1) business day before class . Payment is due at time of registration (for most classes) . We can offer class credit for missed classes, but no refunds",
+      "category": "family"
     },
     {
       "id": "kirtland-family-funday-sunday-2026-11-01",
@@ -606,5 +596,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-21T06:35:07Z"
+  "dataUpdatedAt": "2026-09-28T06:23:52Z"
 }

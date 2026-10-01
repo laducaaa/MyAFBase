@@ -7,7 +7,7 @@
   "wing": "52 FW",
   "latitude": 49.9727,
   "longitude": 6.6925,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "spangdahlem-notif-real-id",
@@ -195,46 +195,6 @@
   ],
   "events": [
     {
-      "id": "spangdahlem-spooky-trivia-the-brickhouse-2026-09-24",
-      "title": "Spooky Trivia @ The Brickhouse",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T18:00:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Put your spooky knowledge to the test—it\\'s free to play and full of frightfully good fun!</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "spangdahlem-spangdahlem-fall-bazaar-2026-09-25",
-      "title": "Spangdahlem Fall Bazaar",
-      "date": "2026-09-25T00:00:00",
-      "endDate": "2026-09-27T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "<p>Fall finds, local treasures, and seasonal surprises await!</p>\\n",
-      "category": "community"
-    },
-    {
-      "id": "spangdahlem-gr-ne-h-lle-hike-2026-09-26",
-      "title": "Grüne Hölle Hike",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "<p>Sept 26,2026: Grüne Hölle Hike Price:$20 (Includes: Transportation, Guide) The \"Green Hell\" circular route begins near the border town of Bollendorf and winds through the mystical, moss-covered rock forests of the South Eifel. The absolute highlight is navigating the narrow, shaded sandstone chasms of the Grüne Hölle gorge, where towering, water-soaked stone walls block out […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "spangdahlem-roman-explorer-2026-09-26",
-      "title": "Roman Explorer",
-      "date": "2026-09-26T08:00:00",
-      "endDate": "2026-09-26T20:30:00",
-      "location": "",
-      "address": "",
-      "description": "🏛️ Ave, Adventurer! Step Into Ancient Rome Escape the everyday and journey back to the age of emperors and legions! This day trip is part history lesson, part pure relaxation, and all-around epic. 🌅 Morning: Conquer the Roman Frontier Start your adventure at the Roman Museum Limites , where history comes alive. Explore archaeological treasures, reconstructed structures, and immersive exhibits that reveal how Roman soldiers lived, worked, and defended the empire’s borders along the Rhine. Then, channel your inner legionary in an archery class —test your aim and see if you have what it takes to ",
-      "category": "education"
-    },
-    {
       "id": "spangdahlem-manderscheid-to-himmerod-abbey-hike-2026-10-03",
       "title": "Manderscheid to Himmerod Abbey Hike",
       "date": "2026-10-03T00:00:00",
@@ -295,6 +255,16 @@
       "category": "community"
     },
     {
+      "id": "spangdahlem-snow-world-ski-snowboard-trip-2026-10-31",
+      "title": "Snow World Ski/Snowboard Trip",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "24 Oct 2026 Snow World Ski/Snowboard Trip Get ready for alpine adventures this winter with some warm-up laps on easy beginner terrain. Join ODR for a day in the Netherlands and spend the day perfecting your turns on the indoor slopes of Snow World. Ages 14 and up. Trip includes transportation, gear rental, and lift ticket. $139",
+      "category": "outdoor"
+    },
+    {
       "id": "spangdahlem-scary-halloween-at-castle-satzvey-2026-10-31",
       "title": "Scary Halloween at Castle Satzvey",
       "date": "2026-10-31T14:00:00",
@@ -313,6 +283,26 @@
       "address": "",
       "description": "(Tourist Passport Required) 🍂 🏹 🎺 Experience the Ardennes’ Ultimate Autumn Festival 🎺 🏹 🍂 Step into the heart of the Ardennes and experience a lively celebration of tradition, culture, and local flavors at the annual Hunting Festival in Bouillon . Set beneath the legendary castle, this event blends rustic charm with festive energy. 🛍️ 🍖 🍷 Markets, Flavors & Local Finds Wander through a vibrant open-air market filled with regional specialties and unique goods: • Game Market – Wild boar, venison, and deer, available fresh or prepared as pâtés and charcuterie • Local Products – Wines, beers, jams",
       "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-cologne-carnival-2026-11-11",
+      "title": "Cologne Carnival",
+      "date": "2026-11-11T00:00:00",
+      "endDate": "2026-11-11T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "🥳 🎭 🍻 Kölle Alaaf! Welcome to the “Fifth Season! Get ready for one of Germany’s most iconic celebrations! Every year at 11:11 a.m. on November 11th , Cologne officially kicks off Carnival season—transforming the entire city into a massive, high-energy street party. 🎉 🎶 The Ultimate Street Party On this day, Cologne becomes a giant open-air festival filled with costumed revellers (“Jecken”), music, and non-stop celebration: • City-Wide Party – Streets, squares, and pubs all turn into festival zones • Costumes Everywhere – From simple to outrageous, creativity is key • Electric Atmosphere – Sing",
+      "category": "community"
+    },
+    {
+      "id": "spangdahlem-trading-card-night-2026-11-11",
+      "title": "Trading Card Night",
+      "date": "2026-11-11T18:00:00",
+      "endDate": "2026-11-11T20:00:00",
+      "location": "Community Commons PentHouse",
+      "address": "",
+      "description": "Bring your favorite cards and join fellow enthusiasts for a fun-filled Trading Card Night! Swap, battle, and showcase your collection in a welcoming, social atmosphere. Perfect for collectors and players of all experience levels!",
+      "category": "community"
     },
     {
       "id": "spangdahlem-certified-forest-guide-tour-eifel-national-park-2026",
@@ -355,6 +345,16 @@
       "category": "outdoor"
     },
     {
+      "id": "spangdahlem-ischgl-season-opening-ski-snowboard-trip-2026-11-28",
+      "title": "Ischgl Season Opening Ski & Snowboard Trip",
+      "date": "2026-11-28T00:00:00",
+      "endDate": "2026-11-28T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "Ischgl Season Opening Ski & Snowboard Trip *]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-WEB:92632880-cc05-4fae-86ef-4d20f3787507-42\" data-turn-id-container=\"request-WEB:92632880-cc05-4fae-86ef-4d20f3787507-42\" data-testid=\"conversation-turn-58\" data-turn=\"assistant\"> Kick off the winter season in Ischgl! Join ODR for a day at the legendary Silvretta Arena in Austria, where incredible slopes, high-alti",
+      "category": "outdoor"
+    },
+    {
       "id": "spangdahlem-ice-skating-trip-eissporthalle-bitburg-2026-12-04",
       "title": "Ice Skating Trip – Eissporthalle Bitburg",
       "date": "2026-12-04T00:00:00",
@@ -373,6 +373,16 @@
       "address": "",
       "description": "🎄 🏰 Step Into a Classic German Christmas Fairytale 🏰 🎄 Step into a festive fairytale as you explore two of Germany’s most iconic Christmas destinations. From the world-famous Nuremberg Christkindlesmarkt to the charming medieval streets of Rothenburg ob der Tauber , this trip is packed with tradition, history, and holiday spirit. 🎄 🏙️ 🍷 Nuremberg: Germany’s Most Famous Christmas Market Dating back to the 16th century , the Christkindlesmarkt is one of the oldest and most celebrated Christmas markets in the world. Highlights: • Local Specialties – Try “3 im Weggla” (Nuremberg sausages in a roll",
       "category": "holiday"
+    },
+    {
+      "id": "spangdahlem-trading-card-night-2026-12-09",
+      "title": "Trading Card Night",
+      "date": "2026-12-09T18:00:00",
+      "endDate": "2026-12-09T20:00:00",
+      "location": "Community Commons PentHouse",
+      "address": "",
+      "description": "Bring your favorite cards and join fellow enthusiasts for a fun-filled Trading Card Night! Swap, battle, and showcase your collection in a welcoming, social atmosphere. Perfect for collectors and players of all experience levels!",
+      "category": "community"
     },
     {
       "id": "spangdahlem-sold-out-christmas-at-dresden-striezelmarkt-2026-12",

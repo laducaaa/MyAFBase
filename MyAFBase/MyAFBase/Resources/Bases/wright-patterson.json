@@ -7,7 +7,7 @@
   "wing": "88 ABW / AFMC HQ",
   "latitude": 39.8261,
   "longitude": -84.0483,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "wpafb-notif-1",
@@ -436,66 +436,6 @@
   ],
   "events": [
     {
-      "id": "wright-patterson-wood-turning-class-2026-09-22",
-      "title": "Wood Turning Class",
-      "date": "2026-09-22T17:30:00",
-      "endDate": "2026-09-22T20:30:00",
-      "location": "",
-      "address": "",
-      "description": "<p>Join the Consolidated Hobby Complex for their Wood Turning Class! Learn basic wood turning techniques while turning your own project! This class is great for beginners as well as those looking to improve upon their lathe and woodworking skills. Wood Turning Class is offered every 2nd & 4th Tuesday of the Month and is $25. […]</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "wpafb-oktoberfest-2026-09-24",
-      "title": "Oktoberfest",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Wing's Bar and Grille",
-      "address": "Wright-Patterson AFB",
-      "description": "Oktoberfest with German food, beer, live music; 88 FSS homepage.",
-      "category": "community"
-    },
-    {
-      "id": "wright-patterson-dolly-parton-friday-2026-09-25",
-      "title": "Dolly Parton Friday",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Wing’s Bar and Grille",
-      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
-      "description": "Join Wing’s Bar & Grille for Dolly Parton Friday on September 25 from 4 – 10 pm! Come and celebrate the Queen of Country with karaoke, laughter, food, cocktails, and plenty of Dolly-inspired fun.",
-      "category": "entertainment"
-    },
-    {
-      "id": "wright-patterson-kids-movie-night-2026-09-25",
-      "title": "Kids Movie Night",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Community Center",
-      "address": "4771 Lahm Circle Bldg 800, Area A Wright-Patterson AFB, Ohio 45433",
-      "description": "Join in for Kids Movie Night on Friday, September 25 from 6 – 9 pm at the Wright-Patt Community Center. Kids and family can enjoy Jurassic Park on the big screen with FREE popcorn and pretzels.",
-      "category": "outdoor"
-    },
-    {
-      "id": "wpafb-rocket-day",
-      "title": "Rocket Day 2026",
-      "date": "2026-09-26T10:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "National Museum of the U.S. Air Force",
-      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
-      "description": "Free family STEM event; build and launch model rockets.",
-      "category": "family"
-    },
-    {
-      "id": "wpafb-girls-aviation",
-      "title": "Girls in Aviation and STEM Day",
-      "date": "2026-09-27T10:00:00",
-      "endDate": "2026-09-27T15:00:00",
-      "location": "National Museum of the U.S. Air Force / NAHF",
-      "address": "1100 Spaatz St, Wright-Patterson AFB, OH 45433",
-      "description": "Free event for girls ages 6–17 with hands-on aviation/STEM activities.",
-      "category": "family"
-    },
-    {
       "id": "wright-patterson-pink-ribbon-walk-2026-10-01",
       "title": "Pink Ribbon Walk",
       "date": "2026-10-01T17:00:00",
@@ -566,6 +506,16 @@
       "category": "fitness"
     },
     {
+      "id": "wright-patterson-sweetest-day-cookie-painting-2026-10-17",
+      "title": "Sweetest Day Cookie Painting",
+      "date": "2026-10-17T09:00:00",
+      "endDate": "2026-10-17T11:00:00",
+      "location": "Community Center",
+      "address": "4771 Lahm Circle Bldg 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "Join us for Sweetest Day Cookie Painting on Saturday, October 17 from 9- 11 am at the Wright-Patt Community Center. Each family will receive one dozen cookies to decorate together, with icing, decorations and tools provided! Enjoy hot tea, iced tea, lemonade, water and light snacks while creating sweet memories together. Cost is $20 per family | Reservations are required and must be made by October 9. For more details, or to reserve your spot call the Community Center at 937-522-2160.",
+      "category": "family"
+    },
+    {
       "id": "wright-patterson-auto-shop-safety-2026-10-21",
       "title": "Auto Shop Safety",
       "date": "2026-10-21T17:00:00",
@@ -574,6 +524,16 @@
       "address": "Bldg 1227, Wright Patterson AFB, OH",
       "description": "<p>Learn how to properly and safely use the equipment at the Auto Hobby Complex. This class is required in order to use the Auto Hobby complex. Auto Shop Safety Class is offered every 1st & 3rd Wednesday of the Month </p>\\n",
       "category": "community"
+    },
+    {
+      "id": "wright-patterson-kitchen-bingo-2026-10-21",
+      "title": "Kitchen Bingo",
+      "date": "2026-10-21T18:00:00",
+      "endDate": "2026-10-21T20:30:00",
+      "location": "Wing’s Bar and Grille",
+      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "Join us for Kitchen Bingo on Wednesday, October 21 at 6 pm in Wing’s Bar and Grille. For just $35 a player, come out and play bingo for your chance to win some cool prizes for the evening. Winners will take home small appliances, gift cards, kitchen gadgets, cookbooks, kitchen accessories, and more. For more information, call Wing’s Bar and Grille at 937-904-0225",
+      "category": "entertainment"
     },
     {
       "id": "wright-patterson-the-great-pumpkin-palooza-2026-10-22",
@@ -596,6 +556,16 @@
       "category": "fitness"
     },
     {
+      "id": "wright-patterson-operation-spirit-watch-2026-10-24",
+      "title": "Operation Spirit Watch",
+      "date": "2026-10-24T20:00:00",
+      "endDate": "2026-10-24T23:30:00",
+      "location": "Wing’s Bar and Grille",
+      "address": "4771 Lahm Circle, Bldg. 800, Area A Wright-Patterson AFB, Ohio 45433",
+      "description": "Prepare to scream at Wing’s Bar and Grille for Operation Spirit Watch on Saturday, October 24. Get ready for an exciting night of spooky season fun with professional paranormal investigators. This fun spirit watch is open to ages 16 and up, with 2 time slots avaialble. 3 groups per slot | 6 people per group. To reserve your spot, visit Operation Spirit Watch Sign Up",
+      "category": "holiday"
+    },
+    {
       "id": "wright-patterson-wood-turning-class-2026-10-27",
       "title": "Wood Turning Class",
       "date": "2026-10-27T17:30:00",
@@ -614,6 +584,16 @@
       "address": "",
       "description": "Horror Night / Halloween party (haunted hallway, costume contest, DJ); 88 FSS sponsorship page.",
       "category": "community"
+    },
+    {
+      "id": "wright-patterson-track-or-treat-2026-10-30",
+      "title": "Track or Treat",
+      "date": "2026-10-30T17:00:00",
+      "endDate": "2026-10-30T19:00:00",
+      "location": "Area B Track",
+      "address": "Area B, 2690 C St #571, WPAFB, OH, 45433",
+      "description": "Join Child and Youth Programs for Track or Treat on Friday, October 30 from 5 – 7 pm at the Area B Track. Enjoy this active walk/run with Youth Programs as your kids can enjoy games, prizes and activities at every station. Costumes are encouraged. Participants must be registered through CYPBMS through October 30 For more information and to sign up, call Youth Programs at 937-656-8688",
+      "category": "fitness"
     },
     {
       "id": "wpafb-bombers-brews",

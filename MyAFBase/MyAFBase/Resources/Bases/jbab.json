@@ -7,7 +7,7 @@
   "wing": "11 WG",
   "latitude": 38.8428,
   "longitude": -77.0161,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "jbab-notif-1",
@@ -387,34 +387,24 @@
   ],
   "events": [
     {
-      "id": "jbab-music-movement-2026-09-21",
-      "title": "Music & Movement",
-      "date": "2026-09-21T10:00:00",
-      "endDate": "2026-09-21T10:00:00",
+      "id": "jbab-storytime-2026-09-30",
+      "title": "StoryTime",
+      "date": "2026-09-30T10:00:00",
+      "endDate": "2026-09-30T11:00:00",
       "location": "Base Library",
       "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
-      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical elements and vocalization through fun songs and motions. *For ages 8 and under. *While these events are recurrin",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Every Wednesday from 10:00am-11:00am. Join Joint Base Andrews Library for our weekly StoryTime and create a love of reading! *While these events a",
       "category": "family"
     },
     {
-      "id": "jbab-crafting-around-2026-09-22",
-      "title": "Crafting Around",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:00:00",
+      "id": "jbab-book-bites-book-club-2026-10-01",
+      "title": "“Book Bites” Book Club",
+      "date": "2026-10-01T17:30:00",
+      "endDate": "2026-10-01T17:30:00",
       "location": "Base Library",
       "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
-      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ global_colors_info=”{}” sticky_enabled=”0″] Every 2nd & 4th Tuesday f rom 10:00am-11:00am. Join Ms. Cynara for a free, fun and educational kids’ crafting time in the Library. *All ages welcome (with adult supervision). *While thes",
-      "category": "family"
-    },
-    {
-      "id": "jbab-oktoberfest-2026-2026-09-25",
-      "title": "OKTOBERFEST 2026",
-      "date": "2026-09-25T15:00:00",
-      "endDate": "2026-09-25T19:00:00",
-      "location": "Slip Inn Waterfront Restaurant",
-      "address": "2482 Arnold Ave, washington, DC 20032",
-      "description": "JBAB, OKTOBERFEST IS COMING! Oktoberfest is coming to Joint Base Anacostia-Bolling ! Break out your lederhosen and dirndls and get ready for an afternoon filled with German-inspired favorites, beer & food specials, live music, festive contests & prizes, and plenty of Oktoberfest fun! September 25 3 PM Slip Inn FREE EVENT! BONUS: The first 70 customers will receive a FREE Oktoberfest stein! Get there early-you won't w",
-      "category": "holiday"
+      "description": "[et_pb_section fb_built=”1″ admin_label=”section” _builder_version=”4.16″ global_colors_info=”{}”][et_pb_row admin_label=”row” _builder_version=”4.16″ background_size=”initial” background_position=”top_left” background_repeat=”repeat” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.16″ custom_padding=”|||” global_colors_info=”{}” custom_padding__hover=”|||”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” hover_enabled=”0″ sticky_enabled=”0″] Every 1st Thursday. Read ’em and EAT! Join the Library for potluck-style book club meetings. *For more info or to join",
+      "category": "recreation"
     },
     {
       "id": "jbab-karaoke-night-2026-10-01",
@@ -427,6 +417,16 @@
       "category": "entertainment"
     },
     {
+      "id": "jbab-stem-saturday-2026-10-03",
+      "title": "STEM Saturday",
+      "date": "2026-10-03T12:00:00",
+      "endDate": "2026-10-03T13:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Every 1st Saturday from 12:00pm-1:00pm. Explore Science, Technology, Engineering and Math every month at the Library for free! *For ages 5+ (with ",
+      "category": "education"
+    },
+    {
       "id": "jbab-music-movement-2026-10-05",
       "title": "Music & Movement",
       "date": "2026-10-05T10:00:00",
@@ -435,6 +435,16 @@
       "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
       "description": "[et_pb_section fb_built=”1″ admin_label=”section” _builder_version=”4.16″ global_colors_info=”{}”][et_pb_row admin_label=”row” _builder_version=”4.16″ background_size=”initial” background_position=”top_left” background_repeat=”repeat” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.16″ custom_padding=”|||” global_colors_info=”{}” custom_padding__hover=”|||”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ sticky_enabled=”0″] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical element",
       "category": "family"
+    },
+    {
+      "id": "jbab-crafts-cocktails-2026-10-08",
+      "title": "Crafts & Cocktails",
+      "date": "2026-10-08T17:00:00",
+      "endDate": "2026-10-08T18:45:00",
+      "location": "The Club at Andrews",
+      "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.4″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.4″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” hover_enabled=”0″ global_colors_info=”{}” sticky_enabled=”0″] Head to Hangar One Lounge at The Club at Andrews for a crafting session hosted by the Library! *This event occurs every 2nd Thursday of the month. While these events are recurring, be su",
+      "category": "recreation"
     },
     {
       "id": "jbab-crafting-around-2026-10-13",
@@ -547,6 +557,16 @@
       "category": "outdoor"
     },
     {
+      "id": "jbab-music-movement-2026-11-16",
+      "title": "Music & Movement",
+      "date": "2026-11-16T10:00:00",
+      "endDate": "2026-11-16T10:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical elements and vocalization through fun songs and motions. *For ages 8 and under. *While these events are recurrin",
+      "category": "family"
+    },
+    {
       "id": "jbab-romance-book-club-2026-11-19",
       "title": "Romance Book Club",
       "date": "2026-11-19T16:30:00",
@@ -567,6 +587,16 @@
       "category": "entertainment"
     },
     {
+      "id": "jbab-crafting-around-2026-11-24",
+      "title": "Crafting Around",
+      "date": "2026-11-24T10:00:00",
+      "endDate": "2026-11-24T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.27.0″ _module_preset=”default” global_colors_info=”{}”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ global_colors_info=”{}” sticky_enabled=”0″] Every 2nd & 4th Tuesday f rom 10:00am-11:00am. Join Ms. Cynara for a free, fun and educational kids’ crafting time in the Library. *All ages welcome (with adult supervision). *While thes",
+      "category": "family"
+    },
+    {
       "id": "jbab-karaoke-night-2026-12-03",
       "title": "Karaoke Night",
       "date": "2026-12-03T19:00:00",
@@ -575,6 +605,26 @@
       "address": "1889 Arnold Ave, Joint Base Andrews, MD, 20762",
       "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.4″ _module_preset=”default”][et_pb_row _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.4″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.4″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Join the fun with DJ Chris at The Club at Andrews (1889 Arnold Ave) for Karaoke Night every 1st and 3rd Thursday of the month . Doors open at 3:00",
       "category": "entertainment"
+    },
+    {
+      "id": "jbab-music-movement-2026-12-07",
+      "title": "Music & Movement",
+      "date": "2026-12-07T10:00:00",
+      "endDate": "2026-12-07T10:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ admin_label=”section” _builder_version=”4.16″ global_colors_info=”{}”][et_pb_row admin_label=”row” _builder_version=”4.16″ background_size=”initial” background_position=”top_left” background_repeat=”repeat” global_colors_info=”{}”][et_pb_column type=”4_4″ _builder_version=”4.16″ custom_padding=”|||” global_colors_info=”{}” custom_padding__hover=”|||”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” hover_enabled=”0″ sticky_enabled=”0″] Every 1st & 3rd Monday at 10:00am. Join Miss Ivonne for an interactive experience where children learn musical element",
+      "category": "family"
+    },
+    {
+      "id": "jbab-crafting-around-2026-12-08",
+      "title": "Crafting Around",
+      "date": "2026-12-08T10:00:00",
+      "endDate": "2026-12-08T11:00:00",
+      "location": "Base Library",
+      "address": "1442 Concord Ave (2nd floor), Joint Base Andrews, MD, 20762",
+      "description": "[et_pb_section fb_built=”1″ theme_builder_area=”post_content” _builder_version=”4.27.0″ _module_preset=”default”][et_pb_row _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content”][et_pb_column _builder_version=”4.27.0″ _module_preset=”default” type=”4_4″ theme_builder_area=”post_content”][et_pb_text _builder_version=”4.27.0″ _module_preset=”default” theme_builder_area=”post_content” hover_enabled=”0″ sticky_enabled=”0″] Every 2nd & 4th Tuesday f rom 10:00am-11:00am. Join Ms. Cynara for a free, fun and educational kids’ crafting time in the Library. *All ages welco",
+      "category": "family"
     }
   ],
   "newcomers": {

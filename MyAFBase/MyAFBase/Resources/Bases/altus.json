@@ -7,7 +7,7 @@
   "wing": "97 AMW",
   "latitude": 34.6671,
   "longitude": -99.2667,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "altus-notif-real-id",
@@ -266,74 +266,24 @@
   ],
   "events": [
     {
-      "id": "altus-story-time-2026-09-22",
+      "id": "altus-story-time-2026-09-29",
       "title": "Story Time",
-      "date": "2026-09-22T10:30:00",
-      "endDate": "2026-09-22T11:00:00",
+      "date": "2026-09-29T10:30:00",
+      "endDate": "2026-09-29T11:00:00",
       "location": "Altus AFB Library",
       "address": "Altus, OK",
       "description": "Join us for Library Story Time and enjoy a fun-filled morning of stories, songs, rhymes, and a creative craft! It’s the perfect opportunity for babies, toddlers, and young children to learn, laugh, and explore alongside their caregivers. Suggested for ages 0–6. For more information, please call 580-481-6302.",
       "category": "family"
     },
     {
-      "id": "altus-murder-mystery-game-night-2026-09-22",
+      "id": "altus-murder-mystery-game-night-2026-09-29",
       "title": "Murder Mystery Game Night",
-      "date": "2026-09-22T17:00:00",
-      "endDate": "2026-09-22T19:00:00",
+      "date": "2026-09-29T17:00:00",
+      "endDate": "2026-09-29T19:00:00",
       "location": "Altus AFB Library",
       "address": "Altus, OK",
       "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
       "category": "entertainment"
-    },
-    {
-      "id": "altus-texas-hold-em-2026-09-24",
-      "title": "Texas Hold ‘Em",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T21:00:00",
-      "location": "Altus AFB Dark Horse Sports Bar",
-      "address": "Altus, OK",
-      "description": "Get ready for an exciting Thursday night at the Dark Horse Sports Bar with Texas Hold ’Em from 1800 – 2100! Test your poker skills, enjoy great company, and compete for bragging rights in a fun and lively atmosphere. Club members play for free, and non-members can join the action for just $5. Don’t miss one of the best weekly hangouts on base! For more information, please call 481-7034.",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-stem-activity-2026-09-25",
-      "title": "STEM Activity",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-25T17:00:00",
-      "location": "Altus AFB Library",
-      "address": "Altus, OK",
-      "description": "Discover, Create, and Explore! Join the Library for an exciting STEM Activity! Have fun while learning through hands-on science, technology, engineering, and mathematics challenges. It's a great opportunity to spark",
-      "category": "education"
-    },
-    {
-      "id": "altus-that-time-i-got-reincarnated-as-a-slime-the-movi-2026-09-2",
-      "title": "That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T20:00:00",
-      "location": "Altus AFB Theater",
-      "address": "Altus, OK",
-      "description": "Enjoy a FREE movie showing at the Base Theater! Join us for That Time I Got Reincarnated as a Slime the Movie: Tears of the Azure Sea, rated PG-13. Sit",
-      "category": "entertainment"
-    },
-    {
-      "id": "altus-mini-golf-tournament-2026-09-25",
-      "title": "Mini Golf Tournament",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T20:00:00",
-      "location": "Altus AFB",
-      "address": "Altus, OK",
-      "description": "Join us for a Mini Golf Tournament and see if you have what it takes to conquer the course! Grab your friends, bring your best putting game, and enjoy an",
-      "category": "recreation"
-    },
-    {
-      "id": "altus-fall-youth-bowling-league-2026-09-26",
-      "title": "Fall Youth Bowling League",
-      "date": "2026-09-26T11:30:00",
-      "endDate": "2026-09-26T14:30:00",
-      "location": "Altus AFB Galaxy Lanes",
-      "address": "Altus, OK",
-      "description": "Fall Youth Bowling League is rolling into Galaxy Lanes! Young bowlers can hit the lanes for five weeks of friendly competition and fun from 26 September – 24 October, 1130–1430. With three age divisions, there’s a spot for everyone ages 17 and younger! Cost is $7 for ages 10 & younger and $9 for ages 11–17, with shoes included. For more information, please call 580-481-7440.",
-      "category": "family"
     },
     {
       "id": "altus-texas-hold-em-2026-10-01",
@@ -344,6 +294,16 @@
       "address": "Altus, OK",
       "description": "Get ready for an exciting Thursday night at the Dark Horse Sports Bar with Texas Hold ’Em from 1800 – 2100! Test your poker skills, enjoy great company, and compete for bragging rights in a fun and lively atmosphere. Club members play for free, and non-members can join the action for just $5. Don’t miss one of the best weekly hangouts on base! For more information, please call 481-7034.",
       "category": "entertainment"
+    },
+    {
+      "id": "altus-the-breadwinner-2026-10-02",
+      "title": "The Breadwinner",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T20:00:00",
+      "location": "Altus AFB Theater",
+      "address": "Altus, OK",
+      "description": "FREE MOVIE AT THE BASE THEATER! Join us at the Base Theater for a FREE showing of The Breadwinner, rated PG! Grab your family and friends and enjoy a movie on the big screen. Concessions will be available for purchase. For more information, please call 580-481-6600.",
+      "category": "family"
     },
     {
       "id": "altus-pumpkin-pacer",
@@ -366,6 +326,16 @@
       "category": "community"
     },
     {
+      "id": "altus-story-time-2026-10-06",
+      "title": "Story Time",
+      "date": "2026-10-06T10:30:00",
+      "endDate": "2026-10-06T11:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Join us for Library Story Time and enjoy a fun-filled morning of stories, songs, rhymes, and a creative craft! It’s the perfect opportunity for babies, toddlers, and young children to learn, laugh, and explore alongside their caregivers. Suggested for ages 0–6. For more information, please call 580-481-6302.",
+      "category": "family"
+    },
+    {
       "id": "altus-murder-mystery-game-night-2026-10-06",
       "title": "Murder Mystery Game Night",
       "date": "2026-10-06T17:00:00",
@@ -376,6 +346,26 @@
       "category": "entertainment"
     },
     {
+      "id": "altus-texas-hold-em-2026-10-08",
+      "title": "Texas Hold ‘Em",
+      "date": "2026-10-08T18:00:00",
+      "endDate": "2026-10-08T21:00:00",
+      "location": "Altus AFB Dark Horse Sports Bar",
+      "address": "Altus, OK",
+      "description": "Get ready for an exciting Thursday night at the Dark Horse Sports Bar with Texas Hold ’Em from 1800 – 2100! Test your poker skills, enjoy great company, and compete for bragging rights in a fun and lively atmosphere. Club members play for free, and non-members can join the action for just $5. Don’t miss one of the best weekly hangouts on base! For more information, please call 481-7034.",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-toy-story-5-2026-10-09",
+      "title": "Toy Story 5",
+      "date": "2026-10-09T18:00:00",
+      "endDate": "2026-10-09T20:00:00",
+      "location": "Altus AFB Theater",
+      "address": "Altus, OK",
+      "description": "To infinity, beyond…and the Base Theater! Bring the family and enjoy a FREE showing of Toy Story 5, rated PG, at the Base Theater! Grab your favorite movie snacks from the concession stand, sit back, and enjoy Woody, Buzz, and the gang on the big screen. Admission is FREE! Concessions will be available. For more information, please call 580-481-6600.",
+      "category": "family"
+    },
+    {
       "id": "altus-1-best-ball-of-2-2026-10-10",
       "title": "1 Best Ball of 2",
       "date": "2026-10-10T09:00:00",
@@ -384,6 +374,16 @@
       "address": "Altus, OK",
       "description": "Grab a partner and hit the greens at Windy Trails Golf Course for the 1 Best Ball of 2 Tournament! Compete in two-person teams where every great shot counts as you battle it out for the best score on the course. Tee off begins at 0900, and entry is just $15 per golfer. Don’t miss a fun day of competition, teamwork, and great golf! For more information, please call 580-481-7207.",
       "category": "fitness"
+    },
+    {
+      "id": "altus-murder-mystery-game-night-2026-10-13",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-10-13T17:00:00",
+      "endDate": "2026-10-13T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
+      "category": "entertainment"
     },
     {
       "id": "altus-harry-potter-teen-trivia-2026-10-24",
@@ -410,6 +410,16 @@
       "title": "Murder Mystery Game Night",
       "date": "2026-11-03T17:00:00",
       "endDate": "2026-11-03T19:00:00",
+      "location": "Altus AFB Library",
+      "address": "Altus, OK",
+      "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",
+      "category": "entertainment"
+    },
+    {
+      "id": "altus-murder-mystery-game-night-2026-11-10",
+      "title": "Murder Mystery Game Night",
+      "date": "2026-11-10T17:00:00",
+      "endDate": "2026-11-10T19:00:00",
       "location": "Altus AFB Library",
       "address": "Altus, OK",
       "description": "Come and be part of our Murder Mystery Game Night! Collaborate as a team to unravel an exciting murder mystery, where everyone has an important part to play, exchanging clues and notes to solve the case. Snacks and beverages will be available. Recommended age is 14+. For more information, please call 481-6302.",

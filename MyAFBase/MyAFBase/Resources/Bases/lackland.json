@@ -7,7 +7,7 @@
   "wing": "37 TRW / 502 ABW",
   "latitude": 29.3842,
   "longitude": -98.6181,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "lackland-notif-1",
@@ -469,23 +469,33 @@
   ],
   "events": [
     {
-      "id": "lackland-travel-expo-2026-09-25",
-      "title": "Travel Expo",
-      "date": "2026-09-25T11:00:00",
-      "endDate": "2026-09-25T14:00:00",
-      "location": "LAK Gateway Club",
-      "address": "JBSA-Lackland, San Antonio, TX",
-      "description": "JBSA Leisure Travel and Information, Tickets & Travel Hosted by JBSA Lackland Gateway Club Sept. 25 11am to 12pm: Active duty in uniform early entry 12-2pm: General public Open to all DOW ID cardholders. Free food and prizes while supplies last. Grand Prize Giveaway! Military-exclusive offers. Explore vacation deals Global destinations & travel reps | Giveaways & prizes For more information, call ",
-      "category": "community"
+      "id": "lackland-canyon-lake-annual-pass-2026-09-30",
+      "title": "Canyon Lake Annual Pass",
+      "date": "2026-09-30T00:00:00",
+      "endDate": "2026-09-30T23:59:59",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "San Antonio, TX",
+      "description": "JBSA Recreation Park at Canyon Lake Purchase a Joint Base San Antonio Recreation Park at Canyon Lake annual pass for $100 for you and a spouse and enjoy the lake all summer. This pass gets you into both Sunny Side and Hancock Cove. Otherwise, the daily entry fee for the park is $15 per visit, per vehicle. Annual passes include a vehicle and boat/trailer pass and are valid for one year from date of issue for daily use only, during the hours we are open. You can also buy a dependent pass for an additional $35 as long as they are over 18 and have a valid DoD ID card. For more information, please ",
+      "category": "outdoor"
     },
     {
-      "id": "lackland-oktoberfest-2026-09-25",
-      "title": "Oktoberfest",
-      "date": "2026-09-25T17:00:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Joint Base San Antonio",
+      "id": "lackland-riding-lessons-2026-10-01",
+      "title": "Riding Lessons",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "FSH Equestrian Center",
       "address": "San Antonio, TX",
-      "description": "Joint Base San Antonio Fort Sam Houston Sept. 25 | 5-9pm Located At The Army South Parking Lot Between Dickman And Stanley Rd. Live Entertainment by 323d Army Band “Ft Sam’s Own”, Beethoven’s Oompa Band, Kids Fun Zone, DJ, food and refreshments for purchase. Enjoy live music, German beer, festival tent, festive food, interactive activities for the whole family and much more. Parking and admission are free. So get your lederhosen on and meet us on Fort Sam Houston for some mirthful merriment, Bavarian style. Open to all DoW ID cardholders and their families. There is a costume contest with priz",
+      "description": "JBSA-Fort Sam Houston Equestrian Center Whether you’re a beginner or an experienced rider, the JBSA-Fort Sam Houston Equestrian Center offers horseback riding lessons for all skill levels in both English and Western styles. Lessons are available by appointment only, with horses, saddles, and tack provided for each session. Riders must be at least 7 years old to participate. Private lessons are $60 per hour, semi-private lessons are $50 per rider, and group lessons are $40 per rider. Be sure to ask about available package deals!",
+      "category": "outdoor"
+    },
+    {
+      "id": "lackland-dallas-cowboys-home-game-packages-2026-10-01",
+      "title": "Dallas Cowboys Home Game Packages",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-01T23:59:59",
+      "location": "JBSA ITT Offices",
+      "address": "San Antonio, TX",
+      "description": "JBSA Information, Tickets, and Travel Are you ready for some Football? Dallas Cowboys home game packages are available at all JBSA ITT locations. Rates range from $525-$1,395 per person. Packages Include: Round-trip shuttle from hotel to stadium One game ticket per person One night hotel stay Entry for each person to the tailgate party (includes free food and drinks) Pep Rally the day before the game at the hotel Both Saturday and Sunday games check in on Saturdays and check out on Sundays Thanksgiving Day game (Nov. 26) will check in on Thursday and check out on Friday Extra night is $200 per",
       "category": "holiday"
     },
     {
@@ -499,6 +509,26 @@
       "category": "community"
     },
     {
+      "id": "lackland-first-fridays-2026-10-02",
+      "title": "First Fridays",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "RND Clubs",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Randolph Clubs Sept. 4 & Oct. 2 Parr Club – Auger Inn First Fridays with DJ Stevie Mack 5-8pm Join us for First Fridays in the Auger Inn. Dance the night away and unwind after work with music by DJ Stevie Mack and great drinks from our friendly bartender. For more information, call 210.658.7445 Kendrick Club – Gil’s Pub with DJ T-Real 5-9pm Join us for First Fridays in Gil’s Pub. Dance the night away after your work week and relax with DJ T-Real, and enjoy great food and specialty drinks. For more information, call 210.658.3557 Monthly Drink Specials: September Washington Apple Canadian W",
+      "category": "entertainment"
+    },
+    {
+      "id": "lackland-smart-girls-tea-party-2026-10-02",
+      "title": "Smart Girls Tea Party",
+      "date": "2026-10-02T17:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "FSH Youth Programs",
+      "address": "5557 Watkins Path, Bldg. 1630, Fort Sam Houston, TX",
+      "description": "JBSA-Fort Sam Houston Youth Programs Oct 2 | 5-6PM W. Ed Parker Youth Programs Join your friends as we build friendships, strengthen communication skills and develop the self-confidence needed to become positive leaders at the Smart-Girls Tea Party. We will have interactive activities, thoughtful discussions and of course, tea! $5 per youth. Register through CYPBMS by September 29. For more information call 210.221.3502.",
+      "category": "family"
+    },
+    {
       "id": "lackland-dominoes-tournament-2026-10-09",
       "title": "Dominoes Tournament",
       "date": "2026-10-09T17:00:00",
@@ -507,6 +537,26 @@
       "address": "San Antonio, TX",
       "description": "JBSA-Randolph Kendrick Club Sept. 11 | 5-8pm Oct. 9 | 5-9pm Are you ready for some dominoes? Head to Gil’s Pub for a game night! Join us for a single-elimination tournament. This event is free, and there is no cover to participate. For more information, call 210.658.3887",
       "category": "fitness"
+    },
+    {
+      "id": "lackland-we-own-friday-disco-bowling-2026-10-09",
+      "title": "We Own Friday Disco Bowling",
+      "date": "2026-10-09T18:00:00",
+      "endDate": "2026-10-09T21:00:00",
+      "location": "FSH Bowling Center",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Fort Sam Houston Youth Programs Oct 9 | 6-9PM $10 per youth. Fort Sam Houston Youth Programs Keystone Leadership Club is hosting Disco Bowling at the JBSA-Fort Sam Houston Bowling Center. Bring your friends to this glow-in-the-dark event at the bowling alley! There will be food, music and of course bowling for all to enjoy! Register through CYPBMS by Oct 6. For more information call 210-221-3502.",
+      "category": "family"
+    },
+    {
+      "id": "lackland-photography-101-2026-10-10",
+      "title": "Photography 101",
+      "date": "2026-10-10T08:00:00",
+      "endDate": "2026-10-10T12:00:00",
+      "location": "LAK Outdoor Recreation",
+      "address": "San Antonio, TX",
+      "description": "JBSA-Lackland Outdoor Rec. Oct 10 | 8AM-12PM Lunch and Q&A to follow. $25 per person. Master studio lighting, posing, expression, and more in this hands-on course led by Scott Foley, a professional photographer with more than 30 years of experience and the official photographer of the San Antonio Stock Show & Rodeo. Only 16 spots available, register by Sept 30. Bring your own camera and gear, all brands and experience levels welcome. Coffee and donuts provided it the morning. Class will be held at 1190 Gruene Rd, New Braunfels, TX 78130 For more information or to register your spot, call 210.9",
+      "category": "outdoor"
     },
     {
       "id": "lackland-beyond-the-marina-boat-tours-2026-10-10",
@@ -646,6 +696,16 @@
       "location": "LAK Outdoor Recreation",
       "address": "JBSA-Lackland, San Antonio, TX",
       "description": "JBSA-Lackland Outdoor Rec. November 11 | 5:30–7pm Get outside and enjoy the fall scenery with JBSA-Lackland Outdoor Recreation! Join us for a trail ride and outdoor adventure at Lost Maples State Natural Area. Riders of all ages and skill levels are welcome, making this a great opportunity for experienced cyclists, beginners, and families to enjoy the trails together. Participants may bring their ",
+      "category": "outdoor"
+    },
+    {
+      "id": "lackland-beyond-the-marina-boat-tours-2026-11-21",
+      "title": "Beyond the Marina Boat Tours",
+      "date": "2026-11-21T10:30:00",
+      "endDate": "2026-11-21T12:00:00",
+      "location": "Recreation Park @ Canyon Lake",
+      "address": "San Antonio, TX",
+      "description": "JBSA Recreation Park at Canyon Lake November 21 & December 19 | 10:30AM-12PM Enjoy a 1 ½ hour chauffeured boat tour around Canyon Lake. A guided tour on Canyon Lake is the perfect way to experience one of Texas’ most beautiful lakes. More tours will be made available as needed. Cost is $30 for adults and $15 for a child 12 and younger. For more information, call 830.964.3576 or email jbsalodgingres@gmail.com.",
       "category": "outdoor"
     },
     {

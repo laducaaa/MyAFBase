@@ -7,7 +7,7 @@
   "wing": "7 BW",
   "latitude": 32.4208,
   "longitude": -99.8546,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "dyess-notif-real-id",
@@ -244,96 +244,6 @@
   ],
   "events": [
     {
-      "id": "dyess-fall-soccer-season-begins-2026-09-21",
-      "title": "Fall Soccer Season begins",
-      "date": "2026-09-21T08:00:00",
-      "endDate": "2026-09-21T21:00:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "The Dyess AFB soccer season is an introductory, low-pressure program focused on fundamental motor skills, basic rules, and fostering a lifelong love for the game . Players will learn core techniques like dribbling, passing, and sportsmanship through fun, engaging activities and games. $50 per child All youth registered will require updated immunizations or waiver prior to season start date Ages 5 and up require curre",
-      "category": "fitness"
-    },
-    {
-      "id": "dyess-fall-volleyball-season-begins-2026-09-21",
-      "title": "Fall Volleyball Season begins",
-      "date": "2026-09-21T08:00:00",
-      "endDate": "2026-09-21T21:00:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "The Dyess AFB volleyball season focuses on skill-building, teamwork, and fun . It emphasizes learning the basic fundamentals of passing, setting, and serving in a positive environment. Fundamental Skill Building: Heavy emphasis on proper form for the forearm pass (bump), overhead set, and underhand/overhand serve. Teamwork and Communication: Learning to call “Mine!”, supporting teammates, and understanding how to wor",
-      "category": "fitness"
-    },
-    {
-      "id": "dyess-fatherhood-effects-workshop-2026-09-21",
-      "title": "Fatherhood Effects Workshop",
-      "date": "2026-09-21T11:00:00",
-      "endDate": "2026-09-21T13:00:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Come to a lunch and learn hosted by BCFS we will talk about how to: Resolve conflict and improve communication in your family. Improve your children’s behavior problems Dealing with complicated emotions Overcoming issues of aggression, alcohol and violence 24/7 Dad curriculum teaches the characteristics of a: good father, discipline and a healthy work-family balance. Call the MFRC to register! Contact: Military & Family Readiness Center Email: 7FSS.A.FRC@us.af.mil Phone: 325-696-5999",
-      "category": "family"
-    },
-    {
-      "id": "dyess-free-pool-tournament-2026-09-23",
-      "title": "Free Pool Tournament",
-      "date": "2026-09-23T17:30:00",
-      "endDate": "2026-09-23T19:30:00",
-      "location": "Hangar Center",
-      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
-      "description": "Wednesday, September 23 | 5:30 PM–7:30 PM Hangar Center | 357 Ave B, Building 7106 Rack ’em up and join us for a FREE Pool Tournament at Hangar Center! Whether",
-      "category": "recreation"
-    },
-    {
-      "id": "dyess-make-take-crafts-2026-09-24",
-      "title": "Make & Take Crafts",
-      "date": "2026-09-24T14:00:00",
-      "endDate": "2026-09-24T18:30:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Every 2nd & 4th Thursday (excluding holidays) during the school year, join your Dyess Library for Make & Take Crafts! Crafts will vary between easy craft kits to more detailed projects. While some crafts might require a little more dexterity and parent assistant for our younger crafters, all ages are welcome. Available while supplies last. Call the library at 325-696-6873 for more information. Contact: Sara Ritson Email: sara.ritson@us.af.mil Phone: 325-696-6873",
-      "category": "family"
-    },
-    {
-      "id": "dyess-efmp-date-night-positivity-boards-2026-09-24",
-      "title": "EFMP Date Night ‘Positivity Boards'",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T19:30:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Positivity Boards - Come out and create your own Positivity Board. Learn tools, tips & techniques to ensure you are taking time for self-care. Light dinner provided. Adult only event & must be enrolled in Exceptional Family Member Program. Registration required. Please call the M&FRC at 325-696-5999 or email the EFMP-FS Org Box at 7FSS.FSH.EFMP-FamilySupport@us.af.mil . Contact: Jennifer Merritt & Alyssa Hiser Email:",
-      "category": "family"
-    },
-    {
-      "id": "dyess-efmp-date-night-positivity-boards-2026-09-24",
-      "title": "EFMP Date Night ‘Positivity Boards’",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T19:30:00",
-      "location": "",
-      "address": "",
-      "description": "Positivity Boards – Come out and create your own Positivity Board. Learn tools, tips & techniques to ensure you are taking time for self-care. Light dinner provided. Adult only event & must be enrolled in Exceptional Family Member Program. Registration required. Please call the M&FRC at 325-696-5999 or email the EFMP-FS Org Box at 7FSS.FSH.EFMP-FamilySupport@us.af.mil . Contact: Jennifer Merritt & Alyssa Hiser Email: 7fss.fsh.efmp-familysupport@us.af.mil Phone: 3256965999",
-      "category": "family"
-    },
-    {
-      "id": "dyess-kids-night-out-2026-09-25",
-      "title": "Kids Night Out",
-      "date": "2026-09-25T18:30:00",
-      "endDate": "2026-09-25T21:30:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "SECRET SPY! Youth ages 5 (must be in kindergarten)-12 will use their inner detective skills, with a mystery at hand, working with other peers to solve the crime of the missing Candyman. Secret clues, coding, and backlighting for finger prints. Who is responsible for the candy mans disappearance. Dinner will be: Hot dogs, tater tots, and juice Cost is $30.00 per child Contact: Amy Darling Email: amy.darling.2@us.af.mil Phone: 325-696-4797",
-      "category": "family"
-    },
-    {
-      "id": "dyess-dove-hunt-2026-09-26",
-      "title": "Dove Hunt",
-      "date": "2026-09-26T05:00:00",
-      "endDate": "2026-09-26T21:00:00",
-      "location": "Dyess AFB",
-      "address": "Abilene, TX",
-      "description": "Outdoor Recreation Dove Hunt Join us for a classic Texas dove hunt hosted by Outdoor Recreation. Enjoy the outdoors and experience a well‑managed hunt with plenty of action. Event Details Cost: $48.00 per person Valid Texas hunting license required for all participants Gun and ammo not provided — hunters must bring their own equipment What to Expect A great hunt with an experienced outfitter who knows the land, the birds, and how to create a safe, enjoyable experience for every participant. Whether you’re a seasoned hunter or new to the field, this is a great chance to get out and enjoy Texas ",
-      "category": "outdoor"
-    },
-    {
       "id": "dyess-3-day-tap-class-2026-09-28",
       "title": "3 Day TAP Class",
       "date": "2026-09-28T00:00:00",
@@ -404,6 +314,76 @@
       "category": "family"
     },
     {
+      "id": "dyess-fatherhood-effect-workshop-2026-10-05",
+      "title": "Fatherhood Effect Workshop",
+      "date": "2026-10-05T11:00:00",
+      "endDate": "2026-10-05T13:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "The Fatherhood EFFECT program offers workshops designed for fathers and father figures using the evidence-based 24/7 Dad curriculum. These sessions help dads build strong family bonds, improve communication, and handle everyday parenting challenges. Contact: Military & Family Readiness Center Email: 7FSS.A.FRC@us.af.mil Phone: 325-696-5999",
+      "category": "family"
+    },
+    {
+      "id": "dyess-family-movie-night-featuring-casper-2026-10-06",
+      "title": "Family Movie Night Featuring Casper",
+      "date": "2026-10-06T17:30:00",
+      "endDate": "2026-10-06T19:30:00",
+      "location": "Dyess Base Theatre",
+      "address": "210 Theater Rd, Dyess Air Force Base, TX, 79607-1212",
+      "description": "Casper (1995) – Free Community Movie Night Join us at the Hangar Center for a cozy throwback screening of the 1995 classic Casper ! Bring your friends, family, and dorm buddies for a fun, feel‑good evening with free popcorn and plenty of nostalgia. 📅 Date & Time Tuesday, October 6 5:30 PM – 7:30 PM 🎬 About the Movie We’re showing the original 1995 film featuring everyone’s favorite friendly ghost. Perfect for all ages. 🍿 Concessions Free entry + free popcorn Additional concessions available for purchase Hosted by Force Support Squadron & Air Force Community Center",
+      "category": "family"
+    },
+    {
+      "id": "dyess-make-take-crafts-2026-10-08",
+      "title": "Make & Take Crafts",
+      "date": "2026-10-08T14:00:00",
+      "endDate": "2026-10-08T18:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Every 2nd & 4th Thursday (excluding holidays) during the school year, join your Dyess Library for Make & Take Crafts! Crafts will vary between easy craft kits to more detailed projects. While some crafts might require a little more dexterity and parent assistant for our younger crafters, all ages are welcome. Available while supplies last. Call the library at 325-696-6873 for more information. Contact: Sara Ritson Email: sara.ritson@us.af.mil Phone: 325-696-68732",
+      "category": "family"
+    },
+    {
+      "id": "dyess-using-a-cricut-to-craft-spooky-doormat-painting-2026-10-08",
+      "title": "Using a Cricut to craft: Spooky Doormat Painting",
+      "date": "2026-10-08T17:00:00",
+      "endDate": "2026-10-08T21:00:00",
+      "location": "Hangar Center",
+      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
+      "description": "Kick off our three‑part Cricut crafting series with a hands‑on Halloween doormat workshop! Learn how to use the Cricut machine and design software, then paint your own spooky doormat using pre‑made vinyl stencils. Perfect for families, beginners, and anyone wanting to explore the creative tools available at Dyess. 📅 Date & Time: Thursday, October 8, 5:00 PM – 9:00 PM 💲 Cost: $10 for members, $15 for non‑members 👨‍👩‍👧 Family Friendly Ages 6+ (with supervision) 📍 Location: Hangar Center, 357 Ave B (Building 7106) (325) 696‑7950",
+      "category": "holiday"
+    },
+    {
+      "id": "dyess-survival-camp-2026-10-09",
+      "title": "Survival Camp",
+      "date": "2026-10-09T20:00:00",
+      "endDate": "2026-10-10T08:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Youth Center & Outdoor Rec: Ultimate Overnight Survival Camp Get ready for an unforgettable night under the stars! The Youth Center has teamed up with Outdoor Rec to bring you the ultimate Overnight Survival Camp. Whether you are a wilderness beginner or a seasoned outdoors enthusiast, this hands-on event is packed with real-world outdoor skills, great food, and friendly competition. Event Highlights & Activities Activity Feature Description Real Tent Setup Learn the ins and outs of campsite selection and pitch real tents like a wilderness pro. Fire Masterclass Master essential fire safety pro",
+      "category": "outdoor"
+    },
+    {
+      "id": "dyess-dungeons-dragons-2026-10-10",
+      "title": "Dungeons & Dragons",
+      "date": "2026-10-10T13:30:00",
+      "endDate": "2026-10-10T17:30:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "Interested in playing Dungeons & Dragons but never have? Enjoy playing but don’t have a current group? Join the library in our family friendly Dungeons & Dragons game. For new and experienced players. Contact: Sara Ritson Email: sara.ritson@us.af.mil Phone: 325-696-6873",
+      "category": "family"
+    },
+    {
+      "id": "dyess-efmp-sensory-movie-2026-10-15",
+      "title": "EFMP Sensory Movie",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T20:00:00",
+      "location": "Dyess AFB",
+      "address": "Abilene, TX",
+      "description": "We will be showing “Hotel Transylvania 2” with water, popcorn and candy provided while supplies last. See attached flyer for full details. This is a great opportunity for anyone with ASD (Autism Spectrum Disorder) or SPD (Sensory Processing Disorder) to see how they react attending movies – without paying an arm or a leg at the movie theater! Please know that the movie content is unchanged… the differences will be not dimming the lights all the way, not having the volume as loud as it is at a theater, and having some additional seating options available for those that fall into the afore menti",
+      "category": "family"
+    },
+    {
       "id": "dyess-efmp-101-2026-10-23",
       "title": "EFMP 101",
       "date": "2026-10-23T09:00:00",
@@ -442,6 +422,16 @@
       "address": "Abilene, TX",
       "description": "Fall Volleyball and Soccer Season ends",
       "category": "fitness"
+    },
+    {
+      "id": "dyess-using-a-glowforge-to-craft-woodland-cutout-cloch-2026-11-0",
+      "title": "Using a Glowforge to craft: Woodland Cutout Cloche",
+      "date": "2026-11-05T15:00:00",
+      "endDate": "2026-11-05T21:00:00",
+      "location": "Hangar Center",
+      "address": "357 Ave B, Dyess Air Force Base, TX, 79607-1212",
+      "description": "",
+      "category": "community"
     },
     {
       "id": "dyess-efmp-date-night-holiday-centerpieces-2026-11-05",

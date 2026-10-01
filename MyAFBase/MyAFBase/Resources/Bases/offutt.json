@@ -7,7 +7,7 @@
   "wing": "55 WG",
   "latitude": 41.1183,
   "longitude": -95.915,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "offutt-notif-real-id",
@@ -255,56 +255,6 @@
   ],
   "events": [
     {
-      "id": "offutt-hornady-ammunition-plant-tour-2026-09-23",
-      "title": "Hornady Ammunition Plant Tour",
-      "date": "2026-09-23",
-      "endDate": "2026-09-23",
-      "location": "Offutt AFB",
-      "address": "Bellevue, NE",
-      "description": "🏭🎯 An exclusive behind-the-scenes tour! Register for the HORNADY AMMUNITION PLANT TOUR hosted by Offutt Outdoor Rec. 📅 Wednesday, September 23 📍 Grand Island, NE 🚌 Depart Outdoor Rec at […]",
-      "category": "outdoor"
-    },
-    {
-      "id": "offutt-playground-hangout-nature-scavenger-hunt-2026-09-23",
-      "title": "Playground Hangout: Nature Scavenger Hunt",
-      "date": "2026-09-23",
-      "endDate": "2026-09-23",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
-      "description": "🌿 Adventure is waiting just beyond the trail! Grab your family and explore during PLAYGROUND HANGOUT: NATURE SCAVENGER HUNT hosted by Offutt Outdoor Rec. We’ll hike around the lOffutt Base Lake, search for […]",
-      "category": "outdoor"
-    },
-    {
-      "id": "offutt-hornady-ammunition-plant-tour-sold-out-2026-09-23",
-      "title": "Hornady Ammunition Plant Tour **SOLD OUT**",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
-      "location": "Offutt AFB",
-      "address": "Bellevue, NE",
-      "description": "UPDATE: This event is sold out. 🎯 An exclusive behind-the-scenes tour! Register for the HORNADY AMMUNITION PLANT TOUR hosted by Offutt Outdoor Rec. 📅 Wednesday, September 23 📍 Grand Island, NE 🚌 Depart Outdoor Rec at 7:45am Go beyond the finished product and see how precision ammunition is made, from lead core casting and bullet assembly to the quality control processes that set Hornady apart. Tour Highlights: ✔️ Amm",
-      "category": "outdoor"
-    },
-    {
-      "id": "offutt-couples-canoe-movie-night-2026-09-25",
-      "title": "Couples Canoe & Movie Night",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, United States",
-      "description": "🌅 One unforgettable date night. Sign up for the COUPLES CANOE & MOVIE NIGHT hosted by Offutt Outdoor Rec. 🗓 Friday, September 25 📍 Offutt Base Lake | Eagles Landing 🕡 […]",
-      "category": "outdoor"
-    },
-    {
-      "id": "offutt-neon-night-paddle-2026-09-26",
-      "title": "Neon Night Paddle",
-      "date": "2026-09-26T19:00:00",
-      "endDate": "2026-09-26T22:00:00",
-      "location": "Offutt Base Lake",
-      "address": "13345 Harlan Lewis Rd, Offutt AFB, NE, 68113",
-      "description": "✨ Glow up your night & hit the water! Register for a NEON NIGHT PADDLE hosted by Offutt Outdoor Rec. 📅 Saturday, September 26 ⏰ 7–10pm 📍 Offutt Base Lake Paddle beneath the full moon as glowing, colorful lights turn your evening on the water into an unforgettable nighttime adventure. 🌕💫 No experience needed. Kayaks, life jackets, and basic instruction are included. ONLY $25 per person. Ages 16+ | Open to all DoD IDs ➡️Sign up at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9am – 5pm. Closed Wednesdays & weekends.",
-      "category": "outdoor"
-    },
-    {
       "id": "offutt-golf-fitting-day-2026-10-02",
       "title": "Golf Fitting Day",
       "date": "2026-10-02T14:00:00",
@@ -313,6 +263,26 @@
       "address": "12301 S. 25th St, Bellevue, NE 68123",
       "description": "⛳Sample the latest technology in golf equipment! Register for GOLF FITTING DAY at Willow Lakes Golf Course. Friday, October 2 from 2-6pm. Improve your game & try out the newest gear from PXG for FREE. PXG offers special military pricing on their golf clubs, providing incredible value. ➡️Click here to book a fitting appointment: https://app.acuityscheduling.com/schedule.php?owner=15121460&calendarID=12054347 Willow La",
       "category": "recreation"
+    },
+    {
+      "id": "offutt-golf-fitting-day-sold-out-2026-10-02",
+      "title": "Golf Fitting Day **SOLD OUT**",
+      "date": "2026-10-02T14:00:00",
+      "endDate": "2026-10-02T18:00:00",
+      "location": "Willow Lakes Golf Course",
+      "address": "12301 S. 25th St, Bellevue, NE, 68123",
+      "description": "UPDATE: This event is sold out. Sample the latest technology in golf equipment! Register for GOLF FITTING DAY at Willow Lakes Golf Course. Friday, October 2 from 2-6pm. Improve your game & try out the newest gear from PXG for FREE. PXG offers special military pricing on their golf clubs, providing incredible value. ➡️Click here to book a fitting appointment: https://app.acuityscheduling.com/schedule.php?owner=15121460&calendarID=12054347 Willow Lakes Golf Course is open to the general public & military community.",
+      "category": "education"
+    },
+    {
+      "id": "offutt-first-friday-flights-fights-2026-10-02",
+      "title": "First Friday: Flights & Fights",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T21:30:00",
+      "location": "Raiders Lounge",
+      "address": "914 SAC Blvd, Offutt AFB, NE, 68113",
+      "description": "🥊🍻 FIRST FRIDAY + FIGHTS + FLIGHTS We’re adding some serious action to First Friday at the Raiders Lounge with a watch party for Fury Fighting Championship 125: Fight Force, happening live from Minot Air Force Base! This professional MMA event features a stacked fight card with THREE championship fights, including the Fury FC Welterweight, Featherweight and Interim Lightweight titles. Catch the action on the big screen while you enjoy First Friday in Raiders Lounge. 🥊🔥 📅 Friday, October 2 📍 Raiders Lounge, Offutt Event Center ⏰ Doors open at 3pm 🥊 Fight Force prelims: 7:15pm 🥊 Main card: 8pm A",
+      "category": "community"
     },
     {
       "id": "offutt-ladies-kayaking-night-2026-10-09",
@@ -395,6 +365,16 @@
       "category": "outdoor"
     },
     {
+      "id": "offutt-pheasant-hunt-2026-10-24",
+      "title": "Pheasant Hunt",
+      "date": "2026-10-24T08:00:00",
+      "endDate": "2026-10-24T12:00:00",
+      "location": "",
+      "address": "",
+      "description": "🪶Hunting season is here early! Register for a PHEASANT HUNT hosted by Offutt Outdoor Rec. Saturday, October 24 at Oak Creek Sporting Club in Brainard, NE. A current hunting license, orange vest, and shotgun required. Guide & dogs will be provided. No transportation provided. ONLY $125 per hunter. Open to all DoD IDs. ➡️Register at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9am – 5pm. Closed Wednesdays & weekends.",
+      "category": "outdoor"
+    },
+    {
       "id": "offutt-titans-of-offutt-powerlifting-competition-2026-10-31",
       "title": "Titans of Offutt Powerlifting Competition",
       "date": "2026-10-31T00:00:00",
@@ -413,6 +393,36 @@
       "address": "106 Peacekeeper Dr, Offutt AFB, NE, 68113",
       "description": "🕷️🎳🎃Spooky strikes! Bring your family to the BOO BOWLING BASH at Peacekeeper Lanes! 📅 Saturday, October 31 🕛 12–5pm Come dressed in your Halloween best and get: 👻 FREE shoe rental 🥤 FREE regular fountain drink 🏆 PRIZES EVERY HOUR for the best costumes! 📍Find Peacekeeper Lanes in the basement of Bldg D, Entrance 7.",
       "category": "holiday"
+    },
+    {
+      "id": "offutt-cash-bingo-2026-11-06",
+      "title": "Cash Bingo",
+      "date": "2026-11-06T17:30:00",
+      "endDate": "2026-11-06T19:30:00",
+      "location": "Warhawk Community Center",
+      "address": "914 SAC Blvd, Offutt AFB, NE, 68113",
+      "description": "🤑Stack up the cash! Play OFFUTT CASH BINGO hosted by the Warhawk Community Center. 📅 Friday, November 6 ⏰ 5:30pm 📍Offutt Event Center Play 10 rounds of bingo with cash prizes up to $500! PLUS, all players will have a chance to win door prizes between bingo games, including an LG 65′ flat screen TV, Theragun Tension Relief Gun, Chicago Cutlery Knife Set, and MORE! The Raiders Lounge will be open with a full bar and drink specials. Food will be available to purchase during the event. 💵 ONLY $30 per player. Open to all DoD IDs. Guests welcome with a valid escort. Must be 18+ to play. 🎟️ Click her",
+      "category": "entertainment"
+    },
+    {
+      "id": "offutt-leaves-lanterns-2026-11-07",
+      "title": "Leaves & Lanterns",
+      "date": "2026-11-07T12:00:00",
+      "endDate": "2026-11-07T14:00:00",
+      "location": "",
+      "address": "",
+      "description": "🍂🏮 Turn a fall hike into something special. Register for LEAVES & LANTERNS hosted by Offutt Outdoor Rec. 📅 Saturday, November 7 📍Arbor Day Farm in Nebraska City Spend a fall afternoon of hiking, crafting, and relaxing. Collect fall leaves on a short hike, then use them to create a glass lantern to take home. After the hike, enjoy a wine flight at the Wine Barn. Additional wine flights, food, and beverages will be available for purchase. ONLY $30 per person | Open to all DoD IDs Ages 17+ to participate, 21+ to consume alcohol ➡️Sign up at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9",
+      "category": "outdoor"
+    },
+    {
+      "id": "offutt-lucky-bucket-private-tour-2026-11-21",
+      "title": "Lucky Bucket Private Tour",
+      "date": "2026-11-21T12:00:00",
+      "endDate": "2026-11-21T13:30:00",
+      "location": "",
+      "address": "",
+      "description": "🍺 An unforgettable tasting experience! Register for the LUCKY BUCKET PRIVATE TOUR from Outdoor Rec. Saturday, November 21 at 1:30pm. Taste the best of Lucky Bucket with a private, behind-the-scenes tour! What’s Included: 🍻 Pint of beer to enjoy during the tour 🍺 Two 5-ounce sample beers 🥃 Two 1.5-ounce whiskey samples 🎁 Take-home 100mL whiskey 🛍️ 20% off anything to-go ONLY $30 per person. Open to all DoD IDs. Ages 21+ | No Transportation Provided ➡️Sign up at Outdoor Rec. Located in Bldg 362 with Auto Hobby. Open 9am – 5pm. Closed Wednesdays & weekends. ⚠️ Registration closes November 19.",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

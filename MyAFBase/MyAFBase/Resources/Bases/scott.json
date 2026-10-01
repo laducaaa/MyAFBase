@@ -7,7 +7,7 @@
   "wing": "375 AMW / AMC HQ",
   "latitude": 38.5418,
   "longitude": -89.835,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "scott-notif-1",
@@ -403,56 +403,6 @@
   ],
   "events": [
     {
-      "id": "scott-safb-art-show-seeking-artists-2026-09-21",
-      "title": "SAFB Art Show – Seeking Artists!",
-      "date": "2026-09-21T00:00:00",
-      "endDate": "2026-09-25T23:59:59",
-      "location": "Arts & Crafts Center",
-      "address": "701 Ward Dr, Scott AFB, IL, 62225",
-      "description": "<p>Opening Night is October 1st! Learn More Here! Do you have artistic talent? Would you like to showcase your creativity? Enter your artwork in the 2026 Scott AFB Art Show! The top pieces from each category/division will win prizes! Entries accepted Sept. 21-25 at the Arts & Crafts Center. There are two age Divisions: Adult […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "scott-pga-hope-clinics-2026-09-22",
-      "title": "PGA Hope Clinics",
-      "date": "2026-09-22T00:00:00",
-      "endDate": "2026-09-24T23:59:59",
-      "location": "Cardinal Creek Golf Course",
-      "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
-      "description": "Click Here to Register Now! Elevate your golf skills today! Start your golf journey at Cardinal Creek Golf Course as they host the upcoming PGA Hope Clinics program. PGA Hope provides a unique and memorable experience for our military Veterans and Active Duty. No experience is necessary to take part in these 6 Week Programs led by PGA of America Professionals that are certified in adaptive instruction. September 22 – October 27 | Tuesdays | Men & Women September 24 – October 29 | Thursdays | Men & Women Cardinal Creek Golf Course Provided at no-cost plus use of adaptive golf equipment Registra",
-      "category": "education"
-    },
-    {
-      "id": "scott-mobile-dmv-2026-09-24",
-      "title": "Mobile DMV",
-      "date": "2026-09-24T10:00:00",
-      "endDate": "2026-09-24T14:00:00",
-      "location": "",
-      "address": "",
-      "description": "This event has been cancelled. Sorry for any inconvenience this may cause. The Illinois Department of Motor Vehicles (DMV) Mobile Unit will be at SAFB to provide basic vehicle services for on-base customers. Anyone in need of driver license renewals, ID cards, vehicle registration, Real ID, and road tests can use this convenient service. Location: Zeppelins at the Community Center Date: September 24 Time: 10:00 am – 2:00 pm Payment Options: Major credit/debit cards, checks and money orders Cash is not accepted For specific questions, contact the Belleville DMV at 618-236-8750 .",
-      "category": "community"
-    },
-    {
-      "id": "scott-brunswick-ball-demo-day-2026-09-26",
-      "title": "Brunswick Ball Demo Day",
-      "date": "2026-09-26T14:00:00",
-      "endDate": "2026-09-26T16:00:00",
-      "location": "Stars & Strikes Bowling Center",
-      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
-      "description": "<p>Ready to find your next perfect ball? Come test-drive the newest releases from Brunswick and elevate your game! Join us Saturday, September 26 from 2:00-4:00p at Stars & Strikes Bowling Center. Just $20 per person gets you the chance to demo all the New Brunswick bowling balls available. Call 618-744-1277 to sign up!</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "scott-bowler-appreciation-day-2026-09-27",
-      "title": "Bowler Appreciation Day",
-      "date": "2026-09-27T13:00:00",
-      "endDate": "2026-09-27T15:00:00",
-      "location": "Stars & Strikes Bowling Center",
-      "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
-      "description": "Gather your friends and roll on over to Stars and Strikes Bowling Center for Bowler Appreciation Day! Enjoy FREE bowling on Sunday, Sept. 27, from 1:00–3:00 pm. Free and open to all! It’s first come, first served—so don’t wait to snag your lane! For complete details, call 618-744-1277.",
-      "category": "recreation"
-    },
-    {
       "id": "scott-usmnt-vs-chile-2026-09-29",
       "title": "USMNT vs. Chile",
       "date": "2026-09-29T19:00:00",
@@ -481,6 +431,16 @@
       "address": "311 W Martin St #1934, Scott AFB, IL, 62225",
       "description": "<p>Bowl. Enter. Win! From October 1–31, bowl your way to a brand-new bowling ball of your choice at Stars & Strikes! Bowl 3 or more paid games individually during a single visit to earn one entry into the giveaway. The more you bowl, the more chances you have to win! Open to all bowlers. Excludes […]</p>\\n",
       "category": "recreation"
+    },
+    {
+      "id": "scott-air-force-art-photo-contest-2026-10-01",
+      "title": "Air Force Art & Photo Contest",
+      "date": "2026-10-01T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "",
+      "address": "",
+      "description": "The 2026 Air Force Art & Photo Contest invites artists and photographers of all skill levels to showcase their creativity. With categories for 2D and 3D art, as well as traditional photography, participants can explore the theme “Joy Unfiltered” in their own unique way. Open to all MWR eligible patrons of all branches, ages 6+, this competition offers a chance to win up to $500 in Amazon Gift Cards while sharing their artistic vision. Submissions will be taken through Oct. 31. Visit forcesupport.awardsplatform.com to enter and for additional information.",
+      "category": "community"
     },
     {
       "id": "scott-safb-art-show-gallery-viewing-2026-10-02",
@@ -540,6 +500,16 @@
       "location": "Cardinal Creek Golf Course",
       "address": "1192 Golf Course Rd, Scott AFB, IL, 62225",
       "description": "Click Here to Register Online! The 2026 Cardinal Creek Club Championship is calling all golfers ready to test their game and this year, you can join the competition at a special lower rate! Play 36 holes of flighted individual stroke play and enjoy a weekend full of competition, camaraderie and extras. Friday kicks off with a Player Party from 5:00-7:00p with appetizers & drinks for you + a guest, followed by FREE live music on the patio until 8:30p. Then it’s game time Saturday and Sunday, with lunch included both days and a Pitchfix Set for every player! Shotgun Start: 8:00 am @ Cardinal Cre",
+      "category": "entertainment"
+    },
+    {
+      "id": "scott-it-s-fall-y-all-bingo-2026-10-10",
+      "title": "It’s Fall Y’all Bingo",
+      "date": "2026-10-10T18:00:00",
+      "endDate": "2026-10-10T18:00:00",
+      "location": "Scott Community Center",
+      "address": "47 Ward Dr, Scott AFB, IL, 62225",
+      "description": "Click Here to Register Online! Cozy up for a fun-filled night of laughs, excitement and chances to win it big at the Community Center’s Bingo Night, Oct. 10! Whether you’re a seasoned bingo pro or playing for the first time, every number called could bring you one step closer to a prize! Location: Scott Community Center Doors: 5:00 pm | Play: 6:00 pm Tickets: Early Bird $25 (9/14 – 10/9 at 12p) | Door Price $30 Open to ages 18+ | Base access required Snack Bar & Full Service Drink Bar Available (pay as you go) Register online receive an extra free mystery prize ticket, click here to register o",
       "category": "entertainment"
     },
     {
