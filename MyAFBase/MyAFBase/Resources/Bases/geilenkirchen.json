@@ -7,7 +7,7 @@
   "wing": "NATO E-3A",
   "latitude": 50.9608,
   "longitude": 6.0424,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "geilenkirchen-notif-real-id",
@@ -28,6 +28,11 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-geilenkirchen-112",
+      "label": "German/EU Emergency (off-base)",
+      "number": "112"
     },
     {
       "id": "em-3",

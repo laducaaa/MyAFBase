@@ -7,7 +7,7 @@
   "wing": "48 FW",
   "latitude": 52.4093,
   "longitude": 0.561,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "lakenheath-notif-real-id",
@@ -20,19 +20,24 @@
   ],
   "emergencyNumbers": [
     {
-      "id": "em-1",
-      "label": "RAF Lakenheath Security Forces",
-      "number": "+44-1638-52-3421"
+      "id": "em-lakenheath-sfs",
+      "label": "RAF Lakenheath Security Forces / BDOC",
+      "number": "+44-1638-52-2333"
     },
     {
-      "id": "em-2",
-      "label": "911 Emergency",
+      "id": "em-lakenheath-911",
+      "label": "On-base Emergency",
       "number": "911"
     },
     {
-      "id": "em-3",
+      "id": "em-lakenheath-999",
+      "label": "UK Emergency (off-base)",
+      "number": "999"
+    },
+    {
+      "id": "em-lakenheath-operator",
       "label": "Base Operator",
-      "number": "+44-1638-52-1110"
+      "number": "+44-1638-52-3000"
     }
   ],
   "gates": [
@@ -409,7 +414,7 @@
     "primaryAction": {
       "title": "RAF Lakenheath Visitor Center",
       "url": "https://www.lakenheath.af.mil/Newcomers/",
-      "phone": "+44-1638-52-1110",
+      "phone": "+44-1638-52-3000",
       "address": "RAF Lakenheath, Brandon, Suffolk IP27 9RP, United Kingdom"
     },
     "moreInfoURL": "https://www.lakenheath.af.mil/Newcomers/",

@@ -7,7 +7,7 @@
   "wing": "51 FW",
   "latitude": 37.0906,
   "longitude": 127.0297,
-  "dataUpdatedAt": "2026-09-28T06:23:52Z",
+  "dataUpdatedAt": "2026-10-01T06:30:00Z",
   "currentNotifications": [
     {
       "id": "osan-notif-real-id",
@@ -28,6 +28,16 @@
       "id": "em-2",
       "label": "911 Emergency",
       "number": "911"
+    },
+    {
+      "id": "em-osan-119",
+      "label": "Korean Fire/EMS (off-base)",
+      "number": "119"
+    },
+    {
+      "id": "em-osan-112",
+      "label": "Korean Emergency / Police (off-base)",
+      "number": "112"
     },
     {
       "id": "em-3",
