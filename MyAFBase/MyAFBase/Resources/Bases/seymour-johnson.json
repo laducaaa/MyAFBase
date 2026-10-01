@@ -270,54 +270,14 @@
   ],
   "events": [
     {
-      "id": "seymour-johnson-hearts-apart-bowling-2026-09-21",
-      "title": "Hearts Apart Bowling",
-      "date": "2026-09-21T17:00:00",
-      "endDate": "2026-09-21T21:00:00",
-      "location": "Bowling Center (Phantom Lanes)",
-      "address": "1290 Andrews St, Goldsboro, NC, 27531",
-      "description": "<p>Phantom Lanes offers free bowling to Hearts Apart (deployed affected) families every Monday from 5 to 9 pm, except holidays. There is limited lane availability; first come, first served. While there, enjoy 10% off all snack bar purchases in the 10-Pin Café.</p>\\n",
-      "category": "recreation"
-    },
-    {
-      "id": "seymour-johnson-chicken-waffle-wednesdays-2026-09-23",
+      "id": "seymour-johnson-chicken-waffle-wednesdays-2026-09-30",
       "title": "Chicken & Waffle Wednesdays",
-      "date": "2026-09-23T06:30:00",
-      "endDate": "2026-09-23T13:00:00",
+      "date": "2026-09-30T06:30:00",
+      "endDate": "2026-09-30T13:00:00",
       "location": "Compass Café",
       "address": "1385 S Andrews St, Goldsboro, North Carolina, 27531",
       "description": "Every Wednesdays the Compass Café will be serving up their mouth-watering $8 Chicken and Waffle Special!",
       "category": "community"
-    },
-    {
-      "id": "seymour-johnson-cash-bingo-2026-09-24",
-      "title": "Cash Bingo",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T20:00:00",
-      "location": "Eagles Landing",
-      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
-      "description": "",
-      "category": "entertainment"
-    },
-    {
-      "id": "seymour-johnson-karaoke-fridays-2026-09-25",
-      "title": "Karaoke Fridays",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Mustang Taproom",
-      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
-      "description": "",
-      "category": "entertainment"
-    },
-    {
-      "id": "seymour-johnson-blakeslee-concert-series-2026-09-25",
-      "title": "Blakeslee Concert Series",
-      "date": "2026-09-25T18:30:00",
-      "endDate": "2026-09-25T20:30:00",
-      "location": "Blakeslee Air Force Recreation Area",
-      "address": "108 Riverfront Rd, Kure Beach, NC, 28449",
-      "description": "<p>The Pleasure Island Chamber of Commerce and the Town of Kure Beach are excited to present this Concert Series at Blakeslee Air Force Recreation Area. Grab your lawn chairs and ​join us for FREE concerts!​The 2nd and 4th Friday of ​July, August and September at 6:30pm. Free golf cart shuttles from parking area to stage […]</p>\\n",
-      "category": "entertainment"
     },
     {
       "id": "seymour-johnson-moving-out-of-the-dorms-class-2026-09-30",
@@ -400,6 +360,26 @@
       "category": "entertainment"
     },
     {
+      "id": "seymour-johnson-free-movie-the-rocky-horror-picture-show-r-2026",
+      "title": "Free Movie – The Rocky Horror Picture Show (R)",
+      "date": "2026-10-09T18:00:00",
+      "endDate": "2026-10-09T20:00:00",
+      "location": "Sabre Cinema",
+      "address": "3740 Edwards St, Goldsboro, North Carolina, 27531",
+      "description": "22x28_FallFaves copy",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-winter-sports-registration-youth-2026-10-13",
+      "title": "Winter Sports Registration (Youth)",
+      "date": "2026-10-13T08:00:00",
+      "endDate": "2026-10-13T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "22x28_basketball-cheer-registration 20261013",
+      "category": "family"
+    },
+    {
       "id": "seymour-johnson-chicken-waffle-wednesdays-2026-10-14",
       "title": "Chicken & Waffle Wednesdays",
       "date": "2026-10-14T06:30:00",
@@ -420,6 +400,26 @@
       "category": "education"
     },
     {
+      "id": "seymour-johnson-karaoke-fridays-2026-10-16",
+      "title": "Karaoke Fridays",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T22:00:00",
+      "location": "Mustang Taproom",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-newcomers-orientation-2026-10-20",
+      "title": "Newcomers Orientation",
+      "date": "2026-10-20T08:00:00",
+      "endDate": "2026-10-20T12:30:00",
+      "location": "Eagles Landing",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "This is an orientation/information event for newly assigned personnel and their families. Hear from on and off base agencies about what they have to offer.",
+      "category": "education"
+    },
+    {
       "id": "seymour-johnson-holiday-spending-seminar-2026-10-21",
       "title": "Holiday Spending Seminar",
       "date": "2026-10-21T13:00:00",
@@ -437,6 +437,16 @@
       "location": "Eagles Landing",
       "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
       "description": "22x28_Spooktacular2026 copy Click the poster/flyer link for fuill details and costume contest schedule",
+      "category": "family"
+    },
+    {
+      "id": "seymour-johnson-winter-sports-registration-youth-2026-11-02",
+      "title": "Winter Sports Registration (Youth)",
+      "date": "2026-11-02T08:00:00",
+      "endDate": "2026-11-02T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "22x28_basketball-cheer-registration 20261013",
       "category": "family"
     },
     {
@@ -468,6 +478,26 @@
       "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
       "description": "",
       "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-karaoke-fridays-2026-11-20",
+      "title": "Karaoke Fridays",
+      "date": "2026-11-20T18:00:00",
+      "endDate": "2026-11-20T22:00:00",
+      "location": "Mustang Taproom",
+      "address": "1240 Andrews St, Goldsboro, North Carolina, 27531",
+      "description": "",
+      "category": "entertainment"
+    },
+    {
+      "id": "seymour-johnson-winter-sports-registration-youth-2026-12-01",
+      "title": "Winter Sports Registration (Youth)",
+      "date": "2026-12-01T08:00:00",
+      "endDate": "2026-12-01T17:00:00",
+      "location": "",
+      "address": "",
+      "description": "22x28_basketball-cheer-registration 20261013",
+      "category": "family"
     },
     {
       "id": "seymour-johnson-bundles-for-babies-2026-12-03",
@@ -543,5 +573,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-21T06:35:07Z"
+  "dataUpdatedAt": "2026-09-28T06:23:52Z"
 }

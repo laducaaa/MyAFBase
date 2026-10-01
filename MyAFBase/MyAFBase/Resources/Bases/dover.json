@@ -7,7 +7,7 @@
   "wing": "436 AW",
   "latitude": 39.1295,
   "longitude": -75.466,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "dover-notif-real-id",
@@ -255,26 +255,6 @@
   ],
   "events": [
     {
-      "id": "dover-got-your-six-buddy-ruck-2026-09-23",
-      "title": "“Got Your Six” Buddy Ruck",
-      "date": "2026-09-23T13:00:00",
-      "endDate": "2026-09-23T14:00:00",
-      "location": "Dover AFB Fitness Center",
-      "address": "423 Chevron Avenue, Dover, DE, 19902",
-      "description": "In honor of Suicide Prevention Month, IRO is hosting a base-wide Buddy Ruck! Ruck a ~5K route with a buddy, or go solo and get paired up at the event!",
-      "category": "fitness"
-    },
-    {
-      "id": "dover-liberty-eagle-half-marathon-10k-5k-2026-09-26",
-      "title": "Liberty Eagle Half Marathon/10K/5K",
-      "date": "2026-09-26T08:00:00",
-      "endDate": "2026-09-26T10:00:00",
-      "location": "Eagle’s Nest Park",
-      "address": "1323 Reno St, Dover, DE, 19902",
-      "description": "Get ready for the 𝗟𝗶𝗯𝗲𝗿𝘁𝘆 𝗘𝗮𝗴𝗹𝗲 𝗛𝗮𝗹𝗳 𝗠𝗮𝗿𝗮𝘁𝗵𝗼𝗻/𝟭𝟬𝗞/𝟱𝗞: where freedom and fitness unite! Sign up at the Fitness Center, or call 302-677-3962! See flyer for pricing. Registration begins August 24.",
-      "category": "fitness"
-    },
-    {
       "id": "dover-learn-the-ropes-2026-09-29",
       "title": "Learn the Ropes",
       "date": "2026-09-29T16:30:00",
@@ -315,6 +295,16 @@
       "category": "recreation"
     },
     {
+      "id": "dover-ufc-fight-force-watch-party-2026-10-02",
+      "title": "UFC Fight Force Watch Party",
+      "date": "2026-10-02T20:00:00",
+      "endDate": "2026-10-02T23:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Prepare for the smackdown of the century at our UFC Fight Force Watch Party! Catch the on-screen action for FREE @ T-Tails Lounge in The Landings ! F eaturing Meck vs. Taylor, Calderon vs. Esteves, Riles vs. Jones, and Dixon vs. Foster! Buffet is $2 , drinks available for purchase. Doors open @ 8pm, main card @ 9pm. Call 302-677-6024 for info!",
+      "category": "community"
+    },
+    {
       "id": "dover-kayak-boat-graveyard-2026-10-03",
       "title": "Kayak Boat Graveyard",
       "date": "2026-10-03T07:00:00",
@@ -323,6 +313,26 @@
       "address": "1440 Wilson Landing Rd, Nanjemoy, MD, 20662",
       "description": "Join ODR on a kayaking journey through the Mallows Bay Ghost Fleet! This ship graveyard is home to the remains of nearly 200 vessels! $64 per person, ages 14 and",
       "category": "outdoor"
+    },
+    {
+      "id": "dover-liberty-eagle-half-marathon-10k-5k-2026-10-03",
+      "title": "Liberty Eagle Half Marathon/10K/5K",
+      "date": "2026-10-03T08:00:00",
+      "endDate": "2026-10-03T10:00:00",
+      "location": "Eagle’s Nest Park",
+      "address": "1323 Reno St, Dover, DE, 19902",
+      "description": "Get ready for the 𝗟𝗶𝗯𝗲𝗿𝘁𝘆 𝗘𝗮𝗴𝗹𝗲 𝗛𝗮𝗹𝗳 𝗠𝗮𝗿𝗮𝘁𝗵𝗼𝗻/𝟭𝟬𝗞/𝟱𝗞: where freedom and fitness unite! $𝟱𝟬 for half marathon, $𝟯𝟬 for 10K/5K. Sign up at the Fitness Center, or call 302-677-3962! Guaranteed swag still available!",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-memorial-4-player-scramble-2026-10-03",
+      "title": "Memorial 4-Player Scramble",
+      "date": "2026-10-03T08:00:00",
+      "endDate": "2026-10-03T13:00:00",
+      "location": "Dover AFB Eagle Creek Golf Course",
+      "address": "810 14th Street, Dover, DE, 19901",
+      "description": "Sign up for Eagle Creek’s Memorial 4-Player Scramble, honoring our Eagle Creek Golf Course members who have passed. Oct. 3 @ 8am. Prizes will be awarded. Call 302-677-2988 for pricing or visit the Pro Shop to register!",
+      "category": "education"
     },
     {
       "id": "dover-belay-class-2026-10-06",
@@ -365,6 +375,26 @@
       "category": "outdoor"
     },
     {
+      "id": "dover-united-in-color-5k-2026-10-14",
+      "title": "United in Color 5K",
+      "date": "2026-10-14T14:30:00",
+      "endDate": "2026-10-14T16:00:00",
+      "location": "Dover AFB Fitness Center",
+      "address": "423 Chevron Avenue, Dover, DE, 19902",
+      "description": "The Dover AFB Sexual Assault Prevention & Response Team and the Family Advocacy Program would like to cordially invite you to join us for the United in Color 5K! WHAT: United in Color 5K: Dover Against Sexual Violence Color Run WHEN: Wednesday, October 14 @ 2:30pm WHERE: Dover AFB Fitness Center WHO: Dover AFB Community (adults and children) **No dogs permitted!** VOLUNTEERS are also needed in various roles before, during and immediately following the event. If you would like to volunteer for the event, please email autumn.prystajko.2@us.af.mil! If you have any questions, please contact the SA",
+      "category": "fitness"
+    },
+    {
+      "id": "dover-bento-cake-decorating-class-2026-10-15",
+      "title": "Bento Cake Decorating Class",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-15T20:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Unleash your creativity and design your very own 4″ Bento cake! $10 entry includes supplies, ages 10 and up. Scan the QR code or visit tinyurl.com/436Bento to sign up. Call 302-677-6024 for more info!",
+      "category": "education"
+    },
+    {
       "id": "dover-heavy-minds-trivia-night-2026-10-15",
       "title": "Heavy Minds Trivia Night",
       "date": "2026-10-15T18:30:00",
@@ -395,6 +425,26 @@
       "category": "fitness"
     },
     {
+      "id": "dover-belay-class-2026-10-20",
+      "title": "Belay Class",
+      "date": "2026-10-20T16:30:00",
+      "endDate": "2026-10-20T18:30:00",
+      "location": "Dover AFB Outdoor Recreation",
+      "address": "475 Chevron Avenue, Dover, DE, 19902",
+      "description": "Learn the ropes with our Belay Class! $12 per person, ages 16 and up. No experience necessary. Visit Bldg. 475 to sign up!",
+      "category": "education"
+    },
+    {
+      "id": "dover-succulent-plant-workshop-2026-10-22",
+      "title": "Succulent Plant Workshop",
+      "date": "2026-10-22T18:00:00",
+      "endDate": "2026-10-22T19:00:00",
+      "location": "Dover AFB T-Tails Lounge",
+      "address": "479 Chevron Avenue, Dover, DE, 19902",
+      "description": "Stop by The Landings and design your own succulent arrangement! $10 entry fee includes all materials. No experience needed! Scan the QR code or visit tinyurl.com/436Plants to sign up! Call 302-677-6024 for more information.",
+      "category": "education"
+    },
+    {
       "id": "dover-halloween-planter-workshop-2026-10-24",
       "title": "Halloween Planter Workshop",
       "date": "2026-10-24T10:00:00",
@@ -413,6 +463,16 @@
       "address": "846 Sumner Drive, Dover, DE, 19902",
       "description": "Save the date! Join us for 𝗧𝗿𝘂𝗻𝗸-𝗼𝗿-𝗧𝗿𝗲𝗮𝘁: a spook-tacular evening filled with treats, tricks, and trunk-loads of fun! Featuring games, food, bar, rock-climbing, prizes for Best Trunk, live music, and MORE! Open to all DoD cardholders. Call 302-677-6930 for more information.",
       "category": "holiday"
+    },
+    {
+      "id": "dover-bike-harpers-ferry-2026-11-07",
+      "title": "Bike Harpers Ferry",
+      "date": "2026-11-07T07:00:00",
+      "endDate": "2026-11-07T13:00:00",
+      "location": "Harpers Ferry, West Virginia",
+      "address": "Harpers Ferry",
+      "description": "Bike through picturesque Harpers Ferry with ODR! $65 per person, bike included! For ages 16 and up; under 18 must have guardian present. MUST visit ODR by Nov. 5 to sign up. Call 302-677-3959 for more info!",
+      "category": "outdoor"
     },
     {
       "id": "dover-heavy-minds-trivia-night-2026-11-19",

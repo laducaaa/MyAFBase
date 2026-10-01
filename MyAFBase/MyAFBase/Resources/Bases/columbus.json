@@ -259,36 +259,6 @@
   ],
   "events": [
     {
-      "id": "columbus-elephant-storytime-2026-09-22",
-      "title": "Elephant Storytime",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T10:00:00",
-      "location": "Library",
-      "address": "Blaze Commons, Columbus, 39710",
-      "description": "Join us for Elephant Storytime on 22 September at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
-      "category": "family"
-    },
-    {
-      "id": "columbus-air-force-families-forever-2026-09-23",
-      "title": "Air Force Families Forever",
-      "date": "2026-09-23T13:00:00",
-      "endDate": "2026-09-23T13:00:00",
-      "location": "Military & Family Readiness Center",
-      "address": "C, 166 Circle Drive, Columbus, MS, 39710",
-      "description": "Visit the M&FRC for Air Force Families Forever every 4th Wednesday of the month at 1300. Learn what the M&FRC has to offer: • Support for Gold Star Families • Assistance for those in need • Awareness and Advocacy • Family Resource Connections • Community Outreach Serving families, strengthening communities, and making a difference every day.",
-      "category": "holiday"
-    },
-    {
-      "id": "columbus-pins-pancakes-2026-09-26",
-      "title": "Pins & Pancakes",
-      "date": "2026-09-26T11:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Bowling Center",
-      "address": "Building 736, Columbus, MS, 39705",
-      "description": "The Bowling Center will host Pins and Pancakes on Saturdays, featuring fun-shaped and funfetti pancakes with a side of bacon or sausage from 1100-1500! Bowl and enjoy FREE kid-friendly movies, and cool cosmic lighting from 1100-1800! Questions? Call the Bowling Center at (662) 434-3426.",
-      "category": "family"
-    },
-    {
       "id": "columbus-fall-break-camp-2026-09-28",
       "title": "Fall Break Camp",
       "date": "2026-09-28T06:30:00",
@@ -307,6 +277,16 @@
       "address": "386 Imes St. Columbus AFB",
       "description": "Learn the basics of fishing and catch and fillet your own catfish at Fishing Camp at Barksdale Catfish Lakes! Camp will run from 0800 to 1200, 28 September –",
       "category": "outdoor"
+    },
+    {
+      "id": "columbus-fall-break-bowling-special-2026-09-28",
+      "title": "Fall Break Bowling Special",
+      "date": "2026-09-28T08:00:00",
+      "endDate": "2026-09-28T14:00:00",
+      "location": "Bowling Center",
+      "address": "Building 736, Columbus, MS, 39705",
+      "description": "The Bowling Center is offering its Fall Break bowling special! $5 BOGO Bowling Games for children and accompanying adults from 28 September through 2 October, from 9AM to 2PM! Questions? Call the Bowling Center at (662) 434-3426.",
+      "category": "family"
     },
     {
       "id": "columbus-movie-matinee-2026-09-28",
@@ -409,6 +389,16 @@
       "category": "family"
     },
     {
+      "id": "columbus-fight-force-watch-party-2026-10-02",
+      "title": "Fight Force Watch Party",
+      "date": "2026-10-02T19:15:00",
+      "endDate": "2026-10-02T19:15:00",
+      "location": "Community Center",
+      "address": "Columbus, MS",
+      "description": "Fury FC heads to Minot, North Dakota, for a stacked event, live and exclusive on UFC Fight Pass! Watch the Live Stream on a 20-ft projector outside of the Community Center on 2 October. The Prelims start at 7:15PM, bring your blankets and lawn chairs to secure a good spot to watch all of the action! FREE food while supplies last | Drinks for sale – No outside drinks allowed. For more information, contact Outdoor Recreation at (662) 434-2505.",
+      "category": "outdoor"
+    },
+    {
       "id": "columbus-cullman-oktoberfest-2026-10-03",
       "title": "Cullman Oktoberfest",
       "date": "2026-10-03T00:00:00",
@@ -419,6 +409,26 @@
       "category": "holiday"
     },
     {
+      "id": "columbus-pins-pancakes-2026-10-03",
+      "title": "Pins & Pancakes",
+      "date": "2026-10-03T11:00:00",
+      "endDate": "2026-10-03T15:00:00",
+      "location": "Bowling Center",
+      "address": "Building 736, Columbus, MS, 39705",
+      "description": "The Bowling Center will host Pins and Pancakes on Saturdays, featuring fun-shaped and funfetti pancakes with a side of bacon or sausage from 11AM-3PM! Bowl and enjoy FREE kid-friendly movies, and cool cosmic lighting until 6PM! Questions? Call the Bowling Center at (662) 434-3426.",
+      "category": "family"
+    },
+    {
+      "id": "columbus-global-grub-cooking-camp-2026-10-05",
+      "title": "Global Grub Cooking Camp",
+      "date": "2026-10-05T08:00:00",
+      "endDate": "2026-10-05T12:00:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Global Grub Camp will be a hands-on, fun-filled experience designed for young chefs ages 9-18 who are eager to explore the art of cooking. Throughout the camp, participants will learn essential kitchen skills such as chopping, measuring, mixing, and baking while also exploring nutrition, food safety, and teamwork. Each day will introduce new recipes and techniques, encouraging creativity and confidence in the kitchen while learning about dishes made around the world. By the end of the week, campers will leave with new cooking skills, a collection of recipes, and the confidence to share their c",
+      "category": "outdoor"
+    },
+    {
       "id": "columbus-second-thursday-paintball-2026-10-08",
       "title": "Second Thursday Paintball",
       "date": "2026-10-08T17:00:00",
@@ -427,6 +437,16 @@
       "address": "Columbus, MS",
       "description": "Join Outdoor Recreation for Second Thursday Paintball from 1700-1900 on the Second Thursday of each month from September to November. Team sessions are $25 per person, which will include field use for 2 hours, 500 rounds (1 bag of paintballs), and equipment rental. Limited space; max. of 20 people for staffing and time purposes. Additional boxes of paintballs can be purchased at $50 per box (2000 rounds). Payment due at time of registration. Sign-up deadline is Thursday before to ensure paintballs can be purchased ahead of time. Participants must reserve the paintball field by calling Outdoor ",
       "category": "outdoor"
+    },
+    {
+      "id": "columbus-youth-t-ball-2026-10-12",
+      "title": "Youth T-Ball",
+      "date": "2026-10-12T00:00:00",
+      "endDate": "2026-10-12T23:59:59",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "Gather your teammates as the Youth T-Ball season begins on 19 Oct for ages 3+. Registration ends 12 OCT. Sign up through CYPBMS! Questions? Call the Youth Center at (662) 434-2504.",
+      "category": "family"
     },
     {
       "id": "columbus-halloween-trivia-night-2026-10-22",
@@ -446,6 +466,36 @@
       "location": "Library",
       "address": "Blaze Commons, Columbus, 39710",
       "description": "Join us for Halloween Storytime on 27 October at 1000 in the library! Great for kids ages 2+. Enjoy short stories read by our guest readers, then stay for a fun craft activity.",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-halloween-bingo-2026-10-30",
+      "title": "Halloween Bingo",
+      "date": "2026-10-30T16:00:00",
+      "endDate": "2026-10-30T20:00:00",
+      "location": "Bowling Center",
+      "address": "Building 736, Columbus, MS, 39705",
+      "description": "Join the Bowling Center on 30 October from1600-2000 for Halloween Bowling Bingo! Players will receive a bingo card filled with bowling goals, and players who “BINGO” will win a bag of candy. The first game is free! Enjoy food specials including a free kids meal with the purchase of any adult meal (50¢ wings excluded), 50¢ wings (dine-in only), and a beer special. Halloween movies will also be playing on the projector throughout the event. For questions, call the Bowling Center at (662) 434-3426.",
+      "category": "holiday"
+    },
+    {
+      "id": "columbus-second-thursday-paintball-2026-11-12",
+      "title": "Second Thursday Paintball",
+      "date": "2026-11-12T17:00:00",
+      "endDate": "2026-11-12T19:00:00",
+      "location": "Outdoor Recreation",
+      "address": "Columbus, MS",
+      "description": "Join Outdoor Recreation for Second Thursday Paintball from 1700-1900 on the Second Thursday of each month from September to November. Team sessions are $25 per person, which will include field use for 2 hours, 500 rounds (1 bag of paintballs), and equipment rental. Limited space; max. of 20 people for staffing and time purposes. Additional boxes of paintballs can be purchased at $50 per box (2000 rounds). Payment due at time of registration. Sign-up deadline is Thursday before to ensure paintballs can be purchased ahead of time. Participants must reserve the paintball field by calling Outdoor ",
+      "category": "outdoor"
+    },
+    {
+      "id": "columbus-thanksgiving-break-camp-2026-11-23",
+      "title": "Thanksgiving Break Camp",
+      "date": "2026-11-23T06:30:00",
+      "endDate": "2026-11-23T17:30:00",
+      "location": "Youth Center",
+      "address": "386 Imes St. Columbus AFB",
+      "description": "The Youth Center will be open to receive youth for care during Thanksgiving Break for ages 5-12. The dates are from 23-25 November, from 0630-1730. Breakfast, lunch, and snacks will be provided. Sign up by 17 November through MCC and CYPBMS. For any questions, call the youth center at (662) 434-2504.",
       "category": "holiday"
     }
   ],
@@ -518,5 +568,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-21T06:35:07Z"
+  "dataUpdatedAt": "2026-09-28T06:23:52Z"
 }

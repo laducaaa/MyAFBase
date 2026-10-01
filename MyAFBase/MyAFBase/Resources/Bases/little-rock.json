@@ -7,7 +7,7 @@
   "wing": "19 AW",
   "latitude": 34.9169,
   "longitude": -92.1497,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "little-rock-notif-real-id",
@@ -359,66 +359,6 @@
   ],
   "events": [
     {
-      "id": "little-rock-fcc-provider-orientation-training-20",
-      "title": "FCC Provider Orientation Training",
-      "date": "2026-09-21T09:00:00",
-      "endDate": "2026-09-25T17:00:00",
-      "location": "Family Child Care",
-      "address": "1988 Arnold Drive Little Rock, Little Rock, AR, 72099",
-      "description": "FCC Provider Orientation Training is for those who are interested in becoming a licensed Family Child Care Provider on or off base for full/part time care, special needs, 24/7 care or expanded child care. This training is FREE and includes CPR, first aid, nutrition, child abuse awareness, child development, record keeping and much more. For more information and to register, email 19FSS.FSYF.FCC@us",
-      "category": "community"
-    },
-    {
-      "id": "little-rock-torch-club-2026-09-24",
-      "title": "Torch Club",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T17:00:00",
-      "location": "YOUTH CENTER",
-      "address": "1992 Arkansas Blvd, Little Rock, AR, 72099",
-      "description": "Torch Club meets every 1st and 4th Thursday at the Youth Center! Open to ages 10–13, this free club uses fun activities and projects to help members build leadership, teamwork, responsibility, decision-making, goal-setting, and other valuable life skills. No registration needed!",
-      "category": "family"
-    },
-    {
-      "id": "little-rock-chess-club-2026-09-24",
-      "title": "Chess Club",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T18:45:00",
-      "location": "Base Library",
-      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR 72099",
-      "description": "Make your next move! Whether you're a chess pro or have never moved a pawn, Chess Club at the Base Library is the perfect place to learn, play, and sharpen your strategy! 2nd & 4th Thursday of every month 5-6:45 PM All ages welcome! September dates: September 10 & 24 Bring your game face and come make your move!",
-      "category": "community"
-    },
-    {
-      "id": "little-rock-armed-forces-kids-glow-run-2026-09-25",
-      "title": "Armed Forces Kids Glow Run",
-      "date": "2026-09-25T18:30:00",
-      "endDate": "2026-09-25T20:00:00",
-      "location": "Base Track",
-      "address": "Jacksonville, AR",
-      "description": "Glow, run, repeat! Get ready to light up the night at the Youth Center's Armed Forces Kids Glow Run! Warm-up begins at 6:30 PM Youth will hit the track with glow sticks, but don't stop there-bring your favorite glow accessories and get ready to shine! Race Distances by Age: Ages 5-6: ½ mile Ages 7-8: 1 mile Ages 9-12: 1.5 miles Ages 13-18: 2 miles Let's light up the track!",
-      "category": "family"
-    },
-    {
-      "id": "little-rock-petticoats-and-paper-crafts-2026-09",
-      "title": "Petticoats and Paper Crafts",
-      "date": "2026-09-26T13:00:00",
-      "endDate": "2026-09-26T16:00:00",
-      "location": "Skills Center",
-      "address": "656 Sixth St., Little Rock AFB, AR, 72099",
-      "description": "Step into the Regency Era! Join the Skills Center on September 26th for Petticoats & Paper Crafts —an afternoon of teatime, creativity, and charming Regency-inspired crafts! Try your hand at silhouette drawing, decoupage, fan decorating, watercolor , and more—all at your own pace! Presale tickets are available at the Skills Center for $10 through September 25th. Price at the door will be $12. Wall",
-      "category": "community"
-    },
-    {
-      "id": "little-rock-saturday-family-matinee-watch-a-movie-and-bowl-2026",
-      "title": "Saturday Family Matinee: Watch a Movie and Bowl",
-      "date": "2026-09-26T14:00:00",
-      "endDate": "2026-09-26T16:00:00",
-      "location": "STRIKE ZONE BOWLING CENTER",
-      "address": "956 Cannon Circle, Little Rock, AR, 72099",
-      "description": "Bring the whole family to the Strike Zone Bowling Center and enjoy unlimited bowling, a large pizza, and a soda per person while watching a family friendly movie for $40. Price covers up to six people and includes shoe rentals.",
-      "category": "family"
-    },
-    {
       "id": "little-rock-little-rockin-artist-sensory-safe-2026-09-28",
       "title": "Little Rockin' Artist: Sensory Safe",
       "date": "2026-09-28T16:30:00",
@@ -519,6 +459,36 @@
       "category": "family"
     },
     {
+      "id": "little-rock-youth-center-college-prep-course-2026-10-05",
+      "title": "Youth Center College Prep Course",
+      "date": "2026-10-05T17:30:00",
+      "endDate": "2026-10-07T19:30:00",
+      "location": "YOUTH CENTER",
+      "address": "1992 Arkansas Blvd, Little Rock, AR, 72099",
+      "description": "Get Ready for Your Future! The Youth Center is hosting a College Prep Course designed to help teens and parents feel confident about taking the next step after high school! FREE to attend! Ages 14–18 & parents Each night will feature guest speakers and valuable information to help set you up for success! MONDAY — Planning & Financing Preparing for college Finances & scholarships Finding information about colleges Military & college recruiters TUESDAY — Academic Prep Study habits ASVAB, ACT & SAT preparation WEDNESDAY — Professional Readiness Dressing for success The interview process Resume wr",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-fire-prevention-story-time-2026-10-07",
+      "title": "Fire Prevention Story Time",
+      "date": "2026-10-07T10:00:00",
+      "endDate": "2026-10-07T11:00:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Celebrate Fire Prevention Week on October 7th with the Base Library! Bring your little ones for a special safety-themed story time featuring some very special guests from our very own LRAFB Fire Department! It’s a fun opportunity for kids to enjoy a story, meet local firefighters, and learn important fire safety tips along the way! Come learn, listen, and have some fun with us!",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-lap-sit-for-toddlers-story-time-2026-10-08",
+      "title": "Lap Sit for Toddlers Story Time",
+      "date": "2026-10-08T10:00:00",
+      "endDate": "2026-10-08T11:00:00",
+      "location": "Base Library",
+      "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
+      "description": "Bring your little ones to the Little Rock Air Force Base Library for Lap Sit for Toddlers Story Time! Designed for babies up to 23 months old, this engaging program is perfect for introducing your child to the joy of stories, songs, and early literacy in a fun and nurturing environment.",
+      "category": "family"
+    },
+    {
       "id": "little-rock-chess-club-2026-10-08",
       "title": "Chess Club",
       "date": "2026-10-08T17:00:00",
@@ -527,6 +497,36 @@
       "address": "Walters Community Support Center, Bldg. 940 Arnold Drive, Little Rock, AR, 72099",
       "description": "Make your next move! Whether you’re a chess pro or have never moved a pawn, Chess Club at the Base Library is the perfect place to learn, play, and sharpen your strategy! 2nd & 4th Thursday of every month 5–6:45 PM All ages welcome! September dates: September 10 & 24 Bring your game face and come make your move!",
       "category": "recreation"
+    },
+    {
+      "id": "little-rock-teen-night-2026-10-08",
+      "title": "Teen Night",
+      "date": "2026-10-08T18:00:00",
+      "endDate": "2026-10-08T20:00:00",
+      "location": "YOUTH CENTER",
+      "address": "1992 Arkansas Blvd, Little Rock, AR, 72099",
+      "description": "TEEN NIGHT IS BACK! Calling all teens ages 13–18! Come hang out at the Youth Center on September 10th from 6–8 PM for an evening packed with fun, games, food, and friends! Play video games Challenge your friends to board games Shoot some hoops Grab some FREE chicken strips and fries Hang out & have a great time! Open to ages 13–18 Every 2nd Thursday of the month Make Teen Night your monthly hangout! Bring your friends and get ready for a night of games, laughs, and good times.",
+      "category": "family"
+    },
+    {
+      "id": "little-rock-jeepers-it-glows-2026-10-09",
+      "title": "Jeepers! It Glows!",
+      "date": "2026-10-09T17:30:00",
+      "endDate": "2026-10-09T20:00:00",
+      "location": "Skills Center",
+      "address": "656 Sixth St., Little Rock AFB, AR, 72099",
+      "description": "JEEPERS! IT GLOWS! Get ready for a mystery-themed Halloween craft night at the Skills Center on October 9th! Gather your crew and join us for an evening of neon, blacklight fun for all ages! Get creative with: Splatter Painting Small Wooden Signs Canvas Bag Painting Everything gets a spooky, glowing twist under the blacklights! Tickets: $3 presale at the Skills Center $5 at the door All ages welcome! Grab your crew, get your glow on, and see what mysteries await at Jeepers! It Glows!",
+      "category": "holiday"
+    },
+    {
+      "id": "little-rock-saturday-family-matinee-watch-a-movie-and-bowl-2026",
+      "title": "Saturday Family Matinee: Watch a Movie and Bowl",
+      "date": "2026-10-10T14:00:00",
+      "endDate": "2026-10-10T16:00:00",
+      "location": "STRIKE ZONE BOWLING CENTER",
+      "address": "956 Cannon Circle, Little Rock, AR, 72099",
+      "description": "Bring the whole family to the Strike Zone Bowling Center and enjoy unlimited bowling, a large pizza, and a soda per person while watching a family friendly movie for $40. Price covers up to six people and includes shoe rentals.",
+      "category": "family"
     },
     {
       "id": "little-rock-knit-at-night-2026-10-15",
@@ -549,6 +549,16 @@
       "category": "education"
     },
     {
+      "id": "little-rock-spooktacular-triple-b-2026-10-24",
+      "title": "Spooktacular Triple B",
+      "date": "2026-10-24T13:00:00",
+      "endDate": "2026-10-24T16:00:00",
+      "location": "The Kenny (WCSC)",
+      "address": "",
+      "description": "Something wickedly fun is coming to Little Rock Air Force Base on October 24th! Join us at The Kenny for a full day of barbeques, burnouts, bands, and Halloween fun for the whole family. Check out an exciting lineup of activities, including a car show, live music, a barbeque competition, trunk-or-treat, and FREE barbeque meals prepared by renowned pitmaster Moe Cason. With plenty of food, entertainment, and family-friendly activities, there’s something for everyone to enjoy. Bring your family and friends, show off your best Halloween spirit, check out some incredible cars, and enjoy a day fill",
+      "category": "holiday"
+    },
+    {
       "id": "little-rock-little-rockin-artist-sensory-safe-2026-10-26",
       "title": "Little Rockin’ Artist: Sensory Safe",
       "date": "2026-10-26T16:30:00",
@@ -557,6 +567,16 @@
       "address": "656 Sixth St., Little Rock AFB, AR, 72099",
       "description": "Join the Skills Center on October 26th for Little Rockin’ Artist: Sensory Safe! We’ll turn the lights down and take some time to decompress with coloring and kinetic sand. Event is free to attend. Registration deadline is October 25th. Register now at www.rockinattherock.com/skillsclass.",
       "category": "community"
+    },
+    {
+      "id": "little-rock-halloween-fun-run-2026-10-30",
+      "title": "Halloween Fun Run",
+      "date": "2026-10-30T07:00:00",
+      "endDate": "2026-10-30T08:00:00",
+      "location": "The Kenny (WCSC)",
+      "address": "",
+      "description": "Costumes + Cardio = Halloween Fun Run! Get ready to run, jog, or walk your way into the Halloween spirit! The Fitness Center’s Halloween Fun Run is happening October 30 from 7–8 AM, starting at The Kenny. And yes… costumes are highly encouraged! The top 3 costumes will be recognized, so bring your best Halloween look and show us what you’ve got! Register now by scanning the QR code!",
+      "category": "holiday"
     },
     {
       "id": "little-rock-cars-and-coffee-2026-11-07",

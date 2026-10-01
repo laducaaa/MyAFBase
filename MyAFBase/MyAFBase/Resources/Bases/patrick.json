@@ -7,7 +7,7 @@
   "wing": "SLD 45",
   "latitude": 28.2353,
   "longitude": -80.6103,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "patrick-notif-real-id",
@@ -244,54 +244,14 @@
   ],
   "events": [
     {
-      "id": "patrick-squadron-olympics-2026-09-21",
-      "title": "Squadron Olympics",
-      "date": "2026-09-21",
-      "endDate": "2026-09-25",
-      "location": "PFSB Gymnasium",
-      "address": "Patrick SFB, FL",
-      "description": "Squadron Olympics (volleyball, basketball, dodgeball, cornhole, tug-of-war); gopatrickfl.com.",
-      "category": "community"
-    },
-    {
-      "id": "patrick-boots-2-business-2026-09-23",
-      "title": "Boots 2 Business",
-      "date": "2026-09-23T00:00:00",
-      "endDate": "2026-09-23T23:59:59",
+      "id": "patrick-deployed-family-dinner1-2026-09-29",
+      "title": "Deployed Family Dinner1",
+      "date": "2026-09-29T00:00:00",
+      "endDate": "2026-09-29T23:59:59",
       "location": "Patrick SFB",
       "address": "Patrick SFB, FL",
-      "description": "Boots 2 Business at the Military and Family Readiness Center. September 23-24, 8:30AM-3:30PM.",
-      "category": "education"
-    },
-    {
-      "id": "patrick-check-on-your-friends-5k-psfb-2026-09-25",
-      "title": "Check on Your Friends 5K @ PSFB",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Patrick SFB",
-      "address": "Cocoa Beach, FL",
-      "description": "September is National Suicide Prevention Month, so join friends in running the Fitness Center's Check on Your Friends 5K! There are TWO Check on Your Friends 5K's, one at CCSFS and one at PSFB. See dates below:  \n- Friday, September 18, 7:15AM @ Cape Canaveral SFS Fitness Center \n- Friday, September 25, 7:15AM @ Patrick SFB River Run Read More",
-      "category": "fitness"
-    },
-    {
-      "id": "patrick-boat-operator-class-2026-09-26",
-      "title": "Boat Operator Class",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "Patrick SFB",
-      "address": "Patrick SFB, FL",
-      "description": "Learn the basics of boat operation with ODR! Must complete the free online Florida Boater’s Safety Course prior. Call ODR for more information at (321) 494-2054. Classes: June - September, 8:30 - 11:30 AM on June 20, July 11, July 18, August 8, August 15, or September 26. Registration is required. Check Rides are scheduled at the request of customer and availability of resources. ODR will ensure that the prerequisites...",
-      "category": "outdoor"
-    },
-    {
-      "id": "patrick-tubing-with-odr-2026-09-26",
-      "title": "Tubing with ODR",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "Patrick SFB",
-      "address": "Patrick SFB, FL",
-      "description": "Strap in and hit the water! Speed across the marina, splash around, and enjoy a thrilling tubing adventure the whole family will love. Must be at least 8 years old and able to swim. - Saturday, September 26, 1-6PM - Time slots from 1-3PM and 4-6PM - Please register by September 24 - AD and sponsored Families $2 pp; All others $10pp",
-      "category": "outdoor"
+      "description": "Enjoy a meal among fellow deployed families at the Military and Family Readiness Center.",
+      "category": "family"
     },
     {
       "id": "patrick-efmp-stargazing-2026-10-02",
@@ -311,6 +271,76 @@
       "location": "Patrick SFB",
       "address": "Cocoa Beach, FL",
       "description": "Enjoy a family-friendly, in-house haunted boat tour featuring festive Halloween decorations, spooky atmospheres, and thrilling storytelling about local shipwrecks and the legendary haunted tales of the Banana River. \n- Saturday, Aug. 3\n- 7PM-8:30PM\n- Active Duty & Sponsored Families: $2 per person, All others: $10 per person\n- Please register no later than Oct. 1 Read More",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-boating-class-2026-10-03",
+      "title": "Boating Class",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Ready to hit the water? Even experienced mariners need to know the ropes of our local fleet. This mandatory orientation class is designed specifically for patrons who already hold a valid Florida Boating Safety Education ID Card and wish to rent motorized vessels through Outdoor Recreation. This course bridges the gap between general state boating knowledge and the specific requirements for operating our rental fleet on local waterways. -...",
+      "category": "outdoor"
+    },
+    {
+      "id": "patrick-upcycle-crafts-spooky-art-makeover-2026-10-03",
+      "title": "Upcycle Crafts: Spooky Art Makeover",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "In person class. This is a free event for upper elementary-aged children to adults. Please be advised: This program may use scissors, X-Acto knives, and hot glue guns. Caregivers are responsible for helping any children that attend the event. All supplies are provided by the Library. A limited amount of supplies are available. Reservations are not required but are highly encouraged. In-person attendance is required as there will be no Take...",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-spooky-bowling-2026-10-03",
+      "title": "Spooky Bowling",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "A bowling night geared towards adults- with spooky music and a giveaway for two American Ghost adventure tickets! - $5 for 1 hour, $7 for 2 hours",
+      "category": "holiday"
+    },
+    {
+      "id": "patrick-weekly-bingo-2026-10-07",
+      "title": "Weekly Bingo",
+      "date": "2026-10-07T00:00:00",
+      "endDate": "2026-10-07T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Weekly Bingo at the Tides! Up to $1,550 in prizes paid out every week, packages start at $35.",
+      "category": "entertainment"
+    },
+    {
+      "id": "patrick-story-time-fire-safety-week-the-firehouse-2026-10-09",
+      "title": "Story Time: Fire Safety Week @ the Firehouse",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "Join us for a Fire Safety Week themed Story Time at the Patrick SFB Fire Station!",
+      "category": "family"
+    },
+    {
+      "id": "patrick-family-stem-day-family-fingerprints-2026-10-09",
+      "title": "Family STEM Day: Family Fingerprints",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "A limited amount of supplies are available. Reservations are not required but are highly encouraged. In-person attendance is required as there will be no Take Home Kits for this event. This program is intended for the whole family to complete the project together. Caregivers must be present for the entirety of the program.",
+      "category": "family"
+    },
+    {
+      "id": "patrick-fall-o-ween-2026-10-09",
+      "title": "Fall-O-Ween",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:59:59",
+      "location": "Patrick SFB",
+      "address": "Patrick SFB, FL",
+      "description": "GET READY FOR FALL-O-WEEN! Mark your calendars! The ultimate fall and Halloween celebration is right around the corner, and you won’t want to miss it! Join us for Fall-O-Ween, an unforgettable celebration packed with FREE FAMILY FUN for all ages! - October 9, 5-9PM- Golf Course/Marina Complex We’ve got an amazing lineup in store for the whole family... Exciting Inflatables & Carnival Attractions Live Entertainment...",
       "category": "holiday"
     },
     {

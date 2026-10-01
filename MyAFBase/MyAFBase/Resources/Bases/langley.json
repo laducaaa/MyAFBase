@@ -7,7 +7,7 @@
   "wing": "633 ABW / ACC",
   "latitude": 37.083,
   "longitude": -76.36,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "lang-notif-1",
@@ -298,134 +298,24 @@
       "category": "outdoor"
     },
     {
-      "id": "langley-jiu-jitsu-self-defense-classes-2026-09-21",
-      "title": "Jiu Jitsu Self Defense Classes",
-      "date": "2026-09-21T17:00:00",
-      "endDate": "2026-09-21T18:00:00",
-      "location": "ACC Fitness Center",
-      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
-      "description": "Get ready to roll! Learn effective self-defense techniques, enhance physical fitness & mental resilience, develop discipline, focus & confidence, and connect with your community in a supportive environment! Instructor: Zachary Darroch – IBJJF Black Belt with The Academy/Honey Badger BJJ Las Vegas, NV (certification #79742) Free and open to all with base access!",
-      "category": "fitness"
-    },
-    {
-      "id": "langley-dog-days-at-eaglewood-2026-09-22",
-      "title": "Dog Days at Eaglewood",
-      "date": "2026-09-22T08:00:00",
-      "endDate": "2026-09-22T17:00:00",
-      "location": "Eaglewood Golf Course",
-      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
-      "description": "Banish sad puppy eyes today! Enjoy a round with your best friend when you bring your pooch along.",
-      "category": "community"
-    },
-    {
-      "id": "langley-baby-me-pre-postnatal-wellness-education-class-2026-09-2",
-      "title": "Baby & Me: Pre & Postnatal Wellness Education Class",
-      "date": "2026-09-23T07:30:00",
-      "endDate": "2026-09-23T08:00:00",
-      "location": "Shellbank Fitness Center",
-      "address": "36 Sweeney Blvd, 23665",
-      "description": "The last Wednesday of every month at Shellbank Education classroom! -Holistic nutrition for mom and baby by trimester -Maintaining a healthy exercise program before and after delivery -Emotional support and self-care strategies -Family advocacy and active duty guidelines",
-      "category": "family"
-    },
-    {
-      "id": "langley-storytime-2-time-slots-2026-09-23",
+      "id": "langley-storytime-2-time-slots-2026-09-30",
       "title": "Storytime (2 time slots)",
-      "date": "2026-09-23T09:30:00",
-      "endDate": "2026-09-23T12:00:00",
+      "date": "2026-09-30T09:30:00",
+      "endDate": "2026-09-30T12:00:00",
       "location": "Bateman Library",
       "address": "42 Ash Ave, 23665",
       "description": "Take a journey through the alphabet at storytime with stories, crafts, and activities. Storytime is at 9:30 and 11 am. Both times arethe same storytime, so choose the time that works best for your family!",
       "category": "family"
     },
     {
-      "id": "langley-story-time-2026-09-23",
+      "id": "langley-story-time-2026-09-30",
       "title": "Story Time",
-      "date": "2026-09-23T10:30:00",
-      "endDate": "2026-09-23T12:30:00",
+      "date": "2026-09-30T10:30:00",
+      "endDate": "2026-09-30T12:30:00",
       "location": "Bateman Library",
       "address": "42 Ash Ave, 23665",
       "description": "Join us Wednesdays at 10:30 AM and 11 AM for stories, songs, and activities with new friends at the Bateman Library. September theme is Alphabet, and both sessions are identical. Just pick the time that works best for you!",
       "category": "family"
-    },
-    {
-      "id": "langley-new-lunch-bowl-langley-lanes-2026-09-23",
-      "title": "New Lunch & Bowl Langley Lanes",
-      "date": "2026-09-23T11:00:00",
-      "endDate": "2026-09-23T14:00:00",
-      "location": "Langley Lanes Bowling Center",
-      "address": "75 Nealy Ave, 23665",
-      "description": "Enjoy 2 games of bowling, a cheeseburger, tenders of wings, and a fountain drink. Shoes included! Cost: $18",
-      "category": "recreation"
-    },
-    {
-      "id": "langley-suicide-prevention-awareness-5k-run-walk",
-      "title": "Suicide Prevention Awareness 5K Run/Walk",
-      "date": "2026-09-24T07:30:00",
-      "endDate": "2026-09-24T11:00:00",
-      "location": "ACC Fitness Center",
-      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
-      "description": "Third annual 5K Run/Walk! Run for hope, walk for life. Free for all! Free t-shirt for first 100 signed up! Live DJ, food trucks, and helping agencies on site. To register: https://www.signupgenius.com/go/10C084CA4AF22A3F5CE9-63582008-3rdannualsuicide?useFullSite=true#/ Location: ACC Fitness Trail.",
-      "category": "fitness"
-    },
-    {
-      "id": "langley-cardboard-creations-2026-09-24",
-      "title": "Cardboard Creations",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T17:30:00",
-      "location": "Community Programs",
-      "address": "128 Benedict Ave, 23665",
-      "description": "A fun cardboard craft event! Supplies will be provided; all ages are welcome! To register: https://www.signupgenius.com/go/10C0845AEA722A2FEC43-65060594-cardboard?useFullSite=true#/",
-      "category": "recreation"
-    },
-    {
-      "id": "langley-oktoberfest-2026-09-25",
-      "title": "Fort Eustis Oktoberfest 2026",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "FCC Stage",
-      "address": "950 Jefferson Ave, Fort Eustis, VA",
-      "description": "Oktoberfest community event; jble-eustismwr.com events tag listing.",
-      "category": "community"
-    },
-    {
-      "id": "langley-jble-commander-s-cup-tournament-2026-09",
-      "title": "JBLE Commander’s Cup Tournament",
-      "date": "2026-09-25T08:00:00",
-      "endDate": "2026-09-25T17:00:00",
-      "location": "Eaglewood Golf Course",
-      "address": "630 Weyland Rd, Langley AFB, VA, 23665",
-      "description": "The four-person Captain Choice format includes Golf Fees, Cart, range balls, goodie bag, and lunch. Prices: $40 E4 & below | $50 AGF memers | $60 E5 & above, retirees & DoD Civilians | $70 guests To register: https://manager.gallusgolf.com/DownloadApp/1469/eaglewood-golf-course",
-      "category": "recreation"
-    },
-    {
-      "id": "langley-bingo-night-2026-09-25",
-      "title": "Bingo Night",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T19:00:00",
-      "location": "Riverview Event Center",
-      "address": "128 Benedict Ave",
-      "description": "Card sales start at 5:30 PM* Games start at 6 PM Children must be supervised by an adult Located at Nosedive Lounge *Cash only!",
-      "category": "entertainment"
-    },
-    {
-      "id": "langley-free-craft-night-decoupage-pumpkin-patch-2026-09-25",
-      "title": "Free Craft Night: Decoupage Pumpkin Patch",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T19:30:00",
-      "location": "Eaglewood Golf Course",
-      "address": "630 Weyland Rd, Langley AFB, VA 23665",
-      "description": "Free for all ages 15+. All materials and instructions provided. Food and drink available for purchase. Play music bingo with prizes. Space is limited, so register now! To register: https://manager.gallusgolf.com/Register/77804/craft-night-decoupage-pumpkin-patch",
-      "category": "family"
-    },
-    {
-      "id": "langley-bus-national-mall-2026-09-26",
-      "title": "Fall Bus Trip: National Mall",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "ITT Bus Trip (Fort Eustis)",
-      "address": "",
-      "description": "Fall ITT bus trip to National Mall; 733 FSS bus trips series.",
-      "category": "community"
     },
     {
       "id": "langley-september-movie-nights-2026-09-30",
@@ -438,6 +328,16 @@
       "category": "family"
     },
     {
+      "id": "langley-suicide-prevention-awareness-5k-run-walk-2026-10-01",
+      "title": "Suicide Prevention Awareness 5K Run/Walk",
+      "date": "2026-10-01T07:30:00",
+      "endDate": "2026-10-01T11:00:00",
+      "location": "ACC Fitness Center",
+      "address": "216 Dodd Blvd #658, Langley AFB, VA, 23665",
+      "description": "RESCHEDULED TO OCTOBER 1ST Third annual 5K Run/Walk! Run for hope, walk for life. Free for all! Free t-shirt for first 100 signed up! Live DJ, food trucks, and helping agencies on site. To register: https://www.signupgenius.com/go/10C084CA4AF22A3F5CE9-63582008-3rdannualsuicide?useFullSite=true#/ Location: ACC Fitness Trail.",
+      "category": "outdoor"
+    },
+    {
       "id": "langley-firsty-thursday-2026-10-01",
       "title": "Firsty Thursday",
       "date": "2026-10-01T16:00:00",
@@ -446,6 +346,46 @@
       "address": "128 Benedict Ave",
       "description": "Enjoy food, games, drinks, live music & more! *The event will take place on the first Thursday of each month, excluding other 633rd events, holidays, and family days.",
       "category": "family"
+    },
+    {
+      "id": "langley-crossbow-nationcon-fx-class-2026-10-02",
+      "title": "Crossbow Nationcon FX Class",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Riverview Event Center",
+      "address": "128 Benedict Ave",
+      "description": "Learn beginner-friendly special effects and character makeup techniques, from gory zombie wounds to bold character transformations. Perfect for Halloween season, conventions, and anyone who wants to level up their costume game. Each attendee walks away with their own brand new Mehron Body Paint 8-color mini palette, plus brush and sponges, ready to keep creating long after class ends. Presented by: Breana Cooke & Anja Yamaji Allergy alert: this class involves applying liquid latex directly to the skin, so attendees with latex allergies should take note. To register: https://www.signupgenius.co",
+      "category": "holiday"
+    },
+    {
+      "id": "langley-storytime-2-time-slots-2026-10-07",
+      "title": "Storytime (2 time slots)",
+      "date": "2026-10-07T09:30:00",
+      "endDate": "2026-10-07T12:00:00",
+      "location": "Bateman Library",
+      "address": "42 Ash Ave, 23665",
+      "description": "Take a journey through the alphabet at storytime with stories, crafts, and activities. Storytime is at 9:30 and 11 am. Both times arethe same storytime, so choose the time that works best for your family!",
+      "category": "family"
+    },
+    {
+      "id": "langley-october-movie-nights-2026-10-07",
+      "title": "October Movie Nights",
+      "date": "2026-10-07T17:30:00",
+      "endDate": "2026-10-07T19:30:00",
+      "location": "Langley Base Theater",
+      "address": "66 Nealy Ave, Langley AFB, 23665",
+      "description": "Free to all! Outside food is permitted. All outside food is permitted. All outside drinks must have a lid, children must be supervised by an adult. Mortal Kombat 2 (R) October 7, 5:30 PM Star Wars: The Mandalorian And Grogu (PG-13) , October 21, 5:30 PM",
+      "category": "family"
+    },
+    {
+      "id": "langley-wiliamsburg-original-ghost-tour-2026-10-16",
+      "title": "Wiliamsburg Original Ghost Tour",
+      "date": "2026-10-16T20:00:00",
+      "endDate": "2026-10-16T22:00:00",
+      "location": "Community Programs",
+      "address": "128 Benedict Ave, 23665",
+      "description": "Tickets available at the Community Programs Office. Register by October 15. Cost: $10 per person, open to ages 13+",
+      "category": "recreation"
     },
     {
       "id": "langley-kite-day-at-the-park-2026-10-17",
@@ -466,6 +406,16 @@
       "address": "",
       "description": "Fall ITT bus trip to Luray Caverns; 733 FSS bus trips series.",
       "category": "community"
+    },
+    {
+      "id": "langley-bingo-night-2026-10-23",
+      "title": "Bingo Night",
+      "date": "2026-10-23T17:30:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "Riverview Event Center",
+      "address": "128 Benedict Ave",
+      "description": "Card sales start at 5:30 PM* Games start at 6 PM Children must be supervised by an adult Located at Nosedive Lounge *Cash only!",
+      "category": "family"
     },
     {
       "id": "langley-fishing-the-kings-street-bridge-lures-st",

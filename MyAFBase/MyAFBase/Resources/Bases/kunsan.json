@@ -7,7 +7,7 @@
   "wing": "8 FW",
   "latitude": 35.9038,
   "longitude": 126.6158,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "kunsan-notif-real-id",
@@ -195,116 +195,6 @@
   ],
   "events": [
     {
-      "id": "kunsan-monday-night-bingo-2026-09-21",
-      "title": "Monday Night Bingo",
-      "date": "2026-09-21T08:00:00",
-      "endDate": "2026-09-21T17:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Join us for Monday night bingo! Members play for just $10, non-members $15, with extra cards at $2 each, and a jackpot that keeps growing until someone wins it all!",
-      "category": "entertainment"
-    },
-    {
-      "id": "kunsan-reintegration-workshop-2026-09-21",
-      "title": "Reintegration Workshop",
-      "date": "2026-09-21T08:30:00",
-      "endDate": "2026-09-21T09:30:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Please call 782-5644 or email 8FSS.MFRC.OfficialCoord@us.af.mil to sign up.",
-      "category": "education"
-    },
-    {
-      "id": "kunsan-survivor-benefit-plan-sbp-2026-09-22",
-      "title": "Survivor Benefit Plan (SBP)",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Please call 782-5644 or email 8FSS.MFRC.OfficialCoord@us.af.mil to sign up.",
-      "category": "family"
-    },
-    {
-      "id": "kunsan-loring-club-lunch-buffet-2026-09-22",
-      "title": "Loring Club Lunch Buffet",
-      "date": "2026-09-22T11:00:00",
-      "endDate": "2026-09-22T13:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Tuesday-Thursday from 11:00 AM – 1:00 PM -Fresh salads -Dessert -Beverages $13.95 Club Members $15.95 Non-Members",
-      "category": "recreation"
-    },
-    {
-      "id": "kunsan-comprehensive-career-development-services-2026-09-22",
-      "title": "Comprehensive Career Development Services",
-      "date": "2026-09-22T15:00:00",
-      "endDate": "2026-09-22T16:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Please call 782-5644 or email 8FSS.MFRC.OfficialCoord@us.af.mil for sign-up",
-      "category": "family"
-    },
-    {
-      "id": "kunsan-conversational-korean-class-2026-09-22",
-      "title": "Conversational Korean Class",
-      "date": "2026-09-22T16:30:00",
-      "endDate": "2026-09-22T17:30:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Discover Korea through language. Culture, food, and connection – all in one class.",
-      "category": "education"
-    },
-    {
-      "id": "kunsan-build-your-own-hot-dog-bar-trivia-tuesday-2026-09-22",
-      "title": "Build Your Own Hot Dog Bar & Trivia Tuesday",
-      "date": "2026-09-22T17:00:00",
-      "endDate": "2026-09-22T20:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "1 HOT DOG MEMBER: $5 NON-MEMBER: $6 2 HOT DOGS MEMBER: $10 NON-MEMBER: $12",
-      "category": "entertainment"
-    },
-    {
-      "id": "kunsan-lunch-read-lunchtime-silent-book-club-2026-09-23",
-      "title": "Lunch & Read: Lunchtime Silent Book Club",
-      "date": "2026-09-23T11:00:00",
-      "endDate": "2026-09-23T12:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Lunch & Read: Lunchtime Silent Book Club",
-      "category": "education"
-    },
-    {
-      "id": "kunsan-colorful-cultural-workshop-hanji-lamp-2026-09-23",
-      "title": "Colorful Cultural Workshop - Hanji Lamp",
-      "date": "2026-09-23T12:00:00",
-      "endDate": "2026-09-23T13:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "Please call 782-5644 or email 8FSS.MFRC.OfficialCoord@us.af.mil to sign-up.",
-      "category": "education"
-    },
-    {
-      "id": "kunsan-story-telling-for-kids-2026-09-24",
-      "title": "Story Telling For Kids",
-      "date": "2026-09-24T11:00:00",
-      "endDate": "2026-09-24T12:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "",
-      "category": "family"
-    },
-    {
-      "id": "kunsan-thursdays-mongolian-bbq-2026-09-24",
-      "title": "Thursdays Mongolian BBQ",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T20:00:00",
-      "location": "Kunsan AB",
-      "address": "Gunsan, South Korea",
-      "description": "99¢ per once / $2 OFF for Members Guess the exact weight and get 50% OFF total price! “Create your own stir-fry” using a variety of meats, poultry, seafood, vegetables, sauces, and spices! Served with complimentary egg drop soup, steamed rice, lemonade, coffee, iced tea and dessert, too! Location Loring Club Contact DSN: 782-5480",
-      "category": "recreation"
-    },
-    {
       "id": "kunsan-newcomer-s-orientation-kro-briefing-at-base-thea-2026-09",
       "title": "Newcomer’s Orientation/KRO Briefing at Base Theater",
       "date": "2026-09-28T07:30:00",
@@ -313,6 +203,26 @@
       "address": "Gunsan, South Korea",
       "description": "Information Fair 1330-1530 Tue, 14 July: 0800-1630 @ Base Theater * Please contact your CSS to sign-up.",
       "category": "education"
+    },
+    {
+      "id": "kunsan-monday-night-bingo-2026-09-28",
+      "title": "Monday Night Bingo",
+      "date": "2026-09-28T08:00:00",
+      "endDate": "2026-09-28T17:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "Join us for Monday night bingo! Members play for just $10, non-members $15, with extra cards at $2 each, and a jackpot that keeps growing until someone wins it all!",
+      "category": "entertainment"
+    },
+    {
+      "id": "kunsan-build-your-own-hot-dog-bar-trivia-tuesday-2026-09-29",
+      "title": "Build Your Own Hot Dog Bar & Trivia Tuesday",
+      "date": "2026-09-29T17:00:00",
+      "endDate": "2026-09-29T20:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "1 HOT DOG MEMBER: $5 NON-MEMBER: $6 2 HOT DOGS MEMBER: $10 NON-MEMBER: $12",
+      "category": "entertainment"
     },
     {
       "id": "kunsan-mongolian-meal-for-lunch-at-o-malley-dfac-2026-09-30",
@@ -383,6 +293,86 @@
       "address": "",
       "description": "1 HOT DOG MEMBER: $5 NON-MEMBER: $6 2 HOT DOGS MEMBER: $10 NON-MEMBER: $12",
       "category": "entertainment"
+    },
+    {
+      "id": "kunsan-story-telling-for-kids-2026-10-08",
+      "title": "Story Telling For Kids",
+      "date": "2026-10-08T11:00:00",
+      "endDate": "2026-10-08T12:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "",
+      "category": "family"
+    },
+    {
+      "id": "kunsan-8-ball-tournament-2026-10-08",
+      "title": "8-Ball Tournament",
+      "date": "2026-10-08T18:00:00",
+      "endDate": "2026-10-08T21:30:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "Free to play, with prizes for 1st and 2nd place.",
+      "category": "fitness"
+    },
+    {
+      "id": "kunsan-german-village-oktoberfest-ocean-cable-car-ride-2026-10-1",
+      "title": "German Village Oktoberfest & Ocean Cable Car Ride",
+      "date": "2026-10-10T07:00:00",
+      "endDate": "2026-10-10T19:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "$80 per person",
+      "category": "holiday"
+    },
+    {
+      "id": "kunsan-suncheon-bay-national-garden-2026-10-11",
+      "title": "Suncheon Bay National Garden",
+      "date": "2026-10-11T07:30:00",
+      "endDate": "2026-10-11T17:30:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "$65 per person",
+      "category": "outdoor"
+    },
+    {
+      "id": "kunsan-monday-night-bingo-2026-10-12",
+      "title": "Monday Night Bingo",
+      "date": "2026-10-12T08:00:00",
+      "endDate": "2026-10-12T17:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "Join us for Monday night bingo! Members play for just $10, non-members $15, with extra cards at $2 each, and a jackpot that keeps growing until someone wins it all!",
+      "category": "entertainment"
+    },
+    {
+      "id": "kunsan-ping-pong-tournament-2026-10-15",
+      "title": "Ping Pong Tournament",
+      "date": "2026-10-15T18:00:00",
+      "endDate": "2026-10-16T21:30:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "Want to put your ping pong skills to the test? This is your chance! Prizes for 1st and 2nd place.",
+      "category": "fitness"
+    },
+    {
+      "id": "kunsan-jinju-namgang-lantern-festival-2026-10-17",
+      "title": "Jinju Namgang Lantern Festival",
+      "date": "2026-10-17T13:00:00",
+      "endDate": "2026-10-17T23:30:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "$60 per person",
+      "category": "community"
+    },
+    {
+      "id": "kunsan-sunchang-jangryu-festival-2026-10-18",
+      "title": "Sunchang Jangryu Festival",
+      "date": "2026-10-18T09:00:00",
+      "endDate": "2026-10-18T17:00:00",
+      "location": "Kunsan AB",
+      "address": "Gunsan, South Korea",
+      "description": "ONLY $10 per person",
+      "category": "community"
     }
   ],
   "newcomers": {

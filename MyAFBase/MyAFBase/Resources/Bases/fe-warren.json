@@ -7,7 +7,7 @@
   "wing": "90 MW",
   "latitude": 41.1403,
   "longitude": -104.8652,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "fe-warren-notif-real-id",
@@ -254,36 +254,6 @@
     }
   ],
   "events": [
-    {
-      "id": "fe-warren-homeschool-laser-tag-2026-09-22",
-      "title": "Homeschool Laser Tag",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:00:00",
-      "location": "Fall Hall Community Center",
-      "address": "110 East Plaza, FE Warren AFB, WY",
-      "description": "September 22, 10 a.m. - 11 a.m. Cost: Free Are you a Homeschooler looking to get out of the house, get some exercise and meet new friends in the community? Join us at Fall Hall Community Center for FREE Laser Tag Games for Homeschool kids!",
-      "category": "education"
-    },
-    {
-      "id": "fe-warren-craft-and-corks-diy-autumn-doormat-2026-09-25",
-      "title": "Craft and Corks, DIY Autumn Doormat",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T20:30:00",
-      "location": "Arts and Crafts Center",
-      "address": "6905 Diamond Creek Way, FE Warren AFB, WY",
-      "description": "September 25, 5:30 - 8:30 p.m. Cost: $45 per person - includes wine and snacks Must sign up and choose design by September 16.",
-      "category": "recreation"
-    },
-    {
-      "id": "fe-warren-ladies-sunday-swap-2026-09-27",
-      "title": "Ladies Sunday Swap",
-      "date": "2026-09-27T10:00:00",
-      "endDate": "2026-09-27T14:00:00",
-      "location": "Fall Hall Community Center",
-      "address": "110 East Plaza, FE Warren AFB, WY",
-      "description": "September 27, 10 a.m. Cost: $20 Join us at Awake Coffee Shop for a fun Sunday Swap! Bring something handmade, homemade, or homegrown to swap with the group - think baked goods, jams, sourdough starters, garden goodies, crafts, candles, flowers, personalized gifts, or anything made with love. You'll also get to customize your own collection bag! Registration is $20 and includes the bag craft, a breakfast pastry bar, a",
-      "category": "recreation"
-    },
     {
       "id": "fe-warren-2nd-saturday-arts-crafts-2026-10-10",
       "title": "2nd Saturday @ Arts & Crafts",

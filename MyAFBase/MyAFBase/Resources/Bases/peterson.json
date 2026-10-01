@@ -7,7 +7,7 @@
   "wing": "SBD 1",
   "latitude": 38.8121,
   "longitude": -104.7006,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "peterson-notif-aragon-dfac",
@@ -356,73 +356,13 @@
   ],
   "events": [
     {
-      "id": "peterson-pre-deployment-remote-tours-2026-09-21",
+      "id": "peterson-pre-deployment-remote-tours-2026-09-28",
       "title": "Pre-Deployment & Remote Tours",
-      "date": "2026-09-21T13:00:00",
-      "endDate": "2026-09-21T16:00:00",
+      "date": "2026-09-28T13:00:00",
+      "endDate": "2026-09-28T16:00:00",
       "location": "Military and Family Readiness-Peterson SFB",
       "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
       "description": "",
-      "category": "community"
-    },
-    {
-      "id": "peterson-reel-fun-craft-night-2026-09-22",
-      "title": "Reel Fun Craft Night",
-      "date": "2026-09-22",
-      "endDate": "2026-09-22",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "recreation"
-    },
-    {
-      "id": "peterson-heartlink-spouse-orientation-2026-09-23",
-      "title": "Heartlink Spouse Orientation",
-      "date": "2026-09-23T08:30:00",
-      "endDate": "2026-09-23T13:30:00",
-      "location": "Military and Family Readiness-Peterson SFB",
-      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
-      "description": "Whether you’re new to Peterson SFB, a new military spouse, or simply looking to connect and build relationships, Heart Link is your gateway to a supportive community! Join us to discover valuable resources and information from our incredible partner agencies. Location: Military & Family Readiness, Building 350, Peterson SFB • Orientation: M&FRC Large Classroom • Resource Fair: Building 350 Atrium Details: • Free lunch provided • Children are welcome • Click to register , or contact us today by phone or email to sign up! Come learn, connect, and build your support network!",
-      "category": "family"
-    },
-    {
-      "id": "peterson-trivia-night-2026-09-23",
-      "title": "Trivia Night",
-      "date": "2026-09-23T18:00:00",
-      "endDate": "2026-09-23T20:00:00",
-      "location": "The Peterson Hub – Community Center",
-      "address": "260 Glasgow Ave # 1013, Peterson SFB, CO, 80914",
-      "description": "Colorado Pizza & Sports Grill Weekly Prizes This program is free and available to all DOD ID Cardholders.",
-      "category": "entertainment"
-    },
-    {
-      "id": "peterson-dodgeball-madness-tournament-2026-09-24",
-      "title": "Dodgeball Madness Tournament",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "fitness"
-    },
-    {
-      "id": "peterson-end-of-summer-final-friday-concert-2026-09-25",
-      "title": "End of Summer Final Friday Concert",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Peterson SFB",
-      "address": "Colorado Springs, CO",
-      "description": "Listed on the public FSS/MWR calendar for Peterson SFB.",
-      "category": "community"
-    },
-    {
-      "id": "peterson-sup-trip-2026-09-26",
-      "title": "Fall Standup Paddleboarding Trip",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "Outdoor Adventure Programs",
-      "address": "Peterson SFB / local waters",
-      "description": "Fall SUP trip; 21 FSS calendar.",
       "category": "community"
     },
     {
@@ -454,6 +394,16 @@
       "address": "Peterson SFB, CO",
       "description": "Deployed Family Dinner; 21 FSS calendar.",
       "category": "community"
+    },
+    {
+      "id": "peterson-ufc-fight-force-watch-party-2026-10-02",
+      "title": "UFC Fight Force Watch Party",
+      "date": "2026-10-02T18:15:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "The Peterson Hub – Community Center",
+      "address": "260 Glasgow Ave # 1013, Peterson SFB, CO, 80914",
+      "description": "Watch the action from Minot Air Force Base with us at Colorado Pizza in the Peterson Hub Community Center on Friday, October 2. We’ll show Fury Fight Force 125 live on UFC Fight Pass, with a free buffet for guests. The fight card features Meck vs. Taylor for the Fury FC welterweight title, along with Riles vs. Jones, Calderon vs. Esteves, and Dixon vs. Foster. Arrive early to grab a good seat. Prelims: 6:15 p.m. Main card: 7 p.m. Location: Colorado Pizza, Peterson Hub Community Center",
+      "category": "entertainment"
     },
     {
       "id": "peterson-intermediate-advanced-mountain-bike-trip-2026-10-03",
@@ -516,6 +466,36 @@
       "category": "outdoor"
     },
     {
+      "id": "peterson-preschool-stream-2026-10-09",
+      "title": "Preschool Stream",
+      "date": "2026-10-09T10:00:00",
+      "endDate": "2026-10-09T11:00:00",
+      "location": "Peterson Library",
+      "address": "201 Stewart Ave., Peterson SFB, CO, 80914",
+      "description": "Bring your little one in for a unique storytime and play experience. We will focus on literacy, science, technology, and math through art and experimentation. Includes a story and STREAM-themed activity.",
+      "category": "family"
+    },
+    {
+      "id": "peterson-lego-club-2026-10-10",
+      "title": "Lego Club",
+      "date": "2026-10-10T10:00:00",
+      "endDate": "2026-10-10T11:00:00",
+      "location": "Peterson Library",
+      "address": "201 Stewart Ave., Peterson SFB, CO, 80914",
+      "description": "Join us for fun, themed STEM Building on the 2nd Saturday of Each Month All Ages Welcome. Adult Supervision Required.",
+      "category": "entertainment"
+    },
+    {
+      "id": "peterson-11-teens-dungeons-and-dragons-2026-10-10",
+      "title": "11+ Teens Dungeons and Dragons",
+      "date": "2026-10-10T11:00:00",
+      "endDate": "2026-10-10T13:00:00",
+      "location": "Peterson Library",
+      "address": "201 Stewart Ave., Peterson SFB, CO, 80914",
+      "description": "Greetings, Adventurers! Adventurers of all experience levels are welcome, whether you’re a seasoned hero or setting out on your very first quest. This 5th Edition Dungeons & Dragons campaign includes a touch of homebrew magic, so expect the unexpected! Get ready for thrilling encounters, wild twists, and unforgettable fun as your party takes on whatever fate (and the DM) throws your way. Open to youth ages 11 to 17. Imagination required; experience optional. Click Here to Register",
+      "category": "family"
+    },
+    {
       "id": "peterson-pre-deployment-remote-tours-2026-10-12",
       "title": "Pre-Deployment & Remote Tours",
       "date": "2026-10-12T13:00:00",
@@ -526,6 +506,16 @@
       "category": "community"
     },
     {
+      "id": "peterson-reel-fun-craft-night-2026-10-13",
+      "title": "Reel Fun Craft Night",
+      "date": "2026-10-13T16:30:00",
+      "endDate": "2026-10-13T18:00:00",
+      "location": "Peterson Library",
+      "address": "201 Stewart Ave., Peterson SFB, CO, 80914",
+      "description": "Join us at Peterson Library for a fun-filled evening of creativity and entertainment! Enjoy a family-friendly movie and let your imagination shine with crafts or open art time. It’s the perfect way to relax, create, and spend quality time together. All Ages Welcome. Caregiver Supervision Required.",
+      "category": "family"
+    },
+    {
       "id": "peterson-great-sand-dunes-national-park-sand-sledding-tri-2026-1",
       "title": "Great Sand Dunes National Park Sand Sledding Trip",
       "date": "2026-10-17T06:00:00",
@@ -534,6 +524,16 @@
       "address": "830 Tinker Street Building 640, Peterson SFB, CO, 80914",
       "description": "This must-do Colorado adventure takes place at the Great Sand Dunes National Park and Preserve. You will have the opportunity to do a self-guided hike of Star Dune (750 ft.) or take it easy on some of the lower angle ridges to try out sand sledding. It’s sure to be a trip you won’t forget. Cost: $100/person. Includes transportation, sand sled rental, lunch, and entrance fee to the park. 2026 Date: Saturday, October 17 Location: Great Sand Dunes National Park & Preserve Time: 6 a.m. – 6p.m.; Trip meets at ODR. Cancellation Deadline: Friday, October 2, by 5 p.m. Sign-up Deadline: Tuesday, Octobe",
       "category": "outdoor"
+    },
+    {
+      "id": "peterson-pre-deployment-remote-tours-2026-10-19",
+      "title": "Pre-Deployment & Remote Tours",
+      "date": "2026-10-19T13:00:00",
+      "endDate": "2026-10-19T16:00:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "",
+      "category": "community"
     },
     {
       "id": "peterson-3rd-annual-smashtober-pickleball-tournament-begi-2026-1",
@@ -570,6 +570,16 @@
       "title": "Pre-Deployment & Remote Tours",
       "date": "2026-11-02T13:00:00",
       "endDate": "2026-11-02T16:00:00",
+      "location": "Military and Family Readiness-Peterson SFB",
+      "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "peterson-pre-deployment-remote-tours-2026-11-09",
+      "title": "Pre-Deployment & Remote Tours",
+      "date": "2026-11-09T13:00:00",
+      "endDate": "2026-11-09T16:00:00",
       "location": "Military and Family Readiness-Peterson SFB",
       "address": "135 Dover St., Bldg. 350, STE 1203, Peterson SFB, CO, 80814",
       "description": "",

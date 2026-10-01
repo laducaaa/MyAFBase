@@ -7,7 +7,7 @@
   "wing": "49 WG",
   "latitude": 32.8523,
   "longitude": -106.1066,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "holloman-notif-real-id",
@@ -277,64 +277,14 @@
   ],
   "events": [
     {
-      "id": "holloman-water-aerobics-2026-09-23",
-      "title": "Water Aerobics",
-      "date": "2026-09-23T11:00:00",
-      "endDate": "2026-09-23T12:00:00",
-      "location": "Domenici Fitness & Sports Center",
-      "address": "1051 W Connecticut Ave Building 588, Holloman AFB, NM, 88330",
-      "description": "💦 Make a splash with Water Aerobics! 💦 Looking for a fun, low-impact way to stay active? Join us for Water Aerobics every Monday, Wednesday, and Friday from 11 AM–12 PM at the indoor pool in the fitness center! This class is perfect for boosting strength, mobility, and overall fitness—all while going easy on your joints. Want to save on classes? Grab a 5- or 10-class voucher from Outdoor Recreation and get more fitness for less! 📞 For details, call 575-572-5369 . Dive in and start feeling great! 🏊‍♀️✨",
-      "category": "outdoor"
-    },
-    {
-      "id": "holloman-dance-night-2026-09-23",
-      "title": "Dance Night",
-      "date": "2026-09-23T17:00:00",
-      "endDate": "2026-09-23T19:00:00",
-      "location": "Community Activity Center",
-      "address": "Alamogordo, NM",
-      "description": "Dust off those boots and come dance the night away at the Community Activity Center! Join us September 2, 9 & 23 for a FREE night of line dancing, two-step, and salsa dancing. From 5-6 PM , learn your line dancing and two-step moves, then turn up the rhythm with salsa dancing from 6-7 PM . Best part? Participation is FREE, and drop-ins are always welcome! Registration is encouraged, so grab your dancing shoes and com",
-      "category": "community"
-    },
-    {
-      "id": "holloman-home-alone-safety-training-2026-09-24",
-      "title": "Home Alone Safety Training",
-      "date": "2026-09-24T09:00:00",
-      "endDate": "2026-09-24T11:00:00",
-      "location": "Child & Youth Programs",
-      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
-      "description": "🏠 Is your child ready to stay home alone? Help your 10-11-year-old build confidence and learn important safety skills at our Home Alone Safety Training at the Youth Center! Upon completion, 10-year-olds may be left home alone for up to 2 hours before 10PM without a sitter. 📅 September 24 | 9AM – 11AM 📍 Youth Center, 226 Patterson Dr., Bldg. 647 Spots are limited! Reserve your child’s spot by calli",
-      "category": "education"
-    },
-    {
-      "id": "holloman-bingo-night-2026-09-24",
-      "title": "Bingo Night",
-      "date": "2026-09-24T17:00:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "Community Activity Center",
-      "address": "Alamogordo, NM",
-      "description": "Get ready to mark those cards and chase that BINGO! Join us at the CAC on September 10 & 24 for a night of fun, friendly competition, and winning possibilities. Doors open at 5 PM, card sales end at 5:45 PM, and games begin at 6 PM. Bingo books are $15 when pre-ordered by 4 PM the day before, or $20 at the door, plus $2 progressive cards. Pre-orders can be made in person or by phone. For more information: 575-572-747",
-      "category": "family"
-    },
-    {
-      "id": "holloman-cia-recruitment-2026-09-25",
-      "title": "CIA Recruitment",
-      "date": "2026-09-25T09:00:00",
-      "endDate": "2026-09-25T15:00:00",
+      "id": "holloman-private-swim-lessons-2026-09-28",
+      "title": "Private Swim Lessons",
+      "date": "2026-09-28T08:00:00",
+      "endDate": "2026-09-28T17:00:00",
       "location": "Holloman AFB",
       "address": "Alamogordo, NM",
-      "description": "Ready to take your skills and experience beyond the military? The CIA is recruiting for opportunities within its Directorate of Operations, including Specialized Skills Officer and Para-Military Operations Officer positions. 📅 September 25 ⏰ 9-11 AM & 1-3 PM 📍 BLDG 788 Stop by to learn more about serving your country in a new capacity.",
-      "category": "community"
-    },
-    {
-      "id": "holloman-keystone-club-fridays-2026-09-25",
-      "title": "Keystone Club Fridays",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-25T18:00:00",
-      "location": "Child & Youth Programs",
-      "address": "226 Patterson Dr, Holloman AFB, NM, 88330",
-      "description": "Calling all youth and teens ages 10–18! The Youth & Teen Center is kicking off Torch Club & Keystone Club Fridays beginning September 4. Join us every Friday from 2–5 PM for fun social-recreational activities, new experiences, and opportunities to build leadership skills and make new friends! Registration is required through the AF CYPBMS Parent Portal. Register under the Camps and Instructional tab for either Torch Club or Keystone Club. Need help creating an account or registering? Contact the Youth & Teen Center at 575-572-3753 or hollomanyp@gmail.com. Come hang out, get involved, and make ",
-      "category": "family"
+      "description": "div:has([data-free-thinking-preview-answer=true])+:is(.text-message,.relative:has(>.text-message))]:-mt-2 grow\"> Ready to make a splash? Private swim lessons are available at the Indoor Pool for swimmers looking to build confidence, improve technique, or take their skills to the next level! Lessons are $30 per session and offered every Monday, Wednesday and Friday from 10:30AM – 12:30PM . 📍 Indoor Pool at Domenici Fitness & Sports Center 📞 Call Outdoor Recreation at 575-572-5369 to register! Please note that you need base access to attend! #HollomanFitRec",
+      "category": "outdoor"
     },
     {
       "id": "holloman-water-aerobics-2026-10-02",
@@ -365,6 +315,16 @@
       "address": "Alamogordo, NM",
       "description": "📅 October 2 ⏰ 4PM – 6 PM 📍 Community Activity Center (CAC) New game every hour— no reservation required! Bring your own Nerf blaster or rent one for just $1, $3, or $5 . Nerf darts and eye protection are provided. 👦 Ages 7+ 👨‍👩‍👧 Parents are welcome to play, but must stay! Grab your blaster, bring your crew, and get ready for some serious fun! 💜🧡",
       "category": "community"
+    },
+    {
+      "id": "holloman-paintball-with-odr-2026-10-03",
+      "title": "Paintball with ODR",
+      "date": "2026-10-03T09:00:00",
+      "endDate": "2026-10-03T13:00:00",
+      "location": "Apache Sports Range",
+      "address": "Sabre Rd, Holloman AFB, NM, 88330",
+      "description": "Paintball is back at Apache Sports Range! Get your crew together and join us for some fast-paced fun and friendly competition on the field. 📅 Saturdays ⏰ 9AM – 1PM📍 Apache Sports Range, Holloman AFB Whether you’re looking for a group activity, team-building experience, or just want to put your skills to the test, Apache Sports Range is the place to play! Please note that you need base access to attend this event! #HollomanFitRec",
+      "category": "outdoor"
     },
     {
       "id": "holloman-compass-club-launch-party-2026-10-05",
@@ -407,6 +367,16 @@
       "category": "holiday"
     },
     {
+      "id": "holloman-rock-collecting-at-oro-grande-2026-10-17",
+      "title": "Rock Collecting at Oro Grande",
+      "date": "2026-10-17T08:30:00",
+      "endDate": "2026-10-17T17:00:00",
+      "location": "Outdoor Recreation",
+      "address": "580 W 4th St, Holloman AFB, NM, 88330",
+      "description": "Join Outdoor Recreation on October 17 for a day of rock collecting in the historic mines of Oro Grande, NM. Explore the area with mine owner Eddie DeLuca and hunt for copper, iron ore, turquoise, pyrite (fool’s gold) and more! The trip is just $10 for ages 12+ , while ages 11 and under are FREE. We’ll be walking about ¾ of a mile to the mines, so bring good shoes and plenty of water. 📅 October 17 ⏰ Departure at 8:30AM📍 Oro Grande, NM 📲 Register by October 15 and scan the QR code for trip details. Call Outdoor Recreation at 575-572-5369 or stop by for more information! Please note that you need",
+      "category": "outdoor"
+    },
+    {
       "id": "holloman-jump-week-2026-10-20",
       "title": "Jump Week",
       "date": "2026-10-20T09:00:00",
@@ -447,6 +417,36 @@
       "category": "family"
     },
     {
+      "id": "holloman-fall-fest-2026-10-25",
+      "title": "Fall Fest",
+      "date": "2026-10-25T14:00:00",
+      "endDate": "2026-10-25T18:00:00",
+      "location": "BX Parking Lot",
+      "address": "Building 227, W New Mexico Ave,, Holloman AFB",
+      "description": "Join us October 25 from 2PM – 6PM at the BX Parking Lot for an afternoon packed with fall fun! Enjoy a costume contest, pumpkin painting, petting zoo, trunk-or-treat, carnival games, inflatables and more! Best of all, Fall Fest is FREE and open to all! 🍁 Come dressed in your best costume, bring the family and get ready for an afternoon of fall festivities! 🎃 #HollomanFun",
+      "category": "holiday"
+    },
+    {
+      "id": "holloman-dance-night-2026-10-28",
+      "title": "Dance Night",
+      "date": "2026-10-28T17:00:00",
+      "endDate": "2026-10-28T19:00:00",
+      "location": "Community Activity Center",
+      "address": "Alamogordo, NM",
+      "description": "Ready to learn some new moves and have a little fun? Join us October 14 & 28 at the Community Activity Center for a FREE night of dancing! From 5PM – 6PM , learn the basics of line dancing & two-step , then keep the energy going with salsa dancing from 6PM – 7PM. No experience? No problem! Drop-ins are welcome, and participation is FREE. 📍 Bldg. 325 📞 575-572-7476 | Grab a partner – or come solo – and hit the dance floor! 🤠💃",
+      "category": "community"
+    },
+    {
+      "id": "holloman-bingo-night-2026-10-29",
+      "title": "Bingo Night",
+      "date": "2026-10-29T17:00:00",
+      "endDate": "2026-10-29T20:00:00",
+      "location": "Community Activity Center",
+      "address": "Alamogordo, NM",
+      "description": "Get ready to shout BINGO! at the Community Activity Center on October 15 ! Join us for a night of bingo, prizes, and Halloween fun. 👻 Dress up on October 29 for a chance to win a prize for Best Costume! Bingo books are $15 pre-order until 4 PM the day before the event or $20 at the door , with $2 progressive cards available. Doors open at 5 PM , card sales end at 5:45 PM , and games begin at 6 PM . Ages 16+ . 📍 Community Activity Center 📅 October 15 & 29 ⏰ Doors open at 5 PM 📞 575-572-7476 for more information Please note that you need base access to attend this event! #HollomanFun",
+      "category": "holiday"
+    },
+    {
       "id": "holloman-candy-climb-2026-10-30",
       "title": "Candy Climb",
       "date": "2026-10-30T16:30:00",
@@ -455,6 +455,26 @@
       "address": "Alamogordo, NM",
       "description": "Looking for a spooky way to spend the evening before Halloween? Head to Outdoor Recreation on October 30 from 4:30PM – 6:30PM for an evening of climbing, candy, and Halloween fun! Come dressed in your favorite costume and get ready to climb for some candy! All ages and experience levels are welcome, and the event is FREE for everyone. 📅 October 30 ⏰ 4:30PM – 6:30PM 📍 Outdoor Recreation 🎟️ FREE | All ages welcome Please note that you need base access to attend this event! #HollomanFun #HollomanFamily",
       "category": "holiday"
+    },
+    {
+      "id": "holloman-paintball-with-odr-2026-11-07",
+      "title": "Paintball with ODR",
+      "date": "2026-11-07T09:00:00",
+      "endDate": "2026-11-07T13:00:00",
+      "location": "Apache Sports Range",
+      "address": "Sabre Rd, Holloman AFB, NM, 88330",
+      "description": "Paintball is back at Apache Sports Range! Get your crew together and join us for some fast-paced fun and friendly competition on the field. 📅 Saturdays ⏰ 9AM – 1PM📍 Apache Sports Range, Holloman AFB Whether you’re looking for a group activity, team-building experience, or just want to put your skills to the test, Apache Sports Range is the place to play! Please note that you need base access to attend this event! #HollomanFitRec",
+      "category": "outdoor"
+    },
+    {
+      "id": "holloman-paintball-with-odr-2026-12-05",
+      "title": "Paintball with ODR",
+      "date": "2026-12-05T09:00:00",
+      "endDate": "2026-12-05T13:00:00",
+      "location": "Apache Sports Range",
+      "address": "Sabre Rd, Holloman AFB, NM, 88330",
+      "description": "Paintball is back at Apache Sports Range! Get your crew together and join us for some fast-paced fun and friendly competition on the field. 📅 Saturdays ⏰ 9AM – 1PM📍 Apache Sports Range, Holloman AFB Whether you’re looking for a group activity, team-building experience, or just want to put your skills to the test, Apache Sports Range is the place to play! Please note that you need base access to attend this event! #HollomanFitRec",
+      "category": "outdoor"
     }
   ],
   "newcomers": {

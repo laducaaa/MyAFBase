@@ -7,7 +7,7 @@
   "wing": "509 BW",
   "latitude": 38.7303,
   "longitude": -93.5479,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "whiteman-notif-real-id",
@@ -244,54 +244,44 @@
   ],
   "events": [
     {
-      "id": "whiteman-chili-bingo-night-2026-09-22",
-      "title": "Chili-Bingo Night",
-      "date": "2026-09-22T00:00:00",
-      "endDate": "2026-09-22T23:59:59",
-      "location": "405 E Wimer Street, Knob Noster, MO 65336",
-      "address": "Knob Noster, MO",
-      "description": "Public community event near Whiteman AFB (Chili-Bingo Night).",
-      "category": "entertainment"
+      "id": "whiteman-skillbridge-briefing-2026-09-29",
+      "title": "Skillbridge Briefing",
+      "date": "2026-09-29T13:00:00",
+      "endDate": "2026-09-29T14:00:00",
+      "location": "Professional Development Center",
+      "address": "Whiteman AFB, MO, 65305",
+      "description": "This briefing is the first step for Airmen who are interested in participating in the DoD SkillBridge program. The program provides eligible transitioning DAF members opportunities to develop career skills through civilian on-the-job-training, employment skills training, apprenticeships, and internships to help them prepare for their transition from military to civilian employment.",
+      "category": "education"
     },
     {
-      "id": "whiteman-airmen-lunch-bowling-2026-09-24",
-      "title": "Airmen Lunch Bowling",
-      "date": "2026-09-24T11:00:00",
-      "endDate": "2026-09-24T13:00:00",
+      "id": "whiteman-cosmic-bowling-2026-10-02",
+      "title": "Cosmic Bowling",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T22:00:00",
       "location": "Stars & Strikes Bowling Center",
-      "address": "699 Mitchell Ave, Whiteman AFB, MO 65305",
-      "description": "Airmen Lunch Bowling",
+      "address": "699 Mitchell Ave, Whiteman AFB, MO, 65305",
+      "description": "",
       "category": "recreation"
     },
     {
-      "id": "whiteman-oktoberfest-2026-09-25",
-      "title": "Oktoberfest",
-      "date": "2026-09-25T17:00:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Mission's End Club & Refueling Point Coffee Trailer",
-      "address": "322 Spirit Blvd, Whiteman AFB, MO",
-      "description": "Oktoberfest with German-style food, music, games, and costume contest. Base access required. Source: 509 FSS listing via AllEvents.",
-      "category": "community"
+      "id": "whiteman-airmen-lunch-bowling-2026-10-08",
+      "title": "Airmen Lunch Bowling",
+      "date": "2026-10-08T11:00:00",
+      "endDate": "2026-10-08T13:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "699 Mitchell Ave, Whiteman AFB, MO, 65305",
+      "description": "",
+      "category": "recreation"
     },
     {
-      "id": "whiteman-2026-fall-fest-2026-09-26",
-      "title": "2026 Fall Fest!",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "Knob Noster, Missouri",
-      "address": "Knob Noster, MO",
-      "description": "Public community event near Whiteman AFB (2026 Fall Fest!).",
-      "category": "family"
-    },
-    {
-      "id": "whiteman-sig-sauer-academy-2026-09-26",
-      "title": "Sig Sauer Academy",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T23:59:59",
-      "location": "801 Deerbrook, Knob Noster, MO",
-      "address": "Knob Noster, MO",
-      "description": "Public community event near Whiteman AFB (Sig Sauer Academy).",
-      "category": "community"
+      "id": "whiteman-skillbridge-briefing-2026-10-13",
+      "title": "Skillbridge Briefing",
+      "date": "2026-10-13T13:00:00",
+      "endDate": "2026-10-13T14:00:00",
+      "location": "Professional Development Center",
+      "address": "Whiteman AFB, MO, 65305",
+      "description": "This briefing is the first step for Airmen who are interested in participating in the DoD SkillBridge program. The program provides eligible transitioning DAF members opportunities to develop career skills through civilian on-the-job-training, employment skills training, apprenticeships, and internships to help them prepare for their transition from military to civilian employment.",
+      "category": "education"
     },
     {
       "id": "whiteman-steam-library-2026-10-14",
@@ -364,6 +354,36 @@
       "category": "outdoor"
     },
     {
+      "id": "whiteman-airmen-lunch-bowling-2026-11-05",
+      "title": "Airmen Lunch Bowling",
+      "date": "2026-11-05T11:00:00",
+      "endDate": "2026-11-05T13:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "699 Mitchell Ave, Whiteman AFB, MO, 65305",
+      "description": "",
+      "category": "recreation"
+    },
+    {
+      "id": "whiteman-cosmic-bowling-2026-11-06",
+      "title": "Cosmic Bowling",
+      "date": "2026-11-06T18:00:00",
+      "endDate": "2026-11-06T22:00:00",
+      "location": "Stars & Strikes Bowling Center",
+      "address": "699 Mitchell Ave, Whiteman AFB, MO, 65305",
+      "description": "",
+      "category": "recreation"
+    },
+    {
+      "id": "whiteman-skillbridge-briefing-2026-11-10",
+      "title": "Skillbridge Briefing",
+      "date": "2026-11-10T13:00:00",
+      "endDate": "2026-11-10T14:00:00",
+      "location": "Professional Development Center",
+      "address": "Whiteman AFB, MO, 65305",
+      "description": "This briefing is the first step for Airmen who are interested in participating in the DoD SkillBridge program. The program provides eligible transitioning DAF members opportunities to develop career skills through civilian on-the-job-training, employment skills training, apprenticeships, and internships to help them prepare for their transition from military to civilian employment.",
+      "category": "education"
+    },
+    {
       "id": "whiteman-steam-library-2026-11-11",
       "title": "STEAM – Library",
       "date": "2026-11-11T13:00:00",
@@ -402,6 +422,16 @@
       "address": "Knob Noster, MO",
       "description": "Public community event near Whiteman AFB (Jingle Bell Hikes).",
       "category": "community"
+    },
+    {
+      "id": "whiteman-skillbridge-briefing-2026-12-08",
+      "title": "Skillbridge Briefing",
+      "date": "2026-12-08T13:00:00",
+      "endDate": "2026-12-08T14:00:00",
+      "location": "Professional Development Center",
+      "address": "Whiteman AFB, MO, 65305",
+      "description": "This briefing is the first step for Airmen who are interested in participating in the DoD SkillBridge program. The program provides eligible transitioning DAF members opportunities to develop career skills through civilian on-the-job-training, employment skills training, apprenticeships, and internships to help them prepare for their transition from military to civilian employment.",
+      "category": "education"
     },
     {
       "id": "whiteman-steam-library-2026-12-09",

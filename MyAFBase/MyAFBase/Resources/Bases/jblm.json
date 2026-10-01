@@ -7,7 +7,7 @@
   "wing": "62 AW",
   "latitude": 47.1377,
   "longitude": -122.476,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "jblm-notif-real-id",
@@ -359,184 +359,84 @@
   ],
   "events": [
     {
-      "id": "jblm-efmp-family-support-family-fusion-playgroup-2026-09-21",
-      "title": "EFMP Family Support - Family Fusion Playgroup",
-      "date": "2026-09-21T10:00:00",
-      "endDate": "2026-09-21T11:30:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Explore, play, learn, and relax among other EFMP Families. Sep 21 2026, 10 am - 11:30 am Typically repeats weekly on Mondays. Sep 21 2026, 10 am - 11:30 am Explore, Play, Learn, and Relax among other EFMP Families at the Children's Museum on JBLM. Designated low-sensory time specifically for our EFMP Community. Strengthen family relationships through social play. Create joyful memories for the whole family. Appropriate for all children experiencing sensory processing disorder and their siblings. A safe space for parents to connect with other families and build a local support network. NO PLAYG",
+      "id": "jblm-little-wiggles-words-2026-09-28",
+      "title": "Little Wiggles & Words",
+      "date": "2026-09-28T10:00:00",
+      "endDate": "2026-09-28T10:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: Little Wiggles & Words.",
       "category": "family"
     },
     {
-      "id": "jblm-new-parent-support-program-potty-training-prep-2026-09-21",
-      "title": "New Parent Support Program - Potty Training Prep",
-      "date": "2026-09-21T12:00:00",
-      "endDate": "2026-09-21T13:00:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 21 2026, 12 pm - 1 pm Typically repeats monthly on Thursdays. Sep 21 2026, 12 pm - 1 pm Ready to ditch the diaper? Learn how to begin the process step by step, how to deal with setbacks, and celebrate successes. Cost FREE Registration Information Call 253-967-7409 Facebook X Pinterest Email Print Export to Calendar",
-      "category": "family"
+      "id": "jblm-welcome-luncheon-2026-09-28",
+      "title": "Welcome Luncheon",
+      "date": "2026-09-28T12:00:00",
+      "endDate": "2026-09-28T12:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: Welcome Luncheon.",
+      "category": "community"
     },
     {
-      "id": "jblm-nerd-night-2026-09-21",
+      "id": "jblm-nerd-night-2026-09-28",
       "title": "Nerd Night",
-      "date": "2026-09-21T14:00:00",
-      "endDate": "2026-09-21T17:00:00",
+      "date": "2026-09-28T14:00:00",
+      "endDate": "2026-09-28T14:00:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
+      "description": "JBLM MWR public event: Nerd Night.",
       "category": "entertainment"
     },
     {
-      "id": "jblm-afcs-new-parent-support-program-stroller-squad-2026-09-22",
+      "id": "jblm-afcs-new-parent-support-program-stroller-squad-2026-09-29",
       "title": "AFCS New Parent Support Program - Stroller Squad",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:20:00",
+      "date": "2026-09-29T10:00:00",
+      "endDate": "2026-09-29T10:00:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
-      "category": "outdoor"
+      "description": "JBLM MWR public event: AFCS New Parent Support Program - Stroller Squad.",
+      "category": "family"
     },
     {
-      "id": "jblm-new-parent-support-program-baby-book-crafting-gr-2026-09-22",
+      "id": "jblm-new-parent-support-program-baby-book-crafting-gr-2026-09-29",
       "title": "New Parent Support Program - Baby Book Crafting Group",
-      "date": "2026-09-22T10:30:00",
-      "endDate": "2026-09-22T12:30:00",
+      "date": "2026-09-29T10:30:00",
+      "endDate": "2026-09-29T10:30:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
+      "description": "JBLM MWR public event: New Parent Support Program - Baby Book Crafting Group.",
       "category": "family"
     },
     {
-      "id": "jblm-storytime-at-mcchord-library-2026-09-22",
+      "id": "jblm-storytime-at-mcchord-library-2026-09-29",
       "title": "Storytime at McChord Library",
-      "date": "2026-09-22T11:00:00",
-      "endDate": "2026-09-22T12:00:00",
+      "date": "2026-09-29T11:00:00",
+      "endDate": "2026-09-29T11:00:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
+      "description": "JBLM MWR public event: Storytime at McChord Library.",
       "category": "family"
     },
     {
-      "id": "jblm-3d-printing-corner-2026-09-22",
-      "title": "3D Printing Corner",
-      "date": "2026-09-22T15:00:00",
-      "endDate": "2026-09-22T16:30:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 22 2026, 3 pm - 4:30 pm Sep 22 2026, 3 pm - 4:30 pm Interested in learning about 3D printing or curious if it's the right hobby to invest in? Stop by the Grandstaff Library, Tuesday, Sept. 22, 3–4:30 p.m. for 3D Printing Corner. 3D printing can be expensive, so come see if it's right for you! Learn about the parts and workflow while you learn some of the best practices for beginners. Afterwards, we'll show you the more detailed steps of slicing a 3D model to get it ready for the printer. You'll take home a 3D print! Facebook X Pinterest Email Print Export to Calendar",
-      "category": "entertainment"
-    },
-    {
-      "id": "jblm-employment-readiness-program-course-of-action-to-2026-09-23",
-      "title": "Employment Readiness Program: Course of Action to USA Jobs",
-      "date": "2026-09-23T09:00:00",
-      "endDate": "2026-09-23T12:00:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 23 2026, 9 am - 12 pm Sep 23 2026, 9 am - 12 pm Master the federal application process by learning how to navigate USAJOBS, tailor your résumé, and ace the interview. Waller Hall Bldg. 2140 Liggett Ave. JBLM Lewis-Main AFCS Classroom #1 Cost FREE Registration Information Click here to register Facebook X Pinterest Email Print Export to Calendar",
-      "category": "education"
-    },
-    {
-      "id": "jblm-storytime-at-grandstaff-library-2026-09-23",
+      "id": "jblm-storytime-at-grandstaff-library-2026-09-30",
       "title": "Storytime at Grandstaff Library",
-      "date": "2026-09-23T11:00:00",
-      "endDate": "2026-09-23T11:00:00",
+      "date": "2026-09-30T10:00:00",
+      "endDate": "2026-09-30T10:00:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
+      "description": "JBLM MWR public event: Storytime at Grandstaff Library.",
       "category": "family"
     },
     {
-      "id": "jblm-new-parent-support-program-preparing-for-birth-c-2026-09-24",
-      "title": "New Parent Support Program - Preparing for Birth Class",
-      "date": "2026-09-24T09:00:00",
-      "endDate": "2026-09-24T12:00:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 24 2026, 9 am - 12 pm Typically repeats monthly on Thursdays. Sep 24 2026, 9 am - 12 pm Learn the basics: Stages of labor, comfort strategies, and what to expect when you are in labor. Cost FREE Registration Information Call 253-967-740 9 Facebook X Pinterest Email Print Export to Calendar",
-      "category": "family"
-    },
-    {
-      "id": "jblm-thursday-pool-tournaments-2026-09-24",
-      "title": "Thursday Pool Tournaments",
-      "date": "2026-09-24T19:00:00",
-      "endDate": "2026-09-24T19:00:00",
+      "id": "jblm-trivia-night-2026-09-30",
+      "title": "Trivia Night",
+      "date": "2026-09-30T19:00:00",
+      "endDate": "2026-09-30T19:00:00",
       "location": "JBLM",
       "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
-      "category": "community"
-    },
-    {
-      "id": "jblm-oktoberfest-2026-09-25",
-      "title": "JBLM Oktoberfest",
-      "date": "2026-09-25",
-      "endDate": "2026-09-26",
-      "location": "MWR Fest Tent",
-      "address": "JBLM, WA",
-      "description": "JBLM Oktoberfest at MWR Fest Tent; jblm.armymwr.com.",
-      "category": "community"
-    },
-    {
-      "id": "jblm-commanders-cup-2miler-2026-09-25",
-      "title": "Commander's Cup 2-Miler",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Jensen Human Performance Center",
-      "address": "JBLM, WA",
-      "description": "Commander's Cup 2-Miler; JBLM MWR sports page.",
-      "category": "community"
-    },
-    {
-      "id": "jblm-gold-star-mother-s-and-family-s-day-memorial-ben-2026-09-25",
-      "title": "Gold Star Mother's and Family's Day - Memorial Bench Dedication",
-      "date": "2026-09-25T09:00:00",
-      "endDate": "2026-09-25T10:00:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 25 2026, 9 am - 10 am Sep 25 2026, 9 am - 10 am Please join us as we dedicate a permanent space of reflection in honor of Gold Star Families. For questions call (253)967-3672 or email jblmsos@army.mil Cost FREE Facebook X Pinterest Email Print Export to Calendar",
-      "category": "holiday"
-    },
-    {
-      "id": "jblm-new-parent-support-program-infant-massage-class-2026-09-25",
-      "title": "New Parent Support Program - Infant Massage Class",
-      "date": "2026-09-25T11:00:00",
-      "endDate": "2026-09-25T12:30:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 25 2026, 11 am - 12:30 pm Typically repeats monthly on Fridays. Sep 25 2026, 11 am - 12:30 pm Learn infant massage, a bonding activity between parent and child that aides development. Parents, bring your baby. Expecting parents, we will provide practice dolls. Cost FREE Registration Information Call 253-967-7409 Facebook X Pinterest Email Print Export to Calendar",
-      "category": "family"
-    },
-    {
-      "id": "jblm-jblm-oktoberfest-2026-09-26",
-      "title": "JBLM Oktoberfest",
-      "date": "2026-09-26T00:00:00",
-      "endDate": "2026-09-26T00:00:00",
-      "location": "JBLM",
-      "address": "Joint Base Lewis-McChord, WA",
-      "description": "Join JBLM MWR!",
-      "category": "holiday"
-    },
-    {
-      "id": "jblm-jblm-oktoberfest-family-day-2026-09-26",
-      "title": "JBLM Oktoberfest Family Day",
-      "date": "2026-09-26T12:00:00",
-      "endDate": "2026-09-26T20:00:00",
-      "location": "MWR Fest Tent",
-      "address": "Joint Base Lewis-McChord, WA",
-      "description": "Saturday family Oktoberfest with German food, music, lawn games, and market.",
-      "category": "family"
-    },
-    {
-      "id": "jblm-texas-hold-em-tournament-2026-09-26",
-      "title": "Texas Hold 'em Tournament",
-      "date": "2026-09-26T14:00:00",
-      "endDate": "2026-09-26T16:00:00",
-      "location": "JB Lewis-McChord",
-      "address": "Tacoma, WA",
-      "description": "Sep 26 2026, 2 pm - 4 pm Sep 26 2026, 2 pm - 4 pm ♠️ Shuffle up and deal! Join us for the Texas Hold ’Em Tournament on Saturday, Sept. 26 at Warrior Zone. Play starts at 2 p.m. with a $20 buy-in. 🏆 First place takes home a $200 Exchange gift card, so bring your best poker face and play to win! Open to MWR eligible patrons ages 18 and older. Facebook X Pinterest Email Print Export to Calendar",
-      "category": "fitness"
+      "description": "JBLM MWR public event: Trivia Night.",
+      "category": "entertainment"
     },
     {
       "id": "jblm-employment-readiness-program-interview-skills-2026-10-01",
@@ -577,6 +477,46 @@
       "address": "Tacoma, WA",
       "description": "Oct 1 2026, 7 pm Typically repeats weekly on Thursdays. Oct 1 2026, 7 pm Rack 'em up! Join us Thursdays, 7 p.m. at Warrior Zone for Thursdays night pool. The tournament will be played using BCA rules, and alternate between 8-Ball and 9-Ball formats each week. Register at the front counter prior to start time. A randomly seeded bracket will be generated and the players will be briefed. Prizes include pool accessories and food vouchers. Open to DOD ID card holders 18+. Facebook X Pinterest Email Print Export to Calendar",
       "category": "fitness"
+    },
+    {
+      "id": "jblm-efmp-family-support-family-fusion-playgroup-2026-10-02",
+      "title": "EFMP Family Support - Family Fusion Playgroup",
+      "date": "2026-10-02T09:00:00",
+      "endDate": "2026-10-02T09:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: EFMP Family Support - Family Fusion Playgroup.",
+      "category": "family"
+    },
+    {
+      "id": "jblm-busy-babies-group-2026-10-02",
+      "title": "Busy Babies Group",
+      "date": "2026-10-02T10:00:00",
+      "endDate": "2026-10-02T10:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: Busy Babies Group.",
+      "category": "family"
+    },
+    {
+      "id": "jblm-movie-club-2026-10-02",
+      "title": "Movie Club",
+      "date": "2026-10-02T13:00:00",
+      "endDate": "2026-10-02T13:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: Movie Club.",
+      "category": "entertainment"
+    },
+    {
+      "id": "jblm-new-parent-support-program-coloring-and-connecti-2026-10-02",
+      "title": "New Parent Support Program: Coloring and Connection",
+      "date": "2026-10-02T13:00:00",
+      "endDate": "2026-10-02T13:00:00",
+      "location": "JBLM",
+      "address": "Joint Base Lewis-McChord, WA",
+      "description": "JBLM MWR public event: New Parent Support Program: Coloring and Connection.",
+      "category": "family"
     },
     {
       "id": "jblm-jblm-pickleball-tournament-2026-10-03",

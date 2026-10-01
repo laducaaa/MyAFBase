@@ -7,7 +7,7 @@
   "wing": "1 SOW",
   "latitude": 30.4281,
   "longitude": -86.6893,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "hurlburt-notif-real-id",
@@ -298,46 +298,6 @@
       "category": "family"
     },
     {
-      "id": "hurlburt-kuk-sool-won-2026-09-21",
-      "title": "Kuk Sool Won",
-      "date": "2026-09-21T17:00:00",
-      "endDate": "2026-09-21T18:00:00",
-      "location": "Aderholt Fitness Center",
-      "address": "Bldg 90517, 259 Tully St, Hurlburt Field, Florida, 32544",
-      "description": "Kuk Sool Won is traditional Korean martial arts. Available Monday’s, Wednesday’s, and Friday’s at Aderholt Fitness Center. Class Times: Youth (ages 6+): 5-6PM Adults: 6-7PM Monthly Cost: $65/student | Ask about family rates. Be able to gain Physical Fitness Well Being Stress Relief Confidence Perseverance Self Defense Skills This is a family friendly activity for all to enjoy! For more details or to sign up, call Aderholt Fitness at 850-884-6884.",
-      "category": "fitness"
-    },
-    {
-      "id": "hurlburt-paws-play-2026-09-25",
-      "title": "Paws & Play – Splash N Play Pool Party",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "Hurlburt Field Community Center",
-      "address": "443 Cody Ave, Hurlburt Field, FL 32544",
-      "description": "Pool party with pets (vaccine/tag rules); myhurlburt.com.",
-      "category": "community"
-    },
-    {
-      "id": "hurlburt-paddleboard-101-2026-09-25",
-      "title": "Paddleboard 101",
-      "date": "2026-09-25T09:30:00",
-      "endDate": "2026-09-25T12:00:00",
-      "location": "Hurlburt Outdoor Recreation & Marina",
-      "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
-      "description": "Paddleboard 101 🌊 Ready to get on the water? Learn the basics of paddleboarding in this beginner-friendly class designed to help you build the skills and confidence you need to get started. Our instructors will cover essential paddleboarding techniques, safety, balance, and paddling skills-all in a fun, supportive environment. 📅 Friday, 25 September ⏰ 9:30 AM 📍 ODR Beach - 100 Corlew Rd. 💰 $20 per person - Paddleboar",
-      "category": "outdoor"
-    },
-    {
-      "id": "hurlburt-bingo-at-the-club-2026-09-25",
-      "title": "Bingo at The Club",
-      "date": "2026-09-25T17:00:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "The Soundside",
-      "address": "107 Kissam St, Bldg 90918, Hurlburt Field, Florida, 32544",
-      "description": "✨Bingo at The Club✨ 🗓 Friday, 25 September ⏰ Doors open 5 PM | Bingo starts 6 PM 📍 The Soundside – 107 Kissam St. 🪙 $30 for pre-registration entry & $40 after 18 September Test your luck with Bingo at The Club! Entry fee includes admission for one person, light snacks, and two books (one additional book for club members). Food and beverages available for purchase. No outside food or beverages auth",
-      "category": "entertainment"
-    },
-    {
       "id": "hurlburt-nerf-wars-2026-09-28",
       "title": "Nerf Wars at the Community Center",
       "date": "2026-09-28",
@@ -398,6 +358,16 @@
       "category": "family"
     },
     {
+      "id": "hurlburt-future-stars-2026-10-07",
+      "title": "Future Stars",
+      "date": "2026-10-07T16:30:00",
+      "endDate": "2026-10-07T17:30:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "Future Stars Golf Program ⭐⛳ Help your young golfer build skills, confidence, and a love for the game with Future Stars , featuring the U.S. Kids Player Pathway Program at Gator Lakes Golf Course! Designed for ages 6–12 , this 4-week program combines professional instruction with fun, engaging activities that help juniors develop their golf game in a supportive environment. 📅 6–28 October 📍 Gator Lakes Golf Course 👧🧒 Ages 6–12 ⏱️ 60-minute classes ⛳ Choose Your Class Tuesdays at 4:30 PM Wednesdays at 4:30 PM 👥 Limited to 6 juniors per class 💲 Program Fees: Current Players: $100 New Players: $1",
+      "category": "family"
+    },
+    {
       "id": "hurlburt-magic-all-stars-2026-10-09",
       "title": "Magic All Stars",
       "date": "2026-10-09T18:00:00",
@@ -426,6 +396,26 @@
       "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
       "description": "Pinewood Derby: Halloween Edition Get ready for a frightfully fun race! 🎃🏎️ Join us for the Pinewood Derby: Halloween Edition , where creativity meets speed in a family-friendly Halloween celebration. 📅 Saturday, 17 October 2026 ⏰ 10:00 AM 📍 Community Center 💲 $5 per person Design and decorate your own Halloween-themed Pinewood Derby car , then race it against the competition! Come dressed in your favorite costume and enjoy a morning filled with racing, music, seasonal fun, and family-friendly excitement. 🕸️🏁 🎨 Car Decorating: 📅 15–16 October ⏰ 4–6:30 PM 🍪 Light refreshments provided 📌 Registr",
       "category": "holiday"
+    },
+    {
+      "id": "hurlburt-pinewood-derby-halloween-edition-2026-10-16",
+      "title": "Pinewood Derby: Halloween Edition",
+      "date": "2026-10-16T16:00:00",
+      "endDate": "2026-10-16T18:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "Pinewood Derby: Halloween Edition Get ready for a frightfully fun race! 🎃🏎️ Join us for the Pinewood Derby: Halloween Edition , where creativity meets speed in a family-friendly Halloween celebration. 📅 Saturday, 17 October 2026 ⏰ 10:00 AM 📍 Community Center 💲 $5 per person Design and decorate your own Halloween-themed Pinewood Derby car , then race it against the competition! Come dressed in your favorite costume and enjoy a morning filled with racing, music, seasonal fun, and family-friendly excitement. 🕸️🏁 🎨 Car Decorating: 📅 15–16 October ⏰ 4–6:30 PM 🍪 Light refreshments provided 📌 Registr",
+      "category": "holiday"
+    },
+    {
+      "id": "hurlburt-star-gazing-2026-10-16",
+      "title": "Star Gazing",
+      "date": "2026-10-16T16:00:00",
+      "endDate": "2026-10-16T21:00:00",
+      "location": "Lil’ Commando Community Park",
+      "address": "McMillan Street, Hurlburt Field, Florida, 32544",
+      "description": "🌟 STAR GAZING! 🔭✨ Join the Hurlburt Field Base Library, Hurlburt Youth Center & Northwest Florida Astronomy Association for a night under the stars! 📅 Friday, 16 October 🕔 5–9 PM | Setup @ 4pm 📍 Youth Center Ball Park, Fields 3 & 4 Come explore the night sky and view planets with expert astronomers on hand to help. Participants are welcome to bring their own telescope and join the fun! 📞 884-6266 🌐 hurlburtlibrary.org Come look up and discover something amazing! 🌌",
+      "category": "family"
     },
     {
       "id": "hurlburt-quarterly-game-night-throwdown-2026-10-16",
@@ -458,6 +448,16 @@
       "category": "outdoor"
     },
     {
+      "id": "hurlburt-community-music-jam-2026-10-23",
+      "title": "Community Music Jam",
+      "date": "2026-10-23T17:00:00",
+      "endDate": "2026-10-23T19:00:00",
+      "location": "Hurlburt Field Community Center",
+      "address": "443 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "Calling all musicians, singers, and music lovers! Join us for an evening of fellowship, creativity, and great music at our Community Music Jam. Whether you play an instrument, love to sing, or simply enjoy live music, everyone is welcome. Come connect with fellow musicians, sharpen your skills, and make lasting memories through the universal language of music. All skill levels are welcome—from beginners to seasoned professionals. What to Expect: • Open jam sessions • Opportunities to network with local musicians • A fun, encouraging, family-friendly atmosphere",
+      "category": "family"
+    },
+    {
       "id": "hurlburt-fall-fest-2026-2026-10-30",
       "title": "Fall Fest 2026",
       "date": "2026-10-30T16:00:00",
@@ -468,6 +468,26 @@
       "category": "holiday"
     },
     {
+      "id": "hurlburt-halloween-bowling-pin-decorating-contest-2026-10-31",
+      "title": "Halloween Bowling Pin Decorating Contest",
+      "date": "2026-10-31T12:00:00",
+      "endDate": "2026-10-31T12:30:00",
+      "location": "Hurlburt Lanes",
+      "address": "442 Cody Ave, Hurlburt Field, FL, 32544",
+      "description": "👻Halloween Bowling Pin Decorating Contest🎃 🗓 Pick up pin & decorate 1-28 October | Available during business hours ⏰ Winners announced on Saturday, 31 October | Noon 📍 Hurlburt Lanes Bowling – 442 Cody Ave., Bldg. 90231 🪙 FREE – Open to all ages! Get your craft on with Halloween Bowling Pin Decorating Contest! Come by to Hurlburt Lanes Bowling to register in person, take home your pin, and decorate away. Decorated bowling pins must be submitted by 28 October. FSS gift card prizes for the top 3 winners! First Place: $50 FSS Gift Card Second Place: $25 FSS Gift Card Third Place: $10 FSS Gift Car",
+      "category": "holiday"
+    },
+    {
+      "id": "hurlburt-future-stars-2026-11-03",
+      "title": "Future Stars",
+      "date": "2026-11-03T16:30:00",
+      "endDate": "2026-11-03T17:30:00",
+      "location": "Gator Lakes Golf Course",
+      "address": "Bldg. 91300, 403 Walkup Way, Hurlburt Field, FL, 32544",
+      "description": "Future Stars Golf Program ⭐⛳ Help your young golfer build skills, confidence, and a love for the game with Future Stars , featuring the U.S. Kids Player Pathway Program at Gator Lakes Golf Course! Designed for ages 6–12 , this 4-week program combines professional instruction with fun, engaging activities that help juniors develop their golf game in a supportive environment. 📅 6–28 October 📍 Gator Lakes Golf Course 👧🧒 Ages 6–12 ⏱️ 60-minute classes ⛳ Choose Your Class Tuesdays at 4:30 PM Wednesdays at 4:30 PM 👥 Limited to 6 juniors per class 💲 Program Fees: Current Players: $100 New Players: $1",
+      "category": "family"
+    },
+    {
       "id": "hurlburt-deep-sea-fishing-2026-11-14",
       "title": "Deep-Sea Fishing",
       "date": "2026-11-14",
@@ -476,6 +496,26 @@
       "address": "100 Corlew Rd, Hurlburt Field, FL 32544",
       "description": "November deep-sea fishing session listed on series page.",
       "category": "community"
+    },
+    {
+      "id": "hurlburt-inshore-fishing-2026-11-15",
+      "title": "Inshore Fishing",
+      "date": "2026-11-15T06:00:00",
+      "endDate": "2026-11-15T10:00:00",
+      "location": "ODR Marina Beach",
+      "address": "100 Corlew Rd, Hurlburt Field, FL, 32544",
+      "description": "Experience the thrill of fishing with Luck Chucky Inshore Fishing Charters! 🐟🎣 6 AM-10 AM (4-hour sessions) | $137.50 registration price | Max 4 participants per session Register in-person at ODR or call (850) 884-6939 Guided by Captain Chuck, fellow fishers will traverse the gentle inshore waters of the Emerald Coast for Redfish and Bull Reds, Speckled Trout, Flounder, Sheepshead, and more! Lucky Chucky Charters offer inshore and nearshore from Fort Walton Beach to Destin. 2026 Dates 11 July 16 August 20 September 4 October 15 November Information subject to change. For more information, cont",
+      "category": "outdoor"
+    },
+    {
+      "id": "hurlburt-movie-on-the-beach-2026-11-21",
+      "title": "Movie on the Beach",
+      "date": "2026-11-21T17:00:00",
+      "endDate": "2026-11-21T20:00:00",
+      "location": "Hurlburt Outdoor Recreation & Marina",
+      "address": "100 Corlew Rd, Hurlburt Field, FL, 32544",
+      "description": "🌅🎬 Movie on the Beach 🎬🌅 Kick back, relax, and enjoy a movie night like no other—right on the sand! Join us for Movie on the Beach , happening the 3rd Saturday of every month at the Hurlburt Field ODR Marina . ✨ What to know: 🎟️ FREE & open to all ages 🎥 Movie begins at sunset 🪑 Bring beach chairs, blankets, and your favorite water floaty 🍿 Grab your refreshments, the Tiki Bar is available until 7pm! ☔ Weather Watch: Event details are subject to change and may be postponed to Sunday due to weather. Updates will be shared on Facebook 24–48 hours in advance . So grab your crew, claim your spot i",
+      "category": "outdoor"
     },
     {
       "id": "hurlburt-tree-lighting-winter-wonderland-2026-12-04",

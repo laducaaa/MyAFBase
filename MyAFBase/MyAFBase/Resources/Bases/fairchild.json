@@ -292,36 +292,6 @@
   ],
   "events": [
     {
-      "id": "fairchild-oktoberfest-2026-09-26",
-      "title": "Fairchild Oktoberfest 2026",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "Miller Park",
-      "address": "Fairchild AFB, WA 99011",
-      "description": "Free Oktoberfest afternoon; German food, family fun, live music; fairchildfun.com.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-rock-out-park-2026-09-26",
-      "title": "Rock Out in the Park 2026",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "Miller Park",
-      "address": "Fairchild AFB, WA 99011",
-      "description": "Free live music alongside Oktoberfest; fairchildfun.com.",
-      "category": "community"
-    },
-    {
-      "id": "fairchild-rock-out-in-the-park-2026-free-event-at-fairchild-afb",
-      "title": "Rock Out in the Park 2026 | Free Event at Fairchild AFB",
-      "date": "2026-09-26T11:30:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Miller Park",
-      "address": "Fairchild AFB, WA 99011",
-      "description": "🎸 Rock Out in the Park! Saturday, September 26, 2026 | 11:30 AM-3:00 PM 📍 Miller Park | Fairchild AFB 🎟️ FREE EVENT Get ready to rock! Join us at Miller Park on Saturday, September 26, for an afternoon of live music, free German food, family activities, and good times as we celebrate alongside Fairchild AFB Oktoberfest. Bring the whole family for an event that is 100% free to attend! 🎶 Live Music Lineup Turn up the v",
-      "category": "holiday"
-    },
-    {
       "id": "fairchild-autumn-equinox-5k-2026-09-29",
       "title": "Autumn Equinox 5K",
       "date": "2026-09-29",
@@ -421,5 +391,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-21T06:35:07Z"
+  "dataUpdatedAt": "2026-09-28T06:23:52Z"
 }

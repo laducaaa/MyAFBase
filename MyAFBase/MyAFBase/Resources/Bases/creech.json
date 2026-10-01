@@ -237,46 +237,6 @@
   ],
   "events": [
     {
-      "id": "creech-glass-is-in-session-2026-09-23",
-      "title": "GLASS is in Session!",
-      "date": "2026-09-23T16:00:00",
-      "endDate": "2026-09-23T19:00:00",
-      "location": "Creech AFB",
-      "address": "Indian Springs, NV",
-      "description": "GLASS is in session! Faux Stained Glass Art Workshop Wednesday, September 23, 2026 4pm - 7pm $20 RSVP by September 16, 2026 to nellisartsandcrafts@outlook.com or 702-652-2849 Nellis AFB Arts & Crafts 5850 Devlin Dr, # 610, Nellis Air Force Base, NV, 89191 Children must be accompanied by an adult. Limited seats available.",
-      "category": "recreation"
-    },
-    {
-      "id": "creech-swimming-lessons-2026-09-24",
-      "title": "Swimming Lessons",
-      "date": "2026-09-24T16:00:00",
-      "endDate": "2026-09-24T19:00:00",
-      "location": "Warrior Fitness Center",
-      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
-      "description": "Swimming Lessons for ages 3-13 years old 4:00pm – 7:00pm Each swim is 30 minutes long Billed monthly (4-5 classes) Must be scheduled in advance Call ODR for more information at 702.652.2514. Will be held at Warrior Fitness Pool.",
-      "category": "outdoor"
-    },
-    {
-      "id": "creech-stand-up-paddleboarding-lake-mead-2026-09-26",
-      "title": "Stand Up Paddleboarding Lake Mead",
-      "date": "2026-09-26T07:00:00",
-      "endDate": "2026-09-26T12:00:00",
-      "location": "Creech AFB",
-      "address": "Indian Springs, NV",
-      "description": "Date: September 26 Program Title: Stand Up Paddleboarding Lake Mead Time: 0700-1200 Cost: $50 per person Age: 12+ Details: Escape the heat and find your oasis at Lake Mead! Join us for a refreshing morning of paddleboarding on this stunning desert lake fed by the Colorado River. Whether you're a beginner or looking to refine your skills, this is the perfect opportunity to connect with nature, enjoy great company, and",
-      "category": "outdoor"
-    },
-    {
-      "id": "creech-horseback-riding-bbq-dinner-2026-09-26",
-      "title": "Horseback Riding & BBQ Dinner",
-      "date": "2026-09-26T15:00:00",
-      "endDate": "2026-09-26T20:00:00",
-      "location": "Creech AFB",
-      "address": "Indian Springs, NV",
-      "description": "Date: September 26 Program Title: Horseback Riding & BBQ Dinner Time: 1500 - 2000 Cost: $120 Age: 6+ Details: We will be hitting the trails by horseback as we ride off into the sunset on a guided trip let by authentic cowboys and girls. After a few hours of trail exploration, the ride will end with a steak BBQ dinner (vegetarian options available), and then a relaxing campfire under the stars. Due to the nature of th",
-      "category": "outdoor"
-    },
-    {
       "id": "creech-swimming-lessons-2026-10-01",
       "title": "Swimming Lessons",
       "date": "2026-10-01T16:00:00",
@@ -337,6 +297,16 @@
       "category": "family"
     },
     {
+      "id": "creech-swimming-lessons-2026-10-03",
+      "title": "Swimming Lessons",
+      "date": "2026-10-03T10:00:00",
+      "endDate": "2026-10-03T16:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "Swimming Lessons for ages 6 months – 13 years old 10:00am – 4:00pm Each swim is 30 minutes long Billed monthly (4-5 classes) Must be scheduled in advance Call ODR for more information at 702.652.2514. Will be held at Warrior Fitness Pool.",
+      "category": "outdoor"
+    },
+    {
       "id": "creech-try-scuba-2026-10-03",
       "title": "Try Scuba",
       "date": "2026-10-03T11:00:00",
@@ -351,6 +321,16 @@
       "title": "Club Championship Golf Tournament",
       "date": "2026-10-10T08:00:00",
       "endDate": "2026-10-10T15:00:00",
+      "location": "Creech AFB",
+      "address": "Indian Springs, NV",
+      "description": "Club Championship Golf Tournament Saturday & Sunday • OCTOBER 10-11 • 2026 • 8 AM SHOTGUN START EACH DAY *$140 Per Player CHAMPIONSHIP FLIGHT Blue Tees • GROSS • No Handicap OPEN FLIGHT White Tees • NET FORWARD FLIGHT Gold Tees • Age 65-Up or 18 handicap & above • NET LADIES FLIGHT Red Tees • NET PRIZES FOR TOP FINISHERS IN EACH DIVISION *ENTRY INCLUDES: 36 Holes of Golf • Cart Rental • Range Balls • Lunch Served After Play Both Days CALL 702-652-4497 OR STOP BY TO SIGN-UP Sunrise Vista Golf Course is located at Nellis AFB • 2841 Kinley Drive, Bldg 1626",
+      "category": "fitness"
+    },
+    {
+      "id": "creech-club-championship-golf-tournament-2026-10-11",
+      "title": "Club Championship Golf Tournament",
+      "date": "2026-10-11T08:00:00",
+      "endDate": "2026-10-11T15:00:00",
       "location": "Creech AFB",
       "address": "Indian Springs, NV",
       "description": "Club Championship Golf Tournament Saturday & Sunday • OCTOBER 10-11 • 2026 • 8 AM SHOTGUN START EACH DAY *$140 Per Player CHAMPIONSHIP FLIGHT Blue Tees • GROSS • No Handicap OPEN FLIGHT White Tees • NET FORWARD FLIGHT Gold Tees • Age 65-Up or 18 handicap & above • NET LADIES FLIGHT Red Tees • NET PRIZES FOR TOP FINISHERS IN EACH DIVISION *ENTRY INCLUDES: 36 Holes of Golf • Cart Rental • Range Balls • Lunch Served After Play Both Days CALL 702-652-4497 OR STOP BY TO SIGN-UP Sunrise Vista Golf Course is located at Nellis AFB • 2841 Kinley Drive, Bldg 1626",
@@ -415,6 +395,16 @@
       "address": "Creech AFB, NV",
       "description": "14th Annual Tech, Cyber & Tactical Expo (base access / industry registration).",
       "category": "community"
+    },
+    {
+      "id": "creech-swimming-lessons-2026-11-05",
+      "title": "Swimming Lessons",
+      "date": "2026-11-05T16:00:00",
+      "endDate": "2026-11-05T19:00:00",
+      "location": "Warrior Fitness Center",
+      "address": "3705 Freedom Circle, Bldg. 1705, Nellis AFB, NV, 89191",
+      "description": "Swimming Lessons for ages 3-13 years old 4:00pm – 7:00pm Each swim is 30 minutes long Billed monthly (4-5 classes) Must be scheduled in advance Call ODR for more information at 702.652.2514. Will be held at Warrior Fitness Pool.",
+      "category": "outdoor"
     },
     {
       "id": "creech-cpr-classes-babysitter-2026-11-06",
@@ -490,5 +480,5 @@
       }
     ]
   },
-  "dataUpdatedAt": "2026-09-21T06:35:07Z"
+  "dataUpdatedAt": "2026-09-28T06:23:52Z"
 }

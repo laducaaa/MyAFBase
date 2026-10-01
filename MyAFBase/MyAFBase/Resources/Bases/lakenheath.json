@@ -7,7 +7,7 @@
   "wing": "48 FW",
   "latitude": 52.4093,
   "longitude": 0.561,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "lakenheath-notif-real-id",
@@ -195,76 +195,6 @@
   ],
   "events": [
     {
-      "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-09-24",
-      "title": "Liberty Club Lunch Buffet: Southern",
-      "date": "2026-09-24T11:00:00",
-      "endDate": "2026-09-24T13:30:00",
-      "location": "",
-      "address": "",
-      "description": "Head on over to the Liberty Club Grill for a delicious American classic, Southern food . 11am – 1:30pm Adults $15.95 · Children (5-12) $8.95 · 4 & under eat free!",
-      "category": "family"
-    },
-    {
-      "id": "lakenheath-paris-3-day-2026-09-25",
-      "title": "Paris 3-Day",
-      "date": "2026-09-25T00:00:00",
-      "endDate": "2026-09-25T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "Adult £339 | Child (2-11) £289 | Infant £120 | *Single Supplement £120 Includes: coach transportation, return ferry crossing, two nights bed & breakfast accommodation, transport into Paris on day two, and visits to Sacre Cœur & Place du Tertre Book now!",
-      "category": "family"
-    },
-    {
-      "id": "lakenheath-disney-paris-2026-09-25",
-      "title": "Disney Paris",
-      "date": "2026-09-25T08:00:00",
-      "endDate": "2026-09-25T17:00:00",
-      "location": "",
-      "address": "",
-      "description": "Adult £459 Child (2-11) £399 | Infant £120 Includes *Luxury Coach Travel *Return Ferry Crossing *Two Nights Bed and Breakfast *1 Day/2 Park Hopper Ticket for Disneyland Paris *Visit to the Sacre Coeur & Place Du Tertre Book now!",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-fall-fest-2026-09-26",
-      "title": "Fall Fest",
-      "date": "2026-09-26T10:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Eagles' Landing - Community Event Center",
-      "address": "Lakenheath, United Kingdom",
-      "description": "Join RAF Lakenheath Community & Event Centers for a celebration of crisp air, local art, and cozy eats at Eagles' Landing - CEC. Support Tri-base creators by shopping handmade goods. Saturday • September 26 10am - 3pm | FREE ENTRY Eagles' Landing - CEC And, a HUGE thank you to our sponsors, Keesler Federal Credit Union & TailWings !",
-      "category": "community"
-    },
-    {
-      "id": "lakenheath-skydiving-with-odr-2026-09-27",
-      "title": "Skydiving with ODR",
-      "date": "2026-09-27T00:00:00",
-      "endDate": "2026-09-27T23:59:59",
-      "location": "",
-      "address": "",
-      "description": "Sunday • September 27 All $345 | Ages 18+ Transportation and skydiving experience *Waivers required for active duty",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-stratford-upon-avon-kenilworth-castle-2026-09-27",
-      "title": "Stratford-Upon-Avon & Kenilworth Castle",
-      "date": "2026-09-27T08:00:00",
-      "endDate": "2026-09-27T17:00:00",
-      "location": "",
-      "address": "",
-      "description": "Adult £50 | Child (5-17) £41 | Infant £20 Includes: Transportation, entry into Kenilworth Castle and free time to explore Stratford-Upon-Avon. Discover the enchanting allure of Kenilworth Castle, with its striking red, sandstone towers, keep, and walls that shimmer beautifully in the soft light of dawn and dusk. Uncover its intriguing ties to Henry V while enjoying a peaceful walk through the charming Tudor gardens. Then, make your way to the literary hub of England and dive into the delightful market town that is the birthplace of the iconic William Shakespeare. *English Heritage Members: Ask",
-      "category": "outdoor"
-    },
-    {
-      "id": "lakenheath-london-dyo-2026-09-27",
-      "title": "London DYO",
-      "date": "2026-09-27T08:00:00",
-      "endDate": "2026-09-27T17:00:00",
-      "location": "",
-      "address": "",
-      "description": "Saturdays • August 8 & 22 • September 19 Sundays • August 16 & 30 • September 6 & 27 Adult £37 | Child (3-14) £35 | Infant £20 Fancy seeing London and taking in some of the sights or just doing a bit of shopping? Then this is the tour for you. We’ll get you to London where you can explore on your own, then pick you up at the designated area to get you safely back home. INTERESTED IN A LONDON CITY PASS? Contact our Travel Agents for a full listing: ittlakenheath@gmail.com Never been before? Then why not purchase a discounted ticket at ITT for the Tower of London, Big Bus, London Eye, Madame Tus",
-      "category": "family"
-    },
-    {
       "id": "lakenheath-liberty-club-lunch-buffet-southern-2026-10-01",
       "title": "Liberty Club Lunch Buffet: Southern",
       "date": "2026-10-01T11:00:00",
@@ -295,6 +225,16 @@
       "category": "family"
     },
     {
+      "id": "lakenheath-kids-halloween-laser-tag-2026-10-03",
+      "title": "Kids’ Halloween Laser Tag",
+      "date": "2026-10-03T00:00:00",
+      "endDate": "2026-10-03T23:59:59",
+      "location": "Page Community Center",
+      "address": "",
+      "description": "Saturday • October 3 All $12 Exertion level: HIGH Defend Page Community Center from creatures of the night in this Halloween-themed laser tag!",
+      "category": "holiday"
+    },
+    {
       "id": "lakenheath-karaoke-night-2026-10-03",
       "title": "Karaoke Night",
       "date": "2026-10-03T21:00:00",
@@ -313,6 +253,16 @@
       "address": "",
       "description": "The Liberty Club is bringing the rhythm, the spice, and just the right amount of chaos to the dance floor. It’s Latin Night, baby — where the hips don’t lie and neither do the vibes. From salsa to reggaetón, bachata to Latin pop, our DJ is serving nonstop bangers that’ll have you saying “just one more song” at least 12 times. Whether you’re a seasoned salsero or just here to dramatically sip a mojito and look mysterious, this is your night. Free entry • Live DJ • On-site dance instructor",
       "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-oxford-dyo-2026-10-04",
+      "title": "Oxford DYO",
+      "date": "2026-10-04T00:00:00",
+      "endDate": "2026-10-04T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Oxford DYO Sunday • October 4 Adult £35 | Child (3-14) £33 | Infant £20 Transportation only Plan your day ahead of time while ITT takes the wheel. Book now: https://www.ittlakenheath.com/inc/sdetail/51564",
+      "category": "family"
     },
     {
       "id": "lakenheath-mid-week-bingo-2026-10-07",
@@ -335,6 +285,16 @@
       "category": "outdoor"
     },
     {
+      "id": "lakenheath-robin-hood-beer-festival-2026-10-09",
+      "title": "Robin Hood Beer Festival",
+      "date": "2026-10-09T00:00:00",
+      "endDate": "2026-10-09T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Friday • October 9 (Family Day) Adults Only £30 Transportation Only *Admission fees will apply on arrival Nottingham CAMRA’s annual Robin Hood Beer and Cider Festival is returning to Trent Bridge, home of the Nottinghamshire County Cricket Club, with even more bars and barrels for 2024. Book now: https://www.ittlakenheath.com/inc/sdetail/31735",
+      "category": "family"
+    },
+    {
       "id": "lakenheath-hip-hop-r-b-night-2026-10-09",
       "title": "Hip-Hop/R&B Night",
       "date": "2026-10-09T20:00:00",
@@ -343,6 +303,16 @@
       "address": "",
       "description": "Join us for a Hip-Hop/R&B Night at the Liberty Club! 9pm – 1am | 18+ Live Dj, drinks, and wing night!",
       "category": "entertainment"
+    },
+    {
+      "id": "lakenheath-trunk-or-treat-2026-10-10",
+      "title": "Trunk-or-Treat",
+      "date": "2026-10-10T15:00:00",
+      "endDate": "2026-10-10T18:00:00",
+      "location": "RAF Feltwell Ward Community Center",
+      "address": "",
+      "description": "Saturday • October 10 | 3pm – 6pm RAF Feltwell (RAFF) | FREE Get ready for a spook-tacular time! Enjoy a night packed with candy-filled trunks, games, food, inﬂatables, competitions, and more! 📍 Ward Community Center on RAF Feltwell Sponsored by Keesler Federal and ABAEL. No federal endorsement of sponsors intended.",
+      "category": "holiday"
     },
     {
       "id": "lakenheath-big-bucks-bingo-2026-10-16",
@@ -365,6 +335,16 @@
       "category": "outdoor"
     },
     {
+      "id": "lakenheath-domino-tournament-2026-10-23",
+      "title": "Domino Tournament",
+      "date": "2026-10-23T18:00:00",
+      "endDate": "2026-10-23T20:30:00",
+      "location": "Liberty Club Bistro",
+      "address": "Chester St, Lakenheath",
+      "description": "The Liberty Club presents: Domino Tournament Friday • October 23 | all ages Registration 6pm Tournament starts at 7pm",
+      "category": "fitness"
+    },
+    {
       "id": "lakenheath-little-pumpkins-family-halloween-party-2026-10-28",
       "title": "Little Pumpkins Family Halloween Party",
       "date": "2026-10-28T17:00:00",
@@ -382,6 +362,36 @@
       "location": "Liberty Club Bar",
       "address": "Lakenheath, United Kingdom",
       "description": "Night of the Spirits Adult Halloween Party Costume contest and a night of spooky fun! The Liberty Club Friday • October 30 9pm - 1am | Free entry Wing Night from 8:30pm",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-halloween-at-blenheim-palace-2026-10-31",
+      "title": "Halloween at Blenheim Palace",
+      "date": "2026-10-31T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Saturday • October 31 Adult £68 | Child (3-16) £53 | Infant £20 Includes: Transportation & Entry to Blenheim Palace, Park & Gardens. A sense of foreboding envelopes Blenheim Palace as a new Halloween trail beckons adventures. Prepare to encounter towering skeletons, watchful glowing eyes lurking in the shadows, and ethereal lights that dance through the darkness, creating an atmosphere of eerie excitement. For more information and to book, visit: https://www.ittlakenheath.com/inc/sdetail/56483",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-halloween-quick-bite-2026-10-31",
+      "title": "Halloween Quick Bite",
+      "date": "2026-10-31T16:00:00",
+      "endDate": "2026-10-31T20:00:00",
+      "location": "Liberty Club Bistro",
+      "address": "Chester St, Lakenheath",
+      "description": "Halloween Saturday • October 31 4pm – 8pm | Liberty Club Bistro Ready to go meals to keep you fueled while trick-or-treating!",
+      "category": "holiday"
+    },
+    {
+      "id": "lakenheath-halloween-at-dover-castle-2026-11-01",
+      "title": "Halloween at Dover Castle",
+      "date": "2026-11-01T00:00:00",
+      "endDate": "2026-11-01T23:59:59",
+      "location": "Information, Tickets, & Travel",
+      "address": "",
+      "description": "Halloween at Dover Castle Sunday • November 1 Adult £67 | Child(5-17) £52 | Infant £20 Includes: Transportation & Dover Castle entry. Calling all little monsters! Join us for Halloween at Dover Castle for a spook-tastic day out! Follow the thrilling quest to uncover mysterious clues and gather around for some fearsome ghost stories. For more information and to book, visit: https://www.ittlakenheath.com/inc/sdetail/53136",
       "category": "holiday"
     },
     {

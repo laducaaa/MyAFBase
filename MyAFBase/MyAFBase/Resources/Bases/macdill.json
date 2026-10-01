@@ -7,7 +7,7 @@
   "wing": "6 ARW / CENTCOM / SOCOM",
   "latitude": 27.8497,
   "longitude": -82.5217,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "macdill-notif-1",
@@ -403,66 +403,6 @@
   ],
   "events": [
     {
-      "id": "macdill-game-club-macdill-library-2026-09-21",
-      "title": "Game Club @ MacDill Library",
-      "date": "2026-09-21T16:00:00",
-      "endDate": "2026-09-21T18:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL 33621",
-      "description": "Join us for some fun downtime playing board or card games. Use one of ours or bring on you want to share with others! Where: MacDill AFB Library Time: 4 PM",
-      "category": "family"
-    },
-    {
-      "id": "macdill-pre-k-storytime-2026-09-22",
-      "title": "Pre-K Storytime",
-      "date": "2026-09-22T10:00:00",
-      "endDate": "2026-09-22T11:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
-      "description": "Enjoy themed stories, songs, and rhymes together! Afterward, there will be a craft provided.",
-      "category": "family"
-    },
-    {
-      "id": "macdill-baby-time-at-the-library-2026-09-23",
-      "title": "Baby Time at the Library",
-      "date": "2026-09-23T09:30:00",
-      "endDate": "2026-09-23T10:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
-      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
-      "category": "family"
-    },
-    {
-      "id": "macdill-falling-for-rocks-2026-09-24",
-      "title": "FALLing For Rocks",
-      "date": "2026-09-24T16:00:00",
-      "endDate": "2026-09-24T18:00:00",
-      "location": "MacDill Library",
-      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL 33621",
-      "description": "When: Thursday, September 17 Time: 4 PM Where: MacDill AFB Library Join us for this Fall themed activity! Paint a rock to add to our library rock garden and paint another to take home. Rocks, paints, and ideas will be provided!",
-      "category": "family"
-    },
-    {
-      "id": "macdill-monte-carlo-bowling-game-night-2026-09-25",
-      "title": "Monte Carlo Bowling Game Night",
-      "date": "2026-09-25",
-      "endDate": "2026-09-25",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "community"
-    },
-    {
-      "id": "macdill-library-fall-festival-2026-09-26",
-      "title": "Library Fall Festival!",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "location": "MacDill AFB",
-      "address": "Tampa, FL",
-      "description": "Listed on the public FSS/MWR calendar for MacDill AFB.",
-      "category": "holiday"
-    },
-    {
       "id": "macdill-lego-club-macdill-library-2026-09-28",
       "title": "Lego Club @ MacDill Library",
       "date": "2026-09-28T16:00:00",
@@ -480,6 +420,26 @@
       "location": "6 ARW Conference Room",
       "address": "Tampa, FL",
       "description": "Join the MacDill Council for educational Excellence (MCEE) for an important meeting focused on educational opportunities and needs. When: Monday, September 28 Time: 4:30 PM In person or through TEAMS: In person - 6 ARW Conference Room (8208 Hangar Loop Drive, BLDG 299) TEAMS - https://dod.teams.microsoft.us/meet/993661973961?p=Eur9cAJ2T8uqw3vFoJ Meeting ID: 993 661 973 961 Passcode: Ma9me2u2 POC: Dr. Venetia Waters, ",
+      "category": "family"
+    },
+    {
+      "id": "macdill-pre-k-storytime-2026-09-29",
+      "title": "Pre-K Storytime",
+      "date": "2026-09-29T10:00:00",
+      "endDate": "2026-09-29T11:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Enjoy themed stories, songs, and rhymes together! Afterward, there will be a craft provided.",
+      "category": "family"
+    },
+    {
+      "id": "macdill-baby-time-at-the-library-2026-09-30",
+      "title": "Baby Time at the Library",
+      "date": "2026-09-30T09:30:00",
+      "endDate": "2026-09-30T10:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
       "category": "family"
     },
     {
@@ -553,6 +513,16 @@
       "category": "family"
     },
     {
+      "id": "macdill-pre-k-storytime-2026-10-13",
+      "title": "Pre-K Storytime",
+      "date": "2026-10-13T10:00:00",
+      "endDate": "2026-10-13T11:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Enjoy themed stories, songs, and rhymes together! Afterward, there will be a craft provided.",
+      "category": "family"
+    },
+    {
       "id": "macdill-spaghetti-night-2026-10-13",
       "title": "Spaghetti Night",
       "date": "2026-10-13T17:00:00",
@@ -561,6 +531,16 @@
       "address": "",
       "description": "Join us for a delicious plate of Spaghetti and Meatballs served with a slice of garlic bread — all for just $10! Want to make it a full meal? Add a side salad for only $3. Where: SeaScapes Time: 5-8 PM Don’t miss Trivia at 6 PM! Bring your appetite, bring your friends, and let’s make Tuesday night delicious!",
       "category": "entertainment"
+    },
+    {
+      "id": "macdill-baby-time-at-the-library-2026-10-14",
+      "title": "Baby Time at the Library",
+      "date": "2026-10-14T09:30:00",
+      "endDate": "2026-10-14T10:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Rhymes, songs, bounces, and books–just right for your little one! Build a foundation for lifelong reading and learning with this engaging story time.",
+      "category": "family"
     },
     {
       "id": "macdill-lego-club-macdill-library-2026-10-15",
@@ -573,6 +553,16 @@
       "category": "entertainment"
     },
     {
+      "id": "macdill-teens-night-out-2026-10-16",
+      "title": "Teens Night Out",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T21:00:00",
+      "location": "Youth Center",
+      "address": "7813 Bayshore Blvd, Bldg 382 MacDill AFB, FL 33621 United States",
+      "description": "Join us for an evening packed with music, food, fun, and games! Teens ages 13-18 only! When: Friday, October 16 Time: 6-9 PM Where: MacDill Youth Center Fees: Youth Center members – $5 | Non-members – $10 No RSVP required!",
+      "category": "family"
+    },
+    {
       "id": "macdill-fall-in-rock-out-annual-fall-fest-with-gary-sinise-the-l",
       "title": "FALL IN, ROCK OUT ANNUAL FALL FEST WITH GARY SINISE & THE LT DAN BAND!",
       "date": "2026-10-17T16:00:00",
@@ -580,6 +570,36 @@
       "location": "Hangar 5",
       "address": "7917 Hangar Loop Dr, MacDill AFB, FL 33621",
       "description": "Get ready for an unforgettable day at this year's Fall Festival with live music from Gary Sinise & the Lt Dan Band! Trunk-or-treat Games & crafts Food and beverages Bounce houses Costume Contests Holiday giveaway Gary Sinise & the Lt Dan Band Concert @ 6:30 PM And so much more! When: Saturday, October 17 Time: 4:00 PM-8:30 PM. Concert starts at 6:30 PM Where: Hangar 5, MacDill AFB Come dressed to impress, bring your ",
+      "category": "holiday"
+    },
+    {
+      "id": "macdill-painted-pumpkin-contest-macdill-library-2026-10-19",
+      "title": "Painted Pumpkin Contest @ MacDill Library!",
+      "date": "2026-10-19T00:00:00",
+      "endDate": "2026-10-31T23:59:59",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "Come have fun with MacDill Library as we make memories and welcome fall to the base! There will also be storytimes at 11 AM and 12 PM and crafts throughout the event. Pumpkin Contest Timeline: October 19-24: Pumpkin Turn In October 26-30: Judging October 31: Winners announced Halloween morning! October 31-November 8: Pick up pumpkins; please collect your pumpkin during this time. ***Library Hours: Monday, Tuesday, Thursday, Friday, & Saturday: 9 AM-5 PM Wednesday: 9 AM-7 PM Let’s celebrate the season by getting crafty, enjoying a story, and making spooktacular memories!",
+      "category": "holiday"
+    },
+    {
+      "id": "macdill-spaghetti-night-2026-10-20",
+      "title": "Spaghetti Night",
+      "date": "2026-10-20T17:00:00",
+      "endDate": "2026-10-20T20:00:00",
+      "location": "Seascapes",
+      "address": "",
+      "description": "Join us for a delicious plate of Spaghetti and Meatballs served with a slice of garlic bread — all for just $10! Want to make it a full meal? Add a side salad for only $3. Where: SeaScapes Time: 5-8 PM Don’t miss Trivia at 6 PM! Bring your appetite, bring your friends, and let’s make Tuesday night delicious!",
+      "category": "entertainment"
+    },
+    {
+      "id": "macdill-bring-your-own-pumpkin-macdill-library-2026-10-24",
+      "title": "Bring Your Own Pumpkin @ MacDill Library!",
+      "date": "2026-10-24T11:00:00",
+      "endDate": "2026-10-24T12:00:00",
+      "location": "MacDill Library",
+      "address": "8102 Condor St #252 MacDill AFB,, FL 33621, FL, 33621",
+      "description": "When: Saturday, October 24 Time: 11 AM-12 PM Bring your own pumpkin to paint! Feel free house our paints to create a masterpiece. Them leave it as a submission in the Pumpkin Painting Contest which will take place the following week! Winners will be announced on Halloween Morning! Then you can collect your pumpkin and take it home between October 31-November 7",
       "category": "holiday"
     },
     {

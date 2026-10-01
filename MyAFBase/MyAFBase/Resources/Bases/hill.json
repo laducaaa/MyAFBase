@@ -7,7 +7,7 @@
   "wing": "75 ABW / Ogden ALC",
   "latitude": 41.124,
   "longitude": -111.973,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "hill-notif-1",
@@ -331,76 +331,6 @@
       "category": "community"
     },
     {
-      "id": "hill-september-pickleball-league-2026-2026-09-22",
-      "title": "September Pickleball League 2026",
-      "date": "2026-09-22T16:30:00",
-      "endDate": "2026-09-22T18:30:00",
-      "location": "Hill AFB",
-      "address": "Hill AFB, UT",
-      "description": "September Pickleball League 2026 This is a beginner league. Learn how to play the game and meet new people to play with. Four weeks during march. Bring your paddle and play. When: September 1, 8 15, 22, and 29 Cost: $50 per person, $10 per week. What to bring: Athletic shoes, water bottle, Paddles are available to borrow. Format: Separate games, rotating partners.",
-      "category": "outdoor"
-    },
-    {
-      "id": "hill-acrylic-painting-class-october-1-2026-09-24",
-      "title": "Acrylic Painting Class October 1",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T19:30:00",
-      "location": "Arts & Crafts Center",
-      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
-      "description": "Acrylic Painting Class October 1 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
-      "category": "education"
-    },
-    {
-      "id": "hill-acrylic-painting-class-september-24-2026-09",
-      "title": "Acrylic Painting Class September 24",
-      "date": "2026-09-24T16:30:00",
-      "endDate": "2026-09-24T19:30:00",
-      "location": "Arts & Crafts Center",
-      "address": "7288 Balmer Ave. Bldg. 534 Hill AFB, UT 84056 +",
-      "description": "Acrylic Painting Class September 24 Come join us for a fun filled night of acrylic painting. This class is one night for 3 hours. Cost is $30.00 and you leave with a painting you finished. Class size is limited so call 801-777-2649 or email hillartsandcrafts@gmail.com to reserve your spot today.",
-      "category": "education"
-    },
-    {
-      "id": "hill-summer-night-live-concert-featuring-modern-respect-band-202",
-      "title": "Summer Night Live Concert Featuring Modern Respect Band",
-      "date": "2026-09-24T18:00:00",
-      "endDate": "2026-09-24T20:00:00",
-      "location": "Centennial Park",
-      "address": "1100 Park Ln, Hill Air Force Base, UT 84056",
-      "description": "Summer Night Live Concert Featuring Modern Respect Band When: Thursday September 24, 2026 1800 - 2000 Where: Centennial Park",
-      "category": "entertainment"
-    },
-    {
-      "id": "hill-sstar-sep",
-      "title": "SSTaR: Skills, Strengths, Techniques & Resources",
-      "date": "2026-09-25T08:00:00",
-      "endDate": "2026-09-25T12:00:00",
-      "location": "Hill AFB Integrated Resilience",
-      "address": "Hill AFB, UT",
-      "description": "Resilience skills workshop 0800–1200.",
-      "category": "community"
-    },
-    {
-      "id": "hill-wingman-relay-race-2026-09-25",
-      "title": "Wingman Relay Race",
-      "date": "2026-09-25T09:00:00",
-      "endDate": "2026-09-25T11:00:00",
-      "location": "Warrior Fitness Center",
-      "address": "7981 Georgia Street Hill Hill AFB, UT 84056 United States +",
-      "description": "Wingman Relay Race When: Friday September 25 at 0900. Check in at 0800 Where: Centennial Park Registration Details: Register at the Warrior Fitness Center - 7250 Balmer St. Bldg 533 - (801) 777-2762 Cost: $15 per participant. Pay by Sept 4th to guarantee a t-shirt 8-Person - 1.5 miles each. 4-person - 3 Miles each 2-person - 6 miles each",
-      "category": "fitness"
-    },
-    {
-      "id": "hill-military-life-cycle-2026-09-25",
-      "title": "Military Life Cycle",
-      "date": "2026-09-25T11:30:00",
-      "endDate": "2026-09-25T12:30:00",
-      "location": "Military & Family Readiness Center",
-      "address": "5837 D Ave. Bldg 150, Hill Air Force Base, UT 84056",
-      "description": "Military Life Cycle A monthly series designed to help you understand key VA benefits and resources at every stage of military life. Survivor & Casualty Assistance Resources - Friday August 21 1130-1230 VA Benefits 101 - Friday September 25 1130-1230",
-      "category": "education"
-    },
-    {
       "id": "hill-big-buck-bingo-2026-09-29",
       "title": "Big Buck Bingo at The Landing",
       "date": "2026-09-29",
@@ -409,6 +339,36 @@
       "address": "7420 Miller St, Hill AFB, UT 84056",
       "description": "Recurring Tue/Thu bingo; DoD cardholders; 75 FSS.",
       "category": "community"
+    },
+    {
+      "id": "hill-september-pickleball-league-2026-2026-09-29",
+      "title": "September Pickleball League 2026",
+      "date": "2026-09-29T16:30:00",
+      "endDate": "2026-09-29T18:30:00",
+      "location": "Hill AFB",
+      "address": "Hill AFB, UT",
+      "description": "September Pickleball League 2026 This is a beginner league. Learn how to play the game and meet new people to play with. Four weeks during march. Bring your paddle and play. When: September 1, 8 15, 22, and 29 Cost: $50 per person, $10 per week. What to bring: Athletic shoes, water bottle, Paddles are available to borrow. Format: Separate games, rotating partners.",
+      "category": "outdoor"
+    },
+    {
+      "id": "hill-club-member-s-appreciation-dinner-at-the-landing-2026-09-30",
+      "title": "Club Member’s Appreciation Dinner at The Landing – September 2026",
+      "date": "2026-09-30T16:30:00",
+      "endDate": "2026-09-30T18:00:00",
+      "location": "The Landing",
+      "address": "7420 Miller St, Hill AFB, UT 84056 Hill AFB, UT 84056 United States",
+      "description": "Club Member’s Appreciation Dinner at The Landing – September 2026 When: Wed September 30th 1630 – 1800 Where: The Landing, in the Bingo Room What: Cafe Rio – Sweet pork barbacoa salad topped with cilantro lime rice, black beans, salsa, cheese, cilantro, tortilla strips, shredded lettuce in a flour tortilla with cream tomatillo ranch dressing. Free for club members and dependents. $12 non-member charge. RSVP (801) 777-3841",
+      "category": "entertainment"
+    },
+    {
+      "id": "hill-big-buck-bingo-at-the-landing-2026-10-01",
+      "title": "Big Buck Bingo at The Landing",
+      "date": "2026-10-01T17:00:00",
+      "endDate": "2026-10-01T19:00:00",
+      "location": "The Landing",
+      "address": "7420 Miller St, Hill AFB, UT 84056 Hill AFB, UT 84056 United States",
+      "description": "Big Buck Bingo at The Landing Tuesdays and Thursdays. Games start at 1700. Doors open at 1500. $25 – 6 cards and 10 games. $30 9 cards and 10 games. 18+ years only allowed in bingo room. DOD cardholders only unless sponsor is present.",
+      "category": "entertainment"
     },
     {
       "id": "hill-september-pickleball-league-2026-2026-10-06",
@@ -439,6 +399,26 @@
       "address": "Hill AFB, UT",
       "description": "One-day marriage skills course 0830–1530.",
       "category": "family"
+    },
+    {
+      "id": "hill-september-pickleball-league-2026-2026-10-13",
+      "title": "September Pickleball League 2026",
+      "date": "2026-10-13T16:30:00",
+      "endDate": "2026-10-13T18:30:00",
+      "location": "Hill AFB",
+      "address": "Hill AFB, UT",
+      "description": "September Pickleball League 2026 This is a beginner league. Learn how to play the game and meet new people to play with. Four weeks during march. Bring your paddle and play. When: September 1, 8 15, 22, and 29 Cost: $50 per person, $10 per week. What to bring: Athletic shoes, water bottle, Paddles are available to borrow. Format: Separate games, rotating partners.",
+      "category": "outdoor"
+    },
+    {
+      "id": "hill-haunting-on-the-hill-2026-10-17",
+      "title": "Haunting on the Hill",
+      "date": "2026-10-17T11:00:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "Centennial Park",
+      "address": "1100 Park Ln, Hill Air Force Base, UT, 84056",
+      "description": "Haunting on the Hill Trunk-or-Treat – Prizes for trunks and costumes! When: Sat 17 Oct, 1100-1400 Where: Centennial Park Register a trunk or volunteer. Candy will be provided. No registration needed for food, fun, or trunk-or-treating!",
+      "category": "holiday"
     },
     {
       "id": "hill-jackpot-bingo-2026-10-18",
@@ -491,6 +471,26 @@
       "category": "outdoor"
     },
     {
+      "id": "hill-youth-volleyball-club-2026-11-03",
+      "title": "Youth Volleyball Club",
+      "date": "2026-11-03T17:30:00",
+      "endDate": "2026-11-03T19:00:00",
+      "location": "Youth Center",
+      "address": "7712 6th Street, Hill Air Force Base, UT, 84056",
+      "description": "Youth Volleyball Club civilian and military boys and girls ages 8 – 13. Playing volleyball on base offers a convenient, safe, and community focused environment where children can learn and grow alongside peers who share similar experiences. With an emphasis on development and fun, our program will build skills and confidence while keeping kids here on base. Register by Oct. 5th. $40. Register at CYPBMS – parent.afcyp.com",
+      "category": "fitness"
+    },
+    {
+      "id": "hill-september-pickleball-league-2026-2026-11-10",
+      "title": "September Pickleball League 2026",
+      "date": "2026-11-10T16:30:00",
+      "endDate": "2026-11-10T18:30:00",
+      "location": "Hill AFB",
+      "address": "Hill AFB, UT",
+      "description": "September Pickleball League 2026 This is a beginner league. Learn how to play the game and meet new people to play with. Four weeks during march. Bring your paddle and play. When: September 1, 8 15, 22, and 29 Cost: $50 per person, $10 per week. What to bring: Athletic shoes, water bottle, Paddles are available to borrow. Format: Separate games, rotating partners.",
+      "category": "outdoor"
+    },
+    {
       "id": "hill-youth-basketball-2026-11-30",
       "title": "Youth Basketball",
       "date": "2026-11-30T08:00:00",
@@ -515,6 +515,16 @@
       "title": "Youth Volleyball Club",
       "date": "2026-12-01T17:30:00",
       "endDate": "2026-12-01T19:00:00",
+      "location": "Youth Center",
+      "address": "7712 6th Street, Hill Air Force Base, UT, 84056",
+      "description": "Youth Volleyball Club civilian and military boys and girls ages 8 – 13. Playing volleyball on base offers a convenient, safe, and community focused environment where children can learn and grow alongside peers who share similar experiences. With an emphasis on development and fun, our program will build skills and confidence while keeping kids here on base. Register by Oct. 5th. $40. Register at CYPBMS – parent.afcyp.com",
+      "category": "fitness"
+    },
+    {
+      "id": "hill-youth-volleyball-club-2026-12-02",
+      "title": "Youth Volleyball Club",
+      "date": "2026-12-02T17:30:00",
+      "endDate": "2026-12-02T19:00:00",
       "location": "Youth Center",
       "address": "7712 6th Street, Hill Air Force Base, UT, 84056",
       "description": "Youth Volleyball Club civilian and military boys and girls ages 8 – 13. Playing volleyball on base offers a convenient, safe, and community focused environment where children can learn and grow alongside peers who share similar experiences. With an emphasis on development and fun, our program will build skills and confidence while keeping kids here on base. Register by Oct. 5th. $40. Register at CYPBMS – parent.afcyp.com",

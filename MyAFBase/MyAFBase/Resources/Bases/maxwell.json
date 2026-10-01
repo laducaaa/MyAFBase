@@ -7,7 +7,7 @@
   "wing": "42 ABW / AU / OTS",
   "latitude": 32.3829,
   "longitude": -86.3618,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "maxwell-notif-closed-base",
@@ -378,46 +378,6 @@
   ],
   "events": [
     {
-      "id": "maxwell-wing-wednesday-2026-09-23",
-      "title": "Wing Wednesday & Karaoke at Maxwell Club Pit",
-      "date": "2026-09-23",
-      "endDate": "2026-09-23",
-      "location": "Maxwell Club Pit",
-      "address": "Maxwell AFB, AL",
-      "description": "Wing Wednesday & Karaoke; lifeatthemax.us.",
-      "category": "community"
-    },
-    {
-      "id": "maxwell-operation-gulf-coast-careers-austal-airbus-novel-2026-09",
-      "title": "Operation Gulf Coast Careers- Austal, Airbus, & Novelis Hiring Event",
-      "date": "2026-09-23T14:00:00",
-      "endDate": "2026-09-23T15:00:00",
-      "location": "",
-      "address": "",
-      "description": "Join us on September 23, 2026, at 2:00 PM CT for a relaxed virtual hiring and information session designed for transitioning service members from multiple military bases. Representatives from Airbus, Austal USA, and Novelis will introduce their companies and connect directly with attendees about employment opportunities, career paths, and what they look for in candidates. Following a brief welcome, you’ll have the opportunity to choose an employer breakout room, ask questions, and learn more about available positions across a variety of departments and experience levels. The event will be held",
-      "category": "education"
-    },
-    {
-      "id": "maxwell-spouseworks-career-accelerator-workshop-2026-09-24",
-      "title": "SpouseWorks Career Accelerator Workshop",
-      "date": "2026-09-24",
-      "endDate": "2026-09-24",
-      "location": "Maxwell AFB",
-      "address": "Montgomery, AL",
-      "description": "Listed on the public FSS calendar.",
-      "category": "education"
-    },
-    {
-      "id": "maxwell-career-accelerator-workshop-2026-09-24",
-      "title": "Career Accelerator Workshop",
-      "date": "2026-09-24T10:00:00",
-      "endDate": "2026-09-24T15:00:00",
-      "location": "MFRC",
-      "address": "55 S. Mitchell St. Bldg 677, Montgomery, AL, 36112",
-      "description": "Ready to take the next step in your career? Join us for the Career Accelerator Workshop on September 24 from 10 a.m.–3 p.m. at the M&FRC, Bldg. 677. Designed to empower military spouses, this event offers career-building workshops, breakout sessions, valuable resources, and opportunities to make meaningful connections while gaining tools and strategies to build a high-impact career. To register, call 334-953-2353 . For workshop and breakout session details, visit the link provided.",
-      "category": "education"
-    },
-    {
       "id": "maxwell-employment-expo-2026-09-30",
       "title": "Employment Expo",
       "date": "2026-09-30",
@@ -436,6 +396,16 @@
       "address": "Montgomery, AL",
       "description": "Listed on the public FSS calendar.",
       "category": "entertainment"
+    },
+    {
+      "id": "maxwell-ufc-fury-fight-force-125-2026-10-02",
+      "title": "UFC Fury Fight Force 125",
+      "date": "2026-10-02T15:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Maxwell Club",
+      "address": "375 West Dr, Montgomery, AL, 36112",
+      "description": "*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-6ab3ca23-5eb4-83ea-9af4-3cd763488c10-3\" data-turn-id-container=\"request-6ab3ca23-5eb4-83ea-9af4-3cd763488c10-3\" data-testid=\"conversation-turn-10\" data-turn=\"assistant\"> div:has([data-free-thinking-preview-answer=true])+:is(.text-message,.relative:has(>.text-message))]:-mt-2 grow\"> Join us at the Maxwell Club Pit on Friday, October 2 , for a Fury Fight Forc",
+      "category": "recreation"
     },
     {
       "id": "maxwell-magic-all-stars-2026-10-03",

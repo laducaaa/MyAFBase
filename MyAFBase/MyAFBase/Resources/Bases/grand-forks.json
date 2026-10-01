@@ -7,7 +7,7 @@
   "wing": "319 RW",
   "latitude": 47.9611,
   "longitude": -97.4012,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "grand-forks-notif-real-id",
@@ -255,46 +255,6 @@
   ],
   "events": [
     {
-      "id": "grand-forks-tails-trails-5k-run-walk-2026-09-25",
-      "title": "Tails & Trails 5K Run/Walk",
-      "date": "2026-09-25T15:00:00",
-      "endDate": "2026-09-25T16:30:00",
-      "location": "5k Trail (across from the Fitness Center)",
-      "address": "449 Tuskegee Airman Blvd, Bldg 384, Grand Forks AFB, ND, 58205",
-      "description": "Grab your leash, lace up your sneakers, and join us on 25 September at the 5K Trail for a 5K run/walk for you and your pets! The run/walk kicks off at",
-      "category": "fitness"
-    },
-    {
-      "id": "grand-forks-hybrid-community-game-night-2026-09-25",
-      "title": "Hybrid Community Game Night",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-25T18:00:00",
-      "location": "ZeroGround Esports Lounge",
-      "address": "449 Tuskegee Airmen Blvd. Bldg. 384, Grand Forks AFB, ND, 58205",
-      "description": "Join us on the 4th Friday of every month for GFAFB Gaming's Hybrid Community Game Night! Join in-person at ZeroGround Esports Lounge / Fitness Center or virtually in the GFAFB",
-      "category": "fitness"
-    },
-    {
-      "id": "grand-forks-family-skate-night-2026-09-25",
-      "title": "Family Skate Night",
-      "date": "2026-09-25T18:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Youth & Teen Center",
-      "address": "470 Tuskegee Airmen Blvd. Bldg. 316, Grand Forks AFB, ND, 58205",
-      "description": "Roll on down to the Youth & Teen Center for Family Skate Night! Join us for 4 hours of open skating fun! Plus, we’ll have music, games, snacks available for purchase, and more! Cost is $5 per child . Parents skate free! Open to ages 5 – 18 . Children under age 9 must be accompanied by an adult at all times. Helmets and skates are available to check-out at the Youth & Teen Center",
-      "category": "family"
-    },
-    {
-      "id": "grand-forks-steam-saturday-pirates-2026-09-26",
-      "title": "STEAM Saturday: Pirates",
-      "date": "2026-09-26T13:00:00",
-      "endDate": "2026-09-26T15:00:00",
-      "location": "Library",
-      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
-      "description": "Arrr! Avast ye land lubbers! Join us at the Library on Saturday, 26 September from 1pm to 3pm for swashbuckling afternoon of STEAM fun! Enjoy pirate-themed water experiments, treasure hunts,",
-      "category": "education"
-    },
-    {
       "id": "grand-forks-first-friday-2026-10-02",
       "title": "First Friday",
       "date": "2026-10-02T15:30:00",
@@ -425,6 +385,16 @@
       "category": "recreation"
     },
     {
+      "id": "grand-forks-monster-bowling-bash-2026-10-23",
+      "title": "Monster Bowling Bash",
+      "date": "2026-10-23T19:00:00",
+      "endDate": "2026-10-23T22:00:00",
+      "location": "Dakota Lanes",
+      "address": "529 Holzapple St. Bldg. 202, Grand Forks AFB, ND, 58205",
+      "description": "Dress in your spooky best and join us for a Monster Bowling Bash at Dakota Lanes! Enjoy 3 hours of unlimited cosmic bowling & shoe rental! Plus, we’ll be awarding prizes for the best costumes! Cost is $20 per person. Sign up with Dakota Lanes by 21 October !",
+      "category": "holiday"
+    },
+    {
       "id": "grand-forks-scrapbooking-papercrafting-day-2026-10-24",
       "title": "Scrapbooking & Papercrafting Day",
       "date": "2026-10-24T09:00:00",
@@ -433,6 +403,16 @@
       "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
       "description": "Join us for a day of FREE crafting and scrapbooking fun! Drop-in any time between 9am to 4pm to work on your current creation! Enhance your project with our Cricut",
       "category": "recreation"
+    },
+    {
+      "id": "grand-forks-teen-dungeons-dragons-2026-10-24",
+      "title": "Teen Dungeons & Dragons",
+      "date": "2026-10-24T13:00:00",
+      "endDate": "2026-10-24T15:00:00",
+      "location": "Library",
+      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
+      "description": "Calling all teens: we want YOU to join our adventuring party! Join us every other Saturday afternoon for our teen Dungeons & Dragons group! All experience levels welcome! Open to ages 12 – 18",
+      "category": "family"
     },
     {
       "id": "grand-forks-liberty-scare-2026-10-24",
@@ -455,6 +435,36 @@
       "category": "recreation"
     },
     {
+      "id": "grand-forks-zombie-run-2026-10-30",
+      "title": "Zombie Run",
+      "date": "2026-10-30T16:30:00",
+      "endDate": "2026-10-30T17:30:00",
+      "location": "5k Trail (across from the Fitness Center)",
+      "address": "449 Tuskegee Airman Blvd, Bldg 384, Grand Forks AFB, ND, 58205",
+      "description": "Lace up your shoes and get ready to run for your life! The 5k Trail has been overrun with zombies and it’s up to you to escape! Dash through the zombie horde without losing all of your health! The horde descends on 30 October at 4:30pm; don’t be late! This is a family friendly event! Participants will be given health flags at the starting line.",
+      "category": "outdoor"
+    },
+    {
+      "id": "grand-forks-family-skate-night-2026-10-30",
+      "title": "Family Skate Night",
+      "date": "2026-10-30T18:00:00",
+      "endDate": "2026-10-30T22:00:00",
+      "location": "Youth & Teen Center",
+      "address": "470 Tuskegee Airmen Blvd. Bldg. 316, Grand Forks AFB, ND, 58205",
+      "description": "Roll on down to the Youth & Teen Center for Family Skate Night! Join us for 4 hours of open skating fun! Plus, we’ll have music, games, snacks available for purchase, and more! Cost is $5 per child . Parents skate free! Open to ages 5 – 18 . Children under age 9 must be accompanied by an adult at all times. Helmets and skates are available to check-out at the Youth & Teen Center",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-steam-saturday-spooky-science-2026-10-31",
+      "title": "STEAM Saturday: Spooky Science",
+      "date": "2026-10-31T13:00:00",
+      "endDate": "2026-10-31T15:00:00",
+      "location": "Library",
+      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
+      "description": "Calling all mad scientists! Join us at the Library from 1pm to 3pm on Halloween, as we warm up for trick-or-treating with an afternoon of fiendishly fun experiments and crafts for all ages! Costumes are encouraged!",
+      "category": "holiday"
+    },
+    {
       "id": "grand-forks-kids-craft-class-2026-11-03",
       "title": "Kids Craft Class",
       "date": "2026-11-03T15:30:00",
@@ -462,6 +472,16 @@
       "location": "Arts & Crafts",
       "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
       "description": "Get crafty with Arts & Crafts’ Kids Classes! Join us every other Tuesday as we create a fun, kid-friendly craft! Cost is $5 per child Sign up with Arts & Crafts by noon on the Friday prior to class.",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-teen-dungeons-dragons-2026-11-07",
+      "title": "Teen Dungeons & Dragons",
+      "date": "2026-11-07T13:00:00",
+      "endDate": "2026-11-07T15:00:00",
+      "location": "Library",
+      "address": "511 Holzapple St. Bldg. 201, Grand Forks AFB, ND, 58205",
+      "description": "Calling all teens: we want YOU to join our adventuring party! Join us every other Saturday afternoon for our teen Dungeons & Dragons group! All experience levels welcome! Open to ages 12 – 18",
       "category": "family"
     },
     {
@@ -492,6 +512,26 @@
       "location": "Grand Forks AFB",
       "address": "Grand Forks, ND",
       "description": "Let us entertain your kids, while you take a few hours off! The Give Parents a Break program is funded by the Air Force Aid Society and provides childcare for eligible parents who are subject to unique stresses due to the nature of military life: including deployments, extended TDYs, or recent PCSs. Eligible parents may receive free childcare , with a referral from the Military & Family Readiness Center . Parents mus",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-kids-craft-class-2026-11-17",
+      "title": "Kids Craft Class",
+      "date": "2026-11-17T15:30:00",
+      "endDate": "2026-11-17T16:30:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Get crafty with Arts & Crafts’ Kids Classes! Join us every other Tuesday as we create a fun, kid-friendly craft! Cost is $5 per child Sign up with Arts & Crafts by noon on the Friday prior to class.",
+      "category": "family"
+    },
+    {
+      "id": "grand-forks-kids-craft-class-2026-12-01",
+      "title": "Kids Craft Class",
+      "date": "2026-12-01T15:30:00",
+      "endDate": "2026-12-01T16:30:00",
+      "location": "Arts & Crafts",
+      "address": "543 Holzapple St. Bldg. 203, Grand Forks AFB, ND, 58205",
+      "description": "Get crafty with Arts & Crafts’ Kids Classes! Join us every other Tuesday as we create a fun, kid-friendly craft! Cost is $5 per child Sign up with Arts & Crafts by noon on the Friday prior to class.",
       "category": "family"
     }
   ],

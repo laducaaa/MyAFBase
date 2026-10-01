@@ -7,7 +7,7 @@
   "wing": "39 ABW",
   "latitude": 37.0021,
   "longitude": 35.4259,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "incirlik-notif-real-id",
@@ -205,26 +205,6 @@
       "category": "education"
     },
     {
-      "id": "incirlik-incirlik-airmen-golf-clinic-2026-09-22",
-      "title": "Incirlik Airmen Golf Clinic",
-      "date": "2026-09-22T17:00:00",
-      "endDate": "2026-09-25T18:00:00",
-      "location": "Hodja Lakes Golf Course",
-      "address": "Adana, Turkey",
-      "description": "$45 entry fee includes: 4 hours of golf instructions, course rules, etiquettes, clubs, balls, tees.",
-      "category": "recreation"
-    },
-    {
-      "id": "incirlik-spades-and-darts-tournament-2026-09-22",
-      "title": "Spades and Darts Tournament",
-      "date": "2026-09-22T18:00:00",
-      "endDate": "2026-09-22T20:00:00",
-      "location": "Club Complex",
-      "address": "Adana, Turkey",
-      "description": "Spades and Darts Tournament",
-      "category": "recreation"
-    },
-    {
       "id": "incirlik-4-person-scramble-select-shot-golf-tourney-2026-10-03",
       "title": "4 Person Scramble/Select shot Golf Tourney",
       "date": "2026-10-03T08:30:00",
@@ -315,6 +295,26 @@
       "category": "fitness"
     },
     {
+      "id": "incirlik-glow-golf-2026-10-17",
+      "title": "Glow Golf",
+      "date": "2026-10-17T18:30:00",
+      "endDate": "2026-10-17T21:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "Format: 4 Person Scramble (Select shot) Entry Fee: $25.00 Includes: 2 glow balls per person Prizes for top 3 places Closest to the pin Door prizes",
+      "category": "recreation"
+    },
+    {
+      "id": "incirlik-latin-dance-class-2026-10-17",
+      "title": "Latin Dance Class",
+      "date": "2026-10-17T21:00:00",
+      "endDate": "2026-10-17T21:00:00",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "Latin Dance Class: 2100 to 2230 DJ Music/Latin Night will continue until 0200 am",
+      "category": "education"
+    },
+    {
       "id": "incirlik-dfac-customer-appreciation-oktoberfest-meal-2026-10-22",
       "title": "DFAC Customer Appreciation Oktoberfest Meal",
       "date": "2026-10-22T16:15:00",
@@ -332,6 +332,16 @@
       "location": "Hodja Lakes Golf Course",
       "address": "",
       "description": "4 Person Scramble (Select shot) $25 includes lunch, door prizes, and prizes for top 3 places, longest drive, closest to pin, & door prizes.",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-pickleball-tournament-2026-10-26",
+      "title": "Pickleball Tournament",
+      "date": "2026-10-26T17:00:00",
+      "endDate": "2026-10-26T19:00:00",
+      "location": "Pickleball Court #6051",
+      "address": "Adana, Turkey",
+      "description": "Double elimination Collaboration with the USO.",
       "category": "fitness"
     },
     {
@@ -375,6 +385,16 @@
       "category": "fitness"
     },
     {
+      "id": "incirlik-intramural-flag-football-coaches-meeting-2026-11-03",
+      "title": "Intramural Flag Football Coaches Meeting",
+      "date": "2026-11-03T17:00:00",
+      "endDate": "2026-11-03T18:00:00",
+      "location": "Community Center",
+      "address": "Adana, Turkey",
+      "description": "Each participating squadron may send up to two representatives (Head Coach and Alternate Coach) to form a team. Details and expectations for the upcoming season will be discussed during the meeting. This is open to Turaf and Spanish as well. At the conference room inside the Community Center.",
+      "category": "fitness"
+    },
+    {
       "id": "incirlik-ball-speed-competition-2026-11-03",
       "title": "Ball Speed Competition",
       "date": "2026-11-03T19:00:00",
@@ -383,6 +403,26 @@
       "address": "",
       "description": "First Tuesday of the Month from 1900-2100 Entry fee $3.50. 3 Shots per player. The player with the fastest average wins! Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift card. For details, contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
       "category": "community"
+    },
+    {
+      "id": "incirlik-4-person-golf-tournament-2026-11-07",
+      "title": "4 Person Golf Tournament",
+      "date": "2026-11-07T08:30:00",
+      "endDate": "2026-11-07T11:30:00",
+      "location": "Hodja Lakes Golf Course",
+      "address": "Adana, Turkey",
+      "description": "4 Worst Balls Selected – 18-Hole Scramble Format: 4-Person Scramble (Select Shot) Entry Fee: $25.00 Includes lunch, prizes for the Top 3 Places , Longest Drive , Closest to the Pin , and Door Prizes . Note: The 2 worst tee-off shots on Par 3 holes will be selected for each 9 holes.",
+      "category": "fitness"
+    },
+    {
+      "id": "incirlik-movie-nite-2026-11-09",
+      "title": "Movie Nite",
+      "date": "2026-11-09T19:30:00",
+      "endDate": "2026-11-09T21:30:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Second Monday of every month starting at 1930. Free entry! Don’t miss the cinematic experience selected for you on the LED Bowling screens!",
+      "category": "entertainment"
     },
     {
       "id": "incirlik-veterans-day-9-pin-bowling-tournament-2026-11-10",
@@ -435,6 +475,16 @@
       "category": "holiday"
     },
     {
+      "id": "incirlik-team-trivia-thanksgiving-themed-2026-11-26",
+      "title": "Team Trivia-Thanksgiving Themed",
+      "date": "2026-11-26T19:00:00",
+      "endDate": "2026-11-26T21:00:00",
+      "location": "Club Complex",
+      "address": "Adana, Turkey",
+      "description": "",
+      "category": "holiday"
+    },
+    {
       "id": "incirlik-ball-speed-competition-2026-12-01",
       "title": "Ball Speed Competition",
       "date": "2026-12-01T19:00:00",
@@ -453,6 +503,16 @@
       "address": "",
       "description": "First Monday of every month from 1800-2100. $5 entrance fee. Winner will receive 50% off the total money collected, based on the number of participants, in the form of gift cards. Participants can fill out the application form at Big City Bowl counters. For detailed information, you can contact Mr. Erhan Ekici or cashiers at 676-6789 between 1500-2100 on weekdays.",
       "category": "fitness"
+    },
+    {
+      "id": "incirlik-movie-nite-2026-12-14",
+      "title": "Movie Nite",
+      "date": "2026-12-14T19:30:00",
+      "endDate": "2026-12-14T21:30:00",
+      "location": "Big City Bowl & Diner",
+      "address": "Adana, Turkey",
+      "description": "Second Monday of every month starting at 1930. Free entry! Don’t miss the cinematic experience selected for you on the LED Bowling screens!",
+      "category": "entertainment"
     }
   ],
   "newcomers": {

@@ -7,7 +7,7 @@
   "wing": "496 ABS",
   "latitude": 37.1749,
   "longitude": -5.6159,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "moron-notif-real-id",
@@ -206,10 +206,10 @@
   ],
   "events": [
     {
-      "id": "moron-face-to-face-2026-09-21",
+      "id": "moron-face-to-face-2026-09-28",
       "title": "Face to Face",
-      "date": "2026-09-21T17:00:00",
-      "endDate": "2026-09-21T18:00:00",
+      "date": "2026-09-28T17:00:00",
+      "endDate": "2026-09-28T18:00:00",
       "location": "Fitness",
       "address": "Bldg. 312, Morón ABS, 41530",
       "description": "",
@@ -236,10 +236,30 @@
       "category": "community"
     },
     {
+      "id": "moron-face-to-face-2026-10-08",
+      "title": "Face to Face",
+      "date": "2026-10-08T17:00:00",
+      "endDate": "2026-10-08T18:00:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS, 41530",
+      "description": "",
+      "category": "community"
+    },
+    {
       "id": "moron-face-to-face-2026-11-02",
       "title": "Face to Face",
       "date": "2026-11-02T17:00:00",
       "endDate": "2026-11-02T18:00:00",
+      "location": "Fitness",
+      "address": "Bldg. 312, Morón ABS, 41530",
+      "description": "",
+      "category": "community"
+    },
+    {
+      "id": "moron-face-to-face-2026-11-05",
+      "title": "Face to Face",
+      "date": "2026-11-05T17:00:00",
+      "endDate": "2026-11-05T18:00:00",
       "location": "Fitness",
       "address": "Bldg. 312, Morón ABS, 41530",
       "description": "",

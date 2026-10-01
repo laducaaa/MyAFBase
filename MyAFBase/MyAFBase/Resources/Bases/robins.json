@@ -7,7 +7,7 @@
   "wing": "78 ABW",
   "latitude": 32.6401,
   "longitude": -83.5919,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "robins-notif-real-id",
@@ -358,26 +358,6 @@
     }
   ],
   "events": [
-    {
-      "id": "robins-murder-mystery-date-night-2026-09-25",
-      "title": "Murder Mystery Date Night",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Heritage Club",
-      "address": "956 Ninth St. Bldg. 956, Robins AFB, GA, 31098",
-      "description": "<p>Outdoor Recreation invites you to an unforgettable Murder Mystery Date Night featuring “Murder at the Colosseum” on September 25, 2026, at the Heritage Club Ballroom. Guests will take part in […]</p>\\n",
-      "category": "outdoor"
-    },
-    {
-      "id": "robins-murder-mystery-game-night-2026-09-25",
-      "title": "Murder Mystery Game Night",
-      "date": "2026-09-25T17:30:00",
-      "endDate": "2026-09-25T21:00:00",
-      "location": "Heritage Club",
-      "address": "956 Ninth St. Bldg. 956, Robins AFB, GA 31098",
-      "description": "Outdoor Recreation invites you to an unforgettable Murder Mystery Date Night featuring “Murder at the Colosseum” on September 25, 2026, at the Heritage Club Ballroom. Guests will take part in an interactive murder mystery game filled with clues, characters, improvisation, and plenty of laughs. Dinner is included as part of the evening, and attendees are encouraged to dress up and embrace the ancient Roman theme for e",
-      "category": "outdoor"
-    },
     {
       "id": "robins-fall-break-camp-2026-10-13",
       "title": "Fall Break Camp",

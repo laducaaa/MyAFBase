@@ -7,7 +7,7 @@
   "wing": "412 TW",
   "latitude": 34.9054,
   "longitude": -117.8839,
-  "dataUpdatedAt": "2026-09-21T06:35:07Z",
+  "dataUpdatedAt": "2026-09-28T06:23:52Z",
   "currentNotifications": [
     {
       "id": "edwards-notif-real-id",
@@ -310,76 +310,6 @@
   ],
   "events": [
     {
-      "id": "edwards-cash-bingo-2026-09-22",
-      "title": "Cash Bingo",
-      "date": "2026-09-22T18:00:00",
-      "endDate": "2026-09-22T20:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Cash Bingo Tuesdays | Club Muroc | 6:00pm – 8:00pm | Doors open at 5:30pm Call Bingo, win cash! $750 minimum payout! $300+ progressive jackpot $50 hotball FSS Insiders get in FREE! 18+ Game card prices vary Call 275-CLUB for more information.",
-      "category": "entertainment"
-    },
-    {
-      "id": "edwards-storytime-2026-09-23",
-      "title": "Storytime",
-      "date": "2026-09-23T10:00:00",
-      "endDate": "2026-09-23T11:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join us at the Edwards AFB Library for stories, songs, activities and community every Wednesday from 10:00 a.m. to 11:00 a.m. Ages 0-5.",
-      "category": "family"
-    },
-    {
-      "id": "edwards-glow-groove-family-dance-party-2026-09-23",
-      "title": "Glow & Groove Family Dance Party",
-      "date": "2026-09-23T17:00:00",
-      "endDate": "2026-09-23T20:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "FRIDAY, SEPTEMBER 23 | 5-8 pm | Club Muroc Get ready to glow! Dance the night away with music, glowing décor, and family-friendly fun everyone can enjoy. Free event!",
-      "category": "entertainment"
-    },
-    {
-      "id": "edwards-lap-o-thon-2026-09-24",
-      "title": "Lap-O-Thon",
-      "date": "2026-09-24T07:30:00",
-      "endDate": "2026-09-24T09:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join us at the Rosburg Fitness Center track for the Lap-o-Thon! Test your endurance and see how many laps you can complete on the track!Thursday, September 247:30 – 9 amCall 275-GYM1",
-      "category": "fitness"
-    },
-    {
-      "id": "edwards-dramatic-play-2026-09-25",
-      "title": "Dramatic Play",
-      "date": "2026-09-25T10:00:00",
-      "endDate": "2026-09-25T14:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "FRIDAYS, JULY 31, AUGUST 28 & SEPTEMBER 25 10AM & 1PM | AGES 2-6 JULY 31: FARMER'S MARKET AUGUST 28: GONE FISHING SEPTEMBER 25: ICE CREAM SHOP Dramatic Play invites",
-      "category": "outdoor"
-    },
-    {
-      "id": "edwards-oktoberfest-2026-09-25",
-      "title": "Oktoberfest",
-      "date": "2026-09-25T16:00:00",
-      "endDate": "2026-09-25T22:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Join us at Club Muroc for Oktoberfest! Enjoy an evening of live music, authentic German food and beer, exciting Oktoberfest-themed games and more!Friday, September 25 | 4 – 10 pmFREE EventSponsored",
-      "category": "holiday"
-    },
-    {
-      "id": "edwards-wine-tasting-2026-09-26",
-      "title": "Wine Tasting",
-      "date": "2026-09-26T10:00:00",
-      "endDate": "2026-09-26T14:00:00",
-      "location": "Edwards AFB",
-      "address": "Edwards, CA",
-      "description": "Enjoy a relaxing day exploring the scenic vineyards of Agua Dulce and Reyes Winery. 11 am - 2pm Departure: 10 am $40 (transportation only) 21& up Sign up by September 21",
-      "category": "outdoor"
-    },
-    {
       "id": "edwards-the-suriel-s-circle-a-court-of-thorns-and-recaps-2026-09",
       "title": "The Suriel’s Circle: A Court of Thorns and Recaps",
       "date": "2026-09-29T17:00:00",
@@ -390,6 +320,16 @@
       "category": "outdoor"
     },
     {
+      "id": "edwards-cash-bingo-2026-09-29",
+      "title": "Cash Bingo",
+      "date": "2026-09-29T18:00:00",
+      "endDate": "2026-09-29T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Cash Bingo Tuesdays | Club Muroc | 6:00pm – 8:00pm | Doors open at 5:30pm Call Bingo, win cash! $750 minimum payout! $300+ progressive jackpot $50 hotball FSS Insiders get in FREE! 18+ Game card prices vary Call 275-CLUB for more information.",
+      "category": "entertainment"
+    },
+    {
       "id": "edwards-private-pilot-ground-school-course-2026-09-30",
       "title": "Private Pilot Ground School Course",
       "date": "2026-09-30T08:00:00",
@@ -398,6 +338,36 @@
       "address": "Edwards, CA",
       "description": "Sign up for Aero Club’s Private Pilot Ground School! This 10-week course with live instructors is based on the ASA Pilot’s Handbook of Aeronautical Knowledge. September 30 | 5:30 – 8:30 pm $275 with certificate of completion or $35 for individual classes Location: Don Thomson Conference Room, Bldg. 1202, 235 S. Flightline Rd Pre-registration is required Call (661) 275-2376 to register or for more information!",
       "category": "education"
+    },
+    {
+      "id": "edwards-pin-decorating-contest-2026-10-01",
+      "title": "Pin Decorating Contest",
+      "date": "2026-10-01T08:00:00",
+      "endDate": "2026-10-28T17:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Get ready for some scary creativity! High Desert Lanes is back with our Annual Pin Decorating Contest! Turn a regular bowling pin into a masterpiece this Halloween. Will yours be a spooky mummy, a werewolf, or something even more terrifying? Pick up your pin starting OCT 1 at the Bowling Center. Decorate it and return it by OCT 23 for a chance to win the grand prize! Voting runs from OCT 24–28, with the winner announced on Halloween! Don’t wait—pins are only available while supplies last. Let’s see those spooky ideas! Call 275-BOWL for more information",
+      "category": "holiday"
+    },
+    {
+      "id": "edwards-karaoke-2026-10-02",
+      "title": "Karaoke",
+      "date": "2026-10-02T18:00:00",
+      "endDate": "2026-10-02T21:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "The stage is yours at Karaoke Night! Belt out your favorite songs and make it a night of music and memories! Fridays October 2 & 16 November 6 & 20 December 11 6 – 9 pm FREE Event At Club Muroc Call 275-CLUB for more information.",
+      "category": "entertainment"
+    },
+    {
+      "id": "edwards-intramural-pickleball-2026-10-06",
+      "title": "Intramural Pickleball",
+      "date": "2026-10-06T17:00:00",
+      "endDate": "2026-12-10T19:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Join us for our second season of Intramural Pickleball! Requires a team of 2 on the court at all times. Roster maximum is 8 individuals. Squadrons may enter multiple teams but an individual may only play on one team. October 6 – December 10 Tuesday-Thursdays | 5 pm Call 275-GYM1 for more information or to sign up!",
+      "category": "fitness"
     },
     {
       "id": "edwards-cash-bingo-2026-10-06",
@@ -420,6 +390,16 @@
       "category": "family"
     },
     {
+      "id": "edwards-cash-bingo-2026-10-07",
+      "title": "Cash Bingo",
+      "date": "2026-10-07T18:00:00",
+      "endDate": "2026-10-07T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Cash Bingo Wednesdays | Club Muroc | 6:00pm – 8:00pm | Doors open at 5:30pm Call Bingo, win cash! $750 minimum payout! $300+ progressive jackpot $50 hotball FSS Insiders get in FREE! 18+ Game card prices vary Call 275-CLUB for more information.",
+      "category": "entertainment"
+    },
+    {
       "id": "edwards-evt-air-show",
       "title": "Edwards Open House / Air Show",
       "date": "2026-10-10T14:00:00Z",
@@ -428,6 +408,56 @@
       "address": "Rosamond Blvd, Edwards AFB, CA 93524",
       "description": "Periodic Edwards AFB open house showcasing flight test heritage and experimental aircraft. Check official site for dates.",
       "category": "community"
+    },
+    {
+      "id": "edwards-paint-a-ceramic-pumpkin-2026-10-14",
+      "title": "Paint a Ceramic Pumpkin",
+      "date": "2026-10-14T08:00:00",
+      "endDate": "2026-10-14T17:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Ready to carve out some craft time? Skip the messy pumpkin seeds and paint a ceramic pumpkin that will last for years! Whether you want chic, spooky, or colorful, we’ve got all the supplies you need to bring your design to life. Wednesday, October 14 | $6.75 ALL DAY EVENT Call 275-ARTS for more information.",
+      "category": "holiday"
+    },
+    {
+      "id": "edwards-youth-sports-field-day-2026-10-16",
+      "title": "Youth Sports Field Day",
+      "date": "2026-10-16T15:00:00",
+      "endDate": "2026-10-16T18:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Get ready for a day of fun in the sun at the Youth Sports Field Day! This is an event for the whole family to enjoy, with something for everyone! We’ll have games like tug-of-war and water gun fights, delicious food, and refreshing drinks to enjoy! Friday, October 16 | 3 – 6 pm At Wings Field Thinking about upcoming sports? We’ll have an information table set up. This is a great opportunity to get your kids signed up and ready to play! Sponsored By Loan Depot Antelope Valley Medical Center No federal endorsement of sponsors intended. Call 275-KIDS for more information.",
+      "category": "family"
+    },
+    {
+      "id": "edwards-boo-ingo-night-2026-10-16",
+      "title": "Boo-ingo Night",
+      "date": "2026-10-16T18:00:00",
+      "endDate": "2026-10-16T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Come for the bingo – Stay for the candy! Wear your Halloween costume and get ready for a spooky night of bingo and prizes. Friday, October 16 6 pm | At Club Muroc $5 per person or 3 for $12 (Limit 3 books per person ) Call 275-CNTR for more information.",
+      "category": "holiday"
+    },
+    {
+      "id": "edwards-calico-ghost-town-adventure-2026-10-17",
+      "title": "Calico Ghost Town Adventure",
+      "date": "2026-10-17T08:30:00",
+      "endDate": "2026-10-17T14:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Explore the Old West and discover the stories of the historic mining town, Calico Ghost Town, with Outdoor Recreation! Saturday, October 17 10 am – 2 pm | Departure time: 8:30 am $40 Sign up by October 13 Call 275-CAMP to sign up!",
+      "category": "outdoor"
+    },
+    {
+      "id": "edwards-fall-fest-2026-10-23",
+      "title": "Fall Fest",
+      "date": "2026-10-23T16:30:00",
+      "endDate": "2026-10-23T20:00:00",
+      "location": "Edwards AFB",
+      "address": "Edwards, CA",
+      "description": "Spooktacular fun is right around the corner! Get your costumes ready and join us at Club Muroc for Fall Fest on Friday, October 23! We’ve got an evening packed with spooky vibes, treats, and music for the whole family! Friday, October 23 | 4:30 PM – 8:00 PM Trunk or Treat: 4:30 PM – 6:30 PM Carved Pumpkin Contest Costume Contest Live DJ Want to host a Trunk for Trunk or Treat? Bring the candy and the creativity! Register your trunk before spots fill up! Sign up: https://www.signupgenius.com/…/805094DAAAF29A6FE3… Sponsored by: USAA Brainstim Centers ValleyWide Dental City of Lancaster No Federa",
+      "category": "holiday"
     },
     {
       "id": "edwards-cash-bingo-2026-11-03",
